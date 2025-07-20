@@ -1,0 +1,2 @@
+# elelmeskosar
+Élelmes Kosár kódja
