@@ -1,9 +1,40 @@
 import csv
 import json
+import os
+import glob
+from datetime import datetime
+import re
+
+MAIN_FOLDER = "./../../../data/markets_data/"
+def get_current_dir_name():
+    return os.path.basename(os.getcwd()).lower()
+
+def generate_filename(y_base, date_str: str, extension=".csv"):
+    x = get_current_dir_name()
+    return f"{MAIN_FOLDER}{x}_{y_base}_{date_str}{extension}"
+
+def read_latest_file(y_base: str, extension=".csv"):
+    x = get_current_dir_name()
+    pattern = f"{MAIN_FOLDER}{x}_{y_base}_*{extension}"
+    candidates = glob.glob(pattern)
+    if not candidates:
+        raise FileNotFoundError(f"Nincs fájl: {pattern}")
+
+    # Legújabb fájl kiválasztása
+    latest = max(candidates, key=os.path.getmtime)
+
+    # Dátum/idő kivonása a fájlnévből
+    match = re.search(rf"{re.escape(x)}_{re.escape(y_base)}_(\d{{8}}_\d{{6}}){re.escape(extension)}", latest)
+    if not match:
+        raise ValueError("Nem sikerült dátumot kinyerni a fájlnévből.")
+    date_str = match.group(1)
+
+    print(f"Fájl kiválasztva: {latest} (dátum: {date_str})")
+    return latest, date_str
 
 # Fájlnevek
-input_file = 'osszes_termek.csv'
-output_file = 'output.csv'
+input_file = 'all_data'
+output_file = 'normalized_data'
 
 # Kimeneti mezők
 output_fields = [
@@ -157,8 +188,11 @@ cnt5 = 0
 cnt3 = 0
 cnt2 = 0
 
-with open(input_file, mode='r', encoding='utf-8') as infile, \
-     open(output_file, mode='w', encoding='utf-8', newline='') as outfile:
+input_file_name, input_date = read_latest_file(input_file)
+output_file_name = generate_filename(output_file, input_date)
+
+with open(input_file_name, mode='r', encoding='utf-8') as infile, \
+     open(output_file_name, mode='w', encoding='utf-8', newline='') as outfile:
 
     reader = csv.DictReader(infile)
     writer = csv.DictWriter(outfile, fieldnames=output_fields)

@@ -3,6 +3,25 @@ import requests
 import time
 import json
 import pandas as pd
+import os
+import glob
+from datetime import datetime
+
+MAIN_FOLDER = "./../../../data/markets_data/"
+def get_current_dir_name():
+    return os.path.basename(os.getcwd()).lower()
+
+def generate_filename(y_base, extension=".csv"):
+    x = get_current_dir_name()
+    now = datetime.now().strftime("%Y%m%d_%H%M%S")
+    return f"{MAIN_FOLDER}{x}_{y_base}_{now}{extension}"
+
+def save_file(content: str, y_base: str, extension=".csv"):
+    filename = generate_filename(y_base, extension)
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"Mentve: {filename}")
+    return filename
 
 BASE_URL = "https://consumer-api.wolt.com/consumer-api/consumer-assortment/v1/venues/slug/interspar-szentendre/assortment/categories/slug/"
 
@@ -57,8 +76,7 @@ osszes_item = list(items_dict.values())
 
 # 4. Mentés CSV-be
 df = pd.json_normalize(osszes_item)
-df.to_csv("osszes_termek.csv", index=False)
+file_name = generate_filename("all_data")
+df.to_csv(file_name, index=False)
 
-print(f"\n✅ Mentés kész: {len(osszes_item)} egyedi termék")
-#print(" - osszes_termek.json")
-print(" - osszes_termek.csv")
+print(f"\n✅ Mentés kész: {len(osszes_item)} egyedi termék",file_name)
