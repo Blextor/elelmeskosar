@@ -1,0 +1,57 @@
+Bock Pannon Sauvignon Blanc száraz fehérbor 12,5% 750 ml (1g a kiszerelés)
+SPAR Natur*pur Bio dió 150 g (150kg a kiszerelés)
+SPAR amerikai stílusú földimogyoróvaj ropogós földimogyoró darabkákkal 50 g (350g a kiszerelés, de a neve nem)
+Knoppers Black & White tejes-mogyorós töltött ostya kakaós tejbevonóval félig má (80 karakteres limit?)
+Nissin Soba Wok Style instant tészta búzalisztből teriyaki ízesítő szósszal 110 (nincs befejezve és nincs kiszerelése sem, mint a többi íznek)
+name240 (egy BBQ szósz, de valami félrement)
+Danone Danette vaníliaízű puding 125 g (4x125g, 500g kiszerelés helyes, de a név nem)
+too1: (500.0, 'g') (125.0, 'g') Danone meggyízű, élőflórás, zsírszegény joghurt 125 g
+too1: (500.0, 'g') (125.0, 'g') Danone sárgabarackízű, élőflórás, zsírszegény joghurt 125 g
+Näno Supps Protein tortilla tekercsek 6 x 40 g (240 g) (1440g a kiszerelése)
+Living Foods Vegan Protein 70 fehérjekeverék italpor édesítőszerrel, vanília-fahéj ízesítéssel 25 g (500g)
+
+
+Tartsam meg a magasabb értéket és esetleg javítsam ki a nevet:
+too1: (500.0, 'g') (125.0, 'g') Danone Danette vaníliaízű puding 125 g
+too1: (350.0, 'g') (50.0, 'g') SPAR amerikai stílusú földimogyoróvaj ropogós földimogyoró darabkákkal 50 g
+too1: (60.0, 'g') (0.0, 'g') SPAR Protein Bar vanília ízű fehérje szelet, fehér bevonattal б0 g
+too1: (500.0, 'g') (25.0, 'g') Living Foods Vegan Protein 70 fehérjekeverék italpor édesítőszerrel, vanília-fahéj ízesítéssel 25 g
+too1: (520.0, 'g') (130.0, 'g') Danone élőflórás natúr joghurt 130 g
+too1: (500.0, 'g') (125.0, 'g') Danone meggyízű, élőflórás, zsírszegény joghurt 125 g
+too1: (500.0, 'g') (125.0, 'g') Danone sárgabarackízű, élőflórás, zsírszegény joghurt 125 g
+
+Töröljem ki az egyiket és írjam át darabra:
+tol: (1.0, 'g') (750.0, 'ml') Bock Pannon Sauvignon Blanc száraz fehérbor 12,5% 750 ml
+tol: (120.0, 'g') (12.0, 'db') Maci Selection azonnal oldódó cukrozott pótkávé kivonat 3 különböző ízben 3 x 4 db (120 g)
+tol: (720.0, 'g') (720.0, 'ml') S-Budget alma- és körte ízű, őszibarack- és maracuja ízű, citrom ízű jégkrém 6 db 720 ml
+tol: (720.0, 'g') (720.0, 'ml') S-Budget eper- és vaníliaízű jégkrém belül kakaós bevonattal ellátott ostyatölcsérben 6 db 720 ml
+tol: (720.0, 'g') (720.0, 'ml') S-Budget Conte vaníliaízű jégkrém belül kakaós bevonattal ellátott ostyatölcsérben 6 db 720 ml
+tol: (300.0, 'g') (300.0, 'ml') MAGNUM Pálcikás Jégkrém Mandula 3 x 100 ml
+
+too3: (548.0, 'ml') (540.0, 'ml') Nogger Multipack jégkrém 6 x 90 ml
+too3: (134.0, 'g') (133.5, 'g') Dr. Oetker Eredeti Puding csokoládéízű pudingpor 3 x 44,5 g
+
+
+Tartsam meg a második/nagyobb érétket:
+too2: (100.0, 'g') (200.0, 'g') Seeberger aszalt füge 200 g
+too2: (14.0, 'g') (140.0, 'g') Medve fitt kenhető, félzsíros ömlesztett sajt 8 x 17,5 g (140 g)
+too2: (14.0, 'g') (140.0, 'g') Medve sonkás kenhető, félzsíros ömlesztett sajt 8 x 17,5 g (140 g)
+too2: (28.0, 'g') (280.0, 'g') Medve natúr kenhető, zsíros ömlesztett sajt 16 x 17,5 g (280 g)
+too2: (14.0, 'g') (140.0, 'g') Medve Spreadable Processed Semi-Fat Cheese with Winter Salami 8 x 17,5 g (140 g)
+too2: (80.0, 'g') (160.0, 'g') Ice Cake-Tortás Cukrászat Eperhabos torta szelet 2 x 80 g (160 g)
+too2: (90.0, 'g') (180.0, 'g') Ice Cake-Tortás Cukrászat Házi krémes 180 g (2 x 90 g)
+too2: (100.0, 'g') (400.0, 'g') Ice Cake-Tortás Cukrászat Karamellás krémes kocka 4 x 100 g (400 g)
+too2: (60.0, 'g') (240.0, 'g') Ice Cake-Tortás Cukrászat Mignon 240 g (4 x 60 g)
+too2: (120.0, 'g') (240.0, 'g') Ice Cake-Tortás Cukrászat Puncs torta szelet (2 x 120 g) 240 g
+too2: (160.0, 'g') (320.0, 'g') Ice Cake-Tortás Cukrászat Almás tiroli rétes 320 g (2 x 160 g)
+too2: (170.0, 'g') (340.0, 'g') Ice Cake-Tortás Cukrászat Mákos tiroli rétes 340 g (2 x 170 g)
+too2: (170.0, 'g') (340.0, 'g') Ice Cake-Tortás Cukrászat Meggyes tiroli rétes 340 g (2 x 170 g)
+too2: (170.0, 'g') (340.0, 'g') Ice Cake-Tortás Cukrászat Túrós tiroli rétes 340 g (2 x 170 g)
+too2: (100.0, 'g') (400.0, 'g') Ice Cake-Tortás Cukrászat Zserbó szelet (4 x 100 g) 400 g
+too2: (126.0, 'g') (148.0, 'g') Jacobs Milka azonnal oldódó kávé- és kakaóitalpor 8 x 18,5 g (126,4 g)
+too2: (3.0, 'g') (40.0, 'g') Pickwick Fruit Fusion Fruit Tea Variations 20 Tea Bags 40 g
+too2: (38.0, 'g') (40.0, 'g') Pickwick Fruit Fusion Fruit and Herbal Tea Variations 20 Tea Bags 40 g
+too2: (30.0, 'g') (32.0, 'g') Pickwick Herbal Goodness borsmenta tea 20 filter 32 g
+too2: (186.0, 'ml') (270.0, 'ml') SPAR Veggie vegán vanília ízű fagylalt csokoládé bevonattal 3 x 90 ml (270 ml)
+too2: (195.0, 'ml') (270.0, 'ml') Spar Veggie vegán vanília ízű fagylalt csokoládé bevonattal és manduladarabokkal 3 x 90 ml (270 ml)
+

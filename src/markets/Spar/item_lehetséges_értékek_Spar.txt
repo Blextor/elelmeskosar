@@ -1,0 +1,34 @@
+Üzlet neve, (szükséges) string - Spar
+ID (üzlet szinten), (szükséges) string - Közvetlenül
+Termék neve, (szükséges) string - közvetlenül
+Márka neve, (opcionális) string - Nincs külön kigyűjtve
+Elérhető-e, (opcionális) bool - "sold out" esetén nem elérhető
+Várhatóan mikor lesz, (opcionális) string - Nincs ilyen adat
+Vonalkód, (opcionális) int - közvetlenül
+Ár, (szükséges) int - price
+Ár egysége, (szükséges) (liter, kiló, darab, csomag) enum - unit_price.unit/unit_info
+Egység lépésköze, (opcionális) int
+Kedvezményes, (opcionális) bool
+Nem kedvezményes egységár, (opcionális) int
+Másodlagos egységára, (opconális) int
+Másodlagos egysége, (opcionális) enum
+Másodlagos egység lépésköze, (opcionális) int
+Képek url-je, (opcionális) string list
+Leírás / Részletek, (opcionális) string
+
+
+Az eredeti táblázat:
+price mindig van, az az ára egy egységnek (darab vagy kiló vagy csomagolás stb)
+egységár: ez már bonyolultabb
+    3 eset: vagy unit_info van, ekkor ez egy csomag méretére vonatkozik
+                    erkkor a price/100-t kell használni
+            vagy sell_by_weight_config.grams_per_step van, ekkor ez az alapegység
+                    ekkor a sell_by_weight_config.price_per_kg/100-t kell nézni
+            vagy egyik sincs
+                ekkor a price/1000-t kell újfent nézni
+    Lehet a szövegből kinyerni a mértékegységet is.
+    Ha sikerül:
+        És van unit_info, akkor cserélje le a unit_info-t a kinyertre
+        És sell_by_w van, akkor az csak a lépésköz,
+
+
