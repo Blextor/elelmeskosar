@@ -8,7 +8,7 @@ BASE_URL = "https://consumer-api.wolt.com/consumer-api/consumer-assortment/v1/ve
 
 # 1. Slugok beolvasása
 slugok = []
-with open("kategoriak.csv", encoding="utf-8") as f:
+with open("kategoriak.txt", encoding="utf-8") as f:
     reader = csv.DictReader(f)
     for row in reader:
         slug = row.get("slug")

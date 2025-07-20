@@ -1,0 +1,228 @@
+index,name,slug
+6,Gyümölcs,gyumolcs-6
+7,Alma és körte,alma-es-korte-7
+8,Szőlő és bogyós gyümölcsök,szolo-es-bogyos-gyumolcsok-8
+9,Dinnyék,dinnyek-9
+10,Egzotikus és déligyümölcs,egzotikus-es-deligyumolcs-10
+11,Citrusfélék,citrusfelek-11
+12,Aszalt gyümölcs,aszalt-gyumolcs-12
+13,Zöldség,zoldseg-13
+14,Paradicsom,paradicsom-14
+15,Paprika,paprika-15
+16,Uborka,uborka-16
+17,Hagymafélék,hagymafelek-17
+18,Burgonya,burgonya-18
+19,Gomba,gomba-19
+20,Gyökérzöldségek,gyokerzoldsegek-20
+21,"Káposztafélék, karfiol, brokkoli",kaposztafelek-karfiol-brokkoli-21
+22,Tökfélék,tokfelek-22
+23,"Csomagolt saláták, salátatálak",csomagolt-salatak-salatatalak-23
+24,Hüvelyesek,huvelyesek-24
+25,Fűszernövények,fuszernovenyek-25
+26,Pékáru,pekaru-26
+27,Kenyerek,kenyerek-27
+28,Sós pékáru,sos-pekaru-28
+29,Édes pékáru,edes-pekaru-29
+30,Fagyasztott pékáru,fagyasztott-pekaru-30
+31,Kétszersültek,ketszersultek-31
+32,"Zsemle, kifli, bagel, baguette",zsemle-kifli-bagel-baguette-32
+33,"Tortilla, pita",tortilla-pita-33
+34,Sajt,sajt-34
+35,"Kemény, félkemény sajtok",kemeny-felkemeny-sajtok-35
+36,Lágy sajtok,lagy-sajtok-36
+37,Friss sajtok,friss-sajtok-37
+38,Ömlesztett sajtok,omlesztett-sajtok-38
+39,Kenhető sajtkészítmények,kenheto-sajtkeszitmenyek-39
+40,Szeletelt sajtok,szeletelt-sajtok-40
+41,Speciális sajtok,specialis-sajtok-41
+42,Tejdesszertek,tejdesszertek-42
+43,Krémtúró,kremturo-43
+46,Puding,puding-46
+47,Tejtermékek,tejtermekek-47
+48,Tej,tej-48
+49,"Vaj, margarin",vaj-margarin-49
+50,"Vajkrém, sajtkrém, körözött",vajkrem-sajtkrem-korozott-50
+51,"Tejszín, tejszínhab",tejszin-tejszinhab-51
+52,Tejföl,tejfol-52
+53,"Túró, cottage cheese",turo-cottage-cheese-53
+54,"Kefir, aludttej",kefir-aludttej-54
+56,Joghurtitalok,joghurtitalok-56
+57,"Ízesített tejitalok, jegeskávé",izesitett-tejitalok-jegeskave-57
+58,Növényi termékek,novenyi-termekek-58
+59,Laktózmentes termékek,laktozmentes-termekek-59
+60,Vegán termékek,vegan-termekek-60
+61,Csemegepult,csemegepult-61
+62,Virsli,virsli-62
+63,Párizsi,parizsi-63
+64,Hurka és kolbász,hurka-es-kolbasz-64
+65,Sonka,sonka-65
+66,"Pástétomok, májasok",pastetomok-majasok-66
+67,"Szalonna, bacon",szalonna-bacon-67
+68,Zsír és tepertő,zsir-es-teperto-68
+69,Reggeli,reggeli-69
+70,"Zabpehely, zabkása, rizskása",zabpehely-zabkasa-rizskasa-70
+71,Gabonapehely,gabonapehely-71
+72,"Müzli, granola",muzli-granola-72
+73,Energiaszeletek,energiaszeletek-73
+74,"Kávé, tea, kakaó",kave-tea-kakao-74
+75,Kávé,kave-75
+77,Kakaó,kakao-77
+78,"Lekvár, méz, krémek",lekvar-mez-kremek-78
+79,Lekvár,lekvar-79
+80,Méz,mez-80
+81,Krémek,kremek-81
+82,Mentes termékek,mentes-termekek-82
+83,BIO,bio-83
+84,Laktózmentes,laktozmentes-84
+85,Gluténmentes,glutenmentes-85
+86,Vegán,vegan-86
+87,Étrendkiegészítők,etrendkiegeszitok-87
+88,Pezsgőtabletta,pezsgotabletta-88
+89,Protein tartalmú készítmény,protein-tartalmu-keszitmeny-89
+90,"Egyéb étrendkiegészítők, vitaminok",egyeb-etrendkiegeszitok-vitaminok-90
+91,"Sütés, főzés",sutes-fozes-91
+92,Tészta,teszta-92
+93,"Friss leveles tészta, rétestészta, pizzatészta",friss-leveles-teszta-retesteszta-pizzateszta-93
+94,"Rizs, köles, hajdina, árpa",rizs-koles-hajdina-arpa-94
+95,"Búzadara, liszt, zsemlemorzsa",buzadara-liszt-zsemlemorzsa-95
+96,Sütési alapanyagok,sutesi-alapanyagok-96
+97,"Ecet, olaj, citromlé",ecet-olaj-citromle-97
+98,"Keményítő, zselatin",kemenyito-zselatin-98
+99,Fűszerek,fuszerek-99
+100,Cukor,cukor-100
+101,Édesítőszerek,edesitoszerek-101
+102,"Ételízesítő, leveskocka",etelizesito-leveskocka-102
+103,Egyéb,egyeb-103
+104,Édességek,edessegek-104
+105,Csokoládé,csokolade-105
+106,Táblás csokoládék,tablas-csokoladek-106
+107,"Desszert, bonbon",desszert-bonbon-107
+108,"Cukorkák, drazsék",cukorkak-drazsek-108
+109,Keksz,keksz-109
+110,Gumicukor,gumicukor-110
+111,"Müzliszelet, gabonapehely szelet",muzliszelet-gabonapehely-szelet-111
+112,"Rágógumik, leheletfrissítők",ragogumik-leheletfrissitok-112
+113,Snack,snack-113
+114,"Chips, extrudált termékek",chips-extrudalt-termekek-114
+115,Tortilla chips és szószok,tortilla-chips-es-szoszok-115
+116,"Ropi, perec, sós kekszek",ropi-perec-sos-kekszek-116
+117,Mogyoró és egyéb snack magvak,mogyoro-es-egyeb-snack-magvak-117
+118,Húsok,husok-118
+119,Baromfi,baromfi-119
+120,Marha,marha-120
+121,Sertés,sertes-121
+122,"Birka, bárány, borjú, juh",birka-barany-borju-juh-122
+123,Hal,hal-123
+124,Darálthús,daralthus-124
+125,Nyúl,nyul-125
+126,Belsőségek,belsosegek-126
+127,"Füstölt hal, egyéb halkészítmények",fustolt-hal-egyeb-halkeszitmenyek-127
+128,Fagyasztott élelmiszerek,fagyasztott-elelmiszerek-128
+129,Fagyasztott húsok,fagyasztott-husok-129
+130,Köret,koret-130
+131,Pizzák,pizzak-131
+132,Jégkrémek,jegkremek-132
+133,Gyorsfagyasztott desszert,gyorsfagyasztott-desszert-133
+134,Vegán termékek,vegan-termekek-134
+135,Gluténmentes termékek,glutenmentes-termekek-135
+136,"Vizek, üdítők",vizek-uditok-136
+137,100%-os gyümölcs-és zöldséglevek,100-os-gyumolcs-es-zoldseglevek-137
+138,Ásványvíz,asvanyviz-138
+139,Ízesített víz,izesitett-viz-139
+140,Szénsavmentes üdítőitalok,szensavmentes-uditoitalok-140
+141,Szénsavas üdítőital,szensavas-uditoital-141
+142,Energiaital,energiaital-142
+143,Icetea,icetea-143
+144,Gyümölcslevek,gyumolcslevek-144
+145,Sportital,sportital-145
+146,Szörp,szorp-146
+147,Gyermek italok,gyermek-italok-147
+149,"Konzerv, befőtt",konzerv-befott-149
+150,Zöldségkonzerv,zoldsegkonzerv-150
+151,"Gyümölcskonzerv, befőtt",gyumolcskonzerv-befott-151
+152,"Halkonzerv, húskonzerv, melegszendvicskrém",halkonzerv-huskonzerv-melegszendvicskrem-152
+153,Konzerv készételek,konzerv-keszetelek-153
+154,"Paradicsompüré, pesto, egyéb olasz szószok",paradicsompure-pesto-egyeb-olasz-szoszok-154
+155,Kényelmi ételek,kenyelmi-etelek-155
+156,Szendvicskrémek és pástétomok,szendvicskremek-es-pastetomok-156
+157,Készételek,keszetelek-157
+158,Saláták és hidegtálak,salatak-es-hidegtalak-158
+159,Antipasti,antipasti-159
+160,Enjoy termékek,enjoy-termekek-160
+161,Savanyúság,savanyusag-161
+162,"Szószok, mártások, öntetek",szoszok-martasok-ontetek-162
+163,"Ketchup, mustár, majonéz, torma",ketchup-mustar-majonez-torma-163
+164,"Ételszósz, mártás",etelszosz-martas-164
+165,"Paprikakrém, gulyáskrém",paprikakrem-gulyaskrem-165
+166,"Salátaöntet, dresszing",salataontet-dresszing-166
+167,Grill és pác szószok,grill-es-pac-szoszok-167
+168,Instant élelmiszerek,instant-elelmiszerek-168
+169,"Levesek, tészták",levesek-tesztak-169
+170,Alapporok,alapporok-170
+171,Alkoholok,alkoholok-171
+172,Likőr,likor-172
+173,"Pezsgő, gyöngyöző bor",pezsgo-gyongyozo-bor-173
+174,Whiskey,whiskey-174
+180,Pálinka,palinka-180
+181,"Egyéb alkoholos italok, koktélok",egyeb-alkoholos-italok-koktelok-181
+182,Vodka,vodka-182
+183,Gin,gin-183
+184,Tequila,tequila-184
+187,Alkoholmentes pezsgő,alkoholmentes-pezsgo-187
+188,Rum,rum-188
+189,Borok,borok-189
+190,Fehér bor,feher-bor-190
+191,Vörös bor,voros-bor-191
+192,Rosé bor,rose-bor-192
+193,Gyümölcsbor,gyumolcsbor-193
+194,"Boralapú italok, sherry, egyéb szeszezett bor",boralapu-italok-sherry-egyeb-szeszezett-bor-194
+221,Bébiételek,bebietelek-221
+224,Tápszerek,tapszerek-224
+229,Jégkocka,jegkocka-229
+230,Kézműves sör,kezmuves-sor-230
+231,Világos sör,vilagos-sor-231
+232,Barna sör,barna-sor-232
+233,Ízesített sör,izesitett-sor-233
+234,Alkoholmentes sör,alkoholmentes-sor-234
+235,Sör,sor-235
+236,Cider,cider-236
+238,Tojás,tojas-238
+239,Csonthéjas gyümölcsök,csonthejas-gyumolcsok-239
+241,Pékáru,pekaru-241
+242,Szalámi,szalami-242
+257,Cukormentes,cukormentes-257
+260,Hidegkonyha,hidegkonyha-260
+273,Friss gyümölcslevek,friss-gyumolcslevek-273
+274,Cukrász termékek,cukrasz-termekek-274
+275,Gluténmentes termékek,glutenmentes-termekek-275
+276,Gluténmentes,glutenmentes-276
+277,Savanyúság,savanyusag-277
+278,Magvak,magvak-278
+279,"Natúr, görög joghurt",natur-gorog-joghurt-279
+280,Ízesített joghurt,izesitett-joghurt-280
+281,Felvágott,felvagott-281
+282,Őrölt kávé,orolt-kave-282
+283,Kapszulás kávé,kapszulas-kave-283
+284,Szemes kávé,szemes-kave-284
+285,Instant kávé,instant-kave-285
+286,Fekete tea,fekete-tea-286
+287,Zöldtea,zoldtea-287
+288,Gyümölcsteák,gyumolcsteak-288
+289,Gyógyteák,gyogyteak-289
+290,C-vitamin,c-vitamin-290
+291,Durum tészta,durum-teszta-291
+292,Levesbetét,levesbetet-292
+293,Ázsiai tésztafélék,azsiai-tesztafelek-293
+294,Pudingpor,pudingpor-294
+295,"Só, fűszersó",so-fuszerso-295
+296,Bors,bors-296
+298,Fűszerkeverék,fuszerkeverek-298
+299,Sütemény,sutemeny-299
+300,"Nápolyi, ostya",napolyi-ostya-300
+301,Puszedli,puszedli-301
+302,Piskóta,piskota-302
+303,Popcorn,popcorn-303
+304,"Pálcikás, tölcséres jégkrémek",palcikas-tolcseres-jegkremek-304
+305,Dobozos üdítőitalok,dobozos-uditoitalok-305
+306,Dobozos gyümölcslé,dobozos-gyumolcsle-306
+336,Fagyasztott zöldség és gyümölcs,fagyasztott-zoldseg-es-gyumolcs-336
