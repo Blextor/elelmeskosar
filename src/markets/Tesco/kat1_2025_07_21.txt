@@ -1,0 +1,77 @@
+Zöldség. gyümölcs|Gyümölcsök
+Zöldség. gyümölcs|Zöldségek
+Zöldség. gyümölcs|Saláta
+Zöldség. gyümölcs|Friss gyümölcslé és smoothie
+Zöldség. gyümölcs|Gomba
+Zöldség. gyümölcs|Aszalványok, magvak és keverékek
+Zöldség. gyümölcs|Bio, organikus
+
+Tejtermékek, tojás|Tejek, tejitalok
+Tejtermékek, tojás|Joghurtok
+Tejtermékek, tojás|Tejföl, kefír, tejszín
+Tejtermékek, tojás|Tejdesszertek
+Tejtermékek, tojás|Sajtok és túró
+Tejtermékek, tojás|Vaj, margarin
+Tejtermékek, tojás|Tojás
+Tejtermékek, tojás|Élesztő
+
+Pékáru|Friss pékáru
+Pékáru|Tartós pékáru
+Pékáru|Sütemény
+Pékáru|Speciális étrend
+Pékáru|Gluténmentes
+Pékáru|BBQ
+
+Hús, felvágott|Pultos friss húsok
+Hús, felvágott|Csomagolt friss húsok
+Hús, felvágott|Halak
+Hús, felvágott|Csemege húskészítmények
+Hús, felvágott|BBQ
+Hús, felvágott|Húspótló készítmények
+
+Alapvető élelmiszerek|Só és Cukor
+Alapvető élelmiszerek|Liszt
+Alapvető élelmiszerek|Rizs, tészta, hüvelyesek, egyéb köretek
+Alapvető élelmiszerek|Gabona- és kukoricapehely, müzli
+Alapvető élelmiszerek|Olaj, ecet
+Alapvető élelmiszerek|Ételízesítés
+Alapvető élelmiszerek|Szószok, mártások, poralapok
+Alapvető élelmiszerek|Konzervvek, olívabogyók
+Alapvető élelmiszerek|Instant ételalapok, levesporok
+Alapvető élelmiszerek|Lekvár, méz és mogyorókrém
+Alapvető élelmiszerek|Sütés-főzés hozzávalók
+Alapvető élelmiszerek|Kekszek, piskóták, nápolyik
+Alapvető élelmiszerek|Rágcsálnivalók, chips
+Alapvető élelmiszerek|Nemzetközi konyha
+Alapvető élelmiszerek|Csokoládék
+Alapvető élelmiszerek|Cukorkák, rágógumik és egyéb édességek
+
+Speciális táplálkozás|Laktózmentes
+Speciális táplálkozás|Gluténmentes
+Speciális táplálkozás|BIO
+Speciális táplálkozás|Hozzáadott cukor mentes
+Speciális táplálkozás|Vegetáriánus és vegán
+Speciális táplálkozás|Kétszersültek, rágcsálnivalók, szeletek
+Speciális táplálkozás|Növényi italok
+Speciális táplálkozás|Sportétrend kiegészítők
+Speciális táplálkozás|Egyéb egészséges
+
+Fagyasztott áruk|Fagyasztott zöldség
+Fagyasztott áruk|Fagyasztott gyümölcs
+Fagyasztott áruk|Fagyasztott hús és baromfi
+Fagyasztott áruk|Fagyasztott halak
+Fagyasztott áruk|Fagyasztott pizza és péktermék
+Fagyasztott áruk|Fagyasztott készételek és gombócok
+Fagyasztott áruk|Jégkrémek
+
+Fagyasztott áruk
+
+Speciális táplálkozás
+
+Italok
+
+Baba|Tápszer és Junior gyerekital
+Baba|Tej- és gabonapépek
+Baba|Bébiétel
+Baba|Babakeksz és snack
+Baba|Bébiital

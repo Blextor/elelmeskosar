@@ -1,0 +1,110 @@
+Szabadtéri grill|Húsok, kolbászok
+Szabadtéri grill|Sajtok
+Szabadtéri grill|Pékáru
+Szabadtéri grill|Zöldségek grillezéshez
+Szabadtéri grill|Szószok, fűszerek
+Szabadtéri grill|Grillezés és szabadtéri főzés
+Szabadtéri grill|Speciális táplálkozás
+
+Gyümölcsök, zöldségek, virágok|Gyümölcsök
+Gyümölcsök, zöldségek, virágok|Zöldségek
+Gyümölcsök, zöldségek, virágok|Saláta
+Gyümölcsök, zöldségek, virágok|Friss gyümölcslé és smoothie
+Gyümölcsök, zöldségek, virágok|Gomba
+Gyümölcsök, zöldségek, virágok|Aszalványok, magvak és keverékek
+Gyümölcsök, zöldségek, virágok|Bio, organikus
+Gyümölcsök, zöldségek, virágok|Friss virág
+
+Tejtermékek, tojás|Tejek, tejitalok
+Tejtermékek, tojás|Joghurtok
+Tejtermékek, tojás|Tejföl, kefir, tejszín
+Tejtermékek, tojás|Tejdesszertek
+Tejtermékek, tojás|Sajtok és túró
+Tejtermékek, tojás|Vaj, margarin
+Tejtermékek, tojás|Tojás
+Tejtermékek, tojás|Élesztő
+
+Pékáru|Friss pékáru
+Pékáru|Tartós pékáru
+Pékáru|Sütemény
+Pékáru|Speciális étrend
+Pékáru|Gluténmentes
+Pékáru|BBQ
+
+Hús, hal, felvágott|Pultos friss húsok
+Hús, hal, felvágott|Csomagolt friss húsok
+Hús, hal, felvágott|Halak
+Hús, hal, felvágott|Csemege húskészítmények
+Hús, hal, felvágott|BBQ
+Hús, hal, felvágott|Húspótló készítmények
+
+Alapvető élelmiszerek|Só és Cukor
+Alapvető élelmiszerek|Liszt
+Alapvető élelmiszerek|Rizs, tészta, hüvelyesek, egyéb köretek
+Alapvető élelmiszerek|Gabona- és kukoricapehely, müzli
+Alapvető élelmiszerek|Olaj, ecet
+Alapvető élelmiszerek|Ételízesítés
+Alapvető élelmiszerek|Szószok, mártások, poralapok
+Alapvető élelmiszerek|Konzervvek, olívabogyók
+Alapvető élelmiszerek|Instant ételalapok, levesporok
+Alapvető élelmiszerek|Lekvár, méz és mogyorókrém
+Alapvető élelmiszerek|Sütés-főzés hozzávalók
+Alapvető élelmiszerek|Kekszek, piskóták, nápolyik
+Alapvető élelmiszerek|Rágcsálnivalók, chips
+Alapvető élelmiszerek|Nemzetközi konyha
+Alapvető élelmiszerek|Ajándékkosarak
+Alapvető élelmiszerek|Csokoládék
+Alapvető élelmiszerek|Cukorkák, rágógumik és egyéb édességek
+
+Kényelmi ételek|Kényelmi szendvicsek
+Kényelmi ételek|Kész pizzák
+Kényelmi ételek|Kész tészták, köretek
+Kényelmi ételek|Egyéb készételek
+Kényelmi ételek|Alternatív készételek
+Kényelmi ételek|Tapas, Hummus
+Kényelmi ételek|Kész saláták
+
+Speciális és egészséges táplálkozás|Laktózmentes
+Speciális és egészséges táplálkozás|Gluténmentes
+Speciális és egészséges táplálkozás|BIO
+Speciális és egészséges táplálkozás|Hozzáadott cukor mentes
+Speciális és egészséges táplálkozás|Vegetáriánus és vegán
+Speciális és egészséges táplálkozás|Kétszersültek, rágcsálnivalók, szeletek
+Speciális és egészséges táplálkozás|Növényi italok
+Speciális és egészséges táplálkozás|Sportétrend kiegészítők
+Speciális és egészséges táplálkozás|Egyéb egészséges
+
+Fagyasztott élelmiszerek|Fagyasztott zöldség
+Fagyasztott élelmiszerek|Fagyasztott gyümölcs
+Fagyasztott élelmiszerek|Fagyasztott hús és baromfi
+Fagyasztott élelmiszerek|Fagyasztott halak
+Fagyasztott élelmiszerek|Fagyasztott pizza és pékmtermék
+Fagyasztott élelmiszerek|Fagyasztott készételek és gombócok
+Fagyasztott élelmiszerek|Jégkrémek
+
+Italok|Tea
+Italok|Kávé
+Italok|Kakaó és forró csokoládé
+Italok|Víz
+Italok|Gyümölcs és zöldséglevek
+Italok|Szirupok, italporok, citromlevek
+Italok|Üdítőitalok
+
+Alkohol|Pezsgők
+Alkohol|Hazai fehérborok
+Alkohol|Hazai roséborok
+Alkohol|Hazai vörösborok
+Alkohol|Nemzetközi borok
+Alkohol|Gyöngyözőborok
+Alkohol|Egyéb borok
+Alkohol|Sör, cider
+Alkohol|Szeszes italok
+
+Baba|Tápszer és Junior gyerekital
+Baba|Tej- és gabonapépék
+Baba|Bébiétel
+Baba|Babakeksz és snack
+Baba|Bébitital
+Baba|Babapelenkák
+Baba|Babaápolási termékek
+Baba|Baba kiegészítők
