@@ -1,0 +1,61 @@
+Nos, van csomó bolt több terméke.
+Mindegyiknek van egy csomó attribútuma.
+Ha van vonalkódjuk, akkor könnyen össze lehet illeszteni őket.
+Ha nincs, akkor név alapján egész jó esélyeink.
+
+Végcél: Az alábbi adatstruktúrát meghagyva javarészt legyen egy új adatsruktúra, amiben minden bolt terméke elfér.
+    Ami mező közös, az legyen kiemelve, ami egyedi, az legyen a boltok listájában.
+
+A .csv fájl mezői:
+    Üzlet neve, (szükséges) string
+    ID (üzlet szinten), (szükséges) string
+    Termék neve, (szükséges) string
+    Márka neve, (opcionális) string
+    Elérhető-e, (opcionális) bool
+    Várhatóan mikor lesz újra elérhető, (opcionális) string
+    Vonalkód, (opcionális) int
+    Egységára, (szükséges) int
+    Egysége, (szükséges) (liter, kiló, darab, csomag) enum
+    Egység lépésköze, (opcionális) int
+    Kedvezményes, (opcionális) bool
+    Nem kedvezményes egységár, (opcionális) int
+    Másodlagos egységára, (opconális) int
+    Másodlagos egysége, (opcionális) enum
+    Másodlagos egység lépésköze, (opcionális) int
+    Képek url-je, (opcionális) string list
+    Leírás / Részletek, (opcionális) string
+    Kategóriák, (szükséges) string list
+    Tulajdonságok, (opcionális) string list
+
+
+Mi az ami új mező:
+    MasterID
+
+Mi az ami közös:
+    Termék neve,
+    Márka neve,
+    Elérhető-e (összesített)
+    Vonalkód,
+    Egysége,
+    Egység lépésköze,
+    Másodlagos egysége,
+    Másodlagos egység lépésköze,
+    Leírás / Részletek,
+    Kategóriák,
+    Tulajdonságok,
+
+Mi az ami boltonként egyedi:
+    Üzlet neve, (szükséges) string
+    ID (üzlet szinten), (szükséges) string
+    Elérhető-e, (opcionális) bool
+    Várhatóan mikor lesz újra elérhető, (opcionális) string
+    Egységára, (szükséges) int
+    Kedvezményes, (opcionális) bool
+    Nem kedvezményes egységár, (opcionális) int
+    Másodlagos egységára, (opconális) int
+    Képek url-je, (opcionális) string list
+    Leírás / Részletek, (opcionális) string
+
+
+Miként lehet nem vonalkódos termékeket összepárosítani?
+    Név alapján, ha 100%-os az egyezés.

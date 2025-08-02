@@ -1,0 +1,27 @@
+Kell egy főtermék lista, ahol minden terméknek van egy azonosítója, és a teljes leírása, de kellhet egy kép is.
+Kiindulás az ALDI-s.
+Ezt követően a többi termék úgy kerül bele, hogy van egy egymáshoz rendelési tábla.
+{bolt + ID + név} -> MasterID (MID)
+Nade, lehet, hogy változik a név vagy az ID, ezért van kettő is, hogy könyebben lehessen kezelni és lekövetni a változást.
+
+Algoritmus:
+Minden bevitelre váró termék esetén:
+    HA ALDI ->
+        Akkor megnézi az ID-t és a nevet, majd ha a név stimmel, de az ID nem, akkor frissíti az ID-t
+        Fordítva kidobja nekem a gép, hogy manuálisan döntsek.
+            Ekkor a mester termék és az új termék adatát kilistázza, és összehasonlítom őket.
+            HA stimmelnek szerintem ->
+                Akkor frissíti az ID-t és hozzáadja a bolti adatokat a mester termék bolti listájához.
+            Ha nem stimmelnek ->
+                Akkor megvizsgálja, hogy melyik más termék nevével stimmel a legjobban és kiírja  top 10-et részletesen
+                Ekkor VAGY egy számot beírok, hogy melyikre hasonlít, és onnantól átvezeti oda terméket
+                      VAGY kérem a következő 10 név alapján legjobban hasonlító terméket az o-val (akár többször is)
+                      VAGY valami mást írok be pl x-et, hogy egy új terméket hozzon létre neki egy új MasterID-val
+                Megvan újra az {ID + név} ->MasterID párosítás és betölti oda a bolti adatokat
+
+    HA nem ->
+        Felkínálja a 10 legjobban hasonlító terméket újfent a mester terméklistából (MTL)
+        Ekkor VAGY egy számot beírok, hogy melyikre hasonlít, és onnantól átvezeti oda terméket
+              VAGY kérem a következő 10 név alapján legjobban hasonlító terméket az o-val (akár többször is)
+              VAGY valami mást írok be pl x-et, hogy egy új terméket hozzon létre neki egy új MasterID-val
+        Megvan újra az {ID + név} -> MasterID párosítás és betölti oda a bolti adatokat

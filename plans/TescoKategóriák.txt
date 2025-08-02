@@ -1,0 +1,621 @@
+superDepartmentName	departmentName	aisleName	shelfName
+Alapvető élelmiszerek	Csokoládék	Táblás tejcsokoládék	Prémium táblás tejcsokoládék
+Alapvető élelmiszerek	Olaj, ecet	Ecet	Ecet
+Alapvető élelmiszerek	Ételízesítés	Fűszerkeverékek, gyorspácok	Steak burgonya és sültkrumpli fűszersók
+Alapvető élelmiszerek	Kekszek, piskóták, nápolyik	Ostyák, nápolyik	Ostyák, nápolyik
+Alapvető élelmiszerek	Lekvár, méz és mogyorókrém	Méz	Méz
+Alapvető élelmiszerek	Szószok, mártások, poralapok	Szószok, mártások	Egyéb szószok
+Alapvető élelmiszerek	Instant ételalapok, levesporok	Zacskós levesek	Zacskós húslevesek
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Levestészták	Egyéb
+Alapvető élelmiszerek	Szószok, mártások, poralapok	Ketchup, mustár, torma, majonéz	Ketchup
+Alapvető élelmiszerek	Kekszek, piskóták, nápolyik	Édes kekszek	Egyéb édes kekszek
+Alapvető élelmiszerek	Kekszek, piskóták, nápolyik	Piskóták	Piskóták
+Alapvető élelmiszerek	Cukorkák, rágógumik és egyéb édességek	Cukorkák, rágógumik	Gumicukor
+Alapvető élelmiszerek	Lekvár, méz és mogyorókrém	Lekvárok	Baracklekvárok
+Alapvető élelmiszerek	Csokoládék	Desszert csokoládék	Desszert csokoládék
+Alapvető élelmiszerek	Szószok, mártások, poralapok	Poralapok	Poralapok tésztákhoz
+Alapvető élelmiszerek	Csokoládék	Táblás tejcsokoládék	Töltött táblás csokoládék
+Alapvető élelmiszerek	Szószok, mártások, poralapok	Ketchup, mustár, torma, majonéz	Torma
+Alapvető élelmiszerek	Cukorkák, rágógumik és egyéb édességek	Cukorkák, rágógumik	Kemény cukorkák
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Chips és burgonyaszirom	Burgonyachips
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Sütés, befőzés alapanyagok	Befőzés
+Alapvető élelmiszerek	Csokoládék	Csokoládészeletek	Tejcsokoládészeletek
+Alapvető élelmiszerek	Liszt	Liszt	Liszt
+Alapvető élelmiszerek	Kekszek, piskóták, nápolyik	Édes kekszek	Édes teasütemények
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Sütés, befőzés alapanyagok	Torta- és süteményalapok
+Alapvető élelmiszerek	Instant ételalapok, levesporok	Leveskockák	Halászlé- és húsleveskockák
+Alapvető élelmiszerek	Instant ételalapok, levesporok	Zacskós levesek	Zacskós krém- és gyümölcslevesek
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Hüvelyesek és egyéb köretek	Hüvelyesek és egyéb köretek
+Alapvető élelmiszerek	Szószok, mártások, poralapok	Ketchup, mustár, torma, majonéz	Mustár
+Alapvető élelmiszerek	Nemzetközi konyha	Tesco Finest termékek	Tesco Finest termékek
+Alapvető élelmiszerek	Csokoládék	Csokoládészeletek	Ostyaszeletek
+Alapvető élelmiszerek	Kekszek, piskóták, nápolyik	Édes kekszek	Töltött kekszek
+Alapvető élelmiszerek	Cukorkák, rágógumik és egyéb édességek	Édességek gyerekeknek	Édességek gyerekeknek
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Sütés, befőzés alapanyagok	Egyéb
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Sós kekszek, sós pálcikák és krékerek	Krékerek
+Alapvető élelmiszerek	Csokoládék	Táblás tejcsokoládék	Mogyorós tejcsokoládék
+Alapvető élelmiszerek	Instant ételalapok, levesporok	Instant ételalapok	Instant szószos tészták
+Alapvető élelmiszerek	Só és Cukor	Só és Cukor	Cukor
+Alapvető élelmiszerek	Cukorkák, rágógumik és egyéb édességek	Cukorkák, rágógumik	Rágógumik
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Sós kekszek, sós pálcikák és krékerek	Sós pálcikák, perecek
+Alapvető élelmiszerek	Szószok, mártások, poralapok	Ketchup, mustár, torma, majonéz	Majonéz
+Alapvető élelmiszerek	Instant ételalapok, levesporok	Instant levesporok	Instant hús-és gulyáslevesporok
+Alapvető élelmiszerek	Csokoládék	Csokoládészeletek	Családi csomagok
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Sütés, befőzés alapanyagok	Aroma
+Alapvető élelmiszerek	Csokoládék	Táblás fehércsokoládék	Táblás fehércsokoládék
+Alapvető élelmiszerek	Olaj, ecet	Olaj	Egyéb olajok
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Puding- és fagylaltporok	Egyéb ízű puding- és fagylaltporok
+Alapvető élelmiszerek	Szószok, mártások, poralapok	Poralapok	Poralapok húsokhoz, mártásokhoz
+Alapvető élelmiszerek	Ételízesítés	Fűszerkeverékek, gyorspácok	Gyorspácok
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Rizs	Különleges rizs
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Puding- és fagylaltporok	Puncs ízű puding- és fagylaltporok
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Puding- és fagylaltporok	Csokoládé ízű puding- és fagylaltporok
+Alapvető élelmiszerek	Cukorkák, rágógumik és egyéb édességek	Cukorkák, rágógumik	Drazsék
+Alapvető élelmiszerek	Cukorkák, rágógumik és egyéb édességek	Cukorkák, rágógumik	Leheletfrissítő, légúttisztító cukorkák
+Alapvető élelmiszerek	Ételízesítés	Folyékony fűszerek	Paprikakrém és üveges paprika
+Alapvető élelmiszerek	Nemzetközi konyha	Távol keleti konyha	Indiai, vietnámi és thai konyha
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Lisztek, panírmorzsák	Egyéb liszt
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Puding- és fagylaltporok	Vanília ízű puding- és fagylaltporok
+Alapvető élelmiszerek	Lekvár, méz és mogyorókrém	Lekvárok	Bogyós gyümölcslekvárok
+Alapvető élelmiszerek	Kekszek, piskóták, nápolyik	Édes kekszek	Prémium kekszek
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Popcorn	Popcorn
+Alapvető élelmiszerek	Olaj, ecet	Olaj	Olívaolajok
+Alapvető élelmiszerek	Só és Cukor	Só és Cukor	Só
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Olajos magvak	Kesudió, pisztácia, mandula
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Chips és burgonyaszirom	Tortilla chips és mártogatós
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Sütés, befőzés alapanyagok	Reszelt és darált magvak sütéshez
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Levestészták	Cérnametélt
+Alapvető élelmiszerek	Lekvár, méz és mogyorókrém	Mogyorókrémek	Mogyorókrémek
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Lisztek, panírmorzsák	Panírmorzsák
+Alapvető élelmiszerek	Nemzetközi konyha	Nyugati konyha	Nyugati konyha
+Alapvető élelmiszerek	Ételízesítés	Klasszikus fűszerek	Édes paprika
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Chips és burgonyaszirom	Puffasztott snackek és krékerek
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Durumtészták	Durumtészták
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Olajos magvak	Mag mix
+Alapvető élelmiszerek	Konzervek, olívabogyók	Zöldségkonzervek	Paradicsom
+Alapvető élelmiszerek	Nemzetközi konyha	Olasz konyha	Olasz konyha
+Alapvető élelmiszerek	Nemzetközi konyha	Távol keleti konyha	Japán, kínai konyha
+Alapvető élelmiszerek	Ételízesítés	Ételízesítők	Ételízesítők
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Nem durum tészták	Tojásos tészták
+Alapvető élelmiszerek	Szószok, mártások, poralapok	Szószok, mártások	Barbecue, Chili és Worchester szószok
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Olajos magvak	Napraforgómag és tökmag
+Alapvető élelmiszerek	Szószok, mártások, poralapok	Szószok, mártások	Édes-savanyú mártások
+Alapvető élelmiszerek	Cukorkák, rágógumik és egyéb édességek	Cukorkák, rágógumik	Egyéb cukorkák
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Rizs	Hosszúszemű rizs
+Alapvető élelmiszerek	Csokoládék	Táblás étcsokoládék	Prémium táblás étcsokoládék
+Alapvető élelmiszerek	Ételízesítés	Folyékony fűszerek	Gulyás- és pörköltkrém
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Sós kekszek, sós pálcikák és krékerek	Kétszersült snackek
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Olajos magvak	Földimogyoró
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Rizs	Kerekszemű rizs
+Alapvető élelmiszerek	Kekszek, piskóták, nápolyik	Édes kekszek	Mártott kekszek
+Alapvető élelmiszerek	Ételízesítés	Fűszerkeverékek, gyorspácok	Grill fűszermixek
+Alapvető élelmiszerek	Ételízesítés	Klasszikus fűszerek	Gyógynövény fűszerek
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Sütés, befőzés alapanyagok	Mazsola, cukrozott vagy aszalt gyümölcsök
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Olajos magvak	Egyéb magvak
+Alapvető élelmiszerek	Szószok, mártások, poralapok	Salátaöntetek	Salátaöntetek
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Sütés, befőzés alapanyagok	Marcipán
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Sütés, befőzés alapanyagok	Tortadekoráció
+Alapvető élelmiszerek	Rágcsálnivalók, chips	Olajos magvak	Olajos magvak bundában
+Alapvető élelmiszerek	Ételízesítés	Fűszerkeverékek, gyorspácok	Fűszerkeverékek szárnyasokhoz
+Alapvető élelmiszerek	Csokoládék	Táblás tejcsokoládék	Egyéb táblás tejcsokoládék
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Levestészták	Csigatészta
+Alapvető élelmiszerek	Instant ételalapok, levesporok	Instant levesporok	Instant krém- és zöldséglevesporok
+Alapvető élelmiszerek	Olaj, ecet	Olaj	Étolajok
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Sütés, befőzés alapanyagok	Vaniliás cukor
+Alapvető élelmiszerek	Instant ételalapok, levesporok	Leveskockák	Gulyásleveskocka és pörköltalap
+Alapvető élelmiszerek	Csokoládék	Csokoládészeletek	Étcsokoládészeletek
+Alapvető élelmiszerek	Nemzetközi konyha	Mexikói és amerikai konyha	Mexikói és amerikai konyha
+Alapvető élelmiszerek	Szószok, mártások, poralapok	Alaplevek	Alaplevek
+Alapvető élelmiszerek	Csokoládék	Csokoládészeletek	Kókuszos szeletek
+Alapvető élelmiszerek	Ételízesítés	Klasszikus fűszerek	Paprika
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Sütés, befőzés alapanyagok	Sütőpor, élesztő
+Alapvető élelmiszerek	Instant ételalapok, levesporok	Instant ételalapok	Egyéb instant ételalapok
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Lisztek, panírmorzsák	Kenyérliszt
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Sütés, befőzés alapanyagok	Zselatin
+Alapvető élelmiszerek	Ételízesítés	Klasszikus fűszerek	Bors
+Alapvető élelmiszerek	Kekszek, piskóták, nápolyik	Ostyák, nápolyik	Parány
+Alapvető élelmiszerek	Ételízesítés	Fűszerkeverékek, gyorspácok	Egyéb fűszerkeverékek
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Durumtészták	Lasagne és teljes kiörlésű tészták
+Alapvető élelmiszerek	Lekvár, méz és mogyorókrém	Lekvárok	Egyéb lekvárok
+Alapvető élelmiszerek	Cukorkák, rágógumik és egyéb édességek	Ajándékkosarak	Ajándékkosarak
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Sütés, befőzés alapanyagok	Cukormázak, tortabevonók
+Alapvető élelmiszerek	Ételízesítés	Klasszikus fűszerek	Egyéb fűszerek
+Alapvető élelmiszerek	Ételízesítés	Fűszerkeverékek, gyorspácok	Fűszerkeverékek sertéshúshoz
+Alapvető élelmiszerek	Instant ételalapok, levesporok	Instant ételalapok	Instant krumplipürék
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Rizs	Főzőtasakos, hosszúszemű rizs
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Levestészták	Kruton
+Alapvető élelmiszerek	Instant ételalapok, levesporok	Instant ételalapok	Instant tészta leveshez
+Alapvető élelmiszerek	Ételízesítés	Klasszikus fűszerek	Fahéj
+Alapvető élelmiszerek	Nemzetközi konyha	Távol keleti konyha	Távol keleti konyha
+Alapvető élelmiszerek	Ételízesítés	Klasszikus fűszerek	Babérlevél
+Alapvető élelmiszerek	Ételízesítés	Fűszerkeverékek, gyorspácok	Nemzetközi konyha fűszerkeverékei
+Alapvető élelmiszerek	Ételízesítés	Klasszikus fűszerek	Kömény
+Alapvető élelmiszerek	Ételízesítés	Folyékony fűszerek	Fokhagyma-, hagyma- és grillkrémek
+Alapvető élelmiszerek	Gabona- és kukoricapelyhek, müzli	Gabonapehely- és müzliszeletek	Müzliszeletek
+Alapvető élelmiszerek	Csokoládék	Táblás étcsokoládék	Egyéb táblás étcsokoládék
+Alapvető élelmiszerek	Csokoládék	Csokoládészeletek	Mogyorós tejcsokoládészeletek
+Alapvető élelmiszerek	Kekszek, piskóták, nápolyik	Édes kekszek	Kekszek gyerekeknek
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Nem durum tészták	Tojás nélküli tészták
+Alapvető élelmiszerek	Szószok, mártások, poralapok	Szószok, mártások	Bolognai szószok
+Alapvető élelmiszerek	Rizs, tészta, hüvelyesek, egyéb köretek	Levestészták	Eperlevél
+Alapvető élelmiszerek	Ételízesítés	Folyékony fűszerek	Pizza- és spagettikrém
+Alapvető élelmiszerek	Ételízesítés	Klasszikus fűszerek	Fokhagymás fűszerek
+Alapvető élelmiszerek	Ételízesítés	Fűszerkeverékek, gyorspácok	Fűszerkeverékek panírhoz és húsokhoz
+Alapvető élelmiszerek	Sütés-főzés hozzávalók	Édesítőszerek	Egyéb édesítőszerek
+Baba	Bébiital	Bébiital	Baba gyümölcsital
+Baba	Bébiétel	Üveges Bébiétel	Zöldséges
+Baba	Tej- és gabonapépek	Tej- és gabonapépek 6 hó+	Tejpép
+Baba	Tápszer és Junior gyerekital	Tápszer és Junior gyerekital 12 hó+	Natúr
+Baba	Bébiétel	Üveges Bébiétel	Gyümölcsös
+Baba	Bébiétel	Tasakos bébiétel	Tasakos bébiétel
+Baba	Tápszer és Junior gyerekital	Tápszer és Junior gyerekital 24 hó+	Ízesített
+Baba	Tápszer és Junior gyerekital	Tápszer és Junior gyerekital 12 hó+	Ízesített
+Baba	Tápszer és Junior gyerekital	Tápszer és Junior gyerekital 6 hó+	Natúr
+Baba	Babakeksz és snack	Babakeksz és snack	Snack
+Baba	Tej- és gabonapépek	Tej- és gabonapépek 6 hó+	Gabonapép
+Baba	Tápszer és Junior gyerekital	Tápszer és Junior gyerekital 24 hó+	Natúr
+Baba	Bébiétel	Poharas bébiétel	Poharas bébiétel
+Baba	Tápszer és Junior gyerekital	Tápszer és Junior gyerekital 36 hó+	Natúr
+Baba	Tápszer és Junior gyerekital	Tápszer és Junior gyerekital 0 hó+	Natúr
+Baba	Bébiital	Bébiital	Baba tea
+Baba	Babakeksz és snack	Babakeksz és snack	Keksz
+Baba	Bébiital	Bébiital	Babavíz
+Baba	Tej- és gabonapépek	Tej- és gabonapépek 8 hó+	Tejpép
+Baba	Tej- és gabonapépek	Tej- és gabonapépek 12 hó+	Gabonapép
+Fagyasztott áruk	Fagyasztott készételek és gombócok	Rántott zöldségek, rántott sajt	Rántott zöldségek, rántott sajt
+Fagyasztott áruk	Jégkrémek	Jégkrémválogatások	Jégkrémválogatások
+Fagyasztott áruk	Fagyasztott gyümölcs	Fagyasztott gyümölcs	Fagyasztott gyümölcs
+Fagyasztott áruk	Jégkrémek	Pálcikás és tölcséres jégkrémek	Pálcikás és tölcséres jégkrémek
+Fagyasztott áruk	Fagyasztott pizza és péktermék	Vékonytésztás pizzák	Vékonytésztás pizzák
+Fagyasztott áruk	Fagyasztott zöldség	Fagyasztott zöldségek	Fagyasztott zöldségek
+Fagyasztott áruk	Fagyasztott készételek és gombócok	Fagyasztott készételek	Fagyasztott készételek
+Fagyasztott áruk	Fagyasztott készételek és gombócok	Gombóc és derelye	Gombóc és derelye
+Fagyasztott áruk	Fagyasztott halak	Halászlé alapok	Halászlé alapok
+Fagyasztott áruk	Fagyasztott halak	Natúr halak	Natúr halak
+Fagyasztott áruk	Jégkrémek	Dobozos jégkrémek	Dobozos jégkrémek 1 l alatt
+Fagyasztott áruk	Fagyasztott készételek és gombócok	Party falatok	Party falatok
+Fagyasztott áruk	Fagyasztott zöldség	Fagyasztott burgonya	Fagyasztott burgonya
+Fagyasztott áruk	Fagyasztott halak	Halrudak és panírozott termékek	Halrudak és panírozott termékek
+Fagyasztott áruk	Jégkrémek	Dobozos jégkrémek	Dobozos jégkrémek 1 l fölött
+Fagyasztott áruk	Fagyasztott hús és baromfi	Sertés, marha, baromfi, belsőségek	Sertés, marha, baromfi, belsőségek
+Fagyasztott áruk	Fagyasztott pizza és péktermék	Vastagtésztás pizzák	Vastagtésztás pizzák
+Fagyasztott áruk	Fagyasztott hús és baromfi	Panírozott csirke	Panírozott csirke
+Fagyasztott áruk	Jégkrémek	Dobozos jégkrémek	Dobozos jégkrémek 1 l
+Fagyasztott áruk	Fagyasztott pizza és péktermék	Péktermék	Péktermék
+Fagyasztott áruk	Fagyasztott pizza és péktermék	Baguette, péksütemény	Baguette, péksütemény
+Fagyasztott áruk	Fagyasztott halak	Friss tenger gyümölcsei	Friss tenger gyümölcsei
+Fagyasztott áruk	Fagyasztott hús és baromfi	Panírozott pulyka	Panírozott pulyka
+Fagyasztott áruk	Jégkrémek	Rétesek és torták	Rétesek és torták
+Hús, felvágott	Csemege húskészítmények	Füstölt áru	Csomagolt füstölt áru
+Hús, felvágott	Csomagolt friss húsok	Baromfi	Baromfi
+Hús, felvágott	Csemege húskészítmények	Májasok	Pultos májasok, pástétomok
+Hús, felvágott	Csemege húskészítmények	Hurka, kolbász, szalámi, turista	Szalámi, kolbász (rúd)
+Hús, felvágott	Csemege húskészítmények	Hurka, kolbász, szalámi, turista	Szalámi, kolbász (szeletelt, csomagolt)
+Hús, felvágott	Csemege húskészítmények	Virsli	Csomagolt virsli
+Hús, felvágott	Csemege húskészítmények	Hurka, kolbász, szalámi, turista	Szalámi, kolbász (pultos)
+Hús, felvágott	Csemege húskészítmények	Párizsi	Pultos párizsi
+Hús, felvágott	Csemege húskészítmények	Párizsi	Csomagolt párizsi
+Hús, felvágott	Pultos friss húsok	Baromfi	Baromfi
+Hús, felvágott	Csemege húskészítmények	Sonka	Csomagolt szeletelt sonka
+Hús, felvágott	Csemege húskészítmények	Felvágottak	Egyéb felvágottak
+Hús, felvágott	Csemege húskészítmények	Szalonna, bacon	Csomagolt szalonna, bacon
+Hús, felvágott	Csemege húskészítmények	Sonka	Pultos sonka
+Hús, felvágott	Pultos friss húsok	Sertés	Sertés
+Hús, felvágott	Csemege húskészítmények	Szalonna, bacon	Pultos szalonna, bacon
+Hús, felvágott	Csemege húskészítmények	Májasok	Csomagolt májasok
+Hús, felvágott	Csomagolt friss húsok	Vadhús	Vadhús
+Hús, felvágott	Csemege húskészítmények	Egyéb húskészítmények	Egyéb húskészítmény
+Hús, felvágott	Csomagolt friss húsok	Sertés	Sertés
+Hús, felvágott	Csomagolt friss húsok	Marha, borjú	Borjú
+Hús, felvágott	BBQ	BBQ	BBQ
+Hús, felvágott	Halak	Különlegességek	Különlegességek
+Hús, felvágott	Csomagolt friss húsok	Marha, borjú	Marha
+Hús, felvágott	Halak	Friss csomagolt halak	Friss csomagolt halak
+Hús, felvágott	Csemege húskészítmények	Hurka, kolbász, szalámi, turista	Sütő- és főzőkolbász
+Hús, felvágott	Csemege húskészítmények	Hurka, kolbász, szalámi, turista	Turista
+Hús, felvágott	Pultos friss húsok	Marha	Marha
+Hús, felvágott	Csemege húskészítmények	Virsli	Pultos virsli
+Hús, felvágott	Csemege húskészítmények	Állati zsírok	Állati zsírok
+Hús, felvágott	Csemege húskészítmények	Sonka	Csomagolt tömbös sonka
+Hús, felvágott	Csomagolt friss húsok	Bárány	Bárány
+Hús, felvágott	Csemege húskészítmények	Hurka, kolbász, szalámi, turista	Pultos hurka, kolbász
+Hús, felvágott	Csomagolt friss húsok	BBQ	BBQ
+Hús, felvágott	Csemege húskészítmények	Füstölt áru	Pultos füstölt áru
+Italok	Hazai fehérborok	Száraz fehérborok	Felső-Pannon
+Italok	Gyümölcs és zöldséglevek	Gyerek italok	Gyerek italok
+Italok	Kávé	2in1/3in1 kávé	Ricoré
+Italok	Üdítőitalok	Szénsavas üdítőitalok	Nagy kiszerelés
+Italok	Kávé	Szemes Kávé	900-1000g
+Italok	Hazai vörösborok	Félédes vörösborok	Felső-Magyarország
+Italok	Sör, cider	Ciderek	Ciderek
+Italok	Tea	Gyümölcsteák	Gyümölcsteák
+Italok	Sör, cider	Világos sörök	Dobozos
+Italok	Hazai fehérborok	Száraz fehérborok	Felső-Magyarország
+Italok	Víz	Szénsavmentes ásványvíz	Kis Kiszerelés
+Italok	Tea	Fekete teák	Fekete Teák
+Italok	Szeszes italok	Koktélok	Koktélok
+Italok	Üdítőitalok	Energia- és sportitalok	Energiaitalok
+Italok	Üdítőitalok	Szénsavas üdítőitalok	Kis Kiszerelés
+Italok	Üdítőitalok	Jegesteák	Kis Kiszerelés
+Italok	Gyümölcs és zöldséglevek	100% gyümölcslevek	100% Gyümölcslevek
+Italok	Víz	Ízesített víz	Kis Kiszerelés
+Italok	Hazai vörösborok	Félédes vörösborok	Duna
+Italok	Szeszes italok	Likőr	Krémlikőr
+Italok	Szeszes italok	Whisky	Bourbon whisky
+Italok	Pezsgők	Hagyományos pezsgők	Édes pezsgők
+Italok	Hazai fehérborok	Száraz fehérborok	Balaton
+Italok	Szeszes italok	Pálinka	Szilva pálinka
+Italok	Szeszes italok	Ízesített szeszesitalok	Ízesített szeszesitalok
+Italok	Kávé	Instant Kávé	Klasszikus
+Italok	Szeszes italok	Likőr	Gyógynövény, keserű likőr
+Italok	Kakaó és forró csokoládé	Forró csokoládé	Klasszikus
+Italok	Kávé	Kávépárnák és -kapszulák	Nespresso kompatibilis
+Italok	Kávé	Őrölt-pörkölt kávé	900-1000g
+Italok	Nemzetközi borok	Fehérborok	Olaszország
+Italok	Szeszes italok	Rum	Rum alapú szeszesítal
+Italok	Kávé	2in1/3in1 kávé	2in1
+Italok	Gyümölcs és zöldséglevek	Gyümölcs nektárok és egyéb gyümölcsitalok	Gyümölcs nektárok és egyéb gyümölcsitalok
+Italok	Üdítőitalok	Jegesteák	Nagy kiszerelés
+Italok	Sör, cider	Világos sörök	Üveges
+Italok	Nemzetközi borok	Vörösborok	Moldávia
+Italok	Pezsgők	Hagyományos pezsgők	Száraz pezsgők
+Italok	Kakaó és forró csokoládé	Kakaó	Klasszikus
+Italok	Pezsgők	Alkoholmentes és gyerekpezsgők	Alkoholmentes és gyerekpezsgők
+Italok	Szörpök, italporok, citromlevek	Szörpök, szirupok	Egyéb ízesítésű szörpök, szirupok
+Italok	Kávé	Kávépárnák és -kapszulák	Dolce Gusto kompatibilis
+Italok	Sör, cider	Alkoholmentes sörök és alkoholmentes ízesített sörök	Alkoholmentes ízesített sörök
+Italok	Hazai vörösborok	Száraz vörösborok	Pannon
+Italok	Tea	Gyógyteák	Gyógyteák
+Italok	Szeszes italok	Vodka	Vodka
+Italok	Szeszes italok	Likőr	Egyéb likőr
+Italok	Kávé	Őrölt-pörkölt kávé	200-250g
+Italok	Szeszes italok	Gin	Gin
+Italok	Egyéb borok	Egyéb borok	Must, forralt bor, gyümölcsbor
+Italok	Nemzetközi borok	Vörösborok	Spanyolország
+Italok	Szeszes italok	Whisky	Egyéb whisky
+Italok	Víz	Szénsavmentes ásványvíz	Nagy kiszerelés
+Italok	Tea	Fekete teák	Ízesített fekete teák
+Italok	Sör, cider	Világos sörök	Multipack
+Italok	Nemzetközi borok	Fehérborok	Új-Zéland
+Italok	Hazai vörösborok	Száraz vörösborok	Felső-Magyarország
+Italok	Hazai roséborok	Száraz roséborok	Duna
+Italok	Hazai roséborok	Száraz roséborok	Pannon
+Italok	Hazai vörösborok	Édes vörösborok	Felső-Magyarország
+Italok	Kávé	Pótkávé	Pótkávé
+Italok	Hazai fehérborok	Édes fehérborok	Tokaji
+Italok	Szörpök, italporok, citromlevek	Italporok	Italporok
+Italok	Sör, cider	Sörkülönlegességek	Különleges világos sörök
+Italok	Hazai fehérborok	Száraz fehérborok	Tokaji
+Italok	Hazai vörösborok	Félédes vörösborok	Balaton
+Italok	Sör, cider	Ízesített Sörök	Ízesített Sörök
+Italok	Kávé	Instant Kávé	Extra krémes
+Italok	Kávé	Szemes Kávé	200-250g
+Italok	Kávé	Kávékrémpor, tejpor	Kávékrémpor, tejpor
+Italok	Gyümölcs és zöldséglevek	Smoothie	Smoothie
+Italok	Víz	Szénsavas ásványvíz	Nagy kiszerelés
+Italok	Szörpök, italporok, citromlevek	Citromlevek	Citromlevek
+Italok	Szeszes italok	Pálinka	Alma pálinka
+Italok	Üdítőitalok	Energia- és sportitalok	Sportitalok
+Italok	Szeszes italok	Whisky	Skót whisky
+Italok	Hazai roséborok	Száraz roséborok	Felső-Pannon
+Italok	Hazai fehérborok	Száraz fehérborok	Duna
+Italok	Hazai fehérborok	Száraz fehérborok	Pannon
+Italok	Gyöngyözőborok	Édes és félédes gyöngyözőborok	Édes és félédes gyöngyözőborok
+Italok	Szeszes italok	Brandy	Brandy
+Italok	Víz	Ízesített víz	Nagy kiszerelés
+Italok	Egyéb borok	Egyéb borok	Alkoholmentes
+Italok	Kávé	Őrölt-pörkölt kávé	450-500g
+Italok	Szeszes italok	Rum	Rum
+Italok	Sör, cider	Sörkülönlegességek	Kézműves sörök
+Italok	Kávé	Instant Cappuccino	ízesített
+Italok	Hazai roséborok	Száraz roséborok	Felső-Magyarország
+Italok	Kávé	2in1/3in1 kávé	Klasszikus
+Italok	Hazai vörösborok	Édes vörösborok	Duna
+Italok	Pezsgők	Hagyományos pezsgők	Asti
+Italok	Hazai vörösborok	Száraz vörösborok	Balaton
+Italok	Pezsgők	Hagyományos pezsgők	Félszáraz pezsgők
+Italok	Hazai fehérborok	Félédes fehérborok	Duna
+Italok	Gyöngyözőborok	Félszáraz gyöngyözőborok	Félszáraz gyöngyözőborok
+Italok	Hazai fehérborok	Félédes fehérborok	Tokaji
+Italok	Víz	Szénsavas ásványvíz	Kis Kiszerelés
+Italok	Hazai roséborok	Édes roséborok	Besorolás alatt
+Italok	Szeszes italok	Pálinka	Egyéb ízesítésű pálinkák
+Italok	Hazai roséborok	Száraz roséborok	Balaton
+Italok	Hazai vörösborok	Száraz vörösborok	Duna
+Italok	Tea	Zöld- és fehérteák	Zöld- és fehérteák
+Italok	Kávé	Koffeinmentes kávé	Nespresso kompatibilis
+Italok	Kávé	Szemes Kávé	450-500g
+Italok	Kávé	Instant Kávé	Gold
+Italok	Szeszes italok	Tequila	Tequila
+Italok	Nemzetközi borok	Roséborok	Olaszország
+Italok	Hazai fehérborok	Félédes fehérborok	Balaton
+Italok	Nemzetközi borok	Fehérborok	Franciaország
+Italok	Hazai vörösborok	Száraz vörösborok	Besorolás alatt
+Italok	Kávé	Kávépárnák és -kapszulák	Cafissimo
+Italok	Szörpök, italporok, citromlevek	Szörpök, szirupok	Málna és szamóca ízű szörpök, szirupok
+Italok	Sör, cider	Sörkülönlegességek	Barna sörök
+Italok	Hazai fehérborok	Száraz fehérborok	Besorolás alatt
+Italok	Hazai fehérborok	Félédes fehérborok	Felső-Magyarország
+Italok	Hazai roséborok	Félszáraz roséborok	Felső-Magyarország
+Italok	Kávé	Szemes Kávé	100-125g
+Italok	Kávé	Koffeinmentes kávé	Instant kávé
+Italok	Gyümölcs és zöldséglevek	Zöldséglevek	Zöldséglevek
+Italok	Nemzetközi borok	Fehérborok	Moldávia
+Italok	Hazai fehérborok	Édes fehérborok	Duna
+Italok	Sör, cider	Világos sörök	Pet
+Italok	Víz	Enyhén dúsított ásványvíz	Nagy kiszerelés
+Italok	Hazai fehérborok	Félédes fehérborok	Pannon
+Italok	Kakaó és forró csokoládé	Forró csokoládé	Dolce Gusto kompatibilis
+Italok	Hazai fehérborok	Édes fehérborok	Balaton
+Italok	Hazai fehérborok	Félszáraz fehérborok	Tokaji
+Italok	Nemzetközi borok	Vörösborok	Franciaország
+Italok	Kávé	2in1/3in1 kávé	Extra krémes
+Italok	Szeszes italok	Vermouth	Vermouth
+Italok	Nemzetközi borok	Fehérborok	Dél Afrika
+Italok	Nemzetközi borok	Fehérborok	Spanyolország
+Italok	Hazai roséborok	Félédes roséborok	Duna
+Italok	Szeszes italok	Pálinka	Barack pálinka
+Italok	Nemzetközi borok	Roséborok	Spanyolország
+Italok	Hazai vörösborok	Édes vörösborok	Balaton
+Italok	Nemzetközi borok	Vörösborok	Olaszország
+Italok	Szeszes italok	Pálinka	Cseresznye, meggy, ribizli pálinka
+Italok	Víz	Speciális víz	Gyógyvíz
+Italok	Szeszes italok	Pálinka	Körte pálinka
+Italok	Nemzetközi borok	Roséborok	Moldávia
+Italok	Sör, cider	Alkoholmentes sörök és alkoholmentes ízesített sörök	Alkoholmentes sörök
+Italok	Kávé	2in1/3in1 kávé	Extra erős
+Italok	Kávé	2in1/3in1 kávé	Ízesített
+Italok	Nemzetközi borok	Vörösborok	Dél Afrika
+Italok	Hazai roséborok	Édes roséborok	Felső-Magyarország
+Italok	Hazai roséborok	Félédes roséborok	Balaton
+Italok	Szeszes italok	Tequila	Tequila alapú szeszesital
+Italok	Sör, cider	Sörkülönlegességek	Búzasörök
+Italok	Kávé	Őrölt-pörkölt kávé	150g
+Italok	Kávé	Koffeinmentes kávé	Dolce Gusto kompatibilis
+Italok	Hazai roséborok	Édes roséborok	Balaton
+Italok	Víz	Babavíz	Babavíz
+Italok	Hazai roséborok	Félédes roséborok	Felső-Magyarország
+Italok	Kávé	2in1/3in1 kávé	Barna cukor tartalmú
+Italok	Nemzetközi borok	Vörösborok	Argentína
+Italok	Kávé	Instant Kávé	Brasero
+Italok	Nemzetközi borok	Vörösborok	Ausztrália
+Italok	Nemzetközi borok	Vörösborok	Portugália
+Italok	Kakaó és forró csokoládé	Kakaó	Ízesített
+Italok	Gyöngyözőborok	Száraz gyöngyözőborok	Száraz gyöngyözőborok
+Italok	Hazai fehérborok	Édes fehérborok	Felső-Magyarország
+Italok	Nemzetközi borok	Fehérborok	Németország
+Pékáru	Sütemény	Édes sütemények	Édes sütemények
+Pékáru	Friss pékáru	Reggeliző termék	Reggeliző termék
+Pékáru	Tartós pékáru	Édes pékáru	Édes pékáru
+Pékáru	Gluténmentes	Gluténmentes	Gluténmentes csomagolt
+Pékáru	Sütemény	Torta	Torta
+Pékáru	Tartós pékáru	Toast kenyér	Toast kenyér
+Pékáru	Tartós pékáru	Tortilla	Tortilla
+Pékáru	Tartós pékáru	Süteményalap	Süteményalap
+Pékáru	Tartós pékáru	Csomagolt, szeletelt kenyér	Csomagolt, szeletelt kenyér
+Pékáru	BBQ	BBQ	BBQ
+Pékáru	Friss pékáru	Fánk	Fánk
+Pékáru	Friss pékáru	Szendvicsalap	Szendvicsalap
+Pékáru	Sütemény	Sós sütemények	Sós sütemények
+Pékáru	Tartós pékáru	Szendvicsalap	Szendvicsalap
+Pékáru	Friss pékáru	Kenyér	Kenyér
+Pékáru	Tartós pékáru	Kalács	Kalács
+Pékáru	Speciális étrend	Speciális étrend	Speciális étrend
+Pékáru	Sütemény	Desszert	Desszert
+Speciális táplálkozás	BIO	Sütés, főzés	Sütés, főzés
+Speciális táplálkozás	Gluténmentes	Gabonapehely, zabkása	Gabonapehely, zabkása
+Speciális táplálkozás	Vegetáriánus és vegán	Növényi alapú sajtpótlók	Növényi alapú sajtpótlók
+Speciális táplálkozás	Hozzáadott cukor mentes	Édesség és rágcsálnivaló	Édesség és rágcsálnivaló
+Speciális táplálkozás	Vegetáriánus és vegán	Sütés, főzés	Főzőkrém
+Speciális táplálkozás	Vegetáriánus és vegán	Desszertek	Desszertek
+Speciális táplálkozás	Laktózmentes	Vaj, vajkrém	Vaj
+Speciális táplálkozás	Vegetáriánus és vegán	Humusz, krémek, saláták	Növényi alapú krém
+Speciális táplálkozás	Gluténmentes	Tészták	Tészták
+Speciális táplálkozás	Gluténmentes	Sütés, főzés	Sütés, főzés
+Speciális táplálkozás	Növényi italok	Mandulaital	Mandulaital
+Speciális táplálkozás	Vegetáriánus és vegán	Reggelizőpelyhek, kásák, müzlik	Reggelizőpelyhek, kásák, müzlik
+Speciális táplálkozás	Vegetáriánus és vegán	Növényi alapú húspótlók	Növényi alapú húspótlók, snackek
+Speciális táplálkozás	Laktózmentes	Joghurt, joghurtital, desszert	Joghurt
+Speciális táplálkozás	Laktózmentes	Tejföl, kefír, túró, tejszín	Tejföl
+Speciális táplálkozás	Hozzáadott cukor mentes	Joghurt, joghurtital, desszert	Desszert
+Speciális táplálkozás	Sportétrend kiegészítők	Magas fehérjetartalmú szeletek, porok	Magas fehérjetartalmú szeletek, porok
+Speciális táplálkozás	BIO	Tejföl, kefír, túró, tejszín	Tejföl
+Speciális táplálkozás	BIO	Tejek, tejitalok	UHT tej
+Speciális táplálkozás	Hozzáadott cukor mentes	Joghurt, joghurtital, desszert	Joghurt
+Speciális táplálkozás	Laktózmentes	Sajt, sajtkrém	Sajt
+Speciális táplálkozás	Gluténmentes	Édesség	Édesség
+Speciális táplálkozás	BIO	Rágcsálnivaló	Rágcsálnivaló
+Speciális táplálkozás	Gluténmentes	Rágcsálnivaló	Rágcsálnivaló
+Speciális táplálkozás	Laktózmentes	Joghurt, joghurtital, desszert	Desszert
+Speciális táplálkozás	Növényi italok	Zabital	Zabital
+Speciális táplálkozás	BIO	Alkoholmentes italok	Alkoholmentes italok
+Speciális táplálkozás	Gluténmentes	Instant ételek	Instant ételek
+Speciális táplálkozás	Vegetáriánus és vegán	Sütés, főzés	Sütés, főzés
+Speciális táplálkozás	Sportétrend kiegészítők	Magas fehérjetartalmú joghurt, joghurtital, desszert	Desszert
+Speciális táplálkozás	Hozzáadott cukor mentes	Édesítők	Édesítők
+Speciális táplálkozás	Vegetáriánus és vegán	Tofu, szója	Tofu, szója
+Speciális táplálkozás	Gluténmentes	Pékáru	Kenyér
+Speciális táplálkozás	Egyéb egészséges	Egyéb egészséges	Egyéb egészséges
+Speciális táplálkozás	Vegetáriánus és vegán	Édesség, rágcsálnivaló	Édesség, rágcsálnivaló
+Speciális táplálkozás	Laktózmentes	Vaj, vajkrém	Margarin
+Speciális táplálkozás	Vegetáriánus és vegán	Humusz, krémek, saláták	Humusz
+Speciális táplálkozás	Laktózmentes	Tejek, tejitalok	UHT tej
+Speciális táplálkozás	Növényi italok	Kókuszital	Kókuszital
+Speciális táplálkozás	Vegetáriánus és vegán	Készételek	Készételek
+Speciális táplálkozás	Hozzáadott cukor mentes	Tejföl, kefír, túró, tejszín	Tejszín
+Speciális táplálkozás	Sportétrend kiegészítők	Egyéb magas fehérjetartalmú ételek	Egyéb magas fehérjetartalmú ételek
+Speciális táplálkozás	Növényi italok	Rizsital	Rizsital
+Speciális táplálkozás	Laktózmentes	Tejek, tejitalok	Ízesített ital
+Speciális táplálkozás	Laktózmentes	Tejföl, kefír, túró, tejszín	Túró
+Speciális táplálkozás	Növényi italok	Szójaital	Szójaital
+Speciális táplálkozás	Hozzáadott cukor mentes	Italok	Italok
+Speciális táplálkozás	Kétszersültek, rágcsálnivalók, szeletek	Puffasztott rizs, extrudált kenyér	Puffasztott rizs, extrudált kenyér
+Speciális táplálkozás	Vegetáriánus és vegán	Sütés, főzés	Vegaföl
+Speciális táplálkozás	Kétszersültek, rágcsálnivalók, szeletek	Szeletek	Szeletek
+Speciális táplálkozás	Sportétrend kiegészítők	Magas fehérjetartalmú tejitalok	Ízesített tejital
+Speciális táplálkozás	Laktózmentes	Vaj, vajkrém	Vajkrém
+Speciális táplálkozás	BIO	Tészták és rizs	Tészták és rizs
+Speciális táplálkozás	Laktózmentes	Tejföl, kefír, túró, tejszín	Tejszín
+Speciális táplálkozás	Gluténmentes	Pékáru	Sós pékáru
+Speciális táplálkozás	Sportétrend kiegészítők	Magas fehérjetartalmú joghurt, joghurtital, desszert	Joghurtital
+Speciális táplálkozás	Vegetáriánus és vegán	Növényi alapú húspótlók	Szendvicsfeltét
+Speciális táplálkozás	Gluténmentes	Fagyasztott termékek	Fagyasztott termékek
+Speciális táplálkozás	Hozzáadott cukor mentes	Tejek, tejitalok	Ízesített ital
+Speciális táplálkozás	BIO	Gabonafélék, hüvelyesek	Gabonafélék, hüvelyesek
+Speciális táplálkozás	Vegetáriánus és vegán	Növényi alapú italok	Növényi alapú italok
+Speciális táplálkozás	Sportétrend kiegészítők	Magas fehérjetartalmú joghurt, joghurtital, desszert	Joghurt
+Speciális táplálkozás	Sportétrend kiegészítők	Étrendkiegészítők	Étrendkiegészítők
+Speciális táplálkozás	Laktózmentes	Joghurt, joghurtital, desszert	Joghurtital
+Speciális táplálkozás	Vegetáriánus és vegán	Joghurt, joghurtital	Joghurt
+Speciális táplálkozás	Vegetáriánus és vegán	Növényi alapú húspótlók	Vegán rudak
+Speciális táplálkozás	BIO	Tejföl, kefír, túró, tejszín	Kefír
+Speciális táplálkozás	Gluténmentes	Alkoholos italok	Alkoholos italok
+Speciális táplálkozás	Vegetáriánus és vegán	Fagyasztott termékek	Fagyasztott készételek
+Speciális táplálkozás	Kétszersültek, rágcsálnivalók, szeletek	Rágcsálnivalók	Rágcsálnivalók
+Speciális táplálkozás	Hozzáadott cukor mentes	Sütés, főzés	Sütés, főzés
+Speciális táplálkozás	Laktózmentes	Tejek, tejitalok	Friss tej
+Speciális táplálkozás	Sportétrend kiegészítők	Magas fehérjetartalmú sajtok	Sajt
+Speciális táplálkozás	Laktózmentes	Sajt, sajtkrém	Sajtkrém
+Speciális táplálkozás	Laktózmentes	Tejföl, kefír, túró, tejszín	Kefír
+Speciális táplálkozás	Vegetáriánus és vegán	Sütés, főzés	Egyéb növényi krém
+Speciális táplálkozás	Gluténmentes	Pékáru	Édes pékáru
+Speciális táplálkozás	Sportétrend kiegészítők	Magas fehérjetartalmú tejitalok	Magas fehérjetartalmú tejitalok
+Speciális táplálkozás	Sportétrend kiegészítők	Zabszeletek	Zabszeletek
+Speciális táplálkozás	Hozzáadott cukor mentes	Joghurt, joghurtital, desszert	Joghurtital
+Speciális táplálkozás	BIO	Joghurt, joghurtital, desszert	Joghurtok
+Speciális táplálkozás	Vegetáriánus és vegán	Sütés, főzés	Habkrém
+Speciális táplálkozás	Vegetáriánus és vegán	Fagyasztott termékek	Jégkrém
+Speciális táplálkozás	Vegetáriánus és vegán	Humusz, krémek, saláták	Vaj helyettesítő / Vegán vaj
+Speciális táplálkozás	Vegetáriánus és vegán	Növényi alapú húspótlók	Vegán szalámi
+Speciális táplálkozás	BIO	Édesség	Édesség
+Speciális táplálkozás	BIO	Kávé, tea, kakaó	Kávé, tea, kakaó
+Speciális táplálkozás	Vegetáriánus és vegán	Szószok, öntetek	Szószok, öntetek
+Speciális táplálkozás	Sportétrend kiegészítők	Magas fehérjetartalmú tejitalok	Nem ízesített tejital
+Speciális táplálkozás	BIO	Alkoholos italok	Alkoholos italok
+Tejtermékek, tojás	Sajtok és túró	Specialitások	Specialitások
+Tejtermékek, tojás	Joghurtok	Ízesített joghurtok	Kis poharas joghurt
+Tejtermékek, tojás	Sajtok és túró	Ömlesztett sajtok	Ömlesztett sajtok
+Tejtermékek, tojás	Vaj, margarin	Vaj, vajkrém	Vajkrém és körözött
+Tejtermékek, tojás	Tejdesszertek	Tejtermékek gyerekeknek	Tejtermékek gyerekeknek
+Tejtermékek, tojás	Tejdesszertek	Puding	Puding
+Tejtermékek, tojás	Tejek, tejitalok	Kávé ízesítésű italok	Kávé ízesítésű italok
+Tejtermékek, tojás	Tejek, tejitalok	Tartós tejitalok	Tartós tejitalok
+Tejtermékek, tojás	Tejdesszertek	Krémtúró	Krémtúró
+Tejtermékek, tojás	Tejföl, kefír, tejszín	Tejföl	10% - 15% zsírtartalmú tejföl és növényi zsíros termék
+Tejtermékek, tojás	Vaj, margarin	Margarin	Csészés margarin
+Tejtermékek, tojás	Tejek, tejitalok	Hűtést igénylő tejek	Hűtést igénylő tejek
+Tejtermékek, tojás	Sajtok és túró	Reszelt sajtok	Reszelt sajtok
+Tejtermékek, tojás	Joghurtok	Joghurt italok	Kis ivójoghurtok
+Tejtermékek, tojás	Sajtok és túró	Félkemény sajtok	Félkemény sajtok
+Tejtermékek, tojás	Tejek, tejitalok	Friss tejitalok	Friss tejitalok
+Tejtermékek, tojás	Tejdesszertek	Túródesszertek	Túródesszertek
+Tejtermékek, tojás	Sajtok és túró	Szeletelt sajtok	Szeletelt sajtok
+Tejtermékek, tojás	Joghurtok	Ízesített joghurtok	Multipack kiszerelés
+Tejtermékek, tojás	Sajtok és túró	Pultos sajtok	Pultban kapható sajtok
+Tejtermékek, tojás	Sajtok és túró	Saláta, friss sajtok	Saláta, friss sajtok
+Tejtermékek, tojás	Tejföl, kefír, tejszín	Tejszín	Tejszín
+Tejtermékek, tojás	Tejföl, kefír, tejszín	Kefír	Poharas kefírek
+Tejtermékek, tojás	Tejek, tejitalok	Tartós tejek	0,1% - 1,5% zsírtartalmú tejek
+Tejtermékek, tojás	Tojás	Tojás	Tojás
+Tejtermékek, tojás	Sajtok és túró	Sajtok uzsonnára	Sajtok uzsonnára
+Tejtermékek, tojás	Joghurtok	Natúr és görög joghurtok	Natúr és görög joghurtok
+Tejtermékek, tojás	Tejföl, kefír, tejszín	Tejföl	20% - 25% zsírtartalmú tejföl
+Tejtermékek, tojás	Joghurtok	Élőflórás joghurtok	Élőflórás joghurtok
+Tejtermékek, tojás	Sajtok és túró	Túró	Túrók
+Tejtermékek, tojás	Tejdesszertek	Tejberizs, tejbegríz	Tejberizs, tejbegríz
+Tejtermékek, tojás	Joghurtok	Joghurt italok	Nagy ivójoghurtok
+Tejtermékek, tojás	Joghurtok	Ízesített joghurtok	Nagy poharas joghurt
+Tejtermékek, tojás	Vaj, margarin	Vaj, vajkrém	Vaj
+Tejtermékek, tojás	Sajtok és túró	Fehérpenészes sajtok	Fehérpenészes sajtok
+Tejtermékek, tojás	Élesztő	Élesztő	Élesztő
+Tejtermékek, tojás	Tejdesszertek	Kész desszertek	Kész desszertek
+Tejtermékek, tojás	Tejföl, kefír, tejszín	Kefír	Kaukázusi kefírek
+Tejtermékek, tojás	Sajtok és túró	Kékpenészes sajtok	Kékpenészes sajtok
+Tejtermékek, tojás	Tejföl, kefír, tejszín	Alternatív tejföl, kefír, tejszín	Laktózmentes
+Tejtermékek, tojás	Sajtok és túró	Kecske-, juhsajtok	Kecske-, juhsajtok
+Tejtermékek, tojás	Vaj, margarin	Margarin	Sütőmargarin
+Tejtermékek, tojás	Sajtok és túró	Kemény sajtok	Kemény sajtok
+Tejtermékek, tojás	Tejek, tejitalok	Tartós tejek	2,8%-3,5% zsírtartalmú tejek
+Tejtermékek, tojás	Sajtok és túró	Grill sajtok	Grill sajtok
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Aszalt gyümölcs	Egyéb aszalt gyümölcs
+Zöldség. gyümölcs	Zöldségek	Savanyúság	Vegyes savanyúság
+Zöldség. gyümölcs	Zöldségek	Savanyúság	Káposzta
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Magvak és keverékek	Magkeverékek
+Zöldség. gyümölcs	Zöldségek	Paradicsom	Hagyományos paradicsom
+Zöldség. gyümölcs	Zöldségek	Paprika	Egyéb színű paprika
+Zöldség. gyümölcs	Zöldségek	Sárgarépa	Sárgarépa
+Zöldség. gyümölcs	Zöldségek	Savanyúság	Paprika
+Zöldség. gyümölcs	Zöldségek	Savanyúság	Uborka
+Zöldség. gyümölcs	Zöldségek	Savanyúság	Egyéb savanyúság
+Zöldség. gyümölcs	Friss gyümölcslé és smoothie	Friss gyümölcslé és smoothie	Smoothie
+Zöldség. gyümölcs	Zöldségek	Burgonya	Piros burgonya
+Zöldség. gyümölcs	Gyümölcsök	Szárított gyümölcsök	Szárított gyümölcsök
+Zöldség. gyümölcs	Gyümölcsök	Banán	Banán
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Magvak és keverékek	Földimogyoró
+Zöldség. gyümölcs	Gyümölcsök	Körte és alma	Körte
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Aszalt gyümölcs	Datolya és füge
+Zöldség. gyümölcs	Gyümölcsök	Körte és alma	Alma
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Magvak és keverékek	Mandula
+Zöldség. gyümölcs	Gyümölcsök	Darabolt gyümölcsök	Darabolt gyümölcsök
+Zöldség. gyümölcs	Zöldségek	Paprika	Erőspaprika
+Zöldség. gyümölcs	Gyümölcsök	Csonthéjas gyümölcsök	Őszibarack
+Zöldség. gyümölcs	Saláta	Saláta	Előcsomagolt salátakeverék
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Aszalt gyümölcs	Áfonya
+Zöldség. gyümölcs	Gyümölcsök	Bogyós gyümölcsök	Bogyós gyümölcsök
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Aszalt gyümölcs	Mazsola
+Zöldség. gyümölcs	Gyümölcsök	Dinnye	Dinnye
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Aszalt gyümölcs	Kajszibarack és szilva
+Zöldség. gyümölcs	Gyümölcsök	Szőlő	Fehér szőlő
+Zöldség. gyümölcs	Saláta	Saláta	Egyéb saláták
+Zöldség. gyümölcs	Zöldségek	Káposztafélék	Káposzta
+Zöldség. gyümölcs	Gyümölcsök	Szárított gyümölcsök	Egyéb száritott gyümölcsök
+Zöldség. gyümölcs	Gyümölcsök	Csonthéjas gyümölcsök	Kajszibarack
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Magvak és keverékek	Pisztácia
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Aszalt gyümölcs	Alma
+Zöldség. gyümölcs	Gomba	Gomba	Egyéb gombafélék
+Zöldség. gyümölcs	Friss gyümölcslé és smoothie	Friss gyümölcslé és smoothie	Friss gyümölcslevek
+Zöldség. gyümölcs	Gyümölcsök	Egzotikus gyümölcsök	Egyéb egzotikus gyümölcs
+Zöldség. gyümölcs	Gomba	Gomba	Csiperkegomba
+Zöldség. gyümölcs	Zöldségek	Szezonális zöldségek	Cukkini és padlizsán
+Zöldség. gyümölcs	Gyümölcsök	Csonthéjas gyümölcsök	Nektarin
+Zöldség. gyümölcs	Gyümölcsök	Szőlő	Piros szőlő
+Zöldség. gyümölcs	Zöldségek	Szezonális zöldségek	Tökfélék
+Zöldség. gyümölcs	Zöldségek	Zeller	Zeller
+Zöldség. gyümölcs	Zöldségek	Fűszernövény és friss chili	Csomagolt fűszernövények
+Zöldség. gyümölcs	Zöldségek	Burgonya	Édesburgonya
+Zöldség. gyümölcs	Zöldségek	Burgonya	Sárga burgonya
+Zöldség. gyümölcs	Zöldségek	Paradicsom	Egyéb paradicsom
+Zöldség. gyümölcs	Bio, organikus	Gyümölcs	Gyümölcs
+Zöldség. gyümölcs	Zöldségek	Hagyma és fokhagyma	Egyéb hagyma
+Zöldség. gyümölcs	Gyümölcsök	Dinnye	Különleges dinnye
+Zöldség. gyümölcs	Zöldségek	Hagyma és fokhagyma	Fokhagyma
+Zöldség. gyümölcs	Saláta	Saláta	Salátafélék
+Zöldség. gyümölcs	Saláta	Saláta	Spenót
+Zöldség. gyümölcs	Gyümölcsök	Egzotikus gyümölcsök	Mangó
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Magvak és keverékek	Diófélék
+Zöldség. gyümölcs	Zöldségek	Fűszernövény és friss chili	Cserepes fűszernövény
+Zöldség. gyümölcs	Gyümölcsök	Csonthéjas gyümölcsök	Szilva
+Zöldség. gyümölcs	Gyümölcsök	Citrusok	Grapefruit
+Zöldség. gyümölcs	Zöldségek	Karalábé, fehérrépa, retek, cékla	Karalábé és ferhérrépa
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Aszalt gyümölcs	Banán
+Zöldség. gyümölcs	Zöldségek	Uborka	Uborka
+Zöldség. gyümölcs	Gyümölcsök	Citrusok	Citrom
+Zöldség. gyümölcs	Gyümölcsök	Citrusok	Narancs
+Zöldség. gyümölcs	Gyümölcsök	Szőlő	Szőlő mixek
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Magvak és keverékek	Kesudió
+Zöldség. gyümölcs	Gyümölcsök	Egzotikus gyümölcsök	Kiwi
+Zöldség. gyümölcs	Zöldségek	Fűszernövény és friss chili	Friss chili
+Zöldség. gyümölcs	Zöldségek	Paradicsom	Koktélparadicsom
+Zöldség. gyümölcs	Zöldségek	Hagyma és fokhagyma	Vöröshagyma
+Zöldség. gyümölcs	Zöldségek	Szezonális zöldségek	Egyéb szezonális zöldség
+Zöldség. gyümölcs	Zöldségek	Karalábé, fehérrépa, retek, cékla	Cékla
+Zöldség. gyümölcs	Zöldségek	Karalábé, fehérrépa, retek, cékla	Retek
+Zöldség. gyümölcs	Zöldségek	Káposztafélék	Kelkáposzta
+Zöldség. gyümölcs	Gyümölcsök	Egzotikus gyümölcsök	Avokádó
+Zöldség. gyümölcs	Zöldségek	Paprika	Sárga paprika
+Zöldség. gyümölcs	Zöldségek	Paprika	Piros paprika
+Zöldség. gyümölcs	Zöldségek	Brokkoli és karfiol	Karfiol
+Zöldség. gyümölcs	Zöldségek	Brokkoli és karfiol	Brokkoli
+Zöldség. gyümölcs	Gyümölcsök	Citrusok	Mandarin
+Zöldség. gyümölcs	Aszalványok, magvak és keverékek	Magvak és keverékek	Egyéb magvak
+Zöldség. gyümölcs	Zöldségek	Káposztafélék	Vöröskáposzta

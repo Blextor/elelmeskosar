@@ -1,0 +1,43 @@
+Lehessen termékekre keresni név alapján (névalapú keresés -> Nkeres)
+Lehessen termékeket keresni menüpontokon/kategóriákon majd görgetéssel (kategóriás keresés -> Kkeres)
+
+Egy termékről legyen leírva: név, márka,
+                             csomagolás mérete (ha nincs akkor az egységár mértékegysége),
+                             egységár, aktuális kedvezmény mértéke, aktuális kedvezmény vége
+                             Végül egy leírás: (kidolgozás alatt, pl. származási ország, rövidebb/hosszabb leírás)
+
+Egy terméket vizsgálva teljes képernyőn és keresés közben is lehessen kosárba tenni.
+Kosárba helyezésnek több módja is van:
+    Ha darabszámra megy, akkor fel- le léptetés, konkrét szám, vagy 1 darab esetén a leléptetés helyett törlés
+        illetve mindig van törlés
+    Ha kg-ra vagy literre megy, akkor csak konkrét érték adható meg, illetve a törlés marad
+Kosárba helyezett termékeket lehessen törölni, vagy 1 darab esetén a darab csökkentése helyett a törlés gomb legyen.
+
+A kosár tartalmának megvásárlására nincs lehetőség.
+A kosár tartalmáról kiírja, hogy melyik boltok azok, melyekben az összes termék a listán kapható.
+A kosár a leheséges boltokat összehasonlítja a kosár értéke alapján, százalékos és teljes különbséget is kiírva.
+
+Lehessen kedvenc/"közelemben van" boltokat kiválasztani a profilban. (KB ~ kedvenc bolt)
+A kosár azon termékeit melyet minden KB is forgalmaz, azokat összehasonlítja és szintén kiírja a boltok közti különbséget.
+
+Legyen egy oldal, ahol az egyes boltok azon termékei kerülnek felsorolásra, amik náluk a legolcsóbb a többi bolthoz képest.
+Ezt lehessen szűrni a KB-kra és a nem "sajátmárkás" termékekre, azaz ahol van összehasonlítási alap. (SMT ~ "sajátmárkás termék")
+
+
+A Kkeresnél lehessen az egységár szerint sorbarendezni, ahogy ár szerint is, növekvő és csökkenő sorrendbe.
+Az Nkeresnél is lehessen.
+kersésnél:
+    Lehessen szűrni a csomagolás méretére, checkbox-ok és tól-ig segítségével.
+    Lehessen szűrni a márkákra, checkbox-ok.
+    Lehessen szűrni a boltokra, checkbox-ok + KB-k.
+    Lehessen szűrni akciósra, radio (igen, nem, mindkettő).
+    Lehessen szűrni árra.
+    ? készlet
+
+Kkeresnél ezen felül lehessen:
+    kategória specifikus szűrőket használni (példa: tej -> 1.5%, 2.8% vagy 3.5%)
+
+
+ok
+
+

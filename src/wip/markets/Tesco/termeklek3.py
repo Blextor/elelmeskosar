@@ -7,10 +7,10 @@ from datetime import timedelta
 # ----------- Állítsd be ezeket -----------
 
 # A bemeneti fájl (egy sor = egy ID)
-input_file = "csak_id_k_lista3.csv"
+input_file = "csak_id_k_lista2.csv"
 
 # A kimeneti fájl
-output_file = "termekek_adata.csv"
+output_file = "termekek_adata_full.csv"
 
 start_index = 0  # innen indul újra, pl. ha megszakadt
 
@@ -32,7 +32,7 @@ headers = {
 
 query = ""
 if True:
-    query = """query GetProduct($tpnc: String, $skipReviews: Boolean!, $offset: Int, $count: Int, $sellersType: SellersAttribute) {
+    query = """query GetProduct($tpnc: String, $sellersType: SellersAttribute) {
   product(tpnc: $tpnc) {
     id
     baseProductId
@@ -337,9 +337,7 @@ def create_payload(product_id):
             "includeVariations": True,
             "includeFulfilment": False,
             "tpnc": product_id,
-            "skipReviews": False,
-            "offset": 0,
-            "count": 10
+            "skipReviews": False
         },
         "extensions": {
             "mfeName": "mfe-pdp"

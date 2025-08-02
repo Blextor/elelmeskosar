@@ -1,0 +1,35 @@
+Minden üzletre kell egy leírás, hogy miként lehet letölteni az adatait.
+Végcél, hogy 1 skript-et futtatva le lehessen tölteni az adatokat egy adott üzletnek.
+Azt követően, hogy minden üzlet adatát le lehessen tölteni egy script-tel.
+
+Leírás részeként tartalmazni kell:
+    Milyen skripteket kell futtatni milyen paraméterezéssel.
+    Milyen adatokat kapunk egyes fázisokban.
+    / Az adott fázisoknak mi a célja.
+    Hogy mikor kell futtatni a skriptek-et.
+    Milyen esetekben tud elhasalni a kód.
+    Kis magyarázat a kódok késleltetéseiről.
+
+Célja, hogy egy egységes formátumú .csv fájlt kapjunk minden üzletre.
+Lehetőleg minden közbülső, de a végtermék, a .csv fájl dátummal és időponttal legyen ellátva.
+
+A .csv fájl mezői:
+    Üzlet neve, (szükséges) string
+    ID (üzlet szinten), (szükséges) string
+    Termék neve, (szükséges) string
+    Márka neve, (opcionális) string
+    Elérhető-e, (opcionális) bool
+    Várhatóan mikor lesz, (opcionális) string
+    Vonalkód, (opcionális) int
+    Egységára, (szükséges) int
+    Egysége, (szükséges) (liter, kiló, darab, csomag) enum
+    Egység lépésköze, (opcionális) int
+    Kedvezményes, (opcionális) bool
+    Nem kedvezményes egységár, (opcionális) int
+    Másodlagos egységára, (opconális) int
+    Másodlagos egysége, (opcionális) enum
+    Másodlagos egység lépésköze, (opcionális) int
+    Képek url-je, (opcionális) string list
+    Leírás / Részletek, (opcionális) string
+    Kategóriák, (szükséges) string list
+    Tulajdonságok, (opcionális) string list

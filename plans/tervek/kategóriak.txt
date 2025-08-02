@@ -1,0 +1,6 @@
+Kellene egy saját kategória rendszer
+Gyümölcs
+    Alma
+    Banán
+    ...
+Zöldség
