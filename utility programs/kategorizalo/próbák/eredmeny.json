@@ -1,30 +1,1922 @@
 [
   {
     "termek": {
-      "nev": "Tej 2.8%",
-      "kiszereles": "1L",
-      "bolti_kategoria": "Tejtermékek",
-      "kep_url": "https://digitalcontent.api.tesco.com/v2/media/ghs/061c5bfe-d3aa-4ea2-b135-27c0d1acb544/92922af8-14c9-4c0e-80ff-eb39b15c0e26_238181492.jpeg?h=960&w=960"
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813d97",
+      "product_name": "Golden alma lédig",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999541221775",
+      "unit_price": "127.35",
+      "unit_type": "g",
+      "unit_step": "150.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/5957a904-0baa-11ef-859b-7248709ff226_37897000.jpg;https://imageproxy.wolt.com/assets/678e0e1bdaf01e7f1ad1ae47",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/5957a904-0baa-11ef-859b-7248709ff226_37897000.jpg",
+      "categories__show": "alma-es-korte-7"
     },
-    "fokategoria": "Tejtermékek és tojás",
-    "alkategoria": "Tej",
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Alma",
     "altipus": "",
-    "tulajdonsagok": {},
-    "kategoria_hash": "8fc4161810d5e495f4bf7f02c1bf9092cc97290b4ff2daea3691534abcc7edf2",
-    "statusz": "kész"
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Golden"
+      ],
+      "színe": [
+        "zöld"
+      ]
+    },
+    "kategoria_hash": "4dd8c49111fcf68b2d1014058dff2477d66980a58f37d3579f7cd1adc1bcf9fc",
+    "statusz": "kesz"
   },
   {
     "termek": {
-      "nev": "Túró Rudi",
-      "kiszereles": "30g",
-      "bolti_kategoria": "Édességek",
-      "kep_url": "https://digitalcontent.api.tesco.com/v2/media/ghs/7120ee01-d99e-4114-baf8-e642b5a9c3ae/a31154ae-ef1c-4553-8e9a-ebfdf3c24983_60105373.jpeg?h=960&w=960"
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813d80",
+      "product_name": "Idared alma lédig",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999541221706",
+      "unit_price": "127.35",
+      "unit_type": "g",
+      "unit_step": "150.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/8d960634-0baa-11ef-ab80-f2a986b53070_66573005.jpg;https://imageproxy.wolt.com/assets/678e0e1bdaf01e7f1ad1ae43",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/8d960634-0baa-11ef-ab80-f2a986b53070_66573005.jpg",
+      "categories__show": "alma-es-korte-7"
     },
-    "fokategoria": "Tejtermékek és tojás",
-    "alkategoria": "Tejdesszert, puding",
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Alma",
     "altipus": "",
-    "tulajdonsagok": {},
-    "kategoria_hash": "ae1160ce70710c98aead04d93a8167ae62735d1cda47344b58e19c5b06582183",
-    "statusz": "kész"
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Idared"
+      ],
+      "színe": [
+        "piros"
+      ]
+    },
+    "kategoria_hash": "c67e68501103299a0c609ba61a19355cc34a4818b3c90d5ec5195e1cf4548e70",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813d93",
+      "product_name": "Jonagored alma lédig",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999541221713",
+      "unit_price": "127.35",
+      "unit_type": "g",
+      "unit_step": "150.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/9a905cea-0baa-11ef-9f4b-06b29dded32a_71787008.jpg;https://imageproxy.wolt.com/assets/678e0e1bdaf01e7f1ad1ae45",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/9a905cea-0baa-11ef-9f4b-06b29dded32a_71787008.jpg",
+      "categories__show": "alma-es-korte-7"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Alma",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Jonagored"
+      ],
+      "színe": [
+        "piros",
+        "sárga"
+      ]
+    },
+    "kategoria_hash": "176c6124f1f0ee416eae1183468b3ab4dad6454c008f264cd44e2b57facc625a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813db7",
+      "product_name": "Red Jonaprince alma lédig",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "8591189961869",
+      "unit_price": "149.85",
+      "unit_type": "g",
+      "unit_step": "150.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/0d9a6974-0bab-11ef-9e41-4243685af4ac_285396003.jpg;https://imageproxy.wolt.com/assets/678e0e1bdaf01e7f1ad1ae42",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/0d9a6974-0bab-11ef-9e41-4243685af4ac_285396003.jpg",
+      "categories__show": "alma-es-korte-7"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Alma",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Red Jonaprince"
+      ],
+      "színe": [
+        "piros",
+        "sárga"
+      ]
+    },
+    "kategoria_hash": "560698688494730917320853fda3e250a796d5f290b21a45797575c007507156",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0814043",
+      "product_name": "Körte Conference kg",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "8591189962385",
+      "unit_price": "209.85",
+      "unit_type": "g",
+      "unit_step": "150.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/81be50fe-5976-11ef-a29c-9a17daacd02a_image__31_.jpg",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/81be50fe-5976-11ef-a29c-9a17daacd02a_image__31_.jpg",
+      "categories__show": "alma-es-korte-7"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Körte",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Conference"
+      ]
+    },
+    "kategoria_hash": "4577517281b80d0dd3e2b4556865b2e0880608eaa8190847aa11a7d5f8a00021",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0814237",
+      "product_name": "S-Budget körte 1 kg",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999139400766",
+      "unit_price": "1099.0",
+      "unit_type": "g",
+      "unit_step": "1000.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/667688cab669ac6c8eaedc2f;https://imageproxy.wolt.com/assets/667688cbb669ac6c8eaedc32",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://imageproxy.wolt.com/assets/667688cab669ac6c8eaedc2f",
+      "categories__show": "alma-es-korte-7"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Körte",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Egyéb"
+      ]
+    },
+    "kategoria_hash": "b7f9d6c95f1933f85dca1caf2e3b82b1d99ebbfb339f69aa0901f0dda3c66712",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "67ad25f31af9fcb37887c1b2",
+      "product_name": "ALMA PINK LADY KG",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "8585015406594",
+      "unit_price": "224.85",
+      "unit_type": "g",
+      "unit_step": "150.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/0bae7f08-0ee6-11f0-931e-9a347a09c22a_357115006.jpg",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/0bae7f08-0ee6-11f0-931e-9a347a09c22a_357115006.jpg",
+      "categories__show": "alma-es-korte-7"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Alma",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Pink Lady"
+      ],
+      "színe": [
+        "piros"
+      ]
+    },
+    "kategoria_hash": "4bc176a35e0b10229139a295828923d9113751e71fdf4c935a7705ec9a8a1ea9",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "67bf8f6b31caa9252d5518a6",
+      "product_name": "Alma idared 4db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "",
+      "unit_price": "795.0",
+      "unit_type": "db",
+      "unit_step": "4.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/055d6890-145d-11f0-a3de-569a15afc9a9_313659001.jpg",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/055d6890-145d-11f0-a3de-569a15afc9a9_313659001.jpg",
+      "categories__show": "alma-es-korte-7"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Alma",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Idared"
+      ],
+      "színe": [
+        "piros"
+      ]
+    },
+    "kategoria_hash": "77617bbab556700b9828ac47415d20989b5eaf4cbec014f7e4a9841bfa81d232",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "688bdc88f6c7a553faf61e60",
+      "product_name": "Alma crimson snow kg",
+      "brand_name": "",
+      "available": "False",
+      "expected_restock": "",
+      "barcode": "",
+      "unit_price": "1399.0",
+      "unit_type": "g",
+      "unit_step": "1000.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/f39d5028-6e04-11f0-89eb-326ae7e8d9ab_530251002.jpg",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/f39d5028-6e04-11f0-89eb-326ae7e8d9ab_530251002.jpg",
+      "categories__show": "alma-es-korte-7"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Alma",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Crimson Snow"
+      ],
+      "színe": [
+        "piros"
+      ]
+    },
+    "kategoria_hash": "c6428b7f22213b45b55c51e02e106a80c7608c27f15cbdee7b81c7eb09f7376d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "688bdc88f6c7a553faf61c45",
+      "product_name": "Abate Fetel körte lédig",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "8586015391361",
+      "unit_price": "1399.0",
+      "unit_type": "db",
+      "unit_step": "1.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/66759de7e98c4a1a5c63f6ae",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://imageproxy.wolt.com/assets/66759de7e98c4a1a5c63f6ae",
+      "categories__show": "alma-es-korte-7"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Körte",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Abate Fetel"
+      ]
+    },
+    "kategoria_hash": "68c6e521d2bc3a0c51d5a702de5d4a6ad28a4dc6c2094437f8cb3c7767ca3d99",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "688bdc88f6c7a553faf61e62",
+      "product_name": "Alma joya 4db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "",
+      "unit_price": "999.0",
+      "unit_type": "db",
+      "unit_step": "4.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/0838134c-6e05-11f0-842d-7e1c366a0547_551779004.jpg",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/0838134c-6e05-11f0-842d-7e1c366a0547_551779004.jpg",
+      "categories__show": "alma-es-korte-7"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Alma",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Joya"
+      ],
+      "színe": [
+        "piros"
+      ]
+    },
+    "kategoria_hash": "18af44c2161d4d3ddd55e46e919ba1111b104e43ffe2079b69ae8982b301fde3",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "688bdc88f6c7a553faf61e64",
+      "product_name": "Körte nashi db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "",
+      "unit_price": "499.0",
+      "unit_type": "db",
+      "unit_step": "1.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/eafe7b72-6e04-11f0-9991-3afe9abc2338_237908001.jpg",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/eafe7b72-6e04-11f0-9991-3afe9abc2338_237908001.jpg",
+      "categories__show": "alma-es-korte-7"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Körte",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Nashi"
+      ]
+    },
+    "kategoria_hash": "faf49f1689572e4ba353bee78982e34342986611c96a686ca5268fa03309b43b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "688bdc88f6c7a553faf61e6f",
+      "product_name": "Körte dazzling gold kg",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "",
+      "unit_price": "1399.0",
+      "unit_type": "g",
+      "unit_step": "1000.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/f39d7f12-6e04-11f0-83a5-7e6769932a85_536889001.jpg",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/f39d7f12-6e04-11f0-83a5-7e6769932a85_536889001.jpg",
+      "categories__show": "alma-es-korte-7"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Körte",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Dazzling"
+      ]
+    },
+    "kategoria_hash": "f0041b0e2905029f9d7b4ff0b3cafd93e8a63b7f923ff06f1f323efdd043cc79",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08127f9",
+      "product_name": "Érett mangó 1 db",
+      "brand_name": "",
+      "available": "False",
+      "expected_restock": "",
+      "barcode": "5999500670897",
+      "unit_price": "1499.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "db",
+      "secondary_unit_step": "1.0",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675dc9ce98c4a1a5c641b4d",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675dc9ce98c4a1a5c641b4d",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Egzotikus",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "0690244fe2e8f8c76db62ffdf71ff247546074fc7b0aaf5f665ae78286492abe",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "688bdc88f6c7a553faf61e74",
+      "product_name": "Körte dazzling gold 4db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "",
+      "unit_price": "995.0",
+      "unit_type": "db",
+      "unit_step": "4.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/10581860-6e05-11f0-81ea-0e439a17bb02_552704005.jpg",
+      "description": "",
+      "categories": "alma-es-korte-7",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/10581860-6e05-11f0-81ea-0e439a17bb02_552704005.jpg",
+      "categories__show": "alma-es-korte-7"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Körte",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "Dazzling"
+      ]
+    },
+    "kategoria_hash": "c7da3ed9eeccb9a01f939ecd49c141b3ff4a1d70a5ddab9eadb0060241cf015c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813433",
+      "product_name": "Piros szőlő 500 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "8585015405801",
+      "unit_price": "1399.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675dc99e98c4a1a5c641b48",
+      "description": "",
+      "categories": "szolo-es-bogyos-gyumolcsok-8",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675dc99e98c4a1a5c641b48",
+      "categories__show": "szolo-es-bogyos-gyumolcsok-8"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Szőlő",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "színe": [
+        "piros"
+      ],
+      "magnélküli": false
+    },
+    "kategoria_hash": "ecb6d527d2fdb66355742149eda29af63ab26618f3151ab768530729c42cd599",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0814062",
+      "product_name": "Szeder 125g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999541221683",
+      "unit_price": "999.0",
+      "unit_type": "g",
+      "unit_step": "125.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e1fdaf01e7f1ad1ae4a",
+      "description": "",
+      "categories": "szolo-es-bogyos-gyumolcsok-8",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e1fdaf01e7f1ad1ae4a",
+      "categories__show": "szolo-es-bogyos-gyumolcsok-8"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Szeder",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "ec100133a18ac3a059b4321a26cf903ae87d880df009bb0b9593993f329be7fb",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db081406f",
+      "product_name": "Ribizli 125g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999861669172",
+      "unit_price": "799.0",
+      "unit_type": "g",
+      "unit_step": "125.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e1fdaf01e7f1ad1ae4b",
+      "description": "",
+      "categories": "szolo-es-bogyos-gyumolcsok-8",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e1fdaf01e7f1ad1ae4b",
+      "categories__show": "szolo-es-bogyos-gyumolcsok-8"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Egyéb gyümölcs",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "6e9bff8815ef314151d4816424e2a0c9f3749d697b3cddce8679830429f79f38",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db081415e",
+      "product_name": "EPER 400g",
+      "brand_name": "",
+      "available": "False",
+      "expected_restock": "",
+      "barcode": "5999861669233",
+      "unit_price": "1399.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e1fdaf01e7f1ad1ae4e",
+      "description": "",
+      "categories": "szolo-es-bogyos-gyumolcsok-8",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e1fdaf01e7f1ad1ae4e",
+      "categories__show": "szolo-es-bogyos-gyumolcsok-8"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Eper",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "4e34828a00b0bdce333fc64d9b940a0342ad214e196530ef55266b21f9092271",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "67ad25f31af9fcb37887c1dd",
+      "product_name": "Magnélküli fehér szőlő 500 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5998899780002",
+      "unit_price": "1199.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675dc7c1b708918eb6e26b9",
+      "description": "",
+      "categories": "szolo-es-bogyos-gyumolcsok-8",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675dc7c1b708918eb6e26b9",
+      "categories__show": "szolo-es-bogyos-gyumolcsok-8"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Szőlő",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "színe": [
+        "fehér"
+      ],
+      "magnélküli": true
+    },
+    "kategoria_hash": "b402719154d7ce612b2eeeca7bdb26b5aa8686b349df25ae56be90e6b458749f",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "67ad25f31af9fcb37887c1d4",
+      "product_name": "MÁLNA 125G",
+      "brand_name": "",
+      "available": "False",
+      "expected_restock": "",
+      "barcode": "",
+      "unit_price": "999.0",
+      "unit_type": "g",
+      "unit_step": "125.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/fe7c5144-145c-11f0-8bde-d61f747f62cf_246448000.jpg",
+      "description": "",
+      "categories": "szolo-es-bogyos-gyumolcsok-8",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/fe7c5144-145c-11f0-8bde-d61f747f62cf_246448000.jpg",
+      "categories__show": "szolo-es-bogyos-gyumolcsok-8"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Málna",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "87a8ac93062595839022d9c729ca72d158d2c898e4b12df28eb7af656a5201bc",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "688bdc88f6c7a553faf61c0f",
+      "product_name": "SPAR Hazai Szeretem áfonya 125 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999861669035",
+      "unit_price": "899.0",
+      "unit_type": "g",
+      "unit_step": "125.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/66768928d8b6b903a560072a;https://imageproxy.wolt.com/assets/66768929d88b3e741b73e0a6",
+      "description": "",
+      "categories": "szolo-es-bogyos-gyumolcsok-8",
+      "kep_url": "https://imageproxy.wolt.com/assets/66768928d8b6b903a560072a",
+      "categories__show": "szolo-es-bogyos-gyumolcsok-8"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Áfonya",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "f7eb5cd5a71db88d58894ec52b3b80d93486805353202aefe81026344831bb0e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0812a0f",
+      "product_name": "Mézdinnye db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5998470509190",
+      "unit_price": "1199.0",
+      "unit_type": "db",
+      "unit_step": "1.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/66759d8be98c4a1a5c63f62c",
+      "description": "",
+      "categories": "dinnyek-9",
+      "kep_url": "https://imageproxy.wolt.com/assets/66759d8be98c4a1a5c63f62c",
+      "categories__show": "dinnyek-9"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Sárgadinnye",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "típus": [
+        "mézdinnye"
+      ]
+    },
+    "kategoria_hash": "209c97697dc2e1f852ae36066b4053fc38fbe4af770bedcaae6e879f9b2d705d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813d90",
+      "product_name": "Banán lédig",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "8591189960848",
+      "unit_price": "139.8",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/7f4cd922-0baa-11ef-a140-6ea935bd3b5a_106135002.jpg;https://imageproxy.wolt.com/assets/678e0e1e4b2b7137a212e3bc",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/7f4cd922-0baa-11ef-a140-6ea935bd3b5a_106135002.jpg",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Banán",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "b95c7b093aed3c78ac072024b7ed0f50dc61e26bed411758dc5961428fb2dde0",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08129ef",
+      "product_name": "Mangó db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5998899710191",
+      "unit_price": "599.0",
+      "unit_type": "db",
+      "unit_step": "1.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/66759d8b1b708918eb6e01b6",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://imageproxy.wolt.com/assets/66759d8b1b708918eb6e01b6",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Egzotikus",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "0690244fe2e8f8c76db62ffdf71ff247546074fc7b0aaf5f665ae78286492abe",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08127ef",
+      "product_name": "Avocado db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5998899710214",
+      "unit_price": "299.0",
+      "unit_type": "db",
+      "unit_step": "1.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/66759d851b708918eb6e01af",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://imageproxy.wolt.com/assets/66759d851b708918eb6e01af",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Egzotikus",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "0690244fe2e8f8c76db62ffdf71ff247546074fc7b0aaf5f665ae78286492abe",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813dc7",
+      "product_name": "Ananász",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "8585015403968",
+      "unit_price": "1199.0",
+      "unit_type": "db",
+      "unit_step": "1.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e1edaf01e7f1ad1ae49",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e1edaf01e7f1ad1ae49",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Ananász",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "ed4737a213faa249f3a0b3f33101297b9514ba950737bebcde0c2d742871ee74",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813283",
+      "product_name": "Passiogyümölcs 2 db",
+      "brand_name": "",
+      "available": "False",
+      "expected_restock": "",
+      "barcode": "5999500672440",
+      "unit_price": "999.0",
+      "unit_type": "db",
+      "unit_step": "2.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675dcf3d8b6b903a55fa83c",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675dcf3d8b6b903a55fa83c",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Egzotikus",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "3ef71488919faf266d061dfc059a3263cbbd8789af1edf44202edf5e164fe821",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813dcf",
+      "product_name": "Érett avokádó 2 db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "8717472720023",
+      "unit_price": "1199.0",
+      "unit_type": "db",
+      "unit_step": "2.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e1edaf01e7f1ad1ae48",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e1edaf01e7f1ad1ae48",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Egzotikus",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "3ef71488919faf266d061dfc059a3263cbbd8789af1edf44202edf5e164fe821",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813dbe",
+      "product_name": "Kókuszdió db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "2003478650034",
+      "unit_price": "499.0",
+      "unit_type": "db",
+      "unit_step": "1.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e22daf01e7f1ad1ae51",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e22daf01e7f1ad1ae51",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Egzotikus",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "cfc3f746304e59720f1c8cd36c27b2d5631e763bfb9e998352a1f7f9a1567c8c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813025",
+      "product_name": "Avokádó zsákban 750 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999500673157",
+      "unit_price": "1299.0",
+      "unit_type": "g",
+      "unit_step": "750.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675dc721b708918eb6e26ae",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675dc721b708918eb6e26ae",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Egzotikus",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "3ef71488919faf266d061dfc059a3263cbbd8789af1edf44202edf5e164fe821",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db081400c",
+      "product_name": "KIWI DB",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999885669981",
+      "unit_price": "249.0",
+      "unit_type": "db",
+      "unit_step": "1.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e22daf01e7f1ad1ae53",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e22daf01e7f1ad1ae53",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Kiwi",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "f37178ff83392f39a221d1b4b2d0e0f2261a42bd476000250c54c286b32f07be",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08140a4",
+      "product_name": "Főzőbanán lédig",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "2003348930020",
+      "unit_price": "339.8",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/182deba0-5a74-11ef-9d17-c62212a104f1_tb_main__2_.jpg",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/182deba0-5a74-11ef-9d17-c62212a104f1_tb_main__2_.jpg",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Banán",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "b95c7b093aed3c78ac072024b7ed0f50dc61e26bed411758dc5961428fb2dde0",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "688bdc88f6c7a553faf61e5f",
+      "product_name": "Banán bandázsolt 5db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "",
+      "unit_price": "499.0",
+      "unit_type": "db",
+      "unit_step": "5.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/f3c40ea2-6e04-11f0-89dd-da5a3ecfde14_538392004.jpg",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/f3c40ea2-6e04-11f0-89dd-da5a3ecfde14_538392004.jpg",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Banán",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "63bf69a5bec5c14aa8b1755fd12030f6a990ebb9f06678422f92a61368c87e8a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "688bdc88f6c7a553faf61e5b",
+      "product_name": "Ananász extra méretű db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "",
+      "unit_price": "3499.0",
+      "unit_type": "db",
+      "unit_step": "1.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/efa5ffc4-6e04-11f0-a11a-326ae7e8d9ab_520153002.jpg",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/efa5ffc4-6e04-11f0-a11a-326ae7e8d9ab_520153002.jpg",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Ananász",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "ed4737a213faa249f3a0b3f33101297b9514ba950737bebcde0c2d742871ee74",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "688bdc88f6c7a553faf61e6c",
+      "product_name": "Mangó extra méretű db",
+      "brand_name": "",
+      "available": "False",
+      "expected_restock": "",
+      "barcode": "",
+      "unit_price": "1299.0",
+      "unit_type": "db",
+      "unit_step": "1.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/efe2b16c-6e04-11f0-b439-426012547b6a_518220006.jpg",
+      "description": "",
+      "categories": "egzotikus-es-deligyumolcs-10",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/efe2b16c-6e04-11f0-b439-426012547b6a_518220006.jpg",
+      "categories__show": "egzotikus-es-deligyumolcs-10"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Egzotikus",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "3ef71488919faf266d061dfc059a3263cbbd8789af1edf44202edf5e164fe821",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0812821",
+      "product_name": "Piros grapefruit lédig",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5998681781255",
+      "unit_price": "899.0",
+      "unit_type": "db",
+      "unit_step": "1.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675e156b669ac6c8eae819c",
+      "description": "",
+      "categories": "citrusfelek-11",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675e156b669ac6c8eae819c",
+      "categories__show": "citrusfelek-11"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Grapefruit",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "e18bd070f6280a2bb6c0655606edb84d5bcb58f9bc77bfd9e4701d469d457720",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813d88",
+      "product_name": "Citrom lédig",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "2000673020006",
+      "unit_price": "209.85",
+      "unit_type": "g",
+      "unit_step": "150.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/6cfcb120-0baa-11ef-96dc-dab86841debb_67302000.jpg;https://imageproxy.wolt.com/assets/678e0e224b2b7137a212e3be",
+      "description": "",
+      "categories": "citrusfelek-11",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/6cfcb120-0baa-11ef-96dc-dab86841debb_67302000.jpg",
+      "categories__show": "citrusfelek-11"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Citrom",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "kezeletlen héjú": false
+    },
+    "kategoria_hash": "87b8347081b0d6197cde4a03236ad2364535e75bcf8438e7f8d24ac2d254cf9c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813da2",
+      "product_name": "Mandarin lédig",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "2002404080006",
+      "unit_price": "219.8",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/aa983464-0baa-11ef-b79c-1ad4fd2376a6_240408000.jpg;https://imageproxy.wolt.com/assets/678e0e224b2b7137a212e3c0",
+      "description": "",
+      "categories": "citrusfelek-11",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/aa983464-0baa-11ef-b79c-1ad4fd2376a6_240408000.jpg",
+      "categories__show": "citrusfelek-11"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Mandarin",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "magnélküli": false
+    },
+    "kategoria_hash": "7a5fe23d9d56cb36523eef038226077934d0e07d3e333a387e5e7a63a07d5cbe",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813dac",
+      "product_name": "Lime 3 db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999886695347",
+      "unit_price": "549.0",
+      "unit_type": "db",
+      "unit_step": "3.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e22daf01e7f1ad1ae52",
+      "description": "",
+      "categories": "citrusfelek-11",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e22daf01e7f1ad1ae52",
+      "categories__show": "citrusfelek-11"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Lime",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "87d91717d783d8547dc444023e1f0bd21270465fd0b303aa7fc2f93bde538a76",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813da1",
+      "product_name": "Lime db",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "2002787920036",
+      "unit_price": "169.0",
+      "unit_type": "db",
+      "unit_step": "1.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e22daf01e7f1ad1ae50",
+      "description": "",
+      "categories": "citrusfelek-11",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e22daf01e7f1ad1ae50",
+      "categories__show": "citrusfelek-11"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Lime",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false
+    },
+    "kategoria_hash": "3be9d106052c04715ac1a16cd3344aa0087b0efd77330038e3e1b24fec6625c3",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813dad",
+      "product_name": "S-Budget narancs 2 kg",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999033852715",
+      "unit_price": "1999.0",
+      "unit_type": "g",
+      "unit_step": "2000.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e23daf01e7f1ad1ae56",
+      "description": "",
+      "categories": "citrusfelek-11",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e23daf01e7f1ad1ae56",
+      "categories__show": "citrusfelek-11"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Narancs",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban",
+        "lédig"
+      ],
+      "bio": false,
+      "hazai": false,
+      "kezeletlen héjú": false,
+      "fajta": [
+        "Egyéb"
+      ]
+    },
+    "kategoria_hash": "de457d2bb153343b19d0ebad11dd07a2bf7b6d3dcaf339efd5a4f432dbf92e7a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0814217",
+      "product_name": "S-BUDGET citrom 500G",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "8412345678905",
+      "unit_price": "719.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e24daf01e7f1ad1ae5b",
+      "description": "",
+      "categories": "citrusfelek-11",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e24daf01e7f1ad1ae5b",
+      "categories__show": "citrusfelek-11"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Citrom",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "kezeletlen héjú": false
+    },
+    "kategoria_hash": "352f6e0a62bfd628396fcc1e178c530ce2aa9b896d746aa6eccd2a6f87a21cef",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "67ad25f31af9fcb37887c1dc",
+      "product_name": "CITROM KEZELETLEN HÉJÚ 400G",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999883976050",
+      "unit_price": "849.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/54eef0e8-0ef1-11f0-b7f9-62dd2d0db0ba_485382004.png",
+      "description": "",
+      "categories": "citrusfelek-11",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6630bf2d2af684d052fdff63/54eef0e8-0ef1-11f0-b7f9-62dd2d0db0ba_485382004.png",
+      "categories__show": "citrusfelek-11"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Citrom",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "kezeletlen héjú": true
+    },
+    "kategoria_hash": "f8d3342422ad24da6171881521cd0e21ec2aa7a35d9d38c75a2425f486f15dbe",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "67bf8f6b31caa9252d5518b5",
+      "product_name": "SPAR Natur*Pur bio citrom 500G",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "",
+      "unit_price": "1199.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/1478ec66-f354-11ef-811e-9a9c9a7bd179_wst__prefixcitrom__2_.jpg",
+      "description": "",
+      "categories": "citrusfelek-11",
+      "kep_url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66544565d6a91b4d1392d750/1478ec66-f354-11ef-811e-9a9c9a7bd179_wst__prefixcitrom__2_.jpg",
+      "categories__show": "citrusfelek-11"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Citrom",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": true,
+      "hazai": false,
+      "kezeletlen héjú": true
+    },
+    "kategoria_hash": "48cb10479b95e6dd83e248c1b987a03cd5af3c69f2c626c222fb6bc80a4d7e9b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0812818",
+      "product_name": "Naturfood magozott aszalt szilva 200 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997664300025",
+      "unit_price": "959.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675e1f8e98c4a1a5c641f4d",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675e1f8e98c4a1a5c641f4d",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Szilva"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "0d2c75e71e919930625c804ca96c20c9b1f5d945d452941a9168aa82a650b60b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0812a82",
+      "product_name": "Naturfood aszalt, édesített vörös áfonya 100 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997664300087",
+      "unit_price": "579.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/67d946a82b8a9636c02696f2",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/67d946a82b8a9636c02696f2",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Vörösáfonya"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "b07965260b377dad0ebd4f75ccdf3f1b117e0807bafed31e5212a9b8fd16496e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0812eb1",
+      "product_name": "Naturfood aszalt ananász 80 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997664301596",
+      "unit_price": "889.0",
+      "unit_type": "g",
+      "unit_step": "80.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675e88088898805c8089957",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675e88088898805c8089957",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Ananász"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "e1860c0299384a3865edd5ef9994144f76e020a4c601d662ad20d260c2b53b23",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0812ffa",
+      "product_name": "SPAR cukrozott, aszalt vörös áfonya 100 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999033864985",
+      "unit_price": "529.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675de761b708918eb6e27f2;https://imageproxy.wolt.com/assets/6675de76e98c4a1a5c641c4f",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675de761b708918eb6e27f2",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Vörösáfonya"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "b07965260b377dad0ebd4f75ccdf3f1b117e0807bafed31e5212a9b8fd16496e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0812ff2",
+      "product_name": "SPAR magozott aszalt sárgabarack 200 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999033864961",
+      "unit_price": "1399.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675dfd61b708918eb6e28c1;https://imageproxy.wolt.com/assets/6675dfd71b708918eb6e28c2",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675dfd61b708918eb6e28c1",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Barack"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "69aff9679415d32bed13b710a8d6ee0d54a440597c83b82233f64d84bc037d66",
+    "statusz": "kesz"
   }
 ]
