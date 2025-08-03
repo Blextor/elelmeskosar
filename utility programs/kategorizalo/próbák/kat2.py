@@ -96,7 +96,7 @@ class TermekTagger:
         termek = self.termekek[idx]
         self.nev_label.config(text=f"{termek['nev']} ({termek['kiszereles']})")
         # Kép betöltés (helyi cache!)
-        kep_path = f"kepek/{os.path.basename(termek['kep_url'])}"
+        kep_path = f"próbák/kepek/{os.path.basename(termek['kep_url'])}"
         if not os.path.exists(kep_path):
             try:
                 response = requests.get(termek['kep_url'])
