@@ -194,18 +194,44 @@
     "tulajdonságok": {},
     "alkategóriák": {
       "Paradicsom": {
-        "tulajdonságok": {},
+        "tulajdonságok": {
+          "fürtös" : {},
+          "fajta" : [
+            "Sima", "Szilva", "Koktél", "Bébiszilva",
+            "San Marzano", "Avalantino", "Eper",
+            "Delisher", "Grill", "Bugaci", "Marmanade",
+            "Cherry", "Kumato",
+            "Egyéb"
+          ],
+          "színe" : [
+            "Piros", "Sárga", "Egyéb"
+          ]
+        },
         "altípusok": {}
       },
       "Paprika": {
-        "tulajdonságok": {},
+        "tulajdonságok": {
+          "erős, csípős" : {},
+          "fajta" : [
+            "Sima", "Lecsó", "Kaliforniai", "TV",
+            "Kápia", "Chili", "Jalapeno",
+            "Egyéb"
+          ],
+          "színe" : [
+            "Piros", "Fehér", "Zöld"
+          ]
+        },
         "altípusok": {}
       },
       "Uborka": {
-        "tulajdonságok": {},
+        "tulajdonságok": {
+          "fajta" : [
+            "Kígyúuborka", "Fürtös", "Mini", "Kovászolni való"
+          ]
+        },
         "altípusok": {}
       },
-      "Tökféle, cukkini": {
+      "Tökféle, cukkini, padlizsán": {
         "tulajdonságok": {},
         "altípusok": {}
       },
@@ -213,7 +239,19 @@
         "tulajdonságok": {},
         "altípusok": {}
       },
-      "Fehérrépa, zeller": {
+      "Zeller": {
+        "tulajdonságok": {},
+        "altípusok": {}
+      },
+      "Karalábé": {
+        "tulajdonságok": {},
+        "altípusok": {}
+      },
+      "Fehérrépa": {
+        "tulajdonságok": {},
+        "altípusok": {}
+      },
+      "Retekfélék": {
         "tulajdonságok": {},
         "altípusok": {}
       },
@@ -222,27 +260,65 @@
         "altípusok": {}
       },
       "Káposzta": {
-        "tulajdonságok": {},
+        "tulajdonságok": {
+          "fajta" : [
+            "Kelkáposzta", "Lilakáposzta", "Fejeskáposzta", "Kínai kel",
+            "Egyéb"
+          ]
+        },
         "altípusok": {}
       },
       "Brokkoli": {
         "tulajdonságok": {},
         "altípusok": {}
       },
-      "Karfiol": {
+      "Kelbimbó": {
         "tulajdonságok": {},
         "altípusok": {}
       },
-      "Hagyma": {
-        "tulajdonságok": {},
+      "Karfiol": {
+        "tulajdonságok": {
+          "fajta" : [
+            "Sima", "Sárga", "Lila"
+          ]
+        },
+        "altípusok": {}
+      },
+      "Salátafélék": {
+        "tulajdonságok": {
+          "fajta" : [
+            "Római", "Jég", "Fejes"
+          ]
+        },
+        "altípusok": {}
+      },
+      "Hagymafélék": {
+        "tulajdonságok": {
+          "fajta" : [
+            "Vöröshagyma", "Lilahagyma", "Újhagyma", "Fokhagyma",
+            "Fehérhagyma", "Póréhagyma",
+            "Egyéb"
+          ]
+        },
         "altípusok": {}
       },
       "Burgonya": {
-        "tulajdonságok": {},
+        "tulajdonságok": {
+          "fajta" : [
+            "Édesburgonya", "Étkezési", "Újburgonya"
+          ],
+          "színe" : [
+            "Pirso, Sárga"
+          ]
+        },
         "altípusok": {}
       },
-      "Zöldborsó": {
-        "tulajdonságok": {},
+      "Borsófélék": {
+        "tulajdonságok": {
+          "fajta" : [
+            "Zöldborsó", "Sárgaborsó", "Csicseriborsó"
+          ]
+        },
         "altípusok": {}
       },
       "Kukorica": {
@@ -250,26 +326,34 @@
         "altípusok": {}
       },
       "Bab": {
-        "tulajdonságok": {},
+        "tulajdonságok": {
+          "fajta" : [
+            "Fehérbab", "Tarkabab", "Vörösbab", "Gyöngybab",
+            "Ceruzabab", "Zöldbab", "Mungóbab",
+            "Egyéb"
+          ]
+        },
         "altípusok": {}
       },
       "Lencse": {
-        "tulajdonságok": {},
+        "tulajdonságok": {
+          "fajta" : [
+            "Vörös lencse", "Étkezési lencse", "Zöld lencse",
+            "Egyéb"
+          ]
+        },
         "altípusok": {}
       },
       "Gomba": {
-        "tulajdonságok": {},
-        "altípusok": {}
-      },
-      "Hüvelyesek": {
-        "tulajdonságok": {},
+        "tulajdonságok": {
+          "fajta" : [
+            "Csierke", "Vargánya", "Laska", "Portobello",
+            "Egyéb", "Mix"
+          ]
+        },
         "altípusok": {}
       },
       "Csomagolt saláta, salátatál": {
-        "tulajdonságok": {},
-        "altípusok": {}
-      },
-      "Fűszernövény": {
         "tulajdonságok": {},
         "altípusok": {}
       },
@@ -281,7 +365,7 @@
         "tulajdonságok": {},
         "altípusok": {}
       },
-      "Zöldségkonzerv": {
+      "Zöldségkonzerv/üveges": {
         "tulajdonságok": {},
         "altípusok": {
           "Kukorica": {
