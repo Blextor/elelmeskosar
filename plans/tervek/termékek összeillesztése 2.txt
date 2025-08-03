@@ -24,7 +24,7 @@ A .csv fájl mezői:
     Másodlagos egység lépésköze, (opcionális) int
     Képek url-je, (opcionális) string list
     Leírás / Részletek, (opcionális) string
-    Kategóriák, (szükséges) string list
+    ÜzletSajátKategóriák, (szükséges) string list
     Tulajdonságok, (opcionális) string list
 
 
@@ -41,7 +41,7 @@ Mi az ami közös:
     Másodlagos egysége,
     Másodlagos egység lépésköze,
     Leírás / Részletek,
-    Kategóriák,
+    MesterKategóriák,
     Tulajdonságok,
 
 Mi az ami boltonként egyedi:

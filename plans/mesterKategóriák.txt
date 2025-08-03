@@ -1,0 +1,303 @@
+Főkategória	Alkategória	Altípus
+Gyümölcs	Alma
+Gyümölcs	Körte
+Gyümölcs	Szőlő
+Gyümölcs	Málna
+Gyümölcs	Eper
+Gyümölcs	Meggy
+Gyümölcs	Dinnye
+Gyümölcs	Citrus (narancs, citrom, mandarin, grapefruit)
+Gyümölcs	Banán
+Gyümölcs	Ananász
+Gyümölcs	Kiwi
+Gyümölcs	Gránátalma
+Gyümölcs	Áfonya
+Gyümölcs	Egzotikus (mango, maracuja, papaya, stb.)
+Gyümölcs	Aszalt gyümölcs (mazsola, aszalt szilva, datolya, stb.)
+Gyümölcs	Mix, vegyes
+Gyümölcs	Egyéb gyümölcs
+Gyümölcs	Gyümölcskonzerv	Barack
+Gyümölcs	Gyümölcskonzerv	Meggy
+Gyümölcs	Gyümölcskonzerv	Körte
+Gyümölcs	Gyümölcskonzerv	Ananász
+Gyümölcs	Gyümölcskonzerv	Cseresznye
+Gyümölcs	Gyümölcskonzerv	Vegyes, egyéb
+Zöldség	Paradicsom
+Zöldség	Paprika
+Zöldség	Uborka
+Zöldség	Tökféle, cukkini
+Zöldség	Sárgarépa
+Zöldség	Fehérrépa, zeller
+Zöldség	Cékla
+Zöldség	Káposzta
+Zöldség	Brokkoli
+Zöldség	Karfiol
+Zöldség	Hagyma
+Zöldség	Burgonya
+Zöldség	Zöldborsó
+Zöldség	Kukorica
+Zöldség	Bab
+Zöldség	Lencse
+Zöldség	Gomba
+Zöldség	Hüvelyesek (csicseriborsó, stb.)
+Zöldség	Csomagolt saláta, salátatál
+Zöldség	Fűszernövény
+Zöldség	Mix, vegyes
+Zöldség	Egyéb zöldség
+Zöldség	Zöldségkonzerv	Kukorica
+Zöldség	Zöldségkonzerv	Borsó
+Zöldség	Zöldségkonzerv	Bab
+Zöldség	Zöldségkonzerv	Lencse
+Zöldség	Zöldségkonzerv	Paradicsom
+Zöldség	Zöldségkonzerv	Vegyes, egyéb
+Pékáru	Kenyér	Fehér
+Pékáru	Kenyér	Teljes kiőrlésű
+Pékáru	Kenyér	Magvas
+Pékáru	Kenyér	Gluténmentes
+Pékáru	Kenyér	Kovászos
+Pékáru	Kenyér	Egyéb kenyérféle
+Pékáru	Zsemle
+Pékáru	Kifli
+Pékáru	Bagett
+Pékáru	Sós pékáru	Croissant
+Pékáru	Sós pékáru	Pogácsa
+Pékáru	Sós pékáru	Párnák, táskák
+Pékáru	Édes pékáru	Kalács
+Pékáru	Édes pékáru	Fánk
+Pékáru	Édes pékáru	Muffin
+Pékáru	Édes pékáru	Párnák, táskák, batyuk
+Pékáru	Tartós pékáru	Kétszersült
+Pékáru	Tartós pékáru	Toast kenyér
+Pékáru	Tartós pékáru	Extrudált, puffasztott
+Pékáru	Tartós pékáru	Tortilla, pita, lapkenyér
+Tejtermékek és tojás	Tej
+Tejtermékek és tojás	Növényi ital
+Tejtermékek és tojás	Tejital	Kefir
+Tejtermékek és tojás	Tejital	Író
+Tejtermékek és tojás	Tejital	Kakaó
+Tejtermékek és tojás	Tejital	Jegeskávé
+Tejtermékek és tojás	Tejital	Italjoghurt
+Tejtermékek és tojás	Tejszín
+Tejtermékek és tojás	Tejföl
+Tejtermékek és tojás	Joghurt	Natúr
+Tejtermékek és tojás	Joghurt	Gyümölcsös
+Tejtermékek és tojás	Joghurt	Görög
+Tejtermékek és tojás	Joghurt	Protein
+Tejtermékek és tojás	Joghurt	Laktózmentes
+Tejtermékek és tojás	Túró
+Tejtermékek és tojás	Krémtúró
+Tejtermékek és tojás	Tejdesszert, puding
+Tejtermékek és tojás	Sajt	Kemény
+Tejtermékek és tojás	Sajt	Félkemény
+Tejtermékek és tojás	Sajt	Lágy
+Tejtermékek és tojás	Sajt	Ömlesztett
+Tejtermékek és tojás	Sajt	Kenhető
+Tejtermékek és tojás	Sajt	Friss
+Tejtermékek és tojás	Sajt	Füstölt
+Tejtermékek és tojás	Sajt	Grill/snack sajt
+Tejtermékek és tojás	Sajt, vaj és szendvics krémek
+Tejtermékek és tojás	Vaj
+Tejtermékek és tojás	Margarin
+Tejtermékek és tojás	Tojás
+Hús, hal, felvágott	Csirke	Egész
+Hús, hal, felvágott	Csirke	Comb
+Hús, hal, felvágott	Csirke	Mell
+Hús, hal, felvágott	Csirke	Szárny
+Hús, hal, felvágott	Csirke	Nyak
+Hús, hal, felvágott	Csirke	Farhát
+Hús, hal, felvágott	Csirke	Máj, zúza
+Hús, hal, felvágott	Pulyka	Egész
+Hús, hal, felvágott	Pulyka	Comb
+Hús, hal, felvágott	Pulyka	Mell
+Hús, hal, felvágott	Pulyka	Szárny
+Hús, hal, felvágott	Pulyka	Máj
+Hús, hal, felvágott	Kacsa	Egész
+Hús, hal, felvágott	Kacsa	Comb
+Hús, hal, felvágott	Kacsa	Mell
+Hús, hal, felvágott	Kacsa	Szárny
+Hús, hal, felvágott	Kacsa	Máj
+Hús, hal, felvágott	Sertés	Karaj
+Hús, hal, felvágott	Sertés	Lapocka
+Hús, hal, felvágott	Sertés	Comb
+Hús, hal, felvágott	Sertés	Tarja
+Hús, hal, felvágott	Sertés	Oldalas
+Hús, hal, felvágott	Sertés	Csülök
+Hús, hal, felvágott	Marha	Darált
+Hús, hal, felvágott	Marha	Rostélyos
+Hús, hal, felvágott	Marha	Oldalas
+Hús, hal, felvágott	Marha	Bélszín
+Hús, hal, felvágott	Marha	Lábszár
+Hús, hal, felvágott	Marha	Egyéb
+Hús, hal, felvágott	Vad
+Hús, hal, felvágott	Nyúl
+Hús, hal, felvágott	Hal	Ponty
+Hús, hal, felvágott	Hal	Süllő
+Hús, hal, felvágott	Hal	Hekk
+Hús, hal, felvágott	Hal	Tőkehal
+Hús, hal, felvágott	Hal	Lazac
+Hús, hal, felvágott	Hal	Tonhal
+Hús, hal, felvágott	Hal	Szardínia
+Hús, hal, felvágott	Hal	Makréla
+Hús, hal, felvágott	Hal	Egyéb hal
+Hús, hal, felvágott	Felvágottak, húskészítmény	Sonka
+Hús, hal, felvágott	Felvágottak, húskészítmény	Szalonna
+Hús, hal, felvágott	Felvágottak, húskészítmény	Kolbász
+Hús, hal, felvágott	Felvágottak, húskészítmény	Hurka
+Hús, hal, felvágott	Felvágottak, húskészítmény	Virsli
+Hús, hal, felvágott	Felvágottak, húskészítmény	Párizsi
+Hús, hal, felvágott	Felvágottak, húskészítmény	Szalámi
+Hús, hal, felvágott	Felvágottak, húskészítmény	Grillkolbász
+Hús, hal, felvágott	Felvágottak, húskészítmény	Sült hús szelet
+Hús, hal, felvágott	Májas, pástétom
+Hús, hal, felvágott	Húskonzerv
+Hús, hal, felvágott	Halkonzerv
+Fagyasztott áruk	Fagyasztott zöldség	Burgonya
+Fagyasztott áruk	Fagyasztott zöldség	Borsó
+Fagyasztott áruk	Fagyasztott zöldség	Kukorica
+Fagyasztott áruk	Fagyasztott zöldség	Brokkoli
+Fagyasztott áruk	Fagyasztott zöldség	Zöldbab
+Fagyasztott áruk	Fagyasztott zöldség	Karfiol
+Fagyasztott áruk	Fagyasztott zöldség	Sárgarépa
+Fagyasztott áruk	Fagyasztott zöldség	Spenót
+Fagyasztott áruk	Fagyasztott zöldség	Zöldségmix
+Fagyasztott áruk	Fagyasztott zöldség	Egyéb
+Fagyasztott áruk	Fagyasztott gyümölcs	Eper
+Fagyasztott áruk	Fagyasztott gyümölcs	Málna
+Fagyasztott áruk	Fagyasztott gyümölcs	Meggy
+Fagyasztott áruk	Fagyasztott gyümölcs	Szeder
+Fagyasztott áruk	Fagyasztott gyümölcs	Áfonya
+Fagyasztott áruk	Fagyasztott gyümölcs	Ribizli
+Fagyasztott áruk	Fagyasztott gyümölcs	Mix/keverék
+Fagyasztott áruk	Fagyasztott gyümölcs	Egyéb
+Fagyasztott áruk	Fagyasztott hús	Csirke
+Fagyasztott áruk	Fagyasztott hús	Pulyka
+Fagyasztott áruk	Fagyasztott hús	Kacsa
+Fagyasztott áruk	Fagyasztott hús	Sertés
+Fagyasztott áruk	Fagyasztott hús	Marha
+Fagyasztott áruk	Fagyasztott hús	Vad
+Fagyasztott áruk	Fagyasztott hal	Ponty
+Fagyasztott áruk	Fagyasztott hal	Hekk
+Fagyasztott áruk	Fagyasztott hal	Tőkehal
+Fagyasztott áruk	Fagyasztott hal	Lazac
+Fagyasztott áruk	Fagyasztott hal	Tonhal
+Fagyasztott áruk	Fagyasztott hal	Szardínia
+Fagyasztott áruk	Fagyasztott hal	Makréla
+Fagyasztott áruk	Fagyasztott hal	Rák
+Fagyasztott áruk	Fagyasztott hal	Tintahal
+Fagyasztott áruk	Fagyasztott hal	Kagyló
+Fagyasztott áruk	Fagyasztott hal	Egyéb
+Fagyasztott áruk	Fagyasztott rántott sajt
+Fagyasztott áruk	Fagyasztott pizza
+Fagyasztott áruk	Fagyasztott készétel
+Fagyasztott áruk	Jégkrém, fagylalt	Pálcikás
+Fagyasztott áruk	Jégkrém, fagylalt	Multipack
+Fagyasztott áruk	Jégkrém, fagylalt	Tégelyes
+Fagyasztott áruk	Jégkrém, fagylalt	Torta
+Fagyasztott áruk	Jégkrém, fagylalt	Tölcséres
+Édesség, snack, rágcsálnivaló	Csokoládé	Tábla csokoládé
+Édesség, snack, rágcsálnivaló	Csokoládé	Szeletek
+Édesség, snack, rágcsálnivaló	Csokoládé	Egyéb
+Édesség, snack, rágcsálnivaló	Keksz, nápolyi, ostya
+Édesség, snack, rágcsálnivaló	Müzli szelet, energiaszelet
+Édesség, snack, rágcsálnivaló	Cukorka, gumicukor, drazsé
+Édesség, snack, rágcsálnivaló	Snack	Chips
+Édesség, snack, rágcsálnivaló	Snack	Ropi, perec
+Édesség, snack, rágcsálnivaló	Snack	Magvak, dió
+Édesség, snack, rágcsálnivaló	Snack	Popcorn
+Édesség, snack, rágcsálnivaló	Snack	Snack mixek
+Édesség, snack, rágcsálnivaló	Torta
+Alapanyag, sütés-főzés	Liszt, dara, morzsa
+Alapanyag, sütés-főzés	Rizs, köret
+Alapanyag, sütés-főzés	Tészta
+Alapanyag, sütés-főzés	Olaj, zsiradék
+Alapanyag, sütés-főzés	Sütőpor, szódabikarbóna, élesztő
+Alapanyag, sütés-főzés	Fűszer
+Alapanyag, sütés-főzés	Étkezési só, ételízesítő
+Alapanyag, sütés-főzés	Lekvár, méz, mogyorókrém
+Ital	Ásványvíz
+Ital	Ízesített víz
+Ital	Üdítőital
+Ital	Gyümölcslé	Alma
+Ital	Gyümölcslé	Körte
+Ital	Gyümölcslé	Szőlő
+Ital	Gyümölcslé	Narancs
+Ital	Gyümölcslé	Grapefruit
+Ital	Gyümölcslé	Multivitamin
+Ital	Gyümölcslé	Málna
+Ital	Gyümölcslé	Eper
+Ital	Gyümölcslé	Bodza
+Ital	Gyümölcslé	Ribizli
+Ital	Gyümölcslé	Mix, vegyes
+Ital	Gyümölcslé	Egyéb
+Ital	Szörp	Málna
+Ital	Szörp	Eper
+Ital	Szörp	Bodza
+Ital	Szörp	Feketeribizli
+Ital	Szörp	Narancs
+Ital	Szörp	Alma
+Ital	Szörp	Mix, vegyes
+Ital	Szörp	Egyéb
+Ital	Energiaital
+Ital	Sportital
+Ital	Sör	Világos sör
+Ital	Sör	Barna sör
+Ital	Sör	Cider
+Ital	Sör	Alkoholmentes sör
+Ital	Bor
+Ital	Pezsgő
+Ital	Rövidital	Vodka
+Ital	Rövidital	Rum
+Ital	Rövidital	Gin
+Ital	Rövidital	Tequila
+Ital	Rövidital	Likőr
+Ital	Rövidital	Whisky
+Ital	Rövidital	Egyéb
+Ital	Kávé, tea	Őrölt, szemes kávé
+Ital	Kávé, tea	Instant kávé
+Ital	Kávé, tea	Teafű, filteres tea
+Baba	Bébiétel
+Baba	Tejpép, gabonapép
+Baba	Snack, keksz
+Baba	Egyéb
+Baba	Bébiital
+Baba	Víz
+Mentes, speciális	Egyéb
+Mentes, speciális	Gluténmentes termék
+Mentes, speciális	Laktózmentes termék
+Mentes, speciális	Vegán
+Mentes, speciális	Bio
+Mentes, speciális	Protein termék
+Mentes, speciális	Diétás, diabetikus
+Mentes, speciális	Paleo
+Konzerv, készétel	Zöldségkonzerv	Kukorica
+Konzerv, készétel	Zöldségkonzerv	Borsó
+Konzerv, készétel	Zöldségkonzerv	Bab
+Konzerv, készétel	Zöldségkonzerv	Lencse
+Konzerv, készétel	Zöldségkonzerv	Paradicsom
+Konzerv, készétel	Zöldségkonzerv	Mix, vegyes
+Konzerv, készétel	Zöldségkonzerv	Egyéb zöldség
+Konzerv, készétel	Gyümölcskonzerv	Barack
+Konzerv, készétel	Gyümölcskonzerv	Meggy
+Konzerv, készétel	Gyümölcskonzerv	Körte
+Konzerv, készétel	Gyümölcskonzerv	Ananász
+Konzerv, készétel	Gyümölcskonzerv	Cseresznye
+Konzerv, készétel	Gyümölcskonzerv	Mix, vegyes
+Konzerv, készétel	Gyümölcskonzerv	Egyéb
+Konzerv, készétel	Halkonzerv	Tonhal
+Konzerv, készétel	Halkonzerv	Szardínia
+Konzerv, készétel	Halkonzerv	Makréla
+Konzerv, készétel	Halkonzerv	Lazac
+Konzerv, készétel	Halkonzerv	Tőkehal
+Konzerv, készétel	Halkonzerv	Egyéb
+Konzerv, készétel	Húskonzerv	Marha
+Konzerv, készétel	Húskonzerv	Sertés
+Konzerv, készétel	Húskonzerv	Csirke
+Konzerv, készétel	Húskonzerv	Pulyka
+Konzerv, készétel	Húskonzerv	Kacsa
+Konzerv, készétel	Húskonzerv	Májas, pástétom
+Konzerv, készétel	Húskonzerv	Egyéb
+Konzerv, készétel	Készétel konzerv
+Konzerv, készétel	Szendvicskrém
+Konzerv, készétel	Salátaöntet, szósz
+Konzerv, készétel	Paradicsompüré, olasz szósz
+Konzerv, készétel	Egyéb

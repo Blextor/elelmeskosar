@@ -54,7 +54,8 @@ output_fields = [
     "secondary_unit_type",
     "secondary_unit_step",
     "image_urls",
-    "description"
+    "description",
+    "categories"
 ]
 
 import re
@@ -214,6 +215,7 @@ with open(input_file_name, mode='r', encoding='utf-8') as infile, \
         egyseg = row.get("unit_price.unit", "").strip().lower()
         lepeskoz = row.get("unit_price.base", "").strip()
         unit_ar = row.get("unit_price.price", "").strip()
+        slug = row.get("category_slug", "").strip()
         #akcios = row.get("Akciós", "").strip().lower()
         eredeti_egyseg_ar = row.get("unit_price.original_price", "").strip()
 
@@ -381,7 +383,8 @@ with open(input_file_name, mode='r', encoding='utf-8') as infile, \
             "secondary_unit_type": secondary_unit_type,
             "secondary_unit_step": secondary_unit_step,
             "image_urls": image_urls,
-            "description": description
+            "description": description,
+            "categories": slug
         })
 
 print(cnt,"elteresek, kinyert kisebb")

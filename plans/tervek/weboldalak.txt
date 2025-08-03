@@ -1,0 +1,19 @@
+Fejléc:
+    Logó (+verzió szám), keresőmező, keresés gomb, Fiók gomb, Kosár tartalma gomb
+
+Főoldal:
+    Fejléc +
+    Összes főkategória baloldalt +
+    Valamilyen szempontból érdekes termékek + (pl. legtöbbet kosárban szereplő termékek)
+    Jobb oldalt a boltok adatainak állapota +
+    Efölött Infó, hogy a honlap fejlesztés alatt áll és hogy mi minden van tervben
+
+Összes kategória:
+    telefonon teljes képernyőn váltják egymást, felül meg egy vissza gomb és egy X, illetve a jelenlegi kategória neve
+
+Egy kategória oldala:
+    termékek listája középen +
+    bal felül a kategóriák útvonala +
+    sorbarendezés módja jobb felül +
+    bal oldalt kinyithatóan legyenek a kategóriák +
+    bal oldalt fix-en legyenek a szűrések Árukereső módjára + (a szűréseket lehessen csoportonként összecsukni)

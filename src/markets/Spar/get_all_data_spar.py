@@ -54,6 +54,7 @@ for slug in slugok:
             for item in data.get("items", []):
                 item_id = item.get("id")
                 if item_id:
+                    item['category_slug'] = slug
                     items_dict[item_id] = item  # duplikáció elkerülése
 
             token = data.get("metadata", {}).get("next_page_token")
