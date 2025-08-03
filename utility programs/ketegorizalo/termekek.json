@@ -1,0 +1,14 @@
+[
+  {
+    "nev": "Túró Rudi",
+    "kiszereles": "30g",
+    "bolti_kategoria": "Édességek",
+    "kep_url": "https://digitalcontent.api.tesco.com/v2/media/ghs/7120ee01-d99e-4114-baf8-e642b5a9c3ae/a31154ae-ef1c-4553-8e9a-ebfdf3c24983_60105373.jpeg?h=960&w=960"
+  },
+  {
+    "nev": "Tej 2.8%",
+    "kiszereles": "1L",
+    "bolti_kategoria": "Tejtermékek",
+    "kep_url": "https://digitalcontent.api.tesco.com/v2/media/ghs/061c5bfe-d3aa-4ea2-b135-27c0d1acb544/92922af8-14c9-4c0e-80ff-eb39b15c0e26_238181492.jpeg?h=960&w=960"
+  }
+]

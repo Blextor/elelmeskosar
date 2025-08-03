@@ -1,0 +1,16 @@
+[
+  {
+    "nev": "Tejtermékek",
+    "szurok": [
+      {"nev": "Zsírtartalom", "tipus": "szam"},
+      {"nev": "Laktózmentes", "tipus": "igen_nem"}
+    ]
+  },
+  {
+    "nev": "Zöldségek",
+    "szurok": [
+      {"nev": "Bio", "tipus": "igen_nem"},
+      {"nev": "Származási ország", "tipus": "szoveg"}
+    ]
+  }
+]
