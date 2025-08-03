@@ -1,24 +1,44 @@
 {
   "Gyümölcs": {
-    "tulajdonságok": {},
+    "tulajdonságok": {
+      "kiszerelés" : [
+        "csomagolásban", "lédig"
+      ],
+      "bio" : {},
+      "hazai" : {}
+    },
     "alkategóriák": {
       "Alma": {
         "tulajdonságok": {
           "típus" : [
             "Idared", "Golden", "Jonagold", "Gála", "Granny Smith",
             "Evelina", "Jonagored", "Red Jonaprince", "Pink Lady", "Joya",
-            "Crimson Snow", "Red Prince",
+            "Crimson Snow", "Red Prince", "Giga", "Bio Natura",
             "Egyéb"
+          ],
+          "színe" : [
+            "piros", "sárga", "zöld"
           ]
         },
         "altípusok": {}
       },
       "Körte": {
-        "tulajdonságok": {},
+        "tulajdonságok": {
+          "típus" : [
+            "Conference", "Dazzling", "Nashi", "Abate Fetel", "S-Budget",
+            "Packham Triumph", "Santa Maria", "Piros Carmen",
+            "Egyéb"
+          ]
+        },
         "altípusok": {}
       },
       "Szőlő": {
-        "tulajdonságok": {},
+        "tulajdonságok": {
+          "színe": [
+            "piros", "fehér", "kék"
+          ],
+          "magnélküli" : {}
+        },
         "altípusok": {}
       },
       "Málna": {
@@ -29,15 +49,63 @@
         "tulajdonságok": {},
         "altípusok": {}
       },
+      "Szeder": {
+        "tulajdonságok": {},
+        "altípusok": {}
+      },
       "Meggy": {
         "tulajdonságok": {},
         "altípusok": {}
       },
-      "Dinnye": {
+      "Görögdinnye": {
+        "tulajdonságok": {
+          "fekete héjú" : {},
+          "sárga hasú" : {},
+          "magszegény" : {},
+          "mini" : {}
+        },
+        "altípusok": {}
+      },
+      "Sárgadinnye": {
+        "tulajdonságok": {
+          "típus" : [
+            "mézdinnye", "piel de Sapo", "Cantaloupe", "Gália",
+            "Egyéb"
+          ]
+        },
+        "altípusok": {}
+      },
+      "Citrom": {
+        "tulajdonságok": {
+          "kezeletlen héjú" : {}
+        },
+        "altípusok": {}
+      },
+      "Narancs": {
+        "tulajdonságok": {
+          "kezeletlen héjú" : {},
+          "fajta" : [
+            "Navel",
+            "Egyéb"
+          ]
+        },
+        "altípusok": {}
+      },
+      "Mandarin": {
+        "tulajdonságok": {
+          "magnélküli" : {}
+        },
+        "altípusok": {}
+      },
+      "Lime": {
         "tulajdonságok": {},
         "altípusok": {}
       },
-      "Citrus": {
+      "Grapefruit": {
+        "tulajdonságok": {},
+        "altípusok": {}
+      },
+      "Citromnád": {
         "tulajdonságok": {},
         "altípusok": {}
       },
@@ -65,8 +133,36 @@
         "tulajdonságok": {},
         "altípusok": {}
       },
-      "Aszalt gyümölcs": {
-        "tulajdonságok": {},
+      "Aszalt, szárított, chips": {
+        "tulajdonságok": {
+          "gyümölcs" : [
+            "Alma", "Barack", "Szilva", "Ananász", "Vörösáfonya",
+            "Cseresznye", "Banán", "Szőlő / Mazsola", "Datolya",
+            "Édesburgonya", "Gesztenye", "Füge", "Gyömbér",
+            "Mangó", "Kókusz", "Goji", "Tőzegáfonya",
+            "Eper", "Málna", "",
+            "Egyéb", "Mix"
+          ],
+          "tartosítás" : [
+            "Aszalt", "Szárított", "Liofilizált", "Chips", "Főtt"
+          ],
+          "bevonat" : {}
+        },
+        "altípusok": {}
+      },
+      "Magvak, csonthéjasok": {
+        "tulajdonságok": {
+          "fajta" : [
+            "Kesudió", "Mandula", "Lenmag", "Napraforgó",
+            "Tökmag", "Törökmogyoró", "Földimogyoró", "Pisztácia",
+            "Szezámmag", "Fenyőmag", "Dió", "Paradió", "Pekándió",
+            "Papaya",
+            "Egyéb", "Mix"
+          ],
+          "héj nélküli": {},
+          "gyümölcsös" : {},
+          "sós" : {}
+        },
         "altípusok": {}
       },
       "Mix, vegyes": {
@@ -77,28 +173,20 @@
         "tulajdonságok": {},
         "altípusok": {}
       },
-      "Gyümölcskonzerv": {
-        "tulajdonságok": {},
-        "altípusok": {
-          "Barack": {
-            "tulajdonságok": []
-          },
-          "Meggy": {
-            "tulajdonságok": []
-          },
-          "Körte": {
-            "tulajdonságok": []
-          },
-          "Ananász": {
-            "tulajdonságok": []
-          },
-          "Cseresznye": {
-            "tulajdonságok": []
-          },
-          "Vegyes, egyéb": {
-            "tulajdonságok": []
-          }
-        }
+      "Gyümölcskonzerv / befőtt": {
+        "tulajdonságok": {
+          "gyümölcs" : [
+            "Alma", "Barack", "Szilva", "Ananász", "Mandarin",
+            "Cseresznye", "Szőlő" ,"Gesztenye", "Füge", "Gyömbér",
+            "Mangó", "Birsalma", "Szeder",
+            "Eper", "Málna", "",
+            "Egyéb", "Mix"
+          ],
+          "csomagolás" : [
+            "Befőtt", "Konzerv", "Egyéb"
+          ]
+        },
+        "altípusok": {}
       }
     }
   },
