@@ -1358,7 +1358,7 @@
       "categories__show": "egzotikus-es-deligyumolcs-10"
     },
     "fokategoria": "Gyümölcs",
-    "alkategoria": "Egzotikus",
+    "alkategoria": "Ananász",
     "altipus": "",
     "tulajdonsagok": {
       "kiszerelés": [
@@ -1367,7 +1367,7 @@
       "bio": false,
       "hazai": false
     },
-    "kategoria_hash": "3ef71488919faf266d061dfc059a3263cbbd8789af1edf44202edf5e164fe821",
+    "kategoria_hash": "ed4737a213faa249f3a0b3f33101297b9514ba950737bebcde0c2d742871ee74",
     "statusz": "kesz"
   },
   {
@@ -1467,7 +1467,7 @@
       "categories__show": "citrusfelek-11"
     },
     "fokategoria": "Gyümölcs",
-    "alkategoria": "Mandarin",
+    "alkategoria": "Citrom",
     "altipus": "",
     "tulajdonsagok": {
       "kiszerelés": [
@@ -1475,9 +1475,9 @@
       ],
       "bio": false,
       "hazai": false,
-      "magnélküli": false
+      "kezeletlen héjú": false
     },
-    "kategoria_hash": "7a5fe23d9d56cb36523eef038226077934d0e07d3e333a387e5e7a63a07d5cbe",
+    "kategoria_hash": "87b8347081b0d6197cde4a03236ad2364535e75bcf8438e7f8d24ac2d254cf9c",
     "statusz": "kesz"
   },
   {
@@ -1917,6 +1917,903 @@
       "bevonat": false
     },
     "kategoria_hash": "69aff9679415d32bed13b710a8d6ee0d54a440597c83b82233f64d84bc037d66",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "67ad25f31af9fcb37887bf5a",
+      "product_name": "Kalifa datolyapaszta 400 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997956705729",
+      "unit_price": "699.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/66767e251b708918eb6e896c",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/66767e251b708918eb6e896c",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Datolya"
+      ],
+      "tartosítás": [
+        "Aszalt",
+        "Főtt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "a597edb93eb032a994c666615862b452da85880ac9148c8c5f74b9ded7a74f80",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "688bdc88f6c7a553faf61c1e",
+      "product_name": "Mateus Rosé félszáraz rozé bor 11% 750 ml",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5601012011500",
+      "unit_price": "2599.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/67acabcf33a994494c800028",
+      "description": "",
+      "categories": "rose-bor-192",
+      "kep_url": "https://imageproxy.wolt.com/assets/67acabcf33a994494c800028",
+      "categories__show": "rose-bor-192"
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {},
+    "kategoria_hash": "4d20907a160c26f7452c1d83c90ce8a2efdd76ed6be018e62b1a281aef455a0c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "688bdc88f6c7a553faf61dd2",
+      "product_name": "Florence Villányi Rosé Cuvée classicus száraz rozébor 13% 750 ml",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999138202125",
+      "unit_price": "1349.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/68629b2079b6a26d55240b58;https://imageproxy.wolt.com/assets/68629b2279b6a26d55240b5c",
+      "description": "",
+      "categories": "rose-bor-192",
+      "kep_url": "https://imageproxy.wolt.com/assets/68629b2079b6a26d55240b58",
+      "categories__show": "rose-bor-192"
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {},
+    "kategoria_hash": "4d20907a160c26f7452c1d83c90ce8a2efdd76ed6be018e62b1a281aef455a0c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08129d1",
+      "product_name": "Vegyes gombatál 400 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5995535041411",
+      "unit_price": "1029.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675dca11b708918eb6e26ee",
+      "description": "",
+      "categories": "gomba-19",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675dca11b708918eb6e26ee",
+      "categories__show": "gomba-19"
+    },
+    "fokategoria": "Zöldség",
+    "alkategoria": "Gomba",
+    "altipus": "",
+    "tulajdonsagok": {
+      "fajta": [
+        "Mix"
+      ]
+    },
+    "kategoria_hash": "ad3e6347245bb420abff3b09561a1692e2ac29812a1faca7d1727df2cc871341",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813da4",
+      "product_name": "Korona fehér csiperke gomba szeletek 300 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999884574873",
+      "unit_price": "899.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e2bdaf01e7f1ad1ae7c",
+      "description": "",
+      "categories": "gomba-19",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e2bdaf01e7f1ad1ae7c",
+      "categories__show": "gomba-19"
+    },
+    "fokategoria": "Zöldség",
+    "alkategoria": "Gomba",
+    "altipus": "",
+    "tulajdonsagok": {
+      "fajta": [
+        "Csierke"
+      ]
+    },
+    "kategoria_hash": "14b0a5e9ab6516e27ff94d1dd94e664b078281b0c3e0f489615360e9f3c571c1",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0812ff3",
+      "product_name": "SPAR magozott aszalt szilva 200 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999033864978",
+      "unit_price": "799.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675f745b669ac6c8eae8d1e;https://imageproxy.wolt.com/assets/6675f74688898805c808a33a",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675f745b669ac6c8eae8d1e",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Szilva"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "0d2c75e71e919930625c804ca96c20c9b1f5d945d452941a9168aa82a650b60b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813066",
+      "product_name": "Kalifa magozott, aszalt zamatos szilva 100 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997956700557",
+      "unit_price": "649.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675e7d288898805c80898cf",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675e7d288898805c80898cf",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Szilva"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "0d2c75e71e919930625c804ca96c20c9b1f5d945d452941a9168aa82a650b60b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08131cb",
+      "product_name": "Seeberger puha, magozott aszalt sárgabarack 200 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "4008258292013",
+      "unit_price": "2499.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6798c95025987e252515bd28",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6798c95025987e252515bd28",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Barack"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "69aff9679415d32bed13b710a8d6ee0d54a440597c83b82233f64d84bc037d66",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08131e1",
+      "product_name": "Seeberger magozott, puha aszalt szilva 200 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "4008258291016",
+      "unit_price": "1999.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6798c95525987e252515bd35",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6798c95525987e252515bd35",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Szilva"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "0d2c75e71e919930625c804ca96c20c9b1f5d945d452941a9168aa82a650b60b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813345",
+      "product_name": "Seeberger cukrozott, puha aszalt áfonya 125 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "4008258296004",
+      "unit_price": "1199.0",
+      "unit_type": "g",
+      "unit_step": "125.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6798c95825987e252515bd3a",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6798c95825987e252515bd3a",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Vörösáfonya"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "b07965260b377dad0ebd4f75ccdf3f1b117e0807bafed31e5212a9b8fd16496e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08133cf",
+      "product_name": "Naturfood aszalt fekete cseresznye 100 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997664301954",
+      "unit_price": "1099.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675dfeb88898805c808964c",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675dfeb88898805c808964c",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Cseresznye"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "18765fb15420ed4eb0cbba68d3e63bdb3abb3a3b4c47e3531cd13dcb78a7638b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db081363c",
+      "product_name": "Naturfood banán chips 150 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997664301817",
+      "unit_price": "649.0",
+      "unit_type": "g",
+      "unit_step": "150.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675e5871b708918eb6e2ca8",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675e5871b708918eb6e2ca8",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Banán"
+      ],
+      "tartosítás": [
+        "Chips"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "d114df92ed725d7d40283865938a53147920b42ff294f5cb0ac3e8ee8f4bf567",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08131d9",
+      "product_name": "Nobilis szárított Jonatán almaszirom 20 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997690707898",
+      "unit_price": "349.0",
+      "unit_type": "g",
+      "unit_step": "20.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6786546f9152b95bf686d6c0;https://imageproxy.wolt.com/assets/678654709152b95bf686d6c5",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6786546f9152b95bf686d6c0",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Alma"
+      ],
+      "tartosítás": [
+        "Szárított"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "1df690a282a18491aa3ed6cf9d228a200c0a0928ea2c92dbef99e8c8a1472d67",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813d5b",
+      "product_name": "S-Budget szárított almaszirom 50 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999033898454",
+      "unit_price": "359.0",
+      "unit_type": "g",
+      "unit_step": "50.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/66767d1bd88b3e741b73da21;https://imageproxy.wolt.com/assets/66767d1dd88b3e741b73da23",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/66767d1bd88b3e741b73da21",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Alma"
+      ],
+      "tartosítás": [
+        "Szárított"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "1df690a282a18491aa3ed6cf9d228a200c0a0928ea2c92dbef99e8c8a1472d67",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66544f27584ad684ed53f41c",
+      "product_name": "S-Budget mazsola 250 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999033861090",
+      "unit_price": "599.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e244b2b7137a212e3c3",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e244b2b7137a212e3c3",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Szőlő / Mazsola"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "40934385076f05f84d6558ddc863c61153b69ba4c06a258ced0f8f3ecc826157",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0812bba",
+      "product_name": "Mogyi mazsola 200 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997347544289",
+      "unit_price": "599.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675e20fd8b6b903a55fa8cf",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675e20fd8b6b903a55fa8cf",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Szőlő / Mazsola"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "40934385076f05f84d6558ddc863c61153b69ba4c06a258ced0f8f3ecc826157",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db081419c",
+      "product_name": "BIO almachips 70 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5999881690071",
+      "unit_price": "799.0",
+      "unit_type": "g",
+      "unit_step": "70.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/678e0e254b2b7137a212e3ca",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/678e0e254b2b7137a212e3ca",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": true,
+      "hazai": false,
+      "gyümölcs": [
+        "Alma"
+      ],
+      "tartosítás": [
+        "Chips"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "81d99bfe60c4ab7820d2c7f55ff9bc0c58adf27c2257270bb0d67f8efa72377e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08143f3",
+      "product_name": "Kalifa zamatos vörös áfonya 180 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997956705385",
+      "unit_price": "1299.0",
+      "unit_type": "g",
+      "unit_step": "180.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/66767e23d88b3e741b73da8f",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/66767e23d88b3e741b73da8f",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Vörösáfonya"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "b07965260b377dad0ebd4f75ccdf3f1b117e0807bafed31e5212a9b8fd16496e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "67ad25f31af9fcb37887bf36",
+      "product_name": "Kalifa mazsola 250 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997956700168",
+      "unit_price": "799.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/66767e1ce98c4a1a5c647dad",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/66767e1ce98c4a1a5c647dad",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Szőlő / Mazsola"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "40934385076f05f84d6558ddc863c61153b69ba4c06a258ced0f8f3ecc826157",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "67ad25f31af9fcb37887c1ea",
+      "product_name": "Kalifa magozott, aszalt zamatos sárgabarack 100 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997956700540",
+      "unit_price": "799.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675e7d41b708918eb6e2f8c",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675e7d41b708918eb6e2f8c",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Barack"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "69aff9679415d32bed13b710a8d6ee0d54a440597c83b82233f64d84bc037d66",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "67ad25f31af9fcb37887c1e8",
+      "product_name": "Naturfood magozott aszalt sárgabarack 200 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997664300049",
+      "unit_price": "1499.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675e1f8e98c4a1a5c641f4c",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675e1f8e98c4a1a5c641f4c",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "csomagolásban"
+      ],
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": [
+        "Barack"
+      ],
+      "tartosítás": [
+        "Aszalt"
+      ],
+      "bevonat": false
+    },
+    "kategoria_hash": "69aff9679415d32bed13b710a8d6ee0d54a440597c83b82233f64d84bc037d66",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "67ad25f31af9fcb37887c1ee",
+      "product_name": "Kalifa szárított datolya 200 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997956701097",
+      "unit_price": "499.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/66764d98b669ac6c8eaeb4cf",
+      "description": "",
+      "categories": "aszalt-gyumolcs-12",
+      "kep_url": "https://imageproxy.wolt.com/assets/66764d98b669ac6c8eaeb4cf",
+      "categories__show": "aszalt-gyumolcs-12"
+    },
+    "fokategoria": "Gyümölcs",
+    "alkategoria": "Aszalt, szárított, chips",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": "",
+      "bio": false,
+      "hazai": false,
+      "gyümölcs": "Datolya",
+      "tartosítás": "Szárított",
+      "bevonat": false
+    },
+    "kategoria_hash": "dc4c332ce2b57f8328c5e2d17cfdcd5cfd83decd317a0335eb899fd7b0730fc6",
     "statusz": "kesz"
   }
 ]

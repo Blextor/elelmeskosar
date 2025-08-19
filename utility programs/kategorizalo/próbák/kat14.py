@@ -1,0 +1,605 @@
+import tkinter as tk
+from tkinter import ttk, messagebox, font
+import json, hashlib, requests, csv, ast
+from PIL import Image, ImageTk
+from io import BytesIO
+import os
+import re
+import unicodedata
+
+def slugify(value):
+    value = str(value)
+    value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
+    value = re.sub(r'[^a-zA-Z0-9]+', '_', value).strip('_')
+    return value
+
+def termek_fajlnev(termek, extension=".jpg"):
+    nev = slugify(termek.get('product_name'))
+    marka = slugify(termek.get('brand_name', ''))
+    hash_str = hashlib.md5(termek.get('kep_url', '').encode('utf-8')).hexdigest()[:8]
+    return f"{nev}_{marka}_{hash_str}{extension}"
+
+def kep_letolt(termek, kepek_dir="kepek"):
+    os.makedirs(kepek_dir, exist_ok=True)
+    url = termek.get('kep_url', '')
+    extension = ".jpg"
+    if url.lower().endswith('.png'):
+        extension = ".png"
+    # További biztonság: content-type alapján is
+    fajlnev = termek_fajlnev(termek, extension)
+    utvonal = os.path.join(kepek_dir, fajlnev)
+    if not os.path.exists(utvonal):
+        if url:
+            try:
+                resp = requests.get(url, timeout=10)
+                resp.raise_for_status()
+                content_type = resp.headers.get('Content-Type', '').lower()
+                if 'png' in content_type or url.lower().endswith('.png'):
+                    extension = '.png'
+                elif 'jpeg' in content_type or 'jpg' in content_type or url.lower().endswith('.jpg'):
+                    extension = '.jpg'
+                fajlnev = termek_fajlnev(termek, extension)
+                utvonal = os.path.join(kepek_dir, fajlnev)
+                img = Image.open(BytesIO(resp.content))
+                img.save(utvonal)
+            except Exception as e:
+                print(f"Kép letöltési hiba: {e}")
+                return None
+    return utvonal
+
+def kategoriak_hash(fok, al, alt, tul):
+    key = f"{fok}|{al}|{alt}|{json.dumps(tul, sort_keys=True, ensure_ascii=False)}"
+    return hashlib.sha256(key.encode('utf-8')).hexdigest()
+
+def get_alkategoriak(kategoriak_dict, fokategoria):
+    if not fokategoria: return []
+    return list(kategoriak_dict[fokategoria]['alkategóriák'].keys())
+
+def get_altipusok(kategoriak_dict, fokategoria, alkategoria):
+    if not (fokategoria and alkategoria): return []
+    return list(kategoriak_dict[fokategoria]['alkategóriák'][alkategoria].get('altípusok', {}).keys())
+
+def get_tulajdonsagok(kategoriak_dict, fokategoria, alkategoria, altipus):
+    tulajd = {}
+    if fokategoria:
+        tulajd.update(kategoriak_dict[fokategoria].get('tulajdonságok', {}))
+    if fokategoria and alkategoria:
+        alk = kategoriak_dict[fokategoria]['alkategóriák'][alkategoria]
+        tulajd.update(alk.get('tulajdonságok', {}))
+        if altipus and 'altípusok' in alk and altipus in alk['altípusok']:
+            tulajd.update(alk['altípusok'][altipus].get('tulajdonságok', {}))
+    return tulajd
+
+def get_group_width(options, font_obj):
+    if not options:
+        return 70
+    return max([font_obj.measure(str(opt)) for opt in options]) + 24
+
+def beolvas_termekek_csv(csv_path):
+    termekek = []
+    with open(csv_path, newline='', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            # Kép url előállítás (első az image_urls-ból)
+            img_url = ""
+            image_urls_raw = row.get('image_urls', '')
+            if image_urls_raw:
+                try:
+                    if image_urls_raw.strip().startswith('['):
+                        urls = ast.literal_eval(image_urls_raw)
+                    else:
+                        urls = image_urls_raw.split(';')
+                    if isinstance(urls, list) and urls and urls[0].strip():
+                        img_url = urls[0].strip()
+                except Exception as e:
+                    img_url = ""
+            row['kep_url'] = img_url
+
+            # Kategóriák szépítés (lehet lista vagy string)
+            cats = row.get('categories', '')
+            try:
+                if cats and cats.strip().startswith('['):
+                    cats_val = ast.literal_eval(cats)
+                    row['categories__show'] = ', '.join(str(x) for x in cats_val) if isinstance(cats_val, list) else str(cats_val)
+                else:
+                    row['categories__show'] = cats
+            except:
+                row['categories__show'] = str(cats)
+            termekek.append(row)
+    return termekek
+
+class TermekTagger:
+    def __init__(self, master, termekek, kategoriak_dict, eredmenyek):
+        self.master = master
+        self.termekek = termekek
+        self.kategoriak_dict = kategoriak_dict
+        self.eredmenyek = eredmenyek
+        self.cur = 0
+
+        self.statusz_map = {}
+        self.eredmeny_map = {}
+        for eredmeny in self.eredmenyek:
+            termek_hash = self._termek_hash(eredmeny['termek'])
+            self.eredmeny_map[termek_hash] = eredmeny
+            self.statusz_map[termek_hash] = eredmeny.get('statusz', 'folyamatban')
+        for t in termekek:
+            t_hash = self._termek_hash(t)
+            if t_hash not in self.statusz_map:
+                self.statusz_map[t_hash] = 'nincs'
+
+        self.statusz_color = {
+            'kesz': 'green', 'folyamatban': 'orange', 'elavult': 'red', 'nincs': 'gray'
+        }
+
+        self.kivalasztott_index = 0
+        self.filtered_termekek = []
+
+        # --- Bal panel: termék szerkesztő ---
+        self.left_frame = tk.Frame(master)
+        self.left_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        self.right_frame = tk.Frame(master)
+        self.right_frame.pack(side=tk.RIGHT, fill=tk.Y)
+
+        self.nev_label = tk.Label(self.left_frame, text="", font=('Arial', 13, "bold"))
+        self.nev_label.pack(pady=2)
+        self.marka_label = tk.Label(self.left_frame, text="", font=('Arial', 11))
+        self.marka_label.pack(pady=2)
+        self.kategoria_label = tk.Label(self.left_frame, text="", font=('Arial', 10), wraplength=340, justify='left')
+        self.kategoria_label.pack(pady=2)
+        self.kep_label = tk.Label(self.left_frame)
+        self.kep_label.pack(pady=5)
+
+        self.fokategoria_var = tk.StringVar()
+        self.alkategoria_var = tk.StringVar()
+        self.altipus_var = tk.StringVar()
+
+        tk.Label(self.left_frame, text="Főkategória:").pack(anchor='w', padx=4)
+        self.fokategoria_radio_frame = tk.Frame(self.left_frame)
+        self.fokategoria_radio_frame.pack(anchor='w', padx=6)
+        tk.Label(self.left_frame, text="Kategória:").pack(anchor='w', padx=4)
+        self.alkategoria_radio_frame = tk.Frame(self.left_frame)
+        self.alkategoria_radio_frame.pack(anchor='w', padx=6)
+        tk.Label(self.left_frame, text="Altípus:").pack(anchor='w', padx=4)
+        self.altipus_radio_frame = tk.Frame(self.left_frame)
+        self.altipus_radio_frame.pack(anchor='w', padx=6)
+
+        self.tulajdonsagok_frame = tk.LabelFrame(self.left_frame, text="Tulajdonságok")
+        self.tulajdonsagok_frame.pack(pady=5, fill=tk.X, padx=4)
+        self.tulajdonsagok_widgets = {}
+
+        self.save_button = tk.Button(self.left_frame, text="Mentés", command=self.mentes)
+        self.save_button.pack(pady=2)
+        self.save_next_button = tk.Button(self.left_frame, text="Mentés és következő", command=self.mentes_es_kovetkezo)
+        self.save_next_button.pack(pady=2)
+        self.kovetkezo_button = tk.Button(self.left_frame, text="Következő", command=self.kovetkezo)
+        self.kovetkezo_button.pack(pady=2)
+
+        # --- Szűrőpanel (jobb oldal teteje) ---
+        self.filter_frame = tk.LabelFrame(self.right_frame, text="Szűrés")
+        self.filter_frame.pack(side=tk.TOP, fill=tk.X, padx=3, pady=2)
+
+        self.nev_filter_var = tk.StringVar()
+        tk.Label(self.filter_frame, text="Név keresés:").pack(anchor='w')
+        self.nev_filter_entry = tk.Entry(self.filter_frame, textvariable=self.nev_filter_var)
+        self.nev_filter_entry.pack(fill=tk.X, padx=2)
+        self.nev_filter_entry.bind('<KeyRelease>', self.filter_frissit)
+
+        tk.Label(self.filter_frame, text="Főkategória:").pack(anchor='w')
+        self.filter_fokategoria_vars = {}
+        self.filter_fokategoria_box = tk.Frame(self.filter_frame)
+        self.filter_fokategoria_box.pack(anchor='w')
+        self.filter_fokategoria_mind_var = tk.BooleanVar()
+        self._build_checkbox_grid(self.filter_fokategoria_box, list(self.kategoriak_dict.keys()),
+                                 self.filter_fokategoria_vars, self.on_fokategoria_filter_change,
+                                 mind_var=self.filter_fokategoria_mind_var, mind_text="Mind")
+
+        tk.Label(self.filter_frame, text="Kategória:").pack(anchor='w')
+        self.filter_alkategoria_vars = {}
+        self.filter_alkategoria_box = tk.Frame(self.filter_frame)
+        self.filter_alkategoria_box.pack(anchor='w')
+        self.filter_alkategoria_mind_var = tk.BooleanVar()
+
+        tk.Label(self.filter_frame, text="Altípus:").pack(anchor='w')
+        self.filter_altipus_vars = {}
+        self.filter_altipus_box = tk.Frame(self.filter_frame)
+        self.filter_altipus_box.pack(anchor='w')
+        self.filter_altipus_mind_var = tk.BooleanVar()
+
+        tk.Label(self.filter_frame, text="Státusz:").pack(anchor='w')
+        self.filter_statusz_vars = {}
+        self.filter_statusz_frame = tk.Frame(self.filter_frame)
+        self.filter_statusz_frame.pack(anchor='w')
+        for sz in ['kesz', 'folyamatban', 'elavult', 'nincs']:
+            v = tk.BooleanVar(value=True)
+            cb = tk.Checkbutton(self.filter_statusz_frame, text=sz.capitalize(), variable=v, command=self.filter_frissit, font=('Arial', 9))
+            cb.pack(side=tk.LEFT)
+            self.filter_statusz_vars[sz] = v
+        self.statusz_stats_label = tk.Label(self.filter_frame, text="", font=('Arial', 10))
+        self.statusz_stats_label.pack(anchor='w', padx=2, pady=(2, 6))
+
+        lista_frame = tk.Frame(self.right_frame)
+        lista_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True, padx=2)
+        self.termek_lista = tk.Listbox(lista_frame)
+        self.termek_lista.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        self.termek_lista_scroll = tk.Scrollbar(lista_frame, orient="vertical", command=self.termek_lista.yview)
+        self.termek_lista_scroll.pack(side=tk.RIGHT, fill=tk.Y)
+        self.termek_lista.config(yscrollcommand=self.termek_lista_scroll.set)
+        self.termek_lista.bind('<<ListboxSelect>>', self.lista_katt)
+
+        self.statusz_label = tk.Label(self.right_frame, text="")
+        self.statusz_label.pack(side=tk.BOTTOM, pady=3)
+
+        self.fokategoria_radios = {}
+        self.alkategoria_radios = {}
+        self.altipus_radios = {}
+
+        self.build_left_radios()
+        self.filter_frissit()
+
+    def frissit_statusz_kimutatas(self):
+        statusz_sorrend = ['kesz', 'folyamatban', 'elavult', 'nincs']
+        statusz_szinek = {
+            'kesz': 'green', 'folyamatban': 'orange', 'elavult': 'red', 'nincs': 'gray'
+        }
+        ossz = len(self.termekek)
+        stat = {k: 0 for k in statusz_sorrend}
+        for t in self.termekek:
+            t_hash = self._termek_hash(t)
+            st = self.statusz_map.get(t_hash, 'nincs')
+            if st not in stat: st = 'nincs'
+            stat[st] += 1
+        stat_szovegek = []
+        for st in statusz_sorrend:
+            n = stat[st]
+            pct = (n / ossz * 100) if ossz > 0 else 0
+            txt = f"{n} db {pct:.2f} %"
+            stat_szovegek.append((st, txt, statusz_szinek[st]))
+        s = "   ".join([f"{st.capitalize()}: {txt}" for st, txt, _ in stat_szovegek])
+        if hasattr(self, 'statusz_stats_label'):
+            self.statusz_stats_label.config(text=s)
+        if hasattr(self, 'statusz_stats_label2'):
+            self.statusz_stats_label2.config(text=s)
+
+    def _termek_hash(self, termek):
+        """Unikális azonosító: pl. név+store+brand+első kép"""
+        return (
+            str(termek.get("product_name", "")) + "|" +
+            str(termek.get("store_name", "")) + "|" +
+            str(termek.get("brand_name", "")) + "|" +
+            str(termek.get("kep_url", ""))
+        )
+
+    def build_radio_group(self, parent, options, var, command, radios_dict, max_per_row=5):
+        for widget in parent.winfo_children():
+            widget.destroy()
+        font_radio = font.Font(family="Arial", size=9)
+        width = get_group_width(options, font_radio)
+        row = None
+        for i, opt in enumerate(options):
+            if i % max_per_row == 0:
+                row = tk.Frame(parent)
+                row.pack(anchor='w')
+            rb = tk.Radiobutton(row, text=opt, variable=var, value=opt, indicatoron=0, font=font_radio,
+                                command=command, anchor='w', justify='left', padx=4)
+            rb.pack(side=tk.LEFT, padx=0, pady=0, ipadx=0, ipady=0)
+            rb.config(width=width//8)
+            radios_dict[opt] = rb
+
+    def build_left_radios(self):
+        self.build_radio_group(self.fokategoria_radio_frame, list(self.kategoriak_dict.keys()),
+                              self.fokategoria_var, self.fokategoria_valtozott, self.fokategoria_radios)
+
+    def fokategoria_valtozott(self):
+        options = get_alkategoriak(self.kategoriak_dict, self.fokategoria_var.get()) if self.fokategoria_var.get() else []
+        self.build_radio_group(self.alkategoria_radio_frame, options, self.alkategoria_var, self.alkategoria_valtozott, self.alkategoria_radios)
+        self.alkategoria_var.set('')
+        self.alkategoria_valtozott()
+
+    def alkategoria_valtozott(self):
+        options = get_altipusok(self.kategoriak_dict, self.fokategoria_var.get(), self.alkategoria_var.get()) if self.fokategoria_var.get() and self.alkategoria_var.get() else []
+        self.build_radio_group(self.altipus_radio_frame, options, self.altipus_var, self.frissit_tulajdonsagok, self.altipus_radios)
+        self.altipus_var.set('')
+        self.frissit_tulajdonsagok()
+
+    def _build_checkbox_grid(self, parent, options, var_dict, command, mind_var=None, mind_text=None, max_per_row=5):
+        old_vals = {k: v.get() for k, v in var_dict.items()}
+        for widget in parent.winfo_children():
+            widget.destroy()
+        var_dict.clear()
+        font_cb = font.Font(family="Arial", size=9)
+        # Mind külön sorban
+        if mind_var is not None and mind_text is not None:
+            mind_row = tk.Frame(parent)
+            mind_row.pack(anchor='w')
+            cb_mind = tk.Checkbutton(mind_row, text=mind_text, variable=mind_var, font=font_cb,
+                                     command=lambda: self.on_mind_checkbox(var_dict, mind_var, command), padx=4)
+            cb_mind.pack(side=tk.LEFT, padx=0, pady=0)
+        width = get_group_width(options, font_cb)
+        row = None
+        for i, opt in enumerate(options):
+            if i % max_per_row == 0:
+                row = tk.Frame(parent)
+                row.pack(anchor='w')
+            var = tk.BooleanVar(value=old_vals.get(opt, False))
+            cb = tk.Checkbutton(row, text=opt, variable=var, font=font_cb, anchor='w', justify='left', padx=4, command=command)
+            cb.pack(side=tk.LEFT, padx=0, pady=0)
+            cb.config(width=width//8)
+            var_dict[opt] = var
+
+    def on_mind_checkbox(self, var_dict, mind_var, change_command):
+        v = mind_var.get()
+        for var in var_dict.values():
+            var.set(v)
+        change_command()
+        self.master.after(10, lambda: mind_var.set(all(var.get() for var in var_dict.values())))
+
+    def on_fokategoria_filter_change(self):
+        self.filter_frissit()
+    def on_alkategoria_filter_change(self):
+        self.filter_frissit()
+    def on_altipus_filter_change(self):
+        self.filter_frissit()
+
+    def filter_frissit(self, event=None):
+        fokats = [k for k,v in self.filter_fokategoria_vars.items() if v.get()]
+        if len(fokats) == 1:
+            alkats = get_alkategoriak(self.kategoriak_dict, fokats[0])
+        else:
+            alkats = []
+        self._build_checkbox_grid(self.filter_alkategoria_box, alkats, self.filter_alkategoria_vars, self.on_alkategoria_filter_change, mind_var=self.filter_alkategoria_mind_var, mind_text="Mind")
+
+        alkats_selected = [k for k,v in self.filter_alkategoria_vars.items() if v.get()]
+        if len(fokats) == 1 and len(alkats_selected) == 1:
+            altipusok = get_altipusok(self.kategoriak_dict, fokats[0], alkats_selected[0])
+        else:
+            altipusok = []
+        self._build_checkbox_grid(self.filter_altipus_box, altipusok, self.filter_altipus_vars, self.on_altipus_filter_change, mind_var=self.filter_altipus_mind_var, mind_text="Mind")
+        self.termek_lista_frissit()
+        self.frissit_statusz_kimutatas()
+
+    def termek_lista_frissit(self):
+        self.termek_lista.delete(0, tk.END)
+        nev_filter = self.nev_filter_var.get().lower()
+        fokats = [k for k,v in self.filter_fokategoria_vars.items() if v.get()]
+        alkats = [k for k,v in self.filter_alkategoria_vars.items() if v.get()]
+        altipusok = [k for k,v in self.filter_altipus_vars.items() if v.get()]
+        statuszok = [k for k,v in self.filter_statusz_vars.items() if v.get()]
+        if not statuszok:
+            self.filtered_termekek = []
+            return
+        self.filtered_termekek = []
+        for i, termek in enumerate(self.termekek):
+            nev = termek.get('product_name', '')
+            t_hash = self._termek_hash(termek)
+            statusz = self.statusz_map[t_hash]
+            eredm = self.eredmeny_map.get(t_hash, {})
+            fokat = eredm.get('fokategoria', "")
+            alk = eredm.get('alkategoria', "")
+            alt = eredm.get('altipus', "")
+
+            if not statusz == "kész":
+                if statusz in statuszok:
+                    self.filtered_termekek.append((i, termek))
+                    continue
+
+            if nev_filter not in nev.lower():
+                continue
+            if not fokat == "" and not fokats == [] and fokat not in fokats:
+                continue
+            if not alk == "" and not alkats == [] and alk not in alkats:
+                continue
+            if not alt == "" and not altipusok == [] and alt not in altipusok:
+                continue
+            if statusz not in statuszok:
+                continue
+
+            self.filtered_termekek.append((i, termek))
+
+        for j, (idx, termek) in enumerate(self.filtered_termekek):
+            nev = termek.get('product_name', '')
+            t_hash = self._termek_hash(termek)
+            statusz = self.statusz_map[t_hash]
+            self.termek_lista.insert(tk.END, nev)
+            self.termek_lista.itemconfig(j, {'fg': self.statusz_color[statusz]})
+
+        if not self.filtered_termekek:
+            self.nev_label.config(text="")
+            self.marka_label.config(text="")
+            self.kategoria_label.config(text="")
+            self.kep_label.config(image='')
+            self.clear_kategoria_radios()
+            self.frissit_tulajdonsagok()
+            self.statusz_label.config(text="")
+        else:
+            self.termek_lista.selection_clear(0, tk.END)
+            self.termek_lista.selection_set(0)
+            idx = self.filtered_termekek[0][0]
+            self.termek_betoltes(idx)
+
+    def termek_betoltes(self, idx):
+        self.kivalasztott_index = idx
+        termek = self.termekek[idx]
+        uzlet = termek.get('store_name', '')
+        nev = termek.get('product_name', '')
+        marka = termek.get('brand_name', '')
+        kategoriak = termek.get('categories__show', '')
+        self.nev_label.config(text=f"{uzlet} | {nev}")
+        self.marka_label.config(text=f"Márka: {marka}")
+        self.kategoria_label.config(text=f"Kategóriák: {kategoriak}")
+
+        kep_path = kep_letolt(termek)
+        if kep_path and os.path.exists(kep_path):
+            try:
+                img = Image.open(kep_path)
+                img.thumbnail((220,220))
+                self.tk_img = ImageTk.PhotoImage(img)
+                self.kep_label.config(image=self.tk_img)
+            except Exception as e:
+                self.kep_label.config(image='')
+        else:
+            self.kep_label.config(image='')
+
+        t_hash = self._termek_hash(termek)
+        eredm = self.eredmeny_map.get(t_hash, {})
+        self.fokategoria_var.set(eredm.get('fokategoria', ''))
+        self.fokategoria_valtozott()
+        self.alkategoria_var.set(eredm.get('alkategoria', ''))
+        self.alkategoria_valtozott()
+        self.altipus_var.set(eredm.get('altipus', ''))
+        self.frissit_tulajdonsagok(eredm.get('tulajdonsagok', {}))
+
+        self.statusz_label.config(text=f"Státusz: {self.statusz_map[t_hash]}")
+
+    def clear_kategoria_radios(self):
+        for var in [self.fokategoria_var, self.alkategoria_var, self.altipus_var]:
+            var.set('')
+        for frame in [self.alkategoria_radio_frame, self.altipus_radio_frame]:
+            for widget in frame.winfo_children():
+                widget.destroy()
+
+    def frissit_tulajdonsagok(self, mentett_ertekek=None):
+        for widget in self.tulajdonsagok_frame.winfo_children():
+            widget.destroy()
+        self.tulajdonsagok_widgets = {}
+
+        fok = self.fokategoria_var.get()
+        alk = self.alkategoria_var.get()
+        alt = self.altipus_var.get()
+        tulajd = get_tulajdonsagok(self.kategoriak_dict, fok, alk, alt)
+
+        font_cb = font.Font(family="Arial", size=9)
+        for nev, val in tulajd.items():
+            keret = tk.Frame(self.tulajdonsagok_frame)
+            keret.pack(anchor='w', fill=tk.X, padx=2, pady=1)
+            tk.Label(keret, text=nev + ':', anchor='w').pack(side=tk.LEFT)
+            if isinstance(val, dict):
+                var = tk.BooleanVar()
+                if mentett_ertekek and nev in mentett_ertekek:
+                    var.set(bool(mentett_ertekek[nev]))
+                cb = tk.Checkbutton(keret, variable=var, font=font_cb)
+                cb.pack(side=tk.LEFT)
+                self.tulajdonsagok_widgets[nev] = var
+            elif isinstance(val, list):
+                csoport = []
+                width = get_group_width(val, font_cb)
+                row = None
+                for i, v in enumerate(val):
+                    if i % 5 == 0:
+                        row = tk.Frame(keret)
+                        row.pack(anchor='w')
+                    var = tk.BooleanVar()
+                    if mentett_ertekek and nev in mentett_ertekek and v in mentett_ertekek[nev]:
+                        var.set(True)
+                    cb = tk.Checkbutton(row, text=v, variable=var, font=font_cb, anchor='w', padx=4)
+                    cb.pack(side=tk.LEFT, padx=0, pady=0)
+                    cb.config(width=width//8)
+                    csoport.append((v, var))
+                self.tulajdonsagok_widgets[nev] = csoport
+
+    def lista_katt(self, event):
+        if not self.termek_lista.curselection():
+            return
+        j = self.termek_lista.curselection()[0]
+        if 0 <= j < len(self.filtered_termekek):
+            idx = self.filtered_termekek[j][0]
+            self.cur = j
+            self.termek_betoltes(idx)
+
+    def mentes(self):
+        if not self.filtered_termekek:
+            return
+        cur_index = self.termek_lista.curselection()[0] if self.termek_lista.curselection() else 0
+
+        termek = self.termekek[self.kivalasztott_index]
+        t_hash = self._termek_hash(termek)
+        fok = self.fokategoria_var.get()
+        alk = self.alkategoria_var.get()
+        alt = self.altipus_var.get()
+        tul = self.lekerdezes_tulajdonsagok()
+        h = kategoriak_hash(fok, alk, alt, tul)
+        statusz = "kesz" if fok and alk else "folyamatban"
+        eredm = {
+            "termek": termek,  # MINDEN adatot ment!
+            "fokategoria": fok,
+            "alkategoria": alk,
+            "altipus": alt,
+            "tulajdonsagok": tul,
+            "kategoria_hash": h,
+            "statusz": statusz
+        }
+        self.eredmeny_map[t_hash] = eredm
+        self.statusz_map[t_hash] = statusz
+        self.termek_lista_frissit()
+        # Eredmények mentése
+        with open('eredmeny.json', 'w', encoding='utf-8') as f:
+            json.dump(list(self.eredmeny_map.values()), f, ensure_ascii=False, indent=2)
+        self.statusz_label.config(text=f"Státusz: {self.statusz_map[t_hash]}")
+        self.termek_lista.selection_clear(0, tk.END)
+        self.termek_lista.selection_set(cur_index)
+        self.termek_lista.see(cur_index)
+        self.frissit_statusz_kimutatas()
+
+
+    def lekerdezes_tulajdonsagok(self):
+        eredm = {}
+        for nev, widget in self.tulajdonsagok_widgets.items():
+            if isinstance(widget, tk.BooleanVar):
+                eredm[nev] = bool(widget.get())
+            elif isinstance(widget, list):
+                vals = [v for v, var in widget if var.get()]
+                eredm[nev] = vals
+        return eredm
+
+    def kovetkezo(self, keep_kat=True):
+        if not self.filtered_termekek:
+            return
+        print(self.cur)
+        if self.cur + 1 < len(self.filtered_termekek):
+            next_idx = self.filtered_termekek[self.cur + 1][0]
+            self.kivalasztott_index = next_idx
+            # Itt olvasd be az új terméket!
+            termek = self.termekek[next_idx]
+            t_hash = self._termek_hash(termek)
+            eredm = self.eredmeny_map.get(t_hash, {})
+            if keep_kat:
+                # Ha kategória szinteket megtartjuk, de tulajdonságot nem:
+                self.fokategoria_var.set(self.fokategoria_var.get())
+                self.alkategoria_var.set(self.alkategoria_var.get())
+                self.altipus_var.set(self.altipus_var.get())
+                self.frissit_tulajdonsagok({})
+            else:
+                self.set_kategoria_radios(
+                    eredm.get('fokategoria', ''),
+                    eredm.get('alkategoria', ''),
+                    eredm.get('altipus', '')
+                )
+                self.frissit_tulajdonsagok(eredm.get('tulajdonsagok', {}))
+            self.termek_lista.selection_clear(0, tk.END)
+            self.termek_lista.selection_set(self.cur + 1)
+            self.termek_lista.see(self.cur + 1)
+            # Képet, címkét frissíteni:
+            self.cur = self.cur + 1
+            self.termek_betoltes(next_idx)
+
+    def mentes_es_kovetkezo(self):
+        self.mentes()  # mentés megtartja a kijelölést
+        self.kovetkezo(keep_kat=True)  # így fő/alkat/altípus marad, tulajdonság reset
+
+
+if __name__ == '__main__':
+    os.makedirs('kepek', exist_ok=True)
+    with open('kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
+        kategoriak_dict = json.load(f)
+    # --- CSV beolvasás:
+    termekek = beolvas_termekek_csv('termekek_spar.csv')
+    if os.path.exists('eredmeny.json'):
+        with open('eredmeny.json', 'r', encoding='utf-8') as f:
+            eredmenyek = json.load(f)
+    else:
+        eredmenyek = []
+
+    root = tk.Tk()
+    root.title("Termék kategorizáló és tulajdonság-kezelő")
+    root.geometry("1200x750")
+    app = TermekTagger(root, termekek, kategoriak_dict, eredmenyek)
+    root.mainloop()

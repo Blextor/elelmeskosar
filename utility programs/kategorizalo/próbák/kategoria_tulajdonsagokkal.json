@@ -24,20 +24,37 @@
       },
       "Körte": {
         "tulajdonságok": {
-          "típus" : [
-            "Conference", "Dazzling", "Nashi", "Abate Fetel", "S-Budget",
-            "Packham Triumph", "Santa Maria", "Piros Carmen",
-            "Egyéb"
-          ]
+          "egyedi": {
+            "típus": [
+              "Conference",
+              "Dazzling",
+              "Nashi",
+              "Abate Fetel",
+              "S-Budget",
+              "Packham Triumph",
+              "Santa Maria",
+              "Piros Carmen",
+              "Egyéb"
+            ]
+          }
         },
         "altípusok": {}
       },
       "Szőlő": {
         "tulajdonságok": {
-          "színe": [
-            "piros", "fehér", "kék"
-          ],
-          "magnélküli" : {}
+          "egyedi": {
+            "színe": [
+              "piros",
+              "fehér",
+              "kék"
+            ],
+            "magnélküli": {}
+          },
+          "csoportos": {
+            "tájegység": [
+              "Dél", "Észak", "Kelet"
+            ]
+          }
         },
         "altípusok": {}
       },
