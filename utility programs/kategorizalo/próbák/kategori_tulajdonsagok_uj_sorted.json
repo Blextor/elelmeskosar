@@ -1,0 +1,2354 @@
+{
+  "Alapanyag, sütés-főzés": {
+    "tulajdonságok": {
+      "egyedi": {},
+      "csoportos": {}
+    },
+    "alkategóriák": {
+      "Étkezési só, ételízesítő": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Fűszer": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Lekvár, méz, mogyorókrém": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Liszt, dara, morzsa": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Olaj, zsiradék": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Rizs, köret": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Sütőpor, szódabikarbóna, élesztő": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Tészta": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      }
+    }
+  },
+  "Baba": {
+    "tulajdonságok": {
+      "egyedi": {},
+      "csoportos": {}
+    },
+    "alkategóriák": {
+      "Bébiétel": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Bébiital": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Egyéb": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Snack, keksz": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Tejpép, gabonapép": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Víz": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      }
+    }
+  },
+  "Édesség, snack, rágcsálnivaló": {
+    "tulajdonságok": {
+      "egyedi": {},
+      "csoportos": {}
+    },
+    "alkategóriák": {
+      "Csokoládé": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Egyéb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Szeletek": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Tábla csokoládé": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Cukorka, gumicukor, drazsé": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Keksz, nápolyi, ostya": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Müzli szelet, energiaszelet": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Snack": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Chips": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Magvak, dió": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Popcorn": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Ropi, perec": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Snack mixek": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Torta": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      }
+    }
+  },
+  "Fagyasztott áruk": {
+    "tulajdonságok": {
+      "egyedi": {},
+      "csoportos": {}
+    },
+    "alkategóriák": {
+      "Fagyasztott gyümölcs": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Áfonya": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Egyéb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Eper": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Málna": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Meggy": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Mix/keverék": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Ribizli": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Szeder": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Fagyasztott hal": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Egyéb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Hekk": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Kagyló": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Lazac": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Makréla": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Ponty": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Rák": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Szardínia": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Tintahal": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Tőkehal": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Tonhal": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Fagyasztott hús": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Csirke": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Kacsa": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Marha": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Pulyka": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Sertés": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Vad": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Fagyasztott készétel": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Fagyasztott pizza": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Fagyasztott rántott sajt": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Fagyasztott zöldség": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Borsó": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Brokkoli": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Burgonya": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Egyéb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Karfiol": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Kukorica": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Sárgarépa": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Spenót": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Zöldbab": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Zöldségmix": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Jégkrém, fagylalt": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Multipack": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Pálcikás": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Tégelyes": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Tölcséres": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Torta": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "Gyümölcs": {
+    "tulajdonságok": {
+      "egyedi": {
+        "bio": {},
+        "hazai": {},
+        "kiszerelés": [
+          "csomagolásban",
+          "lédig"
+        ]
+      },
+      "csoportos": {}
+    },
+    "alkategóriák": {
+      "Áfonya": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Alma": {
+        "tulajdonságok": {
+          "egyedi": {
+            "színe": [
+              "piros",
+              "sárga",
+              "zöld"
+            ],
+            "típus": [
+              "Bio Natura",
+              "Crimson Snow",
+              "Evelina",
+              "Gála",
+              "Giga",
+              "Golden",
+              "Granny Smith",
+              "Idared",
+              "Jonagold",
+              "Jonagored",
+              "Joya",
+              "Pink Lady",
+              "Red Jonaprince",
+              "Red Prince",
+              "Egyéb"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Ananász": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Aszalt, szárított, chips": {
+        "tulajdonságok": {
+          "egyedi": {
+            "bevonat": {},
+            "gyümölcs": [
+              "Alma",
+              "Ananász",
+              "Banán",
+              "Barack",
+              "Cseresznye",
+              "Datolya",
+              "Édesburgonya",
+              "Eper",
+              "Füge",
+              "Gesztenye",
+              "Goji",
+              "Gyömbér",
+              "Kókusz",
+              "Málna",
+              "Mangó",
+              "Szilva",
+              "Szőlő / Mazsola",
+              "Tőzegáfonya",
+              "Vörösáfonya",
+              "Egyéb",
+              "Mix"
+            ],
+            "tartosítás": [
+              "Chips",
+              "Főtt",
+              "Kandírozott",
+              "Liofilizált",
+              "Aszalt",
+              "Szárított"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Banán": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Citrom": {
+        "tulajdonságok": {
+          "egyedi": {
+            "kezeletlen héjú": {}
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Citromnád": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Egyéb gyümölcs": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Egzotikus": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Eper": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Görögdinnye": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fekete héjú": {},
+            "magszegény": {},
+            "mini": {},
+            "sárga hasú": {}
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Gránátalma": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Grapefruit": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Gyümölcskonzerv / befőtt": {
+        "tulajdonságok": {
+          "egyedi": {
+            "csomagolás": [
+              "Befőtt",
+              "Konzerv",
+              "Egyéb"
+            ],
+            "gyümölcs": [
+              "Alma",
+              "Ananász",
+              "Barack",
+              "Birsalma",
+              "Cseresznye",
+              "Eper",
+              "Füge",
+              "Gesztenye",
+              "Gyömbér",
+              "Málna",
+              "Mandarin",
+              "Mangó",
+              "Szeder",
+              "Szilva",
+              "Szőlő",
+              "Egyéb",
+              "Mix"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Kiwi": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Körte": {
+        "tulajdonságok": {
+          "egyedi": {
+            "típus": [
+              "Abate Fetel",
+              "Conference",
+              "Dazzling",
+              "Nashi",
+              "Packham Triumph",
+              "Piros Carmen",
+              "S-Budget",
+              "Santa Maria",
+              "Egyéb"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Lime": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Magvak, csonthéjasok": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Dió",
+              "Fenyőmag",
+              "Földimogyoró",
+              "Kesudió",
+              "Lenmag",
+              "Mandula",
+              "Napraforgó",
+              "Papaya",
+              "Paradió",
+              "Pekándió",
+              "Pisztácia",
+              "Szezámmag",
+              "Tökmag",
+              "Törökmogyoró",
+              "Egyéb",
+              "Mix"
+            ],
+            "gyümölcsös": {},
+            "héj nélküli": {},
+            "sós": {}
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Málna": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Mandarin": {
+        "tulajdonságok": {
+          "egyedi": {
+            "magnélküli": {}
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Meggy": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Mix, vegyes": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Narancs": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Navel",
+              "Egyéb"
+            ],
+            "kezeletlen héjú": {}
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Sárgadinnye": {
+        "tulajdonságok": {
+          "egyedi": {
+            "típus": [
+              "Cantaloupe",
+              "Gália",
+              "mézdinnye",
+              "piel de Sapo",
+              "Egyéb"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Szeder": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Szőlő": {
+        "tulajdonságok": {
+          "egyedi": {
+            "magnélküli": {},
+            "színe": [
+              "fehér",
+              "kék",
+              "piros"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      }
+    }
+  },
+  "Hús, hal, felvágott": {
+    "tulajdonságok": {
+      "egyedi": {},
+      "csoportos": {}
+    },
+    "alkategóriák": {
+      "Csirke": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Comb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Egész": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Farhát": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Máj, zúza": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Mell": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Nyak": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Szárny": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Felvágottak, húskészítmény": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Grillkolbász": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Hurka": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Kolbász": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Párizsi": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Sonka": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Sült hús szelet": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Szalámi": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Szalonna": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Virsli": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Hal": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Egyéb hal": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Hekk": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Lazac": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Makréla": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Ponty": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Süllő": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Szardínia": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Tőkehal": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Tonhal": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Halkonzerv": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Húskonzerv": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Kacsa": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Comb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Egész": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Máj": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Mell": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Szárny": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Májas, pástétom": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Marha": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Bélszín": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Darált": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Egyéb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Lábszár": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Oldalas": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Rostélyos": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Nyúl": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Pulyka": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Comb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Egész": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Máj": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Mell": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Szárny": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Sertés": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Comb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Csülök": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Karaj": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Lapocka": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Oldalas": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Tarja": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Vad": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      }
+    }
+  },
+  "Ital": {
+    "tulajdonságok": {
+      "egyedi": {},
+      "csoportos": {}
+    },
+    "alkategóriák": {
+      "Ásványvíz": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Bor": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Energiaital": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Gyümölcslé": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Alma": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Bodza": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Egyéb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Eper": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Grapefruit": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Körte": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Málna": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Mix, vegyes": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Multivitamin": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Narancs": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Ribizli": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Szőlő": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Ízesített víz": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Kávé, tea": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Instant kávé": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Őrölt, szemes kávé": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Teafű, filteres tea": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Pezsgő": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Rövidital": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Egyéb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Gin": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Likőr": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Rum": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Tequila": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Vodka": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Whisky": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Sör": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Alkoholmentes sör": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Barna sör": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Cider": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Világos sör": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Sportital": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Szörp": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Alma": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Bodza": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Egyéb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Eper": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Feketeribizli": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Málna": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Mix, vegyes": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Narancs": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Üdítőital": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      }
+    }
+  },
+  "Készétel": {
+    "tulajdonságok": {
+      "egyedi": {},
+      "csoportos": {}
+    },
+    "alkategóriák": {}
+  },
+  "Mentes, speciális": {
+    "tulajdonságok": {
+      "egyedi": {},
+      "csoportos": {}
+    },
+    "alkategóriák": {
+      "Bio": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Diétás, diabetikus": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Egyéb": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Gluténmentes termék": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Laktózmentes termék": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Paleo": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Protein termék": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Vegán": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      }
+    }
+  },
+  "Pékáru": {
+    "tulajdonságok": {
+      "egyedi": {},
+      "csoportos": {}
+    },
+    "alkategóriák": {
+      "Bagett": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Édes pékáru": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Fánk": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Kalács": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Muffin": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Párnák, táskák, batyuk": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Kenyér": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Egyéb kenyérféle": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Fehér": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Gluténmentes": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Kovászos": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Magvas": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Teljes kiőrlésű": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Kifli": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Sós pékáru": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Croissant": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Párnák, táskák": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Pogácsa": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Tartós pékáru": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Extrudált, puffasztott": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Kétszersült": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Toast kenyér": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Tortilla, pita, lapkenyér": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Zsemle": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      }
+    }
+  },
+  "Tejtermékek és tojás": {
+    "tulajdonságok": {
+      "egyedi": {},
+      "csoportos": {}
+    },
+    "alkategóriák": {
+      "Joghurt": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Görög": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Gyümölcsös": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Laktózmentes": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Natúr": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Protein": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Krémtúró": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Margarin": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Növényi ital": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Sajt": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Félkemény": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Friss": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Füstölt": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Grill/snack sajt": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Kemény": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Kenhető": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Lágy": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Ömlesztett": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Sajt, vaj és szendvics krémek": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Tej": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Tejdesszert, puding": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Tejföl": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Tejital": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Író": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Italjoghurt": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Jegeskávé": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Kakaó": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Kefir": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      },
+      "Tejszín": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Tojás": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Túró": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Vaj": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      }
+    }
+  },
+  "Zöldség": {
+    "tulajdonságok": {
+      "egyedi": {},
+      "csoportos": {}
+    },
+    "alkategóriák": {
+      "Bab": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Ceruzabab",
+              "Fehérbab",
+              "Gyöngybab",
+              "Mungóbab",
+              "Tarkabab",
+              "Vörösbab",
+              "Zöldbab",
+              "Egyéb"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Borsófélék": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Csicseriborsó",
+              "Sárgaborsó",
+              "Zöldborsó"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Brokkoli": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Burgonya": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Édesburgonya",
+              "Étkezési",
+              "Újburgonya"
+            ],
+            "színe": [
+              "Piros", "Sárga"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Cékla": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Csomagolt saláta, salátatál": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Egyéb zöldség": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Fehérrépa": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Gomba": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Csierke",
+              "Laska",
+              "Portobello",
+              "Vargánya",
+              "Egyéb",
+              "Mix"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Hagymafélék": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Fehérhagyma",
+              "Fokhagyma",
+              "Lilahagyma",
+              "Póréhagyma",
+              "Újhagyma",
+              "Vöröshagyma",
+              "Egyéb"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Káposzta": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Fejeskáposzta",
+              "Kelkáposzta",
+              "Kínai kel",
+              "Lilakáposzta",
+              "Egyéb"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Karalábé": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Karfiol": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Lila",
+              "Sárga",
+              "Sima"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Kelbimbó": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Kukorica": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Lencse": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Étkezési lencse",
+              "Vörös lencse",
+              "Zöld lencse",
+              "Egyéb"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Mix, vegyes": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Paprika": {
+        "tulajdonságok": {
+          "egyedi": {
+            "erős, csípős": {},
+            "fajta": [
+              "Chili",
+              "Jalapeno",
+              "Kaliforniai",
+              "Kápia",
+              "Lecsó",
+              "Sima",
+              "TV",
+              "Egyéb"
+            ],
+            "színe": [
+              "Fehér",
+              "Piros",
+              "Zöld",
+              "Mix"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Paradicsom": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Avalantino",
+              "Bébiszilva",
+              "Bugaci",
+              "Cherry",
+              "Delisher",
+              "Eper",
+              "Grill",
+              "Koktél",
+              "Kumato",
+              "Marmanade",
+              "San Marzano",
+              "Sima",
+              "Szilva",
+              "Egyéb"
+            ],
+            "fürtös": {},
+            "színe": [
+              "Piros",
+              "Sárga",
+              "Egyéb"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Retekfélék": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Salátafélék": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Fejes",
+              "Jég",
+              "Római"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Sárgarépa": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Sóska, spenót": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Tökféle, cukkini, padlizsán": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Uborka": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Fürtös",
+              "Kígyúuborka",
+              "Kovászolni való",
+              "Mini"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Zeller": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Zöldségkonzerv/üveges": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {
+          "Bab": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Borsó": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Kukorica": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Lencse": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Paradicsom": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Vegyes, egyéb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
