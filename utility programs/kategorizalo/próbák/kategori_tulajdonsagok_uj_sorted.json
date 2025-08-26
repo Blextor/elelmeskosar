@@ -1311,86 +1311,6 @@
         },
         "altípusok": {}
       },
-      "Gyümölcslé": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {
-          "Alma": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Bodza": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Egyéb": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Eper": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Grapefruit": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Körte": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Málna": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Mix, vegyes": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Multivitamin": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Narancs": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Ribizli": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Szőlő": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          }
-        }
-      },
       "Ízesített víz": {
         "tulajdonságok": {
           "egyedi": {
@@ -1449,9 +1369,30 @@
           }
         }
       },
+      "Habzó-, gyöngyözőbor": {
+        "tulajdonságok": {
+          "egyedi": {
+            "márka": [
+              "egyéb"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
       "Pezsgő": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "márka": [
+              "Henkell", "Hungaria", "Törley", "Natara", "Martini",
+              "Moinetto", "Laposa", "Cinzano", "Kreinbacher", "Sauska",
+              "BB", "Louis Francois & Co.", "Moet &Chandon",
+              "egyéb"
+            ],
+            "szín": ["fehér", "rozé"],
+            "típus": ["extra száraz", "száraz", "félédes", "édes", "extra édes"],
+            "alkoholos": ["alkoholos", "alkoholmentes", "kölyökpezsgő"]
+          },
           "csoportos": {}
         },
         "altípusok": {}
@@ -1543,7 +1484,7 @@
           "egyedi": {
             "márka": [
               "Powerade", "Prime Hydratio", "Vitalade", "Gatorade", "Vöslauer",
-              "Apenta", "Auchan", "PRO+", "Absolute LifeStyle",
+              "Apenta", "Auchan", "PRO+", "Absolute LifeStyle", "Collagen Vibe",
               "egyéb"
             ]
           },
@@ -1559,68 +1500,136 @@
         },
         "altípusok": {}
       },
-      "Szörp": {
+      "Citromlé": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "márka": [
+              "Olypos", "Tesco", "Rauch", "Sconto", "Fruppy",
+              "Limmi", "Fruit Step", "Pfanner",
+              "Auchan",
+
+              "egyéb"
+            ],
+            "citrom/lime": ["citrom", "lime"],
+            "citrom tartalom": ["40%", "50%", "100%", "egyéb/?"]
+          },
           "csoportos": {}
         },
-        "altípusok": {
-          "Alma": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
+        "altípusok": {}
+      },
+      "Szörp, italpor": {
+        "tulajdonságok": {
+          "egyedi": {
+            "márka": [
+              "Pölöskei", "Tesco", "Piroska", "Rauch", "FruttaMax Bubble",
+              "Szobi", "Stockwell & Co.", "Dr. Oetker", "Arizona", "Auchan",
+              "Nektária", "S-Budget", "Méhes-Mézes", "Mautner",
+              "egyéb"
+            ],
+            "energia tartalom": ["zéró", "csökkentett", "cukros"],
+            "por": {}
           },
-          "Bodza": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Egyéb": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Eper": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Feketeribizli": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Málna": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Mix, vegyes": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Narancs": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
+          "csoportos": {
+            "iz": [
+              "málna", "mangó", "eper", "narancs", "alma", "bodza",
+              "grapefruit", "citrom", "menta", "levendula", "cseresznye",
+              "meggy", "kóla", "szilva", "zöld tea", "csipkebogyó", "áfonya",
+
+              "egyéb"
+            ]
           }
-        }
+        },
+        "altípusok": {}
       },
       "Üdítőital": {
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {}
         },
-        "altípusok": {}
+        "altípusok": {
+          "Jegestea": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "XIXO", "Fuze Tea", "Nestea", "Lipton", "Márka", "Jana",
+                  "Rauch MyTea", "San Benedetto", "Tesco", "Arizona", "OMG Bubble tea",
+                  "San Benedetto", "Sconto Ice Tea", "Bobble Bobble Bob", "Auchan",
+                  "Tutti Tea", "Viwa Vitamintea", "SPAR",
+                  "egyéb"
+                ]
+              },
+              "csoportos": {
+                "izű": [
+                  "citrom", "barack", "zöld tea", "eper", "lime", "málna",
+                  "görögdinnye", "fekete tea", "trópusi", "feketeribizli",
+                  "birsalma",
+                  "egyéb"
+                ]
+              }
+            }
+          },
+          "Szénsavas üdítő": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Coca-Cola", "Fanta", "Márka", "XIXO", "Pepsi",
+                  "Kinley", "Schweppes", "Sprite", "Apenta", "Stockwell & Co.",
+                  "Mizse", "Gyöngy", "Canada Dry", "7Up", "Miranda", "Dr Pepper",
+                  "Tesco", "Nature Aqua", "Almdudler", "Mountain Dew", "Topjoy",
+                  "Fever-Tree", "Vöslauer", "Double Dutch", "Aqvital", "Karamalz",
+                  "Auchan", "J. Gasco", "Queen", "Fentimans", "San Pellegrino",
+                  "San Benedetto", "Tutti Juice", "Traubisoda", "NBER", "Smurfy",
+                  "SPAR", "S-Budget", "Chernel Fizz Water", "Royal Crown",
+                  "egyéb"
+                ],
+                "energia tartalom": [
+                  "zéró", "csökkentett", "cukros"
+                ],
+                "édesítőszeres": {}
+              },
+              "csoportos": {
+                "ízű": [
+                  "kóla", "meggy", "citrom", "lime", "gyömbér", "tonik",
+                  "bogyós gyümölcsös", "feketeribizli", "narancs", "eper",
+                  "bodza", "szőlő", "málna", "maracuja", "ananász", "alma",
+                  "kiwi", "görögdinnye", "limonádé", "mangó", "vanília",
+                  "körte", "levendula", "gránátalma", "tuttifrutti", "cseresznye",
+                  "grapefruit", "multivitamin", "jaffa",
+                  "vegyes","egyéb"
+                ]
+              }
+            }
+          },
+          "Gyümölcslé és Zöldséglé": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Happy Day", "SPAR", "Hohes C", "Sió", "Hey-Ho",
+                  "Topjoy", "Kubu", "Cappy", "Limenita", "Rauch",
+                  "S-Budget", "Power Fruit", "Univer", "Szobi",
+                  "Auchan", "Golden Valley", "Sweet&Fruit", "Olympos",
+                  "DÉR Juice", "Pfanner", "Koch", "Tesco", "Apenta",
+                  "Capri-Sun", "Swiss", "Funky Forest", "Andros", "Rio",
+                  "Aqvital", "Aloe Vera", "Queen", "Biopont",
+                  "egyéb"
+                ],
+                "rostos": {},
+                "gyömülcs püré": {},
+                "100%": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "narancs", "sárgarépa", "meggy", "feketeribizli", "őszibarack",
+                  "körte", "ananász", "multivitamin", "alma", "banán", "eper",
+                  "zöldalma", "paradicsom", "görögdinnye", "limonádé", "erdeigyümölcs",
+                  "kiwi", "áfonya", "mangó", "cékla", "szőlő", "kékszőlő", "sárkánygyümölcs",
+                  "szilva", "fahéj", "kókusz", "aloe vera",
+                  "zöldséges", "vegyes", "egyéb"
+                ]
+              }
+            }
+          }
+        }
       }
     }
   },
