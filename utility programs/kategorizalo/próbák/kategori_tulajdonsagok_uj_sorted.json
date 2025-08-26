@@ -1260,7 +1260,21 @@
     "alkategóriák": {
       "Ásványvíz": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "savas": [
+              "mentes", "enyhén savas", "savas", "extra savas", "szóda"
+            ],
+            "márka": [
+              "Szentkirályi", "Natue aqua", "SPAR Verde", "SPAR Zafír", "SPAR Libra",
+              "Emese", "Jana", "Theodora", "Mizse", "Primavera", "Jana Baby", "Aquarel",
+              "Vöslauer", "Ferenc József", "Mira", "Evian", "Acqua Panna Toscana",
+              "Floewater", "Aquablu", "Glacéau", "Auchan Primavera", "Zafír", "Aqua Minera",
+              "Auchan Pannon-Aqua", "Pannon-Aqua", "Fonte Natura", "Veritas", "Comix",
+              "Aqua Oxigén", "Primus", "Hargita Gyöngye", "San Banedetto", "Jamnica",
+              "Borsec", "San Pellegrino", "Hajdúszoboszlói", "Oonly", "Fit",
+              "Tesco Zafír", "Voss", "Füredi OXION"
+            ]
+          },
           "csoportos": {}
         },
         "altípusok": {}
@@ -1274,8 +1288,26 @@
       },
       "Energiaital": {
         "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
+          "egyedi": {
+            "márka": [
+              "HELL", "Monster", "Red Bull", "New Gen", "Kx Blue Spark",
+              "Burn", "Adrealin", "Guarana No Sleep", "Squid Game", "Kobra",
+              "Bomba!", "Watt", "After/Before Party", "Swiss", "S-Budget",
+              "egyéb"
+            ]
+          },
+          "csoportos": {
+            "tartalom": ["vitamin", "energia", "koffein", "rehab"],
+            "ízű": [
+              "sima",
+              "mangó", "görögdinnye", "alma", "kivi", "puncs",
+              "guava", "szőlő", "kókusz", "áfonya", "sárkánygyümölcs",
+              "kaktusz", "tuttifrutti", "cseresznye", "barack", "maracuja",
+              "narancs", "lime", "menta", "eper", "banán", "passiógyümölcs",
+              "grapefruit", "szeder", "limonádé",
+              "vegyes", "egyéb"
+            ]
+          }
         },
         "altípusok": {}
       },
@@ -1361,8 +1393,33 @@
       },
       "Ízesített víz": {
         "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
+          "egyedi": {
+            "savas": [
+              "mentes", "enyhén savas", "savas", "extra savas", "szóda"
+            ],
+            "márka": [
+              "Tesco", "Vöslauer", "Floewater", "Apenta", "Voss", "Active O2",
+              "Aqvital Multivitamin", "Viwa Vitaminwater", "Chernel Fizz Water",
+              "Hohes C Vitamin Water", "Theodora", "Jana", "Kubu Waterrr",
+              "S-Budget",
+              "egyéb"
+            ],
+            "energia tartalom": [
+              "energiamentes", "csökkentett", "cukros"
+            ]
+          },
+          "csoportos": {
+            "tartalom": [
+              "kollagén", "vitamin"
+            ],
+            "íz": [
+              "alma", "citrom", "bodza", "citromfű", "málna", "áfonya",
+              "körte", "uborka", "lime", "menta", "barack", "erdei gyümölcs",
+              "egzotikus", "mangó", "hibiszkusz", "narancs", "szeder", "szőlő",
+              "aloe vera", "levendula", "grapefruit", "eper",
+              "egyéb"
+            ]
+          }
         },
         "altípusok": {}
       },
@@ -1483,8 +1540,22 @@
       },
       "Sportital": {
         "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
+          "egyedi": {
+            "márka": [
+              "Powerade", "Prime Hydratio", "Vitalade", "Gatorade", "Vöslauer",
+              "Apenta", "Auchan", "PRO+", "Absolute LifeStyle",
+              "egyéb"
+            ]
+          },
+          "csoportos": {
+            "tartalom": ["vitamin", "energia", "koffein", "izotóniás", "magnézium", "kollagén"],
+            "ízű": [
+              "ananász", "mangó", "citrom", "vérnarancs", "málna",
+              "multivitamin", "eper", "narancs", "áfonya", "fekete ribizli",
+              "gránátalma", "bodza", "kaktusz", "papaja",
+              "vegyes", "egyéb"
+            ]
+          }
         },
         "altípusok": {}
       },
