@@ -579,46 +579,6 @@
         },
         "altípusok": {}
       },
-      "Aszalt, szárított, chips": {
-        "tulajdonságok": {
-          "egyedi": {
-            "bevonat": {},
-            "gyümölcs": [
-              "Alma",
-              "Ananász",
-              "Banán",
-              "Barack",
-              "Cseresznye",
-              "Datolya",
-              "Édesburgonya",
-              "Eper",
-              "Füge",
-              "Gesztenye",
-              "Goji",
-              "Gyömbér",
-              "Kókusz",
-              "Málna",
-              "Mangó",
-              "Szilva",
-              "Szőlő / Mazsola",
-              "Tőzegáfonya",
-              "Vörösáfonya",
-              "Egyéb",
-              "Mix"
-            ],
-            "tartosítás": [
-              "Chips",
-              "Főtt",
-              "Kandírozott",
-              "Liofilizált",
-              "Aszalt",
-              "Szárított"
-            ]
-          },
-          "csoportos": {}
-        },
-        "altípusok": {}
-      },
       "Banán": {
         "tulajdonságok": {
           "egyedi": {},
@@ -636,20 +596,6 @@
         "altípusok": {}
       },
       "Citromnád": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {}
-      },
-      "Egyéb gyümölcs": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {}
-      },
-      "Egzotikus": {
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {}
@@ -689,38 +635,6 @@
         },
         "altípusok": {}
       },
-      "Gyümölcskonzerv / befőtt": {
-        "tulajdonságok": {
-          "egyedi": {
-            "csomagolás": [
-              "Befőtt",
-              "Konzerv",
-              "Egyéb"
-            ],
-            "gyümölcs": [
-              "Alma",
-              "Ananász",
-              "Barack",
-              "Birsalma",
-              "Cseresznye",
-              "Eper",
-              "Füge",
-              "Gesztenye",
-              "Gyömbér",
-              "Málna",
-              "Mandarin",
-              "Mangó",
-              "Szeder",
-              "Szilva",
-              "Szőlő",
-              "Egyéb",
-              "Mix"
-            ]
-          },
-          "csoportos": {}
-        },
-        "altípusok": {}
-      },
       "Kiwi": {
         "tulajdonságok": {
           "egyedi": {},
@@ -754,35 +668,6 @@
         },
         "altípusok": {}
       },
-      "Magvak, csonthéjasok": {
-        "tulajdonságok": {
-          "egyedi": {
-            "fajta": [
-              "Dió",
-              "Fenyőmag",
-              "Földimogyoró",
-              "Kesudió",
-              "Lenmag",
-              "Mandula",
-              "Napraforgó",
-              "Papaya",
-              "Paradió",
-              "Pekándió",
-              "Pisztácia",
-              "Szezámmag",
-              "Tökmag",
-              "Törökmogyoró",
-              "Egyéb",
-              "Mix"
-            ],
-            "gyümölcsös": {},
-            "héj nélküli": {},
-            "sós": {}
-          },
-          "csoportos": {}
-        },
-        "altípusok": {}
-      },
       "Málna": {
         "tulajdonságok": {
           "egyedi": {},
@@ -800,13 +685,6 @@
         "altípusok": {}
       },
       "Meggy": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {}
-      },
-      "Mix, vegyes": {
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {}
@@ -848,6 +726,13 @@
         },
         "altípusok": {}
       },
+      "Szilva": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
       "Szőlő": {
         "tulajdonságok": {
           "egyedi": {
@@ -856,6 +741,128 @@
               "fehér",
               "kék",
               "piros"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Magvak, csonthéjasok": {
+        "tulajdonságok": {
+          "egyedi": {
+            "fajta": [
+              "Dió",
+              "Fenyőmag",
+              "Földimogyoró",
+              "Kesudió",
+              "Lenmag",
+              "Mandula",
+              "Napraforgó",
+              "Papaya",
+              "Paradió",
+              "Pekándió",
+              "Pisztácia",
+              "Szezámmag",
+              "Tökmag",
+              "Törökmogyoró",
+              "Egyéb",
+              "Mix"
+            ],
+            "gyümölcsös": {},
+            "héj nélküli": {},
+            "sós": {}
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Mix, vegyes": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Egyéb gyümölcs": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Egzotikus": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Gyümölcskonzerv / befőtt": {
+        "tulajdonságok": {
+          "egyedi": {
+            "csomagolás": [
+              "Befőtt",
+              "Konzerv",
+              "Egyéb"
+            ],
+            "gyümölcs": [
+              "Alma",
+              "Ananász",
+              "Barack",
+              "Birsalma",
+              "Cseresznye",
+              "Eper",
+              "Füge",
+              "Gesztenye",
+              "Gyömbér",
+              "Málna",
+              "Mandarin",
+              "Mangó",
+              "Szeder",
+              "Szilva",
+              "Szőlő",
+              "Egyéb",
+              "Mix"
+            ]
+          },
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Aszalt, szárított, chips": {
+        "tulajdonságok": {
+          "egyedi": {
+            "bevonat": {},
+            "gyümölcs": [
+              "Alma",
+              "Ananász",
+              "Banán",
+              "Barack",
+              "Cseresznye",
+              "Datolya",
+              "Édesburgonya",
+              "Eper",
+              "Füge",
+              "Gesztenye",
+              "Goji",
+              "Gyömbér",
+              "Kókusz",
+              "Málna",
+              "Mangó",
+              "Szilva",
+              "Szőlő / Mazsola",
+              "Tőzegáfonya",
+              "Vörösáfonya",
+              "Egyéb",
+              "Mix"
+            ],
+            "tartosítás": [
+              "Chips",
+              "Főtt",
+              "Kandírozott",
+              "Liofilizált",
+              "Aszalt",
+              "Szárított"
             ]
           },
           "csoportos": {}
