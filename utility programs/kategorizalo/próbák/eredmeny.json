@@ -9713,5 +9713,199 @@
     "tulajdonsagok": {},
     "kategoria_hash": "9da1b84fcbd4177356c4ab58570a9e4a00e8945eb0c988a84e3f1de26a0c63fe",
     "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08133f3",
+      "product_name": "S-Budget őszibarack ital 0,2 l",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "9100000759500",
+      "unit_price": "119.0",
+      "unit_type": "ml",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675e41ad8b6b903a55fac35;https://imageproxy.wolt.com/assets/6675e41cd8b6b903a55fac38",
+      "description": "",
+      "categories": "dobozos-gyumolcsle-306",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675e41ad8b6b903a55fac35",
+      "categories__show": "dobozos-gyumolcsle-306"
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Üdítőital",
+    "altipus": "Gyümölcslé és Zöldséglé",
+    "tulajdonsagok": {
+      "márka": "S-Budget",
+      "rostos": false,
+      "gyömülcs püré": false,
+      "100%": false,
+      "íz": [
+        "őszibarack"
+      ]
+    },
+    "kategoria_hash": "0bb22068bc3cd17839e239c3b5531f2df3d10f0c09d98c34ead2ae0af568a7bf",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813bc2",
+      "product_name": "Sió Vitatigris rózsaszín gyümölcs-mix vegyes gyümölcsital 0,2 l",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5998815123869",
+      "unit_price": "269.0",
+      "unit_type": "ml",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/667665fb1b708918eb6e7c21",
+      "description": "",
+      "categories": "dobozos-gyumolcsle-306",
+      "kep_url": "https://imageproxy.wolt.com/assets/667665fb1b708918eb6e7c21",
+      "categories__show": "dobozos-gyumolcsle-306"
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Üdítőital",
+    "altipus": "Gyümölcslé és Zöldséglé",
+    "tulajdonsagok": {
+      "márka": "Sió",
+      "rostos": false,
+      "gyömülcs püré": false,
+      "100%": false,
+      "íz": [
+        "őszibarack",
+        "vegyes"
+      ]
+    },
+    "kategoria_hash": "5d7fa87f6216ffefbdc955520e227341aadc481fc749e246eb155986420d5966",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813bc1",
+      "product_name": "Sió Vitatigris piros gyümölcs-mix vegyes gyümölcsital 1 l",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5998815123760",
+      "unit_price": "659.0",
+      "unit_type": "ml",
+      "unit_step": "1000.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/667668f1b669ac6c8eaec63b",
+      "description": "",
+      "categories": "dobozos-gyumolcsle-306",
+      "kep_url": "https://imageproxy.wolt.com/assets/667668f1b669ac6c8eaec63b",
+      "categories__show": "dobozos-gyumolcsle-306"
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Üdítőital",
+    "altipus": "Gyümölcslé és Zöldséglé",
+    "tulajdonsagok": {
+      "márka": "Sió",
+      "rostos": false,
+      "gyömülcs püré": false,
+      "100%": false,
+      "íz": [
+        "őszibarack",
+        "vegyes"
+      ]
+    },
+    "kategoria_hash": "5d7fa87f6216ffefbdc955520e227341aadc481fc749e246eb155986420d5966",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813bdc",
+      "product_name": "Sió Vitatigris sárga gyümölcs-mix vegyes gyümölcsital 1 l",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5998815123784",
+      "unit_price": "659.0",
+      "unit_type": "ml",
+      "unit_step": "1000.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/667668f4b669ac6c8eaec63e",
+      "description": "",
+      "categories": "dobozos-gyumolcsle-306",
+      "kep_url": "https://imageproxy.wolt.com/assets/667668f4b669ac6c8eaec63e",
+      "categories__show": "dobozos-gyumolcsle-306"
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Üdítőital",
+    "altipus": "Gyümölcslé és Zöldséglé",
+    "tulajdonsagok": {
+      "márka": "Sió",
+      "rostos": false,
+      "gyömülcs püré": false,
+      "100%": false,
+      "íz": [
+        "őszibarack",
+        "vegyes"
+      ]
+    },
+    "kategoria_hash": "5d7fa87f6216ffefbdc955520e227341aadc481fc749e246eb155986420d5966",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0813be5",
+      "product_name": "SPAR szőlőital hozzáadott C-vitaminnal 200 ml",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "9100000973319",
+      "unit_price": "169.0",
+      "unit_type": "ml",
+      "unit_step": "200.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/667666f41b708918eb6e7d1a;https://imageproxy.wolt.com/assets/667666f51b708918eb6e7d1c",
+      "description": "",
+      "categories": "dobozos-gyumolcsle-306",
+      "kep_url": "https://imageproxy.wolt.com/assets/667666f41b708918eb6e7d1a",
+      "categories__show": "dobozos-gyumolcsle-306"
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Üdítőital",
+    "altipus": "Gyümölcslé és Zöldséglé",
+    "tulajdonsagok": {
+      "márka": "SPAR",
+      "rostos": false,
+      "gyömülcs püré": false,
+      "100%": false,
+      "íz": [
+        "őszibarack",
+        "szőlő"
+      ]
+    },
+    "kategoria_hash": "7d157f459a95f51552083434e7e89602c8c53fa059600f1696a73079a5417e3b",
+    "statusz": "kesz"
   }
 ]
