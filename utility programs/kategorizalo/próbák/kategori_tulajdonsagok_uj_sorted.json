@@ -1343,28 +1343,122 @@
         },
         "altípusok": {}
       },
-      "Kávé, tea": {
+      "Kávé, tea, kakaó (száraz)": {
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {}
         },
         "altípusok": {
-          "Instant kávé": {
+          "Instant / kapszulás kávé": {
             "tulajdonságok": {
-              "egyedi": {},
+              "egyedi": {
+                "márka": [
+                  "Nescafé", "Stockwell & Co.", "Eduscho", "Tchibo",
+                  "Davidoff", "Jacobs", "Little's", "Auchan", "Caffé Perté",
+                  "Cafe Frei", "L'OR", "Starbucks", "Lavazza", "Senseo",
+                  "Omnia", "Maci", "Sweetab", "Mokate", "Nestlé Ricoré", "S-Budget",
+                  "Bravos", "Spar", "Illy", "Amaroy", "Barissimo", "La Natura",
+                  "Tesco", "Inka", "Cikorina",
+                  "egyéb"
+                ],
+                "fajta": ["kávé", "jeges kávé", "cappuccino", "egyéb"],
+                "típus": ["granulátum / por", "tasakos / párnás", "kapszula"],
+                "koffeintartalom": ["koffeinmentes", "alacsony", "normál", "intenzív"]
+              },
+              "csoportos": {
+                "íz": [
+                  "sima", "krémes", "mogyorós", "karamell", "vanília", "intenzív",
+                  "gyömölcsös", "csokoládé", "dió",
+                  "egyéb"
+                ]
+              }
+            }
+          },
+          "Kávé izesítők / tejek / tejporok": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Meggle", "Tesco", "Zott", "Completa", "Milram", "Maresi",
+                  "MinusL", "Tutti", "Auchan", "Vegabond", "Hochwald", "Spar",
+                  "Milsani",
+                  "egyéb"
+                ],
+                "fajta": ["kávétejszín", "krémpor / tejpor", "kávétej", "egyéb"],
+                "típus": ["granulátum / por", "tasakos / párnás", "kapszula"],
+              },
               "csoportos": {}
             }
           },
           "Őrölt, szemes kávé": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Barissimo", "Eduscho", "Bravos", "Omnia", "Gala", "Tchibo",
+                  "Segafredo", "Regio", "Spar", "S-Budget", "Paloma", "Karaván",
+                  "Dallmayr", "Cafe Frei", "Starbucks", "Pellini", "L'OR", "Auchan",
+                  "Biancaffé", "Caffe Degli", "Mantaro", "Tesco",
+                  "egyéb"
+                ],
+                "fajta": ["őrölt", "szemes", "egyéb"],
+                "típus": ["granulátum / por", "tasak", "kapszula"],
+                "koffeintartalom": ["koffeinmentes", "alacsony", "normál", "intenzív"]
+              },
+              "csoportos": {
+                "íz": [
+                  "sima", "krémes", "mogyoró", "karamell", "vanília", "intenzív",
+                  "gyömölcsös", "csokoládé", "dió",
+                  "egyéb"
+                ]
+              }
             }
           },
-          "Teafű, filteres tea": {
+          "Teafű, filteres tea, instant tea": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Westminster", "Pickwick", "Teekanne", "Naturland",
+                  "Dr. Chen", "Herbária", "Spar", "S-Budget", "Teaház",
+                  "Ekland", "Loyd", "Saga", " Milford", "Mokate", "Dilmah",
+                  "Vifon", "Tetley", "Lipton", "Sir Morton", "Just a Minute",
+                  "Twinings", "Basilur", "English Tea Shop", "Amanda", "Belin",
+                  "Auchan", "Tee Time", "London Fruit & Herb", "Posti",
+                  "Tesco", "Stockwell & Co.",
+                  "egyéb"
+                ],
+                "típus": ["instant", "filteres", "teafű / keverék"],
+                "fajta": ["sima", "zöld", "fekete"]
+              },
+              "csoportos": {
+                "íz":
+                  ["citrom", "gyógynövény", "narancs", "eper",
+                    "alma", "málna", "gyömbér", "erdeigyümölcs", "áfonya",
+                    "szilva", "fajéj", "mangó", "cseresznye", "meggy",
+                    "kamilla", "csipkebogyó", "hárs", "bodza", "menta", "citromfű",
+                    "csalán", "körömvirág", "homoktövis", "vanília", "muétivitamin",
+                    "mandula", "gránátalma", "barack", "szeder", "Tőzegáfonya",
+                    "grapefruit", "hibiszkusz", "maracuja", "körte", "lándzsás útifű",
+                    "English Breakfast", "Earl Gray", "Oolong",
+                    "egyéb"
+                  ]
+              }
+            }
+          },
+          "Kakaó / Vanília / Egyéb": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Mokate", "Nesquik", "Tutti", "Szerencsi", "Thymos", "S-Budget", "Starbucks",
+                  "Dr. Oetker", "Siena", "Auchan", "Ovomaltine", "Tesco", "NESCAFÉ", "La Festa",
+                  "Good Choice", "Back Family", "Choceur", "Milky Sip", "Twix", "Mars", "MilkyWay",
+                  "Mantaro",
+                  "egyéb"
+                ],
+                "íz": ["sima", "fehércsokoládé", "étcsokoládé", "eper", "egyéb"]
+              },
+              "csoportos": {
+                "típus": ["forró csokoládé", "kakaópor", "édesített kakaópor", "milkshake", "szívószál", "vanília",
+                          "kapszula"]
+              }
             }
           }
         }
@@ -1389,7 +1483,7 @@
               "BB", "Louis Francois & Co.", "Moet &Chandon",
               "egyéb"
             ],
-            "szín": ["fehér", "rozé"],
+            "szín": ["fehér", "rozé", "vörös"],
             "típus": ["extra száraz", "száraz", "félédes", "édes", "extra édes"],
             "alkoholos": ["alkoholos", "alkoholmentes", "kölyökpezsgő"]
           },
@@ -1517,7 +1611,7 @@
         },
         "altípusok": {}
       },
-      "Szörp, italpor": {
+      "Szörp, üdítőitalpor": {
         "tulajdonságok": {
           "egyedi": {
             "márka": [
