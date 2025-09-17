@@ -1384,7 +1384,7 @@
                   "egyéb"
                 ],
                 "fajta": ["kávétejszín", "krémpor / tejpor", "kávétej", "egyéb"],
-                "típus": ["granulátum / por", "tasakos / párnás", "kapszula"],
+                "típus": ["granulátum / por", "tasakos / párnás", "kapszula"]
               },
               "csoportos": {}
             }
@@ -1543,33 +1543,53 @@
       },
       "Sör": {
         "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {
-          "Alkoholmentes sör": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
+          "egyedi": {
+            "márka": [
+              "Dreher", "Karlskrone", "Bergkönig", "Kőbányai", "Borsodi",
+              "Gösser", "Soproni", "Staropramen", "Peroni", "Haineken",
+              "Kronenbourg", "Sixtusbräu", "Corona", "Pilsner", "Csíki",
+              "Pannonhalmi FS", "Horizont", "Fehér Nyúl", "Monyo", "First Craft",
+              "BrewDog", "First Voodoo", "Lindemans", "Mad Scientist", "Aha!",
+              "Arany Ászok", "Hofbräu", "Kozel", "Asahi", "Estrella", "Coors",
+              "Miller", "1664 Blanc", "Pécsi", "Szalon", "Birra Moretti",
+              "Edekweiss", "Krusovice", "Arany Fácán", "Budweiser Budvar",
+              "Hoegaarden", "Tuborg", "Löwenbräu", "Carlsberg", "Beck's",
+              "Leffe", "Steffl", "Bitburger", "Paulaner", "Garage Hard",
+              "Guinness", "BE(er) Cool", "Szent András", "Puskás 10", "Mort Subite",
+              "Desperados", "X2", "Szia Uram!", "Dab", "Radler Reboost", "Union",
+              "Gallica", "Köstritzer", "Svijany", "Berliner Kindl", "Krombacher",
+              "Welsenburg", "Arany Szarvas", "Zipfer", "Holsten", "Duff", "Mythos",
+              "Old Prague", "Zlaty", "Platan", "Lasko", "Lobkowicz",
+              "Amstel", "Primator", "Karlovacko", "Augustiner", "Ambar",
+              "Daura Damm", "Hunyadi Mátyás", "Servus", "Rákóczi", "Rastinger",
+              "Bad Dogs", "Wundertal", "Friss",
+              "egyéb"
+            ],
+            "alkoholmentes": {},
+            "kézműves": {}
           },
-          "Barna sör": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
+
+          "csoportos": {
+            "típus": ["világos", "barna", "radler", "lager", "búzasör", "pils", "ipa", "ale", "lambic"],
+            "iz": [
+              "sima", "citrom", "lime", "menta", "mangó", "licsi", "málna", "meggy",
+              "feketeribizli", "barack", "spritz", "eper", "agávé",
+              "egyéb"
+            ]
+          }
+        }
+      },
+      "Cider": {
+        "tulajdonságok": {
+          "egyedi": {
+            "márka": [
+              "Ravini", "Somersby", "Strongbow", "Kopparberg",
+              "egyéb"
+            ]
           },
-          "Cider": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Világos sör": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
+
+          "csoportos": {
+            "iz": ["alma", "szeder", "spritz", "áfonya", "málna" , "lime", "mix", "körte", "passionfruit", "egyéb"]
           }
         }
       },
