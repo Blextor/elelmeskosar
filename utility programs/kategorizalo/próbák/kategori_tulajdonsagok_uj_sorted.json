@@ -1474,7 +1474,8 @@
               "Etyaki Kúria", "Bubik", "Hilltop Hill", "Voilá", "Lafi",
               "Eiler", "Konytos", "I Heart", "Ravini Hugo", "Paulus",
               "Feind", "Costellore", "Barn Amarilla", "Veuve Emille",
-              "Blue Nun", "Treviso",
+              "Blue Nun", "Treviso", "NextGen", "La Dolce Vita",
+              "Irsai Olivér",
               "egyéb"
             ],
             "alkoholmentes": {},
@@ -1535,7 +1536,7 @@
                   "Fireball", "Sheridan's", "Disaronno", "Bumbu Cream",
                   "Beluga", "Tokaj", "Mátyás", "Tropical", "Helenas",
                   "Kahlúa", "Takamaka", "Várda", "Amaretto", "Tubi 60",
-                  "Pilvax",
+                  "Pilvax", "Cseles",
                   "egyéb"
                 ],
                 "fajta": [
@@ -1544,6 +1545,35 @@
                   "egyéb"
                 ],
                 "gyógynövényes": {}
+              }
+            }
+          },
+          "Whisky & Bourbon": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Statesman", "Jack Daniel's", "Ballantine's", "Chivas Regal",
+                  "Maker's Mark", "The Famous Grouse", "Tullamore D.E.W.", "Jameson",
+                  "Jim Beam", "Connemara", "Hankey Bannister", "Grant's", "Hatozaki",
+                  "Joe Black", "Talisker", "Black Velvet", "Teeling", "Johnnie Walker",
+                  "The Singleton", "The Glenlivet", "Glenmorangie", "Bulleti",
+                  "Woodford", "Monkey Shoulder", "Nikka Days", "Teacher's",
+                  "Sir Edward's", "Joe Roberts", "Southern Comfort", "Cutty Sark",
+                  "Hunting Lodge", "Four Roses", "Rebel", "Kilbeggan",
+                  "Isle of Skye", "Arran Barrel", "Akashi", "The Deacon",
+                  "Gentleman Jack", "Agárdi", "Daimyo-No", "Togouchi", "Mars Kasei",
+                  "The Irishman", "Highland Park", "Jura", "Tomatin",  "Green Spot",
+                  "Bruichladdich", "Aberlour", "Auchentoshan", "Caol Ila", "Lagavulin",
+                  "Hibiki", "Tesco", "Scots Club","Shanky's Whip", "Laphroaig",
+                  "Joe Rebel",
+                  "egyéb"
+                ]
+              },
+              "csoportos": {
+                "íz": [
+                  "méz", "alma", "fajéj", "cseresznye", "narancs", "egzotikus gyümölcsök",
+                  "egyéb"
+                ]
               }
             }
           },
@@ -1566,12 +1596,6 @@
             }
           },
           "Vodka": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Whisky": {
             "tulajdonságok": {
               "egyedi": {},
               "csoportos": {}
