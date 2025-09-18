@@ -9907,5 +9907,35 @@
     },
     "kategoria_hash": "7d157f459a95f51552083434e7e89602c8c53fa059600f1696a73079a5417e3b",
     "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08128ea",
+      "product_name": "Virágméz 900 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5998150520071",
+      "unit_price": "2899.0",
+      "unit_type": "g",
+      "unit_step": "900.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/6675e91fe98c4a1a5c6424f5",
+      "description": "",
+      "categories": "mez-80",
+      "kep_url": "https://imageproxy.wolt.com/assets/6675e91fe98c4a1a5c6424f5",
+      "categories__show": "mez-80"
+    },
+    "fokategoria": "",
+    "alkategoria": "",
+    "altipus": "",
+    "tulajdonsagok": {},
+    "kategoria_hash": "e3b0a915a8e018e505efdf269bf82f074595620d0249cf62397262ac343a3382",
+    "statusz": "folyamatban"
   }
 ]

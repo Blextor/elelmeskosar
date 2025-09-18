@@ -1281,7 +1281,23 @@
       },
       "Bor": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "márka": [
+              "Dankó", "Szabó Pince", "Varga", "Ostorosbor",
+              "Frittmann", "Vylyan", "Hilltop", "Feind", "Juhász",
+              "Bolyki", "Laposa", "Font", "Etyeki", "Teleki",
+              "Pannonhalmi Főapátság", "Figula", "Mészáros Pál",
+              "Gere", "Schieber", "Natara", "Völgyes", "Bodri",
+              "Soltész", "Eszerbauer", "Konyári", "Sauska",
+              "Haraszthy", "Gál", "Florence", "Nyakas",
+              "Szent Istvén Korona", "BB", "Mateus", "Pincemester",
+              "Várhegyi", "Bujdusó", "Irsai Olivér", "La Fiesta",
+              "egyéb"
+            ],
+            "palack": ["üveg", "műanyag", "egyéb"],
+            "típus": [ "száraz", "félszáraz", "félédes", "édes", "egyéb"],
+            "fajta": ["fehér", "vörös", "rosé", "gyümölcs", "egyéb"]
+          },
           "csoportos": {}
         },
         "altípusok": {}
@@ -1688,6 +1704,7 @@
                   "meggy", "szilva", "körte", "narancs", "citrom", "csokoládé", "görögdinnye",
                   "sárgadinnye", "Mojito", "Pina Colada", "Blue Lagoon", "Cosmopolitan",
                   "Sex On The Beach", "eper", "gyömbér", "ananász", "ánizs", "méz",
+                  "Margarita", "Cuba Libre",
                   "egyéb"
                 ]
               }
