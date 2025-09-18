@@ -1537,7 +1537,7 @@
                   "Beluga", "Tokaj", "Mátyás", "Tropical", "Helenas",
                   "Kahlúa", "Takamaka", "Várda", "Amaretto", "Tubi 60",
                   "Pilvax", "Cseles", "Herb's", "Bitter & Lime", "Berliner",
-                  "Underberg",
+                  "Underberg", "Cream Heroes",
                   "egyéb"
                 ],
                 "fajta": [
@@ -1619,20 +1619,78 @@
           },
           "Tequila": {
             "tulajdonságok": {
-              "egyedi": {},
+              "egyedi": {
+                "márka": [
+                  "Sierra", "Olmeca", "Don Severino", "Jose Cuervo",
+                  "Don Ramón", "Mezcal",
+                  "egyéb"
+                ]
+              },
               "csoportos": {}
             }
           },
           "Vodka": {
             "tulajdonságok": {
-              "egyedi": {},
+              "egyedi": {
+                "márka": [
+                  "Kalinka", "Royal", "Zubrowka", "Finlandia", "Pannónia",
+                  "Absolut", "Red Crown", "Nicolaus", "Wyborowa", "Dworakoff",
+                  "Bols Marine", "Poliakov", "Romanof", "Yassnaya", "Helsinki",
+                  "Russian Standard", "Stolichnaya", "Koskenkorva", "Three Sixty",
+                  "Opera", "Smirnoff", "Criminal", "Titos Handmade", "NEFT",
+                  "Grey Goose", "Crystal Head", "Beluga", "Belvedere",
+                  "Kaiser Herbal", "Alaska", "Tipli", "Girja", "Ciroc", "Kazakoff",
+                  "Spacerowa",
+                  "egyéb"
+                ],
+                "fajta": ["sima", "gyümölcsös", "egyéb"]
+              },
               "csoportos": {}
             }
           },
-          "Egyéb": {
+          "Vermuth": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Martini", "Angielli", "Garrone",
+                  "egyéb"
+                ],
+                "fajta": ["extra száraz", "száraz", "édes", "extra édes", "egyéb"]
+              },
+              "csoportos": {}
+            }
+          },
+          "Pálinka": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Martini", "Angielli", "Garrone",
+                  "egyéb"
+                ],
+                "fajta": ["extra száraz", "száraz", "édes", "extra édes", "egyéb"]
+              },
+              "csoportos": {
+                "íz": ["szilva", "körte", "barack", "dió", "alma", "meggy", "cseresznye", "egyéb"]
+              }
+            }
+          },
+          "Koktélok, Egyéb": {
             "tulajdonságok": {
               "egyedi": {},
-              "csoportos": {}
+              "csoportos": {
+                "alkohol": [
+                  "rum", "vodka", "likőr", "gin", "tonik", "tequila", "vermuth", "pálinka",
+                  "whisky", "brandy", "bor", "konyak", "aperitív",
+                  "egyéb"
+                ],
+                "íz": [
+                  "kóla", "barack", "lime", "kókusz", "alma", "csersznye",
+                  "meggy", "szilva", "körte", "narancs", "citrom", "csokoládé", "görögdinnye",
+                  "sárgadinnye", "Mojito", "Pina Colada", "Blue Lagoon", "Cosmopolitan",
+                  "Sex On The Beach", "eper", "gyömbér", "ananász", "ánizs", "méz",
+                  "egyéb"
+                ]
+              }
             }
           }
         }
