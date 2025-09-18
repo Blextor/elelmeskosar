@@ -14,8 +14,12 @@ ZOOM_MARGIN  = 40   # nagyítás margó az ablak széléhez képest (px)
 
 # --- TULAJDONSÁG LISTA MAKRÓK ---
 MAX_PER_ROW        = 5   # egy sorban legfeljebb ennyi gomb
-MAX_ROWS_PER_PROP  = 5   # egy tulajdonság-csoport legfeljebb ennyi sor magas (KÉRT: 5)
-ROW_PX             = 28  # egy sor becsült magassága px-ben (UI fonttól függően)
+MAX_ROWS_PER_PROP  = 5   # egy tulajdonság-csoport legfeljebb ennyi sor magas (scroll-keret)
+ROW_PX             = 28  # egy sor becsült magassága px-ben
+
+# --- SZÖVEG TÖRDELÉS A FEJLÉCBEN ---
+TEXT_WRAP_MIN = 240      # wraplength alsó korlát
+TEXT_WRAP_MARGIN = THUMB_MAX_W + 60  # ennyit hagyunk a kép+padding számára
 
 def slugify(value):
     value = str(value)
@@ -67,23 +71,12 @@ def get_altipusok(kategoriak_dict, fokategoria, alkategoria):
     if not (fokategoria and alkategoria): return []
     return list(kategoriak_dict[fokategoria]['alkategóriák'][alkategoria].get('altípusok', {}).keys())
 
-# --- ÚJ: tulajdonság normalizáló az új sémához + visszafelé kompatibilitás ---
+# --- ÚJ sémához normalizáló (+visszafelé kompatibilis) ---
 def _normalize_tulajdonsag_blokk(blokk):
-    """
-    Bemenet: a JSON 'tulajdonságok' blokkja ÚJ (egyedi/csoportos) VAGY RÉGI sémában.
-    Kimenet: egységesített dict: kulcs -> spec
-      - {}                               -> boolean
-      - ["a","b"]                        -> multi (checkbox)
-      - {"values":[...],"type":"single"} -> single (radio)
-      - {"values":[...]}                 -> multi (checkbox)
-    """
     out = {}
-
-    # ÚJ séma
     if isinstance(blokk, dict) and ("egyedi" in blokk or "csoportos" in blokk):
         egyedi = blokk.get("egyedi", {})
         csoportos = blokk.get("csoportos", {})
-
         if isinstance(egyedi, dict):
             for nev, v in egyedi.items():
                 if isinstance(v, dict):
@@ -94,7 +87,6 @@ def _normalize_tulajdonsag_blokk(blokk):
                     out[nev] = {"values": [v], "type": "single"}
                 else:
                     out[nev] = {}
-
         if isinstance(csoportos, dict):
             for nev, v in csoportos.items():
                 if isinstance(v, list):
@@ -104,21 +96,15 @@ def _normalize_tulajdonsag_blokk(blokk):
                 else:
                     out[nev] = []
         return out
-
-    # RÉGI séma
     if isinstance(blokk, dict):
         for nev, v in blokk.items():
             if isinstance(v, dict):
-                if "values" in v:
-                    out[nev] = v
-                else:
-                    out[nev] = {}
+                out[nev] = v if "values" in v else {}
             elif isinstance(v, list):
                 out[nev] = v
             else:
                 out[nev] = {}
         return out
-
     return out
 
 def get_tulajdonsagok(kategoriak_dict, fokategoria, alkategoria, altipus):
@@ -126,13 +112,11 @@ def get_tulajdonsagok(kategoriak_dict, fokategoria, alkategoria, altipus):
     if fokategoria and fokategoria in kategoriak_dict:
         blokk = kategoriak_dict[fokategoria].get('tulajdonságok', {})
         res.update(_normalize_tulajdonsag_blokk(blokk))
-
         alk_map = kategoriak_dict[fokategoria].get('alkategóriák', {})
         if alkategoria and alkategoria in alk_map:
             alk = alk_map[alkategoria]
             blokk = alk.get('tulajdonságok', {})
             res.update(_normalize_tulajdonsag_blokk(blokk))
-
             alt_map = alk.get('altípusok', {})
             if altipus and altipus in alt_map:
                 alt_blokk = alt_map[altipus].get('tulajdonságok', {})
@@ -142,7 +126,7 @@ def get_tulajdonsagok(kategoriak_dict, fokategoria, alkategoria, altipus):
 def get_group_width(options, font_obj):
     if not options:
         return 70
-    return max([font_obj.measure(str(opt)) for opt in options]) + 24
+    return max([font_obj.measure(str(opt)) for opt in options]) + 24  # 24 ~ padding
 
 def beolvas_termekek_csv(csv_path):
     termekek = []
@@ -197,27 +181,39 @@ class TermekTagger:
             if t_hash not in self.statusz_map:
                 self.statusz_map[t_hash] = 'nincs'
 
-        self.statusz_color = {
-            'kesz': 'green', 'folyamatban': 'orange', 'elavult': 'red', 'nincs': 'gray'
-        }
-
+        self.statusz_color = {'kesz': 'green', 'folyamatban': 'orange', 'elavult': 'red', 'nincs': 'gray'}
         self.kivalasztott_index = 0
         self.filtered_termekek = []
 
-        # --- UI ---
+        # --- UI: bal oszlop ---
         self.left_frame = tk.Frame(master)
         self.left_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         self.right_frame = tk.Frame(master)
         self.right_frame.pack(side=tk.RIGHT, fill=tk.Y)
 
-        self.nev_label = tk.Label(self.left_frame, text="", font=('Arial', 13, "bold"))
-        self.nev_label.pack(pady=2)
-        self.marka_label = tk.Label(self.left_frame, text="", font=('Arial', 11))
-        self.marka_label.pack(pady=2)
-        self.kategoria_label = tk.Label(self.left_frame, text="", font=('Arial', 10), wraplength=340, justify='left')
-        self.kategoria_label.pack(pady=2)
-        self.kep_label = tk.Label(self.left_frame)
-        self.kep_label.pack(pady=5)
+        # ======= FEJLÉC: szöveg balra, kép jobbra egy sorban =======
+        self.header_frame = tk.Frame(self.left_frame)
+        self.header_frame.pack(fill=tk.X, padx=6, pady=4)
+        self.header_frame.grid_columnconfigure(0, weight=1)
+
+        self.text_box = tk.Frame(self.header_frame)
+        self.text_box.grid(row=0, column=0, sticky="nw")
+
+        self.nev_label = tk.Label(self.text_box, text="", font=('Arial', 14, "bold"),
+                                  anchor='w', justify='left', wraplength=600)
+        self.nev_label.pack(anchor='w', pady=(2, 0))
+        self.marka_label = tk.Label(self.text_box, text="", font=('Arial', 11),
+                                    anchor='w', justify='left', wraplength=600)
+        self.marka_label.pack(anchor='w', pady=(0, 2))
+        self.kategoria_label = tk.Label(self.text_box, text="", font=('Arial', 10),
+                                        anchor='w', justify='left', wraplength=600)
+        self.kategoria_label.pack(anchor='w')
+
+        self.kep_label = tk.Label(self.header_frame)
+        self.kep_label.grid(row=0, column=1, padx=12, pady=4, sticky="ne")
+
+        # wraplength dinamikus igazítása
+        self.header_frame.bind("<Configure>", self._on_header_resize)
 
         # --- Zoom állapot + események ---
         self.zoom_win = None
@@ -227,6 +223,7 @@ class TermekTagger:
         self.kep_label.bind("<Enter>", self._on_img_enter)
         self.kep_label.bind("<Leave>", self._on_img_leave)
 
+        # ======= Kategória rádiók =======
         self.fokategoria_var = tk.StringVar()
         self.alkategoria_var = tk.StringVar()
         self.altipus_var = tk.StringVar()
@@ -241,10 +238,12 @@ class TermekTagger:
         self.altipus_radio_frame = tk.Frame(self.left_frame)
         self.altipus_radio_frame.pack(anchor='w', padx=6)
 
+        # ======= Tulajdonságok =======
         self.tulajdonsagok_frame = tk.LabelFrame(self.left_frame, text="Tulajdonságok")
         self.tulajdonsagok_frame.pack(pady=5, fill=tk.BOTH, expand=True, padx=4)
         self.tulajdonsagok_widgets = {}
 
+        # ======= Gombok =======
         self.save_button = tk.Button(self.left_frame, text="Mentés", command=self.mentes)
         self.save_button.pack(pady=2)
         self.save_next_button = tk.Button(self.left_frame, text="Mentés és következő", command=self.mentes_es_kovetkezo)
@@ -252,7 +251,7 @@ class TermekTagger:
         self.kovetkezo_button = tk.Button(self.left_frame, text="Következő", command=lambda: self.kovetkezo(keep_kat=True))
         self.kovetkezo_button.pack(pady=2)
 
-        # --- Szűrőpanel (jobb oldal teteje) ---
+        # --- Szűrőpanel (jobb oldal) ---
         self.filter_frame = tk.LabelFrame(self.right_frame, text="Szűrés")
         self.filter_frame.pack(side=tk.TOP, fill=tk.X, padx=3, pady=2)
 
@@ -289,7 +288,8 @@ class TermekTagger:
         self.filter_statusz_frame.pack(anchor='w')
         for sz in ['kesz', 'folyamatban', 'elavult', 'nincs']:
             v = tk.BooleanVar(value=True)
-            cb = tk.Checkbutton(self.filter_statusz_frame, text=sz.capitalize(), variable=v, command=self.filter_frissit, font=('Arial', 9))
+            cb = tk.Checkbutton(self.filter_statusz_frame, text=sz.capitalize(), variable=v,
+                                command=self.filter_frissit, font=('Arial', 9))
             cb.pack(side=tk.LEFT)
             self.filter_statusz_vars[sz] = v
         self.statusz_stats_label = tk.Label(self.filter_frame, text="", font=('Arial', 10))
@@ -312,18 +312,20 @@ class TermekTagger:
         self.altipus_radios = {}
 
         self.suppress_select = False
-        self.advanced_due_to_save = False  # mentés miatti automatikus előrelépés jele
+        self.advanced_due_to_save = False
 
         self.build_left_radios()
         self.filter_frissit()
 
-    # --------- Görgethető csoport helper (max 5 soros konténer) ----------
+    # ======= Fejléc wrap hossz igazítása =======
+    def _on_header_resize(self, _event=None):
+        width = self.header_frame.winfo_width()
+        wrap = max(TEXT_WRAP_MIN, width - TEXT_WRAP_MARGIN)
+        for lbl in (self.nev_label, self.marka_label, self.kategoria_label):
+            lbl.configure(wraplength=wrap)
+
+    # --------- Görgethető csoport (max 5 sor) ----------
     def _make_scrollable_group(self, parent, rows_to_show):
-        """
-        Létrehoz egy görgethető konténert a tulajdonság-gomboknak.
-        Mindig létrejön, de a magasság max 5 sor (MAX_ROWS_PER_PROP).
-        Visszaad: (canvas, inner_frame)
-        """
         frame = tk.Frame(parent)
         frame.pack(fill=tk.X, padx=0, pady=2, anchor='w')
 
@@ -336,20 +338,18 @@ class TermekTagger:
         inner = tk.Frame(canvas)
         window_id = canvas.create_window((0, 0), window=inner, anchor="nw")
 
-        # A belső frame méretváltozásakor frissítjük a scroll-régiót
-        def _on_inner_config(event):
+        def _on_inner_config(_e):
             canvas.configure(scrollregion=canvas.bbox("all"))
         inner.bind("<Configure>", _on_inner_config)
 
-        # A canvas méretváltozásakor a belső frame szélességét a canvas szélességére állítjuk
-        def _on_canvas_config(event):
-            canvas.itemconfig(window_id, width=event.width)
+        def _on_canvas_config(e):
+            canvas.itemconfig(window_id, width=e.width)
         canvas.bind("<Configure>", _on_canvas_config)
 
         canvas.pack(side=tk.LEFT, fill=tk.X, expand=True)
         vsb.pack(side=tk.RIGHT, fill=tk.Y)
 
-        # Egérgörgő támogatás a canvas fölött
+        # Egérgörgő támogatás
         def _bind_mousewheel(_e):
             canvas.bind_all("<MouseWheel>", on_wheel)
             canvas.bind_all("<Button-4>", on_wheel_linux_up)
@@ -361,15 +361,25 @@ class TermekTagger:
         def on_wheel(e):
             delta = int(-1*(e.delta/120))
             canvas.yview_scroll(delta, "units")
-        def on_wheel_linux_up(e):
-            canvas.yview_scroll(-1, "units")
-        def on_wheel_linux_down(e):
-            canvas.yview_scroll(1, "units")
+        def on_wheel_linux_up(_e): canvas.yview_scroll(-1, "units")
+        def on_wheel_linux_down(_e): canvas.yview_scroll(1, "units")
 
         canvas.bind("<Enter>", _bind_mousewheel)
         canvas.bind("<Leave>", _unbind_mousewheel)
 
         return canvas, inner
+
+    def _measure_inline_fit(self, label_text, values, font_cb, container_width):
+        """
+        Eldönti, hogy a label + ÖSSZES gomb elfér-e egy sorban.
+        Visszaad: (fits: bool, total_px: int)
+        """
+        label_w = font_cb.measure(label_text) + 10
+        total = label_w
+        for v in values:
+            total += font_cb.measure(str(v)) + 24 + 8  # gomb szélesség+padding+gap
+        fits = (total <= max(300, container_width - 10))
+        return fits, total
 
     def frissit_statusz_kimutatas(self):
         statusz_sorrend = ['kesz', 'folyamatban', 'elavult', 'nincs']
@@ -409,7 +419,7 @@ class TermekTagger:
 
     def build_left_radios(self):
         self.build_radio_group(self.fokategoria_radio_frame, list(self.kategoriak_dict.keys()),
-                              self.fokategoria_var, self.fokategoria_valtozott, self.fokategoria_radios)
+                               self.fokategoria_var, self.fokategoria_valtozott, self.fokategoria_radios)
 
     def fokategoria_valtozott(self):
         options = get_alkategoriak(self.kategoriak_dict, self.fokategoria_var.get()) if self.fokategoria_var.get() else []
@@ -477,14 +487,16 @@ class TermekTagger:
             alkats = get_alkategoriak(self.kategoriak_dict, fokats[0])
         else:
             alkats = []
-        self._build_checkbox_grid(self.filter_alkategoria_box, alkats, self.filter_alkategoria_vars, self.on_alkategoria_filter_change, mind_var=self.filter_alkategoria_mind_var, mind_text="Mind")
+        self._build_checkbox_grid(self.filter_alkategoria_box, alkats, self.filter_alkategoria_vars,
+                                  self.on_alkategoria_filter_change, mind_var=self.filter_alkategoria_mind_var, mind_text="Mind")
 
         alkats_selected = [k for k,v in self.filter_alkategoria_vars.items() if v.get()]
         if len(fokats) == 1 and len(alkats_selected) == 1:
             altipusok = get_altipusok(self.kategoriak_dict, fokats[0], alkats_selected[0])
         else:
             altipusok = []
-        self._build_checkbox_grid(self.filter_altipus_box, altipusok, self.filter_altipus_vars, self.on_altipus_filter_change, mind_var=self.filter_altipus_mind_var, mind_text="Mind")
+        self._build_checkbox_grid(self.filter_altipus_box, altipusok, self.filter_altipus_vars,
+                                  self.on_altipus_filter_change, mind_var=self.filter_altipus_mind_var, mind_text="Mind")
         self.termek_lista_frissit()
         self.frissit_statusz_kimutatas()
 
@@ -552,7 +564,7 @@ class TermekTagger:
                 self.termek_betoltes(idx)
 
     def termek_betoltes(self, idx, keep_kat=False, clear_props=False, prefill_props=None):
-        # ha másik terméket töltünk, zárjuk az esetleges overlayt
+        # zárjuk az esetleges overlayt
         self._destroy_zoom()
 
         self.kivalasztott_index = idx
@@ -600,6 +612,7 @@ class TermekTagger:
             self.frissit_tulajdonsagok(eredm.get('tulajdonsagok', {}))
 
         self.statusz_label.config(text=f"Státusz: {self.statusz_map[t_hash]}")
+        self._on_header_resize()
 
     def clear_kategoria_radios(self):
         for var in [self.fokategoria_var, self.alkategoria_var, self.altipus_var]:
@@ -610,32 +623,37 @@ class TermekTagger:
 
     def frissit_tulajdonsagok(self, mentett_ertekek=None):
         """
-        - {}                               -> boolean (checkbox)
+        - {}                               -> boolean (egysoros, label mellett)
         - [ "a", "b", ... ]                -> többválasztós (checkboxok)
-        - {"values":[...], "type":"single"}-> egyválasztós (rádió)  <-- első opció ALAPBÓL kijelölve
-        - {"values":[...]}                 -> többválasztós (checkboxok)
-        Mindegyik lista-csoport görgethető, legfeljebb 5 sor magas.
+        - {"values":[...], "type":"single"}-> egyválasztós (rádió)
+        Ha a címke + az ÖSSZES gomb elfér egy sorban, akkor ugyanarra a sorra kerülnek.
+        Különben a címke marad felül, a gombok alatta, görgethető (max 5 sor).
         """
         for widget in self.tulajdonsagok_frame.winfo_children():
             widget.destroy()
         self.tulajdonsagok_widgets = {}
 
+        # fontos: legyen valós szélességünk a mérésekhez
+        self.master.update_idletasks()
+        container_w = max(400, self.tulajdonsagok_frame.winfo_width())
+
+        font_cb = font.Font(family="Arial", size=9)
+
+        # aktuális kategória alapján tulajdonságok
         fok = self.fokategoria_var.get()
         alk = self.alkategoria_var.get()
         alt = self.altipus_var.get()
         tulajd = get_tulajdonsagok(self.kategoriak_dict, fok, alk, alt)
 
-        font_cb = font.Font(family="Arial", size=9)
         for nev, spec in tulajd.items():
-            # címsor
-            keret = tk.Frame(self.tulajdonsagok_frame)
-            keret.pack(anchor='w', fill=tk.X, padx=2, pady=2)
-            tk.Label(keret, text=nev + ':', anchor='w').pack(side=tk.TOP, anchor='w')
+            label_text = f"{nev}: "
 
-            # BOOLEAN
+            # ==== BOOLEAN -> label és checkbox EGY SORBAN ====
             if isinstance(spec, dict) and 'values' not in spec and len(spec) == 0:
-                line = tk.Frame(keret)
-                line.pack(anchor='w', fill=tk.X, padx=2)
+                line = tk.Frame(self.tulajdonsagok_frame)
+                line.pack(anchor='w', fill=tk.X, padx=2, pady=2)
+
+                tk.Label(line, text=label_text, anchor='w').pack(side=tk.LEFT)
                 var = tk.BooleanVar()
                 if mentett_ertekek and nev in mentett_ertekek:
                     var.set(bool(mentett_ertekek[nev]))
@@ -644,25 +662,63 @@ class TermekTagger:
                 self.tulajdonsagok_widgets[nev] = var
                 continue
 
-            # LISTA / 'values'
+            # ==== LISTA / 'values' ====
             if isinstance(spec, list) or (isinstance(spec, dict) and 'values' in spec):
                 if isinstance(spec, dict):
                     values = spec.get('values', [])
                     is_single = spec.get('type') == 'single' or spec.get('unique') is True
                 else:
                     values = spec
-                    is_single = False  # plain lista -> multi
+                    is_single = False
+
+                # Egysoros megjelenítés eldöntése
+                fits_inline, _ = self._measure_inline_fit(label_text, values, font_cb, container_w)
+
+                if fits_inline:
+                    # ---- minden elfér egy sorban ----
+                    line = tk.Frame(self.tulajdonsagok_frame)
+                    line.pack(anchor='w', fill=tk.X, padx=2, pady=2)
+                    tk.Label(line, text=label_text, anchor='w').pack(side=tk.LEFT)
+
+                    if is_single:
+                        var = tk.StringVar()
+                        preset = None
+                        if mentett_ertekek and nev in mentett_ertekek and isinstance(mentett_ertekek[nev], str):
+                            preset = mentett_ertekek[nev]
+                        if not preset and values:
+                            preset = values[0]
+                        if preset: var.set(preset)
+                        for v in values:
+                            rb = tk.Radiobutton(line, text=v, variable=var, value=v, font=font_cb,
+                                                anchor='w', padx=4, indicatoron=0)
+                            rb.pack(side=tk.LEFT, padx=2)
+                        self.tulajdonsagok_widgets[nev] = ('single', var)
+                    else:
+                        csoport = []
+                        preset_list = []
+                        if mentett_ertekek and nev in mentett_ertekek:
+                            me = mentett_ertekek[nev]
+                            if isinstance(me, list): preset_list = me
+                            elif isinstance(me, str): preset_list = [me]
+                        for v in values:
+                            var = tk.BooleanVar(value=(v in preset_list))
+                            cb = tk.Checkbutton(line, text=v, variable=var, font=font_cb, anchor='w', padx=4)
+                            cb.pack(side=tk.LEFT, padx=2)
+                            csoport.append((v, var))
+                        self.tulajdonsagok_widgets[nev] = csoport
+                    continue
+
+                # ---- nem fér el egy sorban -> címke felül, alatta scroll-keret ----
+                keret = tk.Frame(self.tulajdonsagok_frame)
+                keret.pack(anchor='w', fill=tk.X, padx=2, pady=2)
+                tk.Label(keret, text=label_text, anchor='w').pack(side=tk.TOP, anchor='w')
 
                 total = len(values)
                 rows_needed = max(1, math.ceil(total / MAX_PER_ROW))
-
-                # görgethető konténer (max 5 sor)
                 _, inner = self._make_scrollable_group(keret, rows_needed)
 
                 width = get_group_width(values, font_cb)
-                row = None
 
-                # EGYVÁLASZTÓS (RADIO)
                 if is_single:
                     var = tk.StringVar()
                     preset = None
@@ -670,33 +726,28 @@ class TermekTagger:
                         preset = mentett_ertekek[nev]
                     if not preset and values:
                         preset = values[0]
-                    if preset:
-                        var.set(preset)
+                    if preset: var.set(preset)
 
+                    row = None
                     for i, v in enumerate(values):
                         if i % MAX_PER_ROW == 0:
-                            row = tk.Frame(inner)
-                            row.pack(anchor='w')
-                        rb = tk.Radiobutton(row, text=v, variable=var, value=v, font=font_cb, anchor='w', padx=4, indicatoron=0)
+                            row = tk.Frame(inner); row.pack(anchor='w')
+                        rb = tk.Radiobutton(row, text=v, variable=var, value=v, font=font_cb,
+                                            anchor='w', padx=4, indicatoron=0)
                         rb.pack(side=tk.LEFT, padx=0, pady=0)
                         rb.config(width=width//8)
                     self.tulajdonsagok_widgets[nev] = ('single', var)
-
                 else:
-                    # TÖBBVÁLASZTÓS (CHECKBOXOK)
                     csoport = []
                     preset_list = []
                     if mentett_ertekek and nev in mentett_ertekek:
                         me = mentett_ertekek[nev]
-                        if isinstance(me, list):
-                            preset_list = me
-                        elif isinstance(me, str):
-                            preset_list = [me]
-
+                        if isinstance(me, list): preset_list = me
+                        elif isinstance(me, str): preset_list = [me]
+                    row = None
                     for i, v in enumerate(values):
                         if i % MAX_PER_ROW == 0:
-                            row = tk.Frame(inner)
-                            row.pack(anchor='w')
+                            row = tk.Frame(inner); row.pack(anchor='w')
                         var = tk.BooleanVar(value=(v in preset_list))
                         cb = tk.Checkbutton(row, text=v, variable=var, font=font_cb, anchor='w', padx=4)
                         cb.pack(side=tk.LEFT, padx=0, pady=0)
@@ -705,9 +756,10 @@ class TermekTagger:
                     self.tulajdonsagok_widgets[nev] = csoport
                 continue
 
-            # Fallback -> boolean
-            line = tk.Frame(keret)
-            line.pack(anchor='w', fill=tk.X, padx=2)
+            # Fallback -> boolean (egy sorban)
+            line = tk.Frame(self.tulajdonsagok_frame)
+            line.pack(anchor='w', fill=tk.X, padx=2, pady=2)
+            tk.Label(line, text=label_text, anchor='w').pack(side=tk.LEFT)
             var = tk.BooleanVar()
             if mentett_ertekek and nev in mentett_ertekek:
                 var.set(bool(mentett_ertekek[nev]))
@@ -757,13 +809,11 @@ class TermekTagger:
         if not self.current_image_path or not os.path.exists(self.current_image_path):
             return
         self._destroy_zoom()
-
         try:
             img = Image.open(self.current_image_path)
         except Exception:
             return
 
-        # Max méret: ablak mérete mínusz margó, de NEM nagyítunk az eredeti fölé
         self.master.update_idletasks()
         avail_w = max(100, self.master.winfo_width()  - 2*ZOOM_MARGIN)
         avail_h = max(100, self.master.winfo_height() - 2*ZOOM_MARGIN)
@@ -772,7 +822,6 @@ class TermekTagger:
         max_h = min(avail_h, orig_h)
         img = ImageOps.contain(img, (max_w, max_h), Image.LANCZOS)
 
-        # Felugró, középre igazítva
         self.zoom_win = tk.Toplevel(self.master)
         self.zoom_win.overrideredirect(True)
         self.zoom_win.attributes("-topmost", True)
@@ -910,7 +959,6 @@ class TermekTagger:
         next_j = self.cur + 1
         if next_j >= len(self.filtered_termekek):
             return
-
         next_idx = self.filtered_termekek[next_j][0]
         self.kivalasztott_index = next_idx
 
@@ -921,7 +969,6 @@ class TermekTagger:
         self.suppress_select = False
 
         self.cur = next_j
-
         next_t = self.termekek[next_idx]
         next_saved = self.eredmeny_map.get(self._termek_hash(next_t), {})
         has_saved_cat = bool(next_saved.get('fokategoria') and next_saved.get('alkategoria'))
@@ -950,7 +997,7 @@ class TermekTagger:
 
 if __name__ == '__main__':
     os.makedirs('kepek', exist_ok=True)
-    # kategória-JSON: írd át arra a fájlnévre, amit használsz
+    # kategória-JSON felderítés
     fname_candidates = ['kategori_tulajdonsagok_uj_sorted.json']
     kategoriak_dict = None
     for fn in fname_candidates:

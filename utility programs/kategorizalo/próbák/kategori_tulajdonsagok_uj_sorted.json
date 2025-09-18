@@ -1512,25 +1512,42 @@
         },
         "altípusok": {}
       },
-      "Rövidital": {
+      "Alkoholok": {
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {}
         },
         "altípusok": {
-          "Egyéb": {
+          "Likőr": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Boonekamp", "Riquet", "Blackstone", "St. Almtaler",
+                  "Jägermaister", "Zwack Unicum", "Tátratea", "Mini",
+                  "Baileys", "Saint's", "Mozart", "Opyyum", "Angelli",
+                  "Carolans", "Fütyülős",  "St. Hubertus", "Tipli",
+                  "Bitter", "Bols Advocaat", "Walden", "Sütő", "Malibu",
+                  "Berntzen", "Kürt", "Vilmos", "Becherovka", "Rézangyal",
+                  "Lloyd", "Kick the Rules", "Beregi", "Szent Márk",
+                  "Royal", "Auchan", "Lafi", "Ciemme", "Bottega", "Garrone",
+                  "Koskenkorva", "Magna", "Bombardino", "Ramazotti", "Casali",
+                  "Manner", "Wolf & Lamb", "Carolans", "Campari", "Cointreau",
+                  "Fireball", "Sheridan's", "Disaronno", "Bumbu Cream",
+                  "Beluga", "Tokaj", "Mátyás", "Tropical", "Helenas",
+                  "Kahlúa", "Takamaka", "Várda", "Amaretto", "Tubi 60",
+                  "Pilvax",
+                  "egyéb"
+                ],
+                "fajta": [
+                  "tojáslikőr", "csokoládélikőr", "gyomorkeserű", "tealikőr", "máklikőr",
+                  "karamellalikőr", "gyümölcslikőr", "kávélikőr", "diólikőr",
+                  "egyéb"
+                ],
+                "gyógynövényes": {}
+              }
             }
           },
           "Gin": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Likőr": {
             "tulajdonságok": {
               "egyedi": {},
               "csoportos": {}
@@ -1555,6 +1572,12 @@
             }
           },
           "Whisky": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Egyéb": {
             "tulajdonságok": {
               "egyedi": {},
               "csoportos": {}
