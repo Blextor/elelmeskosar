@@ -1536,7 +1536,8 @@
                   "Fireball", "Sheridan's", "Disaronno", "Bumbu Cream",
                   "Beluga", "Tokaj", "Mátyás", "Tropical", "Helenas",
                   "Kahlúa", "Takamaka", "Várda", "Amaretto", "Tubi 60",
-                  "Pilvax", "Cseles",
+                  "Pilvax", "Cseles", "Herb's", "Bitter & Lime", "Berliner",
+                  "Underberg",
                   "egyéb"
                 ],
                 "fajta": [
@@ -1579,13 +1580,40 @@
           },
           "Gin": {
             "tulajdonságok": {
-              "egyedi": {},
+              "egyedi": {
+                "Márka": [
+                  "Mandaley", "Johnsen", "Bombay", "Bulldog",
+                  "Tanqueary", "Kalumba", "Agárdi", "Seven Hills",
+                  "Finsbury", "Roku", "Gordon's", "Hendrick's",
+                  "Beefeater", "Bumbu", "Opera", "Malfy", "Oxford",
+                  "Guyana", "Conentry", "Marine", "Old Inn", "Lairos",
+                  "London Hill", "Edinburgh", "Citadelle", "Criminal",
+                  "Malfy", "Harahorn", "Búzavirág", "Caorunn", "Balaton",
+                  "Opihr", "Brockmans", "Knut Hansen", "Drumshanbo",
+                  "The Botanist", "Copperhead", "Gin Mare", "Ironcides",
+                  "Old Tower", "Tarsier", "Ukiyo", "The Foxtale",
+                  "egyéb"
+                ],
+                "gyümölcsös": {}
+              },
               "csoportos": {}
             }
           },
           "Rum": {
             "tulajdonságok": {
-              "egyedi": {},
+              "egyedi": {
+                "márka": [
+                  "Captain Morgan", "Bacardi", "Portorico", "Bumbu", "Takamaka",
+                  "Diplomático", "Planteray", "Zacapa", "República de Cana",
+                  "Don Papa", "El Nino", "Casino", "El Galipote", "Ching Shih",
+                  "Stro", "Havana Club", "Ron Roquez", "Pitú Cachaca", "Abuelo",
+                  "St Simon", "Sailor Jerry", "Stroh", "Plantation", "Dead Man's Fingers",
+                  "Beach House", "Dictator", "The Kraken", "Pyrat", "Brugal", "Zacapa",
+
+                  "egyéb"
+                ],
+                "fajta": ["gold", "fehér", "fűszeres", "sima", "gyömülcsös", "egyéb"]
+              },
               "csoportos": {}
             }
           },
