@@ -196,7 +196,7 @@ class TermekTagger:
         self.statusz_color = {'kesz': 'green', 'folyamatban': 'orange', 'elavult': 'red', 'nincs': 'gray'}
         self.kivalasztott_index = 0
         self.filtered_termekek = []
-        self._prop_groups = {}  # tulajdonság-csoportok (szűrő és render állapot)
+        self._prop_groups = {}
 
         # --- UI: bal oszlop ---
         self.left_frame = tk.Frame(master)
@@ -710,7 +710,7 @@ class TermekTagger:
                         self.tulajdonsagok_widgets[nev] = csoport
                     continue
 
-                # ---- nem fér el: label + KERESŐ egy sorban, alatta scroll-lista ----
+                # ---- nem fér el: label + KERESŐ EGY SORBAN, alatta scroll-lista ----
                 keret = tk.Frame(self.tulajdonsagok_frame)
                 keret.pack(anchor='w', fill=tk.X, padx=2, pady=2)
 
@@ -718,26 +718,28 @@ class TermekTagger:
                 top_line.pack(fill=tk.X)
                 tk.Label(top_line, text=label_text, anchor='w').pack(side=tk.LEFT)
 
-                # kereső a label mellett
+                # kereső a label mellett (placeholder-ral)
                 search_var = tk.StringVar()
-                tk.Label(top_line, text="Keresés:", font=('Arial', 9)).pack(side=tk.RIGHT, padx=(4,2))
-                search_entry = tk.Entry(top_line, textvariable=search_var, width=18)
-                search_entry.pack(side=tk.RIGHT)
+                search_entry = tk.Entry(top_line, textvariable=search_var, width=18, fg="#888")
+                search_entry.pack(side=tk.LEFT, padx=(6,0))
+                placeholder_text = "keresés…"
+                search_var.set(placeholder_text)
+                placeholder_active = True
 
                 total = len(values)
                 rows_needed = max(1, math.ceil(total / MAX_PER_ROW))
                 _, inner = self._make_scrollable_group(keret, rows_needed)
 
-                # --- változó-tár: hogy a szűrésnél megmaradjanak a pipák/rádió választások
                 if is_single:
-                    var = tk.StringVar()
+                    single_var = tk.StringVar()
                     preset = None
                     if mentett_ertekek and nev in mentett_ertekek and isinstance(mentett_ertekek[nev], str):
                         preset = mentett_ertekek[nev]
                     if not preset and values:
                         preset = values[0]
-                    if preset: var.set(preset)
-                    self.tulajdonsagok_widgets[nev] = ('single', var)
+                    if preset: single_var.set(preset)
+                    self.tulajdonsagok_widgets[nev] = ('single', single_var)
+                    var_map = None
                 else:
                     var_map = {}
                     preset_list = []
@@ -749,41 +751,25 @@ class TermekTagger:
                         var_map[v] = tk.BooleanVar(value=(v in preset_list))
                     self.tulajdonsagok_widgets[nev] = [(v, var_map[v]) for v in values]
 
-                # --- render függvény a szűrt listára ---
-                def render_group():
-                    for w in inner.winfo_children():
-                        w.destroy()
-                    shown = [v for v in values if _match(search_var.get(), v)]
-                    shown = _sorted_values(shown)
-                    if not shown:
-                        empty = tk.Label(inner, text="(Nincs találat)")
-                        empty.pack(anchor='w', padx=4)
-                        return
-                    row = None
-                    for i, v in enumerate(shown):
-                        if i % MAX_PER_ROW == 0:
-                            row = tk.Frame(inner); row.pack(anchor='w')
-                        if is_single:
-                            rb = tk.Radiobutton(row, text=v, variable=self.tulajdonsagok_widgets[nev][1],
-                                                value=v, font=font_cb, anchor='w', padx=4, indicatoron=0)
-                            rb.pack(side=tk.LEFT, padx=0, pady=0)
-                        else:
-                            # keresd meg a var-t a listából
-                            var = dict(self.tulajdonsagok_widgets[nev]).get(v)
-                            cb = tk.Checkbutton(row, text=v, variable=var, font=font_cb, anchor='w', padx=4)
-                            cb.pack(side=tk.LEFT, padx=0, pady=0)
-
-                # első render + szűrés kötése
-                render_group()
-                search_var.trace_add("write", lambda *_: render_group())
-
-                # eltároljuk a csoport metainfóit (opcionális további fejlesztéshez)
+                # csoport metaadatok eltárolása
                 self._prop_groups[nev] = {
-                    "search_var": search_var,
-                    "render": render_group,
                     "values_all": values,
-                    "is_single": is_single
+                    "is_single": is_single,
+                    "font": font_cb,
+                    "inner": inner,
+                    "search_var": search_var,
+                    "search_entry": search_entry,
+                    "placeholder_text": placeholder_text,
+                    "placeholder_active": placeholder_active,
+                    "single_var": single_var if is_single else None,
+                    "var_map": var_map if not is_single else None
                 }
+
+                # első render + események
+                self._render_prop_group(nev)
+                search_var.trace_add("write", lambda *_a, n=nev: self._render_prop_group(n))
+                search_entry.bind("<FocusIn>",  lambda e, n=nev: self._on_search_focus_in(n))
+                search_entry.bind("<FocusOut>", lambda e, n=nev: self._on_search_focus_out(n))
                 continue
 
             # ---- Fallback -> boolean (egy sorban) ----
@@ -796,6 +782,63 @@ class TermekTagger:
             cb = tk.Checkbutton(line, variable=var, font=font_cb)
             cb.pack(side=tk.LEFT)
             self.tulajdonsagok_widgets[nev] = var
+
+    # --- Keresős csoport kirajzolása (NEM zavarják egymást a keresők) ---
+    def _render_prop_group(self, name):
+        if name not in self._prop_groups:
+            return
+        g = self._prop_groups[name]
+        inner = g["inner"]
+        font_cb = g["font"]
+        values = g["values_all"]
+        is_single = g["is_single"]
+        # helyettesítsük a placeholdert üres keresésre
+        query = "" if g.get("placeholder_active") else g["search_var"].get()
+        shown = [v for v in values if _match(query, v)]
+        shown = _sorted_values(shown)
+
+        for w in inner.winfo_children():
+            w.destroy()
+
+        if not shown:
+            tk.Label(inner, text="(Nincs találat)").pack(anchor='w', padx=4)
+            return
+
+        row = None
+        if is_single:
+            width = get_group_width(shown, font_cb)
+            for i, v in enumerate(shown):
+                if i % MAX_PER_ROW == 0:
+                    row = tk.Frame(inner); row.pack(anchor='w')
+                rb = tk.Radiobutton(row, text=v, variable=g["single_var"], value=v, font=font_cb,
+                                    anchor='w', padx=4, indicatoron=0)
+                rb.pack(side=tk.LEFT, padx=0, pady=0)
+                rb.config(width=width//8)
+        else:
+            width = get_group_width(shown, font_cb)
+            for i, v in enumerate(shown):
+                if i % MAX_PER_ROW == 0:
+                    row = tk.Frame(inner); row.pack(anchor='w')
+                var = g["var_map"].setdefault(v, tk.BooleanVar(value=False))
+                cb = tk.Checkbutton(row, text=v, variable=var, font=font_cb, anchor='w', padx=4)
+                cb.pack(side=tk.LEFT, padx=0, pady=0)
+                cb.config(width=width//8)
+
+    def _on_search_focus_in(self, name):
+        g = self._prop_groups.get(name)
+        if not g: return
+        if g.get("placeholder_active"):
+            g["placeholder_active"] = False
+            g["search_entry"].config(fg="black")
+            g["search_var"].set("")  # kiürít és újrarajzol
+
+    def _on_search_focus_out(self, name):
+        g = self._prop_groups.get(name)
+        if not g: return
+        if g["search_var"].get().strip() == "":
+            g["placeholder_active"] = True
+            g["search_entry"].config(fg="#888")
+            g["search_var"].set(g["placeholder_text"])  # placeholder, render üres keresésként kezeli
 
     # ---------- Hover zoom (villogásmentes) ----------
     def _widget_contains_pointer(self, widget):
