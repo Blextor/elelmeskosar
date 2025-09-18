@@ -1886,7 +1886,9 @@
                   "Aqvital", "Aloe Vera", "Queen", "Biopont",
                   "egyéb"
                 ],
-                "jellemzők": ["rostos", "gyömülcs püré", "100%", "csökkentett kalóriatartalom"]
+                "rostos": {},
+                "gyömülcs püré": {},
+                "100%": {}
               },
               "csoportos": {
                 "íz": [

@@ -1,0 +1,41 @@
+[
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0812741",
+      "product_name": "Gala Wiener Extra őrölt, pörkölt kávé 250 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "4061445307143",
+      "unit_price": "1999.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/67f504615ebdee482c19d3c7;https://imageproxy.wolt.com/assets/67f504625ebdee482c19d3cb",
+      "description": "",
+      "categories": "orolt-kave-282",
+      "kep_url": "https://imageproxy.wolt.com/assets/67f504615ebdee482c19d3c7",
+      "categories__show": "orolt-kave-282"
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Őrölt, szemes kávé",
+    "tulajdonsagok": {
+      "márka": "Gala",
+      "fajta": "őrölt",
+      "típus": "granulátum / por",
+      "koffeintartalom": "intenzív",
+      "íz": [
+        "intenzív",
+        "sima"
+      ]
+    },
+    "kategoria_hash": "92646e4d471205b063276078bf58a5fe1654671d54bf891ea49a0723490f1b0b",
+    "statusz": "kesz"
+  }
+]

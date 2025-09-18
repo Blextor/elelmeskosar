@@ -1,0 +1,118 @@
+[
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db0812741",
+      "product_name": "Gala Wiener Extra őrölt, pörkölt kávé 250 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "4061445307143",
+      "unit_price": "1999.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/67f504615ebdee482c19d3c7;https://imageproxy.wolt.com/assets/67f504625ebdee482c19d3cb",
+      "description": "",
+      "categories": "orolt-kave-282",
+      "kep_url": "https://imageproxy.wolt.com/assets/67f504615ebdee482c19d3c7",
+      "categories__show": "orolt-kave-282"
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Őrölt, szemes kávé",
+    "tulajdonsagok": {
+      "márka": "Gala",
+      "fajta": "őrölt",
+      "típus": "granulátum / por",
+      "koffeintartalom": "intenzív",
+      "íz": [
+        "intenzív",
+        "sima"
+      ]
+    },
+    "kategoria_hash": "92646e4d471205b063276078bf58a5fe1654671d54bf891ea49a0723490f1b0b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db081273b",
+      "product_name": "Douwe Egberts Omnia Classic őrölt-pörkölt kávé 250 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "5997100012123",
+      "unit_price": "2699.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/66768612e98c4a1a5c648421;https://imageproxy.wolt.com/assets/66768613e98c4a1a5c648423",
+      "description": "",
+      "categories": "orolt-kave-282",
+      "kep_url": "https://imageproxy.wolt.com/assets/66768612e98c4a1a5c648421",
+      "categories__show": "orolt-kave-282"
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Őrölt, szemes kávé",
+    "tulajdonsagok": {
+      "márka": "Omnia",
+      "fajta": "őrölt",
+      "típus": "granulátum / por",
+      "koffeintartalom": "normál",
+      "íz": [
+        "sima"
+      ]
+    },
+    "kategoria_hash": "95524d7e681392ce592f712655329d933454b619ad693c703494d247f7d7be5c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Spar",
+      "store_product_id": "66c5880276953f4db08127c7",
+      "product_name": "Gala Dupla őrölt, pörkölt kávé 250 g",
+      "brand_name": "",
+      "available": "True",
+      "expected_restock": "",
+      "barcode": "4061445307181",
+      "unit_price": "1999.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "is_discounted": "False",
+      "original_unit_price": "",
+      "secondary_unit_price": "",
+      "secondary_unit_type": "",
+      "secondary_unit_step": "",
+      "image_urls": "https://imageproxy.wolt.com/assets/67f504545ebdee482c19d398;https://imageproxy.wolt.com/assets/67f504555ebdee482c19d39a",
+      "description": "",
+      "categories": "orolt-kave-282",
+      "kep_url": "https://imageproxy.wolt.com/assets/67f504545ebdee482c19d398",
+      "categories__show": "orolt-kave-282"
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Őrölt, szemes kávé",
+    "tulajdonsagok": {
+      "márka": "Gala",
+      "fajta": "őrölt",
+      "típus": "granulátum / por",
+      "koffeintartalom": "intenzív",
+      "íz": [
+        "intenzív",
+        "sima"
+      ]
+    },
+    "kategoria_hash": "92646e4d471205b063276078bf58a5fe1654671d54bf891ea49a0723490f1b0b",
+    "statusz": "kesz"
+  }
+]
