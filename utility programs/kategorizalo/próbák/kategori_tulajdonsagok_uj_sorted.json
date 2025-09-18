@@ -1463,14 +1463,27 @@
           }
         }
       },
-      "Habzó-, gyöngyözőbor": {
+      "Habzó-, gyöngyözőbor, boralapú ital": {
         "tulajdonságok": {
           "egyedi": {
             "márka": [
+              "Juhász", "Bella Cucina", "Varga", "Barigny", "Mionetto",
+              "Bucks Fizz", "Spritzi", "Frescanti", "Natara", "Bosseq",
+              "Comedy Wine", "BB", "Petreny", "Teleki", "SE Fall in Love",
+              "Grand Tokaj", "Chiarli", "Gere Frici", "Giorgio",
+              "Etyaki Kúria", "Bubik", "Hilltop Hill", "Voilá", "Lafi",
+              "Eiler", "Konytos", "I Heart", "Ravini Hugo", "Paulus",
+              "Feind", "Costellore", "Barn Amarilla", "Veuve Emille",
+              "Blue Nun", "Treviso",
               "egyéb"
-            ]
+            ],
+            "alkoholmentes": {},
+            "fajta": ["rosé", "fehér", "koktél", "prosecco", "gyümölcsbor", "egyéb"]
           },
-          "csoportos": {}
+          "csoportos": {
+            "típus": ["extra száraz", "száraz", "félszáraz", "édes", "brut", "asti", "egyéb"],
+            "íz": ["bodza", "lime", "menta", "eper", "mangó", "barack", "narancs", "egyéb"]
+          }
         },
         "altípusok": {}
       },
@@ -1480,11 +1493,19 @@
             "márka": [
               "Henkell", "Hungaria", "Törley", "Natara", "Martini",
               "Moinetto", "Laposa", "Cinzano", "Kreinbacher", "Sauska",
-              "BB", "Louis Francois & Co.", "Moet &Chandon",
+              "BB", "Louis Francois & Co.", "Moet & Chandon", "Veuve Clicquot",
+              "Feind", "Paulus", "Monte Cappella", "Bohém", "Freixenet",
+              "Reserve", "Codorníu", "Francois President", "Teleki", "Bodri",
+              "Garamvári", "Zonin", "Kölyök", "Bello!", "Celebration Party",
+              "Szovjetszkoje", "Süsü", "Tini", "Sharky", "Saumur ",
+              "Crémant d'alsace", "Cuvée Agnes", "Vollereaux", "G.H. Mumm",
+              "Garrone Dolcevita", "Ca' di Rajo Mito", "Bottega", "Menolia",
+              "Blue Nun", "Mionetto", "Gancia", "Pere Ventura", "Juve & Camps",
+              "Rex Danubius","Mészáros", "Chateau Dereszla", "Babits",
               "egyéb"
             ],
-            "szín": ["fehér", "rozé", "vörös"],
-            "típus": ["extra száraz", "száraz", "félédes", "édes", "extra édes"],
+            "szín": ["fehér", "rosé", "vörös"],
+            "típus": ["extra száraz", "száraz", "félédes", "édes", "extra édes", "egyéb"],
             "alkoholos": ["alkoholos", "alkoholmentes", "kölyökpezsgő"]
           },
           "csoportos": {}
