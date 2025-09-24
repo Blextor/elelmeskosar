@@ -23592,7 +23592,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "alma"
       ]
@@ -23628,7 +23628,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "ananász"
       ]
@@ -23664,7 +23664,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "multivitamin"
       ]
@@ -23700,7 +23700,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "alma",
         "meggy",
@@ -23813,7 +23813,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "őszibarack"
       ]
@@ -24177,7 +24177,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "rostos",
+      "jellemzők": ["rostos"],
       "íz": [
         "egyéb"
       ]
@@ -24249,7 +24249,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "rostos",
+      "jellemzők": ["rostos"],
       "íz": [
         "limonádé"
       ]
@@ -24285,7 +24285,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "rostos",
+      "jellemzők": ["rostos"],
       "íz": [
         "körte"
       ]
@@ -25751,7 +25751,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Swiss",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "őszibarack"
       ]
@@ -32509,7 +32509,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rauch",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "narancs"
       ]
@@ -32545,7 +32545,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rauch",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "narancs"
       ]
@@ -32581,7 +32581,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rauch",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "narancs"
       ]
@@ -32617,7 +32617,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "SPAR",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "narancs"
       ]
@@ -32653,7 +32653,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "SPAR",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "narancs"
       ]
@@ -32726,7 +32726,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Hohes C",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "narancs"
       ]
@@ -33277,7 +33277,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "rostos",
+      "jellemzők": ["rostos"],
       "íz": [
         "őszibarack"
       ]
@@ -34564,7 +34564,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Power Fruit",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "alma",
         "görögdinnye",
@@ -34602,7 +34602,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Power Fruit",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "alma",
         "áfonya"
@@ -34639,7 +34639,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Power Fruit",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "alma",
         "egyéb"
@@ -34676,7 +34676,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "S-Budget",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "multivitamin",
         "vegyes"
@@ -34713,7 +34713,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Univer",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "multivitamin",
         "paradicsom"
@@ -34750,7 +34750,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Hey-Ho",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "őszibarack"
       ]
@@ -34786,7 +34786,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Hey-Ho",
-      "jellemzők": "csökkentett kalóriatartalom",
+      "jellemzők": ["csökkentett kalóriatartalom"],
       "íz": [
         "multivitamin",
         "vegyes"
@@ -34896,7 +34896,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
@@ -34932,7 +34932,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Limenita",
-      "jellemzők": "rostos",
+      "jellemzők": ["rostos"],
       "íz": [
         "egyéb",
         "limonádé"
@@ -37196,7 +37196,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "gyümölcs püré",
+      "jellemzők": ["gyümölcs püré"],
       "íz": [
         "eper"
       ]
@@ -37232,7 +37232,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "gyümölcs püré",
+      "jellemzők": ["gyümölcs püré"],
       "íz": [
         "alma",
         "körte",
@@ -37270,7 +37270,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "gyümölcs püré",
+      "jellemzők": ["gyümölcs püré"],
       "íz": [
         "alma",
         "banán",
@@ -37308,7 +37308,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "gyümölcs püré",
+      "jellemzők": ["gyümölcs püré"],
       "íz": [
         "mangó"
       ]
@@ -37344,7 +37344,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "gyümölcs püré",
+      "jellemzők": ["gyümölcs püré"],
       "íz": [
         "őszibarack"
       ]
@@ -37380,7 +37380,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "gyümölcs püré",
+      "jellemzők": ["gyümölcs püré"],
       "íz": [
         "vegyes"
       ]
@@ -37416,7 +37416,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "gyümölcs püré",
+      "jellemzők": ["gyümölcs püré"],
       "íz": [
         "eper"
       ]
@@ -37452,7 +37452,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Kubu",
-      "jellemzők": "gyümölcs püré",
+      "jellemzők": ["gyümölcs püré"],
       "íz": [
         "alma",
         "banán",
@@ -37491,7 +37491,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Kubu",
-      "jellemzők": "gyümölcs püré",
+      "jellemzők": ["gyümölcs püré"],
       "íz": [
         "alma",
         "banán"
@@ -37528,7 +37528,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Kubu",
-      "jellemzők": "gyümölcs püré",
+      "jellemzők": ["gyümölcs püré"],
       "íz": [
         "alma",
         "banán",
@@ -37896,7 +37896,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Kubu",
-      "jellemzők": "gyümölcs püré",
+      "jellemzők": ["gyümölcs püré"],
       "íz": [
         "alma",
         "banán"
@@ -37933,7 +37933,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Kubu",
-      "jellemzők": "gyümölcs püré",
+      "jellemzők": ["gyümölcs püré"],
       "íz": [
         "alma",
         "egyéb",
@@ -37971,7 +37971,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rauch",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "ananász"
       ]
@@ -38007,7 +38007,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rauch",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "multivitamin"
       ]
@@ -38043,7 +38043,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Hohes C",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "multivitamin"
       ]
@@ -38079,7 +38079,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rauch",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
@@ -38115,7 +38115,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "paradicsom"
       ]
@@ -38151,7 +38151,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Hohes C",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma",
         "egyéb"
@@ -38188,7 +38188,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Hohes C",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "multivitamin"
       ]
@@ -38224,7 +38224,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "S-Budget",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
@@ -38260,7 +38260,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rauch",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "multivitamin",
         "vegyes"
@@ -38297,7 +38297,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Topjoy",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "paradicsom"
       ]
@@ -38333,7 +38333,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rauch",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
@@ -38369,7 +38369,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rauch",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "multivitamin",
         "vegyes"
@@ -38406,7 +38406,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
@@ -38442,7 +38442,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Hohes C",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "multivitamin",
         "vegyes",
@@ -38480,7 +38480,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Happy Day",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "multivitamin",
         "vegyes"
@@ -38517,7 +38517,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "SPAR",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
@@ -38553,7 +38553,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "SPAR",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "multivitamin",
         "vegyes"
@@ -38590,7 +38590,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Hohes C",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "multivitamin",
         "vegyes"
@@ -38627,7 +38627,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Hohes C",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "multivitamin",
         "vegyes"
@@ -38664,7 +38664,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "SPAR",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
@@ -38700,7 +38700,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Happy Day",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "paradicsom"
       ]
@@ -38736,7 +38736,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "ananász"
       ]
@@ -38772,7 +38772,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Cappy",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "narancs"
       ]
@@ -38808,7 +38808,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Cappy",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
@@ -38844,7 +38844,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Kubu",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
@@ -38880,7 +38880,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rauch",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "narancs"
       ]
@@ -38916,7 +38916,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rauch",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma",
         "egyéb",
@@ -38954,7 +38954,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rauch",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "narancs"
       ]
@@ -38990,7 +38990,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Funky Forest",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma",
         "meggy"
@@ -39027,7 +39027,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Funky Forest",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
@@ -39063,7 +39063,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Funky Forest",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma",
         "egyéb"
@@ -39100,7 +39100,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "DÉR Juice",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma",
         "egyéb"
@@ -39137,7 +39137,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "DÉR Juice",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma",
         "egyéb"
@@ -39174,7 +39174,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "DÉR Juice",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma",
         "egyéb",
@@ -39212,7 +39212,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "DÉR Juice",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
@@ -39248,7 +39248,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Biopont",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "sárgarépa"
       ]
@@ -39284,7 +39284,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Biopont",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "zöldséges"
       ]
@@ -39320,7 +39320,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Biopont",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "cékla"
       ]
@@ -39356,7 +39356,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Hohes C",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "multivitamin",
         "vegyes"
@@ -40769,7 +40769,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Sió",
-      "jellemzők": "rostos",
+      "jellemzők": ["rostos"],
       "íz": [
         "őszibarack"
       ]
@@ -40915,7 +40915,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Limenita",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "ananász"
       ]
@@ -40951,7 +40951,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Limenita",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "egyéb"
       ]
@@ -40987,7 +40987,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Limenita",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "egyéb"
       ]
@@ -41251,7 +41251,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Hohes C",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "mangó",
         "narancs"
@@ -41326,7 +41326,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Limenita",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "narancs"
       ]
@@ -41656,7 +41656,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rio",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma",
         "cékla"
@@ -41769,7 +41769,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rio",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "sárgarépa"
       ]
@@ -41805,7 +41805,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "Rio",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma",
         "cékla"
@@ -42118,7 +42118,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "SPAR",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "vegyes"
       ]
@@ -42154,7 +42154,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "SPAR",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
@@ -42190,7 +42190,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "SPAR",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "narancs"
       ]
@@ -42226,7 +42226,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "SPAR",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "vegyes"
       ]
@@ -42339,7 +42339,7 @@
     "altipus": "Gyümölcslé és Zöldséglé",
     "tulajdonsagok": {
       "márka": "DÉR Juice",
-      "jellemzők": "100%",
+      "jellemzők": ["100%"],
       "íz": [
         "alma"
       ]
