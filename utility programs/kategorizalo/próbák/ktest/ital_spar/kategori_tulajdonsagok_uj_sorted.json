@@ -1885,8 +1885,7 @@
                   "Capri-Sun", "Swiss", "Funky Forest", "Andros", "Rio",
                   "Aqvital", "Aloe Vera", "Queen", "Biopont",
                   "egyéb"
-                ],
-                "jellemzők": ["rostos", "gyömülcs püré", "100%", "csökkentett kalóriatartalom", "100% alatt"]
+                ]
               },
               "csoportos": {
                 "íz": [
@@ -1896,7 +1895,8 @@
                   "kiwi", "áfonya", "mangó", "cékla", "szőlő", "kékszőlő", "sárkánygyümölcs",
                   "szilva", "fahéj", "kókusz", "aloe vera",
                   "zöldséges", "vegyes", "egyéb"
-                ]
+                ],
+                "jellemzők": ["rostos", "gyömülcs püré", "100%", "csökkentett kalóriatartalom", "100% alatt"]
               }
             }
           }
