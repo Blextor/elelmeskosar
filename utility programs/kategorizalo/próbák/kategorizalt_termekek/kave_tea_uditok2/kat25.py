@@ -1071,7 +1071,7 @@ class TermekTagger:
 if __name__ == '__main__':
     os.makedirs('kepek', exist_ok=True)
     # kategória-JSON felderítés
-    fname_candidates = ['kategoriak_0924.json']
+    fname_candidates = ['kategori_tulajdonsagok_uj_sorted.json']
     kategoriak_dict = None
     for fn in fname_candidates:
         if os.path.exists(fn):
