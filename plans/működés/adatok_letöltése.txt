@@ -1,0 +1,5 @@
+Honlapok tartalmait le kell tölteni, nyers változat.
+
+Ahogy megkapjuk az adatokat az üzlettől, el kell menteni minden oszlopát nyersen.
+Az adatokat külön fájlokba, üzlet neve, címe (mert egy üzlet több boltja is letöltésre kerülhet),
+    és dátumot kel lírni hozzá. (dátum lehet a mappa neve is)

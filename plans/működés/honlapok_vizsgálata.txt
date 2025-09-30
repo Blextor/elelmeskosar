@@ -1,0 +1,6 @@
+Meg kell vizsgálni, hogy elérhetőek-e a honlapok, tartalmuk, formázottságuk nem változott.
+
+Teszt:
+Meg kell nyitni minden kategóriának egy lapját, egy termékét és megvizsgálni,
+    hogy továbbra is létezik-e a kategória és van-e legalább egy termék benne,
+    illetve a termék adatait továbbra is be lehet olvasni.

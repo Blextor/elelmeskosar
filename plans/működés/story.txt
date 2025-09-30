@@ -1,0 +1,7 @@
+Meg kell vizsgálni, hogy elérhetőek-e a honlapok, tartalmuk, formázottságuk nem változott.
+Honlapok tartalmait le kell tölteni, nyers változat.
+Adatokat tisztítani kell majd egységesíteni a boltok között.
+Ez követően meg kell vizsgálni, hogy jött-e létre új termék, változott-e bolton belül valami.
+El kell készíteni a mester termék listát a letöltöt adatok és a kategorizált és párosítot adatokat használva.
+A honlapot fel kell készíteni az új mester termék lista használatára.
+Honlapot átállítjuk az új használatára, árgörbéket, elérhetőségi adatokat kimentjük.
