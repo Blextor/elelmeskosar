@@ -6,9 +6,9 @@ from PIL import Image, ImageTk
 from io import BytesIO
 
 # JSON betöltés
-with open('kategoria.json', 'r', encoding='utf-8') as f:
+with open('archive/kategoriak_json/kategoria.json', 'r', encoding='utf-8') as f:
     kategoriak = json.load(f)
-with open('termekek.json', 'r', encoding='utf-8') as f:
+with open('archive/etc/termekek.json', 'r', encoding='utf-8') as f:
     termekek = json.load(f)
 
 class TermekTagger:

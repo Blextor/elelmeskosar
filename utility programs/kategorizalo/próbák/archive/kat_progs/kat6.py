@@ -1,11 +1,13 @@
 import tkinter as tk
-from tkinter import ttk, messagebox, font
+from tkinter import ttk, messagebox
 import json, hashlib, requests
 from PIL import Image, ImageTk
 from io import BytesIO
 import os
 import re
 import unicodedata
+
+### --- Segédfüggvények ---
 
 def slugify(value):
     value = str(value)
@@ -57,9 +59,7 @@ def get_tulajdonsagok(kategoriak_dict, fokategoria, alkategoria, altipus):
             tulajd.update(alk['altípusok'][altipus].get('tulajdonságok', {}))
     return tulajd
 
-def max_text_width(strings, font_obj):
-    """Return the max pixel width of a list of strings with a given font"""
-    return max([font_obj.measure(s) for s in strings]) if strings else 70
+### --- Fő alkalmazás osztály ---
 
 class TermekTagger:
     def __init__(self, master, termekek, kategoriak_dict, eredmenyek):
@@ -103,12 +103,21 @@ class TermekTagger:
         tk.Label(self.left_frame, text="Főkategória:").pack(anchor='w', padx=4)
         self.fokategoria_radio_frame = tk.Frame(self.left_frame)
         self.fokategoria_radio_frame.pack(anchor='w', padx=6)
+        self.fokategoria_radios = {}
+        for fokat in kategoriak_dict.keys():
+            rb = tk.Radiobutton(self.fokategoria_radio_frame, text=fokat, variable=self.fokategoria_var, value=fokat, command=self.fokategoria_valtozott)
+            rb.pack(anchor='w', side=tk.TOP)
+            self.fokategoria_radios[fokat] = rb
+
+        tk.Label(self.left_frame, text="Kategória:").pack(anchor='w', padx=4)
         self.alkategoria_radio_frame = tk.Frame(self.left_frame)
         self.alkategoria_radio_frame.pack(anchor='w', padx=6)
-        tk.Label(self.left_frame, text="Kategória:").pack(anchor='w', padx=4)
+        self.alkategoria_radios = {}
+
         tk.Label(self.left_frame, text="Altípus:").pack(anchor='w', padx=4)
         self.altipus_radio_frame = tk.Frame(self.left_frame)
         self.altipus_radio_frame.pack(anchor='w', padx=6)
+        self.altipus_radios = {}
 
         self.tulajdonsagok_frame = tk.LabelFrame(self.left_frame, text="Tulajdonságok")
         self.tulajdonsagok_frame.pack(pady=5, fill=tk.X, padx=4)
@@ -132,28 +141,43 @@ class TermekTagger:
         # Főkategória szűrő (checkbox csoport)
         tk.Label(self.filter_frame, text="Főkategória:").pack(anchor='w')
         self.filter_fokategoria_vars = {}
+        self.filter_fokategoria_checkboxes = {}
         self.filter_fokategoria_box = tk.Frame(self.filter_frame)
         self.filter_fokategoria_box.pack(anchor='w')
-        self.filter_fokategoria_mind_var = tk.BooleanVar()
-        self._build_checkbox_grid(self.filter_fokategoria_box, list(self.kategoriak_dict.keys()),
-                                 self.filter_fokategoria_vars, self.on_fokategoria_filter_change,
-                                 mind_var=self.filter_fokategoria_mind_var, mind_text="Mind")
+        self._build_checkbox_row(self.filter_fokategoria_box, list(self.kategoriak_dict.keys()), self.filter_fokategoria_vars, self.filter_fokategoria_checkboxes, self.on_fokategoria_filter_change)
 
-        # Alkategória szűrő (csak ha egy főkategória)
+        # Mind gomb külön sorban
+        self.filter_fokategoria_mind_var = tk.BooleanVar()
+        mind_row = tk.Frame(self.filter_frame)
+        mind_row.pack(anchor='w')
+        cb_mind = tk.Checkbutton(mind_row, text="Mind", variable=self.filter_fokategoria_mind_var, command=lambda: self.on_mind_checkbox(self.filter_fokategoria_vars, self.filter_fokategoria_mind_var))
+        cb_mind.pack(side=tk.LEFT)
+
+        # Alkategória szűrő (csak akkor, ha egy főkategória van pipálva)
         tk.Label(self.filter_frame, text="Kategória:").pack(anchor='w')
         self.filter_alkategoria_vars = {}
+        self.filter_alkategoria_checkboxes = {}
         self.filter_alkategoria_box = tk.Frame(self.filter_frame)
         self.filter_alkategoria_box.pack(anchor='w')
         self.filter_alkategoria_mind_var = tk.BooleanVar()
+        mind_row2 = tk.Frame(self.filter_frame)
+        mind_row2.pack(anchor='w')
+        cb_mind2 = tk.Checkbutton(mind_row2, text="Mind", variable=self.filter_alkategoria_mind_var, command=lambda: self.on_mind_checkbox(self.filter_alkategoria_vars, self.filter_alkategoria_mind_var))
+        cb_mind2.pack(side=tk.LEFT)
 
-        # Altípus szűrő (csak ha egy alkategória)
+        # Altípus szűrő (csak akkor, ha egy kategória van pipálva)
         tk.Label(self.filter_frame, text="Altípus:").pack(anchor='w')
         self.filter_altipus_vars = {}
+        self.filter_altipus_checkboxes = {}
         self.filter_altipus_box = tk.Frame(self.filter_frame)
         self.filter_altipus_box.pack(anchor='w')
         self.filter_altipus_mind_var = tk.BooleanVar()
+        mind_row3 = tk.Frame(self.filter_frame)
+        mind_row3.pack(anchor='w')
+        cb_mind3 = tk.Checkbutton(mind_row3, text="Mind", variable=self.filter_altipus_mind_var, command=lambda: self.on_mind_checkbox(self.filter_altipus_vars, self.filter_altipus_mind_var))
+        cb_mind3.pack(side=tk.LEFT)
 
-        # Státuszok szűrője
+        # Státuszok szűrője (checkbox, többszörös)
         tk.Label(self.filter_frame, text="Státusz:").pack(anchor='w')
         self.filter_statusz_vars = {}
         self.filter_statusz_frame = tk.Frame(self.filter_frame)
@@ -171,105 +195,37 @@ class TermekTagger:
         self.statusz_label = tk.Label(self.right_frame, text="")
         self.statusz_label.pack(side=tk.BOTTOM, pady=3)
 
-        self.fokategoria_radios = {}
-        self.alkategoria_radios = {}
-        self.altipus_radios = {}
-
-        self.build_left_radios()
         self.filter_frissit()
 
-    # ---------- BAL PANEL RADIOK ÉPÍTÉSE ----------
-    def build_left_radios(self):
-        for widget in self.fokategoria_radio_frame.winfo_children():
-            widget.destroy()
-        font_radio = font.Font(family="Arial", size=9)
-        fokats = list(self.kategoriak_dict.keys())
-        row = None
-        for i, fokat in enumerate(fokats):
-            if i % 5 == 0:
-                row = tk.Frame(self.fokategoria_radio_frame)
-                row.pack(anchor='w')
-            width = font_radio.measure(fokat) + 24  # padding
-            rb = tk.Radiobutton(row, text=fokat, variable=self.fokategoria_var, value=fokat, indicatoron=0,
-                                font=font_radio, command=self.fokategoria_valtozott, anchor='w', justify='left', padx=8)
-            rb.pack(side=tk.LEFT, padx=2, pady=2)
-            rb.config(width=1)
-            rb.bind('<Configure>', lambda e, r=rb, w=width: r.config(width=1))
-            self.fokategoria_radios[fokat] = rb
-
-    def fokategoria_valtozott(self):
-        for widget in self.alkategoria_radio_frame.winfo_children():
-            widget.destroy()
-        self.alkategoria_radios = {}
-        fok = self.fokategoria_var.get()
-        font_radio = font.Font(family="Arial", size=11)
-        alkats = get_alkategoriak(self.kategoriak_dict, fok) if fok else []
-        width = max_text_width(alkats, font_radio) + 25
-        row = None
-        for i, alk in enumerate(alkats):
-            if i % 5 == 0:
-                row = tk.Frame(self.alkategoria_radio_frame)
-                row.pack(anchor='w')
-            rb = tk.Radiobutton(row, text=alk, variable=self.alkategoria_var, value=alk, indicatoron=0, width=width//8, font=font_radio, command=self.alkategoria_valtozott, anchor='w', justify='left')
-            rb.pack(side=tk.LEFT, padx=2, pady=2, fill='x')
-            self.alkategoria_radios[alk] = rb
-        self.alkategoria_var.set('')
-        self.alkategoria_valtozott()
-
-    def alkategoria_valtozott(self):
-        for widget in self.altipus_radio_frame.winfo_children():
-            widget.destroy()
-        self.altipus_radios = {}
-        fok = self.fokategoria_var.get()
-        alk = self.alkategoria_var.get()
-        font_radio = font.Font(family="Arial", size=11)
-        alts = get_altipusok(self.kategoriak_dict, fok, alk) if fok and alk else []
-        width = max_text_width(alts, font_radio) + 25
-        row = None
-        for i, alt in enumerate(alts):
-            if i % 5 == 0:
-                row = tk.Frame(self.altipus_radio_frame)
-                row.pack(anchor='w')
-            rb = tk.Radiobutton(row, text=alt, variable=self.altipus_var, value=alt, indicatoron=0, width=width//8, font=font_radio, command=self.frissit_tulajdonsagok, anchor='w', justify='left')
-            rb.pack(side=tk.LEFT, padx=2, pady=2, fill='x')
-            self.altipus_radios[alt] = rb
-        self.altipus_var.set('')
-        self.frissit_tulajdonsagok()
-
-    # ---------- SZŰRŐPANEL CHECKBOX GRID ----------
-    def _build_checkbox_grid(self, parent, options, var_dict, command, mind_var=None, mind_text=None, max_per_row=5):
+    ### --- Checkbox panel építő ---
+    def _build_checkbox_row(self, parent, options, var_dict, cb_dict, command, max_per_row=5):
+        # Először töröl
         for widget in parent.winfo_children():
             widget.destroy()
         var_dict.clear()
-        font_cb = font.Font(family="Arial", size=9)
-        # Mind külön sorban, padding nélkül
-        if mind_var is not None and mind_text is not None:
-            mind_row = tk.Frame(parent)
-            mind_row.pack(anchor='w')
-            cb_mind = tk.Checkbutton(mind_row, text=mind_text, variable=mind_var, font=font_cb,
-                                     command=lambda: self.on_mind_checkbox(var_dict, mind_var, command), padx=4)
-            cb_mind.pack(side=tk.LEFT, padx=0, pady=0)
-            self._mind_cb = cb_mind  # referenciaként
+        cb_dict.clear()
         row = None
         for i, opt in enumerate(options):
             if i % max_per_row == 0:
                 row = tk.Frame(parent)
                 row.pack(anchor='w')
             var = tk.BooleanVar()
-            cb = tk.Checkbutton(row, text=opt, variable=var, font=font_cb, anchor='w', justify='left', padx=4)
-            cb.pack(side=tk.LEFT, padx=0, pady=0)
+            cb = tk.Checkbutton(row, text=opt, variable=var, command=command)
+            cb.pack(side=tk.LEFT)
             var_dict[opt] = var
+            cb_dict[opt] = cb
 
-    def on_mind_checkbox(self, var_dict, mind_var, change_command):
+    ### --- "Mind" checkbox logika ---
+    def on_mind_checkbox(self, var_dict, mind_var):
         v = mind_var.get()
         for var in var_dict.values():
             var.set(v)
-        change_command()
-        self.master.after(10, lambda: mind_var.set(all(var.get() for var in var_dict.values())))
+        self.filter_frissit()
 
-    # ---------- SZŰRŐ VÁLTOZÁSOK, dinamikus építés ----------
+    ### --- Főkategória szűrő változás ---
     def on_fokategoria_filter_change(self):
-        if any(v.get() for v in self.filter_fokategoria_vars.values()):
+        # Ha bármi más változott, a "Mind" menjen ki
+        if any(v.get() for k, v in self.filter_fokategoria_vars.items()):
             self.filter_fokategoria_mind_var.set(False)
         self.filter_frissit()
 
@@ -283,22 +239,29 @@ class TermekTagger:
             self.filter_altipus_mind_var.set(False)
         self.filter_frissit()
 
+    ### --- Főkategória pipáláskor, alkategória/altípus szűrőpanel frissül ---
     def filter_frissit(self, event=None):
+        # Főkategória opciók alapján alkategória panelt épít
         fokats = [k for k,v in self.filter_fokategoria_vars.items() if v.get()]
         if len(fokats) == 1:
             alkats = get_alkategoriak(self.kategoriak_dict, fokats[0])
         else:
             alkats = []
-        self._build_checkbox_grid(self.filter_alkategoria_box, alkats, self.filter_alkategoria_vars, self.on_alkategoria_filter_change, mind_var=self.filter_alkategoria_mind_var, mind_text="Mind")
+        self._build_checkbox_row(self.filter_alkategoria_box, alkats, self.filter_alkategoria_vars, self.filter_alkategoria_checkboxes, self.on_alkategoria_filter_change)
+        self.filter_alkategoria_mind_var.set(False)
 
+        # Alkategória alapján altípus panelt épít
         alkats_selected = [k for k,v in self.filter_alkategoria_vars.items() if v.get()]
         if len(fokats) == 1 and len(alkats_selected) == 1:
             altipusok = get_altipusok(self.kategoriak_dict, fokats[0], alkats_selected[0])
         else:
             altipusok = []
-        self._build_checkbox_grid(self.filter_altipus_box, altipusok, self.filter_altipus_vars, self.on_altipus_filter_change, mind_var=self.filter_altipus_mind_var, mind_text="Mind")
+        self._build_checkbox_row(self.filter_altipus_box, altipusok, self.filter_altipus_vars, self.filter_altipus_checkboxes, self.on_altipus_filter_change)
+        self.filter_altipus_mind_var.set(False)
+
         self.termek_lista_frissit()
 
+    ### --- Terméklista frissítés, szűrés ---
     def termek_lista_frissit(self):
         self.termek_lista.delete(0, tk.END)
         nev_filter = self.nev_filter_var.get().lower()
@@ -347,6 +310,7 @@ class TermekTagger:
             idx = self.filtered_termekek[0][0]
             self.termek_betoltes(idx)
 
+    ### ------ Termék betöltése & szerkesztőpanel ------
     def termek_betoltes(self, idx):
         self.kivalasztott_index = idx
         termek = self.termekek[idx]
@@ -384,6 +348,41 @@ class TermekTagger:
         self.alkategoria_valtozott()
         self.altipus_var.set(alt)
 
+    ### --- Bal oldali szerkesztőpanel radio kezelők ---
+    def fokategoria_valtozott(self):
+        for widget in self.alkategoria_radio_frame.winfo_children():
+            widget.destroy()
+        self.alkategoria_radios = {}
+        fok = self.fokategoria_var.get()
+        alkats = get_alkategoriak(self.kategoriak_dict, fok) if fok else []
+        for i, alk in enumerate(alkats):
+            if i % 5 == 0:
+                row = tk.Frame(self.alkategoria_radio_frame)
+                row.pack(anchor='w')
+            rb = tk.Radiobutton(row, text=alk, variable=self.alkategoria_var, value=alk, command=self.alkategoria_valtozott)
+            rb.pack(side=tk.LEFT)
+            self.alkategoria_radios[alk] = rb
+        self.alkategoria_var.set('')
+        self.alkategoria_valtozott()
+
+    def alkategoria_valtozott(self):
+        for widget in self.altipus_radio_frame.winfo_children():
+            widget.destroy()
+        self.altipus_radios = {}
+        fok = self.fokategoria_var.get()
+        alk = self.alkategoria_var.get()
+        alts = get_altipusok(self.kategoriak_dict, fok, alk) if fok and alk else []
+        for i, alt in enumerate(alts):
+            if i % 5 == 0:
+                row = tk.Frame(self.altipus_radio_frame)
+                row.pack(anchor='w')
+            rb = tk.Radiobutton(row, text=alt, variable=self.altipus_var, value=alt, command=self.frissit_tulajdonsagok)
+            rb.pack(side=tk.LEFT)
+            self.altipus_radios[alt] = rb
+        self.altipus_var.set('')
+        self.frissit_tulajdonsagok()
+
+    ### --- Tulajdonság mezők (mindig checkbox csoport) ---
     def frissit_tulajdonsagok(self, mentett_ertekek=None):
         for widget in self.tulajdonsagok_frame.winfo_children():
             widget.destroy()
@@ -397,7 +396,6 @@ class TermekTagger:
         if not tulajd:
             return
 
-        font_cb = font.Font(family="Arial", size=10)
         for nev, val in tulajd.items():
             keret = tk.Frame(self.tulajdonsagok_frame)
             keret.pack(anchor='w', fill=tk.X, padx=2, pady=1)
@@ -406,7 +404,7 @@ class TermekTagger:
                 var = tk.BooleanVar()
                 if mentett_ertekek and nev in mentett_ertekek:
                     var.set(bool(mentett_ertekek[nev]))
-                cb = tk.Checkbutton(keret, variable=var, font=font_cb)
+                cb = tk.Checkbutton(keret, variable=var)
                 cb.pack(side=tk.LEFT)
                 self.tulajdonsagok_widgets[nev] = var
             elif isinstance(val, list):
@@ -416,16 +414,15 @@ class TermekTagger:
                     if i % 5 == 0:
                         row = tk.Frame(keret)
                         row.pack(anchor='w')
-                    width = font_cb.measure(v) + 24
                     var = tk.BooleanVar()
                     if mentett_ertekek and nev in mentett_ertekek and v in mentett_ertekek[nev]:
                         var.set(True)
-                    cb = tk.Checkbutton(row, text=v, variable=var, font=font_cb, anchor='w', padx=8)
-                    cb.pack(side=tk.LEFT, padx=2, pady=2)
-                    cb.config(width=1)
+                    cb = tk.Checkbutton(row, text=v, variable=var)
+                    cb.pack(side=tk.LEFT)
                     csoport.append((v, var))
                 self.tulajdonsagok_widgets[nev] = csoport
 
+    ### --- Terméklista kattintás -----
     def lista_katt(self, event):
         if not self.termek_lista.curselection():
             return
@@ -434,6 +431,7 @@ class TermekTagger:
             idx = self.filtered_termekek[j][0]
             self.termek_betoltes(idx)
 
+    ### --- Mentés -----
     def mentes(self):
         if not self.filtered_termekek:
             return
@@ -486,9 +484,9 @@ class TermekTagger:
 
 if __name__ == '__main__':
     os.makedirs('kepek', exist_ok=True)
-    with open('kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
+    with open('archive/kategoriak_json/kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
         kategoriak_dict = json.load(f)
-    with open('termekek.json', 'r', encoding='utf-8') as f:
+    with open('archive/etc/termekek.json', 'r', encoding='utf-8') as f:
         termekek = json.load(f)
     if os.path.exists('eredmeny.json'):
         with open('eredmeny.json', 'r', encoding='utf-8') as f:

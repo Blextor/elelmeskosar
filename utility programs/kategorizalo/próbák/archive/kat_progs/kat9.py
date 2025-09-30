@@ -242,25 +242,22 @@ class TermekTagger:
             widget.destroy()
         var_dict.clear()
         font_cb = font.Font(family="Arial", size=9)
-        # Szélesség minden elemhez külön: minden box saját szöveghossz + 24 pixel (checkbox), min 70
-        widths = [font_cb.measure(opt) + 24 for opt in options] if options else [70]
-        max_width = max(widths)
-        # Mind külön sor
+        # Mind külön sorban, padding nélkül
         if mind_var is not None and mind_text is not None:
             mind_row = tk.Frame(parent)
             mind_row.pack(anchor='w')
             cb_mind = tk.Checkbutton(mind_row, text=mind_text, variable=mind_var, font=font_cb,
-                                     command=lambda: self.on_mind_checkbox(var_dict, mind_var, command), padx=8)
-            cb_mind.pack(side=tk.LEFT, padx=2, pady=2)
+                                     command=lambda: self.on_mind_checkbox(var_dict, mind_var, command), padx=4)
+            cb_mind.pack(side=tk.LEFT, padx=0, pady=0)
+            self._mind_cb = cb_mind  # referenciaként
         row = None
         for i, opt in enumerate(options):
             if i % max_per_row == 0:
                 row = tk.Frame(parent)
                 row.pack(anchor='w')
             var = tk.BooleanVar()
-            cb = tk.Checkbutton(row, text=opt, variable=var, font=font_cb, anchor='w', justify='left', padx=8)
-            cb.pack(side=tk.LEFT, padx=2, pady=2)
-            cb.config(width=1)  # a width beállítása nélkül a padding + text adja a szélességet
+            cb = tk.Checkbutton(row, text=opt, variable=var, font=font_cb, anchor='w', justify='left', padx=4)
+            cb.pack(side=tk.LEFT, padx=0, pady=0)
             var_dict[opt] = var
 
     def on_mind_checkbox(self, var_dict, mind_var, change_command):
@@ -268,6 +265,7 @@ class TermekTagger:
         for var in var_dict.values():
             var.set(v)
         change_command()
+        self.master.after(10, lambda: mind_var.set(all(var.get() for var in var_dict.values())))
 
     # ---------- SZŰRŐ VÁLTOZÁSOK, dinamikus építés ----------
     def on_fokategoria_filter_change(self):
@@ -488,9 +486,9 @@ class TermekTagger:
 
 if __name__ == '__main__':
     os.makedirs('kepek', exist_ok=True)
-    with open('kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
+    with open('archive/kategoriak_json/kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
         kategoriak_dict = json.load(f)
-    with open('termekek.json', 'r', encoding='utf-8') as f:
+    with open('archive/etc/termekek.json', 'r', encoding='utf-8') as f:
         termekek = json.load(f)
     if os.path.exists('eredmeny.json'):
         with open('eredmeny.json', 'r', encoding='utf-8') as f:

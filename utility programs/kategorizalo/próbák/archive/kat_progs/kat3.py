@@ -292,9 +292,9 @@ class TermekTagger:
 
 if __name__ == '__main__':
     os.makedirs('kepek', exist_ok=True)
-    with open('kategoria.json', 'r', encoding='utf-8') as f:
+    with open('archive/kategoriak_json/kategoria.json', 'r', encoding='utf-8') as f:
         kategoriak = json.load(f)
-    with open('termekek.json', 'r', encoding='utf-8') as f:
+    with open('archive/etc/termekek.json', 'r', encoding='utf-8') as f:
         termekek = json.load(f)
     if os.path.exists('eredmeny.json'):
         with open('eredmeny.json', 'r', encoding='utf-8') as f:

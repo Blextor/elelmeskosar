@@ -7,7 +7,7 @@ import os
 import re
 import unicodedata
 
-### --- Segédfüggvények ---
+### ----------- Segédfüggvények -----------
 
 def slugify(value):
     value = str(value)
@@ -40,6 +40,8 @@ def kategoriak_hash(fok, al, alt, tul):
     key = f"{fok}|{al}|{alt}|{json.dumps(tul, sort_keys=True, ensure_ascii=False)}"
     return hashlib.sha256(key.encode('utf-8')).hexdigest()
 
+### ----------- Kategória fa kezelő -----------
+
 def get_alkategoriak(kategoriak_dict, fokategoria):
     if not fokategoria: return []
     return list(kategoriak_dict[fokategoria]['alkategóriák'].keys())
@@ -59,7 +61,7 @@ def get_tulajdonsagok(kategoriak_dict, fokategoria, alkategoria, altipus):
             tulajd.update(alk['altípusok'][altipus].get('tulajdonságok', {}))
     return tulajd
 
-### --- Fő alkalmazás osztály ---
+### ----------- Fő alkalmazás osztály -----------
 
 class TermekTagger:
     def __init__(self, master, termekek, kategoriak_dict, eredmenyek):
@@ -68,7 +70,7 @@ class TermekTagger:
         self.kategoriak_dict = kategoriak_dict
         self.eredmenyek = eredmenyek
 
-        # --- Státusz és eredmény ---
+        # --- Státusz- és eredménykezelés ---
         self.statusz_map = {}
         self.eredmeny_map = {}
         for eredmeny in self.eredmenyek:
@@ -86,7 +88,7 @@ class TermekTagger:
         self.kivalasztott_index = 0
         self.filtered_termekek = []
 
-        # --- UI Layout ---
+        # ---- UI Layout ----
         self.left_frame = tk.Frame(master)
         self.left_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         self.right_frame = tk.Frame(master)
@@ -98,29 +100,25 @@ class TermekTagger:
         self.kep_label = tk.Label(self.left_frame)
         self.kep_label.pack(pady=5)
 
-        # --- Radio kategóriaválasztók ---
+        # --- Kategória választók ---
         self.fokategoria_var = tk.StringVar()
         self.alkategoria_var = tk.StringVar()
         self.altipus_var = tk.StringVar()
 
         tk.Label(self.left_frame, text="Főkategória:").pack(anchor='w', padx=4)
-        self.fokategoria_radio_frame = tk.Frame(self.left_frame)
-        self.fokategoria_radio_frame.pack(anchor='w', padx=6)
-        self.fokategoria_radios = {}
-        for fokat in kategoriak_dict.keys():
-            rb = tk.Radiobutton(self.fokategoria_radio_frame, text=fokat, variable=self.fokategoria_var, value=fokat, command=self.fokategoria_valtozott)
-            rb.pack(anchor='w', side=tk.TOP)
-            self.fokategoria_radios[fokat] = rb
+        self.fokategoria_combo = ttk.Combobox(self.left_frame, textvariable=self.fokategoria_var, values=list(kategoriak_dict.keys()), state='readonly')
+        self.fokategoria_combo.pack(fill=tk.X, padx=4, pady=2)
+        self.fokategoria_combo.bind("<<ComboboxSelected>>", self.fokategoria_valtozott)
 
         tk.Label(self.left_frame, text="Kategória:").pack(anchor='w', padx=4)
-        self.alkategoria_radio_frame = tk.Frame(self.left_frame)
-        self.alkategoria_radio_frame.pack(anchor='w', padx=6)
-        self.alkategoria_radios = {}
+        self.alkategoria_combo = ttk.Combobox(self.left_frame, textvariable=self.alkategoria_var, state='readonly')
+        self.alkategoria_combo.pack(fill=tk.X, padx=4, pady=2)
+        self.alkategoria_combo.bind("<<ComboboxSelected>>", self.alkategoria_valtozott)
 
         tk.Label(self.left_frame, text="Altípus:").pack(anchor='w', padx=4)
-        self.altipus_radio_frame = tk.Frame(self.left_frame)
-        self.altipus_radio_frame.pack(anchor='w', padx=6)
-        self.altipus_radios = {}
+        self.altipus_combo = ttk.Combobox(self.left_frame, textvariable=self.altipus_var, state='readonly')
+        self.altipus_combo.pack(fill=tk.X, padx=4, pady=2)
+        self.altipus_combo.bind("<<ComboboxSelected>>", self.frissit_tulajdonsagok)
 
         self.tulajdonsagok_frame = tk.LabelFrame(self.left_frame, text="Tulajdonságok")
         self.tulajdonsagok_frame.pack(pady=5, fill=tk.X, padx=4)
@@ -132,46 +130,25 @@ class TermekTagger:
         self.kovetkezo_button.pack(pady=2)
 
         # --- Jobb panel: szűrők + terméklista ---
-        self.filter_frame = tk.LabelFrame(self.right_frame, text="Szűrés")
+        self.filter_frame = tk.Frame(self.right_frame)
         self.filter_frame.pack(side=tk.TOP, fill=tk.X, padx=3, pady=2)
 
-        # Kategória szűrő: radio főkategória
-        tk.Label(self.filter_frame, text="Főkategória:").grid(row=0, column=0, sticky='w')
-        self.filter_fokategoria_var = tk.StringVar()
-        self.filter_fokategoria_radio_frame = tk.Frame(self.filter_frame)
-        self.filter_fokategoria_radio_frame.grid(row=0, column=1, sticky='w')
-        for fokat in [""] + list(self.kategoriak_dict.keys()):
-            rb = tk.Radiobutton(self.filter_fokategoria_radio_frame, text=fokat if fokat else "Mind", variable=self.filter_fokategoria_var, value=fokat, command=self.filter_frissit)
-            rb.pack(side=tk.LEFT)
-
-        tk.Label(self.filter_frame, text="Kategória:").grid(row=1, column=0, sticky='w')
-        self.filter_alkategoria_var = tk.StringVar()
-        self.filter_alkategoria_radio_frame = tk.Frame(self.filter_frame)
-        self.filter_alkategoria_radio_frame.grid(row=1, column=1, sticky='w')
-
-        tk.Label(self.filter_frame, text="Altípus:").grid(row=2, column=0, sticky='w')
-        self.filter_altipus_var = tk.StringVar()
-        self.filter_altipus_radio_frame = tk.Frame(self.filter_frame)
-        self.filter_altipus_radio_frame.grid(row=2, column=1, sticky='w')
-
-        # Státuszok szűrője
-        tk.Label(self.filter_frame, text="Státusz:").grid(row=3, column=0, sticky='w')
-        self.filter_statusz_vars = {}
-        statuszok = ['kesz', 'folyamatban', 'elavult', 'nincs']
-        self.filter_statusz_frame = tk.Frame(self.filter_frame)
-        self.filter_statusz_frame.grid(row=3, column=1, sticky='w')
-        for sz in statuszok:
-            v = tk.BooleanVar(value=True)
-            cb = tk.Checkbutton(self.filter_statusz_frame, text=sz.capitalize(), variable=v, command=self.filter_frissit)
-            cb.pack(side=tk.LEFT)
-            self.filter_statusz_vars[sz] = v
-
-        # Név kereső
-        tk.Label(self.filter_frame, text="Név keresés:").grid(row=4, column=0, sticky='w')
+        tk.Label(self.filter_frame, text="Név keresés:").grid(row=0, column=0, sticky='w')
         self.nev_filter_var = tk.StringVar()
         self.nev_filter_entry = tk.Entry(self.filter_frame, textvariable=self.nev_filter_var)
-        self.nev_filter_entry.grid(row=4, column=1, sticky='ew')
+        self.nev_filter_entry.grid(row=0, column=1, sticky='ew')
         self.nev_filter_entry.bind('<KeyRelease>', self.filter_frissit)
+
+        tk.Label(self.filter_frame, text="Főkategória:").grid(row=1, column=0, sticky='w')
+        self.kategoria_filter_var = tk.StringVar()
+        filter_fokategorias = [""] + list(self.kategoriak_dict.keys())
+        self.kategoria_filter_combo = ttk.Combobox(self.filter_frame, textvariable=self.kategoria_filter_var, values=filter_fokategorias, state='readonly')
+        self.kategoria_filter_combo.grid(row=1, column=1, sticky='ew')
+        self.kategoria_filter_combo.bind("<<ComboboxSelected>>", self.filter_frissit)
+
+        self.nem_kateg_cb_var = tk.BooleanVar()
+        self.nem_kateg_cb = tk.Checkbutton(self.filter_frame, text="Csak nem kategorizált", variable=self.nem_kateg_cb_var, command=self.filter_frissit)
+        self.nem_kateg_cb.grid(row=2, column=0, columnspan=2, sticky='w')
 
         self.filter_frame.grid_columnconfigure(1, weight=1)
 
@@ -182,47 +159,18 @@ class TermekTagger:
         self.statusz_label = tk.Label(self.right_frame, text="")
         self.statusz_label.pack(side=tk.BOTTOM, pady=3)
 
-        self.update_filter_kategoria_radios()
+        # Frissítés
         self.termek_lista_frissit()
 
-    ### ------ Szűrőpanelen a radio csoportok frissítése ------
-    def update_filter_kategoria_radios(self):
-        # Alkategóriák radio gombjai
-        for widget in self.filter_alkategoria_radio_frame.winfo_children():
-            widget.destroy()
-        fok = self.filter_fokategoria_var.get()
-        if fok and fok in self.kategoriak_dict:
-            alkats = [""] + get_alkategoriak(self.kategoriak_dict, fok)
-        else:
-            alkats = [""]
-        for alk in alkats:
-            rb = tk.Radiobutton(self.filter_alkategoria_radio_frame, text=alk if alk else "Mind", variable=self.filter_alkategoria_var, value=alk, command=self.filter_frissit)
-            rb.pack(side=tk.LEFT)
-        # Altípus radio
-        for widget in self.filter_altipus_radio_frame.winfo_children():
-            widget.destroy()
-        fok = self.filter_fokategoria_var.get()
-        alk = self.filter_alkategoria_var.get()
-        if fok and alk and fok in self.kategoriak_dict and alk in self.kategoriak_dict[fok]['alkategóriák']:
-            alts = [""] + get_altipusok(self.kategoriak_dict, fok, alk)
-        else:
-            alts = [""]
-        for alt in alts:
-            rb = tk.Radiobutton(self.filter_altipus_radio_frame, text=alt if alt else "Mind", variable=self.filter_altipus_var, value=alt, command=self.filter_frissit)
-            rb.pack(side=tk.LEFT)
-
-    ### ------ Jobb oldal: szűrés ------
+    ### ------ Szűrés & lista ------
     def filter_frissit(self, event=None):
-        self.update_filter_kategoria_radios()
         self.termek_lista_frissit()
 
     def termek_lista_frissit(self):
         self.termek_lista.delete(0, tk.END)
         nev_filter = self.nev_filter_var.get().lower()
-        fokat_filter = self.filter_fokategoria_var.get()
-        alk_filter = self.filter_alkategoria_var.get()
-        alt_filter = self.filter_altipus_var.get()
-        statuszok = [k for k,v in self.filter_statusz_vars.items() if v.get()]
+        fokat_filter = self.kategoria_filter_var.get()
+        csak_nem_kateg = self.nem_kateg_cb_var.get()
 
         self.filtered_termekek = []
         for i, termek in enumerate(self.termekek):
@@ -230,18 +178,12 @@ class TermekTagger:
             statusz = self.statusz_map[nev]
             eredm = self.eredmeny_map.get(nev, {})
             fokat = eredm.get('fokategoria', "")
-            alk = eredm.get('alkategoria', "")
-            alt = eredm.get('altipus', "")
 
             if nev_filter and nev_filter not in nev.lower():
                 continue
             if fokat_filter and fokat != fokat_filter:
                 continue
-            if alk_filter and alk != alk_filter:
-                continue
-            if alt_filter and alt != alt_filter:
-                continue
-            if statusz not in statuszok:
+            if csak_nem_kateg and statusz not in ('nincs', 'elavult'):
                 continue
 
             self.filtered_termekek.append((i, termek))
@@ -255,7 +197,7 @@ class TermekTagger:
         if not self.filtered_termekek:
             self.nev_label.config(text="")
             self.kep_label.config(image='')
-            self.clear_kategoria_radios()
+            self.clear_kategoria_comboboxes()
             self.frissit_tulajdonsagok()
             self.statusz_label.config(text="")
         else:
@@ -283,55 +225,56 @@ class TermekTagger:
             self.kep_label.config(image='')
 
         eredm = self.eredmeny_map.get(termek['nev'], {})
-        self.set_kategoria_radios(eredm.get('fokategoria', ''), eredm.get('alkategoria', ''), eredm.get('altipus', ''))
+        # Visszatöltés a kategória választókba
+        self.fokategoria_var.set(eredm.get('fokategoria', ''))
+        self.fokategoria_valtozott()
+        self.alkategoria_var.set(eredm.get('alkategoria', ''))
+        self.alkategoria_valtozott()
+        self.altipus_var.set(eredm.get('altipus', ''))
         self.frissit_tulajdonsagok(eredm.get('tulajdonsagok', {}))
 
         self.statusz_label.config(text=f"Státusz: {self.statusz_map[termek['nev']]}")
 
-    def clear_kategoria_radios(self):
-        for var in [self.fokategoria_var, self.alkategoria_var, self.altipus_var]:
-            var.set('')
-        for frame in [self.alkategoria_radio_frame, self.altipus_radio_frame]:
-            for widget in frame.winfo_children():
-                widget.destroy()
-
-    def set_kategoria_radios(self, fokat, alk, alt):
-        self.fokategoria_var.set(fokat)
-        self.fokategoria_valtozott()
-        self.alkategoria_var.set(alk)
-        self.alkategoria_valtozott()
-        self.altipus_var.set(alt)
-
-    ### ------ Bal oldali kategória radio kezelők ------
-    def fokategoria_valtozott(self):
-        for widget in self.alkategoria_radio_frame.winfo_children():
-            widget.destroy()
-        self.alkategoria_radios = {}
-        fok = self.fokategoria_var.get()
-        alkats = get_alkategoriak(self.kategoriak_dict, fok) if fok else []
-        for alk in alkats:
-            rb = tk.Radiobutton(self.alkategoria_radio_frame, text=alk, variable=self.alkategoria_var, value=alk, command=self.alkategoria_valtozott)
-            rb.pack(anchor='w')
-            self.alkategoria_radios[alk] = rb
+    def clear_kategoria_comboboxes(self):
+        self.fokategoria_var.set('')
         self.alkategoria_var.set('')
-        self.alkategoria_valtozott()
+        self.altipus_var.set('')
+        self.alkategoria_combo['values'] = []
+        self.altipus_combo['values'] = []
 
-    def alkategoria_valtozott(self):
-        for widget in self.altipus_radio_frame.winfo_children():
-            widget.destroy()
-        self.altipus_radios = {}
+    ### ------ Kategória választók kezelése ------
+    def fokategoria_valtozott(self, event=None):
+        fok = self.fokategoria_var.get()
+        if fok:
+            alkats = get_alkategoriak(self.kategoriak_dict, fok)
+            self.alkategoria_combo['values'] = alkats
+            if self.alkategoria_var.get() not in alkats:
+                self.alkategoria_var.set('')
+            self.alkategoria_valtozott()
+        else:
+            self.alkategoria_combo['values'] = []
+            self.altipus_combo['values'] = []
+            self.alkategoria_var.set('')
+            self.altipus_var.set('')
+            self.frissit_tulajdonsagok()
+
+    def alkategoria_valtozott(self, event=None):
         fok = self.fokategoria_var.get()
         alk = self.alkategoria_var.get()
-        alts = get_altipusok(self.kategoriak_dict, fok, alk) if fok and alk else []
-        for alt in alts:
-            rb = tk.Radiobutton(self.altipus_radio_frame, text=alt, variable=self.altipus_var, value=alt, command=self.frissit_tulajdonsagok)
-            rb.pack(anchor='w')
-            self.altipus_radios[alt] = rb
-        self.altipus_var.set('')
-        self.frissit_tulajdonsagok()
+        if fok and alk:
+            alts = get_altipusok(self.kategoriak_dict, fok, alk)
+            self.altipus_combo['values'] = alts
+            if self.altipus_var.get() not in alts:
+                self.altipus_var.set('')
+            self.frissit_tulajdonsagok()
+        else:
+            self.altipus_combo['values'] = []
+            self.altipus_var.set('')
+            self.frissit_tulajdonsagok()
 
     ### ------ Tulajdonság mezők ------
     def frissit_tulajdonsagok(self, mentett_ertekek=None):
+        # Előzőek törlése
         for widget in self.tulajdonsagok_frame.winfo_children():
             widget.destroy()
         self.tulajdonsagok_widgets = {}
@@ -348,7 +291,7 @@ class TermekTagger:
             keret = tk.Frame(self.tulajdonsagok_frame)
             keret.pack(anchor='w', fill=tk.X, padx=2, pady=1)
             tk.Label(keret, text=nev + ':', anchor='w').pack(side=tk.LEFT)
-            if isinstance(val, dict):  # Egyszerű checkbox
+            if isinstance(val, dict):  # Üres dict: egyszerű checkbox (pl. "bio")
                 var = tk.BooleanVar()
                 if mentett_ertekek and nev in mentett_ertekek:
                     var.set(bool(mentett_ertekek[nev]))
@@ -356,15 +299,28 @@ class TermekTagger:
                 cb.pack(side=tk.LEFT)
                 self.tulajdonsagok_widgets[nev] = var
             elif isinstance(val, list):
-                csoport = []
-                for v in val:
-                    var = tk.BooleanVar()
-                    if mentett_ertekek and nev in mentett_ertekek and v in mentett_ertekek[nev]:
-                        var.set(True)
-                    cb = tk.Checkbutton(keret, text=v, variable=var)
-                    cb.pack(side=tk.LEFT)
-                    csoport.append((v, var))
-                self.tulajdonsagok_widgets[nev] = csoport
+                # Ha rövid (kevesebb, mint 6 érték): checkbox csoport
+                if len(val) <= 6:
+                    csoport = []
+                    for v in val:
+                        var = tk.BooleanVar()
+                        if mentett_ertekek and nev in mentett_ertekek and v in mentett_ertekek[nev]:
+                            var.set(True)
+                        cb = tk.Checkbutton(keret, text=v, variable=var)
+                        cb.pack(side=tk.LEFT)
+                        csoport.append((v, var))
+                    self.tulajdonsagok_widgets[nev] = csoport
+                else:
+                    # Sokanál: többválasztós Listbox
+                    lb = tk.Listbox(keret, selectmode='multiple', height=min(len(val), 6), exportselection=False)
+                    for item in val:
+                        lb.insert(tk.END, item)
+                    if mentett_ertekek and nev in mentett_ertekek:
+                        for i, item in enumerate(val):
+                            if item in mentett_ertekek[nev]:
+                                lb.selection_set(i)
+                    lb.pack(side=tk.LEFT, fill=tk.X, expand=True)
+                    self.tulajdonsagok_widgets[nev] = lb
 
     ### ------ Terméklista kattintás ------
     def lista_katt(self, event):
@@ -405,10 +361,16 @@ class TermekTagger:
     def lekerdezes_tulajdonsagok(self):
         eredm = {}
         for nev, widget in self.tulajdonsagok_widgets.items():
+            # Egyszerű checkbox
             if isinstance(widget, tk.BooleanVar):
                 eredm[nev] = bool(widget.get())
+            # Csoportos checkbox
             elif isinstance(widget, list):
                 vals = [v for v, var in widget if var.get()]
+                eredm[nev] = vals
+            # Listbox (többválasztós)
+            elif isinstance(widget, tk.Listbox):
+                vals = [widget.get(i) for i in widget.curselection()]
                 eredm[nev] = vals
         return eredm
 
@@ -426,13 +388,13 @@ class TermekTagger:
             self.termek_lista.selection_clear(0, tk.END)
             self.termek_lista.selection_set(cur+1)
 
-### --- FŐ FUTTATÁS ---
+### ------------ FŐ PROGRAM ------------
 
 if __name__ == '__main__':
     os.makedirs('kepek', exist_ok=True)
-    with open('kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
+    with open('archive/kategoriak_json/kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
         kategoriak_dict = json.load(f)
-    with open('termekek.json', 'r', encoding='utf-8') as f:
+    with open('archive/etc/termekek.json', 'r', encoding='utf-8') as f:
         termekek = json.load(f)
     if os.path.exists('eredmeny.json'):
         with open('eredmeny.json', 'r', encoding='utf-8') as f:
@@ -442,6 +404,6 @@ if __name__ == '__main__':
 
     root = tk.Tk()
     root.title("Termék kategorizáló és tulajdonság-kezelő")
-    root.geometry("1150x680")
+    root.geometry("1050x620")
     app = TermekTagger(root, termekek, kategoriak_dict, eredmenyek)
     root.mainloop()

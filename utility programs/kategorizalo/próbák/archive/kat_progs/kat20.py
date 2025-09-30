@@ -843,9 +843,9 @@ class TermekTagger:
 
 if __name__ == '__main__':
     os.makedirs('kepek', exist_ok=True)
-    with open('kategori_tulajdonsagok_uj_sorted.json', 'r', encoding='utf-8') as f:
+    with open('archive/kategoriak_json/kategori_tulajdonsagok_uj_sorted.json', 'r', encoding='utf-8') as f:
         kategoriak_dict = json.load(f)
-    termekek = beolvas_termekek_csv('termekek_spar.csv')
+    termekek = beolvas_termekek_csv('archive/etc/termekek_spar.csv')
     if os.path.exists('eredmeny.json'):
         with open('eredmeny.json', 'r', encoding='utf-8') as f:
             eredmenyek = json.load(f)

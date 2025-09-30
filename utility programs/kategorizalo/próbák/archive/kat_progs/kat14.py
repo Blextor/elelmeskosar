@@ -1,30 +1,7 @@
-# ÚJ séma támogatás + javítások:
-# - Egyválasztós (radio) tulajdonságoknál az első opció automatikusan kiválasztódik.
-# - "Mentés és következő": kategóriák mellett a TULAJDONSÁGOKAT is viszi a következő termékre,
-#   ha a következő termék még nincs kategorizálva.
-#
-# A JSON tulajdonság séma támogatott formái:
-#   ÚJ séma:
-#   "tulajdonságok": {
-#       "egyedi": {      # {} = boolean; ["a","b"] = single (rádió – első opció alapból)
-#           "bio": {},
-#           "színe": ["piros","fehér","kék"]
-#       },
-#       "csoportos": {   # csak listák -> többválasztós (checkbox-csoport)
-#           "tájegység": ["Dél","Észak","Kelet"]
-#       }
-#   }
-#
-#   RÉGI séma is működik (visszafelé kompatibilis):
-#     {} -> boolean
-#     ["a","b"] -> többválasztós
-#     {"values":[...],"type":"single"} -> rádió
-#     {"values":[...]} -> többválasztós
-
 import tkinter as tk
 from tkinter import ttk, messagebox, font
 import json, hashlib, requests, csv, ast
-from PIL import Image, ImageTk, ImageOps
+from PIL import Image, ImageTk
 from io import BytesIO
 import os
 import re
@@ -48,6 +25,7 @@ def kep_letolt(termek, kepek_dir="kepek"):
     extension = ".jpg"
     if url.lower().endswith('.png'):
         extension = ".png"
+    # További biztonság: content-type alapján is
     fajlnev = termek_fajlnev(termek, extension)
     utvonal = os.path.join(kepek_dir, fajlnev)
     if not os.path.exists(utvonal):
@@ -64,7 +42,8 @@ def kep_letolt(termek, kepek_dir="kepek"):
                 utvonal = os.path.join(kepek_dir, fajlnev)
                 img = Image.open(BytesIO(resp.content))
                 img.save(utvonal)
-            except Exception:
+            except Exception as e:
+                print(f"Kép letöltési hiba: {e}")
                 return None
     return utvonal
 
@@ -80,85 +59,16 @@ def get_altipusok(kategoriak_dict, fokategoria, alkategoria):
     if not (fokategoria and alkategoria): return []
     return list(kategoriak_dict[fokategoria]['alkategóriák'][alkategoria].get('altípusok', {}).keys())
 
-# --- ÚJ: tulajdonság normalizáló az új sémához + visszafelé kompatibilitás ---
-def _normalize_tulajdonsag_blokk(blokk):
-    """
-    Bemenet: a JSON 'tulajdonságok' blokkja ÚJ (egyedi/csoportos) VAGY RÉGI sémában.
-    Kimenet: egységesített dict: kulcs -> spec
-      - {}                               -> boolean
-      - ["a","b"]                        -> multi (checkbox)
-      - {"values":[...],"type":"single"} -> single (radio)
-      - {"values":[...]}                 -> multi (checkbox)
-    """
-    out = {}
-
-    # ÚJ séma
-    if isinstance(blokk, dict) and ("egyedi" in blokk or "csoportos" in blokk):
-        egyedi = blokk.get("egyedi", {})
-        csoportos = blokk.get("csoportos", {})
-
-        # egyedi: {} (boolean) vagy lista (single)
-        if isinstance(egyedi, dict):
-            for nev, v in egyedi.items():
-                if isinstance(v, dict):
-                    out[nev] = {}
-                elif isinstance(v, list):
-                    out[nev] = {"values": v, "type": "single"}  # single-choice -> rádió
-                elif isinstance(v, str):
-                    out[nev] = {"values": [v], "type": "single"}
-                else:
-                    out[nev] = {}
-
-        # csoportos: listák -> multi
-        if isinstance(csoportos, dict):
-            for nev, v in csoportos.items():
-                if isinstance(v, list):
-                    out[nev] = v
-                elif isinstance(v, dict) and "values" in v:
-                    out[nev] = {"values": v.get("values", [])} if "type" not in v else v
-                else:
-                    out[nev] = []
-        return out
-
-    # RÉGI séma
-    if isinstance(blokk, dict):
-        for nev, v in blokk.items():
-            if isinstance(v, dict):
-                if "values" in v:
-                    out[nev] = v
-                else:
-                    out[nev] = {}
-            elif isinstance(v, list):
-                out[nev] = v
-            else:
-                out[nev] = {}
-        return out
-
-    return out
-
 def get_tulajdonsagok(kategoriak_dict, fokategoria, alkategoria, altipus):
-    """
-    Tulajdonságok összeolvasztása: főkategória -> alkategória -> altípus
-    Az alacsonyabb szint felülírja a felsőbb szintek azonos nevű mezőit.
-    """
-    res = {}
-
-    if fokategoria and fokategoria in kategoriak_dict:
-        blokk = kategoriak_dict[fokategoria].get('tulajdonságok', {})
-        res.update(_normalize_tulajdonsag_blokk(blokk))
-
-        alk_map = kategoriak_dict[fokategoria].get('alkategóriák', {})
-        if alkategoria and alkategoria in alk_map:
-            alk = alk_map[alkategoria]
-            blokk = alk.get('tulajdonságok', {})
-            res.update(_normalize_tulajdonsag_blokk(blokk))
-
-            alt_map = alk.get('altípusok', {})
-            if altipus and altipus in alt_map:
-                alt_blokk = alt_map[altipus].get('tulajdonságok', {})
-                res.update(_normalize_tulajdonsag_blokk(alt_blokk))
-
-    return res
+    tulajd = {}
+    if fokategoria:
+        tulajd.update(kategoriak_dict[fokategoria].get('tulajdonságok', {}))
+    if fokategoria and alkategoria:
+        alk = kategoriak_dict[fokategoria]['alkategóriák'][alkategoria]
+        tulajd.update(alk.get('tulajdonságok', {}))
+        if altipus and 'altípusok' in alk and altipus in alk['altípusok']:
+            tulajd.update(alk['altípusok'][altipus].get('tulajdonságok', {}))
+    return tulajd
 
 def get_group_width(options, font_obj):
     if not options:
@@ -170,6 +80,7 @@ def beolvas_termekek_csv(csv_path):
     with open(csv_path, newline='', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
+            # Kép url előállítás (első az image_urls-ból)
             img_url = ""
             image_urls_raw = row.get('image_urls', '')
             if image_urls_raw:
@@ -180,10 +91,11 @@ def beolvas_termekek_csv(csv_path):
                         urls = image_urls_raw.split(';')
                     if isinstance(urls, list) and urls and urls[0].strip():
                         img_url = urls[0].strip()
-                except Exception:
+                except Exception as e:
                     img_url = ""
             row['kep_url'] = img_url
 
+            # Kategóriák szépítés (lehet lista vagy string)
             cats = row.get('categories', '')
             try:
                 if cats and cats.strip().startswith('['):
@@ -222,7 +134,7 @@ class TermekTagger:
         self.kivalasztott_index = 0
         self.filtered_termekek = []
 
-        # --- UI ---
+        # --- Bal panel: termék szerkesztő ---
         self.left_frame = tk.Frame(master)
         self.left_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         self.right_frame = tk.Frame(master)
@@ -260,7 +172,6 @@ class TermekTagger:
         self.save_next_button = tk.Button(self.left_frame, text="Mentés és következő", command=self.mentes_es_kovetkezo)
         self.save_next_button.pack(pady=2)
         self.kovetkezo_button = tk.Button(self.left_frame, text="Következő", command=self.kovetkezo)
-
         self.kovetkezo_button.pack(pady=2)
 
         # --- Szűrőpanel (jobb oldal teteje) ---
@@ -322,14 +233,14 @@ class TermekTagger:
         self.alkategoria_radios = {}
         self.altipus_radios = {}
 
-        self.suppress_select = False
-        self.advanced_due_to_save = False  # mentés miatti automatikus előrelépés jele
-
         self.build_left_radios()
         self.filter_frissit()
 
     def frissit_statusz_kimutatas(self):
         statusz_sorrend = ['kesz', 'folyamatban', 'elavult', 'nincs']
+        statusz_szinek = {
+            'kesz': 'green', 'folyamatban': 'orange', 'elavult': 'red', 'nincs': 'gray'
+        }
         ossz = len(self.termekek)
         stat = {k: 0 for k in statusz_sorrend}
         for t in self.termekek:
@@ -337,11 +248,20 @@ class TermekTagger:
             st = self.statusz_map.get(t_hash, 'nincs')
             if st not in stat: st = 'nincs'
             stat[st] += 1
-        s = "   ".join([f"{st.capitalize()}: {stat[st]} db" for st in statusz_sorrend])
+        stat_szovegek = []
+        for st in statusz_sorrend:
+            n = stat[st]
+            pct = (n / ossz * 100) if ossz > 0 else 0
+            txt = f"{n} db {pct:.2f} %"
+            stat_szovegek.append((st, txt, statusz_szinek[st]))
+        s = "   ".join([f"{st.capitalize()}: {txt}" for st, txt, _ in stat_szovegek])
         if hasattr(self, 'statusz_stats_label'):
             self.statusz_stats_label.config(text=s)
+        if hasattr(self, 'statusz_stats_label2'):
+            self.statusz_stats_label2.config(text=s)
 
     def _termek_hash(self, termek):
+        """Unikális azonosító: pl. név+store+brand+első kép"""
         return (
             str(termek.get("product_name", "")) + "|" +
             str(termek.get("store_name", "")) + "|" +
@@ -381,22 +301,13 @@ class TermekTagger:
         self.altipus_var.set('')
         self.frissit_tulajdonsagok()
 
-    def rebuild_kategoria_radios_with_current(self):
-        self.build_radio_group(self.fokategoria_radio_frame, list(self.kategoriak_dict.keys()),
-                               self.fokategoria_var, self.fokategoria_valtozott, self.fokategoria_radios)
-        alk_options = get_alkategoriak(self.kategoriak_dict, self.fokategoria_var.get()) if self.fokategoria_var.get() else []
-        self.build_radio_group(self.alkategoria_radio_frame, alk_options,
-                               self.alkategoria_var, self.alkategoria_valtozott, self.alkategoria_radios)
-        alt_options = get_altipusok(self.kategoriak_dict, self.fokategoria_var.get(), self.alkategoria_var.get()) if self.alkategoria_var.get() else []
-        self.build_radio_group(self.altipus_radio_frame, alt_options,
-                               self.altipus_var, self.frissit_tulajdonsagok, self.altipus_radios)
-
     def _build_checkbox_grid(self, parent, options, var_dict, command, mind_var=None, mind_text=None, max_per_row=5):
         old_vals = {k: v.get() for k, v in var_dict.items()}
         for widget in parent.winfo_children():
             widget.destroy()
         var_dict.clear()
         font_cb = font.Font(family="Arial", size=9)
+        # Mind külön sorban
         if mind_var is not None and mind_text is not None:
             mind_row = tk.Frame(parent)
             mind_row.pack(anchor='w')
@@ -500,15 +411,12 @@ class TermekTagger:
             self.frissit_tulajdonsagok()
             self.statusz_label.config(text="")
         else:
-            if self.suppress_select:
-                return
-            if not self.termek_lista.curselection():
-                self.termek_lista.selection_clear(0, tk.END)
-                self.termek_lista.selection_set(0)
-                idx = self.filtered_termekek[0][0]
-                self.termek_betoltes(idx)
+            self.termek_lista.selection_clear(0, tk.END)
+            self.termek_lista.selection_set(0)
+            idx = self.filtered_termekek[0][0]
+            self.termek_betoltes(idx)
 
-    def termek_betoltes(self, idx, keep_kat=False, clear_props=False, prefill_props=None):
+    def termek_betoltes(self, idx):
         self.kivalasztott_index = idx
         termek = self.termekek[idx]
         uzlet = termek.get('store_name', '')
@@ -523,32 +431,22 @@ class TermekTagger:
         if kep_path and os.path.exists(kep_path):
             try:
                 img = Image.open(kep_path)
-                img = ImageOps.contain(img, (300, 500), Image.LANCZOS)
+                img.thumbnail((220,220))
                 self.tk_img = ImageTk.PhotoImage(img)
                 self.kep_label.config(image=self.tk_img)
-            except Exception:
+            except Exception as e:
                 self.kep_label.config(image='')
         else:
             self.kep_label.config(image='')
 
         t_hash = self._termek_hash(termek)
         eredm = self.eredmeny_map.get(t_hash, {})
-
-        if keep_kat:
-            self.rebuild_kategoria_radios_with_current()
-            if prefill_props is not None:
-                self.frissit_tulajdonsagok(prefill_props)   # PREFILL a hozott tulajdonságokkal
-            elif clear_props:
-                self.frissit_tulajdonsagok({})
-            else:
-                self.frissit_tulajdonsagok()
-        else:
-            self.fokategoria_var.set(eredm.get('fokategoria', ''))
-            self.fokategoria_valtozott()
-            self.alkategoria_var.set(eredm.get('alkategoria', ''))
-            self.alkategoria_valtozott()
-            self.altipus_var.set(eredm.get('altipus', ''))
-            self.frissit_tulajdonsagok(eredm.get('tulajdonsagok', {}))
+        self.fokategoria_var.set(eredm.get('fokategoria', ''))
+        self.fokategoria_valtozott()
+        self.alkategoria_var.set(eredm.get('alkategoria', ''))
+        self.alkategoria_valtozott()
+        self.altipus_var.set(eredm.get('altipus', ''))
+        self.frissit_tulajdonsagok(eredm.get('tulajdonsagok', {}))
 
         self.statusz_label.config(text=f"Státusz: {self.statusz_map[t_hash]}")
 
@@ -560,13 +458,6 @@ class TermekTagger:
                 widget.destroy()
 
     def frissit_tulajdonsagok(self, mentett_ertekek=None):
-        """
-        Megjelenítés az egységesített spec alapján:
-        - {}                               -> boolean (checkbox)
-        - [ "a", "b", ... ]                -> többválasztós (checkboxok)
-        - {"values":[...], "type":"single"}-> egyválasztós (rádió)  <-- első opció ALAPBÓL kijelölve
-        - {"values":[...]}                 -> többválasztós (checkboxok)
-        """
         for widget in self.tulajdonsagok_frame.winfo_children():
             widget.destroy()
         self.tulajdonsagok_widgets = {}
@@ -577,85 +468,35 @@ class TermekTagger:
         tulajd = get_tulajdonsagok(self.kategoriak_dict, fok, alk, alt)
 
         font_cb = font.Font(family="Arial", size=9)
-        for nev, spec in tulajd.items():
+        for nev, val in tulajd.items():
             keret = tk.Frame(self.tulajdonsagok_frame)
             keret.pack(anchor='w', fill=tk.X, padx=2, pady=1)
             tk.Label(keret, text=nev + ':', anchor='w').pack(side=tk.LEFT)
-
-            # BOOLEAN
-            if isinstance(spec, dict) and 'values' not in spec and len(spec) == 0:
+            if isinstance(val, dict):
                 var = tk.BooleanVar()
                 if mentett_ertekek and nev in mentett_ertekek:
                     var.set(bool(mentett_ertekek[nev]))
                 cb = tk.Checkbutton(keret, variable=var, font=font_cb)
                 cb.pack(side=tk.LEFT)
                 self.tulajdonsagok_widgets[nev] = var
-                continue
-
-            # LISTA / 'values'
-            if isinstance(spec, list) or (isinstance(spec, dict) and 'values' in spec):
-                if isinstance(spec, dict):
-                    values = spec.get('values', [])
-                    is_single = spec.get('type') == 'single' or spec.get('unique') is True
-                else:
-                    values = spec
-                    is_single = False  # plain lista -> multi
-
-                # EGYVÁLASZTÓS (RADIO) – alapértelmezetten az első opció kijelölése
-                if is_single:
-                    var = tk.StringVar()
-                    preset = None
-                    if mentett_ertekek and nev in mentett_ertekek and isinstance(mentett_ertekek[nev], str):
-                        preset = mentett_ertekek[nev]
-                    if not preset and values:
-                        preset = values[0]  # <-- első opció
-                    if preset:
-                        var.set(preset)
-                    width = get_group_width(values, font_cb)
-                    row = None
-                    for i, v in enumerate(values):
-                        if i % 5 == 0:
-                            row = tk.Frame(keret)
-                            row.pack(anchor='w')
-                        rb = tk.Radiobutton(row, text=v, variable=var, value=v, font=font_cb, anchor='w', padx=4, indicatoron=0)
-                        rb.pack(side=tk.LEFT, padx=0, pady=0)
-                        rb.config(width=width//8)
-                    self.tulajdonsagok_widgets[nev] = ('single', var)
-                else:
-                    # TÖBBVÁLASZTÓS (CHECKBOXOK)
-                    csoport = []
-                    width = get_group_width(values, font_cb)
-                    row = None
-                    preset_list = []
-                    if mentett_ertekek and nev in mentett_ertekek:
-                        me = mentett_ertekek[nev]
-                        if isinstance(me, list):
-                            preset_list = me
-                        elif isinstance(me, str):
-                            preset_list = [me]
-                    for i, v in enumerate(values):
-                        if i % 5 == 0:
-                            row = tk.Frame(keret)
-                            row.pack(anchor='w')
-                        var = tk.BooleanVar(value=(v in preset_list))
-                        cb = tk.Checkbutton(row, text=v, variable=var, font=font_cb, anchor='w', padx=4)
-                        cb.pack(side=tk.LEFT, padx=0, pady=0)
-                        cb.config(width=width//8)
-                        csoport.append((v, var))
-                    self.tulajdonsagok_widgets[nev] = csoport
-                continue
-
-            # Fallback -> boolean
-            var = tk.BooleanVar()
-            if mentett_ertekek and nev in mentett_ertekek:
-                var.set(bool(mentett_ertekek[nev]))
-            cb = tk.Checkbutton(keret, variable=var, font=font_cb)
-            cb.pack(side=tk.LEFT)
-            self.tulajdonsagok_widgets[nev] = var
+            elif isinstance(val, list):
+                csoport = []
+                width = get_group_width(val, font_cb)
+                row = None
+                for i, v in enumerate(val):
+                    if i % 5 == 0:
+                        row = tk.Frame(keret)
+                        row.pack(anchor='w')
+                    var = tk.BooleanVar()
+                    if mentett_ertekek and nev in mentett_ertekek and v in mentett_ertekek[nev]:
+                        var.set(True)
+                    cb = tk.Checkbutton(row, text=v, variable=var, font=font_cb, anchor='w', padx=4)
+                    cb.pack(side=tk.LEFT, padx=0, pady=0)
+                    cb.config(width=width//8)
+                    csoport.append((v, var))
+                self.tulajdonsagok_widgets[nev] = csoport
 
     def lista_katt(self, event):
-        if getattr(self, 'suppress_select', False):
-            return
         if not self.termek_lista.curselection():
             return
         j = self.termek_lista.curselection()[0]
@@ -664,13 +505,9 @@ class TermekTagger:
             self.cur = j
             self.termek_betoltes(idx)
 
-    def mentes(self, for_kov=False, return_payload=False):
-        """
-        Mentés. Ha for_kov=True, nem renderelünk új terméket azonnal (a caller intézi).
-        Ha return_payload=True, (advanced_due_to_save, eredm) tuple-t ad vissza.
-        """
+    def mentes(self):
         if not self.filtered_termekek:
-            return (False, None) if return_payload else False
+            return
         cur_index = self.termek_lista.curselection()[0] if self.termek_lista.curselection() else 0
 
         termek = self.termekek[self.kivalasztott_index]
@@ -682,7 +519,7 @@ class TermekTagger:
         h = kategoriak_hash(fok, alk, alt, tul)
         statusz = "kesz" if fok and alk else "folyamatban"
         eredm = {
-            "termek": termek,
+            "termek": termek,  # MINDEN adatot ment!
             "fokategoria": fok,
             "alkategoria": alk,
             "altipus": alt,
@@ -692,124 +529,69 @@ class TermekTagger:
         }
         self.eredmeny_map[t_hash] = eredm
         self.statusz_map[t_hash] = statusz
-
-        # Lista frissítés, kijelölés kézben tartása
-        self.suppress_select = True
         self.termek_lista_frissit()
-
-        def _hash_in_filtered(hsh):
-            for i, _t in self.filtered_termekek:
-                if self._termek_hash(self.termekek[i]) == hsh:
-                    return True
-            return False
-
-        still_in = _hash_in_filtered(t_hash)
-
-        if still_in:
-            new_j = None
-            for j, (i, _t) in enumerate(self.filtered_termekek):
-                if self._termek_hash(self.termekek[i]) == t_hash:
-                    new_j = j
-                    break
-            if new_j is None:
-                new_j = 0
-        else:
-            if self.filtered_termekek:
-                new_j = min(cur_index, len(self.filtered_termekek) - 1)
-            else:
-                new_j = None
-
-        self.termek_lista.selection_clear(0, tk.END)
-        if new_j is not None:
-            self.termek_lista.selection_set(new_j)
-            self.termek_lista.see(new_j)
-            self.cur = new_j
-            self.kivalasztott_index = self.filtered_termekek[new_j][0]
-        self.suppress_select = False
-
+        # Eredmények mentése
         with open('eredmeny.json', 'w', encoding='utf-8') as f:
             json.dump(list(self.eredmeny_map.values()), f, ensure_ascii=False, indent=2)
         self.statusz_label.config(text=f"Státusz: {self.statusz_map[t_hash]}")
+        self.termek_lista.selection_clear(0, tk.END)
+        self.termek_lista.selection_set(cur_index)
+        self.termek_lista.see(cur_index)
         self.frissit_statusz_kimutatas()
 
-        self.advanced_due_to_save = not still_in
-
-        if not for_kov and self.filtered_termekek and (new_j is not None):
-            idx = self.kivalasztott_index
-            self.termek_betoltes(idx, keep_kat=False, clear_props=False)
-
-        if return_payload:
-            return (self.advanced_due_to_save, eredm)
-        return self.advanced_due_to_save
 
     def lekerdezes_tulajdonsagok(self):
         eredm = {}
         for nev, widget in self.tulajdonsagok_widgets.items():
-            if isinstance(widget, tuple) and widget[0] == 'single':
-                eredm[nev] = widget[1].get()
-            elif isinstance(widget, tk.BooleanVar):
+            if isinstance(widget, tk.BooleanVar):
                 eredm[nev] = bool(widget.get())
             elif isinstance(widget, list):
                 vals = [v for v, var in widget if var.get()]
                 eredm[nev] = vals
         return eredm
 
-    def kovetkezo(self, keep_kat=True, prefill_props=None):
+    def kovetkezo(self, keep_kat=True):
         if not self.filtered_termekek:
             return
-        next_j = self.cur + 1
-        if next_j >= len(self.filtered_termekek):
-            return
-
-        next_idx = self.filtered_termekek[next_j][0]
-        self.kivalasztott_index = next_idx
-
-        self.suppress_select = True
-        self.termek_lista.selection_clear(0, tk.END)
-        self.termek_lista.selection_set(next_j)
-        self.termek_lista.see(next_j)
-        self.suppress_select = False
-
-        self.cur = next_j
-
-        next_t = self.termekek[next_idx]
-        next_saved = self.eredmeny_map.get(self._termek_hash(next_t), {})
-        has_saved_cat = bool(next_saved.get('fokategoria') and next_saved.get('alkategoria'))
-
-        if keep_kat and not has_saved_cat:
-            # Kategóriák + (új) TULAJDONSÁGOK továbbvitele
-            self.termek_betoltes(next_idx, keep_kat=True, clear_props=False, prefill_props=prefill_props or {})
-        else:
-            self.termek_betoltes(next_idx, keep_kat=False, clear_props=False)
+        print(self.cur)
+        if self.cur + 1 < len(self.filtered_termekek):
+            next_idx = self.filtered_termekek[self.cur + 1][0]
+            self.kivalasztott_index = next_idx
+            # Itt olvasd be az új terméket!
+            termek = self.termekek[next_idx]
+            t_hash = self._termek_hash(termek)
+            eredm = self.eredmeny_map.get(t_hash, {})
+            if keep_kat:
+                # Ha kategória szinteket megtartjuk, de tulajdonságot nem:
+                self.fokategoria_var.set(self.fokategoria_var.get())
+                self.alkategoria_var.set(self.alkategoria_var.get())
+                self.altipus_var.set(self.altipus_var.get())
+                self.frissit_tulajdonsagok({})
+            else:
+                self.set_kategoria_radios(
+                    eredm.get('fokategoria', ''),
+                    eredm.get('alkategoria', ''),
+                    eredm.get('altipus', '')
+                )
+                self.frissit_tulajdonsagok(eredm.get('tulajdonsagok', {}))
+            self.termek_lista.selection_clear(0, tk.END)
+            self.termek_lista.selection_set(self.cur + 1)
+            self.termek_lista.see(self.cur + 1)
+            # Képet, címkét frissíteni:
+            self.cur = self.cur + 1
+            self.termek_betoltes(next_idx)
 
     def mentes_es_kovetkezo(self):
-        # Mentsünk, és kérjük vissza a most mentett payloadot (benne a tulajdonságokkal)
-        advanced, payload = self.mentes(for_kov=True, return_payload=True)
-        if not self.filtered_termekek or payload is None:
-            return
+        self.mentes()  # mentés megtartja a kijelölést
+        self.kovetkezo(keep_kat=True)  # így fő/alkat/altípus marad, tulajdonság reset
 
-        prev_tul = payload.get("tulajdonsagok", {})
-
-        if advanced:
-            # A szűrés miatt már a "következő" van kijelölve -> NE léptessünk még egyszer,
-            # viszont vigyük át a kategóriákat és a tulajdonságokat is.
-            next_idx = self.kivalasztott_index
-            next_t = self.termekek[next_idx]
-            next_saved = self.eredmeny_map.get(self._termek_hash(next_t), {})
-            has_saved_cat = bool(next_saved.get('fokategoria') and next_saved.get('alkategoria'))
-            if not has_saved_cat:
-                self.termek_betoltes(next_idx, keep_kat=True, clear_props=False, prefill_props=prev_tul)
-            else:
-                self.termek_betoltes(next_idx, keep_kat=False, clear_props=False)
-        else:
-            # Normál eset: most léptessünk egyet, és adjuk át a tulajdonságokat is
-            self.kovetkezo(keep_kat=True, prefill_props=prev_tul)
 
 if __name__ == '__main__':
     os.makedirs('kepek', exist_ok=True)
-    with open('kategori_tulajdonsagok_uj_sorted.json', 'r', encoding='utf-8') as f:
+    with open('archive/kategoriak_json/kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
         kategoriak_dict = json.load(f)
-    termekek = beolvas_termekek_csv('termekek_spar.csv')
+    # --- CSV beolvasás:
+    termekek = beolvas_termekek_csv('archive/etc/termekek_spar.csv')
     if os.path.exists('eredmeny.json'):
         with open('eredmeny.json', 'r', encoding='utf-8') as f:
             eredmenyek = json.load(f)

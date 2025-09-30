@@ -13,33 +13,22 @@ def slugify(value):
     value = re.sub(r'[^a-zA-Z0-9]+', '_', value).strip('_')
     return value
 
-def termek_fajlnev(termek, extension=".jpg"):
+def termek_fajlnev(termek):
     nev = slugify(termek.get('product_name'))
     marka = slugify(termek.get('brand_name', ''))
     hash_str = hashlib.md5(termek.get('kep_url', '').encode('utf-8')).hexdigest()[:8]
-    return f"{nev}_{marka}_{hash_str}{extension}"
+    return f"{nev}_{marka}_{hash_str}.jpg"
 
 def kep_letolt(termek, kepek_dir="kepek"):
     os.makedirs(kepek_dir, exist_ok=True)
-    url = termek.get('kep_url', '')
-    extension = ".jpg"
-    if url.lower().endswith('.png'):
-        extension = ".png"
-    # További biztonság: content-type alapján is
-    fajlnev = termek_fajlnev(termek, extension)
+    fajlnev = termek_fajlnev(termek)
     utvonal = os.path.join(kepek_dir, fajlnev)
     if not os.path.exists(utvonal):
+        url = termek.get('kep_url', '')
         if url:
             try:
                 resp = requests.get(url, timeout=10)
                 resp.raise_for_status()
-                content_type = resp.headers.get('Content-Type', '').lower()
-                if 'png' in content_type or url.lower().endswith('.png'):
-                    extension = '.png'
-                elif 'jpeg' in content_type or 'jpg' in content_type or url.lower().endswith('.jpg'):
-                    extension = '.jpg'
-                fajlnev = termek_fajlnev(termek, extension)
-                utvonal = os.path.join(kepek_dir, fajlnev)
                 img = Image.open(BytesIO(resp.content))
                 img.save(utvonal)
             except Exception as e:
@@ -289,38 +278,6 @@ class TermekTagger:
         self.build_radio_group(self.fokategoria_radio_frame, list(self.kategoriak_dict.keys()),
                               self.fokategoria_var, self.fokategoria_valtozott, self.fokategoria_radios)
 
-    def rebuild_kategoria_radios_with_current(self):
-        """Újraépíti a főkategória/kategória/altípus rádiógombokat
-        a JELENLEGI self.*_var értékek megtartásával (nem reseteli őket)."""
-        # Főkategória csoport
-        self.build_radio_group(
-            self.fokategoria_radio_frame,
-            list(self.kategoriak_dict.keys()),
-            self.fokategoria_var,
-            self.fokategoria_valtozott,
-            self.fokategoria_radios
-        )
-        # Kategória csoport a jelenlegi főkategória alapján
-        alk_options = get_alkategoriak(self.kategoriak_dict,
-                                       self.fokategoria_var.get()) if self.fokategoria_var.get() else []
-        self.build_radio_group(
-            self.alkategoria_radio_frame,
-            alk_options,
-            self.alkategoria_var,
-            self.alkategoria_valtozott,
-            self.alkategoria_radios
-        )
-        # Altípus csoport a jelenlegi főkategória+kategória alapján
-        alt_options = get_altipusok(self.kategoriak_dict, self.fokategoria_var.get(),
-                                    self.alkategoria_var.get()) if self.alkategoria_var.get() else []
-        self.build_radio_group(
-            self.altipus_radio_frame,
-            alt_options,
-            self.altipus_var,
-            self.frissit_tulajdonsagok,
-            self.altipus_radios
-        )
-
     def fokategoria_valtozott(self):
         options = get_alkategoriak(self.kategoriak_dict, self.fokategoria_var.get()) if self.fokategoria_var.get() else []
         self.build_radio_group(self.alkategoria_radio_frame, options, self.alkategoria_var, self.alkategoria_valtozott, self.alkategoria_radios)
@@ -448,7 +405,7 @@ class TermekTagger:
             idx = self.filtered_termekek[0][0]
             self.termek_betoltes(idx)
 
-    def termek_betoltes(self, idx, keep_kat=False, clear_props=False):
+    def termek_betoltes(self, idx):
         self.kivalasztott_index = idx
         termek = self.termekek[idx]
         uzlet = termek.get('store_name', '')
@@ -473,52 +430,12 @@ class TermekTagger:
 
         t_hash = self._termek_hash(termek)
         eredm = self.eredmeny_map.get(t_hash, {})
-
-        if keep_kat:
-            # Tartsuk meg az EDDIG kiválasztott kategóriákat,
-            # csak a csoportokat építsük újra ehhez az értékhez igazítva:
-            self.rebuild_kategoria_radios_with_current()
-            # Tulajdonságok törlése, ha kell
-            if clear_props:
-                self.frissit_tulajdonsagok({})
-            else:
-                self.frissit_tulajdonsagok()
-        else:
-            # Betöltjük a mentett kategóriákat (ha vannak), különben üres
-            # FIGYELEM: nem hívjuk a *_valtozott() metódusokat, mert azok resetelnek,
-            # helyettük kézzel építjük a rádiócsoportokat és utána állítjuk be a .set()-et.
-            self.build_radio_group(
-                self.fokategoria_radio_frame,
-                list(self.kategoriak_dict.keys()),
-                self.fokategoria_var,
-                self.fokategoria_valtozott,
-                self.fokategoria_radios
-            )
-            self.fokategoria_var.set(eredm.get('fokategoria', ''))
-
-            alk_options = get_alkategoriak(self.kategoriak_dict,
-                                           self.fokategoria_var.get()) if self.fokategoria_var.get() else []
-            self.build_radio_group(
-                self.alkategoria_radio_frame,
-                alk_options,
-                self.alkategoria_var,
-                self.alkategoria_valtozott,
-                self.alkategoria_radios
-            )
-            self.alkategoria_var.set(eredm.get('alkategoria', ''))
-
-            alt_options = get_altipusok(self.kategoriak_dict, self.fokategoria_var.get(),
-                                        self.alkategoria_var.get()) if self.alkategoria_var.get() else []
-            self.build_radio_group(
-                self.altipus_radio_frame,
-                alt_options,
-                self.altipus_var,
-                self.frissit_tulajdonsagok,
-                self.altipus_radios
-            )
-            self.altipus_var.set(eredm.get('altipus', ''))
-
-            self.frissit_tulajdonsagok(eredm.get('tulajdonsagok', {}))
+        self.fokategoria_var.set(eredm.get('fokategoria', ''))
+        self.fokategoria_valtozott()
+        self.alkategoria_var.set(eredm.get('alkategoria', ''))
+        self.alkategoria_valtozott()
+        self.altipus_var.set(eredm.get('altipus', ''))
+        self.frissit_tulajdonsagok(eredm.get('tulajdonsagok', {}))
 
         self.statusz_label.config(text=f"Státusz: {self.statusz_map[t_hash]}")
 
@@ -622,31 +539,36 @@ class TermekTagger:
                 eredm[nev] = vals
         return eredm
 
-    def kovetkezo(self, keep_kat=True):
+    def kovetkezo(self, keep_kat=False):
         if not self.filtered_termekek:
             return
+        print(self.cur)
         if self.cur + 1 < len(self.filtered_termekek):
             next_idx = self.filtered_termekek[self.cur + 1][0]
             self.kivalasztott_index = next_idx
-
-            # Lista kijelölés frissítése
+            # Itt olvasd be az új terméket!
+            termek = self.termekek[next_idx]
+            t_hash = self._termek_hash(termek)
+            eredm = self.eredmeny_map.get(t_hash, {})
+            if keep_kat:
+                # Ha kategória szinteket megtartjuk, de tulajdonságot nem:
+                self.fokategoria_var.set(self.fokategoria_var.get())
+                self.alkategoria_var.set(self.alkategoria_var.get())
+                self.altipus_var.set(self.altipus_var.get())
+                self.frissit_tulajdonsagok({})
+            else:
+                self.set_kategoria_radios(
+                    eredm.get('fokategoria', ''),
+                    eredm.get('alkategoria', ''),
+                    eredm.get('altipus', '')
+                )
+                self.frissit_tulajdonsagok(eredm.get('tulajdonsagok', {}))
             self.termek_lista.selection_clear(0, tk.END)
             self.termek_lista.selection_set(self.cur + 1)
             self.termek_lista.see(self.cur + 1)
-
+            # Képet, címkét frissíteni:
             self.cur = self.cur + 1
-
-            # Következő termék mentett állapota
-            next_t = self.termekek[next_idx]
-            next_saved = self.eredmeny_map.get(self._termek_hash(next_t), {})
-
-            # Ha keep_kat=True ÉS a következőnek NINCS kész/folyamatban kategóriája,
-            # akkor visszük a korábbi kategóriát és töröljük a tulajdonságokat.
-            if keep_kat and not (next_saved.get('fokategoria') and next_saved.get('alkategoria')):
-                self.termek_betoltes(next_idx, keep_kat=True, clear_props=True)
-            else:
-                # egyébként a saját (mentett) kategóriáit mutatjuk
-                self.termek_betoltes(next_idx, keep_kat=False, clear_props=False)
+            self.termek_betoltes(next_idx)
 
     def mentes_es_kovetkezo(self):
         self.mentes()  # mentés megtartja a kijelölést
@@ -655,10 +577,10 @@ class TermekTagger:
 
 if __name__ == '__main__':
     os.makedirs('kepek', exist_ok=True)
-    with open('kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
+    with open('archive/kategoriak_json/kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
         kategoriak_dict = json.load(f)
     # --- CSV beolvasás:
-    termekek = beolvas_termekek_csv('termekek_spar.csv')
+    termekek = beolvas_termekek_csv('archive/etc/termekek_spar.csv')
     if os.path.exists('eredmeny.json'):
         with open('eredmeny.json', 'r', encoding='utf-8') as f:
             eredmenyek = json.load(f)

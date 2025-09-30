@@ -103,7 +103,6 @@ class TermekTagger:
         self.termekek = termekek
         self.kategoriak_dict = kategoriak_dict
         self.eredmenyek = eredmenyek
-        self.cur = 0
 
         self.statusz_map = {}
         self.eredmeny_map = {}
@@ -158,8 +157,6 @@ class TermekTagger:
 
         self.save_button = tk.Button(self.left_frame, text="Mentés", command=self.mentes)
         self.save_button.pack(pady=2)
-        self.save_next_button = tk.Button(self.left_frame, text="Mentés és következő", command=self.mentes_es_kovetkezo)
-        self.save_next_button.pack(pady=2)
         self.kovetkezo_button = tk.Button(self.left_frame, text="Következő", command=self.kovetkezo)
         self.kovetkezo_button.pack(pady=2)
 
@@ -203,16 +200,9 @@ class TermekTagger:
             cb = tk.Checkbutton(self.filter_statusz_frame, text=sz.capitalize(), variable=v, command=self.filter_frissit, font=('Arial', 9))
             cb.pack(side=tk.LEFT)
             self.filter_statusz_vars[sz] = v
-        self.statusz_stats_label = tk.Label(self.filter_frame, text="", font=('Arial', 10))
-        self.statusz_stats_label.pack(anchor='w', padx=2, pady=(2, 6))
 
-        lista_frame = tk.Frame(self.right_frame)
-        lista_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True, padx=2)
-        self.termek_lista = tk.Listbox(lista_frame)
-        self.termek_lista.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        self.termek_lista_scroll = tk.Scrollbar(lista_frame, orient="vertical", command=self.termek_lista.yview)
-        self.termek_lista_scroll.pack(side=tk.RIGHT, fill=tk.Y)
-        self.termek_lista.config(yscrollcommand=self.termek_lista_scroll.set)
+        self.termek_lista = tk.Listbox(self.right_frame)
+        self.termek_lista.pack(side=tk.TOP, fill=tk.BOTH, expand=True, padx=2)
         self.termek_lista.bind('<<ListboxSelect>>', self.lista_katt)
 
         self.statusz_label = tk.Label(self.right_frame, text="")
@@ -224,30 +214,6 @@ class TermekTagger:
 
         self.build_left_radios()
         self.filter_frissit()
-
-    def frissit_statusz_kimutatas(self):
-        statusz_sorrend = ['kesz', 'folyamatban', 'elavult', 'nincs']
-        statusz_szinek = {
-            'kesz': 'green', 'folyamatban': 'orange', 'elavult': 'red', 'nincs': 'gray'
-        }
-        ossz = len(self.termekek)
-        stat = {k: 0 for k in statusz_sorrend}
-        for t in self.termekek:
-            t_hash = self._termek_hash(t)
-            st = self.statusz_map.get(t_hash, 'nincs')
-            if st not in stat: st = 'nincs'
-            stat[st] += 1
-        stat_szovegek = []
-        for st in statusz_sorrend:
-            n = stat[st]
-            pct = (n / ossz * 100) if ossz > 0 else 0
-            txt = f"{n} db {pct:.2f} %"
-            stat_szovegek.append((st, txt, statusz_szinek[st]))
-        s = "   ".join([f"{st.capitalize()}: {txt}" for st, txt, _ in stat_szovegek])
-        if hasattr(self, 'statusz_stats_label'):
-            self.statusz_stats_label.config(text=s)
-        if hasattr(self, 'statusz_stats_label2'):
-            self.statusz_stats_label2.config(text=s)
 
     def _termek_hash(self, termek):
         """Unikális azonosító: pl. név+store+brand+első kép"""
@@ -344,7 +310,6 @@ class TermekTagger:
             altipusok = []
         self._build_checkbox_grid(self.filter_altipus_box, altipusok, self.filter_altipus_vars, self.on_altipus_filter_change, mind_var=self.filter_altipus_mind_var, mind_text="Mind")
         self.termek_lista_frissit()
-        self.frissit_statusz_kimutatas()
 
     def termek_lista_frissit(self):
         self.termek_lista.delete(0, tk.END)
@@ -491,14 +456,11 @@ class TermekTagger:
         j = self.termek_lista.curselection()[0]
         if 0 <= j < len(self.filtered_termekek):
             idx = self.filtered_termekek[j][0]
-            self.cur = j
             self.termek_betoltes(idx)
 
     def mentes(self):
         if not self.filtered_termekek:
             return
-        cur_index = self.termek_lista.curselection()[0] if self.termek_lista.curselection() else 0
-
         termek = self.termekek[self.kivalasztott_index]
         t_hash = self._termek_hash(termek)
         fok = self.fokategoria_var.get()
@@ -523,11 +485,6 @@ class TermekTagger:
         with open('eredmeny.json', 'w', encoding='utf-8') as f:
             json.dump(list(self.eredmeny_map.values()), f, ensure_ascii=False, indent=2)
         self.statusz_label.config(text=f"Státusz: {self.statusz_map[t_hash]}")
-        self.termek_lista.selection_clear(0, tk.END)
-        self.termek_lista.selection_set(cur_index)
-        self.termek_lista.see(cur_index)
-        self.frissit_statusz_kimutatas()
-
 
     def lekerdezes_tulajdonsagok(self):
         eredm = {}
@@ -539,48 +496,26 @@ class TermekTagger:
                 eredm[nev] = vals
         return eredm
 
-    def kovetkezo(self, keep_kat=False):
+    def kovetkezo(self):
         if not self.filtered_termekek:
             return
-        print(self.cur)
-        if self.cur + 1 < len(self.filtered_termekek):
-            next_idx = self.filtered_termekek[self.cur + 1][0]
-            self.kivalasztott_index = next_idx
-            # Itt olvasd be az új terméket!
-            termek = self.termekek[next_idx]
-            t_hash = self._termek_hash(termek)
-            eredm = self.eredmeny_map.get(t_hash, {})
-            if keep_kat:
-                # Ha kategória szinteket megtartjuk, de tulajdonságot nem:
-                self.fokategoria_var.set(self.fokategoria_var.get())
-                self.alkategoria_var.set(self.alkategoria_var.get())
-                self.altipus_var.set(self.altipus_var.get())
-                self.frissit_tulajdonsagok({})
-            else:
-                self.set_kategoria_radios(
-                    eredm.get('fokategoria', ''),
-                    eredm.get('alkategoria', ''),
-                    eredm.get('altipus', '')
-                )
-                self.frissit_tulajdonsagok(eredm.get('tulajdonsagok', {}))
-            self.termek_lista.selection_clear(0, tk.END)
-            self.termek_lista.selection_set(self.cur + 1)
-            self.termek_lista.see(self.cur + 1)
-            # Képet, címkét frissíteni:
-            self.cur = self.cur + 1
+        cur = None
+        for j, (idx, t) in enumerate(self.filtered_termekek):
+            if idx == self.kivalasztott_index:
+                cur = j
+                break
+        if cur is not None and cur+1 < len(self.filtered_termekek):
+            next_idx = self.filtered_termekek[cur+1][0]
             self.termek_betoltes(next_idx)
-
-    def mentes_es_kovetkezo(self):
-        self.mentes()  # mentés megtartja a kijelölést
-        self.kovetkezo(keep_kat=True)  # így fő/alkat/altípus marad, tulajdonság reset
-
+            self.termek_lista.selection_clear(0, tk.END)
+            self.termek_lista.selection_set(cur+1)
 
 if __name__ == '__main__':
     os.makedirs('kepek', exist_ok=True)
-    with open('kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
+    with open('archive/kategoriak_json/kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
         kategoriak_dict = json.load(f)
     # --- CSV beolvasás:
-    termekek = beolvas_termekek_csv('termekek_spar.csv')
+    termekek = beolvas_termekek_csv('archive/etc/termekek_spar.csv')
     if os.path.exists('eredmeny.json'):
         with open('eredmeny.json', 'r', encoding='utf-8') as f:
             eredmenyek = json.load(f)

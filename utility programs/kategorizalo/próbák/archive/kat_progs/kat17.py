@@ -234,7 +234,6 @@ class TermekTagger:
 
         # Programozott kijelölés közbeni handler-némítás
         self.suppress_select = False
-        self.advanced_due_to_save = False  # jelzés "mentés" után történt-e előrelépés a szűrés miatt
 
         self.build_left_radios()
         self.filter_frissit()
@@ -492,14 +491,6 @@ class TermekTagger:
                 widget.destroy()
 
     def frissit_tulajdonsagok(self, mentett_ertekek=None):
-        """
-        A JSON sémák támogatása tulajdonság csoportokra:
-        - {}                -> logikai (checkbox)
-        - [ "a", "b", ... ] -> több választás (checkboxok)
-        - {"values":[...], "unique": true}  -> EGY választás (radiogombok)
-        - {"values":[...], "type":"single"} -> EGY választás (radiogombok)
-        - {"values":[...]}  -> több választás (checkboxok)
-        """
         for widget in self.tulajdonsagok_frame.winfo_children():
             widget.destroy()
         self.tulajdonsagok_widgets = {}
@@ -510,77 +501,33 @@ class TermekTagger:
         tulajd = get_tulajdonsagok(self.kategoriak_dict, fok, alk, alt)
 
         font_cb = font.Font(family="Arial", size=9)
-        for nev, spec in tulajd.items():
+        for nev, val in tulajd.items():
             keret = tk.Frame(self.tulajdonsagok_frame)
             keret.pack(anchor='w', fill=tk.X, padx=2, pady=1)
             tk.Label(keret, text=nev + ':', anchor='w').pack(side=tk.LEFT)
-
-            # --- BOOLEAN ---
-            if isinstance(spec, dict) and 'values' not in spec:
+            if isinstance(val, dict):
                 var = tk.BooleanVar()
                 if mentett_ertekek and nev in mentett_ertekek:
                     var.set(bool(mentett_ertekek[nev]))
                 cb = tk.Checkbutton(keret, variable=var, font=font_cb)
                 cb.pack(side=tk.LEFT)
                 self.tulajdonsagok_widgets[nev] = var
-                continue
-
-            # --- LISTA / DIKT 'values' -> single/multi ---
-            if isinstance(spec, list) or (isinstance(spec, dict) and 'values' in spec):
-                if isinstance(spec, dict):
-                    values = spec.get('values', [])
-                    is_single = spec.get('type') == 'single' or spec.get('unique') is True
-                else:
-                    values = spec
-                    is_single = False  # klasszikus lista -> több választás
-
-                # EGY VÁLASZTÁS (RADIO)
-                if is_single:
-                    var = tk.StringVar()
-                    if mentett_ertekek and nev in mentett_ertekek and isinstance(mentett_ertekek[nev], str):
-                        var.set(mentett_ertekek[nev])
-                    # rádiók több oszlopban
-                    width = get_group_width(values, font_cb)
-                    row = None
-                    for i, v in enumerate(values):
-                        if i % 5 == 0:
-                            row = tk.Frame(keret)
-                            row.pack(anchor='w')
-                        rb = tk.Radiobutton(row, text=v, variable=var, value=v, font=font_cb, anchor='w', padx=4, indicatoron=0)
-                        rb.pack(side=tk.LEFT, padx=0, pady=0)
-                        rb.config(width=width//8)
-                    self.tulajdonsagok_widgets[nev] = ('single', var)
-                else:
-                    # TÖBB VÁLASZTÁS (CHECKBOXOK)
-                    csoport = []
-                    width = get_group_width(values, font_cb)
-                    row = None
-                    preset_list = []
-                    if mentett_ertekek and nev in mentett_ertekek:
-                        me = mentett_ertekek[nev]
-                        if isinstance(me, list):
-                            preset_list = me
-                        elif isinstance(me, str):
-                            preset_list = [me]
-                    for i, v in enumerate(values):
-                        if i % 5 == 0:
-                            row = tk.Frame(keret)
-                            row.pack(anchor='w')
-                        var = tk.BooleanVar(value=(v in preset_list))
-                        cb = tk.Checkbutton(row, text=v, variable=var, font=font_cb, anchor='w', padx=4)
-                        cb.pack(side=tk.LEFT, padx=0, pady=0)
-                        cb.config(width=width//8)
-                        csoport.append((v, var))
-                    self.tulajdonsagok_widgets[nev] = csoport
-                continue
-
-            # Ha ide jutnánk, akkor is fallbackeljünk egy checkboxra
-            var = tk.BooleanVar()
-            if mentett_ertekek and nev in mentett_ertekek:
-                var.set(bool(mentett_ertekek[nev]))
-            cb = tk.Checkbutton(keret, variable=var, font=font_cb)
-            cb.pack(side=tk.LEFT)
-            self.tulajdonsagok_widgets[nev] = var
+            elif isinstance(val, list):
+                csoport = []
+                width = get_group_width(val, font_cb)
+                row = None
+                for i, v in enumerate(val):
+                    if i % 5 == 0:
+                        row = tk.Frame(keret)
+                        row.pack(anchor='w')
+                    var = tk.BooleanVar()
+                    if mentett_ertekek and nev in mentett_ertekek and v in mentett_ertekek[nev]:
+                        var.set(True)
+                    cb = tk.Checkbutton(row, text=v, variable=var, font=font_cb, anchor='w', padx=4)
+                    cb.pack(side=tk.LEFT, padx=0, pady=0)
+                    cb.config(width=width//8)
+                    csoport.append((v, var))
+                self.tulajdonsagok_widgets[nev] = csoport
 
     def lista_katt(self, event):
         # Programozott kijelölésnél ne reagáljunk
@@ -594,16 +541,11 @@ class TermekTagger:
             self.cur = j
             self.termek_betoltes(idx)
 
-    def mentes(self, for_kov=False):
-        """
-        Mentés. Ha for_kov=True, akkor nem töltünk azonnal UI-t (hagyjuk a kategóriákat a rádiókban),
-        és visszaadjuk, hogy a szűrés miatt előreléptünk-e már (advanced_due_to_save).
-        """
+    def mentes(self):
         if not self.filtered_termekek:
-            return False
+            return
         cur_index = self.termek_lista.curselection()[0] if self.termek_lista.curselection() else 0
 
-        # Aktuális termék és mentendő adatok
         termek = self.termekek[self.kivalasztott_index]
         t_hash = self._termek_hash(termek)
         fok = self.fokategoria_var.get()
@@ -624,71 +566,29 @@ class TermekTagger:
         self.eredmeny_map[t_hash] = eredm
         self.statusz_map[t_hash] = statusz
 
-        # Megnézzük, benne marad-e a szűrt listában a mentés után
+        # Listafrissítés és visszakijelölés – esemény némítással, hogy ne léptessen duplán
         self.suppress_select = True
         self.termek_lista_frissit()
-
-        # Ellenőrzés: a régi elem még benne van-e a szűrt listában?
-        def _hash_in_filtered(hsh):
-            for i, t in self.filtered_termekek:
-                if self._termek_hash(self.termekek[i]) == hsh:
-                    return True
-            return False
-
-        still_in = _hash_in_filtered(t_hash)
-
-        if still_in:
-            # maradjon ugyanaz a kijelölés (ugyanaz az elem)
-            # keressük meg az új j indexét
-            new_j = None
-            for j, (i, t) in enumerate(self.filtered_termekek):
-                if self._termek_hash(self.termekek[i]) == t_hash:
-                    new_j = j
-                    break
-            if new_j is None:
-                new_j = 0
-        else:
-            # kikerült a listából -> a helyén maradó következő elemre álljunk
-            if self.filtered_termekek:
-                new_j = min(cur_index, len(self.filtered_termekek) - 1)
-            else:
-                new_j = None
-
         self.termek_lista.selection_clear(0, tk.END)
-        if new_j is not None:
-            self.termek_lista.selection_set(new_j)
-            self.termek_lista.see(new_j)
-            self.cur = new_j
-            self.kivalasztott_index = self.filtered_termekek[new_j][0]
+        if self.filtered_termekek:
+            j = min(cur_index, len(self.filtered_termekek) - 1)
+            self.termek_lista.selection_set(j)
+            self.termek_lista.see(j)
+            self.cur = j
+            self.kivalasztott_index = self.filtered_termekek[j][0]
         self.suppress_select = False
 
-        # Eredmények mentése fájlba
+        # Eredmények mentése
         with open('eredmeny.json', 'w', encoding='utf-8') as f:
             json.dump(list(self.eredmeny_map.values()), f, ensure_ascii=False, indent=2)
         self.statusz_label.config(text=f"Státusz: {self.statusz_map[t_hash]}")
         self.frissit_statusz_kimutatas()
 
-        # Jelezzük, hogy a szűrés miatt automatikusan továbbléptünk-e
-        self.advanced_due_to_save = not still_in
-
-        # Ha NEM "mentés és következő" hívta, akkor most töltsük be az aktuálisan kijelölt elemet
-        if not for_kov and self.filtered_termekek and (new_j is not None):
-            idx = self.kivalasztott_index
-            # sima mentésnél a saját (mentett) értékeit mutatjuk
-            self.termek_betoltes(idx, keep_kat=False, clear_props=False)
-
-        return self.advanced_due_to_save
-
     def lekerdezes_tulajdonsagok(self):
         eredm = {}
         for nev, widget in self.tulajdonsagok_widgets.items():
-            # EGY VÁLASZTÁS (radio)
-            if isinstance(widget, tuple) and widget[0] == 'single':
-                eredm[nev] = widget[1].get()
-            # BOOLEAN
-            elif isinstance(widget, tk.BooleanVar):
+            if isinstance(widget, tk.BooleanVar):
                 eredm[nev] = bool(widget.get())
-            # TÖBB VÁLASZTÁS (checkbox csoport)
             elif isinstance(widget, list):
                 vals = [v for v, var in widget if var.get()]
                 eredm[nev] = vals
@@ -727,33 +627,14 @@ class TermekTagger:
             self.termek_betoltes(next_idx, keep_kat=False, clear_props=False)
 
     def mentes_es_kovetkezo(self):
-        # Mentünk úgy, hogy a rádiók még az előző kategóriákat tartsák meg,
-        # és megtudjuk, hogy a szűrés miatt már előreléptünk-e
-        advanced = self.mentes(for_kov=True)
-
-        if not self.filtered_termekek:
-            return
-
-        if advanced:
-            # Már a következő elem van kijelölve a szűrés miatt -> NE léptessünk még egyszer,
-            # csak alkalmazzuk a "kategóriák továbbvitele" logikát az aktuális elemre.
-            next_idx = self.kivalasztott_index
-            next_t = self.termekek[next_idx]
-            next_saved = self.eredmeny_map.get(self._termek_hash(next_t), {})
-            has_saved_cat = bool(next_saved.get('fokategoria') and next_saved.get('alkategoria'))
-            if not has_saved_cat:
-                self.termek_betoltes(next_idx, keep_kat=True, clear_props=True)
-            else:
-                self.termek_betoltes(next_idx, keep_kat=False, clear_props=False)
-        else:
-            # Nem léptünk előre a szűrés miatt -> most léptessünk egyet
-            self.kovetkezo(keep_kat=True)
+        self.mentes()                 # mentés – lista frissít, kijelölést visszaállít és NEM vált ki duplát
+        self.kovetkezo(keep_kat=True) # a kategóriák megmaradnak, a tulajdonságok törlődnek (ha még nem volt kategorizálva)
 
 if __name__ == '__main__':
     os.makedirs('kepek', exist_ok=True)
-    with open('kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
+    with open('archive/kategoriak_json/kategori_tulajdonsagok.json', 'r', encoding='utf-8') as f:
         kategoriak_dict = json.load(f)
-    termekek = beolvas_termekek_csv('termekek_spar.csv')
+    termekek = beolvas_termekek_csv('archive/etc/termekek_spar.csv')
     if os.path.exists('eredmeny.json'):
         with open('eredmeny.json', 'r', encoding='utf-8') as f:
             eredmenyek = json.load(f)
