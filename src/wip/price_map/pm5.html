@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Legközelebbi bolt zónák – Magyarország (Voronoi + clip)</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Papa Parse (CSV) -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <!-- Turf.js (geometria: voronoi, intersect, bbox, centroid, nearest) -->
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
+
+  <style>
+    :root { --card-bg:#fff; --card-br:14px; --card-bd:#e5e7eb; --card-shadow:0 8px 24px rgba(0,0,0,.08); --muted:#6b7280; }
+    html,body{height:100%;margin:0;background:#f8fafc;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111827}
+    .page{padding:24px;max-width:1200px;margin:0 auto}
+    .card{background:var(--card-bg);border:1px solid var(--card-bd);border-radius:var(--card-br);box-shadow:var(--card-shadow);overflow:hidden}
+    .card-header{padding:14px 16px;border-bottom:1px solid var(--card-bd);background:#fcfcfd}
+    .card-title{margin:0 0 4px 0;font-weight:600;font-size:16px}
+    .card-subtitle{margin:0;color:var(--muted);font-size:13px}
+    .card-body{position:relative}
+    #map{height:72vh;min-height:520px;width:100%}
+
+    /* Színskála és hibaüzenet */
+    .colorbar-wrap{
+      position:absolute;bottom:14px;left:12px;background:#fff;border:1px solid #ddd;border-radius:10px;
+      box-shadow:0 2px 10px rgba(0,0,0,.08);padding:10px 12px;min-width:240px;z-index:640;pointer-events:none;
+    }
+    .colorbar-title{font-size:12px;color:var(--muted);margin-bottom:6px}
+    .colorbar{height:14px;border-radius:8px;border:1px solid rgba(0,0,0,.15);background:linear-gradient(90deg,#22c55e 0%,#ef4444 100%)}
+    .colorbar-labels{display:flex;justify-content:space-between;font-size:12px;margin-top:6px}
+    .leaflet-tooltip{background:#fff;border:1px solid #ddd;box-shadow:0 2px 8px rgba(0,0,0,.15);padding:.35rem .5rem;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+      <div class="card-header">
+        <h1 class="card-title">Legközelebbi bolt zónák – Magyarország</h1>
+        <p class="card-subtitle">A teljes ország Voronoi-cellákra bontva, minden cella színe az adott bolt (érték szerinti zöld→vörös) színe. Vidd rá a kurzort a zónára/térképpontra!</p>
+      </div>
+      <div class="card-body">
+        <div id="map"></div>
+        <div class="colorbar-wrap" id="legend">
+          <div class="colorbar-title">Érték szerinti színkód</div>
+          <div class="colorbar"></div>
+          <div class="colorbar-labels">
+            <span id="minLabel">Min: <strong>—</strong></span>
+            <span id="midLabel">Közép: <strong>—</strong></span>
+            <span id="maxLabel">Max: <strong>—</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* ======= Beállítások ======= */
+    const CSV_URL = 'uzletek.csv';          // üzletek: name,value,lat,lng (fejléc-variánsokat is kezelünk)
+    const HU_URL  = 'hungary.geojson';      // Magyarország határ GeoJSON (Polygon/MultiPolygon)
+
+    /* ======= Segédek ======= */
+    function showError(msg){
+      let el = document.getElementById('errbar');
+      if(!el){
+        el = document.createElement('div');
+        el.id = 'errbar';
+        el.style.cssText = 'position:absolute;top:10px;right:10px;background:#fee2e2;border:1px solid #fecaca;padding:8px 10px;border-radius:8px;color:#991b1b;font:13px system-ui;z-index:650';
+        document.querySelector('.card-body').appendChild(el);
+      }
+      el.textContent = msg;
+    }
+    const toNumber = (v) => {
+      if (typeof v === 'number') return v;
+      if (v == null) return NaN;
+      return parseFloat(String(v).trim().replace(/\s| | /g,'').replace(/\./g,'').replace(',', '.'));
+    };
+    const lerp = (a,b,t)=>a+(b-a)*t;
+    const clamp = (x,lo,hi)=>Math.max(lo,Math.min(hi,x));
+    function colorForValue(v, vmin, vmax){
+      const t = (vmax===vmin) ? 0.5 : (v - vmin) / (vmax - vmin);
+      const c1 = { r: 34,  g: 197, b: 94  };  // #22c55e (zöld)
+      const c2 = { r: 239, g: 68,  b: 68  };  // #ef4444 (vörös)
+      const r = Math.round(lerp(c1.r, c2.r, clamp(t,0,1)));
+      const g = Math.round(lerp(c1.g, c2.g, clamp(t,0,1)));
+      const b = Math.round(lerp(c1.b, c2.b, clamp(t,0,1)));
+      return `rgb(${r}, ${g}, ${b})`;
+    }
+    function escapeHtml(str){
+      return String(str).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')
+                        .replaceAll('"','&quot;').replaceAll("'","&#039;");
+    }
+    function normHeader(h){
+      return String(h || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+    }
+    const headerMap = {
+      'name':'name','uzlet':'name','bolt':'name','uzletnev':'name','nev':'name','store':'name','shop':'name',
+      'value':'value','ertek':'value','score':'value','pont':'value','ertekeles':'value','ar':'value','price':'value',
+      'lat':'lat','latitude':'lat','szelesseg':'lat','szelessegi':'lat','y':'lat','latdeg':'lat','szelessegfok':'lat','wgs84y':'lat',
+      'lng':'lng','lon':'lng','long':'lng','longitude':'lng','hosszusag':'lng','hosszusagi':'lng','x':'lng','longdeg':'lng','wgs84x':'lng'
+    };
+    function transformHeader(h){ const n = normHeader(h); return headerMap[n] || n; }
+
+    /* ======= Állapot ======= */
+    let map, huGeom, pointsFC, stores = [], VALUE_MIN=0, VALUE_MAX=1;
+
+    function ensureMap(){
+      if (map) return;
+      map = L.map('map', { scrollWheelZoom: true }).setView([47.1625, 19.5033], 7);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> közreműködők'
+      }).addTo(map);
+    }
+
+    /* ======= Voronoi + clip HU ======= */
+    function buildVoronoiLayer(){
+      if (!huGeom || !pointsFC || pointsFC.features.length===0) return null;
+
+      // Voronoi cellák számítása HU bbox-szal
+      const bbox = turf.bbox(huGeom);
+      const vor = turf.voronoi(pointsFC, { bbox });
+      if (!vor || !vor.features) return null;
+
+      // A cellákat HU-ra vágjuk, és minden cellához megkeressük a hozzá legközelebbi üzletet
+      const layer = L.geoJSON(null, {
+        style: (feature) => feature.properties && feature.properties._fill
+          ? { color: '#00000022', weight: 1, fillColor: feature.properties._fill, fillOpacity: 0.45 }
+          : { color: '#00000022', weight: 1, fillOpacity: 0.0 }
+      });
+
+      vor.features.forEach((cell) => {
+        if (!cell) return;
+        // Vágás Magyarországra
+        let clipped = null;
+        try { clipped = turf.intersect(cell, huGeom); } catch(e) { /* geometria hiba esetén kihagyjuk */ }
+        if (!clipped) return;
+
+        // A cella „képviselő pontja” (centroid) → legközelebbi üzlet
+        const c = turf.centroid(clipped);
+        const nearest = turf.nearestPoint(c, pointsFC); // visszaadja a legközelebbi pontot
+        if (!nearest) return;
+
+        const idx = nearest.properties._idx;
+        const store = stores[idx];
+        if (!store) return;
+
+        const fill = colorForValue(store.value, VALUE_MIN, VALUE_MAX);
+
+        // Tooltip információk és szín property-be
+        clipped.properties = Object.assign({}, clipped.properties, {
+          _fill: fill,
+          name: store.name,
+          value: store.value
+        });
+
+        layer.addData(clipped);
+      });
+
+      // Tooltip: név + érték
+      layer.eachLayer((l) => {
+        if (!l.feature || !l.feature.properties) return;
+        const p = l.feature.properties;
+        l.bindTooltip(`<strong>${escapeHtml(p.name || '')}</strong><br/>Érték: <strong>${p.value}</strong>`, {sticky:true});
+      });
+
+      return layer;
+    }
+
+    function drawAll(){
+      ensureMap();
+
+      // Színskála címkék
+      const midVal = (VALUE_MIN===VALUE_MAX) ? VALUE_MIN : Math.round((VALUE_MIN+VALUE_MAX)/2);
+      document.querySelector('#minLabel strong').textContent = VALUE_MIN;
+      document.querySelector('#midLabel strong').textContent = midVal;
+      document.querySelector('#maxLabel strong').textContent = VALUE_MAX;
+
+      // Zoom HU-ra (ha van határ), különben a pontokra
+      if (huGeom) {
+        const b = turf.bbox(huGeom); // [minX,minY,maxX,maxY] = [lng,lat,...]
+        map.fitBounds([[b[1], b[0]],[b[3], b[2]]].map(x=>x));
+      } else if (stores.length>0) {
+        const bounds = L.latLngBounds(stores.map(d=>[d.lat,d.lng]));
+        map.fitBounds(bounds.pad(0.1));
+      }
+
+      // Üzlet-pontok (kisebb fekete kontúrral, zöld→vörös töltéssel)
+      const pointsLayer = L.layerGroup();
+      stores.forEach(d=>{
+        const m = L.circleMarker([d.lat, d.lng], {
+          radius: 6, color: '#00000055', weight: 1,
+          fillColor: colorForValue(d.value, VALUE_MIN, VALUE_MAX), fillOpacity: 1.0
+        });
+        m.bindTooltip(`<strong>${escapeHtml(d.name)}</strong><br/>Érték: <strong>${d.value}</strong>`, {sticky:true});
+        pointsLayer.addLayer(m);
+      }).length;
+      pointsLayer.addTo(map);
+
+      // Voronoi HU-clip réteg
+      const vorLayer = buildVoronoiLayer();
+      if (vorLayer) vorLayer.addTo(map);
+      else showError('A Voronoi zónákhoz kell legalább 2 üzletpont és a hungary.geojson határ.');
+    }
+
+    /* ======= Betöltés (CSV + HU) ======= */
+    (async function boot(){
+      try {
+        // 1) CSV
+        const csvText = await fetch(CSV_URL, { cache:'no-store' }).then(r=>{ if(!r.ok) throw new Error(`CSV HTTP ${r.status}`); return r.text(); });
+        const parsed = await new Promise((resolve) => {
+          Papa.parse(csvText, {
+            header: true, skipEmptyLines: 'greedy', transformHeader,
+            complete: (res)=> resolve(res), error: ()=> resolve({ data: [] })
+          });
+        });
+        const rows = Array.isArray(parsed.data) ? parsed.data : [];
+        stores = rows.map(r => ({
+          name:  (r.name ?? '').toString().trim(),
+          value: toNumber(r.value),
+          lat:   toNumber(r.lat),
+          lng:   toNumber(r.lng)
+        })).filter(d => d.name && Number.isFinite(d.value) && Number.isFinite(d.lat) && Number.isFinite(d.lng));
+        if (stores.length < 2) { showError('Legalább 2 érvényes üzlet szükséges a Voronoi zónákhoz.'); }
+
+        VALUE_MIN = stores.length ? Math.min(...stores.map(d=>d.value)) : 0;
+        VALUE_MAX = stores.length ? Math.max(...stores.map(d=>d.value)) : 1;
+
+        // Pontok → FeatureCollection, index-szel (hogy vissza tudjuk keresni a bolt adatait)
+        pointsFC = turf.featureCollection(
+          stores.map((d,i)=> turf.point([d.lng, d.lat], { _idx:i }))
+        );
+
+        // 2) Magyarország határ
+        try {
+          const hu = await fetch(HU_URL, { cache:'no-store' }).then(r=>{ if(!r.ok) throw new Error(`HU HTTP ${r.status}`); return r.json(); });
+          // Lehet Feature, FeatureCollection, Polygon/MultiPolygon – normalizáljuk Feature-geometriára
+          let geom = null;
+          if (hu.type === 'FeatureCollection' && hu.features && hu.features.length) {
+            // Vegyük az első (vagy a több feature összevonását – itt elsőt használjuk)
+            geom = hu.features[0].geometry;
+          } else if (hu.type === 'Feature' && hu.geometry) {
+            geom = hu.geometry;
+          } else if (hu.type === 'Polygon' || hu.type === 'MultiPolygon') {
+            geom = hu;
+          }
+          if (!geom) throw new Error('Érvénytelen hungary.geojson');
+          huGeom = { type:'Feature', properties:{name:'Hungary'}, geometry: geom };
+
+          // kirajzolunk egy halvány kontúrt háttérnek
+          L.geoJSON(huGeom, { style:{ color:'#11182755', weight:2, fillOpacity:0 } }).addTo(map);
+        } catch(e) {
+          showError('Nem találom a hungary.geojson-t, ezért nem tudok HU-határon belül vágni.');
+        }
+
+        // 3) Rajzolás
+        drawAll();
+
+      } catch (e) {
+        console.error(e);
+        showError('Betöltési hiba (CSV vagy HU határ). Ellenőrizd a fájlokat és az elérési utakat.');
+      }
+    })();
+  </script>
+</body>
+</html>

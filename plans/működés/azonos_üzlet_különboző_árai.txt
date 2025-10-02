@@ -1,0 +1,16 @@
+A Spar termékeit vizsgálva különböző árakat sikerült találnom a Wolt-on, ha más boltjából rendelem.
+Valami gyógyvíznek volt az ára több Budapesten, mint Szentendrén.
+
+Problémák:
+Hogy lehet így garantálni a kosár értékét?
+Melyik árat kéne figyelembe venni, esetleg ki kell jelölni a konkrét boltot?
+
+
+Megoldás:
+Mindenképp el kell tárolni a normalizált adatoknál pluszban azt is, hogy melyik boltban mennyibe került a termék.
+Ekkor a kosár értékét könnyen ki lehet számolni úgy, hogy egy bolt áraival számol mindig.
+Ha Spar-ból szeretne kosárértéket számolni, akkor kiszámolja az összes üzletre.
+
+Egy termékre, egy üzletlánc esetén (de akár több üzletláncot is egyszerre megjelenítve) kell térképet előállítani.
+Kell egy színskála, amivel a min -> max között zöld -> piros, és pöttyök vannak a térképen. 
+    Info box-ok, stb.

@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Üzletek térképe – CSV-ből</title>
+
+  <!-- Leaflet (CDN, SRI nélkül, hogy biztosan ne akadjon) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Papa Parse (CDN, SRI nélkül) -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <style>
+    :root { --card-bg:#fff; --card-br:14px; --card-bd:#e5e7eb; --card-shadow:0 8px 24px rgba(0,0,0,.08); --muted:#6b7280; }
+    html,body{height:100%;margin:0;background:#f8fafc;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111827}
+    .page{padding:24px;max-width:1100px;margin:0 auto}
+    .card{background:var(--card-bg);border:1px solid var(--card-bd);border-radius:var(--card-br);box-shadow:var(--card-shadow);overflow:hidden}
+    .card-header{padding:14px 16px;border-bottom:1px solid var(--card-bd);background:#fcfcfd}
+    .card-title{margin:0 0 4px 0;font-weight:600;font-size:16px}
+    .card-subtitle{margin:0;color:var(--muted);font-size:13px}
+    .card-body{position:relative}
+    #map{height:70vh;min-height:420px;width:100%}
+    .leaflet-tooltip{background:#fff;border:1px solid #ddd;box-shadow:0 2px 8px rgba(0,0,0,.15);padding:.35rem .5rem;font-size:13px}
+
+    /* Színskála – mindig a térkép fölött legyen */
+    .colorbar-wrap{
+      position:absolute;bottom:14px;left:12px;background:#fff;border:1px solid #ddd;border-radius:10px;
+      box-shadow:0 2px 10px rgba(0,0,0,.08);padding:10px 12px;min-width:240px;z-index:640;pointer-events:none;
+    }
+    .colorbar-title{font-size:12px;color:var(--muted);margin-bottom:6px}
+    .colorbar{height:14px;border-radius:8px;border:1px solid rgba(0,0,0,.15);background:linear-gradient(90deg,#22c55e 0%,#ef4444 100%)}
+    .colorbar-labels{display:flex;justify-content:space-between;font-size:12px;margin-top:6px}
+    .colorbar-labels span strong{font-weight:600}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="card" aria-label="Üzletek térképe kártya">
+      <div class="card-header">
+        <h1 class="card-title">Üzletek térképe</h1>
+        <p class="card-subtitle">Adatok automatikus betöltése CSV-ből. A pöttyök mérete fix, a szín zöld→vörös (nagyobb érték = vörösebb). Vidd rá a kurzort egy pontra!</p>
+      </div>
+
+      <div class="card-body">
+        <div id="map" role="region" aria-label="Üzletek térképe"></div>
+        <div class="colorbar-wrap" id="legend">
+          <div class="colorbar-title">Érték szerinti színkód</div>
+          <div class="colorbar"></div>
+          <div class="colorbar-labels">
+            <span id="minLabel">Min: <strong>—</strong></span>
+            <span id="midLabel">Közép: <strong>—</strong></span>
+            <span id="maxLabel">Max: <strong>—</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* ======= Beállítások ======= */
+    const CSV_URL = 'uzletek.csv';  // legyen azonos mappában
+    const FIXED_RADIUS = 10;        // px – fix pontméret
+
+    /* ======= Hasznos segédek ======= */
+    function showError(msg){
+      let el = document.getElementById('errbar');
+      if(!el){
+        el = document.createElement('div');
+        el.id = 'errbar';
+        el.style.cssText = 'position:absolute;top:10px;right:10px;background:#fee2e2;border:1px solid #fecaca;padding:8px 10px;border-radius:8px;color:#991b1b;font:13px system-ui';
+        document.querySelector('.card-body').appendChild(el);
+      }
+      el.textContent = msg;
+    }
+
+    // szám konverzió – kezeli tizedesvesszőt és ezres elválasztókat
+    const toNumber = (v) => {
+      if (typeof v === 'number') return v;
+      if (v == null) return NaN;
+      return parseFloat(String(v).trim()
+        .replace(/\s| | /g, '')   // space, thin space, nbsp
+        .replace(/\./g, '')       // ezres pont törlése
+        .replace(',', '.'));      // tizedes vessző → pont
+    };
+
+    const lerp = (a,b,t)=>a+(b-a)*t;
+    const clamp = (x,lo,hi)=>Math.max(lo,Math.min(hi,x));
+    function colorForValue(v, vmin, vmax){
+      const t = (vmax===vmin) ? 0.5 : (v - vmin) / (vmax - vmin);
+      const c1 = { r: 34,  g: 197, b: 94  };  // zöld
+      const c2 = { r: 239, g: 68,  b: 68  };  // vörös
+      const r = Math.round(lerp(c1.r, c2.r, clamp(t,0,1)));
+      const g = Math.round(lerp(c1.g, c2.g, clamp(t,0,1)));
+      const b = Math.round(lerp(c1.b, c2.b, clamp(t,0,1)));
+      return `rgb(${r}, ${g}, ${b})`;
+    }
+    function escapeHtml(str){
+      return String(str)
+        .replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')
+        .replaceAll('"','&quot;').replaceAll("'","&#039;");
+    }
+
+    // fejlécek normalizálása (ékezet eldobás, kisbetű, nem alfanumerikus törlése)
+    function normHeader(h){
+      return String(h || '')
+        .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+        .toLowerCase()
+        .replace(/[^a-z0-9]/g,'');
+    }
+    // alias → kanonikus kulcs
+    const headerMap = {
+      // name
+      'name':'name','uzlet':'name','bolt':'name','uzletnev':'name','store':'name','shop':'name','uzletnevem':'name','uzletnev':'name','nev':'name','uzletnev2':'name',
+      // value
+      'value':'value','ertek':'value','score':'value','pont':'value','ertekeles':'value','ar':'value','price':'value',
+      // lat
+      'lat':'lat','latitude':'lat','szelesseg':'lat','szelessegi':'lat','y':'lat','latdeg':'lat','szelessegfok':'lat','wgs84y':'lat',
+      // lng
+      'lng':'lng','lon':'lng','long':'lng','longitude':'lng','hosszusag':'lng','hosszusagi':'lng','x':'lng','longdeg':'lng','wgs84x':'lng'
+    };
+    function transformHeader(h){
+      const n = normHeader(h);
+      return headerMap[n] || n;
+    }
+
+    /* ======= Render ======= */
+    function renderMap(rows){
+      if (!Array.isArray(rows) || rows.length===0){
+        showError('A CSV üresnek tűnik.');
+        return;
+      }
+      const valid = rows.map(r => ({
+        name:  (r.name ?? '').toString().trim(),
+        value: toNumber(r.value),
+        lat:   toNumber(r.lat),
+        lng:   toNumber(r.lng)
+      })).filter(d => d.name && Number.isFinite(d.value) && Number.isFinite(d.lat) && Number.isFinite(d.lng));
+
+      console.log(`Beolvasott sorok: ${rows.length}, érvényes pontok: ${valid.length}`);
+      if (valid.length===0){
+        showError('Nem találtam érvényes oszlopokat/sorokat. Kell: name/value/lat/lng (ékezetes és szóközös fejlécek is jók).');
+        return;
+      }
+
+      const VALUE_MIN = Math.min(...valid.map(d=>d.value));
+      const VALUE_MAX = Math.max(...valid.map(d=>d.value));
+      const midVal = (VALUE_MIN===VALUE_MAX) ? VALUE_MIN : Math.round((VALUE_MIN+VALUE_MAX)/2);
+
+      // Leaflet térkép
+      const map = L.map('map', { scrollWheelZoom: true }).setView([47.1625, 19.5033], 7);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution: '&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> közreműködők'
+      }).addTo(map);
+
+      const layerGroup = L.layerGroup().addTo(map);
+      valid.forEach(d=>{
+        const marker = L.circleMarker([d.lat, d.lng], {
+          radius: FIXED_RADIUS,
+          color: '#00000055',
+          weight: 1,
+          fillColor: colorForValue(d.value, VALUE_MIN, VALUE_MAX),
+          fillOpacity: 0.9
+        }).addTo(layerGroup);
+
+        marker.bindTooltip(
+          `<strong>${escapeHtml(d.name)}</strong><br/>Érték: <strong>${d.value}</strong>`,
+          { direction:'top', offset:[0,-2], sticky:true }
+        );
+        marker.on('mouseover', ()=>marker.setStyle({weight:2, fillOpacity:1.0}));
+        marker.on('mouseout',  ()=>marker.setStyle({weight:1, fillOpacity:0.9}));
+      });
+
+      // Auto-zoom
+      const bounds = L.latLngBounds(valid.map(d=>[d.lat,d.lng]));
+      map.fitBounds(bounds.pad(0.1));
+
+      // Skála feliratok
+      document.querySelector('#minLabel strong').textContent = VALUE_MIN;
+      document.querySelector('#midLabel strong').textContent = midVal;
+      document.querySelector('#maxLabel strong').textContent = VALUE_MAX;
+    }
+
+    /* ======= Betöltés ======= */
+    (function boot(){
+      if (!window.Papa) {
+        showError('Nem töltődött be a Papa Parse – ellenőrizd az internetkapcsolatot/CDN-t.');
+        return;
+      }
+      fetch(CSV_URL, { cache: 'no-store' })
+        .then(resp=>{
+          if(!resp.ok){
+            showError(`Nem találom a CSV-t: ${CSV_URL} (HTTP ${resp.status})`);
+            throw new Error(`HTTP ${resp.status}`);
+          }
+          return resp.text();
+        })
+        .then(text=>{
+          Papa.parse(text, {
+            header: true,
+            skipEmptyLines: 'greedy',
+            transformHeader,      // fejlécek rendezése aliasok szerint
+            complete: (res)=> renderMap(res.data),
+            error: (err)=> { console.error(err); showError('Hiba a CSV feldolgozásakor. Nézd meg a konzolt (F12).'); }
+          });
+        })
+        .catch(err=> console.error(err));
+    })();
+  </script>
+</body>
+</html>

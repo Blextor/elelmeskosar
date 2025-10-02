@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Legközelebbi bolt zónák – radiális átmenet (stabil, javított)</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Papa Parse (CSV) -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <!-- Turf.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
+
+  <style>
+    :root { --card-bg:#fff; --card-br:14px; --card-bd:#e5e7eb; --card-shadow:0 8px 24px rgba(0,0,0,.08); --muted:#6b7280; }
+    html,body{height:100%;margin:0;background:#f8fafc;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111827}
+    .page{padding:24px;max-width:1200px;margin:0 auto}
+    .card{background:var(--card-bg);border:1px solid var(--card-bd);border-radius:var(--card-br);box-shadow:var(--card-shadow);overflow:hidden}
+    .card-header{padding:14px 16px;border-bottom:1px solid var(--card-bd);background:#fcfcfd}
+    .card-title{margin:0 0 4px 0;font-weight:600;font-size:16px}
+    .card-subtitle{margin:0;color:var(--muted);font-size:13px}
+    .card-body{position:relative}
+    #map{height:72vh;min-height:520px;width:100%}
+    .leaflet-tooltip{background:#fff;border:1px solid #ddd;box-shadow:0 2px 8px rgba(0,0,0,.15);padding:.35rem .5rem;font-size:13px}
+
+    .colorbar-wrap{
+      position:absolute;bottom:14px;left:12px;background:#fff;border:1px solid #ddd;border-radius:10px;
+      box-shadow:0 2px 10px rgba(0,0,0,.08);padding:10px 12px;min-width:240px;z-index:640;pointer-events:none;
+    }
+    .colorbar-title{font-size:12px;color:var(--muted);margin-bottom:6px}
+    .colorbar{height:14px;border-radius:8px;border:1px solid rgba(0,0,0,.15);background:linear-gradient(90deg,#22c55e 0%,#ef4444 100%)}
+    .colorbar-labels{display:flex;justify-content:space-between;font-size:12px;margin-top:6px}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+      <div class="card-header">
+        <h1 class="card-title">Legközelebbi bolt zónák – Magyarország</h1>
+        <p class="card-subtitle">Voronoi + HU-vágás, <b>radiális színátmenet</b> a bolt színéből. Stabil hozzárendelés: a cella ahhoz a boltponthoz tartozik, amelyik <b>benne van</b> az eredeti cellában.</p>
+      </div>
+      <div class="card-body">
+        <div id="map"></div>
+        <div class="colorbar-wrap" id="legend">
+          <div class="colorbar-title">Érték szerinti színkód</div>
+          <div class="colorbar"></div>
+          <div class="colorbar-labels">
+            <span id="minLabel">Min: <strong>—</strong></span>
+            <span id="midLabel">Közép: <strong>—</strong></span>
+            <span id="maxLabel">Max: <strong>—</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* ======= Beállítás ======= */
+    const CSV_URL = 'uzletek.csv';
+    const HU_URL  = 'hungary.geojson';
+
+    /* HU fallback (befoglaló téglalap) */
+    const HU_FALLBACK = {
+      type:'Feature', properties:{name:'Hungary bbox (fallback)'},
+      geometry:{ type:'Polygon', coordinates:[[
+        [16.11,45.74],[22.90,45.74],[22.90,48.58],[16.11,48.58],[16.11,45.74]
+      ]]}
+    };
+
+    /* ======= Segédek ======= */
+    function showError(msg){
+      let el = document.getElementById('errbar');
+      if(!el){
+        el = document.createElement('div');
+        el.id = 'errbar';
+        el.style.cssText = 'position:absolute;top:10px;right:10px;background:#fee2e2;border:1px solid #fecaca;padding:8px 10px;border-radius:8px;color:#991b1b;font:13px system-ui;z-index:650';
+        document.querySelector('.card-body').appendChild(el);
+      }
+      el.textContent = msg;
+    }
+    const toNumber = (v) => {
+      if (typeof v === 'number') return v;
+      if (v == null) return NaN;
+      return parseFloat(String(v).trim().replace(/\s| | /g,'').replace(/\./g,'').replace(',', '.'));
+    };
+    const lerp = (a,b,t)=>a+(b-a)*t;
+    const clamp = (x,lo,hi)=>Math.max(lo,Math.min(hi,x));
+    function colorForValue(v, vmin, vmax){
+      const t = (vmax===vmin) ? 0.5 : (v - vmin) / (vmax - vmin);
+      const c1 = { r: 34,  g: 197, b: 94  };  // #22c55e
+      const c2 = { r: 239, g: 68,  b: 68  };  // #ef4444
+      const r = Math.round(lerp(c1.r, c2.r, clamp(t,0,1)));
+      const g = Math.round(lerp(c1.g, c2.g, clamp(t,0,1)));
+      const b = Math.round(lerp(c1.b, c2.b, clamp(t,0,1)));
+      return `rgb(${r}, ${g}, ${b})`;
+    }
+    function escapeHtml(str){
+      return String(str).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')
+                        .replaceAll('"','&quot;').replaceAll("'","&#039;");
+    }
+    function normHeader(h){
+      return String(h || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+    }
+    const headerMap = {
+      'name':'name','uzlet':'name','bolt':'name','uzletnev':'name','nev':'name','store':'name','shop':'name',
+      'value':'value','ertek':'value','score':'value','pont':'value','ertekeles':'value','ar':'value','price':'value',
+      'lat':'lat','latitude':'lat','szelesseg':'lat','szelessegi':'lat','y':'lat','latdeg':'lat','szelessegfok':'lat','wgs84y':'lat',
+      'lng':'lng','lon':'lng','long':'lng','longitude':'lng','hosszusag':'lng','hosszusagi':'lng','x':'lng','longdeg':'lng','wgs84x':'lng'
+    };
+    function transformHeader(h){ const n = normHeader(h); return headerMap[n] || n; }
+
+    /* ======= HU GeoJSON normalizáló (hiányzott korábban) ======= */
+    function normalizeHuGeoJSON(obj){
+      if (!obj) return null;
+      if (obj.type === 'Feature') return obj;
+      if (obj.type === 'FeatureCollection' && obj.features && obj.features.length){
+        return { type:'Feature', properties: obj.features[0].properties||{}, geometry: obj.features[0].geometry };
+      }
+      if (obj.type === 'Polygon' || obj.type === 'MultiPolygon'){
+        return { type:'Feature', properties:{}, geometry: obj };
+      }
+      return null;
+    }
+
+    /* ======= Állapot ======= */
+    let map, huGeom, stores = [], pointsFC;
+    let VALUE_MIN=0, VALUE_MAX=1;
+
+    // Voronoi cella → gradient kötés
+    const gradientBindings = []; // { layer, id, storeLatLng, color }
+
+    function ensureMap(){
+      if (map) return;
+      map = L.map('map', { scrollWheelZoom: true }).setView([47.1625, 19.5033], 7);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution: '&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> közreműködők'
+      }).addTo(map);
+      map.on('zoomend moveend', updateGradients);
+    }
+
+    /* ======= SVG gradient segéd ======= */
+    function getSvgAndDefs(){
+      const svg = map.getPanes().overlayPane.querySelector('svg');
+      if (!svg) return {};
+      let defs = svg.querySelector('defs');
+      if (!defs){
+        defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+        svg.prepend(defs);
+      }
+      return { svg, defs };
+    }
+
+    function createOrUpdateGradient(binding){
+      const { layer, id, storeLatLng, color } = binding;
+      const { svg, defs } = getSvgAndDefs();
+      if (!svg || !defs) return;
+
+      const latLngBounds = layer.getBounds();
+      const nw = map.latLngToLayerPoint(latLngBounds.getNorthWest());
+      const se = map.latLngToLayerPoint(latLngBounds.getSouthEast());
+      const dx = Math.abs(se.x - nw.x);
+      const dy = Math.abs(se.y - nw.y);
+      const radiusPx = Math.max(dx, dy) * 0.6;
+
+      const c = map.latLngToLayerPoint(storeLatLng);
+
+      let grad = defs.querySelector('#'+id);
+      if (!grad){
+        grad = document.createElementNS('http://www.w3.org/2000/svg', 'radialGradient');
+        grad.setAttribute('id', id);
+        grad.setAttribute('gradientUnits', 'userSpaceOnUse');
+        const s0 = document.createElementNS('http://www.w3.org/2000/svg', 'stop');
+        s0.setAttribute('offset', '0%'); s0.setAttribute('stop-color', color); s0.setAttribute('stop-opacity', '0.85');
+        const s1 = document.createElementNS('http://www.w3.org/2000/svg', 'stop');
+        s1.setAttribute('offset', '100%'); s1.setAttribute('stop-color', color); s1.setAttribute('stop-opacity', '0.10');
+        grad.appendChild(s0); grad.appendChild(s1);
+        defs.appendChild(grad);
+      }
+      grad.setAttribute('cx', c.x);
+      grad.setAttribute('cy', c.y);
+      grad.setAttribute('r', radiusPx);
+
+      const path = layer._path;
+      if (path) {
+        path.setAttribute('fill', `url(#${id})`);
+        path.setAttribute('stroke', '#00000022');
+        path.setAttribute('stroke-width', '1');
+      }
+    }
+
+    function updateGradients(){ gradientBindings.forEach(createOrUpdateGradient); }
+
+    /* ======= Stabil Voronoi + HU-clip + gradient ======= */
+    function buildGradientVoronoiLayer(){
+      if (!huGeom || !pointsFC || pointsFC.features.length < 2) return null;
+
+      const bbox = turf.bbox(huGeom);
+      const vor  = turf.voronoi(pointsFC, { bbox });
+      if (!vor || !vor.features) return null;
+
+      gradientBindings.length = 0;
+      const layerGroup = L.layerGroup();
+
+      vor.features.forEach((cell, idx) => {
+        if (!cell || !cell.geometry) return;
+
+        // 1) A cellához tartozó bolt: amelyik pont BENNE van az eredeti cellában
+        let storeIdx = -1;
+        for (let i = 0; i < stores.length; i++) {
+          const pt = turf.point([stores[i].lng, stores[i].lat]);
+          let inside = false;
+          try { inside = turf.booleanPointInPolygon(pt, cell); } catch(e) { inside = false; }
+          if (!inside) {
+            // hajszálnyi „külső” puffer a cellán (pont marad Point!)
+            try {
+              const expanded = turf.buffer(cell, 0.000001, { units:'degrees' });
+              inside = turf.booleanPointInPolygon(pt, expanded);
+            } catch(e){}
+          }
+          if (inside) { storeIdx = i; break; }
+        }
+
+        // Fallback: centroid → nearest
+        if (storeIdx === -1) {
+          const c = turf.centroid(cell);
+          const nearest = turf.nearestPoint(c, pointsFC);
+          storeIdx = nearest?.properties?._idx ?? -1;
+        }
+        if (storeIdx === -1) return;
+
+        const store = stores[storeIdx];
+        const fillColor = colorForValue(store.value, VALUE_MIN, VALUE_MAX);
+
+        // 2) HU clip
+        let clipped = null;
+        try { clipped = turf.intersect(cell, huGeom); } catch(e) { clipped = null; }
+        if (!clipped) return;
+
+        // 3) Leaflet polygon + tooltip + gradient binding
+        const poly = L.geoJSON(clipped, { style: { fillOpacity: 1.0, color: '#00000022', weight: 1 } });
+        poly.eachLayer(p => {
+          p.bindTooltip(`<strong>${escapeHtml(store.name)}</strong><br/>Érték: <strong>${store.value}</strong>`, { sticky:true });
+          const gid = `grad-${Date.now()}-${idx}-${Math.floor(Math.random()*1e6)}`;
+          gradientBindings.push({
+            layer: p,
+            id: gid,
+            storeLatLng: L.latLng(store.lat, store.lng),
+            color: fillColor
+          });
+        });
+
+        layerGroup.addLayer(poly);
+      });
+
+      layerGroup.on('add', updateGradients);
+      return layerGroup;
+    }
+
+    function drawAll(){
+      ensureMap();
+
+      const midVal = (VALUE_MIN===VALUE_MAX) ? VALUE_MIN : Math.round((VALUE_MIN+VALUE_MAX)/2);
+      document.querySelector('#minLabel strong').textContent = VALUE_MIN;
+      document.querySelector('#midLabel strong').textContent = midVal;
+      document.querySelector('#maxLabel strong').textContent = VALUE_MAX;
+
+      if (huGeom) {
+        L.geoJSON(huGeom, { style:{ color:'#11182755', weight:2, fillOpacity:0 } }).addTo(map);
+        const b = turf.bbox(huGeom);
+        map.fitBounds([[b[1], b[0]],[b[3], b[2]]]);
+      }
+
+      const pts = L.layerGroup();
+      stores.forEach(d=>{
+        const m = L.circleMarker([d.lat,d.lng], { radius:5, color:'#00000066', weight:1, fillColor: colorForValue(d.value, VALUE_MIN, VALUE_MAX), fillOpacity:1 });
+        m.bindTooltip(`<strong>${escapeHtml(d.name)}</strong><br/>Érték: <strong>${d.value}</strong>`, {sticky:true});
+        pts.addLayer(m);
+      });
+      pts.addTo(map);
+
+      const vorLayer = buildGradientVoronoiLayer();
+      if (vorLayer) vorLayer.addTo(map); else showError('Voronoi-hoz legalább 2 üzletpont szükséges.');
+      updateGradients();
+    }
+
+    /* ======= Dupla/azonos koordináták enyhe eltologatása ======= */
+    function jitterIfDuplicate(arr){
+      const seen = new Map();
+      for (const s of arr){
+        const key = `${s.lat.toFixed(6)},${s.lng.toFixed(6)}`;
+        if (seen.has(key)){
+          s.lng += 0.00005; // ~5–6 m
+        } else {
+          seen.set(key, true);
+        }
+      }
+    }
+
+    /* ======= Betöltés ======= */
+    (async function boot(){
+      try {
+        // CSV
+        const csvText = await fetch(CSV_URL, { cache:'no-store' }).then(r=>{ if(!r.ok) throw new Error(`CSV HTTP ${r.status}`); return r.text(); });
+        const parsed = await new Promise((resolve) => {
+          Papa.parse(csvText, { header:true, skipEmptyLines:'greedy', transformHeader, complete: res => resolve(res) });
+        });
+        const rows = Array.isArray(parsed.data) ? parsed.data : [];
+        stores = rows.map(r => ({
+          name:  (r.name ?? '').toString().trim(),
+          value: toNumber(r.value),
+          lat:   toNumber(r.lat),
+          lng:   toNumber(r.lng)
+        })).filter(d => d.name && Number.isFinite(d.value) && Number.isFinite(d.lat) && Number.isFinite(d.lng));
+
+        if (stores.length < 2) { showError('Legalább 2 érvényes üzlet szükséges a zónákhoz.'); return; }
+        jitterIfDuplicate(stores);
+
+        VALUE_MIN = Math.min(...stores.map(d=>d.value));
+        VALUE_MAX = Math.max(...stores.map(d=>d.value));
+        pointsFC = turf.featureCollection(stores.map((d,i)=>turf.point([d.lng, d.lat], {_idx:i})));
+
+        // HU betöltés (ha nem megy, fallback)
+        try {
+          const resp = await fetch(HU_URL, { cache:'no-store' });
+          if (!resp.ok) throw new Error(`HU HTTP ${resp.status}`);
+          const json = await resp.json();
+          huGeom = normalizeHuGeoJSON(json);
+          if (!huGeom) throw new Error('Érvénytelen hungary.geojson formátum.');
+        } catch (e) {
+          console.warn('HU fájl hiba, fallback használata:', e);
+          huGeom = HU_FALLBACK;
+          showError('Nem sikerült a hungary.geojson betöltése – ideiglenes HU-bounding boxszal fut.');
+        }
+
+        drawAll();
+        console.log(`Pontok: ${stores.length}, tartomány: [${VALUE_MIN}, ${VALUE_MAX}]`);
+      } catch (e) {
+        console.error(e);
+        showError('Betöltési hiba (CSV vagy HU határ). Ellenőrizd a fájlokat és az elérési utat.');
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gyors IDW hőtérkép – Magyarország (egycanvas)</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
+
+  <style>
+    html,body{height:100%;margin:0;background:#f8fafc;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111827}
+    .page{padding:24px;max-width:1200px;margin:0 auto}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.08);overflow:hidden}
+    .card-header{padding:14px 16px;border-bottom:1px solid #e5e7eb;background:#fcfcfd}
+    .card-title{margin:0 0 4px 0;font-weight:600;font-size:16px}
+    .card-subtitle{margin:0;color:#6b7280;font-size:13px}
+    .card-body{position:relative}
+    #map{height:72vh;min-height:520px;width:100%}
+    .idw-pane{z-index:350;pointer-events:none}
+
+    .panel{position:absolute;top:12px;left:12px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;background:#fff;border:1px solid #ddd;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,.08);padding:8px 10px;z-index:640;font-size:12px}
+    .panel label{display:flex;gap:6px;align-items:center}
+    .legend{position:absolute;bottom:14px;left:12px;background:#fff;border:1px solid #ddd;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,.08);padding:10px 12px;min-width:240px;z-index:640;pointer-events:none;}
+    .legend .bar{height:14px;border-radius:8px;border:1px solid rgba(0,0,0,.15);background:linear-gradient(90deg,#22c55e 0%,#ef4444 100%)}
+    .legend .labs{display:flex;justify-content:space-between;font-size:12px;margin-top:6px}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+      <div class="card-header">
+        <h1 class="card-title">Gyors IDW hőtérkép – Magyarország</h1>
+        <p class="card-subtitle">Egycanvas rajzolás, hatósugár + legközelebbi N szomszéd, skálázott munka-vászonnal.</p>
+      </div>
+      <div class="card-body">
+        <div id="map"></div>
+
+        <div class="panel">
+          <label>Minőség
+            <select id="quality">
+              <option value="0.40">Nagyon gyors</option>
+              <option value="0.55">Gyors</option>
+              <option value="0.70" selected>Közepes</option>
+              <option value="0.85">Részletes</option>
+              <option value="1.00">Natív</option>
+            </select>
+          </label>
+          <label>Hatósugár (km)
+            <input id="radius" type="number" min="5" max="400" step="5" value="120" style="width:70px">
+          </label>
+          <label>Szomszédok (N)
+            <input id="neighbors" type="number" min="1" max="12" step="1" value="6" style="width:60px">
+          </label>
+        </div>
+
+        <div class="legend">
+          <div style="font-size:12px;color:#6b7280;margin-bottom:6px">Érték szerinti színkód</div>
+          <div class="bar"></div>
+          <div class="labs">
+            <span id="minLabel">Min: <strong>—</strong></span>
+            <span id="midLabel">Közép: <strong>—</strong></span>
+            <span id="maxLabel">Max: <strong>—</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* ---------- Beállítás ---------- */
+    const CSV_URL = 'uzletek.csv';
+    const HU_URL  = 'hungary.geojson';
+    const HU_FALLBACK = { type:'Feature', properties:{name:'HU bbox'}, geometry:{ type:'Polygon', coordinates:[[
+      [16.11,45.74],[22.90,45.74],[22.90,48.58],[16.11,48.58],[16.11,45.74]
+    ]]} };
+
+    /* ---------- Segédek ---------- */
+    const toNumber = v => (typeof v==='number') ? v :
+      parseFloat(String(v??'').trim().replace(/\s| | /g,'').replace(/\./g,'').replace(',', '.'));
+    const lerp=(a,b,t)=>a+(b-a)*t, clamp=(x,lo,hi)=>Math.max(lo,Math.min(hi,x));
+    const colorForValue=(v,vmin,vmax)=>{const t=(vmax===vmin)?0.5:(v-vmin)/(vmax-vmin);const c1={r:34,g:197,b:94},c2={r:239,g:68,b:68};return[
+      Math.round(lerp(c1.r,c2.r,clamp(t,0,1))),
+      Math.round(lerp(c1.g,c2.g,clamp(t,0,1))),
+      Math.round(lerp(c1.b,c2.b,clamp(t,0,1)))
+    ]};
+    const escapeHtml=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'","&#039;");
+    const normHeader=h=>String(h||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+    const headerMap={'name':'name','uzlet':'name','bolt':'name','uzletnev':'name','nev':'name','store':'name','value':'value','ertek':'value','score':'value','pont':'value','ertekeles':'value','ar':'value','price':'value','lat':'lat','latitude':'lat','szelesseg':'lat','szelessegi':'lat','y':'lat','lng':'lng','lon':'lng','long':'lng','longitude':'lng','hosszusag':'lng','hosszusagi':'lng','x':'lng'};
+    const transformHeader=h=>headerMap[normHeader(h)]||h;
+    const normalizeHuGeoJSON=o=>!o?null:(o.type==='Feature'?o:(o.type==='FeatureCollection'&&o.features?.length?{type:'Feature',properties:o.features[0].properties||{},geometry:o.features[0].geometry}:(o.type==='Polygon'||o.type==='MultiPolygon'?{type:'Feature',properties:{},geometry:o}:null)));
+    const debounce=(fn,ms)=>{let t;return(...a)=>{clearTimeout(t);t=setTimeout(()=>fn(...a),ms)}}
+
+    /* ---------- Állapot ---------- */
+    let map, huGeom, stores=[], VALUE_MIN=0, VALUE_MAX=1;
+    let canvas, ctx, off, offCtx;          // fő- és munka-canvas
+    let mercStores = [];                    // üzletek WebMercatorban
+    let scale = 0.7;                        // munka-canvas méret szorzó (0.4..1.0)
+    let RADIUS_M = 120_000;                 // hatósugár méterben
+    let K_NEAR = 6;                         // legközelebbi N
+    let drawing = false;
+
+    function ensureMap(){
+      if (map) return;
+      map = L.map('map', { scrollWheelZoom:true }).setView([47.1625, 19.5033], 7);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; OpenStreetMap'}).addTo(map);
+
+      const pane = map.createPane('idwPane');
+      pane.classList.add('idw-pane');
+
+      canvas = document.createElement('canvas');
+      pane.appendChild(canvas);
+      ctx = canvas.getContext('2d');
+
+      off = document.createElement('canvas');   // kisebb, erre számolunk
+      offCtx = off.getContext('2d', { willReadFrequently: true });
+
+      map.on('moveend zoomend resize', debounce(redraw, 80));
+    }
+
+    function resizeCanvases(){
+      const size = map.getSize();
+      // fő canvas = teljes
+      canvas.width = size.x; canvas.height = size.y;
+      const topLeft = map.containerPointToLayerPoint([0,0]);
+      L.DomUtil.setPosition(canvas, topLeft);
+
+      // munka-canvas = skálázott
+      off.width = Math.max(64, Math.floor(size.x * scale));
+      off.height = Math.max(64, Math.floor(size.y * scale));
+    }
+
+    function buildClipPath(c){
+      const geom = huGeom.geometry;
+      const polys = geom.type==='Polygon' ? [geom.coordinates] :
+                    geom.type==='MultiPolygon' ? geom.coordinates : [];
+      c.beginPath();
+      polys.forEach(poly=>{
+        poly.forEach(ring=>{
+          ring.forEach(([lng,lat], i)=>{
+            const p = map.latLngToContainerPoint([lat,lng]);
+            if (i===0) c.moveTo(p.x, p.y); else c.lineTo(p.x, p.y);
+          });
+          c.closePath();
+        });
+      });
+      c.clip('evenodd');
+    }
+
+    function recomputeMercStores(){
+      mercStores = stores.map(s=>{
+        const m = map.options.crs.project(L.latLng(s.lat, s.lng));
+        return { mx: m.x, my: m.y, value: s.value, lat: s.lat, lng: s.lng, name: s.name };
+      });
+    }
+
+    function idwRenderTo(offCtx){
+      const w = off.width, h = off.height;
+      offCtx.clearRect(0,0,w,h);
+
+      // klip HU-ra az offscreenen is
+      offCtx.save();
+      // HU határ pontjait offscreen skálához igazítjuk:
+      const path = new Path2D();
+      const geom = huGeom.geometry;
+      const polys = geom.type==='Polygon' ? [geom.coordinates] :
+                    geom.type==='MultiPolygon' ? geom.coordinates : [];
+      polys.forEach(poly=>{
+        poly.forEach(ring=>{
+          ring.forEach(([lng,lat], i)=>{
+            const p = map.latLngToContainerPoint([lat,lng]);
+            const x = p.x * (w/canvas.width);
+            const y = p.y * (h/canvas.height);
+            if (i===0) path.moveTo(x,y); else path.lineTo(x,y);
+          });
+          path.closePath();
+        });
+      });
+      offCtx.clip(path, 'evenodd');
+
+      // IDW számítás blokkosítva (rAF), hogy ne fagyjon – itt most egy menetben rajzolunk,
+      // mert w*h már kisebb a skála miatt.
+      const img = offCtx.createImageData(w, h);
+      const data = img.data;
+
+      const power = 2;
+      const eps = 1e-9;
+
+      // segéd: N legkisebb d2 kiválasztása O(n) beszúrásos módszerrel (N kicsi)
+      function topKDistances(mx,my){
+        const best = Array(K_NEAR).fill(null);
+        for (let i=0;i<mercStores.length;i++){
+          const dx = mx - mercStores[i].mx;
+          const dy = my - mercStores[i].my;
+          const d2 = dx*dx + dy*dy;
+          if (d2 > RADIUS_M*RADIUS_M) continue; // sugáron kívül
+          // beszúrás a best-be
+          for (let j=0;j<K_NEAR;j++){
+            if (best[j]===null || d2 < best[j].d2){
+              best.splice(j,0,{ d2, v:mercStores[i].value });
+              best.pop();
+              break;
+            }
+          }
+        }
+        return best.filter(x=>x!==null);
+      }
+
+      for (let y=0; y<h; y++){
+        for (let x=0; x<w; x++){
+          // konténer px → latlng (offscreen -> main scale korrekció)
+          const cx = (x + 0.5) * (canvas.width / w);
+          const cy = (y + 0.5) * (canvas.height / h);
+          const ll = map.containerPointToLatLng([cx, cy]);
+
+          const mpt = map.options.crs.project(ll);
+          const neigh = topKDistances(mpt.x, mpt.y);
+          if (neigh.length === 0){
+            // nincs elég közeli pont – hagyjuk átlátszónak
+            continue;
+          }
+
+          let num=0, den=0;
+          for (let k=0;k<neigh.length;k++){
+            const d2 = neigh[k].d2 + eps;
+            const wgt = 1 / Math.pow(d2, power/2);
+            num += wgt * neigh[k].v;
+            den += wgt;
+          }
+          const v = num/den;
+          const [r,g,b] = colorForValue(v, VALUE_MIN, VALUE_MAX);
+          const idx = (y*w + x) * 4;
+          data[idx] = r; data[idx+1] = g; data[idx+2] = b; data[idx+3] = 190; // ~0.75 alfa
+        }
+      }
+
+      offCtx.putImageData(img, 0, 0);
+      offCtx.restore();
+    }
+
+    function redraw(){
+      if (drawing || !map || !huGeom || !stores.length) return;
+      drawing = true;
+
+      resizeCanvases();
+      recomputeMercStores();
+
+      // offscreen számolás (gyors)
+      idwRenderTo(offCtx);
+
+      // fő canvas törlés + HU-clip + felskálázott kirajzolás
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      ctx.save();
+      buildClipPath(ctx);
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = 'medium';
+      ctx.drawImage(off, 0, 0, off.width, off.height, 0, 0, canvas.width, canvas.height);
+      ctx.restore();
+
+      // bolt jelölők (canvas)
+      mercStores.forEach(s=>{
+        const p = map.latLngToContainerPoint([s.lat, s.lng]);
+        const [r,g,b] = colorForValue(s.value, VALUE_MIN, VALUE_MAX);
+        ctx.beginPath(); ctx.arc(p.x, p.y, 5, 0, Math.PI*2);
+        ctx.fillStyle = `rgb(${r},${g},${b})`; ctx.fill();
+        ctx.lineWidth = 1; ctx.strokeStyle='rgba(0,0,0,.45)'; ctx.stroke();
+      });
+
+      drawing = false;
+    }
+
+    function drawLeafletOutline(){
+      L.geoJSON(huGeom,{ style:{ color:'#11182788', weight:2, fillOpacity:0 } }).addTo(map);
+    }
+
+    function drawAll(){
+      ensureMap();
+
+      const mid = (VALUE_MIN===VALUE_MAX) ? VALUE_MIN : Math.round((VALUE_MIN+VALUE_MAX)/2);
+      document.querySelector('#minLabel strong').textContent = VALUE_MIN;
+      document.querySelector('#midLabel strong').textContent = mid;
+      document.querySelector('#maxLabel strong').textContent = VALUE_MAX;
+
+      const bbox = turf.bbox(huGeom);
+      map.fitBounds([[bbox[1],bbox[0]],[bbox[3],bbox[2]]]);
+      drawLeafletOutline();
+
+      // UI kötés
+      const qSel = document.getElementById('quality');
+      const rInp = document.getElementById('radius');
+      const nInp = document.getElementById('neighbors');
+      const apply = ()=>{
+        scale = parseFloat(qSel.value);                // 0.4..1.0
+        RADIUS_M = Math.max(5, parseFloat(rInp.value)||120) * 1000;
+        K_NEAR = Math.max(1, Math.min(12, parseInt(nInp.value,10)||6));
+        redraw();
+      };
+      qSel.addEventListener('change', apply);
+      rInp.addEventListener('change', apply);
+      nInp.addEventListener('change', apply);
+
+      apply(); // első rajz
+    }
+
+    /* ---------- Betöltés ---------- */
+    (async function boot(){
+      try{
+        // CSV
+        const csvText=await fetch(CSV_URL,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(`CSV HTTP ${r.status}`);return r.text();});
+        const parsed=await new Promise(res=>{
+          Papa.parse(csvText,{header:true,skipEmptyLines:'greedy',transformHeader,delimiter:"",trimHeaders:true,complete:r=>res(r)});
+        });
+        const rows = Array.isArray(parsed.data) ? parsed.data : [];
+        const raw = rows.map((r,i)=>({_row:i+2,name:(r.name??'').toString().trim(),value:toNumber(r.value),lat:toNumber(r.lat),lng:toNumber(r.lng)}));
+        const bad = raw.filter(d=>!d.name||!Number.isFinite(d.value)||!Number.isFinite(d.lat)||!Number.isFinite(d.lng));
+        if(bad.length){console.warn('Hibás CSV sorok (kihagyva):');console.table(bad);}
+        stores = raw.filter(d=>d.name&&Number.isFinite(d.value)&&Number.isFinite(d.lat)&&Number.isFinite(d.lng));
+        if(stores.length<2) throw new Error('Legalább 2 érvényes sor kell.');
+
+        VALUE_MIN=Math.min(...stores.map(d=>d.value));
+        VALUE_MAX=Math.max(...stores.map(d=>d.value));
+
+        // HU
+        try{
+          const r=await fetch(HU_URL,{cache:'no-store'}); if(!r.ok) throw new Error(`HU HTTP ${r.status}`);
+          const json=await r.json(); huGeom=normalizeHuGeoJSON(json)||HU_FALLBACK;
+        }catch(e){ console.warn('HU fájl hiba, fallback bbox:',e); huGeom=HU_FALLBACK; }
+
+        drawAll();
+      }catch(e){ console.error(e); alert('Betöltési hiba: '+e.message); }
+    })();
+  </script>
+</body>
+</html>

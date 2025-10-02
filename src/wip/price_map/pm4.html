@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Üzletek térképe – CSV + összes példa</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Papa Parse (CSV) -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <!-- Turf.js (geometria: buffer, voronoi, bbox) -->
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
+
+  <!-- Leaflet.heat (heatmap) -->
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.heat/dist/leaflet-heat.js"></script>
+
+  <!-- MarkerCluster -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <style>
+    :root { --card-bg:#fff; --card-br:14px; --card-bd:#e5e7eb; --card-shadow:0 8px 24px rgba(0,0,0,.08); --muted:#6b7280; }
+    html,body{height:100%;margin:0;background:#f8fafc;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111827}
+    .page{padding:24px;max-width:1200px;margin:0 auto}
+    .card{background:var(--card-bg);border:1px solid var(--card-bd);border-radius:var(--card-br);box-shadow:var(--card-shadow);overflow:hidden}
+    .card-header{padding:14px 16px;border-bottom:1px solid var(--card-bd);background:#fcfcfd}
+    .card-title{margin:0 0 4px 0;font-weight:600;font-size:16px}
+    .card-subtitle{margin:0;color:var(--muted);font-size:13px}
+
+    .toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:10px 12px;border-bottom:1px solid var(--card-bd);background:#fff}
+    .toolgroup{display:flex;gap:12px;align-items:center}
+    .toolgroup label{display:flex;gap:6px;align-items:center;font-size:13px;color:#111827;background:#f3f4f6;border:1px solid #e5e7eb;padding:6px 8px;border-radius:8px;cursor:pointer}
+    .toolgroup input{accent-color:#0ea5e9}
+
+    .card-body{position:relative}
+    #map{height:70vh;min-height:460px;width:100%}
+    .leaflet-tooltip{background:#fff;border:1px solid #ddd;box-shadow:0 2px 8px rgba(0,0,0,.15);padding:.35rem .5rem;font-size:13px}
+
+    .colorbar-wrap{
+      position:absolute;bottom:14px;left:12px;background:#fff;border:1px solid #ddd;border-radius:10px;
+      box-shadow:0 2px 10px rgba(0,0,0,.08);padding:10px 12px;min-width:240px;z-index:640;pointer-events:none;
+    }
+    .colorbar-title{font-size:12px;color:var(--muted);margin-bottom:6px}
+    .colorbar{height:14px;border-radius:8px;border:1px solid rgba(0,0,0,.15);background:linear-gradient(90deg,#22c55e 0%,#ef4444 100%)}
+    .colorbar-labels{display:flex;justify-content:space-between;font-size:12px;margin-top:6px}
+    .colorbar-labels span strong{font-weight:600}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="card" aria-label="Üzletek térképe kártya">
+      <div class="card-header">
+        <h1 class="card-title">Üzletek térképe</h1>
+        <p class="card-subtitle">CSV-ből töltés. Kapcsold a rétegeket: egyedi HTML ikon, valódi sugarú kör, poligon, buffer, voronoi, heatmap, klaszterezés.</p>
+      </div>
+
+      <div class="toolbar">
+        <div class="toolgroup" id="toggles">
+          <label><input type="checkbox" id="toggleBase" checked> Alappontok (fix méret, szín)</label>
+          <label><input type="checkbox" id="toggleHTML"> Egyedi HTML ikon</label>
+          <label><input type="checkbox" id="toggleCircles"> Valódi kör (m)</label>
+          <label><input type="checkbox" id="togglePolygon"> Minta poligon</label>
+          <label><input type="checkbox" id="toggleBuffer"> Buffer (500 m)</label>
+          <label><input type="checkbox" id="toggleVoronoi"> Voronoi cellák</label>
+          <label><input type="checkbox" id="toggleHeat"> Heatmap</label>
+          <label><input type="checkbox" id="toggleCluster"> Klaszterezés</label>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div id="map" role="region" aria-label="Üzletek térképe"></div>
+        <div class="colorbar-wrap" id="legend">
+          <div class="colorbar-title">Érték szerinti színkód</div>
+          <div class="colorbar"></div>
+          <div class="colorbar-labels">
+            <span id="minLabel">Min: <strong>—</strong></span>
+            <span id="midLabel">Közép: <strong>—</strong></span>
+            <span id="maxLabel">Max: <strong>—</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* ======= Beállítások ======= */
+    const CSV_URL = 'uzletek.csv';  // legyen azonos mappában
+    const FIXED_RADIUS_PX = 10;     // alappontok (pixel)
+    const REAL_CIRCLE_M = 500;      // valódi kör sugár (méter)
+    const HEAT_INTENSITY = 0.25;    // 0..1
+    const BUFFER_KM = 0.5;          // 500 m buffer Turf-fel
+
+    /* ======= Segédek ======= */
+    function showError(msg){
+      let el = document.getElementById('errbar');
+      if(!el){
+        el = document.createElement('div');
+        el.id = 'errbar';
+        el.style.cssText = 'position:absolute;top:10px;right:10px;background:#fee2e2;border:1px solid #fecaca;padding:8px 10px;border-radius:8px;color:#991b1b;font:13px system-ui;z-index:650';
+        document.querySelector('.card-body').appendChild(el);
+      }
+      el.textContent = msg;
+    }
+    const toNumber = (v) => {
+      if (typeof v === 'number') return v;
+      if (v == null) return NaN;
+      return parseFloat(String(v).trim()
+        .replace(/\s| | /g, '')   // space variánsok
+        .replace(/\./g, '')       // ezres pont
+        .replace(',', '.'));      // tizedes vessző → pont
+    };
+    const lerp = (a,b,t)=>a+(b-a)*t;
+    const clamp = (x,lo,hi)=>Math.max(lo,Math.min(hi,x));
+    function colorForValue(v, vmin, vmax){
+      const t = (vmax===vmin) ? 0.5 : (v - vmin) / (vmax - vmin);
+      const c1 = { r: 34,  g: 197, b: 94  };  // zöld
+      const c2 = { r: 239, g: 68,  b: 68  };  // vörös
+      const r = Math.round(lerp(c1.r, c2.r, clamp(t,0,1)));
+      const g = Math.round(lerp(c1.g, c2.g, clamp(t,0,1)));
+      const b = Math.round(lerp(c1.b, c2.b, clamp(t,0,1)));
+      return `rgb(${r}, ${g}, ${b})`;
+    }
+    function escapeHtml(str){
+      return String(str)
+        .replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')
+        .replaceAll('"','&quot;').replaceAll("'","&#039;");
+    }
+    function normHeader(h){
+      return String(h || '')
+        .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+        .toLowerCase().replace(/[^a-z0-9]/g,'');
+    }
+    const headerMap = {
+      'name':'name','uzlet':'name','bolt':'name','uzletnev':'name','nev':'name','store':'name','shop':'name',
+      'value':'value','ertek':'value','score':'value','pont':'value','ertekeles':'value','ar':'value','price':'value',
+      'lat':'lat','latitude':'lat','szelesseg':'lat','szelessegi':'lat','y':'lat','latdeg':'lat','szelessegfok':'lat','wgs84y':'lat',
+      'lng':'lng','lon':'lng','long':'lng','longitude':'lng','hosszusag':'lng','hosszusagi':'lng','x':'lng','longdeg':'lng','wgs84x':'lng'
+    };
+    function transformHeader(h){ const n = normHeader(h); return headerMap[n] || n; }
+
+    /* ======= Állapot / rétegek ======= */
+    let map, baseLayer, htmlIconLayer, realCircleLayer, polygonLayer, bufferLayer, voronoiLayer, heatLayer, clusterLayer;
+    let VALUE_MIN = 0, VALUE_MAX = 1;
+    let rowsValid = []; // {name,value,lat,lng}
+
+    function ensureMap(){
+      if (map) return;
+      map = L.map('map', { scrollWheelZoom: true }).setView([47.1625, 19.5033], 7);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> közreműködők'
+      }).addTo(map);
+    }
+
+    /* ======= Rétegek létrehozása ======= */
+    function buildBaseLayer(){
+      if (baseLayer) { baseLayer.clearLayers(); return baseLayer; }
+      baseLayer = L.layerGroup();
+      return baseLayer;
+    }
+    function buildHtmlIconLayer(){
+      if (htmlIconLayer) { htmlIconLayer.clearLayers(); return htmlIconLayer; }
+      htmlIconLayer = L.layerGroup();
+      return htmlIconLayer;
+    }
+    function buildRealCircleLayer(){
+      if (realCircleLayer) { realCircleLayer.clearLayers(); return realCircleLayer; }
+      realCircleLayer = L.layerGroup();
+      return realCircleLayer;
+    }
+    function buildPolygonLayer(){
+      if (polygonLayer) { map.removeLayer(polygonLayer); polygonLayer = null; }
+      // Minta kézi poligon (Budapest környéke, csak demo)
+      polygonLayer = L.polygon([
+        [47.52, 19.02], [47.55, 19.09], [47.49, 19.11], [47.47, 19.04]
+      ], { color:'#2563eb', weight:2, fillOpacity:.08 });
+      polygonLayer.bindTooltip('Minta poligon');
+      return polygonLayer;
+    }
+    function buildBufferLayer(){
+      if (bufferLayer) { map.removeLayer(bufferLayer); bufferLayer = null; }
+      const fc = turf.featureCollection(rowsValid.map(d=>turf.point([d.lng, d.lat])));
+      if (fc.features.length === 0) return null;
+      const buffered = turf.buffer(fc, BUFFER_KM, { units: 'kilometers' });
+      bufferLayer = L.geoJSON(buffered, { style:{ color:'#16a34a', weight:1, fillOpacity:.15 } });
+      return bufferLayer;
+    }
+    function buildVoronoiLayer(){
+      if (voronoiLayer) { map.removeLayer(voronoiLayer); voronoiLayer = null; }
+      const pts = turf.featureCollection(rowsValid.map(d=>turf.point([d.lng, d.lat])));
+      if (pts.features.length < 2) return null;
+      const bbox = turf.bbox(pts);
+      const vor = turf.voronoi(pts, { bbox });
+      voronoiLayer = L.geoJSON(vor, { style:{ color:'#9333ea', weight:1, fillOpacity:.05 } });
+      return voronoiLayer;
+    }
+    function buildHeatLayer(){
+      if (heatLayer) { map.removeLayer(heatLayer); heatLayer = null; }
+      const points = rowsValid.map(d=>[d.lat, d.lng, HEAT_INTENSITY]);
+      if (points.length === 0) return null;
+      heatLayer = L.heatLayer(points, { radius: 25, blur: 15 });
+      return heatLayer;
+    }
+    function buildClusterLayer(){
+      if (clusterLayer) { clusterLayer.clearLayers(); return clusterLayer; }
+      clusterLayer = L.markerClusterGroup();
+      return clusterLayer;
+    }
+
+    /* ======= Rétegek feltöltése adatokkal ======= */
+    function populateBaseLayer(){
+      const layer = buildBaseLayer();
+      rowsValid.forEach(d=>{
+        const marker = L.circleMarker([d.lat, d.lng], {
+          radius: FIXED_RADIUS_PX, color: '#00000055', weight: 1,
+          fillColor: colorForValue(d.value, VALUE_MIN, VALUE_MAX), fillOpacity: 0.9
+        });
+        marker.bindTooltip(`<strong>${escapeHtml(d.name)}</strong><br/>Érték: <strong>${d.value}</strong>`, {sticky:true, direction:'top', offset:[0,-2]});
+        layer.addLayer(marker);
+      });
+      return layer;
+    }
+    function populateHtmlIconLayer(){
+      const layer = buildHtmlIconLayer();
+      const html = (color) => `<div style="width:20px;height:20px;border-radius:4px;border:1px solid #00000055;background:${color};box-shadow:0 1px 4px rgba(0,0,0,.2)"></div>`;
+      rowsValid.forEach(d=>{
+        const icon = L.divIcon({ html: html(colorForValue(d.value, VALUE_MIN, VALUE_MAX)), className:'', iconSize:[20,20], iconAnchor:[10,10] });
+        const m = L.marker([d.lat,d.lng], { icon });
+        m.bindTooltip(`<strong>${escapeHtml(d.name)}</strong><br/>Érték: <strong>${d.value}</strong>`, {sticky:true});
+        layer.addLayer(m);
+      });
+      return layer;
+    }
+    function populateRealCircleLayer(){
+      const layer = buildRealCircleLayer();
+      rowsValid.forEach(d=>{
+        const circle = L.circle([d.lat, d.lng], {
+          radius: REAL_CIRCLE_M, color: '#00000066', weight: 1,
+          fillColor: colorForValue(d.value, VALUE_MIN, VALUE_MAX), fillOpacity: 0.25
+        });
+        circle.bindTooltip(`<strong>${escapeHtml(d.name)}</strong><br/>${REAL_CIRCLE_M} m körzet`, {sticky:true});
+        layer.addLayer(circle);
+      });
+      return layer;
+    }
+    function populateClusterLayer(){
+      const layer = buildClusterLayer();
+      rowsValid.forEach(d=>{
+        const m = L.marker([d.lat, d.lng]);
+        m.bindTooltip(`<strong>${escapeHtml(d.name)}</strong><br/>Érték: <strong>${d.value}</strong>`, {sticky:true});
+        layer.addLayer(m);
+      });
+      return layer;
+    }
+
+    /* ======= CSV betöltés és render ======= */
+    function renderAll(){
+      ensureMap();
+      // skála címkék
+      const midVal = (VALUE_MIN===VALUE_MAX) ? VALUE_MIN : Math.round((VALUE_MIN+VALUE_MAX)/2);
+      document.querySelector('#minLabel strong').textContent = VALUE_MIN;
+      document.querySelector('#midLabel strong').textContent = midVal;
+      document.querySelector('#maxLabel strong').textContent = VALUE_MAX;
+
+      // zoom az összes pontra
+      if (rowsValid.length>0){
+        const bounds = L.latLngBounds(rowsValid.map(d=>[d.lat,d.lng]));
+        map.fitBounds(bounds.pad(0.1));
+      }
+
+      // alapból csak alappontok
+      toggleLayers(); // a kapcsolók szerint
+    }
+
+    function toggleLayers(){
+      const el = (id)=>document.getElementById(id);
+      const flags = {
+        base:   el('toggleBase').checked,
+        html:   el('toggleHTML').checked,
+        circle: el('toggleCircles').checked,
+        poly:   el('togglePolygon').checked,
+        buff:   el('toggleBuffer').checked,
+        vor:    el('toggleVoronoi').checked,
+        heat:   el('toggleHeat').checked,
+        clus:   el('toggleCluster').checked
+      };
+
+      // Mindent lekapcsolunk, aztán ami kell, felkapcsoljuk
+      [baseLayer, htmlIconLayer, realCircleLayer, clusterLayer].forEach(l=>{ if(l && map.hasLayer(l)) map.removeLayer(l); });
+      [polygonLayer, bufferLayer, voronoiLayer, heatLayer].forEach(l=>{ if(l && map.hasLayer(l)) map.removeLayer(l); });
+
+      if (flags.base){
+        map.addLayer(populateBaseLayer());
+      }
+      if (flags.html){
+        map.addLayer(populateHtmlIconLayer());
+      }
+      if (flags.circle){
+        map.addLayer(populateRealCircleLayer());
+      }
+      if (flags.poly){
+        const l = buildPolygonLayer(); if (l) map.addLayer(l);
+      }
+      if (flags.buff){
+        const l = buildBufferLayer(); if (l) map.addLayer(l);
+      }
+      if (flags.vor){
+        const l = buildVoronoiLayer(); if (l) map.addLayer(l);
+      }
+      if (flags.heat){
+        const l = buildHeatLayer(); if (l) map.addLayer(l);
+      }
+      if (flags.clus){
+        map.addLayer(populateClusterLayer());
+      }
+    }
+
+    // Kapcsolók eseményei
+    document.addEventListener('change', (e)=>{
+      if (e.target && e.target.id && e.target.id.startsWith('toggle')) {
+        toggleLayers();
+      }
+    });
+
+    // Betöltés
+    (function boot(){
+      if (!window.Papa) { showError('Nem töltődött be a Papa Parse – ellenőrizd az internetkapcsolatot/CDN-t.'); return; }
+      fetch(CSV_URL, { cache: 'no-store' })
+        .then(resp=>{
+          if(!resp.ok){ showError(`Nem találom a CSV-t: ${CSV_URL} (HTTP ${resp.status})`); throw new Error(`HTTP ${resp.status}`); }
+          return resp.text();
+        })
+        .then(text=>{
+          Papa.parse(text, {
+            header: true,
+            skipEmptyLines: 'greedy',
+            transformHeader,
+            complete: (res)=>{
+              const rows = Array.isArray(res.data) ? res.data : [];
+              rowsValid = rows.map(r => ({
+                name:  (r.name ?? '').toString().trim(),
+                value: toNumber(r.value),
+                lat:   toNumber(r.lat),
+                lng:   toNumber(r.lng)
+              })).filter(d => d.name && Number.isFinite(d.value) && Number.isFinite(d.lat) && Number.isFinite(d.lng));
+
+              if (rowsValid.length === 0){ showError('Nem találtam érvényes sorokat. Kell: name/value/lat/lng (ékezetes és szóközös fejlécek is jók).'); return; }
+              VALUE_MIN = Math.min(...rowsValid.map(d=>d.value));
+              VALUE_MAX = Math.max(...rowsValid.map(d=>d.value));
+              console.log(`Beolvasott sorok: ${rows.length}, érvényes pontok: ${rowsValid.length}, tartomány: [${VALUE_MIN}, ${VALUE_MAX}]`);
+              renderAll();
+            },
+            error: (err)=> { console.error(err); showError('Hiba a CSV feldolgozásakor. Nézd meg a konzolt (F12).'); }
+          });
+        })
+        .catch(err=> console.error(err));
+    })();
+  </script>
+</body>
+</html>
