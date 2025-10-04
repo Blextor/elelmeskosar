@@ -1,0 +1,26 @@
+=== Summary ===
+File1: szeged2.csv
+File2: szentendre2.csv
+Columns: barcode='barcode', name='product_name', price='unit_price'
+Case-insensitive name compare: False
+
+--- Cross-file by BARCODE ---
+Matches: 7024
+Conflicts: 0
+Only in file1: 33
+Only in file2: 1664
+
+--- Cross-file by NAME ---
+Matches: 6988
+Conflicts: 2
+Only in file1: 33
+Only in file2: 1653
+
+--- Internal conflicts (within files) ---
+File1: barcode->name conflicts: 0
+File1: name->barcode conflicts: 65
+File2: barcode->name conflicts: 0
+File2: name->barcode conflicts: 85
+
+--- Price comparison outputs ---
+price_differences.csv, top_price_differences.csv, price_summary.txt

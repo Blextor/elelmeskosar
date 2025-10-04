@@ -24,6 +24,7 @@ def save_file(content: str, y_base: str, extension=".csv"):
     return filename
 
 BASE_URL = "https://consumer-api.wolt.com/consumer-api/consumer-assortment/v1/venues/slug/interspar-szentendre/assortment/categories/slug/"
+BASE_URL = "https://consumer-api.wolt.com/consumer-api/consumer-assortment/v1/venues/slug/sparszupermarket-szegedarkad/assortment/categories/slug/"
 
 # 1. Slugok beolvasása
 slugok = []

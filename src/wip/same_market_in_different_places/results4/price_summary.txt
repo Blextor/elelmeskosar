@@ -1,0 +1,13 @@
+=== Price Comparison Summary ===
+Comparable (barcode+name matches) rows: 7024
+Rows with parseable prices in both files: 7024
+Rows with missing/unparseable price(s): 0
+
+--- Absolute difference (file2 - file1) ---
+Mean: 0.00 | Median: 0.00
+
+--- % difference vs file1 ---
+Mean: 0.00% | Median: 0.00%
+
+--- Symmetric % difference ---
+Mean: 0.00% | Median: 0.00%
