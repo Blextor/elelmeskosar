@@ -145,6 +145,12 @@
           }
         }
       },
+      "Rágógumi": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        }
+      },
       "Cukorka, gumicukor, drazsé": {
         "tulajdonságok": {
           "egyedi": {},
@@ -172,10 +178,62 @@
           "csoportos": {}
         },
         "altípusok": {
-          "Chips": {
+          "Chips, Nachos, Pufi": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "alak": [
+                  "szirom", "háromszög", "tallér / kerek", "pálcika",
+                  "figura", "karika / gyűrű", "golyó", "pufi",
+                  "egyéb"
+                ],
+                "márka": [
+                  "Snack Fun", "Chio", "Lay's", "RiceUp!", "Doritos", "Spar",
+                  "Spar prémium", "Szafi", "S-Budget", "Fine Life", "Bersi",
+                  "Pom-Bär", "Lorenz", "Pringles", "Gourmet Finest Cousine",
+                  "Salty", "Cheetos", "Csíki Csipsz", "Takis", "Bersi", "Metro",
+                  "Vifon", "Auchan", "Mogyi", "El Sabor", "Granny's", "Poco Loco",
+                  "Nuevo Progreso", "Tesco", "White Snack", "Stockwell & Co.",
+                  "Liza Snack", "Lotto", "Enjoy Free!", "Gusto", "Little Angel",
+                  "Everyday", "bioSaurus",
+                  "egyéb"
+                ]
+              },
+              "csoportos": {
+                "egyéb jellemzők": ["hullámos", "puffasztott", "por alapú", "csípős", "kalória csökkentett", "nachos/tortilla", "szósszal"],
+                "íz": [
+                  "paradicsom", "oregánó", "hagyma", "tejföl", "méz", "BBQ", "bazsalikom",
+                  "sima sós", "paprika", "uborka", "sajt", "bors", "curry", "csipőspaprika",
+                  "pizza", "bacon / sonka", "zöldfűszer", "sonka", "joghurt", "csirke", "újhagyma",
+                  "lime", "parmezán", "ketchup", "jalapeno", "chili", "amarnát", "chia mag", "quiona",
+                  "köles", "napraforgómag", "kínai", "steak", "ecet", "téli szalámi", "mogyoró",
+                  "földimogyoró", "répa", "alma", "tök", "wasabi", "",
+                  "egyéb"
+                ],
+                "alapanyag": [
+                  "lencse", "burgonya", "rizs", "kukorica", "barna rizs", "hajdina", "rák",
+                  "sertés", "köles", "édesburgonya",
+                  "egyéb"
+                ]
+              }
+            }
+          },
+          "Szósz, mártogató": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "El Sabor", "Mogyi", "Poco Loco", "Granny's", "La Costena",
+                  "Old El Paso", "Chio", "Spar", "Fine Life", "Metro", "Snack Fun",
+
+                  "egyéb"
+                ]
+              },
+              "csoportos": {
+                "egyéb jellemzők": ["csípős"],
+                "íz": [
+                  "salsa", "avokádó", "guacamole", "sajt", "jalapeno", "BBQ",
+                  "egyéb"
+                ]
+              }
             }
           },
           "Magvak, dió": {
@@ -184,10 +242,23 @@
               "csoportos": {}
             }
           },
-          "Popcorn": {
+          "Pattogatott kukorica": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Auchan", "Mogyi", "Chio", "Tesco", "Spar", "Csíki Csips",
+                  "S-Budget", "Werther's Original", "Salty",
+                  "egyéb"
+                ],
+                "készre pattogtatot": {},
+                "csomagolás": ["magvak", "zsacskó", "egyéb"]
+              },
+              "csoportos": {
+                "íz": [
+                  "sós", "vaj", "chili", "sajt", "bacon", "karamell", "cukor",
+                  "egyéb"
+                ]
+              }
             }
           },
           "Ropi, perec": {
@@ -203,13 +274,6 @@
             }
           }
         }
-      },
-      "Torta": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {}
       }
     }
   },
