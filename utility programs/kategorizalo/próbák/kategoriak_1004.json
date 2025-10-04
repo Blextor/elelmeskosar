@@ -545,11 +545,6 @@
       "Alma": {
         "tulajdonságok": {
           "egyedi": {
-            "színe": [
-              "piros",
-              "sárga",
-              "zöld"
-            ],
             "típus": [
               "Bio Natura",
               "Crimson Snow",
@@ -568,7 +563,13 @@
               "Egyéb"
             ]
           },
-          "csoportos": {}
+          "csoportos": {
+            "színe": [
+              "piros",
+              "sárga",
+              "zöld"
+            ]
+          }
         },
         "altípusok": {}
       },
@@ -2736,50 +2737,6 @@
           "csoportos": {}
         },
         "altípusok": {}
-      },
-      "Zöldségkonzerv/üveges": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {
-          "Bab": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Borsó": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Kukorica": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Lencse": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Paradicsom": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          },
-          "Vegyes, egyéb": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            }
-          }
-        }
       }
     }
   }
