@@ -194,19 +194,21 @@
                   "Vifon", "Auchan", "Mogyi", "El Sabor", "Granny's", "Poco Loco",
                   "Nuevo Progreso", "Tesco", "White Snack", "Stockwell & Co.",
                   "Liza Snack", "Lotto", "Enjoy Free!", "Gusto", "Little Angel",
-                  "Everyday", "bioSaurus",
+                  "Everyday", "bioSaurus", "Biopont", "Ziegler", "Foody", "Snack Day",
+                  "Circuss",
                   "egyéb"
                 ]
               },
               "csoportos": {
-                "egyéb jellemzők": ["hullámos", "puffasztott", "por alapú", "csípős", "kalória csökkentett", "nachos/tortilla", "szósszal"],
+                "egyéb jellemzők": ["hullámos", "puffasztott", "por alapú", "csípős", "kalória csökkentett", "nachos/tortilla", "szósszal", "henger doboz"],
                 "íz": [
                   "paradicsom", "oregánó", "hagyma", "tejföl", "méz", "BBQ", "bazsalikom",
                   "sima sós", "paprika", "uborka", "sajt", "bors", "curry", "csipőspaprika",
                   "pizza", "bacon / sonka", "zöldfűszer", "sonka", "joghurt", "csirke", "újhagyma",
                   "lime", "parmezán", "ketchup", "jalapeno", "chili", "amarnát", "chia mag", "quiona",
                   "köles", "napraforgómag", "kínai", "steak", "ecet", "téli szalámi", "mogyoró",
-                  "földimogyoró", "répa", "alma", "tök", "wasabi", "",
+                  "földimogyoró", "répa", "alma", "tök", "wasabi", "kakaó", "fahéj", "pesto",
+                  "citrom", "gyömbér",
                   "egyéb"
                 ],
                 "alapanyag": [
@@ -242,12 +244,33 @@
               "csoportos": {}
             }
           },
+          "Sós Keksz, kétszersült, pálcika": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Tuc", "Tesco", "Chio", "Elephant", "La Mole", "Guallón",
+                  "Auchan", "Saltas", "Everyday", "Biopont", "King", "Detki",
+                  "7Days", "Maretti", "Le Veneziane", "Spar", "San Fabio",
+                  "Snack Fun", "Wiesn Schmankerl", "Snack Day", "Roberto",
+                  "egyéb"
+                ]
+              }
+            },
+              "csoportos": {
+                "fajta": ["keksz", "mini", "kétszersült", "pálcika"],
+                "íz": [
+                  "sós", "sajt", "hagyma", "tejföl", "pizza", "paradicsom", "oregánó", "zöldséges",
+                  "kömény", "szezámmag", "bacon", "",
+                  "egyéb"
+                ]
+              }
+          },
           "Pattogatott kukorica": {
             "tulajdonságok": {
               "egyedi": {
                 "márka": [
                   "Auchan", "Mogyi", "Chio", "Tesco", "Spar", "Csíki Csips",
-                  "S-Budget", "Werther's Original", "Salty",
+                  "S-Budget", "Werther's Original", "Salty", "Snack Day",
                   "egyéb"
                 ],
                 "készre pattogtatot": {},
@@ -261,10 +284,29 @@
               }
             }
           },
-          "Ropi, perec": {
+          "Ropi, perec, kréker": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Tesco", "Tuc", "Chio", "Csipet Ropi", "Auchan",
+                  "Nógrádi", "Biopont", "Everyday", "Spar", "S-Budget",
+                  "Snack Fun", "Snack Day", "Schär", "Salty",
+                  "egyéb"
+                ],
+                "por alapú": {}
+              },
+              "csoportos": {
+                "fajta": ["por alapú", "retró", "fényes", "hosszú", "rövid"],
+                "íz": [
+                  "sós", "natúr", "sajt", "szezámmag", "burgonya", "hagyma",
+                  "tejföl", "erős pista", "tönkölybúza",
+                  "egyéb"
+                ],
+                "alak": [
+                  "ropi", "perec", "kréker", "mix",
+                  "egyéb"
+                ]
+              }
             }
           },
           "Snack mixek": {
