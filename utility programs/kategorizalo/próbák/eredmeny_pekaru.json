@@ -210,16 +210,16 @@
       "categories__show": "pekaru-241"
     },
     "fokategoria": "Pékáru",
-    "alkategoria": "Pogácsa",
+    "alkategoria": "Egyéb sós pékáru",
     "altipus": "",
     "tulajdonsagok": {
       "fagyasztott": true,
+      "fajta": "pogácsa",
       "íz": [
-        "natúr",
         "sajtos"
       ]
     },
-    "kategoria_hash": "36feefdeecca0e5c61b6b20d2148f36eab0c3c217b72b7ebc2fa7d1eca948a3b",
+    "kategoria_hash": "2f3653c870afdfebe3b72edea335e9043b314eb6528c8cc4b924c021223d5e77",
     "statusz": "kesz"
   },
   {
@@ -246,15 +246,16 @@
       "categories__show": "pekaru-241"
     },
     "fokategoria": "Pékáru",
-    "alkategoria": "Pogácsa",
+    "alkategoria": "Egyéb sós pékáru",
     "altipus": "",
     "tulajdonsagok": {
       "fagyasztott": true,
+      "fajta": "pogácsa",
       "íz": [
-        "tepertős"
+        "egyéb"
       ]
     },
-    "kategoria_hash": "2057ff193167a0661bab801c6d89a557d53ce0e8bdd9a3cedfe9d6817f05fab1",
+    "kategoria_hash": "1e5a5c35adaf341126b88d461259ff26418de8e943013db4496df27910be373d",
     "statusz": "kesz"
   },
   {
@@ -423,16 +424,17 @@
       "categories__show": "fagyasztott-pekaru-30"
     },
     "fokategoria": "Pékáru",
-    "alkategoria": "Pogácsa",
+    "alkategoria": "Egyéb sós pékáru",
     "altipus": "",
     "tulajdonsagok": {
       "fagyasztott": true,
+      "fajta": "pogácsa",
       "íz": [
-        "natúr",
-        "sajtos"
+        "sajtos",
+        "sós"
       ]
     },
-    "kategoria_hash": "36feefdeecca0e5c61b6b20d2148f36eab0c3c217b72b7ebc2fa7d1eca948a3b",
+    "kategoria_hash": "1c6bc54760d7ba8ef0df1974c98047b48cb9c6af22842c3c646f6d4e942364df",
     "statusz": "kesz"
   },
   {

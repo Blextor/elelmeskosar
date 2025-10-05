@@ -1081,10 +1081,10 @@ if __name__ == '__main__':
     if kategoriak_dict is None:
         raise FileNotFoundError("Nem találom a kategória JSON-t. Ellenőrizd a fájlnevet!")
 
-    termekek = beolvas_termekek_csv('alkoholok.csv')
+    termekek = beolvas_termekek_csv('pekaru_sutemeny.csv')
 
     eredmenyek = []
-    for p in ('eredmeny_alkohol.json', 'eredmenyek.json'):
+    for p in ('eredmeny_pekaru.json', 'eredmenyek.json'):
         if os.path.exists(p):
             with open(p, 'r', encoding='utf-8') as f:
                 eredmenyek = json.load(f)

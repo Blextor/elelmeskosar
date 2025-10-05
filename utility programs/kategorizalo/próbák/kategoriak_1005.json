@@ -2258,7 +2258,7 @@
           "egyedi": {
             "csomagolt": {},
             "fajta": [
-              "csiga", "táska", "párna", "batyu", "briós", "rúd", "patkó",
+              "csiga", "táska", "párna", "batyu", "briós", "piskótatekercs", "gofri", "rúd", "patkó",
               "pite", "kifli", "muffin", "levél",
               "egyéb"
             ]
@@ -2266,7 +2266,7 @@
           "csoportos": {
             "íz": [
               "mákos", "meggyes", "vaníliás", "csokis", "mézes", "lekváros",
-              "barackos", "fahéjas", "diós", "szilvás", "almás", "gesztenyés",
+              "barackos", "fahéjas", "diós", "szilvás", "almás", "gesztenyés", "túrós",
               "kakaós",
               "egyéb"
             ]
@@ -2298,7 +2298,7 @@
             "bio": {},
             "gluténmentes": {},
             "típus": [
-              "puffasztott rizs", "kukorica lepény", "rozs lepény",
+              "puffasztott rizs", "puffasztott lencse", "kukorica lepény", "rozs lepény", "pita",
               "egyéb"
             ]
           },
@@ -2324,7 +2324,7 @@
       "csoportos": {
         "fajta": [
           "torta", "teasütemény", "sütemény", "Marlenka", "linzer",
-          "szelet sütemény", "mignon",
+          "szelet sütemény", "mignon", "rétes",
           "desszert", "gesztenyepüré", "somlói galuska", "isler",
           "egyéb"
         ]
