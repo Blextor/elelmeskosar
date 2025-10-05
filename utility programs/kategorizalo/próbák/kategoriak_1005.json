@@ -1568,11 +1568,12 @@
           }
         }
       },
+
       "Habzó-, gyöngyözőbor, boralapú ital": {
         "tulajdonságok": {
           "egyedi": {
             "márka": [
-              "Juhász", "Bella Cucina", "Varga", "Barigny", "Mionetto",
+              "Juhász", "Bella Cucina", "Varga", "Barigny", "Mionetto","Angelli",
               "Bucks Fizz", "Spritzi", "Frescanti", "Natara", "Bosseq",
               "Comedy Wine", "BB", "Petreny", "Teleki", "SE Fall in Love",
               "Grand Tokaj", "Chiarli", "Gere Frici", "Giorgio",
@@ -1584,11 +1585,11 @@
               "egyéb"
             ],
             "alkoholmentes": {},
-            "fajta": ["rosé", "fehér", "koktél", "prosecco", "gyümölcsbor", "egyéb"]
+            "fajta": ["rosé", "fehér", "koktél", "prosecco", "gyümölcsbor", "egyéb", "boralapú ital"]
           },
           "csoportos": {
-            "típus": ["extra száraz", "száraz", "félszáraz", "édes", "brut", "asti", "egyéb"],
-            "íz": ["bodza", "lime", "menta", "eper", "mangó", "barack", "narancs", "egyéb"]
+            "típus": ["extra száraz", "száraz", "félszáraz", "édes", "brut", "félédes", "asti", "egyéb"],
+            "íz": ["bodza", "áfonya", "lime", "citrom","menta", "eper", "mangó", "meggy", "barack", "narancs", "egyéb"]
           }
         },
         "altípusok": {}
@@ -1611,7 +1612,7 @@
               "egyéb"
             ],
             "szín": ["fehér", "rosé", "vörös"],
-            "típus": ["extra száraz", "száraz", "félédes", "édes", "extra édes", "egyéb"],
+            "típus": ["extra száraz", "száraz", "félédes", "félszáraz", "édes", "extra édes", "egyéb"],
             "alkoholos": ["alkoholos", "alkoholmentes", "kölyökpezsgő"]
           },
           "csoportos": {}
@@ -1633,11 +1634,11 @@
                   "Baileys", "Saint's", "Mozart", "Opyyum", "Angelli",
                   "Carolans", "Fütyülős",  "St. Hubertus", "Tipli",
                   "Bitter", "Bols Advocaat", "Walden", "Sütő", "Malibu",
-                  "Berntzen", "Kürt", "Vilmos", "Becherovka", "Rézangyal",
+                  "Berentzen", "Kürt", "Vilmos", "Becherovka", "Rézangyal",
                   "Lloyd", "Kick the Rules", "Beregi", "Szent Márk",
                   "Royal", "Auchan", "Lafi", "Ciemme", "Bottega", "Garrone",
                   "Koskenkorva", "Magna", "Bombardino", "Ramazotti", "Casali",
-                  "Manner", "Wolf & Lamb", "Carolans", "Campari", "Cointreau",
+                  "Manner", "Wolf & Lamb","Campari", "Cointreau",
                   "Fireball", "Sheridan's", "Disaronno", "Bumbu Cream",
                   "Beluga", "Tokaj", "Mátyás", "Tropical", "Helenas",
                   "Kahlúa", "Takamaka", "Várda", "Amaretto", "Tubi 60",
@@ -1646,7 +1647,7 @@
                   "egyéb"
                 ],
                 "fajta": [
-                  "tojáslikőr", "csokoládélikőr", "gyomorkeserű", "tealikőr", "máklikőr",
+                  "tojáslikőr", "krémlikőr", "rumalapú likőr", "csokoládélikőr", "gyomorkeserű", "tealikőr", "máklikőr",
                   "karamellalikőr", "gyümölcslikőr", "kávélikőr", "diólikőr",
                   "egyéb"
                 ],
@@ -1683,6 +1684,7 @@
               }
             }
           },
+
           "Gin": {
             "tulajdonságok": {
               "egyedi": {
@@ -1769,13 +1771,28 @@
             "tulajdonságok": {
               "egyedi": {
                 "márka": [
-                  "Martini", "Angielli", "Garrone",
-                  "egyéb"
+                  "Márkházi", "Óbester", "Szépvölgyi",
+                  "egyéb", "Vilmos", "Panyolai", "Éden", "Magyar", "Zwack", "Rézangyal"
                 ],
-                "fajta": ["extra száraz", "száraz", "édes", "extra édes", "egyéb"]
+                "fajta": ["pálinka", "ágyas pálinka", "törkölypálinka", "nemes pálinka", "egyéb"]
               },
               "csoportos": {
-                "íz": ["szilva", "körte", "barack", "dió", "alma", "meggy", "cseresznye", "egyéb"]
+                "íz": ["szilva", "körte", "barack", "dió", "alma", "szőlő", "meggy", "cseresznye", "vegyes", "egyéb"]
+              }
+            }
+          },
+          "Brandy": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Hennessy", "Napoleon Grand", "Lánchíd", "Courvoisier",
+                  "Trois", "Metaxa", "Napoleon", "Asbach", "S.T Rémy",
+                  "egyéb"
+                ],
+                "fajta": ["tiszta", "konyak", "aromásított", "egyéb"]
+              },
+              "csoportos": {
+                "íz": ["vanília", "tölgy", "gyümölcsös", "karamell", "fűszeres", "egyéb"]
               }
             }
           },
@@ -1806,7 +1823,7 @@
           "egyedi": {
             "márka": [
               "Dreher", "Karlskrone", "Bergkönig", "Kőbányai", "Borsodi",
-              "Gösser", "Soproni", "Staropramen", "Peroni", "Haineken",
+              "Gösser", "Soproni", "Staropramen", "Peroni", "Heineken",
               "Kronenbourg", "Sixtusbräu", "Corona", "Pilsner", "Csíki",
               "Pannonhalmi FS", "Horizont", "Fehér Nyúl", "Monyo", "First Craft",
               "BrewDog", "First Voodoo", "Lindemans", "Mad Scientist", "Aha!",
@@ -1821,7 +1838,7 @@
               "Welsenburg", "Arany Szarvas", "Zipfer", "Holsten", "Duff", "Mythos",
               "Old Prague", "Zlaty", "Platan", "Lasko", "Lobkowicz",
               "Amstel", "Primator", "Karlovacko", "Augustiner", "Ambar",
-              "Daura Damm", "Hunyadi Mátyás", "Servus", "Rákóczi", "Rastinger",
+              "Daura Damm", "Hunyadi Mátyás", "Stella Artois", "Servus","Tsingtao", "Rákóczi", "Rastinger",
               "Bad Dogs", "Wundertal", "Friss",
               "egyéb"
             ],
@@ -1830,7 +1847,7 @@
           },
 
           "csoportos": {
-            "típus": ["világos", "barna", "radler", "lager", "búzasör", "pils", "ipa", "ale", "lambic"],
+            "típus": ["világos", "barna", "radler", "lager", "búzasör", "pils", "ipa", "apa", "ale", "stout", "porter", "lambic"],
             "iz": [
               "sima", "citrom", "lime", "menta", "mangó", "licsi", "málna", "meggy",
               "feketeribizli", "barack", "spritz", "eper", "agávé",
@@ -1849,7 +1866,8 @@
           },
 
           "csoportos": {
-            "iz": ["alma", "szeder", "spritz", "áfonya", "málna" , "lime", "mix", "körte", "passionfruit", "egyéb"]
+            "iz": ["alma", "szeder", "görögdinnye", "spritz", "áfonya", "málna" , "lime", "mix", "körte", "passionfruit", "egyéb"],
+			"alkoholos": ["alkoholos", "alkoholmentes"]
           }
         }
       },
