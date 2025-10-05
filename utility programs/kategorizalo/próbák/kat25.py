@@ -1071,7 +1071,7 @@ class TermekTagger:
 if __name__ == '__main__':
     os.makedirs('kepek', exist_ok=True)
     # kategória-JSON felderítés
-    fname_candidates = ['kategoriak_1004.json']
+    fname_candidates = ['kategoriak_1005.json']
     kategoriak_dict = None
     for fn in fname_candidates:
         if os.path.exists(fn):
@@ -1081,10 +1081,10 @@ if __name__ == '__main__':
     if kategoriak_dict is None:
         raise FileNotFoundError("Nem találom a kategória JSON-t. Ellenőrizd a fájlnevet!")
 
-    termekek = beolvas_termekek_csv('termekek_spar_katRdy.csv')
+    termekek = beolvas_termekek_csv('alkoholok.csv')
 
     eredmenyek = []
-    for p in ('eredmeny.json', 'eredmenyek.json'):
+    for p in ('eredmeny_alkohol.json', 'eredmenyek.json'):
         if os.path.exists(p):
             with open(p, 'r', encoding='utf-8') as f:
                 eredmenyek = json.load(f)
