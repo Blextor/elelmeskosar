@@ -1,0 +1,56 @@
+﻿{
+  "files": {
+    "spar": "data\\markets_data\\spar_normalized_data_20260607_021630.csv",
+    "prima": "data\\markets_data\\prima_normalized_data_20260607_145253.csv"
+  },
+  "counts": {
+    "spar_rows": 7822,
+    "prima_rows": 4297,
+    "spar_rows_with_barcode": 7277,
+    "prima_rows_with_barcode": 4265,
+    "spar_unique_barcodes": 7277,
+    "prima_unique_barcodes": 4265,
+    "common_unique_barcodes": 2178,
+    "spar_unique_names": 7790,
+    "prima_unique_names": 4280,
+    "common_unique_names": 2042,
+    "spar_unique_barcode_name_pairs": 7277,
+    "prima_unique_barcode_name_pairs": 4265,
+    "common_barcode_name_pairs": 2002,
+    "common_barcodes_without_exact_name_match": 176
+  },
+  "duplicates": {
+    "spar": {
+      "pairs_with_duplicate_rows": 0,
+      "max_rows_per_pair": 1
+    },
+    "prima": {
+      "pairs_with_duplicate_rows": 0,
+      "max_rows_per_pair": 1
+    }
+  },
+  "item_price_common_barcode_name": {
+    "compared_pairs": 2002,
+    "prima_more_expensive": 1885,
+    "prima_cheaper": 111,
+    "same_item_price": 6,
+    "median_diff_prima_minus_spar": 74.0,
+    "median_pct_prima_vs_spar": 9.058402860548272,
+    "same_package_unit_and_step": 2002
+  },
+  "base_price_common_barcode_name": {
+    "compared_pairs_same_base_unit": 2002,
+    "prima_more_expensive": 1885,
+    "prima_cheaper": 111,
+    "same_base_price": 6,
+    "median_diff_prima_minus_spar": 433.3333333333335,
+    "median_pct_prima_vs_spar": 9.058402860548265
+  },
+  "outputs": {
+    "common_price_comparison": "analysis\\reports\\spar_prima_20260607_021630_145253\\common_barcode_and_name_price_comparison.csv",
+    "base_price_comparable": "analysis\\reports\\spar_prima_20260607_021630_145253\\common_barcode_and_name_base_price_comparable.csv",
+    "top20_prima_more_expensive_base_price": "analysis\\reports\\spar_prima_20260607_021630_145253\\top20_prima_more_expensive_base_price.csv",
+    "top20_prima_cheaper_base_price": "analysis\\reports\\spar_prima_20260607_021630_145253\\top20_prima_cheaper_base_price.csv",
+    "common_barcodes_without_exact_name_match": "analysis\\reports\\spar_prima_20260607_021630_145253\\common_barcodes_without_exact_name_match.csv"
+  }
+}

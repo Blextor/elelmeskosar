@@ -1,0 +1,224 @@
+index,name,slug,id,parent_slug,depth,subcategories
+2,Jó áras termékek,jo-aras-termekek-2,a569f055bed5df707fe5cd8a,,0,27
+3,CBA PIROS - Alkoholmentes ital,cba-piros-alkoholmentes-ital-3,4246bcba9abc23d72e6a1d9d,jo-aras-termekek-2,1,0
+4,CBA PIROS - Állateledel,cba-piros-allateledel-4,54685817603e33abae34b644,jo-aras-termekek-2,1,0
+5,CBA PIROS - Baba,cba-piros-baba-5,9a95f0a3ee2411dca8fdfcb6,jo-aras-termekek-2,1,0
+6,CBA PIROS - Édesség,cba-piros-edesseg-6,ebb218607f62380db7c694bb,jo-aras-termekek-2,1,0
+7,CBA PIROS - Ételízesítés,cba-piros-etelizesites-7,13d74ae71ce30fceb87ea4f7,jo-aras-termekek-2,1,0
+8,CBA PIROS - Fagyasztott élelmiszer,cba-piros-fagyasztott-elelmiszer-8,e9849963e911ef63f6557981,jo-aras-termekek-2,1,0
+9,CBA PIROS - Háztartás,cba-piros-haztartas-9,b5c6d3576289f8d2ca1f6cf9,jo-aras-termekek-2,1,0
+10,CBA PIROS - Húskészítmény,cba-piros-huskeszitmeny-10,2d2c4121eba6125c93419f30,jo-aras-termekek-2,1,0
+11,CBA PIROS - Instant,cba-piros-instant-11,a068fdc29ccec8748ebf6f28,jo-aras-termekek-2,1,0
+12,"CBA PIROS - Kávé, tea, kakaó",cba-piros-kave-tea-kakao-12,d14a2f9ccc889e1ce5a42eb7,jo-aras-termekek-2,1,0
+13,"CBA PIROS - Konzerv, savanyú",cba-piros-konzerv-savanyu-13,7300bb47db9cdae5d1bc24d0,jo-aras-termekek-2,1,0
+14,CBA PIROS - Kozmetika,cba-piros-kozmetika-14,964176a98f13a50648b5242d,jo-aras-termekek-2,1,0
+15,"CBA PIROS - Lekvár, méz, krém",cba-piros-lekvar-mez-krem-15,9a0a3987a00d31f04db7db01,jo-aras-termekek-2,1,0
+16,CBA PIROS - Mosogatószer,cba-piros-mosogatoszer-16,5ad7426709d638eff5aec85f,jo-aras-termekek-2,1,0
+18,"CBA PIROS - Müzli, gabonapehely",cba-piros-muzli-gabonapehely-18,bace98fbc4687b89fe88b70c,jo-aras-termekek-2,1,0
+19,CBA PIROS - Pékáru,cba-piros-pekaru-19,693cced92c37aa27650e7eac,jo-aras-termekek-2,1,0
+20,CBA PIROS - Sajt,cba-piros-sajt-20,33e386ceea403b1e8f4d8418,jo-aras-termekek-2,1,0
+21,CBA PIROS - Sós rágcsálnivaló,cba-piros-sos-ragcsalnivalo-21,a2e83bec823e300b8805f64f,jo-aras-termekek-2,1,0
+22,CBA PIROS - Sütés-főzés,cba-piros-sutes-fozes-22,da3a7dc1a03593615b0f8302,jo-aras-termekek-2,1,0
+23,"CBA PIROS - Szósz, mártás, öntet",cba-piros-szosz-martas-ontet-23,725748eadfcd755045682a06,jo-aras-termekek-2,1,0
+24,CBA PIROS - Takarítás,cba-piros-takaritas-24,c02b0a9ec0a57cbb6ffb4380,jo-aras-termekek-2,1,0
+25,"CBA PIROS - Tej, tejital",cba-piros-tej-tejital-25,5f88c1e53d0840086ee54d36,jo-aras-termekek-2,1,0
+26,CBA PIROS - Tejdesszert,cba-piros-tejdesszert-26,3a42f1549865112cf0407dcb,jo-aras-termekek-2,1,0
+27,CBA PIROS - Tejtermékek,cba-piros-tejtermekek-27,32127ba13f81d88e18f00e5a,jo-aras-termekek-2,1,0
+28,CBA PIROS - Tészta,cba-piros-teszta-28,e6ae8626a2fcb5b7042887be,jo-aras-termekek-2,1,0
+29,"CBA PIROS - Vaj, vajkrém",cba-piros-vaj-vajkrem-29,09a74a2658226c7ab2168c26,jo-aras-termekek-2,1,0
+30,"CBA PIROS - Zöldség, gyümölcs",cba-piros-zoldseg-gyumolcs-30,d19b5a68dc7fa13a431d79fc,jo-aras-termekek-2,1,0
+31,Tudatos táplálkozás,tudatos-taplalkozas-31,612d7ef047c29f5988fc6267,,0,4
+32,Gluténmentes élelmiszer,glutenmentes-elelmiszer-32,f20196cbd022a009385c7b43,tudatos-taplalkozas-31,1,0
+33,"Cukormentes-, hozzáadott cukrot nem tartalmaz",cukormentes-hozzaadott-cukrot-nem-tartalmaz-33,9e76b2e88d3a6de236055502,tudatos-taplalkozas-31,1,0
+34,Laktózmentes élelmiszer,laktozmentes-elelmiszer-34,46d9602b8b8c2e3b48e2c7e2,tudatos-taplalkozas-31,1,0
+35,"Bio-, és növényi élelmiszer",bio-es-novenyi-elelmiszer-35,11153ca65d5ee1c80fcacc68,tudatos-taplalkozas-31,1,0
+36,"Zöldség, gyümölcs",zoldseg-gyumolcs-36,e997682e238434675f908fd3,,0,4
+37,Zöldség,zoldseg-37,ae1a1ce5d464cb921dad1d4d,zoldseg-gyumolcs-36,1,0
+38,Gyümölcs,gyumolcs-38,8b34a650314672762e0a169c,zoldseg-gyumolcs-36,1,0
+39,Termény,termeny-39,b0dfaba5548b8be41e8154d2,zoldseg-gyumolcs-36,1,0
+40,Aszalvány,aszalvany-40,24bf7d07f1d15758ef34f54d,zoldseg-gyumolcs-36,1,0
+41,"Tej, tejital",tej-tejital-41,2ab5e6813d279c8be4fde0d9,,0,3
+42,Tej,tej-42,6bf9cd50c32442bbab528975,tej-tejital-41,1,0
+43,"Tejital, kakaóital",tejital-kakaoital-43,14f1cd264b2a212729b24a30,tej-tejital-41,1,0
+44,Jegeskávé,jegeskave-44,66281ce04dcbadf4d8335e30,tej-tejital-41,1,0
+46,Tejtermékek,tejtermekek-46,1c17f64de6930f1fd23dc563,,0,6
+47,Joghurt,joghurt-47,848e1abcc5150a54352643bd,tejtermekek-46,1,0
+48,Kefir,kefir-48,59e8fcbc5aeab8a06d2f2b31,tejtermekek-46,1,0
+49,Margarin,margarin-49,735344cfb4fbccb16800fb54,tejtermekek-46,1,0
+50,"Túró, kőrözött",turo-korozott-50,8a3c03789bd7dbb2f4584e3f,tejtermekek-46,1,0
+51,Tejföl,tejfol-51,6f777f9a7ad2261769fa0e7d,tejtermekek-46,1,0
+52,Tejszín,tejszin-52,34e6dba46e49d3b9d0c84d67,tejtermekek-46,1,0
+53,"Vaj, vajkrém",vaj-vajkrem-53,766aa1a14c96acb748a7b201,,0,2
+54,Vaj,vaj-54,2d3e875b4004c232686b7510,vaj-vajkrem-53,1,0
+55,Vajkrém,vajkrem-55,5e0b822af3a4783d0601338d,vaj-vajkrem-53,1,0
+56,Tejdesszert,tejdesszert-56,e011155f1c3e1a71f316915d,,0,5
+57,Puding,puding-57,4595afbad1064d5771785c7c,tejdesszert-56,1,0
+58,Krémtúró,kremturo-58,da9ab4780eb68342bde0243b,tejdesszert-56,1,0
+59,"Tejberizs, tejbegríz",tejberizs-tejbegriz-59,7c0c7f6c1d39ca5cd7e69422,tejdesszert-56,1,0
+60,Túródesszert,turodesszert-60,05057f1f1b23b378c02a6982,tejdesszert-56,1,0
+61,Tejszelet,tejszelet-61,1843bad3ebd174c24e49fa41,tejdesszert-56,1,0
+62,Sajt,sajt-62,667e44fb97d690a2bc480865,,0,7
+63,Kemény sajt,kemeny-sajt-63,0b332ef193d247aed11056db,sajt-62,1,0
+64,Félkemény sajt,felkemeny-sajt-64,bcfb7b7c7b6ab5a70882cd6c,sajt-62,1,0
+65,"Camembert, brie, specialitások",camembert-brie-specialitasok-65,50cd45959bd0050c3e98f337,sajt-62,1,0
+66,Friss sajt,friss-sajt-66,de00b135342660708b5e76a2,sajt-62,1,0
+67,"Szeletelt, reszelt sajtok",szeletelt-reszelt-sajtok-67,270cdc83ec7e3eae4a502745,sajt-62,1,0
+68,Kördobozos sajtok,kordobozos-sajtok-68,68765c529ab0dca587442b66,sajt-62,1,0
+69,"Tömlős sajtok, krémsajtok",tomlos-sajtok-kremsajtok-69,384571601ddee15a548844e6,sajt-62,1,0
+70,Pékáru,pekaru-70,39fe3511f29c553b180ba7ab,,0,3
+71,Csomagolt pékáru,csomagolt-pekaru-71,93bf77aa288461641b3aff74,pekaru-70,1,0
+72,Friss pékáru,friss-pekaru-72,a505209c780b2454ebefd773,pekaru-70,1,0
+73,Cukrász sütemény,cukrasz-sutemeny-73,2d82d4733c1effde2a0dc079,pekaru-70,1,0
+74,"Müzli, gabonapehely",muzli-gabonapehely-74,5aaadaa265285dd101771d26,,0,4
+75,Gabonapehely,gabonapehely-75,6271ccbc6e881910cad08650,muzli-gabonapehely-74,1,0
+76,Kukorica- és zabpehely,kukorica-es-zabpehely-76,c28a76ad97632013cb3c4be1,muzli-gabonapehely-74,1,0
+77,"Müzli, kása",muzli-kasa-77,9cba9250d61eb711c772fad6,muzli-gabonapehely-74,1,0
+78,Müzli- és egyéb szelet,muzli-es-egyeb-szelet-78,d8fb3fa48eb2efca9b2e4dbd,muzli-gabonapehely-74,1,0
+79,Tojás,tojas-79,4383d68ba7722054c486dca5,,0,0
+80,Tészta,teszta-80,26913f94e4a2b0311f0cb310,,0,2
+81,Leves tészta,leves-teszta-81,11fccd39de8d61c331ccd94b,teszta-80,1,0
+82,Köret tészta,koret-teszta-82,6e4d110ec0b1e9329ee9ff0e,teszta-80,1,0
+83,Friss húsok,friss-husok-83,578a65a477f059f683450ae7,,0,2
+84,Sertéshús,serteshus-84,56181c4a21130477f1eed332,friss-husok-83,1,0
+86,Pulykahús,pulykahus-86,ce13038585e8b900565a292b,friss-husok-83,1,0
+88,Húskészítmény,huskeszitmeny-88,6f652202e659de896a947396,,0,8
+89,Párizsi,parizsi-89,02612066155468fc44a37504,huskeszitmeny-88,1,0
+90,Felvágott,felvagott-90,ab591fd41eab9127c11f7947,huskeszitmeny-88,1,0
+91,Kolbász,kolbasz-91,a04c7f93d0e62992d709dcb9,huskeszitmeny-88,1,0
+92,Szalámi,szalami-92,4630c14156f6e0057cf70bbe,huskeszitmeny-88,1,0
+93,"Sonka, füstölt áru",sonka-fustolt-aru-93,7a94099e4fce177760427489,huskeszitmeny-88,1,0
+94,"Virsli, debreceni",virsli-debreceni-94,eb55d329b35408274a88a634,huskeszitmeny-88,1,0
+95,Májas,majas-95,20c43f2b7d7ef6dbb6609dad,huskeszitmeny-88,1,0
+96,"Szalonna, zsír, tepertő",szalonna-zsir-teperto-96,75796d8a5844600cf933692d,huskeszitmeny-88,1,0
+97,"Konzerv, savanyú",konzerv-savanyu-97,67fe7c7703aef9dd2eaf40e4,,0,6
+98,Készétel konzerv,keszetel-konzerv-98,47a7ded699c8f76207ed7402,konzerv-savanyu-97,1,0
+99,Zöldség konzerv,zoldseg-konzerv-99,3ee7bf21493c43da77778add,konzerv-savanyu-97,1,0
+100,Savanyúság,savanyusag-100,a67f33936364204308af0748,konzerv-savanyu-97,1,0
+101,"Gyümölcs konzerv, befőtt",gyumolcs-konzerv-befott-101,03387e837ca763ef0589ca64,konzerv-savanyu-97,1,0
+102,Hal konzerv,hal-konzerv-102,4056c4b5dda8e1af74d06a8c,konzerv-savanyu-97,1,0
+103,"Máj-, húskonzerv, melegszendvicskrém",maj-huskonzerv-melegszendvicskrem-103,7b9ebba722c408ab99562081,konzerv-savanyu-97,1,0
+104,"Lekvár, méz, krém",lekvar-mez-krem-104,86bf32aadbd84661f743eaa9,,0,3
+105,Lekvár,lekvar-105,74c293c2e8a3b51e331ae207,lekvar-mez-krem-104,1,0
+106,Méz,mez-106,c0781be7ab7295d567b0024c,lekvar-mez-krem-104,1,0
+107,Mogyorókrém,mogyorokrem-107,43b0fc8836fc66e3d0f347fd,lekvar-mez-krem-104,1,0
+108,"Szósz, mártás, öntet",szosz-martas-ontet-108,167ca8bc2000561382548bdf,,0,6
+109,Ketchup,ketchup-109,dcc56058f75fb1813b125d9d,szosz-martas-ontet-108,1,0
+110,Mustár,mustar-110,c30cd4734749679fa0ad7630,szosz-martas-ontet-108,1,0
+111,Majonéz,majonez-111,b151c0b263a366062c9e886e,szosz-martas-ontet-108,1,0
+112,Torma,torma-112,b4f67d496f24eee9c64f8e7c,szosz-martas-ontet-108,1,0
+113,"Szósz, mártás",szosz-martas-113,e933e87328aee43da5f50bf4,szosz-martas-ontet-108,1,0
+114,Salátaöntet,salataontet-114,530f497a073691f4872470b7,szosz-martas-ontet-108,1,0
+115,Instant,instant-115,d38ed0bccf28674fb94cfe80,,0,4
+116,Leveskocka,leveskocka-116,09b298987056206e1c22eab6,instant-115,1,0
+117,Instant tészta- és leves,instant-teszta-es-leves-117,c4f17ca989461140a8024b0b,instant-115,1,0
+118,Levespor,levespor-118,c2f3b0e0765d11cf362be160,instant-115,1,0
+119,Ételalap,etelalap-119,fa8f2f97d74bf3398e74c04e,instant-115,1,0
+120,Ételízesítés,etelizesites-120,72b3686fdbb738f4d8d1f04f,,0,5
+121,"Cukor, édesítőszer",cukor-edesitoszer-121,233deb03a54223646ec3f20e,etelizesites-120,1,0
+122,"Ecet, citromlé",ecet-citromle-122,b991b643cb540b6b3d1fc9d1,etelizesites-120,1,0
+123,Fűszer,fuszer-123,42daa1dd78d9cb447104fe7e,etelizesites-120,1,0
+124,Pác,pac-124,fc0d5a02b5c325b9e8c78e96,etelizesites-120,1,0
+125,Ételízesítő,etelizesito-125,c3ebcf89876fb7d2ead64c7e,etelizesites-120,1,0
+126,Sütés-főzés,sutes-fozes-126,bc2a4e28309647b7da9a56cb,,0,6
+127,"Liszt, dara, panírmorzsa",liszt-dara-panirmorzsa-127,55c0cc76ef30caa50f662f88,sutes-fozes-126,1,0
+128,Rizs,rizs-128,ee7d12079efd3cdd4f5eb33b,sutes-fozes-126,1,0
+129,Pudingpor,pudingpor-129,5ad1b79070fa76da1068aa1c,sutes-fozes-126,1,0
+130,Sütési kellékanyag,sutesi-kellekanyag-130,ed51bd4b9e4284ba899d3a68,sutes-fozes-126,1,0
+131,Olaj,olaj-131,63ebb4755038b22ec7807507,sutes-fozes-126,1,0
+132,"Aroma, befőzési alapanyag",aroma-befozesi-alapanyag-132,b956108dbecfa01528a32efc,sutes-fozes-126,1,0
+133,Fagyasztott élelmiszer,fagyasztott-elelmiszer-133,977ee14e690293db5da3fed2,,0,6
+134,Fagyasztott pizza,fagyasztott-pizza-134,48e0daef3cafc08417ce0512,fagyasztott-elelmiszer-133,1,0
+135,Panírozott termékek,panirozott-termekek-135,1a1a59692100e0d34ead165e,fagyasztott-elelmiszer-133,1,0
+136,Fagyasztott zöldség,fagyasztott-zoldseg-136,47e5b7f217b11da2e08272f9,fagyasztott-elelmiszer-133,1,0
+137,Fagyasztott gyümölcs,fagyasztott-gyumolcs-137,b5d62a67e52c875da9cdbbd8,fagyasztott-elelmiszer-133,1,0
+138,Fagyasztott készétel,fagyasztott-keszetel-138,3b4fb612df96d1099033f628,fagyasztott-elelmiszer-133,1,0
+139,"Fagyasztott hal, tenger gyümölcsei",fagyasztott-hal-tenger-gyumolcsei-139,d72df8971f978650c9b38806,fagyasztott-elelmiszer-133,1,0
+140,Jégkrém és fagyasztott desszert,jegkrem-es-fagyasztott-desszert-140,93ceb01322633ffffab9d659,,0,3
+141,Pálcikás és tölcséres jégkrém,palcikas-es-tolcseres-jegkrem-141,f0b838ef07337c4968c47046,jegkrem-es-fagyasztott-desszert-140,1,0
+142,Fagyasztott desszert,fagyasztott-desszert-142,b6fbd540fae82c5af7a0483b,jegkrem-es-fagyasztott-desszert-140,1,0
+143,Dobozos jégkrém,dobozos-jegkrem-143,fb32641ec6c41f0fdd25e766,jegkrem-es-fagyasztott-desszert-140,1,0
+144,Kényelmi ételek,kenyelmi-etelek-144,e364ed78e90d2c1ce721a8d5,,0,4
+145,"Saláta, hidegtál",salata-hidegtal-145,dd3d6e02ce53bb613e9bc2df,kenyelmi-etelek-144,1,0
+146,Készétel,keszetel-146,d3c7df9067f0a1f379865987,kenyelmi-etelek-144,1,0
+147,Tészta,teszta-147,80132ba7857ee39e31cbf733,kenyelmi-etelek-144,1,0
+148,Szendvicskrém,szendvicskrem-148,56421ddc02ebe8cec939c89d,kenyelmi-etelek-144,1,0
+150,Sós rágcsálnivaló,sos-ragcsalnivalo-150,9a2bfa454abc138c7e4ee2d1,,0,6
+151,Sós keksz,sos-keksz-151,bf6cd8024735e3998d769c93,sos-ragcsalnivalo-150,1,0
+152,"Sós pálcika, kréker",sos-palcika-kreker-152,eb32e0d455aab6dc3509765d,sos-ragcsalnivalo-150,1,0
+153,Sós és sótlan magvak,sos-es-sotlan-magvak-153,ccd2120ebe7984f6ff7eaa85,sos-ragcsalnivalo-150,1,0
+154,Popcorn,popcorn-154,387c516a2684036247ad6e19,sos-ragcsalnivalo-150,1,0
+155,"Chips, burgonyaszirom",chips-burgonyaszirom-155,cfa78899b441bd7c909477ff,sos-ragcsalnivalo-150,1,0
+156,"Nachos, mártogató dip",nachos-martogato-dip-156,8603dbeb4a1d735fcbfeda5b,sos-ragcsalnivalo-150,1,0
+157,Édesség,edesseg-157,989b552ba82ae444dbdf4206,,0,6
+158,Csokoládé,csokolade-158,b83d5b8b0da40b37adfde484,edesseg-157,1,0
+159,Desszert,desszert-159,9ab510e8ab5aaa35a108f43a,edesseg-157,1,0
+160,Édes keksz,edes-keksz-160,7703604c23a202e22bce4baf,edesseg-157,1,0
+161,"Ostya, nápolyi",ostya-napolyi-161,e846731c16b1f6336d6f900b,edesseg-157,1,0
+162,"Piskóta, croissant",piskota-croissant-162,4b57876c13b901b12d52af62,edesseg-157,1,0
+163,"Cukorka, rágógumi, egyéb",cukorka-ragogumi-egyeb-163,081e5bf8b6a47912a99cacbe,edesseg-157,1,0
+164,"Kávé, tea, kakaó",kave-tea-kakao-164,b6dcd7be805697d61307ab5d,,0,6
+165,"Őrölt, szemes kávé",orolt-szemes-kave-165,71ea06662da498afc7af69b6,kave-tea-kakao-164,1,0
+166,"Instant kávé, cappuccino",instant-kave-cappuccino-166,9da06909b13fbdd89e6cd73c,kave-tea-kakao-164,1,0
+167,Kávékapszula,kavekapszula-167,3ecac628d97504d68fb67f19,kave-tea-kakao-164,1,0
+168,"Kávékrém, kávétejpor",kavekrem-kavetejpor-168,53b2107b18d5ded8d4c9ae9f,kave-tea-kakao-164,1,0
+169,Tea,tea-169,848fffd14c548252f97863c6,kave-tea-kakao-164,1,0
+170,"Kakaópor, forró csokoládé por",kakaopor-forro-csokolade-por-170,dba0fdf3cd16676fd13cbaab,kave-tea-kakao-164,1,0
+171,Alkoholmentes ital,alkoholmentes-ital-171,1c6d5822a0bee8e1ed7997a9,,0,7
+172,Szénsavas üdítőital,szensavas-uditoital-172,cc418e2a25cd3938d90d9086,alkoholmentes-ital-171,1,0
+173,Ásványvíz,asvanyviz-173,d606a8877c03ffe4791a83e6,alkoholmentes-ital-171,1,0
+174,Ízesített ásványvíz,izesitett-asvanyviz-174,f792510c108309dfbe1aca1b,alkoholmentes-ital-171,1,0
+175,Ice tea,ice-tea-175,095069158326804fbf8025b7,alkoholmentes-ital-171,1,0
+176,"Gyümölcslé, gyümölcs ital",gyumolcsle-gyumolcs-ital-176,24eef63486fd4c2080ade3bd,alkoholmentes-ital-171,1,0
+177,"Energiaital, sportital",energiaital-sportital-177,88692fcd7dbcfe3c5d6a0196,alkoholmentes-ital-171,1,0
+178,"Szörp, italpor, pezsgőtabletta",szorp-italpor-pezsgotabletta-178,5d84c2e5ab74e63597bf36b5,alkoholmentes-ital-171,1,0
+179,"Sör, cider, koktél",sor-cider-koktel-179,c03abfbe0d38240e86103de1,,0,6
+180,Világos sör,vilagos-sor-180,f2773de14ce54118347feaba,sor-cider-koktel-179,1,0
+181,Barna sör,barna-sor-181,82b1aebb3291085bd190a0b6,sor-cider-koktel-179,1,0
+182,Búza sör,buza-sor-182,bcadf7aa3092f98b80b66a35,sor-cider-koktel-179,1,0
+183,Ízesített sör,izesitett-sor-183,61b674d86eba42ee77ccafa8,sor-cider-koktel-179,1,0
+184,Alkoholmentes sör,alkoholmentes-sor-184,4f2e8ec27d6bddbfa850c697,sor-cider-koktel-179,1,0
+185,Cider,cider-185,af56109399c20c290c07403c,sor-cider-koktel-179,1,0
+187,Szeszes ital,szeszes-ital-187,d540ca0c6086d754a48873ae,,0,5
+188,Whiskey,whiskey-188,6bf6b311e071d891edb761ef,szeszes-ital-187,1,0
+189,Vodka,vodka-189,db3fb7952db50e97d3201d00,szeszes-ital-187,1,0
+190,"Pálinka, likőr, krémlikőr",palinka-likor-kremlikor-190,8dd469fe6ec53da44b48af0c,szeszes-ital-187,1,0
+191,Vermouth,vermouth-191,431707e500c1d5a74bac56b8,szeszes-ital-187,1,0
+192,Egyéb szeszes ital,egyeb-szeszes-ital-192,7b34788d1431a6acbd2d2ae6,szeszes-ital-187,1,0
+193,"Bor, pezsgő",bor-pezsgo-193,ee5033ff9382832245405595,,0,6
+194,Fehérbor,feherbor-194,9e6dea0efa24da8572e09572,bor-pezsgo-193,1,0
+195,Rosébor,rosebor-195,4fc06bcc0043b8928c5d285e,bor-pezsgo-193,1,0
+196,Vörösbor,vorosbor-196,15f3cbe8fcbb957ee39f9a8a,bor-pezsgo-193,1,0
+197,Desszertbor,desszertbor-197,0293b16de8bab10ca893d59c,bor-pezsgo-193,1,0
+198,Gyöngyözőbor,gyongyozobor-198,daa21bc8ce2f1a16231a71cf,bor-pezsgo-193,1,0
+199,"Pezsgő, gyerekpezsgő",pezsgo-gyerekpezsgo-199,6b01c027c3c2f8da99a7504a,bor-pezsgo-193,1,0
+200,Kozmetika,kozmetika-200,a9dc3e59972bee3e054a58d7,,0,7
+201,"Fürdés, kézmosás",furdes-kezmosas-201,b2929aef9b57fa98c529f5d4,kozmetika-200,1,0
+202,Hajápolás,hajapolas-202,892065f2e4ce7217acecc89d,kozmetika-200,1,0
+203,Szájápolás,szajapolas-203,23fe0fa2ef0b4a8babd6fc85,kozmetika-200,1,0
+204,Bőrápolás,borapolas-204,495707cb6693db8d1157c595,kozmetika-200,1,0
+205,"Női kozmetikum, higiénia",noi-kozmetikum-higienia-205,132a5aea2025f1d860397972,kozmetika-200,1,0
+206,Férfi kozmetikum,ferfi-kozmetikum-206,52019efac05c3bc8d1df87bf,kozmetika-200,1,0
+207,Patika,patika-207,f744ebf29c8fb14dd53f29a4,kozmetika-200,1,0
+208,Baba,baba-208,e4078c49959564f2c703bbf3,,0,2
+209,Bébiétel,bebietel-209,b1f2537cd9a27becea0905a0,baba-208,1,0
+210,Babaápolás,babaapolas-210,8b27a91a40133e0abe6cb92f,baba-208,1,0
+211,Háztartás,haztartas-211,b2b9419459aef2a3ca5aae10,,0,2
+212,Papíráru,papiraru-212,29f4b088721e93ec8aa17ec4,haztartas-211,1,0
+214,Egyéb háztartási eszközök,egyeb-haztartasi-eszkozok-214,e4dbc8690407f42db5e95d9b,haztartas-211,1,0
+215,"Mosószer, öblítő",mososzer-oblito-215,20e1871989040c1965e0243b,,0,3
+216,Mosószer,mososzer-216,ce3e226470595fced2352466,mososzer-oblito-215,1,0
+217,Öblítő,oblito-217,14bc1be88f622dc9d331ee25,mososzer-oblito-215,1,0
+218,"Folttisztító, fehérítő, mosószer adalék",folttisztito-feherito-mososzer-adalek-218,458004882fcb151aec62b3a5,mososzer-oblito-215,1,0
+219,Mosogatószer,mosogatoszer-219,ad4b1af945772eb88dc4570c,,0,2
+220,Kézi mosogatószer,kezi-mosogatoszer-220,055e4409f0e4164cd0099cdc,mosogatoszer-219,1,0
+221,Gépi mosogatószer,gepi-mosogatoszer-221,489eb30e65c6c28f9757d92b,mosogatoszer-219,1,0
+222,Takarítás,takaritas-222,13145c92c9271d93e221a632,,0,5
+223,Tisztítószer,tisztitoszer-223,e8e9768358009bfc494c08d5,takaritas-222,1,0
+224,Fertőtlenítőszer,fertotlenitoszer-224,e3a760b0b86f45c61d7af5d9,takaritas-222,1,0
+225,"Légfrissítő, illatosító",legfrissito-illatosito-225,b108241e3fcbcd6c8a34c6ea,takaritas-222,1,0
+226,Rovarirtó szer,rovarirto-szer-226,d1706197fd5a48999b83827e,takaritas-222,1,0
+227,Takarítóeszköz,takaritoeszkoz-227,989b7dd15b501e8ada5ace47,takaritas-222,1,0
+228,Állateledel,allateledel-228,ddc70f7f7c4aa260328372f3,,0,2
+229,Kutyaeledel,kutyaeledel-229,65bb4acb523a86c0626f4442,allateledel-228,1,0
+230,Macskaeledel,macskaeledel-230,c47977ce65641ef496e0dbb3,allateledel-228,1,0
+231,Újság,ujsag-231,621bc434dd11f1040564cebd,,0,0

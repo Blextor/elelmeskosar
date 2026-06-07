@@ -1,0 +1,56 @@
+﻿{
+  "old_file": "data\\markets_data\\spar_normalized_data_20251003_070148.csv",
+  "new_file": "data\\markets_data\\spar_normalized_data_20260607_021630.csv",
+  "same_name": {
+    "comparable_changed_rows": 5125,
+    "increased_rows": 4441,
+    "decreased_rows": 684,
+    "median_pct_change": 6.963788300835655,
+    "top_increases_csv": "analysis\\reports\\spar_20260607_021630_comparisons\\older_20251003_070148_7228\\top10_same_name_base_price_increases.csv",
+    "top_decreases_csv": "analysis\\reports\\spar_20260607_021630_comparisons\\older_20251003_070148_7228\\top10_same_name_base_price_decreases.csv"
+  },
+  "same_name_and_barcode": {
+    "comparable_changed_rows": 4920,
+    "increased_rows": 4293,
+    "decreased_rows": 627,
+    "median_pct_change": 6.986899563318776,
+    "top_increases_csv": "analysis\\reports\\spar_20260607_021630_comparisons\\older_20251003_070148_7228\\top10_same_name_and_barcode_base_price_increases.csv",
+    "top_decreases_csv": "analysis\\reports\\spar_20260607_021630_comparisons\\older_20251003_070148_7228\\top10_same_name_and_barcode_base_price_decreases.csv"
+  },
+  "classic_cod_note": {
+    "same_name": {
+      "product_name_old": "Classic alaszkai tőkehalfilé darabok növényi olajban füst ízesítéssel 125 g",
+      "product_name_new": "Classic alaszkai tőkehalfilé darabok növényi olajban füst ízesítéssel 125 g",
+      "barcode_old": "5999548671962",
+      "barcode_new": "5999548671962",
+      "old_price": 1159.0,
+      "old_unit_step": 85.0,
+      "old_unit_type": "g",
+      "old_base_price": 13635.294117647058,
+      "new_price": 2575.0,
+      "new_unit_step": 85.0,
+      "new_unit_type": "g",
+      "new_base_price": 30294.11764705882,
+      "base_price_diff": 16658.823529411762,
+      "base_price_pct": 122.17428817946505,
+      "base_unit": "Ft/kg"
+    },
+    "same_name_and_barcode": {
+      "product_name_old": "Classic alaszkai tőkehalfilé darabok növényi olajban füst ízesítéssel 125 g",
+      "product_name_new": "Classic alaszkai tőkehalfilé darabok növényi olajban füst ízesítéssel 125 g",
+      "barcode_old": "5999548671962",
+      "barcode_new": "5999548671962",
+      "old_price": 1159.0,
+      "old_unit_step": 85.0,
+      "old_unit_type": "g",
+      "old_base_price": 13635.294117647058,
+      "new_price": 2575.0,
+      "new_unit_step": 85.0,
+      "new_unit_type": "g",
+      "new_base_price": 30294.11764705882,
+      "base_price_diff": 16658.823529411762,
+      "base_price_pct": 122.17428817946505,
+      "base_unit": "Ft/kg"
+    }
+  }
+}

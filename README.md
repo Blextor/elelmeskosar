@@ -13,4 +13,8 @@ Ez a repository az Élelmes Kosár adatgyűjtő, adattisztító, kategorizáló 
 
 ## Megjegyzés
 
-A projekt jelenleg szkript- és adatközpontú felépítésű. A SPAR adatfolyam fő belépési pontja: `src/markets/Spar/main_spar.py`.
+A projekt jelenleg szkript- és adatközpontú felépítésű. A Wolt alapú adatfolyamok
+fő belépési pontjai:
+
+- `src/markets/Spar/main_spar.py`
+- `src/markets/Prima/main_prima.py`

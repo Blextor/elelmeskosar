@@ -9,4 +9,5 @@ Az itt lévő almappák egy-egy kereskedőhöz tartozó lekérő, szűrő és no
 ## Almappák
 
 - `Spar/`: SPAR/Wolt API alapú adatfolyam.
+- `Prima/`: Prima/Wolt API alapú adatfolyam.
 - `Tesco/`: Tesco-hoz fenntartott éles struktúra; jelenleg üres.
