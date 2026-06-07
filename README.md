@@ -13,8 +13,9 @@ Ez a repository az Élelmes Kosár adatgyűjtő, adattisztító, kategorizáló 
 
 ## Megjegyzés
 
-A projekt jelenleg szkript- és adatközpontú felépítésű. A Wolt alapú adatfolyamok
+A projekt jelenleg szkript- és adatközpontú felépítésű. A bolti adatfolyamok
 fő belépési pontjai:
 
 - `src/markets/Spar/main_spar.py`
 - `src/markets/Prima/main_prima.py`
+- `src/markets/Tesco/main_tesco.py`

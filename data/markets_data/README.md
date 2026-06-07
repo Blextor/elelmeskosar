@@ -12,6 +12,11 @@ Itt találhatók a SPAR adatfolyam különböző feldolgozási állapotai:
 - `prima_all_data_*.csv`: Prima nyers, API-ból összegyűjtött adatok.
 - `prima_filtered_data_*.csv`: Prima szűrt adatok.
 - `prima_normalized_data_*.csv`: Prima egységes mezősémára alakított termékadatok.
+- `tesco_fetch_categories_*.csv`: Tesco landing oldalról kinyert fő fetch-kategóriák.
+- `tesco_categories_*.csv`: Tesco termékekből újraépített részletes kategóriafa.
+- `tesco_all_data_*.csv`: Tesco nyers, GraphQL API-ból összegyűjtött adatok.
+- `tesco_filtered_data_*.csv`: Tesco szűrt adatok.
+- `tesco_normalized_data_*.csv`: Tesco egységes mezősémára alakított termékadatok.
 
 ## Megjegyzés
 
