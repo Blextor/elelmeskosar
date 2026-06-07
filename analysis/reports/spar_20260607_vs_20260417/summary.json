@@ -1,0 +1,154 @@
+{
+  "old_file": "spar_normalized_data_20260417_021319.csv",
+  "new_file": "spar_normalized_data_20260607_014535.csv",
+  "old_stats": {
+    "rows": 4587,
+    "names_non_empty": 4587,
+    "names_unique": 4564,
+    "names_duplicate_keys": 19,
+    "barcodes_non_empty": 4341,
+    "barcodes_unique": 4340,
+    "barcodes_duplicate_keys": 1,
+    "ids_unique": 4587,
+    "images_non_empty": 4587,
+    "images_unique": 4587,
+    "categories_unique": 161,
+    "available_true": 4211,
+    "available_false": 376
+  },
+  "new_stats": {
+    "rows": 4728,
+    "names_non_empty": 4728,
+    "names_unique": 4709,
+    "names_duplicate_keys": 15,
+    "barcodes_non_empty": 4336,
+    "barcodes_unique": 4336,
+    "barcodes_duplicate_keys": 0,
+    "ids_unique": 4728,
+    "images_non_empty": 4726,
+    "images_unique": 4725,
+    "categories_unique": 161,
+    "available_true": 4354,
+    "available_false": 374
+  },
+  "set_comparison": {
+    "name": {
+      "old_unique": 4564,
+      "new_unique": 4709,
+      "common": 3463,
+      "only_old": 1101,
+      "only_new": 1246
+    },
+    "barcode": {
+      "old_unique": 4340,
+      "new_unique": 4336,
+      "common": 3249,
+      "only_old": 1091,
+      "only_new": 1087
+    },
+    "store_product_id": {
+      "old_unique": 4587,
+      "new_unique": 4728,
+      "common": 3512,
+      "only_old": 1075,
+      "only_new": 1216
+    },
+    "first_image": {
+      "old_unique": 4587,
+      "new_unique": 4725,
+      "common": 3239,
+      "only_old": 1348,
+      "only_new": 1486
+    },
+    "category": {
+      "old_unique": 161,
+      "new_unique": 161,
+      "common": 131,
+      "only_old": 30,
+      "only_new": 30
+    }
+  },
+  "barcode_common": {
+    "common_barcodes": 3249,
+    "same_name": 3233,
+    "different_name": 16,
+    "same_category": 0,
+    "different_category": 3249,
+    "same_image": 3057,
+    "different_image": 192,
+    "same_available": 3017,
+    "different_available": 232,
+    "same_unit": 3242,
+    "different_unit": 7
+  },
+  "name_common": {
+    "common_names": 3463,
+    "same_barcode": 3219,
+    "different_barcode": 7,
+    "lost_barcode": 39,
+    "gained_barcode": 0,
+    "both_missing_barcode": 198,
+    "same_category": 0,
+    "different_category": 3463,
+    "same_image": 3215,
+    "different_image": 248
+  },
+  "price_summary_by_common_barcode": {
+    "barcode_common_price_comparable": 3249,
+    "barcode_price_changed": 608,
+    "barcode_price_increased": 453,
+    "barcode_price_decreased": 155,
+    "barcode_price_unchanged": 2641,
+    "avg_price_diff": 11.532317636195753,
+    "median_price_diff": 0.0,
+    "avg_price_pct": 1.2040596203077394,
+    "median_price_pct": 0.0
+  },
+  "internal_conflicts": {
+    "old_barcode_to_multiple_names_rows": 0,
+    "new_barcode_to_multiple_names_rows": 0,
+    "old_name_to_multiple_barcodes_rows": 40,
+    "new_name_to_multiple_barcodes_rows": 31,
+    "old_barcode_to_multiple_names_keys": 0,
+    "new_barcode_to_multiple_names_keys": 0,
+    "old_name_to_multiple_barcodes_keys": 18,
+    "new_name_to_multiple_barcodes_keys": 14
+  },
+  "detail_files": [
+    "barcode_category_base_changes.csv",
+    "barcode_category_changes.csv",
+    "barcode_name_changes.csv",
+    "barcode_price_changes.csv",
+    "name_barcode_changes.csv",
+    "new_internal_barcode_name_conflicts.csv",
+    "new_internal_name_barcode_conflicts.csv",
+    "old_internal_barcode_name_conflicts.csv",
+    "old_internal_name_barcode_conflicts.csv",
+    "only_new_barcodes.csv",
+    "only_new_names.csv",
+    "only_old_barcodes.csv",
+    "only_old_names.csv",
+    "store_product_id_changes.csv"
+  ],
+  "category_base_comparison": {
+    "common_barcodes": 3249,
+    "same_category_full_by_barcode": 0,
+    "same_category_base_by_barcode": 0,
+    "different_category_base_by_barcode": 3249,
+    "common_names": 3463,
+    "same_category_full_by_name": 0,
+    "same_category_base_by_name": 0,
+    "different_category_base_by_name": 3463
+  },
+  "store_product_id_common": {
+    "common_ids": 3512,
+    "same_name": 3479,
+    "different_name": 33,
+    "same_barcode": 3249,
+    "different_barcode": 263,
+    "same_image": 3239,
+    "different_image": 273,
+    "same_price": 2833,
+    "different_price": 679
+  }
+}

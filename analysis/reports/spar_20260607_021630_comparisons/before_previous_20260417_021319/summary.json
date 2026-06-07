@@ -1,0 +1,144 @@
+{
+  "pair_name": "before_previous_20260417_021319",
+  "old_file": "spar_normalized_data_20260417_021319.csv",
+  "new_file": "spar_normalized_data_20260607_021630.csv",
+  "old_stats": {
+    "rows": 4587,
+    "unique_names": 4564,
+    "duplicate_name_keys": 19,
+    "barcodes_present": 4341,
+    "unique_barcodes": 4340,
+    "duplicate_barcode_keys": 1,
+    "unique_ids": 4587,
+    "images_present": 4587,
+    "unique_images": 4587,
+    "unique_categories": 161,
+    "unique_category_bases": 157,
+    "available_true": 4211,
+    "available_false": 376
+  },
+  "new_stats": {
+    "rows": 7822,
+    "unique_names": 7790,
+    "duplicate_name_keys": 28,
+    "barcodes_present": 7277,
+    "unique_barcodes": 7277,
+    "duplicate_barcode_keys": 0,
+    "unique_ids": 7822,
+    "images_present": 7814,
+    "unique_images": 7810,
+    "unique_categories": 244,
+    "unique_category_bases": 241,
+    "available_true": 7163,
+    "available_false": 659
+  },
+  "set_comparison": {
+    "name": {
+      "old_unique": 4564,
+      "new_unique": 7790,
+      "common": 4330,
+      "only_old": 234,
+      "only_new": 3460
+    },
+    "barcode": {
+      "old_unique": 4340,
+      "new_unique": 7277,
+      "common": 4103,
+      "only_old": 237,
+      "only_new": 3174
+    },
+    "store_product_id": {
+      "old_unique": 4587,
+      "new_unique": 7822,
+      "common": 4396,
+      "only_old": 191,
+      "only_new": 3426
+    },
+    "first_image": {
+      "old_unique": 4587,
+      "new_unique": 7810,
+      "common": 4008,
+      "only_old": 579,
+      "only_new": 3802
+    },
+    "category": {
+      "old_unique": 161,
+      "new_unique": 244,
+      "common": 0,
+      "only_old": 161,
+      "only_new": 244
+    },
+    "category_base": {
+      "old_unique": 157,
+      "new_unique": 241,
+      "common": 124,
+      "only_old": 33,
+      "only_new": 117
+    }
+  },
+  "barcode_common": {
+    "common_barcodes": 4103,
+    "same_name": 4081,
+    "different_name": 22,
+    "same_category": 0,
+    "different_category": 4103,
+    "same_category_base": 0,
+    "different_category_base": 4103,
+    "same_image": 3806,
+    "different_image": 297,
+    "same_available": 3809,
+    "different_available": 294,
+    "same_unit": 4096,
+    "different_unit": 7
+  },
+  "name_common": {
+    "common_names": 4330,
+    "same_barcode": 4061,
+    "different_barcode": 8,
+    "lost_barcode": 43,
+    "gained_barcode": 0,
+    "both_missing_barcode": 218,
+    "same_category": 0,
+    "different_category": 4330,
+    "same_category_base": 0,
+    "different_category_base": 4330,
+    "same_image": 3977,
+    "different_image": 353
+  },
+  "price_summary_by_common_barcode": {
+    "common_barcode_price_comparable": 4103,
+    "price_changed": 738,
+    "price_increased": 576,
+    "price_decreased": 162,
+    "price_unchanged": 3365,
+    "avg_price_diff": 12.500731172312943,
+    "median_price_diff": 0.0,
+    "avg_price_pct": 1.2445259200320318,
+    "median_price_pct": 0.0
+  },
+  "internal_conflicts": {
+    "old_barcode_to_multiple_names_rows": 0,
+    "new_barcode_to_multiple_names_rows": 0,
+    "old_name_to_multiple_barcodes_rows": 40,
+    "new_name_to_multiple_barcodes_rows": 57,
+    "old_barcode_to_multiple_names_keys": 0,
+    "new_barcode_to_multiple_names_keys": 0,
+    "old_name_to_multiple_barcodes_keys": 18,
+    "new_name_to_multiple_barcodes_keys": 27
+  },
+  "detail_files": [
+    "barcode_category_base_changes.csv",
+    "barcode_category_changes.csv",
+    "barcode_name_changes.csv",
+    "barcode_price_changes.csv",
+    "name_barcode_changes.csv",
+    "new_internal_barcode_name_conflicts.csv",
+    "new_internal_name_barcode_conflicts.csv",
+    "old_internal_barcode_name_conflicts.csv",
+    "old_internal_name_barcode_conflicts.csv",
+    "only_new_barcodes.csv",
+    "only_new_names.csv",
+    "only_old_barcodes.csv",
+    "only_old_names.csv"
+  ]
+}
