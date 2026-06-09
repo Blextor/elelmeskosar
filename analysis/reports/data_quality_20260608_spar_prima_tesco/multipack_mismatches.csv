@@ -1,0 +1,36 @@
+store,product_name,barcode,unit_price,unit_step,unit_type,expected_step_from_name,expected_unit_from_name,categories
+Spar,Pöttyös Óriás Túró Rudi natúr túródesszert kakaós étbevonóval 6 x 51 g (306 g),5998200752285,1835.0,51.0,g,306.0,g,tejszeletek-turo-rudi-95
+Spar,Giotto ropogós ostya lágy tejes-mogyorós töltelékkel 2 x 5 db 43 g,8000500319475,944.0,43.0,g,10.0,db,csokolade-175
+Spar,Cornetto Max pisztácia ízű jégkrém 4 x 360 ml,8721274816150,2599.0,360.0,ml,1440.0,ml,jegkremek-197
+Spar,Bonduelle Gold szuperédes morzsolt csemegekukorica 2 x 170 g (340 g),3083680996082,1154.0,280.0,g,340.0,g,zoldsegkonzerv-210
+Spar,Rio Mare tonhaldarab olívaolajban 4 x 80 g,8004030383562,3149.0,208.0,g,320.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,Rio Mare tonhaldarab olívaolajban 3 x 80 g,8004030344938,3149.0,156.0,g,240.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,DESPAR tonhal törzsdarabok natúr lében 3 x 80 g,8001300285045,2099.0,168.0,g,240.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,Twist tonhal natúr lében 3 x 80 g (240 g),5999560674538,1994.0,168.0,g,240.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,Twist tonhal napraforgóolajban 3 x 80 g (240 g),5999560674514,1994.0,156.0,g,240.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,DESPAR tonhal törzsdarabok natúr lében 2 x 160 g,8001300285069,2364.0,224.0,g,320.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,Rio Mare tonhal natúr lében 3 x 80 g,8004030341562,3149.0,168.0,g,240.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,Twist tonhaltörzs napraforgóolajban 4 x 80 g (320 g),5999882933030,2309.0,208.0,g,320.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,Twist tonhaltörzs natúr lében 4 x 80 g (320 g),5999882933726,2309.0,224.0,g,320.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,Rio Mare Filodolio tonhaldarab olívaolajban 3 x 65 g,8004030104129,3359.0,156.0,g,195.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,DESPAR tonhal törzsdarabok olívaolajban 3 x 70 g (210 g),8001300244226,2099.0,156.0,g,210.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,Twist tonhaltörzs napraforgóolajban édes chilis ízesítéssel 3 x 80 g (240 g),5999560674477,1994.0,156.0,g,240.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,Twist tonhaltörzs napraforgóolajban jalapeno paprikás ízesítéssel 3 x 80 g (240 g),5999560674491,1994.0,156.0,g,240.0,g,halkonzerv-huskonzerv-melegszendvicskrem-212
+Spar,Lovely papír zsebkendő 4 rétegű 15 x 10 db,5999033891806,629.0,415.0,g,150.0,db,papirzsebkendo-269
+Spar,Zewa Softis Original illatmentes papír zsebkendő 4 rétegű 10 x 9 db,7322541110776,765.0,10.0,db,90.0,db,papirzsebkendo-269
+Spar,S-Budget papírzsebkendő 3 rétegű 15 x 10 db,5999139403798,524.0,320.0,g,150.0,db,papirzsebkendo-269
+Spar,SPAR biztonsági gyufa 10 x 40 db,5999033890229,134.0,75.0,g,400.0,db,egyeb-haztartasi-kellekek-283
+Spar,Libresse Ultra Regular+ szárnyas egészségügyi betét 2 x 10 db,7310791245607,1259.0,105.0,g,20.0,db,intim-higienia-306
+Spar,Libresse Ultra Regular+ Deo szárnyas egészségügyi betét illatosított 2 x 10 db,7322540356847,1259.0,100.0,g,20.0,db,intim-higienia-306
+Spar,"Libresse Ultra Large+ Goodnight szárnyas egészségügyi betét, éjszakai használatra 2 x 8 db",7322540960273,1259.0,120.0,g,16.0,db,intim-higienia-306
+Spar,Libresse Ultra Regular+ Natural szárnyas egészségügyi betét 2 x 10 db,7322540344011,1259.0,90.0,g,20.0,db,intim-higienia-306
+Spar,S-Budget Baby Classic nedves törlőkendő 4 x 72 db,5999033890168,1524.0,790.0,g,288.0,db,babaapolas-318
+Prima,Pöttyös Óriás Túró Rudi natúr túródesszert kakaós étbevonóval 6 x 51 g (306 g),5998200752285,1999.0,51.0,g,306.0,g,turodesszert-60
+Prima,Bonduelle Gold szuperédes morzsolt csemegekukorica 2 x 170 g (340 g),3083680996082,1299.0,280.0,g,340.0,g,zoldseg-konzerv-99
+Prima,Twist tonhal natúr lében 3 x 80 g (240 g),5999560674538,2199.0,168.0,g,240.0,g,hal-konzerv-102
+Prima,Twist tonhal napraforgóolajban 3 x 80 g (240 g),5999560674514,2199.0,156.0,g,240.0,g,hal-konzerv-102
+Prima,Giotto ropogós ostya lágy tejes-mogyorós tölt. 2x5db 43g,8000500319475,999.0,43.0,g,10.0,db,ostya-napolyi-161
+Prima,Libresse Ultra Regular+ szárnyas egészségügyi betét 2 x 10 db,7310791245607,1599.0,105.0,g,20.0,db,noi-kozmetikum-higienia-205
+Tesco,"Tesco Latte Macchiato Caramel őrölt kávé és teljes tejpor cukorral 8 x 5 g + 8 x 13,2 g (145 g)",05059944694757,1859.0,105.6,g,40.0,g,Italok|Kávé|Kávépárnák és -kapszulák|Dolce Gusto kompatibilis
+Tesco,"Tesco Cappuccino őrölt, pörkölt kávé és zsíros tejpor kapszulákban 8 x 7 g + 8 x 17 g (192 g)",05059944694665,1859.0,136.0,g,56.0,g,Italok|Kávé|Kávépárnák és -kapszulák|Dolce Gusto kompatibilis
+Tesco,"Addo Nick Jr. Ready Steady Dough Unicorn Dreams gyurma készlet 4 x 56 g, 2 x 28 g (280 g)",05056289402719,4599.0,56.0,g,224.0,g,Otthon-hobbi|Játékok|Kreatív játékok|Kreatív játékok

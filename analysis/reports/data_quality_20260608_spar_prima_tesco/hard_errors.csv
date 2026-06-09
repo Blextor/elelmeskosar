@@ -1,0 +1,2 @@
+store,product_name,barcode,unit_price,unit_step,unit_type,reasons
+Spar,ÁRrésSTOP,,0.0,1.0,db,invalid_unit_price

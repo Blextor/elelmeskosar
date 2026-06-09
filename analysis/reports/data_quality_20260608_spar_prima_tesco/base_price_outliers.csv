@@ -1,0 +1,231 @@
+store,product_name,barcode,unit_price,unit_step,unit_type,base_price,base_unit,reason,categories
+Tesco,LEGO Editions 43020 A FIFA labdarúgó-világbajnokság hivatalos trófeája,05702018069608,72990.0,1.0,db,72990.0,db,too_high,Most ajánlott!|FIFA|Lego|Lego
+Tesco,Tefal Intuition 10 darabos edénykészlet,03168430337886,64990.0,1.0,db,64990.0,db,too_high,Most ajánlott!|Prémium újdonságok|Prémium újdonságok|Háztartás
+Tesco,LEGO Harry Potter 76466 A bölcsek köve - Gyűjtői kiadás,05702018063422,61990.0,1.0,db,61990.0,db,too_high,Most ajánlott!|Prémium újdonságok|Prémium újdonságok|Lego
+Tesco,LEGO Disney 43300 Micimackó,05702018066881,57990.0,1.0,db,57990.0,db,too_high,Most ajánlott!|Prémium újdonságok|Prémium újdonságok|Lego
+Tesco,LEGO Icons 11384 Golden retriever kutyus,05702018063651,53990.0,1.0,db,53990.0,db,too_high,Most ajánlott!|Prémium újdonságok|Prémium újdonságok|Lego
+Spar,ÁRrésSTOP,,0.0,1.0,db,0.0,db,too_low,arresstop-338
+Tesco,Deli tűzőgép kapocs 24/6 1000 db,06921734922717,229.0,1000.0,db,0.229,db,too_low,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+Spar,"Gillette Fusion5 férfi borotva (1 db borotva, 2 db borotvabetét), 1 db",7702018866946,9239.0,1.0,g,9239000.0,kg,too_high,borotva-295
+Prima,"Kotányi Real, Dried Saffron 0,12 g",5995863010080,699.0,0.12,g,5825000.0,kg,too_high,fuszer-123
+Spar,"Gillette Mach3 férfi borotva (1 db borotva + 2 db borotvabetét), 1 db",7702018020676,5774.0,1.0,g,5774000.0,kg,too_high,borotva-295
+Tesco,"Kotányi valódi sáfrány 0,12 g",05995863010080,669.0,0.12,g,5575000.0,kg,too_high,Alapvető élelmiszerek|Ételízesítés|Klasszikus fűszerek|Gyógynövény fűszerek
+Spar,"Kotányi Real, Dried Saffron 0,12 g",5995863010080,649.0,0.12,g,5408333.333,kg,too_high,fuszerek-165
+Tesco,"Sky Electric fehér 3-as asztali elosztó 2 db USB bemenettel, H05VV-F 3G 1,4 m kábellel szerelve",05997648334558,4729.0,3.0,g,1576333.333,kg,too_high,"Otthon-hobbi|Barkácsolás|Elektromos kiegészítők|Elosztók, hosszabbítók, kiegészítők"
+Spar,"Gillette Mach3 Férfi Borotvabetétek, 5 Gillette 3 Pengés Borotvabetétek",7702018552313,6299.0,5.0,g,1259800.0,kg,too_high,borotva-295
+Tesco,Kamasaki wobbler 3 g,05999553229318,1690.0,3.0,g,563333.333,kg,too_high,Otthon-hobbi|Kert és szabadtéri élet|Szabadtéri kikapcsolódás|Horgászat
+Tesco,Loctite Super Bond Creative Perfect Pen csepegésmentes pontosan adagolható pillanatragasztó 3 g,02280000813406,1599.0,3.0,g,533000.0,kg,too_high,Otthon-hobbi|Barkácsolás|Ragasztás|Ragasztók és kiegészítők
+Tesco,"Béres Vita-D₃ 4000 NE étrend-kiegészítő lágyzselatin kapszula 60 x 0,139 g",05997207716467,3839.0,8.34,g,460311.751,kg,too_high,Drogéria|Patika|Vitaminok és étrendkiegészítők|Vitaminok és étrendkiegészítők
+Tesco,NIVEA SUN Satin UV Stift SPF 50+ 15 g,00000042494843,6299.0,15.0,g,419933.333,kg,too_high,Drogéria|Szezonális és utazó termékek|Napozó termékek|Napozó termékek
+Tesco,"Carmex Classic ajakápoló stift 4,25 g",00083078811174,1739.0,4.25,g,409176.471,kg,too_high,Drogéria|Bőrápolás|Arcápolás|Ajakápoló termékek
+Tesco,Raid molyirtó gél levendula illattal 2 x 3 g (6 g),05000204914979,2319.0,6.0,g,386500.0,kg,too_high,"Háztartás|Tisztítószerek, takarítóeszközök|Rovarirtószerek|Repülő rovarirtók"
+Tesco,Loctite Super Bond Precision pillanatragasztó 5 g,09002010294173,1799.0,5.0,g,359800.0,kg,too_high,Otthon-hobbi|Barkácsolás|Ragasztás|Ragasztók és kiegészítők
+Prima,"Labello Original ajakápoló 4,8 g",9005800362861,1599.0,4.8,g,333125.0,kg,too_high,borapolas-204
+Tesco,Loctite Super Bond Power Gel pillanatragasztó 4 g,02280000813468,1299.0,4.0,g,324750.0,kg,too_high,Otthon-hobbi|Barkácsolás|Ragasztás|Ragasztók és kiegészítők
+Spar,"Labello Original ajakápoló 4,8 g",9005800362861,1469.0,4.8,g,306041.667,kg,too_high,ajakapolok-297
+Tesco,"Labello Med Repair SPF15 ajakápoló 4,8 g",09005800362908,1399.0,4.8,g,291458.333,kg,too_high,Drogéria|Szájápolás|Szájhigiénia|Szájfrissítők
+Tesco,got2b Powder'ful dúsító hajformázó por 10 g,09000100652919,2899.0,10.0,g,289900.0,kg,too_high,Drogéria|Hajápolás|Hajformázás|Egyéb hajformázás
+Spar,"Labello Cherry Shine ajakápoló 4,8 g",9005800362946,1324.0,4.8,g,275833.333,kg,too_high,ajakapolok-297
+Spar,S-Budget málna-eper hibiszkus gyümölcstea 20*2 g,,534.0,2.0,g,267000.0,kg,too_high,gyumolcstea-142
+Spar,S-Budget lime-narancshéj gyümölcstea 20*2 g,,534.0,2.0,g,267000.0,kg,too_high,gyumolcstea-142
+Spar,S-Budget málna-áfonya hibiszkusz 20*2 g,,534.0,2.0,g,267000.0,kg,too_high,gyumolcstea-142
+Spar,S-Budget gránátalma-citromfű gyümölcstea 20*2 g,,534.0,2.0,g,267000.0,kg,too_high,gyumolcstea-142
+Prima,Protect Combi Plus hangyairtó csalétek 3 x 2 g,5997378742135,1599.0,6.0,g,266500.0,kg,too_high,rovarirto-szer-226
+Tesco,Taft Volume hajformázó por minden hajtípusra 10 g,09000100672825,2519.0,10.0,g,251900.0,kg,too_high,Drogéria|Hajápolás|Hajformázás|Egyéb hajformázás
+Tesco,Taft Fullness Wonder hajformázó por minden hajtípusra 10 g,09000101677942,2519.0,10.0,g,251900.0,kg,too_high,Drogéria|Hajápolás|Hajformázás|Egyéb hajformázás
+Tesco,"Raid illatmentes szúnyogirtó lapkás készülék 1 db + lapka 10 x 0,74 g",05000204358032,1789.0,7.4,g,241756.757,kg,too_high,"Háztartás|Tisztítószerek, takarítóeszközök|Rovarirtószerek|Repülő rovarirtók"
+Tesco,"Labello Original ajakápoló 4,8 g",09005800362861,1139.0,4.8,g,237291.667,kg,too_high,Drogéria|Bőrápolás|Arcápolás|Ajakápoló termékek
+Tesco,"Labello Cherry Shine ajakápoló 4,8 g",09005800362946,1139.0,4.8,g,237291.667,kg,too_high,Drogéria|Bőrápolás|Arcápolás|Ajakápoló termékek
+Tesco,"Labello Blackberry Shine ajakápoló 4,8 g",09005800363059,1139.0,4.8,g,237291.667,kg,too_high,Drogéria|Bőrápolás|Arcápolás|Ajakápoló termékek
+Tesco,"Labello Soft Rosé ajakápoló 4,8 g",09005800362885,1139.0,4.8,g,237291.667,kg,too_high,Drogéria|Bőrápolás|Arcápolás|Ajakápoló termékek
+Tesco,Loctite Super Bond Liquid pillanatragasztó 3 g,09000100072465,699.0,3.0,g,233000.0,kg,too_high,Otthon-hobbi|Barkácsolás|Ragasztás|Ragasztók és kiegészítők
+Tesco,Gorilla pillanatragasztó 15 g,05704947000776,3419.0,15.0,g,227933.333,kg,too_high,Otthon-hobbi|Barkácsolás|Ragasztás|Ragasztók és kiegészítők
+Spar,Protect Combi Plus hangyairtó csalétek 3 x 2 g,5997378742135,1274.0,6.0,g,212333.333,kg,too_high,rovarirtok-279
+Tesco,"bebe Classic ajakápoló 4,9 g",03574661652016,1039.0,4.9,g,212040.816,kg,too_high,Drogéria|Bőrápolás|Arcápolás|Ajakápoló termékek
+Tesco,"bebe Gently Rosé ajakápoló mandulaolajjal és sheavajjal 4,9 g",03574661652023,1039.0,4.9,g,212040.816,kg,too_high,Drogéria|Bőrápolás|Arcápolás|Ajakápoló termékek
+Tesco,Raid molyirtó gél levendula illattal 2 x 3 g (6 g),04000290902851,1249.0,6.0,g,208166.667,kg,too_high,"Háztartás|Tisztítószerek, takarítóeszközök|Rovarirtószerek|Molyirtók"
+Tesco,Carmex Strawberry ajakápoló SPF 15 10 g,00083078014247,2079.0,10.0,g,207900.0,kg,too_high,Drogéria|Bőrápolás|Arcápolás|Ajakápoló termékek
+Tesco,"Paloma Air Deo Vanilla Cocco Parfum Duo levegőillatosító 2 x 2,5 g",05997270780310,999.0,5.0,g,199800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,"Paloma Air Deo Atlantic & Ocean Parfum Duo levegőillatosító 2 x 2,5 g",05997270780327,999.0,5.0,g,199800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Protect Combi Plus hangyairtó csalétek 3 x 2 g,05997378742135,1149.0,6.0,g,191500.0,kg,too_high,"Háztartás|Tisztítószerek, takarítóeszközök|Rovarirtószerek|Mászórovarok ellen"
+Tesco,Vanília őrlemény 6 g,05997951101342,1139.0,6.0,g,189833.333,kg,too_high,"Alapvető élelmiszerek|Sütés-főzés hozzávalók|Sütés, befőzés alapanyagok|Aroma"
+Tesco,"Garnier Skin Naturals Regeneráló textilmaszk szemkörnyékre 1 /2 millió probiotikummal, 6 g",03600542461740,1129.0,6.0,g,188166.667,kg,too_high,"Drogéria|Bőrápolás|Arcápolás|Arcmaszkok, arcpakolás"
+Spar,"Labello Original ajakápoló 2 x 4,8 g",9005800362878,1784.0,9.6,g,185833.333,kg,too_high,ajakapolok-297
+Spar,Vanília őrlemény 6 g,5997951101342,1094.0,6.0,g,182333.333,kg,too_high,sutesi-alapanyagok-162
+Tesco,Dr. Oetker őrölt vanília 5 g,05997381376815,899.0,5.0,g,179800.0,kg,too_high,"Alapvető élelmiszerek|Sütés-főzés hozzávalók|Sütés, befőzés alapanyagok|Egyéb"
+Tesco,Wunder-Baum New Car autó légfrissítő 5 g,05999070314078,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Vanillaroma autó légfrissítő 5 g,05999070314092,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum City Style autó légfrissítő 5 g,05999070314146,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Green Apple autó légfrissítő 5 g,05999070314153,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Black Ice autó légfrissítő 5 g,05999070314160,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Bubble Gum autó légfrissítő 5 g,05999070314139,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Orange Juice autó légfrissítő 5 g,07612720201457,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Everfresh autó légfrissítő 5 g,05999070314047,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Summer Cotton autó légfrissítő 5 g,05999070314184,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Piña Colada autó légfrissítő 5 g,05999070314177,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Relax autó légfrissítő 5 g,05999070314191,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Kokosnuss autó légfrissítő 5 g,05999070314108,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Leather autó légfrissítő 5 g,05999070314115,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Zitrone autó légfrissítő 5 g,05999070314085,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Supernova Tree autó légfrissítő 5 g,07612720200030,899.0,5.0,g,179800.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,"Naturland D₃-vitamin 4000 NE forte étrend-kiegészítő tabletta 60 db 11,01 g",05999561010311,1929.0,11.01,g,175204.36,kg,too_high,Drogéria|Patika|Vitaminok és étrendkiegészítők|Vitaminok és étrendkiegészítők
+Spar,Durex Mutual Pleasure óvszer 3 db,5052197017298,2624.0,15.0,g,174933.333,kg,too_high,ovszerek-sikositok-310
+Tesco,Bepanthen Sensiderm krém 20 g,04064273120021,3459.0,20.0,g,172950.0,kg,too_high,Baba|Babaápolási termékek|Babakozmetikumok|Babakozmetikumok
+Tesco,Little Joe New Car illatosító 12 g,07640125380118,1999.0,12.0,g,166583.333,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Little Joya Springtime illatosító 12 g,07640186842815,1999.0,12.0,g,166583.333,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Spar,Blue Dragon Sushi Nori szárított algalapok 11g,5010338303006,1804.0,11.0,g,164000.0,kg,too_high,egyeb-172
+Tesco,Panzi Pet Fehér Hal macska és teknős csemege 10 g,05998113551173,1549.0,10.0,g,154900.0,kg,too_high,Kisállat|Macskaeledelek & Kiegészítők|Jutalomfalatok|Jutalomfalatok
+Spar,Vifon Tokyoto pörkölt tengeri algalapok 14 g,5901882017542,2159.0,14.0,g,154214.286,kg,too_high,egyeb-172
+Spar,Durex Feel Thin óvszer 3 db,5010232967441,1469.0,10.0,g,146900.0,kg,too_high,ovszerek-sikositok-310
+Prima,Durex Feel Intimate óvszer 3 db,5010232968011,1399.0,10.0,g,139900.0,kg,too_high,patika-207
+Prima,Durex Feel Thin óvszer 3 db,5010232967441,1399.0,10.0,g,139900.0,kg,too_high,patika-207
+Tesco,VIP 007 autó illatosító 13 g,03800201099936,1799.0,13.0,g,138384.615,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,VIP 808 Caribi légfrissítő 13 g,03800201098984,1799.0,13.0,g,138384.615,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,VIP 511 Caribi illatosító 13 g,03800201094160,1799.0,13.0,g,138384.615,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,VIP 700 Caribi illatosító 13 g,03800201099110,1799.0,13.0,g,138384.615,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,VIP 377 Caribi illatosító 13 g,03800201099165,1799.0,13.0,g,138384.615,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,"Waterdrop áfonya-szeder-alma ízű pezsgőkocka ital készítéséhez 12 x 2,0 g (24,0 g)",09120132066529,3290.0,24.0,g,137083.333,kg,too_high,"Italok|Szörpök, italporok, citromlevek|Italporok|Italporok"
+Spar,"Durex Intense óvszer, 10 db",5052197051797,6089.0,45.0,g,135311.111,kg,too_high,ovszerek-sikositok-310
+Tesco,Wunder-Baum Clip Vanilla autó légfrissítő 12 g,05999070314221,1599.0,12.0,g,133250.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Wunder-Baum Clip Tropical autó légfrissítő 12 g,05999070314214,1599.0,12.0,g,133250.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Little Joe Ginger-Lemon illatosító 12 g,07640186841092,1599.0,12.0,g,133250.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Little Pup Minty Fresh autó illatosító 12 g,07640186843614,1599.0,12.0,g,133250.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Spar,Durex Feel Thin óvszer 12 db,5010232963016,5249.0,40.0,g,131225.0,kg,too_high,ovszerek-sikositok-310
+Spar,"Durex Feel Intimate óvszer, 12 db",5010232964617,5249.0,40.0,g,131225.0,kg,too_high,ovszerek-sikositok-310
+Tesco,"Waterdrop pezsgőkocka, amelyből frissítő ital készíthető grapefruit ízzel 12 x 2,1 g (25,2 g)",09120134225863,3290.0,25.2,g,130555.556,kg,too_high,"Italok|Szörpök, italporok, citromlevek|Szörpök, szirupok|Egyéb ízesítésű szörpök, szirupok"
+Tesco,"Waterdrop pezsgőkocka frissítő ital készítéséhez alma gyümölcsporral 12 x 2,1 g (25,2 g)",09120134226037,3290.0,25.2,g,130555.556,kg,too_high,"Italok|Szörpök, italporok, citromlevek|Szörpök, szirupok|Egyéb ízesítésű szörpök, szirupok"
+Tesco,House of Asia sushi nori 6 db 13 g,05902898828764,1659.0,13.0,g,127615.385,kg,too_high,"Alapvető élelmiszerek|Nemzetközi konyha|Távol keleti konyha|Japán, kínai konyha"
+Spar,"Dr. Chen Patika Máriatövis Forte étrend-kiegészítő kapszula 60 db 27,6 g",5999561420578,3499.0,27.6,g,126775.362,kg,too_high,egyeb-etrendkiegeszitok-vitaminok-152
+Tesco,"Canderel stevia növényből származó szteviol glikozid alapú asztali édesítőszer 120 db 10,2 g",07630486400662,1289.0,10.2,g,126372.549,kg,too_high,Speciális|Hozzáadott cukor mentes|Édesítők|Édesítők
+Spar,"Canderel stevia növényből származó szteviol glikozid alapú asztali édesítőszer 120 db 10,2 g",7630486400662,1284.0,10.2,g,125882.353,kg,too_high,edesitoszerek-170
+Tesco,Pattex Total gél 8 g,04015000427715,999.0,8.0,g,124875.0,kg,too_high,Otthon-hobbi|Barkácsolás|Ragasztás|Ragasztók és kiegészítők
+Tesco,Paloma Gold Vanilla levegőillatosító 4 g,05997270799350,499.0,4.0,g,124750.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Paloma Gold New Car levegőillatosító 4 g,05997270799442,499.0,4.0,g,124750.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Paloma Gold Bubble Gum levegőillatosító 4 g,05997270799329,499.0,4.0,g,124750.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Paloma Gold Cherry levegőillatosító 4 g,05997270799404,499.0,4.0,g,124750.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Paloma Gold Romeo levegőillatosító 4 g,05997270799398,499.0,4.0,g,124750.0,kg,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Spar,"Politur stevia édesítő tabletta 140 db 8,4 g",5997004752576,1015.0,8.4,g,120833.333,kg,too_high,edesitoszerek-170
+Tesco,"Dr. Chen Patika Máriatövis Forte étrend-kiegészítő kapszula 60 db 27,6 g",05999561420578,3119.0,27.6,g,113007.246,kg,too_high,Drogéria|Patika|Vitaminok és étrendkiegészítők|Vitaminok és étrendkiegészítők
+Tesco,"Politur stevia édesítő tabletta 140 db 8,4 g",05997004752576,949.0,8.4,g,112976.19,kg,too_high,Speciális|Hozzáadott cukor mentes|Édesítők|Édesítők
+Tesco,"Life D3-vitamin 4000 NE Forte étrend-kiegészítő tabletta 120 db 26,4 g",05997951103353,2849.0,26.4,g,107916.667,kg,too_high,Drogéria|Patika|Vitaminok és étrendkiegészítők|Vitaminok és étrendkiegészítők
+Tesco,"L'Oréal Paris Revitalift Új Glass Skin hidrogél, ragyogást adó arcmaszk 25 g",03600524259686,2689.0,25.0,g,107560.0,kg,too_high,"Drogéria|Bőrápolás|Arcápolás|Arcmaszkok, arcpakolás"
+Spar,Durex Extra Safe óvszer 12 db,5010232964600,4619.0,45.0,g,102644.444,kg,too_high,ovszerek-sikositok-310
+Spar,"1x1 Vitaday Magnézium + B6-vitamin étrend-kiegészítő filmtabletta 30 db 10,35 g",,1059.0,10.35,g,102318.841,kg,too_high,egyeb-etrendkiegeszitok-vitaminok-152
+Tesco,Pedigree DentaStix Daily Oral Care kiegészítő állateledel 4 hónapnál idősebb kutyáknak 8 db 1440 kg,05998749142899,6290.0,1440000.0,g,4.368,kg,too_low,Kisállat|Kutyaeledelek & Kiegészítők|Jutalomfalatok|Fogápoló jutalomfalatok
+Spar,"Férfi Dezodor, 2 ml, Old Spice Tomorrowland Special Edition 2026 Spray",8700216634243,1994.0,2.0,ml,997000.0,l,too_high,spray-dezodor-289
+Spar,"Férfi Dezodor, 2 ml, Old Spice Tomorrowland Special Edition 2026 Stift",8700216685351,1994.0,2.0,ml,997000.0,l,too_high,golyos-stift-dezodor-291
+Tesco,"Férfi Dezodor, 2 ml, Old Spice Tomorrowland Special Edition 2026 Spray",08700216634243,1869.0,2.0,ml,934500.0,l,too_high,"Drogéria|Férfi kozmetikumok|Izzadásgátló stiftek, golyós dezodorok|Izzadásgátló stiftek, golyós dezodorok"
+Tesco,"Férfi Dezodor, 2 ml, Old Spice Tomorrowland Special Edition 2026 Stift",08700216685351,1869.0,2.0,ml,934500.0,l,too_high,"Drogéria|Férfi kozmetikumok|Izzadásgátló stiftek, golyós dezodorok|Izzadásgátló stiftek, golyós dezodorok"
+Tesco,Panzi Fit Active Spot-On bolha- és kullancsriasztó macskák részére 5 x 1 ml,05998274308869,2919.0,5.0,ml,583800.0,l,too_high,Kisállat|Macskaeledelek & Kiegészítők|Ápolás|Élősködők elleni védelem
+Tesco,Panzi Fit Active Spot-On bolha- és kullancsriasztó kutyák részére S 5 x 1 ml,05998274308821,2919.0,5.0,ml,583800.0,l,too_high,Kisállat|Kutyaeledelek & Kiegészítők|Ápolás|Élősködők elleni védelem
+Tesco,Finish Citrom és Lime mosogatógép illatosító 4 ml,03141360054405,2199.0,4.0,ml,549750.0,l,too_high,Háztartás|Mosogatáshoz|Gépi mosogatás|Tisztító-és frissítőszerek
+Tesco,Durex Intense stimuláló gél 10 ml,05997321771632,4999.0,10.0,ml,499900.0,l,too_high,Drogéria|Patika|Óvszerek|Óvszerek
+Tesco,"Wunder-Baum Forest Fruit autó légfrissítő 4,5 ml",05999070314238,1999.0,4.5,ml,444222.222,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,"Wunder-Baum Sport légfrissítő 4,5 ml",05999070314245,1999.0,4.5,ml,444222.222,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,NIVEA Cellular Epigenetics bőrfiatalító szérum epicelline-nel 15 ml,09005800393889,6590.0,15.0,ml,439333.333,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,L'Oréal Paris Revitalift Laser nappali ápoló a szemek alatti táskákra 15 ml,03600524186234,6499.0,15.0,ml,433266.667,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,Neutrogena Retinol Boost szemkörnyékápoló 15 ml,03574661822372,5490.0,15.0,ml,366000.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Szemránc- és szemkörnyékápoló krémek
+Tesco,NIVEA Q10 Energy ránctalanító szemkörnyékápoló 15 ml,04005900915900,4999.0,15.0,ml,333266.667,l,too_high,Drogéria|Bőrápolás|Arcápolás|Szemránc- és szemkörnyékápoló krémek
+Tesco,Panzi Fit Active Spot-On bolha- és kullancsriasztó kutyák részére M 5 x 2 ml,05998274308838,2919.0,10.0,ml,291900.0,l,too_high,Kisállat|Kutyaeledelek & Kiegészítők|Ápolás|Élősködők elleni védelem
+Tesco,Ambi Pur Fürdőszobai Légfrissítő - Folyamatos Szagsemlegesítés És Szagmegelőzés Gold Orchid 1 X,08006530307444,2329.0,8.0,ml,291125.0,l,too_high,Háztartás|Légfrissítés|Zselés illatosítók|Zselés illatosítók
+Tesco,NIVEA Cellular Expert Filler Hialuron feltöltő szérum 15 ml,09005800388540,4079.0,15.0,ml,271933.333,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,"ĽOréal Paris Revitalift Filler ránctalanító szérum 1 ,5 % tiszta hialuronsavval, 30 ml",03600524028763,7990.0,30.0,ml,266333.333,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Spar,Ambi Pur Fürdőszobai Légfrissítő - Folyamatos Szagsemlegesítés És Szagmegelőzés Cotton Fresh 1 X,8700216014434,2099.0,8.0,ml,262375.0,l,too_high,legfrissito-278
+Tesco,Air Wick Pamut és Fehér Orchidea aroma diffúzor készülék és utántöltő 20 ml,05949152113464,5190.0,20.0,ml,259500.0,l,too_high,Háztartás|Légfrissítés|Diffúzorok|Diffúzorok
+Tesco,Air Wick Fehér Bazsarózsa és Jázminvirág aroma diffúzor készülék és utántöltő 20 ml,05999109546043,5190.0,20.0,ml,259500.0,l,too_high,Háztartás|Légfrissítés|Diffúzorok|Diffúzorok
+Tesco,Air Wick Cseresznyevirág és Málna aroma diffúzor készülék és utántöltő 20 ml,05907458610179,5190.0,20.0,ml,259500.0,l,too_high,Háztartás|Légfrissítés|Diffúzorok|Diffúzorok
+Tesco,ICO színes tempera festékek 10 db 16 ml,08593540012227,4049.0,16.0,ml,253062.5,l,too_high,"Otthon-hobbi|Iskolai és irodai kellékek|Színezés|Tempera, vízfesték, ecset"
+Tesco,NIVEA Q10 Collagen Expert 3 az 1-ben regeneráló szérum 30 ml,09005800398907,7499.0,30.0,ml,249966.667,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,Paloma Woody Oriental Spices levegőillatosító 4 ml,05997270730155,999.0,4.0,ml,249750.0,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Paloma Woody Cherry levegőillatosító 4 ml,05997270730209,999.0,4.0,ml,249750.0,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Paloma Woody Vanilla Dream levegőillatosító 4 ml,05997270730193,999.0,4.0,ml,249750.0,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Ambi Pur Fürdőszobai Légfrissítő - Folyamatos Küzdelem a szagokkal Sevilla1X,08700216448178,1849.0,7.5,ml,246533.333,l,too_high,Háztartás|Légfrissítés|Zselés illatosítók|Zselés illatosítók
+Tesco,"Aroma Car Wood Pomegranate autó légfrissítő 6,5 ml",05904224126322,1599.0,6.5,ml,246000.0,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,"Aroma Car Gold Tattoo autó légfrissítő 6,5 ml",05904224126339,1599.0,6.5,ml,246000.0,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Ambi Pur Fürdőszobai Légfrissítő - Folyamatos Szagsemlegesítés És Szagmegelőzés Cotton Fresh 2 X,08700216014649,3599.0,15.0,ml,239933.333,l,too_high,"Háztartás|Légfrissítés|Kézi permetek, aeroszolok|Kézi permetek, aeroszolok"
+Tesco,Nivea Q10 Anti-Wrinkle Expert kettős hatású szérum 30 ml,09005800376882,6990.0,30.0,ml,233000.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,NIVEA Cellular Expert Filler nappali arcápoló UV szérum fluid FF50+ 30 ml,09005800388656,6690.0,30.0,ml,223000.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,Aroma Car Ventis Forest Fruits autó légfrissítő 8 ml,05907718929157,1749.0,8.0,ml,218625.0,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Aroma Car Ventis Black autó légfrissítő 8 ml,05908241631043,1749.0,8.0,ml,218625.0,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Aroma Car Cherry autó légfrissítő 8 ml,05902846831402,1749.0,8.0,ml,218625.0,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Ambi Pur Fürdőszobai Légfrissítő - Folyamatos Szagsemlegesítés És Szagmegelőzés Aloha 2 X,08006530250979,3449.0,16.0,ml,215562.5,l,too_high,Háztartás|Légfrissítés|Zselés illatosítók|Zselés illatosítók
+Tesco,Glade Sense & Spray Relaxing Zen automata légfrissítő készülék 18 ml,05000204075618,3619.0,18.0,ml,201055.556,l,too_high,Háztartás|Légfrissítés|Automata légfrissítők|Automata légfrissítők
+Tesco,Pattex Repair Universal ragasztó 2 x 3 ml,09000100671385,1199.0,6.0,ml,199833.333,l,too_high,Otthon-hobbi|Barkácsolás|Ragasztás|Ragasztók és kiegészítők
+Tesco,"Paloma Air Deo Fresh & Green Parfum Duo levegőillatosító 2 x 2,5 ml",05997270780341,999.0,5.0,ml,199800.0,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,"Ambi Pur 3Volution Spring Awakening elektromos légfrissítő kezdőcsomag, 20ml",08006540528921,3889.0,20.0,ml,194450.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,"Ambi Pur 3Volution Aloha elektromos légfrissítő kezdőcsomag, 20ml",08700216775854,3889.0,20.0,ml,194450.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,"Ambi Pur 3Volution Morning Dew elektromos légfrissítő kezdőcsomag, 20ml",08700216737159,3889.0,20.0,ml,194450.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,"Ambi Pur Sevilla Elektromos Légfrissítő-utántöltő, 20ml",08700216802338,3799.0,20.0,ml,189950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Aroma Car Ventis Refill Black cserélhető betét 8 ml,05902846837732,1299.0,8.0,ml,162375.0,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Aroma Car Ventis Refill Calm Ocean cserélhető betét 8 ml,05902846837701,1299.0,8.0,ml,162375.0,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Aroma Car Ventis Refill Green Lemon cserélhető autólégfrissítő betét 8 ml,05902846837725,1299.0,8.0,ml,162375.0,l,too_high,Otthon-hobbi|Autós kiegészítők|Illatosítók|Illatosítók
+Tesco,Ziaja napfényes mangó ajakbalzsam 12 ml,05901887056669,1899.0,12.0,ml,158250.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Ajakápoló termékek
+Tesco,Air Wick Bársonyos Szatén és Éji Liliom elektromos légfrissítő készülék & utántöltő 19 ml,05949152113457,2999.0,19.0,ml,157842.105,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Air Wick Eukaliptusz és Cédrusfa elektromos légfrissítő készülék & utántöltő 19 ml,05999109545848,2999.0,19.0,ml,157842.105,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Air Wick Trópusi Mangó és Maracuja elektromos légfrissítő készülék & utántöltő 19 ml,05999109546821,2999.0,19.0,ml,157842.105,l,too_high,Háztartás|Légfrissítés|Automata légfrissítők|Automata légfrissítők
+Spar,TheSilkyWay Hajhullás Csökkentő Szérum 8 x 10 ml,5900249013029,12599.0,80.0,ml,157487.5,l,too_high,hajapolo-termekek-303
+Tesco,L'Oréal Paris Revitalift Laser krémes szérum hármas hatással 50 ml,03600524254278,7490.0,50.0,ml,149800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,NIVEA Cellular Expert Lift Nappali krém 50 ml,09005800311319,7490.0,50.0,ml,149800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Nappali arckrémek
+Tesco,"Garnier Skin Naturals Hyaluronic Aloe szuper szérum, 30 ml",03600542432917,4299.0,30.0,ml,143300.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,"Garnier Skin Naturals Ragyogást Adó Szuper Szérum C-vitaminnal*, 30 ml",03600542433303,4299.0,30.0,ml,143300.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,Glade Sense & Spray Sensual Sandalwood & Jasmine automata légfrissítő utántöltő 18 ml,05000204638516,2479.0,18.0,ml,137722.222,l,too_high,Háztartás|Légfrissítés|Automata légfrissítők|Automata légfrissítők
+Tesco,Glade Sense & Spray Tranquil Lavender & Aloe automata légfrissítő utántöltő 18 ml,05000204595369,2479.0,18.0,ml,137722.222,l,too_high,Háztartás|Légfrissítés|Automata légfrissítők|Automata légfrissítők
+Tesco,Glade Sense & Spray Bubbly Berry Splash automata légfrissítő utántöltő 18 ml,05000204256598,2479.0,18.0,ml,137722.222,l,too_high,Háztartás|Légfrissítés|Automata légfrissítők|Automata légfrissítők
+Spar,ĽOréal Paris Revitalift Laser X3 nappali krém 50 ml,3600522895114,6824.0,50.0,ml,136480.0,l,too_high,kremek-292
+Tesco,Ambi Pur 3Volution Elektromos Légfrissítő-utántöltő Spring Awakening 20 ml,08001841227955,2719.0,20.0,ml,135950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,"Ambi Pur 3Volution Gold Orchid Elektromos Illatpárologtató-utántöltő, 20ml",08001841922690,2719.0,20.0,ml,135950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,"Ambi Pur Flowers & Spring Elektromos Légfrissítő-utántöltő, 20ml",04015600570637,2719.0,20.0,ml,135950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Adidas Energy Drive eau de parfum 50 ml,03616305447043,6790.0,50.0,ml,135800.0,l,too_high,Drogéria|Parfümök|Férfi parfümök|Férfi parfümök
+Tesco,NIVEA Q10 Collagen Expert nappali és éjszakai tápláló arcvaj 50 ml,09005800399218,6699.0,50.0,ml,133980.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,Air Wick Essential Oils Nyári Hangulat pálcikás légfrissítő 30 ml,05011417554630,3999.0,30.0,ml,133300.0,l,too_high,Háztartás|Légfrissítés|Gyertyák és pálcás diffúzorok|Gyertyák és pálcás diffúzorok
+Tesco,"ĽOréal Paris Collagen specialist szérum a ráncok korrigálásáért, 30 ml",03600524186302,3999.0,30.0,ml,133300.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,"Ambi Pur 3Volution Elektromos légfrissítő-utántöltő, Morning Dew 20 ml",08700216737128,2599.0,20.0,ml,129950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Glade Fresh Mandarin Dream elektromos légfrissítő készülék 20 ml,05000204420708,2579.0,20.0,ml,128950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,"Garnier Color Sensation Tartós hajfesték S100 Ezüstszöke, 60 +40 +12 ml",03600542110532,1539.0,12.0,ml,128250.0,l,too_high,Drogéria|Hajápolás|Hajfestékek|Hajfestékek
+Tesco,"Garnier Color Sensation tartós hajfesték 8 .11 hamvas gyöngyszőke, 60 +40 +12 ml",03600542482714,1539.0,12.0,ml,128250.0,l,too_high,Drogéria|Hajápolás|Hajfestékek|Hajfestékek
+Tesco,"Garnier Color Sensation 7 .12 Sötét rózsaszőke, 60 +40 +12 ml",03600542407335,1539.0,12.0,ml,128250.0,l,too_high,Drogéria|Hajápolás|Hajfestékek|Hajfestékek
+Tesco,"Garnier Color Sensation Tartós hajfesték S11 Ragyogó ezüst, 60 +40 +12 ml",03600542259125,1539.0,12.0,ml,128250.0,l,too_high,Drogéria|Hajápolás|Hajfestékek|Hajfestékek
+Tesco,"Ambi Pur Sevilla Elektromos Légfrissítő-utántöltő, 20ml",08700216448161,2549.0,20.0,ml,127450.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Glade Sense & Spray Peach Paradise automata légfrissítő utántöltő 18 ml,05000204429060,2269.0,18.0,ml,126055.556,l,too_high,Háztartás|Légfrissítés|Automata légfrissítők|Automata légfrissítők
+Spar,Adidas Chill Zone eau de parfum 50 ml,3616305447111,6299.0,50.0,ml,125980.0,l,too_high,parfum-testpermet-314
+Spar,Adidas Get Comfy eau de parfum 50 ml,3616305447241,6299.0,50.0,ml,125980.0,l,too_high,parfum-testpermet-314
+Spar,"Ambi Pur 3Volution Gold Orchid Elektromos Illatpárologtató-utántöltő, 20ml",8001841922690,2519.0,20.0,ml,125950.0,l,too_high,legfrissito-278
+Tesco,ĽOréal Paris Revitalift Laser X3 nappali krém 50 ml,03600522895114,6190.0,50.0,ml,123800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Nappali arckrémek
+Tesco,"ĽOréal Paris revitalift Laser X3 öregedésgátló éjszakai arcápoló, 50 ml",03600522895121,6190.0,50.0,ml,123800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Éjszakai arckrémek
+Tesco,ĽOréal Paris Revitalift Filler Ha éjszakai krém 50 ml,03600523201419,6190.0,50.0,ml,123800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Éjszakai arckrémek
+Tesco,Glade Sensual Sandalwood & Jasmine elektromos légfrissítő készülék 20 ml,05000204360196,2399.0,20.0,ml,119950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Glade Relaxing Zen elektromos légfrissítő készülék 20 ml,05000204360165,2399.0,20.0,ml,119950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Glade Sense & Spray Floral Cherries automata légfrissítő utántöltő 18 ml,05000204405170,2159.0,18.0,ml,119944.444,l,too_high,Háztartás|Légfrissítés|Automata légfrissítők|Automata légfrissítők
+Tesco,"Garnier Color Naturals Tartós hajfesték 2 .0 Természetes fekete, 60 +40 +12 ml",03600541091719,1439.0,12.0,ml,119916.667,l,too_high,Drogéria|Hajápolás|Hajfestékek|Hajfestékek
+Tesco,"Ziaja C.B3 aktív arcszérum, könnyű textúrával 30 ml",05901887056188,3579.0,30.0,ml,119300.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,Air Wick Levendula Mező és Harangvirág aroma diffúzor utántöltő 20 ml,05999109546029,2359.0,20.0,ml,117950.0,l,too_high,Háztartás|Légfrissítés|Diffúzorok|Diffúzorok
+Tesco,Air Wick Pamut és Fehér Orchidea aroma diffúzor utántöltő 20 ml,05949152113471,2359.0,20.0,ml,117950.0,l,too_high,Háztartás|Légfrissítés|Diffúzorok|Diffúzorok
+Tesco,Air Wick Fehér Bazsarózsa és Jázmin Virág aroma diffúzor utántöltő 20 ml,05999109546036,2359.0,20.0,ml,117950.0,l,too_high,Háztartás|Légfrissítés|Diffúzorok|Diffúzorok
+Tesco,"Garnier Color Naturals Tartós hajfesték 6 ,34 Csokoládé, 60 +40 +12 ml",03600542601535,1399.0,12.0,ml,116583.333,l,too_high,Drogéria|Hajápolás|Hajfestékek|Hajfestékek
+Tesco,"Garnier Color Naturals Tartós hajfesték 6 Sötétszőke, 60 +40 +12 ml",03600542601542,1399.0,12.0,ml,116583.333,l,too_high,Drogéria|Hajápolás|Hajfestékek|Világos árnyalatok
+Tesco,"Garnier Color Naturals Tartós hajfesték 7 .40 Érzéki rézvörös, 60 +40 +12 ml",03600541264137,1399.0,12.0,ml,116583.333,l,too_high,Drogéria|Hajápolás|Hajfestékek|Vörös árnyalatok
+Tesco,"Garnier Color Naturals Tartós hajfesték 3 .23 Étcsokoládé, 60 +40 +12 ml",03600541678484,1399.0,12.0,ml,116583.333,l,too_high,Drogéria|Hajápolás|Hajfestékek|Hajfestékek
+Tesco,"Garnier Color Naturals Tartós hajfesték 1 Ultra fekete, 60 +40 +12 ml",03600542601481,1399.0,12.0,ml,116583.333,l,too_high,Drogéria|Hajápolás|Hajfestékek|Fekete árnyalatok
+Tesco,"Garnier Color Naturals Tartós hajfesték 9 N Nagyon világos szőke, 60 +40 +12 ml",03600541916661,1399.0,12.0,ml,116583.333,l,too_high,Drogéria|Hajápolás|Hajfestékek|Hajfestékek
+Tesco,"Garnier Color Naturals 5 .12 Jeges Világosbarna, 60 +40 +12 ml",03600542335676,1399.0,12.0,ml,116583.333,l,too_high,Drogéria|Hajápolás|Hajfestékek|Hajfestékek
+Tesco,Helia-D Cell Concept sejtmegújító + ránctalanító nappali arckrém 55+ 50 ml,05999561857244,5790.0,50.0,ml,115800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Nappali arckrémek
+Tesco,Air Wick Cseresznyevirág és Málna aroma diffúzor utántöltő 20 ml,05999109546883,2299.0,20.0,ml,114950.0,l,too_high,Háztartás|Légfrissítés|Diffúzorok|Diffúzorok
+Tesco,"Pantene Grow Hajhullás Elleni Fejbőrápoló Szérum, 60ml, Növeli a Sűrűséget és Csökkenti a Hajhullást",08006530088909,6799.0,60.0,ml,113316.667,l,too_high,Drogéria|Hajápolás|Hajpakolás|Hajpakolás
+Tesco,Air Wick Trópusi Mangó és Maracuja elektromos utántöltő légfrissítő készülékhez 19 ml,05999109546814,2099.0,19.0,ml,110473.684,l,too_high,Háztartás|Légfrissítés|Automata légfrissítők|Automata légfrissítők
+Tesco,NIVEA Cellular Expert Filler ránctalanító nappali arckrém SPF 15 50 ml,09005800244143,5490.0,50.0,ml,109800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Nappali arckrémek
+Tesco,Air Wick Pamut és Fehér Orchidea elektromos utántöltő légfrissítő készülékhez 19 ml,05999109545961,2059.0,19.0,ml,108368.421,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Air Wick Óceáni Szellő és Tengeri Só elektromos utántöltő légfrissítő készülékhez 19 ml,05999109545978,2059.0,19.0,ml,108368.421,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Air Wick Fehér Bazsarózsa és Jázminvirág elektromos légfrissítő készülék & utántöltő 19 ml,05999109545824,2059.0,19.0,ml,108368.421,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Spar,TheSilkyWay Argán Olaj 50 ml,5900249013555,5399.0,50.0,ml,107980.0,l,too_high,hajapolo-termekek-303
+Tesco,Glade Romantic Vanilla Blossom elektromos légfrissítő készülék utántöltő 20 ml,05000204332568,2159.0,20.0,ml,107950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Glade Sensual Sandalwood & Jasmine elektromos légfrissítő készülék utántöltő 20 ml,05000204333251,2159.0,20.0,ml,107950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Glade Bubbly Berry Splash elektromos légfrissítő készülék utántöltő 20 ml,05000204333282,2159.0,20.0,ml,107950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,NIVEA Q10 Power ránctalanító nappali arckrém SPF 30 50 ml,09005800302997,5390.0,50.0,ml,107800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Nappali arckrémek
+Tesco,NIVEA Q10 Energy ránctalanító nappali arckrém fáradt fakó bőrre SPF 15 50 ml,09005800390727,5390.0,50.0,ml,107800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Nappali arckrémek
+Tesco,NIVEA Q10 Power ránctalanító éjszakai arckrém 50 ml,09005800227252,5390.0,50.0,ml,107800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Éjszakai arckrémek
+Tesco,NIVEA Q10 Power ránctalanító nappali arckrém minden bőrtípusra SPF 15 50 ml,09005800390697,5390.0,50.0,ml,107800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Nappali arckrémek
+Tesco,"Garnier Skin Naturals mindennapos, láthatatlan, ragyogást adó fluid Spf 50 +, 40 ml",03600542572927,4299.0,40.0,ml,107475.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,Neutrogena Hydro Boost hidratáló gél 50 ml,03574661533827,5290.0,50.0,ml,105800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Arckrémek
+Tesco,Neutrogena Hydro Boost éjszakai arcápoló 50 ml,03574661401089,5290.0,50.0,ml,105800.0,l,too_high,Drogéria|Bőrápolás|Arcápolás|Éjszakai arckrémek
+Tesco,Glade Peach Paradise elektromos légfrissítő utántöltő 20 ml,05000204429695,2099.0,20.0,ml,104950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók
+Tesco,Glade Floral Cherries elektromos légfrissítő készülék utántöltő 20 ml,05000204441628,2099.0,20.0,ml,104950.0,l,too_high,Háztartás|Légfrissítés|Elektromos illatosítók|Elektromos illatosítók

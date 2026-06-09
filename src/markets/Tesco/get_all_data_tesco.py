@@ -169,6 +169,73 @@ fragment Variation on VariationsType {
 }
 """
 
+PRODUCT_DETAIL_QUERY = """
+query GetProduct($tpnc: String) {
+  product(tpnc: $tpnc) {
+    id
+    tpnc
+    tpnb
+    gtin
+    baseProductId
+    title
+    brandName
+    shortDescription
+    defaultImageUrl
+    averageWeight
+    isForSale
+    isNew
+    status
+    price {
+      actual
+      unitPrice
+      unitOfMeasure
+      __typename
+    }
+    promotions {
+      id
+      promotionType
+      startDate
+      endDate
+      description
+      unitSellingInfo
+      price {
+        beforeDiscount
+        afterDiscount
+        __typename
+      }
+      attributes
+      __typename
+    }
+    details {
+      ingredients
+      packSize {
+        value
+        units
+        __typename
+      }
+      netContents
+      drainedWeight
+      boxContents
+      storage
+      otherInformation
+      features
+      originInformation {
+        title
+        value
+        __typename
+      }
+      __typename
+    }
+    catchWeightList {
+      price
+      weight
+      default
+      __typename
+    }
+  }
+}
+"""
+
 
 def clean_text(value):
     return re.sub(r"\s+", " ", str(value or "")).strip()
@@ -374,6 +441,15 @@ def build_payload(category, page, count):
     }
 
 
+def build_detail_payload(product_id):
+    return {
+        "operationName": "GetProduct",
+        "variables": {"tpnc": product_id},
+        "extensions": {"mfeName": "mfe-pdp"},
+        "query": PRODUCT_DETAIL_QUERY,
+    }
+
+
 def add_product(products_by_id, product, category):
     product_id = clean_text(product.get("id"))
     if not product_id:
@@ -444,6 +520,85 @@ def fetch_products(session, categories, request_headers, count, page_delay, retr
         )
 
     return list(products_by_id.values()), failed_categories
+
+
+def merge_product_detail(product, detail):
+    if not detail:
+        return product
+
+    merged = dict(product)
+    for field in [
+        "id",
+        "tpnb",
+        "tpnc",
+        "gtin",
+        "baseProductId",
+        "title",
+        "brandName",
+        "shortDescription",
+        "defaultImageUrl",
+        "averageWeight",
+        "isForSale",
+        "isNew",
+        "status",
+        "price",
+        "promotions",
+        "details",
+        "catchWeightList",
+    ]:
+        if field in detail and detail.get(field) is not None:
+            merged[field] = detail[field]
+    merged["details_enriched"] = True
+    return merged
+
+
+def enrich_products_with_details(
+    session,
+    products,
+    request_headers,
+    detail_delay,
+    retries,
+    retry_delay,
+    detail_limit=None,
+    detail_progress_interval=100,
+):
+    enriched = []
+    failed = []
+    total = len(products) if detail_limit is None else min(len(products), detail_limit)
+    progress_interval = max(1, int(detail_progress_interval or 100))
+
+    for index, product in enumerate(products, start=1):
+        if detail_limit is not None and index > detail_limit:
+            enriched.append(product)
+            continue
+
+        product_id = clean_text(product.get("tpnc") or product.get("id"))
+        if not product_id:
+            enriched.append(product)
+            continue
+
+        if index == 1 or index == total or index % progress_interval == 0:
+            print(f"Reszletes Tesco keres indul: {index}/{total}, product_id={product_id}", flush=True)
+        try:
+            data = post_graphql_with_retries(
+                session=session,
+                payload=build_detail_payload(product_id),
+                request_headers=request_headers,
+                retries=retries,
+                retry_delay=retry_delay,
+            )
+            detail = (data.get("data") or {}).get("product") or {}
+            enriched.append(merge_product_detail(product, detail))
+        except Exception as error:
+            failed.append({"id": product_id, "error": str(error)})
+            enriched.append(product)
+
+        if detail_delay:
+            time.sleep(detail_delay)
+
+    if failed:
+        print(f"Reszletes Tesco adatlekerdezes: {len(failed)} hiba, az erintett termekek listaadata maradt.")
+    return enriched, failed
 
 
 def path_parts_from_product(product):
@@ -523,6 +678,10 @@ def parse_args():
     parser.add_argument("--without-promotional-categories", action="store_true")
     parser.add_argument("--count", type=int, default=DEFAULT_COUNT)
     parser.add_argument("--page-delay", type=float, default=0.2)
+    parser.add_argument("--enrich-product-details", action="store_true")
+    parser.add_argument("--detail-delay", type=float, default=0.05)
+    parser.add_argument("--detail-limit", type=int)
+    parser.add_argument("--detail-progress-interval", type=int, default=100)
     parser.add_argument("--retries", type=int, default=4)
     parser.add_argument("--retry-delay", type=float, default=2.0)
     parser.add_argument("--category-limit", type=int)
@@ -583,6 +742,24 @@ def main():
         )
     if not products:
         raise RuntimeError("A Tesco letoltes 0 termeket adott vissza, ezert nem irok ures all_data fajlt.")
+
+    if args.enrich_product_details:
+        products, detail_failures = enrich_products_with_details(
+            session=session,
+            products=products,
+            request_headers=headers(args.api_key),
+            detail_delay=args.detail_delay,
+            retries=args.retries,
+            retry_delay=args.retry_delay,
+            detail_limit=args.detail_limit,
+            detail_progress_interval=args.detail_progress_interval,
+        )
+        if detail_failures and not args.allow_partial_download:
+            failed = ", ".join(f"{item['id']} ({item['error']})" for item in detail_failures[:10])
+            raise RuntimeError(
+                f"{len(detail_failures)} Tesco termek reszletes adatainak lekerese sikertelen. "
+                f"Elso hibak: {failed}"
+            )
 
     detailed_categories_file = save_detailed_categories(products)
 

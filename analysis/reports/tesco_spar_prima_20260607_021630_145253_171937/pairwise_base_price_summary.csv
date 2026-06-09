@@ -1,0 +1,10 @@
+basis,pair,store_a,store_b,common_keys,comparable_base_price_keys,store_a_cheaper,store_b_cheaper,same_base_price,median_diff_store_b_minus_a,mean_diff_store_b_minus_a,median_pct_store_b_minus_a,mean_pct_store_b_minus_a
+barcode,Spar_vs_Prima,Spar,Prima,2178,2176,2041,129,6,439.189,1093.753,9.105,12.655
+barcode,Spar_vs_Tesco,Spar,Tesco,3894,3807,635,3094,78,-225.0,-657.858,-6.841,-8.242
+barcode,Prima_vs_Tesco,Prima,Tesco,2669,2604,105,2480,19,-666.667,-1536.213,-16.032,-17.795
+name,Spar_vs_Prima,Spar,Prima,2042,2042,1922,114,6,440.0,1145.678,9.06,12.887
+name,Spar_vs_Tesco,Spar,Tesco,3767,3686,612,2998,76,-227.273,-695.463,-6.813,-8.283
+name,Prima_vs_Tesco,Prima,Tesco,2422,2361,94,2252,15,-689.655,-1512.643,-16.324,-18.256
+barcode_name,Spar_vs_Prima,Spar,Prima,2002,2002,1885,111,6,433.333,1124.592,9.058,12.684
+barcode_name,Spar_vs_Tesco,Spar,Tesco,3711,3638,603,2959,76,-226.667,-690.038,-6.903,-8.262
+barcode_name,Prima_vs_Tesco,Prima,Tesco,2380,2323,87,2221,15,-684.932,-1508.295,-16.258,-18.264

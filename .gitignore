@@ -1,3 +1,5 @@
 *.idea
 *.jpg
 *.png
+*__pycache__/
+*markets_data/

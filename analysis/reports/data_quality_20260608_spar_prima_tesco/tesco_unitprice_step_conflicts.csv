@@ -1,0 +1,346 @@
+store_product_id,product_name,barcode,normalized_unit_price,normalized_step,normalized_unit,tesco_actual,tesco_unit_price,tesco_measure,derived_step_from_tesco_unit_price,derived_unit,ratio,categories
+220330881,Pedigree DentaStix Daily Oral Care kiegészítő állateledel 4 hónapnál idősebb kutyáknak 8 db 1440 kg,05998749142899,6290.0,1440000.0,g,6290,4368.1,kg,1439.985,g,1000.01,Kisállat|Kutyaeledelek & Kiegészítők|Jutalomfalatok|Fogápoló jutalomfalatok
+111274932,"Pampers Fresh Clean Baby Nedves Törlőkendő, 12 Csomag x 80 Törlőkendő db Baba Nedves Törlőkendő",08006530134552,10790.0,1.0,db,10790,11.2,each,963.393,db,963.393,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+111274845,"Pampers Fresh Clean Baby Nedves Törlőkendő, 9 Csomag x 80 Törlőkendő db Baba Nedves Törlőkendő",08006530134583,8999.0,1.0,db,8999,12.5,each,719.92,db,719.92,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+100979803,Tesco Home Office jegyzettömb utántöltő 600 lapos,05051140642556,949.0,1.0,db,949,1.6,each,593.125,db,593.125,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+111275007,"Pampers 99%-ban Vízalapú Baby Nedves Törlőkendő, 9 Csomag x 60 Törlőkendő db Baba Nedves Törlőkendő",08006530116459,8999.0,1.0,db,8999,16.7,each,538.862,db,538.862,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+100686972,Kodak irodai fénymásoló papír A4 500 lap,04260140270091,2499.0,1.0,db,2499,5.0,each,499.8,db,499.8,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Fénymásoló papír
+100686973,MM Bloom Essential fehér irodai papír A4 500 lap,05901657019351,2099.0,1.0,db,2099,4.2,each,499.762,db,499.762,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Fénymásoló papír
+220277567,"Pampers Fresh Clean Baby Nedves Törlőkendő, 6 Csomag x 80 Törlőkendő db Baba Nedves Törlőkendő",08006540174746,6190.0,1.0,db,6190,12.9,each,479.845,db,479.845,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+111274887,"Pampers Aqua Soft Touch Baby Nedves Törlőkendő, 9 Csomag x 48 Törlőkendő = db Baba Nedves Törlőkendő",08006530140010,9999.0,1.0,db,9999,23.1,each,432.857,db,432.857,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+111274847,"Pampers 99%-ban Vízalapú Baby Nedves Törlőkendő, 6 Csomag x 60 Törlőkendő db Baba Nedves Törlőkendő",08006530116596,6999.0,1.0,db,6999,19.4,each,360.773,db,360.773,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+111274886,"Pampers Aqua Soft Touch Baby Nedves Törlőkendő, 6 Csomag x 60 Törlőkendő = db Baba Nedves Törlőkendő",08006530140133,8999.0,1.0,db,8999,25.0,each,359.96,db,359.96,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+102306089,Tesco ragasztható mini jegyzetblokk 350 lap,05051399667621,639.0,1.0,db,639,1.8,each,355.0,db,355.0,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+100987952,Tesco Home Office öntapadós jegyzettömb 76 mm x 76 mm 350 lap,05051008744187,1059.0,1.0,db,1059,3.0,each,353.0,db,353.0,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+220277079,"Pampers Fresh Clean Baby Nedves Törlőkendő, 4 Csomag x 80 Törlőkendő db Baba Nedves Törlőkendő",08001841078052,4699.0,1.0,db,4699,14.7,each,319.66,db,319.66,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+111275010,"Pampers 99%-ban Vízalapú Baby Nedves Törlőkendő, 4 Csomag x 60 Törlőkendő db Baba Nedves Törlőkendő",08006530116305,4999.0,1.0,db,4999,20.8,each,240.337,db,240.337,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+111274855,"Pampers Aqua Soft Touch Baby Nedves Törlőkendő, 4 Csomag x 60 Törlőkendő = db Baba Nedves Törlőkendő",08006530140027,6199.0,1.0,db,6199,25.8,each,240.271,db,240.271,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+111274804,"Pampers Fresh Clean Baby Nedves Törlőkendő, 3 Csomag x 80 Törlőkendő db Baba Nedves Törlőkendő",08006530134422,3529.0,1.0,db,3529,14.7,each,240.068,db,240.068,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+111274793,"Pampers Fresh Clean Baby Nedves Törlőkendő, 4 Csomag x 52 Törlőkendő db Baba Nedves Törlőkendő",08006530098441,3289.0,1.0,db,3289,15.8,each,208.165,db,208.165,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+111275008,"Pampers Fresh Clean Baby Nedves Törlőkendő, 4 Csomag x 52 Törlőkendő db Baba Nedves Törlőkendő",08700216783491,3599.0,1.0,db,3599,17.3,each,208.035,db,208.035,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+111274854,"Pampers Aqua Soft Touch Baby Nedves Törlőkendő, 3 Csomag x 60 Törlőkendő db Baba Nedves Törlőkendő",08006530139953,4659.0,1.0,db,4659,25.9,each,179.884,db,179.884,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+111274846,"Pampers 99%-ban Vízalapú Baby Nedves Törlőkendő, 3 Csomag x 60 Törlőkendő db Baba Nedves Törlőkendő",08006530116206,3899.0,1.0,db,3899,21.7,each,179.677,db,179.677,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+100877285,Addo Totally Tracks Glow 165 db-os hurok versenypálya szett,05056289423684,5499.0,165.0,db,5499,5499.0,each,1.0,db,165.0,Otthon-hobbi|Játékok|Járművek|Járművek
+105479739,"Férfi Dezodor, 2 ml, Old Spice Tomorrowland Special Edition 2026 Spray",08700216634243,1869.0,2.0,ml,1869,9345.0,litre,200.0,ml,100.0,"Drogéria|Férfi kozmetikumok|Izzadásgátló stiftek, golyós dezodorok|Izzadásgátló stiftek, golyós dezodorok"
+121222383,"BB félszáraz fehér pezsgő 10,5% 75 l",05999136650713,1719.0,75000.0,ml,1719,2292.0,litre,750.0,ml,100.0,Italok|Pezsgők|Hagyományos pezsgők|Félszáraz pezsgők
+100080756,Naturella Light Kamilla Tisztasági Betét X100,08001090603807,1889.0,1.0,db,1889,18.9,each,99.947,db,99.947,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+100080656,Discreet Légáteresztő Multiform Waterlilly Tisztasági Betétek x100,08001090162274,1599.0,1.0,db,1599,16.0,each,99.938,db,99.938,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+100080655,Discreet Légáteresztő illatmentes Tisztasági Betétek,08001090162038,1599.0,1.0,db,1599,16.0,each,99.938,db,99.938,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+100080657,Discreet Légáteresztő Multiform Spring Breeze Tisztasági Betétek x100,08001090162113,1599.0,1.0,db,1599,16.0,each,99.938,db,99.938,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+100080658,Discreet Légáteresztő Multiform illatmentes Tisztasági Betétek x100,08001090161918,1599.0,1.0,db,1599,16.0,each,99.938,db,99.938,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+100986832,Tesco Home Office jegyzettömb 76 mm x 127 mm 100 lap,05051008744224,539.0,1.0,db,539,5.4,each,99.815,db,99.815,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+100987808,Tesco Home Office ragasztós jegyzettömb 76 mm x 76 mm 100 lap,05051008744200,349.0,1.0,db,349,3.5,each,99.714,db,99.714,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+108566562,Tesco Home Office öntapadós jegyzetlapok 100 lap,05052725291466,329.0,1.0,db,329,3.3,each,99.697,db,99.697,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+111274892,"Jar Original Mosogatókapszula, Lemon, , 84 Mosogatókapszula, Újramosogatás Nélkül",08006530121989,7490.0,1.0,db,7490,89.2,each,83.969,db,83.969,Háztartás|Mosogatáshoz|Gépi mosogatás|Tabletták
+111274941,"Jar Platinum Mosogatókapszula, Lemon, , 81 Mosogatókapszula",08006530121958,7490.0,1.0,db,7490,92.5,each,80.973,db,80.973,Háztartás|Mosogatáshoz|Gépi mosogatás|Tabletták
+105003899,"Always Daily Fresh Normal, 0% színezék és illatanyag 80 Darabos Kiszerelés",08001090131294,1699.0,1.0,db,1699,21.2,each,80.142,db,80.142,Drogéria|Női higiénia|Intim betétek|Intim betétek
+100878708,Addo építőkocka 80 db,05056289419762,8190.0,80.0,db,8190,8190.0,each,1.0,db,80.0,Otthon-hobbi|Játékok|Legkisebbeknek|Legkisebbeknek
+220277087,"Pampers Fresh Clean Baby Nedves Törlőkendő, 1 Csomag x 80 Törlőkendő db Baba Nedves Törlőkendő",08001841077598,1399.0,1.0,db,1399,17.5,each,79.943,db,79.943,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+105003929,"Always Daily Fresh Normal, Friss illattal 76 Darabos Kiszerelés",08006540769973,1699.0,1.0,db,1699,22.4,each,75.848,db,75.848,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+220318390,Naturella X Normal Camomile Tisztasági Betét 4x74,08006540100806,1889.0,1.0,db,1889,25.5,each,74.078,db,74.078,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+111274934,"Jar Platinum Mosogatókapszula, Lemon, , 73 Mosogatókapszula",08006530122177,7490.0,1.0,db,7490,102.6,each,73.002,db,73.002,Háztartás|Mosogatáshoz|Gépi mosogatás|Tabletták
+100920258,Zuru X-Shot Insanity Clip Mania motorizált játék szivacslövő gépfegyver 72 db lövedékkel,00193052070883,15190.0,72.0,db,15190,15190.0,each,1.0,db,72.0,Otthon-hobbi|Játékok|Fiúknak|Fiúknak
+111274945,"Jar Platinum Plus Mosogatókapszula, Lemon, , 65 Mosogatókapszula",08006530121651,7490.0,1.0,db,7490,115.2,each,65.017,db,65.017,Háztartás|Mosogatáshoz|Gépi mosogatás|Tabletták
+105003931,Always Daily Protect Extra Long Friss Illattal Tisztasági Betét 64 Darabos Kiszerelés,08006540778197,1699.0,1.0,db,1699,26.5,each,64.113,db,64.113,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+100080650,Discreet Légáteresztő Multiform Waterlilly Tisztasági Betétek x60,08001090170354,1159.0,1.0,db,1159,19.3,each,60.052,db,60.052,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+220336053,Discreet Légáteresztő Multiform Spring Breeze Tisztasági Betétek x60,08001090170316,1159.0,1.0,db,1159,19.3,each,60.052,db,60.052,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+111275009,"Pampers 99%-ban Vízalapú Baby Nedves Törlőkendő, 1 Csomag x 60 Törlőkendő db Baba Nedves Törlőkendő",08006530116558,1399.0,1.0,db,1399,23.3,each,60.043,db,60.043,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+105010249,Persil Power Caps Color mosókapszula 60 mosás,09000101804294,8990.0,1.0,db,8990,149.8,each,60.013,db,60.013,Háztartás|Mosás|Mosókapszulák|Színes
+105010535,Persil Power Caps mosókapszula 60 mosás,09000101804263,8990.0,1.0,db,8990,149.8,each,60.013,db,60.013,Háztartás|Mosás|Mosókapszulák|Általános
+105451001,Persil Discs mosókapszula 60 mosás,09000101830910,9990.0,1.0,db,9990,166.5,each,60.0,db,60.0,Háztartás|Mosás|Mosókapszulák|Általános
+105451066,Persil Discs Color mosókapszula 60 mosás,09000101830880,9990.0,1.0,db,9990,166.5,each,60.0,db,60.0,Háztartás|Mosás|Mosókapszulák|Színes
+105373003,"Ariel Allin1 PODS Folyékony Mosókapszula Színes Ruhákhoz, 60 Mosáshoz",08700216765183,9190.0,1.0,db,9190,153.2,each,59.987,db,59.987,Háztartás|Mosás|Mosókapszulák|Színes
+105373075,"Ariel Allin1 PODS Mountain Spring Universal Mosókapszula, 60 Mosáshoz",08700216765145,9190.0,1.0,db,9190,153.2,each,59.987,db,59.987,Háztartás|Mosás|Mosókapszulák|Általános
+111268457,"Ariel Allin1 PODS® Mosókapszula 60 Mosáshoz, Japanese Blossom",08006530380805,9190.0,1.0,db,9190,153.2,each,59.987,db,59.987,Háztartás|Mosás|Mosókapszulák|Általános
+111274849,"Pampers Aqua Soft Touch Baby Nedves Törlőkendő, 1 Csomag x 60 Törlőkendő db Baba Nedves Törlőkendő",08006530140171,1559.0,1.0,db,1559,26.0,each,59.962,db,59.962,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+100080722,"Always Daily Fresh Normal, Friss illattal 58 Darabos Kiszerelés",04015400565574,1299.0,1.0,db,1299,22.4,each,57.991,db,57.991,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+105029358,Always Ultra Day Normal Egészségügyi Betét (1-es Méret) Szárnyas Betét x 56],08700216450348,4669.0,1.0,db,4669,83.4,each,55.983,db,55.983,Drogéria|Női higiénia|Intim betétek|Intim betétek
+105003927,Always Daily Protect Extra Long Szagsemlegesítés Tisztasági Betét 54 Darabos Kiszerelés,08006540769652,1699.0,1.0,db,1699,31.5,each,53.937,db,53.937,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+220331094,Discreet Légáteresztő Multiform 0%-os Skin Love Tisztasági Betétek,08006540567555,1159.0,1.0,db,1159,21.5,each,53.907,db,53.907,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+220193975,Naturella Light Kamilla Tisztasági Betét X52,08001090604040,959.0,1.0,db,959,18.4,each,52.12,db,52.12,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+220331091,Discreet Protective Waterlilly Plus Tisztasági Betétek x52,08006540231746,1099.0,1.0,db,1099,21.1,each,52.085,db,52.085,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+100080725,"Always Daily Fresh Hosszú, 0% illatanyag 52 Darabos Kiszerelés",08006540791394,1299.0,1.0,db,1299,25.0,each,51.96,db,51.96,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+105373077,"Ariel Allin1 PODS +Extra Folteltávolító Hatású Mosókapszula, 50 Mosáshoz",08700216764896,9190.0,1.0,db,9190,183.8,each,50.0,db,50.0,Háztartás|Mosás|Mosókapszulák|Általános
+111275205,"Ariel Allin1 PODS +Touch of Lenor Gold Orchid, 50 Mosáshoz",08006530201933,9190.0,1.0,db,9190,183.8,each,50.0,db,50.0,Háztartás|Mosás|Mosókapszulák|Általános
+105311625,"Ariel Allin1 PODS Folyékony Mosókapszula Színes Ruhákhoz, 50 Mosáshoz",08700216764285,8989.0,1.0,db,8989,179.8,each,49.994,db,49.994,Háztartás|Mosás|Mosókapszulák|Színes
+100649719,Daewoo Power Products füldugó 50 pár,07799034329500,3299.0,1.0,db,3299,66.0,each,49.985,db,49.985,Otthon-hobbi|Barkácsolás|Festés és egyéb barkács kiegészítők|Egyéb barkács kiegészítők
+105027845,Lara Hygiene Multi-Surface nedvestörlőkendő,08699444263915,1459.0,1.0,db,1459,29.2,each,49.966,db,49.966,"Háztartás|Tisztítószerek, takarítóeszközök|Általános tisztítószerek|Általános tisztítószerek"
+220330395,Lynx A/5 félfamentes írólap 50 ív,05999570821533,219.0,1.0,db,219,4.4,each,49.773,db,49.773,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Rajzlap, írólap"
+220330305,Lynx A/5 famentes írólap 50 ív/csomag,05999570821526,199.0,1.0,db,199,4.0,each,49.75,db,49.75,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Rajzlap, írólap"
+100405177,"Tesco Home csipesztartó, 48 db csipesszel",05057967776542,1599.0,48.0,db,1599,1599.0,each,1.0,db,48.0,Otthon-hobbi|Otthon|Nappali és hálószoba|Egyéb kiegészítők
+111274894,"Jar Platinum Mosogatókapszula, Lemon, , 45 Mosogatókapszula",08006530121828,5490.0,1.0,db,5490,122.0,each,45.0,db,45.0,Háztartás|Mosogatáshoz|Gépi mosogatás|Tabletták
+111275921,Persil Discs mosókapszula 44 mosás,09000101844269,8990.0,1.0,db,8990,204.3,each,44.004,db,44.004,Háztartás|Mosás|Mosókapszulák|Általános
+111275922,Persil Discs Color mosókapszula 44 mosás,09000101844290,8990.0,1.0,db,8990,204.3,each,44.004,db,44.004,Háztartás|Mosás|Mosókapszulák|Színes
+118065222,Reikel csavarhúzókészlet 44 db,05054548730306,10990.0,44.0,db,10990,10990.0,each,1.0,db,44.0,Otthon-hobbi|Barkácsolás|Festés és egyéb barkács kiegészítők|Egyéb barkács kiegészítők
+105311623,"Ariel Allin1 PODS +Extra Folteltávolító Hatású Mosókapszula, 44 Mosáshoz",08700216764940,8989.0,1.0,db,8989,204.3,each,43.999,db,43.999,Háztartás|Mosás|Mosókapszulák|Általános
+105311630,"Ariel Allin1 PODS Mountain Spring Universal Mosókapszula, 44 Mosáshoz",08700216764667,5790.0,1.0,db,5790,131.6,each,43.997,db,43.997,Háztartás|Mosás|Mosókapszulák|Általános
+105311642,"Ariel Allin1 PODS Folyékony Mosókapszula Színes Ruhákhoz, 44 Mosáshoz",08700216764544,5790.0,1.0,db,5790,131.6,each,43.997,db,43.997,Háztartás|Mosás|Mosókapszulák|Színes
+220318389,Naturella X Normal Camomile Tisztasági Betét44,08006540100769,959.0,1.0,db,959,21.8,each,43.991,db,43.991,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+100080642,Always Ultra Day Normal Egészségügyi Betét (1-es Méret) Szárnyas Betét x 40],08700216171342,2629.0,1.0,db,2629,65.7,each,40.015,db,40.015,Drogéria|Női higiénia|Intim betétek|Intim betétek
+111274943,"Jar Platinum Plus Mosogatókapszula, Lemon, , 40 Mosogatókapszula",08006530121606,5490.0,1.0,db,5490,137.3,each,39.985,db,39.985,Háztartás|Mosogatáshoz|Gépi mosogatás|Tabletták
+220201369,K2r CC Színfogó 40 kendő,05999551691575,1999.0,1.0,db,1999,50.0,each,39.98,db,39.98,Háztartás|Mosás|Folttisztítók és mosási kiegészítők|Mosási kellékek
+207205756,Hansaplast Universal 40x,04005800239298,1539.0,1.0,db,1539,38.5,each,39.974,db,39.974,Drogéria|Patika|Gyógyászati segédeszközök|Gyógyászati segédeszközök
+105008397,Always Daily Protect Extra hosszúság Friss illattal Tisztasági Betét 40 Darabos Kiszerelés,08006540689011,1299.0,1.0,db,1299,32.5,each,39.969,db,39.969,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+105372813,"Ariel Allin1 PODS +Touch of Lenor Spring Awakening, 38 Mosáshoz",08700216764599,5790.0,1.0,db,5790,152.4,each,37.992,db,37.992,Háztartás|Mosás|Mosókapszulák|Általános
+105372961,"Ariel Allin1 PODS +Extra Folteltávolító Hatású Mosókapszula, 38 Mosáshoz",08700216764254,5790.0,1.0,db,5790,152.4,each,37.992,db,37.992,Háztartás|Mosás|Mosókapszulák|Általános
+111274981,"Ariel Allin1 PODS +Touch of Lenor Gold Orchid, 38 Mosáshoz",08006530203036,5790.0,1.0,db,5790,152.4,each,37.992,db,37.992,Háztartás|Mosás|Mosókapszulák|Általános
+111275212,"Ariel Allin1 PODS Folyékony Mosókapszula Színes Ruhákhoz, 38 Mosáshoz",08006530202336,8989.0,1.0,db,8989,236.6,each,37.992,db,37.992,Háztartás|Mosás|Mosókapszulák|Színes
+105450993,Persil Discs Expert Stain Removal mosókapszula 37 mosás,09000101830767,8990.0,1.0,db,8990,243.0,each,36.996,db,36.996,Háztartás|Mosás|Mosókapszulák|Általános
+105450997,Persil Discs Expert Sensitive mosókapszula 37 mosás,09000101830941,8990.0,1.0,db,8990,243.0,each,36.996,db,36.996,Háztartás|Mosás|Mosókapszulák|Általános
+105010177,Persil Power Caps Color mosókapszula 35 mosás,09000101801958,7490.0,1.0,db,7490,214.0,each,35.0,db,35.0,Háztartás|Mosás|Mosókapszulák|Színes
+105010178,Persil Power Caps mosókapszula 35 mosás,09000101801989,7490.0,1.0,db,7490,214.0,each,35.0,db,35.0,Háztartás|Mosás|Mosókapszulák|Általános
+111273925,Persil Discs mosókapszula 34 mosás,09000101845532,7490.0,1.0,db,7490,220.3,each,33.999,db,33.999,Háztartás|Mosás|Mosókapszulák|Általános
+111273931,Persil Discs Color mosókapszula 34 mosás,09000101845815,7490.0,1.0,db,7490,220.3,each,33.999,db,33.999,Háztartás|Mosás|Mosókapszulák|Színes
+105479832,"Férfi Dezodor, 2 ml, Old Spice Tomorrowland Special Edition 2026 Stift",08700216685351,1869.0,2.0,ml,1869,28753.8,litre,65.0,ml,32.5,"Drogéria|Férfi kozmetikumok|Izzadásgátló stiftek, golyós dezodorok|Izzadásgátló stiftek, golyós dezodorok"
+210283437,Ooops! Classic Sensitive toalettpapír 3 rétegű 32 tekercs,05998648704341,4359.0,1.0,db,4359,136.2,each,32.004,db,32.004,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+105586470,Zewa Deluxe Delicate Care toalettpapír 3 rétegű 32 tekercs,07322541343181,5290.0,1.0,db,5290,165.3,each,32.002,db,32.002,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+105593291,Zewa Deluxe Cashmere Peach 3 rétegű toalettpapír 32 tekercs,07322542544631,5290.0,1.0,db,5290,165.3,each,32.002,db,32.002,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+100484689,Tesco Home Ream étkészlet 32 db-os,05059316743274,7999.0,32.0,db,7999,7999.0,each,1.0,db,32.0,Otthon-hobbi|Otthon|Konyha és étkező|Étkészlet
+100080643,Always Ultra Day Super Egészségügyi Betét (2-es Méret) Szárnyas Betét x 32],08700216861199,2629.0,1.0,db,2629,82.2,each,31.983,db,31.983,Drogéria|Női higiénia|Intim betétek|Intim betétek
+120449456,"Black+Decker 31 db-os bit készlet tartóban, A7228-XJ",05035048661642,3499.0,31.0,db,3499,3499.0,each,1.0,db,31.0,Otthon-hobbi|Barkácsolás|Festés és egyéb barkács kiegészítők|Egyéb barkács kiegészítők
+105298974,"Ariel Allin1 PODS Mountain Spring Universal Mosókapszula, 30 Mosáshoz",08700216765480,5890.0,1.0,db,5890,196.3,each,30.005,db,30.005,Háztartás|Mosás|Mosókapszulák|Általános
+105299004,"Ariel Allin1 PODS Folyékony Mosókapszula Színes Ruhákhoz, 30 Mosáshoz",08700216766173,5890.0,1.0,db,5890,196.3,each,30.005,db,30.005,Háztartás|Mosás|Mosókapszulák|Színes
+111268451,"Ariel Allin1 PODS® Mosókapszula 30 Mosáshoz, Japanese Blossom",08006530380782,5890.0,1.0,db,5890,196.3,each,30.005,db,30.005,Háztartás|Mosás|Mosókapszulák|Általános
+105298984,"Ariel Allin1 PODS +Touch of Lenor Spring Awakening, 26 Mosáshoz",08700216766043,5890.0,1.0,db,5890,226.5,each,26.004,db,26.004,Háztartás|Mosás|Mosókapszulák|Általános
+105299010,"Ariel Allin1 PODS +Extra Folteltávolító Hatású Mosókapszula, 26 Mosáshoz",08700216765305,5890.0,1.0,db,5890,226.5,each,26.004,db,26.004,Háztartás|Mosás|Mosókapszulák|Általános
+111274978,"Ariel Allin1 PODS +Touch of Lenor Gold Orchid, 26 Mosáshoz",08006530202312,5890.0,1.0,db,5890,226.5,each,26.004,db,26.004,Háztartás|Mosás|Mosókapszulák|Általános
+100393014,Boríték LC/5 (162 x 229 mm) öntapadós 25 db,05999525920335,999.0,25.0,db,999,999.0,each,1.0,db,25.0,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+100830694,Tesco Home Linen illatosított teamécses 24,05063249352205,699.0,1.0,db,699,29.1,each,24.021,db,24.021,"Otthon-hobbi|Otthon|Nappali és hálószoba|Gyertyák, mécsesek, illatosítók"
+220328613,Always Ultra Secure Night Egészségügyi Betét (4-es Méret) Szárnyas Betét x 24],08006540093764,2629.0,1.0,db,2629,109.5,each,24.009,db,24.009,Drogéria|Női higiénia|Intim betétek|Intim betétek
+105013751,Nicky Soft Touch toalettpapír 2 rétegű 24 tekercs,08004260015004,2199.0,1.0,db,2199,91.6,each,24.007,db,24.007,Háztartás|Háztartási papír|Toalettpapír|2 rétegű
+220063100,Zewa Deluxe Camomile Comfort toalettpapír 3 rétegű 24 tekercs,07322541171722,4129.0,1.0,db,4129,172.0,each,24.006,db,24.006,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+220298790,Zewa Deluxe Delicate Care toalettpapír 3 rétegű 24 tekercs,07322541185040,4129.0,1.0,db,4129,172.0,each,24.006,db,24.006,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+220298789,Zewa Deluxe Lavender Dreams toalettpapír 3 rétegű 24 tekercs,07322541184944,4129.0,1.0,db,4129,172.0,each,24.006,db,24.006,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+105010513,Tomi Color mosókapszula 24 mosás,09000101802962,2469.0,1.0,db,2469,102.9,each,23.994,db,23.994,Háztartás|Mosás|Mosókapszulák|Színes
+220345355,Regina Delicate Calming Chamomile toalettpapír 3 rétegű 24 tekercs,08004260013031,3239.0,1.0,db,3239,135.0,each,23.993,db,23.993,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+111270073,Tesco Luxury Soft White toalettpapír 3 rétegű 24 tekercs,05059944698847,3479.0,1.0,db,3479,145.0,each,23.993,db,23.993,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+120193878,Ooops! Everyday Peach toalettpapír 3 rétegű 24 tekercs,05998648701791,2339.0,1.0,db,2339,97.5,each,23.99,db,23.99,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+105015005,Ooops! Everyday Sensitive Goal! toalettpapír 3 rétegű 24 tekercs,05998648709278,2339.0,1.0,db,2339,97.5,each,23.99,db,23.99,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+105366482,Persil Discs mosókapszula 22 mosás,09000101829303,4839.0,1.0,db,4839,220.0,each,21.995,db,21.995,Háztartás|Mosás|Mosókapszulák|Általános
+105366485,Persil Discs Color mosókapszula 22 mosás,09000101829099,4839.0,1.0,db,4839,220.0,each,21.995,db,21.995,Háztartás|Mosás|Mosókapszulák|Színes
+100503544,Clementoni Soft Clemmy Touch & Play 20 db-os puha építőjáték 6-36 hónap,08005125178773,7190.0,20.0,db,7190,7190.0,each,1.0,db,20.0,Otthon-hobbi|Játékok|Legkisebbeknek|Legkisebbeknek
+100405184,Tesco ruhaszárító 20 db csipesszel,05057967776580,999.0,20.0,db,999,999.0,each,1.0,db,20.0,Otthon-hobbi|Otthon|Nappali és hálószoba|Egyéb kiegészítők
+105484295,Persil Discs Expert Sensitive mosókapszula 20 mosás,09000101829273,4839.0,1.0,db,4839,242.0,each,19.996,db,19.996,Háztartás|Mosás|Mosókapszulák|Általános
+220308432,Always Ultra Secure Night Extra Egészségügyi Betét (5-ös Méret) Szárnyas Betét x 20],08006540903766,2629.0,1.0,db,2629,131.5,each,19.992,db,19.992,Drogéria|Női higiénia|Intim betétek|Intim betétek
+220346500,Lynx A4 színes papír tömb 20 lapos,05999570821649,1919.0,1.0,db,1919,96.0,each,19.99,db,19.99,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Színes papírok, kartonok, krepp papír"
+100080630,Always Ultra Day Normal Egészségügyi Betét (1-es Méret) Szárnyas Betét x 20],08700216171311,1459.0,1.0,db,1459,73.0,each,19.986,db,19.986,Drogéria|Női higiénia|Intim betétek|Intim betétek
+220294016,Hansaplast Marvel sebtapasz 20x,04005900717672,1369.0,1.0,db,1369,68.5,each,19.985,db,19.985,Drogéria|Patika|Gyógyászati segédeszközök|Gyógyászati segédeszközök
+100692793,Tesco sütőpapír 38 x 42 cm 20 ív,05051007122344,525.0,1.0,db,525,26.3,each,19.962,db,19.962,Háztartás|Konyhai kellékek és szemeteszsákok|Fóliák és sütőpapírok|Sütőpapírok
+220278200,Naturella Normal To Go (individually wrapped) Tisztasági Betét 16X20,08001841280561,529.0,1.0,db,529,26.5,each,19.962,db,19.962,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+100080746,Naturella Light Kamilla Tisztasági Betét 18X20,04015400240310,499.0,1.0,db,499,25.0,each,19.96,db,19.96,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+220318388,Naturella X Normal Camomile Tisztasági Betét20,08006540100684,499.0,1.0,db,499,25.0,each,19.96,db,19.96,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+220330309,Lynx műszaki rajzlap A4 20 lap,05999570821748,479.0,1.0,db,479,24.0,each,19.958,db,19.958,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Rajzlap, írólap"
+100080647,Discreet Légáteresztő illatmentes Tisztasági Betétek,04015400165804,399.0,1.0,db,399,20.0,each,19.95,db,19.95,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+100080648,Discreet Légáteresztő Multiform Waterlilly Tisztasági Betétek x20,04015400107835,399.0,1.0,db,399,20.0,each,19.95,db,19.95,Drogéria|Női higiénia|Tisztasági betétek|Tisztasági betétek
+220330408,Lynx A4 famentes rajzlap 20 lap,05999570821571,399.0,1.0,db,399,20.0,each,19.95,db,19.95,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Rajzlap, írólap"
+101285828,Tesco Home Office 5 db-os ragasztós jelölő 100 lap,05051140643430,379.0,5.0,db,379,3.8,each,99.737,db,19.947,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+100686537,Stor evőeszköz készlet 18 db,08412497981342,999.0,18.0,db,999,999.0,each,1.0,db,18.0,Otthon-hobbi|Otthon|Konyha és étkező|Konyhai kiegészítők
+100878282,Addo Magnimake pasztell mágneses szett 18 db,05056289423226,6599.0,18.0,db,6599,6599.0,each,1.0,db,18.0,Otthon-hobbi|Játékok|Legkisebbeknek|Legkisebbeknek
+105007751,Zewa Eco Comfort 3 rétegű toalettpapír 16 tekercs,07322542226902,2679.0,1.0,db,2679,167.4,each,16.004,db,16.004,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+100249046,Tesco Home rozsdamentes acél evőeszközkészlet 16 db-os,05057753104498,1599.0,16.0,db,1599,1599.0,each,1.0,db,16.0,Otthon-hobbi|Otthon|Konyha és étkező|Étkészlet
+100486756,Tesco Home Adorn evőeszközkészlet 16 db-os,05059316743267,5990.0,16.0,db,5990,5990.0,each,1.0,db,16.0,Otthon-hobbi|Otthon|Konyha és étkező|Étkészlet
+100243038,Tesco Home étkészlet 16 db-os,05057753104450,5999.0,16.0,db,5999,5999.0,each,1.0,db,16.0,Otthon-hobbi|Otthon|Konyha és étkező|Étkészlet
+100952173,F&F Home Foxton 16 db-os evőeszközkészlet,05059697728440,5990.0,16.0,db,5990,5990.0,each,1.0,db,16.0,Otthon-hobbi|Otthon|Konyha és étkező|Étkészlet
+210000348,Zewa Deluxe Delicate Care toalettpapír 3 rétegű 16 tekercs,07322540313321,2699.0,1.0,db,2699,168.7,each,15.999,db,15.999,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+209261880,Zewa Deluxe Camomile Comfort toalettpapír 3 rétegű 16 tekercs,07322540201925,2699.0,1.0,db,2699,168.7,each,15.999,db,15.999,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+209261897,Zewa Deluxe Cashmere Peach toalettpapír 3 rétegű 16 tekercs,07322540201192,2699.0,1.0,db,2699,168.7,each,15.999,db,15.999,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+100080631,Always Ultra Day Super Egészségügyi Betét (2-es Méret) Szárnyas Betét x 16],08700216861069,1459.0,1.0,db,1459,91.2,each,15.998,db,15.998,Drogéria|Női higiénia|Intim betétek|Intim betétek
+105001748,Tesco Soft Luxury White toalett papír 3 rétegű 16 tekercs,05059944689401,2369.0,1.0,db,2369,148.1,each,15.996,db,15.996,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+105001652,Tesco Soft Luxury toalett papír Aloe Vera illattal 3 rétegű 16 tekercs,05059944689333,2369.0,1.0,db,2369,148.1,each,15.996,db,15.996,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+120704068,Ooops! Excellence Champion Edition Sensitive toalettpapír 3 rétegű 16 tekercs,05998648709834,2249.0,1.0,db,2249,140.6,each,15.996,db,15.996,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+120704051,Ooops! Excellence Camomile toalettpapír 3 rétegű 16 tekercs,05998648706192,2249.0,1.0,db,2249,140.6,each,15.996,db,15.996,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+220315738,Ooops! Excellence Lotion toalettpapír 3 rétegű 16 tekercs,05998648706031,2249.0,1.0,db,2249,140.6,each,15.996,db,15.996,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+220345337,Regina Delicate Gentle Feeling toalettpapír 3 rétegű 16 tekercs,08004260012959,1969.0,1.0,db,1969,123.1,each,15.995,db,15.995,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+220345339,Regina Delicate Refreshing Aloe toalettpapír 3 rétegű 16 tekercs,08004260013154,1969.0,1.0,db,1969,123.1,each,15.995,db,15.995,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+220345354,Regina Delicate Calming Chamomile toalettpapír 3 rétegű 16 tekercs,08004260013017,1969.0,1.0,db,1969,123.1,each,15.995,db,15.995,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+105001533,Springforce toalettpapír 2 rétegű 16 tekercs,05059944689289,1489.0,1.0,db,1489,93.1,each,15.994,db,15.994,Háztartás|Háztartási papír|Toalettpapír|2 rétegű
+100686974,Deli öntapadó jegyzettömb 25 oldal,06935205304865,479.0,1.0,db,479,31.9,each,15.016,db,15.016,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+117957504,Reikel 15 db-os mágneses bitkészlet,05054548730245,2199.0,15.0,db,2199,2199.0,each,1.0,db,15.0,Otthon-hobbi|Barkácsolás|Festés és egyéb barkács kiegészítők|Egyéb barkács kiegészítők
+100686975,Deli A552 02 öntapadó jegyzettömb 15 lap,06935205318596,739.0,1.0,db,739,49.3,each,14.99,db,14.99,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+100080633,Always Ultra Super Extra Egészségügyi Betét (3-as Méret) Szárnyas Betét x 14],08700216861052,1459.0,1.0,db,1459,104.2,each,14.002,db,14.002,Drogéria|Női higiénia|Intim betétek|Intim betétek
+100877269,Addo Awesome Animals Farm Yard farm állatfigurák dobozban 13 db,05060460350195,4099.0,13.0,db,4099,4099.0,each,1.0,db,13.0,Otthon-hobbi|Játékok|Fiúknak|Fiúknak
+100286621,Decorata Party Happy Birthday gyertyák,05201184091913,799.0,1.0,db,799,61.5,each,12.992,db,12.992,Otthon-hobbi|Party kellékek|Party kellékek|Party kellékek
+100997519,BBQ steak kés és villa szett 12 db,08720573172677,2999.0,12.0,db,2999,2999.0,each,1.0,db,12.0,Otthon-hobbi|Kert és szabadtéri élet|Grillezés és szabadtéri főzés|Grillezés és szabadtéri főzés
+100080706,"Gillette Fusion5 Borotvabetétek Férfi Borotvához, 12 Borotvabetétek, 5 Penge, Precíziós Nyíró",08006540986141,17790.0,1.0,db,17790,1482.5,each,12.0,db,12.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+100080711,"Gillette Mach3 Férfi Borotvabetétek, 12 Gillette 3 Pengés Borotvabetétek",08006530028875,10990.0,1.0,db,10990,915.8,each,12.0,db,12.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+100659236,Tesco Home 12 db-os muffinsütő forma,05059697468292,3299.0,12.0,db,3299,3299.0,each,1.0,db,12.0,Otthon-hobbi|Otthon|Konyha és étkező|Sütés-főzés eszközök
+100331587,Tesco Home Aura fekete étkészlet 12 db-os,05057753456894,16799.0,12.0,db,16799,16799.0,each,1.0,db,12.0,Otthon-hobbi|Otthon|Konyha és étkező|Étkészlet
+100863656,F&F Home Pearce Square étkészlet 12 db-os,05059697261589,27590.0,12.0,db,27590,27590.0,each,1.0,db,12.0,Otthon-hobbi|Otthon|Konyha és étkező|Étkészlet
+100331634,Tesco Home Turin étkészlet zöld 12 db-os,05057753811051,16799.0,12.0,db,16799,16799.0,each,1.0,db,12.0,Otthon-hobbi|Otthon|Konyha és étkező|Étkészlet
+100877267,Addo Awesome Animals Dinosaurs dinoszaurusz figurák dobozban 12 db,05060460352229,4099.0,12.0,db,4099,4099.0,each,1.0,db,12.0,Otthon-hobbi|Játékok|Fiúknak|Fiúknak
+100864847,Fox & Ivy Petal Cream étkészlet 12 db,05059697726286,23990.0,12.0,db,23990,23990.0,each,1.0,db,12.0,Otthon-hobbi|Otthon|Konyha és étkező|Étkészlet
+100882163,Moxy nyomda készlet 12 db,05999576550598,1639.0,12.0,db,1639,1639.0,each,1.0,db,12.0,Otthon-hobbi|Játékok|Kreatív játékok|Kreatív játékok
+100952171,F&F Home Logan Green étkészlet 12 db-os,05063445805574,23990.0,12.0,db,23990,23990.0,each,1.0,db,12.0,Otthon-hobbi|Otthon|Konyha és étkező|Étkészlet
+100956603,F&F Home Essence White étkészlet 12 db-os,05063445801149,9299.0,12.0,db,9299,9299.0,each,1.0,db,12.0,Otthon-hobbi|Otthon|Konyha és étkező|Étkészlet
+105010149,"Gillette Blue3 Plus Comfort, Eldobható Borotva Férfiaknak, 12 Darabos Kiszerelés",08700216148146,4249.0,1.0,db,4249,354.1,each,11.999,db,11.999,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+100080637,Always Ultra Secure Night Egészségügyi Betét (4-es Méret) Szárnyas Betét x 12],04015400612469,1369.0,1.0,db,1369,114.1,each,11.998,db,11.998,Drogéria|Női higiénia|Intim betétek|Intim betétek
+100600495,Colorino Artist 12 darabos grafitceruza készlet,05907690880118,3429.0,1.0,db,3429,285.8,each,11.998,db,11.998,"Otthon-hobbi|Iskolai és irodai kellékek|Színezés|Tempera, vízfesték, ecset"
+100378374,Zsírkréta 12 színben,05906874463567,229.0,1.0,db,229,19.1,each,11.99,db,11.99,"Otthon-hobbi|Iskolai és irodai kellékek|Színezés|Színes ceruzák, filctoll, kréták"
+100378377,Vízfesték ecsettel 12 szín,05906874463550,399.0,1.0,db,399,33.3,each,11.982,db,11.982,"Otthon-hobbi|Iskolai és irodai kellékek|Színezés|Tempera, vízfesték, ecset"
+220378305,Csokoládés croissant 80 g,05413476336996,299.0,80.0,g,299,314.7,kg,950.111,g,11.876,Pékáru|Friss pékáru|Reggeliző termék|Reggeliző termék
+220319003,"Swiffer Sweeper Kezdőkészet: 1 db Felmosó, 8. db Száraz és 3. db Nedves Felmosókendő Utántöltő",08006540316764,6790.0,1.0,db,6790,617.3,each,11.0,db,11.0,"Háztartás|Tisztítószerek, takarítóeszközök|Padlő-, szőnyeg- és kárpittisztítás|Padló"
+100825952,Fagylalt homokozó szett 11 db,05319990166326,1999.0,11.0,db,1999,1999.0,each,1.0,db,11.0,"Otthon-hobbi|Játékok|Szabadtéri játékok, kiegészítők|Szabadtéri játékok, kiegészítők"
+220337025,Félbarna vekni 500 g,02188690000000,345.0,500.0,g,345,6900.0,kg,50.0,g,10.0,Pékáru|Friss pékáru|Kenyér|Kenyér
+220318384,Always Ultra Secure Night Extra Egészségügyi Betét (5-ös Méret) Szárnyas Betét x 10],08006540093849,1369.0,1.0,db,1369,136.9,each,10.0,db,10.0,Drogéria|Női higiénia|Intim betétek|Intim betétek
+100749905,"Tesco tonhal saláta kukoricával, sárgarépával, savanyú uborkával és fekete olívabogyóval 16 g",05051007161275,1089.0,16.0,g,1089,6806.3,kg,159.999,g,10.0,"Alapvető élelmiszerek|Konzervek, olívabogyók|Halkonzervek, haltermékek|Tonhal"
+105006592,"Alpro zsírszegény fermentált szójakészítmény kókusszal, hozzáadott kalciummal és vitaminokkal 40 g",05411188138051,1139.0,40.0,g,1139,2847.5,kg,400.0,g,10.0,"Speciális|Vegetáriánus és vegán|Joghurt, joghurtital|Joghurt"
+220331365,Elephant chips-tallér mézes-mustáros és hagymás fűszerezéssel 70 g,05949040202058,589.0,70.0,g,589,841.4,kg,700.024,g,10.0,"Alapvető élelmiszerek|Rágcsálnivalók, chips|Sós kekszek, sós pálcikák és krékerek|Krékerek"
+100769945,Tesco papír zsebkendő 3 rétegű 10 x 10 db,05051007176699,599.0,100.0,db,599,59.9,each,10.0,db,10.0,Háztartás|Háztartási papír|Papír zsebkendő|3 rétegű
+105007070,Ooops! Everyday Sensitive toalettpapír 3 rétegű 10 tekercs,05998648709186,2449.0,1.0,db,2449,244.9,each,10.0,db,10.0,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+100769944,Tesco papír zsebkendő aloe vera illattal 3 rétegű 10 x 10 db,05051007176682,599.0,100.0,db,599,59.9,each,10.0,db,10.0,Háztartás|Háztartási papír|Papír zsebkendő|3 rétegű
+120043360,Ooops! Classic Sensitive papír zsebkendő 3 rétegű 10 x 10 db,05998648702422,679.0,100.0,db,679,67.9,each,10.0,db,10.0,Háztartás|Háztartási papír|Papír zsebkendő|3 rétegű
+210268199,Ooops! Classic Aloe Vera Balsam papír zsebkendő 3 rétegű 10 x 10 db,05998648702439,679.0,100.0,db,679,67.9,each,10.0,db,10.0,Háztartás|Háztartási papír|Papír zsebkendő|3 rétegű
+105026035,Ooops! Everyday Peach toalettpapír 3 rétegű 10 tekercs,05998648705942,2449.0,1.0,db,2449,244.9,each,10.0,db,10.0,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+111269920,Tesco Papír zsebkendő eukaliptusz illattal 4 rétegű 10 x 10 db,05059944698762,779.0,100.0,db,779,77.9,each,10.0,db,10.0,Háztartás|Háztartási papír|Papír zsebkendő|4 rétegű
+111270026,Tesco papír zsebkendő 4 rétegű 10 x 10 db,05059944698830,779.0,100.0,db,779,77.9,each,10.0,db,10.0,Háztartás|Háztartási papír|Papír zsebkendő|4 rétegű
+210271267,Zewa Deluxe Limited Edition illatmentes papír zsebkendő 3 rétegű 10 x 10 db,07322540043440,429.0,100.0,db,429,42.9,each,10.0,db,10.0,Háztartás|Háztartási papír|Papír zsebkendő|3 rétegű
+209839881,Hansaplast Universal sebtapasz 1 m x 6 cm,04005800042744,1329.0,1.0,db,1329,132.9,each,10.0,db,10.0,Drogéria|Patika|Gyógyászati segédeszközök|Gyógyászati segédeszközök
+220330407,Lynx A/4 famentes rajzlap 10 lap,05999570821540,159.0,1.0,db,159,15.9,each,10.0,db,10.0,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Rajzlap, írólap"
+220330397,Lynx A4 félfamentes rajzlap 10 lap,05999570821564,219.0,1.0,db,219,21.9,each,10.0,db,10.0,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Rajzlap, írólap"
+100393015,Fehér boríték LC/5 (162 x 229 mm) öntapadós 10 db,05999525921400,499.0,10.0,db,499,499.0,each,1.0,db,10.0,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+220330400,Lynx műszaki rajzlap A4 10 lap,05999570821731,249.0,1.0,db,249,24.9,each,10.0,db,10.0,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Rajzlap, írólap"
+220346540,Lynx A3 famentes rajzlap 10 ív,05999570823087,399.0,1.0,db,399,39.9,each,10.0,db,10.0,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Rajzlap, írólap"
+100393020,Légpárnás tasak W7 (260 x 350 mm) 10 db,05999525924487,3269.0,10.0,db,3269,3269.0,each,1.0,db,10.0,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+220330310,Lynx műszaki rajzlap A3 10 lap,05999570821755,439.0,1.0,db,439,43.9,each,10.0,db,10.0,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Rajzlap, írólap"
+210582585,ICO A3 famentes rajztömb 10 lap,05997072146024,1479.0,1.0,db,1479,147.9,each,10.0,db,10.0,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Rajzlap, írólap"
+220330411,Lynx kivágólap 15 x 15 cm,05999570821625,139.0,1.0,db,139,13.9,each,10.0,db,10.0,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Színes papírok, kartonok, krepp papír"
+100378571,Bújtatós füzetborító A5 10 db,04008119092073,1479.0,10.0,db,1479,1479.0,each,1.0,db,10.0,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irattartó mappák és papucsok
+100393018,Légpárnás tasak W2 (140 x 225 mm) 10 db,05999525924432,1479.0,10.0,db,1479,1479.0,each,1.0,db,10.0,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+100805944,Handy 10 db-os festőhenger szett,05999117004382,5999.0,10.0,db,5999,5999.0,each,1.0,db,10.0,Otthon-hobbi|Barkácsolás|Festés és egyéb barkács kiegészítők|Festés
+100858632,Astone Miller légkondicionáló tisztító spray bomba 100 ml,05999885948918,1999.0,100.0,ml,1999,1999.0,litre,1000.0,ml,10.0,Otthon-hobbi|Autós kiegészítők|Autóápolás|Autóápolás
+100875786,Addo Awesome Animals 10 db-os dinoszaurusz játékfigura szett,05056289411056,6690.0,10.0,db,6690,6690.0,each,1.0,db,10.0,Otthon-hobbi|Játékok|Fiúknak|Fiúknak
+220332459,Lynx A4 kivágólap,05999570821632,269.0,1.0,db,269,26.9,each,10.0,db,10.0,"Otthon-hobbi|Iskolai és irodai kellékek|Kötelező termékek|Színes papírok, kartonok, krepp papír"
+100377526,"Körző készlet, 9 darabos",05906874463260,1199.0,1.0,db,1199,133.2,each,9.002,db,9.002,"Otthon-hobbi|Iskolai és irodai kellékek|Írószerek|Vonalzók, körzők"
+206101882,Zewa Softis Original illatmentes papír zsebkendő 4 rétegű 10 x 9 db,07322541110776,719.0,90.0,db,719,71.9,each,10.0,db,9.0,Háztartás|Háztartási papír|Papír zsebkendő|4 rétegű
+209619513,Zewa Softis Energizing Moments illatosított papír zsebkendő 4 rétegű 10 x 9 db,07322540246735,719.0,90.0,db,719,71.9,each,10.0,db,9.0,Háztartás|Háztartási papír|Papír zsebkendő|4 rétegű
+220312723,Zewa Softis Natural Soft illatmentes papír zsebkendő 4 rétegű 10 x 9 db,07322541351872,719.0,90.0,db,719,71.9,each,10.0,db,9.0,Háztartás|Háztartási papír|Papír zsebkendő|4 rétegű
+220298791,Zewa Softis Aromathera illatosított papír zsebkendő 4 rétegű 10 x 9 db,07322540352153,719.0,90.0,db,719,71.9,each,10.0,db,9.0,Háztartás|Háztartási papír|Papír zsebkendő|4 rétegű
+220345349,Regina di Cuori papír zsebkendő 4 rétegű 10 x 9 db,08004260011624,789.0,90.0,db,789,78.9,each,10.0,db,9.0,Háztartás|Háztartási papír|Papír zsebkendő|4 rétegű
+220345335,Regina Ecoring toalettpapír 2 rétegű 8 tekercs,08004260012782,829.0,1.0,db,829,103.6,each,8.002,db,8.002,Háztartás|Háztartási papír|Toalettpapír|2 rétegű
+105001743,Tesco Soft Luxury White toalett papír 3 rétegű 8 tekercs,05059944689371,1349.0,1.0,db,1349,168.6,each,8.001,db,8.001,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+105001560,Tesco Soft Luxury toalett papír aloe vera illattal 3 rétegű 8 tekercs,05059944689302,1349.0,1.0,db,1349,168.6,each,8.001,db,8.001,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+120704080,Ooops! Excellence Sensitive toalettpapír 3 rétegű 8 tekercs,05998648704365,1349.0,1.0,db,1349,168.6,each,8.001,db,8.001,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+120704074,Ooops! Excellence Camomile toalettpapír 3 rétegű 8 tekercs,05998648706185,1349.0,1.0,db,1349,168.6,each,8.001,db,8.001,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+105322431,Ooops! Classic Sensitive toalettpapír 3 rétegű 8 tekercs,05998648704310,1249.0,1.0,db,1249,156.1,each,8.001,db,8.001,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+120677427,Ooops! Junior papír zsebkendő 4 rétegű 10 x 8 db,05998648708059,679.0,80.0,db,679,67.9,each,10.0,db,8.0,Háztartás|Háztartási papír|Papír zsebkendő|4 rétegű
+100080917,"Gillette Blue3 Plus Comfort, Eldobható Borotva Férfiaknak, 8 Darabos Kiszerelés",07702018489978,3799.0,1.0,db,3799,474.9,each,8.0,db,8.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+220278317,"Gillette Blue3 Plus Comfort, Eldobható Borotva Férfiaknak, 8 Darabos Kiszerelés",07702018536320,3799.0,1.0,db,3799,474.9,each,8.0,db,8.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+105006007,"Gillette Mach3 Férfi Borotvabetétek, 8 Gillette 3 Pengés Borotvabetétek",08700216066556,10290.0,1.0,db,10290,1286.3,each,8.0,db,8.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+105006373,"Gillette Mach3 Charcoal Férfi Borotvabetétek, 8 3 Pengés Borotvabetétek",08700216085472,10290.0,1.0,db,10290,1286.3,each,8.0,db,8.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+100769934,Tesco Soft Luxury White toalettpapír 4 rétegű 8 tekercs,05051007164054,1179.0,1.0,db,1179,147.4,each,7.999,db,7.999,Háztartás|Háztartási papír|Toalettpapír|4 és 5 rétegű
+207668155,Zewa Deluxe Camomile Comfort toalettpapír 3 rétegű 8 tekercs,07322541171708,1359.0,1.0,db,1359,169.9,each,7.999,db,7.999,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+206049689,Zewa Exclusive Ultra Soft toalettpapír 4 rétegű 8 tekercs,07322541191041,2099.0,1.0,db,2099,262.4,each,7.999,db,7.999,Háztartás|Háztartási papír|Toalettpapír|4 és 5 rétegű
+210264542,Zewa Deluxe Lavender Dreams toalettpapír 3 rétegű 8 tekercs,07322541171777,1359.0,1.0,db,1359,169.9,each,7.999,db,7.999,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+209747384,Zewa Deluxe Jasmine Blossom toalettpapír 3 rétegű 8 tekercs,07322541171753,1359.0,1.0,db,1359,169.9,each,7.999,db,7.999,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+220345338,Regina Delicate Refreshing Aloe toalettpapír 3 rétegű 8 tekercs,08004260013130,1239.0,1.0,db,1239,154.9,each,7.999,db,7.999,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+220345336,Regina Delicate Gentle Feeling toalettpapír 3 rétegű 8 tekercs,08004260012935,1239.0,1.0,db,1239,154.9,each,7.999,db,7.999,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+105007750,Zewa Eco Comfort 3 rétegű toalettpapír 8 tekercs,07322542227008,1379.0,1.0,db,1379,172.4,each,7.999,db,7.999,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatmentes"
+220345353,Regina Delicate Calming Chamomile toalettpapír 3 rétegű 8 tekercs,08004260012997,1239.0,1.0,db,1239,154.9,each,7.999,db,7.999,"Háztartás|Háztartási papír|Toalettpapír|3 rétegű, illatosított"
+105001537,Springforce toalett papír aloe vera illattal 2 rétegű 8 tekercs,05059944689296,839.0,1.0,db,839,104.9,each,7.998,db,7.998,Háztartás|Háztartási papír|Toalettpapír|2 rétegű
+100769936,Springforce toalettpapír 2 rétegű 8 tekercs,05051007154383,839.0,1.0,db,839,104.9,each,7.998,db,7.998,Háztartás|Háztartási papír|Toalettpapír|2 rétegű
+111238335,Kotányi Ezersziget salátaöntet fűszerkeverék 100 g,05995863010684,189.0,100.0,g,189,14538.5,kg,13.0,g,7.692,Alapvető élelmiszerek|Ételízesítés|Fűszerporok salátákhoz|Fűszerporok salátákhoz
+118054851,Reikel precíziós csavarhúzó készlet 7 db,05054548729928,2999.0,7.0,db,2999,2999.0,each,1.0,db,7.0,Otthon-hobbi|Barkácsolás|Festés és egyéb barkács kiegészítők|Egyéb barkács kiegészítők
+105008398,"Always Maxi Secure Night Szárnyas Egészségügyi Betét, 4-es Méret X6",08006540538258,599.0,1.0,db,599,99.8,each,6.002,db,6.002,Drogéria|Női higiénia|Intim betétek|Intim betétek
+220193814,Zewa Just 1 toalettpapír 5 rétegű 6 tekercs,07322541189314,2099.0,1.0,db,2099,349.8,each,6.001,db,6.001,Háztartás|Háztartási papír|Toalettpapír|4 és 5 rétegű
+107282265,"Love Sensation síkosítóval és ondótartállyal ellátott, extra vékony átlátszó óvszer 2 db",05901549918588,899.0,2.0,db,899,74.9,each,12.003,db,6.001,Drogéria|Patika|Óvszerek|Óvszerek
+220335914,Thai Chef instant tészta krémes garnélarák ízben 360 g,08852523206153,225.0,360.0,g,225,3750.0,kg,60.0,g,6.0,"Alapvető élelmiszerek|Nemzetközi konyha|Távol keleti konyha|Indiai, vietnámi és thai konyha"
+100645230,Tesco Home 6 db-os edénykészlet,05054548728983,19990.0,6.0,db,19990,19990.0,each,1.0,db,6.0,Otthon-hobbi|Otthon|Konyha és étkező|Sütés-főzés eszközök
+100440491,"Varo Kreator HSS acél fúró készlet, 6 db-os",05400338045936,2499.0,6.0,db,2499,2499.0,each,1.0,db,6.0,Otthon-hobbi|Barkácsolás|Festés és egyéb barkács kiegészítők|Egyéb barkács kiegészítők
+100640913,Sports Active Ping Pong szett,08711866201563,2999.0,1.0,db,2999,499.8,each,6.0,db,6.0,"Otthon-hobbi|Játékok|Szabadtéri játékok, kiegészítők|Szabadtéri játékok, kiegészítők"
+100839009,Stor Jurassic World Micro bögre,08412497146048,999.0,1.0,db,999,166.5,each,6.0,db,6.0,Otthon-hobbi|Otthon|Konyha és étkező|Étkészlet
+100904179,Playfellow homokozójáték összecsukható vödörrel 6 db-os készlet,05999576550895,2299.0,6.0,db,2299,2299.0,each,1.0,db,6.0,"Otthon-hobbi|Játékok|Szabadtéri játékok, kiegészítők|Szabadtéri játékok, kiegészítők"
+100966090,Go Cook muffin sütőforma 6 db-os,02280641709052,2399.0,6.0,db,2399,2399.0,each,1.0,db,6.0,Otthon-hobbi|Otthon|Konyha és étkező|Sütés-főzés eszközök
+105295120,"Reikel csillagvillás kulcskészlet, 6 db-os",05054548680830,4999.0,6.0,db,4999,4999.0,each,1.0,db,6.0,Otthon-hobbi|Barkácsolás|Festés és egyéb barkács kiegészítők|Egyéb barkács kiegészítők
+105426735,"Venus Extra Comfort Miami Eldobható Borotva, db 6",08700216756907,2359.0,1.0,db,2359,393.2,each,5.999,db,5.999,Drogéria|Női higiénia|Női szőrtelenítés|Női borotválkozás
+220199864,Fino konyhai szivacs 5+1 db,05900536279121,649.0,1.0,db,649,108.2,each,5.998,db,5.998,"Háztartás|Tisztítószerek, takarítóeszközök|Takarítóeszközök és kiegészítők|Szivacsok és súrolók"
+100383109,"Gyurma, 6 színben",05906874463505,289.0,1.0,db,289,48.2,each,5.996,db,5.996,Otthon-hobbi|Iskolai és irodai kellékek|Színezés|Gyurma
+220317657,"Gillette Mach3 Férfi Borotvabetétek, 5 Gillette 3 Pengés Borotvabetétek",07702018552313,6490.0,1.0,db,6490,1298.0,each,5.0,db,5.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+220311397,Wilkinson Sword Barber's Style Classic Shave borotva + 5 borotvapenge,04027800239504,7990.0,1.0,db,7990,1598.0,each,5.0,db,5.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+100392562,Tesco Home Office A6-os irattartó mappa,05054548696916,849.0,1.0,db,849,169.8,each,5.0,db,5.0,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+100377663,Herlitz 5 részes körzőkészlet,04008118710305,2399.0,1.0,db,2399,479.8,each,5.0,db,5.0,"Otthon-hobbi|Iskolai és irodai kellékek|Írószerek|Vonalzók, körzők"
+100753810,"F&F férfi fehér Trainer Liner zokni, 5 pár/csomag 43-46",05063065663387,3690.0,1.0,db,3690,738.0,each,5.0,db,5.0,Otthon-hobbi|Ruházat|Férfi ruházat|Zoknik
+100753811,"F&F férfi fehér Trainer Liner zokni, 5 pár/csomag 39-42",05063065663370,3690.0,1.0,db,3690,738.0,each,5.0,db,5.0,Otthon-hobbi|Ruházat|Férfi ruházat|Zoknik
+111274018,"Kaija tonhal zöldség ágyon, olasz módra 185 g",04751007733137,1499.0,185.0,g,1499,32587.0,kg,46.0,g,4.022,"Alapvető élelmiszerek|Konzervek, olívabogyók|Halkonzervek, haltermékek|Tonhal"
+111274019,"Kaija tonhal zöldség ágyon, mexikói módra 185 g",04751007733144,1499.0,185.0,g,1499,32587.0,kg,46.0,g,4.022,"Alapvető élelmiszerek|Konzervek, olívabogyók|Halkonzervek, haltermékek|Tonhal"
+120171991,Libero parfüm- és műanyagmentes nedves törlőkendő 4 x 64 db,07322541164809,3089.0,256.0,db,3089,48.3,each,63.954,db,4.003,Baba|Babaápolási termékek|Baba törlőkendők|Baba törlőkendők
+101150157,Tesco Outdoor tartozékok 1/2 colos tömlőhöz 4 db,05051790727504,1399.0,4.0,db,1399,1399.0,each,1.0,db,4.0,"Otthon-hobbi|Kert és szabadtéri élet|Növény- és gyepápolás|Öntözés, permetezés"
+120103802,Danone Danette vaníliaízű puding 125 g,05997536141510,919.0,125.0,g,919,1838.0,kg,500.0,g,4.0,Tejtermék-tojás|Tejdesszertek|Puding|Puding
+111268542,Kotányi Citromos Halak fűszerkeverék 100 g,05995863019298,469.0,100.0,g,469,18760.0,kg,25.0,g,4.0,"Alapvető élelmiszerek|Ételízesítés|Fűszerkeverékek, gyorspácok|Fűszerkeverékek halakhoz"
+121277922,"Johnnie Walker Red Label skót whisky 40% 0,7 l + 0,2 l",05995099739786,9290.0,200.0,ml,9290,11612.5,litre,800.0,ml,4.0,Italok|Szeszes italok|Whisky|Egyéb whisky
+121354658,"1664 Blanc világos búzasör 5% 4 x 0,5 l (2 l)",08600331002968,1999.0,2000.0,ml,1999,3998.0,litre,500.0,ml,4.0,"Italok|Sör, cider|Világos sörök|Multipack"
+210589638,Zewa Wisch & Weg Sparblatt háztartási papírtörlő 2 rétegű 4 tekercs,07322540973235,1689.0,1.0,db,1689,422.3,each,4.0,db,4.0,Háztartás|Háztartási papír|Konyhai papírtörlő|Több tekercses
+105015721,"Ooops! Excellence háztartási papírtörlő 3 rétegű, 4 tekercs",05998648707052,1649.0,1.0,db,1649,412.3,each,4.0,db,4.0,Háztartás|Háztartási papír|Konyhai papírtörlő|Több tekercses
+100080675,"Gillette Fusion5 Borotvabetétek Férfi Borotvához, 4 Borotvabetétek, 5 Penge, Precíziós Nyíró",07702018866984,7790.0,1.0,db,7790,1947.5,each,4.0,db,4.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+100080911,"Gillette Venus Smooth Női Borotvabetét, 4 Borotvabetét",03014260262709,4719.0,1.0,db,4719,1179.8,each,4.0,db,4.0,Drogéria|Női higiénia|Női szőrtelenítés|Borotvapengék
+100080702,"Gillette ProGlide Power Férfi Borotvabetétek, 4 Borotvabetétek, Precíziós Nyíró",07702018085576,9690.0,1.0,db,9690,2422.5,each,4.0,db,4.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+100080927,"Gillette Venus ComfortGlide Női Borotvabetét Breeze, 4 Borotvabetétek",07702018886364,6290.0,1.0,db,6290,1572.5,each,4.0,db,4.0,Drogéria|Női higiénia|Női szőrtelenítés|Borotvapengék
+100080692,"Gillette Fusion5 Power Borotvabetét Férfi Borotvához, 4 Borotvabetétek, Nagyobb Krémezőcsík",07702018867219,8190.0,1.0,db,8190,2047.5,each,4.0,db,4.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+100080924,"Gillette ProGlide Férfi Borotvabetétek, 4 Borotvabetétek, 5 Penge, Precíziós Nyíró",07702018085514,9190.0,1.0,db,9190,2297.5,each,4.0,db,4.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+100080930,"Gillette Venus Extra Smooth Női Borotvabetét, 4 Borotvabetét",07702018955527,6890.0,1.0,db,6890,1722.5,each,4.0,db,4.0,Drogéria|Női higiénia|Női szőrtelenítés|Borotvapengék
+105480460,"Oral-B iO Series Ultimate Clean, Fekete, Eredeti Fogkefefej, CrissCross Sörték, 4",08700216199483,18990.0,1.0,db,18990,4747.5,each,4.0,db,4.0,Drogéria|Szájápolás|Fogkefék|Elektromos fogkefék
+105480464,"Oral-B iO Series Gentle Care, Eredeti Fogkefefej, Érzékeny Fogínyhez, 4",08700216199438,18990.0,1.0,db,18990,4747.5,each,4.0,db,4.0,Drogéria|Szájápolás|Fogkefék|Elektromos fogkefék
+111275065,"Oral-B iO Kids 6+ Disney Stitch Elektromos Fogkefefej, Gyengéd a mozgó fogakhoz és a fogínyhez, 4",08700216930710,17999.0,1.0,db,17999,4499.8,each,4.0,db,4.0,Drogéria|Szájápolás|Fogkefék|Elektromos fogkefék
+220318809,Wilkinson Sword Hydro 5 Sensitive ötpengés borotva 4 db,04027800216604,5890.0,4.0,db,5890,5890.0,each,1.0,db,4.0,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+100792607,"F&F fekete munkazokni, 4 pár/csomag 43-46",05063065669860,4590.0,1.0,db,4590,1147.5,each,4.0,db,4.0,Otthon-hobbi|Ruházat|Férfi ruházat|Zoknik
+100823372,"F&F fekete sportzokni, L-XL, 4 pár/csomag",05063249661857,1290.0,1.0,db,1290,322.5,each,4.0,db,4.0,Otthon-hobbi|Ruházat|Férfi ruházat|Zoknik
+100792606,"F&F kék munkazokni, 4 pár/csomag 39-42",05063065669877,4590.0,1.0,db,4590,1147.5,each,4.0,db,4.0,Otthon-hobbi|Ruházat|Férfi ruházat|Zoknik
+220197778,"Tesco elemtöltő + 4 db ""AA"" 1350mAh tölthető akkumulátor",04008496931453,4999.0,4.0,db,4999,4999.0,each,1.0,db,4.0,Otthon-hobbi|Barkácsolás|Elektromos kiegészítők|Elemek és elemlámpák
+100823370,"F&F fehér sportzokni, L-XL, 4 pár/csomag",05063249661833,1290.0,1.0,db,1290,322.5,each,4.0,db,4.0,Otthon-hobbi|Ruházat|Férfi ruházat|Zoknik
+100823371,"F&F fehér sportzokni, S-M, 4 pár/csomag",05063249661840,1290.0,1.0,db,1290,322.5,each,4.0,db,4.0,Otthon-hobbi|Ruházat|Női ruházat|Zonki
+220148589,Rotring Tikky nyomosirón és golyósirón ráadás radírral + nyomosirón betéttel,03501170969175,3089.0,1.0,db,3089,772.3,each,4.0,db,4.0,Otthon-hobbi|Iskolai és irodai kellékek|Írószerek|Tollak és ceruzák
+100388166,"Michelin Kendo Silver Black 4 dísztárcsa NVS-el 14""",05907439276479,9499.0,1.0,db,9499,2374.8,each,4.0,db,4.0,Otthon-hobbi|Autós kiegészítők|Kiegészítők|Kiegészítők
+100388167,"Michelin Kendo Silver Black 4 dísztárcsa NVS-el 15""",05907439276486,9499.0,1.0,db,9499,2374.8,each,4.0,db,4.0,Otthon-hobbi|Autós kiegészítők|Kiegészítők|Kiegészítők
+100388168,"Michelin 4 dísztárcsa NVS-el 16""",05907439276493,9999.0,1.0,db,9999,2499.8,each,4.0,db,4.0,Otthon-hobbi|Autós kiegészítők|Kiegészítők|Kiegészítők
+100478057,Rakodógép 4 db-os készlet,05310329009918,3499.0,4.0,db,3499,3499.0,each,1.0,db,4.0,"Otthon-hobbi|Játékok|Szabadtéri játékok, kiegészítők|Szabadtéri játékok, kiegészítők"
+100566145,Handy 4 db-os festőhenger szett teleszkópos nyéllel,05999117110403,5499.0,4.0,db,5499,5499.0,each,1.0,db,4.0,Otthon-hobbi|Barkácsolás|Festés és egyéb barkács kiegészítők|Festés
+105021045,Regina Végtelen illatosított toalettpapír 2 rétegű 4 tekercs,08004260015165,1369.0,1.0,db,1369,342.3,each,3.999,db,3.999,Háztartás|Háztartási papír|Toalettpapír|2 rétegű
+111270024,Springforce konyhai papírtörlő 2 rétegű 4 tekercs,05059944698823,599.0,1.0,db,599,149.8,each,3.999,db,3.999,Háztartás|Háztartási papír|Konyhai papírtörlő|Több tekercses
+105013390,"Gillette Blue3 Plus Comfort, Eldobható Borotva Férfiaknak, 4 Darabos Kiszerelés",08700216423489,1539.0,1.0,db,1539,384.8,each,3.999,db,3.999,"Drogéria|Férfi borotválkozás|Borotvakészülékek, borotvák|Borotvakészülékek, borotvák"
+100821339,Playfellow színes tollaslabda szett 4 darabos készlet,05999862169916,699.0,1.0,db,699,174.8,each,3.999,db,3.999,"Otthon-hobbi|Játékok|Szabadtéri játékok, kiegészítők|Szabadtéri játékok, kiegészítők"
+105013306,"Springforce toalettpapír, 2 rétegű, 4 tekercs",05059944692234,469.0,1.0,db,469,117.3,each,3.998,db,3.998,Háztartás|Háztartási papír|Toalettpapír|2 rétegű
+100138176,Tesco Home Office mértankészlet,05054268595575,489.0,1.0,db,489,122.3,each,3.998,db,3.998,Otthon-hobbi|Iskolai és irodai kellékek|Irodaszerek|Irodai kiegészítők
+111221035,Mr Cibus natúr lecsó 30% paprikával 680 g,05999861388332,749.0,680.0,g,749,3745.0,kg,200.0,g,3.4,Zöldség és gyümölcs|Zöldségek|Savanyúság|Egyéb savanyúság
+100568990,"Solo szivacs grillek, kandallók és más fűtőterek tisztításához",08595025701671,919.0,1.0,db,919,306.3,each,3.0,db,3.0,Otthon-hobbi|Kert és szabadtéri élet|Grillezés és szabadtéri főzés|Grillezés és szabadtéri főzés
+100998813,Tesco Outdoor kéziszerszámkészlet beltéri kis cserepes növényekhez,02280641732067,1099.0,1.0,db,1099,366.3,each,3.0,db,3.0,Otthon-hobbi|Kert és szabadtéri élet|Kézi szerszámok|Kézi szerszámok
+220370932,Landmann 3 db-os grillkészlet,04000810002047,3999.0,3.0,db,3999,3999.0,each,1.0,db,3.0,Otthon-hobbi|Kert és szabadtéri élet|Grillezés és szabadtéri főzés|Grillezés és szabadtéri főzés
+105032714,Twix kekszes szeletek karamellával tejcsokoládéba mártva 3 x 2 x 25 g (150 g),05000159563185,789.0,50.0,g,789,5260.0,kg,150.0,g,3.0,Alapvető élelmiszerek|Csokoládék|Csokoládészeletek|Családi csomagok
+220345348,Regina Strong konyhai papírtörlő 3 rétegű 3 tekercs,08004260015448,1549.0,1.0,db,1549,516.3,each,3.0,db,3.0,Háztartás|Háztartási papír|Konyhai papírtörlő|Több tekercses
+220318669,Oral-B – OM026 123 Ragyogó Tisztaság Fogkefe 40 Közepes Keménységű Sörte – db,03014260101503,859.0,1.0,db,859,286.3,each,3.0,db,3.0,Drogéria|Szájápolás|Fogkefék|Fogkefék
+105426742,"Gillette Venus Pro Comfortglide Sugarberryillatú Női Borotvabetét, 3 Borotvabetétek",08700216674164,6790.0,1.0,db,6790,2263.3,each,3.0,db,3.0,Drogéria|Női higiénia|Női szőrtelenítés|Női borotválkozás
+120296866,Wilkinson Sword My Intuition Xtreme 3 Comfort Cherry Blossom eldobható borotva,04027800318209,399.0,1.0,db,399,133.0,each,3.0,db,3.0,Drogéria|Női higiénia|Női szőrtelenítés|Borotvapengék
+100673911,"Tesco Home hálózati töltőfej 3 db USB-A kimenettel, fehér",05054548731662,3990.0,3.0,db,3990,3990.0,each,1.0,db,3.0,"Otthon-hobbi|Háztartási gépek, elektronika|Kiegészítők|Kiegészítők"
+100820714,Tesco Home fehér oszlopgyertya szett,05063065896952,3499.0,1.0,db,3499,1166.3,each,3.0,db,3.0,"Otthon-hobbi|Otthon|Nappali és hálószoba|Gyertyák, mécsesek, illatosítók"
+120112325,ICO Focus szövegkiemelő 2+1 db,05997072122981,1109.0,1.0,db,1109,369.7,each,3.0,db,3.0,"Otthon-hobbi|Iskolai és irodai kellékek|Írószerek|Szövegkiemelők, markerek, tűfilcek"
+100395961,"Pilot Frixion Blue rollertoll 0,7 mm",03131910637752,2999.0,1.0,db,2999,999.7,each,3.0,db,3.0,Otthon-hobbi|Iskolai és irodai kellékek|Írószerek|Tollak és ceruzák
+100395963,"Pilot Frixion Blue rollertoll 0,5 mm",03131910551423,2339.0,1.0,db,2339,779.7,each,3.0,db,3.0,Otthon-hobbi|Iskolai és irodai kellékek|Írószerek|Tollak és ceruzák
+100645153,Playfellow 3 darabos teniszlabda készlet,05999861604319,2199.0,1.0,db,2199,733.0,each,3.0,db,3.0,"Otthon-hobbi|Játékok|Szabadtéri játékok, kiegészítők|Szabadtéri játékok, kiegészítők"
+100835909,"F&F fekete Active Nylon sportzokni, M-L, 3 pár/csomag",05063249870112,3290.0,1.0,db,3290,1096.7,each,3.0,db,3.0,Otthon-hobbi|Ruházat|Férfi ruházat|Zoknik
+100835910,"F&F fekete Active Nylon sportzokni, S-M, 3 pár/csomag",05063249870129,3290.0,1.0,db,3290,1096.7,each,3.0,db,3.0,Otthon-hobbi|Ruházat|Női ruházat|Zonki
+100835911,"F&F fehér Active Nylon sportzokni, M-L 3 pár/csomag",05063249870136,3290.0,1.0,db,3290,1096.7,each,3.0,db,3.0,Otthon-hobbi|Ruházat|Férfi ruházat|Zoknik
+100835912,"F&F fehér Active Nylon sportzokni, S-M, 3 pár/csomag",05063249870143,3290.0,1.0,db,3290,1096.7,each,3.0,db,3.0,Otthon-hobbi|Ruházat|Női ruházat|Zonki
+100837420,Kreator lépcsős fúrószár 3 db,05400338081507,6999.0,3.0,db,6999,6999.0,each,1.0,db,3.0,Otthon-hobbi|Barkácsolás|Festés és egyéb barkács kiegészítők|Egyéb barkács kiegészítők
+100926160,Tesco Home 3 db-os edénykészlet,02280641681648,9999.0,3.0,db,9999,9999.0,each,1.0,db,3.0,Otthon-hobbi|Otthon|Konyha és étkező|Sütés-főzés eszközök
+210590146,ICO Polo golyósirón 2 + 1 ajándék,05997072132829,1349.0,1.0,db,1349,449.7,each,3.0,db,3.0,Otthon-hobbi|Iskolai és irodai kellékek|Írószerek|Tollak és ceruzák
+100241865,The Grower's Harvest magozott fekete olívabogyó 200 g,05051007083942,259.0,200.0,g,259,3700.0,kg,70.0,g,2.857,"Alapvető élelmiszerek|Konzervek, olívabogyók|Olívabogyó|Magozott és egész olívabogyó"
+105015474,Dip It Pappi pattogócukros mogyorókrém ropogós pálcikákkal 155 g,08697428020400,549.0,155.0,g,549,9981.8,kg,55.0,g,2.818,"Alapvető élelmiszerek|Cukorkák, rágógumik és egyéb édességek|Édességek gyerekeknek|Édességek gyerekeknek"
+100242262,The Grower's Harvest magozott zöld olívabogyó 195 g,05051007083959,229.0,195.0,g,229,3271.4,kg,70.001,g,2.786,"Alapvető élelmiszerek|Konzervek, olívabogyók|Olívabogyó|Magozott és egész olívabogyó"
+100242361,The Grower's Harvest zöld olívabogyó pimiento paprikakrémmel töltve 195 g,05051007083966,229.0,195.0,g,229,2862.5,kg,80.0,g,2.438,"Alapvető élelmiszerek|Konzervek, olívabogyók|Olívabogyó|Töltött olívabogyó"
+208140605,"Kofa pepperóni paprika, csípős savanyúság 350 g",05999538090551,799.0,350.0,g,799,5326.7,kg,149.999,g,2.333,Zöldség és gyümölcs|Zöldségek|Savanyúság|Paprika
+209798669,"Gloster csípős, ecetes almapaprika 680 g",05998470114011,919.0,680.0,g,919,3063.3,kg,300.003,g,2.267,Zöldség és gyümölcs|Zöldségek|Savanyúság|Paprika
+220054542,Gloster ecetes pepperóni paprika 680 g,05998470115018,849.0,680.0,g,849,2830.0,kg,300.0,g,2.267,Zöldség és gyümölcs|Zöldségek|Savanyúság|Paprika
+220054543,"Gloster negyedelt, ecetes pritaminpaprika 680 g",05998470113014,1269.0,680.0,g,1269,4230.0,kg,300.0,g,2.267,Zöldség és gyümölcs|Zöldségek|Savanyúság|Paprika
+100462390,Tesco Finest magozott Halkidiki olívabogyó 210 g,05057753238544,1089.0,210.0,g,1089,11463.2,kg,95.0,g,2.211,Alapvető élelmiszerek|Tesco Finest termékek|Nemzetek finomságai|Nemzetek finomságai
+220296061,Delphi zöld magozott olívabogyó sós lében 970 g,05201306821350,2979.0,970.0,g,2979,6620.0,kg,450.0,g,2.156,"Alapvető élelmiszerek|Konzervek, olívabogyók|Olívabogyó|Magozott és egész olívabogyó"
+220296065,Delphi fekete oxidált magozott olívabogyó sós lében 970 g,05201306821367,2979.0,970.0,g,2979,6620.0,kg,450.0,g,2.156,"Alapvető élelmiszerek|Konzervek, olívabogyók|Olívabogyó|Magozott és egész olívabogyó"
+100242028,Tesco magozott fekete olívabogyó 340 g,05051007099448,589.0,340.0,g,589,3613.5,kg,163.0,g,2.086,"Alapvető élelmiszerek|Konzervek, olívabogyók|Olívabogyó|Magozott és egész olívabogyó"
+100242139,Tesco magozott zöld olívabogyó 340 g,05051007099455,589.0,340.0,g,589,3613.5,kg,163.0,g,2.086,"Alapvető élelmiszerek|Konzervek, olívabogyók|Olívabogyó|Magozott és egész olívabogyó"
+100798543,Tesco zöldségek ecetes lében 850 g,05051007144360,679.0,850.0,g,679,1656.1,kg,409.999,g,2.073,Zöldség és gyümölcs|Zöldségek|Savanyúság|Egyéb savanyúság
+120211081,Premiko enyhén csípős ecetes almapaprika 680 g,05998324180025,799.0,680.0,g,799,2421.2,kg,330.002,g,2.061,Zöldség és gyümölcs|Zöldségek|Savanyúság|Paprika
+111221034,Mr Cibus csípős ecetes almapaprika 680 g,05999881047332,719.0,680.0,g,719,2178.8,kg,329.998,g,2.061,Zöldség és gyümölcs|Zöldségek|Savanyúság|Paprika
+100798547,Tesco gyöngyhagyma édes ecetes lében 300 g,05051007146494,409.0,300.0,g,409,2726.7,kg,149.998,g,2.0,Zöldség és gyümölcs|Zöldségek|Savanyúság|Egyéb savanyúság
+209977163,Eva heringfilé paradicsommártásban 170 g,03850104042232,789.0,170.0,g,789,9282.4,kg,85.0,g,2.0,"Alapvető élelmiszerek|Konzervek, olívabogyók|Halkonzervek, haltermékek|Hering"
+100846609,Tesco csíkozott pirospaprika édes-savanyú lében 320 g,05051007165280,899.0,320.0,g,899,5618.8,kg,159.999,g,2.0,"Alapvető élelmiszerek|Konzervek, olívabogyók|Zöldségkonzervek|Egyéb zöldségek"
+100843880,Ms Molly's citromízű és narancsízű vizes jégkrém szósszal töltve 2 x 4 x 70 ml (560 ml),05051007166690,1069.0,280.0,ml,1069,1908.9,litre,560.008,ml,2.0,Mélyhűtött|Jégkrémek|Jégkrémválogatások|Jégkrémválogatások
+111273805,Kaija lazac darabok fűszeres paradicsomszószban 170 g,04751007732840,1769.0,170.0,g,1769,20811.8,kg,85.0,g,2.0,"Alapvető élelmiszerek|Konzervek, olívabogyók|Halkonzervek, haltermékek|Egyéb haltermékek"
+100643284,Tesco Hot Chocolate zsírszegény kakaópor és teljes tejpor cukorral 8 x 16 g + 8 x 16 g (256 g),05059944694740,1859.0,128.0,g,1859,7261.7,kg,256.001,g,2.0,Italok|Kakaó és forró csokoládé|Forró csokoládé|Dolce Gusto kompatibilis
+105450112,"Whiskas Klasszikus Ételek teljes értékű nedves eledel felnőtt macskáknak 12 x 85 g (1,02 kg)",03065890159891,5790.0,1020.0,g,5790,2838.2,kg,2040.025,g,2.0,Kisállat|Macskaeledelek & Kiegészítők|Nedves eledelek|Alutasakos eledelek

@@ -136,7 +136,8 @@ def parse_pack_from_text(text: str) -> Tuple[Optional[float], Optional[str]]:
     if multipack:
         count, value, unit = multipack[-1]
         total = float(count.replace(",", ".")) * float(value.replace(",", "."))
-        return normalize_unit(total, unit)
+        if total > 0:
+            return normalize_unit(total, unit)
 
     reverse_multipack = re.findall(
         r"(\d+(?:[\.,]\d+)?)\s*(kg|g|ml|l|cl|db|pcs|pc)\s*[x×]\s*(\d+(?:[\.,]\d+)?)",
@@ -146,29 +147,56 @@ def parse_pack_from_text(text: str) -> Tuple[Optional[float], Optional[str]]:
     if reverse_multipack:
         value, unit, count = reverse_multipack[-1]
         total = float(value.replace(",", ".")) * float(count.replace(",", "."))
-        return normalize_unit(total, unit)
+        if total > 0:
+            return normalize_unit(total, unit)
 
     matches = re.findall(r"(\d+(?:[\.,]\d+)?)\s*(kg|g|ml|l|cl|db|pcs|pc)\b", text, flags=re.IGNORECASE)
     if matches:
-        value, unit = matches[-1]
-        return normalize_unit(float(value.replace(",", ".")), unit)
+        for value, unit in reversed(matches):
+            numeric_value = float(value.replace(",", "."))
+            if numeric_value > 0:
+                return normalize_unit(numeric_value, unit)
 
     if text.endswith(" db"):
         return 1.0, "db"
     return None, None
 
 
-def parse_pack_from_details(row) -> Tuple[Optional[float], Optional[str]]:
+def parse_pack_size_field(row) -> Tuple[Optional[float], Optional[str]]:
+    pack_size = parse_structured(row.get("details.packSize"))
+    if isinstance(pack_size, dict):
+        pack_size = [pack_size]
+    if isinstance(pack_size, list):
+        for item in pack_size:
+            if not isinstance(item, dict):
+                continue
+            value = to_float(item.get("value"))
+            unit = clean_text(item.get("units")).lower()
+            if value is not None and value > 0 and unit and unit not in {"sngl", "single"}:
+                return normalize_unit(value, unit)
+
     pack_value = to_float(row.get("details.packSize.value"))
     pack_unit = clean_text(row.get("details.packSize.units")).lower()
-    if pack_value is not None and pack_unit:
+    if pack_value is not None and pack_value > 0 and pack_unit and pack_unit not in {"sngl", "single"}:
         return normalize_unit(pack_value, pack_unit)
 
-    for field in ["details.netContents", "details.drainedWeight", "title"]:
+    return None, None
+
+
+def parse_pack_from_details(row) -> Tuple[Optional[float], Optional[str]]:
+    value, unit = parse_pack_size_field(row)
+    if value is not None and value > 0 and unit:
+        return value, unit
+
+    for field in ["details.netContents", "details.drainedWeight", "details.boxContents"]:
         value, unit = parse_pack_from_text(row.get(field, ""))
-        if value is not None and unit:
+        if value is not None and value > 0 and unit:
             return value, unit
     return None, None
+
+
+def parse_pack_from_title(row) -> Tuple[Optional[float], Optional[str]]:
+    return parse_pack_from_text(row.get("title", ""))
 
 
 def selected_catch_weight(row):
@@ -203,17 +231,21 @@ def product_step_and_price(row):
     if catch_weight:
         catch_price = to_float(catch_weight.get("price"))
         catch_weight_value = to_float(catch_weight.get("weight"))
-        if catch_price is not None and catch_weight_value is not None:
+        if catch_price is not None and catch_weight_value is not None and catch_weight_value > 0:
             value, unit = normalize_unit(catch_weight_value, measure or "kg")
             return catch_price, value, unit
 
     pack_value, pack_unit = parse_pack_from_details(row)
-    if pack_value is not None and pack_unit:
+    if pack_value is not None and pack_value > 0 and pack_unit:
         return actual, pack_value, pack_unit
 
     step_value, step_unit = step_from_unit_price(actual, base_price, measure)
-    if step_value is not None and step_unit:
+    if step_value is not None and step_value > 0 and step_unit:
         return actual, step_value, step_unit
+
+    title_value, title_unit = parse_pack_from_title(row)
+    if title_value is not None and title_value > 0 and title_unit:
+        return actual, title_value, title_unit
 
     return actual, 1.0, "db"
 

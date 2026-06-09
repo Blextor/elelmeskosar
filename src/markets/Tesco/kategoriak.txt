@@ -1,16 +1,16 @@
 index,name,path,facet_code,facet,url,url_slug,depth,parent_path,source,total_count
-1,Most ajánlott!,Most ajánlott!,TW9zdCUyMGFqJUMzJUExbmxvdHQlMjE=,b;TW9zdCUyMGFqJUMzJUExbmxvdHQlMjE=,https://bevasarlas.tesco.hu/shop/hu-HU/browse/most-ajanlott!/all,most-ajanlott!,0,,landing,3532
+1,Most ajánlott!,Most ajánlott!,TW9zdCUyMGFqJUMzJUExbmxvdHQlMjE=,b;TW9zdCUyMGFqJUMzJUExbmxvdHQlMjE=,https://bevasarlas.tesco.hu/shop/hu-HU/browse/most-ajanlott!/all,most-ajanlott!,0,,landing,3536
 2,Zöldség és gyümölcs,Zöldség és gyümölcs,WiVDMyVCNmxkcyVDMyVBOWclMjAlQzMlQTlzJTIwZ3klQzMlQkNtJUMzJUI2bGNz,b;WiVDMyVCNmxkcyVDMyVBOWclMjAlQzMlQTlzJTIwZ3klQzMlQkNtJUMzJUI2bGNz,https://bevasarlas.tesco.hu/shop/hu-HU/browse/zoldseg-es-gyumolcs/all,zoldseg-es-gyumolcs,0,,landing,478
-3,Tejtermék-tojás,Tejtermék-tojás,VGVqdGVybSVDMyVBOWstdG9qJUMzJUExcw==,b;VGVqdGVybSVDMyVBOWstdG9qJUMzJUExcw==,https://bevasarlas.tesco.hu/shop/hu-HU/browse/tejtermek-tojas/all,tejtermek-tojas,0,,landing,1067
+3,Tejtermék-tojás,Tejtermék-tojás,VGVqdGVybSVDMyVBOWstdG9qJUMzJUExcw==,b;VGVqdGVybSVDMyVBOWstdG9qJUMzJUExcw==,https://bevasarlas.tesco.hu/shop/hu-HU/browse/tejtermek-tojas/all,tejtermek-tojas,0,,landing,1068
 4,Pékáru,Pékáru,UCVDMyVBOWslQzMlQTFydQ==,b;UCVDMyVBOWslQzMlQTFydQ==,https://bevasarlas.tesco.hu/shop/hu-HU/browse/pekaru/all,pekaru,0,,landing,302
 5,Húsáru,Húsáru,SCVDMyVCQXMlQzMlQTFydQ==,b;SCVDMyVCQXMlQzMlQTFydQ==,https://bevasarlas.tesco.hu/shop/hu-HU/browse/husaru/all,husaru,0,,landing,687
 6,Mélyhűtött,Mélyhűtött,TSVDMyVBOWx5aCVDNSVCMXQlQzMlQjZ0dA==,b;TSVDMyVBOWx5aCVDNSVCMXQlQzMlQjZ0dA==,https://bevasarlas.tesco.hu/shop/hu-HU/browse/melyhutott/all,melyhutott,0,,landing,596
 7,Alapvető élelmiszerek,Alapvető élelmiszerek,QWxhcHZldCVDNSU5MSUyMCVDMyVBOWxlbG1pc3plcmVr,b;QWxhcHZldCVDNSU5MSUyMCVDMyVBOWxlbG1pc3plcmVr,https://bevasarlas.tesco.hu/shop/hu-HU/browse/alapveto-elelmiszerek/all,alapveto-elelmiszerek,0,,landing,3281
-8,Italok,Italok,SXRhbG9r,b;SXRhbG9r,https://bevasarlas.tesco.hu/shop/hu-HU/browse/italok/all,italok,0,,landing,2534
+8,Italok,Italok,SXRhbG9r,b;SXRhbG9r,https://bevasarlas.tesco.hu/shop/hu-HU/browse/italok/all,italok,0,,landing,2537
 9,Speciális,Speciális,U3BlY2klQzMlQTFsaXM=,b;U3BlY2klQzMlQTFsaXM=,https://bevasarlas.tesco.hu/shop/hu-HU/browse/specialis/all,specialis,0,,landing,1033
-10,Háztartás,Háztartás,SCVDMyVBMXp0YXJ0JUMzJUExcw==,b;SCVDMyVBMXp0YXJ0JUMzJUExcw==,https://bevasarlas.tesco.hu/shop/hu-HU/browse/haztartas/all,haztartas,0,,landing,1398
+10,Háztartás,Háztartás,SCVDMyVBMXp0YXJ0JUMzJUExcw==,b;SCVDMyVBMXp0YXJ0JUMzJUExcw==,https://bevasarlas.tesco.hu/shop/hu-HU/browse/haztartas/all,haztartas,0,,landing,1399
 11,Drogéria,Drogéria,RHJvZyVDMyVBOXJpYQ==,b;RHJvZyVDMyVBOXJpYQ==,https://bevasarlas.tesco.hu/shop/hu-HU/browse/drogeria/all,drogeria,0,,landing,2399
 12,Baba,Baba,QmFiYQ==,b;QmFiYQ==,https://bevasarlas.tesco.hu/shop/hu-HU/browse/baba/all,baba,0,,landing,435
 13,Kisállat,Kisállat,S2lzJUMzJUExbGxhdA==,b;S2lzJUMzJUExbGxhdA==,https://bevasarlas.tesco.hu/shop/hu-HU/browse/kisallat/all,kisallat,0,,landing,586
-14,Otthon-hobbi,Otthon-hobbi,T3R0aG9uLWhvYmJp,b;T3R0aG9uLWhvYmJp,https://bevasarlas.tesco.hu/shop/hu-HU/browse/otthon-hobbi/all,otthon-hobbi,0,,landing,3876
-15,Újdonságok,Újdonságok,JUMzJTlBamRvbnMlQzMlQTFnb2s=,b;JUMzJTlBamRvbnMlQzMlQTFnb2s=,https://bevasarlas.tesco.hu/shop/hu-HU/browse/ujdonsagok/all,ujdonsagok,0,,landing,212
+14,Otthon-hobbi,Otthon-hobbi,T3R0aG9uLWhvYmJp,b;T3R0aG9uLWhvYmJp,https://bevasarlas.tesco.hu/shop/hu-HU/browse/otthon-hobbi/all,otthon-hobbi,0,,landing,3858
+15,Újdonságok,Újdonságok,JUMzJTlBamRvbnMlQzMlQTFnb2s=,b;JUMzJTlBamRvbnMlQzMlQTFnb2s=,https://bevasarlas.tesco.hu/shop/hu-HU/browse/ujdonsagok/all,ujdonsagok,0,,landing,213
