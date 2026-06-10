@@ -1,0 +1,483 @@
+index,id,name,prog_id,parent_id,level,path,path_ids,is_leaf,is_root,status,product_count,child_count
+0,614,Alapvető élelmiszerek,alapveto-elelmiszerek,,1,Alapvető élelmiszerek,614,False,True,y,552,13
+1,553,Alkoholos italok,alkoholos-italok,,1,Alkoholos italok,553,False,True,y,133,8
+2,694,Baba,baba,,1,Baba,694,False,True,y,34,2
+3,560,Fagyasztott élelmiszer,fagyasztott-elelmiszer,,1,Fagyasztott élelmiszer,560,False,True,y,221,6
+4,587,Háztartás,haztartas,,1,Háztartás,587,False,True,y,200,10
+5,771,"Hús, hal, felvágott",hus-hal-felvagott,,1,"Hús, hal, felvágott",771,False,True,y,239,3
+6,745,Italok,italok,,1,Italok,745,False,True,y,154,9
+7,1127,Középső sor,kozepso-sor,,1,Középső sor,1127,True,True,y,71,0
+8,790,Nassolnivalók,nassolnivalok,,1,Nassolnivalók,790,False,True,y,375,6
+9,532,Pékáru,pekaru,,1,Pékáru,532,False,True,y,119,5
+10,708,"Szépség, egészség",szepseg-egeszseg,,1,"Szépség, egészség",708,False,True,y,184,9
+11,505,"Tejtermék, tojás",tejtermek-tojas,,1,"Tejtermék, tojás",505,False,True,y,394,11
+12,1234,Vegetáriánus & vegán,vegetarianus-vegan,,1,Vegetáriánus & vegán,1234,False,True,y,32,2
+13,541,"Zöldség, gyümölcs",zoldseg-gyumolcs,,1,"Zöldség, gyümölcs",541,False,True,y,128,6
+14,604,Állateledel és felszerelés,allateledel-es-felszereles,,1,Állateledel és felszerelés,604,False,True,y,89,4
+15,615,Cukor és édesítőszerek,cukor-es-edesitoszerek,614,2,Alapvető élelmiszerek > Cukor és édesítőszerek,614|615,False,False,y,8,4
+16,668,Instant ételek,instant-etelek,614,2,Alapvető élelmiszerek > Instant ételek,614|668,False,False,y,40,4
+17,653,"Konzervek, savanyúságok",konzervek,614,2,"Alapvető élelmiszerek > Konzervek, savanyúságok",614|653,False,False,y,88,7
+18,688,"Kávé, tea, italpor",kave-tea-italpor,614,2,"Alapvető élelmiszerek > Kávé, tea, italpor",614|688,False,False,y,78,8
+19,843,Készételek,keszetelek4,614,2,Alapvető élelmiszerek > Készételek,614|843,False,False,y,75,2
+20,634,"Köretek, tészták",koretek-tesztak,614,2,"Alapvető élelmiszerek > Köretek, tészták",614|634,False,False,y,35,7
+21,659,"Lekvár, méz, krém",lekvar-mez-krem,614,2,"Alapvető élelmiszerek > Lekvár, méz, krém",614|659,False,False,y,22,3
+22,620,"Liszt, dara, panírmorzsa",liszt-dara-panirmorzsa,614,2,"Alapvető élelmiszerek > Liszt, dara, panírmorzsa",614|620,False,False,y,12,7
+23,641,Olaj és ecet,olaj-es-ecet,614,2,Alapvető élelmiszerek > Olaj és ecet,614|641,False,False,y,14,11
+24,848,"Reggeliző- pehely, müzli",reggelizo-pehely-muzli,614,2,"Alapvető élelmiszerek > Reggeliző- pehely, müzli",614|848,False,False,y,65,5
+25,681,"Szószok, mártások",szoszok-martasok,614,2,"Alapvető élelmiszerek > Szószok, mártások",614|681,False,False,y,48,8
+26,673,"Só, fűszer, ételízesítők",etelizesites,614,2,"Alapvető élelmiszerek > Só, fűszer, ételízesítők",614|673,False,False,y,40,6
+27,926,Sütés-főzés,sutes-fozes,614,2,Alapvető élelmiszerek > Sütés-főzés,614|926,False,False,y,27,7
+28,977,Egyéb alkoholos italok,egyeb-alkoholos-italok,553,2,Alkoholos italok > Egyéb alkoholos italok,553|977,True,False,y,3,0
+29,554,Fehér bor,feher-bor,553,2,Alkoholos italok > Fehér bor,553|554,False,False,y,33,4
+30,871,Likőr,likor,553,2,Alkoholos italok > Likőr,553|871,True,False,y,7,0
+31,559,"Pezsgő, és habzó bor",pezsgoes-habzo-bor,553,2,"Alkoholos italok > Pezsgő, és habzó bor",553|559,False,False,y,8,3
+32,555,Rosé bor,rose-bor,553,2,Alkoholos italok > Rosé bor,553|555,False,False,y,9,4
+33,557,"Sör, koktél, gyümölcsbor",sor-koktel-gyumolcsbor,553,2,"Alkoholos italok > Sör, koktél, gyümölcsbor",553|557,False,False,y,30,5
+34,558,Tömény,tomeny,553,2,Alkoholos italok > Tömény,553|558,False,False,y,22,9
+35,556,Vörös bor,voros-bor,553,2,Alkoholos italok > Vörös bor,553|556,False,False,y,21,4
+36,701,Babaápolás,babaapolas,694,2,Baba > Babaápolás,694|701,False,False,y,10,4
+37,695,"Babaétel, ital",babaetel-ital,694,2,"Baba > Babaétel, ital",694|695,False,False,y,24,5
+38,568,Hal,hal,560,2,Fagyasztott élelmiszer > Hal,560|568,False,False,y,13,4
+39,564,Hús,hus,560,2,Fagyasztott élelmiszer > Hús,560|564,False,False,y,20,4
+40,579,"Jégkrémek, desszertek",jegkremek-desszertek,560,2,"Fagyasztott élelmiszer > Jégkrémek, desszertek",560|579,False,False,y,94,4
+41,576,Készételek,keszetelek,560,2,Fagyasztott élelmiszer > Készételek,560|576,False,False,y,26,3
+42,573,"Pizzák, sütemények",pizzak-sutemenyek,560,2,"Fagyasztott élelmiszer > Pizzák, sütemények",560|573,False,False,y,28,3
+43,561,"Zöldségek, gyümölcsök",zoldsegek-gyumolcsok,560,2,"Fagyasztott élelmiszer > Zöldségek, gyümölcsök",560|561,False,False,y,40,4
+44,1124,Egyéb háztartási cikkek,egyeb-haztartasi-cikkek-,587,2,Háztartás > Egyéb háztartási cikkek,587|1124,True,False,y,25,0
+45,912,Háztartási csomagolók,haztartasi-csomagolok,587,2,Háztartás > Háztartási csomagolók,587|912,True,False,y,10,0
+46,1036,Háztartási papíráru,haztartasi-papiraru,587,2,Háztartás > Háztartási papíráru,587|1036,False,False,y,28,3
+47,914,Légfrissítők,legfrissitok,587,2,Háztartás > Légfrissítők,587|914,False,False,y,21,3
+48,593,Mosogatószer,mosogatoszer,587,2,Háztartás > Mosogatószer,587|593,False,False,y,19,2
+49,588,Mosószerek,mososzerek,587,2,Háztartás > Mosószerek,587|588,False,False,y,31,5
+50,915,Rovar- és növényirtó,rovarirto-es-novenyirto-szerek,587,2,Háztartás > Rovar- és növényirtó,587|915,True,False,y,9,0
+51,913,Szemeteszsák,szemeteszsak,587,2,Háztartás > Szemeteszsák,587|913,True,False,y,11,0
+52,601,Takarítóeszköz,takaritoeszkoz,587,2,Háztartás > Takarítóeszköz,587|601,False,False,y,17,3
+53,596,Tisztítószer,tisztitoszer,587,2,Háztartás > Tisztítószer,587|596,False,False,y,29,9
+54,772,Feldolgozott húsok,feldolgozott-husok,771,2,"Hús, hal, felvágott > Feldolgozott húsok",771|772,False,False,y,171,14
+55,782,Friss húsok,friss-husok,771,2,"Hús, hal, felvágott > Friss húsok",771|782,False,False,y,61,9
+56,788,Halak,halak,771,2,"Hús, hal, felvágott > Halak",771|788,True,False,y,7,0
+57,1253,Alkoholmentes italok,alkoholmentes-italok,745,2,Italok > Alkoholmentes italok,745|1253,False,False,y,9,3
+58,854,"Energia-, sport-, gyógyitalok",energia-sport-gyogyitalok,745,2,"Italok > Energia-, sport-, gyógyitalok",745|854,False,False,y,16,3
+59,761,"Gyümölcslevek, zöldséglevek",gyumolcslevek,745,2,"Italok > Gyümölcslevek, zöldséglevek",745|761,False,False,y,37,5
+60,752,Szénsavas Ásványvíz,szensavas-asvanyviz,745,2,Italok > Szénsavas Ásványvíz,745|752,False,False,y,8,2
+61,746,Szénsavas üdítőitalok,szensavas-uditoitalok,745,2,Italok > Szénsavas üdítőitalok,745|746,False,False,y,37,2
+62,755,Szénsavmentes Ásványvíz,szensavmentes-asvanyviz,745,2,Italok > Szénsavmentes Ásványvíz,745|755,False,False,y,6,2
+63,749,Szénsavmentes üdítőitalok,szensavmentes-uditoitalok,745,2,Italok > Szénsavmentes üdítőitalok,745|749,False,False,y,22,1
+64,767,"Szörp, italpor, citromlé",szorp-italpor-citromle,745,2,"Italok > Szörp, italpor, citromlé",745|767,False,False,y,14,3
+65,758,Ízesített vizek,izesitett-vizek,745,2,Italok > Ízesített vizek,745|758,False,False,y,5,2
+66,792,Csokoládé,tablas-csokolade,790,2,Nassolnivalók > Csokoládé,790|792,False,False,y,109,5
+67,802,"Cukorkák, rágógumi",cukorkak-ragogumi,790,2,"Nassolnivalók > Cukorkák, rágógumi",790|802,False,False,y,69,5
+68,796,"Keksz, nápolyi, piskóta",keksz-napolyi-piskota,790,2,"Nassolnivalók > Keksz, nápolyi, piskóta",790|796,False,False,y,84,3
+69,803,Puffasztott snack,puffasztott-snack,790,2,Nassolnivalók > Puffasztott snack,790|803,False,False,y,5,2
+70,1024,Sós rágcsálnivaló,sos-ragcsalnivalo,790,2,Nassolnivalók > Sós rágcsálnivaló,790|1024,False,False,y,89,4
+71,800,"Sütemények, desszert",szeletes-termek,790,2,"Nassolnivalók > Sütemények, desszert",790|800,True,False,y,19,0
+72,533,Kenyér,kenyer,532,2,Pékáru > Kenyér,532|533,False,False,y,29,2
+73,538,Sós pékáru,sos-pekaru,532,2,Pékáru > Sós pékáru,532|538,True,False,y,28,0
+74,540,Tartós áru,tartos-aru,532,2,Pékáru > Tartós áru,532|540,False,False,y,33,6
+75,536,"Zsemle, kifli",zsemle-kifli,532,2,"Pékáru > Zsemle, kifli",532|536,False,False,y,14,2
+76,845,Édes pékáru,edes-pekaru,532,2,Pékáru > Édes pékáru,532|845,True,False,y,15,0
+77,846,Egyéb cikk,egyeb-cikk,708,2,"Szépség, egészség > Egyéb cikk",708|846,False,False,y,6,9
+78,740,Férfi higiénia,ferfi-higienia,708,2,"Szépség, egészség > Férfi higiénia",708|740,False,False,y,12,6
+79,709,"Fürdés, kézmosás",furdes-kezmosas,708,2,"Szépség, egészség > Fürdés, kézmosás",708|709,False,False,y,27,7
+80,716,Hajápolás,hajapolas,708,2,"Szépség, egészség > Hajápolás",708|716,False,False,y,22,8
+81,734,Női higiénia,noi-higienia,708,2,"Szépség, egészség > Női higiénia",708|734,False,False,y,38,9
+82,1114,Parfümök,parfumok,708,2,"Szépség, egészség > Parfümök",708|1114,False,False,y,4,2
+83,722,Szájápolás,szajapolas,708,2,"Szépség, egészség > Szájápolás",708|722,False,False,y,22,7
+84,729,Testápolás,testapolas,708,2,"Szépség, egészség > Testápolás",708|729,False,False,y,26,4
+85,853,"Vitaminok, kiegészítők",vitaminok-kiegeszitok,708,2,"Szépség, egészség > Vitaminok, kiegészítők",708|853,True,False,y,27,0
+86,526,Desszert,desszert,505,2,"Tejtermék, tojás > Desszert",505|526,False,False,y,70,6
+87,520,Joghurt,joghurt,505,2,"Tejtermék, tojás > Joghurt",505|520,False,False,y,71,3
+88,519,Kefir,kefir,505,2,"Tejtermék, tojás > Kefir",505|519,False,False,y,5,3
+89,531,Margarin,margarin,505,2,"Tejtermék, tojás > Margarin",505|531,False,False,y,10,2
+90,510,Sajt,sajt,505,2,"Tejtermék, tojás > Sajt",505|510,False,False,y,116,14
+91,506,Tej,tej,505,2,"Tejtermék, tojás > Tej",505|506,False,False,y,38,4
+92,518,Tejföl,tejfol,505,2,"Tejtermék, tojás > Tejföl",505|518,False,False,y,9,3
+93,525,Tejszín,tejszin,505,2,"Tejtermék, tojás > Tejszín",505|525,False,False,y,13,4
+94,530,Tojás,tojas,505,2,"Tejtermék, tojás > Tojás",505|530,False,False,y,9,3
+95,524,"Túró, körözött",turo,505,2,"Tejtermék, tojás > Túró, körözött",505|524,False,False,y,14,3
+96,529,"Vaj, sajtkrém",vaj-sajtkrem,505,2,"Tejtermék, tojás > Vaj, sajtkrém",505|529,False,False,y,39,4
+97,1236,Húshelyettesítők,hushelyettesitok,1234,2,Vegetáriánus & vegán > Húshelyettesítők,1234|1236,False,False,y,4,2
+98,1235,Növényi termékek,novenyi-termekek,1234,2,Vegetáriánus & vegán > Növényi termékek,1234|1235,False,False,y,28,4
+99,543,Aszalt gyümölcs,aszalt-gyumolcs,541,2,"Zöldség, gyümölcs > Aszalt gyümölcs",541|543,True,False,y,6,0
+100,1097,Fűszernövények,fuszernovenyek,541,2,"Zöldség, gyümölcs > Fűszernövények",541|1097,True,False,y,3,0
+101,542,Gyümölcs,gyumolcs,541,2,"Zöldség, gyümölcs > Gyümölcs",541|542,False,False,y,41,5
+102,547,Magvak,magvak,541,2,"Zöldség, gyümölcs > Magvak",541|547,False,False,y,8,2
+103,899,Saláták,salatak,541,2,"Zöldség, gyümölcs > Saláták",541|899,True,False,y,6,0
+104,545,Zöldség,zoldseg,541,2,"Zöldség, gyümölcs > Zöldség",541|545,False,False,y,64,10
+105,613,Egyéb állatok eledelei,egyeb-allatok-eledelei,604,2,Állateledel és felszerelés > Egyéb állatok eledelei,604|613,True,False,y,10,0
+106,1035,Felszerelés,felszereles,604,2,Állateledel és felszerelés > Felszerelés,604|1035,True,False,y,2,0
+107,605,Kutyaeledel,kutyaeledel,604,2,Állateledel és felszerelés > Kutyaeledel,604|605,False,False,y,34,5
+108,608,Macskaeledel,macskaeledel,604,2,Állateledel és felszerelés > Macskaeledel,604|608,False,False,y,43,5
+109,616,Kristálycukor,kristalycukor,615,3,Alapvető élelmiszerek > Cukor és édesítőszerek > Kristálycukor,614|615|616,True,False,y,3,0
+110,617,Porcukor,porcukor,615,3,Alapvető élelmiszerek > Cukor és édesítőszerek > Porcukor,614|615|617,True,False,y,1,0
+111,618,speciális cukrok,specialis-cukrok,615,3,Alapvető élelmiszerek > Cukor és édesítőszerek > speciális cukrok,614|615|618,True,False,y,2,0
+112,619,Édesítőszerek,edesitoszerek,615,3,Alapvető élelmiszerek > Cukor és édesítőszerek > Édesítőszerek,614|615|619,True,False,y,2,0
+113,670,Instant főétel,instant-teszta,668,3,Alapvető élelmiszerek > Instant ételek > Instant főétel,614|668|670,True,False,y,1,0
+114,669,Instant levesek és tészták,instant-levesek-es-tesztak,668,3,Alapvető élelmiszerek > Instant ételek > Instant levesek és tészták,614|668|669,True,False,y,22,0
+115,671,"Leveskocka, levesbetét",leveskocka,668,3,"Alapvető élelmiszerek > Instant ételek > Leveskocka, levesbetét",614|668|671,True,False,y,10,0
+116,672,Ételalapok,etelalapok,668,3,Alapvető élelmiszerek > Instant ételek > Ételalapok,614|668|672,True,False,y,7,0
+117,654,Gyümölcs- konzerv,gyumolcs-konzerv,653,3,"Alapvető élelmiszerek > Konzervek, savanyúságok > Gyümölcs- konzerv",614|653|654,True,False,y,7,0
+118,658,Halkonzervek,halkonzervek,653,3,"Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",614|653|658,True,False,y,25,0
+119,656,Húskonzervek,huskonzervek,653,3,"Alapvető élelmiszerek > Konzervek, savanyúságok > Húskonzervek",614|653|656,True,False,y,8,0
+120,869,Konzerv Készételek,konzerv-keszetelek,653,3,"Alapvető élelmiszerek > Konzervek, savanyúságok > Konzerv Készételek",614|653|869,True,False,y,2,0
+121,1118,Májasok,majasok,653,3,"Alapvető élelmiszerek > Konzervek, savanyúságok > Májasok",614|653|1118,True,False,y,4,0
+122,938,"Savanyúságok, olívabogyó",savanyusagok-olivabogyo,653,3,"Alapvető élelmiszerek > Konzervek, savanyúságok > Savanyúságok, olívabogyó",614|653|938,True,False,y,22,0
+123,655,Zöldségkonzerv,-zoldsegkonzerv,653,3,"Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",614|653|655,True,False,y,20,0
+124,691,Filteres teák,filteres-teak,688,3,"Alapvető élelmiszerek > Kávé, tea, italpor > Filteres teák",614|688|691,True,False,y,31,0
+125,847,Instant kávék és kiegészítők,instant-kavek-es-kiegeszitok,688,3,"Alapvető élelmiszerek > Kávé, tea, italpor > Instant kávék és kiegészítők",614|688|847,True,False,y,13,0
+126,693,Kakaó és italporok,kakao-es-italporok,688,3,"Alapvető élelmiszerek > Kávé, tea, italpor > Kakaó és italporok",614|688|693,True,False,y,12,0
+127,692,Klasszikus teák,klasszikus-teak,688,3,"Alapvető élelmiszerek > Kávé, tea, italpor > Klasszikus teák",614|688|692,True,False,y,0,0
+128,941,Kávékapszulák,kavekapszulak,688,3,"Alapvető élelmiszerek > Kávé, tea, italpor > Kávékapszulák",614|688|941,True,False,y,7,0
+129,690,Szemes kávék,szemes-kavek,688,3,"Alapvető élelmiszerek > Kávé, tea, italpor > Szemes kávék",614|688|690,True,False,y,6,0
+130,940,Tejporok,tejporok,688,3,"Alapvető élelmiszerek > Kávé, tea, italpor > Tejporok",614|688|940,True,False,y,1,0
+131,689,Őrölt kávék,orolt-kavek,688,3,"Alapvető élelmiszerek > Kávé, tea, italpor > Őrölt kávék",614|688|689,True,False,y,8,0
+132,1086,"Hideg saláták, krémek",hideg-salatak-kremek,843,3,"Alapvető élelmiszerek > Készételek > Hideg saláták, krémek",614|843|1086,True,False,y,24,0
+133,1087,Kényelmi ételek,kenyelmi-etelek,843,3,Alapvető élelmiszerek > Készételek > Kényelmi ételek,614|843|1087,True,False,y,51,0
+134,637,Durumtészta,durumteszta,634,3,"Alapvető élelmiszerek > Köretek, tészták > Durumtészta",614|634|637,True,False,y,4,0
+135,638,Egyéb tészták,nem-durum-teszta,634,3,"Alapvető élelmiszerek > Köretek, tészták > Egyéb tészták",614|634|638,True,False,y,14,0
+136,640,Hüvelyes és egyéb köretek,huvelyes-es-egyeb-koretek,634,3,"Alapvető élelmiszerek > Köretek, tészták > Hüvelyes és egyéb köretek",614|634|640,True,False,y,3,0
+137,639,Levestészta,levesteszta,634,3,"Alapvető élelmiszerek > Köretek, tészták > Levestészta",614|634|639,True,False,y,2,0
+138,635,Rizs,rizs,634,3,"Alapvető élelmiszerek > Köretek, tészták > Rizs",614|634|635,True,False,y,4,0
+139,636,Szója,szoja,634,3,"Alapvető élelmiszerek > Köretek, tészták > Szója",614|634|636,True,False,y,0,0
+140,929,Tojásos tészták,nem-durum-teszta2,634,3,"Alapvető élelmiszerek > Köretek, tészták > Tojásos tészták",614|634|929,True,False,y,8,0
+141,663,"Csokikrémek, nutella",csokikremek-nutella,659,3,"Alapvető élelmiszerek > Lekvár, méz, krém > Csokikrémek, nutella",614|659|663,True,False,y,7,0
+142,660,Lekvárok,gyumolcslekvarok,659,3,"Alapvető élelmiszerek > Lekvár, méz, krém > Lekvárok",614|659|660,True,False,y,11,0
+143,662,"Méz, szirupok",mez-szirupok,659,3,"Alapvető élelmiszerek > Lekvár, méz, krém > Méz, szirupok",614|659|662,True,False,y,4,0
+144,928,"Búzadara, kukoricadara",buzadara-kukoricadara,620,3,"Alapvető élelmiszerek > Liszt, dara, panírmorzsa > Búzadara, kukoricadara",614|620|928,True,False,y,1,0
+145,621,Búzafinomliszt,buzafinomliszt,620,3,"Alapvető élelmiszerek > Liszt, dara, panírmorzsa > Búzafinomliszt",614|620|621,True,False,y,1,0
+146,633,Egyéb lisztek,egyeb-lisztek,620,3,"Alapvető élelmiszerek > Liszt, dara, panírmorzsa > Egyéb lisztek",614|620|633,True,False,y,2,0
+147,628,Lisztkeverék,lisztkeverek,620,3,"Alapvető élelmiszerek > Liszt, dara, panírmorzsa > Lisztkeverék",614|620|628,True,False,y,5,0
+148,632,Panírmorzsák,panirmorzsak,620,3,"Alapvető élelmiszerek > Liszt, dara, panírmorzsa > Panírmorzsák",614|620|632,True,False,y,2,0
+149,627,Rozsliszt,rozsliszt,620,3,"Alapvető élelmiszerek > Liszt, dara, panírmorzsa > Rozsliszt",614|620|627,True,False,y,0,0
+150,1265,Rétesliszt,retesliszt,620,3,"Alapvető élelmiszerek > Liszt, dara, panírmorzsa > Rétesliszt",614|620|1265,True,False,y,1,0
+151,935,Almaecet,almaecet,641,3,Alapvető élelmiszerek > Olaj és ecet > Almaecet,614|641|935,True,False,y,0,0
+152,934,Balzsamecet,balzsamecet,641,3,Alapvető élelmiszerek > Olaj és ecet > Balzsamecet,614|641|934,True,False,y,0,0
+153,937,Egyéb Ecetek,egyebecetek,641,3,Alapvető élelmiszerek > Olaj és ecet > Egyéb Ecetek,614|641|937,True,False,y,0,0
+154,650,Egyéb olajok,egyeb-olajok,641,3,Alapvető élelmiszerek > Olaj és ecet > Egyéb olajok,614|641|650,True,False,y,0,0
+155,936,Fehérborecet,feherborecet,641,3,Alapvető élelmiszerek > Olaj és ecet > Fehérborecet,614|641|936,True,False,y,0,0
+156,648,Kókuszolaj,kokuszolaj,641,3,Alapvető élelmiszerek > Olaj és ecet > Kókuszolaj,614|641|648,True,False,y,1,0
+157,642,Napraforgó Étolaj,napforgoolaj,641,3,Alapvető élelmiszerek > Olaj és ecet > Napraforgó Étolaj,614|641|642,True,False,y,4,0
+158,643,Olívaolaj,olivaolaj,641,3,Alapvető élelmiszerek > Olaj és ecet > Olívaolaj,614|641|643,True,False,y,6,0
+159,932,Szőlőmagolaj,szolomagolaj,641,3,Alapvető élelmiszerek > Olaj és ecet > Szőlőmagolaj,614|641|932,True,False,y,0,0
+160,933,Tökmagolaj,tokmagolaj,641,3,Alapvető élelmiszerek > Olaj és ecet > Tökmagolaj,614|641|933,True,False,y,1,0
+161,651,Ételecet,etelecet,641,3,Alapvető élelmiszerek > Olaj és ecet > Ételecet,614|641|651,True,False,y,2,0
+162,943,Gabonapehely,gabonapehely,848,3,"Alapvető élelmiszerek > Reggeliző- pehely, müzli > Gabonapehely",614|848|943,True,False,y,17,0
+163,1045,Kukoricapehely,kukoricapehely,848,3,"Alapvető élelmiszerek > Reggeliző- pehely, müzli > Kukoricapehely",614|848|1045,True,False,y,1,0
+164,945,"Müzli, granola",muzli-granola,848,3,"Alapvető élelmiszerek > Reggeliző- pehely, müzli > Müzli, granola",614|848|945,True,False,y,10,0
+165,944,"Müzliszelet, gyümölcsszelet",muzliszelet-gyumolcsszelet,848,3,"Alapvető élelmiszerek > Reggeliző- pehely, müzli > Müzliszelet, gyümölcsszelet",614|848|944,True,False,y,26,0
+166,1040,"Zabkása, zabpehely",zabkasa-zabpehely,848,3,"Alapvető élelmiszerek > Reggeliző- pehely, müzli > Zabkása, zabpehely",614|848|1040,True,False,y,11,0
+167,682,Ketchup,ketchup,681,3,"Alapvető élelmiszerek > Szószok, mártások > Ketchup",614|681|682,True,False,y,8,0
+168,1169,"Ketchup, mustár, majonéz (del)",ketchup-mustar-majonez-del-,681,3,"Alapvető élelmiszerek > Szószok, mártások > Ketchup, mustár, majonéz (del)",614|681|1169,True,False,n,0,0
+169,684,Majonéz,majonez,681,3,"Alapvető élelmiszerek > Szószok, mártások > Majonéz",614|681|684,True,False,y,6,0
+170,683,Mustár,mustar,681,3,"Alapvető élelmiszerek > Szószok, mártások > Mustár",614|681|683,True,False,y,4,0
+171,1109,"Mártások, paszták",martasok-pasztak,681,3,"Alapvető élelmiszerek > Szószok, mártások > Mártások, paszták",614|681|1109,True,False,y,8,0
+172,686,Szószok,szoszok,681,3,"Alapvető élelmiszerek > Szószok, mártások > Szószok",614|681|686,True,False,y,17,0
+173,685,Torma,torma,681,3,"Alapvető élelmiszerek > Szószok, mártások > Torma",614|681|685,True,False,y,2,0
+174,687,Öntetek,ontetek,681,3,"Alapvető élelmiszerek > Szószok, mártások > Öntetek",614|681|687,True,False,y,3,0
+175,675,Bors,bors,673,3,"Alapvető élelmiszerek > Só, fűszer, ételízesítők > Bors",614|673|675,True,False,y,4,0
+176,677,Fűszerek,klasszikus-fuszerek,673,3,"Alapvető élelmiszerek > Só, fűszer, ételízesítők > Fűszerek",614|673|677,True,False,y,19,0
+177,679,"Fűszerkeverék, pác",fuszerkeverek-pac,673,3,"Alapvető élelmiszerek > Só, fűszer, ételízesítők > Fűszerkeverék, pác",614|673|679,True,False,y,1,0
+178,676,Paprika,paprika,673,3,"Alapvető élelmiszerek > Só, fűszer, ételízesítők > Paprika",614|673|676,True,False,y,9,0
+179,674,Só,so,673,3,"Alapvető élelmiszerek > Só, fűszer, ételízesítők > Só",614|673|674,True,False,y,3,0
+180,678,Ételízesítők,tubusos-etelizesitok,673,3,"Alapvető élelmiszerek > Só, fűszer, ételízesítők > Ételízesítők",614|673|678,True,False,y,4,0
+181,1046,Befőzés alapanyagok,befozes-alapanyagok,926,3,Alapvető élelmiszerek > Sütés-főzés > Befőzés alapanyagok,614|926|1046,True,False,y,0,0
+182,952,Kész tészták,kesz-tesztak,926,3,Alapvető élelmiszerek > Sütés-főzés > Kész tészták,614|926|952,True,False,y,2,0
+183,927,Lisztek (delete),lisztek-delete-,926,3,Alapvető élelmiszerek > Sütés-főzés > Lisztek (delete),614|926|927,True,False,n,0,0
+184,1047,Sütés alapanyagok,sutes-alapanyagok,926,3,Alapvető élelmiszerek > Sütés-főzés > Sütés alapanyagok,614|926|1047,True,False,y,20,0
+185,950,Sütés-befőzés alapanyagok (delete),sutes-befozes-alapanyagok-delete-,926,3,Alapvető élelmiszerek > Sütés-főzés > Sütés-befőzés alapanyagok (delete),614|926|950,True,False,n,0,0
+186,948,Torta- és süteményalap,torta-es-sutemenyalap,926,3,Alapvető élelmiszerek > Sütés-főzés > Torta- és süteményalap,614|926|948,True,False,y,1,0
+187,949,"Öntetek, puding- és fagylaltpor",ontetek-puding-es-fagylaltpor,926,3,"Alapvető élelmiszerek > Sütés-főzés > Öntetek, puding- és fagylaltpor",614|926|949,True,False,y,4,0
+188,1069,Félszáraz fehérbor,felszaraz-feherbor,554,3,Alkoholos italok > Fehér bor > Félszáraz fehérbor,553|554|1069,True,False,y,0,0
+189,1070,Félédes fehérbor,feledes-feherbor,554,3,Alkoholos italok > Fehér bor > Félédes fehérbor,553|554|1070,True,False,y,2,0
+190,1068,Száraz fehérbor,szaraz-feherbor,554,3,Alkoholos italok > Fehér bor > Száraz fehérbor,553|554|1068,True,False,y,28,0
+191,1071,Édes fehérbor,edes-feherbor,554,3,Alkoholos italok > Fehér bor > Édes fehérbor,553|554|1071,True,False,y,3,0
+192,901,Alkoholmentes pezsgő (delete),alkoholmentes-pezsgo-delete-,559,3,"Alkoholos italok > Pezsgő, és habzó bor > Alkoholmentes pezsgő (delete)",553|559|901,True,False,n,0,0
+193,965,Alkoholos pezsgő,alkoholos-pezs,559,3,"Alkoholos italok > Pezsgő, és habzó bor > Alkoholos pezsgő",553|559|965,True,False,y,4,0
+194,966,Habzó bor,habzo-bor,559,3,"Alkoholos italok > Pezsgő, és habzó bor > Habzó bor",553|559|966,True,False,y,4,0
+195,1073,Félszáraz rozébor,felszaraz-rozebor,555,3,Alkoholos italok > Rosé bor > Félszáraz rozébor,553|555|1073,True,False,y,0,0
+196,1074,Félédes rozébor,feledes-rozebor,555,3,Alkoholos italok > Rosé bor > Félédes rozébor,553|555|1074,True,False,y,2,0
+197,1072,Száraz rozébor,szaraz-rozebor,555,3,Alkoholos italok > Rosé bor > Száraz rozébor,553|555|1072,True,False,y,7,0
+198,1075,Édes rozébor,edes-rozebor,555,3,Alkoholos italok > Rosé bor > Édes rozébor,553|555|1075,True,False,y,0,0
+199,954,Cider,cider,557,3,"Alkoholos italok > Sör, koktél, gyümölcsbor > Cider",553|557|954,True,False,y,5,0
+200,955,Gyümölcs és egyéb borok,gyumolcs-es-egyeb-borok,557,3,"Alkoholos italok > Sör, koktél, gyümölcsbor > Gyümölcs és egyéb borok",553|557|955,True,False,y,0,0
+201,956,Koktélok,koktelok,557,3,"Alkoholos italok > Sör, koktél, gyümölcsbor > Koktélok",553|557|956,True,False,y,1,0
+202,953,Sörök,sorok,557,3,"Alkoholos italok > Sör, koktél, gyümölcsbor > Sörök",553|557|953,True,False,y,24,0
+203,1257,Ízesített sörök,izesitett-sorok,557,3,"Alkoholos italok > Sör, koktél, gyümölcsbor > Ízesített sörök",553|557|1257,True,False,y,0,0
+204,884,Brandy,brandy,558,3,Alkoholos italok > Tömény > Brandy,553|558|884,True,False,y,1,0
+205,904,Egyéb,egyeb-tomenyek,558,3,Alkoholos italok > Tömény > Egyéb,553|558|904,True,False,y,5,0
+206,885,Gin,gin,558,3,Alkoholos italok > Tömény > Gin,553|558|885,True,False,y,3,0
+207,886,Konyak,konyak,558,3,Alkoholos italok > Tömény > Konyak,553|558|886,True,False,y,0,0
+208,880,Pálinka,palinka,558,3,Alkoholos italok > Tömény > Pálinka,553|558|880,True,False,y,4,0
+209,883,Rum,rum,558,3,Alkoholos italok > Tömény > Rum,553|558|883,True,False,y,2,0
+210,887,Tequila,tequila,558,3,Alkoholos italok > Tömény > Tequila,553|558|887,True,False,y,0,0
+211,881,Vodka,vodka,558,3,Alkoholos italok > Tömény > Vodka,553|558|881,True,False,y,3,0
+212,882,Whiskey,whiskey,558,3,Alkoholos italok > Tömény > Whiskey,553|558|882,True,False,y,4,0
+213,1077,Félszáraz vörösbor,felszaraz-vorosbor,556,3,Alkoholos italok > Vörös bor > Félszáraz vörösbor,553|556|1077,True,False,y,1,0
+214,1078,Félédes vörösbor,feledes-vorosbor,556,3,Alkoholos italok > Vörös bor > Félédes vörösbor,553|556|1078,True,False,y,3,0
+215,1076,Száraz vörösbor,szaraz-vorosbor,556,3,Alkoholos italok > Vörös bor > Száraz vörösbor,553|556|1076,True,False,y,17,0
+216,1079,Édes vörösbor,edes-vorosbor,556,3,Alkoholos italok > Vörös bor > Édes vörösbor,553|556|1079,True,False,y,0,0
+217,702,Baba törlőkendő,baba-torlokendo,701,3,Baba > Babaápolás > Baba törlőkendő,694|701|702,True,False,y,3,0
+218,703,Babakozmetikum,babakozmetikum,701,3,Baba > Babaápolás > Babakozmetikum,694|701|703,True,False,y,0,0
+219,705,Egyéb felszerelés,egyeb-felszereles,701,3,Baba > Babaápolás > Egyéb felszerelés,694|701|705,True,False,y,0,0
+220,704,Pelenka,pelenka,701,3,Baba > Babaápolás > Pelenka,694|701|704,True,False,y,7,0
+221,700,Bébi desszert,bebi-desszert,695,3,"Baba > Babaétel, ital > Bébi desszert",694|695|700,True,False,y,3,0
+222,699,"Bébi pépek, kekszek",bebi-pepek-kekszek,695,3,"Baba > Babaétel, ital > Bébi pépek, kekszek",694|695|699,True,False,y,0,0
+223,697,Bébiital,bebiital-,695,3,"Baba > Babaétel, ital > Bébiital",694|695|697,True,False,y,0,0
+224,696,Bébiétel,bebietel-,695,3,"Baba > Babaétel, ital > Bébiétel",694|695|696,True,False,y,21,0
+225,698,Tápszer,tapszer-,695,3,"Baba > Babaétel, ital > Tápszer",694|695|698,True,False,y,0,0
+226,570,Folyami és édesvizi halak,folyami-es-edesvizi-halak,568,3,Fagyasztott élelmiszer > Hal > Folyami és édesvizi halak,560|568|570,True,False,y,1,0
+227,571,Halrudak,halrudak,568,3,Fagyasztott élelmiszer > Hal > Halrudak,560|568|571,True,False,y,2,0
+228,572,Tenger gyümölcsei,tenger-gyumolcsei,568,3,Fagyasztott élelmiszer > Hal > Tenger gyümölcsei,560|568|572,True,False,y,4,0
+229,569,Tengerihalak,tengerihalak,568,3,Fagyasztott élelmiszer > Hal > Tengerihalak,560|568|569,True,False,y,6,0
+230,566,Csirkehús,csirkehus,564,3,Fagyasztott élelmiszer > Hús > Csirkehús,560|564|566,True,False,y,18,0
+231,567,Pulykahús,pulykahus,564,3,Fagyasztott élelmiszer > Hús > Pulykahús,560|564|567,True,False,y,0,0
+232,565,Sertés- és marhahús,sertes--es-marhahus,564,3,Fagyasztott élelmiszer > Hús > Sertés- és marhahús,560|564|565,True,False,y,2,0
+233,857,Vad és egyéb,vad-es-egyeb,564,3,Fagyasztott élelmiszer > Hús > Vad és egyéb,560|564|857,True,False,y,0,0
+234,582,Desszertek,desszertek,579,3,"Fagyasztott élelmiszer > Jégkrémek, desszertek > Desszertek",560|579|582,True,False,y,19,0
+235,581,Dobozos jégkrém,dobozos-jegkrem,579,3,"Fagyasztott élelmiszer > Jégkrémek, desszertek > Dobozos jégkrém",560|579|581,True,False,y,38,0
+236,580,Pálcikás és tölcséres jégkrém,palcikas-es-tolcseres-jegkrem,579,3,"Fagyasztott élelmiszer > Jégkrémek, desszertek > Pálcikás és tölcséres jégkrém",560|579|580,True,False,y,37,0
+237,583,Tészták (delete),tesztak-delete-,579,3,"Fagyasztott élelmiszer > Jégkrémek, desszertek > Tészták (delete)",560|579|583,True,False,n,0,0
+238,578,Egyéb készételek,keszetelek2,576,3,Fagyasztott élelmiszer > Készételek > Egyéb készételek,560|576|578,True,False,y,8,0
+239,1022,"Gombóc, nudli, derelye",gomboc-nudli-derelye,576,3,"Fagyasztott élelmiszer > Készételek > Gombóc, nudli, derelye",560|576|1022,True,False,y,7,0
+240,577,"Sajtok, zöldségek",sajtok,576,3,"Fagyasztott élelmiszer > Készételek > Sajtok, zöldségek",560|576|577,True,False,y,11,0
+241,574,Pizza,pizza,573,3,"Fagyasztott élelmiszer > Pizzák, sütemények > Pizza",560|573|574,True,False,y,13,0
+242,1021,Sütemények,sutemenyek,573,3,"Fagyasztott élelmiszer > Pizzák, sütemények > Sütemények",560|573|1021,True,False,y,5,0
+243,575,Tészták és baguettek,tesztak-es-baguettek,573,3,"Fagyasztott élelmiszer > Pizzák, sütemények > Tészták és baguettek",560|573|575,True,False,y,10,0
+244,1020,Burgonya,burgonya,561,3,"Fagyasztott élelmiszer > Zöldségek, gyümölcsök > Burgonya",560|561|1020,True,False,y,12,0
+245,563,Fagyasztott gyümölcs,fagyasztott-gyumolcs,561,3,"Fagyasztott élelmiszer > Zöldségek, gyümölcsök > Fagyasztott gyümölcs",560|561|563,True,False,y,8,0
+246,562,Fagyasztott zöldség,fagyasztott-zoldseg,561,3,"Fagyasztott élelmiszer > Zöldségek, gyümölcsök > Fagyasztott zöldség",560|561|562,True,False,y,14,0
+247,1019,Zöldségkeverék,zoldsegkeverek,561,3,"Fagyasztott élelmiszer > Zöldségek, gyümölcsök > Zöldségkeverék",560|561|1019,True,False,y,6,0
+248,1038,Konyhai papíráru,konyhai-papiraru,1036,3,Háztartás > Háztartási papíráru > Konyhai papíráru,587|1036|1038,True,False,y,14,0
+249,1039,Papírzsebkendő,papirzsebkendo,1036,3,Háztartás > Háztartási papíráru > Papírzsebkendő,587|1036|1039,True,False,y,6,0
+250,1037,Toalett papír,toalett-papir,1036,3,Háztartás > Háztartási papíráru > Toalett papír,587|1036|1037,True,False,y,8,0
+251,1084,Automaták és utántöltők,automatak-es-utantoltok,914,3,Háztartás > Légfrissítők > Automaták és utántöltők,587|914|1084,True,False,y,0,0
+252,1085,Illóolajok és gyertyák,illoolajok-es-gyertyak,914,3,Háztartás > Légfrissítők > Illóolajok és gyertyák,587|914|1085,True,False,y,4,0
+253,1083,Légfrissítő,legfrissito,914,3,Háztartás > Légfrissítők > Légfrissítő,587|914|1083,True,False,y,17,0
+254,595,Gépi mosogatáshoz,gepi-mosogatashoz,593,3,Háztartás > Mosogatószer > Gépi mosogatáshoz,587|593|595,True,False,y,5,0
+255,594,Kézi Mosogatás,kezi-mosogatas,593,3,Háztartás > Mosogatószer > Kézi Mosogatás,587|593|594,True,False,y,14,0
+256,864,Kiegészítők,kiegeszitok,588,3,Háztartás > Mosószerek > Kiegészítők,587|588|864,True,False,y,6,0
+257,589,Mosópor,mosopor,588,3,Háztartás > Mosószerek > Mosópor,587|588|589,True,False,y,3,0
+258,590,Mosószer,mososzer,588,3,Háztartás > Mosószerek > Mosószer,587|588|590,True,False,y,5,0
+259,592,Mosószer- kapszula,mososzer-kapszula,588,3,Háztartás > Mosószerek > Mosószer- kapszula,587|588|592,True,False,y,3,0
+260,591,Öblítő,oblito,588,3,Háztartás > Mosószerek > Öblítő,587|588|591,True,False,y,14,0
+261,1082,Egyéb takarítóeszköz,egyeb-takaritoeszkoz,601,3,Háztartás > Takarítóeszköz > Egyéb takarítóeszköz,587|601|1082,True,False,y,1,0
+262,1081,Gumikesztyű,gumikesztyu,601,3,Háztartás > Takarítóeszköz > Gumikesztyű,587|601|1081,True,False,y,14,0
+263,1080,"Szivacs, törlőkendő",szivacs-torlokendo,601,3,"Háztartás > Takarítóeszköz > Szivacs, törlőkendő",587|601|1080,True,False,y,2,0
+264,980,Ablaktisztító,ablaktisztito,596,3,Háztartás > Tisztítószer > Ablaktisztító,587|596|980,True,False,y,0,0
+265,600,Cipőápolás,cipoapolas,596,3,Háztartás > Tisztítószer > Cipőápolás,587|596|600,True,False,y,0,0
+266,907,Fürdőszobai tisztítószerek,furdoszobai-tisztitoszerek,596,3,Háztartás > Tisztítószer > Fürdőszobai tisztítószerek,587|596|907,True,False,y,2,0
+267,906,Konyhai tisztítószerek,konyhai-tisztitoszerek,596,3,Háztartás > Tisztítószer > Konyhai tisztítószerek,587|596|906,True,False,y,2,0
+268,599,Lefolyótisztító szer,lefolyotisztito-szer,596,3,Háztartás > Tisztítószer > Lefolyótisztító szer,587|596|599,True,False,y,0,0
+269,908,Súrolószerek,suroloszerek,596,3,Háztartás > Tisztítószer > Súrolószerek,587|596|908,True,False,y,0,0
+270,916,Törlőkendők,torlokendok,596,3,Háztartás > Tisztítószer > Törlőkendők,587|596|916,True,False,y,9,0
+271,598,WC-tisztító szer,wc-tisztito-szer,596,3,Háztartás > Tisztítószer > WC-tisztító szer,587|596|598,True,False,y,13,0
+272,597,Általános tisztítószer,haztartasi-tisztitoszer,596,3,Háztartás > Tisztítószer > Általános tisztítószer,587|596|597,True,False,y,3,0
+273,777,Egyéb felvágott,egyeb-felvagott-,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Egyéb felvágott",771|772|777,True,False,y,17,0
+274,781,Füstölt termékek,fustolt-termekek,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Füstölt termékek",771|772|781,True,False,y,0,0
+275,1028,Grill és főzőkolbász,grill-es-fozokolbasz,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Grill és főzőkolbász",771|772|1028,True,False,y,12,0
+276,890,Hurka,hurka,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Hurka",771|772|890,True,False,y,0,0
+277,891,Kolbász,kolbasz,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Kolbász",771|772|891,True,False,y,21,0
+278,778,Májas,majas-,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Májas",771|772|778,True,False,y,15,0
+279,776,Párizsi,parizsi-,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Párizsi",771|772|776,True,False,y,15,0
+280,775,Sonka,sonka-,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Sonka",771|772|775,True,False,y,32,0
+281,1245,"Szalonna, bacon",szalonna-bacon,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Szalonna, bacon",771|772|1245,True,False,y,6,0
+282,889,Szalámi,szalami,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Szalámi",771|772|889,True,False,y,27,0
+283,1246,Tepertő,teperto,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Tepertő",771|772|1246,True,False,y,2,0
+284,779,Virsli,virsli-,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Virsli",771|772|779,True,False,y,16,0
+285,1216,Virsli jellegű készítmények,virsli-jellegu-keszitmenyek,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Virsli jellegű készítmények",771|772|1216,True,False,y,5,0
+286,1247,Zsír,zsir,772,3,"Hús, hal, felvágott > Feldolgozott húsok > Zsír",771|772|1247,True,False,y,3,0
+287,783,Baromfi,csirke-,782,3,"Hús, hal, felvágott > Friss húsok > Baromfi",771|782|783,True,False,y,30,0
+288,925,Darált hús (delete),daralt-hus-delete-,782,3,"Hús, hal, felvágott > Friss húsok > Darált hús (delete)",771|782|925,True,False,n,0,0
+289,924,Egyéb,egyeb-csomagolt-es-pultos-husok,782,3,"Hús, hal, felvágott > Friss húsok > Egyéb",771|782|924,True,False,y,1,0
+290,786,Húskészítmények (delete),huskeszitmenyek-delete-,782,3,"Hús, hal, felvágott > Friss húsok > Húskészítmények (delete)",771|782|786,True,False,n,0,0
+291,785,Marha,marha,782,3,"Hús, hal, felvágott > Friss húsok > Marha",771|782|785,True,False,y,6,0
+292,784,Sertés,sertes-,782,3,"Hús, hal, felvágott > Friss húsok > Sertés",771|782|784,True,False,y,24,0
+293,895,Szalonna (delete),szalonna-delete-,782,3,"Hús, hal, felvágott > Friss húsok > Szalonna (delete)",771|782|895,True,False,n,0,0
+294,896,Tepertő (delete),teperto-delete-,782,3,"Hús, hal, felvágott > Friss húsok > Tepertő (delete)",771|782|896,True,False,n,0,0
+295,894,Zsír (delete),zsir-delete-,782,3,"Hús, hal, felvágott > Friss húsok > Zsír (delete)",771|782|894,True,False,n,0,0
+296,1255,Alkoholmentes pezsgő,alkoholmentes-pezsgo,1253,3,Italok > Alkoholmentes italok > Alkoholmentes pezsgő,745|1253|1255,True,False,y,0,0
+297,1254,Alkoholmentes sör,alkoholmentes-sor,1253,3,Italok > Alkoholmentes italok > Alkoholmentes sör,745|1253|1254,True,False,y,9,0
+298,1256,Egyéb alkoholmentes ital,egyeb-alkoholmentes-ital,1253,3,Italok > Alkoholmentes italok > Egyéb alkoholmentes ital,745|1253|1256,True,False,y,0,0
+299,1088,Energiaitalok,energiaitalok,854,3,"Italok > Energia-, sport-, gyógyitalok > Energiaitalok",745|854|1088,True,False,y,8,0
+300,1090,Gyógyvizek,gyogyvizek,854,3,"Italok > Energia-, sport-, gyógyitalok > Gyógyvizek",745|854|1090,True,False,y,0,0
+301,1089,Sportitalok,sportitalok,854,3,"Italok > Energia-, sport-, gyógyitalok > Sportitalok",745|854|1089,True,False,y,8,0
+302,764,Frissen préselt gyümölcslevek (delete),frissen-preselt-gyumolcslevek-delete-,761,3,"Italok > Gyümölcslevek, zöldséglevek > Frissen préselt gyümölcslevek (delete)",745|761|764,True,False,n,0,0
+303,763,"Gyümölcsital, gyümölcslé",gyumolcsital-gyumolcsle,761,3,"Italok > Gyümölcslevek, zöldséglevek > Gyümölcsital, gyümölcslé",745|761|763,True,False,y,24,0
+304,762,Gyümölcslevek (delete),gyumolcslevek-delete-,761,3,"Italok > Gyümölcslevek, zöldséglevek > Gyümölcslevek (delete)",745|761|762,True,False,y,0,0
+305,766,Kis gyümölcslevek,kis-gyumolcslevek,761,3,"Italok > Gyümölcslevek, zöldséglevek > Kis gyümölcslevek",745|761|766,True,False,y,13,0
+306,858,Zöldséglevek,zoldseglevek,761,3,"Italok > Gyümölcslevek, zöldséglevek > Zöldséglevek",745|761|858,True,False,y,0,0
+307,753,Kisüveges vizek,kisuveges-vizek,752,3,Italok > Szénsavas Ásványvíz > Kisüveges vizek,745|752|753,True,False,y,2,0
+308,754,Nagyüveges vizek,nagyuveges-vizek,752,3,Italok > Szénsavas Ásványvíz > Nagyüveges vizek,745|752|754,True,False,y,6,0
+309,747,Kisüveges üdítőitalok,kisuveges-uditoitalok,746,3,Italok > Szénsavas üdítőitalok > Kisüveges üdítőitalok,745|746|747,True,False,y,19,0
+310,748,Nagyüveges üdítőitalok,nagyuveges-uditoitalok,746,3,Italok > Szénsavas üdítőitalok > Nagyüveges üdítőitalok,745|746|748,True,False,y,18,0
+311,756,Kisüveges vizek,kisuveges-vizek2,755,3,Italok > Szénsavmentes Ásványvíz > Kisüveges vizek,745|755|756,True,False,y,2,0
+312,757,Nagyüveges vizek,nagyuveges-vizek2,755,3,Italok > Szénsavmentes Ásványvíz > Nagyüveges vizek,745|755|757,True,False,y,4,0
+313,750,"Jegesteák, limonádék",jegesteak,749,3,"Italok > Szénsavmentes üdítőitalok > Jegesteák, limonádék",745|749|750,True,False,y,22,0
+314,770,Citromlevek,citromlevek,767,3,"Italok > Szörp, italpor, citromlé > Citromlevek",745|767|770,True,False,y,2,0
+315,769,Italporok,italporok,767,3,"Italok > Szörp, italpor, citromlé > Italporok",745|767|769,True,False,y,0,0
+316,768,Szörpök,szorpok,767,3,"Italok > Szörp, italpor, citromlé > Szörpök",745|767|768,True,False,y,12,0
+317,759,Kisüveges ízesített vizek,kisuveges-izesitett-vizek,758,3,Italok > Ízesített vizek > Kisüveges ízesített vizek,745|758|759,True,False,y,0,0
+318,760,Nagyüveges ízesített vizek,nagyuveges-izesitett-vizek,758,3,Italok > Ízesített vizek > Nagyüveges ízesített vizek,745|758|760,True,False,y,5,0
+319,1023,Bonbon,bonbon,792,3,Nassolnivalók > Csokoládé > Bonbon,790|792|1023,True,False,y,36,0
+320,1261,Csokoládéfigurák,csokoladefigurak,792,3,Nassolnivalók > Csokoládé > Csokoládéfigurák,790|792|1261,True,False,n,0,0
+321,795,Fehércsokoládé,fehercsokolade,792,3,Nassolnivalók > Csokoládé > Fehércsokoládé,790|792|795,True,False,y,6,0
+322,794,Tejcsokoládé,tejcsokolade,792,3,Nassolnivalók > Csokoládé > Tejcsokoládé,790|792|794,True,False,y,48,0
+323,793,Étcsokoládé,etcsokolade,792,3,Nassolnivalók > Csokoládé > Étcsokoládé,790|792|793,True,False,y,19,0
+324,1091,Gumicukor,gumicukor,802,3,"Nassolnivalók > Cukorkák, rágógumi > Gumicukor",790|802|1091,True,False,y,17,0
+325,1093,Kemény cukorka,kemeny-cukorka,802,3,"Nassolnivalók > Cukorkák, rágógumi > Kemény cukorka",790|802|1093,True,False,y,19,0
+326,1094,Puha cukorka,puha-cukorka,802,3,"Nassolnivalók > Cukorkák, rágógumi > Puha cukorka",790|802|1094,True,False,y,6,0
+327,1092,Rágógumi,ragogumi,802,3,"Nassolnivalók > Cukorkák, rágógumi > Rágógumi",790|802|1092,True,False,y,25,0
+328,1095,Szőlőcukor,szolocukor,802,3,"Nassolnivalók > Cukorkák, rágógumi > Szőlőcukor",790|802|1095,True,False,y,2,0
+329,797,Keksz,keksz,796,3,"Nassolnivalók > Keksz, nápolyi, piskóta > Keksz",790|796|797,True,False,y,41,0
+330,798,"Nápolyi, csokiszelet",napolyi-csokiszelet,796,3,"Nassolnivalók > Keksz, nápolyi, piskóta > Nápolyi, csokiszelet",790|796|798,True,False,y,35,0
+331,799,Piskóta,piskota,796,3,"Nassolnivalók > Keksz, nápolyi, piskóta > Piskóta",790|796|799,True,False,y,8,0
+332,1025,Sós,sos,803,3,Nassolnivalók > Puffasztott snack > Sós,790|803|1025,True,False,y,5,0
+333,1026,Édes,edes,803,3,Nassolnivalók > Puffasztott snack > Édes,790|803|1026,True,False,y,0,0
+334,1041,Chipsek,chipsek,1024,3,Nassolnivalók > Sós rágcsálnivaló > Chipsek,790|1024|1041,True,False,y,48,0
+335,1043,Pattogatott kukoricák,pattogatott-kukoricak,1024,3,Nassolnivalók > Sós rágcsálnivaló > Pattogatott kukoricák,790|1024|1043,True,False,y,2,0
+336,1042,Sós magok,sos-magok,1024,3,Nassolnivalók > Sós rágcsálnivaló > Sós magok,790|1024|1042,True,False,y,19,0
+337,1044,Sós rágcsák,sos-ragcsak,1024,3,Nassolnivalók > Sós rágcsálnivaló > Sós rágcsák,790|1024|1044,True,False,y,20,0
+338,534,Friss kenyér,friss-kenyer,533,3,Pékáru > Kenyér > Friss kenyér,532|533|534,True,False,y,8,0
+339,535,Tartós kenyér,tartos-kenyer,533,3,Pékáru > Kenyér > Tartós kenyér,532|533|535,True,False,y,21,0
+340,1015,Egyéb tartós pékáru,egyeb-tartos-pekaru,540,3,Pékáru > Tartós áru > Egyéb tartós pékáru,532|540|1015,True,False,y,10,0
+341,1014,Kétszersült,ketszersult,540,3,Pékáru > Tartós áru > Kétszersült,532|540|1014,True,False,y,4,0
+342,1258,"Pita, tortilla",pita-tortilla,540,3,"Pékáru > Tartós áru > Pita, tortilla",532|540|1258,True,False,y,3,0
+343,1260,Szendvicsek,szendvicsek,540,3,Pékáru > Tartós áru > Szendvicsek,532|540|1260,True,False,y,0,0
+344,1016,Teasütemény (delete),teasutemeny-delete-,540,3,Pékáru > Tartós áru > Teasütemény (delete),532|540|1016,True,False,y,0,0
+345,1013,Édes,edes,540,3,Pékáru > Tartós áru > Édes,532|540|1013,True,False,y,16,0
+346,1012,"Kifli, bagett",kifli-bagett,536,3,"Pékáru > Zsemle, kifli > Kifli, bagett",532|536|1012,True,False,y,4,0
+347,1011,Zsemle,zsemle,536,3,"Pékáru > Zsemle, kifli > Zsemle",532|536|1011,True,False,y,10,0
+348,1243,Egyéb cikkek,egyeb-cikkek,846,3,"Szépség, egészség > Egyéb cikk > Egyéb cikkek",708|846|1243,True,False,y,0,0
+349,1107,Gyógyhatású készítmények,gyogyhatasu-keszitmenyek,846,3,"Szépség, egészség > Egyéb cikk > Gyógyhatású készítmények",708|846|1107,True,False,y,0,0
+350,1105,Hajkiegészítők (delete),hajkiegeszitok-delete-,846,3,"Szépség, egészség > Egyéb cikk > Hajkiegészítők (delete)",708|846|1105,True,False,n,0,0
+351,1104,"Illó-, masszázsolajok",illo-masszazsolajok,846,3,"Szépség, egészség > Egyéb cikk > Illó-, masszázsolajok",708|846|1104,True,False,y,0,0
+352,1106,Körömápolás,koromapolas,846,3,"Szépség, egészség > Egyéb cikk > Körömápolás",708|846|1106,True,False,y,0,0
+353,1101,"Sebtapaszok, gézlapok",sebtapaszok-gezlapok,846,3,"Szépség, egészség > Egyéb cikk > Sebtapaszok, gézlapok",708|846|1101,True,False,y,4,0
+354,1108,Terhességi és ovulációs tesztek,terhessegi-es-ovulacios-tesztek,846,3,"Szépség, egészség > Egyéb cikk > Terhességi és ovulációs tesztek",708|846|1108,True,False,y,0,0
+355,1102,"Vattakorong, fültisztító pálcika",vattakorong-fultisztito-palcika,846,3,"Szépség, egészség > Egyéb cikk > Vattakorong, fültisztító pálcika",708|846|1102,True,False,y,2,0
+356,1103,"Óvszer, síkosító",ovszer-sikosito,846,3,"Szépség, egészség > Egyéb cikk > Óvszer, síkosító",708|846|1103,True,False,y,0,0
+357,744,"Borotva, borotvapenge",borotva-borotvapenge,740,3,"Szépség, egészség > Férfi higiénia > Borotva, borotvapenge",708|740|744,True,False,y,6,0
+358,742,"Borotvahab, borotvazselé",borotvahab-borotvazsele,740,3,"Szépség, egészség > Férfi higiénia > Borotvahab, borotvazselé",708|740|742,True,False,y,0,0
+359,743,Borotválkozás utáni arcápoló,borotvalkozas-utani-arcapolo,740,3,"Szépség, egészség > Férfi higiénia > Borotválkozás utáni arcápoló",708|740|743,True,False,y,0,0
+360,741,"Férfi dezodor, stift",ferfi-dezodor-stift,740,3,"Szépség, egészség > Férfi higiénia > Férfi dezodor, stift",708|740|741,True,False,y,6,0
+361,922,Férfi sampon (delete),ferfi-sampon-delete-,740,3,"Szépség, egészség > Férfi higiénia > Férfi sampon (delete)",708|740|922,True,False,n,0,0
+362,862,Parfümök (delete),parfumok-delete-,740,3,"Szépség, egészség > Férfi higiénia > Parfümök (delete)",708|740|862,True,False,n,0,0
+363,714,Darabos szappan,darabos-szappan,709,3,"Szépség, egészség > Fürdés, kézmosás > Darabos szappan",708|709|714,True,False,y,1,0
+364,711,Férfi tusfürdő,ferfi-tusfurdo-,709,3,"Szépség, egészség > Fürdés, kézmosás > Férfi tusfürdő",708|709|711,True,False,y,3,0
+365,713,Fürdés kiegészítő,furdes-kiegeszito,709,3,"Szépség, egészség > Fürdés, kézmosás > Fürdés kiegészítő",708|709|713,True,False,y,0,0
+366,1110,Gyermek tusfürdő,gyermek-tusfurdo,709,3,"Szépség, egészség > Fürdés, kézmosás > Gyermek tusfürdő",708|709|1110,True,False,y,0,0
+367,712,Habfürdő,habfurdo-,709,3,"Szépség, egészség > Fürdés, kézmosás > Habfürdő",708|709|712,True,False,y,0,0
+368,710,Női és családi tusfürdő,noi-es-csaladi-tusfurdo-,709,3,"Szépség, egészség > Fürdés, kézmosás > Női és családi tusfürdő",708|709|710,True,False,y,17,0
+369,715,"Szappan, kézfertőtlenítő",szappan-kezfertotlenito,709,3,"Szépség, egészség > Fürdés, kézmosás > Szappan, kézfertőtlenítő",708|709|715,True,False,y,6,0
+370,874,"Balzsam, pakolás",balzsam-pakolas,716,3,"Szépség, egészség > Hajápolás > Balzsam, pakolás",708|716|874,True,False,y,0,0
+371,1112,Férfi sampon,ferfi-sampon,716,3,"Szépség, egészség > Hajápolás > Férfi sampon",708|716|1112,True,False,y,2,0
+372,1113,Gyermek sampon,gyermek-sampon,716,3,"Szépség, egészség > Hajápolás > Gyermek sampon",708|716|1113,True,False,y,1,0
+373,721,Hajfestés,hajfestes,716,3,"Szépség, egészség > Hajápolás > Hajfestés",708|716|721,True,False,y,0,0
+374,720,Hajformázók,hajformazok-,716,3,"Szépség, egészség > Hajápolás > Hajformázók",708|716|720,True,False,y,8,0
+375,1117,Hajkiegészítők,hajkiegeszitok,716,3,"Szépség, egészség > Hajápolás > Hajkiegészítők",708|716|1117,True,False,y,0,0
+376,718,"Hajmosás utáni ápolók, szérumok",hajmosas-utani-apolok-szerumok,716,3,"Szépség, egészség > Hajápolás > Hajmosás utáni ápolók, szérumok",708|716|718,True,False,y,0,0
+377,717,"Női sampon, szárazsampon",noi-sampon-szarazsampon,716,3,"Szépség, egészség > Hajápolás > Női sampon, szárazsampon",708|716|717,True,False,y,11,0
+378,737,Intim tisztálkodás,intim-tisztalkodas,734,3,"Szépség, egészség > Női higiénia > Intim tisztálkodás",708|734|737,True,False,y,0,0
+379,872,Körömlakk (delete),koromlakk-delete-,734,3,"Szépség, egészség > Női higiénia > Körömlakk (delete)",708|734|872,True,False,n,0,0
+380,1202,"Női dezodor, borotva",noi-dezodor-borotva,734,3,"Szépség, egészség > Női higiénia > Női dezodor, borotva",708|734|1202,True,False,y,0,0
+381,735,"Női dezodor, stift",noi-dezodor-stift,734,3,"Szépség, egészség > Női higiénia > Női dezodor, stift",708|734|735,True,False,y,14,0
+382,739,Női szőrtelenítés,noi-szortelenites,734,3,"Szépség, egészség > Női higiénia > Női szőrtelenítés",708|734|739,True,False,y,4,0
+383,861,Parfümök (delete),parfumok-delete-,734,3,"Szépség, egészség > Női higiénia > Parfümök (delete)",708|734|861,True,False,n,0,0
+384,870,Smink,smink,734,3,"Szépség, egészség > Női higiénia > Smink",708|734|870,True,False,y,0,0
+385,738,Tampon,tampon,734,3,"Szépség, egészség > Női higiénia > Tampon",708|734|738,True,False,y,2,0
+386,736,"Tisztasági betét, intim betét",tisztasagi-betet-intim-betet,734,3,"Szépség, egészség > Női higiénia > Tisztasági betét, intim betét",708|734|736,True,False,y,18,0
+387,1116,Férfi parfüm,ferfi-parfum,1114,3,"Szépség, egészség > Parfümök > Férfi parfüm",708|1114|1116,True,False,y,0,0
+388,1115,Női parfüm,noi-parfum,1114,3,"Szépség, egészség > Parfümök > Női parfüm",708|1114|1115,True,False,y,4,0
+389,860,Ajakápolás,ajakapolas,722,3,"Szépség, egészség > Szájápolás > Ajakápolás",708|722|860,True,False,y,3,0
+390,723,Fogkefe,fogkefe-,722,3,"Szépség, egészség > Szájápolás > Fogkefe",708|722|723,True,False,y,6,0
+391,724,Fogkrém,fogkrem-,722,3,"Szépség, egészség > Szájápolás > Fogkrém",708|722|724,True,False,y,11,0
+392,725,Protézis ragasztó,protezis-ragaszto-,722,3,"Szépség, egészség > Szájápolás > Protézis ragasztó",708|722|725,True,False,y,0,0
+393,726,Protézis tisztító,protezis-tisztito-,722,3,"Szépség, egészség > Szájápolás > Protézis tisztító",708|722|726,True,False,y,0,0
+394,728,Szájvíz,szajviz,722,3,"Szépség, egészség > Szájápolás > Szájvíz",708|722|728,True,False,y,2,0
+395,727,Szájápolás kiegészítok,szajapolas-kiegeszitok-,722,3,"Szépség, egészség > Szájápolás > Szájápolás kiegészítok",708|722|727,True,False,y,0,0
+396,730,Arcápolás,arcapolas-,729,3,"Szépség, egészség > Testápolás > Arcápolás",708|729|730,True,False,y,7,0
+397,731,Kéz- és lábápolás,labapolas-,729,3,"Szépség, egészség > Testápolás > Kéz- és lábápolás",708|729|731,True,False,y,6,0
+398,732,Napozószer,napozoszer-,729,3,"Szépség, egészség > Testápolás > Napozószer",708|729|732,True,False,y,9,0
+399,733,Testápolás,testapolas2,729,3,"Szépség, egészség > Testápolás > Testápolás",708|729|733,True,False,y,4,0
+400,1007,Egyéb desszert,egyeb-desszert,526,3,"Tejtermék, tojás > Desszert > Egyéb desszert",505|526|1007,True,False,y,19,0
+401,1004,Krémtúró,kremturo,526,3,"Tejtermék, tojás > Desszert > Krémtúró",505|526|1004,True,False,y,16,0
+402,527,Puding,puding-kremturo,526,3,"Tejtermék, tojás > Desszert > Puding",505|526|527,True,False,y,10,0
+403,1005,Tejberizs,tejberizs,526,3,"Tejtermék, tojás > Desszert > Tejberizs",505|526|1005,True,False,y,11,0
+404,528,Tejszelet,tejszeletek-tejberizs-egyeb,526,3,"Tejtermék, tojás > Desszert > Tejszelet",505|526|528,True,False,y,4,0
+405,1006,Túródesszert,turodesszert-,526,3,"Tejtermék, tojás > Desszert > Túródesszert",505|526|1006,True,False,y,10,0
+406,523,Joghurtital,joghurtital,520,3,"Tejtermék, tojás > Joghurt > Joghurtital",505|520|523,True,False,y,4,0
+407,985,Natúr joghurt,natur-joghurt,520,3,"Tejtermék, tojás > Joghurt > Natúr joghurt",505|520|985,True,False,y,7,0
+408,522,Ízesített joghurt,izesitett-joghurt,520,3,"Tejtermék, tojás > Joghurt > Ízesített joghurt",505|520|522,True,False,y,60,0
+409,996,"Kaukázusi kefir, író",kaukazusi-kefir,519,3,"Tejtermék, tojás > Kefir > Kaukázusi kefir, író",505|519|996,True,False,y,2,0
+410,994,Natúr kefir,natur-kefir,519,3,"Tejtermék, tojás > Kefir > Natúr kefir",505|519|994,True,False,y,3,0
+411,995,Ízesített kefir,izesitett-kefir,519,3,"Tejtermék, tojás > Kefir > Ízesített kefir",505|519|995,True,False,y,0,0
+412,1009,Dobozos margarin,dobozos-margarin,531,3,"Tejtermék, tojás > Margarin > Dobozos margarin",505|531|1009,True,False,y,9,0
+413,1010,Sütőmargarin,sutomargarin,531,3,"Tejtermék, tojás > Margarin > Sütőmargarin",505|531|1010,True,False,y,1,0
+414,512,Félkemény sajt,felkemeny-sajt,510,3,"Tejtermék, tojás > Sajt > Félkemény sajt",505|510|512,True,False,y,19,0
+415,517,Grill sajtok,grill-sajtok,510,3,"Tejtermék, tojás > Sajt > Grill sajtok",505|510|517,True,False,y,9,0
+416,511,Kemény sajt,kemeny-sajt,510,3,"Tejtermék, tojás > Sajt > Kemény sajt",505|510|511,True,False,y,13,0
+417,516,Különleges sajt (delete),kulonleges-sajt-delete-,510,3,"Tejtermék, tojás > Sajt > Különleges sajt (delete)",505|510|516,True,False,n,0,0
+418,1203,Lapka sajtok,lapka-sajtok,510,3,"Tejtermék, tojás > Sajt > Lapka sajtok",505|510|1203,True,False,y,0,0
+419,515,Lágy sajt,lagy-sajt,510,3,"Tejtermék, tojás > Sajt > Lágy sajt",505|510|515,True,False,y,26,0
+420,951,Mascarpone,mascarpone,510,3,"Tejtermék, tojás > Sajt > Mascarpone",505|510|951,True,False,y,0,0
+421,967,Reszelt sajt,reszelt-sajt,510,3,"Tejtermék, tojás > Sajt > Reszelt sajt",505|510|967,True,False,y,5,0
+422,986,Sajt próba (delete),sajt-proba-delete-,510,3,"Tejtermék, tojás > Sajt > Sajt próba (delete)",505|510|986,True,False,n,0,0
+423,984,Sajthelyettesítő,sajthelyettesito,510,3,"Tejtermék, tojás > Sajt > Sajthelyettesítő",505|510|984,True,False,y,0,0
+424,968,Snack sajtok,snack-sajtok,510,3,"Tejtermék, tojás > Sajt > Snack sajtok",505|510|968,True,False,y,0,0
+425,513,Szeletelt sajt,szeletelt-sajt,510,3,"Tejtermék, tojás > Sajt > Szeletelt sajt",505|510|513,True,False,y,33,0
+426,982,Tofu (delete),tofu-delete-,510,3,"Tejtermék, tojás > Sajt > Tofu (delete)",505|510|982,True,False,n,0,0
+427,957,Ömlesztett sajt,omlesztett-sajt,510,3,"Tejtermék, tojás > Sajt > Ömlesztett sajt",505|510|957,True,False,y,11,0
+428,507,Friss tej,friss-tej,506,3,"Tejtermék, tojás > Tej > Friss tej",505|506|507,True,False,y,5,0
+429,900,Növényi tej (delete),novenyi-tej-delete-,506,3,"Tejtermék, tojás > Tej > Növényi tej (delete)",505|506|900,True,False,n,0,0
+430,508,Tartós tej,tartos-tej,506,3,"Tejtermék, tojás > Tej > Tartós tej",505|506|508,True,False,y,8,0
+431,509,"Tejital, jegeskávé",tejitla-jegeskave,506,3,"Tejtermék, tojás > Tej > Tejital, jegeskávé",505|506|509,True,False,y,25,0
+432,991,12 százalékos,12-szazalekos,518,3,"Tejtermék, tojás > Tejföl > 12 százalékos",505|518|991,True,False,y,4,0
+433,992,20 százalékos,20-szazalekos,518,3,"Tejtermék, tojás > Tejföl > 20 százalékos",505|518|992,True,False,y,4,0
+434,993,Egyéb,egyeb,518,3,"Tejtermék, tojás > Tejföl > Egyéb",505|518|993,True,False,y,1,0
+435,1000,"Főzőtejszín, főzőkrém",fozotejszin-fozokrem,525,3,"Tejtermék, tojás > Tejszín > Főzőtejszín, főzőkrém",505|525|1000,True,False,y,5,0
+436,1002,Habspray,habspray,525,3,"Tejtermék, tojás > Tejszín > Habspray",505|525|1002,True,False,y,3,0
+437,1001,"Habtejszín, habalap",habtejszin,525,3,"Tejtermék, tojás > Tejszín > Habtejszín, habalap",505|525|1001,True,False,y,2,0
+438,1003,"Kávétejszín, sűrített tej",kavetejszin-suritett-tej,525,3,"Tejtermék, tojás > Tejszín > Kávétejszín, sűrített tej",505|525|1003,True,False,y,3,0
+439,1049,10 db-os,10-db-os,530,3,"Tejtermék, tojás > Tojás > 10 db-os",505|530|1049,True,False,y,5,0
+440,1050,15-30 db-os,15-30-db-os,530,3,"Tejtermék, tojás > Tojás > 15-30 db-os",505|530|1050,True,False,y,3,0
+441,1048,6 db-os,6-db-os,530,3,"Tejtermék, tojás > Tojás > 6 db-os",505|530|1048,True,False,y,1,0
+442,998,Egyéb túró,egyeb-turo,524,3,"Tejtermék, tojás > Túró, körözött > Egyéb túró",505|524|998,True,False,y,3,0
+443,999,Körözött,korozott,524,3,"Tejtermék, tojás > Túró, körözött > Körözött",505|524|999,True,False,y,4,0
+444,997,Tehéntúró,tehenturo,524,3,"Tejtermék, tojás > Túró, körözött > Tehéntúró",505|524|997,True,False,y,7,0
+445,879,Sajtkrém,sajtkrem,529,3,"Tejtermék, tojás > Vaj, sajtkrém > Sajtkrém",505|529|879,True,False,y,18,0
+446,964,Szendvicskrém,szendvicskrem,529,3,"Tejtermék, tojás > Vaj, sajtkrém > Szendvicskrém",505|529|964,True,False,y,11,0
+447,878,Vaj,vaj-vajkrem2,529,3,"Tejtermék, tojás > Vaj, sajtkrém > Vaj",505|529|878,True,False,y,7,0
+448,1008,Vajkrém,vajkrem,529,3,"Tejtermék, tojás > Vaj, sajtkrém > Vajkrém",505|529|1008,True,False,y,3,0
+449,1241,"Felvágott, kolbász, virsli",felvagott-kolbasz-virsli,1236,3,"Vegetáriánus & vegán > Húshelyettesítők > Felvágott, kolbász, virsli",1234|1236|1241,True,False,y,1,0
+450,1242,Készétel,keszetel,1236,3,Vegetáriánus & vegán > Húshelyettesítők > Készétel,1234|1236|1242,True,False,y,3,0
+451,1238,"Növényi joghurt, krém",novenyi-joghurt-krem,1235,3,"Vegetáriánus & vegán > Növényi termékek > Növényi joghurt, krém",1234|1235|1238,True,False,y,13,0
+452,1239,Növényi sajt,novenyi-sajt,1235,3,Vegetáriánus & vegán > Növényi termékek > Növényi sajt,1234|1235|1239,True,False,y,4,0
+453,1237,Növényi tej,novenyi-tej,1235,3,Vegetáriánus & vegán > Növényi termékek > Növényi tej,1234|1235|1237,True,False,y,11,0
+454,1240,"Növényi zsír, margarin",novenyi-zsir-margarin,1235,3,"Vegetáriánus & vegán > Növényi termékek > Növényi zsír, margarin",1234|1235|1240,True,False,y,0,0
+455,1052,Alma és körte,alma-es-korte,542,3,"Zöldség, gyümölcs > Gyümölcs > Alma és körte",541|542|1052,True,False,y,10,0
+456,1053,Citrusfélék és kiwi,citrusfelek-es-kiwi,542,3,"Zöldség, gyümölcs > Gyümölcs > Citrusfélék és kiwi",541|542|1053,True,False,y,5,0
+457,1051,Déligyümölcs,deligyumolcs,542,3,"Zöldség, gyümölcs > Gyümölcs > Déligyümölcs",541|542|1051,True,False,y,8,0
+458,1055,Szezonális gyümölcsök,szezonalis-gyumolcsok,542,3,"Zöldség, gyümölcs > Gyümölcs > Szezonális gyümölcsök",541|542|1055,True,False,y,9,0
+459,1054,Szőlő és bogyós gyümölcs,szolo-es-bogyos-gyumolcs,542,3,"Zöldség, gyümölcs > Gyümölcs > Szőlő és bogyós gyümölcs",541|542|1054,True,False,y,9,0
+460,1264,"Mag-mix, diákcsemege",mag-mix-diakcsemege,547,3,"Zöldség, gyümölcs > Magvak > Mag-mix, diákcsemege",541|547|1264,True,False,y,0,0
+461,1262,Natúr magvak,natur-magvak,547,3,"Zöldség, gyümölcs > Magvak > Natúr magvak",541|547|1262,True,False,y,2,0
+462,1061,"Brokkoli, káposzta, karfiol",brokkoli-kaposzta-karfiol,545,3,"Zöldség, gyümölcs > Zöldség > Brokkoli, káposzta, karfiol",541|545|1061,True,False,y,5,0
+463,1059,Burgonyafélék,burgonyafelek,545,3,"Zöldség, gyümölcs > Zöldség > Burgonyafélék",541|545|1059,True,False,y,6,0
+464,1062,"Cukkini, padlizsán, tökféle",cukkini-padlizsan-tokfele,545,3,"Zöldség, gyümölcs > Zöldség > Cukkini, padlizsán, tökféle",541|545|1062,True,False,y,3,0
+465,1060,Gomba,gomba,545,3,"Zöldség, gyümölcs > Zöldség > Gomba",541|545|1060,True,False,y,3,0
+466,1058,"Hagyma, fokhagyma",hagyma-fokhagyma,545,3,"Zöldség, gyümölcs > Zöldség > Hagyma, fokhagyma",541|545|1058,True,False,y,10,0
+467,1251,Hüvelyesek,huvelyesek,545,3,"Zöldség, gyümölcs > Zöldség > Hüvelyesek",541|545|1251,True,False,y,0,0
+468,1057,Leveszöldség,leveszoldseg,545,3,"Zöldség, gyümölcs > Zöldség > Leveszöldség",541|545|1057,True,False,y,9,0
+469,1056,"Paradicsom, paprika, uborka",paradicsom-paprika-uborka,545,3,"Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka",541|545|1056,True,False,y,23,0
+470,1063,"Retekfélék, torma",retekfelek-torma,545,3,"Zöldség, gyümölcs > Zöldség > Retekfélék, torma",541|545|1063,True,False,y,5,0
+471,1100,Szezonális zöldségek (delete),szezonalis-zoldsegek-delete-,545,3,"Zöldség, gyümölcs > Zöldség > Szezonális zöldségek (delete)",541|545|1100,True,False,n,0,0
+472,1031,Alutálcás,alutalcas,605,3,Állateledel és felszerelés > Kutyaeledel > Alutálcás,604|605|1031,True,False,y,10,0
+473,606,Eledel (delete),eledel-delete-,605,3,Állateledel és felszerelés > Kutyaeledel > Eledel (delete),604|605|606,True,False,n,0,0
+474,607,Jutalomfalatok,jutalomfalatok,605,3,Állateledel és felszerelés > Kutyaeledel > Jutalomfalatok,604|605|607,True,False,y,6,0
+475,1030,Konzerv,konzerv,605,3,Állateledel és felszerelés > Kutyaeledel > Konzerv,604|605|1030,True,False,y,11,0
+476,1029,Száraztáp,szaraztap,605,3,Állateledel és felszerelés > Kutyaeledel > Száraztáp,604|605|1029,True,False,y,7,0
+477,1034,Alutálcás,alutalcas-2,608,3,Állateledel és felszerelés > Macskaeledel > Alutálcás,604|608|1034,True,False,y,17,0
+478,609,Eledel (delete),eledel-delete-,608,3,Állateledel és felszerelés > Macskaeledel > Eledel (delete),604|608|609,True,False,n,0,0
+479,610,Jutalomfalatok,jutalomfalatok2,608,3,Állateledel és felszerelés > Macskaeledel > Jutalomfalatok,604|608|610,True,False,y,6,0
+480,1033,Konzerv,konzerv-2,608,3,Állateledel és felszerelés > Macskaeledel > Konzerv,604|608|1033,True,False,y,12,0
+481,1032,Száraztáp,szaraztap-2,608,3,Állateledel és felszerelés > Macskaeledel > Száraztáp,604|608|1032,True,False,y,8,0

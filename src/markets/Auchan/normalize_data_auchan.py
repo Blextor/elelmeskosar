@@ -7,6 +7,8 @@ import re
 from typing import Optional, Tuple
 
 
+csv.field_size_limit(1024 * 1024 * 1024)
+
 MAIN_FOLDER = "./../../../data/markets_data/"
 
 

@@ -7,6 +7,8 @@ import re
 from typing import Optional, Tuple
 
 
+csv.field_size_limit(1024 * 1024 * 1024)
+
 MAIN_FOLDER = "./../../../data/markets_data/"
 
 
@@ -45,6 +47,8 @@ price_tier_fields = [
     "product_unit_step",
     "product_unit_type",
     "tier_label",
+    "tier_valid_from",
+    "tier_valid_to",
     "tier_source",
 ]
 
@@ -398,6 +402,27 @@ def availability(row):
     return True
 
 
+def dnr_validity(row, summary):
+    valid_from = clean_text(summary.get("start"))
+    valid_to = clean_text(summary.get("end"))
+    if valid_from or valid_to:
+        return valid_from, valid_to
+
+    # A summaryDnrInfo-ban a start/end gyakran ures, a reszletes dnrInfo
+    # bejegyzesekben viszont kitoltott - nev alapjan parositunk.
+    dnr_info = parse_structured(row.get("price.dnrInfo"))
+    if not isinstance(dnr_info, dict):
+        return "", ""
+    entries = [entry for entry in dnr_info.values() if isinstance(entry, dict)]
+    summary_name = clean_text(summary.get("name"))
+    matching = [entry for entry in entries if clean_text(entry.get("name")) == summary_name]
+    if not matching and len(entries) == 1:
+        matching = entries
+    if not matching:
+        return "", ""
+    return clean_text(matching[0].get("start")), clean_text(matching[0].get("end"))
+
+
 def price_tier_rows(row, unit_step, unit_type):
     summary = parse_structured(row.get("price.summaryDnrInfo"))
     if not isinstance(summary, dict):
@@ -408,6 +433,7 @@ def price_tier_rows(row, unit_step, unit_type):
         return []
 
     label = clean_text(summary.get("customerLabel") or summary.get("name"))
+    valid_from, valid_to = dnr_validity(row, summary)
     tiers = []
     for level_key, level in levels.items():
         if not isinstance(level, dict):
@@ -440,6 +466,8 @@ def price_tier_rows(row, unit_step, unit_type):
                 "product_unit_step": round(float(unit_step), 3) if unit_step is not None else "",
                 "product_unit_type": unit_type or "",
                 "tier_label": label,
+                "tier_valid_from": valid_from,
+                "tier_valid_to": valid_to,
                 "tier_source": "price.summaryDnrInfo",
             }
         )
@@ -523,4 +551,8 @@ if has_price_tier_source:
     print(f"{cnt_price_tiers} Metro mennyisegi arsav sor")
     print(f"Metro mennyisegi arsav fajl mentve ide: {price_tiers_file_name}")
 else:
-    print("A bemeneti fajl nem tartalmaz price.summaryDnrInfo mezot, ezert nem keszult uj mennyisegi arsav fajl.")
+    print("=" * 72)
+    print("FIGYELEM: a bemeneti fajl nem tartalmaz price.summaryDnrInfo mezot,")
+    print("ezert NEM keszult uj mennyisegi arsav (price_tiers) fajl!")
+    print("A korabbi arsav fajl elavulhat - ellenorizd a letoltest (get_all_data_metro.py).")
+    print("=" * 72)

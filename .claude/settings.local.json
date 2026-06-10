@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -m py_compile src/markets/Spar/normalize_data_spar.py src/markets/Prima/normalize_data_prima.py src/markets/Tesco/normalize_data_tesco.py src/markets/build_promotions.py src/markets/Penny/get_all_data_penny.py src/markets/Penny/normalize_data_penny.py src/markets/Penny/validate_data_penny.py src/markets/Penny/main_penny.py src/markets/Lidl/get_all_data_lidl.py src/markets/Lidl/normalize_data_lidl.py src/markets/Coop/normalize_data_coop.py src/markets/Auchan/normalize_data_auchan.py src/markets/Metro/normalize_data_metro.py src/markets/Metro/get_product_facts_metro.py)",
+      "Bash(/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe -X utf8 -c ' *)",
+      "Bash(git check-ignore *)",
+      "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -m py_compile src/markets/Metro/normalize_data_metro.py src/markets/build_promotions.py)",
+      "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -X utf8 main_metro.py)",
+      "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -X utf8 normalize_data_metro.py)",
+      "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -X utf8 src/markets/build_promotions.py)"
+    ]
+  }
+}

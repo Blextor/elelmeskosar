@@ -7,6 +7,8 @@ import re
 from typing import Optional, Tuple
 
 
+csv.field_size_limit(1024 * 1024 * 1024)
+
 MAIN_FOLDER = "./../../../data/markets_data/"
 
 
@@ -275,6 +277,15 @@ def original_price_for_step(row, unit_price, unit_step, unit_type):
     measure = clean_text(row.get("price.unitOfMeasure")).lower()
 
     if after is not None and actual is not None and abs(after - actual) < 0.01:
+        # Kimert (catch-weight) arunal a price.actual es a promocios before/after
+        # kg/l alapu, a unit_price viszont a kivalasztott kiszereles ara, ezert
+        # az eredeti arat at kell skalazni a kiszerelesre.
+        weight_priced = base_price is not None and abs(actual - base_price) < 0.01
+        if weight_priced and unit_step:
+            if measure in {"kg", "kilogram", "kilograms"} and unit_type == "g":
+                return round(before * unit_step / 1000, 3)
+            if measure in {"l", "litre", "liter", "litres", "liters"} and unit_type == "ml":
+                return round(before * unit_step / 1000, 3)
         return before
 
     if after is not None and base_price is not None and abs(after - base_price) < 0.01:

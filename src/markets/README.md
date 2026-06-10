@@ -20,6 +20,8 @@ felépítésű `*_normalized_data_*.csv` fájlokba kerüljenek.
   adatfolyam.
 - `Lidl/`: Lidl saját search API alapú, `Étel & ital` kategóriából induló
   adatfolyam.
+- `Penny/`: Penny/Roksh shopservice API alapú adatfolyam.
+- `Aldi/`: Aldi/Roksh shopservice API alapú adatfolyam.
 
 ## Közös feldolgozók
 

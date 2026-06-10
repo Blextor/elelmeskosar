@@ -9,6 +9,8 @@ from typing import Optional, Tuple
 from urllib.parse import urljoin
 
 
+csv.field_size_limit(1024 * 1024 * 1024)
+
 MAIN_FOLDER = "./../../../data/markets_data/"
 MARKET_NAME = "lidl"
 BASE_URL = "https://www.lidl.hu"

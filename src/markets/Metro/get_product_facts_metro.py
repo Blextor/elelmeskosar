@@ -13,6 +13,8 @@ from urllib.parse import quote
 import requests
 
 
+csv.field_size_limit(1024 * 1024 * 1024)
+
 MAIN_FOLDER = "./../../../data/markets_data/"
 DEFAULT_CACHE_DIR = "./../../../data/markets_data/metro_product_facts_pdfs"
 DEFAULT_PDF_URL_TEMPLATE = "https://cdn.metro-group.com/hu/hu_fir_{display_id}_hu.pdf"

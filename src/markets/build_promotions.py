@@ -10,6 +10,8 @@ from datetime import datetime
 from pathlib import Path
 
 
+csv.field_size_limit(1024 * 1024 * 1024)
+
 PROMOTION_FIELDS = [
     "promotion_id",
     "promotion_group_id",
@@ -464,10 +466,30 @@ def parse_auchan_promotions(markets_dir, records):
         )
 
 
-def parse_metro_tier_promotions(markets_dir, records):
+def file_date(path):
+    match = re.search(r"_(\d{8}_\d{6})\.csv$", path.name)
+    return match.group(1) if match else ""
+
+
+def parse_metro_tier_promotions(markets_dir, records, normalized_files):
     path = latest_file(markets_dir, "metro_price_tiers_*.csv")
     if path is None:
         return
+
+    # Ha az arsav fajl nem ugyanabbol a futasbol szarmazik, mint a legfrissebb
+    # Metro normalizalt fajl, akkor elavult arakat parositanank - inkabb kimarad.
+    metro_normalized = normalized_files.get("metro")
+    if metro_normalized is not None:
+        tiers_date = file_date(path)
+        normalized_date = file_date(metro_normalized)
+        if tiers_date and normalized_date and tiers_date != normalized_date:
+            print("=" * 72)
+            print(f"FIGYELEM: a Metro arsav fajl ({path.name}) datuma nem egyezik")
+            print(f"a legfrissebb Metro normalizalt fajleval ({metro_normalized.name}).")
+            print("Az elavult mennyisegi arsavok kimaradnak a promocios tablabol!")
+            print("Futtasd ujra a Metro letoltest es normalizalast a frissiteshez.")
+            print("=" * 72)
+            return
 
     for row in read_csv(path):
         discount_value = to_float(row.get("tier_discount_value"))
@@ -501,6 +523,8 @@ def parse_metro_tier_promotions(markets_dir, records):
                 "tier_net_price": compact_number(row.get("tier_final_net_price")),
                 "tier_base_unit_price": compact_number(row.get("tier_base_unit_price")),
                 "tier_base_unit": clean_text(row.get("tier_base_unit")),
+                "valid_from": clean_text(row.get("tier_valid_from")),
+                "valid_to": clean_text(row.get("tier_valid_to")),
                 "raw_data": json_dump(row),
             },
         )
@@ -523,6 +547,30 @@ def parse_normalized_fallback_promotions(normalized_files, records):
             original_price = compact_number(row.get("original_unit_price"))
             discounted_price = compact_number(row.get("unit_price"))
             if not original_price or not discounted_price:
+                # Az akcios jelzes eredeti ar nelkul is keruljon be, kulonben a
+                # csak flaggel jelolt akciok (pl. Penny/Roksh, Metro) elvesznek.
+                if not discounted_price:
+                    continue
+                add_record(
+                    records,
+                    {
+                        "store_name": store_name,
+                        "store_product_id": store_product_id,
+                        "product_name": clean_text(row.get("product_name")),
+                        "promotion_type": "discount_flag_only",
+                        "required_program": "none",
+                        "source": "normalized.is_discounted",
+                        "label": "Akciós jelölés eredeti ár nélkül",
+                        "discounted_price": discounted_price,
+                        "raw_data": json_dump(
+                            {
+                                "unit_price": row.get("unit_price"),
+                                "original_unit_price": row.get("original_unit_price"),
+                                "is_discounted": row.get("is_discounted"),
+                            }
+                        ),
+                    },
+                )
                 continue
 
             discount_percent = ""
@@ -617,7 +665,7 @@ def main():
     records = []
     parse_tesco_promotions(markets_dir, records)
     parse_auchan_promotions(markets_dir, records)
-    parse_metro_tier_promotions(markets_dir, records)
+    parse_metro_tier_promotions(markets_dir, records, normalized_files)
     parse_normalized_fallback_promotions(normalized_files, records)
 
     records.sort(key=lambda row: (row["store_name"], row["store_product_id"], row["promotion_group_id"], row["promotion_id"]))

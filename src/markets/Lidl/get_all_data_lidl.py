@@ -155,6 +155,10 @@ def collect_products(session, args):
             print(f"Lidl keresési oldal hiba: offset={offset} - {error}", flush=True)
             if not args.allow_partial_download:
                 raise
+            if num_found is None:
+                # Az első sikeres válasz előtt nem ismert a találatszám, ilyenkor
+                # a további próbálkozás végtelen ciklushoz vezetne.
+                break
             offset += args.fetch_size
             page_index += 1
 
@@ -259,6 +263,8 @@ def save_products(products):
 
 
 def save_failures(failed_pages):
+    if not failed_pages:
+        return None
     output_file = generate_filename("failed_requests")
     pd.DataFrame(failed_pages).to_csv(output_file, index=False)
     return output_file
@@ -300,7 +306,10 @@ def main():
     print(f"Kereső numFound: {num_found}")
     print(f"Egyedi termékek: {len(products)}")
     print(f"Kategóriaútvonalak: {len(categories)}")
-    print(f"Sikertelen oldalak: {len(failed_pages)} ({failed_file})")
+    if failed_file:
+        print(f"Sikertelen oldalak: {len(failed_pages)} ({failed_file})")
+    else:
+        print("Sikertelen oldalak: 0")
 
     if failed_pages and not args.allow_partial_download:
         raise RuntimeError(f"{len(failed_pages)} Lidl oldal letöltése sikertelen volt.")

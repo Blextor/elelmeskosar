@@ -5,6 +5,8 @@ import glob
 from datetime import datetime
 import re
 
+csv.field_size_limit(1024 * 1024 * 1024)
+
 MAIN_FOLDER = "./../../../data/markets_data/"
 def get_current_dir_name():
     return os.path.basename(os.getcwd()).lower()
@@ -332,12 +334,12 @@ with open(input_file_name, mode='r', encoding='utf-8') as infile, \
                 original_price = int(float(eredeti_ar)) / 100
         elif not egyedi_kilos_ar == "":
             unit_price = int(float(egyedi_kilos_ar))*float(egyedi_lepeskoz)/1000/100
-            if len(eredeti_ar) > 0:
+            if len(eredeti_ar) > 0 and len(eredeti_egyseg_ar) > 0:
                 original_price = int(float(eredeti_egyseg_ar))*float(egyedi_lepeskoz)/1000/100
         elif not unit_ar == "":
             print(nev)
             if egyseg == "kilogram":
-                unit_price = unit_ar*1.0/float(lepeskoz)
+                unit_price = float(unit_ar)/float(lepeskoz)/100
         else:
             unit_price = int(float(ar)) / 100
             if len(eredeti_ar) > 0:
@@ -356,9 +358,9 @@ with open(input_file_name, mode='r', encoding='utf-8') as infile, \
         unit_type = vegleges_kiszereles_1[1]
         unit_step = vegleges_kiszereles_1[0]
         #print(eredeti_ar, print(len(eredeti_ar)))
-        is_discounted = True if len(eredeti_ar) > 0 else False
+        is_discounted = original_price != ""
         #print(nev)
-        original_unit_price = float(eredeti_ar) if is_discounted else None
+        original_unit_price = original_price if is_discounted else None
         secondary_unit_price = None
         secondary_unit_type = vegleges_kiszereles_2[1]
         secondary_unit_step = vegleges_kiszereles_2[0]
