@@ -14,6 +14,14 @@ felépítésű `*_normalized_data_*.csv` fájlokba kerüljenek.
 - `Prima/`: Príma/Wolt API alapú adatfolyam.
 - `Tesco/`: Tesco saját GraphQL/API alapú adatfolyam.
 - `Auchan/`: Auchan saját Nuxt/REST API alapú adatfolyam.
+- `Metro/`: Metro saját search/evaluate API alapú, élelmiszerre szűrt
+  adatfolyam.
+
+## Közös feldolgozók
+
+- `build_promotions.py`: a legfrissebb bolti normalizált és promóciós forrás
+  CSV-kből közös `promotions_*.csv` táblát és promócióhivatkozással bővített
+  `offers_with_promotions_*.csv` ajánlattáblát épít.
 
 ## Közös kimeneti séma
 
@@ -24,3 +32,12 @@ A normalizált bolti CSV-k 18 oszlopos közös sémát használnak:
 `is_discounted`, `original_unit_price`, `secondary_unit_price`,
 `secondary_unit_type`, `secondary_unit_step`, `image_urls`, `description`,
 `categories`.
+
+Az akciók részletesebb kezeléséhez a normalizált sorokban lévő
+`is_discounted` és `original_unit_price` csak alap jelzés. A többféle
+kedvezménytípus, hűségprogram és mennyiségi ársáv a külön `promotions_*.csv`
+táblába kerül:
+
+```powershell
+python src\markets\build_promotions.py
+```
