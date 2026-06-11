@@ -1,9 +1,11 @@
 import argparse
 import csv
+import faulthandler
 import glob
 import json
 import os
 import re
+import threading
 import time
 import zlib
 from datetime import datetime
@@ -173,6 +175,10 @@ def parse_cmap(data):
             start = int(source_start, 16)
             end = int(source_end, 16)
             target_start = int(target, 16)
+            # Hibas/serult cmap-ban a tartomany lehet ertelmetlenul nagy, ami
+            # orakig tarto ciklust okozna - a valos cmap-ok 2 bajtosak (<=64k).
+            if end < start or end - start > 0xFFFF:
+                continue
             for offset, source_code in enumerate(range(start, end + 1)):
                 codepoint = target_start + offset
                 mapping[source_code] = chr(codepoint) if codepoint <= 0x10FFFF else ""
@@ -255,7 +261,10 @@ def text_score(value):
     if not value:
         return -1000
 
-    barcode_bonus = 60 if re.fullmatch(r"\d{8,14}", value.strip()) else 0
+    # GTIN-szeru szamcsoportonkent jar bonusz, mert a vonalkod-sorban tobb,
+    # elvalasztoval felsorolt GTIN is lehet - a rossz fonttal dekodolt
+    # betuszemet kulonben tobb pontot kapna, mint a helyes szamsor.
+    barcode_bonus = 60 * len(re.findall(r"(?<!\d)\d{8,14}(?!\d)", value))
     good_chars = sum(
         char.isalnum()
         or char.isspace()
@@ -334,7 +343,7 @@ def extract_pdf_text(pdf_bytes):
             pending_font = None
             pending_hex_values = []
 
-        token_pattern = r"/(F\d+)\s+[\d.]+\s+Tf|\[(.*?)\]\s*TJ|<([0-9A-Fa-f]+)>\s*Tj"
+        token_pattern = r"/(F\d+)\s+[\d.]+\s+Tf|\[([^\]]*)\]\s*TJ|<([0-9A-Fa-f]+)>\s*Tj"
         for match in re.finditer(token_pattern, content, re.S):
             if match.group(1):
                 flush_pending()
@@ -378,9 +387,40 @@ def section_after_label(text, label, stop_labels):
     return normalize_multiline(rest)
 
 
+def gtin_checksum_valid(digits):
+    if len(digits) not in {8, 12, 13, 14}:
+        return False
+    body = digits[:-1]
+    check_digit = int(digits[-1])
+    total = 0
+    for index, digit in enumerate(reversed(body), start=1):
+        total += int(digit) * (3 if index % 2 == 1 else 1)
+    return (10 - (total % 10)) % 10 == check_digit
+
+
+def select_barcode(candidates):
+    valid = [value for value in candidates if gtin_checksum_valid(value)]
+    # A fogyasztoi egyseg jellemzoen EAN-13, de a 2-vel kezdodo EAN-13 a bolti
+    # belso tartomany (a Metro a sajat cikkszamat is igy sorolja fel), ezert az
+    # csak vegso fallback. A 14 jegyu inkabb gyujtokarton.
+    preferred = [value for value in valid if len(value) == 13 and not value.startswith("2")]
+    if preferred:
+        return preferred[0]
+    for length in (8, 12, 14, 13):
+        for value in valid:
+            if len(value) == length:
+                return value
+    if valid:
+        return valid[0]
+    return candidates[0] if candidates else ""
+
+
 def extract_facts_from_text(text):
     text = normalize_multiline(text)
-    barcode_match = re.search(r"(?:GTIN\s*/\s*EAN|GTIN|EAN)\s*:?\s*(\d{8,14})", text, re.I)
+    barcode_section = re.search(r"(?:GTIN\s*/\s*EAN|GTIN|EAN)\s*:?\s*([\d\s.,;/]{8,120})", text, re.I)
+    barcode_candidates = (
+        re.findall(r"(?<!\d)\d{8,14}(?!\d)", barcode_section.group(1)) if barcode_section else []
+    )
 
     ingredients = section_after_label(
         text,
@@ -420,7 +460,7 @@ def extract_facts_from_text(text):
     status_match = re.search(r"Status\s+(\d{2}\.\d{2}\.\d{4})", text)
 
     return {
-        "barcode": barcode_match.group(1) if barcode_match else "",
+        "barcode": select_barcode(barcode_candidates),
         "ingredients": ingredients,
         "nutrition_text": nutrition_text,
         "storage_instructions": storage,
@@ -526,8 +566,28 @@ def parse_args():
     return parser.parse_args()
 
 
+WATCHDOG_PROGRESS = {"index": 0, "display_id": "", "time": time.time()}
+WATCHDOG_STALL_SECONDS = 600
+
+
+def watchdog_loop():
+    while True:
+        time.sleep(60)
+        stalled = time.time() - WATCHDOG_PROGRESS["time"]
+        if stalled > WATCHDOG_STALL_SECONDS:
+            print(
+                f"WATCHDOG: {int(stalled)} masodperce nincs elorelepes a(z) "
+                f"{WATCHDOG_PROGRESS['index']}. sornal (display_id={WATCHDOG_PROGRESS['display_id']}), "
+                "kenyszeritett leallas.",
+                flush=True,
+            )
+            faulthandler.dump_traceback()
+            os._exit(3)
+
+
 def main():
     args = parse_args()
+    threading.Thread(target=watchdog_loop, daemon=True).start()
     input_file, input_date = read_latest_file(args.input_base)
     selected_rows = select_rows(input_file, product_id=args.product_id, display_id=args.display_id, limit=args.limit)
     if not selected_rows:
@@ -550,6 +610,7 @@ def main():
         for index, row in enumerate(selected_rows, start=1):
             counters["all"] += 1
             base_row = output_row_from_source(row)
+            WATCHDOG_PROGRESS.update({"index": index, "display_id": base_row["display_id"], "time": time.time()})
             print(
                 f"Metro PDF adatlap: {index}/{len(selected_rows)} "
                 f"{base_row['display_id']} {base_row['product_name'][:80]}",
@@ -594,6 +655,7 @@ def main():
                     raise
 
             writer.writerow({field: facts.get(field, "") for field in output_fields})
+            outfile.flush()
 
             if args.delay:
                 time.sleep(args.delay)
