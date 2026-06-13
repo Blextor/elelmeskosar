@@ -2,7 +2,6 @@
  "Alapanyag, sütés-főzés": {
   "tulajdonságok": {
    "egyedi": {
-    "márka": [],
     "bio": {},
     "gluténmentes": {},
     "cukormentes": {},
@@ -831,7 +830,6 @@
        "búza",
        "teljes kiőrlésű",
        "rizs",
-       "gluténmentes",
        "tönköly"
       ],
       "alak / forma": [
@@ -1536,7 +1534,6 @@
  "Baba": {
   "tulajdonságok": {
    "egyedi": {
-    "márka": [],
     "bio": {},
     "hozzáadott cukor nélkül": {},
     "gluténmentes": {},
@@ -1548,7 +1545,6 @@
      "flakon",
      "tubus"
     ],
-    "tejalapú": {},
     "hűtött": {}
    },
    "csoportos": {
@@ -1562,14 +1558,6 @@
      "5 hó+",
      "10 hó+",
      "12 hó+"
-    ],
-    "állag": [
-     "püré",
-     "darabos",
-     "ital",
-     "por",
-     "keksz",
-     "puffasztott"
     ]
    }
   },
@@ -1600,6 +1588,11 @@
        "hal",
        "tej",
        "hús nélküli"
+      ],
+      "állag": [
+       "püré",
+       "darabos",
+       "főzelék jellegű"
       ]
      }
     },
@@ -1645,7 +1638,8 @@
     "tulajdonságok": {
      "egyedi": {
       "bio": {},
-      "hozzáadott cukor nélkül": {}
+      "hozzáadott cukor nélkül": {},
+      "tejalapú": {}
      },
      "csoportos": {
       "fő alapanyag": [
@@ -1667,6 +1661,12 @@
        "hal",
        "tej",
        "hús nélküli"
+      ],
+      "állag": [
+       "püré",
+       "darabos",
+       "krémdesszert",
+       "pouch"
       ]
      }
     },
@@ -1704,7 +1704,8 @@
    "Tejpép, gabonapép, kása": {
     "tulajdonságok": {
      "egyedi": {
-      "tejmentes": {}
+      "tejmentes": {},
+      "tejalapú": {}
      },
      "csoportos": {
       "gabona": [
@@ -1722,6 +1723,11 @@
        "alma",
        "barack",
        "erdei gyümölcs"
+      ],
+      "állag": [
+       "por",
+       "kása",
+       "instant"
       ]
      }
     },
@@ -1768,6 +1774,10 @@
        "komfort",
        "szenzitív",
        "laktózmentes"
+      ],
+      "állag": [
+       "por",
+       "folyadék"
       ]
      }
     },
@@ -1822,6 +1832,12 @@
        "barackos",
        "sajtos",
        "zöldséges"
+      ],
+      "állag": [
+       "keksz",
+       "puffasztott",
+       "ropogós",
+       "gyümölcsfalat"
       ]
      }
     },
@@ -1874,6 +1890,10 @@
        "eper",
        "trópusi",
        "sárgarépa"
+      ],
+      "állag": [
+       "ital",
+       "püréital"
       ]
      }
     },
@@ -1913,7 +1933,6 @@
  "Édesség, snack, rágcsálnivaló": {
   "tulajdonságok": {
    "egyedi": {
-    "márka": [],
     "cukormentes / hozzáadott cukor nélkül": {},
     "gluténmentes": {},
     "bio": {}
@@ -2235,8 +2254,7 @@
        "eper",
        "málna",
        "citrom",
-       "trópusi",
-       "savanyú"
+       "trópusi"
       ]
      }
     },
@@ -2463,7 +2481,6 @@
          "Cheetos",
          "Csíki Csipsz",
          "Takis",
-         "Bersi",
          "Metro",
          "Vifon",
          "Auchan",
@@ -2527,11 +2544,6 @@
          "ketchup",
          "jalapeno",
          "chili",
-         "amarnát",
-         "chia mag",
-         "quiona",
-         "köles",
-         "napraforgómag",
          "kínai",
          "steak",
          "ecet",
@@ -2560,7 +2572,11 @@
          "sertés",
          "köles",
          "édesburgonya",
-         "egyéb"
+         "egyéb",
+         "amarnát",
+         "chia mag",
+         "quinoa",
+         "napraforgómag"
         ],
         "kiszerelés / csomagolás": [
          "henger doboz"
@@ -2649,7 +2665,6 @@
          "kömény",
          "szezámmag",
          "bacon",
-         "",
          "egyéb"
         ]
        }
@@ -2670,10 +2685,6 @@
          "Salty",
          "Snack Day",
          "egyéb"
-        ],
-        "készre pattogtatot": {},
-        "csomagolás": [
-         "zsacskó"
         ]
        },
        "csoportos": {
@@ -2719,12 +2730,10 @@
          "Schär",
          "Salty",
          "egyéb"
-        ],
-        "por alapú": {}
+        ]
        },
        "csoportos": {
         "fajta": [
-         "por alapú",
          "retró",
          "fényes",
          "hosszú",
@@ -2834,7 +2843,6 @@
  "Fagyasztott áruk": {
   "tulajdonságok": {
    "egyedi": {
-    "márka": [],
     "bio": {},
     "gluténmentes": {},
     "vegán/növényi": {},
@@ -2858,7 +2866,6 @@
        "tölcséres",
        "szendvics"
       ],
-      "multipack": {},
       "vízijégkrém/sorbet": {},
       "kiszerelés / csomagolás": [
        "dobozos",
@@ -3418,7 +3425,11 @@
     "hazai": {},
     "kiszerelés": [
      "csomagolásban",
-     "lédig"
+     "lédig",
+     "csomagolt",
+     "darabra",
+     "hálós",
+     "tálcás"
     ]
    },
    "csoportos": {
@@ -3504,9 +3515,7 @@
      "csoportos": {
       "fajta / jelleg": [
        "sima",
-       "főzőbanán",
-       "bio",
-       "bandázsolt"
+       "főzőbanán"
       ]
      }
     },
@@ -3563,18 +3572,11 @@
    },
    "Kiwi": {
     "tulajdonságok": {
-     "egyedi": {
-      "kiszerelés": [
-       "csomagolt"
-      ]
-     },
+     "egyedi": {},
      "csoportos": {
       "fajta / jelleg": [
        "zöld",
        "gold"
-      ],
-      "feldolgozottság": [
-       "darabos"
       ]
      }
     },
@@ -3789,12 +3791,12 @@
        "Mangó",
        "Szilva",
        "Szőlő / Mazsola",
-       "Tőzegáfonya",
+       "tőzegáfonya",
        "Vörösáfonya",
        "Egyéb",
        "Mix"
       ],
-      "tartosítás": [
+      "tartósítás": [
        "Chips",
        "Főtt",
        "Kandírozott",
@@ -3809,21 +3811,11 @@
    },
    "Avokádó": {
     "tulajdonságok": {
-     "egyedi": {
-      "kiszerelés": [
-       "csomagolt"
-      ]
-     },
+     "egyedi": {},
      "csoportos": {
       "fajta / jelleg": [
        "hass",
        "zöld"
-      ],
-      "érettség": [
-       "érett"
-      ],
-      "feldolgozottság": [
-       "darabos"
       ]
      }
     },
@@ -3862,10 +3854,7 @@
  "Hús, hal, felvágott": {
   "tulajdonságok": {
    "egyedi": {
-    "márka": [],
     "fagyasztott": {},
-    "füstölt": {},
-    "csípős": {},
     "bio": {},
     "hazai/magyar": {},
     "ízesített/pácolt": {},
@@ -4431,7 +4420,9 @@
    },
    "Szalonna, tepertő, zsiradék": {
     "tulajdonságok": {
-     "egyedi": {},
+     "egyedi": {
+      "füstölt": {}
+     },
      "csoportos": {}
     },
     "altípusok": {
@@ -4469,11 +4460,7 @@
    },
    "Felvágottak, húskészítmény": {
     "tulajdonságok": {
-     "egyedi": {
-      "szeletelt": {},
-      "füstölt": {},
-      "csípős": {}
-     },
+     "egyedi": {},
      "csoportos": {
       "húsfajta": [
        "sertés",
@@ -4983,7 +4970,7 @@
    "Ásványvíz": {
     "tulajdonságok": {
      "egyedi": {
-      "savas": [
+      "szénsavasság": [
        "mentes",
        "enyhén savas",
        "savas",
@@ -4992,7 +4979,7 @@
       ],
       "márka": [
        "Szentkirályi",
-       "Natue aqua",
+       "NaturAqua",
        "SPAR Verde",
        "SPAR Zafír",
        "SPAR Libra",
@@ -5022,7 +5009,7 @@
        "Aqua Oxigén",
        "Primus",
        "Hargita Gyöngye",
-       "San Banedetto",
+       "San Benedetto",
        "Jamnica",
        "Borsec",
        "San Pellegrino",
@@ -5094,7 +5081,7 @@
        "koffein",
        "rehab"
       ],
-      "ízű": [
+      "íz": [
        "sima",
        "mangó",
        "görögdinnye",
@@ -5130,7 +5117,7 @@
    "Ízesített víz": {
     "tulajdonságok": {
      "egyedi": {
-      "savas": [
+      "szénsavasság": [
        "mentes",
        "enyhén savas",
        "savas",
@@ -5271,42 +5258,6 @@
        }
       }
      },
-     "Kávé izesítők / tejek / tejporok": {
-      "tulajdonságok": {
-       "egyedi": {
-        "márka": [
-         "Meggle",
-         "Tesco",
-         "Zott",
-         "Completa",
-         "Milram",
-         "Maresi",
-         "MinusL",
-         "Tutti",
-         "Auchan",
-         "Vegabond",
-         "Hochwald",
-         "Spar",
-         "Milsani",
-         "egyéb"
-        ],
-        "fajta": [
-         "kávétejszín",
-         "krémpor / tejpor",
-         "kávétej",
-         "egyéb"
-        ],
-        "típus": [
-         "granulátum / por"
-        ],
-        "kiszerelés / rendszer": [
-         "tasakos / párnás",
-         "kapszula"
-        ]
-       },
-       "csoportos": {}
-      }
-     },
      "Őrölt, szemes kávé": {
       "tulajdonságok": {
        "egyedi": {
@@ -5386,7 +5337,7 @@
          "Ekland",
          "Loyd",
          "Saga",
-         " Milford",
+         "Milford",
          "Mokate",
          "Dilmah",
          "Vifon",
@@ -5444,19 +5395,19 @@
          "körömvirág",
          "homoktövis",
          "vanília",
-         "muétivitamin",
+         "multivitamin",
          "mandula",
          "gránátalma",
          "barack",
          "szeder",
-         "Tőzegáfonya",
+         "tőzegáfonya",
          "grapefruit",
          "hibiszkusz",
          "maracuja",
          "körte",
          "lándzsás útifű",
          "English Breakfast",
-         "Earl Gray",
+         "Earl Grey",
          "Oolong",
          "egyéb"
         ]
@@ -5510,6 +5461,42 @@
          "kapszula"
         ]
        }
+      }
+     },
+     "Kávé ízesítők / tejek / tejporok": {
+      "tulajdonságok": {
+       "egyedi": {
+        "márka": [
+         "Meggle",
+         "Tesco",
+         "Zott",
+         "Completa",
+         "Milram",
+         "Maresi",
+         "MinusL",
+         "Tutti",
+         "Auchan",
+         "Vegabond",
+         "Hochwald",
+         "Spar",
+         "Milsani",
+         "egyéb"
+        ],
+        "fajta": [
+         "kávétejszín",
+         "krémpor / tejpor",
+         "kávétej",
+         "egyéb"
+        ],
+        "típus": [
+         "granulátum / por"
+        ],
+        "kiszerelés / rendszer": [
+         "tasakos / párnás",
+         "kapszula"
+        ]
+       },
+       "csoportos": {}
       }
      }
     }
@@ -5607,7 +5594,7 @@
        "Törley",
        "Natara",
        "Martini",
-       "Moinetto",
+       "Mionetto",
        "Laposa",
        "Cinzano",
        "Kreinbacher",
@@ -5635,7 +5622,7 @@
        "Süsü",
        "Tini",
        "Sharky",
-       "Saumur ",
+       "Saumur",
        "Crémant d'alsace",
        "Cuvée Agnes",
        "Vollereaux",
@@ -5645,7 +5632,6 @@
        "Bottega",
        "Menolia",
        "Blue Nun",
-       "Mionetto",
        "Gancia",
        "Pere Ventura",
        "Juve & Camps",
@@ -5669,7 +5655,7 @@
        "extra édes",
        "egyéb"
       ],
-      "alkoholos": [
+      "alkoholtartalom": [
        "alkoholos",
        "alkoholmentes",
        "kölyökpezsgő"
@@ -5858,7 +5844,8 @@
      "Gin": {
       "tulajdonságok": {
        "egyedi": {
-        "Márka": [
+        "gyümölcsös": {},
+        "márka": [
          "Mandaley",
          "Johnsen",
          "Bombay",
@@ -5885,7 +5872,6 @@
          "Edinburgh",
          "Citadelle",
          "Criminal",
-         "Malfy",
          "Harahorn",
          "Búzavirág",
          "Caorunn",
@@ -5903,8 +5889,7 @@
          "Ukiyo",
          "The Foxtale",
          "egyéb"
-        ],
-        "gyümölcsös": {}
+        ]
        },
        "csoportos": {}
       }
@@ -5942,7 +5927,6 @@
          "The Kraken",
          "Pyrat",
          "Brugal",
-         "Zacapa",
          "egyéb"
         ],
         "fajta": [
@@ -6285,7 +6269,7 @@
        "porter",
        "lambic"
       ],
-      "iz": [
+      "íz": [
        "sima",
        "citrom",
        "lime",
@@ -6313,10 +6297,14 @@
        "Strongbow",
        "Kopparberg",
        "egyéb"
+      ],
+      "alkoholtartalom": [
+       "alkoholos",
+       "alkoholmentes"
       ]
      },
      "csoportos": {
-      "iz": [
+      "íz": [
        "alma",
        "szeder",
        "görögdinnye",
@@ -6328,10 +6316,6 @@
        "körte",
        "passionfruit",
        "egyéb"
-      ],
-      "alkoholos": [
-       "alkoholos",
-       "alkoholmentes"
       ]
      }
     }
@@ -6362,7 +6346,7 @@
        "magnézium",
        "kollagén"
       ],
-      "ízű": [
+      "íz": [
        "ananász",
        "mangó",
        "citrom",
@@ -6407,7 +6391,7 @@
        "40%",
        "50%",
        "100%",
-       "egyéb/?"
+       "egyéb"
       ]
      },
      "csoportos": {}
@@ -6442,7 +6426,7 @@
       "por": {}
      },
      "csoportos": {
-      "iz": [
+      "íz": [
        "málna",
        "mangó",
        "eper",
@@ -6487,7 +6471,6 @@
          "Tesco",
          "Arizona",
          "OMG Bubble tea",
-         "San Benedetto",
          "Sconto Ice Tea",
          "Bobble Bobble Bob",
          "Auchan",
@@ -6498,7 +6481,7 @@
         ]
        },
        "csoportos": {
-        "izű": [
+        "íz": [
          "citrom",
          "barack",
          "zöld tea",
@@ -6694,15 +6677,12 @@
  "Készétel": {
   "tulajdonságok": {
    "egyedi": {
-    "hűtött": {},
     "fagyasztott": {},
-    "mikrohullámú sütőben elkészíthető": {},
     "vegán": {},
     "vegetáriánus": {},
     "gluténmentes": {},
     "laktózmentes": {},
     "csípős": {},
-    "márka": [],
     "csomagolás": [
      "tálca",
      "doboz",
@@ -6710,8 +6690,7 @@
      "üveg",
      "konzerv",
      "pohár"
-    ],
-    "azonnal fogyasztható": {}
+    ]
    },
    "csoportos": {
     "konyha / stílus": [
@@ -6807,8 +6786,7 @@
        "gombás",
        "margarita",
        "négysajtos",
-       "hawaii",
-       "vegetáriánus"
+       "hawaii"
       ],
       "alap / forma": [
        "pizza",
@@ -6960,13 +6938,10 @@
  "Mentes, speciális": {
   "tulajdonságok": {
    "egyedi": {
-    "márka": [],
     "bio": {},
     "gluténmentes": {},
     "laktózmentes": {},
     "vegán": {},
-    "paleo": {},
-    "protein / magas fehérje": {},
     "cukormentes / hozzáadott cukor nélkül": {}
    },
    "csoportos": {
@@ -6991,16 +6966,6 @@
      "szukralóz",
      "édesítőszerrel",
      "hozzáadott cukor nélkül"
-    ],
-    "alap / fehérjeforrás": [
-     "szója",
-     "zab",
-     "mandula",
-     "rizs",
-     "kókusz",
-     "borsófehérje",
-     "tejsavófehérje",
-     "magliszt"
     ]
    }
   },
@@ -7242,7 +7207,9 @@
    },
    "Paleo": {
     "tulajdonságok": {
-     "egyedi": {},
+     "egyedi": {
+      "paleo": {}
+     },
      "csoportos": {
       "terméktípus": [
        "Paleo liszt, sütőkeverék",
@@ -7285,7 +7252,9 @@
    },
    "Protein termék": {
     "tulajdonságok": {
-     "egyedi": {},
+     "egyedi": {
+      "protein / magas fehérje": {}
+     },
      "csoportos": {
       "terméktípus": [
        "Fehérjeszelet",
@@ -7300,6 +7269,14 @@
        "20 g/adag+",
        "20%+",
        "30%+"
+      ],
+      "fehérjeforrás": [
+       "tejsavófehérje",
+       "kollagén",
+       "szója",
+       "borsófehérje",
+       "tejfehérje",
+       "magfehérje"
       ]
      }
     },
@@ -7362,6 +7339,16 @@
        "borsófehérje",
        "csicseriborsó",
        "zöldség"
+      ],
+      "alap / fehérjeforrás": [
+       "szója",
+       "zab",
+       "mandula",
+       "rizs",
+       "kókusz",
+       "borsófehérje",
+       "csicseriborsó",
+       "zöldség"
       ]
      }
     },
@@ -7413,7 +7400,6 @@
    "Étrend-kiegészítő, vitamin": {
     "tulajdonságok": {
      "egyedi": {
-      "cukormentes": {},
       "vegán": {},
       "retard / elnyújtott felszívódás": {},
       "gyerekeknek": {},
@@ -7482,6 +7468,15 @@
       ],
       "beviteli forma": [
        "ampullás"
+      ],
+      "terméktípus": [
+       "vitamin",
+       "multivitamin",
+       "ásványi anyag",
+       "étrend-kiegészítő",
+       "sport kiegészítő",
+       "gyerek vitamin",
+       "gyógynövényes készítmény"
       ]
      }
     },
@@ -7878,7 +7873,7 @@
     "tejszínes": {},
     "csokoládés": {},
     "gyümölcsös": {},
-    "krémes": {},
+    "krémes jellegű": {},
     "kiszerelés": [
      "szelet",
      "darab"
@@ -8041,22 +8036,7 @@
  "Tejtermékek és tojás": {
   "tulajdonságok": {
    "egyedi": {
-    "bio": {},
-    "laktózmentes": {},
-    "márka": [],
-    "kiszerelés": [
-     "pohár",
-     "vödör",
-     "tubus",
-     "doboz",
-     "tálca",
-     "flakon"
-    ],
-    "készítmény (növényi zsiradékkal)": {},
-    "protein / magas fehérje": {},
-    "light / csökkentett zsír": {},
-    "cukormentes / hozzáadott cukor nélkül": {},
-    "ízesített": {}
+    "bio": {}
    },
    "csoportos": {}
   },
@@ -8074,7 +8054,16 @@
        "3,5%"
       ],
       "laktózmentes": {},
-      "bio": {}
+      "bio": {},
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "light / csökkentett zsír": {}
      },
      "csoportos": {}
     },
@@ -8118,7 +8107,20 @@
    },
    "Tejital, jegeskávé": {
     "tulajdonságok": {
-     "egyedi": {},
+     "egyedi": {
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "laktózmentes": {},
+      "ízesített": {},
+      "cukormentes / hozzáadott cukor nélkül": {},
+      "protein / magas fehérje": {}
+     },
      "csoportos": {
       "íz": [
        "kakaós",
@@ -8169,7 +8171,20 @@
        "teljes",
        "krémes 10%"
       ],
-      "élőflórás/probiotikus": {}
+      "élőflórás/probiotikus": {},
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "laktózmentes": {},
+      "ízesített": {},
+      "light / csökkentett zsír": {},
+      "cukormentes / hozzáadott cukor nélkül": {},
+      "protein / magas fehérje": {}
      },
      "csoportos": {
       "íz": [
@@ -8246,8 +8261,20 @@
    "Ivójoghurt, kefir, író": {
     "tulajdonságok": {
      "egyedi": {
-      "zsírtartalom": [],
-      "élőflórás/probiotikus": {}
+      "élőflórás/probiotikus": {},
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "laktózmentes": {},
+      "ízesített": {},
+      "light / csökkentett zsír": {},
+      "cukormentes / hozzáadott cukor nélkül": {},
+      "protein / magas fehérje": {}
      },
      "csoportos": {
       "íz": [
@@ -8314,7 +8341,17 @@
        "nagyszemcsés",
        "krémes"
       ],
-      "laktózmentes": {}
+      "laktózmentes": {},
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "light / csökkentett zsír": {},
+      "protein / magas fehérje": {}
      },
      "csoportos": {}
     },
@@ -8338,7 +8375,20 @@
    "Krémtúró, túródesszert": {
     "tulajdonságok": {
      "egyedi": {
-      "bevonatos": {}
+      "bevonatos": {},
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "laktózmentes": {},
+      "ízesített": {},
+      "light / csökkentett zsír": {},
+      "cukormentes / hozzáadott cukor nélkül": {},
+      "protein / magas fehérje": {}
      },
      "csoportos": {
       "íz": [
@@ -8404,7 +8454,17 @@
       "zsírtartalom": [
        "12%",
        "20%"
-      ]
+      ],
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "laktózmentes": {},
+      "light / csökkentett zsír": {}
      },
      "csoportos": {}
     },
@@ -8421,7 +8481,18 @@
        "35%"
       ],
       "UHT": {},
-      "cukrozott": {}
+      "cukrozott": {},
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "laktózmentes": {},
+      "light / csökkentett zsír": {},
+      "készítmény (növényi zsiradékkal)": {}
      },
      "csoportos": {}
     },
@@ -8452,8 +8523,17 @@
    "Vaj": {
     "tulajdonságok": {
      "egyedi": {
-      "zsírtartalom": [],
-      "sózott": {}
+      "sózott": {},
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "laktózmentes": {},
+      "light / csökkentett zsír": {}
      },
      "csoportos": {}
     },
@@ -8492,7 +8572,17 @@
     "tulajdonságok": {
      "egyedi": {
       "light": {},
-      "sütőmargarin": {}
+      "sütőmargarin": {},
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "laktózmentes": {},
+      "light / csökkentett zsír": {}
      },
      "csoportos": {}
     },
@@ -8513,9 +8603,18 @@
        "kenhető",
        "korong"
       ],
-      "füstölt": {},
       "érlelt": {},
-      "zsírtartalom": []
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "laktózmentes": {},
+      "light / csökkentett zsír": {},
+      "készítmény (növényi zsiradékkal)": {}
      },
      "csoportos": {
       "fajta": [
@@ -8557,7 +8656,7 @@
          "ricotta",
          "cottage",
          "körözött",
-         "fraicho"
+         "friss krémsajt"
         ]
        }
       },
@@ -8649,7 +8748,19 @@
    },
    "Sajtkrém, szendvicskrém": {
     "tulajdonságok": {
-     "egyedi": {},
+     "egyedi": {
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "laktózmentes": {},
+      "ízesített": {},
+      "készítmény (növényi zsiradékkal)": {}
+     },
      "csoportos": {
       "íz": [
        "natúr",
@@ -8664,7 +8775,20 @@
    },
    "Tejdesszert, puding": {
     "tulajdonságok": {
-     "egyedi": {},
+     "egyedi": {
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "laktózmentes": {},
+      "ízesített": {},
+      "cukormentes / hozzáadott cukor nélkül": {},
+      "protein / magas fehérje": {}
+     },
      "csoportos": {
       "íz": [
        "vaníliás",
@@ -8715,11 +8839,21 @@
    "Növényi alternatíva": {
     "tulajdonságok": {
      "egyedi": {
-      "cukormentes": {},
       "vegán": {},
       "laktózmentes": {},
       "gluténmentes": {},
-      "hozzáadott cukor nélkül": {}
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "ízesített": {},
+      "light / csökkentett zsír": {},
+      "cukormentes / hozzáadott cukor nélkül": {},
+      "protein / magas fehérje": {}
      },
      "csoportos": {
       "terméktípus": [
@@ -8827,12 +8961,14 @@
       "tartás": [
        "ketreces",
        "mélyalmos",
-       "szabadtartású",
-       "bio"
+       "szabadtartású"
       ],
-      "darabszám": [],
       "extra sárga": {},
-      "hazai": {}
+      "hazai": {},
+      "kiszerelés": [
+       "doboz",
+       "tálca"
+      ]
      },
      "csoportos": {
       "fajta": [
@@ -8867,7 +9003,17 @@
    },
    "Egyéb tejtermék": {
     "tulajdonságok": {
-     "egyedi": {},
+     "egyedi": {
+      "kiszerelés": [
+       "pohár",
+       "vödör",
+       "tubus",
+       "doboz",
+       "tálca",
+       "flakon"
+      ],
+      "laktózmentes": {}
+     },
      "csoportos": {}
     },
     "altípusok": {}
@@ -8879,8 +9025,6 @@
    "egyedi": {
     "bio": {},
     "hazai": {},
-    "csomagolt": {},
-    "lédig": {},
     "kiszerelés": [
      "lédig",
      "csomagolt",
@@ -8890,7 +9034,8 @@
      "csokor",
      "1 kg",
      "2 kg",
-     "csomós"
+     "csomós",
+     "darabra"
     ]
    },
    "csoportos": {
@@ -8900,9 +9045,7 @@
      "mosott",
      "konyhakész",
      "mix",
-     "csomós",
-     "hámozott",
-     "darabos"
+     "hámozott"
     ],
     "méret": [
      "mini",
@@ -9014,7 +9157,7 @@
     "tulajdonságok": {
      "egyedi": {
       "fajta": [
-       "Csierke",
+       "Csiperke",
        "Laska",
        "Portobello",
        "Vargánya",
