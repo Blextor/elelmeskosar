@@ -22,16 +22,7 @@
    "Liszt, dara, morzsa": {
     "tulajdonságok": {
      "egyedi": {},
-     "csoportos": {
-      "fajta": [
-       "búza",
-       "rozs",
-       "tönköly",
-       "kukorica",
-       "rizs",
-       "speciális"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Búzaliszt": {
@@ -153,18 +144,7 @@
    "Fűszer": {
     "tulajdonságok": {
      "egyedi": {},
-     "csoportos": {
-      "fajta": [
-       "paprika",
-       "bors",
-       "fahéj",
-       "kömény",
-       "bazsalikom",
-       "oregánó",
-       "chili",
-       "gyömbér"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Őrölt / egész fűszer": {
@@ -360,14 +340,7 @@
    "Tészta": {
     "tulajdonságok": {
      "egyedi": {},
-     "csoportos": {
-      "fajta": [
-       "durum",
-       "tojásos",
-       "teljes kiőrlésű",
-       "gluténmentes"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Száraztészta (durum)": {
@@ -1213,16 +1186,7 @@
    "Fagyasztott zöldség": {
     "tulajdonságok": {
      "egyedi": {},
-     "csoportos": {
-      "fajta": [
-       "borsó",
-       "kukorica",
-       "spenót",
-       "brokkoli",
-       "zöldbab",
-       "vegyes"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Mono zöldség (borsó, kukorica, spenót)": {
@@ -1315,15 +1279,7 @@
    "Fagyasztott hús, baromfi": {
     "tulajdonságok": {
      "egyedi": {},
-     "csoportos": {
-      "alap": [
-       "csirke",
-       "baromfi",
-       "sertés",
-       "marha",
-       "vegyes"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Fagyasztott baromfi (egész, részek)": {
@@ -1392,6 +1348,42 @@
      }
     }
    },
+   "Fagyasztott tészta, desszert": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {
+     "Leveles tészta, pizzatészta": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Réteslap, rétes": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Gombóc, derelye, nudli": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Fagyasztott desszert, torta": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
+   },
    "Fagyasztott készétel, pizza, egytálétel": {
     "tulajdonságok": {
      "egyedi": {},
@@ -1434,49 +1426,6 @@
       "altípusok": {}
      },
      "Leves": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      },
-      "altípusok": {}
-     }
-    }
-   },
-   "Fagyasztott pékáru, tészta, desszert": {
-    "tulajdonságok": {
-     "egyedi": {},
-     "csoportos": {}
-    },
-    "altípusok": {
-     "Leveles tészta, pizzatészta": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      },
-      "altípusok": {}
-     },
-     "Péksütemény, croissant": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      },
-      "altípusok": {}
-     },
-     "Réteslap, rétes": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      },
-      "altípusok": {}
-     },
-     "Gombóc, derelye, nudli": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      },
-      "altípusok": {}
-     },
-     "Fagyasztott desszert, torta": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
@@ -1902,16 +1851,7 @@
       "bőrös": {},
       "filé": {}
      },
-     "csoportos": {
-      "rész": [
-       "Csirkemell",
-       "Csirkecomb",
-       "Csirkeszárny",
-       "Egész csirke",
-       "Far-hát, aprólék",
-       "Csirkemáj, belsőség"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Csirkemell": {
@@ -1965,15 +1905,7 @@
       "bőrös": {},
       "filé": {}
      },
-     "csoportos": {
-      "rész": [
-       "Pulykamell",
-       "Pulykacomb",
-       "Pulykaszárny",
-       "Egész pulyka",
-       "Pulyka aprólék"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Pulykamell": {
@@ -2020,15 +1952,7 @@
       "bőrös": {},
       "filé": {}
      },
-     "csoportos": {
-      "rész": [
-       "Kacsamell",
-       "Kacsacomb",
-       "Egész kacsa/liba",
-       "Liba-/kacsamáj",
-       "Aprólék"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Kacsamell": {
@@ -2075,19 +1999,7 @@
       "bőrös": {},
       "filé": {}
      },
-     "csoportos": {
-      "rész": [
-       "Karaj",
-       "Tarja",
-       "Comb",
-       "Lapocka",
-       "Dagadó",
-       "Oldalas",
-       "Csülök",
-       "Köröm, fej",
-       "Sertésmáj"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Karaj": {
@@ -2162,17 +2074,7 @@
       "bőrös": {},
       "filé": {}
      },
-     "csoportos": {
-      "rész": [
-       "Bélszín",
-       "Hátszín",
-       "Rostélyos",
-       "Lábszár",
-       "Fartő",
-       "Pörköltnek való",
-       "Leveshús"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Bélszín": {
@@ -2233,13 +2135,7 @@
       "bőrös": {},
       "filé": {}
      },
-     "csoportos": {
-      "rész": [
-       "Egész nyúl",
-       "Nyúlcomb",
-       "Egyéb háziállat"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Egész nyúl": {
@@ -2272,14 +2168,7 @@
       "bőrös": {},
       "filé": {}
      },
-     "csoportos": {
-      "rész": [
-       "Vaddisznó",
-       "Szarvas",
-       "Őz",
-       "Egyéb vadhús"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Vaddisznó": {
@@ -2450,18 +2339,7 @@
       "füstölt": {},
       "csípős": {}
      },
-     "csoportos": {
-      "fajta": [
-       "szalámi",
-       "kolbász",
-       "sonka",
-       "párizsi",
-       "virsli",
-       "hurka",
-       "disznósajt",
-       "bacon"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Szalámi": {
@@ -2638,20 +2516,7 @@
       "füstölt": {},
       "glazúrozott": {}
      },
-     "csoportos": {
-      "faj": [
-       "lazac",
-       "tőkehal",
-       "pangasius",
-       "harcsa",
-       "ponty",
-       "hekk",
-       "tonhal",
-       "pisztráng",
-       "makréla",
-       "busa"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Lazac": {
@@ -5404,25 +5269,7 @@
       "érlelt": {},
       "zsírtartalom": []
      },
-     "csoportos": {
-      "fajta": [
-       "trappista",
-       "gouda",
-       "edami",
-       "ementáli",
-       "parmezán",
-       "pannónia",
-       "cheddar",
-       "camembert",
-       "brie",
-       "mozzarella",
-       "feta",
-       "görög sajt",
-       "kashkaval",
-       "mascarpone",
-       "ricotta"
-      ]
-     }
+     "csoportos": {}
     },
     "altípusok": {
      "Friss / lágy sajt": {

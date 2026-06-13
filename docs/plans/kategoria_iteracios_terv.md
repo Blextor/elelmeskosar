@@ -117,6 +117,18 @@ Még nyitott apróságok:
 
 ## Döntésnapló
 
+- 2026-06-13 (elvi korrekciók, felhasználói észrevételek): (1) BOTTOM-UP
+  tulajdonság-elhelyezés: tulajdonság először az altípushoz, max a kategóriához,
+  a főkategóriához csak felterjesztéssel. A redundáns kategória-szintű csoportos
+  "fajta"/"rész"/"alap" eltávolítva onnan, ahol az altípusok már jelölik
+  (Hús friss → rész; Liszt/Felvágott/Tészta/Fűszer/Sajt/Fagyasztott zöldség-hús
+  → fajta/alap). Pl. Hús>Csirke most csak csontos/bőrös/filé (a rész = altípus).
+  (2) Fagyasztott péksütemény → Pékáru ág (a Pékáru fagyasztott flagjével), nem
+  a Fagyasztott áruk-ba; a Fagyasztott "pékáru" alkategória átnevezve
+  "Fagyasztott tészta, desszert"-re. (3) A mindenre kiterjedő flagek (bio,
+  gluténmentes, vegán, cukormentes, gyorsfagyasztott) egyelőre maradnak, de
+  óvatosan ("még kiderül"). A további ágak (Édesség, Mentes, Baba) ezzel a
+  bottom-up elvvel készülnek.
 - 2026-06-13 (kat25 + Fagyasztott ág): A kat25.py kategorizáló átállítva az új
   fára (kategoriak_2026-06-13.json előnyben, 1005 fallback; 276 altípus,
   struktúra kompatibilis). Fagyasztott stratégia (felhasználói döntés): MINDEN
