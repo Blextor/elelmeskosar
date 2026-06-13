@@ -117,6 +117,46 @@ Még nyitott apróságok:
 
 ## Döntésnapló
 
+- 2026-06-13 (HIBA javítva — Snack részletesség): A build-scriptek teljesen
+  felülírták az ágakat, és az Édesség ágnál ezzel elveszett az 1005 részletes
+  "Snack" alkategóriája (Chips/Szósz/Sós keksz/Pattogatott/Ropi — 40+ márka,
+  50+ íz, alak, alapanyag; 220→16 tulajdonság-érték). Richness-összevetés:
+  KIZÁRÓLAG az Édesség ág vesztett (a többi 1005-ág tulajdonság nélküli
+  nevekből állt, ott az új gazdagabb). Javítás: az 1005 gazdag "Snack"
+  alkategóriája visszahelyezve a lebutított "Sós snack" helyére; a többi új
+  alkategória megtartva. Az Édesség most 231 (>1005 220). ELV rögzítve: az
+  ág-építés MERGE legyen, sosem szabad az 1005 meglévő részletességét eldobni;
+  új ág előtt richness-összevetés 1005 vs új. (A fa untracked, az 1005
+  érintetlen — visszaállítható volt.)
+- 2026-06-13 (Baba ág): Kidolgozva 7 alkategóriával (754 baba-élelmiszer; a
+  nonfood baba — pelenka, ápolás, cumi — már kiszűrve). Alkategóriák: Bébiétel-
+  bébimenü (sós), Gyümölcspüré-bébidesszert, Tejpép-gabonapép-kása, Tápszer
+  (anyatej-helyettesítő/követő/junior), Bébi snack-keksz, Bébiital-víz, Egyéb.
+  Az "életkor" (4hó+/6hó+/8hó+/1év/junior) felterjesztett közös csoportos
+  dimenzió (minden baba-élelmiszerre illik — bottom-up elv szerint indokolt a
+  fő szint). Fő öröklődő egyedi: márka, bio, hozzáadott cukor nélkül,
+  gluténmentes. Jóváhagyásra vár. Utolsó hátralévő ág: Mentes/speciális.
+- 2026-06-13 (Édesség finomítás + fedettség): Felhasználói döntés: a
+  Gabonapehely/reggeli müzli (cornflakes/granola/zabkása) az ALAPANYAG ágba
+  került (nem az Édességbe); Nutella/mogyorókrém marad az Alapanyagban. Az
+  Édesség így 9 alkategória, az Alapanyag 16. "Biztos ami biztos" fedettség-
+  ellenőrzés: 10 771 édesség-gyanúból 7234 tisztán besorolható, a 3537
+  "besorolatlan" zöme MÁS kategória zaja (a "szelet"/"snack" kulcsszó behozta a
+  szeletelt szalámit/sonkát → Hús-hal, SNACK TIME készételeket → Készétel, sajt
+  snacket → Tejtermék) — a besoroláskor a bolti út szétosztja. Valódi édesség-
+  kimaradó: zabszelet/Zabrudi → meglévő Müzliszelet-gabonaszelet alkategória,
+  nincs új alkategória-igény. Az Édesség fa lefedi a szortimentet.
+- 2026-06-13 (Édesség, snack, rágcsálnivaló ág): Kidolgozva 10 alkategóriával,
+  bottom-up elvvel. Fő öröklődő tulajdonság CSAK a valódi közös flagek (márka,
+  cukormentes, gluténmentes, bio); a fajtát az altípus hordozza. Kategória-
+  szintű tulajdonság csak ahol valódi közös dimenzió: Csokoládé→típus
+  (tej/ét/fehér, minden formára illik), Sós snack→íz, Müzliszelet→protein,
+  Rágcsa magvak→sózott/pörkölt. Új alkategóriák: Gabonapehely/reggeli müzli
+  (cornflakes/granola/zabkása), Rágcsálnivaló magvak snack (a tisztázott
+  snack-mag: sózott/pörkölt mogyoró IDE, szemben az Alapanyag sütőmaggal),
+  Gumicukor-zselé-pillecukor külön. Nutella/mogyorókrém az Alapanyagban marad.
+  Nyitott: a Gabonapehely/reggeli müzli lehetne Alapanyag is (reggeli jelleg);
+  egyelőre az Édesség alatt. Jóváhagyásra vár.
 - 2026-06-13 (elvi korrekciók, felhasználói észrevételek): (1) BOTTOM-UP
   tulajdonság-elhelyezés: tulajdonság először az altípushoz, max a kategóriához,
   a főkategóriához csak felterjesztéssel. A redundáns kategória-szintű csoportos

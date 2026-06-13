@@ -635,6 +635,42 @@
      }
     }
    },
+   "Gabonapehely, reggeli müzli": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {
+     "Kukoricapehely (cornflakes)": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Müzli, granola": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Zabkása, instant zabpehely": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Puffasztott gabona": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
+   },
    "Egyéb alapanyag": {
     "tulajdonságok": {
      "egyedi": {},
@@ -646,46 +682,233 @@
  },
  "Baba": {
   "tulajdonságok": {
-   "egyedi": {},
-   "csoportos": {}
+   "egyedi": {
+    "márka": [],
+    "bio": {},
+    "hozzáadott cukor nélkül": {},
+    "gluténmentes": {}
+   },
+   "csoportos": {
+    "életkor": [
+     "4 hó+",
+     "6 hó+",
+     "8 hó+",
+     "1 éves kortól",
+     "junior (1-3 év)"
+    ]
+   }
   },
   "alkategóriák": {
-   "Bébiétel": {
+   "Bébiétel, bébimenü (sós)": {
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
     },
-    "altípusok": {}
+    "altípusok": {
+     "Zöldséges bébimenü": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Húsos-zöldséges menü": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Halas menü": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Tésztás étel": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Zöldségpüré (natúr)": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
    },
-   "Bébiital": {
+   "Gyümölcspüré, bébidesszert": {
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
     },
-    "altípusok": {}
+    "altípusok": {
+     "Gyümölcspüré": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Gyümölcs-gabona készítmény": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Tejes-gyümölcsös desszert": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Puding, tejbegríz desszert": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
    },
-   "Egyéb": {
+   "Tejpép, gabonapép, kása": {
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
     },
-    "altípusok": {}
+    "altípusok": {
+     "Tejpép": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Gabonapép": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Zabkása, instant kása": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
    },
-   "Snack, keksz": {
+   "Tápszer": {
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
     },
-    "altípusok": {}
+    "altípusok": {
+     "Anyatej-helyettesítő (1-es)": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Követő tápszer (2-es)": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Junior tápszer (1-3 év)": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Speciális tápszer": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
    },
-   "Tejpép, gabonapép": {
+   "Bébi snack, keksz": {
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
     },
-    "altípusok": {}
+    "altípusok": {
+     "Babapiskóta": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Bébikeksz": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Puffasztott snack, ropi": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Gyümölcsfalat, rágóka": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
    },
-   "Víz": {
+   "Bébiital, víz": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {
+     "Bébivíz": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Bébitea": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Gyümölcslé, gyerekital": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
+   },
+   "Egyéb babaélelmiszer": {
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
@@ -696,33 +919,207 @@
  },
  "Édesség, snack, rágcsálnivaló": {
   "tulajdonságok": {
-   "egyedi": {},
+   "egyedi": {
+    "márka": [],
+    "cukormentes / hozzáadott cukor nélkül": {},
+    "gluténmentes": {},
+    "bio": {}
+   },
    "csoportos": {}
   },
   "alkategóriák": {
    "Csokoládé": {
     "tulajdonságok": {
+     "egyedi": {
+      "töltött": {}
+     },
+     "csoportos": {
+      "típus": [
+       "tejcsokoládé",
+       "étcsokoládé",
+       "fehércsokoládé",
+       "ruby"
+      ]
+     }
+    },
+    "altípusok": {
+     "Táblás csokoládé": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Csokoládé szelet": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Praliné, desszert, bonbon": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Töltött, mártott csokoládé": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Figurás, szezonális csokoládé": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
+   },
+   "Keksz, nápolyi, ostya": {
+    "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
     },
     "altípusok": {
-     "Egyéb": {
+     "Édes keksz": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Szeletek": {
+     "Töltött, mártott keksz": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Tábla csokoládé": {
+     "Nápolyi": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
+     },
+     "Ostya": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Piskóta, babapiskóta": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Háztartási keksz, teasütemény": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Mézeskalács, mézes": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
+   },
+   "Cukorka, nyalóka": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {
+     "Keménycukorka": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Töltött cukorka": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Nyalóka": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Drazsé": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Szaloncukor": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Pasztilla, mentolos": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
+   },
+   "Gumicukor, zselé, pillecukor": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {
+     "Gumicukor": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Zselécukor": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Pillecukor, hab": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Savanyú cukorszalag": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
      }
     }
    },
@@ -730,33 +1127,60 @@
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
+    },
+    "altípusok": {
+     "Drazsés rágógumi": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Szálas rágógumi": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
     }
    },
-   "Cukorka, gumicukor, drazsé": {
+   "Müzliszelet, gabonaszelet": {
     "tulajdonságok": {
-     "egyedi": {},
+     "egyedi": {
+      "protein / magas fehérje": {}
+     },
      "csoportos": {}
     },
-    "altípusok": {}
-   },
-   "Keksz, nápolyi, ostya": {
-    "tulajdonságok": {
-     "egyedi": {},
-     "csoportos": {}
-    },
-    "altípusok": {}
-   },
-   "Müzli szelet, energiaszelet": {
-    "tulajdonságok": {
-     "egyedi": {},
-     "csoportos": {}
-    },
-    "altípusok": {}
-   },
-   "Magvak, dió": {
-    "tulajdonságok": {
-     "egyedi": {},
-     "csoportos": {}
+    "altípusok": {
+     "Müzliszelet": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Gabonaszelet": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Proteinszelet": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Gyümölcsszelet, datolyaszelet": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
     }
    },
    "Snack": {
@@ -1079,6 +1503,59 @@
       }
      }
     }
+   },
+   "Rágcsálnivaló magvak (snack)": {
+    "tulajdonságok": {
+     "egyedi": {
+      "sózott": {},
+      "pörkölt": {}
+     },
+     "csoportos": {}
+    },
+    "altípusok": {
+     "Sózott, pörkölt mogyoró": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Magkeverék (sós)": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Olajos magvak (snack)": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Aszalt gyümölcs (snack)": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Rizs- és kukoricaszelet": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
+   },
+   "Egyéb édesség, rágcsa": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {}
    }
   }
  },
