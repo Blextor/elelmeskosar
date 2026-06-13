@@ -1047,7 +1047,7 @@
        "fix por",
        "krumplipehely"
       ],
-      "kiszerelés / csomagolás": [
+      "kiszerelés": [
        "tasakos",
        "poharas"
       ]
@@ -1544,8 +1544,7 @@
      "pohár",
      "flakon",
      "tubus"
-    ],
-    "hűtött": {}
+    ]
    },
    "csoportos": {
     "életkor": [
@@ -1566,7 +1565,8 @@
     "tulajdonságok": {
      "egyedi": {
       "bio": {},
-      "hozzáadott cukor nélkül": {}
+      "hozzáadott cukor nélkül": {},
+      "hűtött": {}
      },
      "csoportos": {
       "fő alapanyag": [
@@ -1639,7 +1639,8 @@
      "egyedi": {
       "bio": {},
       "hozzáadott cukor nélkül": {},
-      "tejalapú": {}
+      "tejalapú": {},
+      "hűtött": {}
      },
      "csoportos": {
       "fő alapanyag": [
@@ -1653,14 +1654,6 @@
        "rizs",
        "tészta",
        "gabonaféle"
-      ],
-      "hús / fehérje": [
-       "csirke",
-       "pulyka",
-       "marha",
-       "hal",
-       "tej",
-       "hús nélküli"
       ],
       "állag": [
        "püré",
@@ -2867,7 +2860,7 @@
        "szendvics"
       ],
       "vízijégkrém/sorbet": {},
-      "kiszerelés / csomagolás": [
+      "kiszerelés": [
        "dobozos",
        "tégelyes",
        "családi",
@@ -3710,7 +3703,12 @@
       ],
       "gyümölcsös": {},
       "héj nélküli": {},
-      "sós": {}
+      "sós": {},
+      "kiszerelés": [
+       "tasak",
+       "doboz",
+       "lédig"
+      ]
      },
      "csoportos": {}
     },
@@ -3740,10 +3738,11 @@
    "Gyümölcskonzerv / befőtt": {
     "tulajdonságok": {
      "egyedi": {
-      "csomagolás": [
-       "Befőtt",
-       "Konzerv",
-       "Egyéb"
+      "kiszerelés": [
+       "befőttes üveg",
+       "konzervdoboz",
+       "tasak",
+       "egyéb"
       ],
       "gyümölcs": [
        "Alma",
@@ -3803,6 +3802,12 @@
        "Liofilizált",
        "Aszalt",
        "Szárított"
+      ],
+      "kiszerelés": [
+       "tasak",
+       "doboz",
+       "tálca",
+       "kimért"
       ]
      },
      "csoportos": {}
@@ -3860,17 +3865,7 @@
     "ízesített/pácolt": {},
     "készítmény (növényi/kevert)": {}
    },
-   "csoportos": {
-    "feldolgozottság": [
-     "szeletelt",
-     "tömb/egész",
-     "darabolt"
-    ],
-    "csomagolás": [
-     "vákuumcsomagolt",
-     "védőgázas"
-    ]
-   }
+   "csoportos": {}
   },
   "alkategóriák": {
    "Csirke": {
@@ -4329,6 +4324,11 @@
        "húsgolyó",
        "gyros csík"
       ],
+      "csomagolás": [
+       "tálcás",
+       "vákuumcsomagolt",
+       "védőgázas"
+      ],
       "zsírtartalom": [
        "sovány",
        "normál",
@@ -4423,7 +4423,14 @@
      "egyedi": {
       "füstölt": {}
      },
-     "csoportos": {}
+     "csoportos": {
+      "csomagolás": [
+       "vákuumcsomagolt",
+       "védőgázas",
+       "lédig",
+       "tálcás"
+      ]
+     }
     },
     "altípusok": {
      "Szalonna (angol, kolozsvári)": {
@@ -4493,6 +4500,12 @@
        "50-69%",
        "70-89%",
        "90%+"
+      ],
+      "csomagolás": [
+       "vákuumcsomagolt",
+       "védőgázas",
+       "tálcás",
+       "rúd / darabos"
       ]
      }
     },
@@ -4618,6 +4631,11 @@
        "csirkemellfilé",
        "falat",
        "csík"
+      ],
+      "csomagolás": [
+       "doboz",
+       "tasak",
+       "tálca"
       ]
      }
     },
@@ -4665,6 +4683,11 @@
        "borsos",
        "majorannás",
        "füstölt"
+      ],
+      "csomagolás": [
+       "konzerv",
+       "tégely",
+       "tubus"
       ]
      }
     },
@@ -4708,6 +4731,11 @@
        "sonkakonzerv",
        "pörkölt",
        "melegszendvicskrém"
+      ],
+      "csomagolás": [
+       "konzervdoboz",
+       "doboz",
+       "üveg"
       ]
      }
     },
@@ -4854,6 +4882,11 @@
        "törzsdarab",
        "aprított",
        "pástétom"
+      ],
+      "csomagolás": [
+       "konzervdoboz",
+       "tasak",
+       "üveg"
       ]
      }
     },
@@ -6519,7 +6552,7 @@
          "Miranda",
          "Dr Pepper",
          "Tesco",
-         "Nature Aqua",
+         "NaturAqua",
          "Almdudler",
          "Mountain Dew",
          "Topjoy",
@@ -6552,7 +6585,7 @@
         "édesítőszeres": {}
        },
        "csoportos": {
-        "ízű": [
+        "íz": [
          "kóla",
          "meggy",
          "citrom",
@@ -6892,7 +6925,7 @@
        "levespor",
        "burgonyapürépor"
       ],
-      "kiszerelés / csomagolás": [
+      "csomagolás": [
        "poharas étel",
        "tasakos ételalap"
       ]
@@ -7466,9 +7499,6 @@
        "folyadék 25 ml",
        "folyadék 1000 ml"
       ],
-      "beviteli forma": [
-       "ampullás"
-      ],
       "terméktípus": [
        "vitamin",
        "multivitamin",
@@ -8013,21 +8043,39 @@
    "Gesztenyepüré, somlói galuska": {
     "tulajdonságok": {
      "egyedi": {},
-     "csoportos": {}
+     "csoportos": {
+      "fajta": [
+       "gesztenyepüré",
+       "somlói galuska"
+      ]
+     }
     },
     "altípusok": {}
    },
    "Teasütemény, aprósütemény": {
     "tulajdonságok": {
      "egyedi": {},
-     "csoportos": {}
+     "csoportos": {
+      "fajta": [
+       "teasütemény",
+       "aprósütemény",
+       "linzer jellegű",
+       "keksz jellegű"
+      ]
+     }
     },
     "altípusok": {}
    },
    "Fagyasztott desszert, torta": {
     "tulajdonságok": {
      "egyedi": {},
-     "csoportos": {}
+     "csoportos": {
+      "fajta": [
+       "fagyasztott torta",
+       "fagyasztott desszert",
+       "jégkrémtorta"
+      ]
+     }
     },
     "altípusok": {}
    }
@@ -8538,7 +8586,7 @@
      "csoportos": {}
     },
     "altípusok": {
-     "Vaj": {
+     "Teavaj, márkázott vaj": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
@@ -8571,7 +8619,6 @@
    "Margarin": {
     "tulajdonságok": {
      "egyedi": {
-      "light": {},
       "sütőmargarin": {},
       "kiszerelés": [
        "pohár",
