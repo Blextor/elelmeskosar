@@ -1111,310 +1111,415 @@
  },
  "Fagyasztott áruk": {
   "tulajdonságok": {
-   "egyedi": {},
+   "egyedi": {
+    "márka": [],
+    "bio": {},
+    "gluténmentes": {},
+    "vegán/növényi": {},
+    "cukormentes": {},
+    "gyorsfagyasztott": {},
+    "kiszerelés": [
+     "doboz",
+     "zacskó",
+     "tálca",
+     "multipack"
+    ]
+   },
    "csoportos": {}
   },
   "alkategóriák": {
+   "Jégkrém, fagylalt": {
+    "tulajdonságok": {
+     "egyedi": {
+      "forma": [
+       "pálcikás",
+       "tölcséres",
+       "dobozos/családi",
+       "tégelyes",
+       "szendvics"
+      ],
+      "multipack": {},
+      "vízijégkrém/sorbet": {}
+     },
+     "csoportos": {
+      "íz": [
+       "vanília",
+       "csokoládé",
+       "eper",
+       "puncs",
+       "pisztácia",
+       "karamell",
+       "tiramisu",
+       "kávé",
+       "citrom",
+       "málna",
+       "kókusz",
+       "stracciatella"
+      ]
+     }
+    },
+    "altípusok": {
+     "Pálcikás, tölcséres jégkrém": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Dobozos, családi jégkrém": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Tégelyes prémium jégkrém": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Jégkrém multipack, válogatás": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Vízijégkrém, sorbet": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Fagylalt (kimért)": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Jégkrémtorta": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
+   },
+   "Fagyasztott zöldség": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {
+      "fajta": [
+       "borsó",
+       "kukorica",
+       "spenót",
+       "brokkoli",
+       "zöldbab",
+       "vegyes"
+      ]
+     }
+    },
+    "altípusok": {
+     "Mono zöldség (borsó, kukorica, spenót)": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Zöldségkeverék": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Hasábburgonya, burgonyatermék": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Gomba": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Hüvelyes": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Leveszöldség, wok-zöldség": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Zöldségfasírt, -pogácsa": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
+   },
    "Fagyasztott gyümölcs": {
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
     },
     "altípusok": {
-     "Áfonya": {
+     "Bogyós gyümölcs": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Egyéb": {
+     "Egzotikus gyümölcs": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Eper": {
+     "Gyümölcskeverék": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Málna": {
+     "Gyümölcsleves-alap": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
-     },
-     "Meggy": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Mix/keverék": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Ribizli": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Szeder": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
+      },
+      "altípusok": {}
      }
     }
    },
-   "Fagyasztott hal": {
+   "Fagyasztott hús, baromfi": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {
+      "alap": [
+       "csirke",
+       "baromfi",
+       "sertés",
+       "marha",
+       "vegyes"
+      ]
+     }
+    },
+    "altípusok": {
+     "Fagyasztott baromfi (egész, részek)": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Fagyasztott sertés, marha": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Panírozott baromfi (nuggets, csíkok)": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Darált hús, fasírt, húsgolyó": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
+   },
+   "Fagyasztott hal, tenger gyümölcsei": {
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
     },
     "altípusok": {
-     "Egyéb": {
+     "Halfilé (natúr)": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Hekk": {
+     "Panírozott hal, halrudacska": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Kagyló": {
+     "Rák, garnéla": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Lazac": {
+     "Tenger gyümölcsei, vegyes": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
-     },
-     "Makréla": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Ponty": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Rák": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Szardínia": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Tintahal": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Tőkehal": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Tonhal": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
+      },
+      "altípusok": {}
      }
     }
    },
-   "Fagyasztott hús": {
+   "Fagyasztott készétel, pizza, egytálétel": {
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
     },
     "altípusok": {
-     "Csirke": {
+     "Pizza": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Kacsa": {
+     "Tésztaétel, lasagne": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Marha": {
+     "Töltött, rakott étel": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Pulyka": {
+     "Egytálétel, köret": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Sertés": {
+     "Húsos készétel": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      },
-     "Vad": {
+     "Leves": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
-      }
+      },
+      "altípusok": {}
      }
     }
    },
-   "Fagyasztott készétel": {
+   "Fagyasztott pékáru, tészta, desszert": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {
+     "Leveles tészta, pizzatészta": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Péksütemény, croissant": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Réteslap, rétes": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Gombóc, derelye, nudli": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Fagyasztott desszert, torta": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
+   },
+   "Fagyasztott panírozott (nem hús)": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {
+     "Rántott sajt": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Rántott zöldség, gomba": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Rántott egyéb": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
+   },
+   "Egyéb fagyasztott": {
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
     },
     "altípusok": {}
-   },
-   "Fagyasztott pizza": {
-    "tulajdonságok": {
-     "egyedi": {},
-     "csoportos": {}
-    },
-    "altípusok": {}
-   },
-   "Fagyasztott rántott sajt": {
-    "tulajdonságok": {
-     "egyedi": {},
-     "csoportos": {}
-    },
-    "altípusok": {}
-   },
-   "Fagyasztott zöldség": {
-    "tulajdonságok": {
-     "egyedi": {},
-     "csoportos": {}
-    },
-    "altípusok": {
-     "Borsó": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Brokkoli": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Burgonya": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Egyéb": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Karfiol": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Kukorica": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Sárgarépa": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Spenót": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Zöldbab": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Zöldségmix": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     }
-    }
-   },
-   "Jégkrém, fagylalt": {
-    "tulajdonságok": {
-     "egyedi": {},
-     "csoportos": {}
-    },
-    "altípusok": {
-     "Multipack": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Pálcikás": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Tégelyes": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Tölcséres": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     },
-     "Torta": {
-      "tulajdonságok": {
-       "egyedi": {},
-       "csoportos": {}
-      }
-     }
-    }
    }
   }
  },

@@ -117,6 +117,16 @@ Még nyitott apróságok:
 
 ## Döntésnapló
 
+- 2026-06-13 (kat25 + Fagyasztott ág): A kat25.py kategorizáló átállítva az új
+  fára (kategoriak_2026-06-13.json előnyben, 1005 fallback; 276 altípus,
+  struktúra kompatibilis). Fagyasztott stratégia (felhasználói döntés): MINDEN
+  fagyasztott a Fagyasztott áruk főkategóriába kerül — a "fagyasztott" a fő
+  rendezőelv, a besoroláskor a fagyasztott termék ide megy, NEM a Hús-hal/
+  Zöldség/Gyümölcs ágba (azok a friss/hűtött + tartós verziókat tartják). Ág
+  kidolgozva 9 alkategóriával: Jégkrém-fagylalt (legnagyobb, 7 altípus),
+  Fagyasztott zöldség (+burgonyatermék), gyümölcs, hús-baromfi, hal-tenger
+  gyümölcsei, készétel-pizza-egytálétel, pékáru-tészta-desszert, panírozott
+  (nem hús), egyéb. Jóváhagyásra vár.
 - 2026-06-13 (Alapanyag finomítás, felhasználói döntések): A konzerv/savanyúság/
   befőtt az ALAPANYAG ágba tartozik (nem a Zöldség/Gyümölcsbe) — "Konzerv,
   savanyúság, befőtt" alkategória (zöldségkonzerv, paradicsom-püré, savanyúság,
