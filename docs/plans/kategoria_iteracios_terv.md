@@ -117,6 +117,88 @@ Még nyitott apróságok:
 
 ## Döntésnapló
 
+- 2026-06-14 (3. review — kevert-tengelyű altípusok, LOSSLESS megkötéssel): Felhasználói
+  kérés: folytatni a tisztítást, DE úgy, hogy ami most többféleképp sorolható, az
+  utána is besorolható maradjon EGY helyes módon, megfelelő tulajdonságokkal. Módszer:
+  egy attribútum-altípust CSAK akkor távolítok el, ha a pótló property/flag igazoltan
+  létezik (guard-os ellenőrzés a scriptben; ha hiányzik, előbb hozzáadom). 9 törlés +
+  3 átnevezés + 1 flag-pótlás + 1 törlés: Keksz „Rostos/teljes kiőrlésű" (→ teljes
+  kiőrlésű/rostban gazdag flag), Rágógumi „Cukormentes" (→ cukormentes flag), Sajt
+  „Reszelt/szeletelt" (→ forma property) + „Sajtkészítmény (növényi)" (→ készítmény
+  flag), Túró „Light/sovány" (→ light flag + zsírtartalom), Tej „Ízesített tej"
+  (→ Tejital ág; az íz-értékek BEOLVASZTVA a Tejitalba), Ivójoghurt „Probiotikus ivó"
+  (→ élőflórás flag), Készétel „Vegetáriánus/vegán" (→ vegán flag) + „Húsos/halas"
+  átnevezve „Egyéb főétel, melegétel"-re (protein a fő alapanyag property-ből, vegán a
+  flagből), Jégkrém „Vízijégkrém, sorbet" (→ ÚJ vízijégkrém/sorbet flag pótolva),
+  Hal „Füstölt hal" (→ füstölt flag). Átnevezés (attr. a névből → flag/forma fedi):
+  Cukorka „Pasztilla, mentolos"→„Pasztilla", Gumicukor „Savanyú cukorszalag"→
+  „Cukorszalag", Felvágottak „Sonka (szeletelt/tömb)"→„Sonka", Gabonapehely „Zabkása,
+  instant zabpehely"→„Zabkása, zabpehely". Eredmény: altípus 572→562, property-érték
+  3245→3246 (a Jégkrém-flag +1), Snack 234 érintetlen, NINCS exact-dup név, a fa
+  betölt. Tej most tiszta tartósság-tengely (Friss/ESL/UHT). A maradék (D) flag~altípus
+  esetek SZÁNDÉKOSAK/ártalmatlanok: Hal `fagyasztott` = a hal-kivétel; `töltött`(csoki)/
+  `panírozott`(fagy.hús) ortogonális (más formákra is illik); `ízesített`(joghurt/
+  tejital) szinte mindig igaz az ágban. Rágcsa magvak ágat (grab-bag) Phase 2-re hagyom.
+  Backupok: ..._013652 (fő kör), ..._01xxxx (Hal/Zabkása).
+- 2026-06-14 (2. review — property↔altípus redundancia): Felhasználói észrevétel
+  (a Lisztnél a `felhasználás`/`szemcseméret` fölösleges, mert a Pizzaliszt/
+  Rétesliszt/Finomliszt altípus MAGA a megkülönböztetés). Szisztematikus keresés
+  rendszerszintű mintát talált: a fa sok helyen csoportos property-ben megismétli
+  az altípus-tengelyt. Elv (a felhasználó Liszt-logikája): ha az altípus a
+  megkülönböztetés, a property törlendő; csak az ORTOGONÁLIS attribútum marad
+  (íz, márka, csomagolás, zsír%, kakaó%, érettség). VESZTESÉGMENTES (az infó az
+  altípusban marad), altípushoz NEM nyúltam. Törölve 24 duplikáló property:
+  Liszt (szemcseméret, felhasználás), Cukor (alapanyag/édesítő, forma), Rizs
+  (alapanyag), Tészta (alak/forma, alapanyag, tésztafajta), Instant (forma),
+  Fagy.készétel (ételtípus 7/7), Fagy.tészta-desszert (forma), Darált hús (forma
+  5/5, alap), Húskonzerv (terméktípus), Hal (halfaj), Halkonzerv (faj), Növényi
+  húspótló (forma), Cukorka (forma), Keksz-nápolyi (forma/állag), Bébiital (ital
+  típusa), Bébi snack (forma, állag), Sajt (alkat-szintű fajta — a per-altípus
+  fajta marad), Sütemény főkat (fajta+forma, egymást is duplikálták), Jégkrém
+  (forma+kiszerelés+vízijégkrém flag), Mentes>Paleo (terméktípus+paleo flag),
+  Mentes>Étrend-kieg. (terméktípus). (C) Joghurt+Krémtúró `íz` (13) az alkat-ról
+  törölve → csak az „ízesített" altípuson marad (bottom-up). (B) Ismételt listák
+  főkat-ba emelve: Hús-hal `csomagolás`+`előkészítés` (5 húsból), Tejtermék
+  `kiszerelés` (15 alkatból). Eredmény: property-érték 3599→3249 (−350),
+  altípus-szám 576=576, Snack 234 érintetlen.
+  KÖVETŐ JAVÍTÁS (kevert-tengelyű altípus, felhasználói döntés: „csak a
+  Csokoládénál"): a Csokoládé 9→5 altípusra tisztítva — törölve a 4 attribútum-
+  altípus (Étcsokoládé magas kakaó, Magvas/mogyorós, Marcipános, Alkoholos
+  töltelékű), mert ezeket a típus/kakaótartalom/töltelék/alkoholos property MÁR
+  jelöli; maradt a tiszta forma-tengely (Táblás, Szelet, Praliné/bonbon, Töltött-
+  mártott, Figurás-szezonális). Altípus 576→572, Snack érintetlen. A többi
+  kevert-tengelyű alkat (Keksz, Cukorka, Készétel húsos/vegán, Sajt forma-
+  altípusai) EGYELŐRE marad — felhasználói döntés szerint később.
+  Backup: kategoriak_2026-06-13.bak_20260614_012105.json (+ ..._012743 a Csokinál).
+- 2026-06-14 (teljes fa-review + javítás, 2 felhasználói döntéssel): Átfogó
+  átnézés (hiányosság/javítanivaló/logikai buktató). Két döntés: (A) a
+  "Mentes, speciális" ág FLAG-ALAPÚ — a mentes/bio/vegán/protein termék a
+  ROKON ágba kerül a meglévő flaggel (gluténmentes liszt → Alapanyag, laktóz-
+  mentes tej → Tejtermék, vegán húspótló → Hús-hal), a Mentes ág CSAK a
+  sehová sem illőt tartja. Ezért törölve: Mentes→Bio, Diétás-diabetikus,
+  Gluténmentes termék, Laktózmentes termék, Vegán; a Protein 5→1 altípusra
+  szűkítve (csak Fehérjepor/italpor); az Édesség kapott `vegán` flaget.
+  (B) FAGYASZTOTT-szabály a hallal kibővítve: a hal a pékáruhoz hasonlóan
+  KIVÉTEL — friss+fagyasztott együtt a Hús-hal alatt; minden más fagyasztott
+  → Fagyasztott áruk. Ezért: Fagyasztott→"Fagyasztott hal" törölve (→ Hús-hal,
+  + "Panírozott hal, halrudacska" altípus pótolva); Készétel `fagyasztott`
+  flag + `gyorsfagyasztott` tárolás + "Instant/tasakos készétel" alkat törölve
+  (ellentmondtak a készétel-definíciónak → Alapanyag>Instant); Sütemény
+  "Fagyasztott desszert, torta" alkat + `jégkrémtorta` + 5 fölös főkat-flag
+  törölve. DEDUP (üres levél-altípusok, veszteségmentes): Liszt 14→10
+  (+ "liszt fajtája" csoportos anti-minta törölve), Cukor 10→8, Só 7→5,
+  Rizs 9→7, Sütési alapanyag 11→8, Konzerv 3 dup törölve + 2 átnevezés,
+  Hüvelyes konzerv (lében) törölve, Felvágottak 4 dup törölve (köztük a
+  húsfajta-tengely altípusok), Fagyasztott zöldség 11→9, Fagyasztott készétel
+  10→7. PROPERTY: Tejföl + `készítmény (növényi zsiradékkal)` flag (Délibáb-
+  mű tejföl), Alapanyag főkat `cukormentes` over-promotion törölve, Citromnád
+  (gyógynövény) ki a Gyümölcsből, 6 hiányzó `altípusok` kulcs pótolva (Sör,
+  Cider, Kenyér, Egyéb édes/sós pékáru, Puffasztott), 20 elírás javítva az
+  értéklistákban (fajéj→fahéj, gyömölcsös→gyümölcsös, Tanqueary→Tanqueray, …).
+  VALIDÁCIÓ: nincs maradék exact-dup név; minden 1005-ág richness ≥ 1005
+  (Snack sértetlen: 234); az egyetlen Ital-eltérés (1283→1279) a 1005 saját
+  duplikátum/elírás-hibáinak normalizálása (NaturAqua 3 írásmódban, Malfy×2,
+  Zacapa×2) — valódi veszteség nincs. Backup: kategoriak_2026-06-13.bak_*.json.
 - 2026-06-13 (HIBA javítva — Snack részletesség): A build-scriptek teljesen
   felülírták az ágakat, és az Édesség ágnál ezzel elveszett az 1005 részletes
   "Snack" alkategóriája (Chips/Szósz/Sós keksz/Pattogatott/Ropi — 40+ márka,
