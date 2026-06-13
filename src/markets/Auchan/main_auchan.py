@@ -6,6 +6,7 @@ commands = [
     ["get_all_data_auchan.py", "--allow-partial-download"],
     ["filter_data_auchan.py"],
     ["normalize_data_auchan.py"],
+    ["../download_product_images.py", "--stores", "auchan"],
 ]
 
 for command in commands:

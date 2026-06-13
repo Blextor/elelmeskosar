@@ -1,12 +1,17 @@
 import subprocess
 import sys
 
-# A három szkript fájlneve
-scripts = ["get_all_data_prima.py", "filter_data_prima.py", "normalize_data_prima.py"]
+# A futtatandó szkriptek
+scripts = [
+    ["get_all_data_prima.py"],
+    ["filter_data_prima.py"],
+    ["normalize_data_prima.py"],
+    ["../download_product_images.py", "--stores", "prima"],
+]
 
 for script in scripts:
-    print(f"Futtatás: {script}")
-    result = subprocess.run([sys.executable, script])
+    print(f"Futtatás: {' '.join(script)}")
+    result = subprocess.run([sys.executable, *script])
     if result.returncode != 0:
-        print(f"Hiba történt a(z) {script} futtatása közben.")
+        print(f"Hiba történt a(z) {' '.join(script)} futtatása közben.")
         break
