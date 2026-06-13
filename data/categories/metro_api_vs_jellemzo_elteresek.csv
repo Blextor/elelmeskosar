@@ -1,0 +1,218 @@
+store_name,product_name,api_step,api_unit,jellemzo,jellemzo_unit,nev_parse,kategoria,kozelebb_nevhez
+Metro,Vilsund Blue füstölt kagyló növényi olajban 200 g,120,g,200,g,200g,lecsopogtetett_konzerv,jellemzo
+Metro,Gyorsfagyasztott Marha Hátszín Steak 220-240 g/szelet 920 g/doboz,880,g,920,g,920g,egyeb,jellemzo
+Metro,Gyorsfagyasztott Marha Bélszín Steak 180-200 g/szelet 760 g,720,g,760,g,760g,egyeb,jellemzo
+Metro,Gyorsfagyasztott Marha Rostélyos Steak 220-240 g/db 920 g,880,g,920,g,920g,egyeb,jellemzo
+Metro,"METRO Chef Garnélarák 1,7 - 2 kg",1700,g,2000,g,2000g,egyeb,jellemzo
+Metro,Seacon Norvég Homár 8-12 700-1000 g,700,g,1000,g,1000g,egyeb,jellemzo
+Metro,METRO Chef Egész Gyorsfagyasztott Tarisznyarák 600–800 g,800,g,600,g,800g,egyeb,api
+Metro,Seacon Gyorsfagyasztott PND Tisztított Garnélafarok 16-20 Glazing 20 % 1 kg,1000,g,800,g,1000g,egyeb,api
+Metro,Seacon Black Tiger HOSO 21/30 Garnéla 20% Glazing 1 kg,1000,g,800,g,1000g,egyeb,api
+Metro,Seacon Gyorsfagyasztott Garnélafarok Héjas 20% Glazing 16/20 1 kg,1000,g,800,g,1000g,egyeb,api
+Metro,Gyorsfagyasztott Tisztított Nyers Garnélafarok 41/50 20% Glazing 1 kg,800,g,1000,g,1000g,egyeb,jellemzo
+Metro,Seacon Koktélrák 100 / 200 20 % Glazúr 1 kg,1000,g,800,g,1000g,glazur_hal,api
+Metro,Seacon 10 x 80 g Garnélanyárs 20% Glazing 800 g,800,g,1000,g,800g,egyeb,api
+Metro,Seacon Gyorsfagyasztott Óriás Garnélarák 16/20 20% GL 1 kg,800,g,1000,g,1000g,glazur_hal,jellemzo
+Metro,Seacon Black Tiger Garnéla 16-20 HOSO 20% Glazing 1 kg,1000,g,800,g,1000g,egyeb,api
+Metro,Seacon Tintahal U5 Glazúr 30 % 1 kg,1000,g,700,g,1000g,glazur_hal,api
+Metro,"METRO Chef Gyorsfagyasztott, Előfőzött Tenger Gyümölcsei 1,8 kg",1800,g,2000,g,1800g,egyeb,api
+Metro,Abraline Tenger Gyümölcsei 1 kg,900,g,1000,g,1000g,egyeb,jellemzo
+Metro,Fokhagyma Hálós Hazai 500 g,500,g,1000,g,500g,egyeb,api
+Metro,METRO Chef Tisztított Előfőzött Parázsburgonya 2 kg,2000,g,2060,g,2000g,egyeb,api
+Metro,METRO Chef Héjas Előfőzött Parázsburgonya 2 kg,2000,g,2060,g,2000g,egyeb,api
+Metro,Rusa Savanyúság Erős Savanyú Paprika 600 g,600,g,900,g,600g,lecsopogtetett_konzerv,api
+Metro,NATURFOOD Magkoktél olajos magvak keveréke salátához 200 g,100,g,200,g,200g,egyeb,jellemzo
+Metro,METRO Chef Tojás L 90 db,5670,g,63,g,90db,ar_derivalt_API_hiba,?
+Metro,aro Tálcás Tojás M 30 db,1590,g,53,g,30db,ar_derivalt_API_hiba,?
+Metro,METRO Chef Mélyalmos Tojás 30 db,1630,g,65,g,30db,ar_derivalt_API_hiba,?
+Metro,METRO Chef Extra Sárga Mélyalmos Tojás M 15 db,945,g,795,g,15db,egyeb,?
+Metro,Szalmonella Ellen Kezelt Tojás L 30 db,1890,g,63,g,30db,ar_derivalt_API_hiba,?
+Metro,Fürjtojás 15 db/doboz,225,g,150,g,15db,egyeb,?
+Metro,Szijártó friss tojás M 18 db,1134,g,53,g,18db,ar_derivalt_API_hiba,?
+Metro,Szijártó Jumbo Friss Tojás L-XL 10 db,680,g,63,g,10db,ar_derivalt_API_hiba,?
+Metro,"METRO Chef Bio Tojás ""M"" 6 db",378,g,318,g,6db,egyeb,?
+Metro,"Friss Fóliázott Tojás ""S"" 30 db",1290,g,43,g,30db,ar_derivalt_API_hiba,?
+Metro,Caputo gluténmentes liszt 1kg,1000,g,1200,g,1000g,egyeb,api
+Metro,"KOTÁNYI Gourmet Forraltbor Fűszeres Ízesítő 1,1 kg",1067,g,1150,g,1100g,egyeb,api
+Metro,Kotányi Steak fűszersó 35 g,30,g,35,g,35g,egyeb,jellemzo
+Metro,"ITA-SAN Savanyított Gyömbér Rózsaszín Gari Shoga 1,5 kg",1000,g,1500,g,1500g,lecsopogtetett_konzerv,jellemzo
+Metro,SEMPIO Hajdina Soba Tészta 300 g,300,g,30,g,300g,ar_derivalt_API_hiba,api
+Metro,Lorenzo Riso Vadrizs 1 kg,1000,g,1,g,1000g,ar_derivalt_API_hiba,api
+Metro,Remia Like!Mayo vegán majonéz 800 ml,800,ml,770,ml,800ml,egyeb,api
+Metro,GO-TAN Teriyaki Szósz 1 l,1000,ml,1104,ml,1000ml,egyeb,api
+Metro,GO-TAN Hoisin Wok Szósz 1 l,1000,ml,1198,ml,1000ml,egyeb,api
+Metro,Korean Street Myeong-Dong Buldak Szósz 260 ml,250,ml,260,ml,260ml,egyeb,jellemzo
+Metro,Knorr carbonara spagetti alap 36 g,360,g,36,g,36g,ar_derivalt_API_hiba,jellemzo
+Metro,Knorr instant tésztás leves pikáns csirke ízesítéssel 61 g,58,g,61,g,61g,egyeb,jellemzo
+Metro,Knorr tyúkhúsleveskocka 6 x 10 g (60 g),50,g,60,g,60g,egyeb,jellemzo
+Metro,RIOBA Light Szamóca Dzsem Édesítőszerrel és Csökkentett Cukortartalommal 50 db x 20 g,1e+06,g,1000,g,20g,ar_derivalt_API_hiba,jellemzo
+Metro,RIOBA Light Sárgabarack Dzsem Édesítőszerrel és Csökkentett Cukortartalommal 50 db x 20 g,1e+06,g,1000,g,20g,ar_derivalt_API_hiba,jellemzo
+Metro,Honey&GO akácméz 900 g,900000,g,900,g,900g,ar_derivalt_API_hiba,jellemzo
+Metro,"KOTÁNYI egész Bourbon vaníliarúd 1,5 g",1,g,2,g,1.5g,egyeb,?
+Metro,MAX Aroma jamaikai rum aroma 30 ml,30,ml,150,ml,30ml,egyeb,api
+Metro,MAX Color kék élelmiszerszínezék 30 ml,30,ml,300,ml,30ml,egyeb,api
+Metro,MAX Aroma vilmoskörte aroma 30 ml,30,ml,150,ml,30ml,egyeb,api
+Metro,aro Habpor 5 x 45 g,45,g,225,g,45g,egyeb,api
+Metro,Dr. Oetker Professional Aranka instant vaníliaízű krémpor 4 kg,400,g,4000,g,4000g,egyeb,jellemzo
+Metro,aro Piros Tortazselé 5 x 10 g,10,g,50,g,10g,egyeb,api
+Metro,aro Habfixáló Por ( 5 x 8 g ) 40 g,8,g,40,g,40g,egyeb,jellemzo
+Metro,aro Színtelen Tortazselé 5 x 10 g,10,g,50,g,10g,egyeb,api
+Metro,"Haas Quittin 4:1 zselésítőszer 21,5 g",21,g,22,g,21.5g,egyeb,?
+Metro,Lucullus csalamédé ízesítő és tartósító keverék 100 g,12,g,100,g,100g,egyeb,jellemzo
+Metro,Lucullus dzsem fixáló 3:1 25g,25,g,75,g,25g,egyeb,api
+Metro,Lucullus dzsem fixáló 2:1 25g,25,g,75,g,25g,egyeb,api
+Metro,aro Instant Sütőélesztő 5 x 11 g,11,g,55,g,11g,egyeb,api
+Metro,AZTECA Simal Dürüm Tortilla 30 cm 18 db/csomag,1710,g,1620,g,18db,egyeb,?
+Metro,SIMAL Dürüm Tortilla 25cm 18 x 63 g,63,g,1134,g,63g,egyeb,api
+Metro,Ceres Vizes zsemle (5 x 54 g) 270 g,270,g,54,g,270g,ar_derivalt_API_hiba,api
+Metro,Ceres Tejes kifli (5 x 44 g) 220 g,220,g,44,g,220g,ar_derivalt_API_hiba,api
+Metro,Carnifex Készresütött mester pita 10 db 700 g,700,g,70,g,700g,ar_derivalt_API_hiba,api
+Metro,Carnifex Gyorsfagyasztott Pita Teljes Kiőrlésű Búzalisztből 10 x 70 g,700,g,70,g,70g,ar_derivalt_API_hiba,jellemzo
+Metro,Schulstad Szezámmagos Hamburger Zsemle 30 x 82 g,246,g,2460,g,82g,egyeb,api
+Metro,La Lorraine Grillcsíkos Panini 60 x 110 g,6600,g,110,g,110g,ar_derivalt_API_hiba,jellemzo
+Metro,Friss Kakaós Csiga 5 x 110 g,550,g,110,g,110g,ar_derivalt_API_hiba,jellemzo
+Metro,FRIGOTTI Sajtos Croissant 5 x 90 g,450,g,90,g,90g,ar_derivalt_API_hiba,jellemzo
+Metro,Kakaós Csiga 40 x 115 g,110,g,115,g,115g,egyeb,jellemzo
+Metro,Túrós Táska Gyorsfagyasztott 40 x 115 g,110,g,115,g,115g,egyeb,jellemzo
+Metro,NYÍREGYHÁZI KENYÉRGYÁR Belga csokis megyes párna 70 x 95 g,90,g,95,g,95g,egyeb,jellemzo
+Metro,7DAYS croissant sárgabarackos töltelékkel 60 g,1200,g,60,g,60g,ar_derivalt_API_hiba,jellemzo
+Metro,Midi FarciKao Tiramisu Péksütemény Mascarponés Töltelékkel 10 x 28 g,280,g,180,g,28g,egyeb,jellemzo
+Metro,"METRO Chef Serrano Reserva Sonka 6–6,5 Kg + Sonkatartó Állvány + Kés",6500,g,6250,g,6500g,egyeb,api
+Metro,Pöttyös kakaó 1 l,1000,ml,1061,ml,1000ml,egyeb,api
+Metro,Pöttyös Túró Rudi Tejes Bevonattal 7 x 30 g,30,g,210,g,30g,egyeb,api
+Metro,Pöttyös Túró Rudi Epres 7 x 30 g,30,g,210,g,30g,egyeb,api
+Metro,Pöttyös Óriás Laktózmentes Túró Rudi 6 x 51 g,51,g,305,g,51g,egyeb,api
+Metro,Pöttyös Óriás Túró Rudi Madártejes 6 x 51 g,51,g,305,g,51g,egyeb,api
+Metro,Pöttyös Óriás Túró Rudi Kókuszos 6 x 51 g,51,g,305,g,51g,egyeb,api
+Metro,Pöttyös óriás Túró Rudi Mogyorós 6 x 51 g,51,g,305,g,51g,egyeb,api
+Metro,Pöttyös Túró Rudi Pisztáciás 6 x 35 g,35,g,210,g,35g,egyeb,api
+Metro,Pöttyös Túró Rudi Hozzáadott Cukor Nélkül Brownie Ízű 6 x 35 g,35,g,210,g,35g,egyeb,api
+Metro,Pöttyös Túró Rudi 0% hozzáadott Cukorral 6 x 35 g,35,g,210,g,35g,egyeb,api
+Metro,Nagy És Fia mézesduó tasakos kávékrémpor 100 x 25 g,25,g,250,g,25g,egyeb,api
+Metro,Koliber Nyers Marha Hamburger Pogácsa 8 x 100 g,800,g,100,g,100g,ar_derivalt_API_hiba,jellemzo
+Metro,METRO Chef Gyorsfagyasztott Brownie (16 x 62 g) 992 g,960,g,1000,g,992g,egyeb,jellemzo
+Metro,CARTE D'OR Puncs Jégkrém 1 l,1000,ml,490,ml,1000ml,egyeb,api
+Metro,CARTE D'OR sós karamelles tejjégkrém vajkaramella darabkákkal 1000 ml,1000,ml,500,ml,1000ml,egyeb,api
+Metro,MAGNUM Double vaníliás jégkrém sós karamelles szósszal 310 ml,440,ml,310,ml,310ml,egyeb,jellemzo
+Metro,MAGNUM Poharas Mandula Jégkrém 440 ml,440,ml,297,ml,440ml,egyeb,api
+Metro,MAGNUM Dupla Gold Karamell Pálcikás Jégkrém 85 ml,85,ml,71,ml,85ml,egyeb,api
+Metro,KING Ledo tejszín és fehércsokoládé ízű tejjégkrém kakaós kekszdarabokkal 100 ml,100,g,86,g,100ml,egyeb,?
+Metro,"Kofa Premium darabolt ananász, cukrozott lében 565 g",340,g,565,g,565g,lecsopogtetett_konzerv,jellemzo
+Metro,"Happy Frucht Szeletelt Ananász 3,05 kg",1790,g,3050,g,3050g,egyeb,jellemzo
+Metro,"Happy Frucht Felezett Őszibarack 2,6 kg",1600,g,2600,g,2600g,egyeb,jellemzo
+Metro,"Beach Flower hámozott, szeletelt, enyhén cukrozott mangó befőtt 425 g",230,g,425,g,425g,lecsopogtetett_konzerv,jellemzo
+Metro,Beach Flower Exotic enyhén cukrozott licsi befőtt 567 g,230,g,567,g,567g,lecsopogtetett_konzerv,jellemzo
+Metro,Giana Sárgabarack Befőtt 820 g,470,g,820,g,820g,lecsopogtetett_konzerv,jellemzo
+Metro,"METRO Chef Hámozott Darabolt Paradicsom Paradicsomlében 2,55 kg",1650,g,2550,g,2550g,lecsopogtetett_konzerv,jellemzo
+Metro,"Happy Frucht Hámozott Paradicsom Paradicsomlében 2,5 kg",1530,g,2500,g,2500g,lecsopogtetett_konzerv,jellemzo
+Metro,"MUTTI Hámozott Paradicsom 2,5 kg",1650,g,2500,g,2500g,lecsopogtetett_konzerv,jellemzo
+Metro,MUTTI Hámozott Paradicsom 800 g,520,g,800,g,800g,lecsopogtetett_konzerv,jellemzo
+Metro,Happy Frucht Kockázott Paradicsom 400 g,240,g,400,g,400g,lecsopogtetett_konzerv,jellemzo
+Metro,MUTTI Darabolt Paradicsom 400 g,260,g,400,g,400g,lecsopogtetett_konzerv,jellemzo
+Metro,Bonduelle Gold morzsolt csemegekukorica 440 g,390,g,440,g,440g,lecsopogtetett_konzerv,jellemzo
+Metro,Happy Frucht vörös kidney bab 400 g,240,g,400,g,400g,lecsopogtetett_konzerv,jellemzo
+Metro,Happy Frucht csicseriborsó 400 g,240,g,400,g,400g,lecsopogtetett_konzerv,jellemzo
+Metro,Happy Frucht lencse 400 g,240,g,400,g,400g,lecsopogtetett_konzerv,jellemzo
+Metro,METRO Chef Magozott Zöld Olajbogyó Sós Lében 720 g,350,g,690,g,720g,lecsopogtetett_konzerv,jellemzo
+Metro,METRO Chef Mandulával Töltött Magozott Zöld Olajbogyó Sós Lében 720 g,400,g,685,g,720g,lecsopogtetett_konzerv,jellemzo
+Metro,Happy Frucht szeletelt zöld spanyol olajbogyó 935 g,525,g,935,g,935g,lecsopogtetett_konzerv,jellemzo
+Metro,Citres szárított paradicsom napraforgóolajban 290 g,168,g,290,g,290g,lecsopogtetett_konzerv,jellemzo
+Metro,Il Conte Fetával Töltött Paprika Édes 250g,140,g,250,g,250g,lecsopogtetett_konzerv,jellemzo
+Metro,Il Conte Fetával Töltött Paprika Csípős 250 g,140,g,250,g,250g,lecsopogtetett_konzerv,jellemzo
+Metro,METRO Chef fokhagyma napraforgóolajban 660g,435,g,660,g,660g,lecsopogtetett_konzerv,jellemzo
+Metro,Eko vágott vegyes savanyúság 680 g,340,g,680,g,680g,lecsopogtetett_konzerv,jellemzo
+Metro,Happy Frucht fehérboros káposzta 810 g,770,g,810,g,810g,lecsopogtetett_konzerv,jellemzo
+Metro,Greenhouse görögös uborkasaláta savanyúság 680 g,360,g,680,g,680g,lecsopogtetett_konzerv,jellemzo
+Metro,Greenhouse magyaros uborkasaláta savanyúság 680 g,360,g,680,g,680g,lecsopogtetett_konzerv,jellemzo
+Metro,Beach Flower spanyol kapribogyó 100 g,60,g,100,g,100g,lecsopogtetett_konzerv,jellemzo
+Metro,"Atlantik Tonhal Darabok Növényi Olajban 1,7 kg",1260,g,1700,g,1700g,lecsopogtetett_konzerv,jellemzo
+Metro,TWIST tonhaltörzs napraforgóolajban 4 x 80 g (320 g),320,g,338,g,320g,lecsopogtetett_konzerv,api
+Metro,TWIST tonhaltörzs natúr lében 4 x 80 g (320 g),320,g,338,g,320g,lecsopogtetett_konzerv,api
+Metro,"Atlantik tonhal darabok pikáns, zöldséges mártásban 185 g",190,g,185,g,185g,egyeb,jellemzo
+Metro,RIO mare Insalatissime zöldséges készétel tonhallal 2 x 160 g,160,g,320,g,160g,lecsopogtetett_konzerv,api
+Metro,RIO mare Insalatissime zöldséges készétel tonhallal 2 x 160 g,160,g,320,g,160g,lecsopogtetett_konzerv,api
+Metro,"FEIND BOLLICINE Gyöngyöző Fehér 10,5% 750 ml",750,ml,500,ml,750ml,egyeb,api
+Metro,La Fiesta Édes Élmény Édes Rosé bor 10% 750 ml,750,ml,500,ml,750ml,egyeb,api
+Metro,La Fiesta Édes Élmény Édes Rosé bor 10% 6 x 750 ml,750,ml,500,ml,750ml,egyeb,api
+Metro,ST. HUBERTUS Vérnarancs likőr 32% 700 ml,700,ml,500,ml,700ml,egyeb,api
+Metro,"Unicum Orange Bitter Narancsos Gyógynövénylikőr 34,5% 12 x 40 ml",480,ml,40,ml,40ml,ar_derivalt_API_hiba,jellemzo
+Metro,Mátyás keserű likőr 33% 24 x 40 ml,40,ml,960,ml,40ml,egyeb,api
+Metro,St. Hubertus Eredeti gyógynövénylikőr 33% 500 ml + Vérnarancs likőr 32% 40 ml,500,ml,540,ml,40ml,egyeb,?
+Metro,St. Hubertus Vérnarancs likőr 32% 500 ml + Vérnarancs likőr 32% 40 ml,500,ml,540,ml,40ml,egyeb,?
+Metro,Tatratea eredeti 52% 20X0.04L,400,ml,800,ml,40ml,egyeb,api
+Metro,"YASSNAYA Klasszikus Orosz Vodka 37,5% 24 x 40 ml",40,ml,960,ml,40ml,egyeb,api
+Metro,Red Bull magas koffeintartalmú szénsavas energiaital 355 ml,335,ml,355,ml,355ml,egyeb,jellemzo
+Metro,Topjoy Fruits of the World mangó-alma-narancs-citrom ital 1 l,1000,ml,1045,ml,1000ml,egyeb,api
+Metro,Topjoy Fruits Of The World Alma - Lime - Kaktusz Ital 1 l,1000,ml,1120,ml,1000ml,egyeb,api
+Metro,Cappy 100% Almalé Visszaválthatós Üvegben 24 x 250 ml,6000,ml,250,ml,250ml,ar_derivalt_API_hiba,jellemzo
+Metro,Cappy Őszibarack Nektár 40% Visszaváltós Üvegben 24 x 250 ml,6000,ml,250,ml,250ml,ar_derivalt_API_hiba,jellemzo
+Metro,HAPPY DAY 100%-os Narancslé 3 x 200 ml,600,ml,200,ml,200ml,egyeb,jellemzo
+Metro,HAPPY DAY 100%-os Almalé 3 x 200 ml,600,ml,200,ml,200ml,egyeb,jellemzo
+Metro,HAPPY DAY Rauch eperital C-vitaminnal 1 l,1000,ml,1,ml,1000ml,ar_derivalt_API_hiba,api
+Metro,"Cappy Ice Fruit Zero Sugar szénsavmentes mangó-maracuja ízű ital, édesítőszerekkel 500 ml",500,ml,533,ml,500ml,egyeb,api
+Metro,Cappy 100% Narancslé Visszaválthatós Üvegben 24 x 250 ml,6000,ml,250,ml,250ml,ar_derivalt_API_hiba,jellemzo
+Metro,"Cappy Lemonade szénsavmentes bogyósgyümölcsízű citromos üdítőital édesítőszerekkel 1,25 l",1250,ml,1280,ml,1250ml,egyeb,api
+Metro,MÁRKA Citromos jeges Tea 330 ml,33,ml,330,ml,330ml,egyeb,jellemzo
+Metro,MÁRKA Őszíbarackízű Szénsavmentes Üdítőital Fekete tea Kivonattal és Cukorral 330 ml,33,ml,330,ml,330ml,egyeb,jellemzo
+Metro,fuzetea Szénsavmentes Citromos Üdítőital Visszaváltható Üvegben 24 x 250 ml,6000,ml,250,ml,250ml,ar_derivalt_API_hiba,jellemzo
+Metro,Fanta Halloween Zero 1.75L,1750,ml,1500,ml,1750ml,egyeb,api
+Metro,Coca Cola Szénsavas Üdítőital Visszaváltható Üvegben 24 x 250 ml,6000,ml,250,ml,250ml,ar_derivalt_API_hiba,jellemzo
+Metro,Coca Cola Zero Cukormentes Szénsavas Üdítőital visszaváltható Üvegben 24 x 250 ml,6000,ml,250,ml,250ml,ar_derivalt_API_hiba,jellemzo
+Metro,KINLEY Tonic Tonikízű Szénsavas Üdítőital Visszaváltható Üvegben 24 x 250 ml,6000,ml,250,ml,250ml,ar_derivalt_API_hiba,jellemzo
+Metro,Sprite Zero Citrom és Lime Ízű Cukormentes Szénsavas Üdítőital Visszaváltható Üvegben 24 x 250 ml,6000,ml,250,ml,250ml,ar_derivalt_API_hiba,jellemzo
+Metro,KINLEY Gyömbérízű Szénsavas Üdítőital Visszaváltható Üvegben 24 x 250 ml,6000,ml,250,ml,250ml,ar_derivalt_API_hiba,jellemzo
+Metro,Fanta Narancs Szénsavas Üdítőital Visszaváltható Üvegben 24 x 250 ml,6000,ml,250,ml,250ml,ar_derivalt_API_hiba,jellemzo
+Metro,Kinley Pink Tonic Szénsavas Üdítőital Visszaválthatós Üvegben 24 x 250 ml,6000,ml,250,ml,250ml,ar_derivalt_API_hiba,jellemzo
+Metro,Kinley Purple Vegyes Gyümölcs Ízű Szénsavas Üdítőital Cukorral és Édesítőszerekkel 24 x 250 ml,6000,ml,250,ml,250ml,ar_derivalt_API_hiba,jellemzo
+Metro,aro Málna Ízű Szörp 700 ml,700,ml,850,ml,700ml,egyeb,api
+Metro,aro Narancsízű Szörp Édesítőszerekkel 700 ml,700,ml,850,ml,700ml,egyeb,api
+Metro,Naturaqua Szénsavmentes Ásványvíz Visszaváltható Üvegben 24 x 330 ml,7920,ml,330,ml,330ml,ar_derivalt_API_hiba,jellemzo
+Metro,NaturAqua Természetes Szénsavas Ásványvíz Visszaváltható Üvegben 330 ml,7920,ml,330,ml,330ml,ar_derivalt_API_hiba,jellemzo
+Metro,NaturAqua Szénsavmentes Ásványvíz Visszaváltható Üvegben 14 x 750 ml,10500,ml,750,ml,750ml,ar_derivalt_API_hiba,jellemzo
+Metro,NaturAqua Szénsavas Ásványvíz Visszaváltható Üvegben 14 x 750 ml,10500,ml,750,ml,750ml,ar_derivalt_API_hiba,jellemzo
+Metro,NESCAFÉ 3in1 Strong azonnal oldódó kávéspecialitás 10 x 16 g (160 g),165,g,160,g,160g,egyeb,jellemzo
+Metro,L'OR Espresso Forza szemes pörkölt kávé 1000 g,100,g,1000,g,1000g,egyeb,jellemzo
+Metro,"Segafredo Zanetti Espresso Classico őrölt, pörkölt kávékeverék kapszula 10 x 5,1 g (51 g)",51000,g,51,g,51g,ar_derivalt_API_hiba,jellemzo
+Metro,"Segafredo Espresso Intenso őrölt, pörkölt kávékeverék kapszula 10 x 5,1 g (51 g)",51000,g,51,g,51g,ar_derivalt_API_hiba,jellemzo
+Metro,"Segafredo Zanetti Espresso Ristretto őrölt, pörkölt kávékeverék kapszula 10 x 5,1 g (51 g)",51000,g,51,g,51g,ar_derivalt_API_hiba,jellemzo
+Metro,"Segafredo Zanetti Espresso 100% Arabica őrölt, pörkölt kávékeverék kapszula 10 x 5,1 g (51 g)",51000,g,51,g,51g,ar_derivalt_API_hiba,jellemzo
+Metro,Dolce Gusto NESCAFÉ Chococino forrócsokoládé kapszula 16 db/8 csésze 256 g,270,g,256,g,256g,egyeb,jellemzo
+Metro,"PICKWICK Natúr Zöld Tea 20 x 1,5 g",40,g,30,g,1.5g,egyeb,jellemzo
+Metro,"PICKWICK Apple Love gyümölcstea az alma, a fahéj és a karamell ízével 20 filter 35 g",40,g,35,g,35g,egyeb,jellemzo
+Metro,"TWININGS gránátalma, málna és eper ízű zöld tea 25 filter 37,5 g",40,g,38,g,37.5g,egyeb,jellemzo
+Metro,Loyd feketeribizli és bodza ízű gyümölcstea 20 filter 40 g,20,g,40,g,40g,egyeb,jellemzo
+Metro,TWININGS zöld tea válogatás 20 filter 34 g,38,g,34,g,34g,egyeb,jellemzo
+Metro,PICKWICK Fruit Fusion Gyümölcstea Citrom- És Narancshéjjal És Bodzavirággal Ízesítve ( 20 x 2 ) 70 g,40,g,70,g,70g,egyeb,jellemzo
+Metro,"Lipton Gold Tea ízesített fekete tea 25 filter 37,5 g",800,g,38,g,37.5g,ar_derivalt_API_hiba,jellemzo
+Metro,"PICKWICK Magic Orange gyümölcstea a narancs, a fahéj és a szegfűszeg ízével 20 filter 35 g",40,g,35,g,35g,egyeb,jellemzo
+Metro,Loyd málna-áfonya ízű rooibos tea manuka mézzel 20 filter 34 g,35,g,34,g,34g,egyeb,jellemzo
+Metro,"TEEKANNE YUZU Green Yuzu ízesítésű zöld tea 20 x 1,75 g",35,g,40,g,1.75g,egyeb,api
+Metro,"PICKWICK Fruit Fusion Variációk Sárga 20 x 1,9 g",390,g,38,g,1.9g,ar_derivalt_API_hiba,jellemzo
+Metro,"Basilur Organisa piros bogyós bio tea ashwagandhával 18 db 32,4 g",32400,g,32,g,32.4g,ar_derivalt_API_hiba,jellemzo
+Metro,"Basilur Organisa yuzu licsi és menta bio tea 18 db 32,4 g",32400,g,32,g,32.4g,ar_derivalt_API_hiba,jellemzo
+Metro,"Basilur Organisa fűszeres vérnarancs bio tea 18 db 32,4 g",32400,g,32,g,32.4g,ar_derivalt_API_hiba,jellemzo
+Metro,RIOBA Classic Krémcsokoládé Italpor 10 x 20 g (200 g),250,g,200,g,200g,egyeb,jellemzo
+Metro,RIOBA Fehér Krémcsokoládé Instant Italpor 10 x 18 g,250,g,180,g,18g,egyeb,jellemzo
+Metro,"KitKat Nestlé szelet 41,5 g",41,g,42,g,41.5g,egyeb,?
+Metro,Milka Egészmogyorós tejcsokoládé 95 g,950,g,95,g,95g,ar_derivalt_API_hiba,jellemzo
+Metro,Raffaello Prémium táblás fehér csokoládé kókuszos-mandulás krémmel töltve 90 g,92,g,90,g,90g,egyeb,jellemzo
+Metro,Schogetten alpesi tejcsokoládé 100 g,1000,g,100,g,100g,ar_derivalt_API_hiba,jellemzo
+Metro,Milka alpesi tej felhasználásával készült tejcsokoládé praliné mogyorós krémtöltelékkel 110 g,120,g,110,g,110g,egyeb,jellemzo
+Metro,Lindt Lindor fehércsokoládé praliné lágyan olvadó töltelékkel 200 g,100,g,200,g,200g,egyeb,jellemzo
+Metro,Szerencsi Pop! tutti-frutti ízű krémmel töltött tejcsokoládé robbanócukorkával 22 g,20,g,22,g,22g,egyeb,jellemzo
+Metro,"Gullón élelmi rostban gazdag keksz, édesítőszerrel, cukormentes 170 g",150,g,170,g,170g,egyeb,jellemzo
+Metro,"nutella Biscuit kakaós mogyorókrémmel töltött keksz 41,4 g",41400,g,42,g,41.4g,ar_derivalt_API_hiba,jellemzo
+Metro,Cerbona Csokis-kekszes Müzliszelet 20 g,2,g,20,g,20g,egyeb,jellemzo
+Metro,"Nestlé Fitness tejcsokoládés gabonapehely-szelet vitaminokkal & ásványi anyagokkal reggelihez 22,5 g",22,g,23,g,22.5g,egyeb,?
+Metro,KELLOGG'S Frosties cukormázzal bevont kukoricapehely 330 g,375,g,330,g,330g,egyeb,jellemzo
+Metro,Dr. Oetker Vitalis almás-fahéjas zabkása alappor 48 g,480,g,48,g,48g,ar_derivalt_API_hiba,jellemzo
+Metro,"HALLS mentol-eukaliptuszízű, töltetlen keménycukorka 33,5 g",33,g,34,g,33.5g,egyeb,?
+Metro,"HALLS extra erős mentol-eukaliptuszízű töltetlen keménycukorka 33,5 g",33,g,34,g,33.5g,egyeb,?
+Metro,"PEZ vegyes gyümölcsízű cukorka 8,5 g",8,g,9,g,8.5g,egyeb,?
+Metro,"Trolli Töltött Szemgolyó Gumicukor 80 x 18,8 g",18,g,19,g,18.8g,egyeb,jellemzo
+Metro,"Trolli Töltött Szemgolyó Gumicukor 80 x 18,8 g",18,g,19,g,18.8g,egyeb,jellemzo
+Metro,"Fini Roller vegyesgyümölcs ízű gumicukorszalag, savanyú cukorporral panírozva 20 g",18,g,20,g,20g,lecsopogtetett_konzerv,jellemzo
+Metro,Fini Roller görögdinnye ízű gumicukorszalag savanyú cukorporral panírozva 20 g,18,g,20,g,20g,lecsopogtetett_konzerv,jellemzo
+Metro,Retro Limo Por 90 x 13 g,800,g,13,g,13g,ar_derivalt_API_hiba,jellemzo
+Metro,"Mogyi pirított, sózott mandula 120 g",90,g,120,g,120g,egyeb,jellemzo
+Metro,"Mogyi pirított, sózott kesudió 120 g",90,g,120,g,120g,egyeb,jellemzo

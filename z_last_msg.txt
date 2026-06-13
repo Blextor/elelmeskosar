@@ -1,0 +1,16 @@
+Eredmények csoportonként
+Verdikt	Db	Jellemző esetek
+Név nyert (javítás)	38	Auchan ×10 tizedeshibák (80 g pogácsa, nem 800!), ár-derivált hibák (1 kg MILSANI desszert), fűszer-tasakok (Knorr 51 g), a 0,12 g-os valódi sáfrányok, Bonduelle szószos babok (430 g — ott a szósz is ehető)
+API megerősítve	33	Danone/Danette 4×125 g = 500 g négyes csomagok (címkéről igazolva), Metro mini-ital kartonok (10×20 ml), NaturAqua rekesz (24×330), „4:1" befőzőcukor-csapda (arány, nem mennyiség!), lecsöpögtetett olajbogyók/mozzarella
+Kézi érték (mellékelt tétel levágva)	13	Karaván camembert „2×100 g + 30 g szósz" → 200 g; Johnnie Walker „0,7 l + 0,2 l mini" → 700 ml — a fő-termék elved szerint
+Kiszűrve (nonfood)	3	pelenkák — és a belőlük épített név-szűrő +52 további pelenkát fogott boltszerte
+A képek megint döntöttek
+A 12 kétes esetből több címkéről szó szerint leolvasható volt az igazság: az Urban nápolyi zacskóján „Nettó tömeg: 180 g" áll (a Spar névben hibás 500 g!), a Shiitake dobozán „NETTÓ TÖMEG: 100 G", a Milupán „400 g (4×100 g)", a HiPP a jellegzetes 190 g-os üveg, a Johny Bee pedig 60 darabos vödör (1080 g ✓).
+
+Menet közben két technikai ügyet is elhárítottam: egy szórványos CPython regex-motorhiba csendben elhasalta az egyik futást — most már védett (safe_search), és hibánál hangosan jelez.
+
+Állás
+Korrekciós fájl: 2304 sor (1233 lédig + 987 mintázat + 84 kézi/képes)
+Review-maradék: 336 = 285 kisebb név-eltérés (5–50%, zömük vélhetően API-kerekítés) + 51 Metro bruttó-gyanú
+Minden kimenet frissítve; a terv naplózva.
+A maradék 336-ra javaslatom a következő körre: a 285 kis eltérésnél a „név nyer" alapszabály tömegesen, a már ismert kivétel-mintákkal (lecsöpögtetett, multipack) — plusz a Metro 51 bruttó-gyanúja külön adagban. Szólj, ha mehet!

@@ -117,6 +117,96 @@ Még nyitott apróságok:
 
 ## Döntésnapló
 
+- 2026-06-13 (Alapanyag finomítás, felhasználói döntések): A konzerv/savanyúság/
+  befőtt az ALAPANYAG ágba tartozik (nem a Zöldség/Gyümölcsbe) — "Konzerv,
+  savanyúság, befőtt" alkategória (zöldségkonzerv, paradicsom-püré, savanyúság,
+  befőtt-gyümölcskonzerv, olívabogyó, kókusztej-főzőalap). Mogyorókrém marad az
+  Alapanyagban (Lekvár-méz-krém). Sütőmag tisztázva: natúr/darált mag és aszalt
+  gyümölcs sütéshez-főzéshez (≠ sózott/pörkölt snack-mag, ami az Édesség ágba
+  megy). Alapanyag végső: 15 alkategória.
+- 2026-06-13 (Hús-hal fedettség + Alapanyag ág): Hús-hal "biztos ami biztos"
+  fedettség-ellenőrzés: 4849-ből 4112 tisztán besorolható, a maradék zöme
+  teszt-kulcsszó hiány (létező alkategóriák); egy valódi hiány pótolva: Húsos
+  snack/szárított (kabanos, baromfirúd) altípus. Alapanyag ág kidolgozva 15
+  alkategóriával (korábbi 8 → 15). Új alkategóriák a szélső esetekből: Szószok/
+  öntetek/dresszingek (ketchup/majonéz/mustár/BBQ — több száz db!), Cukor/
+  édesítőszer, Hüvelyesek, Konzerv/főzőalap (paradicsompüré/kókusztej),
+  Instant ételek/alapok, Olajos magvak/aszalt gyümölcs. Öröklődő flagek: bio,
+  gluténmentes, cukormentes, instant/por. Nyitott határesetek: (a) savanyúság/
+  befőtt/zöldségkonzerv → a Zöldség/Gyümölcs ágba kerül a besoroláskor, nem ide;
+  (b) snack-mag (sózott mogyoró) → Édesség/snack, csak a sütőmag van itt;
+  (c) mogyorókrém/Nutella itt a Lekvár-méz alatt, de lehetne az Édességben is.
+  Jóváhagyásra vár.
+- 2026-06-13 (Hús, hal, felvágott ág): Tejtermék ág jóváhagyva. Hús-hal ág
+  kidolgozva 18 alkategóriával. A szélső eset-vizsgálat öt új alkategóriát
+  hozott a korábbi 12-höz: Darált hús/fasírt (159 db), Belsőség (74),
+  Szalonna/tepertő/zsiradék (183), Panírozott/elősütött (89), Növényi húspótló
+  (45, MYVAY). A friss hús állatfaj szerint (Csirke/Sertés/Marha/...) testrész-
+  altípusokkal; a hal 521 termék faj szerint (lazac/tőkehal/pangasius/tonhal/
+  rák); felvágottak 10 altípus. Öröklődő flagek: füstölt, csípős, fagyasztott,
+  ízesített/pácolt, készítmény(növényi/kevert). Nyitott kérdés: a Növényi
+  húspótló itt vagy a Mentes/speciális ágban legyen. Jóváhagyásra vár.
+- 2026-06-13 (fa-kidolgozás indul): A kiszerelés kész, kezdődik a kategóriafa
+  befejezése. Felhasználói döntés: RÉSZLETES kidolgozás (minden alkategória
+  altípusokra bontva, sok tulajdonsággal), ÁGANKÉNTI jóváhagyással, új fájlba
+  (kategoriak_2026-06-13.json, az 1005 érintetlen). Minta/konvenció: márka =
+  egyedi tulajdonság; íz/fajta = csoportos; a flag-jellegű tulajdonság értéke
+  {}, a választható listáé []. Sorrend volumen szerint: Tejtermék (~8900) →
+  Hús-hal (~5700) → Alapanyag (~4900) → Édesség (~3700) → Fagyasztott → Mentes
+  → Baba. Az első ág (Tejtermékek és tojás) kidolgozva, jóváhagyásra vár.
+- 2026-06-13 (Tejtermék ág — szélső esetek felülvizsgálata, felhasználói
+  kérésre): A backlog alapos átnézése valós hiányokat tárt fel az első
+  javaslatban, pótolva: (1) "készítmény (növényi zsiradékkal)" öröklődő flag a
+  Délibáb-szerű műtermékekre (157 db: sajtkészítmény, tejkészítmény); (2)
+  kimaradt "Tejital, jegeskávé" alkategória visszatéve (101+ db, tévesen
+  összevontam a joghurtitallal); (3) Sajt → Grillsajt/halloumi + Sajtkészítmény
+  altípus; (4) Ivójoghurt-kefir → Író; (5) Vaj → Vajkrém + kenhető vajkeverék;
+  (6) öröklődő flagek: protein/magas fehérje, light, cukormentes, ízesített;
+  (7) Növényi alternatíva altípus-bővítés. Végső: 16 alkategória. Tanulság a
+  többi ágra: minden főkategóriánál keresni kell a "készítmény/ízű/jellegű/
+  helyettesítő" műtermékeket és a protein/light/mentes/növényi variánsokat.
+- 2026-06-13 (kiszerelés-review LEZÁRVA): A maradék 303 review-jelölt (252
+  név-eltérés + 51 Metro bruttó) konszenzus-logikával eldöntve (API + név +
+  Metro jellemző hármas jel): 204 első körben, majd LECSO-bővítésekkel a
+  konzervek, végül a maradék a "név = deklarált csomagméret" elvvel (az API
+  >12% eltérése ár-derivált pontatlanság). 3 esetnél kép döntött (Penny
+  gyümölcssaláta szirupban → lecsöpögtetett 480; ALL SEASONS mangó fagyasztott
+  → név 750; Auchan csirke levestál → név 700). 1 szett (Martini+Kinley → API
+  összeg). Eszköz: apply_maradek_kiszereles.py. Teljes kiszerelés-korrekció:
+  2629 (1223 lédig auto + 980 mintázat + 426 kézi/képes), 0 nyitott review.
+  A kiszerelés-réteg ezzel kész; a jövőbeli letöltéseknél a scriptek
+  (audit → mintazat → plus → metro_netcontent → xy → hal → maradek → assign)
+  újrafuttathatók.
+- 2026-06-13 (Metro API vs jellemző elemzés): A teljes Metro készleten (9962)
+  összevetve a normalizált API-t (basePriceContent-alapú unit_step) és a
+  netContentVolume/netPieceWeight "jellemzőt": egyezik 8976 (90%), db-eltérés
+  767, különbözik 217, hiányzó ~0. A 217 eltérőnél a jellemző NEM univerzálisan
+  jobb: italoknál + abszurd API-hibáknál (méz 900000 g) igen, de a
+  lecsöpögtetett konzerveknél/glazúros tengeri termékeknél a jellemző a BRUTTÓ
+  töltőtömeg → ott az API (lecsöpögtetett) a jó; db-terméknél a darab. Felhasználói
+  döntés: a jellemző PLUSZ vizsgálódási jel, nem felülíró alap. Alkalmazva csak
+  a "+"-os italokra (12, apply_metro_netcontent.py). A teljes 217-es lista:
+  data/categories/metro_api_vs_jellemzo_elteresek.csv.
+- 2026-06-13 (név-eltérés review, 1. adag): Felhasználói döntések a kisebb
+  (<50%) név-eltérésekre: X/Y kétértékes név ("820 g/470 g") → a kisebb
+  (lecsöpögtetett); "N×M (összeg)" → a teljes csomag; kis eltérés (≤12%),
+  konzerv-API-kisebb és glazúros hal → egyenként. Alkalmazva: 17 X/Y +
+  multipack (apply_xy_lecsopogtetett.py), 15 hal/tengeri termék képes
+  review-val (apply_hal_review.py): glazúrnál nettó haltartalom, tonhal sós
+  lében a lecsöpögtetett (1705 g bruttó → 1,3 kg), Viking töltőtömeg 85 g.
+  Hátralévő: 252 név-eltérés (főleg ≤12% kis eltérés + konzerv) következő
+  adagokban, egyenként/képpel.
+- 2026-06-13 ("+"-os termékek): A 87-es képes review egy hibáját javítottuk:
+  a Johnnie Walker "0,7 l + 0,2 l" nem fő termék + tartozék, hanem két önálló
+  ital → 900 ml (összeadás). Általános elv (felhasználó): ital + "+" második
+  kiszerelés ÖSSZEADÓDIK; étel + "+" tartozék (szósz/fűszer) esetén csak a fő
+  termék. A "pohár NN cl" a tárgy űrtartalma, nem ital (Bacardi + Mojito
+  pohár → 700 ml rum). Az egész adatbázisban 10 ital "+" termék érintett
+  (JW ×2 → 900, Unicum B&N → 740, Unicum Szilva/Bitter/Narancs → 1100,
+  Coop Unicum szettek → 780, St. Hubertus ×2 → 540). Eszköz:
+  apply_plus_osszeg.py (idempotens, a jövőbeli letöltésekre is). A 6 camembert
+  "+szósz/fűszer" helyesen fő termék maradt.
+
 - 2026-06-12 (levesek): A kész levesek (friss, hűtött, konzerv — pl.
   Hmmmaster, halászlé konzerv, gulyásleves) a Készétel kategóriába
   tartoznak (felhasználói döntés); a leves-nevű termékek mentesülnek a
