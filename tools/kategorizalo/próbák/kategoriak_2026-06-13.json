@@ -831,7 +831,6 @@
        "búza",
        "teljes kiőrlésű",
        "rizs",
-       "üveg",
        "gluténmentes",
        "tönköly"
       ],
@@ -860,6 +859,9 @@
        "töltött",
        "friss",
        "száraz"
+      ],
+      "tésztafajta": [
+       "üvegtészta"
       ]
      }
     },
@@ -963,12 +965,6 @@
       "sózott lében": {}
      },
      "csoportos": {
-      "forma": [
-       "száraz",
-       "konzerv",
-       "főtt",
-       "püré"
-      ],
       "fajta": [
        "vörösbab",
        "fehérbab",
@@ -978,6 +974,14 @@
        "zöld lencse",
        "csicseriborsó",
        "sárgaborsó"
+      ],
+      "tartósítás / állapot": [
+       "száraz",
+       "konzerv",
+       "főtt"
+      ],
+      "feldolgozottság": [
+       "püré"
       ]
      }
     },
@@ -1043,7 +1047,9 @@
        "levespor",
        "instant tészta",
        "fix por",
-       "krumplipehely",
+       "krumplipehely"
+      ],
+      "kiszerelés / csomagolás": [
        "tasakos",
        "poharas"
       ]
@@ -2267,8 +2273,46 @@
    },
    "Rágógumi": {
     "tulajdonságok": {
-     "egyedi": {},
-     "csoportos": {}
+     "egyedi": {
+      "cukormentes": {},
+      "édesítőszerrel": {},
+      "fogfehérítő / white": {}
+     },
+     "csoportos": {
+      "forma": [
+       "drazsé",
+       "lap / szálas",
+       "rúd / roll",
+       "tekercs / hosszú szalag",
+       "töltött"
+      ],
+      "íz": [
+       "menta",
+       "spearmint",
+       "peppermint",
+       "mentol",
+       "eukaliptusz",
+       "feketeribizli",
+       "ánizs",
+       "lime-gyömbér",
+       "dinnye",
+       "eper",
+       "alma",
+       "gyümölcs",
+       "kóla"
+      ],
+      "intenzitás": [
+       "enyhe",
+       "erős",
+       "extra erős",
+       "fresh",
+       "extreme"
+      ],
+      "kiszerelés / csomagolás": [
+       "dobozos",
+       "tasakos"
+      ]
+     }
     },
     "altípusok": {
      "Drazsés rágógumi": {
@@ -2279,6 +2323,27 @@
       "altípusok": {}
      },
      "Szálas rágógumi": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Cukormentes rágógumi": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Gyerek / buborék rágógumi": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Leheletfrissítő drazsé / pasztilla": {
       "tulajdonságok": {
        "egyedi": {},
        "csoportos": {}
@@ -2433,8 +2498,7 @@
          "csípős",
          "kalória csökkentett",
          "nachos/tortilla",
-         "szósszal",
-         "henger doboz"
+         "szósszal"
         ],
         "íz": [
          "paradicsom",
@@ -2497,6 +2561,9 @@
          "köles",
          "édesburgonya",
          "egyéb"
+        ],
+        "kiszerelés / csomagolás": [
+         "henger doboz"
         ]
        }
       }
@@ -2606,9 +2673,7 @@
         ],
         "készre pattogtatot": {},
         "csomagolás": [
-         "magvak",
-         "zsacskó",
-         "egyéb"
+         "zsacskó"
         ]
        },
        "csoportos": {
@@ -2621,6 +2686,16 @@
          "karamell",
          "cukor",
          "egyéb"
+        ],
+        "elkészítés": [
+         "mikrohullámú",
+         "készre pattogtatott",
+         "pattogtatni való mag"
+        ],
+        "kiszerelés / csomagolás": [
+         "zacskó",
+         "tasak",
+         "multipack"
         ]
        }
       }
@@ -2781,12 +2856,16 @@
       "forma": [
        "pálcikás",
        "tölcséres",
-       "dobozos/családi",
-       "tégelyes",
        "szendvics"
       ],
       "multipack": {},
-      "vízijégkrém/sorbet": {}
+      "vízijégkrém/sorbet": {},
+      "kiszerelés / csomagolás": [
+       "dobozos",
+       "tégelyes",
+       "családi",
+       "multipack"
+      ]
      },
      "csoportos": {
       "íz": [
@@ -3342,7 +3421,30 @@
      "lédig"
     ]
    },
-   "csoportos": {}
+   "csoportos": {
+    "érettség": [
+     "érett",
+     "fogyasztásra kész",
+     "utóérő",
+     "kemény"
+    ],
+    "méret": [
+     "mini",
+     "normál",
+     "extra",
+     "jumbo"
+    ],
+    "feldolgozottság": [
+     "egész",
+     "darabolt",
+     "magozott",
+     "hámozott",
+     "szeletelt",
+     "bandázsolt",
+     "mix",
+     "darabos"
+    ]
+   }
   },
   "alkategóriák": {
    "Áfonya": {
@@ -3386,14 +3488,27 @@
    "Ananász": {
     "tulajdonságok": {
      "egyedi": {},
-     "csoportos": {}
+     "csoportos": {
+      "fajta / jelleg": [
+       "egész",
+       "darabolt",
+       "extra méretű"
+      ]
+     }
     },
     "altípusok": {}
    },
    "Banán": {
     "tulajdonságok": {
      "egyedi": {},
-     "csoportos": {}
+     "csoportos": {
+      "fajta / jelleg": [
+       "sima",
+       "főzőbanán",
+       "bio",
+       "bandázsolt"
+      ]
+     }
     },
     "altípusok": {}
    },
@@ -3448,8 +3563,20 @@
    },
    "Kiwi": {
     "tulajdonságok": {
-     "egyedi": {},
-     "csoportos": {}
+     "egyedi": {
+      "kiszerelés": [
+       "csomagolt"
+      ]
+     },
+     "csoportos": {
+      "fajta / jelleg": [
+       "zöld",
+       "gold"
+      ],
+      "feldolgozottság": [
+       "darabos"
+      ]
+     }
     },
     "altípusok": {}
    },
@@ -3679,6 +3806,56 @@
      "csoportos": {}
     },
     "altípusok": {}
+   },
+   "Avokádó": {
+    "tulajdonságok": {
+     "egyedi": {
+      "kiszerelés": [
+       "csomagolt"
+      ]
+     },
+     "csoportos": {
+      "fajta / jelleg": [
+       "hass",
+       "zöld"
+      ],
+      "érettség": [
+       "érett"
+      ],
+      "feldolgozottság": [
+       "darabos"
+      ]
+     }
+    },
+    "altípusok": {}
+   },
+   "Mangó": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {}
+   },
+   "Kókuszdió": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {}
+   },
+   "Passiógyümölcs": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {}
+   },
+   "Főzőbanán": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {}
    }
   }
  },
@@ -3692,16 +3869,19 @@
     "bio": {},
     "hazai/magyar": {},
     "ízesített/pácolt": {},
-    "készítmény (növényi/kevert)": {},
-    "kiszerelés": [
+    "készítmény (növényi/kevert)": {}
+   },
+   "csoportos": {
+    "feldolgozottság": [
      "szeletelt",
      "tömb/egész",
-     "darabolt",
+     "darabolt"
+    ],
+    "csomagolás": [
      "vákuumcsomagolt",
      "védőgázas"
     ]
-   },
-   "csoportos": {}
+   }
   },
   "alkategóriák": {
    "Csirke": {
@@ -4529,18 +4709,18 @@
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {
-      "forma": [
-       "löncshús",
-       "vagdalt",
-       "sonkakonzerv",
-       "pörkölt",
-       "melegszendvicskrém"
-      ],
       "húsfajta": [
        "sertés",
        "marha",
        "baromfi",
        "vegyes"
+      ],
+      "terméktípus": [
+       "löncshús",
+       "vagdalt",
+       "sonkakonzerv",
+       "pörkölt",
+       "melegszendvicskrém"
       ]
      }
     },
@@ -5062,15 +5242,17 @@
          "egyéb"
         ],
         "típus": [
-         "granulátum / por",
-         "tasakos / párnás",
-         "kapszula"
+         "granulátum / por"
         ],
         "koffeintartalom": [
          "koffeinmentes",
          "alacsony",
          "normál",
          "intenzív"
+        ],
+        "kiszerelés / rendszer": [
+         "tasakos / párnás",
+         "kapszula"
         ]
        },
        "csoportos": {
@@ -5115,7 +5297,9 @@
          "egyéb"
         ],
         "típus": [
-         "granulátum / por",
+         "granulátum / por"
+        ],
+        "kiszerelés / rendszer": [
          "tasakos / párnás",
          "kapszula"
         ]
@@ -5157,15 +5341,17 @@
          "egyéb"
         ],
         "típus": [
-         "granulátum / por",
-         "tasak",
-         "kapszula"
+         "granulátum / por"
         ],
         "koffeintartalom": [
          "koffeinmentes",
          "alacsony",
          "normál",
          "intenzív"
+        ],
+        "kiszerelés / rendszer": [
+         "tasak",
+         "kapszula"
         ]
        },
        "csoportos": {
@@ -6524,7 +6710,8 @@
      "üveg",
      "konzerv",
      "pohár"
-    ]
+    ],
+    "azonnal fogyasztható": {}
    },
    "csoportos": {
     "konyha / stílus": [
@@ -6553,6 +6740,19 @@
      "egyszemélyes",
      "kétszemélyes",
      "családi"
+    ],
+    "tárolás": [
+     "hűtött",
+     "szobahőmérsékletű",
+     "gyorsfagyasztott"
+    ],
+    "elkészítés": [
+     "azonnal fogyasztható",
+     "melegítendő",
+     "mikrohullámú",
+     "sütőben",
+     "serpenyőben",
+     "forró vízzel"
     ]
    }
   },
@@ -6629,7 +6829,9 @@
    },
    "Saláta, hidegtál": {
     "tulajdonságok": {
-     "egyedi": {},
+     "egyedi": {
+      "azonnal fogyasztható": {}
+     },
      "csoportos": {
       "alap": [
        "padlizsán",
@@ -6638,6 +6840,26 @@
        "cézár",
        "majonézes",
        "hummusz"
+      ],
+      "saláta fajta": [
+       "franciasaláta",
+       "coleslaw",
+       "tojássaláta",
+       "burgonyasaláta",
+       "tésztasaláta",
+       "uborkasaláta",
+       "görög káposztasaláta",
+       "cézár",
+       "sushi box"
+      ],
+      "öntet / alap": [
+       "majonézes",
+       "joghurtos",
+       "tzatziki",
+       "tonhalas",
+       "húsos",
+       "sajtos",
+       "zöldséges"
       ]
      }
     },
@@ -6690,9 +6912,44 @@
       "forma": [
        "instant tésztás leves",
        "levespor",
-       "poharas étel",
-       "tasakos ételalap",
        "burgonyapürépor"
+      ],
+      "kiszerelés / csomagolás": [
+       "poharas étel",
+       "tasakos ételalap"
+      ]
+     }
+    },
+    "altípusok": {}
+   },
+   "Konzerv készétel": {
+    "tulajdonságok": {
+     "egyedi": {
+      "konzerv": {},
+      "melegítendő": {}
+     },
+     "csoportos": {
+      "étel": [
+       "halászlé",
+       "székelykáposzta",
+       "babgulyás",
+       "pacalpörkölt",
+       "lencsefőzelék",
+       "babfőzelék",
+       "chilis bab",
+       "sólet",
+       "pincepörkölt",
+       "rakott káposzta",
+       "pásztortarhonya",
+       "tonhalas saláta"
+      ],
+      "hús / fehérje": [
+       "tonhal",
+       "sertés",
+       "marha",
+       "kolbász",
+       "hal",
+       "hús nélküli"
       ]
      }
     },
@@ -7152,6 +7409,133 @@
       "altípusok": {}
      }
     }
+   },
+   "Étrend-kiegészítő, vitamin": {
+    "tulajdonságok": {
+     "egyedi": {
+      "cukormentes": {},
+      "vegán": {},
+      "retard / elnyújtott felszívódás": {},
+      "gyerekeknek": {},
+      "sportolóknak": {}
+     },
+     "csoportos": {
+      "forma": [
+       "filmtabletta",
+       "tabletta",
+       "rágótabletta",
+       "pezsgőtabletta",
+       "kapszula",
+       "lágyzselatin kapszula",
+       "gumivitamin",
+       "granulátum",
+       "por",
+       "folyadék",
+       "ivóampulla",
+       "shot"
+      ],
+      "hatóanyag / cél": [
+       "multivitamin",
+       "C-vitamin",
+       "D-vitamin",
+       "B-vitamin komplex",
+       "magnézium",
+       "kalcium",
+       "cink",
+       "vas",
+       "omega-3",
+       "kollagén",
+       "ginkgo",
+       "ginseng",
+       "kurkuma",
+       "tőzegáfonya",
+       "L-karnitin",
+       "energia / sport"
+      ],
+      "célcsoport": [
+       "felnőtt",
+       "gyerek",
+       "3+ év",
+       "női",
+       "sportoló",
+       "senior"
+      ],
+      "íz": [
+       "narancs",
+       "citrom",
+       "erdei gyümölcs",
+       "vérnarancs",
+       "áfonya-málna",
+       "citrom-lime",
+       "gyümölcs"
+      ],
+      "kiszerelés / mennyiség": [
+       "10 db",
+       "20 db",
+       "30 db",
+       "50 db",
+       "60 db",
+       "90 db",
+       "100 db",
+       "folyadék 25 ml",
+       "folyadék 1000 ml"
+      ],
+      "beviteli forma": [
+       "ampullás"
+      ]
+     }
+    },
+    "altípusok": {
+     "Vitamin, multivitamin": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Ásványi anyag": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Omega-3, halolaj": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Kollagén, szépségvitamin": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Gyógynövényes készítmény": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Sport / energia kiegészítő": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     },
+     "Gyerek vitamin": {
+      "tulajdonságok": {
+       "egyedi": {},
+       "csoportos": {}
+      },
+      "altípusok": {}
+     }
+    }
    }
   }
  },
@@ -7497,7 +7881,9 @@
     "krémes": {},
     "kiszerelés": [
      "szelet",
-     "darab",
+     "darab"
+    ],
+    "csomagolás": [
      "doboz",
      "tálca",
      "pohár",
@@ -8329,9 +8715,58 @@
    "Növényi alternatíva": {
     "tulajdonságok": {
      "egyedi": {
-      "cukormentes": {}
+      "cukormentes": {},
+      "vegán": {},
+      "laktózmentes": {},
+      "gluténmentes": {},
+      "hozzáadott cukor nélkül": {}
      },
-     "csoportos": {}
+     "csoportos": {
+      "terméktípus": [
+       "növényi ital",
+       "főzőkrém",
+       "habkrém",
+       "fermentált készítmény",
+       "desszert",
+       "vajalternatíva",
+       "sajt alternatíva",
+       "szendvicsfeltét"
+      ],
+      "alap": [
+       "szója",
+       "zab",
+       "mandula",
+       "rizs",
+       "kókusz",
+       "borsófehérje",
+       "növényi olaj"
+      ],
+      "zsírtartalom / jelleg": [
+       "1,8%",
+       "3,5%",
+       "15%",
+       "31%",
+       "light",
+       "cukormentes"
+      ],
+      "dúsítás": [
+       "kalcium",
+       "D-vitamin",
+       "B12-vitamin",
+       "vitaminokkal dúsított"
+      ],
+      "íz": [
+       "natúr",
+       "vanília",
+       "áfonya",
+       "málna",
+       "eper",
+       "cseresznye",
+       "kókusz",
+       "cheddar",
+       "füstölt"
+      ]
+     }
     },
     "altípusok": {
      "Növényi ital": {
@@ -8452,10 +8887,29 @@
      "tálca",
      "zacskó",
      "hálós",
-     "csokor"
+     "csokor",
+     "1 kg",
+     "2 kg",
+     "csomós"
     ]
    },
-   "csoportos": {}
+   "csoportos": {
+    "feldolgozottság": [
+     "egész",
+     "vágott",
+     "mosott",
+     "konyhakész",
+     "mix",
+     "csomós",
+     "hámozott",
+     "darabos"
+    ],
+    "méret": [
+     "mini",
+     "normál",
+     "extra"
+    ]
+   }
   },
   "alkategóriák": {
    "Bab": {
@@ -8522,8 +8976,23 @@
    },
    "Csomagolt saláta, salátatál": {
     "tulajdonságok": {
-     "egyedi": {},
-     "csoportos": {}
+     "egyedi": {
+      "mosott": {},
+      "konyhakész": {}
+     },
+     "csoportos": {
+      "saláta alap": [
+       "bébispenót",
+       "rucola",
+       "madársaláta",
+       "jégsaláta",
+       "fejessaláta",
+       "római saláta",
+       "káposzta",
+       "salátakeverék",
+       "smoothie mix"
+      ]
+     }
     },
     "altípusok": {}
    },
@@ -8755,6 +9224,41 @@
     "altípusok": {}
    },
    "Zeller": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {}
+   },
+   "Gyömbér": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {}
+   },
+   "Kurkuma": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {}
+   },
+   "Tamarind": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {}
+   },
+   "Avokádó": {
+    "tulajdonságok": {
+     "egyedi": {},
+     "csoportos": {}
+    },
+    "altípusok": {}
+   },
+   "Friss fűszernövény": {
     "tulajdonságok": {
      "egyedi": {},
      "csoportos": {}
