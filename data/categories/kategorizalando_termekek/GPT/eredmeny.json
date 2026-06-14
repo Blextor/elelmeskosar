@@ -24,15 +24,28 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Ázsiai / wok szósz",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "üveg",
-      "konyha / stílus": [
-        "ázsiai"
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Ben's Original",
+      "íz": [
+        "egyéb"
       ],
       "alap": [
         "gyümölcs"
+      ],
+      "konyha / stílus": [
+        "ázsiai"
+      ],
+      "csípősség": [
+        "csemege"
       ]
     },
-    "kategoria_hash": "1c3c8f74d4a015a23ea68b554489cbe886ae470fdff381edfa450091fc412d21",
+    "kategoria_hash": "ee1da78d55c998098369bfc138245e225c78c2a8f2763f3a5226b45a1390e8c2",
     "statusz": "kesz"
   },
   {
@@ -60,12 +73,28 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Ázsiai / wok szósz",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "üveg",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Ben's Original",
+      "íz": [
+        "egyéb"
+      ],
+      "alap": [
+        "gyümölcs"
+      ],
       "konyha / stílus": [
         "ázsiai"
+      ],
+      "csípősség": [
+        "csemege"
       ]
     },
-    "kategoria_hash": "816844ef7319ecf4a9054894919c27f3198fd435a0d7bf1800fcf055d997e523",
+    "kategoria_hash": "ee1da78d55c998098369bfc138245e225c78c2a8f2763f3a5226b45a1390e8c2",
     "statusz": "kesz"
   },
   {
@@ -93,18 +122,28 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Ázsiai / wok szósz",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "üveg",
-      "konyha / stílus": [
-        "ázsiai"
-      ],
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Ben's Original",
       "íz": [
         "csípős"
+      ],
+      "alap": [
+        "egyéb"
+      ],
+      "konyha / stílus": [
+        "ázsiai"
       ],
       "csípősség": [
         "csípős"
       ]
     },
-    "kategoria_hash": "7babc85b3218f86aee5a213dbff3a4cee69eb4e5f0ca2a13bad614fc1b49bea4",
+    "kategoria_hash": "fce018cda54e2b0bcce275fb36dac93911a701c136ff91b41f8dcb1c5f6abaf5",
     "statusz": "kesz"
   },
   {
@@ -134,9 +173,14 @@
     "tulajdonsagok": {
       "márka": "Barissimo",
       "fajta": "szemes",
-      "kiszerelés / rendszer": "tasak"
+      "típus": "egyéb",
+      "koffeintartalom": "normál",
+      "kiszerelés / rendszer": "tasak",
+      "íz": [
+        "sima"
+      ]
     },
-    "kategoria_hash": "62bad9f28c76a844c2beedc45f8bb561ab02bc2b572fd43d2c6ad6af700e672f",
+    "kategoria_hash": "21093eb9b11ab4d457bf11cf18c3580dbab594afe396a042c2aa55e8dc8d18c4",
     "statusz": "kesz"
   },
   {
@@ -164,7 +208,12 @@
     "alkategoria": "Olaj, ecet, zsiradék",
     "altipus": "Olívaolaj",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "üveg",
+      "márka": "Lyttos",
       "alapanyag": [
         "olíva"
       ],
@@ -172,7 +221,7 @@
         "extra szűz"
       ]
     },
-    "kategoria_hash": "2e756ff1916472cf135b790f6169af64d3f0582be4eb8e51b4ddab9d80a966c5",
+    "kategoria_hash": "fbe576ef52d9c438406a79b766196d08d335a627135cfe7c2ca0ade04ce0c581",
     "statusz": "kesz"
   },
   {
@@ -234,15 +283,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Őrölt / egész fűszer",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "granulátum"
       ],
       "fűszerfajta": [
         "fokhagyma"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "79362d0c3ea96fe911c69248a4460d7c63a5057438375c8b8a626d5841224e0c",
+    "kategoria_hash": "e11bbc5834f30f07236b82aedf401e4a5c6e96b3d1ea294c19fc00ea4e7f8c76",
     "statusz": "kesz"
   },
   {
@@ -270,8 +330,15 @@
     "alkategoria": "Gabonapehely, reggeli müzli",
     "altipus": "Zabkása, zabpehely",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "tasak",
       "hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
       "instant": true,
+      "márka": "Enjoy Free!",
       "alap": [
         "zab"
       ],
@@ -280,7 +347,7 @@
         "meggy"
       ]
     },
-    "kategoria_hash": "5d8ba59ff40d22f9b7b40eed0b8e71678a7f4587d466c7753d906261cd0dd0a0",
+    "kategoria_hash": "c8577d1598481e27bfc04ec88046094dd8d6c59474ed5acc789bf7ae02b047a8",
     "statusz": "kesz"
   },
   {
@@ -308,9 +375,14 @@
     "alkategoria": "Liszt, dara, morzsa",
     "altipus": "Kenyérliszt (BL80/BL112)",
     "tulajdonsagok": {
-      "kiszerelés": "tasak"
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "tasak",
+      "márka": "Happy Harvest"
     },
-    "kategoria_hash": "e99bef1bff9faf9d0989d0b8b2aced3abd7b2df8343ce33bff943ce5fb7110cf",
+    "kategoria_hash": "7eb2d4f24603dd4701d684550879ff8a9db0ad04e76a16ab1c9d15251bd319de",
     "statusz": "kesz"
   },
   {
@@ -338,9 +410,14 @@
     "alkategoria": "Liszt, dara, morzsa",
     "altipus": "Teljes kiőrlésű liszt",
     "tulajdonsagok": {
-      "kiszerelés": "tasak"
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "tasak",
+      "márka": "Happy Harvest"
     },
-    "kategoria_hash": "4e2c15a7d99f4fe4918118e5395e200cabfb99bdf2f1bcbf3657cf68b4cb7256",
+    "kategoria_hash": "aeeee8e143e539ca2d955c6ab7b91266b1a7029cb398544ba896bfbf1da24fa8",
     "statusz": "kesz"
   },
   {
@@ -368,18 +445,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Őrölt paprika",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "őrölt"
       ],
       "fűszerfajta": [
         "paprika"
       ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
       "csípősség": [
         "nem csípős"
       ]
     },
-    "kategoria_hash": "897398ea6867483437ae9736a91de023265bddb18aeeb6b42615afc702947824",
+    "kategoria_hash": "e42750cfa13c511d12f0b11a824f781dc5400b4bd73605cd6583e4790d45ba15",
     "statusz": "kesz"
   },
   {
@@ -407,12 +492,20 @@
     "alkategoria": "Friss töltött tészta, gnocchi",
     "altipus": "",
     "tulajdonsagok": {
+      "vegán": false,
       "vegetáriánus": true,
+      "gluténmentes": false,
+      "laktózmentes": false,
+      "csípős": false,
+      "csomagolás": "tasak",
       "konyha / stílus": [
         "olasz"
       ],
       "fő alapanyag": [
         "burgonya"
+      ],
+      "adag": [
+        "kétszemélyes"
       ],
       "tárolás": [
         "szobahőmérsékletű"
@@ -420,11 +513,15 @@
       "elkészítés": [
         "forró vízzel"
       ],
+      "márka": "Cucina Nobile",
       "forma": [
         "gnocchi"
+      ],
+      "töltelék": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "2ba9bb2c4d6425bb856244eceaf7baa06fc5dd65aa727a2f68c443e1dc0687b2",
+    "kategoria_hash": "83aaa9fac763f8f9761c61df3f8970ee5236656d596eefb971056093963cff26",
     "statusz": "kesz"
   },
   {
@@ -452,13 +549,28 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Ketchup",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "flakon",
+      "light": false,
       "cukormentes / hozzáadott cukor nélkül": true,
+      "márka": "Le Gusto",
+      "íz": [
+        "natúr"
+      ],
       "alap": [
         "paradicsom"
+      ],
+      "konyha / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "csemege"
       ]
     },
-    "kategoria_hash": "8006c038bd2fff5564f78c121e09b058bab59baee108147f925f4f177b09f581",
+    "kategoria_hash": "ae55a5ed505a171af467bb5f0860eb8e839675dc45454242685a6da211dbd536",
     "statusz": "kesz"
   },
   {
@@ -486,7 +598,12 @@
     "alkategoria": "Olaj, ecet, zsiradék",
     "altipus": "Olívaolaj",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "üveg",
+      "márka": "Cucina Nobile",
       "alapanyag": [
         "olíva"
       ],
@@ -494,7 +611,7 @@
         "extra szűz"
       ]
     },
-    "kategoria_hash": "2e756ff1916472cf135b790f6169af64d3f0582be4eb8e51b4ddab9d80a966c5",
+    "kategoria_hash": "9494db926db2c25c43b8cd49f39e435f902e0d7b9405ca0068f8aeb5eb081650",
     "statusz": "kesz"
   },
   {
@@ -525,11 +642,13 @@
       "márka": "Nescafé",
       "fajta": "kávé",
       "típus": "granulátum / por",
+      "koffeintartalom": "normál",
+      "kiszerelés / rendszer": "egyéb",
       "íz": [
         "sima"
       ]
     },
-    "kategoria_hash": "ddb674c22a903f5d6079faf9a40d5936819a50c1dd9fee8519e27545346b4b91",
+    "kategoria_hash": "96faa5e0534258c93a2b598121aabf301bb600e9602852386db58f13e5998822",
     "statusz": "kesz"
   },
   {
@@ -559,12 +678,14 @@
     "tulajdonsagok": {
       "márka": "Barissimo",
       "fajta": "szemes",
+      "típus": "egyéb",
+      "koffeintartalom": "intenzív",
       "kiszerelés / rendszer": "tasak",
       "íz": [
         "krémes"
       ]
     },
-    "kategoria_hash": "b93a7e7a7ceb4e96231ab9e0cf2cf8e06ec23cf2b51201ee51f51cb7ae881eb9",
+    "kategoria_hash": "30d5f05b28a5796a4f65f1630a1fbb511b5646767ab738799fdce6cded264dc2",
     "statusz": "kesz"
   },
   {
@@ -592,16 +713,25 @@
     "alkategoria": "Étkezési só, ételízesítő",
     "altipus": "Só",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "csökkentett nátriumtartalom": false,
+      "márka": "Le Gusto",
       "só típusa": [
         "jódozott",
         "asztali"
       ],
       "szemcseméret / forma": [
-        "finom"
+        "egyéb"
+      ],
+      "alapíz / cél": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "c4dd327b90708e47f54af3ee760c72b23a07456920bd619760c6bba23fb71c00",
+    "kategoria_hash": "7159950d8c23dbadb7318be33f11e39f3bb1657a33d8d49245f8d1b24dc69ec4",
     "statusz": "kesz"
   },
   {
@@ -627,19 +757,29 @@
     },
     "fokategoria": "Alapanyag, sütés-főzés",
     "alkategoria": "Tészta",
-    "altipus": "Levesbetét tészta",
+    "altipus": "",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Császár",
       "tojástartalom": [
         "8 tojásos"
       ],
-      "méret / jelleg": [
-        "levesbetét",
-        "száraz",
-        "apró"
+      "alapanyag": [
+        "tojásos"
+      ],
+      "tésztafajta / forma": [
+        "csiga",
+        "levesbetét"
+      ],
+      "állapot": [
+        "száraz"
       ]
     },
-    "kategoria_hash": "9e73673ca02d56a50eee83eb609212c25d2ecfe46b9e428a37bb0be8dc2495df",
+    "kategoria_hash": "0cdcd95c5dacadf2c81376227f40a091f988cde33293849c104558ae73331681",
     "statusz": "kesz"
   },
   {
@@ -667,13 +807,19 @@
     "alkategoria": "Rizs, köret",
     "altipus": "Rizs",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "doboz",
       "főzőtasakos": true,
+      "előfőzött / gyorsrizs": false,
+      "márka": "Asia",
       "rizsfajta": [
         "jázmin"
       ]
     },
-    "kategoria_hash": "1c7ce457d1529e818cf1a104bc94049346b559ad854fb2aa760581e0b7a5d4ad",
+    "kategoria_hash": "e3e3cef59ec2516ed262fa7ca14d3a4433ac45958d42580331e87885982862bb",
     "statusz": "kesz"
   },
   {
@@ -699,17 +845,28 @@
     },
     "fokategoria": "Alapanyag, sütés-főzés",
     "alkategoria": "Tészta",
-    "altipus": "Penne, fusilli, farfalle",
+    "altipus": "",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Cucina Nobile",
       "tojástartalom": [
         "tojás nélküli"
       ],
-      "méret / jelleg": [
+      "alapanyag": [
+        "durum"
+      ],
+      "tésztafajta / forma": [
+        "orsó / fusilli"
+      ],
+      "állapot": [
         "száraz"
       ]
     },
-    "kategoria_hash": "5759c4ec9273885641e0a3e8572ef1ab0f4aa4acbf18c4fed200be7a7740fd91",
+    "kategoria_hash": "cd8cd38f2b16e5a95e2c68ef28b95d3860f2b34e47d9aaf0829e57e4064303cb",
     "statusz": "kesz"
   },
   {
@@ -735,17 +892,28 @@
     },
     "fokategoria": "Alapanyag, sütés-főzés",
     "alkategoria": "Tészta",
-    "altipus": "Penne, fusilli, farfalle",
+    "altipus": "",
     "tulajdonsagok": {
-      "kiszerelés": "zacskó",
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
+      "kiszerelés": "egyéb",
+      "márka": "Cucina Nobile",
       "tojástartalom": [
         "tojás nélküli"
       ],
-      "méret / jelleg": [
+      "alapanyag": [
+        "durum"
+      ],
+      "tésztafajta / forma": [
+        "penne"
+      ],
+      "állapot": [
         "száraz"
       ]
     },
-    "kategoria_hash": "5759c4ec9273885641e0a3e8572ef1ab0f4aa4acbf18c4fed200be7a7740fd91",
+    "kategoria_hash": "4a56a155064144eb7f2d73d9cdb687ff1125bace9c5c0991d078c9d7f5acdce8",
     "statusz": "kesz"
   },
   {
@@ -771,18 +939,28 @@
     },
     "fokategoria": "Alapanyag, sütés-főzés",
     "alkategoria": "Tészta",
-    "altipus": "Spagetti, makaróni",
+    "altipus": "",
     "tulajdonsagok": {
-      "kiszerelés": "zacskó",
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
+      "kiszerelés": "egyéb",
+      "márka": "Cucina Nobile",
       "tojástartalom": [
         "tojás nélküli"
       ],
-      "méret / jelleg": [
-        "szálas",
+      "alapanyag": [
+        "durum"
+      ],
+      "tésztafajta / forma": [
+        "spagetti"
+      ],
+      "állapot": [
         "száraz"
       ]
     },
-    "kategoria_hash": "011da099c5d2f524720c2304ccfb045a6eae2c32bbdeee650f62bc2fd9b32368",
+    "kategoria_hash": "d17985532a5106193983f0214ec2a7f434f6c29c1a48b70b436ea440750d9b3f",
     "statusz": "kesz"
   },
   {
@@ -810,9 +988,17 @@
     "alkategoria": "Liszt, dara, morzsa",
     "altipus": "Dara, gríz",
     "tulajdonsagok": {
-      "kiszerelés": "zacskó"
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "tasak",
+      "márka": "Happy Harvest",
+      "dara fajtája": [
+        "búzadara"
+      ]
     },
-    "kategoria_hash": "ceb155e430ac907ca460e507754780b0b58ce46fa5a9929880055d0a1df75a99",
+    "kategoria_hash": "24e64bac391c1114e020ba2d80c72f536229cedb5ce3d12fdda49bcb0875aeeb",
     "statusz": "kesz"
   },
   {
@@ -840,9 +1026,14 @@
     "alkategoria": "Liszt, dara, morzsa",
     "altipus": "Teljes kiőrlésű liszt",
     "tulajdonsagok": {
-      "kiszerelés": "tasak"
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "tasak",
+      "márka": "Happy Harvest"
     },
-    "kategoria_hash": "4e2c15a7d99f4fe4918118e5395e200cabfb99bdf2f1bcbf3657cf68b4cb7256",
+    "kategoria_hash": "aeeee8e143e539ca2d955c6ab7b91266b1a7029cb398544ba896bfbf1da24fa8",
     "statusz": "kesz"
   },
   {
@@ -868,17 +1059,29 @@
     },
     "fokategoria": "Alapanyag, sütés-főzés",
     "alkategoria": "Tészta",
-    "altipus": "Kocka, kagyló, szarvacska",
+    "altipus": "",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Császár",
       "tojástartalom": [
         "4 tojásos"
       ],
-      "méret / jelleg": [
+      "alapanyag": [
+        "tojásos"
+      ],
+      "tésztafajta / forma": [
+        "fodros nagykocka",
+        "kocka"
+      ],
+      "állapot": [
         "száraz"
       ]
     },
-    "kategoria_hash": "a50cb781c260dc203dd910ff213f4a02ad51ea1af4f0755653d3efde9231f7cd",
+    "kategoria_hash": "c2a8027b88a44abde9590c07def8555ede52b5eb97635fee0fbe2eb8afe18875",
     "statusz": "kesz"
   },
   {
@@ -906,7 +1109,12 @@
     "alkategoria": "Olaj, ecet, zsiradék",
     "altipus": "Ecet",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "flakon",
+      "márka": "Le Gusto",
       "ecet savtartalom": [
         "20%"
       ],
@@ -914,7 +1122,7 @@
         "ételecet"
       ]
     },
-    "kategoria_hash": "3d9a0053f93abe602a2de0f3808ae6781b680487831d535dfe1ca79ee2747a28",
+    "kategoria_hash": "852e6404969eae45a4373e1632b0933bf56d538e9385fc249b5467ebbd0414cf",
     "statusz": "kesz"
   },
   {
@@ -942,9 +1150,14 @@
     "alkategoria": "Liszt, dara, morzsa",
     "altipus": "Kenyérliszt (BL80/BL112)",
     "tulajdonsagok": {
-      "kiszerelés": "tasak"
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "tasak",
+      "márka": "Happy Harvest"
     },
-    "kategoria_hash": "e99bef1bff9faf9d0989d0b8b2aced3abd7b2df8343ce33bff943ce5fb7110cf",
+    "kategoria_hash": "7eb2d4f24603dd4701d684550879ff8a9db0ad04e76a16ab1c9d15251bd319de",
     "statusz": "kesz"
   },
   {
@@ -972,9 +1185,14 @@
     "alkategoria": "Liszt, dara, morzsa",
     "altipus": "Kenyérliszt (BL80/BL112)",
     "tulajdonsagok": {
-      "kiszerelés": "tasak"
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "tasak",
+      "márka": "Happy Harvest"
     },
-    "kategoria_hash": "e99bef1bff9faf9d0989d0b8b2aced3abd7b2df8343ce33bff943ce5fb7110cf",
+    "kategoria_hash": "7eb2d4f24603dd4701d684550879ff8a9db0ad04e76a16ab1c9d15251bd319de",
     "statusz": "kesz"
   },
   {
@@ -1002,9 +1220,14 @@
     "alkategoria": "Liszt, dara, morzsa",
     "altipus": "Kenyérliszt (BL80/BL112)",
     "tulajdonsagok": {
-      "kiszerelés": "tasak"
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "tasak",
+      "márka": "Happy Harvest"
     },
-    "kategoria_hash": "e99bef1bff9faf9d0989d0b8b2aced3abd7b2df8343ce33bff943ce5fb7110cf",
+    "kategoria_hash": "7eb2d4f24603dd4701d684550879ff8a9db0ad04e76a16ab1c9d15251bd319de",
     "statusz": "kesz"
   },
   {
@@ -1032,9 +1255,18 @@
     "alkategoria": "Cukor, édesítőszer",
     "altipus": "Folyékony édesítő",
     "tulajdonsagok": {
-      "kiszerelés": "flakon"
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
+      "kiszerelés": "flakon",
+      "hozzáadott aroma": false,
+      "márka": "Süssli",
+      "szín": [
+        "egyéb"
+      ]
     },
-    "kategoria_hash": "3a1ae0ea4db41215714fcd2179ebdcf3b0bc04c135d6113f5322645d3b96dc2f",
+    "kategoria_hash": "f404681ddc29dcf47040f8f26709a86bdeadf077e6200cc3d32a7e64b11eeec9",
     "statusz": "kesz"
   },
   {
@@ -1062,18 +1294,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Őrölt paprika",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "őrölt"
       ],
       "fűszerfajta": [
         "paprika"
       ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
       "csípősség": [
         "nem csípős"
       ]
     },
-    "kategoria_hash": "897398ea6867483437ae9736a91de023265bddb18aeeb6b42615afc702947824",
+    "kategoria_hash": "e42750cfa13c511d12f0b11a824f781dc5400b4bd73605cd6583e4790d45ba15",
     "statusz": "kesz"
   },
   {
@@ -1101,12 +1341,20 @@
     "alkategoria": "Friss töltött tészta, gnocchi",
     "altipus": "",
     "tulajdonsagok": {
+      "vegán": false,
       "vegetáriánus": true,
+      "gluténmentes": false,
+      "laktózmentes": false,
+      "csípős": false,
+      "csomagolás": "tasak",
       "konyha / stílus": [
         "olasz"
       ],
       "fő alapanyag": [
         "tészta"
+      ],
+      "adag": [
+        "egyszemélyes"
       ],
       "tárolás": [
         "hűtött"
@@ -1114,15 +1362,16 @@
       "elkészítés": [
         "forró vízzel"
       ],
+      "márka": "Cucina Nobile",
       "forma": [
-        "tortellini"
+        "tortelloni"
       ],
       "töltelék": [
         "spenótos",
         "ricottás"
       ]
     },
-    "kategoria_hash": "fd39a73e97a73480809372823c3ddc7187de2ca5c6f7beb174c15a019271065b",
+    "kategoria_hash": "3d0acba68b79ceb2983cc7544f40ece6fbb6531cb66b74c9d6ace130ba347f88",
     "statusz": "kesz"
   },
   {
@@ -1150,11 +1399,20 @@
     "alkategoria": "Friss töltött tészta, gnocchi",
     "altipus": "",
     "tulajdonsagok": {
+      "vegán": false,
+      "vegetáriánus": false,
+      "gluténmentes": false,
+      "laktózmentes": false,
+      "csípős": false,
+      "csomagolás": "tasak",
       "konyha / stílus": [
         "olasz"
       ],
       "fő alapanyag": [
         "tészta"
+      ],
+      "adag": [
+        "egyszemélyes"
       ],
       "tárolás": [
         "hűtött"
@@ -1162,14 +1420,15 @@
       "elkészítés": [
         "forró vízzel"
       ],
+      "márka": "Cucina Nobile",
       "forma": [
-        "tortellini"
+        "tortelloni"
       ],
       "töltelék": [
         "húsos"
       ]
     },
-    "kategoria_hash": "bdeac51a79ac6192a4f961ac4e0c848f5ec7fa55f69a771ba2cd0e49c6e66733",
+    "kategoria_hash": "de1ada173e12353f3fa921b759a76f2438fb7b3a13d8551d482f016e1ac5c01a",
     "statusz": "kesz"
   },
   {
@@ -1197,15 +1456,20 @@
     "alkategoria": "Instant ételek, alapok",
     "altipus": "Pürépor, krumplipehely",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
       "instant/por": true,
-      "íz / étel": [
-        "burgonyapüré"
-      ],
+      "hazai": false,
       "kiszerelés": [
         "tasakos"
+      ],
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "burgonyapüré"
       ]
     },
-    "kategoria_hash": "ad711800577582cdea02279d5357b4723e1df4f6b8208791875efeaa914a5432",
+    "kategoria_hash": "97675dac51b13775c3d0bb50e2138d8afbecbe383fef97312af2c0200e98b544",
     "statusz": "kesz"
   },
   {
@@ -1230,21 +1494,35 @@
       "besorolva": ""
     },
     "fokategoria": "Alapanyag, sütés-főzés",
-    "alkategoria": "Fűszer",
-    "altipus": "Őrölt paprika",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Paprikakrém, darált paprika",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "üveg",
-      "forma": [
-        "őrölt"
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "íz": [
+        "paprikás",
+        "csípős"
       ],
-      "fűszerfajta": [
+      "alap": [
         "paprika"
+      ],
+      "konyha / stílus": [
+        "magyaros"
       ],
       "csípősség": [
         "csípős"
+      ],
+      "állag": [
+        "darált"
       ]
     },
-    "kategoria_hash": "12cd603d76f2837b4b3d696775d63603829977df4f5cfe2e1f7eb8f0682c5dd6",
+    "kategoria_hash": "c3935ffaef3fe025e309c11b2e6a5f710814378fe59fd55cc0a692759deeca95",
     "statusz": "kesz"
   },
   {
@@ -1269,21 +1547,34 @@
       "besorolva": ""
     },
     "fokategoria": "Alapanyag, sütés-főzés",
-    "alkategoria": "Fűszer",
-    "altipus": "Őrölt paprika",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Paprikakrém, darált paprika",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "üveg",
-      "forma": [
-        "őrölt"
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "íz": [
+        "paprikás"
       ],
-      "fűszerfajta": [
+      "alap": [
         "paprika"
       ],
+      "konyha / stílus": [
+        "magyaros"
+      ],
       "csípősség": [
-        "nem csípős"
+        "csemege"
+      ],
+      "állag": [
+        "darált"
       ]
     },
-    "kategoria_hash": "45c21b4c8f1f717b7d043adbb9ff8e2a2c7c739478e1b61a3536b4c9daacbb01",
+    "kategoria_hash": "af6f006ad719b8d65ba10aab7441dc4095205db57303c211cad9c3c0bb27742f",
     "statusz": "kesz"
   },
   {
@@ -1311,16 +1602,25 @@
     "alkategoria": "Étkezési só, ételízesítő",
     "altipus": "Só",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "doboz",
+      "csökkentett nátriumtartalom": false,
+      "márka": "Le Gusto",
       "só típusa": [
         "jódozott",
         "tengeri"
       ],
       "szemcseméret / forma": [
         "finom"
+      ],
+      "alapíz / cél": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "e97152a873e26b6120a0269b286a8ff4792bbdec086058fe439186a27cda6285",
+    "kategoria_hash": "e4a0e3339dd22ecb800107c7af8b878ddb6e1a92468e6602c6f2bb3af7cc801a",
     "statusz": "kesz"
   },
   {
@@ -1348,12 +1648,24 @@
     "alkategoria": "Étkezési só, ételízesítő",
     "altipus": "Ételízesítő (Vegeta jellegű)",
     "tulajdonsagok": {
-      "kiszerelés": "tasak",
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "egyéb",
+      "csökkentett nátriumtartalom": false,
+      "márka": "Vegeta",
+      "só típusa": [
+        "egyéb"
+      ],
       "szemcseméret / forma": [
         "granulátum"
+      ],
+      "alapíz / cél": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "453a55334b4b64c8015db1805e9734b2e5c700431466cfa6292ece2f7fc036f2",
+    "kategoria_hash": "2947c23f4f3a2d99d022000c1c2a17ef9e38aebdf1f3d82d2da78416a86a52a7",
     "statusz": "kesz"
   },
   {
@@ -1381,18 +1693,28 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Ketchup",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "flakon",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "íz": [
+        "csípős"
+      ],
       "alap": [
         "paradicsom"
       ],
-      "íz": [
-        "csípős"
+      "konyha / stílus": [
+        "egyéb"
       ],
       "csípősség": [
         "csípős"
       ]
     },
-    "kategoria_hash": "59445735afe5dc4fa3d957bf3aa2c96f71669e9042644769224234647066cfcf",
+    "kategoria_hash": "9d58fa5757abd6a8466dfc5c825abb9d3e94893f409e748fac0140b365be234e",
     "statusz": "kesz"
   },
   {
@@ -1420,15 +1742,28 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Ketchup",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "flakon",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "íz": [
+        "natúr"
+      ],
       "alap": [
         "paradicsom"
       ],
+      "konyha / stílus": [
+        "egyéb"
+      ],
       "csípősség": [
-        "enyhe"
+        "csemege"
       ]
     },
-    "kategoria_hash": "3c7805490a7542cec4b27526cefe220b7ef0bc875db7dcbf7d4b234b789fdff7",
+    "kategoria_hash": "9bb4769eda57d583058bf1d89e3a7b1574a988a09d32d6b44b52e1ca7bcc63ff",
     "statusz": "kesz"
   },
   {
@@ -1456,12 +1791,18 @@
     "alkategoria": "Cukor, édesítőszer",
     "altipus": "Barnacukor, nádcukor",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "doboz",
+      "hozzáadott aroma": false,
+      "márka": "Happy Harvest",
       "szín": [
         "barna"
       ]
     },
-    "kategoria_hash": "ad4b346e55d7c9c3a833db226b924c566dceb6ca1c82ce0cffdacf867706cd38",
+    "kategoria_hash": "a4903abf1ed30b7d1693da76593a7e364ce213239e15c1eb43f99db78b55fc23",
     "statusz": "kesz"
   },
   {
@@ -1489,21 +1830,28 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Tésztaszósz",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "üveg",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "íz": [
+        "csípős"
+      ],
       "alap": [
         "paradicsom"
       ],
       "konyha / stílus": [
         "olasz"
       ],
-      "íz": [
-        "csípős"
-      ],
       "csípősség": [
         "csípős"
       ]
     },
-    "kategoria_hash": "79288769e3cfee1a10b77e6313fa84ea584f8bd4f74da0b1f0a954873676abc5",
+    "kategoria_hash": "abf2a390c101a65370f3942a748d3386bb8a9e3f4e3237384865cab22f46cb27",
     "statusz": "kesz"
   },
   {
@@ -1531,15 +1879,28 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Tésztaszósz",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "üveg",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "íz": [
+        "egyéb"
+      ],
       "alap": [
         "paradicsom"
       ],
       "konyha / stílus": [
         "olasz"
+      ],
+      "csípősség": [
+        "csemege"
       ]
     },
-    "kategoria_hash": "6c7d4ccdd745b1f08cad23e18dd56502efe73acf971a744269d60c652fb097e7",
+    "kategoria_hash": "bd8dbe88048f5e162fcf27c39660f75a53618837be2a084c388501eef73ffbbc",
     "statusz": "kesz"
   },
   {
@@ -1567,15 +1928,28 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Tésztaszósz",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "üveg",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "íz": [
+        "egyéb"
+      ],
       "alap": [
         "paradicsom"
       ],
       "konyha / stílus": [
         "olasz"
+      ],
+      "csípősség": [
+        "csemege"
       ]
     },
-    "kategoria_hash": "6c7d4ccdd745b1f08cad23e18dd56502efe73acf971a744269d60c652fb097e7",
+    "kategoria_hash": "bd8dbe88048f5e162fcf27c39660f75a53618837be2a084c388501eef73ffbbc",
     "statusz": "kesz"
   },
   {
@@ -1605,12 +1979,14 @@
     "tulajdonsagok": {
       "márka": "Teekanne",
       "típus": "filteres",
+      "fajta": "egyéb",
       "íz": [
         "narancs",
-        "fahéj"
+        "fahéj",
+        "alma"
       ]
     },
-    "kategoria_hash": "406913ca0a28bf90913ceb6d68551e081287e035c5916507e233fca7b199969d",
+    "kategoria_hash": "e8012f5e329b0d6688113618e8499f0bc29c485f412ee79f6e21723543a9f941",
     "statusz": "kesz"
   },
   {
@@ -1640,11 +2016,12 @@
     "tulajdonsagok": {
       "márka": "Teekanne",
       "típus": "filteres",
+      "fajta": "egyéb",
       "íz": [
         "egyéb"
       ]
     },
-    "kategoria_hash": "40ad1f08d2ce40158eef5a5e4382eb4c7b5b2d5e9b75b74866b8a0f70d07c532",
+    "kategoria_hash": "4da7aae255c32dad405ae7430d1a5826f628ebc09cde0aefa5882bd68451dde6",
     "statusz": "kesz"
   },
   {
@@ -1674,11 +2051,12 @@
     "tulajdonsagok": {
       "márka": "Teekanne",
       "típus": "filteres",
+      "fajta": "egyéb",
       "íz": [
         "citrom"
       ]
     },
-    "kategoria_hash": "7c97320d294c8d3992bc701ce288bfefff5276ac8bd28eaa67c0b9b2c089e824",
+    "kategoria_hash": "c9d0d8b2c6c4440e5d8e6516653e2ceda3be45b4dcfac205a2ec69e0d815e279",
     "statusz": "kesz"
   },
   {
@@ -1708,11 +2086,12 @@
     "tulajdonsagok": {
       "márka": "Teekanne",
       "típus": "filteres",
+      "fajta": "egyéb",
       "íz": [
         "mangó"
       ]
     },
-    "kategoria_hash": "56c2c9762243ac5909edc0f8081a77b76333a27a921da6028b799c89098a61d9",
+    "kategoria_hash": "1586ffdb58687bbfc2151c5ec73ea32cd23e6f3184d1acb0365c2daa5565f1cb",
     "statusz": "kesz"
   },
   {
@@ -1742,11 +2121,12 @@
     "tulajdonsagok": {
       "márka": "Teekanne",
       "típus": "filteres",
+      "fajta": "egyéb",
       "íz": [
         "vanília"
       ]
     },
-    "kategoria_hash": "21b46a8e15cdefaf5b701444568240bd0b865263c9891ec3b38b33925d73de28",
+    "kategoria_hash": "a3e4fb64de60700226b4a9573471e6cc55ca11ed9dc35f39c9a0bdef2ca398a3",
     "statusz": "kesz"
   },
   {
@@ -1774,7 +2154,13 @@
     "alkategoria": "Sütési alapanyag",
     "altipus": "Kakaópor, csokicsepp, tortabevonó",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "instant": false,
+      "márka": "Back Family",
       "forma": [
         "bevonó"
       ],
@@ -1785,7 +2171,7 @@
         "kakaós"
       ]
     },
-    "kategoria_hash": "15e8b2c2347f7f0d73a96b833fc16e4df31ac9eb39011ec2f4e9ecf885c4cb2b",
+    "kategoria_hash": "60bc82b1cd590600b51ba2a3c35b14f73cf0cf079a93ac78d852266c9e6b0d4a",
     "statusz": "kesz"
   },
   {
@@ -1813,7 +2199,13 @@
     "alkategoria": "Sütési alapanyag",
     "altipus": "Kakaópor, csokicsepp, tortabevonó",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "instant": false,
+      "márka": "Back Family",
       "forma": [
         "bevonó"
       ],
@@ -1824,7 +2216,7 @@
         "fehér"
       ]
     },
-    "kategoria_hash": "aac5b113c9cf6c5ea85ca7674205f1e3f9570887cc5734e61f85cf0b75f3d603",
+    "kategoria_hash": "04f4ae10f3eefae62ea85e2a844fdbd3510e116a1defbeb2aafd40159c411b58",
     "statusz": "kesz"
   },
   {
@@ -1852,7 +2244,13 @@
     "alkategoria": "Sütési alapanyag",
     "altipus": "Kakaópor, csokicsepp, tortabevonó",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "instant": false,
+      "márka": "Back Family",
       "forma": [
         "bevonó"
       ],
@@ -1863,7 +2261,7 @@
         "kakaós"
       ]
     },
-    "kategoria_hash": "15e8b2c2347f7f0d73a96b833fc16e4df31ac9eb39011ec2f4e9ecf885c4cb2b",
+    "kategoria_hash": "60bc82b1cd590600b51ba2a3c35b14f73cf0cf079a93ac78d852266c9e6b0d4a",
     "statusz": "kesz"
   },
   {
@@ -1891,15 +2289,29 @@
     "alkategoria": "Lekvár, méz, édes krém",
     "altipus": "Mogyorókrém, csokikrém (Nutella jellegű)",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "üveg",
+      "márka": "Ferrero",
       "gyümölcs / íz": [
         "kakaó-mogyoró"
+      ],
+      "gyümölcstartalom": [
+        "egyéb"
+      ],
+      "édesítés": [
+        "cukorral"
+      ],
+      "méz fajta": [
+        "egyéb"
       ],
       "állag": [
         "krémes"
       ]
     },
-    "kategoria_hash": "5b69272119bd2240d3bb1b4611ca570045a1af0c8959c184be45536753c036af",
+    "kategoria_hash": "0362ed613bef5497a42b01d7ad6c375dbb287809ca446b1c03ebcfe0147c1c8a",
     "statusz": "kesz"
   },
   {
@@ -1927,7 +2339,21 @@
     "alkategoria": "Lekvár, méz, édes krém",
     "altipus": "Méz",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "üveg",
+      "márka": "Grandessa",
+      "gyümölcs / íz": [
+        "egyéb"
+      ],
+      "gyümölcstartalom": [
+        "egyéb"
+      ],
+      "édesítés": [
+        "egyéb"
+      ],
       "méz fajta": [
         "virág"
       ],
@@ -1935,7 +2361,7 @@
         "szűrt"
       ]
     },
-    "kategoria_hash": "cf805507291b2daa80c716c2f19ba71797253432bba359f423b1b4dea404c13f",
+    "kategoria_hash": "243876791b8e0b40b0cd59bec6dbe79ceb91c61b58b85a1dd899c1a7896b4c48",
     "statusz": "kesz"
   },
   {
@@ -1963,7 +2389,12 @@
     "alkategoria": "Olaj, ecet, zsiradék",
     "altipus": "Olívaolaj",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "flakon",
+      "márka": "Fontoliva",
       "alapanyag": [
         "olíva"
       ],
@@ -1971,7 +2402,7 @@
         "finomított"
       ]
     },
-    "kategoria_hash": "34e309fb76adbc189408894c7c0aabfb619a66619e0e04fa5541e59b706fa756",
+    "kategoria_hash": "86087b509859ea30d86e3ad14d1135f34a40e85f3521156a2b00ab64612fc8fb",
     "statusz": "kesz"
   },
   {
@@ -1999,6 +2430,13 @@
     "alkategoria": "Halkonzerv",
     "altipus": "Tonhalkonzerv",
     "tulajdonsagok": {
+      "fagyasztott": false,
+      "bio": false,
+      "hazai/magyar": false,
+      "ízesített/pácolt": false,
+      "készítmény (növényi/kevert)": false,
+      "MSC / fenntartható halászat": false,
+      "márka": "Rio Mare",
       "közeg / szósz": [
         "olívaolajban"
       ],
@@ -2009,7 +2447,7 @@
         "konzervdoboz"
       ]
     },
-    "kategoria_hash": "eaba14ef7ee9a5c3808c1b473c2cfb2b6ed027507ce36034c8db105f962a7e4c",
+    "kategoria_hash": "d99408be3cef389886b9eeb26566b696857b7cece0032d9e1eaffa0a7d2bee01",
     "statusz": "kesz"
   },
   {
@@ -2039,9 +2477,14 @@
     "tulajdonsagok": {
       "márka": "Barissimo",
       "fajta": "szemes",
-      "kiszerelés / rendszer": "tasak"
+      "típus": "egyéb",
+      "koffeintartalom": "intenzív",
+      "kiszerelés / rendszer": "tasak",
+      "íz": [
+        "intenzív"
+      ]
     },
-    "kategoria_hash": "62bad9f28c76a844c2beedc45f8bb561ab02bc2b572fd43d2c6ad6af700e672f",
+    "kategoria_hash": "9623554b153398038ebc1e5889bd0a83feaefdb97d14ab43dc2297e34b62a9f2",
     "statusz": "kesz"
   },
   {
@@ -2071,12 +2514,14 @@
     "tulajdonsagok": {
       "márka": "Barissimo",
       "fajta": "szemes",
+      "típus": "egyéb",
+      "koffeintartalom": "normál",
       "kiszerelés / rendszer": "tasak",
       "íz": [
         "krémes"
       ]
     },
-    "kategoria_hash": "b93a7e7a7ceb4e96231ab9e0cf2cf8e06ec23cf2b51201ee51f51cb7ae881eb9",
+    "kategoria_hash": "99af48148e9b3ec9c11e690c435f139b1a37d7dc36e592db7124481a67c7514b",
     "statusz": "kesz"
   },
   {
@@ -2103,8 +2548,25 @@
     "fokategoria": "Alapanyag, sütés-főzés",
     "alkategoria": "Sütési alapanyag",
     "altipus": "Sütőpor, szódabikarbóna, élesztő",
-    "tulajdonsagok": {},
-    "kategoria_hash": "4b8af4279ddcc7a949243b225846cc54e424579a736dd6a84e62f77ef7a82389",
+    "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
+      "kiszerelés": "egyéb",
+      "instant": false,
+      "márka": "egyéb",
+      "forma": [
+        "egyéb"
+      ],
+      "íz / aroma": [
+        "egyéb"
+      ],
+      "szín": [
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "7e574e80261bdd31aa755726fe67e29d5eb5426b96a3d446a158491c67c7eaef",
     "statusz": "kesz"
   },
   {
@@ -2132,12 +2594,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Szárított fűszernövény",
     "tulajdonsagok": {
-      "kiszerelés": "zacskó",
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "egyéb",
+      "márka": "Le Gusto",
       "forma": [
         "morzsolt"
+      ],
+      "fűszerfajta": [
+        "egyéb"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "daf8d48604fd9dbb538d11030675ad1c6163fb3987941e913b9e029f8898ea10",
+    "kategoria_hash": "2dc011384a443c2980563448b3060c245a5d3e94b932a55c2b6c4801ea190349",
     "statusz": "kesz"
   },
   {
@@ -2165,15 +2641,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Szárított fűszernövény",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "morzsolt"
       ],
       "fűszerfajta": [
         "kakukkfű"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "8057f53c5009081bc6cc418f6d36b3d2466ebf29f006e3951a18bb10b92d4e9b",
+    "kategoria_hash": "56ed7226e3383cacd14c185d351e11ead94fd533e9540ac016605ab07f8a1820",
     "statusz": "kesz"
   },
   {
@@ -2201,12 +2688,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Szárított fűszernövény",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "morzsolt"
+      ],
+      "fűszerfajta": [
+        "egyéb"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "daf8d48604fd9dbb538d11030675ad1c6163fb3987941e913b9e029f8898ea10",
+    "kategoria_hash": "21880022598cd9088d42976a4e363b88d872dc2e37a28e722ebe8ee5fdcc44bc",
     "statusz": "kesz"
   },
   {
@@ -2234,15 +2735,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Szárított fűszernövény",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "morzsolt"
       ],
       "fűszerfajta": [
         "bazsalikom"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "b8178998c494eab52a6cc80bfc81495431ba8603b49a079133ea2509b501aab1",
+    "kategoria_hash": "7a90cd664194057cb405540767489fba253260c109f95f6b882fc5c8de6986ba",
     "statusz": "kesz"
   },
   {
@@ -2270,15 +2782,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Szárított fűszernövény",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "morzsolt"
       ],
       "fűszerfajta": [
         "kapor"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "1719429a940194909289a5cc113d4cb6b32369c86de5c175304b6c58b9c0b0b8",
+    "kategoria_hash": "b6ca159d71abc25f8f87de1d183bfb1e049bb7280d8ac0cc8a0d5fc3b96bfc25",
     "statusz": "kesz"
   },
   {
@@ -2306,15 +2829,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Szárított fűszernövény",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "morzsolt"
       ],
       "fűszerfajta": [
         "oregánó"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "732303d3dcec398af970e24d6842534cfe78f4a5891e253d9971d04bea659ff3",
+    "kategoria_hash": "4e3ec14e2a9f447251ce909dc2c2f68083e5ec6b64666c30d2daa2272d0f6009",
     "statusz": "kesz"
   },
   {
@@ -2342,15 +2876,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Szárított fűszernövény",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "morzsolt"
       ],
       "fűszerfajta": [
         "petrezselyem"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "31f9780778aecf9fb28264d947908a7078c8c020e9e2b9f26238ccde403aeae4",
+    "kategoria_hash": "daffa825b88700c7147d556e2cc82fd7c3ebf7c49ec2a62ad1cf8423951a5863",
     "statusz": "kesz"
   },
   {
@@ -2378,17 +2923,26 @@
     "alkategoria": "Müzliszelet, gabonaszelet",
     "altipus": "Müzliszelet",
     "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Enjoy Free!",
       "alap": [
-        "zab"
+        "egyéb"
       ],
       "íz": [
         "kókusz"
       ],
       "bevonat": [
         "tejcsokoládé"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "b93ce89473633ac2f76d95ba7e0dee68e64cd34c2e9206aeb82c36ad53446fb5",
+    "kategoria_hash": "b202b1dde8d7792b92cea501d5d27e59a42da5e5076e3b04ab79c5c12b77f1df",
     "statusz": "kesz"
   },
   {
@@ -2417,11 +2971,25 @@
     "altipus": "Müzliszelet",
     "tulajdonsagok": {
       "cukormentes / hozzáadott cukor nélkül": true,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Enjoy Free!",
       "alap": [
-        "zab"
+        "egyéb"
+      ],
+      "íz": [
+        "egyéb"
+      ],
+      "bevonat": [
+        "egyéb"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "c1d5085c5163248496a175806ea02ab3d161b7742d769800d66aa405de910db4",
+    "kategoria_hash": "60ce0fd7660fb17aad10aacba76a3a5538bdf9878861aa34870419194b4a84e3",
     "statusz": "kesz"
   },
   {
@@ -2449,15 +3017,26 @@
     "alkategoria": "Müzliszelet, gabonaszelet",
     "altipus": "Müzliszelet",
     "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Golden Bridge",
       "alap": [
-        "zab",
         "gyümölcs"
+      ],
+      "íz": [
+        "egyéb"
       ],
       "bevonat": [
         "joghurtos"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "23fce45368abfcb29650f72c62e81c0479acc0fae7f5c0c83f26ea196d059083",
+    "kategoria_hash": "bb0e0651ac048c516834a19db1a3b28a8f9cf258ad0207fdcbb4160607ebc492",
     "statusz": "kesz"
   },
   {
@@ -2485,17 +3064,26 @@
     "alkategoria": "Müzliszelet, gabonaszelet",
     "altipus": "Müzliszelet",
     "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Golden Bridge",
       "alap": [
-        "zab"
+        "gyümölcs"
       ],
       "íz": [
         "áfonya"
       ],
       "bevonat": [
         "joghurtos"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "9f590e60355e907eaaf1bb00f204d848f7b1c3f544d9bd8a2d7891e91cda9f05",
+    "kategoria_hash": "324e71cf61565ec165bc403a197a9e200f51cab48a807678a3296e8d91bad37d",
     "statusz": "kesz"
   },
   {
@@ -2523,14 +3111,26 @@
     "alkategoria": "Müzliszelet, gabonaszelet",
     "altipus": "Müzliszelet",
     "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Golden Bridge",
       "alap": [
-        "zab"
+        "egyéb"
       ],
       "íz": [
         "csokoládé"
+      ],
+      "bevonat": [
+        "egyéb"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "53af381b71f8725da733dc1c53e4942c63ba0bbd83ae8978878b92d20785da77",
+    "kategoria_hash": "8030684cebe03586d4a4fe66704b46e3febd70e706b30b363014ad52c85ab413",
     "statusz": "kesz"
   },
   {
@@ -2558,12 +3158,26 @@
     "alkategoria": "Müzliszelet, gabonaszelet",
     "altipus": "Müzliszelet",
     "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Golden Bridge",
       "alap": [
-        "zab",
         "gyümölcs"
+      ],
+      "íz": [
+        "egyéb"
+      ],
+      "bevonat": [
+        "egyéb"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "6f7d44fafcf926e3cf39c15f47d10f15f99572e99f747110445e9984e82781eb",
+    "kategoria_hash": "de255dbdb5e3cc146736dbedeef30c9782742ad546f2ab7689b0a6f28d838895",
     "statusz": "kesz"
   },
   {
@@ -2591,15 +3205,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Őrölt / egész fűszer",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "őrölt"
       ],
       "fűszerfajta": [
         "kömény"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "ef391ce85e2d17276f01cfaffa7cb381840e4097f2f6a89932010b0a979f1051",
+    "kategoria_hash": "4c2c3087989890855d17386f9d4e508e60ca81ba97d2aff5366927e49e7014f3",
     "statusz": "kesz"
   },
   {
@@ -2627,15 +3252,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Őrölt / egész fűszer",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "őrölt"
       ],
       "fűszerfajta": [
         "gyömbér"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "enyhén csípős"
       ]
     },
-    "kategoria_hash": "f9ce11caab37d32683f4595a39ef35902d29748e259d93f24d292f64e76928cc",
+    "kategoria_hash": "af98263086a1bc7b8237e62024e3f7d0f602f57e4851380b1ed8979d6ce15528",
     "statusz": "kesz"
   },
   {
@@ -2663,6 +3299,12 @@
     "alkategoria": "Pástétom, húskrém",
     "altipus": "Májpástétom",
     "tulajdonsagok": {
+      "fagyasztott": false,
+      "bio": false,
+      "hazai/magyar": false,
+      "ízesített/pácolt": false,
+      "készítmény (növényi/kevert)": false,
+      "márka": "Primana",
       "alap": [
         "sertésmáj"
       ],
@@ -2673,7 +3315,7 @@
         "konzerv"
       ]
     },
-    "kategoria_hash": "acb22b82f992e8ba25dac06582a29041640c6e1dc1ca9e772a08231162f09dfd",
+    "kategoria_hash": "6a6dfeb85ae2a78af789ab8e463887ae356bced5348427eeee312b9ee7198efe",
     "statusz": "kesz"
   },
   {
@@ -2701,6 +3343,12 @@
     "alkategoria": "Pástétom, húskrém",
     "altipus": "Májpástétom",
     "tulajdonsagok": {
+      "fagyasztott": false,
+      "bio": false,
+      "hazai/magyar": false,
+      "ízesített/pácolt": false,
+      "készítmény (növényi/kevert)": false,
+      "márka": "Primana",
       "alap": [
         "csirkemáj"
       ],
@@ -2711,7 +3359,7 @@
         "konzerv"
       ]
     },
-    "kategoria_hash": "856a37665cccf60d5a39d0988fa4f6a8b34fb35a12bfce62efb6dee500920c18",
+    "kategoria_hash": "652234788b3333338d8206eaf1086d1c3c03a25d4cc392ae63a704e6f66c90ee",
     "statusz": "kesz"
   },
   {
@@ -2739,12 +3387,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Szárított fűszernövény",
     "tulajdonsagok": {
-      "kiszerelés": "zacskó",
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "egyéb",
+      "márka": "Le Gusto",
       "forma": [
         "morzsolt"
+      ],
+      "fűszerfajta": [
+        "egyéb"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "daf8d48604fd9dbb538d11030675ad1c6163fb3987941e913b9e029f8898ea10",
+    "kategoria_hash": "2dc011384a443c2980563448b3060c245a5d3e94b932a55c2b6c4801ea190349",
     "statusz": "kesz"
   },
   {
@@ -2772,16 +3434,27 @@
     "alkategoria": "Fűszer",
     "altipus": "Őrölt / egész fűszer",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "egész",
         "mag"
       ],
       "fűszerfajta": [
         "kömény"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "6553dd501d31dc9d8474f72c1509bd6bab03296833456c6d6ef64c6f4be33c23",
+    "kategoria_hash": "cd64cbb1fb2725b9eef770dc72006191171204cf542a281b97146e969fdc4606",
     "statusz": "kesz"
   },
   {
@@ -2809,15 +3482,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Szárított fűszernövény",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "morzsolt"
       ],
       "fűszerfajta": [
         "tárkony"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "5eda71573ca396d40469d88858e057f36f213328c579ac6bad5b08f22b4dfa0c",
+    "kategoria_hash": "ee6f2e17fc9612caf0b3580feb20c1368707524c9b7f97583827db29900f1c9e",
     "statusz": "kesz"
   },
   {
@@ -2845,15 +3529,27 @@
     "alkategoria": "Müzliszelet, gabonaszelet",
     "altipus": "Gabonaszelet",
     "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Golden Bridge",
       "alap": [
         "zab",
         "gyümölcs"
       ],
+      "íz": [
+        "egyéb"
+      ],
       "bevonat": [
         "joghurtos"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "5ea74ef60076c79ccbff5138c6cf31a4462168a005081029474cb437c000768b",
+    "kategoria_hash": "67a2f8f11e745323db443d52903aacd431259f3d90b881813b327818c89becb7",
     "statusz": "kesz"
   },
   {
@@ -2881,15 +3577,24 @@
     "alkategoria": "Étkezési só, ételízesítő",
     "altipus": "Fűszersó",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "csökkentett nátriumtartalom": false,
+      "márka": "Le Gusto",
       "só típusa": [
         "fűszersó"
       ],
       "szemcseméret / forma": [
         "por"
+      ],
+      "alapíz / cél": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "3199effbbcad52aa325c27a0d244b09461a59a34c196b3dc389e62e37dbca1c4",
+    "kategoria_hash": "e20a65699496daa15793bbab3f4feebb94d6092a3e82923d0727fd925fcc3da8",
     "statusz": "kesz"
   },
   {
@@ -2917,12 +3622,24 @@
     "alkategoria": "Sütési alapanyag",
     "altipus": "Zselatin, habfixáló, tortazselé",
     "tulajdonsagok": {
-      "kiszerelés": "tasak",
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "zacskó",
+      "instant": true,
+      "márka": "Dr. Oetker",
       "forma": [
         "por"
+      ],
+      "íz / aroma": [
+        "egyéb"
+      ],
+      "szín": [
+        "fehér"
       ]
     },
-    "kategoria_hash": "48f32a50b4d6017139628143a0796ff580d67145cf8cfdc17f32d303f526650d",
+    "kategoria_hash": "f64143943c155a4a7517f8566ec2da15efd64fc791553b3742e15f49e96c2134",
     "statusz": "kesz"
   },
   {
@@ -2950,9 +3667,14 @@
     "alkategoria": "Liszt, dara, morzsa",
     "altipus": "Finomliszt (BL55)",
     "tulajdonsagok": {
-      "kiszerelés": "tasak"
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "tasak",
+      "márka": "Happy Harvest"
     },
-    "kategoria_hash": "b2c2583cc9f19b79265334c875375d83eb62e87d254e16e643af284deaec289a",
+    "kategoria_hash": "b8a2f0aa61f706f60d63068daad93fb3c1c54d42b8f57cf0437840bdcf32d8a4",
     "statusz": "kesz"
   },
   {
@@ -2980,15 +3702,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Őrölt paprika",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "őrölt"
       ],
       "fűszerfajta": [
         "paprika"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "3105f32d25a3faae28218778420a404ba43406f3b215fd75da73a709e1bfb05e",
+    "kategoria_hash": "e42750cfa13c511d12f0b11a824f781dc5400b4bd73605cd6583e4790d45ba15",
     "statusz": "kesz"
   },
   {
@@ -3016,7 +3749,12 @@
     "alkategoria": "Fűszer",
     "altipus": "Bors, chili",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "szeletelt"
       ],
@@ -3024,11 +3762,14 @@
         "chili",
         "paprika"
       ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
       "csípősség": [
         "csípős"
       ]
     },
-    "kategoria_hash": "d3e38d7148c8e4beddda8e92edae0aed9912bbe961564b1a16003addc8cffff6",
+    "kategoria_hash": "81f7ea8c3b4b615f09c3bb706882ee90550591769c1729c22668e3dd4d76cdf3",
     "statusz": "kesz"
   },
   {
@@ -3056,18 +3797,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Bors, chili",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "őrölt"
       ],
       "fűszerfajta": [
         "chili"
       ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
       "csípősség": [
         "extra csípős"
       ]
     },
-    "kategoria_hash": "b468917d6f375fc779ff9def81211aff29b90f1a7f084b12370a079df0044f77",
+    "kategoria_hash": "4847a885dfe12251b9649a06a0c47ef764e1502f446417b1ee2f453d045e5d66",
     "statusz": "kesz"
   },
   {
@@ -3095,12 +3844,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Őrölt / egész fűszer",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "őrölt"
+      ],
+      "fűszerfajta": [
+        "egyéb"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "nem csípős"
       ]
     },
-    "kategoria_hash": "85a379c8c2c87bb2df2c4985df4de43bdda7d32fdc8ca3158afc47156c40ce4c",
+    "kategoria_hash": "78c6c8c2a3b4cb916b45cf98bc89b8f2834c3ac998b0ded1c37369408a84f6a4",
     "statusz": "kesz"
   },
   {
@@ -3128,16 +3891,27 @@
     "alkategoria": "Müzliszelet, gabonaszelet",
     "altipus": "Gabonaszelet",
     "tulajdonsagok": {
-      "gluténmentes": true,
       "cukormentes / hozzáadott cukor nélkül": true,
+      "gluténmentes": true,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Enjoy Free!",
       "alap": [
-        "zab"
+        "zab",
+        "gyümölcs"
       ],
       "íz": [
         "áfonya"
+      ],
+      "bevonat": [
+        "egyéb"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "76849a10e931e30d659aa62434e7508c4cdeeccc73c75ca626b4fe1cca27cef6",
+    "kategoria_hash": "f615a9d9f95c8fe9d13c15283192d561ea3b1abfc9bd80f52060beecf7d41e17",
     "statusz": "kesz"
   },
   {
@@ -3165,14 +3939,26 @@
     "alkategoria": "Müzliszelet, gabonaszelet",
     "altipus": "Gabonaszelet",
     "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Golden Bridge",
       "alap": [
         "zab"
       ],
       "íz": [
         "csokoládé"
+      ],
+      "bevonat": [
+        "étcsokoládé"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "ff0fea2787efe69e5396cd98b43c7a53f6b9273a4f9e812ed4e5f1248f184032",
+    "kategoria_hash": "25947c546ea99ae6913f8719fb1677a2ddec50a1c1da985a93cb74ae7417d588",
     "statusz": "kesz"
   },
   {
@@ -3200,12 +3986,27 @@
     "alkategoria": "Müzliszelet, gabonaszelet",
     "altipus": "Gyümölcsszelet, datolyaszelet",
     "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Happy Harvest",
       "alap": [
         "datolya",
         "gyümölcs"
+      ],
+      "íz": [
+        "egyéb"
+      ],
+      "bevonat": [
+        "bevonat nélküli"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "974c2f25c978d143d0a4b6f217e14105206561f6309b1ccb06e6adffad72e27f",
+    "kategoria_hash": "9a82a9ba4f12148bef13c2bb3e99c505308753e510bd78e36ab77f033b412b05",
     "statusz": "kesz"
   },
   {
@@ -3233,12 +4034,27 @@
     "alkategoria": "Müzliszelet, gabonaszelet",
     "altipus": "Gyümölcsszelet, datolyaszelet",
     "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Happy Harvest",
       "alap": [
         "datolya",
         "gyümölcs"
+      ],
+      "íz": [
+        "egyéb"
+      ],
+      "bevonat": [
+        "bevonat nélküli"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "974c2f25c978d143d0a4b6f217e14105206561f6309b1ccb06e6adffad72e27f",
+    "kategoria_hash": "9a82a9ba4f12148bef13c2bb3e99c505308753e510bd78e36ab77f033b412b05",
     "statusz": "kesz"
   },
   {
@@ -3266,9 +4082,14 @@
     "alkategoria": "Liszt, dara, morzsa",
     "altipus": "Rétesliszt (BFF55)",
     "tulajdonsagok": {
-      "kiszerelés": "tasak"
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "tasak",
+      "márka": "Happy Harvest"
     },
-    "kategoria_hash": "b3da3de7e14baaba60e5c1d32aec5f35f339a0edbd1250513df162416fa0efc1",
+    "kategoria_hash": "c5dbad7aa5fc5884adc8694c14eeefa408c619159a919d789d14e79b2facfa37",
     "statusz": "kesz"
   },
   {
@@ -3296,7 +4117,15 @@
     "alkategoria": "Gabonapehely, reggeli müzli",
     "altipus": "Zabkása, zabpehely",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "tasak",
+      "hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
       "instant": true,
+      "márka": "Golden Bridge",
       "alap": [
         "zab"
       ],
@@ -3304,7 +4133,7 @@
         "csokoládé"
       ]
     },
-    "kategoria_hash": "cf8c63f847b10aa603dafb92ef1732268d8104a05226ff9c74d897b6a41ec5f1",
+    "kategoria_hash": "e24792a343024fba97e9ee30f83291f8edaf881a9721876bc450d0d9921a33db",
     "statusz": "kesz"
   },
   {
@@ -3332,7 +4161,15 @@
     "alkategoria": "Gabonapehely, reggeli müzli",
     "altipus": "Zabkása, zabpehely",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
+      "kiszerelés": "tasak",
+      "hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
       "instant": true,
+      "márka": "Golden Bridge",
       "alap": [
         "zab"
       ],
@@ -3340,7 +4177,7 @@
         "erdei gyümölcs"
       ]
     },
-    "kategoria_hash": "7de8e09dc3fec035f8149e78d9bd25cbf3f30d849db9d3c29988202048575f2c",
+    "kategoria_hash": "b8e86fbc246c77dc4ee0259280e95531547684c85c6a1790872801d2fc2e1cf6",
     "statusz": "kesz"
   },
   {
@@ -3368,14 +4205,29 @@
     "alkategoria": "Müzliszelet, gabonaszelet",
     "altipus": "Gabonaszelet",
     "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Golden Bridge",
       "alap": [
-        "zab"
+        "zab",
+        "gyümölcs"
       ],
       "íz": [
-        "málna"
+        "áfonya",
+        "málna",
+        "egyéb"
+      ],
+      "bevonat": [
+        "egyéb"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "ab1858313d316039b3a38bc7fcb1c9ea66c67886cca8707228eaf915bf00b8ea",
+    "kategoria_hash": "58a8dabd08602ace8e78a728a0bba87bc9c7dddd183ab81f5e6753241784ec19",
     "statusz": "kesz"
   },
   {
@@ -3403,14 +4255,26 @@
     "alkategoria": "Müzliszelet, gabonaszelet",
     "altipus": "Gabonaszelet",
     "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Golden Bridge",
       "alap": [
         "zab"
       ],
       "íz": [
         "csokoládé"
+      ],
+      "bevonat": [
+        "egyéb"
+      ],
+      "fehérjetartalom": [
+        "10 g alatt"
       ]
     },
-    "kategoria_hash": "ff0fea2787efe69e5396cd98b43c7a53f6b9273a4f9e812ed4e5f1248f184032",
+    "kategoria_hash": "eeaa23d0d1b50218f86d07c85b9b435fad869fbf802ae46a7825b04c09cc45db",
     "statusz": "kesz"
   },
   {
@@ -3438,15 +4302,26 @@
     "alkategoria": "Fűszer",
     "altipus": "Bors, chili",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": true,
+      "hazai": false,
       "kiszerelés": "zacskó",
+      "márka": "Le Gusto",
       "forma": [
         "őrölt"
       ],
       "fűszerfajta": [
         "bors"
+      ],
+      "célétel / stílus": [
+        "egyéb"
+      ],
+      "csípősség": [
+        "enyhén csípős"
       ]
     },
-    "kategoria_hash": "6556989a2f6ad81a9db250c417a4f540ca11588264d9298a19c7a4bc5dbf8970",
+    "kategoria_hash": "7915a7f37b86b3080c415bcf8596e480968e6864c26c757bc8e66da9735d406a",
     "statusz": "kesz"
   },
   {
@@ -3474,15 +4349,25 @@
     "alkategoria": "Konzerv, savanyúság, befőtt",
     "altipus": "Paradicsomkonzerv, -püré, passzírozott",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
+      "instant/por": false,
+      "hazai": false,
       "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": false,
+      "csípős": false,
+      "márka": "Cucina",
       "alapanyag": [
         "paradicsom"
+      ],
+      "lé / közeg": [
+        "egyéb"
       ],
       "darabolás": [
         "püré"
       ]
     },
-    "kategoria_hash": "2f4353e33e3ee0aa2e088eaaa3dabe2a91023cb49617ce05a53c88192cbedbd8",
+    "kategoria_hash": "11dfe14e63c9950f478122972ab4f4f9d1fae828877cdef51ec3a6739f8cb328",
     "statusz": "kesz"
   },
   {
@@ -3510,12 +4395,20 @@
     "alkategoria": "Instant ételek, alapok",
     "altipus": "Ételalap, fix por",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
       "instant/por": true,
+      "hazai": false,
       "kiszerelés": [
         "tasakos"
+      ],
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "2888661814420b27a2a79a3f9568972f3d7082188bf9ac1d9baf715a2b4ced6d",
+    "kategoria_hash": "3a15fb6b1d88842e389fab411eeb8a92358c6a12b78812a9a89534fce0d445fc",
     "statusz": "kesz"
   },
   {
@@ -3543,12 +4436,20 @@
     "alkategoria": "Instant ételek, alapok",
     "altipus": "Ételalap, fix por",
     "tulajdonsagok": {
+      "bio": false,
+      "gluténmentes": false,
       "instant/por": true,
+      "hazai": false,
       "kiszerelés": [
         "tasakos"
+      ],
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "2888661814420b27a2a79a3f9568972f3d7082188bf9ac1d9baf715a2b4ced6d",
+    "kategoria_hash": "3a15fb6b1d88842e389fab411eeb8a92358c6a12b78812a9a89534fce0d445fc",
     "statusz": "kesz"
   }
 ]
