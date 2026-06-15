@@ -106,6 +106,13 @@
               "csoportos": {}
             },
             "altípusok": {}
+          },
+          "Gluténmentes lisztkeverék": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
           }
         }
       },
@@ -179,7 +186,13 @@
           "Édesítőszer (stevia, eritrit, xilit)": {
             "tulajdonságok": {
               "egyedi": {},
-              "csoportos": {}
+              "csoportos": {
+                "édesítőszer típusa": [
+                  "eritrit",
+                  "xilit",
+                  "egyéb"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -457,6 +470,8 @@
               "Wonnemeyer",
               "Asia Green Garden",
               "King's Crown",
+              "Globus",
+              "Heinz",
               "egyéb"
             ],
             "bio": {},
@@ -493,6 +508,7 @@
               "zöldséges",
               "napoletana",
               "krémsajtos",
+              "mild",
               "egyéb"
             ],
             "alap": [
@@ -683,7 +699,10 @@
               "Fontoliva",
               "Bellasan",
               "Nusett",
-              "egyéb"
+              "egyéb",
+              "Monini",
+              "Kunsági Éden",
+              "Vénusz"
             ],
             "bio": {}
           },
@@ -1036,7 +1055,8 @@
               "Good Choice",
               "Gourmet Finest Cuisine",
               "MyVay",
-              "egyéb"
+              "egyéb",
+              "Cucina"
             ],
             "bio": {}
           },
@@ -1047,7 +1067,8 @@
               "4 tojásos",
               "6 tojásos",
               "8 tojásos",
-              "egyéb"
+              "egyéb",
+              "tojásos"
             ],
             "alapanyag": [
               "durum",
@@ -1081,7 +1102,8 @@
               "rizstészta",
               "üvegtészta",
               "zöldségtészta",
-              "egyéb"
+              "egyéb",
+              "eperlevél"
             ],
             "állapot": [
               "száraz",
@@ -1252,7 +1274,8 @@
               "Ferrero",
               "Grandessa",
               "Nutoka",
-              "egyéb"
+              "egyéb",
+              "Nutella"
             ],
             "bio": {},
             "light": {}
@@ -1397,6 +1420,7 @@
               "dekor",
               "bevonó",
               "mix",
+              "mártócsokoládé",
               "egyéb"
             ]
           }
@@ -1602,6 +1626,7 @@
               "zöldségmix",
               "kókusz",
               "pfefferoni",
+              "meggy",
               "egyéb"
             ],
             "lé / közeg": [
@@ -1727,7 +1752,8 @@
             "pörkölt": {},
             "bio": {},
             "márka": [
-              "Bella"
+              "Bella",
+              "egyéb"
             ]
           },
           "csoportos": {
@@ -1799,11 +1825,15 @@
             "márka": [
               "Enjoy Free!",
               "Golden Bridge",
+              "Cini-Minis",
+              "Nesquik",
+              "Nestlé",
               "egyéb"
             ],
             "bio": {},
             "gluténmentes": {},
-            "édesítőszerrel": {}
+            "édesítőszerrel": {},
+            "csökkentett cukortartalmú": {}
           },
           "csoportos": {
             "alap": [
@@ -1837,7 +1867,27 @@
               "natúr",
               "málna",
               "mag",
+              "kókusz",
+              "keksz",
+              "klasszikus",
+              "piros gyümölcs",
+              "sós karamell",
+              "vanília",
+              "triplacsokoládé",
+              "gyümölcsös-magvas",
+              "mézes-magvas",
+              "kakaó",
+              "mazsola",
               "egyéb"
+            ],
+            "forma": [
+              "pehely",
+              "golyó",
+              "chips",
+              "párnácska",
+              "tallér",
+              "keverék",
+              "ropogós müzli"
             ]
           }
         },
@@ -5160,7 +5210,8 @@
               "currys ananászos szószban",
               "ázsiai szószban",
               "fűszeres paradicsomos szószban",
-              "egyéb"
+              "egyéb",
+              "szójaolajban"
             ],
             "darabolás": [
               "egész",
@@ -5394,9 +5445,49 @@
               "rosé",
               "gyümölcs",
               "egyéb"
+            ],
+            "márka": [
+              "Mini borok",
+              "Vendégváró",
+              "Paulus",
+              "Valla Gatti",
+              "Feind",
+              "egyéb"
             ]
           },
-          "csoportos": {}
+          "csoportos": {
+            "borvidék / eredet": [
+              "Eger",
+              "Dunántúl",
+              "Duna-Tisza közi",
+              "Olaszország",
+              "Puglia",
+              "Felső-Magyarország",
+              "Villány",
+              "Balatonfüred-Csopak",
+              "egyéb"
+            ],
+            "szőlőfajta / borstílus": [
+              "Syrah",
+              "Chardonnay",
+              "Merlot",
+              "muskotályos",
+              "olaszrizling",
+              "kékfrankos",
+              "Sauvignon Blanc",
+              "Cserszegi fűszeres",
+              "Bikavér",
+              "Királyleányka",
+              "Hárslevelű",
+              "Pinot Noir",
+              "Primitivo",
+              "Irsai Olivér",
+              "Cuvée",
+              "Portugieser",
+              "Zöldveltelini",
+              "egyéb"
+            ]
+          }
         },
         "altípusok": {}
       },
@@ -5608,6 +5699,7 @@
                   "tasakos / párnás",
                   "kapszula",
                   "Nespresso kompatibilis kapszula",
+                  "Dolce Gusto kompatibilis kapszula",
                   "egyéb"
                 ]
               },
@@ -5625,6 +5717,14 @@
                   "barna cukor",
                   "marshmallow",
                   "trüffel-csokoládé",
+                  "café au lait",
+                  "espresso",
+                  "mocca",
+                  "egyéb",
+                  "melange"
+                ],
+                "feldolgozás": [
+                  "fagyasztva szárított",
                   "egyéb"
                 ]
               }
@@ -5656,7 +5756,8 @@
                   "Caffe Degli",
                   "Mantaro",
                   "Tesco",
-                  "egyéb"
+                  "egyéb",
+                  "Douwe Egberts"
                 ],
                 "fajta": [
                   "őrölt",
@@ -5691,7 +5792,10 @@
                   "gyümölcsös",
                   "csokoládé",
                   "dió",
-                  "egyéb"
+                  "bécsi",
+                  "egyéb",
+                  "espresso",
+                  "telt aromájú"
                 ]
               }
             }
@@ -5829,7 +5933,9 @@
                   "fehércsokoládé",
                   "étcsokoládé",
                   "eper",
-                  "egyéb"
+                  "egyéb",
+                  "vanília",
+                  "csokoládé"
                 ]
               },
               "csoportos": {
@@ -5841,6 +5947,10 @@
                   "szívószál",
                   "vanília",
                   "kapszula",
+                  "egyéb"
+                ],
+                "kakaóvaj tartalom": [
+                  "20-22%",
                   "egyéb"
                 ]
               }
@@ -5929,7 +6039,8 @@
               "NextGen",
               "La Dolce Vita",
               "Irsai Olivér",
-              "egyéb"
+              "egyéb",
+              "Vino Frizzante"
             ],
             "alkoholmentes": {},
             "fajta": [
@@ -5939,7 +6050,8 @@
               "prosecco",
               "gyümölcsbor",
               "boralapú ital",
-              "egyéb"
+              "egyéb",
+              "gyöngyözőbor"
             ]
           },
           "csoportos": {
@@ -6636,10 +6748,12 @@
               "Bad Dogs",
               "Wundertal",
               "Friss",
-              "egyéb"
+              "egyéb",
+              "Pilsner Urquell"
             ],
             "alkoholmentes": {},
-            "kézműves": {}
+            "kézműves": {},
+            "szűretlen": {}
           },
           "csoportos": {
             "típus": [
@@ -6655,7 +6769,8 @@
               "stout",
               "porter",
               "lambic",
-              "egyéb"
+              "egyéb",
+              "sörkülönlegesség"
             ],
             "íz": [
               "sima",
@@ -7116,7 +7231,8 @@
           "pulyka",
           "tojás",
           "bulgur",
-          "egyéb"
+          "egyéb",
+          "szárnyas"
         ],
         "adag": [
           "egyszemélyes",
@@ -7127,6 +7243,7 @@
         "tárolás": [
           "hűtött",
           "szobahőmérsékletű",
+          "fagyasztott",
           "egyéb"
         ],
         "elkészítés": [
@@ -7165,6 +7282,7 @@
             "márka": [
               "Cucina Nobile",
               "Cucina",
+              "Primana",
               "egyéb"
             ]
           },
@@ -7176,7 +7294,8 @@
               "sztrapacska",
               "nudli",
               "tortelloni",
-              "egyéb"
+              "egyéb",
+              "mezzelune"
             ],
             "töltelék": [
               "sajtos",
@@ -7187,7 +7306,8 @@
               "ricottás",
               "paradicsomos",
               "mozzarellás",
-              "egyéb"
+              "egyéb",
+              "bazsalikomos"
             ]
           }
         },
@@ -7195,7 +7315,13 @@
       },
       "Pizza, lepény, melegszendvics": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "márka": [
+              "Cucina Nobile",
+              "Cucina",
+              "egyéb"
+            ]
+          },
           "csoportos": {
             "feltét": [
               "sonkás",
@@ -7205,6 +7331,10 @@
               "margarita",
               "négysajtos",
               "hawaii",
+              "diavolo",
+              "mozzarellás",
+              "paradicsomos",
+              "klasszikus",
               "egyéb"
             ],
             "alap / forma": [
@@ -7231,6 +7361,7 @@
             "azonnal fogyasztható": {},
             "márka": [
               "Wonnemeyer",
+              "Snack Time",
               "egyéb"
             ]
           },
@@ -7246,7 +7377,17 @@
               "burgonya",
               "tojás",
               "sonka",
-              "egyéb"
+              "sushi",
+              "káposzta",
+              "zöldség",
+              "egyéb",
+              "tészta",
+              "paradicsom",
+              "csirke",
+              "lazac",
+              "mozzarella",
+              "tonhal",
+              "szárnyas"
             ],
             "saláta fajta": [
               "franciasaláta",
@@ -7261,7 +7402,15 @@
               "kukoricasaláta",
               "kaszinótojás",
               "sonkatekercs",
-              "egyéb"
+              "ecetes-olajos saláta",
+              "káposztasaláta",
+              "creme fraiche saláta",
+              "egyéb",
+              "csemegesaláta",
+              "delikátsaláta",
+              "salátatál",
+              "görög saláta",
+              "lyoni saláta"
             ],
             "öntet / alap": [
               "majonézes",
@@ -7271,7 +7420,11 @@
               "húsos",
               "sajtos",
               "zöldséges",
-              "egyéb"
+              "ecetes-olajos",
+              "creme fraiche",
+              "halas",
+              "egyéb",
+              "paradicsomos"
             ]
           }
         },
@@ -7389,6 +7542,7 @@
           "egyedi": {
             "márka": [
               "Daylicious",
+              "Good Choice",
               "egyéb"
             ]
           },
@@ -7414,6 +7568,8 @@
               "édes chili",
               "falafel",
               "hummusz",
+              "chicken nuggets",
+              "tépett sertés",
               "egyéb"
             ]
           }
