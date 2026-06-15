@@ -2353,7 +2353,16 @@
           "egyedi": {
             "töltött": {},
             "alkoholos": {},
-            "pálmaolajmentes": {}
+            "pálmaolajmentes": {},
+            "márka": [
+              "Choceur",
+              "Merci",
+              "Kinder",
+              "Sport",
+              "Riquet",
+              "Moser Roth"
+            ],
+            "cukormentes / hozzáadott cukor nélkül": {}
           },
           "csoportos": {
             "típus": [
@@ -2385,7 +2394,11 @@
               "kókusz",
               "keksz",
               "mazsola",
-              "egyéb"
+              "egyéb",
+              "meggy",
+              "szilva",
+              "bor",
+              "nugát"
             ],
             "hozzáadott darabok": [
               "egész mogyoró",
@@ -2395,36 +2408,191 @@
               "kekszdarab",
               "mazsola",
               "gyümölcsdarab",
-              "egyéb"
+              "egyéb",
+              "törtmogyoró"
             ]
           }
         },
         "altípusok": {
           "Táblás csokoládé": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Choceur",
+                  "Kinder",
+                  "Riquet",
+                  "Milka",
+                  "Moser Roth"
+                ],
+                "töltött": {},
+                "alkoholos": {},
+                "pálmaolajmentes": {},
+                "cukormentes / hozzáadott cukor nélkül": {}
+              },
+              "csoportos": {
+                "típus": [
+                  "tejcsokoládé",
+                  "fehércsokoládé",
+                  "étcsokoládé"
+                ],
+                "kakaótartalom": [
+                  "egyéb",
+                  "70%",
+                  "85%+",
+                  "50-69%"
+                ],
+                "töltelék / íz": [
+                  "meggy",
+                  "tejkrém",
+                  "habkrém",
+                  "oreo",
+                  "eper",
+                  "joghurt",
+                  "narancs",
+                  "mandula",
+                  "gyömbér",
+                  "lime",
+                  "pörkölt mogyoró",
+                  "mogyoró",
+                  "bourbon vanília"
+                ],
+                "hozzáadott darabok": [
+                  "mogyoró",
+                  "egész mogyoró",
+                  "kekszdarab",
+                  "manduladarab"
+                ]
+              }
             },
             "altípusok": {}
           },
           "Csokoládé szelet": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Kinder",
+                  "Sport",
+                  "Choceur",
+                  "Mars",
+                  "Bounty"
+                ],
+                "töltött": {},
+                "alkoholos": {},
+                "pálmaolajmentes": {},
+                "cukormentes / hozzáadott cukor nélkül": {}
+              },
+              "csoportos": {
+                "típus": [
+                  "tejcsokoládé",
+                  "étcsokoládé"
+                ],
+                "kakaótartalom": [
+                  "egyéb"
+                ],
+                "töltelék / íz": [
+                  "kapucíner",
+                  "kókusz",
+                  "karamell",
+                  "földimogyoró",
+                  "joghurt",
+                  "eper",
+                  "ropogós"
+                ],
+                "hozzáadott darabok": [
+                  "kekszdarab",
+                  "mogyoró"
+                ]
+              }
             },
             "altípusok": {}
           },
           "Praliné, desszert, bonbon": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Kinder",
+                  "Choceur",
+                  "Ferrero",
+                  "Toffifee",
+                  "Moser Roth"
+                ],
+                "töltött": {},
+                "alkoholos": {},
+                "pálmaolajmentes": {},
+                "cukormentes / hozzáadott cukor nélkül": {}
+              },
+              "csoportos": {
+                "típus": [
+                  "tejcsokoládé",
+                  "étcsokoládé",
+                  "fehércsokoládé"
+                ],
+                "kakaótartalom": [
+                  "egyéb"
+                ],
+                "töltelék / íz": [
+                  "tejkrém",
+                  "csokoládéhab",
+                  "rum",
+                  "kókusz",
+                  "kávé",
+                  "marcipán",
+                  "narancslikőr",
+                  "szilva",
+                  "karamell",
+                  "mogyoró",
+                  "eper",
+                  "nugát"
+                ],
+                "hozzáadott darabok": []
+              }
             },
             "altípusok": {}
           },
           "Töltött, mártott csokoládé": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Choceur",
+                  "Tibi",
+                  "Kinder",
+                  "Moser Roth"
+                ],
+                "töltött": {},
+                "alkoholos": {},
+                "pálmaolajmentes": {},
+                "cukormentes / hozzáadott cukor nélkül": {}
+              },
+              "csoportos": {
+                "típus": [
+                  "tejcsokoládé",
+                  "étcsokoládé",
+                  "fehércsokoládé"
+                ],
+                "kakaótartalom": [
+                  "egyéb"
+                ],
+                "töltelék / íz": [
+                  "eper",
+                  "mogyoró",
+                  "tejkrém",
+                  "meggy",
+                  "körte",
+                  "banán",
+                  "ananász",
+                  "cseresznye",
+                  "chili",
+                  "narancs",
+                  "habkrém",
+                  "trüffel",
+                  "nugát",
+                  "egyéb",
+                  "pralinékrém"
+                ],
+                "hozzáadott darabok": [
+                  "ostya"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -2434,6 +2602,31 @@
               "csoportos": {}
             },
             "altípusok": {}
+          },
+          "Csokoládés ostyaszelet": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Balaton"
+                ],
+                "töltött": {},
+                "alkoholos": {},
+                "pálmaolajmentes": {},
+                "cukormentes / hozzáadott cukor nélkül": {}
+              },
+              "csoportos": {
+                "típus": [
+                  "étcsokoládé"
+                ],
+                "kakaótartalom": [
+                  "egyéb"
+                ],
+                "töltelék / íz": [],
+                "hozzáadott darabok": [
+                  "ostya"
+                ]
+              }
+            }
           }
         }
       },
@@ -2447,7 +2640,13 @@
               "egyéb",
               "Győri",
               "Korpovit",
-              "Pilóta"
+              "Pilóta",
+              "Finest Bakery",
+              "márka nélkül",
+              "Kinder",
+              "Sport",
+              "Choceur",
+              "Gullon"
             ],
             "cukormentes / hozzáadott cukor nélkül": {},
             "gluténmentes": {},
@@ -2467,50 +2666,168 @@
               "fahéjas",
               "zabos",
               "egyéb",
-              "málna"
+              "málna",
+              "szilva",
+              "mazsola",
+              "natúr",
+              "tejszín",
+              "földimogyoró"
             ]
           }
         },
         "altípusok": {
           "Édes keksz": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Finest Bakery",
+                  "márka nélkül",
+                  "Belvita",
+                  "American",
+                  "Gullon",
+                  "Enjoy Free!"
+                ],
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "gluténmentes": {},
+                "bio": {},
+                "vegán": {},
+                "teljes kiőrlésű": {},
+                "rostban gazdag": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "karamell",
+                  "vegyes",
+                  "kakaós",
+                  "zab",
+                  "gyümölcs",
+                  "vaníliás",
+                  "egyéb",
+                  "csokoládés",
+                  "tejcsokoládé",
+                  "étcsokoládé",
+                  "sárgabarack"
+                ]
+              }
             },
             "altípusok": {}
           },
           "Töltött, mártott keksz": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Belvita",
+                  "Gullon",
+                  "Pilóta",
+                  "Enjoy Free!",
+                  "Finest Bakery"
+                ],
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "gluténmentes": {},
+                "bio": {},
+                "vegán": {},
+                "teljes kiőrlésű": {},
+                "rostban gazdag": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "kakaós",
+                  "mogyorós",
+                  "csokoládés",
+                  "citrom"
+                ]
+              }
             },
             "altípusok": {}
           },
           "Nápolyi": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Milka"
+                ],
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "gluténmentes": {},
+                "bio": {},
+                "vegán": {},
+                "teljes kiőrlésű": {},
+                "rostban gazdag": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "tej"
+                ]
+              }
             },
             "altípusok": {}
           },
           "Ostya": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Finest Bakery"
+                ],
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "gluténmentes": {},
+                "bio": {},
+                "vegán": {},
+                "teljes kiőrlésű": {},
+                "rostban gazdag": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "vegyes",
+                  "citrom",
+                  "kakaós",
+                  "tejcsokoládé",
+                  "étcsokoládé",
+                  "klasszikus"
+                ]
+              }
             },
             "altípusok": {}
           },
           "Piskóta, babapiskóta": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Finest Bakery"
+                ],
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "gluténmentes": {},
+                "bio": {},
+                "vegán": {},
+                "teljes kiőrlésű": {},
+                "rostban gazdag": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "barack",
+                  "narancs",
+                  "egyéb"
+                ]
+              }
             },
             "altípusok": {}
           },
           "Háztartási keksz, teasütemény": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "márka nélkül"
+                ],
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "gluténmentes": {},
+                "bio": {},
+                "vegán": {},
+                "teljes kiőrlésű": {},
+                "rostban gazdag": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "egyéb"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -2530,8 +2847,30 @@
           },
           "Csokoládés ostyaszelet": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Balaton",
+                  "Knoppers",
+                  "Choceur",
+                  "Finest Bakery"
+                ],
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "gluténmentes": {},
+                "bio": {},
+                "vegán": {},
+                "teljes kiőrlésű": {},
+                "rostban gazdag": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "csokoládés",
+                  "mogyorós",
+                  "tej",
+                  "étcsokoládé",
+                  "tejcsokoládé",
+                  "fehércsokoládé"
+                ]
+              }
             },
             "altípusok": {}
           }
@@ -2542,7 +2881,15 @@
           "egyedi": {
             "mentolos": {},
             "savanyú": {},
-            "alkoholos": {}
+            "alkoholos": {},
+            "márka": [
+              "márka nélkül",
+              "Mentos",
+              "Mingles",
+              "Dianás",
+              "Sweet Land"
+            ],
+            "cukormentes / hozzáadott cukor nélkül": {}
           },
           "csoportos": {
             "íz": [
@@ -2556,15 +2903,47 @@
               "kóla",
               "kókusz",
               "rumos",
-              "egyéb"
+              "egyéb",
+              "latte macchiato",
+              "multivitamin",
+              "ánizs",
+              "méz"
             ]
           }
         },
         "altípusok": {
           "Keménycukorka": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Mingles",
+                  "Bermont",
+                  "Negro",
+                  "Stormy"
+                ],
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "mentolos": {},
+                "savanyú": {},
+                "alkoholos": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "joghurt",
+                  "gyümölcs",
+                  "citromfű",
+                  "zsálya",
+                  "bodza",
+                  "egyéb",
+                  "borsmenta",
+                  "cseresznye",
+                  "eukaliptusz",
+                  "mentol",
+                  "menta"
+                ],
+                "intenzitás": [
+                  "extra erős"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -2584,8 +2963,22 @@
           },
           "Drazsé": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Tic Tac"
+                ],
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "mentolos": {},
+                "savanyú": {},
+                "alkoholos": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "gyümölcs",
+                  "narancs",
+                  "mentol"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -2602,13 +2995,41 @@
               "csoportos": {}
             },
             "altípusok": {}
+          },
+          "Szőlőcukor": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            }
+          },
+          "Puha cukorka": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Sweet Land"
+                ],
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "mentolos": {},
+                "savanyú": {},
+                "alkoholos": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "gyümölcs",
+                  "karamell"
+                ]
+              }
+            }
           }
         }
       },
       "Gumicukor, zselé, pillecukor": {
         "tulajdonságok": {
           "egyedi": {
-            "savanyú": {}
+            "savanyú": {},
+            "márka": [
+              "Haribo"
+            ]
           },
           "csoportos": {
             "forma": [
@@ -2619,7 +3040,13 @@
               "kocka",
               "pillecukor",
               "zselé",
-              "egyéb"
+              "egyéb",
+              "sültkrumpli",
+              "béka",
+              "dínó",
+              "giliszta",
+              "cseresznye",
+              "barack"
             ],
             "íz": [
               "gyümölcs",
@@ -2628,15 +3055,32 @@
               "málna",
               "citrom",
               "trópusi",
-              "egyéb"
+              "egyéb",
+              "barack",
+              "meggy"
             ]
           }
         },
         "altípusok": {
           "Gumicukor": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Haribo",
+                  "Nimm2"
+                ],
+                "savanyú": {}
+              },
+              "csoportos": {
+                "forma": [
+                  "karika",
+                  "egyéb"
+                ],
+                "íz": [
+                  "gyümölcs",
+                  "joghurt"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -2668,7 +3112,12 @@
           "egyedi": {
             "cukormentes": {},
             "édesítőszerrel": {},
-            "fogfehérítő / white": {}
+            "fogfehérítő / white": {},
+            "márka": [
+              "Orbit",
+              "Airwaves",
+              "Maoam"
+            ]
           },
           "csoportos": {
             "forma": [
@@ -2693,7 +3142,12 @@
               "alma",
               "gyümölcs",
               "kóla",
-              "egyéb"
+              "egyéb",
+              "winterfrost",
+              "bubblemint",
+              "sárgadinnye",
+              "fodormenta",
+              "borsmenta"
             ],
             "intenzitás": [
               "enyhe",
@@ -2713,8 +3167,44 @@
         "altípusok": {
           "Drazsés rágógumi": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Airwaves",
+                  "Fresh & Free",
+                  "Orbit"
+                ],
+                "cukormentes": {},
+                "édesítőszerrel": {},
+                "fogfehérítő / white": {},
+                "xilit": {}
+              },
+              "csoportos": {
+                "forma": [
+                  "drazsé"
+                ],
+                "íz": [
+                  "feketeribizli",
+                  "mentol",
+                  "eukaliptusz",
+                  "menta",
+                  "eper",
+                  "citrus",
+                  "whitemint",
+                  "borsmenta",
+                  "bubblemint",
+                  "peppermint",
+                  "spearmint"
+                ],
+                "intenzitás": [
+                  "erős",
+                  "extreme",
+                  "fresh"
+                ],
+                "kiszerelés / csomagolás": [
+                  "dobozos",
+                  "tasak"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -2885,7 +3375,10 @@
                   "Foody",
                   "Snack Day",
                   "Circuss",
-                  "egyéb"
+                  "egyéb",
+                  "Gourmet Finest Cuisine",
+                  "márka nélkül",
+                  "Sun Snacks"
                 ]
               },
               "csoportos": {
@@ -2897,7 +3390,8 @@
                   "kalória csökkentett",
                   "nachos/tortilla",
                   "szósszal",
-                  "egyéb"
+                  "egyéb",
+                  "henger doboz"
                 ],
                 "íz": [
                   "paradicsom",
@@ -2942,7 +3436,13 @@
                   "citrom",
                   "gyömbér",
                   "egyéb",
-                  "gyümölcs"
+                  "gyümölcs",
+                  "tengeri só",
+                  "thai curry",
+                  "klasszikus",
+                  "csípős",
+                  "zöldséges",
+                  "natúr"
                 ],
                 "alapanyag": [
                   "lencse",
@@ -2959,7 +3459,8 @@
                   "chia mag",
                   "quinoa",
                   "napraforgómag",
-                  "egyéb"
+                  "egyéb",
+                  "hummusz"
                 ],
                 "kiszerelés / csomagolás": [
                   "henger doboz",
@@ -2998,7 +3499,8 @@
                   "sajt",
                   "jalapeno",
                   "BBQ",
-                  "egyéb"
+                  "egyéb",
+                  "enyhén csípős"
                 ]
               }
             }
@@ -3028,7 +3530,9 @@
                   "Wiesn Schmankerl",
                   "Snack Day",
                   "Roberto",
-                  "egyéb"
+                  "egyéb",
+                  "márka nélkül",
+                  "Sun Snacks"
                 ]
               },
               "csoportos": {
@@ -3037,7 +3541,11 @@
                   "mini",
                   "kétszersült",
                   "pálcika",
-                  "egyéb"
+                  "egyéb",
+                  "tallér",
+                  "mix",
+                  "kréker",
+                  "kenyérchips"
                 ],
                 "íz": [
                   "sós",
@@ -3051,7 +3559,11 @@
                   "kömény",
                   "szezámmag",
                   "bacon",
-                  "egyéb"
+                  "egyéb",
+                  "mogyorós",
+                  "fokhagyma",
+                  "tengeri só",
+                  "bazsalikom"
                 ]
               }
             }
@@ -3070,7 +3582,8 @@
                   "Werther's Original",
                   "Salty",
                   "Snack Day",
-                  "egyéb"
+                  "egyéb",
+                  "márka nélkül"
                 ]
               },
               "csoportos": {
@@ -3126,7 +3639,8 @@
                   "fényes",
                   "hosszú",
                   "rövid",
-                  "egyéb"
+                  "egyéb",
+                  "pálcika"
                 ],
                 "íz": [
                   "sós",
@@ -3145,7 +3659,8 @@
                   "perec",
                   "kréker",
                   "mix",
-                  "egyéb"
+                  "egyéb",
+                  "pálcika"
                 ]
               }
             }
@@ -3158,7 +3673,11 @@
             "sózott": {},
             "pörkölt": {},
             "héj nélküli": {},
-            "sótlan": {}
+            "sótlan": {},
+            "márka": [
+              "Happy Harvest",
+              "Snack Fun"
+            ]
           },
           "csoportos": {
             "magfajta": [
@@ -3170,7 +3689,8 @@
               "tökmag",
               "napraforgómag",
               "magkeverék",
-              "egyéb"
+              "egyéb",
+              "csokoládés magkeverék"
             ],
             "ízesítés": [
               "sós",
@@ -3180,7 +3700,8 @@
               "BBQ",
               "mézes",
               "paprikás",
-              "egyéb"
+              "egyéb",
+              "csokoládés"
             ]
           }
         },
@@ -3194,15 +3715,58 @@
           },
           "Magkeverék (sós)": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Snack Fun",
+                  "Happy Harvest"
+                ],
+                "sózott": {},
+                "pörkölt": {},
+                "héj nélküli": {},
+                "sótlan": {}
+              },
+              "csoportos": {
+                "magfajta": [
+                  "magkeverék",
+                  "földimogyoró",
+                  "kukorica"
+                ],
+                "ízesítés": [
+                  "gyümölcsös",
+                  "egzotikus",
+                  "klasszikus",
+                  "csípős",
+                  "wasabis"
+                ]
+              }
             },
             "altípusok": {}
           },
           "Olajos magvak (snack)": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Happy Harvest",
+                  "Snack Fun"
+                ],
+                "sózott": {},
+                "pörkölt": {},
+                "héj nélküli": {},
+                "sótlan": {}
+              },
+              "csoportos": {
+                "magfajta": [
+                  "napraforgómag",
+                  "tökmag",
+                  "mandula",
+                  "kesudió"
+                ],
+                "ízesítés": [
+                  "natúr",
+                  "sós",
+                  "mézes"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -9060,7 +9624,10 @@
               "sós",
               "szezámmagos",
               "sajtos",
-              "egyéb"
+              "egyéb",
+              "mediterrán",
+              "lenmag",
+              "quinoa"
             ]
           }
         },
