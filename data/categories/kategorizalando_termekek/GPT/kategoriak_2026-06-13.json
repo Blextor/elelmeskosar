@@ -199,6 +199,7 @@
             "márka": [
               "Le Gusto",
               "Vegeta",
+              "Knorr",
               "egyéb"
             ]
           },
@@ -261,6 +262,8 @@
                   "sertéssült",
                   "steak",
                   "panír",
+                  "erőleves",
+                  "pörkölt",
                   "egyéb"
                 ]
               }
@@ -341,6 +344,8 @@
               "kapor",
               "petrezselyem",
               "zöldfűszer",
+              "metélőhagyma",
+              "salátafűszer",
               "egyéb"
             ],
             "célétel / stílus": [
@@ -450,10 +455,14 @@
               "Gourmet Finest Cuisine",
               "Cucina",
               "Wonnemeyer",
+              "Asia Green Garden",
+              "King's Crown",
               "egyéb"
             ],
             "bio": {},
-            "gluténmentes": {}
+            "gluténmentes": {},
+            "csökkentett sótartalom": {},
+            "fokhagyma nélkül": {}
           },
           "csoportos": {
             "íz": [
@@ -471,6 +480,19 @@
               "sylter art",
               "vörös pesto",
               "zöld pesto",
+              "remulád",
+              "klasszikus",
+              "gombás",
+              "sajtos",
+              "carbonara",
+              "ajvár",
+              "paradicsomos",
+              "ricotta-diós",
+              "pesto genovese",
+              "hagymás",
+              "zöldséges",
+              "napoletana",
+              "krémsajtos",
               "egyéb"
             ],
             "alap": [
@@ -488,6 +510,10 @@
               "torma",
               "tejföl",
               "bazsalikom",
+              "gomba",
+              "dió",
+              "ricotta",
+              "zöldség",
               "egyéb"
             ],
             "konyha / stílus": [
@@ -500,6 +526,7 @@
               "indiai",
               "provence-i",
               "francia",
+              "balkáni",
               "egyéb"
             ],
             "csípősség": [
@@ -521,8 +548,16 @@
           },
           "Majonéz": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "tojás nélküli": {}
+              },
+              "csoportos": {
+                "zsírtartalom": [
+                  "70%",
+                  "76%",
+                  "egyéb"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -578,7 +613,12 @@
           "Pesto": {
             "tulajdonságok": {
               "egyedi": {},
-              "csoportos": {}
+              "csoportos": {
+                "állag": [
+                  "krémes",
+                  "egyéb"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -621,6 +661,13 @@
                   "egyéb"
                 ]
               }
+            },
+            "altípusok": {}
+          },
+          "Ajvár, zöldségkrém": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
             },
             "altípusok": {}
           }
@@ -988,6 +1035,7 @@
               "Cucina Nobile",
               "Good Choice",
               "Gourmet Finest Cuisine",
+              "MyVay",
               "egyéb"
             ],
             "bio": {}
@@ -1010,6 +1058,8 @@
               "üvegtészta",
               "kukorica",
               "gluténmentes",
+              "csicseriborsó",
+              "vörös lencse",
               "egyéb"
             ],
             "tésztafajta / forma": [
@@ -1030,6 +1080,7 @@
               "levesbetét",
               "rizstészta",
               "üvegtészta",
+              "zöldségtészta",
               "egyéb"
             ],
             "állapot": [
@@ -1143,6 +1194,10 @@
               "brokkoli",
               "erőleves",
               "levesgyöngy",
+              "csirkés",
+              "zöldséges",
+              "garnélás",
+              "marhahúsos",
               "egyéb"
             ],
             "kiszerelés": [
@@ -1196,6 +1251,7 @@
             "márka": [
               "Ferrero",
               "Grandessa",
+              "Nutoka",
               "egyéb"
             ],
             "bio": {},
@@ -1235,6 +1291,8 @@
                   "kakaó-mogyoró",
                   "narancs",
                   "eper",
+                  "áfonya",
+                  "fekete cseresznye",
                   "egyéb"
                 ],
                 "gyümölcstartalom": [
@@ -1244,6 +1302,8 @@
                   "50%",
                   "60%",
                   "extra magas",
+                  "140%",
+                  "75%",
                   "egyéb"
                 ]
               }
@@ -1324,7 +1384,8 @@
               "Bella",
               "egyéb"
             ],
-            "bio": {}
+            "bio": {},
+            "csökkentett cukortartalmú": {}
           },
           "csoportos": {
             "forma": [
@@ -1481,6 +1542,18 @@
               }
             },
             "altípusok": {}
+          },
+          "Süteményalap, krémes alappor": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {
+                "sütemény / desszert": [
+                  "krémes",
+                  "egyéb"
+                ]
+              }
+            },
+            "altípusok": {}
           }
         }
       },
@@ -1496,6 +1569,9 @@
               "Asia Green Garden",
               "Lyttos",
               "I Colori del Sapore",
+              "Sweet Valley",
+              "Bonduelle",
+              "Kokárdás",
               "egyéb"
             ],
             "bio": {}
@@ -1582,7 +1658,14 @@
           "Befőtt, gyümölcskonzerv": {
             "tulajdonságok": {
               "egyedi": {},
-              "csoportos": {}
+              "csoportos": {
+                "édesítés": [
+                  "cukrozott",
+                  "hozzáadott cukor nélkül",
+                  "enyhén cukrozott",
+                  "egyéb"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -1611,6 +1694,12 @@
                   "zöld",
                   "egyéb",
                   "fekete"
+                ],
+                "töltelék": [
+                  "mandula",
+                  "fokhagyma",
+                  "paprika",
+                  "egyéb"
                 ]
               }
             },
@@ -1713,7 +1802,8 @@
               "egyéb"
             ],
             "bio": {},
-            "gluténmentes": {}
+            "gluténmentes": {},
+            "édesítőszerrel": {}
           },
           "csoportos": {
             "alap": [
@@ -1741,6 +1831,12 @@
               "trió",
               "eper",
               "áfonya",
+              "tejcsokoládé",
+              "földimogyoró",
+              "joghurt",
+              "natúr",
+              "málna",
+              "mag",
               "egyéb"
             ]
           }
@@ -5439,8 +5535,18 @@
       },
       "Kávé, tea, kakaó (száraz)": {
         "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
+          "egyedi": {
+            "fajta": [
+              "gyerektea",
+              "teaválogatás"
+            ]
+          },
+          "csoportos": {
+            "íz": [
+              "őszibarack",
+              "vegyes"
+            ]
+          }
         },
         "altípusok": {
           "Instant / kapszulás kávé": {
@@ -5476,6 +5582,7 @@
                   "Tesco",
                   "Inka",
                   "Cikorina",
+                  "La Natura Lifestyle",
                   "egyéb"
                 ],
                 "fajta": [
@@ -5500,6 +5607,7 @@
                 "kiszerelés / rendszer": [
                   "tasakos / párnás",
                   "kapszula",
+                  "Nespresso kompatibilis kapszula",
                   "egyéb"
                 ]
               },
@@ -5515,6 +5623,8 @@
                   "csokoládé",
                   "dió",
                   "barna cukor",
+                  "marshmallow",
+                  "trüffel-csokoládé",
                   "egyéb"
                 ]
               }
@@ -6975,6 +7085,7 @@
           "üveg",
           "konzerv",
           "pohár",
+          "tégely",
           "egyéb"
         ]
       },
@@ -7002,6 +7113,9 @@
           "hal",
           "sajt",
           "kuszkusz",
+          "pulyka",
+          "tojás",
+          "bulgur",
           "egyéb"
         ],
         "adag": [
@@ -7022,6 +7136,7 @@
           "sütőben",
           "serpenyőben",
           "forró vízzel",
+          "főzendő",
           "egyéb"
         ]
       }
@@ -7049,6 +7164,7 @@
           "egyedi": {
             "márka": [
               "Cucina Nobile",
+              "Cucina",
               "egyéb"
             ]
           },
@@ -7069,6 +7185,8 @@
               "spenótos",
               "gombás",
               "ricottás",
+              "paradicsomos",
+              "mozzarellás",
               "egyéb"
             ]
           }
@@ -7110,7 +7228,11 @@
       "Saláta, hidegtál": {
         "tulajdonságok": {
           "egyedi": {
-            "azonnal fogyasztható": {}
+            "azonnal fogyasztható": {},
+            "márka": [
+              "Wonnemeyer",
+              "egyéb"
+            ]
           },
           "csoportos": {
             "alap": [
@@ -7120,6 +7242,10 @@
               "cézár",
               "majonézes",
               "hummusz",
+              "kukorica",
+              "burgonya",
+              "tojás",
+              "sonka",
               "egyéb"
             ],
             "saláta fajta": [
@@ -7132,6 +7258,9 @@
               "görög káposztasaláta",
               "cézár",
               "sushi box",
+              "kukoricasaláta",
+              "kaszinótojás",
+              "sonkatekercs",
               "egyéb"
             ],
             "öntet / alap": [
@@ -7150,7 +7279,12 @@
       },
       "Szendvicskrém, hummusz, pástétom": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "márka": [
+              "Good Choice",
+              "egyéb"
+            ]
+          },
           "csoportos": {
             "alap": [
               "csicseriborsó",
@@ -7159,6 +7293,9 @@
               "máj",
               "zöldség",
               "sajtkrém",
+              "avokádó",
+              "sonka",
+              "tojás",
               "egyéb"
             ],
             "íz": [
@@ -7168,6 +7305,7 @@
               "paprikás",
               "fokhagymás",
               "zöldfűszeres",
+              "pikáns",
               "egyéb"
             ]
           }
@@ -7181,6 +7319,7 @@
             "melegítendő": {},
             "márka": [
               "Almare Seafood",
+              "Primana",
               "egyéb"
             ]
           },
@@ -7198,6 +7337,7 @@
               "rakott káposzta",
               "pásztortarhonya",
               "tonhalas saláta",
+              "chili con carne",
               "egyéb"
             ],
             "hús / fehérje": [
@@ -7215,8 +7355,68 @@
       },
       "Egyéb főétel, melegétel": {
         "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
+          "egyedi": {
+            "márka": [
+              "Snack Time",
+              "egyéb"
+            ]
+          },
+          "csoportos": {
+            "étel": [
+              "juhtúrós sztrapacska",
+              "brassói aprópecsenye",
+              "sertéspörkölt",
+              "csirkepaprikás",
+              "hentes tokány",
+              "grillezett csirkecomb",
+              "szecsuáni csirke",
+              "egyéb"
+            ],
+            "köret": [
+              "galuska / nokedli",
+              "orsótészta",
+              "zöldségbulgur",
+              "rizs",
+              "burgonya",
+              "egyéb"
+            ]
+          }
+        },
+        "altípusok": {}
+      },
+      "Kész szendvics": {
+        "tulajdonságok": {
+          "egyedi": {
+            "márka": [
+              "Daylicious",
+              "egyéb"
+            ]
+          },
+          "csoportos": {
+            "szendvics típusa": [
+              "szendvics",
+              "wrap",
+              "bagett",
+              "egyéb"
+            ],
+            "fő feltét": [
+              "vegán",
+              "sonka",
+              "gouda sajt",
+              "szalámi",
+              "edámi sajt",
+              "pulykamellsonka",
+              "tojás",
+              "tonhal",
+              "sajt",
+              "csirke",
+              "teriyaki",
+              "édes chili",
+              "falafel",
+              "hummusz",
+              "egyéb"
+            ]
+          }
         },
         "altípusok": {}
       }
