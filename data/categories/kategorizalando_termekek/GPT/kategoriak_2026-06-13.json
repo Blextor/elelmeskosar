@@ -5430,7 +5430,8 @@
             "palack": [
               "üveg",
               "műanyag",
-              "egyéb"
+              "egyéb",
+              "bag-in-box / borzsák"
             ],
             "típus": [
               "száraz",
@@ -5452,7 +5453,22 @@
               "Paulus",
               "Valla Gatti",
               "Feind",
-              "egyéb"
+              "egyéb",
+              "Estevez",
+              "Safo",
+              "San Zenone",
+              "African Rock Selection",
+              "Csányi",
+              "Schieber",
+              "Angyal Mosoly",
+              "Günzer",
+              "Gere-Schubert",
+              "Vylyan",
+              "Tokaj",
+              "Laposa Prizma",
+              "Laposa",
+              "Sauska",
+              "Kiwi Trail"
             ]
           },
           "csoportos": {
@@ -5465,7 +5481,19 @@
               "Felső-Magyarország",
               "Villány",
               "Balatonfüred-Csopak",
-              "egyéb"
+              "egyéb",
+              "Chile",
+              "Valle Central",
+              "Abruzzo",
+              "Toscana",
+              "Dél-Afrika",
+              "Mór",
+              "Szekszárd",
+              "Tokaj",
+              "Badacsony",
+              "Balaton",
+              "Franciaország",
+              "Pays d'Oc"
             ],
             "szőlőfajta / borstílus": [
               "Syrah",
@@ -5485,7 +5513,14 @@
               "Cuvée",
               "Portugieser",
               "Zöldveltelini",
-              "egyéb"
+              "egyéb",
+              "Cabernet Sauvignon",
+              "Montepulciano d'Abruzzo",
+              "Rosso Toscana",
+              "Cabernet",
+              "Szamorodni",
+              "Rajnai rizling",
+              "Lezser"
             ]
           }
         },
@@ -6040,7 +6075,8 @@
               "La Dolce Vita",
               "Irsai Olivér",
               "egyéb",
-              "Vino Frizzante"
+              "Vino Frizzante",
+              "Bollicine Olivier"
             ],
             "alkoholmentes": {},
             "fajta": [
@@ -6076,6 +6112,10 @@
               "meggy",
               "barack",
               "narancs",
+              "egyéb"
+            ],
+            "borvidék / eredet": [
+              "Balaton",
               "egyéb"
             ]
           }
@@ -6136,7 +6176,8 @@
               "Mészáros",
               "Chateau Dereszla",
               "Babits",
-              "egyéb"
+              "egyéb",
+              "Stolzenfels"
             ],
             "szín": [
               "fehér",
@@ -6241,7 +6282,8 @@
                   "Berliner",
                   "Underberg",
                   "Cream Heroes",
-                  "egyéb"
+                  "egyéb",
+                  "Wildbrunner"
                 ],
                 "fajta": [
                   "tojáslikőr",
@@ -6255,7 +6297,9 @@
                   "gyümölcslikőr",
                   "kávélikőr",
                   "diólikőr",
-                  "egyéb"
+                  "egyéb",
+                  "gyógynövénylikőr",
+                  "keserűlikőr"
                 ],
                 "gyógynövényes": {}
               }
@@ -6324,7 +6368,9 @@
                   "Shanky's Whip",
                   "Laphroaig",
                   "Joe Rebel",
-                  "egyéb"
+                  "egyéb",
+                  "Highland Earl",
+                  "Clarke's"
                 ]
               },
               "csoportos": {
@@ -6335,6 +6381,11 @@
                   "cseresznye",
                   "narancs",
                   "egzotikus gyümölcsök",
+                  "egyéb"
+                ],
+                "típus": [
+                  "scotch whisky",
+                  "bourbon",
                   "egyéb"
                 ]
               }
@@ -6390,7 +6441,13 @@
                   "egyéb"
                 ]
               },
-              "csoportos": {}
+              "csoportos": {
+                "fajta": [
+                  "Pink Gin",
+                  "London Dry Gin",
+                  "egyéb"
+                ]
+              }
             }
           },
           "Rum": {
@@ -6426,7 +6483,9 @@
                   "The Kraken",
                   "Pyrat",
                   "Brugal",
-                  "egyéb"
+                  "egyéb",
+                  "Old Hopking",
+                  "Silverstone"
                 ],
                 "fajta": [
                   "gold",
@@ -6434,7 +6493,8 @@
                   "fűszeres",
                   "sima",
                   "gyümölcsös",
-                  "egyéb"
+                  "egyéb",
+                  "barna"
                 ]
               },
               "csoportos": {}
@@ -6495,7 +6555,8 @@
                   "Ciroc",
                   "Kazakoff",
                   "Spacerowa",
-                  "egyéb"
+                  "egyéb",
+                  "Zaranoff"
                 ],
                 "fajta": [
                   "sima",
@@ -6513,7 +6574,8 @@
                   "Martini",
                   "Angelli",
                   "Garrone",
-                  "egyéb"
+                  "egyéb",
+                  "Ravini"
                 ],
                 "fajta": [
                   "extra száraz",
@@ -6523,7 +6585,12 @@
                   "egyéb"
                 ]
               },
-              "csoportos": {}
+              "csoportos": {
+                "szín": [
+                  "vörös",
+                  "fehér"
+                ]
+              }
             }
           },
           "Pálinka": {
@@ -6546,7 +6613,8 @@
                   "ágyas pálinka",
                   "törkölypálinka",
                   "nemes pálinka",
-                  "egyéb"
+                  "egyéb",
+                  "gyümölcspálinka"
                 ]
               },
               "csoportos": {
@@ -6600,7 +6668,12 @@
           },
           "Koktél, Rögtön iható, Egyéb": {
             "tulajdonságok": {
-              "egyedi": {},
+              "egyedi": {
+                "márka": [
+                  "Aperini",
+                  "Lyttos"
+                ]
+              },
               "csoportos": {
                 "alkohol": [
                   "rum",
@@ -6616,7 +6689,8 @@
                   "bor",
                   "konyak",
                   "aperitív",
-                  "egyéb"
+                  "egyéb",
+                  "ouzo"
                 ],
                 "íz": [
                   "kóla",
@@ -6786,6 +6860,10 @@
               "spritz",
               "eper",
               "agávé",
+              "egyéb"
+            ],
+            "csomagolás": [
+              "PET palack",
               "egyéb"
             ]
           }

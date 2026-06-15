@@ -25812,5 +25812,2171 @@
     },
     "kategoria_hash": "c46fd3d0f8268eb16a580e30a38baa2d65bccf52c4b968398291361275404036",
     "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "981413",
+      "product_name": "MONTE CAPPELLA Száraz fehér pezsgő, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1369.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Pezsgő, és habzó bor > Alkoholos pezsgő",
+      "local_image_paths": "data/markets_data/product_images/aldi/c9dc94bebd8e9a1f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Pezsgő",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Monte Cappella",
+      "szín": "fehér",
+      "típus": "száraz",
+      "alkoholtartalom": "alkoholos"
+    },
+    "kategoria_hash": "07e5c44e20151620f882bf9f0c551b25788fa6897d5bd6401d52aff1635d5a63",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1012920",
+      "product_name": "Édes, fehér pezsgő, 0,75 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1369.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Pezsgő, és habzó bor > Alkoholos pezsgő",
+      "local_image_paths": "data/markets_data/product_images/aldi/ed287212f6ec26b6.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Pezsgő",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Monte Cappella",
+      "szín": "fehér",
+      "típus": "édes",
+      "alkoholtartalom": "alkoholos"
+    },
+    "kategoria_hash": "764d8a820d3735ac4c05327d670bd175f2f9f4074a9c5c3e04ca311e5423c7e4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "902348",
+      "product_name": "STOLZENFELS Minőségi száraz pezsgő, + 50 Ft visszaváltási díj 0,75 liter",
+      "brand_name": "",
+      "unit_price": "1399.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Pezsgő, és habzó bor > Alkoholos pezsgő",
+      "local_image_paths": "data/markets_data/product_images/aldi/f0c7d0ab4e5b363d.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Pezsgő",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Stolzenfels",
+      "szín": "fehér",
+      "típus": "száraz",
+      "alkoholtartalom": "alkoholos"
+    },
+    "kategoria_hash": "18fa68496519cbdc2019137c05628431b0ce18c21c0b460d179c60598e6dc9d1",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "997467",
+      "product_name": "KŐBÁNYAI Világos sör PET 4,3% alk., 2 L + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1409.0",
+      "unit_type": "ml",
+      "unit_step": "2000.0",
+      "vegso_mennyiseg": "2000.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Sör, koktél, gyümölcsbor > Sörök",
+      "local_image_paths": "data/markets_data/product_images/aldi/9622b3e060762941.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Sör",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Kőbányai",
+      "alkoholmentes": false,
+      "kézműves": false,
+      "típus": [
+        "világos"
+      ],
+      "íz": [
+        "sima"
+      ],
+      "csomagolás": [
+        "PET palack"
+      ]
+    },
+    "kategoria_hash": "e6583579d29e4dfba1557223924a2fd71f4ccf83c03762eb1e146fcc4c46d218",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1017871",
+      "product_name": "CHILE Cabernet Sauvignon száraz vörösbor, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1409.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Vörös bor > Száraz vörösbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/d765585b0983a3fe.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "vörös",
+      "márka": "Estevez",
+      "borvidék / eredet": [
+        "Chile",
+        "Valle Central"
+      ],
+      "szőlőfajta / borstílus": [
+        "Cabernet Sauvignon"
+      ]
+    },
+    "kategoria_hash": "a1a2d6f75836f551b4071bfb073393bd1e41e565261fc8fd7fc37e232025b4d7",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1058174",
+      "product_name": "OLASZORSZÁG Montepulciano d'Abruzzo száraz vörösbor, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1409.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Vörös bor > Száraz vörösbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/20dc2e49c04bc543.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "vörös",
+      "márka": "Safo",
+      "borvidék / eredet": [
+        "Olaszország",
+        "Abruzzo"
+      ],
+      "szőlőfajta / borstílus": [
+        "Montepulciano d'Abruzzo"
+      ]
+    },
+    "kategoria_hash": "b8c5771c71bb81d2eb3b79b5c022491798b69f2ee61d58eb0d1a1ed0226cae89",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1005743",
+      "product_name": "DUNÁNTÚL Paulus Irsai Olivér száraz fehérbor + 50 Ft visszaváltási díj, 0,75 l",
+      "brand_name": "",
+      "unit_price": "1469.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/6b11c61d92e1ff60.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Paulus",
+      "borvidék / eredet": [
+        "Dunántúl"
+      ],
+      "szőlőfajta / borstílus": [
+        "Irsai Olivér"
+      ]
+    },
+    "kategoria_hash": "6b5517be12d9ecd1ec63dd2a7c44e83efd739e1b0997695526253e7b872b44ec",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1017873",
+      "product_name": "MÓR Paulus Rosé, száraz rozé 0,75 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1469.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Rosé bor > Száraz rozébor",
+      "local_image_paths": "data/markets_data/product_images/aldi/266795b3fabc74ab.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "rosé",
+      "márka": "Paulus",
+      "borvidék / eredet": [
+        "Mór"
+      ]
+    },
+    "kategoria_hash": "99bd67a9e351a2e342ff58c24975f02ea78c36e2abbc60f13f560355ec5c6f25",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "997445",
+      "product_name": "VILLÁNYI Csányi Cabarnet Sauvignon száraz vörösbor, 0,75 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1489.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Vörös bor > Száraz vörösbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/3970796fc245fe2f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "vörös",
+      "márka": "Csányi",
+      "borvidék / eredet": [
+        "Villány"
+      ],
+      "szőlőfajta / borstílus": [
+        "Cabernet Sauvignon"
+      ]
+    },
+    "kategoria_hash": "55c9c032b6557232df04687f0b24c3f8e7bff03148279dcdc9e9cc49933e6157",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1017861",
+      "product_name": "SZEKSZÁRD Schieber Cabarnet Sauvignon száraz vörösbor, 0,75 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1489.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Vörös bor > Száraz vörösbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/c08ac3d0f3f0e0a0.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "vörös",
+      "márka": "Schieber",
+      "borvidék / eredet": [
+        "Szekszárd"
+      ],
+      "szőlőfajta / borstílus": [
+        "Cabernet Sauvignon"
+      ]
+    },
+    "kategoria_hash": "0b64c13d9d70e1d74e27e8d3b316d17ce7bfcab05a82b6938dfe5154d2ee1554",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "533760",
+      "product_name": "OLASZORSZÁG Rosso Toscana száraz olasz vörösbor, 0,75 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1519.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Vörös bor > Száraz vörösbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/a3ac0c235bdfb4ea.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "vörös",
+      "márka": "San Zenone",
+      "borvidék / eredet": [
+        "Olaszország",
+        "Toscana"
+      ],
+      "szőlőfajta / borstílus": [
+        "Rosso Toscana"
+      ]
+    },
+    "kategoria_hash": "d24e3ee6cd09a76252a0f72c4e71a08cec422fd7609b3397356d132b0bdd6935",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1054635",
+      "product_name": "AFRICAN ROCK SELECTION Sauvignon Blanc száraz fehérbor 0,75 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1549.0",
+      "unit_type": "g",
+      "unit_step": "1111.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/a120bab9589fa7ac.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "African Rock Selection",
+      "borvidék / eredet": [
+        "Dél-Afrika"
+      ],
+      "szőlőfajta / borstílus": [
+        "Sauvignon Blanc"
+      ]
+    },
+    "kategoria_hash": "665a5c65cf37e81d71a7c2f3c00ecb6c8c89f76c3ddf17dd279513197d8ec36b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "885288",
+      "product_name": "BALATONFÜRED-CSOPAK Feind Sauvignon Blanc, száraz fehérbor, 0,75 l % + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1639.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/9b47a6b95ae52867.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Feind",
+      "borvidék / eredet": [
+        "Balatonfüred-Csopak"
+      ],
+      "szőlőfajta / borstílus": [
+        "Sauvignon Blanc"
+      ]
+    },
+    "kategoria_hash": "c194a7fc2f51b16b5832e93539b2e329304dd813a94718283fdd7e8fca70ee6e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1054931",
+      "product_name": "SZEKSZÁRD Schieber Merlot száraz vörösbor, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1639.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Vörös bor > Száraz vörösbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/ba89afd86e0372ba.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "vörös",
+      "márka": "Schieber",
+      "borvidék / eredet": [
+        "Szekszárd"
+      ],
+      "szőlőfajta / borstílus": [
+        "Merlot"
+      ]
+    },
+    "kategoria_hash": "586e501fb8526f9c6bff04034b679739e845ab5d155d11c66939cfc456c824a2",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "926349",
+      "product_name": "TOKAJ Angyal Mosoly édes fehérbor, 0,5 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1689.0",
+      "unit_type": "ml",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Édes fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/39e635f0867b192e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "édes",
+      "fajta": "fehér",
+      "márka": "Angyal Mosoly",
+      "borvidék / eredet": [
+        "Tokaj"
+      ]
+    },
+    "kategoria_hash": "4ea5561990f5843e248aad28b4035b1420229761d786290c190ede2b4a054528",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "885295",
+      "product_name": "DUNÁNTÚL Paulus Chardonnay száraz fehérbor, 0,75 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1759.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/f74ce13db22e9800.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Paulus",
+      "borvidék / eredet": [
+        "Dunántúl"
+      ],
+      "szőlőfajta / borstílus": [
+        "Chardonnay"
+      ]
+    },
+    "kategoria_hash": "5415eb7cece8215774fcb722639f7ee174b9c425c17802cecc83eb163b50d708",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4604640",
+      "product_name": "BALATON Bollicine Olivier száraz gyöngyöző bor, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1759.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Pezsgő, és habzó bor > Habzó bor",
+      "local_image_paths": "",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Habzó-, gyöngyözőbor, boralapú ital",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Bollicine Olivier",
+      "alkoholmentes": false,
+      "fajta": "gyöngyözőbor",
+      "típus": [
+        "száraz"
+      ],
+      "borvidék / eredet": [
+        "Balaton"
+      ]
+    },
+    "kategoria_hash": "4cf55b6b3145c701a0071b40c8691481b39c44ffe6949cacf78a461dcc5bc101",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4607051",
+      "product_name": "DUNÁNTÚL Paulus Sauvignon Blanc száraz fehérbor, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1759.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Paulus",
+      "borvidék / eredet": [
+        "Dunántúl"
+      ],
+      "szőlőfajta / borstílus": [
+        "Sauvignon Blanc"
+      ]
+    },
+    "kategoria_hash": "a6fed10c35b5e771ef13d43428ce174d08de9e3ef30e6a987e7f12be7b5dbf92",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1018159",
+      "product_name": "FRANCIAORSZÁG Cabarnet Sauvignon Syrah száraz vörösbor, 0,75 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1859.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Vörös bor > Száraz vörösbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/faf7ac125af5c654.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "vörös",
+      "márka": "egyéb",
+      "borvidék / eredet": [
+        "Franciaország",
+        "Pays d'Oc"
+      ],
+      "szőlőfajta / borstílus": [
+        "Cabernet Sauvignon",
+        "Syrah"
+      ]
+    },
+    "kategoria_hash": "9334d0bb09c8dfb2c717b476ca3a2a6ce8b7de7105a70a160b0166831a2e128c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "982243",
+      "product_name": "RAVINI Vermouth Rosso, 1 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1879.0",
+      "unit_type": "ml",
+      "unit_step": "1000.0",
+      "vegso_mennyiseg": "1000.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Egyéb alkoholos italok",
+      "local_image_paths": "data/markets_data/product_images/aldi/03cbb4553699365c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Vermuth",
+    "tulajdonsagok": {
+      "márka": "Ravini",
+      "fajta": "egyéb",
+      "szín": [
+        "vörös"
+      ]
+    },
+    "kategoria_hash": "c474808432d1e201b766386374eeaf86f4b6f9f2c12ddc18dbdec3f686b0d10a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "982244",
+      "product_name": "RAVINI Vermouth Bianco, 1 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1879.0",
+      "unit_type": "ml",
+      "unit_step": "1000.0",
+      "vegso_mennyiseg": "1000.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Egyéb alkoholos italok",
+      "local_image_paths": "data/markets_data/product_images/aldi/7a45a3b56408275a.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Vermuth",
+    "tulajdonsagok": {
+      "márka": "Ravini",
+      "fajta": "egyéb",
+      "szín": [
+        "fehér"
+      ]
+    },
+    "kategoria_hash": "734ab1b8b3189a524254533729328b9f66b1470305391d3e4188ca3e9a842318",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1006648",
+      "product_name": "Villány Günzer Lezser száraz vörösbor, 0,75 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1959.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Vörös bor > Száraz vörösbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/0ff401693fdb5ce4.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "vörös",
+      "márka": "Günzer",
+      "borvidék / eredet": [
+        "Villány"
+      ],
+      "szőlőfajta / borstílus": [
+        "Lezser"
+      ]
+    },
+    "kategoria_hash": "49d794293767d83107796862c67b0711459f94cf8391131821c9cf67e1f24efe",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "541793",
+      "product_name": "VILLÁNY Gere-Schubert Rosé száraz rozé, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1989.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Rosé bor > Száraz rozébor",
+      "local_image_paths": "data/markets_data/product_images/aldi/6d819e73cb22f41a.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "rosé",
+      "márka": "Gere-Schubert",
+      "borvidék / eredet": [
+        "Villány"
+      ]
+    },
+    "kategoria_hash": "467bd78d1491b55557df9196f1874e5aa5bfefc8a9f4267534448228d923d001",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "757818",
+      "product_name": "VILLÁNY Gere-Schubert Irsai Olivér, száraz fehérbor, 0,75 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1989.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/cc143b68cb7e7ca6.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Gere-Schubert",
+      "borvidék / eredet": [
+        "Villány"
+      ],
+      "szőlőfajta / borstílus": [
+        "Irsai Olivér"
+      ]
+    },
+    "kategoria_hash": "0f85e8c8b03307e27ce6fdb3c46a1f1317b09f4a32a597c2c672dc20c9de7324",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1017872",
+      "product_name": "VILLÁNY Vylyan Cabernet Sauvignon, száraz vörösbor 0,75 l + visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1989.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Vörös bor > Száraz vörösbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/e060ce6c8b108b15.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "vörös",
+      "márka": "Vylyan",
+      "borvidék / eredet": [
+        "Villány"
+      ],
+      "szőlőfajta / borstílus": [
+        "Cabernet Sauvignon"
+      ]
+    },
+    "kategoria_hash": "c7f2af5f95e03c302d45ebeaaa7c2c70541c57c1aa7b251d0e690970320463df",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4604731",
+      "product_name": "TOKAJ Tokaj Szamorodni édes fehérbor, 0,5 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "1989.0",
+      "unit_type": "ml",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Édes fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/2c78a3c176be4306.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "édes",
+      "fajta": "fehér",
+      "márka": "Tokaj",
+      "borvidék / eredet": [
+        "Tokaj"
+      ],
+      "szőlőfajta / borstílus": [
+        "Szamorodni"
+      ]
+    },
+    "kategoria_hash": "829d34e52a12e457fd622440ecc334305c8c0641c7a125ae576d51efb972a52c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "926101",
+      "product_name": "VILLÁNY Gere Schubert Chardonnay száraz fehérbor, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "2109.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/42a9fd3ff5c611ca.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Gere-Schubert",
+      "borvidék / eredet": [
+        "Villány"
+      ],
+      "szőlőfajta / borstílus": [
+        "Chardonnay"
+      ]
+    },
+    "kategoria_hash": "746f6cc6cd306fccaab6c78c1d2382277f0df8b630b5d6bfbd053079cf3a1ba1",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1005703",
+      "product_name": "BADACSONY Laposa Prizma Olaszrizling, száraz fehérbor, 0,75 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "2109.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/a4d97f2a0d21509b.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Laposa Prizma",
+      "borvidék / eredet": [
+        "Badacsony"
+      ],
+      "szőlőfajta / borstílus": [
+        "olaszrizling"
+      ]
+    },
+    "kategoria_hash": "3d9105fe0537d8292cc937db1f4324e9ff793f1d37ee345f69e5ab7721b72692",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4598605",
+      "product_name": "BALATON Laposa Irsai Olivér száraz fehérbor, 0,75 liter +50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "2109.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/2526e25fdc5e9cab.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Laposa",
+      "borvidék / eredet": [
+        "Balaton"
+      ],
+      "szőlőfajta / borstílus": [
+        "Irsai Olivér"
+      ]
+    },
+    "kategoria_hash": "1c2be71f098c1dbb7dd443684d593839c927fd9385c975083fd485e1d1a5a994",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4597572",
+      "product_name": "APERINI Aperitivo, 0,7 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "2169.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Egyéb alkoholos italok",
+      "local_image_paths": "data/markets_data/product_images/aldi/440be86950ac6087.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Koktél, Rögtön iható, Egyéb",
+    "tulajdonsagok": {
+      "márka": "Aperini",
+      "alkohol": [
+        "aperitív"
+      ],
+      "íz": [
+        "narancs"
+      ]
+    },
+    "kategoria_hash": "6e03f3f76e4b3b47bea75c366a0738f78c6162ff8cc79e72435535265ac764a4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1028288",
+      "product_name": "VILLÁNY Günzer Rosé száraz rozé, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "2229.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Rosé bor > Száraz rozébor",
+      "local_image_paths": "data/markets_data/product_images/aldi/c13f1ba59d15e511.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "rosé",
+      "márka": "Günzer",
+      "borvidék / eredet": [
+        "Villány"
+      ]
+    },
+    "kategoria_hash": "03f461d731e3a0d9fa2e620e00c59673ce5795b15a2d72c76cb636a46b5caad0",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "533777",
+      "product_name": "RIQUET Tojáslikőr 14% Alk. 0,7 l",
+      "brand_name": "",
+      "unit_price": "2689.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Likőr",
+      "local_image_paths": "data/markets_data/product_images/aldi/93d4eb0f17660afc.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Likőr",
+    "tulajdonsagok": {
+      "márka": "Riquet",
+      "fajta": "tojáslikőr",
+      "gyógynövényes": false
+    },
+    "kategoria_hash": "9fe41bb8705c120b9b46260281db5846d884f1aeb7f4c51592e82387b3bf2626",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4606901",
+      "product_name": "KIWI TRAIL Sauvignon Blanc száraz fehérbor, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "2949.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Kiwi Trail",
+      "szőlőfajta / borstílus": [
+        "Sauvignon Blanc"
+      ]
+    },
+    "kategoria_hash": "8da5a457b887805d265e4b112ca36d8e4cab2b6c38b812d2a29fb933b0e7dd72",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1018139",
+      "product_name": "BADACSONY Laposa Prizma Rajnai rizling száraz fehérbor, 0,75 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "3049.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/2912adf7cedcccc4.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Laposa Prizma",
+      "borvidék / eredet": [
+        "Badacsony"
+      ],
+      "szőlőfajta / borstílus": [
+        "Rajnai rizling"
+      ]
+    },
+    "kategoria_hash": "7a0e9179fbaa4df4f375ae2a36910f7c8730f528f4a6ae7128a577ee073fd917",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "823314",
+      "product_name": "Törkölypálinka 37,5 % Alk., 0,5 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "3399.0",
+      "unit_type": "ml",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Pálinka",
+      "local_image_paths": "data/markets_data/product_images/aldi/86fd3e809de178c6.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Pálinka",
+    "tulajdonsagok": {
+      "márka": "egyéb",
+      "fajta": "törkölypálinka",
+      "íz": [
+        "szőlő"
+      ]
+    },
+    "kategoria_hash": "c0d0ff43eef2d0293c49936fddfc9bee18db79b2dd6e19a8160c4b9695467f20",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "549599",
+      "product_name": "TOKAJ Sauska Cuvée 113, száraz fehérbor, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "3509.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/17df1d093ba81f85.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Sauska",
+      "borvidék / eredet": [
+        "Tokaj"
+      ],
+      "szőlőfajta / borstílus": [
+        "Cuvée"
+      ]
+    },
+    "kategoria_hash": "69fa218310331ae0a7e5c99d55bcada3b87fa10ddc4b7063c64d514bc9791c0e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4606131",
+      "product_name": "SAUSKA Cuvée 13 száraz vörösbor, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "3509.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Vörös bor > Száraz vörösbor",
+      "local_image_paths": "",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "üveg",
+      "típus": "száraz",
+      "fajta": "vörös",
+      "márka": "Sauska",
+      "szőlőfajta / borstílus": [
+        "Cuvée"
+      ]
+    },
+    "kategoria_hash": "4a9c99f5eea8f4162237d3da764e8ade0e54938da4132c25578966959dc20c2c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "533765",
+      "product_name": "ST. ALMTALER Gyógynövénylikőr, 0,7 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "3629.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Likőr",
+      "local_image_paths": "data/markets_data/product_images/aldi/061a82a30c2bd996.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Likőr",
+    "tulajdonsagok": {
+      "márka": "St. Almtaler",
+      "fajta": "gyógynövénylikőr",
+      "gyógynövényes": true
+    },
+    "kategoria_hash": "f4991917cda0381b6cc831e7c6676ab08b19ec9b9256cb1d04c26be0988e3089",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "828946",
+      "product_name": "Vegyesgyümölcs Pálinka 37,5 % Alk. 0,5 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "3749.0",
+      "unit_type": "ml",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Pálinka",
+      "local_image_paths": "data/markets_data/product_images/aldi/2d75d64586d78dbe.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Pálinka",
+    "tulajdonsagok": {
+      "márka": "egyéb",
+      "fajta": "gyümölcspálinka",
+      "íz": [
+        "vegyes"
+      ]
+    },
+    "kategoria_hash": "7cae6f1e1f0ef97e1c3dc668ae07c6f01b8c7d3981f75dec0ae1f1e5ae605e60",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "533779",
+      "product_name": "WILDBRUNNER Jagdbitter keserűlikőr 35% alk., 0,7 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "3859.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Likőr",
+      "local_image_paths": "data/markets_data/product_images/aldi/a43fb161ce0971d5.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Likőr",
+    "tulajdonsagok": {
+      "márka": "Wildbrunner",
+      "fajta": "keserűlikőr",
+      "gyógynövényes": true
+    },
+    "kategoria_hash": "5db97656622409e8159c9b4bb40dad64c8de399525a80942a31fba0037070319",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4596780",
+      "product_name": "ROYAL Vodka 37,5% alk., 0,5 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "4049.0",
+      "unit_type": "ml",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Vodka",
+      "local_image_paths": "data/markets_data/product_images/aldi/cd493133be9b95c1.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Vodka",
+    "tulajdonsagok": {
+      "márka": "Royal",
+      "fajta": "sima"
+    },
+    "kategoria_hash": "cae40b82b07d6ede2c8a892312c776a4e35a0d61acf531d2e44d82d50ed9cea2",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "911141",
+      "product_name": "JOHNSEN Pink Gin 37,5% alk., 0,7 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "4199.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Gin",
+      "local_image_paths": "data/markets_data/product_images/aldi/9bd2d2d7c5d282fb.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Gin",
+    "tulajdonsagok": {
+      "márka": "Johnsen",
+      "gyümölcsös": true,
+      "fajta": [
+        "Pink Gin"
+      ]
+    },
+    "kategoria_hash": "12995b10b3fa6ce231114a829ad3c8c12222c782ae6dbcf631cd81441b84181e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1056405",
+      "product_name": "Lengyel vodka, 0,7 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "4239.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Vodka",
+      "local_image_paths": "data/markets_data/product_images/aldi/568c071205f16bde.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Vodka",
+    "tulajdonsagok": {
+      "márka": "Spacerowa",
+      "fajta": "sima"
+    },
+    "kategoria_hash": "617ae4cc96b2f11a0c797457434bbffa5d79336eb8e57b3bd4a16a8d1cffd17d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "539237",
+      "product_name": "OLD HOPKING Fehér rum, + 50 Ft visszaváltási díj 0,7 liter",
+      "brand_name": "",
+      "unit_price": "4409.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Rum",
+      "local_image_paths": "data/markets_data/product_images/aldi/9f0a657f5a937d85.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Rum",
+    "tulajdonsagok": {
+      "márka": "Old Hopking",
+      "fajta": "fehér"
+    },
+    "kategoria_hash": "f2cde5859039725419bd3e849c9156ebd08c332b98dfdc9cade2acb97f8fc011",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "533764",
+      "product_name": "ZARANOFF Vodka 37,5% alk., 0,7 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "4449.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Vodka",
+      "local_image_paths": "data/markets_data/product_images/aldi/34044246bedc9178.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Vodka",
+    "tulajdonsagok": {
+      "márka": "Zaranoff",
+      "fajta": "sima"
+    },
+    "kategoria_hash": "fa0638ce4b96bda54c7ec57a4d5786f9d062195c19047c677dd14d6152699660",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4595325",
+      "product_name": "FELSŐ-MAGYARORSZÁG Irsai Olivér száraz fehérbor bag in boksz, 3 liter",
+      "brand_name": "",
+      "unit_price": "4449.0",
+      "unit_type": "ml",
+      "unit_step": "3000.0",
+      "vegso_mennyiseg": "3000.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/18a2c72ce387087e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "bag-in-box / borzsák",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "egyéb",
+      "borvidék / eredet": [
+        "Felső-Magyarország"
+      ],
+      "szőlőfajta / borstílus": [
+        "Irsai Olivér"
+      ]
+    },
+    "kategoria_hash": "99c1bf5945a09c0d264faf2607b4d8d9abb33747acc104d3c8d9096e4ad72d16",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "533703",
+      "product_name": "LYTTOS Ouzo 38% Alk., 0,7 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "4569.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Egyéb",
+      "local_image_paths": "data/markets_data/product_images/aldi/5c59aada3965f56c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Koktél, Rögtön iható, Egyéb",
+    "tulajdonsagok": {
+      "márka": "Lyttos",
+      "alkohol": [
+        "ouzo"
+      ],
+      "íz": [
+        "ánizs"
+      ]
+    },
+    "kategoria_hash": "8c3e80e08665d64149464942deb3359d7a73743faaa4b2f37b3eec38781f3113",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "997155",
+      "product_name": "SILVERSTONE Barna rum 40% alk., 0,7 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "4679.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Rum",
+      "local_image_paths": "data/markets_data/product_images/aldi/9a661f3684190a48.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Rum",
+    "tulajdonsagok": {
+      "márka": "Silverstone",
+      "fajta": "barna"
+    },
+    "kategoria_hash": "84355b3f4eac3a1d84dacad5f3439d40543f9dfd813c2bf9d02335e31cecb075",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4606403",
+      "product_name": "HIGHLAND EARL Scotch whisky 40% Alk., 0,7 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "4709.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Whiskey",
+      "local_image_paths": "",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Whisky & Bourbon",
+    "tulajdonsagok": {
+      "márka": "Highland Earl",
+      "típus": [
+        "scotch whisky"
+      ]
+    },
+    "kategoria_hash": "e2edec090330291e41a4814001957b2cf418cebee423d7b3265d3326479ed83d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "533680",
+      "product_name": "JOHNSEN CLUB London Dry Gin, 0,7 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "4789.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Gin",
+      "local_image_paths": "data/markets_data/product_images/aldi/db7de4159d3bfd64.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Gin",
+    "tulajdonsagok": {
+      "márka": "Johnsen",
+      "gyümölcsös": false,
+      "fajta": [
+        "London Dry Gin"
+      ]
+    },
+    "kategoria_hash": "97505a7b9a9ef577e533f52b5d4227300b91db988f71964b7cee41846161a1d6",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4600057",
+      "product_name": "DUNÁNTÚL Feind borzsák Olaszrizling száraz bor, 3 liter",
+      "brand_name": "",
+      "unit_price": "5029.0",
+      "unit_type": "ml",
+      "unit_step": "3000.0",
+      "vegso_mennyiseg": "3000.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/028a04572ec5e1c5.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "bag-in-box / borzsák",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Feind",
+      "borvidék / eredet": [
+        "Dunántúl"
+      ],
+      "szőlőfajta / borstílus": [
+        "olaszrizling"
+      ]
+    },
+    "kategoria_hash": "cb791fccca5d67d3a748b853fb55d1f7e0fd41db1390df0f7f98424efb777bd9",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4600058",
+      "product_name": "DUNÁNTÚL Feind borzsák Cabernet rosé száraz bor, 3 liter",
+      "brand_name": "",
+      "unit_price": "5029.0",
+      "unit_type": "ml",
+      "unit_step": "3000.0",
+      "vegso_mennyiseg": "3000.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/3ebef39149bf09cd.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "bag-in-box / borzsák",
+      "típus": "száraz",
+      "fajta": "rosé",
+      "márka": "Feind",
+      "borvidék / eredet": [
+        "Dunántúl"
+      ],
+      "szőlőfajta / borstílus": [
+        "Cabernet"
+      ]
+    },
+    "kategoria_hash": "1e2afbbc6b813029a83be4b404ecfb823b1929ec59cce8a8252713390e60b4df",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4600222",
+      "product_name": "DUNÁNTÚL Feind borzsák Irsai Olivér száraz fehérbor, 3 liter",
+      "brand_name": "",
+      "unit_price": "5029.0",
+      "unit_type": "ml",
+      "unit_step": "3000.0",
+      "vegso_mennyiseg": "3000.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Fehér bor > Száraz fehérbor",
+      "local_image_paths": "data/markets_data/product_images/aldi/59d732f3acb72650.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Bor",
+    "altipus": "",
+    "tulajdonsagok": {
+      "palack": "bag-in-box / borzsák",
+      "típus": "száraz",
+      "fajta": "fehér",
+      "márka": "Feind",
+      "borvidék / eredet": [
+        "Dunántúl"
+      ],
+      "szőlőfajta / borstílus": [
+        "Irsai Olivér"
+      ]
+    },
+    "kategoria_hash": "cf9ce3ad891bbfd90b196f5fa61cd8f5993d6751321099983b7c9d049b357b19",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "533759",
+      "product_name": "CLARKE'S Bourbon whiskey 40% alk., 0,7 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "6439.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Whiskey",
+      "local_image_paths": "data/markets_data/product_images/aldi/2307ea72d5b4e05e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Whisky & Bourbon",
+    "tulajdonsagok": {
+      "márka": "Clarke's",
+      "típus": [
+        "bourbon"
+      ]
+    },
+    "kategoria_hash": "fd5b937018a7bf3e39a6290f415207b1112d40d1bc9896962d014897d498f157",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4599216",
+      "product_name": "Gyümölcspálinka szilva, 0,5 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "7019.0",
+      "unit_type": "ml",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Pálinka",
+      "local_image_paths": "data/markets_data/product_images/aldi/7b43cdc91181e724.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Pálinka",
+    "tulajdonsagok": {
+      "márka": "egyéb",
+      "fajta": "gyümölcspálinka",
+      "íz": [
+        "szilva"
+      ]
+    },
+    "kategoria_hash": "56edef1c506149725dc066ef310204de606e9934d8126f590c1a6fb3a85af178",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4599217",
+      "product_name": "Gyümölcspálinka körte, 0,5 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "7019.0",
+      "unit_type": "ml",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Pálinka",
+      "local_image_paths": "data/markets_data/product_images/aldi/4b0d79056801a67b.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Pálinka",
+    "tulajdonsagok": {
+      "márka": "egyéb",
+      "fajta": "gyümölcspálinka",
+      "íz": [
+        "körte"
+      ]
+    },
+    "kategoria_hash": "fe4a3377cc99ca15cd1343a13c7d4e44cca29c126136940b06be2961a5c11109",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4600140",
+      "product_name": "KREINBACHER Extra Dry extra száraz fehér pezsgő, 0,75 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "7019.0",
+      "unit_type": "ml",
+      "unit_step": "750.0",
+      "vegso_mennyiseg": "750.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Pezsgő, és habzó bor > Alkoholos pezsgő",
+      "local_image_paths": "data/markets_data/product_images/aldi/5546fde824f554cf.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Pezsgő",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Kreinbacher",
+      "szín": "fehér",
+      "típus": "extra száraz",
+      "alkoholtartalom": "alkoholos"
+    },
+    "kategoria_hash": "9adcee755bc3b4ff88b491ac31951e2f8e27368e89cbb9b1bac43c778e0416e9",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "997440",
+      "product_name": "JÄGERMEISTER Gyógynövénylikőr 35% alk., 0,5 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "7139.0",
+      "unit_type": "ml",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Likőr",
+      "local_image_paths": "data/markets_data/product_images/aldi/506a99e2049a7106.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Likőr",
+    "tulajdonsagok": {
+      "márka": "Jägermeister",
+      "fajta": "gyógynövénylikőr",
+      "gyógynövényes": true
+    },
+    "kategoria_hash": "73de730618d3f9f7a9afa4700d4692684293f3460a478cc1bf3926d4ad613dac",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1005709",
+      "product_name": "ZWACK Unicum 40% alk., 0,5 l + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "7139.0",
+      "unit_type": "ml",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Likőr",
+      "local_image_paths": "data/markets_data/product_images/aldi/e0bdae18f2b4bd0b.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Likőr",
+    "tulajdonsagok": {
+      "márka": "Zwack Unicum",
+      "fajta": "gyomorkeserű",
+      "gyógynövényes": true
+    },
+    "kategoria_hash": "487bff0bb350a8023f3af62b46d18a19f9144578f41b4b813cf9acb33bd97073",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1018160",
+      "product_name": "MANDALEY London Dry Gin 40% alk., 0,7 liter + 50 Ft visszaváltási díj",
+      "brand_name": "",
+      "unit_price": "7139.0",
+      "unit_type": "ml",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alkoholos italok > Tömény > Gin",
+      "local_image_paths": "data/markets_data/product_images/aldi/62efc0de58b7a3f7.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Alkoholok",
+    "altipus": "Gin",
+    "tulajdonsagok": {
+      "márka": "Mandaley",
+      "gyümölcsös": false,
+      "fajta": [
+        "London Dry Gin"
+      ]
+    },
+    "kategoria_hash": "94802d1d07b00a596d28996efc9180d55a96d6821616f3181eb8a9f06e7c0069",
+    "statusz": "kesz"
   }
 ]
