@@ -8,6 +8,7 @@
           "tasak",
           "flakon",
           "zacskó",
+          "tubus",
           "egyéb"
         ]
       },
@@ -21,6 +22,7 @@
             "gluténmentes": {},
             "márka": [
               "Happy Harvest",
+              "Kokárdás",
               "egyéb"
             ]
           },
@@ -114,6 +116,10 @@
             "márka": [
               "Süssli",
               "Happy Harvest",
+              "Dr. Oetker",
+              "Sweet Family",
+              "Koronás Cukor",
+              "Diamant",
               "egyéb"
             ],
             "bio": {}
@@ -433,6 +439,9 @@
             "márka": [
               "Le Gusto",
               "Ben's Original",
+              "BBQ",
+              "Gourmet Finest Cuisine",
+              "Cucina",
               "egyéb"
             ],
             "bio": {},
@@ -446,6 +455,10 @@
               "BBQ",
               "mézes-mustáros",
               "paprikás",
+              "cocktail",
+              "dijoni",
+              "magos",
+              "gulyáskrém",
               "egyéb"
             ],
             "alap": [
@@ -460,6 +473,8 @@
               "olaj",
               "paprika",
               "fokhagyma",
+              "torma",
+              "tejföl",
               "egyéb"
             ],
             "konyha / stílus": [
@@ -849,6 +864,8 @@
           "egyedi": {
             "márka": [
               "Asia",
+              "Bon-Ri",
+              "Bon-Ri / Happy Harvest",
               "egyéb"
             ],
             "bio": {}
@@ -935,6 +952,8 @@
             "márka": [
               "Császár",
               "Cucina Nobile",
+              "Good Choice",
+              "Gourmet Finest Cuisine",
               "egyéb"
             ],
             "bio": {}
@@ -992,7 +1011,11 @@
       "Hüvelyesek": {
         "tulajdonságok": {
           "egyedi": {
-            "bio": {}
+            "bio": {},
+            "márka": [
+              "Bon-Ri",
+              "egyéb"
+            ]
           },
           "csoportos": {
             "fajta": [
@@ -1056,6 +1079,9 @@
             "csípős": {},
             "márka": [
               "Le Gusto",
+              "Nissin",
+              "Asia Green Garden",
+              "Knorr",
               "egyéb"
             ]
           },
@@ -1072,6 +1098,10 @@
               "bolognai",
               "carbonara",
               "burgonyapüré",
+              "gyros",
+              "natúr",
+              "fokhagymás-hagymás",
+              "zöldfűszeres",
               "egyéb"
             ],
             "kiszerelés": [
@@ -1104,6 +1134,13 @@
             "altípusok": {}
           },
           "Pürépor, krumplipehely": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Levesbetét, crouton": {
             "tulajdonságok": {
               "egyedi": {},
               "csoportos": {}
@@ -1153,6 +1190,7 @@
                   "szilva",
                   "vegyes gyümölcs",
                   "kakaó-mogyoró",
+                  "narancs",
                   "egyéb"
                 ],
                 "gyümölcstartalom": [
@@ -1239,6 +1277,7 @@
             "márka": [
               "Back Family",
               "Dr. Oetker",
+              "Bella",
               "egyéb"
             ],
             "bio": {}
@@ -1408,6 +1447,10 @@
             "csípős": {},
             "márka": [
               "Cucina",
+              "King's Crown",
+              "BBQ",
+              "Asia Green Garden",
+              "Lyttos",
               "egyéb"
             ],
             "bio": {}
@@ -1428,6 +1471,15 @@
               "őszibarack",
               "szilva",
               "gyümölcsmix",
+              "cékla",
+              "jalapeño",
+              "paprika",
+              "káposzta",
+              "alma",
+              "fehérbab",
+              "vörösbab",
+              "zöldségmix",
+              "kókusz",
               "egyéb"
             ],
             "lé / közeg": [
@@ -1498,14 +1550,26 @@
           "Olívabogyó, kapribogyó, eltett zöldség": {
             "tulajdonságok": {
               "egyedi": {},
-              "csoportos": {}
+              "csoportos": {
+                "fajta": [
+                  "kalamata",
+                  "zöld",
+                  "egy?b"
+                ]
+              }
             },
             "altípusok": {}
           },
           "Kókusztej, kókuszkrém, főzőalap": {
             "tulajdonságok": {
               "egyedi": {},
-              "csoportos": {}
+              "csoportos": {
+                "típus": [
+                  "normál",
+                  "light",
+                  "egy?b"
+                ]
+              }
             },
             "altípusok": {}
           }
@@ -2145,7 +2209,11 @@
         "tulajdonságok": {
           "egyedi": {
             "teljes kiőrlésű": {},
-            "rostban gazdag": {}
+            "rostban gazdag": {},
+            "márka": [
+              "Győri Édes",
+              "egy?b"
+            ]
           },
           "csoportos": {
             "íz": [
@@ -2158,6 +2226,7 @@
               "kókuszos",
               "mogyorós",
               "fahéjas",
+              "zabos",
               "egyéb"
             ]
           }
@@ -4698,6 +4767,7 @@
           "egyedi": {
             "márka": [
               "Primana",
+              "Almare Seafood",
               "egyéb"
             ]
           },
@@ -4710,6 +4780,7 @@
               "tepertő",
               "tonhal",
               "zöldség",
+              "lazac",
               "egyéb"
             ],
             "ízesítés": [
@@ -4893,6 +4964,7 @@
             "MSC / fenntartható halászat": {},
             "márka": [
               "Rio Mare",
+              "Almare Seafood",
               "egyéb"
             ]
           },
@@ -4905,6 +4977,14 @@
               "saját levében",
               "paradicsomszószban",
               "pikáns zöldséges mártásban",
+              "repceolajban",
+              "zöldséges",
+              "mangós-borsos szószban",
+              "fűszeres-zöldséges szószban",
+              "mexikói szószban",
+              "currys ananászos szószban",
+              "ázsiai szószban",
+              "fűszeres paradicsomos szószban",
               "egyéb"
             ],
             "darabolás": [
@@ -4954,6 +5034,20 @@
             "altípusok": {}
           },
           "Egyéb halkonzerv": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Szardinella": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Sprotni": {
             "tulajdonságok": {
               "egyedi": {},
               "csoportos": {}
@@ -5309,6 +5403,8 @@
                   "kávé",
                   "jeges kávé",
                   "cappuccino",
+                  "3 az 1-ben",
+                  "2 az 1-ben",
                   "egyéb"
                 ],
                 "típus": [
@@ -5339,6 +5435,7 @@
                   "gyümölcsös",
                   "csokoládé",
                   "dió",
+                  "barna cukor",
                   "egyéb"
                 ]
               }
@@ -6820,6 +6917,7 @@
           "marha",
           "hal",
           "sajt",
+          "kuszkusz",
           "egyéb"
         ],
         "adag": [
@@ -6996,7 +7094,11 @@
         "tulajdonságok": {
           "egyedi": {
             "konzerv": {},
-            "melegítendő": {}
+            "melegítendő": {},
+            "márka": [
+              "Almare Seafood",
+              "egy?b"
+            ]
           },
           "csoportos": {
             "étel": [
@@ -7314,7 +7416,12 @@
     "alkategóriák": {
       "Bagett": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "márka": [
+              "Good Choice",
+              "egy?b"
+            ]
+          },
           "csoportos": {
             "fajta": [
               "kovászos",
@@ -7323,6 +7430,11 @@
               "hagymás",
               "magvas",
               "egyéb"
+            ],
+            "töltelék / íz": [
+              "fűszervajas",
+              "fokhagymás vaj",
+              "egy?b"
             ]
           }
         },

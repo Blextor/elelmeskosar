@@ -4219,5 +4219,5748 @@
     },
     "kategoria_hash": "af004abddc6c34a776b557a3d25607ce291e86ef060a018e51443f2b81caf1aa",
     "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "550924",
+      "product_name": "DR. OETKER Bourbon vaníliás cukor, 8 g",
+      "brand_name": "",
+      "unit_price": "235.0",
+      "unit_type": "g",
+      "unit_step": "8.0",
+      "vegso_mennyiseg": "8.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Sütés alapanyagok",
+      "local_image_paths": "data/markets_data/product_images/aldi/9c7f11f3db719fa6.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Cukor, édesítőszer",
+    "altipus": "Vaníliás cukor, sütőcukor",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "hozzáadott aroma": true,
+      "márka": "Dr. Oetker",
+      "bio": false,
+      "szín": [
+        "fehér"
+      ]
+    },
+    "kategoria_hash": "e865d46283f1087d1e7d3cb9096e8c74871350a7a7d674d3b0fdd4f552d0ef60",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "550934",
+      "product_name": "DR. OETKER Vanillin Zero, 8 g",
+      "brand_name": "",
+      "unit_price": "235.0",
+      "unit_type": "g",
+      "unit_step": "8.0",
+      "vegso_mennyiseg": "8.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Sütés alapanyagok",
+      "local_image_paths": "data/markets_data/product_images/aldi/66ab900294613f7e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Cukor, édesítőszer",
+    "altipus": "Vaníliás cukor, sütőcukor",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "hozzáadott aroma": true,
+      "márka": "Dr. Oetker",
+      "bio": false,
+      "szín": [
+        "fehér"
+      ]
+    },
+    "kategoria_hash": "e865d46283f1087d1e7d3cb9096e8c74871350a7a7d674d3b0fdd4f552d0ef60",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "828914",
+      "product_name": "LE GUSTO Fix alapporok milánói 3 adag / tasak, 27 g",
+      "brand_name": "",
+      "unit_price": "235.0",
+      "unit_type": "g",
+      "unit_step": "270.0",
+      "vegso_mennyiseg": "27.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Ételalapok",
+      "local_image_paths": "data/markets_data/product_images/aldi/8070fe205d2c9cd3.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Ételalap, fix por",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "tasakos"
+      ],
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "af004abddc6c34a776b557a3d25607ce291e86ef060a018e51443f2b81caf1aa",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "935732",
+      "product_name": "PRIMANA Szendvicskrém paradicsomos, 130 g",
+      "brand_name": "",
+      "unit_price": "235.0",
+      "unit_type": "g",
+      "unit_step": "130.0",
+      "vegso_mennyiseg": "130.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Húskonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/b14014a3be1e9635.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Pástétom, húskrém",
+    "altipus": "Húskrém, kenhető",
+    "tulajdonsagok": {
+      "bio": false,
+      "hazai/magyar": false,
+      "márka": "Primana",
+      "alap": [
+        "hús"
+      ],
+      "ízesítés": [
+        "egyéb"
+      ],
+      "csomagolás": [
+        "konzerv"
+      ]
+    },
+    "kategoria_hash": "3f0e4cb0f063996873b8cbc10d68d8376f2865cef4b15d40802ce9b05c3f5688",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "935733",
+      "product_name": "PRIMANA Szendvicskrém paprikás, 130 g",
+      "brand_name": "",
+      "unit_price": "235.0",
+      "unit_type": "g",
+      "unit_step": "130.0",
+      "vegso_mennyiseg": "130.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Húskonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/4ba70d02facf7ca9.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Pástétom, húskrém",
+    "altipus": "Húskrém, kenhető",
+    "tulajdonsagok": {
+      "bio": false,
+      "hazai/magyar": false,
+      "márka": "Primana",
+      "alap": [
+        "hús"
+      ],
+      "ízesítés": [
+        "paprikás"
+      ],
+      "csomagolás": [
+        "konzerv"
+      ]
+    },
+    "kategoria_hash": "24035d1952c3daa6ac2208e56a2c2b3307887132dccf83c1c2517bb8d2d47950",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "935734",
+      "product_name": "PRIMANA Szendvicskrém natúr, 130 g",
+      "brand_name": "",
+      "unit_price": "235.0",
+      "unit_type": "g",
+      "unit_step": "130.0",
+      "vegso_mennyiseg": "130.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Húskonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/186f6d23c0324413.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Pástétom, húskrém",
+    "altipus": "Húskrém, kenhető",
+    "tulajdonsagok": {
+      "bio": false,
+      "hazai/magyar": false,
+      "márka": "Primana",
+      "alap": [
+        "hús"
+      ],
+      "ízesítés": [
+        "natúr"
+      ],
+      "csomagolás": [
+        "konzerv"
+      ]
+    },
+    "kategoria_hash": "fa71c38a4af9852e813c460a28100f4a49ddb4cc757c60d9cfff2d30c122abe2",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "949113",
+      "product_name": "PRIMANA Tonhalas krém, 50 g",
+      "brand_name": "",
+      "unit_price": "245.0",
+      "unit_type": "g",
+      "unit_step": "50.0",
+      "vegso_mennyiseg": "50.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/9c9494de7ac4b849.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Pástétom, húskrém",
+    "altipus": "Húskrém, kenhető",
+    "tulajdonsagok": {
+      "bio": false,
+      "hazai/magyar": false,
+      "márka": "Primana",
+      "alap": [
+        "tonhal"
+      ],
+      "ízesítés": [
+        "natúr"
+      ],
+      "csomagolás": [
+        "konzerv"
+      ]
+    },
+    "kategoria_hash": "9978e5ac3deec49d85b051cf248b4bbd513e177504b547afc61d81baa582a02b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1005731",
+      "product_name": "KING'S CROWN Csicseriborsó, 400 g (265 g)",
+      "brand_name": "",
+      "unit_price": "259.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "265.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/bfe5372813918b75.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Hüvelyes konzerv",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "King's Crown",
+      "bio": false,
+      "alapanyag": [
+        "csicseriborsó"
+      ],
+      "lé / közeg": [
+        "sós lében"
+      ],
+      "darabolás": [
+        "egész"
+      ]
+    },
+    "kategoria_hash": "ca58c3fc70468846f330e5a0e3ae57135025aaae4a253dbff96882ddfc164ca4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1018158",
+      "product_name": "BON-RI Sárgaborsó, 500 g",
+      "brand_name": "",
+      "unit_price": "259.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Hüvelyes és egyéb köretek",
+      "local_image_paths": "data/markets_data/product_images/aldi/37acf5d66ccb3720.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Hüvelyesek",
+    "altipus": "Sárgaborsó, egyéb",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "bio": false,
+      "fajta": [
+        "sárgaborsó"
+      ],
+      "tartósítás / állapot": [
+        "száraz"
+      ],
+      "feldolgozottság": [],
+      "márka": "Bon-Ri"
+    },
+    "kategoria_hash": "bb29dd180e892cfd70e19adccac64b5db4438b32481f3fdac7fb8b1ce4690fb7",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1031512",
+      "product_name": "GOLDEN BRIDGE Zabkása gyümölcspürével banán-ananász, 100 g",
+      "brand_name": "",
+      "unit_price": "265.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Reggeliző- pehely, müzli > Zabkása, zabpehely",
+      "local_image_paths": "data/markets_data/product_images/aldi/bb95a7203ca6cfbf.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Gabonapehely, reggeli müzli",
+    "altipus": "Zabkása, zabpehely",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "instant": false,
+      "márka": "Golden Bridge",
+      "bio": false,
+      "gluténmentes": false,
+      "alap": [
+        "zab"
+      ],
+      "íz / hozzáadott": [
+        "banán",
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "09eb6309ce04fff61cb6c20ede24423fddcb763fbb05c4f8545af08920b3e3b3",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1031513",
+      "product_name": "GOLDEN BRIDGE Zabkása gyümölcspürével mangó-narancs, 100 g",
+      "brand_name": "",
+      "unit_price": "265.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Reggeliző- pehely, müzli > Zabkása, zabpehely",
+      "local_image_paths": "data/markets_data/product_images/aldi/f3e5095930beecbf.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Gabonapehely, reggeli müzli",
+    "altipus": "Zabkása, zabpehely",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "instant": false,
+      "márka": "Golden Bridge",
+      "bio": false,
+      "gluténmentes": false,
+      "alap": [
+        "zab"
+      ],
+      "íz / hozzáadott": [
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "c31023f0643280cdebcdf06072ea8ff68ab378929ac112040b7f5701ebe8844d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1031514",
+      "product_name": "GOLDEN BRIDGE Zabkása gyümölcspürével banán-kókusz, 100 g",
+      "brand_name": "",
+      "unit_price": "265.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Reggeliző- pehely, müzli > Zabkása, zabpehely",
+      "local_image_paths": "data/markets_data/product_images/aldi/ab4250f044ef5c1a.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Gabonapehely, reggeli müzli",
+    "altipus": "Zabkása, zabpehely",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "instant": false,
+      "márka": "Golden Bridge",
+      "bio": false,
+      "gluténmentes": false,
+      "alap": [
+        "zab"
+      ],
+      "íz / hozzáadott": [
+        "banán",
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "09eb6309ce04fff61cb6c20ede24423fddcb763fbb05c4f8545af08920b3e3b3",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534299",
+      "product_name": "ENJOY FREE! Glutén- és laktózmentes csokoládés müzliszelet, 28 g",
+      "brand_name": "",
+      "unit_price": "269.0",
+      "unit_type": "g",
+      "unit_step": "28.0",
+      "vegso_mennyiseg": "28.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Reggeliző- pehely, müzli > Müzliszelet, gyümölcsszelet",
+      "local_image_paths": "data/markets_data/product_images/aldi/d50a340ec3e47e07.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Müzliszelet, gabonaszelet",
+    "altipus": "Müzliszelet",
+    "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": true,
+      "bio": false,
+      "vegán": false,
+      "protein / magas fehérje": false,
+      "márka": "Enjoy Free!",
+      "alap": [
+        "zab",
+        "egyéb"
+      ],
+      "íz": [
+        "csokoládé"
+      ],
+      "bevonat": [
+        "egyéb"
+      ],
+      "fehérjetartalom": []
+    },
+    "kategoria_hash": "d3e95303e3eaa13bb41e9ca4bf2858f5e765bbfa9e58b4570d515280f9c9c79a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "922721",
+      "product_name": "SWEET FAMILY Kristálycukor, 1 kg",
+      "brand_name": "",
+      "unit_price": "295.0",
+      "unit_type": "g",
+      "unit_step": "1000.0",
+      "vegso_mennyiseg": "1000.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Cukor és édesítőszerek > Kristálycukor",
+      "local_image_paths": "data/markets_data/product_images/aldi/d0ac93fe65e63f1f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Cukor, édesítőszer",
+    "altipus": "Kristálycukor",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "hozzáadott aroma": false,
+      "márka": "Sweet Family",
+      "bio": false,
+      "szín": [
+        "fehér"
+      ]
+    },
+    "kategoria_hash": "79734cd30e9b776ccbd965a8e0065d812292c4645296d1dfbfb51c37ca6e123d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1051316",
+      "product_name": "WESTMINSTER Kamillatea 25 filter, 25 x 1,52 g",
+      "brand_name": "",
+      "unit_price": "295.0",
+      "unit_type": "g",
+      "unit_step": "38.0",
+      "vegso_mennyiseg": "38.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Kávé, tea, italpor > Filteres teák",
+      "local_image_paths": "data/markets_data/product_images/aldi/e5c74332fbd30598.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Teafű, filteres tea, instant tea",
+    "tulajdonsagok": {
+      "márka": "Westminster",
+      "típus": "filteres",
+      "fajta": "egyéb",
+      "íz": [
+        "kamilla"
+      ]
+    },
+    "kategoria_hash": "00ddf915cfc62fae41555e1dfb87dc86ce0b764e8cd8ffa5dc017f329579469c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4598463",
+      "product_name": "KING'S CROWN Lencse, 400 g / 240 g",
+      "brand_name": "",
+      "unit_price": "295.0",
+      "unit_type": "g",
+      "unit_step": "240.0",
+      "vegso_mennyiseg": "240.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/70eea97cc079c5e8.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Hüvelyes konzerv",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "King's Crown",
+      "bio": false,
+      "alapanyag": [
+        "lencse"
+      ],
+      "lé / közeg": [
+        "sós lében"
+      ],
+      "darabolás": [
+        "egész"
+      ]
+    },
+    "kategoria_hash": "4103717d8dd07f8afba027a5514160a00f4df42e330cb8dad86de71bf78bf317",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "914531",
+      "product_name": "KORONÁS CUKOR Kristálycukor, 1 kg",
+      "brand_name": "",
+      "unit_price": "299.0",
+      "unit_type": "g",
+      "unit_step": "1000.0",
+      "vegso_mennyiseg": "1000.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Cukor és édesítőszerek > Kristálycukor",
+      "local_image_paths": "data/markets_data/product_images/aldi/9425cf0edd3fbcae.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Cukor, édesítőszer",
+    "altipus": "Kristálycukor",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "hozzáadott aroma": false,
+      "márka": "Koronás Cukor",
+      "bio": false,
+      "szín": [
+        "fehér"
+      ]
+    },
+    "kategoria_hash": "46197ef396587908bcc3788b11b54d72b270e617385b17e85fa654ddc09339cf",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535180",
+      "product_name": "CUCINA Hámozott paradicsom, 400 g (240 g)",
+      "brand_name": "",
+      "unit_price": "305.0",
+      "unit_type": "g",
+      "unit_step": "240.0",
+      "vegso_mennyiseg": "240.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/c7f5b94984fc308c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Paradicsomkonzerv, -püré, passzírozott",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "Cucina",
+      "bio": false,
+      "alapanyag": [
+        "paradicsom"
+      ],
+      "lé / közeg": [
+        "saját levében"
+      ],
+      "darabolás": [
+        "egész"
+      ]
+    },
+    "kategoria_hash": "1834c08f5de1e2a57b15a345b6bc40cca6501619305ff72348eb85f21798f9bc",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "751834",
+      "product_name": "CUCINA Aprított paradicsom, 400 g (240 g)",
+      "brand_name": "",
+      "unit_price": "305.0",
+      "unit_type": "g",
+      "unit_step": "240.0",
+      "vegso_mennyiseg": "240.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/ea9b70d7a6805c59.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Paradicsomkonzerv, -püré, passzírozott",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "Cucina",
+      "bio": false,
+      "alapanyag": [
+        "paradicsom"
+      ],
+      "lé / közeg": [
+        "saját levében"
+      ],
+      "darabolás": [
+        "darabolt"
+      ]
+    },
+    "kategoria_hash": "05f8262efcdf8abf95605adf66bb9e42a6e417a884bd22f0668eface06daaecd",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "958535",
+      "product_name": "KING'S CROWN Vörösbab, 400 g / 255 g",
+      "brand_name": "",
+      "unit_price": "305.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "255",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/6316f0bf77b17c3c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Hüvelyes konzerv",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "King's Crown",
+      "bio": false,
+      "alapanyag": [
+        "bab"
+      ],
+      "lé / közeg": [
+        "sós lében"
+      ],
+      "darabolás": [
+        "egész"
+      ]
+    },
+    "kategoria_hash": "eec1d5c0e6ca5b33b509e47dff25ed7f01026a9ab72dae7a4d4219a0f3901f0a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1059486",
+      "product_name": "ENJOY FREE! Rizskása sárkánygyümölcs ízű gluténmentes hozzáadott cukor nélkül, 60 g",
+      "brand_name": "",
+      "unit_price": "305.0",
+      "unit_type": "g",
+      "unit_step": "60.0",
+      "vegso_mennyiseg": "60.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Reggeliző- pehely, müzli > Zabkása, zabpehely",
+      "local_image_paths": "data/markets_data/product_images/aldi/d27abf3da422975c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Gabonapehely, reggeli müzli",
+    "altipus": "Zabkása, zabpehely",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
+      "instant": true,
+      "márka": "Enjoy Free!",
+      "bio": false,
+      "gluténmentes": true,
+      "alap": [
+        "rizs"
+      ],
+      "íz / hozzáadott": [
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "c221081d4ad3e6b8fe1466e998c8215082eb118a7967017d2a25da660b27b017",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4598559",
+      "product_name": "GOLDEN BRIDGE Rizskása étcsokoládés gluténmentes, 60 g",
+      "brand_name": "",
+      "unit_price": "305.0",
+      "unit_type": "g",
+      "unit_step": "60.0",
+      "vegso_mennyiseg": "60.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Reggeliző- pehely, müzli > Zabkása, zabpehely",
+      "local_image_paths": "data/markets_data/product_images/aldi/092af374f7b1de37.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Gabonapehely, reggeli müzli",
+    "altipus": "Zabkása, zabpehely",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "instant": true,
+      "márka": "Golden Bridge",
+      "bio": false,
+      "gluténmentes": true,
+      "alap": [
+        "rizs"
+      ],
+      "íz / hozzáadott": [
+        "csokoládé"
+      ]
+    },
+    "kategoria_hash": "5c8e344cde3f87857d34f2fe5a85b083096f5fcbdb0d8e0aca4891a815cc7b1a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4603993",
+      "product_name": "GOLDEN BRIDGE Rizskása erdei gyümölcsös gluténmentes, 60 g",
+      "brand_name": "",
+      "unit_price": "305.0",
+      "unit_type": "g",
+      "unit_step": "60.0",
+      "vegso_mennyiseg": "60.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Reggeliző- pehely, müzli > Zabkása, zabpehely",
+      "local_image_paths": "data/markets_data/product_images/aldi/686ee14538332882.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Gabonapehely, reggeli müzli",
+    "altipus": "Zabkása, zabpehely",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "instant": true,
+      "márka": "Golden Bridge",
+      "bio": false,
+      "gluténmentes": true,
+      "alap": [
+        "rizs"
+      ],
+      "íz / hozzáadott": [
+        "erdei gyümölcs"
+      ]
+    },
+    "kategoria_hash": "7fd716607a6063aa4a5d14b2dea2f4927a35d69aea1e6136d0543219aada49cb",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534686",
+      "product_name": "LE GUSTO Ételecet 10 %-os savtartalommal, 1 liter",
+      "brand_name": "",
+      "unit_price": "315.0",
+      "unit_type": "ml",
+      "unit_step": "1000.0",
+      "vegso_mennyiseg": "1000.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Olaj és ecet > Ételecet",
+      "local_image_paths": "data/markets_data/product_images/aldi/2636aa916a8649aa.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Olaj, ecet, zsiradék",
+    "altipus": "Ecet",
+    "tulajdonsagok": {
+      "kiszerelés": "flakon",
+      "márka": "Le Gusto",
+      "bio": false,
+      "ecet savtartalom": [
+        "10%"
+      ],
+      "ecet fajta": [
+        "ételecet"
+      ]
+    },
+    "kategoria_hash": "636adede89146012fbbaee0ed7641d31cbacf761152143b2b7d09122654eb634",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535181",
+      "product_name": "CUCINA Passzírozott paradicsom, 500 g",
+      "brand_name": "",
+      "unit_price": "315.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/1552dc74f4f0e53c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Paradicsomkonzerv, -püré, passzírozott",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": false,
+      "csípős": false,
+      "márka": "Cucina",
+      "bio": false,
+      "alapanyag": [
+        "paradicsom"
+      ],
+      "lé / közeg": [
+        "egyéb"
+      ],
+      "darabolás": [
+        "passzírozott"
+      ]
+    },
+    "kategoria_hash": "238affa77b2c99ea9021e5a0f6392ef128897bdeaf92059f4924e8cc0a8f2430",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "873793",
+      "product_name": "DIAMANT Porcukor, 500 g",
+      "brand_name": "",
+      "unit_price": "315.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Cukor és édesítőszerek > Porcukor",
+      "local_image_paths": "data/markets_data/product_images/aldi/4ad4365b772d9100.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Cukor, édesítőszer",
+    "altipus": "Porcukor",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "hozzáadott aroma": false,
+      "márka": "Diamant",
+      "bio": false,
+      "szín": [
+        "fehér"
+      ]
+    },
+    "kategoria_hash": "c3795f961397eb9715f80cb747a6ecfa5d1de9c7e6488445a98a1277a47378bb",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1046971",
+      "product_name": "BON-RI / HAPPY HARVEST Barna rizs főzőtasakban, 2 x 125 g",
+      "brand_name": "",
+      "unit_price": "315.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Rizs",
+      "local_image_paths": "data/markets_data/product_images/aldi/c55d455071335109.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Rizs, köret",
+    "altipus": "Rizs",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "márka": "Bon-Ri / Happy Harvest",
+      "bio": false,
+      "köret alapanyaga / fajtája": [
+        "barna rizs"
+      ],
+      "főzőtasakos": true,
+      "előfőzött / gyorsrizs": false
+    },
+    "kategoria_hash": "26ac0098c7b6a19051e3158417747c926e5a57de41e5427e0b9d7586d707f091",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1059488",
+      "product_name": "ALMARE SEAFOOD Lazacpástétom, 100 g",
+      "brand_name": "",
+      "unit_price": "325.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/e5a4923cc9d46e06.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Pástétom, húskrém",
+    "altipus": "Húskrém, kenhető",
+    "tulajdonsagok": {
+      "bio": false,
+      "hazai/magyar": false,
+      "márka": "Almare Seafood",
+      "alap": [
+        "lazac"
+      ],
+      "ízesítés": [
+        "natúr"
+      ],
+      "csomagolás": [
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "86c58dc46d1822f48ad298aaec864a928870cbba44a192a1886a4cfe93ab8f5a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534485",
+      "product_name": "Spagetti tojás nélküli, 500 g",
+      "brand_name": "",
+      "unit_price": "329.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Egyéb tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/98672d45a3a79c5f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Tészta",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "márka": "egyéb",
+      "bio": false,
+      "tojástartalom": [
+        "tojás nélküli"
+      ],
+      "alapanyag": [
+        "búza"
+      ],
+      "tésztafajta / forma": [
+        "spagetti"
+      ],
+      "állapot": [
+        "száraz"
+      ]
+    },
+    "kategoria_hash": "d749560d7b91f811a08656fa1a6b86b83180eed771695a595e8e15d6b2350293",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534158",
+      "product_name": "CSÁSZÁR Boglyas szélesmetélt 8 tojásos, 250 g",
+      "brand_name": "",
+      "unit_price": "349.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Tojásos tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/599704f42cc32486.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Tészta",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "márka": "Császár",
+      "bio": false,
+      "tojástartalom": [
+        "8 tojásos"
+      ],
+      "alapanyag": [
+        "tojásos",
+        "búza"
+      ],
+      "tésztafajta / forma": [
+        "metélt"
+      ],
+      "állapot": [
+        "száraz"
+      ]
+    },
+    "kategoria_hash": "6c6a25e71b3962c2d922e9970680dec39745a8c84ddbe8f99cebd2053f195de4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534168",
+      "product_name": "CSÁSZÁR Dörzstarhonya 8 tojásos, 250 g",
+      "brand_name": "",
+      "unit_price": "349.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Tojásos tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/3f5ca42f571cc5c0.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Tészta",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "márka": "Császár",
+      "bio": false,
+      "tojástartalom": [
+        "8 tojásos"
+      ],
+      "alapanyag": [
+        "tojásos",
+        "búza"
+      ],
+      "tésztafajta / forma": [
+        "tarhonya"
+      ],
+      "állapot": [
+        "száraz"
+      ]
+    },
+    "kategoria_hash": "4cbfa9e7d6685c5cbc8a8ec67d718557247083aab4b5fd60d6607982f4b61207",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "539344",
+      "product_name": "DR. OETKER Vanillin cukor, 5 x 8 g",
+      "brand_name": "",
+      "unit_price": "349.0",
+      "unit_type": "g",
+      "unit_step": "40.0",
+      "vegso_mennyiseg": "40.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Sütés alapanyagok",
+      "local_image_paths": "data/markets_data/product_images/aldi/2509b6370b8cff8f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Cukor, édesítőszer",
+    "altipus": "Vaníliás cukor, sütőcukor",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "hozzáadott aroma": true,
+      "márka": "Dr. Oetker",
+      "bio": false,
+      "szín": [
+        "fehér"
+      ]
+    },
+    "kategoria_hash": "e865d46283f1087d1e7d3cb9096e8c74871350a7a7d674d3b0fdd4f552d0ef60",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "541050",
+      "product_name": "CSÁSZÁR Cérnametélt 8 tojásos, 250 g",
+      "brand_name": "",
+      "unit_price": "349.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Levestészta",
+      "local_image_paths": "data/markets_data/product_images/aldi/f7df405da7484c51.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Tészta",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "márka": "Császár",
+      "bio": false,
+      "tojástartalom": [
+        "8 tojásos"
+      ],
+      "alapanyag": [
+        "tojásos",
+        "búza"
+      ],
+      "tésztafajta / forma": [
+        "metélt",
+        "levesbetét"
+      ],
+      "állapot": [
+        "száraz"
+      ]
+    },
+    "kategoria_hash": "248bc59ecfedf0c6f46c637f4f2723ff19355c4d522201eaa25dd232d1e9aaea",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "541747",
+      "product_name": "DR. OETKER Sütőpor, 5 x 12 g",
+      "brand_name": "",
+      "unit_price": "349.0",
+      "unit_type": "g",
+      "unit_step": "60.0",
+      "vegso_mennyiseg": "60.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Sütés alapanyagok",
+      "local_image_paths": "data/markets_data/product_images/aldi/9a1bc3bcb2fefd6d.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Sütési alapanyag",
+    "altipus": "Sütőpor, szódabikarbóna, élesztő",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "gluténmentes": false,
+      "instant": false,
+      "márka": "Dr. Oetker",
+      "bio": false,
+      "forma": [
+        "por"
+      ]
+    },
+    "kategoria_hash": "b6d211dd015acff29ec0ec2c5d8489df8b4062c87b0f894edd877effb9770249",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "902340",
+      "product_name": "DR. OETKER Rumaroma, 38 ml",
+      "brand_name": "",
+      "unit_price": "349.0",
+      "unit_type": "ml",
+      "unit_step": "38.0",
+      "vegso_mennyiseg": "38.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Sütés alapanyagok",
+      "local_image_paths": "data/markets_data/product_images/aldi/1a21ea0366f97e2e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Sütési alapanyag",
+    "altipus": "Aroma, kivonat, vaníliarúd",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "gluténmentes": false,
+      "instant": false,
+      "márka": "Dr. Oetker",
+      "bio": false,
+      "forma": [
+        "folyadék"
+      ],
+      "íz / aroma": [
+        "rum"
+      ]
+    },
+    "kategoria_hash": "e1f5cf56ef58ea2cefba8800bdd10bfdcbf2110ee3a83202dc310294422b3481",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "902341",
+      "product_name": "DR. OETKER vaníliaaroma, 38 ml",
+      "brand_name": "",
+      "unit_price": "349.0",
+      "unit_type": "ml",
+      "unit_step": "38.0",
+      "vegso_mennyiseg": "38.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Sütés alapanyagok",
+      "local_image_paths": "data/markets_data/product_images/aldi/1b3582559e1d9ddc.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Sütési alapanyag",
+    "altipus": "Aroma, kivonat, vaníliarúd",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "gluténmentes": false,
+      "instant": false,
+      "márka": "Dr. Oetker",
+      "bio": false,
+      "forma": [
+        "folyadék"
+      ],
+      "íz / aroma": [
+        "vanília"
+      ]
+    },
+    "kategoria_hash": "c3b235afbfd35ef8ccb65aa81a66120ca478d04f8a8c156f38387ebc2afc2f4b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "952031",
+      "product_name": "KING'S CROWN Morzsolt csemege-kukorica szuperédes, 340 g ( 285 g )",
+      "brand_name": "",
+      "unit_price": "349.0",
+      "unit_type": "g",
+      "unit_step": "285.0",
+      "vegso_mennyiseg": "285.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/f01a14bc753bef5b.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Zöldségkonzerv (kukorica, borsó, bab)",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "King's Crown",
+      "bio": false,
+      "alapanyag": [
+        "kukorica"
+      ],
+      "lé / közeg": [
+        "sós lében"
+      ],
+      "darabolás": [
+        "morzsolt"
+      ]
+    },
+    "kategoria_hash": "ba89131f9b92f4dcea48339f97721d62494ae6eabb58a38e6a1b96c1a7e2c649",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1058045",
+      "product_name": "LE GUSTO Mustár, 400 g",
+      "brand_name": "",
+      "unit_price": "349.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "400.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Szószok, mártások > Mustár",
+      "local_image_paths": "data/markets_data/product_images/aldi/27503157250e4fd7.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Mustár",
+    "tulajdonsagok": {
+      "kiszerelés": "flakon",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "natúr"
+      ],
+      "alap": [
+        "mustár"
+      ],
+      "konyha / stílus": [],
+      "csípősség": [
+        "csemege"
+      ]
+    },
+    "kategoria_hash": "e2bdd3666640cd6b50a1918ac3106c8228d4fd62255e3bf406b631a511876bb0",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1031511",
+      "product_name": "BON-RI Bulgur, 500 g",
+      "brand_name": "",
+      "unit_price": "385.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Hüvelyes és egyéb köretek",
+      "local_image_paths": "data/markets_data/product_images/aldi/6c7a0e96a374472d.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Rizs, köret",
+    "altipus": "Bulgur, kuszkusz, quinoa",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "márka": "Bon-Ri",
+      "bio": false,
+      "köret alapanyaga / fajtája": [
+        "bulgur"
+      ]
+    },
+    "kategoria_hash": "232b6f4d34b5534022328104cda8fbe5d53207b7f9548ef72ac224182390de29",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4606151",
+      "product_name": "Coleslaw saláta, 140 g",
+      "brand_name": "",
+      "unit_price": "385.0",
+      "unit_type": "g",
+      "unit_step": "140.0",
+      "vegso_mennyiseg": "140.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Készételek > Hideg saláták, krémek",
+      "local_image_paths": "data/markets_data/product_images/aldi/f3a59c3200843d13.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Készétel",
+    "alkategoria": "Saláta, hidegtál",
+    "altipus": "",
+    "tulajdonsagok": {
+      "vegán": false,
+      "vegetáriánus": true,
+      "gluténmentes": false,
+      "laktózmentes": false,
+      "csípős": false,
+      "csomagolás": "doboz",
+      "konyha / stílus": [
+        "egyéb"
+      ],
+      "fő alapanyag": [
+        "zöldség"
+      ],
+      "adag": [
+        "egyszemélyes"
+      ],
+      "tárolás": [
+        "hűtött"
+      ],
+      "elkészítés": [
+        "azonnal fogyasztható"
+      ],
+      "azonnal fogyasztható": true,
+      "alap": [
+        "répa",
+        "egyéb"
+      ],
+      "saláta fajta": [
+        "coleslaw"
+      ],
+      "öntet / alap": [
+        "majonézes"
+      ]
+    },
+    "kategoria_hash": "760afa120e2cf62f9102a9dc0798c440cfc35e5670659cc06a67e2af609455dc",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "753871",
+      "product_name": "LE GUSTO Grízgombócleves, 56 g",
+      "brand_name": "",
+      "unit_price": "405.0",
+      "unit_type": "g",
+      "unit_step": "56.0",
+      "vegso_mennyiseg": "56.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Instant levesek és tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/1f82ba3c9d162cdf.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Instant leves",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "tasakos"
+      ],
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "grízgaluska"
+      ]
+    },
+    "kategoria_hash": "da588fefc127cf60dd406201e3459184ae81bf1df0333144cdc8222e296cb913",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "891042",
+      "product_name": "GOLDEN BRIDGE Zabpehely finomszemű, 500 g",
+      "brand_name": "",
+      "unit_price": "405.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Reggeliző- pehely, müzli > Zabkása, zabpehely",
+      "local_image_paths": "data/markets_data/product_images/aldi/737ea5857df7fcad.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Gabonapehely, reggeli müzli",
+    "altipus": "Zabkása, zabpehely",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "instant": false,
+      "márka": "Golden Bridge",
+      "bio": false,
+      "gluténmentes": false,
+      "alap": [
+        "zab"
+      ],
+      "íz / hozzáadott": []
+    },
+    "kategoria_hash": "f72ca4b2eca76cddcd98cb20e4797ec589f38d55be5f0ec506915bb730626b5d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "891043",
+      "product_name": "GOLDEN BRIDGE Zabpehely nagy szemű, 500 g",
+      "brand_name": "",
+      "unit_price": "405.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Reggeliző- pehely, müzli > Zabkása, zabpehely",
+      "local_image_paths": "data/markets_data/product_images/aldi/3d13a78316035ef3.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Gabonapehely, reggeli müzli",
+    "altipus": "Zabkása, zabpehely",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "instant": false,
+      "márka": "Golden Bridge",
+      "bio": false,
+      "gluténmentes": false,
+      "alap": [
+        "zab"
+      ],
+      "íz / hozzáadott": []
+    },
+    "kategoria_hash": "f72ca4b2eca76cddcd98cb20e4797ec589f38d55be5f0ec506915bb730626b5d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "949112",
+      "product_name": "LE GUSTO Tavaszi zöldségleves, 81 g",
+      "brand_name": "",
+      "unit_price": "405.0",
+      "unit_type": "g",
+      "unit_step": "81.0",
+      "vegso_mennyiseg": "81.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Instant levesek és tészták",
+      "local_image_paths": "",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Instant leves",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "tasakos"
+      ],
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "zöldség"
+      ]
+    },
+    "kategoria_hash": "e155e93e04f5622f361bdbfa3141c9441e6edf2f93db82cf52b319c4f98ebbb0",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1058254",
+      "product_name": "LE GUSTO Tyúkhúsleves tésztával, 73 g",
+      "brand_name": "",
+      "unit_price": "405.0",
+      "unit_type": "g",
+      "unit_step": "73.0",
+      "vegso_mennyiseg": "73.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Instant levesek és tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/a53318624fbc6afd.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Instant leves",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "tasakos"
+      ],
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "csirke"
+      ]
+    },
+    "kategoria_hash": "80adceccacdd839a12848d7042e5243c2b3dc4766857aea6a864aea5048c8f28",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534176",
+      "product_name": "KOKÁRDÁS Panírmorzsa, 500 g",
+      "brand_name": "",
+      "unit_price": "409.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Liszt, dara, panírmorzsa > Panírmorzsák",
+      "local_image_paths": "data/markets_data/product_images/aldi/5807c984dc5a2eb9.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Liszt, dara, morzsa",
+    "altipus": "Zsemlemorzsa, panko, panírozó",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "bio": false,
+      "gluténmentes": false,
+      "márka": "Kokárdás"
+    },
+    "kategoria_hash": "3b0e3d2a6978ef18a66e017006a971da078fc2e08a3e6bb493a1825825cc20e0",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "838076",
+      "product_name": "LE GUSTO Zöldségleves kocka, 120 g",
+      "brand_name": "",
+      "unit_price": "409.0",
+      "unit_type": "g",
+      "unit_step": "120.0",
+      "vegso_mennyiseg": "120.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Leveskocka, levesbetét",
+      "local_image_paths": "data/markets_data/product_images/aldi/e38a18dc4101eeaf.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Étkezési só, ételízesítő",
+    "altipus": "Leveskocka, -por",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "csökkentett nátriumtartalom": false,
+      "márka": "Le Gusto",
+      "alapíz / cél": [
+        "zöldségleves"
+      ]
+    },
+    "kategoria_hash": "f1a5b1fb82d790959d979415e21c766624f1893b00567978dbf76e4bff3f6ca2",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4597693",
+      "product_name": "LE GUSTO Tyúk-leves kocka, 120 g",
+      "brand_name": "",
+      "unit_price": "409.0",
+      "unit_type": "g",
+      "unit_step": "120.0",
+      "vegso_mennyiseg": "120.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Leveskocka, levesbetét",
+      "local_image_paths": "data/markets_data/product_images/aldi/ec12793be74fa445.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Étkezési só, ételízesítő",
+    "altipus": "Leveskocka, -por",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "csökkentett nátriumtartalom": false,
+      "márka": "Le Gusto",
+      "alapíz / cél": [
+        "tyúkhúsleves"
+      ]
+    },
+    "kategoria_hash": "e297a36f30bbdc22437940319a389846a2e547d14d05e2951217cc23e8269120",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4597694",
+      "product_name": "LE GUSTO Marhahús-leveskocka, 120 g",
+      "brand_name": "",
+      "unit_price": "409.0",
+      "unit_type": "g",
+      "unit_step": "120.0",
+      "vegso_mennyiseg": "120.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Leveskocka, levesbetét",
+      "local_image_paths": "data/markets_data/product_images/aldi/06eddf25b9803bb1.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Étkezési só, ételízesítő",
+    "altipus": "Leveskocka, -por",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "csökkentett nátriumtartalom": false,
+      "márka": "Le Gusto",
+      "alapíz / cél": [
+        "marhahúsleves"
+      ]
+    },
+    "kategoria_hash": "76f4e6142d77c8da14de9abe36b7da4fa9202ef7e4171e948c15b260373bdbc9",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534772",
+      "product_name": "CSÁSZÁR Spagetti 4 tojásos, 500 g",
+      "brand_name": "",
+      "unit_price": "419.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Tojásos tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/277566de72c97708.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Tészta",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "márka": "Császár",
+      "bio": false,
+      "tojástartalom": [
+        "4 tojásos"
+      ],
+      "alapanyag": [
+        "tojásos",
+        "búza"
+      ],
+      "tésztafajta / forma": [
+        "spagetti"
+      ],
+      "állapot": [
+        "száraz"
+      ]
+    },
+    "kategoria_hash": "efa3e26f9c0f34c02107e63e732af75e44eb33550c56f69dab242780ff30afaf",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "997210",
+      "product_name": "DR. OETKER Expressz zselatin fix, 20 g",
+      "brand_name": "",
+      "unit_price": "425.0",
+      "unit_type": "g",
+      "unit_step": "20.0",
+      "vegso_mennyiseg": "20.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Sütés alapanyagok",
+      "local_image_paths": "data/markets_data/product_images/aldi/20a5533119a6c518.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Sütési alapanyag",
+    "altipus": "Zselatin, habfixáló, tortazselé",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "gluténmentes": false,
+      "instant": true,
+      "márka": "Dr. Oetker",
+      "bio": false,
+      "forma": [
+        "por"
+      ],
+      "szín": [
+        "színtelen"
+      ]
+    },
+    "kategoria_hash": "9d0d430ac0c6ac95e4302442e70d7752a757eba1e30f30e95be044fa02483261",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1057767",
+      "product_name": "LE GUSTO Fekete bors, 50 g",
+      "brand_name": "",
+      "unit_price": "425.0",
+      "unit_type": "g",
+      "unit_step": "50.0",
+      "vegso_mennyiseg": "50.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Só, fűszer, ételízesítők > Bors",
+      "local_image_paths": "data/markets_data/product_images/aldi/3e5ca6c2ef501313.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Fűszer",
+    "altipus": "Bors, chili",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "márka": "Le Gusto",
+      "bio": false,
+      "forma": [
+        "őrölt"
+      ],
+      "fűszerfajta": [
+        "bors"
+      ],
+      "célétel / stílus": [],
+      "csípősség": [
+        "enyhén csípős"
+      ]
+    },
+    "kategoria_hash": "2b2549725e0c653ca897584e7218f4dce862541ee806693a0005df885bb1c848",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4598659",
+      "product_name": "WESTMINSTER Rooibos tea karamellás, 25 x 2,8 g",
+      "brand_name": "",
+      "unit_price": "425.0",
+      "unit_type": "g",
+      "unit_step": "70.0",
+      "vegso_mennyiseg": "70.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Kávé, tea, italpor > Filteres teák",
+      "local_image_paths": "data/markets_data/product_images/aldi/2a3ae7a775183a40.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Teafű, filteres tea, instant tea",
+    "tulajdonsagok": {
+      "márka": "Westminster",
+      "típus": "filteres",
+      "fajta": "egyéb",
+      "íz": [
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "6a9887d540614ffbde1779796ddaac726519d5172794c7f473a7d1a8f9bdc262",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4598660",
+      "product_name": "WESTMINSTER Rooibos tea vaníiliás, 25 x 2,8 g",
+      "brand_name": "",
+      "unit_price": "425.0",
+      "unit_type": "g",
+      "unit_step": "70.0",
+      "vegso_mennyiseg": "70.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Kávé, tea, italpor > Filteres teák",
+      "local_image_paths": "data/markets_data/product_images/aldi/615bb93c11718ed3.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Teafű, filteres tea, instant tea",
+    "tulajdonsagok": {
+      "márka": "Westminster",
+      "típus": "filteres",
+      "fajta": "egyéb",
+      "íz": [
+        "vanília"
+      ]
+    },
+    "kategoria_hash": "9b45953948a79d8017e247b441eb50a418b99d2bf5a19e216a2665a3007f3d6c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4598661",
+      "product_name": "WESTMINSTER Rooibos tea natúr, 25 x 2,8 g",
+      "brand_name": "",
+      "unit_price": "425.0",
+      "unit_type": "g",
+      "unit_step": "70.0",
+      "vegso_mennyiseg": "70.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Kávé, tea, italpor > Filteres teák",
+      "local_image_paths": "data/markets_data/product_images/aldi/63fecd98e0fbb216.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Teafű, filteres tea, instant tea",
+    "tulajdonsagok": {
+      "márka": "Westminster",
+      "típus": "filteres",
+      "fajta": "egyéb",
+      "íz": []
+    },
+    "kategoria_hash": "3f03e66635a95fa22ef0941bfdd4113645a05c2bf8c865e8798297129bbc9877",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "982208",
+      "product_name": "DR. OETKER Élesztő, 3 x 7 g",
+      "brand_name": "",
+      "unit_price": "435.0",
+      "unit_type": "g",
+      "unit_step": "21.0",
+      "vegso_mennyiseg": "21.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Sütés alapanyagok",
+      "local_image_paths": "data/markets_data/product_images/aldi/69f48c23a20dec19.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Sütési alapanyag",
+    "altipus": "Sütőpor, szódabikarbóna, élesztő",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "gluténmentes": false,
+      "instant": false,
+      "márka": "Dr. Oetker",
+      "bio": false,
+      "forma": [
+        "por"
+      ]
+    },
+    "kategoria_hash": "b6d211dd015acff29ec0ec2c5d8489df8b4062c87b0f894edd877effb9770249",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "823356",
+      "product_name": "DIAMANT Kockacukor, 500 g",
+      "brand_name": "",
+      "unit_price": "459.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Cukor és édesítőszerek > Kristálycukor",
+      "local_image_paths": "data/markets_data/product_images/aldi/de6a98c2ab9d05d1.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Cukor, édesítőszer",
+    "altipus": "Kockacukor",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "hozzáadott aroma": false,
+      "márka": "Diamant",
+      "bio": false,
+      "szín": [
+        "fehér"
+      ]
+    },
+    "kategoria_hash": "4b2974efb16d49b3e3d2d30584341b9d9d139d2fa7d526008aacf74f3b8c403e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "927632",
+      "product_name": "PRIMANA Kacsamájas, 100 g",
+      "brand_name": "",
+      "unit_price": "459.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Májasok",
+      "local_image_paths": "data/markets_data/product_images/aldi/dd34acd81b80d6b2.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Pástétom, húskrém",
+    "altipus": "Májpástétom",
+    "tulajdonsagok": {
+      "bio": false,
+      "hazai/magyar": false,
+      "márka": "Primana",
+      "alap": [
+        "egyéb"
+      ],
+      "ízesítés": [
+        "natúr"
+      ],
+      "csomagolás": [
+        "konzerv"
+      ]
+    },
+    "kategoria_hash": "1d2a66d9dab4020d2b0e995350ff72078e98403a338d1c7538faab87263fbc95",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "927633",
+      "product_name": "PRIMANA Libamájas, 100 g",
+      "brand_name": "",
+      "unit_price": "459.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Májasok",
+      "local_image_paths": "data/markets_data/product_images/aldi/c1d6d3b0de604fab.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Pástétom, húskrém",
+    "altipus": "Májpástétom",
+    "tulajdonsagok": {
+      "bio": false,
+      "hazai/magyar": false,
+      "márka": "Primana",
+      "alap": [
+        "libamáj"
+      ],
+      "ízesítés": [
+        "natúr"
+      ],
+      "csomagolás": [
+        "konzerv"
+      ]
+    },
+    "kategoria_hash": "4c41a5ab2054b12d2c9970d5314bb8e3650915729ba34d7cc15729fab48d252e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4606144",
+      "product_name": "ALMARE SEAFOOD Szardinella napraforgóolajban citrommal, 125 g (90g)",
+      "brand_name": "",
+      "unit_price": "465.0",
+      "unit_type": "g",
+      "unit_step": "90.0",
+      "vegso_mennyiseg": "90.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/df59b363a15f4ca2.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Szardinella",
+    "tulajdonsagok": {
+      "bio": false,
+      "hazai/magyar": false,
+      "MSC / fenntartható halászat": false,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "napraforgóolajban"
+      ],
+      "darabolás": [
+        "egész"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "f7ce17d032a2ff5e9de1cfdb4156a519743d2729bd3002047b91662d23049a28",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4606145",
+      "product_name": "ALMARE SEAFOOD Szardinella napraforgóolajban chilivel, 125 g (90g)",
+      "brand_name": "",
+      "unit_price": "465.0",
+      "unit_type": "g",
+      "unit_step": "90.0",
+      "vegso_mennyiseg": "90.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/fa59a6972757c065.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Szardinella",
+    "tulajdonsagok": {
+      "bio": false,
+      "hazai/magyar": false,
+      "MSC / fenntartható halászat": false,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "napraforgóolajban"
+      ],
+      "darabolás": [
+        "egész"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "f7ce17d032a2ff5e9de1cfdb4156a519743d2729bd3002047b91662d23049a28",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4606146",
+      "product_name": "ALMARE SEAFOOD Szardinella paradicsomszószban, 125 g (90g)",
+      "brand_name": "",
+      "unit_price": "465.0",
+      "unit_type": "g",
+      "unit_step": "90.0",
+      "vegso_mennyiseg": "90.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/f0c28ffff67c6ec1.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Szardinella",
+    "tulajdonsagok": {
+      "bio": false,
+      "hazai/magyar": false,
+      "MSC / fenntartható halászat": false,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "paradicsomszószban"
+      ],
+      "darabolás": [
+        "egész"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "0b7fc0fa6d74d080c26a6d3fc85c51aea59b0a1f6abce7627de15f8f27451d4b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534523",
+      "product_name": "GOOD CHOICE Leveles tészta klasszikus, 275 g",
+      "brand_name": "",
+      "unit_price": "469.0",
+      "unit_type": "g",
+      "unit_step": "275.0",
+      "vegso_mennyiseg": "275.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Kész tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/01213ad19babdc37.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Tészta",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "márka": "Good Choice",
+      "bio": false,
+      "tojástartalom": [],
+      "alapanyag": [
+        "búza"
+      ],
+      "tésztafajta / forma": [
+        "egyéb"
+      ],
+      "állapot": [
+        "friss"
+      ]
+    },
+    "kategoria_hash": "8cb7143df49e063dc64ee83627f09d9195af8974121bddf74637fe578a9c8a86",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "923136",
+      "product_name": "DR. OETKER Eredeti pudingpor vaníliaízű, 3 darab / csomag ,3 x 40 g",
+      "brand_name": "",
+      "unit_price": "469.0",
+      "unit_type": "g",
+      "unit_step": "120.0",
+      "vegso_mennyiseg": "120.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Öntetek, puding- és fagylaltpor",
+      "local_image_paths": "data/markets_data/product_images/aldi/0e7f8c9628636025.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Sütési alapanyag",
+    "altipus": "Pudingpor, krémpor",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "gluténmentes": false,
+      "instant": false,
+      "márka": "Dr. Oetker",
+      "bio": false,
+      "forma": [
+        "por"
+      ],
+      "íz / aroma": [
+        "vanília"
+      ]
+    },
+    "kategoria_hash": "6f343828849b9e6ba21dfc96d1ba53b044130a27349f0c80ddb9dea435fc24cb",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "952005",
+      "product_name": "BELLA Zselatin lap, 30 g",
+      "brand_name": "",
+      "unit_price": "469.0",
+      "unit_type": "g",
+      "unit_step": "30.0",
+      "vegso_mennyiseg": "30.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Sütés alapanyagok",
+      "local_image_paths": "data/markets_data/product_images/aldi/a7050fe0bedfe721.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Sütési alapanyag",
+    "altipus": "Zselatin, habfixáló, tortazselé",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "gluténmentes": false,
+      "instant": false,
+      "márka": "Bella",
+      "bio": false,
+      "forma": [
+        "lap"
+      ],
+      "szín": [
+        "színtelen"
+      ]
+    },
+    "kategoria_hash": "1306b9cdf10458351bc692e6237fd3a34d8c09c1ca97c5aac5667ed6f9c53909",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "952006",
+      "product_name": "BELLA Zselatin instant, 30 g",
+      "brand_name": "",
+      "unit_price": "469.0",
+      "unit_type": "g",
+      "unit_step": "30.0",
+      "vegso_mennyiseg": "30.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Sütés alapanyagok",
+      "local_image_paths": "data/markets_data/product_images/aldi/fcec41e99b0571d5.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Sütési alapanyag",
+    "altipus": "Zselatin, habfixáló, tortazselé",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "gluténmentes": false,
+      "instant": true,
+      "márka": "Bella",
+      "bio": false,
+      "forma": [
+        "por"
+      ],
+      "szín": [
+        "színtelen"
+      ]
+    },
+    "kategoria_hash": "32c5284160eb19de34e1cfa855818d884a9e3c52f6e0df540563fc51144fdba4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "955335",
+      "product_name": "DR. OETKER Eredeti pudingpor csokoládéízű, 3 x 44,5 g",
+      "brand_name": "",
+      "unit_price": "469.0",
+      "unit_type": "g",
+      "unit_step": "128.0",
+      "vegso_mennyiseg": "128.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Öntetek, puding- és fagylaltpor",
+      "local_image_paths": "data/markets_data/product_images/aldi/1b5b4afd01cf8ef6.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Sütési alapanyag",
+    "altipus": "Pudingpor, krémpor",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "gluténmentes": false,
+      "instant": false,
+      "márka": "Dr. Oetker",
+      "bio": false,
+      "forma": [
+        "por"
+      ],
+      "íz / aroma": [
+        "csokoládé"
+      ]
+    },
+    "kategoria_hash": "8c51c5937111532ed4bef0616753fe6cb808bc1d045dff22cee86a1f270b32cd",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1054860",
+      "product_name": "NISSIN Smack Instant tésztaétel marhaús, 100 g",
+      "brand_name": "",
+      "unit_price": "469.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Instant levesek és tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/038c21a3cecaf158.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Instant tészta, burgonyapüré",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "tasakos"
+      ],
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Nissin",
+      "íz / étel": [
+        "marha"
+      ]
+    },
+    "kategoria_hash": "aadbd7794e7a9cc5a51dcc21cecc1c3dd191f2c19935265731a2a88e5b156639",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1054865",
+      "product_name": "NISSIN Smack Instant tésztaétel csirke, 100 g",
+      "brand_name": "",
+      "unit_price": "469.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Instant levesek és tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/b961ecfe1671210a.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Instant tészta, burgonyapüré",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "tasakos"
+      ],
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Nissin",
+      "íz / étel": [
+        "csirke"
+      ]
+    },
+    "kategoria_hash": "0479100251a57d2668ffb41723ee56ae6dbe0861c9ec182b9d475889aaaee8d4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1059038",
+      "product_name": "ASIA GREEN GARDEN Ázsiai készételek zöldséges, 124 g",
+      "brand_name": "",
+      "unit_price": "469.0",
+      "unit_type": "g",
+      "unit_step": "124.0",
+      "vegso_mennyiseg": "124.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Instant levesek és tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/afadf2849f5fd43c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Instant tészta, burgonyapüré",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "tasakos"
+      ],
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Asia Green Garden",
+      "íz / étel": [
+        "zöldség"
+      ]
+    },
+    "kategoria_hash": "6c7cd4d874565d510783b5db5957e603e6654fe294db8203d154538c65451df0",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1059039",
+      "product_name": "ASIA GREEN GARDEN Ázsiai készételek csirkés, 121 g",
+      "brand_name": "",
+      "unit_price": "469.0",
+      "unit_type": "g",
+      "unit_step": "121.0",
+      "vegso_mennyiseg": "121.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Instant levesek és tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/142594117a16eeae.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Instant tészta, burgonyapüré",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "tasakos"
+      ],
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Asia Green Garden",
+      "íz / étel": [
+        "csirke"
+      ]
+    },
+    "kategoria_hash": "b08c37652fd81c6fcbab334fda3db6de4a5af63360a5f3829c6a715a915d0370",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1059040",
+      "product_name": "ASIA GREEN GARDEN Ázsiai készételek currys, 124 g",
+      "brand_name": "",
+      "unit_price": "469.0",
+      "unit_type": "g",
+      "unit_step": "124.0",
+      "vegso_mennyiseg": "124.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Instant levesek és tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/1af0a950363767c9.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Instant tészta, burgonyapüré",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "tasakos"
+      ],
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Asia Green Garden",
+      "íz / étel": [
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "370ff93dfef634be340f7175e492f43b8aca2512c4ad338acd5c1ed6fd0e250a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4604664",
+      "product_name": "DR. OETKER Eredeti pudingpor puncsízű, 3 x 40 g",
+      "brand_name": "",
+      "unit_price": "469.0",
+      "unit_type": "g",
+      "unit_step": "120.0",
+      "vegso_mennyiseg": "120.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Öntetek, puding- és fagylaltpor",
+      "local_image_paths": "data/markets_data/product_images/aldi/57551a6a3c80f3b5.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Sütési alapanyag",
+    "altipus": "Pudingpor, krémpor",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "gluténmentes": false,
+      "instant": false,
+      "márka": "Dr. Oetker",
+      "bio": false,
+      "forma": [
+        "por"
+      ],
+      "íz / aroma": [
+        "puncs"
+      ]
+    },
+    "kategoria_hash": "8f9eb09b424b1d612906013a93b1433dd4718047d8a1a591a41ca48b7c77120d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "997153",
+      "product_name": "KING'S CROWN Szeletelt gomba, 400 g (230 g)",
+      "brand_name": "",
+      "unit_price": "475.0",
+      "unit_type": "g",
+      "unit_step": "230.0",
+      "vegso_mennyiseg": "230.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/867ba162d9f85c50.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Gombakonzerv",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "King's Crown",
+      "bio": false,
+      "alapanyag": [
+        "gomba"
+      ],
+      "lé / közeg": [
+        "sós lében"
+      ],
+      "darabolás": [
+        "szeletelt"
+      ]
+    },
+    "kategoria_hash": "a198f544dfcc58b4291310b300f3361668506450e4388d15ae380fcd86571775",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "926163",
+      "product_name": "KING'S CROWN Gyöngyhagyma, 320 g (190 g)",
+      "brand_name": "",
+      "unit_price": "489.0",
+      "unit_type": "g",
+      "unit_step": "190.0",
+      "vegso_mennyiseg": "190.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Savanyúságok, olívabogyó",
+      "local_image_paths": "data/markets_data/product_images/aldi/472d9383d73b2f2c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Savanyúság (uborka, csalamádé, vegyes)",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "King's Crown",
+      "bio": false,
+      "alapanyag": [
+        "egyéb"
+      ],
+      "lé / közeg": [
+        "ecetes lében"
+      ],
+      "darabolás": [
+        "egész"
+      ]
+    },
+    "kategoria_hash": "2cdc06031ba38fbe055d5e8d066554b53ee8137fdef8fa023f86ba0e51d8ccf3",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "536043",
+      "product_name": "Darálós keksz, 200 g",
+      "brand_name": "",
+      "unit_price": "495.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Sütés alapanyagok",
+      "local_image_paths": "data/markets_data/product_images/aldi/5b802e3cdd16c7c6.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Háztartási keksz, teasütemény",
+    "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "kakaós",
+        "vaníliás"
+      ]
+    },
+    "kategoria_hash": "acc7656ef9f5f8b705a63a63dca8d5491bbd9c80bc632053a784f33aa29c6578",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1046962",
+      "product_name": "KING'S CROWN Savanyúkáposzta 500 g (450 g)",
+      "brand_name": "",
+      "unit_price": "495.0",
+      "unit_type": "g",
+      "unit_step": "510.0",
+      "vegso_mennyiseg": "450.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Savanyúságok, olívabogyó",
+      "local_image_paths": "data/markets_data/product_images/aldi/439751fc7a7d4fe9.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Savanyúság (uborka, csalamádé, vegyes)",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "King's Crown",
+      "bio": false,
+      "alapanyag": [
+        "egyéb"
+      ],
+      "lé / közeg": [
+        "ecetes lében"
+      ],
+      "darabolás": [
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "c2ef8c5065b67f6056db92052f9f3ee4844581d264c9b79f455fc5584c65a3a9",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535214",
+      "product_name": "LE GUSTO Gyümölcslevespor görög gyümölcs, 54 g",
+      "brand_name": "",
+      "unit_price": "499.0",
+      "unit_type": "g",
+      "unit_step": "54.0",
+      "vegso_mennyiseg": "54.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Instant levesek és tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/54271359f037d5f2.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Instant leves",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "tasakos"
+      ],
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "bd92e132520327d9f55ae2adf79f8125f172331b8f6752ff4122aefc2e186790",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535219",
+      "product_name": "LE GUSTO Gyümölcslevespor meggy, 56 g",
+      "brand_name": "",
+      "unit_price": "499.0",
+      "unit_type": "g",
+      "unit_step": "56.0",
+      "vegso_mennyiseg": "56.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Instant levesek és tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/f82852bbc012c42c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Instant leves",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "tasakos"
+      ],
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "bd92e132520327d9f55ae2adf79f8125f172331b8f6752ff4122aefc2e186790",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535239",
+      "product_name": "LE GUSTO Gyümölcslevespor eper, 45 g",
+      "brand_name": "",
+      "unit_price": "499.0",
+      "unit_type": "g",
+      "unit_step": "45.0",
+      "vegso_mennyiseg": "45.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Instant levesek és tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/1d06d836e2aa1acb.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Instant leves",
+    "tulajdonsagok": {
+      "kiszerelés": [
+        "tasakos"
+      ],
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "egyéb"
+      ]
+    },
+    "kategoria_hash": "bd92e132520327d9f55ae2adf79f8125f172331b8f6752ff4122aefc2e186790",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1028741",
+      "product_name": "BON-RI Tarkabab, 500 g",
+      "brand_name": "",
+      "unit_price": "499.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Hüvelyes és egyéb köretek",
+      "local_image_paths": "data/markets_data/product_images/aldi/2c6034eeee6bfe83.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Hüvelyesek",
+    "altipus": "Szárazbab",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "bio": false,
+      "márka": "Bon-Ri",
+      "fajta": [
+        "tarkabab"
+      ],
+      "tartósítás / állapot": [
+        "száraz"
+      ]
+    },
+    "kategoria_hash": "ba89d1f89030885ec3d8d1286b9b49e65beb8176b57acdb3374da5f7bef3da7c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535468",
+      "product_name": "LE GUSTO Torma csípős, 200 g",
+      "brand_name": "",
+      "unit_price": "505.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Szószok, mártások > Torma",
+      "local_image_paths": "data/markets_data/product_images/aldi/0d115c984411f30d.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Torma",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "csípős"
+      ],
+      "alap": [
+        "torma"
+      ],
+      "csípősség": [
+        "csípős"
+      ]
+    },
+    "kategoria_hash": "fff06adf1d9244d7924b8d70c7ae28f14855ee3e1e937d808ac07e8e1a734edb",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535469",
+      "product_name": "LE GUSTO Torma csemege, 200 g",
+      "brand_name": "",
+      "unit_price": "505.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Szószok, mártások > Torma",
+      "local_image_paths": "data/markets_data/product_images/aldi/a0eb5df40e83c80f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Torma",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "natúr"
+      ],
+      "alap": [
+        "torma"
+      ],
+      "csípősség": [
+        "csemege"
+      ]
+    },
+    "kategoria_hash": "ac95f606574574bdb59e7648ffe1f3f549e087298602af8d410d0c285706eaa9",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534552",
+      "product_name": "CSÁSZÁR Makaróni 4 tojásos 500 g",
+      "brand_name": "",
+      "unit_price": "509.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Tojásos tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/4cdf111c724585a5.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Tészta",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "márka": "Császár",
+      "bio": false,
+      "tojástartalom": [
+        "4 tojásos"
+      ],
+      "alapanyag": [
+        "tojásos",
+        "búza"
+      ],
+      "tésztafajta / forma": [
+        "makaróni"
+      ],
+      "állapot": [
+        "száraz"
+      ]
+    },
+    "kategoria_hash": "3a3e3ebc082f2f63e88a9e240c826fa910134db631945ae2d7411e1dad7bee28",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534583",
+      "product_name": "CSÁSZÁR Tarhonya 4 tojásos, 500 g",
+      "brand_name": "",
+      "unit_price": "509.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Tojásos tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/913bcab9b6f077e4.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Tészta",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "márka": "Császár",
+      "bio": false,
+      "tojástartalom": [
+        "4 tojásos"
+      ],
+      "alapanyag": [
+        "tojásos",
+        "búza"
+      ],
+      "tésztafajta / forma": [
+        "tarhonya"
+      ],
+      "állapot": [
+        "száraz"
+      ]
+    },
+    "kategoria_hash": "ffc37b6cd2f39806254d07816416bfbfae2c4cf5678287a4f17a8d740190dc3b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534584",
+      "product_name": "CSÁSZÁR Szarvacska 4 tojásos, 500 g",
+      "brand_name": "",
+      "unit_price": "509.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Tojásos tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/62e628379a6a292b.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Tészta",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "márka": "Császár",
+      "bio": false,
+      "tojástartalom": [
+        "4 tojásos"
+      ],
+      "alapanyag": [
+        "tojásos",
+        "búza"
+      ],
+      "tésztafajta / forma": [
+        "szarvacska"
+      ],
+      "állapot": [
+        "száraz"
+      ]
+    },
+    "kategoria_hash": "77f237015ca39c0bf2d11c84322b91899be60e1a6cf4b6a6fe7943d29d8edc63",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534371",
+      "product_name": "GOOD CHOICE Baguette fűszervajjal, 175 g",
+      "brand_name": "",
+      "unit_price": "515.0",
+      "unit_type": "g",
+      "unit_step": "175.0",
+      "vegso_mennyiseg": "175.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Készételek > Kényelmi ételek",
+      "local_image_paths": "data/markets_data/product_images/aldi/86c086ba7ea5c401.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Bagett",
+    "altipus": "",
+    "tulajdonsagok": {
+      "fagyasztott": false,
+      "márka": "Good Choice",
+      "töltelék / íz": [
+        "fűszervajas"
+      ]
+    },
+    "kategoria_hash": "44b6f41c029c93b5c59943b25d59a0b9f4a1161e7d798a7a6480f8b29211c19c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534374",
+      "product_name": "GOOD CHOICE Baguette fokhagymás vajjal, 175 g",
+      "brand_name": "",
+      "unit_price": "515.0",
+      "unit_type": "g",
+      "unit_step": "175.0",
+      "vegso_mennyiseg": "175.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Készételek > Kényelmi ételek",
+      "local_image_paths": "data/markets_data/product_images/aldi/6867e20cb4be2c92.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Bagett",
+    "altipus": "",
+    "tulajdonsagok": {
+      "fagyasztott": false,
+      "márka": "Good Choice",
+      "töltelék / íz": [
+        "fokhagymás vaj"
+      ]
+    },
+    "kategoria_hash": "fbf2b0c2046745b84141efb6e1b9678e2a45ce55af439ca3e2148abd3f3637b0",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535092",
+      "product_name": "ALMARE SEAFOOD Zöldséges tonhal, 185 g",
+      "brand_name": "",
+      "unit_price": "515.0",
+      "unit_type": "g",
+      "unit_step": "185.0",
+      "vegso_mennyiseg": "185.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/6d8484f6a66a03a0.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Tonhalkonzerv",
+    "tulajdonsagok": {
+      "MSC / fenntartható halászat": false,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "pikáns zöldséges mártásban"
+      ],
+      "darabolás": [
+        "darabok"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "d97da19cd3f01a20d5b807e2e36c3cdd69918f8aea2363882a16849518f9d980",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "976589",
+      "product_name": "KING'S CROWN Ecetes cékla, 680 g (400 g)",
+      "brand_name": "",
+      "unit_price": "525.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "400.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Savanyúságok, olívabogyó",
+      "local_image_paths": "data/markets_data/product_images/aldi/da611d6d2371b59e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Savanyúság (uborka, csalamádé, vegyes)",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "King's Crown",
+      "bio": false,
+      "alapanyag": [
+        "cékla"
+      ],
+      "lé / közeg": [
+        "ecetes lében"
+      ],
+      "darabolás": [
+        "szeletelt"
+      ]
+    },
+    "kategoria_hash": "01f532c81eaf5c30c00475f4a1572cdf92c44570646dc648f1d1c50e34e948f9",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "976622",
+      "product_name": "KING'S CROWN Fehérbab, 800 g (530 g)",
+      "brand_name": "",
+      "unit_price": "529.0",
+      "unit_type": "g",
+      "unit_step": "800.0",
+      "vegso_mennyiseg": "530.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/a8b83174c869957a.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Hüvelyes konzerv",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "King's Crown",
+      "bio": false,
+      "alapanyag": [
+        "bab"
+      ],
+      "lé / közeg": [
+        "sós lében"
+      ],
+      "darabolás": [
+        "egész"
+      ]
+    },
+    "kategoria_hash": "eec1d5c0e6ca5b33b509e47dff25ed7f01026a9ab72dae7a4d4219a0f3901f0a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1046950",
+      "product_name": "BARISSIMO Kávé 3 az 1-ben barna cukorral, 10 x 18 g",
+      "brand_name": "",
+      "unit_price": "529.0",
+      "unit_type": "g",
+      "unit_step": "180.0",
+      "vegso_mennyiseg": "180.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Kávé, tea, italpor > Instant kávék és kiegészítők",
+      "local_image_paths": "data/markets_data/product_images/aldi/a96f27cf21a9c21f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Instant / kapszulás kávé",
+    "tulajdonsagok": {
+      "márka": "Barissimo",
+      "fajta": "3 az 1-ben",
+      "típus": "granulátum / por",
+      "koffeintartalom": "normál",
+      "kiszerelés / rendszer": "tasakos / párnás",
+      "íz": [
+        "barna cukor"
+      ]
+    },
+    "kategoria_hash": "6b5add94af2f8f5d0ef30a28f799f3543985354fc92e13c42fa5b2fc875075f6",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1046951",
+      "product_name": "BARISSIMO Kávé 3 az 1-ben, 10 x 18 g",
+      "brand_name": "",
+      "unit_price": "529.0",
+      "unit_type": "g",
+      "unit_step": "180.0",
+      "vegso_mennyiseg": "180.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Kávé, tea, italpor > Instant kávék és kiegészítők",
+      "local_image_paths": "data/markets_data/product_images/aldi/86f92497b8a2f477.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Instant / kapszulás kávé",
+    "tulajdonsagok": {
+      "márka": "Barissimo",
+      "fajta": "3 az 1-ben",
+      "típus": "granulátum / por",
+      "koffeintartalom": "normál",
+      "kiszerelés / rendszer": "tasakos / párnás",
+      "íz": [
+        "sima"
+      ]
+    },
+    "kategoria_hash": "468153e6257c33155e75b9395a687bed456631f22c71c1435f3c7e169a89d633",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1046952",
+      "product_name": "BARISSIMO Kávé 2 az 1-ben, 10 x 14 g",
+      "brand_name": "",
+      "unit_price": "529.0",
+      "unit_type": "g",
+      "unit_step": "140.0",
+      "vegso_mennyiseg": "140.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Kávé, tea, italpor > Instant kávék és kiegészítők",
+      "local_image_paths": "data/markets_data/product_images/aldi/3bfde1595570659f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Instant / kapszulás kávé",
+    "tulajdonsagok": {
+      "márka": "Barissimo",
+      "fajta": "2 az 1-ben",
+      "típus": "granulátum / por",
+      "koffeintartalom": "normál",
+      "kiszerelés / rendszer": "tasakos / párnás",
+      "íz": [
+        "sima"
+      ]
+    },
+    "kategoria_hash": "b79b0b1e57db096baa7216a647148321ef3585a162557319e3ff8d85ee168819",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1052143",
+      "product_name": "GYŐRI ÉDES Zabfalatok, 188 g",
+      "brand_name": "",
+      "unit_price": "529.0",
+      "unit_type": "g",
+      "unit_step": "188.0",
+      "vegso_mennyiseg": "188.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Reggeliző- pehely, müzli > Müzliszelet, gyümölcsszelet",
+      "local_image_paths": "data/markets_data/product_images/aldi/0926abe58ebe043c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Édes keksz",
+    "tulajdonsagok": {
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "márka": "Győri Édes",
+      "íz": [
+        "zabos"
+      ]
+    },
+    "kategoria_hash": "0225f086db535d8b600a4a001e5a92c72e9565ea745d73448cc5bbdb0a3dd15d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "794441",
+      "product_name": "DR. OETKER Gála vaníliaízű krémpuding, 78 g",
+      "brand_name": "",
+      "unit_price": "539.0",
+      "unit_type": "g",
+      "unit_step": "78.0",
+      "vegso_mennyiseg": "78.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Sütés-főzés > Öntetek, puding- és fagylaltpor",
+      "local_image_paths": "data/markets_data/product_images/aldi/75cbe0bcd3b95a64.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Sütési alapanyag",
+    "altipus": "Pudingpor, krémpor",
+    "tulajdonsagok": {
+      "kiszerelés": "tasak",
+      "gluténmentes": false,
+      "instant": true,
+      "márka": "Dr. Oetker",
+      "bio": false,
+      "forma": [
+        "por"
+      ],
+      "íz / aroma": [
+        "vanília"
+      ]
+    },
+    "kategoria_hash": "8220fe7a2e3720d5bc06cf77e86d7ca238a4e21e83c47726a73d2f396150f51c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1058099",
+      "product_name": "KING'S CROWN Pepperoni zöld jalapeño paprika, 335 g (160 g )",
+      "brand_name": "",
+      "unit_price": "549.0",
+      "unit_type": "g",
+      "unit_step": "160.0",
+      "vegso_mennyiseg": "160.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Savanyúságok, olívabogyó",
+      "local_image_paths": "data/markets_data/product_images/aldi/06ff750e66f9ee55.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Savanyúság (uborka, csalamádé, vegyes)",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "lecsöpögtetett tömeg": true,
+      "csípős": true,
+      "márka": "King's Crown",
+      "bio": false,
+      "alapanyag": [
+        "jalapeño",
+        "paprika"
+      ],
+      "lé / közeg": [
+        "ecetes lében"
+      ],
+      "darabolás": [
+        "egész"
+      ]
+    },
+    "kategoria_hash": "dedc8e717bfedecdbe31c72cd64bdcf7dd4ea318eccb81350272adde1b92df6a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1058620",
+      "product_name": "LE GUSTO Mustár, 480 g",
+      "brand_name": "",
+      "unit_price": "565.0",
+      "unit_type": "g",
+      "unit_step": "480.0",
+      "vegso_mennyiseg": "480.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Szószok, mártások > Mustár",
+      "local_image_paths": "data/markets_data/product_images/aldi/e3e3bcf7736638ff.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Mustár",
+    "tulajdonsagok": {
+      "kiszerelés": "flakon",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "natúr"
+      ],
+      "alap": [
+        "mustár"
+      ],
+      "csípősség": [
+        "csemege"
+      ]
+    },
+    "kategoria_hash": "c8ece1a9015e44a5aba3ad8c5dea9e00055480ea8ef361933836f9559a76270b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "539643",
+      "product_name": "BBQ Kukoricamix mexikói, 340 g (280 g)",
+      "brand_name": "",
+      "unit_price": "575.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "280.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/c4240e7d84324ed9.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Zöldségkonzerv (kukorica, borsó, bab)",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "BBQ",
+      "bio": false,
+      "alapanyag": [
+        "kukorica",
+        "zöldségmix"
+      ],
+      "lé / közeg": [
+        "sós lében"
+      ],
+      "darabolás": [
+        "morzsolt"
+      ]
+    },
+    "kategoria_hash": "6f663195004f90f01f44acd3d29dfbc73af63b8b696217a2a4cd3ea01bcb2ecf",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "832592",
+      "product_name": "GRANDESSA Narancs marmelád, 450 g",
+      "brand_name": "",
+      "unit_price": "575.0",
+      "unit_type": "g",
+      "unit_step": "450.0",
+      "vegso_mennyiseg": "450.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Lekvár, méz, krém > Lekvárok",
+      "local_image_paths": "data/markets_data/product_images/aldi/e0b17838f7d0cb7d.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Lekvár, méz, édes krém",
+    "altipus": "Lekvár, dzsem",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "márka": "Grandessa",
+      "bio": false,
+      "édesítés": [
+        "cukorral"
+      ],
+      "állag": [
+        "darabos"
+      ],
+      "gyümölcs / íz": [
+        "narancs"
+      ]
+    },
+    "kategoria_hash": "b7eebe14ed4a14ce014b171bf02582e3baaa77c30de0293c2fa3a94dc99bcf0a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4597571",
+      "product_name": "WESTMINSTER Borsmenta tea, 25 x 2,24 g",
+      "brand_name": "",
+      "unit_price": "575.0",
+      "unit_type": "g",
+      "unit_step": "56.0",
+      "vegso_mennyiseg": "56.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Kávé, tea, italpor > Filteres teák",
+      "local_image_paths": "data/markets_data/product_images/aldi/48ec4f78a3c6c29e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Ital",
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Teafű, filteres tea, instant tea",
+    "tulajdonsagok": {
+      "márka": "Westminster",
+      "típus": "filteres",
+      "fajta": "egyéb",
+      "íz": [
+        "menta"
+      ]
+    },
+    "kategoria_hash": "6d04cdf3b6184242b59af1588a91b82da25907fc2ff75f0443266ecb0cdd3f0e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4598455",
+      "product_name": "KING'S CROWN Vöröskáposzta almával, 400 g",
+      "brand_name": "",
+      "unit_price": "575.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "400.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Savanyúságok, olívabogyó",
+      "local_image_paths": "data/markets_data/product_images/aldi/590308be947fcb1f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Savanyúság (uborka, csalamádé, vegyes)",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": false,
+      "csípős": false,
+      "márka": "King's Crown",
+      "bio": false,
+      "alapanyag": [
+        "káposzta",
+        "alma"
+      ],
+      "lé / közeg": [
+        "ecetes lében"
+      ],
+      "darabolás": [
+        "szeletelt"
+      ]
+    },
+    "kategoria_hash": "4a060cdbe6b3ee3c28b2245b872e1b1ceea3eea0c1151763e842d62de2732c16",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4606147",
+      "product_name": "BBQ Kukoricamix texasi, 340 g (280 g)",
+      "brand_name": "",
+      "unit_price": "575.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "280.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/bb4add3df43ede35.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Zöldségkonzerv (kukorica, borsó, bab)",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "BBQ",
+      "bio": false,
+      "alapanyag": [
+        "kukorica",
+        "zöldségmix"
+      ],
+      "lé / közeg": [
+        "sós lében"
+      ],
+      "darabolás": [
+        "morzsolt"
+      ]
+    },
+    "kategoria_hash": "6f663195004f90f01f44acd3d29dfbc73af63b8b696217a2a4cd3ea01bcb2ecf",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535067",
+      "product_name": "ALMARE SEAFOOD Sprotni paradicsomszószban, 170 g",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "g",
+      "unit_step": "170.0",
+      "vegso_mennyiseg": "170.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/5397f8a7eecd8c1f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Sprotni",
+    "tulajdonsagok": {
+      "MSC / fenntartható halászat": false,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "paradicsomszószban"
+      ],
+      "darabolás": [
+        "egész"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "4e2cf17be448fff3e909a7d3a9702688a19ae37d6ca574513c5e31f5d07ae04f",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535069",
+      "product_name": "ALMARE SEAFOOD Sprotni repceolajban, 170 g / 97 g",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "g",
+      "unit_step": "97.0",
+      "vegso_mennyiseg": "97.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/bdd2fb0ef015266b.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Sprotni",
+    "tulajdonsagok": {
+      "MSC / fenntartható halászat": false,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "repceolajban"
+      ],
+      "darabolás": [
+        "egész"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "b5a2c4f07486027711c578794c2567e174ec6ccab71effb485a858a0062d84a3",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535070",
+      "product_name": "ALMARE SEAFOOD Heringfilé mangós-borsos szószban, MSC-tanúsítás, 200 g",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/c4d092f7755f9d1f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Hering",
+    "tulajdonsagok": {
+      "MSC / fenntartható halászat": true,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "mangós-borsos szószban"
+      ],
+      "darabolás": [
+        "filé"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "426ff5bd71a9e70c0e7f8a7968dc4af9b40df4d7bceee0eb3640909be86d2f2a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535071",
+      "product_name": "ALMARE SEAFOOD Heringfilé fűszeres-zöldséges szószban MSC-tanúsítás, 200 g",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/a0893a37e2e0d972.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Hering",
+    "tulajdonsagok": {
+      "MSC / fenntartható halászat": true,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "zöldséges"
+      ],
+      "darabolás": [
+        "filé"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "2b591820f261a361ec268d9de120f8c101b07a81480cd8ac53c0f48519da8e3a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535072",
+      "product_name": "ALMARE SEAFOOD Heringfilé mexikói szószban, MSC-tanúsítás, 200 g",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/982c5eaf8bccbfd6.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Hering",
+    "tulajdonsagok": {
+      "MSC / fenntartható halászat": true,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "mexikói szószban"
+      ],
+      "darabolás": [
+        "filé"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "10977957d002f7c3b2978e1742a3642575cd024c81a74c94d4872a0de9b01964",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535496",
+      "product_name": "ALMARE SEAFOOD Heringfilé currys ananászos szószban, MSC-tanúsítás, 200 g",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/1fac6bc4bff13c81.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Hering",
+    "tulajdonsagok": {
+      "MSC / fenntartható halászat": true,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "currys ananászos szószban"
+      ],
+      "darabolás": [
+        "filé"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "f60e3073b6a66da5a741504f386545c67a8388b878b75b60e43f0af3fcfceaac",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535499",
+      "product_name": "ALMARE SEAFOOD Heringfilé ázsiai szószban, MSC-tanúsítás, 200 g",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/8577889e32aa8d60.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Hering",
+    "tulajdonsagok": {
+      "MSC / fenntartható halászat": true,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "ázsiai szószban"
+      ],
+      "darabolás": [
+        "filé"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "75825094505bb9eedda874f0e6de4fc0091bc4bae457b3c24de56fff76b5993b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "885293",
+      "product_name": "CUCINA Sűrített paradicsom háromszorosan koncentrált, 200 g",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/6816279c7572948e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Paradicsompüré, sűrített paradicsom",
+    "tulajdonsagok": {
+      "kiszerelés": "tubus",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Cucina",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "natúr"
+      ],
+      "alap": [
+        "paradicsom"
+      ],
+      "csípősség": [
+        "csemege"
+      ]
+    },
+    "kategoria_hash": "bf150b3f530f195bdddf745bf41f4f166b82da6c1480c0ad50edebec2940d5d7",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "890926",
+      "product_name": "BBQ Ínyenc szószok cocktail, 300 ml",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "ml",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Szószok, mártások > Szószok",
+      "local_image_paths": "data/markets_data/product_images/aldi/78a4f8e5a031f62c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Egyéb hideg szósz, dip",
+    "tulajdonsagok": {
+      "kiszerelés": "flakon",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "BBQ",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "cocktail"
+      ],
+      "alap": [
+        "majonéz",
+        "paradicsom"
+      ],
+      "csípősség": [
+        "csemege"
+      ]
+    },
+    "kategoria_hash": "b891809355b0f78427f884b8bda8e803837e1b12d6b108178665e0be09f39f41",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1053920",
+      "product_name": "ALMARE SEAFOOD Heringfilé fűszeres, paradicsomos , sűrű szószban, 200 g",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/065aee3c5fc7559b.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Hering",
+    "tulajdonsagok": {
+      "MSC / fenntartható halászat": false,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "fűszeres paradicsomos szószban"
+      ],
+      "darabolás": [
+        "filé"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "2f8c9ee129e9ac28b91a5bbb260cee585fb7d575588b937dca7467c24854725d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4599152",
+      "product_name": "GOURMET FINEST CUISINE Bronze Cut tészta kagyló, 500 g",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Egyéb tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/c15a069f0cc53cee.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Tészta",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "márka": "Gourmet Finest Cuisine",
+      "bio": false,
+      "tojástartalom": [
+        "tojás nélküli"
+      ],
+      "alapanyag": [
+        "durum"
+      ],
+      "tésztafajta / forma": [
+        "kagyló"
+      ],
+      "állapot": [
+        "száraz"
+      ]
+    },
+    "kategoria_hash": "2a7285239e03659e995e4f2852979443d3127cb45ffa1a66bc670b09ea1c3a5c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4599153",
+      "product_name": "GOURMET FINEST CUISINE Bronze Cut tészta fusilli, 500 g",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Köretek, tészták > Egyéb tészták",
+      "local_image_paths": "data/markets_data/product_images/aldi/d07b50e7999a296c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Tészta",
+    "altipus": "",
+    "tulajdonsagok": {
+      "kiszerelés": "zacskó",
+      "márka": "Gourmet Finest Cuisine",
+      "bio": false,
+      "tojástartalom": [
+        "tojás nélküli"
+      ],
+      "alapanyag": [
+        "durum"
+      ],
+      "tésztafajta / forma": [
+        "orsó / fusilli"
+      ],
+      "állapot": [
+        "száraz"
+      ]
+    },
+    "kategoria_hash": "c445f24e907637bdff561eec7e3c8af728a4d5e0300e6339cbda3886eb3c2330",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4604007",
+      "product_name": "BBQ Ínyenc szószok tejfölös, 300 ml",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "ml",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Szószok, mártások > Szószok",
+      "local_image_paths": "data/markets_data/product_images/aldi/9c38112cc54a9aa7.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Egyéb hideg szósz, dip",
+    "tulajdonsagok": {
+      "kiszerelés": "flakon",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "BBQ",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "natúr"
+      ],
+      "alap": [
+        "tejföl"
+      ],
+      "csípősség": [
+        "csemege"
+      ]
+    },
+    "kategoria_hash": "bd527d156204be9964383eaaa88fa2665b7bc98ba46b3e72ea4af31f2f60c805",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4606143",
+      "product_name": "CUCINA Passzírozott paradicsom, 3 x 200 g",
+      "brand_name": "",
+      "unit_price": "605.0",
+      "unit_type": "g",
+      "unit_step": "600.0",
+      "vegso_mennyiseg": "600.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/9cba808bfbbee13f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Paradicsomkonzerv, -püré, passzírozott",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": false,
+      "csípős": false,
+      "márka": "Cucina",
+      "bio": false,
+      "alapanyag": [
+        "paradicsom"
+      ],
+      "lé / közeg": [
+        "saját levében"
+      ],
+      "darabolás": [
+        "passzírozott"
+      ]
+    },
+    "kategoria_hash": "b5ebb091caa8513e8e55a823b243a0a9ce0c419a6b31a0720e09e731f9ffa841",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534722",
+      "product_name": "LE GUSTO Crouton zsemle-kocka fokhagymás-hagymás, 100 g",
+      "brand_name": "",
+      "unit_price": "609.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Leveskocka, levesbetét",
+      "local_image_paths": "data/markets_data/product_images/aldi/8b681e284592c986.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Levesbetét, crouton",
+    "tulajdonsagok": {
+      "instant/por": false,
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "fokhagymás-hagymás"
+      ],
+      "kiszerelés": [
+        "tasak"
+      ]
+    },
+    "kategoria_hash": "25197b425a4eb010f8b481cf9964d1da820528538833677acf2b8d71c6c340ff",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534723",
+      "product_name": "LE GUSTO Crouton zsemle-kocka natúr, 100 g",
+      "brand_name": "",
+      "unit_price": "609.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Leveskocka, levesbetét",
+      "local_image_paths": "data/markets_data/product_images/aldi/97d55cc256443ae1.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Levesbetét, crouton",
+    "tulajdonsagok": {
+      "instant/por": false,
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "natúr"
+      ],
+      "kiszerelés": [
+        "tasak"
+      ]
+    },
+    "kategoria_hash": "e6dd805e02caa12bba643107accfa4093a1c919f8dc8c8578710d0d47729812f",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534724",
+      "product_name": "LE GUSTO Crouton zsemle-kocka zöldfűszeres, 100 g",
+      "brand_name": "",
+      "unit_price": "609.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Leveskocka, levesbetét",
+      "local_image_paths": "data/markets_data/product_images/aldi/ba125b75e458da8a.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Levesbetét, crouton",
+    "tulajdonsagok": {
+      "instant/por": false,
+      "csípős": false,
+      "márka": "Le Gusto",
+      "íz / étel": [
+        "zöldfűszeres"
+      ],
+      "kiszerelés": [
+        "tasak"
+      ]
+    },
+    "kategoria_hash": "164eb71bb71c573216146c1e2ef4fbff4e6c0ed67ba114c904920d4c99e60cff",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "933522",
+      "product_name": "KNORR Alappor gyros, 40 g",
+      "brand_name": "",
+      "unit_price": "609.0",
+      "unit_type": "g",
+      "unit_step": "53.0",
+      "vegso_mennyiseg": "40",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Ételalapok",
+      "local_image_paths": "data/markets_data/product_images/aldi/69edf25d7939fc04.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Ételalap, fix por",
+    "tulajdonsagok": {
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Knorr",
+      "íz / étel": [
+        "gyros"
+      ],
+      "kiszerelés": [
+        "tasak"
+      ]
+    },
+    "kategoria_hash": "3ed65b923b54abe8e542a4a06182bd0ada8040d327462ddad76b2e04f7437bf9",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1006777",
+      "product_name": "KNORR Alappor bolognai, 59 g",
+      "brand_name": "",
+      "unit_price": "609.0",
+      "unit_type": "g",
+      "unit_step": "59.0",
+      "vegso_mennyiseg": "59.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Ételalapok",
+      "local_image_paths": "data/markets_data/product_images/aldi/639a444b1fbadcdd.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Ételalap, fix por",
+    "tulajdonsagok": {
+      "instant/por": true,
+      "csípős": false,
+      "márka": "Knorr",
+      "íz / étel": [
+        "bolognai"
+      ],
+      "kiszerelés": [
+        "tasak"
+      ]
+    },
+    "kategoria_hash": "ebdfdb25ddc335a6cef6aa7a274b35fda920b05942be84055bd44d7df752b46a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1006778",
+      "product_name": "KNORR Alappor mexicói chilis bab, 50 g",
+      "brand_name": "",
+      "unit_price": "609.0",
+      "unit_type": "g",
+      "unit_step": "53.0",
+      "vegso_mennyiseg": "50",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Instant ételek > Ételalapok",
+      "local_image_paths": "data/markets_data/product_images/aldi/7f2c2cf2d87b46a4.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Instant ételek, alapok",
+    "altipus": "Ételalap, fix por",
+    "tulajdonsagok": {
+      "instant/por": true,
+      "csípős": true,
+      "márka": "Knorr",
+      "íz / étel": [
+        "chili con carne"
+      ],
+      "kiszerelés": [
+        "tasak"
+      ]
+    },
+    "kategoria_hash": "2c67da66fcdb35cbd374107fb9a369e4f5b20305eec4cb2cf208b08475bc9dbe",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535430",
+      "product_name": "LE GUSTO Paprikakrém csípős, 200 g",
+      "brand_name": "",
+      "unit_price": "629.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Só, fűszer, ételízesítők > Paprika",
+      "local_image_paths": "data/markets_data/product_images/aldi/0c7c20e272dc574a.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Paprikakrém, darált paprika",
+    "tulajdonsagok": {
+      "kiszerelés": "tubus",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "paprikás"
+      ],
+      "alap": [
+        "paprika"
+      ],
+      "csípősség": [
+        "csípős"
+      ],
+      "állag": [
+        "krém"
+      ]
+    },
+    "kategoria_hash": "f9b611aa11ef36c55baf6b1767b93658b45079e99bbd4721dee45b04486648f8",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535432",
+      "product_name": "LE GUSTO Paprikakrém csemege, 200 g",
+      "brand_name": "",
+      "unit_price": "629.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Só, fűszer, ételízesítők > Paprika",
+      "local_image_paths": "data/markets_data/product_images/aldi/c0d9efc60c7db954.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Paprikakrém, darált paprika",
+    "tulajdonsagok": {
+      "kiszerelés": "tubus",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "paprikás"
+      ],
+      "alap": [
+        "paprika"
+      ],
+      "csípősség": [
+        "csemege"
+      ],
+      "állag": [
+        "krém"
+      ]
+    },
+    "kategoria_hash": "d9a14425a89745abe3a785505733dcf5cbd10efba92d4866a52a719ac61ecb0a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535451",
+      "product_name": "LE GUSTO Gulyáskrém csípős, 200 g",
+      "brand_name": "",
+      "unit_price": "629.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Só, fűszer, ételízesítők > Ételízesítők",
+      "local_image_paths": "data/markets_data/product_images/aldi/6f699f54ecd33426.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Paprikakrém, darált paprika",
+    "tulajdonsagok": {
+      "kiszerelés": "tubus",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "gulyáskrém"
+      ],
+      "alap": [
+        "paprika"
+      ],
+      "csípősség": [
+        "csípős"
+      ],
+      "állag": [
+        "krém"
+      ]
+    },
+    "kategoria_hash": "09cae395a1298a6fa985624b38e5db8f20a44be52fd6b6b077e2ad4dfcdcfedc",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535453",
+      "product_name": "LE GUSTO Gulyáskrém csemege, 200 g",
+      "brand_name": "",
+      "unit_price": "629.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Só, fűszer, ételízesítők > Ételízesítők",
+      "local_image_paths": "data/markets_data/product_images/aldi/be681be88a84e64d.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Paprikakrém, darált paprika",
+    "tulajdonsagok": {
+      "kiszerelés": "tubus",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Le Gusto",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "gulyáskrém"
+      ],
+      "alap": [
+        "paprika"
+      ],
+      "csípősség": [
+        "csemege"
+      ],
+      "állag": [
+        "krém"
+      ]
+    },
+    "kategoria_hash": "54a82f018c7c036ae470000e7dfaa5ad4cc0c4818f8ca8267dea6cbad81905f0",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "537240",
+      "product_name": "ASIA GREEN GARDEN Kókusztej normál, 400 ml",
+      "brand_name": "",
+      "unit_price": "635.0",
+      "unit_type": "ml",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "400.0",
+      "vegso_egyseg": "ml",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Gyümölcs- konzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/73745931d644bdc7.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Kókusztej, kókuszkrém, főzőalap",
+    "tulajdonsagok": {
+      "kiszerelés": "doboz",
+      "lecsöpögtetett tömeg": false,
+      "csípős": false,
+      "márka": "Asia Green Garden",
+      "bio": false,
+      "alapanyag": [
+        "kókusz"
+      ],
+      "lé / közeg": [
+        "saját levében"
+      ],
+      "darabolás": [
+        "egyéb"
+      ],
+      "típus": [
+        "normál"
+      ]
+    },
+    "kategoria_hash": "7008454222c2b1cadba7930c11d19ad3ecc2f5ebc17b2543005c35ae012d1781",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534503",
+      "product_name": "ALMARE SEAFOOD Heringfilé repceolajban MSC-tanúsítás, 170 g (102 g)",
+      "brand_name": "",
+      "unit_price": "645.0",
+      "unit_type": "g",
+      "unit_step": "102.0",
+      "vegso_mennyiseg": "102.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/a6aa405e5b65b4a9.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Hering",
+    "tulajdonsagok": {
+      "MSC / fenntartható halászat": true,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "repceolajban"
+      ],
+      "darabolás": [
+        "filé"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "b4ce955dc27574f105acbe2b6664ed32bf8bdbba55aedb0018756055bf8732cf",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535063",
+      "product_name": "LYTTOS Görög olívabogyó kalamata, 350 g (200 g)",
+      "brand_name": "",
+      "unit_price": "645.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Savanyúságok, olívabogyó",
+      "local_image_paths": "data/markets_data/product_images/aldi/ab23021892543a66.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Olívabogyó, kapribogyó, eltett zöldség",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "Lyttos",
+      "bio": false,
+      "alapanyag": [
+        "olívabogyó"
+      ],
+      "lé / közeg": [
+        "sós lében"
+      ],
+      "darabolás": [
+        "egész"
+      ],
+      "fajta": [
+        "kalamata"
+      ]
+    },
+    "kategoria_hash": "9378254580f6ace1f98c750eed5570d97da31273f8fd4261d15ceb8f490107b9",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "779768",
+      "product_name": "LYTTOS Görög olívabogyó zöld, 350 g (200 g)",
+      "brand_name": "",
+      "unit_price": "645.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Savanyúságok, olívabogyó",
+      "local_image_paths": "data/markets_data/product_images/aldi/366126c00a08d037.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Olívabogyó, kapribogyó, eltett zöldség",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "Lyttos",
+      "bio": false,
+      "alapanyag": [
+        "olívabogyó"
+      ],
+      "lé / közeg": [
+        "sós lében"
+      ],
+      "darabolás": [
+        "egész"
+      ],
+      "fajta": [
+        "zöld"
+      ]
+    },
+    "kategoria_hash": "73d335c7a8e1f3f5c459997cc31dd5c3e37f8eb70b950f831057a8851d3a9639",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1040475",
+      "product_name": "ALMARE SEAFOOD Tonhalsaláta kuszkusszal, 160 g",
+      "brand_name": "",
+      "unit_price": "645.0",
+      "unit_type": "g",
+      "unit_step": "160.0",
+      "vegso_mennyiseg": "160.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/4067cda805b7b286.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Készétel",
+    "alkategoria": "Konzerv készétel",
+    "altipus": "",
+    "tulajdonsagok": {
+      "csípős": false,
+      "csomagolás": "konzerv",
+      "konyha / stílus": [
+        "egyéb"
+      ],
+      "fő alapanyag": [
+        "hal",
+        "kuszkusz"
+      ],
+      "adag": [
+        "egyszemélyes"
+      ],
+      "tárolás": [
+        "szobahőmérsékletű"
+      ],
+      "elkészítés": [
+        "azonnal fogyasztható"
+      ],
+      "konzerv": true,
+      "melegítendő": false,
+      "márka": "Almare Seafood",
+      "étel": [
+        "tonhalas saláta"
+      ],
+      "hús / fehérje": [
+        "tonhal"
+      ]
+    },
+    "kategoria_hash": "6c48899b23a12d4da3946d1de5f029b35b6cbebda8f014fb912b83c3bd4d0041",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1040476",
+      "product_name": "ALMARE SEAFOOD Tonhalsaláta tésztával, 160 g",
+      "brand_name": "",
+      "unit_price": "645.0",
+      "unit_type": "g",
+      "unit_step": "160.0",
+      "vegso_mennyiseg": "160.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/0bf97aad9ed07702.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Készétel",
+    "alkategoria": "Konzerv készétel",
+    "altipus": "",
+    "tulajdonsagok": {
+      "csípős": false,
+      "csomagolás": "konzerv",
+      "konyha / stílus": [
+        "egyéb"
+      ],
+      "fő alapanyag": [
+        "hal",
+        "tészta"
+      ],
+      "adag": [
+        "egyszemélyes"
+      ],
+      "tárolás": [
+        "szobahőmérsékletű"
+      ],
+      "elkészítés": [
+        "azonnal fogyasztható"
+      ],
+      "konzerv": true,
+      "melegítendő": false,
+      "márka": "Almare Seafood",
+      "étel": [
+        "tonhalas saláta"
+      ],
+      "hús / fehérje": [
+        "tonhal"
+      ]
+    },
+    "kategoria_hash": "2cbb68a0f9487c13d60dc15d9efaffcb712afe56a5b50e033cba0e9e5295deaf",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1040477",
+      "product_name": "ALMARE SEAFOOD Tonhalsaláta lencsével, 160 g",
+      "brand_name": "",
+      "unit_price": "645.0",
+      "unit_type": "g",
+      "unit_step": "160.0",
+      "vegso_mennyiseg": "160.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/feba5622376f5d87.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Készétel",
+    "alkategoria": "Konzerv készétel",
+    "altipus": "",
+    "tulajdonsagok": {
+      "csípős": false,
+      "csomagolás": "konzerv",
+      "konyha / stílus": [
+        "egyéb"
+      ],
+      "fő alapanyag": [
+        "hal",
+        "hüvelyes"
+      ],
+      "adag": [
+        "egyszemélyes"
+      ],
+      "tárolás": [
+        "szobahőmérsékletű"
+      ],
+      "elkészítés": [
+        "azonnal fogyasztható"
+      ],
+      "konzerv": true,
+      "melegítendő": false,
+      "márka": "Almare Seafood",
+      "étel": [
+        "tonhalas saláta"
+      ],
+      "hús / fehérje": [
+        "tonhal"
+      ]
+    },
+    "kategoria_hash": "2ea074d1f829ed2652396e927258c9436524ed7b7a0b227b6e742486cd8d899e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1058100",
+      "product_name": "BIO passzírozott paradicsom, 700 g",
+      "brand_name": "",
+      "unit_price": "645.0",
+      "unit_type": "g",
+      "unit_step": "700.0",
+      "vegso_mennyiseg": "700.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Zöldségkonzerv",
+      "local_image_paths": "data/markets_data/product_images/aldi/2590bc3c7233782a.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Paradicsomkonzerv, -püré, passzírozott",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "lecsöpögtetett tömeg": false,
+      "csípős": false,
+      "márka": "egyéb",
+      "bio": true,
+      "alapanyag": [
+        "paradicsom"
+      ],
+      "lé / közeg": [
+        "saját levében"
+      ],
+      "darabolás": [
+        "passzírozott"
+      ]
+    },
+    "kategoria_hash": "f168d8fd9e49ce34f51effe6357671ed9422c17a0e0021369e437bd5d3702b7b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "918175",
+      "product_name": "ALMARE SEAFOOD Tonhalfilé napraforgóolajban, 185 g (140 g)",
+      "brand_name": "",
+      "unit_price": "669.0",
+      "unit_type": "g",
+      "unit_step": "140.0",
+      "vegso_mennyiseg": "140.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/cfab514decf94fb7.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Tonhalkonzerv",
+    "tulajdonsagok": {
+      "MSC / fenntartható halászat": false,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "napraforgóolajban"
+      ],
+      "darabolás": [
+        "filé"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "b7b42326479afb5349c2f183651a259ac593bd1d56c4f4fa79130b5c3ca9b00d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4597689",
+      "product_name": "GOURMET FINEST CUISINE Dijoni mustár finomra őrölt, 190 g",
+      "brand_name": "",
+      "unit_price": "669.0",
+      "unit_type": "g",
+      "unit_step": "190.0",
+      "vegso_mennyiseg": "190.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Szószok, mártások > Mustár",
+      "local_image_paths": "data/markets_data/product_images/aldi/0de64196040a6c36.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Mustár",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Gourmet Finest Cuisine",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "dijoni"
+      ],
+      "alap": [
+        "mustár"
+      ],
+      "csípősség": [
+        "enyhe"
+      ]
+    },
+    "kategoria_hash": "7a9cf1a0ed08cdb95029e729bb5cfe56520226f6a7b715c777681a92172a5ed1",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4597690",
+      "product_name": "GOURMET FINEST CUISINE Dijoni mustár magos, 190 g",
+      "brand_name": "",
+      "unit_price": "669.0",
+      "unit_type": "g",
+      "unit_step": "190.0",
+      "vegso_mennyiseg": "190.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Szószok, mártások > Mustár",
+      "local_image_paths": "data/markets_data/product_images/aldi/772d2645bc22282d.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Szószok, öntetek, dresszingek",
+    "altipus": "Mustár",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "márka": "Gourmet Finest Cuisine",
+      "bio": false,
+      "gluténmentes": false,
+      "íz": [
+        "dijoni",
+        "magos"
+      ],
+      "alap": [
+        "mustár"
+      ],
+      "csípősség": [
+        "enyhe"
+      ]
+    },
+    "kategoria_hash": "411599ca6c63dfd53636d0f35b7ee4124b8d23fffafd83d601de429110eb5666",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "791464",
+      "product_name": "ALMARE SEAFOOD Tonhalfilé natúr, 195 g (150 g)",
+      "brand_name": "",
+      "unit_price": "679.0",
+      "unit_type": "g",
+      "unit_step": "150.0",
+      "vegso_mennyiseg": "150.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Halkonzervek",
+      "local_image_paths": "data/markets_data/product_images/aldi/09441f3a24ebb52f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Hús, hal, felvágott",
+    "alkategoria": "Halkonzerv",
+    "altipus": "Tonhalkonzerv",
+    "tulajdonsagok": {
+      "MSC / fenntartható halászat": false,
+      "márka": "Almare Seafood",
+      "közeg / szósz": [
+        "natúr lében"
+      ],
+      "darabolás": [
+        "filé"
+      ],
+      "csomagolás": [
+        "konzervdoboz"
+      ]
+    },
+    "kategoria_hash": "aef27c4855d47cd701393df4715249b01422f01d1bc7b3d4780a3ff8e5694261",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "836802",
+      "product_name": "KING'S CROWN Vegyes vágott savanyúság, 680 g (370 g)",
+      "brand_name": "",
+      "unit_price": "679.0",
+      "unit_type": "g",
+      "unit_step": "370.0",
+      "vegso_mennyiseg": "370.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Alapvető élelmiszerek > Konzervek, savanyúságok > Savanyúságok, olívabogyó",
+      "local_image_paths": "data/markets_data/product_images/aldi/1bf73733efa2bb07.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Alapanyag, sütés-főzés",
+    "alkategoria": "Konzerv, savanyúság, befőtt",
+    "altipus": "Savanyúság (uborka, csalamádé, vegyes)",
+    "tulajdonsagok": {
+      "kiszerelés": "üveg",
+      "lecsöpögtetett tömeg": true,
+      "csípős": false,
+      "márka": "King's Crown",
+      "bio": false,
+      "alapanyag": [
+        "csalamádé",
+        "zöldségmix"
+      ],
+      "lé / közeg": [
+        "ecetes lében"
+      ],
+      "darabolás": [
+        "darabolt"
+      ]
+    },
+    "kategoria_hash": "6e2c1c4ea6949b879f167e3eba46bbaa7fe2854d2fb82601ab0dd66c040156c0",
+    "statusz": "kesz"
   }
 ]

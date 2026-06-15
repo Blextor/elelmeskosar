@@ -251,6 +251,12 @@ Még nyitott apróságok:
   gluténmentes, vegán, cukormentes, gyorsfagyasztott) egyelőre maradnak, de
   óvatosan ("még kiderül"). A további ágak (Édesség, Mentes, Baba) ezzel a
   bottom-up elvvel készülnek.
+- 2026-06-15 (kategorizálási munkaszabály): ha kézi/GPT-s kategorizáláskor egy
+  termék fontos tulajdonsága egyértelműen látszik, de az adott kategóriafában
+  hiányzik a tulajdonság, az érték vagy a márkaérték, akkor nem szabad
+  automatikusan `egyéb`-re ejteni. Ilyenkor előbb bővíteni kell a
+  `kategoriak_2026-06-13.json` megfelelő ágát, majd az eredményrekordban a
+  konkrét értéket kell menteni és a `kategoria_hash`-t újraszámolni.
 - 2026-06-13 (kat25 + Fagyasztott ág): A kat25.py kategorizáló átállítva az új
   fára (kategoriak_2026-06-13.json előnyben, 1005 fallback; 276 altípus,
   struktúra kompatibilis). Fagyasztott stratégia (felhasználói döntés): MINDEN
