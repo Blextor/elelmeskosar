@@ -47550,7 +47550,7 @@
       "besorolva": ""
     },
     "fokategoria": "Hús, hal, felvágott",
-    "alkategoria": "Marha",
+    "alkategoria": "Marha, borjú",
     "altipus": "Lapocka",
     "tulajdonsagok": {
       "márka": "Húsmester",
@@ -47570,7 +47570,7 @@
         "darabolt"
       ]
     },
-    "kategoria_hash": "e8e10b5f37d6bc2a08a523e5482861c46fd4c2b9f6113033440be7c96910115f",
+    "kategoria_hash": "8f3a750e11f2ad8351569922aee227d28e0b03a72b3d713e37b809463ad968b9",
     "statusz": "kesz"
   },
   {
@@ -48077,7 +48077,7 @@
       "besorolva": ""
     },
     "fokategoria": "Hús, hal, felvágott",
-    "alkategoria": "Marha",
+    "alkategoria": "Marha, borjú",
     "altipus": "Lábszár",
     "tulajdonsagok": {
       "márka": "Húsmester",
@@ -48096,7 +48096,7 @@
       ],
       "GMO-mentes": false
     },
-    "kategoria_hash": "30b8462ca5b78988287f4864efbfe0d7cbcf7f153b1c43c9f4e54084c58807b3",
+    "kategoria_hash": "d7345d131dcb8c7da0f4bfd2af57662b8add4b4a1f55a4b1f9867340e549fa2d",
     "statusz": "kesz"
   },
   {
@@ -48121,7 +48121,7 @@
       "besorolva": ""
     },
     "fokategoria": "Hús, hal, felvágott",
-    "alkategoria": "Marha",
+    "alkategoria": "Marha, borjú",
     "altipus": "Comb",
     "tulajdonsagok": {
       "márka": "Húsmester",
@@ -48140,7 +48140,7 @@
       ],
       "GMO-mentes": false
     },
-    "kategoria_hash": "683a9361b1eea066196b6b687ec74efe1f797e20b5b606ae395e7985a19eb812",
+    "kategoria_hash": "906f0895dbcff52f370ab4e148f10c5d669a9efd2f2630c4ed1701019805b43f",
     "statusz": "kesz"
   },
   {
@@ -60565,26 +60565,21 @@
       "besorolva": ""
     },
     "fokategoria": "Édesség, snack, rágcsálnivaló",
-    "alkategoria": "Csokoládé",
+    "alkategoria": "Keksz, nápolyi, ostya",
     "altipus": "Csokoládés ostyaszelet",
     "tulajdonsagok": {
       "márka": "Balaton",
-      "töltött": false,
-      "alkoholos": false,
-      "pálmaolajmentes": false,
       "cukormentes / hozzáadott cukor nélkül": false,
-      "típus": [
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
         "étcsokoládé"
-      ],
-      "kakaótartalom": [
-        "egyéb"
-      ],
-      "töltelék / íz": [],
-      "hozzáadott darabok": [
-        "ostya"
       ]
     },
-    "kategoria_hash": "85a5d23cebadaae2de467f54b6bd84f9b2fb2e499476b7f9660687fd19449113",
+    "kategoria_hash": "f230b0ca286c1e33f6a29ec15e904c42a9d758ab6ca0a7efa8cc531b42fd1371",
     "statusz": "kesz"
   },
   {
@@ -60620,10 +60615,10 @@
       "teljes kiőrlésű": false,
       "rostban gazdag": false,
       "íz": [
-        "csokoládés"
+        "tejcsokoládé"
       ]
     },
-    "kategoria_hash": "8264670f0833d4288e1b775453f5f0bbc233fa1e73a5baa2eb975f9095fa3983",
+    "kategoria_hash": "54ecb6660900e94fa9e3ff384ed5f50b88110c86d71b8efe2f3a47c7d8e85602",
     "statusz": "kesz"
   },
   {
