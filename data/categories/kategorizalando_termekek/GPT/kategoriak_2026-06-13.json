@@ -2444,8 +2444,15 @@
             "rostban gazdag": {},
             "márka": [
               "Győri Édes",
-              "egyéb"
-            ]
+              "egyéb",
+              "Győri",
+              "Korpovit",
+              "Pilóta"
+            ],
+            "cukormentes / hozzáadott cukor nélkül": {},
+            "gluténmentes": {},
+            "bio": {},
+            "vegán": {}
           },
           "csoportos": {
             "íz": [
@@ -2459,7 +2466,8 @@
               "mogyorós",
               "fahéjas",
               "zabos",
-              "egyéb"
+              "egyéb",
+              "málna"
             ]
           }
         },
@@ -2933,7 +2941,8 @@
                   "pesto",
                   "citrom",
                   "gyömbér",
-                  "egyéb"
+                  "egyéb",
+                  "gyümölcs"
                 ],
                 "alapanyag": [
                   "lencse",
@@ -4545,7 +4554,8 @@
           "Freschi per te",
           "Cucina",
           "Böklunder New Lifestyle",
-          "HoWe"
+          "HoWe",
+          "Genuss 100% aus Österreich"
         ]
       },
       "csoportos": {}
@@ -4738,7 +4748,8 @@
               "csíkozott",
               "darabolt",
               "egész",
-              "egyéb"
+              "egyéb",
+              "belsőséggel"
             ]
           }
         },
@@ -4816,6 +4827,11 @@
               "combfilé",
               "szűzpecsenye",
               "gulyáshús"
+            ],
+            "ízesítés": [
+              "magyaros",
+              "gyrosos",
+              "fokhagymás"
             ]
           }
         },
@@ -5244,6 +5260,12 @@
               "tepertő",
               "kacsa",
               "liba"
+            ],
+            "stílus": [
+              "csécsi",
+              "iberico",
+              "kolozsvári",
+              "tokaszalonna"
             ]
           }
         },
@@ -5284,6 +5306,13 @@
             "altípusok": {}
           },
           "Coppa": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Tokaszalonna": {
             "tulajdonságok": {
               "egyedi": {},
               "csoportos": {}
@@ -5380,7 +5409,20 @@
               "diákcsemege",
               "kemencés sült",
               "fűszeres",
-              "bécsi"
+              "bécsi",
+              "hot-dog",
+              "szárított paradicsom",
+              "mozzarella",
+              "rákóczi",
+              "túrázó",
+              "roma",
+              "sicily",
+              "calabria",
+              "genoa",
+              "chorizo",
+              "tiroli",
+              "levegőn szárított",
+              "angol karaj"
             ],
             "hústartalom": [
               "50% alatt",
@@ -6092,7 +6134,9 @@
               "Tesco Zafír",
               "Voss",
               "Füredi OXION",
-              "egyéb"
+              "egyéb",
+              "Aquitas",
+              "Nestlé"
             ]
           },
           "csoportos": {}
@@ -6220,8 +6264,10 @@
               "After/Before Party",
               "Swiss",
               "S-Budget",
-              "egyéb"
-            ]
+              "egyéb",
+              "Flying Power"
+            ],
+            "cukormentes": {}
           },
           "csoportos": {
             "tartalom": [
@@ -6258,7 +6304,8 @@
               "szeder",
               "limonádé",
               "vegyes",
-              "egyéb"
+              "egyéb",
+              "ananász"
             ]
           }
         },
@@ -6290,7 +6337,9 @@
               "Jana",
               "Kubu Waterrr",
               "S-Budget",
-              "egyéb"
+              "egyéb",
+              "Aquitas",
+              "Szentkirályi"
             ],
             "energia tartalom": [
               "energiamentes",
@@ -6328,7 +6377,10 @@
               "levendula",
               "grapefruit",
               "eper",
-              "egyéb"
+              "egyéb",
+              "kivi",
+              "ananász",
+              "maracuja"
             ]
           }
         },
@@ -7545,7 +7597,8 @@
               "spritz",
               "eper",
               "agávé",
-              "egyéb"
+              "egyéb",
+              "áfonya"
             ],
             "csomagolás": [
               "PET palack",
@@ -7604,8 +7657,13 @@
               "PRO+",
               "Absolute LifeStyle",
               "Collagen Vibe",
-              "egyéb"
-            ]
+              "egyéb",
+              "Crane",
+              "Rio D'Oro",
+              "AQUA+",
+              "Apenta+"
+            ],
+            "cukormentes": {}
           },
           "csoportos": {
             "tartalom": [
@@ -7633,7 +7691,11 @@
               "kaktusz",
               "papaja",
               "vegyes",
-              "egyéb"
+              "egyéb",
+              "meggy",
+              "egzotikus",
+              "őszibarack",
+              "citrus"
             ]
           }
         },
@@ -7652,7 +7714,9 @@
               "Fruit Step",
               "Pfanner",
               "Auchan",
-              "egyéb"
+              "egyéb",
+              "Bella",
+              "márka nélkül"
             ],
             "citrom/lime": [
               "citrom",
@@ -7688,7 +7752,9 @@
               "S-Budget",
               "Méhes-Mézes",
               "Mautner",
-              "egyéb"
+              "egyéb",
+              "Rio D'Oro",
+              "Monin"
             ],
             "energia tartalom": [
               "zéró",
@@ -7717,7 +7783,14 @@
               "zöld tea",
               "csipkebogyó",
               "áfonya",
-              "egyéb"
+              "egyéb",
+              "erdei gyümölcs",
+              "őszibarack",
+              "maracuja",
+              "szőlő",
+              "kókusz",
+              "mojito",
+              "multivitamin"
             ]
           }
         },
@@ -7750,8 +7823,10 @@
                   "Tutti Tea",
                   "Viwa Vitamintea",
                   "SPAR",
-                  "egyéb"
-                ]
+                  "egyéb",
+                  "márka nélkül"
+                ],
+                "cukormentes": {}
               },
               "csoportos": {
                 "íz": [
@@ -7766,10 +7841,14 @@
                   "trópusi",
                   "feketeribizli",
                   "birsalma",
-                  "egyéb"
+                  "egyéb",
+                  "őszibarack",
+                  "cseresznye",
+                  "aloe vera"
                 ]
               }
-            }
+            },
+            "altípusok": {}
           },
           "Szénsavas üdítő": {
             "tulajdonságok": {
@@ -7815,7 +7894,10 @@
                   "S-Budget",
                   "Chernel Fizz Water",
                   "Royal Crown",
-                  "egyéb"
+                  "egyéb",
+                  "River",
+                  "márka nélkül",
+                  "Rio D'Oro"
                 ],
                 "energia tartalom": [
                   "zéró",
@@ -7860,7 +7942,8 @@
                   "egyéb"
                 ]
               }
-            }
+            },
+            "altípusok": {}
           },
           "Gyümölcslé és Zöldséglé": {
             "tulajdonságok": {
@@ -7898,8 +7981,15 @@
                   "Aloe Vera",
                   "Queen",
                   "Biopont",
-                  "egyéb"
-                ]
+                  "egyéb",
+                  "Rio D'Oro",
+                  "márka nélkül",
+                  "BIO",
+                  "The Deli",
+                  "Good Choice"
+                ],
+                "bio": {},
+                "cukormentes": {}
               },
               "csoportos": {
                 "íz": [
@@ -7932,7 +8022,13 @@
                   "aloe vera",
                   "zöldséges",
                   "vegyes",
-                  "egyéb"
+                  "egyéb",
+                  "málna",
+                  "guava",
+                  "cseresznye",
+                  "gyömbér",
+                  "vérnarancs",
+                  "lime"
                 ],
                 "jellemzők": [
                   "rostos",
@@ -7940,7 +8036,27 @@
                   "100%",
                   "csökkentett kalóriatartalom",
                   "100% alatt",
-                  "egyéb"
+                  "egyéb",
+                  "préselt",
+                  "smoothie"
+                ]
+              }
+            },
+            "altípusok": {}
+          },
+          "Limonádé": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Cappy"
+                ],
+                "cukormentes": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "citrom",
+                  "eper",
+                  "bodza"
                 ]
               }
             }
@@ -8927,6 +9043,9 @@
               "rozs lepény",
               "pita",
               "egyéb"
+            ],
+            "márka": [
+              "Enjoy Free!"
             ]
           },
           "csoportos": {
