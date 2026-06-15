@@ -67770,5 +67770,3934 @@
     },
     "kategoria_hash": "71dee4814e77fea973119bab6fe092fda6b3feb804d79bdad7a1c2f4c075daa2",
     "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "533607",
+      "product_name": "SNACK FUN Pisztácia, sózott, 250 g",
+      "brand_name": "",
+      "unit_price": "1699.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Sós rágcsálnivaló > Sós magok",
+      "local_image_paths": "data/markets_data/product_images/aldi/05cab9674eed9d0e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Rágcsálnivaló magvak (snack)",
+    "altipus": "Olajos magvak (snack)",
+    "tulajdonsagok": {
+      "márka": "Snack Fun",
+      "sózott": true,
+      "pörkölt": false,
+      "héj nélküli": false,
+      "sótlan": false,
+      "magfajta": [
+        "pisztácia"
+      ],
+      "ízesítés": [
+        "sós"
+      ]
+    },
+    "kategoria_hash": "301be750227635c97a04ee33e36843831e4392199b91c1079929b50897f52026",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "986459",
+      "product_name": "NUTELLA Nutella Biscuits, 193 g",
+      "brand_name": "",
+      "unit_price": "1759.0",
+      "unit_type": "g",
+      "unit_step": "193.0",
+      "vegso_mennyiseg": "193.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Keksz",
+      "local_image_paths": "data/markets_data/product_images/aldi/13d2e3b8b1de8c6a.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Töltött, mártott keksz",
+    "tulajdonsagok": {
+      "márka": "Nutella",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "mogyorós",
+        "csokoládés"
+      ]
+    },
+    "kategoria_hash": "5cfe2762322b0095bdd1dad5b575586a2da185074db0e2508aff9b23cbb51965",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4242471",
+      "product_name": "BIO bio tejcsokoládé FAIRTRADE kakaóból, 100 g",
+      "brand_name": "",
+      "unit_price": "1759.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Tejcsokoládé",
+      "local_image_paths": "data/markets_data/product_images/aldi/6af3fdd92fd39c04.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Táblás csokoládé",
+    "tulajdonsagok": {
+      "márka": "BIO",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": true,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "25af091601ca5a150633ea753cf4d76d684494ea09511bd3f11cc16ebef5a0fe",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4242472",
+      "product_name": "BIO bio étcsokoládé FAIRTRADE kakaóból, 100 g",
+      "brand_name": "",
+      "unit_price": "1759.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Étcsokoládé",
+      "local_image_paths": "data/markets_data/product_images/aldi/b604b5d6c7def64f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Táblás csokoládé",
+    "tulajdonsagok": {
+      "márka": "BIO",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": true,
+      "típus": [
+        "étcsokoládé"
+      ],
+      "kakaótartalom": [
+        "70%"
+      ],
+      "töltelék / íz": [],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "887b91550f62206a79d16d5ccb02ab86984bda33b89178977cff3c5d308c9469",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "748853",
+      "product_name": "FINEST BAKERY Klasszikus ostyaszeletek, 4 x 65 g",
+      "brand_name": "",
+      "unit_price": "1799.0",
+      "unit_type": "g",
+      "unit_step": "260.0",
+      "vegso_mennyiseg": "260.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Nápolyi, csokiszelet",
+      "local_image_paths": "data/markets_data/product_images/aldi/aae6770f2cc24d31.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Ostya",
+    "tulajdonsagok": {
+      "márka": "Finest Bakery",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "klasszikus"
+      ]
+    },
+    "kategoria_hash": "a326338002e49b50a8015e1cda3e90efe909b4c2ddfc52e97d965677a60d3425",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "779769",
+      "product_name": "FINEST BAKERY Citromos ostyaszeletek, 4 x 65 g",
+      "brand_name": "",
+      "unit_price": "1799.0",
+      "unit_type": "g",
+      "unit_step": "260.0",
+      "vegso_mennyiseg": "260.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Nápolyi, csokiszelet",
+      "local_image_paths": "data/markets_data/product_images/aldi/c2f68e33c4ab8e77.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Ostya",
+    "tulajdonsagok": {
+      "márka": "Finest Bakery",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "citrom"
+      ]
+    },
+    "kategoria_hash": "78339a9a6b80d95ad937484c36e107b0ffa3cd88e8af33bb181870f47bf0a012",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1056892",
+      "product_name": "MOSER ROTH Vegyes trüffel-praliné alkohol nélkül FAIRTRADE kakaóval, 200 g",
+      "brand_name": "",
+      "unit_price": "1989.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/2769036ab039312c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Moser Roth",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé",
+        "étcsokoládé",
+        "fehércsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "trüffel",
+        "praliné"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "4f512dc1a72bcb912b87c12f69906d1a554b30f81a3711cdca013697abc6eedf",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4603998",
+      "product_name": "MOSER ROTH Vegyes trüffel-praliné alkohollal FAIRTRADE kakaóval, 200 g",
+      "brand_name": "",
+      "unit_price": "1989.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/a06927bf26acbf5a.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Moser Roth",
+      "töltött": false,
+      "alkoholos": true,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé",
+        "étcsokoládé",
+        "fehércsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "trüffel",
+        "praliné"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "e1e65a90d4b8e8a8eddffaaf95c8a2a4a5e13878cc732e2454ed4c603cb6dc4f",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "536129",
+      "product_name": "FINEST BAKERY Prémium omlós sütemény mogyoró-csokoládé , 210 / 200 g",
+      "brand_name": "",
+      "unit_price": "2109.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Keksz",
+      "local_image_paths": "data/markets_data/product_images/aldi/a72d0dffaa2f2e21.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Édes keksz",
+    "tulajdonsagok": {
+      "márka": "Finest Bakery",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "mogyorós",
+        "csokoládés"
+      ]
+    },
+    "kategoria_hash": "3607d1e1452dff0ca37da5638da159fd3785cc7c16d2ce871a5689a0f65e353e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "539748",
+      "product_name": "FINEST BAKERY Prémium omlós sütemény kókusz, 210 / 200 g",
+      "brand_name": "",
+      "unit_price": "2109.0",
+      "unit_type": "g",
+      "unit_step": "210.0",
+      "vegso_mennyiseg": "210.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Keksz",
+      "local_image_paths": "data/markets_data/product_images/aldi/5ec5635c95c92659.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Édes keksz",
+    "tulajdonsagok": {
+      "márka": "Finest Bakery",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "kókusz"
+      ]
+    },
+    "kategoria_hash": "428105c0dfe34a9686e245ae40fb37f5f600e7b0427572b559f5f376f82e5067",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "550192",
+      "product_name": "FINEST BAKERY Csokoládés ostyaszelet, 400 g",
+      "brand_name": "",
+      "unit_price": "2109.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "400.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Nápolyi, csokiszelet",
+      "local_image_paths": "data/markets_data/product_images/aldi/ce9b75af9cc532c9.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Csokoládés ostyaszelet",
+    "tulajdonsagok": {
+      "márka": "Finest Bakery",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "csokoládés"
+      ]
+    },
+    "kategoria_hash": "d293e6a4b1d158e870190f3e9cda995758e5019fac45ce298c1a57d268256184",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "823297",
+      "product_name": "MOSER ROTH Praliné mix FAIRTRADE kakaóval, 200 g",
+      "brand_name": "",
+      "unit_price": "2179.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/1c670f6fdf8fbb0e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Moser Roth",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé",
+        "étcsokoládé",
+        "fehércsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "praliné"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "3292956995964680a73338433a7dd81381352976a7c505b52c735bb6465e5d5a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "823298",
+      "product_name": "MOSER ROTH Praliné étcsokoládé FAIRTRADE kakaóval, 200 g",
+      "brand_name": "",
+      "unit_price": "2179.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/a6148a8f9a6c48ec.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Moser Roth",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "étcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "praliné"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "cada88d08ec6167f17d14e5aadf36790e3dbe32cf993e0996cbf21c754092416",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "823299",
+      "product_name": "MOSER ROTH Praliné tejcsokoládé FAIRTRADE kakaóval, 200 g",
+      "brand_name": "",
+      "unit_price": "2179.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/fd6cfc4751c14815.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Moser Roth",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "praliné"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "7c6429fbdb97aa6c898416988cfd8799fa5ff89713adcef2cf480024744721f4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "823300",
+      "product_name": "MOSER ROTH Praliné fehér csokoládé FAIRTRADE kakaóval, 200 g",
+      "brand_name": "",
+      "unit_price": "2179.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/877c6c05098c0c08.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Moser Roth",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "fehércsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "praliné"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "6c636451598c72b3c05795b0fb29292aa10ee610f4f615401a3d696cf9e66bde",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "914546",
+      "product_name": "MOSER ROTH Praliné csokoládé válogatás FAIRTRADE kakaóval, 200 g",
+      "brand_name": "",
+      "unit_price": "2179.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/222ad812caf09bb6.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Moser Roth",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé",
+        "étcsokoládé",
+        "fehércsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "praliné"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "3292956995964680a73338433a7dd81381352976a7c505b52c735bb6465e5d5a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "914547",
+      "product_name": "MOSER ROTH Praliné kókuszos FAIRTRADE kakaóval 200 g",
+      "brand_name": "",
+      "unit_price": "2179.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/90bca7134b974f7d.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Moser Roth",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "kókusz",
+        "praliné"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "b1e316506cc22529343dc300ee5641fd1cc4bd9e821a0aabb762af3b7cffa291",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1013068",
+      "product_name": "MOSER ROTH Praliné csokoládé válogatás FAIRTRADE kakaóval, mangó, 200 g",
+      "brand_name": "",
+      "unit_price": "2179.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/d6df3db01ecbadd4.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Moser Roth",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "mangó",
+        "praliné"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "59874c324a157eaa2ddd08f5a382f6f9b3bcdacde54ddcba7c82788b9af3ebbb",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535860",
+      "product_name": "FINEST BAKERY Karamellás ostyaszelet, 400 g",
+      "brand_name": "",
+      "unit_price": "2229.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "400.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Nápolyi, csokiszelet",
+      "local_image_paths": "data/markets_data/product_images/aldi/c23a682f909eb5ae.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Csokoládés ostyaszelet",
+    "tulajdonsagok": {
+      "márka": "Finest Bakery",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "karamell"
+      ]
+    },
+    "kategoria_hash": "1bc13a22999a9c0a7ed653e7c34a1c380c510a26786d9354218a71bf6a7bc168",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "536295",
+      "product_name": "CHOCEUR Kekszes tejcsokoládé szeletek fekete és fehér, 300 g",
+      "brand_name": "",
+      "unit_price": "2339.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Tejcsokoládé",
+      "local_image_paths": "data/markets_data/product_images/aldi/638582e74051f0ea.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Csokoládé szelet",
+    "tulajdonsagok": {
+      "márka": "Choceur",
+      "töltött": true,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "csokoládés"
+      ],
+      "hozzáadott darabok": [
+        "kekszdarab"
+      ]
+    },
+    "kategoria_hash": "c737e5fe40a1306dab3469075b09bbdc17814ee363380c68451a0d46429033a4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "536296",
+      "product_name": "CHOCEUR Kekszes tejcsokoládé szeletek tej, 300 g",
+      "brand_name": "",
+      "unit_price": "2339.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Tejcsokoládé",
+      "local_image_paths": "data/markets_data/product_images/aldi/e95e9d961b5198f3.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Csokoládé szelet",
+    "tulajdonsagok": {
+      "márka": "Choceur",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [],
+      "hozzáadott darabok": [
+        "kekszdarab"
+      ]
+    },
+    "kategoria_hash": "34399b9f065ce4894ff7b9972c9584b881cce145179f9b0c6d6480a3f0b6045d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "536297",
+      "product_name": "CHOCEUR Kekszes tejcsokoládé szeletek Cappuccino, 300 g",
+      "brand_name": "",
+      "unit_price": "2339.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Tejcsokoládé",
+      "local_image_paths": "data/markets_data/product_images/aldi/49f970d9cbf27a30.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Csokoládé szelet",
+    "tulajdonsagok": {
+      "márka": "Choceur",
+      "töltött": true,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "cappuccino"
+      ],
+      "hozzáadott darabok": [
+        "kekszdarab"
+      ]
+    },
+    "kategoria_hash": "0ea49f5c68ec4881b8efec7f594c7c445d692a0fa28b42ee255f4bc0165b7a51",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "564574",
+      "product_name": "MILKA Táblás csokoládé oreos, 300 g",
+      "brand_name": "",
+      "unit_price": "2339.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Tejcsokoládé",
+      "local_image_paths": "data/markets_data/product_images/aldi/75e7975c97ac59ba.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Táblás csokoládé",
+    "tulajdonsagok": {
+      "márka": "Milka",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "oreo"
+      ],
+      "hozzáadott darabok": [
+        "kekszdarab"
+      ]
+    },
+    "kategoria_hash": "d14be96b2c71de227bf9f9559cff7c10ff0b8483927fe76596541bf8ccaca9d4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "891143",
+      "product_name": "MILKA Táblás csokoládé epres-sajttortás, 300 g",
+      "brand_name": "",
+      "unit_price": "2339.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Tejcsokoládé",
+      "local_image_paths": "data/markets_data/product_images/aldi/7aa15a0b78fbe53b.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Táblás csokoládé",
+    "tulajdonsagok": {
+      "márka": "Milka",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "eper",
+        "sajttorta"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "b382d2573d22178ddf09cd79a4b1876ef6edad7c01256363a9e68b4d21be20e4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "926155",
+      "product_name": "MILKA Táblás csokoládé karamellás egész mogyorós, 300 g",
+      "brand_name": "",
+      "unit_price": "2339.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Tejcsokoládé",
+      "local_image_paths": "data/markets_data/product_images/aldi/15be19888867a891.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Táblás csokoládé",
+    "tulajdonsagok": {
+      "márka": "Milka",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "karamell"
+      ],
+      "hozzáadott darabok": [
+        "egész mogyoró"
+      ]
+    },
+    "kategoria_hash": "f76acacce06faac39b8d299c275585c10643b4078847307a618ed578061d1276",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1057768",
+      "product_name": "MILKA Táblás csokoládé alpesi tejcsokoládé, 250 g",
+      "brand_name": "",
+      "unit_price": "2339.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Tejcsokoládé",
+      "local_image_paths": "data/markets_data/product_images/aldi/be777e36cefe97a8.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Táblás csokoládé",
+    "tulajdonsagok": {
+      "márka": "Milka",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "76d7866d93dbc1d26eba202b592420539be4dba9bbcc5315a5cf2b47cff3fef6",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4599504",
+      "product_name": "FINEST BAKERY Fine Sensation ostyaszelet narancsos, 300 g",
+      "brand_name": "",
+      "unit_price": "2409.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Nápolyi, csokiszelet",
+      "local_image_paths": "data/markets_data/product_images/aldi/52539081428ef828.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Csokoládés ostyaszelet",
+    "tulajdonsagok": {
+      "márka": "Finest Bakery",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "narancs"
+      ]
+    },
+    "kategoria_hash": "d69086d8441e4dde7627cd364e88fb745246794c7cf5c3bb6414329ce447d7e8",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4599628",
+      "product_name": "FINEST BAKERY Fine Sensation ostyaszelet karamellás, 300 g",
+      "brand_name": "",
+      "unit_price": "2409.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Nápolyi, csokiszelet",
+      "local_image_paths": "data/markets_data/product_images/aldi/fd056ca8b885f359.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Csokoládés ostyaszelet",
+    "tulajdonsagok": {
+      "márka": "Finest Bakery",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "karamell"
+      ]
+    },
+    "kategoria_hash": "1bc13a22999a9c0a7ed653e7c34a1c380c510a26786d9354218a71bf6a7bc168",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "540748",
+      "product_name": "FERRERO Raffaello, 230 g",
+      "brand_name": "",
+      "unit_price": "2579.0",
+      "unit_type": "g",
+      "unit_step": "230.0",
+      "vegso_mennyiseg": "230.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/1942924c7419c369.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Ferrero",
+      "töltött": true,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "fehércsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "kókusz"
+      ],
+      "hozzáadott darabok": [
+        "manduladarab"
+      ]
+    },
+    "kategoria_hash": "1793edfe8bc68c2dfb9a67b872da05e35735b8535f1b830bd96f094c31d92665",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "560584",
+      "product_name": "MOSER ROTH Pralinéválogatás alkohol nélkül, 300 g",
+      "brand_name": "",
+      "unit_price": "2659.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/c11e387a70f7ee3b.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Moser Roth",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé",
+        "étcsokoládé",
+        "fehércsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "praliné"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "3292956995964680a73338433a7dd81381352976a7c505b52c735bb6465e5d5a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "560585",
+      "product_name": "MOSER ROTH Pralinéválogatás alkohollal, 300 g",
+      "brand_name": "",
+      "unit_price": "2659.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/10b7975174377a2e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Moser Roth",
+      "töltött": false,
+      "alkoholos": true,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé",
+        "étcsokoládé",
+        "fehércsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "praliné"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "172226810ac75983d0a9684969726c806f69fa5087005546b45857fc8cbac777",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "535776",
+      "product_name": "STORCK Merci tejcsokoládéválogatás, 200 g",
+      "brand_name": "",
+      "unit_price": "2809.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/1c81ed8cbc4224ae.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Merci",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "c9fcef6a889b238c3fe6a1970fda264efa01ef90307415677d48425efb541190",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "812763",
+      "product_name": "STORCK Merci csokoládéválogatás mogyorós-mandulás, 200 g",
+      "brand_name": "",
+      "unit_price": "2809.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/0ebb279b6d8196da.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Merci",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [],
+      "hozzáadott darabok": [
+        "mogyoró",
+        "manduladarab"
+      ]
+    },
+    "kategoria_hash": "1b028f6e675b717519cff32df9e5a141d0d887c550242e64d7cde557bebd5410",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "812764",
+      "product_name": "STORCK Merci étcsokoládéválogatás, 200 g",
+      "brand_name": "",
+      "unit_price": "2809.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/93e371ac23798763.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Merci",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "étcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "2de7f0624364cfa112f4a93205937ed5cf83709b1b03d8be6afe6a4527f3b08e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "968238",
+      "product_name": "STORCK Merci csokoládéválogatás Mousse, 200 g",
+      "brand_name": "",
+      "unit_price": "2809.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/bb6eeeecb2077a7f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Merci",
+      "töltött": false,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé",
+        "étcsokoládé",
+        "fehércsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "habkrém"
+      ],
+      "hozzáadott darabok": []
+    },
+    "kategoria_hash": "ce8b91d087855c5a7c77d732bafa687b98e1a38d03ded7f4d1a47237ad720c61",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "931078",
+      "product_name": "FERRERO Rocher, 200 g",
+      "brand_name": "",
+      "unit_price": "3049.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Csokoládé > Bonbon",
+      "local_image_paths": "data/markets_data/product_images/aldi/e2e0756476842d36.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Csokoládé",
+    "altipus": "Praliné, desszert, bonbon",
+    "tulajdonsagok": {
+      "márka": "Ferrero",
+      "töltött": true,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "bio": false,
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "mogyorós"
+      ],
+      "hozzáadott darabok": [
+        "mogyoró"
+      ]
+    },
+    "kategoria_hash": "d8a4523bccdea2c6e121e435a4fedf3b75a0e9aa60b33856a4ded53f3fac9216",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "536204",
+      "product_name": "Szőlőcukor natúr 100 g",
+      "brand_name": "",
+      "unit_price": "329.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Cukorkák, rágógumi > Szőlőcukor",
+      "local_image_paths": "data/markets_data/product_images/aldi/a01aa79d88a950f5.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Cukorka, nyalóka",
+    "altipus": "Szőlőcukor",
+    "tulajdonsagok": {
+      "márka": "márka nélkül",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "mentolos": false,
+      "savanyú": false,
+      "alkoholos": false,
+      "íz": [
+        "natúr"
+      ]
+    },
+    "kategoria_hash": "d3dcb45a9d9580c35a2958f6d1383d332e277b24db98b5db229df0dfe60f9b0a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "536205",
+      "product_name": "Szőlőcukor mentolos, 100 g",
+      "brand_name": "",
+      "unit_price": "329.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Cukorkák, rágógumi > Szőlőcukor",
+      "local_image_paths": "data/markets_data/product_images/aldi/2a4cfa32109d8608.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Cukorka, nyalóka",
+    "altipus": "Szőlőcukor",
+    "tulajdonsagok": {
+      "márka": "márka nélkül",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "mentolos": true,
+      "savanyú": false,
+      "alkoholos": false,
+      "íz": [
+        "mentol"
+      ]
+    },
+    "kategoria_hash": "f2baba91a8b811903b76b09133c2e13d8cee9fedaa66532e56ad699d9fd970f2",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "955348",
+      "product_name": "Omlós keksz mézes, 180 g",
+      "brand_name": "",
+      "unit_price": "349.0",
+      "unit_type": "g",
+      "unit_step": "180.0",
+      "vegso_mennyiseg": "180.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Keksz",
+      "local_image_paths": "data/markets_data/product_images/aldi/19710e9134434cd8.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Édes keksz",
+    "tulajdonsagok": {
+      "márka": "márka nélkül",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "mézes"
+      ]
+    },
+    "kategoria_hash": "e460304d91d8a998dbe1b708223fcf4123d894069e5a63a5ee70cf7d709e948e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1052545",
+      "product_name": "GYŐRI ÉDES Omlós keksz kakaós 150 g",
+      "brand_name": "",
+      "unit_price": "469.0",
+      "unit_type": "g",
+      "unit_step": "150.0",
+      "vegso_mennyiseg": "150.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Keksz",
+      "local_image_paths": "data/markets_data/product_images/aldi/f10f1d890ab4ba22.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Édes keksz",
+    "tulajdonsagok": {
+      "márka": "Győri Édes",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "kakaós"
+      ]
+    },
+    "kategoria_hash": "25b02256e92550dab9b0682598129944e648903203a74150d7522d31850516ba",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1026653",
+      "product_name": "CHIO Chips sajtos 130 g",
+      "brand_name": "",
+      "unit_price": "795.0",
+      "unit_type": "g",
+      "unit_step": "130.0",
+      "vegso_mennyiseg": "130.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Sós rágcsálnivaló > Chipsek",
+      "local_image_paths": "data/markets_data/product_images/aldi/40fd418095ade10c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Snack",
+    "altipus": "Chips, Nachos, Pufi",
+    "tulajdonsagok": {
+      "alak": "szirom",
+      "márka": "Chio",
+      "egyéb jellemzők": [],
+      "íz": [
+        "sajt"
+      ],
+      "alapanyag": [
+        "burgonya"
+      ]
+    },
+    "kategoria_hash": "7076d5ff0ac9b78200518ea8f2ec49816434f906e0fb6fba9351b215237bf185",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4606923",
+      "product_name": "CHIO Chips jalapenos 130 g",
+      "brand_name": "",
+      "unit_price": "795.0",
+      "unit_type": "g",
+      "unit_step": "130.0",
+      "vegso_mennyiseg": "130.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Sós rágcsálnivaló > Chipsek",
+      "local_image_paths": "data/markets_data/product_images/aldi/e44c2ad7ef3722fa.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Snack",
+    "altipus": "Chips, Nachos, Pufi",
+    "tulajdonsagok": {
+      "alak": "szirom",
+      "márka": "Chio",
+      "egyéb jellemzők": [
+        "csípős"
+      ],
+      "íz": [
+        "jalapeno"
+      ],
+      "alapanyag": [
+        "burgonya"
+      ]
+    },
+    "kategoria_hash": "90ca732d7ecf07a9d5400fcc7a4d0f0790a606731b498fcd8608bf3124378fb8",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4606924",
+      "product_name": "CHIO Chips mézes-barbecues 130 g",
+      "brand_name": "",
+      "unit_price": "795.0",
+      "unit_type": "g",
+      "unit_step": "130.0",
+      "vegso_mennyiseg": "130.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Sós rágcsálnivaló > Chipsek",
+      "local_image_paths": "data/markets_data/product_images/aldi/25c7283b8b07e5d1.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Snack",
+    "altipus": "Chips, Nachos, Pufi",
+    "tulajdonsagok": {
+      "alak": "szirom",
+      "márka": "Chio",
+      "egyéb jellemzők": [],
+      "íz": [
+        "méz",
+        "BBQ"
+      ],
+      "alapanyag": [
+        "burgonya"
+      ]
+    },
+    "kategoria_hash": "fcce8d610b37eb933bf5f336ec1928d48df1fd1780d8e21ff7d12c87d31d46c3",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "983779",
+      "product_name": "SNACK FUN Rácsos Chips paprikás 125 g",
+      "brand_name": "",
+      "unit_price": "935.0",
+      "unit_type": "g",
+      "unit_step": "125.0",
+      "vegso_mennyiseg": "125.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Sós rágcsálnivaló > Chipsek",
+      "local_image_paths": "data/markets_data/product_images/aldi/43a368dff7f6bb2f.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Snack",
+    "altipus": "Chips, Nachos, Pufi",
+    "tulajdonsagok": {
+      "alak": "szirom",
+      "márka": "Snack Fun",
+      "egyéb jellemzők": [
+        "rácsos"
+      ],
+      "íz": [
+        "paprika"
+      ],
+      "alapanyag": [
+        "burgonya"
+      ]
+    },
+    "kategoria_hash": "fe4a764686825431559231998342f71109af29fcfc20fa2aa735f6a355d2f6c7",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "983780",
+      "product_name": "SNACK FUN Rácsos Chips sós 125 g",
+      "brand_name": "",
+      "unit_price": "935.0",
+      "unit_type": "g",
+      "unit_step": "125.0",
+      "vegso_mennyiseg": "125.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Sós rágcsálnivaló > Chipsek",
+      "local_image_paths": "data/markets_data/product_images/aldi/6d075f7f10aaf6c3.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Snack",
+    "altipus": "Chips, Nachos, Pufi",
+    "tulajdonsagok": {
+      "alak": "szirom",
+      "márka": "Snack Fun",
+      "egyéb jellemzők": [
+        "rácsos"
+      ],
+      "íz": [
+        "sima sós"
+      ],
+      "alapanyag": [
+        "burgonya"
+      ]
+    },
+    "kategoria_hash": "cc3be71c8a1e0270cb713edce621ee5dcd64aa4664c492a6318077ef940c7cfd",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "540694",
+      "product_name": "SNACK FUN Nacho Box salsaszósszal 170 g",
+      "brand_name": "",
+      "unit_price": "1059.0",
+      "unit_type": "g",
+      "unit_step": "170.0",
+      "vegso_mennyiseg": "170.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Sós rágcsálnivaló > Chipsek",
+      "local_image_paths": "data/markets_data/product_images/aldi/7bfced41dc11be94.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Snack",
+    "altipus": "Chips, Nachos, Pufi",
+    "tulajdonsagok": {
+      "alak": "háromszög",
+      "márka": "Snack Fun",
+      "egyéb jellemzők": [
+        "nachos/tortilla",
+        "szósszal"
+      ],
+      "íz": [
+        "salsa"
+      ],
+      "alapanyag": [
+        "kukorica"
+      ]
+    },
+    "kategoria_hash": "f4ea5ac1fb5a507484a7c0a27e5b4ee2ca60b3d2c6782a35abfdd7bceaa0ce2b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "540695",
+      "product_name": "SNACK FUN Nacho Box sajtszósszal 170 g",
+      "brand_name": "",
+      "unit_price": "1059.0",
+      "unit_type": "g",
+      "unit_step": "170.0",
+      "vegso_mennyiseg": "170.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Sós rágcsálnivaló > Chipsek",
+      "local_image_paths": "data/markets_data/product_images/aldi/ea958a3c3f26abb0.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Snack",
+    "altipus": "Chips, Nachos, Pufi",
+    "tulajdonsagok": {
+      "alak": "háromszög",
+      "márka": "Snack Fun",
+      "egyéb jellemzők": [
+        "nachos/tortilla",
+        "szósszal"
+      ],
+      "íz": [
+        "sajt"
+      ],
+      "alapanyag": [
+        "kukorica"
+      ]
+    },
+    "kategoria_hash": "87f2209665d066f4d3b777508f71f24436f6817e6e5b4d391dd710afa4e7535c",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "537433",
+      "product_name": "FINEST BAKERY Mogyorókrémes keksz, 200 g",
+      "brand_name": "",
+      "unit_price": "1159.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Keksz",
+      "local_image_paths": "data/markets_data/product_images/aldi/9635ac0098bbb8b4.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Töltött, mártott keksz",
+    "tulajdonsagok": {
+      "márka": "Finest Bakery",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "mogyorós"
+      ]
+    },
+    "kategoria_hash": "3cd0d61ebd16bc91c59b51d4fb6b2680fe7cd4af2edda4d5162b6326d1f60eaf",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "4606926",
+      "product_name": "TROLLI Super Kick gumicukor 131 g",
+      "brand_name": "",
+      "unit_price": "1169.0",
+      "unit_type": "g",
+      "unit_step": "131.0",
+      "vegso_mennyiseg": "131.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Cukorkák, rágógumi > Gumicukor",
+      "local_image_paths": "data/markets_data/product_images/aldi/0c8a9c2633d8c426.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Gumicukor, zselé, pillecukor",
+    "altipus": "Gumicukor",
+    "tulajdonsagok": {
+      "márka": "Trolli",
+      "savanyú": true,
+      "forma": [
+        "egyéb"
+      ],
+      "íz": [
+        "alma",
+        "lime"
+      ]
+    },
+    "kategoria_hash": "d6badb8fe534666e83416108e5124a9475e90b4af2a34db408c54415b7b3adcd",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "891148",
+      "product_name": "KINDER Cards ostya tejes és kakaós töltelékkel, 128 g",
+      "brand_name": "",
+      "unit_price": "1349.0",
+      "unit_type": "g",
+      "unit_step": "128.0",
+      "vegso_mennyiseg": "128.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Nassolnivalók > Keksz, nápolyi, piskóta > Nápolyi, csokiszelet",
+      "local_image_paths": "data/markets_data/product_images/aldi/7fd70605e542c3dc.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Édesség, snack, rágcsálnivaló",
+    "alkategoria": "Keksz, nápolyi, ostya",
+    "altipus": "Csokoládés ostyaszelet",
+    "tulajdonsagok": {
+      "márka": "Kinder",
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "teljes kiőrlésű": false,
+      "rostban gazdag": false,
+      "íz": [
+        "tej",
+        "kakaós"
+      ]
+    },
+    "kategoria_hash": "c149258aae8c7b6e76c3ac25683a98eae7c6d0c20fcf7ff2c1f84a9e4f21facd",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1054222",
+      "product_name": "AZON MELEGÉBEN Vajas croissant helyben sütött, 70 g",
+      "brand_name": "",
+      "unit_price": "119.0",
+      "unit_type": "g",
+      "unit_step": "70.0",
+      "vegso_mennyiseg": "70.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/6995449d5bc20bd0.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Croissant",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "csomagolt": false,
+      "mini": false,
+      "helyben sütött": true,
+      "fajta": [
+        "natúr"
+      ]
+    },
+    "kategoria_hash": "13d40f1754b220896e06d475073ddfcc42a2b9ee81b1fdd404d1af8f656fda6d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534514",
+      "product_name": "AZON MELEGÉBEN Bajor jellegű fonott kifli sajttal megszórva helyben sütött, 100 g",
+      "brand_name": "",
+      "unit_price": "179.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/1b74f7dc4ae128ec.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kifli",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "sajtos": true,
+      "íz": [
+        "sajt"
+      ]
+    },
+    "kategoria_hash": "299962b87ae86f141d0ef8d44311d7f2615cde5166ee005f39fbb09b71de7a54",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534351",
+      "product_name": "AZON MELEGÉBEN Császárbuci helyben sütött 55 g",
+      "brand_name": "",
+      "unit_price": "85.0",
+      "unit_type": "g",
+      "unit_step": "55.0",
+      "vegso_mennyiseg": "55.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Zsemle, kifli > Zsemle",
+      "local_image_paths": "data/markets_data/product_images/aldi/f2a4e0c509bf28af.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Zsemle",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "császár"
+      ]
+    },
+    "kategoria_hash": "6107019e66e3318f3c75d418945808ce679f5bea64fdeb31756f32106a02884a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "541432",
+      "product_name": "PANTASTICO Toast kenyér teljes kiőrlésű, 400 g",
+      "brand_name": "",
+      "unit_price": "705.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "400.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/47f142743d3edeb0.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Pantastico",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fajta": [
+        "toast / szendvics",
+        "teljes kiőrlésű"
+      ]
+    },
+    "kategoria_hash": "27dda9c85a047ff4f738412ced5d81e784981fe25497a209132c2f19fad6adb4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534475",
+      "product_name": "ÉDES ÍZEK Fonott kalács natúr, 400 g",
+      "brand_name": "",
+      "unit_price": "969.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "400.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Tartós áru > Édes",
+      "local_image_paths": "data/markets_data/product_images/aldi/85a9a50ab13a5a7b.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kalács",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Édes Ízek",
+      "íz": [
+        "natúr"
+      ]
+    },
+    "kategoria_hash": "bd7d75990d6484b332514dac1c8d9fd9a9a3ed7625cfd0d53d0c203cc2359a54",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534476",
+      "product_name": "ÉDES ÍZEK fonott kalács kakaós, 350 g",
+      "brand_name": "",
+      "unit_price": "969.0",
+      "unit_type": "g",
+      "unit_step": "350.0",
+      "vegso_mennyiseg": "350.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Tartós áru > Édes",
+      "local_image_paths": "data/markets_data/product_images/aldi/f5e09eb0529bd8f0.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kalács",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Édes Ízek",
+      "íz": [
+        "kakaós"
+      ]
+    },
+    "kategoria_hash": "260b460a95da3fadd713237c5b278a00830e61f8c83381b0a21b0be30e8ecc71",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534308",
+      "product_name": "AZON MELEGÉBEN Sokmagvas császárbuci helyben sütött 55 g",
+      "brand_name": "",
+      "unit_price": "79.0",
+      "unit_type": "g",
+      "unit_step": "55.0",
+      "vegso_mennyiseg": "55.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Zsemle, kifli > Zsemle",
+      "local_image_paths": "data/markets_data/product_images/aldi/40b3a18bb2098e0c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Zsemle",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "császár",
+        "magvas"
+      ]
+    },
+    "kategoria_hash": "0905720bc0d1c160046c60edfc113aac83850dfe52f37335b4c8365903fd3c73",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534066",
+      "product_name": "AZON MELEGÉBEN Fahéjas csiga helyben sütött, 100 g",
+      "brand_name": "",
+      "unit_price": "169.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Édes pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/d18f6f42525d56e0.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb édes pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "csiga"
+      ],
+      "íz": [
+        "fahéjas"
+      ]
+    },
+    "kategoria_hash": "ce0ee9a3d7ae97bb83c019724bacef98ac90808da8d791cc2a3443a1cb18c498",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534263",
+      "product_name": "AZON MELEGÉBEN Túrós táska, helyben sütött 95 g",
+      "brand_name": "",
+      "unit_price": "169.0",
+      "unit_type": "g",
+      "unit_step": "95.0",
+      "vegso_mennyiseg": "95.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Édes pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/28fb0078b5585386.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb édes pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "táska"
+      ],
+      "íz": [
+        "túrós"
+      ]
+    },
+    "kategoria_hash": "aaa18f7ba932f1eb2d2684690939e59f6b850366db740a7845c72e8f1d02eec0",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534243",
+      "product_name": "AZON MELEGÉBEN Barackos-vanília-pudingos párna, helyben sütött, 100 g",
+      "brand_name": "",
+      "unit_price": "195.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Édes pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/63a3acb77bfef269.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb édes pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "párna"
+      ],
+      "íz": [
+        "barackos",
+        "vaníliás"
+      ]
+    },
+    "kategoria_hash": "0438b8a1f12bcea130b01223a73a5ab1c4b3d2088163b21f4d379f75e8201df2",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "832597",
+      "product_name": "AZON MELEGÉBEN Bolognai hatszög helyben sütött, 95 g",
+      "brand_name": "",
+      "unit_price": "205.0",
+      "unit_type": "g",
+      "unit_step": "95.0",
+      "vegso_mennyiseg": "95.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/34c6ffedb4bac0b6.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb sós pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "egyéb"
+      ],
+      "íz": [
+        "bolognai"
+      ]
+    },
+    "kategoria_hash": "1ce8da19416115fdd0df70f1cef93e3d81c6dba236aa4064f995ebe2bc07e421",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534052",
+      "product_name": "AZON MELEGÉBEN Mexikói párna helyben sütött 100 g",
+      "brand_name": "",
+      "unit_price": "219.0",
+      "unit_type": "g",
+      "unit_step": "85.0",
+      "vegso_mennyiseg": "100",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/569000d8b0527c3e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb sós pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "párna"
+      ],
+      "íz": [
+        "mexikói"
+      ]
+    },
+    "kategoria_hash": "6e674b86d2e59a756f7201dc910a94f35cbcba50e881d61ba342fa3d21476548",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534267",
+      "product_name": "AZON MELEGÉBEN Virslis táska mustáros szezámmaggal helyben sütött, 100 g",
+      "brand_name": "",
+      "unit_price": "225.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/e77d68d3c3d84be7.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb sós pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "táska"
+      ],
+      "íz": [
+        "virslis",
+        "mustáros",
+        "szezámmag"
+      ]
+    },
+    "kategoria_hash": "9374c0f525d07f67b9f9369548153cd2fd93f4a1eb04abccb39cde319c305d06",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534269",
+      "product_name": "AZON MELEGÉBEN Virslis táska ketchupos helyben sütött, 100 g",
+      "brand_name": "",
+      "unit_price": "225.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/f5721bcf1d90a969.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb sós pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "táska"
+      ],
+      "íz": [
+        "virslis",
+        "ketchup"
+      ]
+    },
+    "kategoria_hash": "37b0949c6c709d1633502389494a176002351ccbc04bbc3d36f93903a3dc93ae",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534266",
+      "product_name": "AZON MELEGÉBEN Sajtkrémes rúd natúr, helyben sütött 90 g",
+      "brand_name": "",
+      "unit_price": "235.0",
+      "unit_type": "g",
+      "unit_step": "90.0",
+      "vegso_mennyiseg": "90.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/87c4d317a377e688.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb sós pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "rúd"
+      ],
+      "íz": [
+        "sajt",
+        "natúr"
+      ]
+    },
+    "kategoria_hash": "f68d2dee7a0f8bef2e604bfd9a62955d326e4be0ddb50e0b1c1123fef40f9f15",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534188",
+      "product_name": "AZON MELEGÉBEN Májas kocka csirkemájas töltelékkel helyben sütött 90 g",
+      "brand_name": "",
+      "unit_price": "245.0",
+      "unit_type": "g",
+      "unit_step": "90.0",
+      "vegso_mennyiseg": "90.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/f968c93fb0da1214.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb sós pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "egyéb"
+      ],
+      "íz": [
+        "májas",
+        "csirkés"
+      ]
+    },
+    "kategoria_hash": "5daff19061d736c8404dae373424e10b2308f2d5d2727104fd3c2ae464069c38",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "920288",
+      "product_name": "AZON MELEGÉBEN Sajtos stangli, helyben sütött, 100 g",
+      "brand_name": "",
+      "unit_price": "255.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/7b3044f511e8301e.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb sós pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "stangli"
+      ],
+      "íz": [
+        "sajt"
+      ]
+    },
+    "kategoria_hash": "be986c04d43ea2da9c1ae9a3a8ee844c9fb1c5a599a8d4b59fa2905e22d854b7",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534244",
+      "product_name": "AZON MELEGÉBEN Pizza twister,helyben sütött, 100 g",
+      "brand_name": "",
+      "unit_price": "305.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/17fa361eb7be24ec.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb sós pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "twister"
+      ],
+      "íz": [
+        "pizzás"
+      ]
+    },
+    "kategoria_hash": "86d964c3a7afe9ee9cc052e39931d2b4ed8e963639a44b5225f8bfe3be42ed6e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "785871",
+      "product_name": "AZON MELEGÉBEN Spenótos -krémfehérsajtos twister helyben sütött, 100 g",
+      "brand_name": "",
+      "unit_price": "305.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/a111df1eca4d48ed.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb sós pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "twister"
+      ],
+      "íz": [
+        "spenótos",
+        "sajt"
+      ]
+    },
+    "kategoria_hash": "99f83fa9540eab4ba72bb84d237fb6831c09e0667b7b6137b833dfff17f85570",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "788489",
+      "product_name": "AZON MELEGÉBEN PurPur® szilvás párna helyben sütött, 100 g",
+      "brand_name": "",
+      "unit_price": "305.0",
+      "unit_type": "g",
+      "unit_step": "100.0",
+      "vegso_mennyiseg": "100.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Édes pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/3f4b3f9813ac6bbf.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb édes pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "párna"
+      ],
+      "íz": [
+        "szilvás"
+      ]
+    },
+    "kategoria_hash": "88ed1556b93b2ad82eb42d0640dfa78dd3ec4058dfd12a538a7ba870c8778709",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534240",
+      "product_name": "FRISSEN A PÉKTŐL E-mentes szeletelt rozskenyér, 500 g",
+      "brand_name": "",
+      "unit_price": "339.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Friss kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/83eb0e9d95b1292c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Frissen a Péktől",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fajta": [
+        "rozsos"
+      ]
+    },
+    "kategoria_hash": "edca746005bd9d0872a939d63958311e4416631e7e33d1b25e51602b7b15d7f5",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534516",
+      "product_name": "AZON MELEGÉBEN Baconös - hagymás kenyérlángos helyben sütött, 125 g",
+      "brand_name": "",
+      "unit_price": "369.0",
+      "unit_type": "g",
+      "unit_step": "125.0",
+      "vegso_mennyiseg": "125.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/350777c4479f7505.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb sós pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "kenyérlángos"
+      ],
+      "íz": [
+        "bacon",
+        "hagymás"
+      ]
+    },
+    "kategoria_hash": "6255ff0e51326f680b358fba52bbdefe260dbcae7a43c9ecbb7de85bf7e5b5a5",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534534",
+      "product_name": "HAPPY HARVEST Mini bagett 6 darab/csomag, 300 g",
+      "brand_name": "",
+      "unit_price": "405.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Zsemle, kifli > Zsemle",
+      "local_image_paths": "data/markets_data/product_images/aldi/d76e5d8d4d832820.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Bagett",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Happy Harvest",
+      "fajta": [
+        "fehér",
+        "mini"
+      ]
+    },
+    "kategoria_hash": "486f29c8a47a096d39fdeeacb037b2dfbab94ca5fcb2be83d1960efd7fe66bd1",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534535",
+      "product_name": "HAPPY HARVEST Bagett 2 darab/csomag, 300 g",
+      "brand_name": "",
+      "unit_price": "405.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Zsemle, kifli > Zsemle",
+      "local_image_paths": "data/markets_data/product_images/aldi/66d754213ac11fe2.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Bagett",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Happy Harvest",
+      "fajta": [
+        "fehér"
+      ]
+    },
+    "kategoria_hash": "553aa9e6e4403e3c62a442b3713640250e30c84b7c729e55abd533050aba8143",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534367",
+      "product_name": "HAPPY HARVEST Toast kenyér, 500 g",
+      "brand_name": "",
+      "unit_price": "435.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/943e01417e0a6ff8.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Happy Harvest",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fajta": [
+        "toast / szendvics",
+        "fehér"
+      ]
+    },
+    "kategoria_hash": "fb18fb1a0f99ed1a3aed443783fbd6f2075e4848d5bc6cd2daff03b44c3c40ea",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534285",
+      "product_name": "AZON MELEGÉBEN Kovászos bagett helyben sütött, 140 g",
+      "brand_name": "",
+      "unit_price": "439.0",
+      "unit_type": "g",
+      "unit_step": "140.0",
+      "vegso_mennyiseg": "140.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Zsemle, kifli > Kifli, bagett",
+      "local_image_paths": "data/markets_data/product_images/aldi/b52961557807e1c7.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Bagett",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "kovászos"
+      ]
+    },
+    "kategoria_hash": "1c19569ed2ac598309cf693efc394fbda2d5fc5e6f59081c9ddb53f2f016473b",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534257",
+      "product_name": "HAPPY HARVEST Teljes kiőrlésű szeletelt toastkenyér, 500 g",
+      "brand_name": "",
+      "unit_price": "585.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/7a30c009bc7c5d8d.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Happy Harvest",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fajta": [
+        "toast / szendvics",
+        "teljes kiőrlésű"
+      ]
+    },
+    "kategoria_hash": "6e30e5806f0072a152871763e2a87c081baf5d19f7a70135f2013c34d91623d6",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534543",
+      "product_name": "ENJOY FREE! Gluténmentes fehér vekni, 200 g",
+      "brand_name": "",
+      "unit_price": "629.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/ca680edc55113eb6.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Enjoy Free!",
+      "szeletelt": true,
+      "gluténmentes": true,
+      "fajta": [
+        "fehér"
+      ]
+    },
+    "kategoria_hash": "d99054c823a5fa2df781bf119a8197c553186922ff0dfbd44dc2b5b5faf47572",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534545",
+      "product_name": "ENJOY FREE! Gluténmentes magvas vekni, 200 g",
+      "brand_name": "",
+      "unit_price": "629.0",
+      "unit_type": "g",
+      "unit_step": "200.0",
+      "vegso_mennyiseg": "200.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/33cfc8cfbea2b7cd.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Enjoy Free!",
+      "szeletelt": true,
+      "gluténmentes": true,
+      "fajta": [
+        "magvas"
+      ]
+    },
+    "kategoria_hash": "e5896fe8cf62d89411eadefa88270741eddd5d8eca21168f56dcfaffbf1a543e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534513",
+      "product_name": "HAPPY HARVEST Sokmagvas toastkenyér, 500 g",
+      "brand_name": "",
+      "unit_price": "645.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/cb62646d10d03853.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Happy Harvest",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fajta": [
+        "toast / szendvics",
+        "magvas"
+      ]
+    },
+    "kategoria_hash": "3502f8dbe05985d377f40fe2b72a376d53dab6d8923014f28919deefe4671f79",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "948075",
+      "product_name": "AZON MELEGÉBEN Kovászos cipó helyben sütött, 410 g",
+      "brand_name": "",
+      "unit_price": "655.0",
+      "unit_type": "g",
+      "unit_step": "410.0",
+      "vegso_mennyiseg": "410.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Friss kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/16924beaa38edd7a.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "szeletelt": false,
+      "gluténmentes": false,
+      "helyben sütött": true,
+      "fajta": [
+        "kovászos"
+      ]
+    },
+    "kategoria_hash": "e3e6739bdb136ec88181683281c2397620e632d9536670bf644c4aa8a9fecdfb",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "539710",
+      "product_name": "PANTASTICO Toast kenyér durum, 400 g",
+      "brand_name": "",
+      "unit_price": "705.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "400.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/79e25455fb5f97e1.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Pantastico",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fajta": [
+        "toast / szendvics",
+        "durum"
+      ]
+    },
+    "kategoria_hash": "928f4e3616b87f5780b2f8d4c24209f1e635cdf92cd6ef58d6f5b6018469f6e7",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "540298",
+      "product_name": "PANTASTICO Toast kenyér 8 magvas, 400 g",
+      "brand_name": "",
+      "unit_price": "705.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "400.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/a6a6c35575e32857.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Pantastico",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fajta": [
+        "toast / szendvics",
+        "magvas"
+      ]
+    },
+    "kategoria_hash": "bb4d869401ab0aa110e673d96a244842715250a04d88ae0f6ad3c39cb14f8bc4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "748859",
+      "product_name": "PANTASTICO Toast kenyér fehér, extra szűz olívaoljjaal, 400 g",
+      "brand_name": "",
+      "unit_price": "705.0",
+      "unit_type": "g",
+      "unit_step": "400.0",
+      "vegso_mennyiseg": "400.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/7e4ce2ea0c9b1c3c.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Pantastico",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fajta": [
+        "toast / szendvics",
+        "fehér",
+        "olivás"
+      ]
+    },
+    "kategoria_hash": "a5d0aca397e8a2d0e5b2f60db21933f01baa079b52e7739321cb2c08e1a8fa63",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "823335",
+      "product_name": "ARANYCIPÓ Prémium kenyér burgonyás, 500 g",
+      "brand_name": "",
+      "unit_price": "775.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/d2027641204fa6cb.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Aranycipó",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fajta": [
+        "burgonyás"
+      ]
+    },
+    "kategoria_hash": "4c454252475dd226ebb85ad3a894a4218118fa04747c3484aaa6ec12af0d0ad5",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "823336",
+      "product_name": "ARANYCIPÓ Prémium kenyér lenmagos, 500 g",
+      "brand_name": "",
+      "unit_price": "775.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/a412097711115754.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Aranycipó",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fajta": [
+        "lenmagos"
+      ]
+    },
+    "kategoria_hash": "a2917b3b890dc4c057476b0961721db44dd05baa7197f38f391fa2518f618573",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "823337",
+      "product_name": "ARANYCIPÓ Prémium kenyér joghurtos, 500 g",
+      "brand_name": "",
+      "unit_price": "775.0",
+      "unit_type": "g",
+      "unit_step": "500.0",
+      "vegso_mennyiseg": "500.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/919c56b3bc353ed9.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Aranycipó",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fajta": [
+        "joghurtos"
+      ]
+    },
+    "kategoria_hash": "b50eeebcd7c4b67da8c97ae4dbcb0ff1fbe33515db8d5549bfab1cee3545c610",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534059",
+      "product_name": "ENJOY FREE! Gluténmentes natúr toast szeletek, 250 g",
+      "brand_name": "",
+      "unit_price": "785.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/98dbd0245d552a15.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Enjoy Free!",
+      "szeletelt": true,
+      "gluténmentes": true,
+      "fajta": [
+        "toast / szendvics",
+        "natúr"
+      ]
+    },
+    "kategoria_hash": "91926862e85553f2d7c65be697fa95723daa7f66cec9ef1bdad98b3925ddf09d",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534061",
+      "product_name": "ENJOY FREE! Gluténmentes magvas toast szeletek, 250 g",
+      "brand_name": "",
+      "unit_price": "785.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/d4275a30dc0a13fd.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Enjoy Free!",
+      "szeletelt": true,
+      "gluténmentes": true,
+      "fajta": [
+        "toast / szendvics",
+        "magvas"
+      ]
+    },
+    "kategoria_hash": "59d04849437dd8f74d445bee71d64c290d3eafc3a047da6e1477fbe7a3d05474",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "828565",
+      "product_name": "ARANYCIPÓ Kakaós töltött kalács, 300 g",
+      "brand_name": "",
+      "unit_price": "935.0",
+      "unit_type": "g",
+      "unit_step": "300.0",
+      "vegso_mennyiseg": "300.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Tartós áru > Édes",
+      "local_image_paths": "data/markets_data/product_images/aldi/2d0bfd7a247c4c29.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kalács",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Aranycipó",
+      "íz": [
+        "kakaós"
+      ]
+    },
+    "kategoria_hash": "2d74aa4324f7b21dcead975b12f3de2c894f15fce4d99d9bd9a8f2768e19a4c6",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "536157",
+      "product_name": "ENJOY FREE! Gluténmentes mini kuglóf, 2x65 g",
+      "brand_name": "",
+      "unit_price": "985.0",
+      "unit_type": "g",
+      "unit_step": "130.0",
+      "vegso_mennyiseg": "130.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Tartós áru > Édes",
+      "local_image_paths": "data/markets_data/product_images/aldi/4a6a30bc78d5c480.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Egyéb édes pékáru",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Enjoy Free!",
+      "csomagolt": true,
+      "gluténmentes": true,
+      "mini": true,
+      "fajta": [
+        "kuglóf"
+      ],
+      "íz": [
+        "natúr"
+      ]
+    },
+    "kategoria_hash": "a6df5b21d9c8001089655dfd63fa2a9cf71ad93e2034d79fbd9721a43a021d69",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "550093",
+      "product_name": "ENJOY FREE! Glutén- és laktózmentes diós kalács, 250 g",
+      "brand_name": "",
+      "unit_price": "1159.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Tartós áru > Édes",
+      "local_image_paths": "data/markets_data/product_images/aldi/cd93f8bddd2977a1.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kalács",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Enjoy Free!",
+      "gluténmentes": true,
+      "laktózmentes": true,
+      "íz": [
+        "diós"
+      ]
+    },
+    "kategoria_hash": "a2b0b3ceeca17fa454620d4a51c25c19a8d1b20aeec833b1e6de3482ded79972",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "550094",
+      "product_name": "ENJOY FREE! Glutén- és laktózmentes mákos kalács, 250 g",
+      "brand_name": "",
+      "unit_price": "1159.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Tartós áru > Édes",
+      "local_image_paths": "data/markets_data/product_images/aldi/4ca46b2ecda23e22.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kalács",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Enjoy Free!",
+      "gluténmentes": true,
+      "laktózmentes": true,
+      "íz": [
+        "mákos"
+      ]
+    },
+    "kategoria_hash": "efa75c311de2c3d34c51c0c19b9278d4557ba6d39c9dba9e70cde918d1506aae",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "922759",
+      "product_name": "SCHÄR Pan Blanco gluténmentes szeletelt fehér vekni, 250 g",
+      "brand_name": "",
+      "unit_price": "1169.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/aef01d92a92b0fc2.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Schär",
+      "szeletelt": true,
+      "gluténmentes": true,
+      "fajta": [
+        "fehér"
+      ]
+    },
+    "kategoria_hash": "d915f51088f117fbeab0fc994811207454491556127b7414e339e6fb49ea84b6",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "541468",
+      "product_name": "HAPPY HARVEST Veggie wraps, 370 g",
+      "brand_name": "",
+      "unit_price": "1309.0",
+      "unit_type": "g",
+      "unit_step": "370.0",
+      "vegso_mennyiseg": "370.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Tartós áru > Pita, tortilla",
+      "local_image_paths": "data/markets_data/product_images/aldi/e0db514b7871bac5.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Tortilla lap",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Happy Harvest",
+      "fajta": [
+        "egyéb"
+      ],
+      "íz": [
+        "zöldséges"
+      ]
+    },
+    "kategoria_hash": "983f7217541ede4c686d421b1d9a306a85f891744ab1fb521a275c073ea45c96",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "810921",
+      "product_name": "HAPPY HARVEST Fehérjedús rozskenyér diós, 250 g",
+      "brand_name": "",
+      "unit_price": "1509.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/32831b2a49503cab.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Happy Harvest",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fehérjedús": true,
+      "fajta": [
+        "rozsos",
+        "diós"
+      ]
+    },
+    "kategoria_hash": "a4419046b55095197626f15d25172ee3d95cb00bc0f46bc6cfe2025785fd0c5e",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "810922",
+      "product_name": "HAPPY HARVEST Fehérjedús rozskenyér sárgarépás, 250 g",
+      "brand_name": "",
+      "unit_price": "1509.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/1bfe565dc7f1aca7.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Happy Harvest",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fehérjedús": true,
+      "fajta": [
+        "rozsos",
+        "sárgarépás"
+      ]
+    },
+    "kategoria_hash": "a7132fd359c67ea69182bffc15ca7d58fb6052ab6061d73d4af3d4a3d971eeb4",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "810923",
+      "product_name": "HAPPY HARVEST Fehérjedús rozskenyér natúr, 250 g",
+      "brand_name": "",
+      "unit_price": "1509.0",
+      "unit_type": "g",
+      "unit_step": "250.0",
+      "vegso_mennyiseg": "250.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Kenyér > Tartós kenyér",
+      "local_image_paths": "data/markets_data/product_images/aldi/154462672cfbc40d.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Kenyér",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Happy Harvest",
+      "szeletelt": true,
+      "gluténmentes": false,
+      "fehérjedús": true,
+      "fajta": [
+        "rozsos",
+        "natúr"
+      ]
+    },
+    "kategoria_hash": "f362cedfe6a3bbbf7df4cf9ed0a8469112370f6f47fc281052dec3b0f588623a",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "1053168",
+      "product_name": "AZON MELEGÉBEN Mini bagett helyben sütött, 75 g",
+      "brand_name": "",
+      "unit_price": "69.0",
+      "unit_type": "g",
+      "unit_step": "75.0",
+      "vegso_mennyiseg": "75.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Sós pékáru",
+      "local_image_paths": "data/markets_data/product_images/aldi/e5f700862dc0b3d1.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Bagett",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Azon Melegében",
+      "helyben sütött": true,
+      "fajta": [
+        "fehér",
+        "mini"
+      ]
+    },
+    "kategoria_hash": "65c245b2bf1c3807fe6b4a8c1d24b655ae51cce0df33b7bd1d0b3565a2b2fd25",
+    "statusz": "kesz"
+  },
+  {
+    "termek": {
+      "store_name": "Aldi",
+      "store_product_id": "534460",
+      "product_name": "FRISSEN A PÉKTŐL Vizes zsemle 55 g",
+      "brand_name": "",
+      "unit_price": "79.0",
+      "unit_type": "g",
+      "unit_step": "55.0",
+      "vegso_mennyiseg": "55.0",
+      "vegso_egyseg": "g",
+      "ledig": "",
+      "categories": "Pékáru > Zsemle, kifli > Zsemle",
+      "local_image_paths": "data/markets_data/product_images/aldi/d1db7474cc32ba80.jpg",
+      "fo_kategoria": "",
+      "alkategoria": "",
+      "altipus": "",
+      "tulajdonsagok": "",
+      "besorolas_alapja": "",
+      "besorolva": ""
+    },
+    "fokategoria": "Pékáru",
+    "alkategoria": "Zsemle",
+    "altipus": "",
+    "tulajdonsagok": {
+      "márka": "Frissen a Péktől",
+      "fajta": [
+        "vizes"
+      ]
+    },
+    "kategoria_hash": "24b907a2449e25b084bc80f5dd5501b7fe14a80fe6309e961892ace15ec8585e",
+    "statusz": "kesz"
   }
 ]

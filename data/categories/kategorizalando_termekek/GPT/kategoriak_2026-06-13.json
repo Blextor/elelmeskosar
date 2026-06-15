@@ -2423,12 +2423,14 @@
                   "Kinder",
                   "Riquet",
                   "Milka",
-                  "Moser Roth"
+                  "Moser Roth",
+                  "BIO"
                 ],
                 "töltött": {},
                 "alkoholos": {},
                 "pálmaolajmentes": {},
-                "cukormentes / hozzáadott cukor nélkül": {}
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "bio": {}
               },
               "csoportos": {
                 "típus": [
@@ -2455,7 +2457,9 @@
                   "lime",
                   "pörkölt mogyoró",
                   "mogyoró",
-                  "bourbon vanília"
+                  "bourbon vanília",
+                  "sajttorta",
+                  "karamell"
                 ],
                 "hozzáadott darabok": [
                   "mogyoró",
@@ -2481,7 +2485,8 @@
                 "töltött": {},
                 "alkoholos": {},
                 "pálmaolajmentes": {},
-                "cukormentes / hozzáadott cukor nélkül": {}
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "bio": {}
               },
               "csoportos": {
                 "típus": [
@@ -2498,7 +2503,9 @@
                   "földimogyoró",
                   "joghurt",
                   "eper",
-                  "ropogós"
+                  "ropogós",
+                  "csokoládés",
+                  "cappuccino"
                 ],
                 "hozzáadott darabok": [
                   "kekszdarab",
@@ -2522,7 +2529,8 @@
                 "töltött": {},
                 "alkoholos": {},
                 "pálmaolajmentes": {},
-                "cukormentes / hozzáadott cukor nélkül": {}
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "bio": {}
               },
               "csoportos": {
                 "típus": [
@@ -2548,10 +2556,17 @@
                   "nugát",
                   "narancs",
                   "meggy",
-                  "bor"
+                  "bor",
+                  "trüffel",
+                  "praliné",
+                  "mangó",
+                  "habkrém",
+                  "mogyorós"
                 ],
                 "hozzáadott darabok": [
-                  "ostya"
+                  "ostya",
+                  "manduladarab",
+                  "mogyoró"
                 ]
               }
             },
@@ -2699,7 +2714,10 @@
                   "szilva",
                   "almás",
                   "mazsola",
-                  "natúr"
+                  "natúr",
+                  "mogyorós",
+                  "kókusz",
+                  "mézes"
                 ]
               }
             },
@@ -2713,7 +2731,8 @@
                   "Gullon",
                   "Pilóta",
                   "Enjoy Free!",
-                  "Finest Bakery"
+                  "Finest Bakery",
+                  "Nutella"
                 ],
                 "cukormentes / hozzáadott cukor nélkül": {},
                 "gluténmentes": {},
@@ -2858,7 +2877,8 @@
                   "Balaton",
                   "Knoppers",
                   "Choceur",
-                  "Finest Bakery"
+                  "Finest Bakery",
+                  "Kinder"
                 ],
                 "cukormentes / hozzáadott cukor nélkül": {},
                 "gluténmentes": {},
@@ -2876,7 +2896,9 @@
                   "tejcsokoládé",
                   "fehércsokoládé",
                   "kakaós",
-                  "kókuszos"
+                  "kókuszos",
+                  "karamell",
+                  "narancs"
                 ]
               }
             },
@@ -3010,8 +3032,22 @@
           },
           "Szőlőcukor": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "márka nélkül"
+                ],
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "mentolos": {},
+                "savanyú": {},
+                "alkoholos": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "citrom",
+                  "natúr",
+                  "mentol"
+                ]
+              }
             }
           },
           "Puha cukorka": {
@@ -3079,7 +3115,8 @@
               "egyedi": {
                 "márka": [
                   "Haribo",
-                  "Nimm2"
+                  "Nimm2",
+                  "Trolli"
                 ],
                 "savanyú": {}
               },
@@ -3102,7 +3139,9 @@
                   "meggy",
                   "barack",
                   "citrom",
-                  "trópusi"
+                  "trópusi",
+                  "alma",
+                  "lime"
                 ]
               }
             },
@@ -3416,7 +3455,8 @@
                   "nachos/tortilla",
                   "szósszal",
                   "egyéb",
-                  "henger doboz"
+                  "henger doboz",
+                  "rácsos"
                 ],
                 "íz": [
                   "paradicsom",
@@ -3467,7 +3507,8 @@
                   "klasszikus",
                   "csípős",
                   "zöldséges",
-                  "natúr"
+                  "natúr",
+                  "salsa"
                 ],
                 "alapanyag": [
                   "lencse",
@@ -3788,7 +3829,8 @@
                   "tökmag",
                   "mandula",
                   "kesudió",
-                  "dió"
+                  "dió",
+                  "pisztácia"
                 ],
                 "ízesítés": [
                   "natúr",
@@ -9269,8 +9311,11 @@
           "egyedi": {
             "márka": [
               "Good Choice",
-              "egyéb"
-            ]
+              "egyéb",
+              "Happy Harvest",
+              "Azon Melegében"
+            ],
+            "helyben sütött": {}
           },
           "csoportos": {
             "fajta": [
@@ -9279,7 +9324,8 @@
               "fehér",
               "hagymás",
               "magvas",
-              "egyéb"
+              "egyéb",
+              "mini"
             ],
             "töltelék / íz": [
               "fűszervajas",
@@ -9295,7 +9341,18 @@
           "egyedi": {
             "szeletelt": {},
             "csökkentett kalóriatartalmú": {},
-            "gluténmentes": {}
+            "gluténmentes": {},
+            "márka": [
+              "Pantastico",
+              "Frissen a Péktől",
+              "Happy Harvest",
+              "Enjoy Free!",
+              "Azon Melegében",
+              "Aranycipó",
+              "Schär"
+            ],
+            "helyben sütött": {},
+            "fehérjedús": {}
           },
           "csoportos": {
             "fajta": [
@@ -9319,7 +9376,8 @@
               "lenmagos",
               "joghurtos",
               "sárgarépás",
-              "egyéb"
+              "egyéb",
+              "natúr"
             ]
           }
         },
@@ -9332,15 +9390,29 @@
             "óriás": {},
             "nosztalgia": {},
             "tejes": {},
-            "sós": {}
+            "sós": {},
+            "márka": [
+              "Azon Melegében"
+            ],
+            "helyben sütött": {}
           },
-          "csoportos": {}
+          "csoportos": {
+            "íz": [
+              "sajt"
+            ]
+          }
         },
         "altípusok": {}
       },
       "Zsemle": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "márka": [
+              "Azon Melegében",
+              "Frissen a Péktől"
+            ],
+            "helyben sütött": {}
+          },
           "csoportos": {
             "fajta": [
               "teljes kiőrlésű",
@@ -9355,13 +9427,20 @@
       },
       "Tortilla lap": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "márka": [
+              "Happy Harvest"
+            ]
+          },
           "csoportos": {
             "fajta": [
               "teljes kiőrlésű",
               "fehér",
               "magvas",
               "egyéb"
+            ],
+            "íz": [
+              "zöldséges"
             ]
           }
         },
@@ -9369,7 +9448,15 @@
       },
       "Kalács": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "márka": [
+              "Édes Ízek",
+              "Aranycipó",
+              "Enjoy Free!"
+            ],
+            "gluténmentes": {},
+            "laktózmentes": {}
+          },
           "csoportos": {
             "íz": [
               "natúr",
@@ -9377,7 +9464,9 @@
               "kókuszos",
               "mazsolás",
               "mézes",
-              "egyéb"
+              "egyéb",
+              "diós",
+              "mákos"
             ]
           }
         },
@@ -9438,7 +9527,11 @@
         "tulajdonságok": {
           "egyedi": {
             "csomagolt": {},
-            "mini": {}
+            "mini": {},
+            "márka": [
+              "Azon Melegében"
+            ],
+            "helyben sütött": {}
           },
           "csoportos": {
             "fajta": [
@@ -9495,8 +9588,16 @@
               "kifli",
               "muffin",
               "levél",
-              "egyéb"
-            ]
+              "egyéb",
+              "kuglóf"
+            ],
+            "márka": [
+              "Azon Melegében",
+              "Enjoy Free!"
+            ],
+            "helyben sütött": {},
+            "gluténmentes": {},
+            "mini": {}
           },
           "csoportos": {
             "íz": [
@@ -9514,7 +9615,8 @@
               "gesztenyés",
               "túrós",
               "kakaós",
-              "egyéb"
+              "egyéb",
+              "natúr"
             ]
           }
         },
@@ -9535,8 +9637,15 @@
               "roló",
               "kifli",
               "levél",
-              "egyéb"
-            ]
+              "egyéb",
+              "stangli",
+              "twister",
+              "kenyérlángos"
+            ],
+            "márka": [
+              "Azon Melegében"
+            ],
+            "helyben sütött": {}
           },
           "csoportos": {
             "íz": [
@@ -9555,7 +9664,12 @@
               "pisztáciás",
               "sós",
               "natúr",
-              "egyéb"
+              "egyéb",
+              "bolognai",
+              "mexikói",
+              "szezámmag",
+              "sajt",
+              "bacon"
             ]
           }
         },
