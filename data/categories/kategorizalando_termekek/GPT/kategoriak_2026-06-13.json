@@ -1952,6 +1952,10 @@
           "flakon",
           "tubus",
           "egyéb"
+        ],
+        "márka": [
+          "Sweet Valley",
+          "Mamia Bio"
         ]
       },
       "csoportos": {
@@ -1987,7 +1991,11 @@
               "rizs",
               "tészta",
               "gabonaféle",
-              "egyéb"
+              "egyéb",
+              "zöldség",
+              "paradicsom",
+              "édesburgonya",
+              "mozzarella"
             ],
             "hús / fehérje": [
               "csirke",
@@ -1996,7 +2004,8 @@
               "hal",
               "tej",
               "hús nélküli",
-              "egyéb"
+              "egyéb",
+              "sajt"
             ],
             "állag": [
               "püré",
@@ -2062,7 +2071,13 @@
               "rizs",
               "tészta",
               "gabonaféle",
-              "egyéb"
+              "egyéb",
+              "körte",
+              "eper",
+              "meggy",
+              "mangó",
+              "ananász",
+              "vegyes gyümölcs"
             ],
             "állag": [
               "püré",
@@ -3217,7 +3232,34 @@
           "zacskó",
           "tálca",
           "multipack",
-          "egyéb"
+          "egyéb",
+          "tégely"
+        ],
+        "márka": [
+          "Nature's Gold",
+          "Primana",
+          "American",
+          "Pizz'Ah",
+          "Finest Bakery",
+          "Mucci",
+          "Golden Seafood",
+          "Milsani",
+          "Grandessa",
+          "All Seasons",
+          "Algida",
+          "Cornetto",
+          "Carte D'Or",
+          "Good Choice",
+          "Enjoy Free!",
+          "Milka",
+          "Magnum",
+          "Gourmet Finest Cuisine",
+          "Asia Green Garden",
+          "márka nélkül",
+          "Dr. Oetker",
+          "Aviko",
+          "Haribo",
+          "Calippo"
         ]
       },
       "csoportos": {}
@@ -3229,7 +3271,9 @@
             "vízijégkrém / sorbet": {},
             "gluténmentes": {},
             "vegán/növényi": {},
-            "cukormentes": {}
+            "cukormentes": {},
+            "csökkentett energiatartalmú": {},
+            "allergénmentes": {}
           },
           "csoportos": {
             "íz": [
@@ -3245,7 +3289,37 @@
               "málna",
               "kókusz",
               "stracciatella",
-              "egyéb"
+              "egyéb",
+              "mangó",
+              "ananász",
+              "keksz",
+              "mandula",
+              "narancs",
+              "kóla",
+              "lime",
+              "citromtorta",
+              "csokoládés-kekszes",
+              "eper-habcsók",
+              "classic",
+              "fehércsokoládé",
+              "dió",
+              "sós karamell",
+              "mogyoró",
+              "nugát",
+              "meggy",
+              "tricolor",
+              "passiógyümölcs",
+              "fahéj",
+              "áfonya",
+              "brownie",
+              "joghurt",
+              "barack",
+              "maracuja",
+              "gyümölcs",
+              "vegyes",
+              "erdei gyümölcs-joghurt",
+              "baileys",
+              "sacher"
             ]
           }
         },
@@ -3291,6 +3365,13 @@
               "csoportos": {}
             },
             "altípusok": {}
+          },
+          "Jégkrémszendvics": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
           }
         }
       },
@@ -3309,7 +3390,16 @@
               "gomba",
               "burgonya",
               "franciasaláta-keverék",
-              "egyéb"
+              "egyéb",
+              "édesburgonya",
+              "fokhagyma",
+              "bazsalikom",
+              "metélőhagyma",
+              "petrezselyem",
+              "fűszerkeverék",
+              "bab",
+              "zöldségmix",
+              "tök"
             ],
             "vágás / forma": [
               "vágott",
@@ -3319,7 +3409,14 @@
               "szeletelt",
               "püré",
               "serpenyős keverék",
-              "egyéb"
+              "egyéb",
+              "röszti",
+              "egész",
+              "hullámos hasáb",
+              "burgonyagerezd",
+              "krokett",
+              "hercegnő burgonya",
+              "gyalult"
             ],
             "keverék stílus": [
               "franciasaláta",
@@ -3329,7 +3426,26 @@
               "wok",
               "leveszöldség",
               "főzelékalap",
-              "egyéb"
+              "egyéb",
+              "fűszerkeverék",
+              "ínyenc",
+              "kaliforniai"
+            ],
+            "ízesítés": [
+              "fűszeres",
+              "szalonnás",
+              "natúr",
+              "mediterrán",
+              "classic",
+              "kapros"
+            ],
+            "minőség / jelleg": [
+              "zsenge",
+              "extra zsenge"
+            ],
+            "elkészítés": [
+              "sütőben süthető",
+              "fritőzben süthető"
             ]
           }
         },
@@ -3396,6 +3512,13 @@
               "csoportos": {}
             },
             "altípusok": {}
+          },
+          "Fagyasztott fűszernövény": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
           }
         }
       },
@@ -3415,7 +3538,9 @@
               "erdei gyümölcs",
               "mangó",
               "ananász",
-              "egyéb"
+              "egyéb",
+              "gyümölcskeverék",
+              "nyári gyümölcs mix"
             ]
           }
         },
@@ -3447,12 +3572,22 @@
               "csoportos": {}
             },
             "altípusok": {}
+          },
+          "Csonthéjas gyümölcs": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
           }
         }
       },
       "Fagyasztott hús, baromfi": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "gluténmentes": {},
+            "laktózmentes": {}
+          },
           "csoportos": {
             "húsfajta": [
               "csirke",
@@ -3471,7 +3606,24 @@
               "húsgolyó",
               "burgerpogácsa",
               "cordon bleu",
-              "egyéb"
+              "egyéb",
+              "máj",
+              "szelet",
+              "karaj",
+              "fasírtgolyó"
+            ],
+            "ízesítés / panír": [
+              "chilis-sajtos",
+              "cornflakes",
+              "teljes kiőrlésű",
+              "csípős",
+              "natúr"
+            ],
+            "töltelék": [
+              "sajtos",
+              "körözöttes",
+              "jalapenos-sajtos",
+              "sonkás"
             ]
           }
         },
@@ -3508,6 +3660,16 @@
               "csoportos": {}
             },
             "altípusok": {}
+          },
+          "Panírozott sertés, marha": {
+            "tulajdonságok": {
+              "egyedi": {
+                "panírozott": {},
+                "készre sütött": {}
+              },
+              "csoportos": {}
+            },
+            "altípusok": {}
           }
         }
       },
@@ -3515,7 +3677,9 @@
         "tulajdonságok": {
           "egyedi": {
             "gluténmentes": {},
-            "vegán/növényi": {}
+            "vegán/növényi": {},
+            "laktózmentes": {},
+            "hozzáadott cukor nélkül": {}
           },
           "csoportos": {
             "töltelék / íz": [
@@ -3526,7 +3690,22 @@
               "sajtos",
               "csokoládés",
               "vaníliás",
-              "egyéb"
+              "egyéb",
+              "gesztenyés",
+              "kakaós",
+              "mákkrémes",
+              "mogyorókrémes",
+              "diókrémes",
+              "cseresznyés",
+              "natúr",
+              "klasszikus",
+              "teljes kiőrlésű",
+              "szilvalekváros",
+              "lime",
+              "new york stílusú"
+            ],
+            "desszert típus": [
+              "sajttorta"
             ]
           }
         },
@@ -3566,7 +3745,10 @@
           "egyedi": {
             "mikrohullámú sütőben elkészíthető": {},
             "gluténmentes": {},
-            "vegán/növényi": {}
+            "vegán/növényi": {},
+            "laktózmentes": {},
+            "tejmentes": {},
+            "MSC / fenntartható halászat": {}
           },
           "csoportos": {
             "étel / forma": [
@@ -3579,7 +3761,31 @@
               "húsos készétel",
               "leves",
               "vegetáriánus / húsmentes",
-              "egyéb"
+              "egyéb",
+              "pizzakenyér",
+              "leveles tészta falat",
+              "tavaszi tekercs",
+              "mini tavaszi tekercs",
+              "bagett",
+              "szendvicsalap",
+              "leveles tésztás hal"
+            ],
+            "feltét / ízesítés": [
+              "sajtos-fokhagymás",
+              "speciale",
+              "szalámi",
+              "provance",
+              "paradicsom-pesztó",
+              "magvas",
+              "mediterrán"
+            ],
+            "töltelék / ízesítés": [
+              "lazacos-spenótos",
+              "sajtos-sonkás",
+              "spenótos-sajtos",
+              "csirkés",
+              "zöldséges",
+              "lazacos-kapros"
             ]
           }
         },
@@ -3597,7 +3803,13 @@
                   "hawaii",
                   "vegetáriánus",
                   "csípős",
-                  "egyéb"
+                  "egyéb",
+                  "margherita",
+                  "spenótos",
+                  "tejfölös-szalonnás-hagymás",
+                  "chorizo",
+                  "csirke fajita",
+                  "sonka-gombás"
                 ]
               }
             },
@@ -3644,6 +3856,41 @@
               "csoportos": {}
             },
             "altípusok": {}
+          },
+          "Pizzakenyér, baguette": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Snack, előétel": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Tavaszi tekercs": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Leveles tésztás készétel": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Szendvicsalap": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
           }
         }
       },
@@ -3651,9 +3898,36 @@
         "tulajdonságok": {
           "egyedi": {
             "gluténmentes": {},
-            "vegán/növényi": {}
+            "vegán/növényi": {},
+            "laktózmentes": {}
           },
-          "csoportos": {}
+          "csoportos": {
+            "alapanyag": [
+              "trappista sajt",
+              "sajt",
+              "camembert sajt",
+              "mozzarella",
+              "zöldség",
+              "brokkoli",
+              "karfiol",
+              "hagyma",
+              "gouda"
+            ],
+            "ízesítés": [
+              "füstölt ízű",
+              "natúr",
+              "vörösáfonya-öntettel",
+              "chilis-sajtos",
+              "paprikakrémes",
+              "jalapenos"
+            ],
+            "forma": [
+              "nuggets",
+              "falat",
+              "hagymakarika",
+              "stick"
+            ]
+          }
         },
         "altípusok": {
           "Rántott sajt": {
@@ -3685,6 +3959,103 @@
           "csoportos": {}
         },
         "altípusok": {}
+      },
+      "Fagyasztott hal, tengeri áru": {
+        "tulajdonságok": {
+          "egyedi": {
+            "MSC / fenntartható halászat": {},
+            "panírozott": {},
+            "ASC / fenntartható akvakultúra": {}
+          },
+          "csoportos": {
+            "halfajta": [
+              "lazac",
+              "hekk",
+              "egyéb",
+              "alaszkai tőkehal",
+              "garnéla",
+              "pangasius",
+              "tenger gyümölcsei"
+            ],
+            "forma": [
+              "filé",
+              "törzs",
+              "darab",
+              "egész",
+              "egyéb",
+              "halrudacska",
+              "garnéla",
+              "tenger gyümölcsei mix"
+            ],
+            "feltét / ízesítés": [
+              "paradicsomos-paprikás",
+              "brokkolis",
+              "ropogós fűszeres",
+              "fűszeres"
+            ],
+            "ízesítés / panír": [
+              "natúr",
+              "teljes kiőrlésű panír"
+            ],
+            "ízesítés": [
+              "natúr",
+              "provenszi",
+              "olaszos",
+              "klasszikus"
+            ]
+          }
+        },
+        "altípusok": {
+          "Halfilé": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Hal törzs / darab": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Egyéb fagyasztott hal": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Halrudacska": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Rák, garnéla": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Tenger gyümölcsei": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Pangasiusfilé": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          }
+        }
       }
     }
   },
@@ -4143,7 +4514,39 @@
     "tulajdonságok": {
       "egyedi": {
         "bio": {},
-        "hazai/magyar": {}
+        "hazai/magyar": {},
+        "márka": [
+          "márka nélkül",
+          "Pick",
+          "Húsmester",
+          "BBQ",
+          "Golden Seafood",
+          "Kokárdás",
+          "Master Good",
+          "Wein",
+          "Almare Seafood",
+          "Nádudvari",
+          "Kaiser",
+          "Gyulai",
+          "Tauris",
+          "Tátra",
+          "Gut Drei Eichen",
+          "24/7",
+          "Wiesbauer",
+          "The Deli",
+          "Güldenhof",
+          "Gourmet Finest Cuisine",
+          "Ponnath",
+          "Il Tagliere del Re",
+          "Tesoros del Sur",
+          "Landbeck",
+          "Gallicoop",
+          "Morliny",
+          "Freschi per te",
+          "Cucina",
+          "Böklunder New Lifestyle",
+          "HoWe"
+        ]
       },
       "csoportos": {}
     },
@@ -4155,7 +4558,8 @@
             "bőrös": {},
             "filé": {},
             "pácolt / fűszerezett": {},
-            "fagyasztott": {}
+            "fagyasztott": {},
+            "GMO-mentes": {}
           },
           "csoportos": {
             "csomagolás": [
@@ -4163,7 +4567,8 @@
               "vákuumcsomagolt",
               "lédig",
               "bőségtál",
-              "egyéb"
+              "egyéb",
+              "védőgázas"
             ],
             "előkészítés": [
               "szeletelt",
@@ -4171,7 +4576,21 @@
               "csíkozott",
               "darabolt",
               "egész",
-              "egyéb"
+              "egyéb",
+              "felsőcomb",
+              "alsócomb",
+              "filézett",
+              "kétízületes",
+              "levesmix",
+              "hártyázott",
+              "tokányhús",
+              "combfilé",
+              "szűzpecsenye"
+            ],
+            "ízesítés": [
+              "mézes-mustáros",
+              "fokhagymás-zöldfűszeres",
+              "magyaros"
             ]
           }
         },
@@ -4227,7 +4646,8 @@
             "bőrös": {},
             "filé": {},
             "pácolt / fűszerezett": {},
-            "fagyasztott": {}
+            "fagyasztott": {},
+            "GMO-mentes": {}
           },
           "csoportos": {
             "csomagolás": [
@@ -4235,7 +4655,8 @@
               "vákuumcsomagolt",
               "lédig",
               "bőségtál",
-              "egyéb"
+              "egyéb",
+              "védőgázas"
             ],
             "előkészítés": [
               "szeletelt",
@@ -4243,7 +4664,16 @@
               "csíkozott",
               "darabolt",
               "egész",
-              "egyéb"
+              "egyéb",
+              "felsőcomb",
+              "alsócomb",
+              "filézett",
+              "kétízületes",
+              "levesmix",
+              "hártyázott",
+              "tokányhús",
+              "combfilé",
+              "szűzpecsenye"
             ]
           }
         },
@@ -4357,7 +4787,8 @@
             "bőrös": {},
             "filé": {},
             "pácolt / fűszerezett": {},
-            "fagyasztott": {}
+            "fagyasztott": {},
+            "GMO-mentes": {}
           },
           "csoportos": {
             "csomagolás": [
@@ -4365,7 +4796,8 @@
               "vákuumcsomagolt",
               "lédig",
               "bőségtál",
-              "egyéb"
+              "egyéb",
+              "védőgázas"
             ],
             "előkészítés": [
               "szeletelt",
@@ -4373,7 +4805,17 @@
               "csíkozott",
               "darabolt",
               "egész",
-              "egyéb"
+              "egyéb",
+              "felsőcomb",
+              "alsócomb",
+              "filézett",
+              "kétízületes",
+              "levesmix",
+              "hártyázott",
+              "tokányhús",
+              "combfilé",
+              "szűzpecsenye",
+              "gulyáshús"
             ]
           }
         },
@@ -4435,6 +4877,20 @@
             "altípusok": {}
           },
           "Sertésmáj": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Húsos csont": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Szűzpecsenye": {
             "tulajdonságok": {
               "egyedi": {},
               "csoportos": {}
@@ -4632,7 +5088,8 @@
       "Darált hús, fasírt": {
         "tulajdonságok": {
           "egyedi": {
-            "fagyasztott": {}
+            "fagyasztott": {},
+            "GMO-mentes": {}
           },
           "csoportos": {
             "húsfajta": [
@@ -4686,6 +5143,13 @@
               "csoportos": {}
             },
             "altípusok": {}
+          },
+          "Csevapcsicsa": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
           }
         }
       },
@@ -4699,13 +5163,19 @@
               "tálcás",
               "vákuumcsomagolt",
               "lédig",
-              "egyéb"
+              "egyéb",
+              "védőgázas"
             ],
             "előkészítés": [
               "egész",
               "darabolt",
               "szeletelt",
               "egyéb"
+            ],
+            "húsfajta": [
+              "csirke",
+              "pulyka",
+              "sertés"
             ]
           }
         },
@@ -4757,7 +5227,8 @@
       "Szalonna, tepertő, zsiradék": {
         "tulajdonságok": {
           "egyedi": {
-            "füstölt": {}
+            "füstölt": {},
+            "pácolt / érlelt": {}
           },
           "csoportos": {
             "csomagolás": [
@@ -4765,7 +5236,14 @@
               "védőgázas",
               "lédig",
               "tálcás",
-              "egyéb"
+              "egyéb",
+              "tégely"
+            ],
+            "alap": [
+              "sertés",
+              "tepertő",
+              "kacsa",
+              "liba"
             ]
           }
         },
@@ -4797,13 +5275,33 @@
               "csoportos": {}
             },
             "altípusok": {}
+          },
+          "Pancetta": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Coppa": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
           }
         }
       },
       "Felvágottak, húskészítmény": {
         "tulajdonságok": {
           "egyedi": {
-            "készítmény (növényi/kevert)": {}
+            "készítmény (növényi/kevert)": {},
+            "gluténmentes": {},
+            "light / csökkentett zsírtartalmú": {},
+            "laktózmentes": {},
+            "ízfokozó hozzáadása nélkül": {},
+            "tartósítószer nélkül": {},
+            "E-mentes": {}
           },
           "csoportos": {
             "húsfajta": [
@@ -4813,7 +5311,8 @@
               "marha",
               "borjú",
               "vegyes",
-              "egyéb"
+              "egyéb",
+              "baromfi"
             ],
             "forma": [
               "szeletelt",
@@ -4833,7 +5332,55 @@
               "füstölt",
               "borsos",
               "téli szalámi",
-              "egyéb"
+              "egyéb",
+              "natúr",
+              "frankfurti",
+              "magyaros",
+              "borsos-fokhagymás",
+              "indiai",
+              "mediterrán",
+              "pikáns",
+              "mustáros",
+              "barbecue",
+              "pritaminpaprikás",
+              "snidlinges",
+              "zöldséges",
+              "nosztalgia",
+              "zala",
+              "olasz",
+              "tavaszi",
+              "dán",
+              "nemespenészes",
+              "gyulai",
+              "csabai",
+              "chilis",
+              "zöldfűszeres",
+              "fürdői",
+              "klasszikus",
+              "metélőhagymás",
+              "jalapeno",
+              "lángolt",
+              "paraszt",
+              "körös",
+              "berni",
+              "lecsó",
+              "müncheni",
+              "nürnbergi",
+              "fehér",
+              "serrano",
+              "prosciutto cotto",
+              "prosciutto crudo",
+              "érlelt",
+              "grillezett",
+              "mézes",
+              "napoli",
+              "milano",
+              "koktél",
+              "füstli",
+              "diákcsemege",
+              "kemencés sült",
+              "fűszeres",
+              "bécsi"
             ],
             "hústartalom": [
               "50% alatt",
@@ -4847,7 +5394,8 @@
               "védőgázas",
               "tálcás",
               "rúd / darabos",
-              "egyéb"
+              "egyéb",
+              "zacskó"
             ]
           }
         },
@@ -4985,8 +5533,17 @@
             "márka": [
               "Primana",
               "Almare Seafood",
-              "egyéb"
-            ]
+              "egyéb",
+              "márka nélkül",
+              "Nádudvari",
+              "Kaiser",
+              "Gyulai",
+              "Kokárdás",
+              "Gut Drei Eichen"
+            ],
+            "gluténmentes": {},
+            "laktózmentes": {},
+            "light / csökkentett zsírtartalmú": {}
           },
           "csoportos": {
             "alap": [
@@ -4998,7 +5555,8 @@
               "tonhal",
               "zöldség",
               "lazac",
-              "egyéb"
+              "egyéb",
+              "kacsamáj"
             ],
             "ízesítés": [
               "natúr",
@@ -5011,13 +5569,20 @@
               "pizzás",
               "mexikói",
               "hamburgeres",
-              "egyéb"
+              "egyéb",
+              "snidlinges",
+              "metélőhagymás",
+              "szemcsés",
+              "tejszínes",
+              "light"
             ],
             "csomagolás": [
               "konzerv",
               "tégely",
               "tubus",
-              "egyéb"
+              "egyéb",
+              "rúd",
+              "multipack"
             ]
           }
         },
@@ -5098,7 +5663,10 @@
             "fagyasztott": {},
             "filé": {},
             "füstölt": {},
-            "glazúrozott": {}
+            "glazúrozott": {},
+            "GGN / tanúsított gazdaság": {},
+            "ASC tanúsított": {},
+            "csökkentett sótartalmú": {}
           },
           "csoportos": {
             "ízesítés": [
@@ -5114,13 +5682,21 @@
               "vákuumcsomagolt",
               "lédig",
               "zacskó",
-              "egyéb"
+              "egyéb",
+              "védőgázas"
             ],
             "darabolás": [
               "egész",
               "szelet",
               "darab",
-              "egyéb"
+              "egyéb",
+              "filé"
+            ],
+            "előkezelés": [
+              "hámozott",
+              "főtt",
+              "bél nélküli",
+              "bőr nélküli"
             ]
           }
         },
@@ -5175,6 +5751,13 @@
             "altípusok": {}
           },
           "Panírozott hal, halrudacska": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Pisztráng": {
             "tulajdonságok": {
               "egyedi": {},
               "csoportos": {}
@@ -5355,8 +5938,100 @@
           "csoportos": {}
         },
         "altípusok": {}
+      },
+      "Marha": {
+        "tulajdonságok": {
+          "egyedi": {
+            "csontos": {},
+            "bőrös": {},
+            "filé": {},
+            "pácolt / fűszerezett": {},
+            "fagyasztott": {},
+            "GMO-mentes": {}
+          },
+          "csoportos": {
+            "csomagolás": [
+              "tálcás",
+              "vákuumcsomagolt",
+              "lédig",
+              "bőségtál",
+              "egyéb",
+              "védőgázas"
+            ],
+            "előkészítés": [
+              "szeletelt",
+              "kockázott",
+              "csíkozott",
+              "darabolt",
+              "egész",
+              "egyéb",
+              "felsőcomb",
+              "alsócomb",
+              "filézett",
+              "kétízületes",
+              "levesmix",
+              "hártyázott",
+              "tokányhús",
+              "combfilé",
+              "szűzpecsenye",
+              "gulyáshús"
+            ]
+          }
+        },
+        "altípusok": {
+          "Lapocka": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Comb": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Lábszár": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Nyak": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Hátszín": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Bélszín": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          },
+          "Fartő": {
+            "tulajdonságok": {
+              "egyedi": {},
+              "csoportos": {}
+            },
+            "altípusok": {}
+          }
+        }
       }
-    }
+    },
+    "altípusok": {}
   },
   "Ital": {
     "tulajdonságok": {
@@ -6302,6 +6977,11 @@
                   "keserűlikőr"
                 ],
                 "gyógynövényes": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "narancs"
+                ]
               }
             }
           },
@@ -6386,7 +7066,8 @@
                 "típus": [
                   "scotch whisky",
                   "bourbon",
-                  "egyéb"
+                  "egyéb",
+                  "Tennessee whiskey"
                 ]
               }
             }
@@ -6556,7 +7237,8 @@
                   "Kazakoff",
                   "Spacerowa",
                   "egyéb",
-                  "Zaranoff"
+                  "Zaranoff",
+                  "Volga"
                 ],
                 "fajta": [
                   "sima",
@@ -6671,7 +7353,9 @@
               "egyedi": {
                 "márka": [
                   "Aperini",
-                  "Lyttos"
+                  "Lyttos",
+                  "Mini",
+                  "Volga"
                 ]
               },
               "csoportos": {
@@ -6690,7 +7374,8 @@
                   "konyak",
                   "aperitív",
                   "egyéb",
-                  "ouzo"
+                  "ouzo",
+                  "szeszesital"
                 ],
                 "íz": [
                   "kóla",
@@ -6864,7 +7549,8 @@
             ],
             "csomagolás": [
               "PET palack",
-              "egyéb"
+              "egyéb",
+              "multipack"
             ]
           }
         },
