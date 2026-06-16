@@ -472,7 +472,9 @@
               "King's Crown",
               "Globus",
               "Heinz",
-              "egyéb"
+              "egyéb",
+              "Hellmann's",
+              "Condito"
             ],
             "bio": {},
             "gluténmentes": {},
@@ -3157,7 +3159,8 @@
           "egyedi": {
             "savanyú": {},
             "márka": [
-              "Haribo"
+              "Haribo",
+              "Demi"
             ]
           },
           "csoportos": {
@@ -5311,7 +5314,16 @@
           "Auchan Prémium",
           "Fredi",
           "Lunter",
-          "MyVay"
+          "MyVay",
+          "Hízóföld",
+          "TARAVIS",
+          "Hajnal",
+          "HAJDÚHÚS",
+          "TERRA PANNONIA",
+          "Vegan Grill",
+          "Real Nature",
+          "Well Well",
+          "Bio ABC"
         ]
       },
       "csoportos": {}
@@ -5356,7 +5368,13 @@
             "ízesítés": [
               "mézes-mustáros",
               "fokhagymás-zöldfűszeres",
-              "magyaros"
+              "magyaros",
+              "buffalo",
+              "tandori",
+              "sültcsirke",
+              "dolce vita",
+              "édes-csípős",
+              "paradicsomos-salsa"
             ]
           }
         },
@@ -5587,7 +5605,13 @@
             "ízesítés": [
               "magyaros",
               "gyrosos",
-              "fokhagymás"
+              "fokhagymás",
+              "bbq",
+              "sörös",
+              "mustáros",
+              "montreál",
+              "zöldfűszeres",
+              "egyéb"
             ]
           }
         },
@@ -6045,7 +6069,9 @@
               "csécsi",
               "iberico",
               "kolozsvári",
-              "tokaszalonna"
+              "tokaszalonna",
+              "egyéb",
+              "császár"
             ]
           }
         },
@@ -6202,7 +6228,11 @@
               "chorizo",
               "tiroli",
               "levegőn szárított",
-              "angol karaj"
+              "angol karaj",
+              "hagymás",
+              "bajor",
+              "sonkás",
+              "káposztás"
             ],
             "hústartalom": [
               "50% alatt",
@@ -9485,7 +9515,8 @@
               "Kemencés Kedvencek",
               "Pan del Dö",
               "Lipóti",
-              "Finest Bakery"
+              "Finest Bakery",
+              "Nutrifree"
             ],
             "helyben sütött": {},
             "fehérjedús": {},
@@ -9665,7 +9696,8 @@
               "BBQ",
               "Nutrifree",
               "Azon Melegében",
-              "egyéb"
+              "egyéb",
+              "Balviten"
             ],
             "gluténmentes": {},
             "fúrt hotdog kifli": {},
@@ -9875,7 +9907,8 @@
             ],
             "márka": [
               "Azon Melegében",
-              "BBQ"
+              "BBQ",
+              "Nutrifree"
             ],
             "helyben sütött": {},
             "csomagolt": {}
@@ -10923,7 +10956,11 @@
               "Karaván",
               "Primis",
               "Milfina",
-              "Leerdammer"
+              "Leerdammer",
+              "Auchan Kedvenc",
+              "Hochland",
+              "Ízes Erdély",
+              "Minus L"
             ]
           },
           "csoportos": {

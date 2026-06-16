@@ -117,6 +117,47 @@ Még nyitott apróságok:
 
 ## Döntésnapló
 
+- 2026-06-16 (GPT eredmeny.json — batch 2400–2499 besorolása, képes): Folytatás a
+  2400. indextől, 100 új rekord (→2500 össz). Auchan „Grill világ" + „Tudatos
+  táplálkozás", erősen vegyes. Besorolás: grillkolbász/griller/hot-dog kolbász/serpenyős
+  → `Felvágottak > Főző-, grillkolbász`; debreceni/frankfurti virsli → `Virsli,
+  debreceni`; leberkäse → `Párizsi, felvágott`; szalonna (kenyér-/csemege-/mangalica-/
+  császár-/kolozsvári) → `Szalonna, tepertő, zsiradék > Szalonna`; PÁCOLT grill húsok =
+  nyers, ízesített hús → `Csirke`/`Sertés` ágba (pácolt flag, ízesítés a névből);
+  darált/csevap/hamburgerhús → `Darált hús, fasírt`; tofu/szejtán → `Növényi húspótló >
+  Tofu, seitan, tempeh`, vegli → `Növényi felvágott/szelet`, bászka → `Növényi virsli/
+  kolbász`, vegán burger/tépett → `Növényi falat/burger`; vegán szószok (veganéz/majonéz/
+  ketchup/mustár/tzatziki/pizzaszósz/karamellizált hagyma) → `Alapanyag > Szószok`
+  megfelelő altípusába (Condito gluténmentes flaggel); GLUTÉNMENTES pékáru (Nutrifree/
+  Balviten hamburger-/hot-dog buci, baguette, focaccia) → `Pékáru` rokon ágba a
+  gluténmentes flaggel (Mentes-ág flag-alapú elve); marshmallow → Édesség Pillecukor;
+  gluténmentes chips → Édesség Snack. Fa-bővítés (csak értékek): Hús-hal márka +8
+  (TARAVIS/Hajnal/HAJDÚHÚS/TERRA PANNONIA/Vegan Grill/Real Nature/Well Well/Bio ABC);
+  Csirke ízesítés +6 (buffalo/tandori/sültcsirke/dolce vita/édes-csípős/paradicsomos-
+  salsa); Sertés ízesítés +6 (bbq/sörös/mustáros/montreál/zöldfűszeres/egyéb); Szalonna
+  stílus +(egyéb/császár); Szószok márka +(Hellmann's/Condito); Sajt márka +Minus L;
+  Gumicukor márka +Demi; Pékáru Kenyér/Egyéb sós márka +Nutrifree, Hotdog buci +Balviten.
+  Eszköz: `apply_batch_2400.py`. Validáció: friss 100 TISZTA (0 hiba/hash-hiba, minden
+  tulajdonság kitöltve), nincs duplikátum, diff append-only. Hátralévő: 44530 sor.
+
+- 2026-06-16 (GPT eredmeny.json — batch 2300–2399 besorolása, képes): Folytatás a
+  2300. indextől, 100 új rekord (→2400 össz). Tartalom: maradék Aldi friss zöldség-
+  gyümölcs (21), Auchan grillsajtok + különleges sajtok, majd sok Auchan grillkolbász.
+  Besorolás precedens szerint: grillkolbász/griller/serpenyős/sütnivaló kolbász →
+  `Hús-hal > Felvágottak > Főző-, grillkolbász` (forma=`pár`, húsfajta a névből);
+  debreceni (csemege/csípős/Erős Pistás) → `Felvágottak > Virsli, debreceni`;
+  leberkäse → `Felvágottak > Párizsi, felvágott` (forma=`tömb`); grillsajt/grillenyica/
+  Karaván Tallér → `Sajt > Grillsajt / halloumi / sütnivaló` (forma `tömb`/`korong`/
+  `rudacska`, `készítmény` flag a sajtkészítményeknél); feta/Salakis/Manouri/Telemea/
+  Hochland salátasajt → `Sajt > Friss / lágy sajt` (fajta `feta`/`egyéb`); Weber grill
+  bacon → `Felvágottak > Bacon`. `hazai/magyar`: magyar márkák (Privát Hús, Régimódi,
+  Nádudvari, Pápai, Bogádi, Auchan, Kometa, Hízóföld, Master Good) true; osztrák/német
+  (Wiesbauer, Kaiser, Gierlinger, President, Hochland) false. Fa-bővítés (csak értékek):
+  Sajt márka+`Auchan Kedvenc/Hochland/Ízes Erdély`; Felvágottak ízesítés+`hagymás/bajor/
+  sonkás/káposztás`; Hús-hal márka+`Hízóföld`. Eszköz: `apply_batch_2300.py`. Validáció:
+  friss 100 TISZTA (0 hiba/hash-hiba, minden tulajdonság kitöltve), nincs duplikátum,
+  diff append-only (del=0). A 2100+2200 batch a `K2300C` commitban. Hátralévő: 44630 sor.
+
 - 2026-06-16 (GPT eredmeny.json — batch 2200–2299 besorolása, képes): Folytatás a
   2200. CSV-indextől, 100 új rekord (2200→2300 össz). Szinte teljesen friss Aldi
   zöldség-gyümölcs (lédig/csomagolt) + magvak/aszalt gyümölcs. Precedens-követés a

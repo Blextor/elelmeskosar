@@ -1,0 +1,94 @@
+### Pékáru
+    [E] fagyasztott = FLAG
+  ## Bagett
+      [E] márka = ['Good Choice', 'BBQ', 'egyéb', 'Happy Harvest', 'Azon Melegében', 'márka nélkül', 'Pan del Dí']
+      [E] helyben sütött = FLAG
+      [E] csomagolt = FLAG
+      [C] fajta = ['kovászos', 'rusztikus', 'fehér', 'hagymás', 'magvas', 'egyéb', 'mini', 'francia', 'ciabatta', 'sokmagvas']
+      [C] töltelék / íz = ['fűszervajas', 'fokhagymás vaj', 'egyéb', 'fokhagymás']
+  ## Kenyér
+      [E] szeletelt = FLAG
+      [E] csökkentett kalóriatartalmú = FLAG
+      [E] gluténmentes = FLAG
+      [E] márka = ['Pantastico', 'Frissen a Péktől', 'Happy Harvest', 'Enjoy Free!', 'Azon Melegében', 'Aranycipó', 'Schär', 'Kemencés Kedvencek', 'Pan del Dö', 'Lipóti', 'Finest Bakery']
+      [E] helyben sütött = FLAG
+      [E] fehérjedús = FLAG
+      [E] E-mentes = FLAG
+      [C] fajta = ['fehér', 'teljes kiőrlésű', 'rozsos', 'kovászos', 'magvas', 'paradicsomos', 'diós', 'korpás', 'toast / szendvics', 'durum', 'fit', 'olivás', 'tökmagos', 'burgonyás', 'félbarna', 'Graham', 'hagymás', 'lenmagos', 'joghurtos', 'sárgarépás', 'egyéb', 'natúr', 'pritaminpaprikás', 'csicseriborsós', 'zabos', 'PurPur', 'briós']
+  ## Kifli
+      [E] sajtos = FLAG
+      [E] óriás = FLAG
+      [E] nosztalgia = FLAG
+      [E] tejes = FLAG
+      [E] sós = FLAG
+      [E] márka = ['Azon Melegében', 'Frissen a Péktől']
+      [E] helyben sütött = FLAG
+      [C] íz = ['sajt', 'natúr', 'egyéb']
+  ## Zsemle
+      [E] márka = ['Azon Melegében', 'Frissen a Péktől', 'Enjoy Free!', 'Finest Bakery']
+      [E] helyben sütött = FLAG
+      [E] gluténmentes = FLAG
+      [E] csomagolt = FLAG
+      [C] fajta = ['teljes kiőrlésű', 'császár', 'vizes', 'magvas', 'egyéb', 'házi', 'rusztikus', 'többmagvas', 'fehér', 'tejes']
+  ## Tortilla lap
+      [E] márka = ['Happy Harvest', 'Tesoros del Sur', 'Dijo']
+      [C] fajta = ['teljes kiőrlésű', 'fehér', 'magvas', 'egyéb', 'kukoricás']
+      [C] íz = ['zöldséges', 'chilis', 'kukoricás', 'natúr', 'egyéb']
+  ## Kalács
+      [E] márka = ['Édes Ízek', 'Aranycipó', 'Enjoy Free!']
+      [E] gluténmentes = FLAG
+      [E] laktózmentes = FLAG
+      [C] íz = ['natúr', 'kakaós', 'kókuszos', 'mazsolás', 'mézes', 'egyéb', 'diós', 'mákos']
+  ## Pogácsa
+      [E] márka = ['Azon Melegében']
+      [E] helyben sütött = FLAG
+      [C] íz = ['natúr', 'sajtos', 'magvas', 'tepertős', 'tökmagos', 'burgonyás', 'egyéb']
+  ## Hotdog buci és hamburger zsemle
+      [E] fürt hotdog kifli = FLAG
+      [E] márka = ['American', 'Pantastico', 'BBQ', 'Nutrifree', 'Azon Melegében', 'egyéb']
+      [E] gluténmentes = FLAG
+      [E] fúrt hotdog kifli = FLAG
+      [E] helyben sütött = FLAG
+      [E] csomagolt = FLAG
+      [E] méret = ['XXL', 'normál']
+      [C] fajta = ['natúr', 'szezámos', 'magvas', 'teljes kiőrlésű', 'egyéb', 'bajor', 'francia', 'fehér', 'briós', 'vajas']
+      [C] típus = ['szendvicsbuci', 'hamburgerzsemle', 'hot-dog kifli']
+  ## Kétszersült, extrudált kenyér
+      [E] márka = ['Abonett', 'egyéb']
+      [C] fajta = ['natúr', 'szezámos', 'magvas', 'teljes kiőrlésű', 'rozsos', 'kukoricás', 'egyéb', 'quinoa']
+  ## Croissant
+      [E] csomagolt = FLAG
+      [E] mini = FLAG
+      [E] márka = ['Azon Melegében', '7 Days', 'Finest Bakery']
+      [E] helyben sütött = FLAG
+      [C] fajta = ['natúr', 'sajtos', 'lekváros', 'csokis', 'vaníliás', 'magvas', 'teljes kiőrlésű', 'egyéb', 'kakaós', 'mogyorós', 'sonkás', 'pisztáciás', 'tejes', 'nugátos']
+  ## Fánk
+      [E] csomagolt = FLAG
+      [E] mini = FLAG
+      [E] márka = ['Azon Melegében']
+      [E] helyben sütött = FLAG
+      [C] fajta = ['natúr', 'mogyorós', 'lekváros', 'csokis', 'vaníliás', 'citromos', 'cukros', 'Oreo', 'egyéb', 'barackos']
+  ## Egyéb édes pékáru
+      [E] csomagolt = FLAG
+      [E] fajta = ['csiga', 'táska', 'párna', 'batyu', 'briós', 'piskótatekercs', 'gofri', 'rúd', 'patkó', 'pite', 'kifli', 'muffin', 'levél', 'egyéb', 'kuglóf', 'háromszög', 'piskóta']
+      [E] márka = ['Azon Melegében', 'Enjoy Free!', 'Aranycipó', 'Finest Bakery', 'Cucina', 'Tesoros del Sur', 'egyéb', 'márka nélkül']
+      [E] helyben sütött = FLAG
+      [E] gluténmentes = FLAG
+      [E] mini = FLAG
+      [E] vegán = FLAG
+      [E] teljes kiőrlésű = FLAG
+      [E] édesítőszerrel = FLAG
+      [E] laktózmentes = FLAG
+      [C] íz = ['mákos', 'meggyes', 'vaníliás', 'csokis', 'mézes', 'lekváros', 'barackos', 'fahéjas', 'diós', 'szilvás', 'almás', 'gesztenyés', 'túrós', 'kakaós', 'egyéb', 'natúr', 'pekándiós', 'mazsolás', 'mogyorós', 'tiramisu', 'cukros', 'csokoládés']
+  ## Egyéb sós pékáru
+      [E] fajta = ['csiga', 'táska', 'párna', 'batyu', 'rúd', 'patkó', 'pizza', 'perec', 'roló', 'kifli', 'levél', 'egyéb', 'stangli', 'twister', 'kenyérlángos', 'hatszög', 'focaccia']
+      [E] márka = ['Azon Melegében', 'BBQ']
+      [E] helyben sütött = FLAG
+      [E] csomagolt = FLAG
+      [C] íz = ['mákos', 'sajtos', 'pizzás', 'virslis', 'ketchup', 'mustáros', 'májas', 'kukoricás', 'spenótos', 'ricottás', 'csirkés', 'hagymás', 'pisztáciás', 'sós', 'natúr', 'burgonyás', 'egyéb', 'bolognai', 'mexikói', 'szezámmag', 'sajt', 'bacon', 'tepertős', 'fűszeres', 'sonkás', 'pepperónis', 'tejfölös', 'vöröshagymás', 'sajtkrémes', 'füstölt sajtos']
+  ## Puffasztott, lepény, golyók
+      [E] bio = FLAG
+      [E] gluténmentes = FLAG
+      [E] típus = ['puffasztott rizs', 'puffasztott lencse', 'kukorica lepény', 'rozs lepény', 'pita', 'egyéb']
+      [E] márka = ['Enjoy Free!', 'Lyttos']
+      [C] fajta = ['rizs', 'kukorica', 'lencse', 'rozs', 'pizzás', 'barna rizs', 'natúr', 'sós', 'szezámmagos', 'sajtos', 'egyéb', 'mediterrán', 'lenmag', 'quinoa']
