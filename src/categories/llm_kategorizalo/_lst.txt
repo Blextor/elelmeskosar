@@ -1,12 +1,152 @@
-## Édesség, snack, rágcsálnivaló > Rágcsálnivaló magvak (snack)  ALT:['Sózott, pörkölt mogyoró', 'Magkeverék (sós)', 'Olajos magvak (snack)', 'Aszalt gyümölcs (snack)', 'Rizs- és kukoricaszelet']
-   egyedi: {"sózott": "flag", "pörkölt": "flag", "héj nélküli": "flag", "sótlan": "flag", "márka": ["Happy Harvest", "Snack Fun"]}
-   csoportos: {"magfajta": ["földimogyoró", "kesudió", "pisztácia", "mandula", "dió", "tökmag", "napraforgómag", "magkeverék", "egyéb", "csokoládés magkeverék"], "ízesítés": ["sós", "natúr", "chilis", "wasabis", "BBQ", "mézes", "paprikás", "egyéb", "csokoládés"]}
-## Alapanyag, sütés-főzés > Olajos magvak, aszalt gyümölcs (natúr, sütéshez-főzéshez)  ALT:['Dió, mandula, mogyoró (sütőmag)', 'Aszalt gyümölcs', 'Mag- és gyümölcskeverék', 'Reszelt kókusz, mák']
-   egyedi: {"sótlan": "flag", "pörkölt": "flag", "bio": "flag", "márka": ["Bella", "egyéb"]}
-   csoportos: {"fajta": ["dió", "mandula", "mogyoró", "kesudió", "pisztácia", "napraforgómag", "tökmag", "szezámmag", "mák", "kókuszreszelék", "mazsola", "áfonya", "sárgabarack", "szilva", "egyéb"], "forma": ["egész", "szeletelt", "darált", "reszelt", "aprított", "keverék", "egyéb"]}
-## Alapanyag, sütés-főzés > Konzerv, savanyúság, befőtt  ALT:['Zöldségkonzerv (kukorica, borsó, bab)', 'Paradicsomkonzerv, -püré, passzírozott', 'Savanyúság (uborka, csalamádé, vegyes)', 'Befőtt, gyümölcskonzerv', 'Hüvelyes konzerv', 'Gombakonzerv', 'Olívabogyó, kapribogyó, eltett zöldség', 'Kókusztej, kókuszkrém, főzőalap']
-   egyedi: {"lecsöpögtetett tömeg": "flag", "csípős": "flag", "márka": ["Cucina", "King's Crown", "BBQ", "Asia Green Garden", "Lyttos", "I Colori del Sapore", "Sweet Valley", "Bonduelle", "Kokárdás", "egyéb"], "bio": "flag"}
-   csoportos: {"alapanyag": ["kukorica", "zöldborsó", "bab", "lencse", "csicseriborsó", "gomba", "paradicsom", "uborka", "csalamádé", "olívabogyó", "ananász", "őszibarack", "szilva", "gyümölcsmix", "cékla", "jalapeño", "paprika", "káposzta", "alma", "fehérbab", "vörösbab", "zöldségmix", "kókusz", "pfefferoni", "meggy", "egyéb"], "lé / közeg": ["sós lében", "ecetes lében", "cukrozott lében", "enyhén cukrozott lében", "saját levében", "olajban", "paradicsomos szószban", "egyéb"], "darabolás": ["egész", "szeletelt", "darabolt", "felezett", "passzírozott", "püré", "morzsolt", "egyéb"]}
-## Hús, hal, felvágott > Növényi húspótló  ALT:['Növényi felvágott/szelet', 'Növényi virsli/kolbász', 'Növényi falat/burger', 'Tofu, seitan, tempeh']
-   egyedi: {"vegán": "flag", "készítmény (növényi/kevert)": "flag"}
-   csoportos: {"alap": ["szója", "borsófehérje", "búza", "tofu", "seitan", "zöldség", "egyéb"], "forma": ["burger", "nuggets", "golyó", "falat", "szelet", "virsli", "kolbász", "felvágott", "egyéb"], "csomagolás": ["tálca", "tasak", "doboz", "vákuumcsomagolt", "egyéb"]}
+Hatra: 44103
+
+  0.[Auch] Milky Way tejital 350 ml                       | Friss élelmiszer > Tejtermék
+  1.[Auch] Garabonciás házi aludttej 0,5 l                | Friss élelmiszer > Tejtermék
+  2.[Auch] Lactel ultramagas hőmérsékleten hőkezelt zsírs | Friss élelmiszer > Tejtermék
+  3.[Auch] Mizo ESL zsírszegény tej 1,5% 1 l              | Friss élelmiszer > Tejtermék
+  4.[Auch] Magyar Tej ESL tej 2,8% 1 l                    | Friss élelmiszer > Tejtermék
+  5.[Auch] Mizo ESL tej 2,8% 1,5 l PET                    | Friss élelmiszer > Tejtermék
+  6.[Auch] Mizo ESL tej 1,5% 1,5 l PET                    | Friss élelmiszer > Tejtermék
+  7.[Auch] Mizo ESL teljes tej 3,5% 1 l                   | Friss élelmiszer > Tejtermék
+  8.[Auch] Abaúj tej dobozos 2,8% 1 l                     | Friss élelmiszer > Tejtermék
+  9.[Auch] Abaúj dobozos tej 1,5% 1 l                     | Friss élelmiszer > Tejtermék
+ 10.[Auch] Magyar és Finom tej 2,8% 1 l                   | Friss élelmiszer > Tejtermék
+ 11.[Auch] Farm Tojás Prémium Omega 3 tojás M 6 db        | Friss élelmiszer > Tejtermék
+ 12.[Auch] Auchan Kedvenc friss tojás A osztály M méret 1 | Friss élelmiszer > Tejtermék
+ 13.[Auch] Szijártó friss tojás M méret 10 db             | Friss élelmiszer > Tejtermék
+ 14.[Auch] JóHázi friss tojás A osztály M méret 10 db     | Friss élelmiszer > Tejtermék
+ 15.[Auch] Szijártó Jumbo friss tojás L-XL 10 db          | Friss élelmiszer > Tejtermék
+ 16.[Auch] Farm Tojás Farm Prémium GMO mentes farm tojás  | Friss élelmiszer > Tejtermék
+ 17.[Auch] Auchan Kedvenc szabad tartású tojás A osztály  | Friss élelmiszer > Tejtermék
+ 18.[Auch] Auchan Kedvenc friss tojás A osztály M méret 1 | Friss élelmiszer > Tejtermék
+ 19.[Auch] Szijártó friss tojás M 18 db                   | Friss élelmiszer > Tejtermék
+ 20.[Auch] Farm Prémium Mélyalmos 15 M-L méret            | Friss élelmiszer > Tejtermék
+ 21.[Auch] Auchan Kedvenc M-es tojás 30 db                | Friss élelmiszer > Tejtermék
+ 22.[Auch] JóHázi friss tojás A osztály M méret 30 db     | Friss élelmiszer > Tejtermék
+ 23.[Auch] Szijártó szalmonella ellen kezelt tojás L 30 d | Friss élelmiszer > Tejtermék
+ 24.[Auch] Auchan Kedvenc ketreces tartásból származó toj | Friss élelmiszer > Tejtermék
+ 25.[Auch] Auchan Kedvenc friss tojás A osztály M méret 3 | Friss élelmiszer > Tejtermék
+ 26.[Auch] Fürjtojás 15 db                                | Friss élelmiszer > Tejtermék
+ 27.[Auch] Arla krémsajt natur 300 g                      | Friss élelmiszer > Tejtermék
+ 28.[Auch] German White élelmiszerkészítmény sovány tejbő | Friss élelmiszer > Tejtermék
+ 29.[Auch] Reszelt Mozzarella sajt 500 g                  | Friss élelmiszer > Tejtermék
+ 30.[Auch] Fitaki Original lágy sajt 500 g                | Friss élelmiszer > Tejtermék
+ 31.[Auch] Reszelt Gouda sajt 500g                        | Friss élelmiszer > Tejtermék
+ 32.[Auch] Apetina krémfehér lágy sajt 500 g              | Friss élelmiszer > Tejtermék
+ 33.[Auch] Auchan Kedvenc trappista sajt Ft/kg            | Friss élelmiszer > Tejtermék
+ 34.[Auch] Ammerland trappista sajt 40% 3 kg              | Friss élelmiszer > Tejtermék
+ 35.[Auch] Parmigiano reggiano sajt 200g                  | Friss élelmiszer > Tejtermék
+ 36.[Auch] Auchan Kedvenc edami sajt szeletelt 125 g      | Friss élelmiszer > Tejtermék
+ 37.[Auch] Ammerländer szeletelt trappista sajt 125 g     | Friss élelmiszer > Tejtermék
+ 38.[Auch] Auchan Tipp füstölt ömlesztett sajt szeletek n | Friss élelmiszer > Tejtermék
+ 39.[Auch] Auchan Tipp ömlesztett sajt csípős 100 g       | Friss élelmiszer > Tejtermék
+ 40.[Auch] Auchan Tipp ömlesztett sajt sonkás 100 g       | Friss élelmiszer > Tejtermék
+ 41.[Auch] Auchan Tipp ömlesztett szendvicsfeltét 150 g   | Friss élelmiszer > Tejtermék
+ 42.[Auch] Auchan Tipp ömlesztett sajt sandwich 150 g     | Friss élelmiszer > Tejtermék
+ 43.[Auch] Auchan Tipp ömlesztett sajt toast 150 g        | Friss élelmiszer > Tejtermék
+ 44.[Auch] Magyar Trappista Sajt zsíros, félkemény, szele | Friss élelmiszer > Tejtermék
+ 45.[Auch] Hajdú Edam szeletelt füstölt sajt 100 g        | Friss élelmiszer > Tejtermék
+ 46.[Auch] Auchan Kedvenc szeletelt mozzarella 125 g      | Friss élelmiszer > Tejtermék
+ 47.[Auch] Tolle füst ízű szeletelt trappista sajt 125 g  | Friss élelmiszer > Tejtermék
+ 48.[Auch] Tolle szeletelt trappista sajt 125 g           | Friss élelmiszer > Tejtermék
+ 49.[Auch] Ammerländer szeletelt jadegut sajt 125 g       | Friss élelmiszer > Tejtermék
+ 50.[Auch] Ammerländer szeletelt tilsiter sajt 125 g      | Friss élelmiszer > Tejtermék
+ 51.[Auch] Ammerländer szeletelt vajsajt 125 g            | Friss élelmiszer > Tejtermék
+ 52.[Auch] Magyar Sajt zsíros, félkemény, szeletelt gouda | Friss élelmiszer > Tejtermék
+ 53.[Auch] Président Cheddar szeletelt sajt 100 g         | Friss élelmiszer > Tejtermék
+ 54.[Auch] Président Emmental szeletelt sajt 100 g        | Friss élelmiszer > Tejtermék
+ 55.[Auch] Zott Toasty Chester szeletelt, cheddar ízű, zs | Friss élelmiszer > Tejtermék
+ 56.[Auch] Zott Toasty Emmentaler szeletelt, ementáli ízű | Friss élelmiszer > Tejtermék
+ 57.[Auch] Ammerländer szeletelt maasdamer sajt 125 g     | Friss élelmiszer > Tejtermék
+ 58.[Auch] Karaván Toast cheddar ízű burger szeletek 100  | Friss élelmiszer > Tejtermék
+ 59.[Auch] Karaván Toast gouda ízű toast szeletek 100 g   | Friss élelmiszer > Tejtermék
+ 60.[Auch] Szarvasi Szeletelt Mozzarella 100 g            | Friss élelmiszer > Tejtermék
+ 61.[Auch] Szarvasi Szeletelt Mozzarella füstölt 100 g    | Friss élelmiszer > Tejtermék
+ 62.[Auch] Zott Toasty Sandwich zsíros ömlesztett sajt 8  | Friss élelmiszer > Tejtermék
+ 63.[Auch] Ammerländer szeletelt gouda sajt 125 g         | Friss élelmiszer > Tejtermék
+ 64.[Auch] Hochland szeletelt lapkasajt cheddar 130 g     | Friss élelmiszer > Tejtermék
+ 65.[Auch] Hochland szeletelt lapkasajt sonkás 130 g      | Friss élelmiszer > Tejtermék
+ 66.[Auch] Hochland szeletelt lapkasajt toast 130 g       | Friss élelmiszer > Tejtermék
+ 67.[Auch] Ammerländer szeletelt edami sajt 125 g         | Friss élelmiszer > Tejtermék
+ 68.[Auch] Auchan Kedvenc Edami szeletelt sajt 200 g      | Friss élelmiszer > Tejtermék
+ 69.[Auch] Auchan Kedvenc Gouda szeletelt sajt 200 g      | Friss élelmiszer > Tejtermék
+ 70.[Auch] Auchan Kedvenc Maasdam sajt szeletelt 200 g    | Friss élelmiszer > Tejtermék
+ 71.[Auch] Medve Szendvics zsíros, kemény, szeletelt emen | Friss élelmiszer > Tejtermék
+ 72.[Auch] Hochland félkemény szeletelt sajt maasd 135 g  | Friss élelmiszer > Tejtermék
+ 73.[Auch] Leerdammer Lightlife laktózmentes, félkemény,  | Friss élelmiszer > Tejtermék
+ 74.[Auch] Leerdammer Original laktózmentes, félkemény, z | Friss élelmiszer > Tejtermék
+ 75.[Auch] Karaván szeletelt füstölt zsíros ömlesztett sa | Friss élelmiszer > Tejtermék
+ 76.[Auch] Lazur Blue szeletelt, zsíros, lágy, kék márván | Friss élelmiszer > Tejtermék
+ 77.[Auch] Leerdammer Finesse Protein szeletelt félzsíros | Friss élelmiszer > Tejtermék
+ 78.[Auch] Auchan Kedvenc ementáli sajt szeletelt 200 g   | Friss élelmiszer > Tejtermék
+ 79.[Auch] Auchan Kedvenc Mimolette sajt szeletelt 200 g  | Friss élelmiszer > Tejtermék
+ 80.[Auch] Auchan Kedvenc Cheddar sajt szeletek 200 g     | Friss élelmiszer > Tejtermék
+ 81.[Auch] Pannónia Mester Maasdam szeletelt, zsíros, fél | Friss élelmiszer > Tejtermék
+ 82.[Auch] Pannónia Mester Ementáli szeletelt, zsíros, ke | Friss élelmiszer > Tejtermék
+ 83.[Auch] Ammerländer szeletelt trappista sajt 500 g     | Friss élelmiszer > Tejtermék
+ 84.[Auch] Auchan Tipp gouda szeletelt sajt 300 g         | Friss élelmiszer > Tejtermék
+ 85.[Auch] Pannónia Mester Maasdam darabolt, zsíros, félk | Friss élelmiszer > Tejtermék
+ 86.[Auch] Auchan Nívó Cheeesy tejtermék ementáli sajttal | Friss élelmiszer > Tejtermék
+ 87.[Auch] Arla félzsíros, félkemény, szeletelt mozzarell | Friss élelmiszer > Tejtermék
+ 88.[Auch] Arla szeletelt havarti röglyukas zsírdús, félk | Friss élelmiszer > Tejtermék
+ 89.[Auch] Ammerländer szeletelt trappista sajt 1000 g    | Friss élelmiszer > Tejtermék
+ 90.[Auch] Ammerländer szeletelt cheddar sajt 500 g       | Friss élelmiszer > Tejtermék
+ 91.[Auch] Auchan Kedvenc Raclette sajt szeletelt 400 g   | Friss élelmiszer > Tejtermék
+ 92.[Auch] Ammerländer szeletelt maasdamer sajt 500 g     | Friss élelmiszer > Tejtermék
+ 93.[Auch] Ammerländer szeletelt edámi sajt 1000 g        | Friss élelmiszer > Tejtermék
+ 94.[Auch] Ammerländer szeletelt gouda sajt 1000 g        | Friss élelmiszer > Tejtermék
+ 95.[Auch] Tolle Light szeletelt trappista sajt 125 g     | Friss élelmiszer > Tejtermék
+ 96.[Auch] Zott Toasty Toast zsíros ömlesztett sajt 8 x 1 | Friss élelmiszer > Tejtermék
+ 97.[Auch] Auchan Tipp reszelt sajt 200 g                 | Friss élelmiszer > Tejtermék
+ 98.[Auch] Auchan Nívó Cheeesy tejtermék Cheddar sajttal  | Friss élelmiszer > Tejtermék
+ 99.[Auch] Zanetti reszelt szárított félzsíros kemény saj | Friss élelmiszer > Tejtermék
+100.[Auch] Auchan Kedvenc Ementáli sajt reszelt 100 g     | Friss élelmiszer > Tejtermék
+101.[Auch] Fallini Formaggi szárított reszelt sajtok keve | Friss élelmiszer > Tejtermék
+102.[Auch] Hajdú reszelt Gouda 200 g                      | Friss élelmiszer > Tejtermék
+103.[Auch] Hajdú reszelt trappista sajt 200 g             | Friss élelmiszer > Tejtermék
+104.[Auch] Auchan Kedvenc Tavola in Italia Parmigiano Reg | Friss élelmiszer > Tejtermék
+105.[Auch] Auchan Kedvenc Tavola in Italia Grana Pandano  | Friss élelmiszer > Tejtermék
+106.[Auch] Fallini reszelt sajt 80 g                      | Friss élelmiszer > Tejtermék
+107.[Auch] Džiugas Mix Pizza reszelt sajtkeverék 200 g    | Friss élelmiszer > Tejtermék
+108.[Auch] DZIUGAS Pasta mix reszelt sajt 200 g           | Friss élelmiszer > Tejtermék
+109.[Auch] Parmigiano Reggiano DOP Sajtforgácsok - Eredet | Friss élelmiszer > Tejtermék
+110.[Auch] Fallini Formaggi szárított és reszelt sajtok k | Friss élelmiszer > Tejtermék
+111.[Auch] Reszelt sajtmix mozzarella-cheddar 500 g       | Friss élelmiszer > Tejtermék
+112.[Auch] Reszelt olasz sajt dobozos 250 g               | Tartós élelmiszer > Nemzetkö
+113.[Auch] Auchan Kedvenc Tavola in Italia Grana Padano r | Friss élelmiszer > Tejtermék
+114.[Auch] Auchan Tipp sajtkérm natur 100 g               | Friss élelmiszer > Tejtermék
+115.[Auch] Auchan Tipp sajtkrém sonkás 100 g              | Friss élelmiszer > Tejtermék
+116.[Auch] Auchan Tipp sajtkrém zöldfűszeres 100 g        | Friss élelmiszer > Tejtermék
+117.[Auch] Kisteleki csípőspaprikás kenhető, félzsíros, ö | Friss élelmiszer > Tejtermék
+118.[Auch] Kisteleki metélőhagymás kenhető, félzsíros öml | Friss élelmiszer > Tejtermék
+119.[Auch] Kisteleki pulykasonkás kenhető félzsíros ömles | Friss élelmiszer > Tejtermék
+120.[Auch] Kisteleki tejszínes kenhető, félzsíros ömleszt | Friss élelmiszer > Tejtermék
+121.[Auch] Talléros natúr, kenhető, zsírszegény ömlesztet | Friss élelmiszer > Tejtermék
+122.[Auch] Bomilact Piknik csípős paprikás ömlesztett kré | Friss élelmiszer > Tejtermék
+123.[Auch] Bomilact Piknik gombás ömlesztett krémsajt 100 | Friss élelmiszer > Tejtermék
+124.[Auch] Bomilact Piknik medvehagymás ömlesztett krémsa | Friss élelmiszer > Tejtermék
+125.[Auch] Bomilact Piknik tejfölös-vajas ömlesztett krém | Friss élelmiszer > Tejtermék
+126.[Auch] Camping cheddar ízű kenhető félzsíros ömleszte | Friss élelmiszer > Tejtermék
+127.[Auch] Camping tejszínes kenhető félzsíros ömlesztett | Friss élelmiszer > Tejtermék
+128.[Auch] Auchan Kedvenc sajtkrém sonkás 125 g           | Friss élelmiszer > Tejtermék
+129.[Auch] Auchan Kedvenc zöldfűszeres sajtkrém 125 g     | Friss élelmiszer > Tejtermék
+130.[Auch] Mackó kenhető, félzsíros ömlesztett sajt 100 g | Friss élelmiszer > Tejtermék
+131.[Auch] Hajdú tejszínes krémsajt 140 g                 | Friss élelmiszer > Tejtermék
+132.[Auch] Auchan Tipp Mozzarella 100 g                   | Friss élelmiszer > Tejtermék
+133.[Auch] Karaván füstölt ízű, kenhető, zsíros, ömleszte | Friss élelmiszer > Tejtermék
+134.[Auch] Medve natúr, kenhető, zsíros ömlesztett sajt 1 | Friss élelmiszer > Tejtermék
+135.[Auch] Talléros csirkemell sonkás kenhető, félzsíros, | Friss élelmiszer > Tejtermék
+136.[Auch] Talléros natúr kenhető félzsíros ömlesztett sa | Friss élelmiszer > Tejtermék
+137.[Auch] Camping gyulai kolbász fűszeres kenhető félzsí | Friss élelmiszer > Tejtermék
+138.[Auch] Camping natúr kenhető félzsíros ömlesztett saj | Friss élelmiszer > Tejtermék
+139.[Auch] Auchan Kedvenc Mozzarella light sajt 125 g     | Friss élelmiszer > Tejtermék
+140.[Auch] Auchan Kedvenc mozzarella sajt 125 g           | Friss élelmiszer > Tejtermék
+141.[Auch] Président ömlesztett sajt gouda 140 g          | Friss élelmiszer > Tejtermék
+142.[Auch] Auchan Tipp fokhagymás, zöldfűszeres kenhető t | Friss élelmiszer > Tejtermék
+143.[Auch] Tihany Friss light szendvicskrém 120 g         | Friss élelmiszer > Tejtermék
+144.[Auch] Tihany Friss natúr szendvicskrém 120 g         | Friss élelmiszer > Tejtermék
+145.[Auch] Tihany Friss zöldfűszeres szendvicskrém 120 g  | Friss élelmiszer > Tejtermék
+146.[Auch] Zott Zottarella bazsalikomos mozzarella sajt 1 | Friss élelmiszer > Tejtermék
+147.[Auch] Tihany Friss natúr habosított szendvicskrém 14 | Friss élelmiszer > Tejtermék
+148.[Auch] Tihany Friss szárított paradicsomos habosított | Friss élelmiszer > Tejtermék
+149.[Auch] Szarvasi Mozzarella light 100 g                | Friss élelmiszer > Tejtermék

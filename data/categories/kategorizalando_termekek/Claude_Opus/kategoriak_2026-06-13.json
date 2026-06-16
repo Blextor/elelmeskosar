@@ -5282,7 +5282,21 @@
           "Cucina",
           "Böklunder New Lifestyle",
           "HoWe",
-          "Genuss 100% aus Österreich"
+          "Genuss 100% aus Österreich",
+          "Weber",
+          "Régimódi",
+          "Pápai Hús",
+          "Bogádi",
+          "Kometa",
+          "Gierlinger",
+          "Hegedűs",
+          "Sarudi",
+          "Privát Hús",
+          "Auchan Kedvenc",
+          "Auchan Collection",
+          "Auchan Prémium",
+          "Fredi",
+          "Lunter"
         ]
       },
       "csoportos": {}
@@ -9531,7 +9545,8 @@
           "egyedi": {
             "márka": [
               "Happy Harvest",
-              "Tesoros del Sur"
+              "Tesoros del Sur",
+              "Dijo"
             ]
           },
           "csoportos": {
@@ -9599,8 +9614,10 @@
               "American",
               "Pantastico",
               "BBQ",
+              "Nutrifree",
               "egyéb"
-            ]
+            ],
+            "gluténmentes": {}
           },
           "csoportos": {
             "fajta": [
