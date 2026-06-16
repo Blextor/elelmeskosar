@@ -1,5 +1,6 @@
 Minden terméket a .csv-ben található adatai és a képe alapján kell kategorizálni.
 A termékek képeit vond össze mindig 5x5-ös formában, hogy egyszerre 25 termék képét tudd feldolgozni.
+Lehetőleg 4x25 terméket tudjál egy etapban bekategorizálni.
 
 Egy terméknek ha meg van a kategóriája, akkor minden tulajdonságát ki kell tölteni.
 Ekkor ha igaz/hamis, akkor kell egy true/false,
@@ -13,4 +14,10 @@ Kérlek jegyezd föl, hogy ha kategorizálsz termékeket,
 illetve szerepel a tulajdonság, mint a márkája, de nem szerepel a márkák között,
 akkor kérlek vedd föl a kategóriafába abban az esetben a márkáját,
 vagy a hiányzó értéket, vagy tulajdonság csoportot.
+Nem csak a márka hiányozhat és például a lédig zöldségek gyümölcsénél pont márka nincs általában.
+Ha a kategória tulajdonságai között szerepel VAGY a terméken egyértelmű a márka, akkor add meg azt.
+Ez legyen ne csak a márkára mint tulajdonságra igaz.
 
+Kódot "írhatsz" de csak ha a képeket kell 5x5ös blokkba csoportosítanod feldolgozásra,
+vagy segít az eredmények kiírásába, beolvasásába.
+De automatizált, kód alapon történő kategorizálás tilos.
