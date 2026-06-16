@@ -9510,7 +9510,9 @@
           },
           "csoportos": {
             "íz": [
-              "sajt"
+              "sajt",
+              "natúr",
+              "egyéb"
             ]
           }
         },
@@ -9557,7 +9559,11 @@
               "egyéb"
             ],
             "íz": [
-              "zöldséges"
+              "zöldséges",
+              "chilis",
+              "kukoricás",
+              "natúr",
+              "egyéb"
             ]
           }
         },
@@ -9615,6 +9621,7 @@
               "Pantastico",
               "BBQ",
               "Nutrifree",
+              "Azon Melegében",
               "egyéb"
             ],
             "gluténmentes": {}
@@ -9729,7 +9736,8 @@
               "Aranycipó",
               "Finest Bakery",
               "Cucina",
-              "Tesoros del Sur"
+              "Tesoros del Sur",
+              "egyéb"
             ],
             "helyben sütött": {},
             "gluténmentes": {},
@@ -9801,6 +9809,7 @@
               "pisztáciás",
               "sós",
               "natúr",
+              "burgonyás",
               "egyéb",
               "bolognai",
               "mexikói",
@@ -10182,6 +10191,8 @@
                   "citromos",
                   "kókuszos",
                   "natúr",
+                  "sárgabarackos",
+                  "ananászos",
                   "egyéb"
                 ]
               }
@@ -10680,7 +10691,8 @@
               "csokoládés",
               "karamellás",
               "epres",
-              "egyéb"
+              "egyéb",
+              "natúr"
             ]
           }
         },
