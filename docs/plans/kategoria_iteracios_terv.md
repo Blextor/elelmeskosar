@@ -1,6 +1,6 @@
 # Egységes kategóriarendszer — iterációs terv és állapotkövetés
 
-Utolsó frissítés: 2026-06-11 (a dokumentumot Claude frissíti az előrehaladással
+Utolsó frissítés: 2026-06-15 (a dokumentumot Claude frissíti az előrehaladással
 együtt, minden érdemi lépés után)
 
 ## Cél
@@ -116,6 +116,28 @@ Még nyitott apróságok:
   jellegű volt a tartalma).
 
 ## Döntésnapló
+
+- 2026-06-15 (Claude_Opus eredmeny.json átnézés + felhasználói döntések): Az
+  `data/categories/kategorizalando_termekek/Claude_Opus/eredmeny.json` (1700 rekord, 8
+  főkategória) teljes integritás-ellenőrzése TISZTA: minden fő/al/altípus-út és
+  tulajdonság-érték érvényes a fa ellen, minden flag bool, mind az 1700 `kategoria_hash`
+  egyezik, nincs kódolási hiba. A Claude_Opus fa-másolat egy KIBŐVÍTETT fork (sok új
+  altípus a kategorizálás közben — helyes), de eltér a kanonikus `próbák/`-fától.
+  Felhasználói döntések a feltárt határesetekre: (1) FAGYASZTOTT HAL: a 2026-06-14
+  hal-kivétel döntés FELÜLÍRVA — a fagyasztott hal/tengeri áru MARAD külön ágban
+  (`Fagyasztott áruk > Fagyasztott hal, tengeri áru`); a friss hal továbbra is a
+  Hús-halban. (2) SZENDVICSKRÉM/HUMMUSZ → `Alapanyag > Szószok, öntetek, dresszingek`
+  (új `Szendvicskrém, hummusz, kenőkrém` altípus, lossless), a guacamole-t a felhasználó
+  külön kezeli (érintetlen). (3) MAGVAK: a nem sózott/pörkölt (natúr) EGÉSZ, rágcsálható
+  magvak is az `Édesség > Rágcsálnivaló magvak` ágba mennek (a batch-ben már ott voltak);
+  a DARÁLT/RESZELT sütőalapanyag (darált dió, kókuszreszelék) MARAD Alapanyagban. (4) KÉSZ
+  SZENDVICS/WRAP/BAGUETTE = készétel (mint a kész hamburger), marad a `Készétel > Kész
+  szendvics` ágban. (5) FRISS töltött tészta (tortellini, gnocchi, ha nem teljesen száraz)
+  = készétel, marad. (6) NYERS PIZZATÉSZTA (Cucina Nobile pizzatészta szósszal) → Alapanyag
+  (új `Sütési alapanyag > Pizzaalap, pizzatészta` altípus); a kövön sütött KÉSZ pizza
+  marad Készétel. Végrehajtva: 3 szendvicskrém + 1 pizzatészta áthelyezve (hash újraszámolva),
+  fa bővítve 2 új altípussal; validáció 0 hiba. A fagyasztott hal és a Kész szendvics ág a
+  Claude_Opus-fában marad (a kanonikus `próbák/`-fa szinkronizálása külön, későbbi lépés).
 
 - 2026-06-14 (3. review — kevert-tengelyű altípusok, LOSSLESS megkötéssel): Felhasználói
   kérés: folytatni a tisztítást, DE úgy, hogy ami most többféleképp sorolható, az

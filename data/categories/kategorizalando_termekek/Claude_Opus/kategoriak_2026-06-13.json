@@ -686,6 +686,46 @@
               "csoportos": {}
             },
             "altípusok": {}
+          },
+          "Szendvicskrém, hummusz, kenőkrém": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Good Choice",
+                  "egyéb"
+                ],
+                "kiszerelés": [
+                  "tégely",
+                  "doboz",
+                  "üveg",
+                  "tasak",
+                  "egyéb"
+                ],
+                "vegán": {},
+                "vegetáriánus": {},
+                "gluténmentes": {},
+                "laktózmentes": {},
+                "csípős": {}
+              },
+              "csoportos": {
+                "alap": [
+                  "sonka",
+                  "tonhal",
+                  "tojás",
+                  "csirke",
+                  "zöldség",
+                  "hummusz",
+                  "egyéb"
+                ],
+                "íz": [
+                  "natúr",
+                  "csípős",
+                  "fokhagymás",
+                  "egyéb"
+                ]
+              }
+            },
+            "altípusok": {}
           }
         }
       },
@@ -1579,6 +1619,35 @@
               }
             },
             "altípusok": {}
+          },
+          "Pizzaalap, pizzatészta": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Cucina Nobile",
+                  "egyéb"
+                ],
+                "kiszerelés": [
+                  "doboz",
+                  "tasak",
+                  "fólia",
+                  "egyéb"
+                ],
+                "vegán": {},
+                "vegetáriánus": {},
+                "gluténmentes": {},
+                "laktózmentes": {}
+              },
+              "csoportos": {
+                "feltét": [
+                  "paradicsomos",
+                  "klasszikus",
+                  "natúr",
+                  "egyéb"
+                ]
+              }
+            },
+            "altípusok": {}
           }
         }
       },
@@ -1754,6 +1823,8 @@
             "bio": {},
             "márka": [
               "Bella",
+              "Back Family",
+              "Happy Harvest",
               "egyéb"
             ]
           },
@@ -5146,6 +5217,27 @@
         "altípusok": {}
       },
       "Főzőbanán": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Sárgabarack": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Őszibarack, nektarin": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Cseresznye": {
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {}
@@ -9311,6 +9403,7 @@
           "egyedi": {
             "márka": [
               "Good Choice",
+              "BBQ",
               "egyéb",
               "Happy Harvest",
               "Azon Melegében"
@@ -9349,7 +9442,11 @@
               "Enjoy Free!",
               "Azon Melegében",
               "Aranycipó",
-              "Schär"
+              "Schär",
+              "Kemencés Kedvencek",
+              "Pan del Dö",
+              "Lipóti",
+              "Finest Bakery"
             ],
             "helyben sütött": {},
             "fehérjedús": {}
@@ -9392,7 +9489,8 @@
             "tejes": {},
             "sós": {},
             "márka": [
-              "Azon Melegében"
+              "Azon Melegében",
+              "Frissen a Péktől"
             ],
             "helyben sütött": {}
           },
@@ -9409,9 +9507,12 @@
           "egyedi": {
             "márka": [
               "Azon Melegében",
-              "Frissen a Péktől"
+              "Frissen a Péktől",
+              "Enjoy Free!",
+              "Finest Bakery"
             ],
-            "helyben sütött": {}
+            "helyben sütött": {},
+            "gluténmentes": {}
           },
           "csoportos": {
             "fajta": [
@@ -9429,7 +9530,8 @@
         "tulajdonságok": {
           "egyedi": {
             "márka": [
-              "Happy Harvest"
+              "Happy Harvest",
+              "Tesoros del Sur"
             ]
           },
           "csoportos": {
@@ -9492,7 +9594,13 @@
       "Hotdog buci és hamburger zsemle": {
         "tulajdonságok": {
           "egyedi": {
-            "fúrt hotdog kifli": {}
+            "fürt hotdog kifli": {},
+            "márka": [
+              "American",
+              "Pantastico",
+              "BBQ",
+              "egyéb"
+            ]
           },
           "csoportos": {
             "fajta": [
@@ -9508,7 +9616,12 @@
       },
       "Kétszersült, extrudált kenyér": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "márka": [
+              "Abonett",
+              "egyéb"
+            ]
+          },
           "csoportos": {
             "fajta": [
               "natúr",
@@ -9529,7 +9642,9 @@
             "csomagolt": {},
             "mini": {},
             "márka": [
-              "Azon Melegében"
+              "Azon Melegében",
+              "7 Days",
+              "Finest Bakery"
             ],
             "helyben sütött": {}
           },
@@ -9593,7 +9708,11 @@
             ],
             "márka": [
               "Azon Melegében",
-              "Enjoy Free!"
+              "Enjoy Free!",
+              "Aranycipó",
+              "Finest Bakery",
+              "Cucina",
+              "Tesoros del Sur"
             ],
             "helyben sütött": {},
             "gluténmentes": {},
@@ -9643,7 +9762,8 @@
               "kenyérlángos"
             ],
             "márka": [
-              "Azon Melegében"
+              "Azon Melegében",
+              "BBQ"
             ],
             "helyben sütött": {}
           },
@@ -9689,7 +9809,8 @@
               "egyéb"
             ],
             "márka": [
-              "Enjoy Free!"
+              "Enjoy Free!",
+              "Lyttos"
             ]
           },
           "csoportos": {
@@ -11169,6 +11290,13 @@
         "altípusok": {}
       },
       "Friss fűszernövény": {
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
+        },
+        "altípusok": {}
+      },
+      "Spárga": {
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {}
