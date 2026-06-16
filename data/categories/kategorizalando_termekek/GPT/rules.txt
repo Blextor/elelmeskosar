@@ -21,3 +21,5 @@ Ez legyen ne csak a márkára mint tulajdonságra igaz.
 Kódot "írhatsz" de csak ha a képeket kell 5x5ös blokkba csoportosítanod feldolgozásra,
 vagy segít az eredmények kiírásába, beolvasásába.
 De automatizált, kód alapon történő kategorizálás tilos.
+
+Token-hatékonyan dolgozz kérlek.
