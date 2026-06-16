@@ -1,6 +1,6 @@
 # Egységes kategóriarendszer — iterációs terv és állapotkövetés
 
-Utolsó frissítés: 2026-06-15 (a dokumentumot Claude frissíti az előrehaladással
+Utolsó frissítés: 2026-06-16 (a dokumentumot Claude frissíti az előrehaladással
 együtt, minden érdemi lépés után)
 
 ## Cél
@@ -116,6 +116,44 @@ Még nyitott apróságok:
   jellegű volt a tartalma).
 
 ## Döntésnapló
+
+- 2026-06-16 (GPT eredmeny.json — batch 2200–2299 besorolása, képes): Folytatás a
+  2200. CSV-indextől, 100 új rekord (2200→2300 össz). Szinte teljesen friss Aldi
+  zöldség-gyümölcs (lédig/csomagolt) + magvak/aszalt gyümölcs. Precedens-követés a
+  korábbi rekordokból: egész diófélék/snack-mag (dióbél, pekándió, pörkölt kesudió,
+  pörkölt-sós napraforgómag) → `Édesség > Rágcsálnivaló magvak > Olajos magvak (snack)`;
+  darált sütőmag (darált mák) → `Alapanyag > Olajos magvak, aszalt gyümölcs > Reszelt
+  kókusz, mák`; aszalt gyümölcs (szilva, vörösáfonya, mangó, mazsola, almaszirom-chips)
+  → dedikált `Gyümölcs > Aszalt, szárított, chips`; chia mag → `Gyümölcs > Magvak,
+  csonthéjasok` (a lenmaggal egy ágban). Friss zöldség alkategóriánként (Burgonya,
+  Hagymafélék, Paprika, Paradicsom, Káposzta, Gomba, Saláták stb.), gyümölcs fajta/típus
+  szerint (Alma típusok, Körte Conference, Szőlő magnélküli, Citrus, Banán, Avokádó).
+  `hazai` flag: hazai-jellegű zöldség/alma/körte/szőlő/bogyós → true, import (citrus,
+  banán, mangó, ananász, avokádó, kivi, áfonya, sárgadinnye, édesburgonya) → false;
+  `bio` a „Bio"/„BIO NATURA" nevűeknél true. Fa-bővítés (csak értékek): Gyümölcs>Magvak
+  fajta+`Chia`; Olajos magvak (snack) magfajta+`pekándió`. Eszköz: `apply_batch_2200.py`.
+  Validáció: friss 100 TISZTA (0 hiba/hash-hiba, minden tulajdonság kitöltve), nincs
+  duplikátum, eredmeny.json diff append-only. Hátralévő backlog: 47030−2300 = 44730 sor.
+
+- 2026-06-16 (GPT eredmeny.json — batch 2100–2199 besorolása, képes): A
+  `data/categories/kategorizalando_termekek/GPT/eredmeny.json` folytatása a 2100.
+  CSV-indextől (`build_sheets.py` 4×25-ös 5×5 kontaktívek + képi átnézés). 100 új
+  rekord (2100→2200 össz), zömében Aldi tejtermék/sajt/joghurt/desszert + növényi
+  alternatíva (Alpro/MyVay) + néhány lédig zöldség-gyümölcs és rágcsamag. Besorolási
+  döntések: gorgonzola → Sajt>Penészes (kékpenészes); grill/halloumi sajtkészítmény →
+  Sajt>Grillsajt; növényi italok/joghurt/főzőkrém/sajt → Tejtermék>Növényi alternatíva;
+  tofu + vegán virsli/falat/burger → Hús-hal>Növényi húspótló; hummusz + vegán
+  szendvicskrém → Alapanyag>Szószok>Szendvicskrém/hummusz; főző-kókusztej (konzerv) →
+  Alapanyag>Konzerv>Kókusztej; natúr egész/kevert rágcsamag (Diákcsemege, mandula) →
+  Édesség>Rágcsálnivaló magvak. Fa-bővítés (rules.txt 9–19, csak ÉRTÉKEK, nincs új
+  kulcs → meglévő hashek érintetlenek): Tejdesszert kiszerelés+`vödör`, márka+`Milfina`,
+  íz+`áfonyás/őszibarackos/cseresznyés/maracuja`; Krémtúró íz+`stracciatella`;
+  Gyümölcsös joghurt íz+`kekszes`; Sajt márka+`Leerdammer`, ízesítés+`medvehagymás`;
+  Növényi alternatíva márka+`Dr. Oetker/Violife/Hulala`; Hús-hal márka+`MyVay`;
+  Szendvicskrém márka+`MyVay/Yummy Dip`; Olajos magvak (snack) márka+`Bella`. Eszköz:
+  `apply_batch_2100.py` (kézi döntések adatként + séma-kitöltés + hash). Validáció: a
+  friss 100 rekord TISZTA (0 út-/érték-/flag-/hash-hiba; minden séma-tulajdonság
+  kitöltve). Hátralévő backlog: 47030−2200 = 44830 sor.
 
 - 2026-06-15 (Claude_Opus eredmeny.json átnézés + felhasználói döntések): Az
   `data/categories/kategorizalando_termekek/Claude_Opus/eredmeny.json` (1700 rekord, 8

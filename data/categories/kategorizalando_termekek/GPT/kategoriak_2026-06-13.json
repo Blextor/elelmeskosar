@@ -693,7 +693,9 @@
                 "márka": [
                   "Good Choice",
                   "egyéb",
-                  "Wonnemeyer"
+                  "Wonnemeyer",
+                  "MyVay",
+                  "Yummy Dip"
                 ],
                 "kiszerelés": [
                   "tégely",
@@ -3896,7 +3898,8 @@
               "egyedi": {
                 "márka": [
                   "Happy Harvest",
-                  "Snack Fun"
+                  "Snack Fun",
+                  "Bella"
                 ],
                 "sózott": {},
                 "pörkölt": {},
@@ -3910,7 +3913,8 @@
                   "mandula",
                   "kesudió",
                   "dió",
-                  "pisztácia"
+                  "pisztácia",
+                  "pekándió"
                 ],
                 "ízesítés": [
                   "natúr",
@@ -5073,7 +5077,8 @@
               "Tökmag",
               "Törökmogyoró",
               "Mix",
-              "egyéb"
+              "egyéb",
+              "Chia"
             ],
             "gyümölcsös": {},
             "héj nélküli": {},
@@ -5305,7 +5310,8 @@
           "Auchan Collection",
           "Auchan Prémium",
           "Fredi",
-          "Lunter"
+          "Lunter",
+          "MyVay"
         ]
       },
       "csoportos": {}
@@ -10351,7 +10357,8 @@
                   "stracciatella",
                   "maracuja",
                   "kiwis",
-                  "mazsolás"
+                  "mazsolás",
+                  "kekszes"
                 ]
               }
             },
@@ -10589,7 +10596,8 @@
               "őszibarackos",
               "maracuja",
               "banános",
-              "áfonyás muffin"
+              "áfonyás muffin",
+              "stracciatella"
             ]
           }
         },
@@ -10914,7 +10922,8 @@
               "Gourmet Finest Cuisine",
               "Karaván",
               "Primis",
-              "Milfina"
+              "Milfina",
+              "Leerdammer"
             ]
           },
           "csoportos": {
@@ -10941,7 +10950,8 @@
               "paradicsomos-bazsalikomos",
               "bazsalikomos",
               "paradicsomos",
-              "csípős paprikás"
+              "csípős paprikás",
+              "medvehagymás"
             ],
             "fajta": [
               "parenyica",
@@ -11116,7 +11126,8 @@
               "pohár",
               "tégely",
               "multipack",
-              "egyéb"
+              "egyéb",
+              "vödör"
             ],
             "márka": [
               "Milsani",
@@ -11125,7 +11136,8 @@
               "egyéb",
               "Zott",
               "Cucina",
-              "Kinder"
+              "Kinder",
+              "Milfina"
             ]
           },
           "csoportos": {
@@ -11139,7 +11151,11 @@
               "meggyes",
               "fahéjas",
               "mogyorós",
-              "mézes"
+              "mézes",
+              "áfonyás",
+              "őszibarackos",
+              "cseresznyés",
+              "maracuja"
             ]
           }
         },
@@ -11202,7 +11218,10 @@
             "márka": [
               "MyVay",
               "Alpro",
-              "egyéb"
+              "egyéb",
+              "Dr. Oetker",
+              "Violife",
+              "Hulala"
             ]
           },
           "csoportos": {

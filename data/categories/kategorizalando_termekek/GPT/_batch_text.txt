@@ -1,0 +1,104 @@
+==== SHEET 1 (CSV 2200..2224) ====
+ 1 | Aldi | Burgonya sárga lédig |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Burgonyafélék
+ 2 | Aldi | Fokhagyma 200 g | 200.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Hagyma, fokhagyma
+ 3 | Aldi | HAPPY HARVEST Aszalt szilva, 100 g | 100.0 g | brand: | bolt: Zöldség, gyümölcs > Aszalt gyümölcs
+ 4 | Aldi | SNACK FUN Szárazon pörkölt sós napraforgómag héj nélkül, 100 g | 100.0 g | brand: | bolt: Zöldség, gyümölcs > Magvak
+ 5 | Aldi | Burgonya étkezési 2kg | 2000.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Burgonyafélék
+ 6 | Aldi | SNACK TIME Salátamix klasszikus Firenze, 200 g | 200.0 g | brand: | bolt: Zöldség, gyümölcs > Saláták
+ 7 | Aldi | SNACK TIME Salátamix klasszikus Crotone, 200 g | 200.0 g | brand: | bolt: Zöldség, gyümölcs > Saláták
+ 8 | Aldi | BACK FAMILY Darált mák, 200 g | 200.0 g | brand: | bolt: Zöldség, gyümölcs > Magvak > Natúr magvak
+ 9 | Aldi | Burgonya étkezési sárga 2kg | 2000.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Burgonyafélék
+10 | Aldi | HAPPY HARVEST Aszalt szilva, 200 g | 200.0 g | brand: | bolt: Zöldség, gyümölcs > Aszalt gyümölcs
+11 | Aldi | HAPPY HARVEST Chia mag, 200 g | 200.0 g | brand: | bolt: Zöldség, gyümölcs > Magvak
+12 | Aldi | HAPPY HARVEST Aszalt áfonya cukrozott, 200 g | 200.0 g | brand: | bolt: Zöldség, gyümölcs > Aszalt gyümölcs
+13 | Aldi | HAPPY HARVEST Mangó aszalt szeletelt, 150 g | 150.0 g | brand: | bolt: Zöldség, gyümölcs > Aszalt gyümölcs
+14 | Aldi | BACK FAMILY Mazsola, 500 g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Aszalt gyümölcs
+15 | Aldi | HAPPY HARVEST Dióbél, 200 g | 200.0 g | brand: | bolt: Zöldség, gyümölcs > Magvak
+16 | Aldi | HAPPY HARVEST Pekándió, 200 g | 200.0 g | brand: | bolt: Zöldség, gyümölcs > Magvak > Natúr magvak
+17 | Aldi | HAPPY HARVEST Pörkölt magvak kesudió, 200 g | 200.0 g | brand: | bolt: Zöldség, gyümölcs > Magvak
+18 | Aldi | HAPPY HARVEST Almaszirom, 50 g | 50.0 g | brand: | bolt: Zöldség, gyümölcs > Aszalt gyümölcs
+19 | Aldi | Paprika hegyes erős 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+20 | Aldi | Fokhagyma zöldvágott 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Zöldség > Hagyma, fokhagyma
+21 | Aldi | Fejes káposzta kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Brokkoli, káposzta, karfiol
+22 | Aldi | Vöröshagyma kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Hagyma, fokhagyma
+23 | Aldi | Vöröshagyma 1kg | 1000.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Hagyma, fokhagyma
+24 | Aldi | Kivi 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Szezonális gyümölcsök
+25 | Aldi | Fejes káposzta új kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Brokkoli, káposzta, karfiol
+==== SHEET 2 (CSV 2225..2249) ====
+ 1 | Aldi | Alma piros kg |  g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Alma és körte
+ 2 | Aldi | Kígyóuborka 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+ 3 | Aldi | Lila hagyma 500g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Hagyma, fokhagyma
+ 4 | Aldi | Zöldhagyma csomó | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Zöldség > Hagyma, fokhagyma
+ 5 | Aldi | Karalábé 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Zöldség > Retekfélék, torma
+ 6 | Aldi | Hónapos retek csomó | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Zöldség > Retekfélék, torma
+ 7 | Aldi | Alma Golden kg |  g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Alma és körte
+ 8 | Aldi | Petrezselyemzöld 100g | 100.0 g | brand: | bolt: Zöldség, gyümölcs > Fűszernövények
+ 9 | Aldi | Paradicsom fürtös 500g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+10 | Aldi | Alma Jonagold kg |  g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Alma és körte
+11 | Aldi | Alma Idared kg |  g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Alma és körte
+12 | Aldi | Alma Gála kg |  g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Alma és körte
+13 | Aldi | Hónapos retek 300g | 300.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Retekfélék, torma
+14 | Aldi | Fejes saláta db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Saláták
+15 | Aldi | Paradicsom fürtös kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+16 | Aldi | Lilahagyma kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Hagyma, fokhagyma
+17 | Aldi | Bio kígyóuborka 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+18 | Aldi | Alma 1,5kg (piros vagy zöld) | 1500.0 g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Alma és körte
+19 | Aldi | Körte 1kg | 1000.0 g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Alma és körte
+20 | Aldi | Paradicsom koktél 250g | 250.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+21 | Aldi | Körte Conference kg |  g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Alma és körte
+22 | Aldi | Paradicsom cherry fürtös 250g | 250.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+23 | Aldi | Sárgarépa, 1 kg | 1000.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Leveszöldség
+24 | Aldi | Mini római saláta 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Saláták
+25 | Aldi | Avokádó 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Déligyümölcs
+==== SHEET 3 (CSV 2250..2274) ====
+ 1 | Aldi | Zeller kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Leveszöldség
+ 2 | Aldi | Sárgarépa kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Leveszöldség
+ 3 | Aldi | Brokkoli 500 g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Brokkoli, káposzta, karfiol
+ 4 | Aldi | Jégcsapretek 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Zöldség > Retekfélék, torma
+ 5 | Aldi | Sárgarépa csomós | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Zöldség > Leveszöldség
+ 6 | Aldi | Szárzeller 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Zöldség > Leveszöldség
+ 7 | Aldi | Rukkola 125g | 125.0 g | brand: | bolt: Zöldség, gyümölcs > Saláták
+ 8 | Aldi | Paradicsom fürtös koktél 500 g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+ 9 | Aldi | Szőlő fehér magnélküli 500g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Szőlő és bogyós gyümölcs
+10 | Aldi | Fűszernövény bazsalikom 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Fűszernövények
+11 | Aldi | Alma Crimson kg |  g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Alma és körte
+12 | Aldi | Kapor 100g | 100.0 g | brand: | bolt: Zöldség, gyümölcs > Fűszernövények
+13 | Aldi | Szőlő piros magnélküli 500g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Szőlő és bogyós gyümölcs
+14 | Aldi | Húsparadicsom kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+15 | Aldi | Petrezselyemgyökér csomós | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Zöldség > Leveszöldség
+16 | Aldi | Narancs lédig |  g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Citrusfélék és kiwi
+17 | Aldi | Kelkáposzta kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Brokkoli, káposzta, karfiol
+18 | Aldi | Bio gomba 250 g | 250.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Gomba
+19 | Aldi | Főzőhagyma csomó | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Hagyma, fokhagyma
+20 | Aldi | Banán kg |  g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Déligyümölcs
+21 | Aldi | Jégsaláta 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Saláták
+22 | Aldi | Paradicsom koktél Sweetelle 250g | 250.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+23 | Aldi | Laskagomba 300g | 300.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Gomba
+24 | Aldi | Paprika lecsó 750g | 750.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+25 | Aldi | Alma Pink lady kg |  g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Alma és körte
+==== SHEET 4 (CSV 2275..2299) ====
+ 1 | Aldi | Paradicsom ch.f.Doltschis 300g | 300.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+ 2 | Aldi | Bio citrom 500g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Citrusfélék és kiwi
+ 3 | Aldi | Burgonya új kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Burgonyafélék
+ 4 | Aldi | Sárgadinnye db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Szezonális gyümölcsök
+ 5 | Aldi | Mangó 1db | 1.0 db | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Déligyümölcs
+ 6 | Aldi | Parázsburgonya 1kg | 1000.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Burgonyafélék
+ 7 | Aldi | Paradicsom Veresi Csenge 400g | 400.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+ 8 | Aldi | Paprika kápia 500 g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+ 9 | Aldi | Maracuja 3 db | 3.0 db | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Déligyümölcs
+10 | Aldi | Fürtös uborka kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+11 | Aldi | Málna 125g | 125.0 g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Szőlő és bogyós gyümölcs
+12 | Aldi | Őszibarack 500g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Szezonális gyümölcsök
+13 | Aldi | Sárgabarack 500g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Szezonális gyümölcsök
+14 | Aldi | Eper 500g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Szőlő és bogyós gyümölcs
+15 | Aldi | Édesburgonya kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Burgonyafélék
+16 | Aldi | Áfonya 150g | 150.0 g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Szőlő és bogyós gyümölcs
+17 | Aldi | Főzőtök kg |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Cukkini, padlizsán, tökféle
+18 | Aldi | Bio banán Fairtrade |  g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Déligyümölcs
+19 | Aldi | Ananász kg |  g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Déligyümölcs
+20 | Aldi | Paprika kaliforniai mix 500g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Paradicsom, paprika, uborka
+21 | Aldi | Leveszöldség 1kg | 1000.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Leveszöldség
+22 | Aldi | Cukkini lédig |  g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Cukkini, padlizsán, tökféle
+23 | Aldi | BIO NATURA vöröshagyma 1kg | 1000.0 g | brand: | bolt: Zöldség, gyümölcs > Zöldség > Hagyma, fokhagyma
+24 | Aldi | Narancs 2kg | 2000.0 g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Citrusfélék és kiwi
+25 | Aldi | Lime 500g | 500.0 g | brand: | bolt: Zöldség, gyümölcs > Gyümölcs > Citrusfélék és kiwi
