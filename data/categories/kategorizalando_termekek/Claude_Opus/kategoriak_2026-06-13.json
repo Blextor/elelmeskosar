@@ -692,7 +692,8 @@
               "egyedi": {
                 "márka": [
                   "Good Choice",
-                  "egyéb"
+                  "egyéb",
+                  "Wonnemeyer"
                 ],
                 "kiszerelés": [
                   "tégely",
@@ -721,7 +722,11 @@
                   "natúr",
                   "csípős",
                   "fokhagymás",
-                  "egyéb"
+                  "egyéb",
+                  "pesztós",
+                  "paprikás",
+                  "fenyőmagos",
+                  "avokádós"
                 ]
               }
             },
@@ -1950,7 +1955,8 @@
               "mézes-magvas",
               "kakaó",
               "mazsola",
-              "egyéb"
+              "egyéb",
+              "gránátalma"
             ],
             "forma": [
               "pehely",
@@ -1959,7 +1965,8 @@
               "párnácska",
               "tallér",
               "keverék",
-              "ropogós müzli"
+              "ropogós müzli",
+              "szelet"
             ]
           }
         },
@@ -2580,7 +2587,8 @@
                 ],
                 "hozzáadott darabok": [
                   "kekszdarab",
-                  "mogyoró"
+                  "mogyoró",
+                  "puffasztott rizs"
                 ]
               }
             },
@@ -10046,6 +10054,13 @@
               "palack",
               "tasak",
               "egyéb"
+            ],
+            "márka": [
+              "Riska",
+              "Milsani",
+              "Mizo",
+              "Tolle",
+              "egyéb"
             ]
           },
           "csoportos": {}
@@ -10088,6 +10103,14 @@
               "pohár",
               "multipack",
               "egyéb"
+            ],
+            "márka": [
+              "Kokárdás",
+              "Barissimo",
+              "egyéb",
+              "Milsani",
+              "Hell",
+              "Mizo"
             ]
           },
           "csoportos": {
@@ -10097,7 +10120,9 @@
               "kávés",
               "epres",
               "banános",
-              "egyéb"
+              "egyéb",
+              "sós karamellás",
+              "madártej"
             ]
           }
         },
@@ -10154,6 +10179,20 @@
               "palack",
               "multipack",
               "egyéb"
+            ],
+            "márka": [
+              "Zott",
+              "Milsani",
+              "Milfina",
+              "Nádudvari",
+              "Danone",
+              "Müller",
+              "Milli",
+              "Mizo",
+              "egyéb",
+              "Cserpes",
+              "Kokárdás",
+              "Lyttos"
             ]
           },
           "csoportos": {}
@@ -10169,7 +10208,19 @@
           "Görög joghurt": {
             "tulajdonságok": {
               "egyedi": {},
-              "csoportos": {}
+              "csoportos": {
+                "íz": [
+                  "natúr",
+                  "vaníliás",
+                  "epres",
+                  "málnás",
+                  "áfonyás",
+                  "őszibarackos",
+                  "mézes",
+                  "stracciatella",
+                  "egyéb"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -10193,7 +10244,18 @@
                   "natúr",
                   "sárgabarackos",
                   "ananászos",
-                  "egyéb"
+                  "egyéb",
+                  "mézes-diós",
+                  "almás-fahéjas",
+                  "mangós",
+                  "körte",
+                  "szilvás",
+                  "gabonapelyhes",
+                  "narancsos",
+                  "mézes",
+                  "stracciatella",
+                  "maracuja",
+                  "kiwis"
                 ]
               }
             },
@@ -10202,14 +10264,56 @@
           "Krémjoghurt": {
             "tulajdonságok": {
               "egyedi": {},
-              "csoportos": {}
+              "csoportos": {
+                "íz": [
+                  "epres",
+                  "málnás",
+                  "őszibarackos",
+                  "vaníliás",
+                  "erdei gyümölcs",
+                  "meggyes",
+                  "áfonyás",
+                  "banános",
+                  "csokoládés",
+                  "kávés",
+                  "citromos",
+                  "kókuszos",
+                  "natúr",
+                  "sárgabarackos",
+                  "ananászos",
+                  "gránátalmás",
+                  "narancsos",
+                  "egyéb"
+                ]
+              }
             },
             "altípusok": {}
           },
           "Skyr / proteinjoghurt": {
             "tulajdonságok": {
               "egyedi": {},
-              "csoportos": {}
+              "csoportos": {
+                "íz": [
+                  "epres",
+                  "málnás",
+                  "őszibarackos",
+                  "vaníliás",
+                  "erdei gyümölcs",
+                  "meggyes",
+                  "áfonyás",
+                  "banános",
+                  "csokoládés",
+                  "kávés",
+                  "citromos",
+                  "kókuszos",
+                  "natúr",
+                  "sárgabarackos",
+                  "ananászos",
+                  "gránátalmás",
+                  "narancsos",
+                  "egyéb"
+                ]
+              }
             },
             "altípusok": {}
           }
@@ -10230,6 +10334,14 @@
               "doboz",
               "pohár",
               "egyéb"
+            ],
+            "márka": [
+              "Milfina",
+              "Danone",
+              "Müller",
+              "egyéb",
+              "Zott",
+              "Milsani"
             ]
           },
           "csoportos": {
@@ -10247,7 +10359,9 @@
               "citromos",
               "kókuszos",
               "natúr",
-              "egyéb"
+              "egyéb",
+              "maracuja",
+              "vegyes gyümölcs"
             ]
           }
         },
@@ -10302,6 +10416,12 @@
               "tasak",
               "tálca",
               "egyéb"
+            ],
+            "márka": [
+              "Hajdú",
+              "egyéb",
+              "Milsani",
+              "Nádudvari"
             ]
           },
           "csoportos": {}
@@ -10331,9 +10451,33 @@
               "tégely",
               "multipack",
               "egyéb"
+            ],
+            "márka": [
+              "Kokárdás",
+              "Pöttyös",
+              "Danone",
+              "egyéb",
+              "Milli"
             ]
           },
-          "csoportos": {}
+          "csoportos": {
+            "íz": [
+              "vaníliás",
+              "csokoládés",
+              "kakaós",
+              "epres",
+              "meggyes",
+              "sárgabarackos",
+              "áfonyás",
+              "kekszes",
+              "karamellás",
+              "mazsolás",
+              "mákos-rétes",
+              "natúr",
+              "egyéb",
+              "mangós"
+            ]
+          }
         },
         "altípusok": {
           "Natúr krémtúró": {
@@ -10368,7 +10512,11 @@
                   "citromos",
                   "kókuszos",
                   "natúr",
-                  "egyéb"
+                  "egyéb",
+                  "kekszes",
+                  "karamellás",
+                  "mazsolás",
+                  "pisztáciás"
                 ]
               }
             },
@@ -10382,7 +10530,9 @@
             "zsírtartalom": [
               "12%",
               "20%",
-              "egyéb"
+              "egyéb",
+              "25%",
+              "15%"
             ],
             "laktózmentes": {},
             "light / csökkentett zsír": {},
@@ -10391,6 +10541,13 @@
               "pohár",
               "vödör",
               "egyéb"
+            ],
+            "márka": [
+              "Nádudvari",
+              "Milsani",
+              "Mizo",
+              "egyéb",
+              "Bio Natura"
             ]
           },
           "csoportos": {}
@@ -10419,6 +10576,16 @@
               "spray",
               "pohár",
               "egyéb"
+            ],
+            "márka": [
+              "Kokárdás",
+              "Milsani",
+              "Meggle",
+              "Hulala",
+              "egyéb",
+              "Milram",
+              "Globetti",
+              "Milli"
             ]
           },
           "csoportos": {}
@@ -10457,6 +10624,13 @@
               "papír",
               "doboz",
               "tégely",
+              "egyéb"
+            ],
+            "márka": [
+              "Kokárdás",
+              "Milsani",
+              "Tolnai",
+              "Medve",
               "egyéb"
             ]
           },
@@ -10504,6 +10678,14 @@
               "doboz",
               "tégely",
               "egyéb"
+            ],
+            "márka": [
+              "Bellasan",
+              "Rama",
+              "Delma",
+              "Flóra",
+              "egyéb",
+              "Vénusz"
             ]
           },
           "csoportos": {}
@@ -10537,6 +10719,29 @@
               "vákuumcsomagolt",
               "tubus",
               "egyéb"
+            ],
+            "márka": [
+              "Szarvasi",
+              "Galbani",
+              "Président",
+              "Medve",
+              "egyéb",
+              "Kokárdás",
+              "Ammerländer",
+              "Milsani",
+              "Desira",
+              "Hofburger",
+              "Roi de Trefle",
+              "Tihany",
+              "Lyttos",
+              "Cucina",
+              "Hajdú",
+              "Regione che vai",
+              "BBQ",
+              "Cucina Nobile",
+              "Meine Käsetheke",
+              "Tolle",
+              "Bonlà"
             ]
           },
           "csoportos": {
@@ -10549,6 +10754,22 @@
               "zöldfűszeres",
               "sonkás",
               "paprikás",
+              "egyéb",
+              "szalámis",
+              "fokhagymás",
+              "tejszínes",
+              "snidlinges",
+              "gyümölcsös",
+              "borsos",
+              "chilis",
+              "gombás",
+              "fűszeres",
+              "paradicsomos-bazsalikomos",
+              "bazsalikomos"
+            ],
+            "fajta": [
+              "parenyica",
+              "ömlesztett",
               "egyéb"
             ]
           }
@@ -10564,7 +10785,9 @@
                   "cottage",
                   "körözött",
                   "friss krémsajt",
-                  "egyéb"
+                  "egyéb",
+                  "feta",
+                  "kecskesajt"
                 ]
               }
             },
@@ -10579,7 +10802,12 @@
                   "gouda",
                   "edami",
                   "pannónia",
-                  "egyéb"
+                  "egyéb",
+                  "parenyica",
+                  "cheddar",
+                  "maasdam",
+                  "butterkäse",
+                  "kecskesajt"
                 ]
               }
             },
@@ -10594,7 +10822,9 @@
                   "parmezán",
                   "cheddar",
                   "kashkaval",
-                  "egyéb"
+                  "egyéb",
+                  "grana padano",
+                  "gruyère"
                 ]
               }
             },
@@ -10656,6 +10886,11 @@
               "tubus",
               "doboz",
               "egyéb"
+            ],
+            "márka": [
+              "Kokárdás",
+              "Univer",
+              "egyéb"
             ]
           },
           "csoportos": {
@@ -10665,7 +10900,12 @@
               "fűszeres",
               "tonhalas",
               "sajtos",
-              "egyéb"
+              "egyéb",
+              "magyaros",
+              "fokhagymás",
+              "snidlinges",
+              "kapros",
+              "csípős paprikás"
             ]
           }
         },
@@ -10683,6 +10923,15 @@
               "tégely",
               "multipack",
               "egyéb"
+            ],
+            "márka": [
+              "Milsani",
+              "Danette",
+              "Müller",
+              "egyéb",
+              "Zott",
+              "Cucina",
+              "Kinder"
             ]
           },
           "csoportos": {
@@ -10692,7 +10941,11 @@
               "karamellás",
               "epres",
               "egyéb",
-              "natúr"
+              "natúr",
+              "meggyes",
+              "fahéjas",
+              "mogyorós",
+              "mézes"
             ]
           }
         },
@@ -10750,6 +11003,11 @@
               "pohár",
               "tégely",
               "tálca",
+              "egyéb"
+            ],
+            "márka": [
+              "MyVay",
+              "Alpro",
               "egyéb"
             ]
           },
@@ -10875,6 +11133,12 @@
               "doboz",
               "tálca",
               "egyéb"
+            ],
+            "márka": [
+              "FARM",
+              "egyéb",
+              "Goldland",
+              "Kokárdás"
             ]
           },
           "csoportos": {

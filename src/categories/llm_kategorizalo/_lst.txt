@@ -1,31 +1,5 @@
-#1887 ZOTT Jogobella gyümölcsjoghurt laktózmentes erdei gyümölcs, 150 g  [150.0 g]
-  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
-    [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb']
-
-#1888 ZOTT Jogobella Panna Cotta áfonyás, 150 g  [150.0 g]
-  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
-    [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb']
-
-#1889 SZARVASI Mozzarella snack füstölt 20 g  [20.0 g]
-  PATH: Tejtermékek és tojás > Sajt > Friss / lágy sajt
+#2112 CUCINA NOBILE Gorgonzola piccante, 200 g  [200.0 g]
+  PATH: Tejtermékek és tojás > Sajt > Penészes sajt
     [flag] bio
     [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
     [flag] érlelt
@@ -33,11 +7,12 @@
     [flag] light / csökkentett zsír
     [flag] készítmény (növényi zsiradékkal)
     [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
-    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb']
-    [multi] fajta: ['mozzarella', 'ricotta', 'cottage', 'körözött', 'friss krémsajt', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['camembert', 'brie', 'kékpenészes', 'egyéb']
 
-#1890 SZARVASI Mozzarella snack natúr 20 g  [20.0 g]
-  PATH: Tejtermékek és tojás > Sajt > Friss / lágy sajt
+#2113 CUCINA NOBILE Gorgonzola dolce, 200 g  [200.0 g]
+  PATH: Tejtermékek és tojás > Sajt > Penészes sajt
     [flag] bio
     [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
     [flag] érlelt
@@ -45,221 +20,51 @@
     [flag] light / csökkentett zsír
     [flag] készítmény (növényi zsiradékkal)
     [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
-    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb']
-    [multi] fajta: ['mozzarella', 'ricotta', 'cottage', 'körözött', 'friss krémsajt', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['camembert', 'brie', 'kékpenészes', 'egyéb']
 
-#1891 MILSANI Nemzetek joghurtja citromos, 150 g  [150.0 g]
-  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
+#2114 LYTTOS Halloumi jellegű grillsajt chilis, 225 g  [225.0 g]
+  PATH: Tejtermékek és tojás > Sajt > Grillsajt / halloumi / sütnivaló
     [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
     [flag] laktózmentes
-    [flag] ízesített
     [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb']
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['parenyica', 'ömlesztett', 'egyéb']
 
-#1892 MILSANI Nemzetek joghurtja mézes diós, 150 g  [150.0 g]
-  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
+#2115 LYTTOS Halloumi grillsajt, 225 g  [225.0 g]
+  PATH: Tejtermékek és tojás > Sajt > Grillsajt / halloumi / sütnivaló
     [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
     [flag] laktózmentes
-    [flag] ízesített
     [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb']
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['parenyica', 'ömlesztett', 'egyéb']
 
-#1893 MILSANI Nemzetek joghurtja ananászos-kókuszos, 150 g  [150.0 g]
-  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
+#2116 LYTTOS Halloumi jellegű grillsajt bazsalikomos, 225 g  [225.0 g]
+  PATH: Tejtermékek és tojás > Sajt > Grillsajt / halloumi / sütnivaló
     [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
     [flag] laktózmentes
-    [flag] ízesített
     [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb']
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['parenyica', 'ömlesztett', 'egyéb']
 
-#1894 MILSANI Nemzetek joghurtja almás, fahéjas, mazsolás, 150 g  [150.0 g]
-  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
-    [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb']
-
-#1895 MILFINA Laktózmentes gyümölcsjoghurt meggy, 180 g  [180.0 g]
-  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
-    [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb']
-
-#1896 MILFINA Laktózmentes gyümölcsjoghurt mangó, 180 g  [180.0 g]
-  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
-    [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb']
-
-#1897 MILFINA Laktózmentes gyümölcsjoghurt vanília, 180 g  [180.0 g]
-  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
-    [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb']
-
-#1898 NÁDUDVARI Réteges krémjoghurt kajszibarack, 180 g  [180.0 g]
-  PATH: Tejtermékek és tojás > Joghurt > Krémjoghurt
-    [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-
-#1899 NÁDUDVARI Réteges krémjoghurt áfonya, 180 g  [180.0 g]
-  PATH: Tejtermékek és tojás > Joghurt > Krémjoghurt
-    [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-
-#1900 ENJOY FREE! Zabrudi gránátalmás töltelékkel, hozzáadott cukor nélkül, vegetáriánus, 30 g  [30.0 g]
-  PATH: Alapanyag, sütés-főzés > Gabonapehely, reggeli müzli > Müzliszelet, gyümölcsszelet
-    [single] kiszerelés: ['doboz', 'üveg', 'tasak', 'flakon', 'zacskó', 'tubus', 'egyéb']
-    [flag] hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [flag] instant
-    [single] márka: ['Enjoy Free!', 'Golden Bridge', 'Cini-Minis', 'Nesquik', 'Nestlé', 'egyéb']
-    [flag] bio
-    [flag] gluténmentes
-    [flag] édesítőszerrel
-    [flag] csökkentett cukortartalmú
-    [multi] alap: ['zab', 'kukorica', 'rizs', 'búza', 'tönköly', 'granola', 'müzli', 'gyümölcs', 'egyéb']
-    [multi] íz / hozzáadott: ['csokoládé', 'méz', 'vörös áfonya', 'meggy', 'erdei gyümölcs', 'banán', 'fahéj', 'mogyoró', 'mandula', 'gyümölcsös', 'trió', 'eper', 'áfonya', 'tejcsokoládé', 'földimogyoró', 'joghurt', 'natúr', 'málna', 'mag', 'kókusz', 'keksz', 'klasszikus', 'piros gyümölcs', 'sós karamell', 'vanília', 'triplacsokoládé', 'gyümölcsös-magvas', 'mézes-magvas', 'kakaó', 'mazsola', 'egyéb']
-    [multi] forma: ['pehely', 'golyó', 'chips', 'párnácska', 'tallér', 'keverék', 'ropogós müzli']
-
-#1901 MILSANI Puding tejszínhabbal vaníliás, 200 g  [200.0 g]
-  PATH: Tejtermékek és tojás > Tejdesszert, puding > Puding
-    [flag] bio
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'tégely', 'multipack', 'egyéb']
-    [multi] íz: ['vaníliás', 'csokoládés', 'karamellás', 'epres', 'egyéb', 'natúr']
-
-#1902 MILSANI Puding tejszínhabbal kakaós, 200 g  [200.0 g]
-  PATH: Tejtermékek és tojás > Tejdesszert, puding > Puding
-    [flag] bio
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'tégely', 'multipack', 'egyéb']
-    [multi] íz: ['vaníliás', 'csokoládés', 'karamellás', 'epres', 'egyéb', 'natúr']
-
-#1903 MILSANI High Protein áfonyás joghurt, fehérjében gazdag, laktózmentes, hozzáadott cukor nélkül, 200 g  [1.0 db]
-  PATH: Tejtermékek és tojás > Joghurt > Skyr / proteinjoghurt
-    [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-
-#1904 MILSANI High Protein málnás-gránátalmás joghurt, fehérjében gazdag, laktózmentes, hozzáadott cukor nélkül, 200 g  [1.0 db]
-  PATH: Tejtermékek és tojás > Joghurt > Skyr / proteinjoghurt
-    [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-
-#1905 MILSANI High Protein őszibarackos-narancsos joghurt, fehérjében gazdag, laktózmentes, hozzáadott cukor nélkül, 200 g  [1.0 db]
-  PATH: Tejtermékek és tojás > Joghurt > Skyr / proteinjoghurt
-    [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-
-#1906 MILSANI High Protein epres joghurt, fehérjében gazdag, laktózmentes, hozzáadott cukor nélkül, 200 g  [1.0 db]
-  PATH: Tejtermékek és tojás > Joghurt > Skyr / proteinjoghurt
-    [flag] bio
-    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
-
-#1907 MILFINA Ayran enyhén sózott joghurtital, 250 g  [250.0 g]
-  PATH: Tejtermékek és tojás > Ivójoghurt, kefir, író > Ivójoghurt
-    [flag] bio
-    [flag] élőflórás/probiotikus
-    [flag] laktózmentes
-    [flag] ízesített
-    [flag] light / csökkentett zsír
-    [flag] cukormentes / hozzáadott cukor nélkül
-    [flag] protein / magas fehérje
-    [single] kiszerelés: ['palack', 'flakon', 'doboz', 'pohár', 'egyéb']
-    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'egyéb']
-
-#1908 KOKÁRDÁS Túródesszert kekszes, 100 g  [100.0 g]
-  PATH: Tejtermékek és tojás > Krémtúró, túródesszert > Natúr krémtúró
+#2117 PÖTTYÖS Túró rudi 0% hozzáadott cukorral brownie-ízű, 6 x 35 g  [210.0 g]
+  PATH: Tejtermékek és tojás > Krémtúró, túródesszert > Túró Rudi jellegű túródesszert
     [flag] bio
     [flag] bevonatos
     [flag] laktózmentes
@@ -268,9 +73,11 @@
     [flag] cukormentes / hozzáadott cukor nélkül
     [flag] protein / magas fehérje
     [single] kiszerelés: ['pohár', 'tubus', 'tégely', 'multipack', 'egyéb']
+    [single] márka: ['Kokárdás', 'Pöttyös', 'Danone', 'egyéb', 'Milli']
+    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'egyéb', 'kekszes', 'karamellás', 'mazsolás']
 
-#1909 KOKÁRDÁS Túródesszert mazsolás, 100 g  [100.0 g]
-  PATH: Tejtermékek és tojás > Krémtúró, túródesszert > Natúr krémtúró
+#2118 PÖTTYÖS Túró rudi 0% hozzáadott cukorral natúr, 6 x 35 g  [210.0 g]
+  PATH: Tejtermékek és tojás > Krémtúró, túródesszert > Túró Rudi jellegű túródesszert
     [flag] bio
     [flag] bevonatos
     [flag] laktózmentes
@@ -279,9 +86,11 @@
     [flag] cukormentes / hozzáadott cukor nélkül
     [flag] protein / magas fehérje
     [single] kiszerelés: ['pohár', 'tubus', 'tégely', 'multipack', 'egyéb']
+    [single] márka: ['Kokárdás', 'Pöttyös', 'Danone', 'egyéb', 'Milli']
+    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'egyéb', 'kekszes', 'karamellás', 'mazsolás']
 
-#1910 KOKÁRDÁS Túródesszert karamellás 100 g  [100.0 g]
-  PATH: Tejtermékek és tojás > Krémtúró, túródesszert > Natúr krémtúró
+#2119 PÖTTYÖS Túró rudi óriás natúr, 6 x 51 g  [306.0 g]
+  PATH: Tejtermékek és tojás > Krémtúró, túródesszert > Túró Rudi jellegű túródesszert
     [flag] bio
     [flag] bevonatos
     [flag] laktózmentes
@@ -290,9 +99,11 @@
     [flag] cukormentes / hozzáadott cukor nélkül
     [flag] protein / magas fehérje
     [single] kiszerelés: ['pohár', 'tubus', 'tégely', 'multipack', 'egyéb']
+    [single] márka: ['Kokárdás', 'Pöttyös', 'Danone', 'egyéb', 'Milli']
+    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'egyéb', 'kekszes', 'karamellás', 'mazsolás']
 
-#1911 KOKÁRDÁS Túródesszert vanília ízű 100 g  [100.0 g]
-  PATH: Tejtermékek és tojás > Krémtúró, túródesszert > Natúr krémtúró
+#2120 PÖTTYÖS Túró rudi pisztáciás, 6 x 35 g  [210.0 g]
+  PATH: Tejtermékek és tojás > Krémtúró, túródesszert > Túró Rudi jellegű túródesszert
     [flag] bio
     [flag] bevonatos
     [flag] laktózmentes
@@ -301,4 +112,219 @@
     [flag] cukormentes / hozzáadott cukor nélkül
     [flag] protein / magas fehérje
     [single] kiszerelés: ['pohár', 'tubus', 'tégely', 'multipack', 'egyéb']
+    [single] márka: ['Kokárdás', 'Pöttyös', 'Danone', 'egyéb', 'Milli']
+    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'egyéb', 'kekszes', 'karamellás', 'mazsolás']
+
+#2121 PÖTTYÖS Túró rudi óriás, laktózmentes, 6 x 51 g  [306.0 g]
+  PATH: Tejtermékek és tojás > Krémtúró, túródesszert > Túró Rudi jellegű túródesszert
+    [flag] bio
+    [flag] bevonatos
+    [flag] laktózmentes
+    [flag] ízesített
+    [flag] light / csökkentett zsír
+    [flag] cukormentes / hozzáadott cukor nélkül
+    [flag] protein / magas fehérje
+    [single] kiszerelés: ['pohár', 'tubus', 'tégely', 'multipack', 'egyéb']
+    [single] márka: ['Kokárdás', 'Pöttyös', 'Danone', 'egyéb', 'Milli']
+    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'egyéb', 'kekszes', 'karamellás', 'mazsolás']
+
+#2122 CUCINA Grana Padano olasz keménysajt, 16 hónapig érlelt, 250 g  [250.0 g]
+  PATH: Tejtermékek és tojás > Sajt > Kemény sajt
+    [flag] bio
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
+    [flag] laktózmentes
+    [flag] light / csökkentett zsír
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['ementáli', 'parmezán', 'cheddar', 'kashkaval', 'egyéb', 'grana padano']
+
+#2123 KOKÁRDÁS Trappista sajt, /kg  [ g]
+  PATH: Tejtermékek és tojás > Sajt > Félkemény sajt
+    [flag] bio
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
+    [flag] laktózmentes
+    [flag] light / csökkentett zsír
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['trappista', 'gouda', 'edami', 'pannónia', 'egyéb', 'parenyica', 'cheddar', 'maasdam', 'butterkäse']
+
+#2124 MILSANI Extra pikáns holland gouda sajt, laktózmentes, 265 g  [265.0 g]
+  PATH: Tejtermékek és tojás > Sajt > Félkemény sajt
+    [flag] bio
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
+    [flag] laktózmentes
+    [flag] light / csökkentett zsír
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['trappista', 'gouda', 'edami', 'pannónia', 'egyéb', 'parenyica', 'cheddar', 'maasdam', 'butterkäse']
+
+#2125 MILSANI Pikáns holland gouda sajt, laktózmentes, 400 g  [400.0 g]
+  PATH: Tejtermékek és tojás > Sajt > Félkemény sajt
+    [flag] bio
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
+    [flag] laktózmentes
+    [flag] light / csökkentett zsír
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['trappista', 'gouda', 'edami', 'pannónia', 'egyéb', 'parenyica', 'cheddar', 'maasdam', 'butterkäse']
+
+#2126 MEINE KÄSETHEKE Svájci sajtválogatás Château Heitenried, 160 g  [160.0 g]
+  PATH: Tejtermékek és tojás > Sajt > Kemény sajt
+    [flag] bio
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
+    [flag] laktózmentes
+    [flag] light / csökkentett zsír
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['ementáli', 'parmezán', 'cheddar', 'kashkaval', 'egyéb', 'grana padano']
+
+#2127 MEINE KÄSETHEKE Svájci sajtválogatás Lustenberger 1862, 200 g  [200.0 g]
+  PATH: Tejtermékek és tojás > Sajt > Kemény sajt
+    [flag] bio
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
+    [flag] laktózmentes
+    [flag] light / csökkentett zsír
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['ementáli', 'parmezán', 'cheddar', 'kashkaval', 'egyéb', 'grana padano']
+
+#2128 MEINE KÄSETHEKE Svájci sajtválogatás Le Gruyére AOP, 200 g  [200.0 g]
+  PATH: Tejtermékek és tojás > Sajt > Kemény sajt
+    [flag] bio
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
+    [flag] laktózmentes
+    [flag] light / csökkentett zsír
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['ementáli', 'parmezán', 'cheddar', 'kashkaval', 'egyéb', 'grana padano']
+
+#2129 TOLLE Trappista sajt / kg  [ g]
+  PATH: Tejtermékek és tojás > Sajt > Félkemény sajt
+    [flag] bio
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
+    [flag] laktózmentes
+    [flag] light / csökkentett zsír
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['trappista', 'gouda', 'edami', 'pannónia', 'egyéb', 'parenyica', 'cheddar', 'maasdam', 'butterkäse']
+
+#2130 MILSANI Kecskesajt laktózmentes, 250 g  [250.0 g]
+  PATH: Tejtermékek és tojás > Sajt > Félkemény sajt
+    [flag] bio
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
+    [flag] laktózmentes
+    [flag] light / csökkentett zsír
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['trappista', 'gouda', 'edami', 'pannónia', 'egyéb', 'parenyica', 'cheddar', 'maasdam', 'butterkäse']
+
+#2131 BONLÀ Olasz keménysajt, /kg  [ g]
+  PATH: Tejtermékek és tojás > Sajt > Kemény sajt
+    [flag] bio
+    [single] forma: ['tömb', 'szeletelt', 'reszelt', 'gerezd', 'kocka', 'golyó', 'mini', 'rudacska', 'kenhető', 'korong', 'egyéb']
+    [flag] érlelt
+    [flag] laktózmentes
+    [flag] light / csökkentett zsír
+    [flag] készítmény (növényi zsiradékkal)
+    [single] kiszerelés: ['tálca', 'tasak', 'doboz', 'vákuumcsomagolt', 'tubus', 'egyéb']
+    [single] márka: ['Szarvasi', 'Galbani', 'Président', 'Medve', 'egyéb', 'Kokárdás', 'Ammerländer', 'Milsani', 'Desira', 'Hofburger', 'Roi de Trefle', 'Tihany', 'Lyttos', 'Cucina', 'Hajdú', 'Regione che vai', 'BBQ']
+    [multi] ízesítés: ['natúr', 'füstölt', 'chili-lime', 'gyros', 'mézes-mustáros', 'zöldfűszeres', 'sonkás', 'paprikás', 'egyéb', 'szalámis', 'fokhagymás', 'tejszínes', 'snidlinges', 'gyümölcsös', 'borsos', 'chilis', 'gombás', 'fűszeres', 'paradicsomos-bazsalikomos']
+    [multi] fajta: ['ementáli', 'parmezán', 'cheddar', 'kashkaval', 'egyéb', 'grana padano']
+
+#2132 ZOTT Jogobella 0% zsírszegény joghurt, hozzáadott cukor nélkül, meggy, 150 g  [150.0 g]
+  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
+    [flag] bio
+    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
+    [flag] élőflórás/probiotikus
+    [flag] laktózmentes
+    [flag] ízesített
+    [flag] light / csökkentett zsír
+    [flag] cukormentes / hozzáadott cukor nélkül
+    [flag] protein / magas fehérje
+    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
+    [single] márka: ['Zott', 'Milsani', 'Milfina', 'Nádudvari', 'Danone', 'Müller', 'Milli', 'Mizo', 'egyéb', 'Cserpes', 'Kokárdás', 'Lyttos']
+    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb', 'mézes-diós', 'almás-fahéjas', 'mangós', 'körte', 'szilvás', 'gabonapelyhes', 'narancsos', 'mézes', 'stracciatella']
+
+#2133 ZOTT Jogobella 0% zsírszegény joghurt, hozzáadott cukor nélkül, eper, 150 g  [150.0 g]
+  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
+    [flag] bio
+    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
+    [flag] élőflórás/probiotikus
+    [flag] laktózmentes
+    [flag] ízesített
+    [flag] light / csökkentett zsír
+    [flag] cukormentes / hozzáadott cukor nélkül
+    [flag] protein / magas fehérje
+    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
+    [single] márka: ['Zott', 'Milsani', 'Milfina', 'Nádudvari', 'Danone', 'Müller', 'Milli', 'Mizo', 'egyéb', 'Cserpes', 'Kokárdás', 'Lyttos']
+    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb', 'mézes-diós', 'almás-fahéjas', 'mangós', 'körte', 'szilvás', 'gabonapelyhes', 'narancsos', 'mézes', 'stracciatella']
+
+#2134 MILSANI Joghurt gyümölccsel őszibarackos-maracujás 150 g  [150.0 g]
+  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
+    [flag] bio
+    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
+    [flag] élőflórás/probiotikus
+    [flag] laktózmentes
+    [flag] ízesített
+    [flag] light / csökkentett zsír
+    [flag] cukormentes / hozzáadott cukor nélkül
+    [flag] protein / magas fehérje
+    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
+    [single] márka: ['Zott', 'Milsani', 'Milfina', 'Nádudvari', 'Danone', 'Müller', 'Milli', 'Mizo', 'egyéb', 'Cserpes', 'Kokárdás', 'Lyttos']
+    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb', 'mézes-diós', 'almás-fahéjas', 'mangós', 'körte', 'szilvás', 'gabonapelyhes', 'narancsos', 'mézes', 'stracciatella']
+
+#2135 MILSANI Joghurt gyümölccsel, meggy, 150 g  [150.0 g]
+  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
+    [flag] bio
+    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
+    [flag] élőflórás/probiotikus
+    [flag] laktózmentes
+    [flag] ízesített
+    [flag] light / csökkentett zsír
+    [flag] cukormentes / hozzáadott cukor nélkül
+    [flag] protein / magas fehérje
+    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
+    [single] márka: ['Zott', 'Milsani', 'Milfina', 'Nádudvari', 'Danone', 'Müller', 'Milli', 'Mizo', 'egyéb', 'Cserpes', 'Kokárdás', 'Lyttos']
+    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb', 'mézes-diós', 'almás-fahéjas', 'mangós', 'körte', 'szilvás', 'gabonapelyhes', 'narancsos', 'mézes', 'stracciatella']
+
+#2136 MILSANI Joghurt gyümölccsel, kiwi, 150 g  [150.0 g]
+  PATH: Tejtermékek és tojás > Joghurt > Gyümölcsös/ízesített joghurt
+    [flag] bio
+    [single] zsírtartalom: ['sovány', 'zsírszegény', 'teljes', 'krémes 10%', 'egyéb']
+    [flag] élőflórás/probiotikus
+    [flag] laktózmentes
+    [flag] ízesített
+    [flag] light / csökkentett zsír
+    [flag] cukormentes / hozzáadott cukor nélkül
+    [flag] protein / magas fehérje
+    [single] kiszerelés: ['pohár', 'vödör', 'palack', 'multipack', 'egyéb']
+    [single] márka: ['Zott', 'Milsani', 'Milfina', 'Nádudvari', 'Danone', 'Müller', 'Milli', 'Mizo', 'egyéb', 'Cserpes', 'Kokárdás', 'Lyttos']
+    [multi] íz: ['epres', 'málnás', 'őszibarackos', 'vaníliás', 'erdei gyümölcs', 'meggyes', 'áfonyás', 'banános', 'csokoládés', 'kávés', 'citromos', 'kókuszos', 'natúr', 'sárgabarackos', 'ananászos', 'egyéb', 'mézes-diós', 'almás-fahéjas', 'mangós', 'körte', 'szilvás', 'gabonapelyhes', 'narancsos', 'mézes', 'stracciatella']
 

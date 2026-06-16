@@ -32,6 +32,15 @@ Ha a termékre jellemző adat nem fér be a fába, NE ejtsd `"egyéb"`-re csendb
 - Hiányzó **tulajdonságcsoport** (pl. nincs hova írni egy fontos jellemzőt) → vedd fel.
 - Hiányzó **altípus / alkategória** (a termék külön altípust kíván) → vedd fel.
 
+**Gondolkodj végig MINDEN jellemző tulajdonságot:** márka, íz/ízesítés, forma/alak,
+szín, zsírtartalom, érzékenység (laktóz-/gluténmentes, bio) stb. — ami az adott termékre
+jellemző. Ha a path-on nincs hozzá slot (pl. a joghurtnál sokáig NEM volt `márka`, a
+Krémjoghurt/Skyr-en nem volt `íz`), az a fa hiányossága → előbb VEDD FEL (lehetőleg
+alkategória-szinten, hogy az altípusok örököljék), majd töltsd ki. A `márka` egyedi lista
+a konkrét márkákkal + `egyéb`; a márka a terméknévből kiolvasható (a `brand_name` mező
+gyakran üres). FIGYELEM: új tulajdonság felvétele visszamenőleg hiányossá teszi a korábbi
+rekordokat is arra a slotra → ld. 6. pont (backlog), az `audit.py` jelzi.
+
 A bővítés a `kategoriak_2026-06-13.json`-ba megy; az `1005` fa richness-ét sosem
 csökkentjük (MERGE, nem felülírás). A bővítés után a tulajdonságot ténylegesen töltsd ki.
 
@@ -101,9 +110,41 @@ A felülvizsgálat 25-ös csoportokban megy, montázzsal (hatékony képnézés)
 
 **Eddigi fa-bővítések (példák):** Hotdog márka←Azon Melegében; Egyéb édes márka←egyéb;
 Tortilla íz←chilis/kukoricás/natúr/egyéb; Tejdesszert íz←natúr; Joghurt-Gyümölcsös
-íz←sárgabarackos/ananászos.
+íz←sárgabarackos/ananászos; Joghurt-Gyümölcsös íz←mézes-diós/almás-fahéjas/mangós;
+Túró Rudi jellegű íz←kekszes/karamellás/mazsolás; Müzliszelet forma←szelet, íz/hozzáadott←gránátalma.
+**Márka-slot felvéve** (alkat-szinten) a Joghurt/Sajt/Krémtúró/Tejdesszert-puding/
+Ivójoghurt ágba; **íz-slot felvéve** a Krémjoghurt és Skyr altípusra (+gránátalmás/narancsos).
+**2. kör (1912–1986):** márka-slot a Tejszín/Margarin/Vaj/Tej/Tejital-jegeskávé/Tejföl/
+Sajtkrém-szendvicskrém/Túró ágba is; márkák bővítve (Kokárdás/Ammerländer/Cserpes/Milli/
+Milsani/Zott/Hell/Hajdú/Nádudvari/Riska/Tolle/Delma/Bellasan/Barissimo); íz-slot a Krémtúró
+alkat-szintre; íz-értékek: Joghurt←körte, Ivójoghurt←maracuja, Tejdesszert←meggyes/fahéjas,
+Tejital←sós karamellás; Sajt fajta←parenyica, ízesítés←fokhagymás/szalámis; Szendvicskrém
+íz←magyaros/fokhagymás; Tejföl zsírtartalom←25%; Csokoládé szelet hozzáadott darabok←puffasztott rizs.
+
+**Altipus-javítás (példa):** Kokárdás ízesített túródesszert (kekszes/mazsolás/karamellás/
+vanília) → „Natúr krémtúró" helyett „Túró Rudi jellegű túródesszert" (van íz-slot).
+
+**3. kör (1987–2036):** új márkák (Mizo/Vénusz/Milram/Lyttos/Bio Natura/Desira/Hofburger/
+Cucina/FARM/Globetti); márka-slot felvéve a Tojás ágba is; íz-bővítés Joghurtnál
+(narancsos/mézes/szilvás/gabonapelyhes/stracciatella), Krémtúrónál (mangós), Tejdesszertnél
+(mogyorós); Sajt ízesítés←tejszínes/snidlinges/gyümölcsös/borsos, fajta←ömlesztett/egyéb/cheddar;
+Szendvicskrém íz←snidlinges/kapros/csípős paprikás; Tejföl zsírtartalom←15%.
+
+**4. kör (2037–2136):** sok sajt + hummusz + növényi krém + tojás. Új márkák
+(Wonnemeyer/Goldland/Roi de Trefle/Tihany/Lyttos/Cucina/Cucina Nobile/Hajdú/Regione che vai/
+BBQ/Meine Käsetheke/Tolle/Bonlà/Milli/MyVay); márka-slot a Növényi alternatíva ágba is.
+Új fajták: feta/kecskesajt (Friss/lágy), maasdam/butterkäse/kecskesajt (Félkemény),
+grana padano/gruyère (Kemény); új ízesítés: chilis/gombás/fűszeres/bazsalikomos/
+paradicsomos-bazsalikomos; íz: Görög joghurt-slot felvéve, Túró Rudi←pisztáciás,
+Gyümölcsös joghurt←maracuja/kiwis; hummusz íz←pesztós/paprikás/fenyőmagos/avokádós.
+**Altipus-javítás:** #2042 „Krémfehér sajt" (Hirtenkäse=feta) → Friss/lágy sajt.
+**Javítás:** Ömlesztett sajt fajta-listájába ömlesztett/egyéb (addig csak parenyica).
 
 **HALADÁS (frissítendő minden kör után):** az `eredmeny.json` indexei közül a
-**1700–1886** tartomány már TELJESEN kitöltve (kép-vizsgálva). A következő feldolgozandó
-index: **1887**. Az 1700 alatti (0–1699) rekordok a GPT/verseny-korpusz, nem ide tartoznak.
-(A pontos állást bármikor újraszámolja az `audit.py`.)
+**1700–2136** tartomány már TELJESEN kitöltve (kép-vizsgálva, márkával). A következő
+feldolgozandó index: **2137**. Az 1700 alatti (0–1699) rekordok a GPT/verseny-korpusz, nem
+ide tartoznak. (A pontos állást bármikor újraszámolja az `audit.py`.)
+
+**Backlog (márka-slot miatt):** mivel a márka-tulajdonságot több tejtermék-ágba utólag
+vettük fel, a korábbi (1700–1911) és a még feldolgozatlan (1987+) rekordok azokon az
+ágakon márka nélkül maradtak → ezeket a soron következő körökben pótolni kell (6. pont).

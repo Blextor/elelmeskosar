@@ -78790,10 +78790,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
       "laktózmentes": true,
-      "ízesített": true
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "erdei gyümölcs"
+      ],
+      "márka": "Zott"
     },
-    "kategoria_hash": "1ffd701206e9525624959c1060e1ca27cfd0b09029ccc09f505bfb9aaa8d3161",
+    "kategoria_hash": "45fd9025a47b2fa94e675b4e1ced4ad4462b88303f1983420dc851b329808a1c",
     "statusz": "kesz"
   },
   {
@@ -78821,9 +78832,22 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "krémes 10%",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "áfonyás",
+        "vaníliás"
+      ],
+      "márka": "Zott"
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "f450c3ff19cbb4d925f9902f66d813555c9dab56174bfbb5c07972473a7562c3",
     "statusz": "kesz"
   },
   {
@@ -78851,12 +78875,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
-      "forma": "rudacska",
+      "bio": false,
+      "forma": "mini",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
       "ízesítés": [
         "füstölt"
-      ]
+      ],
+      "fajta": [
+        "mozzarella"
+      ],
+      "márka": "Szarvasi"
     },
-    "kategoria_hash": "098aba445e0a6dbebb897bcd811bbbdf34a8e1e2370e0d4ff07f159b6eed89b0",
+    "kategoria_hash": "1454219fd199174fbd2fe63483a0b21e70cc30c7c17115f23af19b1545f1af75",
     "statusz": "kesz"
   },
   {
@@ -78884,12 +78918,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
-      "forma": "rudacska",
+      "bio": false,
+      "forma": "mini",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
       "ízesítés": [
         "natúr"
-      ]
+      ],
+      "fajta": [
+        "mozzarella"
+      ],
+      "márka": "Szarvasi"
     },
-    "kategoria_hash": "0ca6544a2d293946bf9135e24e836895cfa84b4c581515658901b5515443dafb",
+    "kategoria_hash": "438016cfa0facd5bcce354ac95371fbfee326ba29d967521e275594ded3c07f6",
     "statusz": "kesz"
   },
   {
@@ -78917,9 +78961,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "citromos"
+      ],
+      "márka": "Milsani"
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "b6ddef50e68dafa6cc9351fd7abac54f4406edf83ccec0d3a0f0b8ebc5673b60",
     "statusz": "kesz"
   },
   {
@@ -78947,9 +79003,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "mézes-diós"
+      ],
+      "márka": "Milsani"
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "829504c48bd7f13ed5ad55a1609fc2fa8495eea7ed7bfa480330269804a62832",
     "statusz": "kesz"
   },
   {
@@ -78977,9 +79045,22 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "ananászos",
+        "kókuszos"
+      ],
+      "márka": "Milsani"
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "a80996f252e50a0cce6914e7c6f8af34ad06ec45ef836eae3051810e19aa2eb3",
     "statusz": "kesz"
   },
   {
@@ -79007,9 +79088,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "almás-fahéjas"
+      ],
+      "márka": "Milsani"
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "82f067d0b36579065b48cabb3b590c61ac0cc2a647ea579c4df3181d85f9b7ce",
     "statusz": "kesz"
   },
   {
@@ -79037,10 +79130,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
       "laktózmentes": true,
-      "ízesített": true
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "meggyes"
+      ],
+      "márka": "Milfina"
     },
-    "kategoria_hash": "1ffd701206e9525624959c1060e1ca27cfd0b09029ccc09f505bfb9aaa8d3161",
+    "kategoria_hash": "16417b4c835bcaaf3dc699dedc87a2d39449cd79a5298cc9da40b0ceba035828",
     "statusz": "kesz"
   },
   {
@@ -79068,10 +79172,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
       "laktózmentes": true,
-      "ízesített": true
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "mangós"
+      ],
+      "márka": "Milfina"
     },
-    "kategoria_hash": "1ffd701206e9525624959c1060e1ca27cfd0b09029ccc09f505bfb9aaa8d3161",
+    "kategoria_hash": "787fc273384d377b38812df42716337733d471563831183843b67d13e88bbffb",
     "statusz": "kesz"
   },
   {
@@ -79099,10 +79214,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
       "laktózmentes": true,
-      "ízesített": true
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "vaníliás"
+      ],
+      "márka": "Milfina"
     },
-    "kategoria_hash": "1ffd701206e9525624959c1060e1ca27cfd0b09029ccc09f505bfb9aaa8d3161",
+    "kategoria_hash": "bb512bb35b36bafd8ae9e9c23851564483116f1956eaff275445acae90081aef",
     "statusz": "kesz"
   },
   {
@@ -79130,9 +79256,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Krémjoghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "krémes 10%",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Nádudvari",
+      "íz": [
+        "sárgabarackos"
+      ]
     },
-    "kategoria_hash": "4e33b992364a0a8e29f85518e98ccabe0fb2717fad7470aacd0142ced7f18a8f",
+    "kategoria_hash": "3af63de8a3fbf65d85916d4ef54fdb0643a27ccfe66d73217e5e269fcce14fcb",
     "statusz": "kesz"
   },
   {
@@ -79160,9 +79298,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Krémjoghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "krémes 10%",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Nádudvari",
+      "íz": [
+        "áfonyás"
+      ]
     },
-    "kategoria_hash": "4e33b992364a0a8e29f85518e98ccabe0fb2717fad7470aacd0142ced7f18a8f",
+    "kategoria_hash": "4e5826469b15499391ecdeff39f66c3d1ea6a4ca58ec02c021eb0fb282d7cbcd",
     "statusz": "kesz"
   },
   {
@@ -79190,9 +79340,26 @@
     "alkategoria": "Gabonapehely, reggeli müzli",
     "altipus": "Müzliszelet, gyümölcsszelet",
     "tulajdonsagok": {
-      "gluténmentes": true
+      "kiszerelés": "egyéb",
+      "hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
+      "instant": false,
+      "márka": "Enjoy Free!",
+      "bio": false,
+      "gluténmentes": false,
+      "édesítőszerrel": false,
+      "csökkentett cukortartalmú": false,
+      "alap": [
+        "zab"
+      ],
+      "íz / hozzáadott": [
+        "gránátalma"
+      ],
+      "forma": [
+        "szelet"
+      ]
     },
-    "kategoria_hash": "40ba15625d7582ebaa04a38b02fac116712666c5cb22be9bcfa49ebcd1593bbc",
+    "kategoria_hash": "6b42e7fdcbaa33e2630e50a409e4105bdebe81c95186d2e3f6d7d345321c8eae",
     "statusz": "kesz"
   },
   {
@@ -79220,12 +79387,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Puding",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
       "íz": [
         "vaníliás"
-      ]
+      ],
+      "márka": "Milsani"
     },
-    "kategoria_hash": "4ced15dd2b3178cb878c74f6ad121542a2ca139690d70cb6a0af49a6f30254ee",
+    "kategoria_hash": "b5bd9135177fad7665fb285720d9736b27a0ea5e1d1784c6201cf4ef97ff0741",
     "statusz": "kesz"
   },
   {
@@ -79253,12 +79426,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Puding",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
       "íz": [
         "csokoládés"
-      ]
+      ],
+      "márka": "Milsani"
     },
-    "kategoria_hash": "f33ca32a6180d599388627375b472e94e999ee4aaa816d6c0b429518919ef47c",
+    "kategoria_hash": "dd17b2a74a1b62ee9fd91748c2673d17c9ca0709fdd520de886076bf233bca9b",
     "statusz": "kesz"
   },
   {
@@ -79286,10 +79465,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Skyr / proteinjoghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "sovány",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": true,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
       "protein / magas fehérje": true,
-      "ízesített": true
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "áfonyás"
+      ]
     },
-    "kategoria_hash": "91d2c434a35812de149b2f6efae3c21b3157ebc96110693269377093c411bc54",
+    "kategoria_hash": "dba8b438a176f9b51eb3514d54a68abc4ac9c61a8f73201472db01434b259e24",
     "statusz": "kesz"
   },
   {
@@ -79317,10 +79507,22 @@
     "alkategoria": "Joghurt",
     "altipus": "Skyr / proteinjoghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "sovány",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": true,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
       "protein / magas fehérje": true,
-      "ízesített": true
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "málnás",
+        "gránátalmás"
+      ]
     },
-    "kategoria_hash": "91d2c434a35812de149b2f6efae3c21b3157ebc96110693269377093c411bc54",
+    "kategoria_hash": "4f99cef6d4120031e2670d66c38df499380b272143b6cf6796c4bcd251f0c91d",
     "statusz": "kesz"
   },
   {
@@ -79348,10 +79550,22 @@
     "alkategoria": "Joghurt",
     "altipus": "Skyr / proteinjoghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "sovány",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": true,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
       "protein / magas fehérje": true,
-      "ízesített": true
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "őszibarackos",
+        "narancsos"
+      ]
     },
-    "kategoria_hash": "91d2c434a35812de149b2f6efae3c21b3157ebc96110693269377093c411bc54",
+    "kategoria_hash": "a939828683d8e6532707f33f400e3e44d80499cd10c29f780f9492dc8740af9b",
     "statusz": "kesz"
   },
   {
@@ -79379,10 +79593,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Skyr / proteinjoghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "sovány",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": true,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
       "protein / magas fehérje": true,
-      "ízesített": true
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "epres"
+      ]
     },
-    "kategoria_hash": "91d2c434a35812de149b2f6efae3c21b3157ebc96110693269377093c411bc54",
+    "kategoria_hash": "d116cc0192b6169538ca739cc53d7c2f3b9c2aef24dd97b4ec623aaabcba8b67",
     "statusz": "kesz"
   },
   {
@@ -79410,11 +79635,20 @@
     "alkategoria": "Ivójoghurt, kefir, író",
     "altipus": "Ivójoghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": false,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
       "íz": [
         "natúr"
-      ]
+      ],
+      "márka": "Milfina"
     },
-    "kategoria_hash": "889cbb98ee0b5ecf0cfcc84f30be793d9b1cf1bb4e05c2e17dea939779d7d4e1",
+    "kategoria_hash": "542539268e43f08b57ec7b821a6fff72677b644371e160213e67ab3cab781e9a",
     "statusz": "kesz"
   },
   {
@@ -79440,11 +79674,22 @@
     },
     "fokategoria": "Tejtermékek és tojás",
     "alkategoria": "Krémtúró, túródesszert",
-    "altipus": "Natúr krémtúró",
+    "altipus": "Túró Rudi jellegű túródesszert",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "bevonatos": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "kekszes"
+      ],
+      "márka": "Kokárdás"
     },
-    "kategoria_hash": "79aa85de8ba8f5ccf586f0511062c497bbb74eb79bdebecaaa48be91de33dee5",
+    "kategoria_hash": "ae3d1620a562b1b0557cf19c67084b101db941307a2bb56537f6501370bd671f",
     "statusz": "kesz"
   },
   {
@@ -79470,11 +79715,22 @@
     },
     "fokategoria": "Tejtermékek és tojás",
     "alkategoria": "Krémtúró, túródesszert",
-    "altipus": "Natúr krémtúró",
+    "altipus": "Túró Rudi jellegű túródesszert",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "bevonatos": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "mazsolás"
+      ],
+      "márka": "Kokárdás"
     },
-    "kategoria_hash": "79aa85de8ba8f5ccf586f0511062c497bbb74eb79bdebecaaa48be91de33dee5",
+    "kategoria_hash": "e12977d7b1f4b17c387bcdc08c1b9b61161fa5eff8a91ae10d83ea59f4265228",
     "statusz": "kesz"
   },
   {
@@ -79500,11 +79756,22 @@
     },
     "fokategoria": "Tejtermékek és tojás",
     "alkategoria": "Krémtúró, túródesszert",
-    "altipus": "Natúr krémtúró",
+    "altipus": "Túró Rudi jellegű túródesszert",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "bevonatos": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "karamellás"
+      ],
+      "márka": "Kokárdás"
     },
-    "kategoria_hash": "79aa85de8ba8f5ccf586f0511062c497bbb74eb79bdebecaaa48be91de33dee5",
+    "kategoria_hash": "8c12ce05ccf712c022862d50c749a84a69bb8714ae6f1c2f770a1521632dc775",
     "statusz": "kesz"
   },
   {
@@ -79530,11 +79797,22 @@
     },
     "fokategoria": "Tejtermékek és tojás",
     "alkategoria": "Krémtúró, túródesszert",
-    "altipus": "Natúr krémtúró",
+    "altipus": "Túró Rudi jellegű túródesszert",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "bevonatos": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "íz": [
+        "vaníliás"
+      ],
+      "márka": "Kokárdás"
     },
-    "kategoria_hash": "79aa85de8ba8f5ccf586f0511062c497bbb74eb79bdebecaaa48be91de33dee5",
+    "kategoria_hash": "58f766825dff522935b8256c416e8d609230853a57e0d4e0a3b96b527106afa3",
     "statusz": "kesz"
   },
   {
@@ -79562,10 +79840,17 @@
     "alkategoria": "Tejszín",
     "altipus": "Főzőtejszín",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "10%",
-      "UHT": true
+      "UHT": true,
+      "cukrozott": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Kokárdás"
     },
-    "kategoria_hash": "13de0339d85d11b479463400a8197bee26df8af3d486049d54d5f1fe4b9f0574",
+    "kategoria_hash": "8bb4bba5f5fec17112affc6e4c5834b1343c078bc4daa7586332c742040b9673",
     "statusz": "kesz"
   },
   {
@@ -79592,8 +79877,15 @@
     "fokategoria": "Tejtermékek és tojás",
     "alkategoria": "Margarin",
     "altipus": "",
-    "tulajdonsagok": {},
-    "kategoria_hash": "f8574e885b137abaf0a67ac9f426bfe8b7954a176ea0c9e5362f96438069b591",
+    "tulajdonsagok": {
+      "bio": false,
+      "sütőmargarin": false,
+      "laktózmentes": true,
+      "light / csökkentett zsír": false,
+      "kiszerelés": "doboz",
+      "márka": "Bellasan"
+    },
+    "kategoria_hash": "b9278eb862dfabbc9358574a440201f8b3a8b0a0e05715c62c1a8d44bf8301bd",
     "statusz": "kesz"
   },
   {
@@ -79621,9 +79913,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "vaníliás"
+      ]
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "e68b1bcb4295c52ba32af65a7107e4267887dd26867a12c0a6b86f1591c3e7a3",
     "statusz": "kesz"
   },
   {
@@ -79651,9 +79955,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "málnás"
+      ]
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "61e3b23ff6d5630d1d40b40e61c5282a74c225523cd2dd42b6985592abb632f5",
     "statusz": "kesz"
   },
   {
@@ -79681,9 +79997,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "epres"
+      ]
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "12c648b8a0482628d694274462fc038d54d81bfd3301e89b2ca7a8dcb8ff686b",
     "statusz": "kesz"
   },
   {
@@ -79711,12 +80039,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Puding",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
       "íz": [
         "vaníliás"
       ]
     },
-    "kategoria_hash": "4ced15dd2b3178cb878c74f6ad121542a2ca139690d70cb6a0af49a6f30254ee",
+    "kategoria_hash": "b5bd9135177fad7665fb285720d9736b27a0ea5e1d1784c6201cf4ef97ff0741",
     "statusz": "kesz"
   },
   {
@@ -79744,12 +80078,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Puding",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
       "íz": [
         "csokoládés"
       ]
     },
-    "kategoria_hash": "f33ca32a6180d599388627375b472e94e999ee4aaa816d6c0b429518919ef47c",
+    "kategoria_hash": "dd17b2a74a1b62ee9fd91748c2673d17c9ca0709fdd520de886076bf233bca9b",
     "statusz": "kesz"
   },
   {
@@ -79777,9 +80117,14 @@
     "alkategoria": "Vaj",
     "altipus": "Teavaj, márkázott vaj",
     "tulajdonsagok": {
-      "light / csökkentett zsír": true
+      "bio": false,
+      "sózott": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": true,
+      "kiszerelés": "papír",
+      "márka": "Kokárdás"
     },
-    "kategoria_hash": "09226e37e6e0b536d8473fc026ae8b43fa10dd2f6832ad4a4b4ee176b26dd8a9",
+    "kategoria_hash": "e60731aaf8ec991721adb23f79b444378ea8e2925f67b81d554daf043933e8dd",
     "statusz": "kesz"
   },
   {
@@ -79807,12 +80152,19 @@
     "alkategoria": "Sajt",
     "altipus": "Ömlesztett sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "gerezd",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Kokárdás",
       "ízesítés": [
         "sonkás"
       ]
     },
-    "kategoria_hash": "a1956a54cb05c2fac5b1641b7cbff102bf2c1fb79c7e3a73a9c676c7569c372c",
+    "kategoria_hash": "037223e68a9673e174c7bfc9f5ed63a23c3949a12a168fe6c9780f0a4f49d15c",
     "statusz": "kesz"
   },
   {
@@ -79840,12 +80192,19 @@
     "alkategoria": "Sajt",
     "altipus": "Ömlesztett sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "gerezd",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Kokárdás",
       "ízesítés": [
-        "egyéb"
+        "szalámis"
       ]
     },
-    "kategoria_hash": "faa493405f9a7aa5d2e9ba34e855a594d4567714506ca5de5024b120aea63949",
+    "kategoria_hash": "b3c998a1c853b8f0fed6d7f831ddb51d7b44c2ab13740401f8ce1781fe7974e2",
     "statusz": "kesz"
   },
   {
@@ -79873,12 +80232,19 @@
     "alkategoria": "Sajt",
     "altipus": "Ömlesztett sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "gerezd",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Kokárdás",
       "ízesítés": [
         "natúr"
       ]
     },
-    "kategoria_hash": "40c30680326b986c32d726e09d66266c02522f4e83ab07d7c79b6b6d2bde30c7",
+    "kategoria_hash": "09f16d2119e3405b6654cd93c95c34713c16e363f5a95a97edcf24f48ce8e7d5",
     "statusz": "kesz"
   },
   {
@@ -79906,12 +80272,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Kávéital / latte / cappuccino",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "flakon",
       "íz": [
         "kávés"
-      ]
+      ],
+      "márka": "Kokárdás"
     },
-    "kategoria_hash": "4c5d67d9411fcda5c89b191a716bf37e8b3a932f4356f66615ab158ace1e3355",
+    "kategoria_hash": "9047f0823036198d177443d9dd21d7421411b9fe453e1b167128afbd2cc9b9a4",
     "statusz": "kesz"
   },
   {
@@ -79938,8 +80310,15 @@
     "fokategoria": "Tejtermékek és tojás",
     "alkategoria": "Vaj",
     "altipus": "Teavaj, márkázott vaj",
-    "tulajdonsagok": {},
-    "kategoria_hash": "5d2905d2301a5f828f7aa6653b56dfd5d870ab8fe2348b9576df511a1280fc15",
+    "tulajdonsagok": {
+      "bio": false,
+      "sózott": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "kiszerelés": "papír",
+      "márka": "Milsani"
+    },
+    "kategoria_hash": "18f3e3026aba7a19b014031cf43c08ef9779791263899ac8d90dd9d8c4cf3f09",
     "statusz": "kesz"
   },
   {
@@ -79967,10 +80346,14 @@
     "alkategoria": "Tej",
     "altipus": "UHT tartós tej",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "félzsíros 2,8%",
-      "kiszerelés": "doboz"
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "kiszerelés": "doboz",
+      "márka": "Riska"
     },
-    "kategoria_hash": "9ebef8f4def6d28ace1bf7f5a37857e9bc96a196b58967f74ae97918db2f7bd8",
+    "kategoria_hash": "7643205b01b5a6b7431baad6f8878102b8fe8bcf11defc4c520bd06fdaecca11",
     "statusz": "kesz"
   },
   {
@@ -79997,8 +80380,15 @@
     "fokategoria": "Tejtermékek és tojás",
     "alkategoria": "Vaj",
     "altipus": "Teavaj, márkázott vaj",
-    "tulajdonsagok": {},
-    "kategoria_hash": "5d2905d2301a5f828f7aa6653b56dfd5d870ab8fe2348b9576df511a1280fc15",
+    "tulajdonsagok": {
+      "bio": false,
+      "sózott": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "kiszerelés": "papír",
+      "márka": "egyéb"
+    },
+    "kategoria_hash": "ba5b0e800f13b98830069a03e137824dddda750290c694ae16b77bb3533217f7",
     "statusz": "kesz"
   },
   {
@@ -80026,12 +80416,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Jegeskávé",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
       "íz": [
         "kávés"
-      ]
+      ],
+      "márka": "Barissimo"
     },
-    "kategoria_hash": "76facde2186cd95c112b9a323dde31bfd1339546401dfb5c43a7cf6983c08efc",
+    "kategoria_hash": "22c5558c0ff3d55668f8fd60b9896cf6f49a2f25a047c34756b2056bf12d860b",
     "statusz": "kesz"
   },
   {
@@ -80059,9 +80455,17 @@
     "alkategoria": "Tejszín",
     "altipus": "",
     "tulajdonsagok": {
-      "zsírtartalom": "10%"
+      "bio": false,
+      "zsírtartalom": "10%",
+      "UHT": true,
+      "cukrozott": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "pohár",
+      "márka": "Milsani"
     },
-    "kategoria_hash": "7179f63e49425af1fdd578c44481367d381eadecd047b598f727c194e01d8adc",
+    "kategoria_hash": "e49efdf4cccf13198e2deee6f33842bc9023f1b02ebe5017dd4d7fcb5b887145",
     "statusz": "kesz"
   },
   {
@@ -80089,11 +80493,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Jegeskávé",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
       "íz": [
         "kávés"
-      ]
+      ],
+      "márka": "Barissimo"
     },
-    "kategoria_hash": "ad7eea0c64c7c100bf5dc29265284f6f041702d50559c5ae42b8f9535837a958",
+    "kategoria_hash": "22c5558c0ff3d55668f8fd60b9896cf6f49a2f25a047c34756b2056bf12d860b",
     "statusz": "kesz"
   },
   {
@@ -80121,11 +80532,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Jegeskávé",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
       "íz": [
         "kávés"
-      ]
+      ],
+      "márka": "Barissimo"
     },
-    "kategoria_hash": "ad7eea0c64c7c100bf5dc29265284f6f041702d50559c5ae42b8f9535837a958",
+    "kategoria_hash": "22c5558c0ff3d55668f8fd60b9896cf6f49a2f25a047c34756b2056bf12d860b",
     "statusz": "kesz"
   },
   {
@@ -80153,10 +80571,14 @@
     "alkategoria": "Tej",
     "altipus": "UHT tartós tej",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "zsírszegény 1,5%",
-      "kiszerelés": "doboz"
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani"
     },
-    "kategoria_hash": "24771c8098d71a67c04a170c57869fed59d418e59a25972362525bae0881f0bd",
+    "kategoria_hash": "c0171fc27e43e73a949196310cdfda344a7c18f81c3a73041f703155fb1f33a6",
     "statusz": "kesz"
   },
   {
@@ -80184,10 +80606,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Zott",
+      "íz": [
+        "körte"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "0381e30a231a7904ae3ffca5bb80db6e3b7bda2949c0f1488eb9e0972d1e67f4",
     "statusz": "kesz"
   },
   {
@@ -80215,10 +80648,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Zott",
+      "íz": [
+        "áfonyás"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "d9b9176005838becc45bc92b9ab1470920e9a8eaa45b206001abc49cca37a0d1",
     "statusz": "kesz"
   },
   {
@@ -80246,10 +80690,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Zott",
+      "íz": [
+        "epres"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "970d8028f35d3bfe29721475dcc3fbce81382d0b4d6a0d2f8bcbb3a8ba92591c",
     "statusz": "kesz"
   },
   {
@@ -80277,10 +80732,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Zott",
+      "íz": [
+        "almás-fahéjas"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "0ea589ac9fae0ec5b7f4d5fae262f7e2686f7b8a309f96664021edf8dee2014c",
     "statusz": "kesz"
   },
   {
@@ -80308,9 +80774,14 @@
     "alkategoria": "Margarin",
     "altipus": "",
     "tulajdonsagok": {
-      "light / csökkentett zsír": true
+      "bio": false,
+      "sütőmargarin": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": true,
+      "kiszerelés": "doboz",
+      "márka": "Bellasan"
     },
-    "kategoria_hash": "00cc851394c946f01dc459e19c178f71cb74b911265636ae807fdd8d1aa617a7",
+    "kategoria_hash": "ff135013cbcd110a3b5a89d7e231894ba5f3b3dc9aa2e3c317c79ef8569c4e92",
     "statusz": "kesz"
   },
   {
@@ -80338,12 +80809,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Kávéital / latte / cappuccino",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Barissimo",
       "íz": [
         "kávés"
       ]
     },
-    "kategoria_hash": "4c5d67d9411fcda5c89b191a716bf37e8b3a932f4356f66615ab158ace1e3355",
+    "kategoria_hash": "3f0484fd92b6ec5e78e29f492d2a0123d8185c646b2ad1ae5e588ccd54395777",
     "statusz": "kesz"
   },
   {
@@ -80371,11 +80848,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Kávéital / latte / cappuccino",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Barissimo",
       "íz": [
         "kávés"
       ]
     },
-    "kategoria_hash": "20b31e7b08704445d90e067a08d4f10c4a448ef7b76e00eaa0ad038112e431f6",
+    "kategoria_hash": "3f0484fd92b6ec5e78e29f492d2a0123d8185c646b2ad1ae5e588ccd54395777",
     "statusz": "kesz"
   },
   {
@@ -80403,11 +80887,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Kávéital / latte / cappuccino",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Barissimo",
       "íz": [
         "kávés"
       ]
     },
-    "kategoria_hash": "20b31e7b08704445d90e067a08d4f10c4a448ef7b76e00eaa0ad038112e431f6",
+    "kategoria_hash": "3f0484fd92b6ec5e78e29f492d2a0123d8185c646b2ad1ae5e588ccd54395777",
     "statusz": "kesz"
   },
   {
@@ -80435,12 +80926,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Ammerländer",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "trappista"
       ]
     },
-    "kategoria_hash": "3cf0a11e5b9319ba5d5edefb04f099476be2e96091ac8ac2733276f53cead394",
+    "kategoria_hash": "18be8adbe80cd47e0846cd6f7246e5d7541bd2e8e7c514d6b275b972dee457c1",
     "statusz": "kesz"
   },
   {
@@ -80468,9 +80969,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "banános"
+      ]
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "d59ef3eed0e6979f9ec6d492b140af533ef821c18978c9cbea42b459e2e64309",
     "statusz": "kesz"
   },
   {
@@ -80498,9 +81011,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "vaníliás"
+      ]
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "e68b1bcb4295c52ba32af65a7107e4267887dd26867a12c0a6b86f1591c3e7a3",
     "statusz": "kesz"
   },
   {
@@ -80528,9 +81053,20 @@
     "alkategoria": "Krémtúró, túródesszert",
     "altipus": "Túró Rudi jellegű túródesszert",
     "tulajdonsagok": {
-      "bevonatos": true
+      "bio": false,
+      "bevonatos": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "egyéb",
+      "márka": "Pöttyös",
+      "íz": [
+        "natúr"
+      ]
     },
-    "kategoria_hash": "fd6ae1516cc78a22cb2fdce1fe9a1e58b52fe5956a85cbd19ed46e4b98e166c3",
+    "kategoria_hash": "b0a73ad040dd261404c84516ddb04e1877ad213b3eb31757d94b8848e7603172",
     "statusz": "kesz"
   },
   {
@@ -80558,9 +81094,20 @@
     "alkategoria": "Krémtúró, túródesszert",
     "altipus": "Túró Rudi jellegű túródesszert",
     "tulajdonsagok": {
-      "bevonatos": true
+      "bio": false,
+      "bevonatos": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "egyéb",
+      "márka": "Pöttyös",
+      "íz": [
+        "natúr"
+      ]
     },
-    "kategoria_hash": "fd6ae1516cc78a22cb2fdce1fe9a1e58b52fe5956a85cbd19ed46e4b98e166c3",
+    "kategoria_hash": "b0a73ad040dd261404c84516ddb04e1877ad213b3eb31757d94b8848e7603172",
     "statusz": "kesz"
   },
   {
@@ -80588,9 +81135,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "vaníliás"
+      ]
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "e68b1bcb4295c52ba32af65a7107e4267887dd26867a12c0a6b86f1591c3e7a3",
     "statusz": "kesz"
   },
   {
@@ -80618,10 +81177,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Cserpes",
+      "íz": [
+        "sárgabarackos"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "507a0e54876841bc362fd8de7f5eb82bb2623e117e03d93e66f9ba6f68b8a143",
     "statusz": "kesz"
   },
   {
@@ -80649,10 +81219,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Cserpes",
+      "íz": [
+        "málnás"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "540b154546cad04b3a719c5b0332694f8bec2301eeaa2e14731246708bc18bbe",
     "statusz": "kesz"
   },
   {
@@ -80680,10 +81261,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Cserpes",
+      "íz": [
+        "áfonyás"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "46fdc18f3df923011b28f09dc180a07ab2eb210f4409b8389d6ecceee1867581",
     "statusz": "kesz"
   },
   {
@@ -80711,11 +81303,14 @@
     "alkategoria": "Tej",
     "altipus": "ESL tej",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "zsírszegény 1,5%",
       "laktózmentes": true,
-      "kiszerelés": "doboz"
+      "light / csökkentett zsír": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani"
     },
-    "kategoria_hash": "088f333ffbd31648419f06333f4f4fc3a0894a02247bef78d457ecdde5f7726f",
+    "kategoria_hash": "15d7843a28c8b22971b41dd994803152706d50b6930540d95949f89019455d6c",
     "statusz": "kesz"
   },
   {
@@ -80743,10 +81338,14 @@
     "alkategoria": "Tej",
     "altipus": "ESL tej",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "félzsíros 2,8%",
-      "kiszerelés": "doboz"
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "kiszerelés": "doboz",
+      "márka": "Tolle"
     },
-    "kategoria_hash": "ba8687ddf46196ebc375cd569f24c3c19ab10005fa247fd6c54b81e619407a0c",
+    "kategoria_hash": "77d47ab48ca03490fc37f86f5687c3ab73ad6bee2a9f09eef957c6b82b3678b2",
     "statusz": "kesz"
   },
   {
@@ -80773,8 +81372,15 @@
     "fokategoria": "Tejtermékek és tojás",
     "alkategoria": "Margarin",
     "altipus": "",
-    "tulajdonsagok": {},
-    "kategoria_hash": "f8574e885b137abaf0a67ac9f426bfe8b7954a176ea0c9e5362f96438069b591",
+    "tulajdonsagok": {
+      "bio": false,
+      "sütőmargarin": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "kiszerelés": "doboz",
+      "márka": "Delma"
+    },
+    "kategoria_hash": "ace37061f8ad8bd477da3c2f93585fc7b45354ed42b4251e75967d7eb26bd8df",
     "statusz": "kesz"
   },
   {
@@ -80802,13 +81408,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
+      "laktózmentes": false,
       "light / csökkentett zsír": true,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "trappista"
       ]
     },
-    "kategoria_hash": "5187a41a62fadca3b0aeba5401f80d1e88aed9f4b153dad997f861ef3916405b",
+    "kategoria_hash": "b2762d372c83fec02123cc6089de84783eac08496ef47900bcdde64be61541ef",
     "statusz": "kesz"
   },
   {
@@ -80836,12 +81451,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "füstölt"
+      ],
+      "fajta": [
+        "trappista"
       ]
     },
-    "kategoria_hash": "3b15b525c715c9813c70611896e1a045e3c7dafd8d9a7d3e46976147bb556f4e",
+    "kategoria_hash": "60df7572abdf23f8074214129fe231aeb2b3c73b3e2763a61ae4586787cd088d",
     "statusz": "kesz"
   },
   {
@@ -80869,9 +81494,18 @@
     "alkategoria": "Joghurt",
     "altipus": "Natúr joghurt",
     "tulajdonsagok": {
-      "zsírtartalom": "teljes"
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": false,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "vödör",
+      "márka": "Kokárdás"
     },
-    "kategoria_hash": "eb6b811c2e5f4e177d9837862e08539d940c34201d1b180f168e25cb929de71b",
+    "kategoria_hash": "25d6ff808be68ef9a5a8944c979d2a8b0790aa8e4163f28569a3e30476a30877",
     "statusz": "kesz"
   },
   {
@@ -80899,10 +81533,20 @@
     "alkategoria": "Krémtúró, túródesszert",
     "altipus": "Natúr krémtúró",
     "tulajdonsagok": {
+      "bio": false,
+      "bevonatos": false,
+      "laktózmentes": false,
       "ízesített": true,
-      "cukormentes / hozzáadott cukor nélkül": true
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milli",
+      "íz": [
+        "vaníliás"
+      ]
     },
-    "kategoria_hash": "13f8fa6766c3a1753208ab840ae7fb97e075aa972554cd0a301e4ec31a2643c6",
+    "kategoria_hash": "1c14896bda739132ccb4d38fcba20d71fe20dd43a888fe4536b080feffebe888",
     "statusz": "kesz"
   },
   {
@@ -80930,10 +81574,21 @@
     "alkategoria": "Krémtúró, túródesszert",
     "altipus": "Gyümölcsös krémtúró",
     "tulajdonsagok": {
+      "bio": false,
+      "bevonatos": false,
+      "laktózmentes": false,
       "ízesített": true,
-      "cukormentes / hozzáadott cukor nélkül": true
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milli",
+      "íz": [
+        "meggyes",
+        "mákos-rétes"
+      ]
     },
-    "kategoria_hash": "420b88453e3d5c2c158f270285d5bc5be8796a14d7ebf421867b63dec26962d9",
+    "kategoria_hash": "5ad19651051d5f3ffd50a1abec7e8af00453ff06518d5fb9db59cf62c52c1de3",
     "statusz": "kesz"
   },
   {
@@ -80961,12 +81616,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Egyéb ízesített tejital",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "flakon",
+      "márka": "Milsani",
       "íz": [
         "banános"
       ]
     },
-    "kategoria_hash": "750133bfa5d1bb84153f309396855029c10389af0619519b244af589e14261f5",
+    "kategoria_hash": "1f5a66a6f005c97c14bee9ba82799dce93ead1c8b83b3d72a90b433ffd66d0aa",
     "statusz": "kesz"
   },
   {
@@ -80994,12 +81655,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Egyéb ízesített tejital",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "flakon",
+      "márka": "Milsani",
       "íz": [
         "kakaós"
       ]
     },
-    "kategoria_hash": "31c5fdad0867230c221217f514e74b6b8ee6534e0629727da7cede8f5138430d",
+    "kategoria_hash": "deddadeabcba49da8b2d4ee2291e7852da36d559aa8dc6bbf91d7eeda9c147f8",
     "statusz": "kesz"
   },
   {
@@ -81027,12 +81694,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Egyéb ízesített tejital",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "flakon",
+      "márka": "Milsani",
       "íz": [
         "epres"
       ]
     },
-    "kategoria_hash": "e84b8fedbdb949887db91bc694f3e7e30184f7ef084255cca7b469082949e480",
+    "kategoria_hash": "3260ba23448f79c52996938b3a9e3742b2240ae542ffd7fd596031f301f32530",
     "statusz": "kesz"
   },
   {
@@ -81060,12 +81733,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Egyéb ízesített tejital",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "flakon",
+      "márka": "Milsani",
       "íz": [
         "vaníliás"
       ]
     },
-    "kategoria_hash": "49b0e44368eb283432aafc84af27751312f996617c6d3f1bd869fdf403839817",
+    "kategoria_hash": "b0ad0be42e3a4c1ecef21a5eb775c19d24f3f9e29fc7f2f378107ebf5a38a7a8",
     "statusz": "kesz"
   },
   {
@@ -81093,12 +81772,20 @@
     "alkategoria": "Ivójoghurt, kefir, író",
     "altipus": "Ivójoghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
       "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "palack",
+      "márka": "Zott",
       "íz": [
         "epres"
       ]
     },
-    "kategoria_hash": "d8a344b67cf610f1aa7c033de3388506c0c911d01eaa59dd9cf2392df58da4e6",
+    "kategoria_hash": "337bc09b1957512eb7b4f0c767263ffc888e374b1e3814389b1a2d27b0c8df4b",
     "statusz": "kesz"
   },
   {
@@ -81126,12 +81813,21 @@
     "alkategoria": "Ivójoghurt, kefir, író",
     "altipus": "Ivójoghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
       "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "palack",
+      "márka": "Zott",
       "íz": [
-        "őszibarackos"
+        "őszibarackos",
+        "maracuja"
       ]
     },
-    "kategoria_hash": "3412021ddc495f6987d5307ed8e4ea03c556804983e5fd0e2da508c99d19539d",
+    "kategoria_hash": "c7aa5f8065793f84b031e84aded4da6c09d4d94b87597fb6c0c86414d56ed131",
     "statusz": "kesz"
   },
   {
@@ -81158,8 +81854,29 @@
     "fokategoria": "Édesség, snack, rágcsálnivaló",
     "alkategoria": "Csokoládé",
     "altipus": "Csokoládé szelet",
-    "tulajdonsagok": {},
-    "kategoria_hash": "7e9299d4a4214fa1fc281ce0eb1b39d2a956531e3e7a1001f36292ab8885c71d",
+    "tulajdonsagok": {
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "gluténmentes": false,
+      "bio": false,
+      "vegán": false,
+      "töltött": true,
+      "alkoholos": false,
+      "pálmaolajmentes": false,
+      "márka": "Kinder",
+      "típus": [
+        "tejcsokoládé"
+      ],
+      "kakaótartalom": [
+        "egyéb"
+      ],
+      "töltelék / íz": [
+        "ropogós"
+      ],
+      "hozzáadott darabok": [
+        "puffasztott rizs"
+      ]
+    },
+    "kategoria_hash": "9a46013c703ed630f84aee4f0bd87ffc772ded320c6e030a6c62905fb1084006",
     "statusz": "kesz"
   },
   {
@@ -81187,10 +81904,14 @@
     "alkategoria": "Tej",
     "altipus": "UHT tartós tej",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "teljes 3,5%",
-      "kiszerelés": "doboz"
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani"
     },
-    "kategoria_hash": "cbd2d9f36428757e7482d2bbf219af3d3122aa977fd9762ff2b7a5abd189adef",
+    "kategoria_hash": "904ee1095dd2b03d58e6e4b2611ee399d0a80ad862c589876d03a047b3a18349",
     "statusz": "kesz"
   },
   {
@@ -81218,12 +81939,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Kakaós tej",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani",
       "íz": [
         "kakaós"
       ]
     },
-    "kategoria_hash": "8ae2e8924f78f6835ed6030ac50976a4e1ee18365c6459bd5f2c192973ebe513",
+    "kategoria_hash": "c198b4f4cf80255a1974fae28c16982dcfc587721c7440dfcaf6c9bce6ef0cbf",
     "statusz": "kesz"
   },
   {
@@ -81251,13 +81978,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
       "laktózmentes": true,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "trappista"
       ]
     },
-    "kategoria_hash": "481bee21fa4d6550819257fcae65ee5b5af3f19ff3b4050c655428ee0de71929",
+    "kategoria_hash": "abe3daefd93982e5ef9fd2e69da963d080ece6ee22cdbc839925ba0d98fbd92a",
     "statusz": "kesz"
   },
   {
@@ -81285,12 +82021,20 @@
     "alkategoria": "Ivójoghurt, kefir, író",
     "altipus": "Kefir",
     "tulajdonsagok": {
+      "bio": false,
+      "élőflórás/probiotikus": true,
       "laktózmentes": true,
+      "ízesített": false,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani",
       "íz": [
         "natúr"
       ]
     },
-    "kategoria_hash": "994f31e1286f45de0c9b0334075e21a3ced0e498152763b7d47a3026351840bc",
+    "kategoria_hash": "2f770142dbc8659153a816c1433bfeaa3d44003fc51ef615b8753277a9b615c4",
     "statusz": "kesz"
   },
   {
@@ -81318,9 +82062,15 @@
     "alkategoria": "Tejföl",
     "altipus": "",
     "tulajdonsagok": {
-      "zsírtartalom": "egyéb"
+      "bio": false,
+      "zsírtartalom": "25%",
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "pohár",
+      "márka": "Nádudvari"
     },
-    "kategoria_hash": "5ea20857b2e201f024514a0feead8b5de90265f3d15e9091dd9c854af8dfd963",
+    "kategoria_hash": "ac4c81d0134451c7b4596af066d2abf82474084b2de3ba01aac7443a88367fc2",
     "statusz": "kesz"
   },
   {
@@ -81348,10 +82098,17 @@
     "alkategoria": "Tejszín",
     "altipus": "Habtejszín",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "30%",
-      "UHT": true
+      "UHT": true,
+      "cukrozott": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani"
     },
-    "kategoria_hash": "4b0efa9dfe31c51ff54ac25d89d0d4971fab0676d88aff9154bf40959b137534",
+    "kategoria_hash": "770a585068608fc8d6b05f247cf6a488cf4597d845a1474aba507a1c8e45cd82",
     "statusz": "kesz"
   },
   {
@@ -81379,11 +82136,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "rudacska",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Kokárdás",
       "ízesítés": [
-        "egyéb"
+        "fokhagymás"
+      ],
+      "fajta": [
+        "parenyica"
       ]
     },
-    "kategoria_hash": "986aa5aa7dcf543291e30d6010efeef7efb7136e6088d06b5c7e307e3e147458",
+    "kategoria_hash": "40cc4228759e41134cb7f9dbf81c1144c79b81676951d261e75957a42471f2aa",
     "statusz": "kesz"
   },
   {
@@ -81411,11 +82179,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "rudacska",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Kokárdás",
       "ízesítés": [
         "füstölt"
+      ],
+      "fajta": [
+        "parenyica"
       ]
     },
-    "kategoria_hash": "23ad1a9aa726c006cc89e7790ebe96ad2ef8efad3617ed179df46ddd8cb83ca5",
+    "kategoria_hash": "29d12118c3e401a2e029a8a1aa3ed2a88e33d56ba9f31d5d17caa302dfbe5c69",
     "statusz": "kesz"
   },
   {
@@ -81443,12 +82222,17 @@
     "alkategoria": "Sajtkrém, szendvicskrém",
     "altipus": "",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tégely",
+      "márka": "Kokárdás",
       "íz": [
-        "fűszeres"
+        "magyaros"
       ]
     },
-    "kategoria_hash": "08fab5ba20fb7eb8fb85c85206c631b76f210b8f5800c8d530bbdd995d662530",
+    "kategoria_hash": "dbaaf0261d6f98cc70c25ed839a2d50d7c44c033e71aa05d428095fc68bb720c",
     "statusz": "kesz"
   },
   {
@@ -81476,11 +82260,17 @@
     "alkategoria": "Sajtkrém, szendvicskrém",
     "altipus": "",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tégely",
+      "márka": "Kokárdás",
       "íz": [
         "natúr"
       ]
     },
-    "kategoria_hash": "47e751b5629758bb84c5fedeb69797008cddb220806800ec4ce0466cfdb94cf6",
+    "kategoria_hash": "db42622f8ea5d8759ca9316ca5242496407b91fff824457f7fd7165361504fbf",
     "statusz": "kesz"
   },
   {
@@ -81508,12 +82298,17 @@
     "alkategoria": "Sajtkrém, szendvicskrém",
     "altipus": "",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tégely",
+      "márka": "Kokárdás",
       "íz": [
-        "fűszeres"
+        "fokhagymás"
       ]
     },
-    "kategoria_hash": "08fab5ba20fb7eb8fb85c85206c631b76f210b8f5800c8d530bbdd995d662530",
+    "kategoria_hash": "eb81d4a5e8607d13e81f1cf31cead445e0f437068909d627d17fd9fd07f5dffc",
     "statusz": "kesz"
   },
   {
@@ -81541,12 +82336,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Tejberizs",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Müller",
       "íz": [
         "csokoládés"
       ]
     },
-    "kategoria_hash": "c390d9d51f0ee16afe860c008d3493353b921a71d58fe9d86ebbfe12e4c475e3",
+    "kategoria_hash": "8615cdf5fc5a9b5b5ee2e7c1239cae74e148789429a170d492f00cdfe1e87629",
     "statusz": "kesz"
   },
   {
@@ -81574,12 +82375,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Tejberizs",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Müller",
       "íz": [
         "epres"
       ]
     },
-    "kategoria_hash": "c37da49944964505d00c592e1243b48c432af22a0e357462fbb6daebe50066fd",
+    "kategoria_hash": "ca62a65fdb82ac6f4d52562b75cf09bc458e3c9e3c4c7a85b0dde7389917e314",
     "statusz": "kesz"
   },
   {
@@ -81607,12 +82414,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Tejberizs",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Müller",
       "íz": [
         "vaníliás"
       ]
     },
-    "kategoria_hash": "a3d6c6c91ac93529ae7bd1a50cdea36fa975191f6423ec63a0daf6efdf9d83e0",
+    "kategoria_hash": "60e5751815f08de8c53ef3b8cacb09ac903706aa834c09fee55c4971e4026408",
     "statusz": "kesz"
   },
   {
@@ -81640,9 +82453,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Tejberizs",
     "tulajdonsagok": {
-      "cukormentes / hozzáadott cukor nélkül": true
+      "bio": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Müller",
+      "íz": [
+        "natúr"
+      ]
     },
-    "kategoria_hash": "9c9b0ad1dd1a93f4bff7fa4bc3240966fb8e43b2c54b7ef1dc12ed4f478a503d",
+    "kategoria_hash": "babfd50f3d72c8c9b1a3ff0d80a580c755429bac179d7073663dfe8853c861eb",
     "statusz": "kesz"
   },
   {
@@ -81670,13 +82492,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Tejberizs",
     "tulajdonsagok": {
-      "cukormentes / hozzáadott cukor nélkül": true,
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Müller",
       "íz": [
         "csokoládés"
       ]
     },
-    "kategoria_hash": "9528427d1e7cdc6560148e1b0a22c6bb6e2006ba536815f2c66dfcb8efa9c303",
+    "kategoria_hash": "3e8bcd1d2d418bd3ebd8f292ce041fd7b57e9f46eb66fe6edb633fa7b6464990",
     "statusz": "kesz"
   },
   {
@@ -81704,13 +82531,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Tejberizs",
     "tulajdonsagok": {
-      "cukormentes / hozzáadott cukor nélkül": true,
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Müller",
       "íz": [
-        "egyéb"
+        "meggyes"
       ]
     },
-    "kategoria_hash": "5ae90896fc04ad2f4c98cf7473f102c58a0f269be6b7316729f09310a0902527",
+    "kategoria_hash": "ee91fb139113019d12134dc0986af4c890fe9f72e79e18fb84c2c4b57f475482",
     "statusz": "kesz"
   },
   {
@@ -81738,13 +82570,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Tejberizs",
     "tulajdonsagok": {
-      "cukormentes / hozzáadott cukor nélkül": true,
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Müller",
       "íz": [
-        "egyéb"
+        "fahéjas"
       ]
     },
-    "kategoria_hash": "5ae90896fc04ad2f4c98cf7473f102c58a0f269be6b7316729f09310a0902527",
+    "kategoria_hash": "1f3eda3d37899351d5ddb60d0807e499eb8491d9c59a36349ff63bba7223f61d",
     "statusz": "kesz"
   },
   {
@@ -81772,12 +82609,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Jegeskávé",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
+      "márka": "Hell",
       "íz": [
         "kávés"
       ]
     },
-    "kategoria_hash": "76facde2186cd95c112b9a323dde31bfd1339546401dfb5c43a7cf6983c08efc",
+    "kategoria_hash": "53019472f44008213e572ff664d02de08013d617997e5fc744a89125bfaa24c1",
     "statusz": "kesz"
   },
   {
@@ -81805,12 +82648,19 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Jegeskávé",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
+      "márka": "Hell",
       "íz": [
-        "kávés"
+        "kávés",
+        "sós karamellás"
       ]
     },
-    "kategoria_hash": "76facde2186cd95c112b9a323dde31bfd1339546401dfb5c43a7cf6983c08efc",
+    "kategoria_hash": "f69e57f5741ba5b46d43247a37b79521ae1ceb9d748cfd87477dbbfe92710c40",
     "statusz": "kesz"
   },
   {
@@ -81838,12 +82688,19 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Jegeskávé",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
+      "márka": "Hell",
       "íz": [
-        "kávés"
+        "kávés",
+        "vaníliás"
       ]
     },
-    "kategoria_hash": "76facde2186cd95c112b9a323dde31bfd1339546401dfb5c43a7cf6983c08efc",
+    "kategoria_hash": "8e173abbc3de9490b70d4495c20e14215506f13be77c98524d48abac31142b03",
     "statusz": "kesz"
   },
   {
@@ -81870,8 +82727,17 @@
     "fokategoria": "Tejtermékek és tojás",
     "alkategoria": "Túró",
     "altipus": "",
-    "tulajdonsagok": {},
-    "kategoria_hash": "8813cf64197fda08a2c8bec0a5dc3ccd8a0f444e261979acc73cdd1f14589541",
+    "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "zsírdús",
+      "forma": "rögös",
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "tasak",
+      "márka": "Hajdú"
+    },
+    "kategoria_hash": "880d8f5a6bac62597e13f2b76e1f64b4b6c3eaee4d097d41eaad68ad0191ea7e",
     "statusz": "kesz"
   },
   {
@@ -81899,12 +82765,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Jegeskávé",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
+      "márka": "Hell",
       "íz": [
         "kávés"
       ]
     },
-    "kategoria_hash": "76facde2186cd95c112b9a323dde31bfd1339546401dfb5c43a7cf6983c08efc",
+    "kategoria_hash": "53019472f44008213e572ff664d02de08013d617997e5fc744a89125bfaa24c1",
     "statusz": "kesz"
   },
   {
@@ -81932,12 +82804,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Kávéital / latte / cappuccino",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
+      "márka": "Mizo",
       "íz": [
         "kávés"
       ]
     },
-    "kategoria_hash": "4c5d67d9411fcda5c89b191a716bf37e8b3a932f4356f66615ab158ace1e3355",
+    "kategoria_hash": "b666108600f5811ce31b18b9c32bb9e95fa1c6dbc1fdf5687dbe7f45d7e9016a",
     "statusz": "kesz"
   },
   {
@@ -81965,13 +82843,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Kávéital / latte / cappuccino",
     "tulajdonsagok": {
-      "ízesített": true,
+      "bio": false,
       "laktózmentes": true,
+      "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
+      "márka": "Mizo",
       "íz": [
         "kávés"
       ]
     },
-    "kategoria_hash": "0d11bff2d362c6899ded3cc55759e20bbc7d2e7d8124287ad12bd6e23bca150d",
+    "kategoria_hash": "f733f043274f4ad956f65eb1981b5212c322d9cf0df93df3ee15116528a0075f",
     "statusz": "kesz"
   },
   {
@@ -81999,12 +82882,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Kávéital / latte / cappuccino",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
+      "márka": "Mizo",
       "íz": [
         "kávés"
       ]
     },
-    "kategoria_hash": "4c5d67d9411fcda5c89b191a716bf37e8b3a932f4356f66615ab158ace1e3355",
+    "kategoria_hash": "b666108600f5811ce31b18b9c32bb9e95fa1c6dbc1fdf5687dbe7f45d7e9016a",
     "statusz": "kesz"
   },
   {
@@ -82032,9 +82921,14 @@
     "alkategoria": "Margarin",
     "altipus": "",
     "tulajdonsagok": {
-      "light / csökkentett zsír": true
+      "bio": false,
+      "sütőmargarin": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": true,
+      "kiszerelés": "doboz",
+      "márka": "Vénusz"
     },
-    "kategoria_hash": "00cc851394c946f01dc459e19c178f71cb74b911265636ae807fdd8d1aa617a7",
+    "kategoria_hash": "1fb5d613f7b43c54ca061a6d6fa24b5f4d0c716ac56f8eb2624d7cacaac4923d",
     "statusz": "kesz"
   },
   {
@@ -82062,11 +82956,17 @@
     "alkategoria": "Tejszín",
     "altipus": "Habtejszín",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "30%",
       "UHT": true,
-      "laktózmentes": true
+      "cukrozott": false,
+      "laktózmentes": true,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani"
     },
-    "kategoria_hash": "fdff977870c0d09b90ccc74bca06c133b02d2dc3b129ce7091592e2e1c97125f",
+    "kategoria_hash": "c7b59d40f17a3fe2487838ef6f0781e4f3f62fe1acc0e1a60bd08b76c62c762e",
     "statusz": "kesz"
   },
   {
@@ -82094,10 +82994,17 @@
     "alkategoria": "Tejszín",
     "altipus": "",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "10%",
-      "kiszerelés": "egyéb"
+      "UHT": true,
+      "cukrozott": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "pohár",
+      "márka": "Milram"
     },
-    "kategoria_hash": "2826351f1e36d4855f5ef0da38c96e01a351c913b80c6c5e562a73d47caed8c2",
+    "kategoria_hash": "dc8d41ad60190f5ecec3e97520e1de27d8f45a41209935187d6f8292ed2a7400",
     "statusz": "kesz"
   },
   {
@@ -82125,9 +83032,16 @@
     "alkategoria": "Túró",
     "altipus": "Tehéntúró",
     "tulajdonsagok": {
-      "forma": "cottage cheese"
+      "bio": false,
+      "zsírtartalom": "félzsíros",
+      "forma": "cottage cheese",
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani"
     },
-    "kategoria_hash": "7646630cd5cc35c940924cbc61a33e9f6b2acff7275b4bc8fefdf753a447c1d5",
+    "kategoria_hash": "c443866c2f1bf4f9803b4b096e5d27459226403e01dec4314de7ef2f27133709",
     "statusz": "kesz"
   },
   {
@@ -82155,10 +83069,16 @@
     "alkategoria": "Túró",
     "altipus": "Tehéntúró",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "sovány",
-      "light / csökkentett zsír": true
+      "forma": "tömb",
+      "laktózmentes": false,
+      "light / csökkentett zsír": true,
+      "protein / magas fehérje": true,
+      "kiszerelés": "tasak",
+      "márka": "Nádudvari"
     },
-    "kategoria_hash": "e66a02785c8752a1b506c9ba879dfb50802c32dd02e03b0d0ecc74f7a1d7e1f2",
+    "kategoria_hash": "c364c4e86485d26c61ad28a4bffe95c6081cd76646e2938731dd04f9aa713ad4",
     "statusz": "kesz"
   },
   {
@@ -82186,11 +83106,14 @@
     "alkategoria": "Tej",
     "altipus": "UHT tartós tej",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "zsírszegény 1,5%",
       "laktózmentes": true,
-      "kiszerelés": "doboz"
+      "light / csökkentett zsír": false,
+      "kiszerelés": "doboz",
+      "márka": "Mizo"
     },
-    "kategoria_hash": "935221728ff9a7447bb7a509d7337f8fac1cb08c23c4f1c9042d6acc227ad9fa",
+    "kategoria_hash": "4f0ee00fd4b0c1da788776f635fb4a9c0dc71c49dcfab16f6a4af6cf38d9d34f",
     "statusz": "kesz"
   },
   {
@@ -82218,10 +83141,14 @@
     "alkategoria": "Tej",
     "altipus": "ESL tej",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "teljes 3,5%",
-      "kiszerelés": "doboz"
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani"
     },
-    "kategoria_hash": "66c13265254e774f0ceb7ef3eca9c5a8a0adb77d851bd828193e654dd409a0f6",
+    "kategoria_hash": "33daeb0b3ee9a8e5521bf0f51b0c1078cc32b598776cf10e70cd834f543fdcaa",
     "statusz": "kesz"
   },
   {
@@ -82249,9 +83176,14 @@
     "alkategoria": "Vaj",
     "altipus": "Teavaj, márkázott vaj",
     "tulajdonsagok": {
-      "laktózmentes": true
+      "bio": false,
+      "sózott": false,
+      "laktózmentes": true,
+      "light / csökkentett zsír": false,
+      "kiszerelés": "papír",
+      "márka": "Milsani"
     },
-    "kategoria_hash": "77d1e94079dff7462059d5487c56c2663e330e0519003f0b1dc2a9be724bb29f",
+    "kategoria_hash": "c921c6804bf20c277ec7ca6bf22a97fa90d94390fe0cd2d238c805cad8870c89",
     "statusz": "kesz"
   },
   {
@@ -82279,10 +83211,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Puding",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": true,
+      "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": true,
       "protein / magas fehérje": true,
-      "laktózmentes": true
+      "kiszerelés": "pohár",
+      "márka": "Zott",
+      "íz": [
+        "csokoládés"
+      ]
     },
-    "kategoria_hash": "57b4dd7f02ba26af03ea999a8ac9cc7a72ec88b2307de3ee22e0712213d2e1dc",
+    "kategoria_hash": "fc2a99d496d429a7219e0dde3dc832a373aaa1c8a002e9215d3455705e34e85c",
     "statusz": "kesz"
   },
   {
@@ -82310,9 +83250,18 @@
     "alkategoria": "Joghurt",
     "altipus": "Görög joghurt",
     "tulajdonsagok": {
-      "élőflórás/probiotikus": true
+      "bio": false,
+      "zsírtartalom": "krémes 10%",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": false,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Lyttos"
     },
-    "kategoria_hash": "9285798d9ae807e3f389d5975d924de488576016e6b9bd69d70e6beed64ee035",
+    "kategoria_hash": "ad27d7d49548c4ed8ada16b6136258ffc726533d5154f0fb304350b197e29c4e",
     "statusz": "kesz"
   },
   {
@@ -82340,10 +83289,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "vödör",
+      "márka": "Kokárdás",
+      "íz": [
+        "sárgabarackos"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "fb61d736f929d69cc023ab3e6a41b3dd3f01e1b203c7fe269a754a1213e73e2d",
     "statusz": "kesz"
   },
   {
@@ -82371,10 +83331,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Krémjoghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "krémes 10%",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "vödör",
+      "márka": "Kokárdás",
+      "íz": [
+        "málnás"
+      ]
     },
-    "kategoria_hash": "62d4edb1c3f7c499924973e1d2c317a1ce50b1d22cddbc6d0faf6dbf96e7a4c3",
+    "kategoria_hash": "a24cf4fcba24470ec58970f9a702fe245b0aa5deaa0b7f6542548829b134b6ba",
     "statusz": "kesz"
   },
   {
@@ -82402,13 +83373,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "golyó",
+      "érlelt": false,
       "laktózmentes": true,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Szarvasi",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "mozzarella"
       ]
     },
-    "kategoria_hash": "9b8388c6a11aa123016ee474f470d7a41da820c615f963ceb1f30c5cca280884",
+    "kategoria_hash": "6f6f9f81e731c3c79c6007d832b444fb3c1043d426e30fd9459693ef017e9708",
     "statusz": "kesz"
   },
   {
@@ -82436,9 +83416,18 @@
     "alkategoria": "Joghurt",
     "altipus": "Natúr joghurt",
     "tulajdonsagok": {
-      "élőflórás/probiotikus": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": false,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Danone"
     },
-    "kategoria_hash": "e83af713f284a1b658c866fb8544a1cd8caffdc4698af0d11bacb8f285a0eb2c",
+    "kategoria_hash": "5e0b7572bdbd4d56aeb52b12cb812b0dac4718cde08e1a1d5bccdd65db322888",
     "statusz": "kesz"
   },
   {
@@ -82466,12 +83455,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Kakaós tej",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "flakon",
+      "márka": "Mizo",
       "íz": [
         "kakaós"
       ]
     },
-    "kategoria_hash": "8ae2e8924f78f6835ed6030ac50976a4e1ee18365c6459bd5f2c192973ebe513",
+    "kategoria_hash": "affb7d1338d90ffe3af4932b2f25832be4e5710a52babd8840ba8c1da79c7664",
     "statusz": "kesz"
   },
   {
@@ -82499,13 +83494,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Kakaós tej",
     "tulajdonsagok": {
-      "ízesített": true,
+      "bio": false,
       "laktózmentes": true,
+      "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "flakon",
+      "márka": "Mizo",
       "íz": [
         "kakaós"
       ]
     },
-    "kategoria_hash": "1d7c5c98eca5650d1bd9e6b7b3467a1812c763a153cd5475f6bf8d25c9bf4cd2",
+    "kategoria_hash": "cff3dd20995f60c95114408c336461fcb60ecbe11309e134b473bca22f80385c",
     "statusz": "kesz"
   },
   {
@@ -82533,12 +83533,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Egyéb ízesített tejital",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "flakon",
+      "márka": "Mizo",
       "íz": [
-        "vaníliás"
+        "madártej"
       ]
     },
-    "kategoria_hash": "49b0e44368eb283432aafc84af27751312f996617c6d3f1bd869fdf403839817",
+    "kategoria_hash": "e333d5d4b47cd4cf486dcb86d64b7e95f8085ce6d46dd2d6034e6121f3db7175",
     "statusz": "kesz"
   },
   {
@@ -82566,12 +83572,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "reszelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "trappista"
       ]
     },
-    "kategoria_hash": "28b2f0373660dd23a83a66e2116e66cf1fe4412eba6fb9a62a539a132ed5ab23",
+    "kategoria_hash": "0066ff7fbacb79c9cb36e3c4c28d58a9f642d51d1ea205331fbb36976807729a",
     "statusz": "kesz"
   },
   {
@@ -82599,10 +83615,15 @@
     "alkategoria": "Tejföl",
     "altipus": "",
     "tulajdonsagok": {
-      "zsírtartalom": "egyéb",
-      "bio": true
+      "bio": true,
+      "zsírtartalom": "15%",
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "pohár",
+      "márka": "Bio Natura"
     },
-    "kategoria_hash": "c9fb9b23bd9c4d80ee6d1bd46a66ea28e674fbed84ed115b0e1fe85f87b9bec6",
+    "kategoria_hash": "7dfbcf57b34a41a813960e78dcae5cd5973c65510531799c30e5ed18710f1f87",
     "statusz": "kesz"
   },
   {
@@ -82630,12 +83651,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Desira",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "cheddar"
       ]
     },
-    "kategoria_hash": "3cf0a11e5b9319ba5d5edefb04f099476be2e96091ac8ac2733276f53cead394",
+    "kategoria_hash": "7cfe6f0fc750d84733257db07b8cc1900cc23141046a313d3e8146e7ac39fdb3",
     "statusz": "kesz"
   },
   {
@@ -82663,13 +83694,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
+      "laktózmentes": false,
       "light / csökkentett zsír": true,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Desira",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "cheddar"
       ]
     },
-    "kategoria_hash": "5187a41a62fadca3b0aeba5401f80d1e88aed9f4b153dad997f861ef3916405b",
+    "kategoria_hash": "370e035f5789f8b5084186eb3290796fd2b496f203f2a30ee7d09ac41bf6cfab",
     "statusz": "kesz"
   },
   {
@@ -82697,11 +83737,20 @@
     "alkategoria": "Krémtúró, túródesszert",
     "altipus": "Natúr krémtúró",
     "tulajdonsagok": {
-      "protein / magas fehérje": true,
+      "bio": false,
+      "bevonatos": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
       "cukormentes / hozzáadott cukor nélkül": true,
-      "ízesített": true
+      "protein / magas fehérje": true,
+      "kiszerelés": "pohár",
+      "márka": "Milli",
+      "íz": [
+        "áfonyás"
+      ]
     },
-    "kategoria_hash": "231fee763499cf46dac92a49948ccb4f69cc4ecc243eeef6685d631128ad790c",
+    "kategoria_hash": "a8cebcbdb51c2060db7e12417c2685f7267cdfa2b23fa2105f9011892f0bd3fe",
     "statusz": "kesz"
   },
   {
@@ -82729,11 +83778,20 @@
     "alkategoria": "Krémtúró, túródesszert",
     "altipus": "Natúr krémtúró",
     "tulajdonsagok": {
-      "protein / magas fehérje": true,
+      "bio": false,
+      "bevonatos": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
       "cukormentes / hozzáadott cukor nélkül": true,
-      "ízesített": true
+      "protein / magas fehérje": true,
+      "kiszerelés": "pohár",
+      "márka": "Milli",
+      "íz": [
+        "mangós"
+      ]
     },
-    "kategoria_hash": "231fee763499cf46dac92a49948ccb4f69cc4ecc243eeef6685d631128ad790c",
+    "kategoria_hash": "dff05ff5c540147272ebd8cabde03aa845311f624c2293f3b8ad4615e9eb6b0f",
     "statusz": "kesz"
   },
   {
@@ -82761,11 +83819,20 @@
     "alkategoria": "Krémtúró, túródesszert",
     "altipus": "Natúr krémtúró",
     "tulajdonsagok": {
-      "protein / magas fehérje": true,
+      "bio": false,
+      "bevonatos": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
       "cukormentes / hozzáadott cukor nélkül": true,
-      "ízesített": true
+      "protein / magas fehérje": true,
+      "kiszerelés": "pohár",
+      "márka": "Milli",
+      "íz": [
+        "vaníliás"
+      ]
     },
-    "kategoria_hash": "231fee763499cf46dac92a49948ccb4f69cc4ecc243eeef6685d631128ad790c",
+    "kategoria_hash": "29f3e8b34c623e407204e891b860bfe5aecf69ee332df7d476693b02c578eb33",
     "statusz": "kesz"
   },
   {
@@ -82793,10 +83860,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Milfina",
+      "íz": [
+        "szilvás"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "bf585dd55b4427fc6641f59e8cefe08dbc71dc94bd6e7f960caaa624ec61e407",
     "statusz": "kesz"
   },
   {
@@ -82824,10 +83902,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "teljes",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Milfina",
+      "íz": [
+        "gabonapelyhes"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "4e6a0cdd20b5a984c996dff41472f0acf1f01a0926f79a39f04f33360f92a697",
     "statusz": "kesz"
   },
   {
@@ -82855,10 +83944,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "krémes 10%",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Lyttos",
+      "íz": [
+        "narancsos"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "70a3e9c82d2a2e8fc0490389504a5542ff62d640f466f853e924f937e8527913",
     "statusz": "kesz"
   },
   {
@@ -82886,10 +83986,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "krémes 10%",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Lyttos",
+      "íz": [
+        "mézes"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "8e268e8c5e70e8e9821fb9afa3bea95cd1e55e61304ef16d353940451ac7bdd2",
     "statusz": "kesz"
   },
   {
@@ -82917,10 +84028,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "krémes 10%",
       "élőflórás/probiotikus": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Lyttos",
+      "íz": [
+        "áfonyás"
+      ]
     },
-    "kategoria_hash": "8dc37b67f506cce95c9049f406021b1177937f9877ce96fb6a278736be0149b4",
+    "kategoria_hash": "df8b3f64d17555fc64a9de6825b9452045970bf00c2f3603f80e0af9f2eb7664",
     "statusz": "kesz"
   },
   {
@@ -82948,12 +84070,22 @@
     "alkategoria": "Sajt",
     "altipus": "Ömlesztett sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "gerezd",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Hofburger",
       "ízesítés": [
-        "natúr"
+        "egyéb"
+      ],
+      "fajta": [
+        "ömlesztett"
       ]
     },
-    "kategoria_hash": "40c30680326b986c32d726e09d66266c02522f4e83ab07d7c79b6b6d2bde30c7",
+    "kategoria_hash": "2818c108ef535753b2f863119a12048c12f14b802e39424792e3330eb34ef990",
     "statusz": "kesz"
   },
   {
@@ -82981,12 +84113,22 @@
     "alkategoria": "Sajt",
     "altipus": "Ömlesztett sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "gerezd",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Hofburger",
       "ízesítés": [
-        "natúr"
+        "tejszínes"
+      ],
+      "fajta": [
+        "ömlesztett"
       ]
     },
-    "kategoria_hash": "40c30680326b986c32d726e09d66266c02522f4e83ab07d7c79b6b6d2bde30c7",
+    "kategoria_hash": "5b21c49b436d4e5d871d47bd1b2a11c1b8b3781a9f7de37591563e0a798591ce",
     "statusz": "kesz"
   },
   {
@@ -83014,9 +84156,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Egyéb tejdesszert",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Cucina",
+      "íz": [
+        "vaníliás"
+      ]
     },
-    "kategoria_hash": "b3f9344b79ccbed00b6f7a980c16604cf12725d8800dda70f752ba4cc38c0033",
+    "kategoria_hash": "294fee1887b5e68667cece6d42e42ba5d5579267933740ba666dc0f5d507e57c",
     "statusz": "kesz"
   },
   {
@@ -83044,9 +84195,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Egyéb tejdesszert",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Milsani",
+      "íz": [
+        "mogyorós"
+      ]
     },
-    "kategoria_hash": "b3f9344b79ccbed00b6f7a980c16604cf12725d8800dda70f752ba4cc38c0033",
+    "kategoria_hash": "d915ebaccf01c90aa7a34cddccd45f93bcc16c93c17cd8e7a04b78653f89189b",
     "statusz": "kesz"
   },
   {
@@ -83074,12 +84234,18 @@
     "alkategoria": "Tojás",
     "altipus": "Tyúktojás",
     "tulajdonsagok": {
+      "bio": false,
       "méret": "M",
+      "tartás": "egyéb",
+      "extra sárga": false,
+      "hazai": false,
+      "kiszerelés": "doboz",
       "fajta": [
         "tyúktojás"
-      ]
+      ],
+      "márka": "FARM"
     },
-    "kategoria_hash": "93b945533b2ae80bcb7526e0848050227e78789bc1a16a18872884048baf8fc1",
+    "kategoria_hash": "da809d4abb79fe19ef135f2567cd2a987b2b8c88f63f476c5475f51e9b575a29",
     "statusz": "kesz"
   },
   {
@@ -83107,9 +84273,17 @@
     "alkategoria": "Tejszín",
     "altipus": "Tejszínhab spray",
     "tulajdonsagok": {
-      "kiszerelés": "spray"
+      "bio": false,
+      "zsírtartalom": "20%",
+      "UHT": true,
+      "cukrozott": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": true,
+      "kiszerelés": "spray",
+      "márka": "Globetti"
     },
-    "kategoria_hash": "e6afaa14f6fa03d8fefdfd1af8a99284028c00cfc273025fc149948dba6e2531",
+    "kategoria_hash": "2aee2d470a3eda1c6d77819f0dfcc168f91526b317c31f002e03e02522c58be2",
     "statusz": "kesz"
   },
   {
@@ -83137,12 +84311,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "edami"
       ]
     },
-    "kategoria_hash": "3cf0a11e5b9319ba5d5edefb04f099476be2e96091ac8ac2733276f53cead394",
+    "kategoria_hash": "22b68e7ce59cda41dc73a000f45203fbf5848bfc417778d5cda9815dedffd328",
     "statusz": "kesz"
   },
   {
@@ -83170,12 +84354,17 @@
     "alkategoria": "Sajtkrém, szendvicskrém",
     "altipus": "",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tégely",
+      "márka": "egyéb",
       "íz": [
-        "fűszeres"
+        "snidlinges"
       ]
     },
-    "kategoria_hash": "08fab5ba20fb7eb8fb85c85206c631b76f210b8f5800c8d530bbdd995d662530",
+    "kategoria_hash": "90ab1b9927b2746040ffa2e585d358a12c54af6b31e6d4634844a7ebae117050",
     "statusz": "kesz"
   },
   {
@@ -83203,11 +84392,17 @@
     "alkategoria": "Sajtkrém, szendvicskrém",
     "altipus": "",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tégely",
+      "márka": "egyéb",
       "íz": [
         "natúr"
       ]
     },
-    "kategoria_hash": "47e751b5629758bb84c5fedeb69797008cddb220806800ec4ce0466cfdb94cf6",
+    "kategoria_hash": "3f32f6dc17dcc7237f8e5af7ad9968110e324e3f0077421f88f3065db22535fb",
     "statusz": "kesz"
   },
   {
@@ -83235,12 +84430,17 @@
     "alkategoria": "Sajtkrém, szendvicskrém",
     "altipus": "",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tégely",
+      "márka": "egyéb",
       "íz": [
-        "fűszeres"
+        "kapros"
       ]
     },
-    "kategoria_hash": "08fab5ba20fb7eb8fb85c85206c631b76f210b8f5800c8d530bbdd995d662530",
+    "kategoria_hash": "3f4816af1a28c3fb2567b76feeacf8819e624fcaa9df2ab0cc254d5ee8d511cd",
     "statusz": "kesz"
   },
   {
@@ -83268,12 +84468,17 @@
     "alkategoria": "Sajtkrém, szendvicskrém",
     "altipus": "",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tégely",
+      "márka": "egyéb",
       "íz": [
-        "fűszeres"
+        "csípős paprikás"
       ]
     },
-    "kategoria_hash": "08fab5ba20fb7eb8fb85c85206c631b76f210b8f5800c8d530bbdd995d662530",
+    "kategoria_hash": "c125aa270f1dffc76a87c603fd28d9ab8a79eb17f0d836922bd2b56db3abdc86",
     "statusz": "kesz"
   },
   {
@@ -83301,11 +84506,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "korong",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani",
       "ízesítés": [
         "paprikás"
+      ],
+      "fajta": [
+        "friss krémsajt"
       ]
     },
-    "kategoria_hash": "7ede129fc36abd11460b23c1ec2907db8b720e07e236c03982f62b411c136636",
+    "kategoria_hash": "41afdd780f0542c6e919f988a65e5e2669983cad25eb443e43f6e657ece8fa53",
     "statusz": "kesz"
   },
   {
@@ -83333,11 +84549,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "korong",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani",
       "ízesítés": [
-        "zöldfűszeres"
+        "snidlinges"
+      ],
+      "fajta": [
+        "friss krémsajt"
       ]
     },
-    "kategoria_hash": "b468062cf6406062694605822654316ab75c0fdb2eec70d6c41a66a5f8b09619",
+    "kategoria_hash": "2486bddba71ed278368b3a415abcd5a25de6feb03dd58ec8b250e29d547cc8ea",
     "statusz": "kesz"
   },
   {
@@ -83365,11 +84592,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "korong",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani",
       "ízesítés": [
-        "egyéb"
+        "gyümölcsös"
+      ],
+      "fajta": [
+        "friss krémsajt"
       ]
     },
-    "kategoria_hash": "e8d16a0c4940997c93f803a03b507f8aa9886fb6c9684f3538f95ada6f90e94b",
+    "kategoria_hash": "d53a0cc4153883f54eb1f489f7ef7dc4b4d434f2c5569ad9fdc9abf723000623",
     "statusz": "kesz"
   },
   {
@@ -83397,11 +84635,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "korong",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani",
       "ízesítés": [
-        "egyéb"
+        "borsos"
+      ],
+      "fajta": [
+        "friss krémsajt"
       ]
     },
-    "kategoria_hash": "e8d16a0c4940997c93f803a03b507f8aa9886fb6c9684f3538f95ada6f90e94b",
+    "kategoria_hash": "6d9d1f38a5fe39daf922a0b3cb52686de910a12533b2a83f00f6b4a65e3a127d",
     "statusz": "kesz"
   },
   {
@@ -83429,10 +84678,15 @@
     "alkategoria": "Tejföl",
     "altipus": "",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "20%",
-      "készítmény (növényi zsiradékkal)": true
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": true,
+      "kiszerelés": "vödör",
+      "márka": "Nádudvari"
     },
-    "kategoria_hash": "79e89e93d017b8210183369c3bc1d9485f7ef73123d1d0e0f1b0fb67b1e1fdb2",
+    "kategoria_hash": "cb1e43f29c1e887656a5c6eef1b2fed91567d97e80d038919d635f8cc37a5a56",
     "statusz": "kesz"
   },
   {
@@ -83459,8 +84713,24 @@
     "fokategoria": "Hús, hal, felvágott",
     "alkategoria": "Pástétom, húskrém",
     "altipus": "",
-    "tulajdonsagok": {},
-    "kategoria_hash": "82d492755c4daf9410474c61d985a4e926bfb7d56b12c063f6af091731712f5f",
+    "tulajdonsagok": {
+      "bio": false,
+      "hazai/magyar": true,
+      "márka": "márka nélkül",
+      "gluténmentes": false,
+      "laktózmentes": false,
+      "light / csökkentett zsírtartalmú": false,
+      "alap": [
+        "tepertő"
+      ],
+      "ízesítés": [
+        "natúr"
+      ],
+      "csomagolás": [
+        "tégely"
+      ]
+    },
+    "kategoria_hash": "ba970fe2503b2d923a03d3c291af98ee321ba2d18c2a32ec1b574e5f3a9f659a",
     "statusz": "kesz"
   },
   {
@@ -83488,9 +84758,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "vödör",
+      "márka": "Milfina",
+      "íz": [
+        "stracciatella"
+      ]
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "2464fce59e7aa0a1e432e81a24d8d3b23ee12af1632f678697890780292a2059",
     "statusz": "kesz"
   },
   {
@@ -83518,9 +84800,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "vödör",
+      "márka": "Milfina",
+      "íz": [
+        "epres"
+      ]
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "ec2caee972713fef8484680d584c7abd283b54d66dda10e35d004db6fdeed9c6",
     "statusz": "kesz"
   },
   {
@@ -83548,15 +84842,32 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Szendvicskrém, hummusz, kenőkrém",
     "tulajdonsagok": {
-      "vegán": true,
+      "kiszerelés": "tégely",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "márka": "Wonnemeyer",
+      "bio": true,
+      "gluténmentes": true,
+      "csökkentett sótartalom": false,
+      "fokhagyma nélkül": false,
+      "íz": [
+        "pesztós"
+      ],
       "alap": [
         "hummusz"
       ],
-      "íz": [
+      "konyha / stílus": [
         "egyéb"
-      ]
+      ],
+      "csípősség": [
+        "enyhe"
+      ],
+      "vegán": true,
+      "vegetáriánus": true,
+      "laktózmentes": true,
+      "csípős": false
     },
-    "kategoria_hash": "798a693d7704cfb4fdc8f99d6d9e271f3e31344a7501a7a19b3ab22c192d903f",
+    "kategoria_hash": "c0d8f0b99401eaa6b2ea873260027bee1288e5222f1d3e78fb804a2bde0af02b",
     "statusz": "kesz"
   },
   {
@@ -83584,15 +84895,32 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Szendvicskrém, hummusz, kenőkrém",
     "tulajdonsagok": {
-      "vegán": true,
+      "kiszerelés": "tégely",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "márka": "Wonnemeyer",
+      "bio": true,
+      "gluténmentes": true,
+      "csökkentett sótartalom": false,
+      "fokhagyma nélkül": false,
+      "íz": [
+        "paprikás"
+      ],
       "alap": [
         "hummusz"
       ],
-      "íz": [
+      "konyha / stílus": [
         "egyéb"
-      ]
+      ],
+      "csípősség": [
+        "enyhe"
+      ],
+      "vegán": true,
+      "vegetáriánus": true,
+      "laktózmentes": true,
+      "csípős": false
     },
-    "kategoria_hash": "798a693d7704cfb4fdc8f99d6d9e271f3e31344a7501a7a19b3ab22c192d903f",
+    "kategoria_hash": "1a844666c6ee4045ca3a6bd2ea20904234b165e07f30b0131cdffa037ed8c9fd",
     "statusz": "kesz"
   },
   {
@@ -83620,15 +84948,32 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Szendvicskrém, hummusz, kenőkrém",
     "tulajdonsagok": {
-      "vegán": true,
+      "kiszerelés": "tégely",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "márka": "Wonnemeyer",
+      "bio": true,
+      "gluténmentes": true,
+      "csökkentett sótartalom": false,
+      "fokhagyma nélkül": false,
+      "íz": [
+        "fenyőmagos"
+      ],
       "alap": [
         "hummusz"
       ],
-      "íz": [
+      "konyha / stílus": [
         "egyéb"
-      ]
+      ],
+      "csípősség": [
+        "enyhe"
+      ],
+      "vegán": true,
+      "vegetáriánus": true,
+      "laktózmentes": true,
+      "csípős": false
     },
-    "kategoria_hash": "798a693d7704cfb4fdc8f99d6d9e271f3e31344a7501a7a19b3ab22c192d903f",
+    "kategoria_hash": "4921c70439722ae1a0518b5df0a26d8cb4304642c7a0403cad8a46919080975a",
     "statusz": "kesz"
   },
   {
@@ -83656,15 +85001,32 @@
     "alkategoria": "Szószok, öntetek, dresszingek",
     "altipus": "Szendvicskrém, hummusz, kenőkrém",
     "tulajdonsagok": {
-      "vegán": true,
+      "kiszerelés": "tégely",
+      "light": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "márka": "Wonnemeyer",
+      "bio": true,
+      "gluténmentes": true,
+      "csökkentett sótartalom": false,
+      "fokhagyma nélkül": false,
+      "íz": [
+        "avokádós"
+      ],
       "alap": [
         "hummusz"
       ],
-      "íz": [
+      "konyha / stílus": [
         "egyéb"
-      ]
+      ],
+      "csípősség": [
+        "enyhe"
+      ],
+      "vegán": true,
+      "vegetáriánus": true,
+      "laktózmentes": true,
+      "csípős": false
     },
-    "kategoria_hash": "798a693d7704cfb4fdc8f99d6d9e271f3e31344a7501a7a19b3ab22c192d903f",
+    "kategoria_hash": "d0ec1292381b413fb42b7d6fb84e23018d49c51f9e857ace6652ce1c09f5724a",
     "statusz": "kesz"
   },
   {
@@ -83690,14 +85052,24 @@
     },
     "fokategoria": "Tejtermékek és tojás",
     "alkategoria": "Sajt",
-    "altipus": "Krémsajt / kenhető sajt",
+    "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
-      "forma": "kenhető",
+      "bio": false,
+      "forma": "kocka",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "feta"
       ]
     },
-    "kategoria_hash": "78e23bbc9b30617e6b22361d7ab9cffd32991075a167b58ee0027ec3528a7e34",
+    "kategoria_hash": "cf0e897ffac78ccd872a7c1e80f7e3689f6fa22c1445b13cb00d88b1034a9cfb",
     "statusz": "kesz"
   },
   {
@@ -83725,12 +85097,23 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
-        "füstölt"
+        "füstölt",
+        "chilis"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "3b15b525c715c9813c70611896e1a045e3c7dafd8d9a7d3e46976147bb556f4e",
+    "kategoria_hash": "eb2dfcd178d8890ae33a2b130cb4a07dbe1538b306ebff01d29aea43724a7f76",
     "statusz": "kesz"
   },
   {
@@ -83758,12 +85141,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "füstölt"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "3b15b525c715c9813c70611896e1a045e3c7dafd8d9a7d3e46976147bb556f4e",
+    "kategoria_hash": "765da6e7c9235b3d58ca910448f37368e928909a69809e29f824f0b88d4cc848",
     "statusz": "kesz"
   },
   {
@@ -83791,13 +85184,23 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "füstölt",
         "sonkás"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "2df11a140ddb39b9c8e593c0733c69f2cfe4e004bf73a856c950006ec338a6bc",
+    "kategoria_hash": "27881da57aa478f4fe4f72b706af0eb5138792eaf714abe85c32a757876bd88d",
     "statusz": "kesz"
   },
   {
@@ -83825,13 +85228,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
       "laktózmentes": true,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "gouda"
       ]
     },
-    "kategoria_hash": "481bee21fa4d6550819257fcae65ee5b5af3f19ff3b4050c655428ee0de71929",
+    "kategoria_hash": "30ca25704e3d283f540ed1394e60f256c1c23b20525893861b7b223d004de16c",
     "statusz": "kesz"
   },
   {
@@ -83859,16 +85271,33 @@
     "alkategoria": "Növényi alternatíva",
     "altipus": "Növényi főzőkrém / tejszín",
     "tulajdonsagok": {
-      "vegán": true,
       "bio": true,
+      "vegán": true,
+      "laktózmentes": true,
+      "gluténmentes": false,
+      "ízesített": false,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "MyVay",
       "terméktípus": [
         "főzőkrém"
       ],
       "alap": [
         "zab"
+      ],
+      "zsírtartalom / jelleg": [
+        "egyéb"
+      ],
+      "dúsítás": [
+        "egyéb"
+      ],
+      "íz": [
+        "natúr"
       ]
     },
-    "kategoria_hash": "ecc9eb622f9e404e7095714bfb916d3fe71cc08ca1e769de0e2a2cae1c966ea6",
+    "kategoria_hash": "f4c6796dbf24b25fbdba5cddc495741e343d54589bffb7537dbd9a6595a2c606",
     "statusz": "kesz"
   },
   {
@@ -83896,16 +85325,33 @@
     "alkategoria": "Növényi alternatíva",
     "altipus": "Növényi főzőkrém / tejszín",
     "tulajdonsagok": {
-      "vegán": true,
       "bio": true,
+      "vegán": true,
+      "laktózmentes": true,
+      "gluténmentes": true,
+      "ízesített": false,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "MyVay",
       "terméktípus": [
         "főzőkrém"
       ],
       "alap": [
         "mandula"
+      ],
+      "zsírtartalom / jelleg": [
+        "egyéb"
+      ],
+      "dúsítás": [
+        "egyéb"
+      ],
+      "íz": [
+        "natúr"
       ]
     },
-    "kategoria_hash": "fdd2c0a51202710f37f7c7a4a7e87a965ba1cdc7e48ed3dff0b5645cc56131f2",
+    "kategoria_hash": "7b27178a8164f688df540b167d61cb398fb162f67302e4e354c1333b3c3fc4f6",
     "statusz": "kesz"
   },
   {
@@ -83933,16 +85379,33 @@
     "alkategoria": "Növényi alternatíva",
     "altipus": "Növényi főzőkrém / tejszín",
     "tulajdonsagok": {
-      "vegán": true,
       "bio": true,
+      "vegán": true,
+      "laktózmentes": true,
+      "gluténmentes": true,
+      "ízesített": false,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "MyVay",
       "terméktípus": [
         "főzőkrém"
       ],
       "alap": [
         "kókusz"
+      ],
+      "zsírtartalom / jelleg": [
+        "egyéb"
+      ],
+      "dúsítás": [
+        "egyéb"
+      ],
+      "íz": [
+        "natúr"
       ]
     },
-    "kategoria_hash": "c1a4c6943461d4bec79d3267fc22c20da8164612b8404e2c043430979408c496",
+    "kategoria_hash": "30a82e6afa35b7916f272794517bd589ab8f80b0ab93ba7c9045d5f194c21bed",
     "statusz": "kesz"
   },
   {
@@ -83970,13 +85433,18 @@
     "alkategoria": "Tojás",
     "altipus": "Tyúktojás",
     "tulajdonsagok": {
-      "méret": "M",
       "bio": true,
+      "méret": "M",
+      "tartás": "szabadtartású",
+      "extra sárga": false,
+      "hazai": false,
+      "kiszerelés": "doboz",
+      "márka": "FARM",
       "fajta": [
         "tyúktojás"
       ]
     },
-    "kategoria_hash": "a27aca577f912e35ffddea0c857ea9ce7ab2bc9af0bc5a4dfb3875601a99cea6",
+    "kategoria_hash": "ac686e23d655f36320c20d05cb349d4aec6ef638674e10477b5c1619d3129f0c",
     "statusz": "kesz"
   },
   {
@@ -84004,12 +85472,18 @@
     "alkategoria": "Tejital, jegeskávé",
     "altipus": "Jegeskávé",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "doboz",
+      "márka": "Barissimo",
       "íz": [
         "kávés"
       ]
     },
-    "kategoria_hash": "76facde2186cd95c112b9a323dde31bfd1339546401dfb5c43a7cf6983c08efc",
+    "kategoria_hash": "22c5558c0ff3d55668f8fd60b9896cf6f49a2f25a047c34756b2056bf12d860b",
     "statusz": "kesz"
   },
   {
@@ -84037,11 +85511,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "rudacska",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Milsani",
       "ízesítés": [
         "füstölt"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "23ad1a9aa726c006cc89e7790ebe96ad2ef8efad3617ed179df46ddd8cb83ca5",
+    "kategoria_hash": "b64f1b5ec26cdaea6be1d9673de09b858f1212ea2941eb0bd10f1bf3a86a503e",
     "statusz": "kesz"
   },
   {
@@ -84069,11 +85554,14 @@
     "alkategoria": "Tej",
     "altipus": "ESL tej",
     "tulajdonsagok": {
-      "zsírtartalom": "teljes 3,5%",
       "bio": true,
-      "kiszerelés": "doboz"
+      "zsírtartalom": "teljes 3,5%",
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "kiszerelés": "doboz",
+      "márka": "egyéb"
     },
-    "kategoria_hash": "8b3341034d9e53adf656ce9e1c913fc243752818fa07721b8cf6b73261987d03",
+    "kategoria_hash": "2c1eab13decf6d04c4effd675680d35830aaaafe8449944e2849a1a877701e01",
     "statusz": "kesz"
   },
   {
@@ -84101,12 +85589,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Tejszelet",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Milsani",
       "íz": [
         "csokoládés"
       ]
     },
-    "kategoria_hash": "09b2897b8624874a526c442e728a445bec86280ba2ed4075d29b64424a7b947c",
+    "kategoria_hash": "d6e306a6641747db3aba09fc468b219beb7a53666b84cb637225e115780dbf91",
     "statusz": "kesz"
   },
   {
@@ -84134,12 +85628,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Tejszelet",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Milsani",
       "íz": [
-        "egyéb"
+        "mézes"
       ]
     },
-    "kategoria_hash": "ebd1130cae89ad5710a9cc59ef71636a82660b7444548d013d18685096a6c771",
+    "kategoria_hash": "76c37ca70f5de035b8099669b140ceb0c18a01b386a20430ce75698c7c5759b3",
     "statusz": "kesz"
   },
   {
@@ -84167,13 +85667,18 @@
     "alkategoria": "Tojás",
     "altipus": "Tyúktojás",
     "tulajdonsagok": {
+      "bio": false,
       "méret": "M",
       "tartás": "mélyalmos",
+      "extra sárga": false,
+      "hazai": false,
+      "kiszerelés": "doboz",
+      "márka": "Goldland",
       "fajta": [
         "tyúktojás"
       ]
     },
-    "kategoria_hash": "58db84ff0867636e07e002578d58a7ed3505609863fde2182ce81c002d2aaf42",
+    "kategoria_hash": "df8ed09f5a090047dc8c3d4b6e7b921121c160736e0bf8da7c4514da3aadabbb",
     "statusz": "kesz"
   },
   {
@@ -84201,12 +85706,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "kocka",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "gouda"
       ]
     },
-    "kategoria_hash": "7174115e61240ea65f3426d05b0e5aee184b6eeba1c9cccd67992ae16ba3469d",
+    "kategoria_hash": "8fa48b4643019c798af73739fa3545fa6da766c4a12e20d8481de292764fc6db",
     "statusz": "kesz"
   },
   {
@@ -84234,12 +85749,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "kocka",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "edami"
       ]
     },
-    "kategoria_hash": "7174115e61240ea65f3426d05b0e5aee184b6eeba1c9cccd67992ae16ba3469d",
+    "kategoria_hash": "6f42ebacb23132dc2effeae2aca5c2c0c595759d383077017f541a3e7c4d2537",
     "statusz": "kesz"
   },
   {
@@ -84267,12 +85792,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "kocka",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "cheddar"
       ]
     },
-    "kategoria_hash": "7174115e61240ea65f3426d05b0e5aee184b6eeba1c9cccd67992ae16ba3469d",
+    "kategoria_hash": "a86cdc346d303fecdc91f7f5029bdb94d195fb0b8385fd645c68ef135c4f9864",
     "statusz": "kesz"
   },
   {
@@ -84300,12 +85835,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "kocka",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Milsani",
       "ízesítés": [
         "füstölt"
+      ],
+      "fajta": [
+        "edami"
       ]
     },
-    "kategoria_hash": "dd1a625a94ddd623a6b009d7a1b23a214fd4c8a223adb4d56d26649d626e5947",
+    "kategoria_hash": "d5e34a697daea89d1bffac51820c59e37daada425d34f8afa5bdef4c2fdb7e44",
     "statusz": "kesz"
   },
   {
@@ -84333,11 +85878,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "kenhető",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tálca",
+      "márka": "Roi de Trefle",
       "ízesítés": [
-        "zöldfűszeres"
+        "snidlinges"
+      ],
+      "fajta": [
+        "kecskesajt"
       ]
     },
-    "kategoria_hash": "b468062cf6406062694605822654316ab75c0fdb2eec70d6c41a66a5f8b09619",
+    "kategoria_hash": "423ca7ad778c7006f5d7a4985fabea3f3dce64c53f76f58bae5435a039f92394",
     "statusz": "kesz"
   },
   {
@@ -84365,11 +85921,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "kenhető",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tálca",
+      "márka": "Roi de Trefle",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "kecskesajt"
       ]
     },
-    "kategoria_hash": "89afa3312212d53cb773585654da771f0da46456a7b788c1d771fa3a83c2e752",
+    "kategoria_hash": "fa6fc1d5fcc42cc2ddde07755a98912701da204dffca467cb44ecb63d00a3691",
     "statusz": "kesz"
   },
   {
@@ -84397,12 +85964,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "tömb",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "cheddar"
       ]
     },
-    "kategoria_hash": "f1abf58f8eac343b11ddfbe21d08c33b2f1ae72db220e6d252ae792c064e2d7e",
+    "kategoria_hash": "23cbdbbc2f01aa07fbcb39adf43f0c34c39a933acd6a92a4d105476cee8553d4",
     "statusz": "kesz"
   },
   {
@@ -84430,12 +86007,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "reszelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "gouda"
       ]
     },
-    "kategoria_hash": "28b2f0373660dd23a83a66e2116e66cf1fe4412eba6fb9a62a539a132ed5ab23",
+    "kategoria_hash": "55c3a80367e1eed07f7ce99e940c90b6fdc6876ebbbf4f2a6738bf0772be7e3c",
     "statusz": "kesz"
   },
   {
@@ -84463,12 +86050,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "korong",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Kokárdás",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "trappista"
       ]
     },
-    "kategoria_hash": "71ec3b9a32715efc9ab5e3e108bf77c27786f48b00928896e64260ef1043d421",
+    "kategoria_hash": "1290bcd463de43f2113b0c4f81e22489db673c4d5d504a3bb9af343c02b0d47e",
     "statusz": "kesz"
   },
   {
@@ -84496,10 +86093,17 @@
     "alkategoria": "Tejszín",
     "altipus": "Tejszínhab spray",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "20%",
+      "UHT": true,
+      "cukrozott": true,
+      "laktózmentes": true,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
       "kiszerelés": "spray",
-      "laktózmentes": true
+      "márka": "Milsani"
     },
-    "kategoria_hash": "cf4aceb483c0385d2373c1623199d0e44552bd4d17e292d95a5b2a0dee43787c",
+    "kategoria_hash": "7746ff6d042093351efbf2998506c7c645b450a0be6cb4a3cf3e4409a082d740",
     "statusz": "kesz"
   },
   {
@@ -84527,12 +86131,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Tejszelet",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Kinder",
       "íz": [
         "csokoládés"
       ]
     },
-    "kategoria_hash": "09b2897b8624874a526c442e728a445bec86280ba2ed4075d29b64424a7b947c",
+    "kategoria_hash": "8e43a2fbccf2325e1b442f49935ea148e6fe4eef1d9322ecd81da3dd9a0c5730",
     "statusz": "kesz"
   },
   {
@@ -84560,11 +86170,22 @@
     "alkategoria": "Sajt",
     "altipus": "Penészes sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "korong",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Roi de Trefle",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "brie"
       ]
     },
-    "kategoria_hash": "c1d31b72a85d2249fcaa418ad863e58761e48a360a8b7d942bf6eda6d552780e",
+    "kategoria_hash": "2ac38b7e57ea147b088b5b39b68dfc46060ac2733700836ce986eaf4a6877fa7",
     "statusz": "kesz"
   },
   {
@@ -84592,11 +86213,22 @@
     "alkategoria": "Sajt",
     "altipus": "Penészes sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "korong",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Tihany",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "camembert"
       ]
     },
-    "kategoria_hash": "c1d31b72a85d2249fcaa418ad863e58761e48a360a8b7d942bf6eda6d552780e",
+    "kategoria_hash": "818dfb3637695c20ee468abdd8cc978fce1fc872e3bdd0c9e61a74854841621d",
     "statusz": "kesz"
   },
   {
@@ -84624,11 +86256,22 @@
     "alkategoria": "Sajt",
     "altipus": "Penészes sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "korong",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Tihany",
       "ízesítés": [
         "zöldfűszeres"
+      ],
+      "fajta": [
+        "camembert"
       ]
     },
-    "kategoria_hash": "4231ef9266d23302b2c6776f84320bb2e04069ecab61b08da76e7eac212427a4",
+    "kategoria_hash": "26890a5d36bdb7f2fcb152ad6c28e396831f618d5b095b1d1183805bb9d4376e",
     "statusz": "kesz"
   },
   {
@@ -84656,11 +86299,22 @@
     "alkategoria": "Sajt",
     "altipus": "Penészes sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "korong",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Tihany",
       "ízesítés": [
-        "egyéb"
+        "borsos"
+      ],
+      "fajta": [
+        "camembert"
       ]
     },
-    "kategoria_hash": "f7550a6c4d75f9941b6eb6eb865cc36055d5dd28158a2b5d9b2c6822b028861a",
+    "kategoria_hash": "c5fceafe7b8907818ed719adb82e9e2ef1715c08a361ff591299997d92af4abb",
     "statusz": "kesz"
   },
   {
@@ -84688,11 +86342,22 @@
     "alkategoria": "Sajt",
     "altipus": "Penészes sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "korong",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Tihany",
       "ízesítés": [
-        "egyéb"
+        "gombás"
+      ],
+      "fajta": [
+        "camembert"
       ]
     },
-    "kategoria_hash": "f7550a6c4d75f9941b6eb6eb865cc36055d5dd28158a2b5d9b2c6822b028861a",
+    "kategoria_hash": "5a9e5f59b96e056725eab417c49b1f387a6aaa4d7fdb694bce8737ae7a73daeb",
     "statusz": "kesz"
   },
   {
@@ -84720,12 +86385,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "kocka",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "edami"
       ]
     },
-    "kategoria_hash": "7174115e61240ea65f3426d05b0e5aee184b6eeba1c9cccd67992ae16ba3469d",
+    "kategoria_hash": "6f42ebacb23132dc2effeae2aca5c2c0c595759d383077017f541a3e7c4d2537",
     "statusz": "kesz"
   },
   {
@@ -84753,9 +86428,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Görög joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "krémes 10%",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Danone",
+      "íz": [
+        "stracciatella"
+      ]
     },
-    "kategoria_hash": "493faaf866dcad3c38d0dca34c40046d9d807da848e3b6273460673dfcefdac1",
+    "kategoria_hash": "11a99babbb77a4eecea103b29ada1c529c236f084516327cca659f5884c872dd",
     "statusz": "kesz"
   },
   {
@@ -84783,13 +86470,20 @@
     "alkategoria": "Ivójoghurt, kefir, író",
     "altipus": "Ivójoghurt",
     "tulajdonsagok": {
+      "bio": false,
       "élőflórás/probiotikus": true,
+      "laktózmentes": false,
       "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "palack",
+      "márka": "Danone",
       "íz": [
         "epres"
       ]
     },
-    "kategoria_hash": "20fac63bdd68f07ce547898f4e8c6ad9ec2c65c9aa0ec22e0cafd14e15e0043b",
+    "kategoria_hash": "a91f01dd394ab530ad66e29fa543bed8e45027a092ddf5ce5d9c646230324bff",
     "statusz": "kesz"
   },
   {
@@ -84817,13 +86511,20 @@
     "alkategoria": "Ivójoghurt, kefir, író",
     "altipus": "Ivójoghurt",
     "tulajdonsagok": {
+      "bio": false,
       "élőflórás/probiotikus": true,
+      "laktózmentes": false,
       "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "palack",
+      "márka": "Danone",
       "íz": [
-        "egyéb"
+        "vegyes gyümölcs"
       ]
     },
-    "kategoria_hash": "3a039d7560199fc94460c2ae05baf763fc21dbe0f5482c5f851d7f66ca988981",
+    "kategoria_hash": "6b2181ae123560a051990b19c9fc1a723b721f45d1a0a30349bca6a3d8f9430c",
     "statusz": "kesz"
   },
   {
@@ -84851,12 +86552,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Tejszelet",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Kinder",
       "íz": [
-        "csokoládés"
+        "karamellás"
       ]
     },
-    "kategoria_hash": "09b2897b8624874a526c442e728a445bec86280ba2ed4075d29b64424a7b947c",
+    "kategoria_hash": "aed7a7d68d0e39972e5c2ab0e129a36cffbfcb916dc7678892c837d359379f6c",
     "statusz": "kesz"
   },
   {
@@ -84884,12 +86591,22 @@
     "alkategoria": "Sajt",
     "altipus": "Kemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "ementáli"
       ]
     },
-    "kategoria_hash": "62e4950b01fc034d3fba0b6de3895609c675b1ab6b475cdda65665c60ef4a181",
+    "kategoria_hash": "797d11210edb7c21a35703faa2a9cdae2a811da5a14b0f9fafa95b5ee8649ae0",
     "statusz": "kesz"
   },
   {
@@ -84917,12 +86634,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "szeletelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "maasdam"
       ]
     },
-    "kategoria_hash": "3cf0a11e5b9319ba5d5edefb04f099476be2e96091ac8ac2733276f53cead394",
+    "kategoria_hash": "146d575638efaba20d1174b54e312b4f964cd0c57703214d61989217c3c2aa4b",
     "statusz": "kesz"
   },
   {
@@ -84950,12 +86677,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "reszelt",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "mozzarella"
       ]
     },
-    "kategoria_hash": "5aaa469b7c68c0d012c64c5357dfba0e8ff19a3d970ed4ae6abe72dfa95ad81b",
+    "kategoria_hash": "d851a3190bc6a1fc8984bfe6539f74d1775e48b6a5288111ab1f0ec27e53fb12",
     "statusz": "kesz"
   },
   {
@@ -84983,11 +86720,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "kocka",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Lyttos",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "feta"
       ]
     },
-    "kategoria_hash": "89afa3312212d53cb773585654da771f0da46456a7b788c1d771fa3a83c2e752",
+    "kategoria_hash": "a1870c5f2dfa40b57f1f525dff2cc7ca0db499a68be4b2e0dbbdcb48bd08b200",
     "statusz": "kesz"
   },
   {
@@ -85015,12 +86763,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Puding",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Danette",
       "íz": [
         "csokoládés"
       ]
     },
-    "kategoria_hash": "f33ca32a6180d599388627375b472e94e999ee4aaa816d6c0b429518919ef47c",
+    "kategoria_hash": "3f0aad04f829afb6976b8fdc1edd21f478fe41a8388c93c929cc900b328d4c5c",
     "statusz": "kesz"
   },
   {
@@ -85048,12 +86802,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Puding",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Danette",
       "íz": [
         "vaníliás"
       ]
     },
-    "kategoria_hash": "4ced15dd2b3178cb878c74f6ad121542a2ca139690d70cb6a0af49a6f30254ee",
+    "kategoria_hash": "b44f3064dd69abcddc1f8f908d96d0fc0142af341c1aab7868dae49e2be4613c",
     "statusz": "kesz"
   },
   {
@@ -85081,13 +86841,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Puding",
     "tulajdonsagok": {
-      "protein / magas fehérje": true,
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": true,
+      "kiszerelés": "tégely",
+      "márka": "Milsani",
       "íz": [
-        "egyéb"
+        "fahéjas"
       ]
     },
-    "kategoria_hash": "b5d14bbd04bfccd315adecd56ad0433649cf8f42a7134c7271ffaf49cc8d09af",
+    "kategoria_hash": "3efe3eac7cc3e5baa6b2baf43ef0d4ef1c8c8033d6afddc02e8cbd7ce09e97a2",
     "statusz": "kesz"
   },
   {
@@ -85115,9 +86880,18 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Puding",
     "tulajdonsagok": {
-      "protein / magas fehérje": true
+      "bio": false,
+      "laktózmentes": false,
+      "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": true,
+      "kiszerelés": "tégely",
+      "márka": "Milsani",
+      "íz": [
+        "natúr"
+      ]
     },
-    "kategoria_hash": "ed9408afae7e88576bbf85b4378045c214e10ab13043430ff4451ffb5cd0bb2a",
+    "kategoria_hash": "c162e25b21871700dff27b3674c2b12a53d8953ea489c9bcdf84fd27cdb34228",
     "statusz": "kesz"
   },
   {
@@ -85145,13 +86919,22 @@
     "alkategoria": "Sajt",
     "altipus": "Kemény sajt",
     "tulajdonsagok": {
-      "érlelt": true,
+      "bio": false,
       "forma": "reszelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Cucina",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "grana padano"
       ]
     },
-    "kategoria_hash": "9e7082b9d2ea16d0560f834b1d97d4f5c98c4b3dfe66e9f6ef2f521831683a7a",
+    "kategoria_hash": "c02257a510012df8af866ce2acd919758a2431e9e3a70cc7b37cf9f9a37e23f8",
     "statusz": "kesz"
   },
   {
@@ -85179,11 +86962,22 @@
     "alkategoria": "Sajt",
     "altipus": "Penészes sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "korong",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Roi de Trefle",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "camembert"
       ]
     },
-    "kategoria_hash": "c1d31b72a85d2249fcaa418ad863e58761e48a360a8b7d942bf6eda6d552780e",
+    "kategoria_hash": "b5560a82266ba6151e6938882030079560601747c68b63b16d142c39e79a4708",
     "statusz": "kesz"
   },
   {
@@ -85211,12 +87005,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "reszelt",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "cheddar"
       ]
     },
-    "kategoria_hash": "28b2f0373660dd23a83a66e2116e66cf1fe4412eba6fb9a62a539a132ed5ab23",
+    "kategoria_hash": "f41002a504331053f3fcb7a9ebe17b1cc21d118d9818c02ef4b578adcf104896",
     "statusz": "kesz"
   },
   {
@@ -85244,10 +87048,17 @@
     "alkategoria": "Tejszín",
     "altipus": "Főzőtejszín",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "20%",
-      "UHT": true
+      "UHT": true,
+      "cukrozott": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Milli"
     },
-    "kategoria_hash": "55708a0bf00e6277fb38d72d5bbac5b6140751334ddb28d6d9106597d2e6957b",
+    "kategoria_hash": "a7a7a6964476c3bd4404ce9336f3ba0a8b6a8e90494a3b5137ffbdcddd3d781f",
     "statusz": "kesz"
   },
   {
@@ -85275,12 +87086,20 @@
     "alkategoria": "Ivójoghurt, kefir, író",
     "altipus": "Ivójoghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
       "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "palack",
+      "márka": "Milsani",
       "íz": [
-        "egyéb"
+        "vegyes gyümölcs"
       ]
     },
-    "kategoria_hash": "6d4bd2c9070ad3c94dd6eeb9c483ad708de1593bcb72433f81040dbf503f090b",
+    "kategoria_hash": "d15c29206a04ac270c4c90e81d4750351b8bad5ca045e196fd3af6316536537f",
     "statusz": "kesz"
   },
   {
@@ -85308,12 +87127,20 @@
     "alkategoria": "Ivójoghurt, kefir, író",
     "altipus": "Ivójoghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
       "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "palack",
+      "márka": "Milsani",
       "íz": [
         "epres"
       ]
     },
-    "kategoria_hash": "d8a344b67cf610f1aa7c033de3388506c0c911d01eaa59dd9cf2392df58da4e6",
+    "kategoria_hash": "b2c2b903801653fa021a1b9d277afab9c52222c0e430b7a8a2698c29ac3a6840",
     "statusz": "kesz"
   },
   {
@@ -85341,11 +87168,22 @@
     "alkategoria": "Sajt",
     "altipus": "Grillsajt / halloumi / sütnivaló",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "tömb",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Hajdú",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "dc3137d50f05ef7f4da22649b836bd9e783800e06bde0dba163db1af4bde4b9f",
+    "kategoria_hash": "eb8cbd6fa56953c9807d91668fed6e5832d36aee33073030cef3e11c31c51078",
     "statusz": "kesz"
   },
   {
@@ -85373,11 +87211,22 @@
     "alkategoria": "Sajt",
     "altipus": "Grillsajt / halloumi / sütnivaló",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "tömb",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Hajdú",
       "ízesítés": [
         "mézes-mustáros"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "a1fdabc6378e3c9f49c38565ecdbe5e7fb280145db7b1cddecddbefacec63124",
+    "kategoria_hash": "692ccca4f4358b52738e97bcbeb2adff5a17d214e9815c77c47d384cc0f1a8b8",
     "statusz": "kesz"
   },
   {
@@ -85405,12 +87254,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "golyó",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "tasak",
+      "márka": "Regione che vai",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "mozzarella"
       ]
     },
-    "kategoria_hash": "04e1542f1b013a777207bb817fb7480a9f3407b8d60b9829c8383c41cac8444e",
+    "kategoria_hash": "cd9e8823db814bb657c939f3ca7e3e9a0ecf0bdf731f452e6e3c321078c5a101",
     "statusz": "kesz"
   },
   {
@@ -85438,11 +87297,22 @@
     "alkategoria": "Sajt",
     "altipus": "Grillsajt / halloumi / sütnivaló",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "tömb",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Hajdú",
       "ízesítés": [
         "chili-lime"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "8095d1c90f27738a97825c99d80ba847a3fd75a0a8bb1b3913f3f42247382f15",
+    "kategoria_hash": "efaad5755c5e6078a5a4317e1a2e411301ee4063293ba5d2a66fefac892c2e53",
     "statusz": "kesz"
   },
   {
@@ -85470,11 +87340,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "kenhető",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Roi de Trefle",
       "ízesítés": [
-        "zöldfűszeres"
+        "fűszeres"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "b468062cf6406062694605822654316ab75c0fdb2eec70d6c41a66a5f8b09619",
+    "kategoria_hash": "df17bb18a60209d5f6df5f8b44f6316b15bbdb29459a3e02c693c47841d49084",
     "statusz": "kesz"
   },
   {
@@ -85502,11 +87383,22 @@
     "alkategoria": "Sajt",
     "altipus": "Friss / lágy sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "kenhető",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Roi de Trefle",
       "ízesítés": [
-        "zöldfűszeres"
+        "fűszeres"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "b468062cf6406062694605822654316ab75c0fdb2eec70d6c41a66a5f8b09619",
+    "kategoria_hash": "df17bb18a60209d5f6df5f8b44f6316b15bbdb29459a3e02c693c47841d49084",
     "statusz": "kesz"
   },
   {
@@ -85534,12 +87426,22 @@
     "alkategoria": "Sajt",
     "altipus": "Grillsajt / halloumi / sütnivaló",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "tömb",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
       "készítmény (növényi zsiradékkal)": true,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "BBQ",
       "ízesítés": [
+        "paradicsomos-bazsalikomos"
+      ],
+      "fajta": [
         "egyéb"
       ]
     },
-    "kategoria_hash": "8d50b77e49cfc3a96821715874fe17631833ff61fb99fc18d2d7f73e479eaeae",
+    "kategoria_hash": "c70bf1042fc14eb08f6fea4b57be92629a9bf83b3ed35c10190d4750626896f4",
     "statusz": "kesz"
   },
   {
@@ -85567,12 +87469,22 @@
     "alkategoria": "Sajt",
     "altipus": "Grillsajt / halloumi / sütnivaló",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "tömb",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
       "készítmény (növényi zsiradékkal)": true,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "BBQ",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "cf81b8f668ed62931f4b386a0174080609b0b97926e6bb3c33885967a41581e8",
+    "kategoria_hash": "3e8575d9454117f93e6ee0c098368057318d7fc3d17e481237dbd6af1b7aea35",
     "statusz": "kesz"
   },
   {
@@ -85600,12 +87512,23 @@
     "alkategoria": "Sajt",
     "altipus": "Grillsajt / halloumi / sütnivaló",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "tömb",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
       "készítmény (növényi zsiradékkal)": true,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "BBQ",
       "ízesítés": [
-        "paprikás"
+        "paprikás",
+        "chilis"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "d4b62e568e1050b492c0bcc431b65b93b745aeebefd216d015f07bdfbfda2c24",
+    "kategoria_hash": "3dcd13504b1c60525204496f2e33f68ad0fa1c2eb1a911337112dd53e5c2c6bc",
     "statusz": "kesz"
   },
   {
@@ -85633,12 +87556,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
-      "forma": "tömb",
+      "bio": false,
+      "forma": "korong",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "egyéb",
+      "márka": "Ammerländer",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "gouda"
       ]
     },
-    "kategoria_hash": "f1abf58f8eac343b11ddfbe21d08c33b2f1ae72db220e6d252ae792c064e2d7e",
+    "kategoria_hash": "50ae508ee01f495bb65d82c294c67d991eb390abddb1777948ea9e1e44d88f9d",
     "statusz": "kesz"
   },
   {
@@ -85666,10 +87599,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Skyr / proteinjoghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "sovány",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
       "protein / magas fehérje": true,
-      "ízesített": true
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "vaníliás"
+      ]
     },
-    "kategoria_hash": "91d2c434a35812de149b2f6efae3c21b3157ebc96110693269377093c411bc54",
+    "kategoria_hash": "94b35113549d3ca3b5b615969e9329d2d6d403f8ffc9474ad81fa1d96f6dea58",
     "statusz": "kesz"
   },
   {
@@ -85697,10 +87641,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Skyr / proteinjoghurt",
     "tulajdonsagok": {
+      "bio": false,
+      "zsírtartalom": "sovány",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
       "protein / magas fehérje": true,
-      "ízesített": true
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "epres"
+      ]
     },
-    "kategoria_hash": "91d2c434a35812de149b2f6efae3c21b3157ebc96110693269377093c411bc54",
+    "kategoria_hash": "cbc9774384ae54b8e75a05d0613924c4c063f715cf878ea48ee2e8ee557d59d4",
     "statusz": "kesz"
   },
   {
@@ -85728,12 +87683,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "kocka",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "maasdam"
       ]
     },
-    "kategoria_hash": "7174115e61240ea65f3426d05b0e5aee184b6eeba1c9cccd67992ae16ba3469d",
+    "kategoria_hash": "a1c657d0c39176d14637641e38f54587e1c0f249add2577932ef1fbc29f05ef4",
     "statusz": "kesz"
   },
   {
@@ -85761,12 +87726,19 @@
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Egyéb tejdesszert",
     "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
       "ízesített": true,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "tégely",
+      "márka": "Milsani",
       "íz": [
-        "csokoládés"
+        "csokoládés",
+        "mogyorós"
       ]
     },
-    "kategoria_hash": "80af546adc7f663a7203ecb25fc187fc57ad144a0dd09d3dc9d7faedd5317b43",
+    "kategoria_hash": "842f5241bc31691c5950831b452b2c21a2c936d58ea24494f06effe625302db6",
     "statusz": "kesz"
   },
   {
@@ -85793,8 +87765,19 @@
     "fokategoria": "Tejtermékek és tojás",
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Tejberizs",
-    "tulajdonsagok": {},
-    "kategoria_hash": "654803907d0375de2089830f70ffdfd8ec4f5996bbd0c57b43aad1b5c91a19af",
+    "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
+      "ízesített": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "tégely",
+      "márka": "Milsani",
+      "íz": [
+        "natúr"
+      ]
+    },
+    "kategoria_hash": "c0eb6ebe223c903f95bb647a078b8a0a440e20a6bd29c64d9e8369745a06b70a",
     "statusz": "kesz"
   },
   {
@@ -85821,8 +87804,19 @@
     "fokategoria": "Tejtermékek és tojás",
     "alkategoria": "Tejdesszert, puding",
     "altipus": "Puding",
-    "tulajdonsagok": {},
-    "kategoria_hash": "207d4e8c8c628bdbb66ecd8b4adb30728d290e8a7087d9d5b28ddbd67e361063",
+    "tulajdonsagok": {
+      "bio": false,
+      "laktózmentes": false,
+      "ízesített": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "tégely",
+      "márka": "Milsani",
+      "íz": [
+        "natúr"
+      ]
+    },
+    "kategoria_hash": "8bb77793abe17ff92d260ad81276f0af78404c5765e4d898fc97e8ad5edf074a",
     "statusz": "kesz"
   },
   {
@@ -85850,13 +87844,23 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "kocka",
+      "érlelt": true,
       "laktózmentes": true,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "maasdam",
+        "gouda"
       ]
     },
-    "kategoria_hash": "e41227e7e6afa6742738a14c4825158acf3e7645e996b941e69cab6019c3382f",
+    "kategoria_hash": "d3bbf3c5dc5d76a8a3ceb36f1d103a5ee40b7bae5d2558d76c79fcd211de93f9",
     "statusz": "kesz"
   },
   {
@@ -85884,13 +87888,23 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "kocka",
+      "érlelt": true,
       "laktózmentes": true,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "edami",
+        "butterkäse"
       ]
     },
-    "kategoria_hash": "e41227e7e6afa6742738a14c4825158acf3e7645e996b941e69cab6019c3382f",
+    "kategoria_hash": "2efa1fd14a04bd945902267ced989fe8aedaddd3e532ee88096af1d3a5d9a083",
     "statusz": "kesz"
   },
   {
@@ -85918,12 +87932,18 @@
     "alkategoria": "Tojás",
     "altipus": "Tyúktojás",
     "tulajdonsagok": {
+      "bio": false,
       "méret": "S",
+      "tartás": "egyéb",
+      "extra sárga": false,
+      "hazai": false,
+      "kiszerelés": "tálca",
+      "márka": "Kokárdás",
       "fajta": [
         "tyúktojás"
       ]
     },
-    "kategoria_hash": "640971f7b0459a1052f2993abaa90f450d04e2597e73cd9b560232bb0f01686b",
+    "kategoria_hash": "4fa9259d262760d477bbe3c0c657326e5709a9e4755d6f012df76513c1bf19d4",
     "statusz": "kesz"
   },
   {
@@ -85951,12 +87971,18 @@
     "alkategoria": "Tojás",
     "altipus": "Tyúktojás",
     "tulajdonsagok": {
+      "bio": false,
       "méret": "S",
+      "tartás": "egyéb",
+      "extra sárga": false,
+      "hazai": false,
+      "kiszerelés": "tálca",
+      "márka": "FARM",
       "fajta": [
         "tyúktojás"
       ]
     },
-    "kategoria_hash": "640971f7b0459a1052f2993abaa90f450d04e2597e73cd9b560232bb0f01686b",
+    "kategoria_hash": "e3e90ca3a2c0dcf02f7676935848eac54c426f5b8c5a01db5d166d25cc81c9c5",
     "statusz": "kesz"
   },
   {
@@ -85984,11 +88010,22 @@
     "alkategoria": "Sajt",
     "altipus": "Penészes sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "tömb",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Cucina Nobile",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "kékpenészes"
       ]
     },
-    "kategoria_hash": "c1d31b72a85d2249fcaa418ad863e58761e48a360a8b7d942bf6eda6d552780e",
+    "kategoria_hash": "22d8414c1c341d1861133fdf1e47f3b85433f6ea9348a57e829cf4e9d191e077",
     "statusz": "kesz"
   },
   {
@@ -86016,11 +88053,22 @@
     "alkategoria": "Sajt",
     "altipus": "Penészes sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "tömb",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "doboz",
+      "márka": "Cucina Nobile",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "kékpenészes"
       ]
     },
-    "kategoria_hash": "c1d31b72a85d2249fcaa418ad863e58761e48a360a8b7d942bf6eda6d552780e",
+    "kategoria_hash": "22d8414c1c341d1861133fdf1e47f3b85433f6ea9348a57e829cf4e9d191e077",
     "statusz": "kesz"
   },
   {
@@ -86048,11 +88096,22 @@
     "alkategoria": "Sajt",
     "altipus": "Grillsajt / halloumi / sütnivaló",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "tömb",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Lyttos",
       "ízesítés": [
+        "chilis"
+      ],
+      "fajta": [
         "egyéb"
       ]
     },
-    "kategoria_hash": "cc62e2b8067f4c31f0539c724f92d86bdedb61c66ed4945361007231d921165d",
+    "kategoria_hash": "0f6e43e7124d02a5185c143ca08b3fd9a1b6681e6b01721acf5d793cbfcf4438",
     "statusz": "kesz"
   },
   {
@@ -86080,11 +88139,22 @@
     "alkategoria": "Sajt",
     "altipus": "Grillsajt / halloumi / sütnivaló",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "tömb",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Lyttos",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "dc3137d50f05ef7f4da22649b836bd9e783800e06bde0dba163db1af4bde4b9f",
+    "kategoria_hash": "73029ba30066c60a46dae8bdbd6d8a112694efd6e4d33515ca12d6d67651ce73",
     "statusz": "kesz"
   },
   {
@@ -86112,11 +88182,22 @@
     "alkategoria": "Sajt",
     "altipus": "Grillsajt / halloumi / sütnivaló",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "tömb",
+      "érlelt": false,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Lyttos",
       "ízesítés": [
-        "zöldfűszeres"
+        "bazsalikomos"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "a18b981588214c93ce45bc0d3da20b6b6fc6ce97a9250e87427f1a6f31da564c",
+    "kategoria_hash": "6c6bbe873820f9c74a14152907aac621ef678b4754121e1cea8fd6cc92df18c1",
     "statusz": "kesz"
   },
   {
@@ -86144,11 +88225,20 @@
     "alkategoria": "Krémtúró, túródesszert",
     "altipus": "Túró Rudi jellegű túródesszert",
     "tulajdonsagok": {
+      "bio": false,
       "bevonatos": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
       "cukormentes / hozzáadott cukor nélkül": true,
-      "ízesített": true
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Pöttyös",
+      "íz": [
+        "csokoládés"
+      ]
     },
-    "kategoria_hash": "edefeef16e26cd96d12789fa5aeaf4da038031def9b172a8917c9d8726439c27",
+    "kategoria_hash": "065996245a9314a842529a3c4d45aec4545f987c903479f16e86c521bd69ce20",
     "statusz": "kesz"
   },
   {
@@ -86176,10 +88266,20 @@
     "alkategoria": "Krémtúró, túródesszert",
     "altipus": "Túró Rudi jellegű túródesszert",
     "tulajdonsagok": {
+      "bio": false,
       "bevonatos": true,
-      "cukormentes / hozzáadott cukor nélkül": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": true,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Pöttyös",
+      "íz": [
+        "natúr"
+      ]
     },
-    "kategoria_hash": "4b9b83019cae4e63bad2fcf35bd023519357677daf6de9d969655d8a5e75865d",
+    "kategoria_hash": "761b4177d858134921e2d49a68a6346b168ba8bf612486cc9bb7351adc4569f1",
     "statusz": "kesz"
   },
   {
@@ -86207,9 +88307,20 @@
     "alkategoria": "Krémtúró, túródesszert",
     "altipus": "Túró Rudi jellegű túródesszert",
     "tulajdonsagok": {
-      "bevonatos": true
+      "bio": false,
+      "bevonatos": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Pöttyös",
+      "íz": [
+        "natúr"
+      ]
     },
-    "kategoria_hash": "fd6ae1516cc78a22cb2fdce1fe9a1e58b52fe5956a85cbd19ed46e4b98e166c3",
+    "kategoria_hash": "2556b4346959026d0d2a2b9950f5458c4e1a1b80c58d0a9988bb0748963369ec",
     "statusz": "kesz"
   },
   {
@@ -86237,10 +88348,20 @@
     "alkategoria": "Krémtúró, túródesszert",
     "altipus": "Túró Rudi jellegű túródesszert",
     "tulajdonsagok": {
+      "bio": false,
       "bevonatos": true,
-      "ízesített": true
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Pöttyös",
+      "íz": [
+        "pisztáciás"
+      ]
     },
-    "kategoria_hash": "72164e390e30fd64dac4a7e8c1ede5e937ca59f99c132a3f9c3d2a24d8d3069f",
+    "kategoria_hash": "e062e78bc77c0801d8a8429b7ec1b73069f5cb9e5091f7b3ceda01620acb572b",
     "statusz": "kesz"
   },
   {
@@ -86268,10 +88389,20 @@
     "alkategoria": "Krémtúró, túródesszert",
     "altipus": "Túró Rudi jellegű túródesszert",
     "tulajdonsagok": {
+      "bio": false,
       "bevonatos": true,
-      "laktózmentes": true
+      "laktózmentes": true,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "multipack",
+      "márka": "Pöttyös",
+      "íz": [
+        "natúr"
+      ]
     },
-    "kategoria_hash": "3332aed0c3bd037e66ab63d45ca4e891698d5daeabdfdf52be9632f3e733bc3f",
+    "kategoria_hash": "cc26221fa08aa0e04e123deccd2284b993ee9374fc5458f4a08bc9a804f29fd4",
     "statusz": "kesz"
   },
   {
@@ -86299,13 +88430,22 @@
     "alkategoria": "Sajt",
     "altipus": "Kemény sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "gerezd",
       "érlelt": true,
-      "forma": "tömb",
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Cucina",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "grana padano"
       ]
     },
-    "kategoria_hash": "ec2a73d9fd4eb1b542f7e513aa5b3cb73bf8e8d0ac0bea0e65092f81b5309c78",
+    "kategoria_hash": "8bab8843d27ec6327d7d06ae459cf3c29032d11e56ae99892f487a0864fb6790",
     "statusz": "kesz"
   },
   {
@@ -86333,12 +88473,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "tömb",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "egyéb",
+      "márka": "Kokárdás",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "trappista"
       ]
     },
-    "kategoria_hash": "f1abf58f8eac343b11ddfbe21d08c33b2f1ae72db220e6d252ae792c064e2d7e",
+    "kategoria_hash": "a90c0f90dc79d415b111ca7e0854ca5a8b4c0c1bae3e9921da739f79fe9a2914",
     "statusz": "kesz"
   },
   {
@@ -86366,14 +88516,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "tömb",
       "érlelt": true,
       "laktózmentes": true,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "gouda"
       ]
     },
-    "kategoria_hash": "647da47b492aee4a2229a3fbb6d0299fe53c59723a74154e9adc4060d4fcadb3",
+    "kategoria_hash": "428a5d8b736b2c5ce13abc04a31ba195ec745b3b60c934ea2d2fd0d7003365ae",
     "statusz": "kesz"
   },
   {
@@ -86401,14 +88559,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "tömb",
       "érlelt": true,
       "laktózmentes": true,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "gouda"
       ]
     },
-    "kategoria_hash": "647da47b492aee4a2229a3fbb6d0299fe53c59723a74154e9adc4060d4fcadb3",
+    "kategoria_hash": "428a5d8b736b2c5ce13abc04a31ba195ec745b3b60c934ea2d2fd0d7003365ae",
     "statusz": "kesz"
   },
   {
@@ -86436,13 +88602,22 @@
     "alkategoria": "Sajt",
     "altipus": "Kemény sajt",
     "tulajdonsagok": {
-      "forma": "tömb",
+      "bio": false,
+      "forma": "gerezd",
       "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Meine Käsetheke",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "ec2a73d9fd4eb1b542f7e513aa5b3cb73bf8e8d0ac0bea0e65092f81b5309c78",
+    "kategoria_hash": "297b6d7882bb94f919dcb2e5c10145df7e521844bd801a240f1c1ce0cc5726a7",
     "statusz": "kesz"
   },
   {
@@ -86470,13 +88645,22 @@
     "alkategoria": "Sajt",
     "altipus": "Kemény sajt",
     "tulajdonsagok": {
-      "forma": "tömb",
+      "bio": false,
+      "forma": "gerezd",
       "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Meine Käsetheke",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "egyéb"
       ]
     },
-    "kategoria_hash": "ec2a73d9fd4eb1b542f7e513aa5b3cb73bf8e8d0ac0bea0e65092f81b5309c78",
+    "kategoria_hash": "297b6d7882bb94f919dcb2e5c10145df7e521844bd801a240f1c1ce0cc5726a7",
     "statusz": "kesz"
   },
   {
@@ -86504,13 +88688,22 @@
     "alkategoria": "Sajt",
     "altipus": "Kemény sajt",
     "tulajdonsagok": {
-      "forma": "tömb",
+      "bio": false,
+      "forma": "gerezd",
       "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Meine Käsetheke",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "gruyère"
       ]
     },
-    "kategoria_hash": "ec2a73d9fd4eb1b542f7e513aa5b3cb73bf8e8d0ac0bea0e65092f81b5309c78",
+    "kategoria_hash": "da3db54b8f961b6d21d9eb73223dd92b8ed06a02a81130e034d6d2281330ebc5",
     "statusz": "kesz"
   },
   {
@@ -86538,12 +88731,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
       "forma": "tömb",
+      "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "egyéb",
+      "márka": "Tolle",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "trappista"
       ]
     },
-    "kategoria_hash": "f1abf58f8eac343b11ddfbe21d08c33b2f1ae72db220e6d252ae792c064e2d7e",
+    "kategoria_hash": "bc11b3533fcc033333a2c9683b564c5c682b26fb676c013f50248d46885a6ac4",
     "statusz": "kesz"
   },
   {
@@ -86571,12 +88774,22 @@
     "alkategoria": "Sajt",
     "altipus": "Félkemény sajt",
     "tulajdonsagok": {
+      "bio": false,
+      "forma": "tömb",
+      "érlelt": true,
       "laktózmentes": true,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "vákuumcsomagolt",
+      "márka": "Milsani",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "kecskesajt"
       ]
     },
-    "kategoria_hash": "61c213fb3f259b863ed16ba1f108f042b699133f318cff99f1c78818459721dd",
+    "kategoria_hash": "e8cf27aef2fd62820d076481d57175e9a3bac64c9819e5064c068cca48ecc541",
     "statusz": "kesz"
   },
   {
@@ -86604,13 +88817,22 @@
     "alkategoria": "Sajt",
     "altipus": "Kemény sajt",
     "tulajdonsagok": {
-      "forma": "tömb",
+      "bio": false,
+      "forma": "gerezd",
       "érlelt": true,
+      "laktózmentes": false,
+      "light / csökkentett zsír": false,
+      "készítmény (növényi zsiradékkal)": false,
+      "kiszerelés": "egyéb",
+      "márka": "Bonlà",
       "ízesítés": [
         "natúr"
+      ],
+      "fajta": [
+        "parmezán"
       ]
     },
-    "kategoria_hash": "ec2a73d9fd4eb1b542f7e513aa5b3cb73bf8e8d0ac0bea0e65092f81b5309c78",
+    "kategoria_hash": "8321a6cdfcbd18a0d1c031a433ef54f816cbbfbebb9c0e1cec553fa8bf49e6ba",
     "statusz": "kesz"
   },
   {
@@ -86638,11 +88860,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "sovány",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": true,
       "cukormentes / hozzáadott cukor nélkül": true,
-      "ízesített": true
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Zott",
+      "íz": [
+        "meggyes"
+      ]
     },
-    "kategoria_hash": "b164858bcd7e8451c1d2497fa6986c033503918f59b3f4bca0d39ac0dcd85acf",
+    "kategoria_hash": "d6d77112802b49851d5f1c65c596151bdb0d11f0603ba796672c76f35a5642d2",
     "statusz": "kesz"
   },
   {
@@ -86670,11 +88902,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
+      "bio": false,
       "zsírtartalom": "sovány",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": true,
       "cukormentes / hozzáadott cukor nélkül": true,
-      "ízesített": true
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Zott",
+      "íz": [
+        "epres"
+      ]
     },
-    "kategoria_hash": "b164858bcd7e8451c1d2497fa6986c033503918f59b3f4bca0d39ac0dcd85acf",
+    "kategoria_hash": "603f7f5a530a8a80c886e68ca64190b70573bb1215ce6ae99e24ce88731a4d41",
     "statusz": "kesz"
   },
   {
@@ -86702,9 +88944,22 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "őszibarackos",
+        "maracuja"
+      ]
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "f1fc0ed9333eb13d7170849a9de8443b0a6fdb2fd8f843ea2b0cb7f300ab9ff8",
     "statusz": "kesz"
   },
   {
@@ -86732,9 +88987,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "meggyes"
+      ]
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "d037d370ba2696a4b4318a44f48a99fadc9fc4c8ad6a1f661ee858b0afaac785",
     "statusz": "kesz"
   },
   {
@@ -86762,9 +89029,21 @@
     "alkategoria": "Joghurt",
     "altipus": "Gyümölcsös/ízesített joghurt",
     "tulajdonsagok": {
-      "ízesített": true
+      "bio": false,
+      "zsírtartalom": "teljes",
+      "élőflórás/probiotikus": true,
+      "laktózmentes": false,
+      "ízesített": true,
+      "light / csökkentett zsír": false,
+      "cukormentes / hozzáadott cukor nélkül": false,
+      "protein / magas fehérje": false,
+      "kiszerelés": "pohár",
+      "márka": "Milsani",
+      "íz": [
+        "kiwis"
+      ]
     },
-    "kategoria_hash": "bba9be83c3e8f24e671b4e8ebda54feb06e81ee496540bcf6ed334456ced8070",
+    "kategoria_hash": "7d75624c4d3b622a5149a5bb9a2a803978dd826d0212c780fb0c572ef1e197c5",
     "statusz": "kesz"
   },
   {
