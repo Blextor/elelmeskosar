@@ -335,7 +335,8 @@
               "Lacikonyha",
               "Horváth Rozi",
               "Ízmester",
-              "Thymos"
+              "Thymos",
+              "SunCity Spices"
             ],
             "bio": {}
           },
@@ -382,7 +383,18 @@
               "1001 éjszaka",
               "Texas BBQ",
               "citrombors",
-              "fokhagymás"
+              "fokhagymás",
+              "brisket rub",
+              "Captain Balu",
+              "Chicken King",
+              "magyaros malac",
+              "mediterrán zöldség",
+              "salt and pepper",
+              "salt pepper garlic",
+              "show me smoke",
+              "Smokey Texas",
+              "barbecue",
+              "sült krumpli"
             ],
             "célétel / stílus": [
               "gyros",
@@ -416,7 +428,14 @@
               "kávés",
               "keleti",
               "Texas BBQ",
-              "szárazpác"
+              "szárazpác",
+              "brisket",
+              "marha",
+              "malac",
+              "steak",
+              "füstös BBQ",
+              "sült krumpli",
+              "univerzális"
             ],
             "csípősség": [
               "nem csípős",
@@ -540,7 +559,9 @@
               "Maille",
               "BBQUE",
               "Kikkoman",
-              "Jack Daniel's"
+              "Jack Daniel's",
+              "GO - TAN",
+              "Paltsidis"
             ],
             "bio": {},
             "gluténmentes": {},
@@ -623,7 +644,20 @@
               "füstölt",
               "bükkfa",
               "teriyaki",
-              "mézes BBQ"
+              "mézes BBQ",
+              "grill",
+              "mustáros",
+              "tarkaborsos",
+              "chipotle",
+              "tortilla",
+              "Korean BBQ",
+              "sticky chicken",
+              "yakitori",
+              "extra fokhagymás",
+              "spanyol fokhagymás",
+              "crispy chilli oil",
+              "Pokol Tüze",
+              "édes-füstös"
             ],
             "alap": [
               "paradicsom",
@@ -662,7 +696,13 @@
               "fekete fokhagyma",
               "chili",
               "jalapeño",
-              "teriyaki"
+              "teriyaki",
+              "tarkabors",
+              "chipotle",
+              "fűszer",
+              "csirke",
+              "szezám",
+              "napraforgóolaj"
             ],
             "konyha / stílus": [
               "magyaros",
@@ -887,7 +927,8 @@
               "Vénusz",
               "Cauvin",
               "Mantova",
-              "Andrea Milano"
+              "Andrea Milano",
+              "GO - TAN"
             ],
             "bio": {}
           },
@@ -952,7 +993,8 @@
                   "natúr",
                   "BBQ",
                   "füstölt BBQ",
-                  "rozmaringos"
+                  "rozmaringos",
+                  "fokhagymás"
                 ]
               }
             },
@@ -981,6 +1023,9 @@
                   "sütőolaj",
                   "spray",
                   "egyéb"
+                ],
+                "ízesítés": [
+                  "chilis"
                 ]
               }
             },
@@ -4169,7 +4214,30 @@
           "Calippo"
         ]
       },
-      "csoportos": {}
+      "csoportos": {
+        "márka": [
+          "FeVita",
+          "FRoSTA",
+          "Auchan Kedvenc",
+          "Auchan",
+          "Delforg",
+          "Classic",
+          "Halker",
+          "Balaton parti ízek",
+          "Natural Meat",
+          "Aquadella",
+          "BANDAI",
+          "Kubigomba",
+          "Székely Csemege",
+          "Living Foods",
+          "Rozmár",
+          "Royal",
+          "Ardo",
+          "Fjord",
+          "Asiago Food",
+          "MyFood"
+        ]
+      }
     },
     "alkategóriák": {
       "Jégkrém, fagylalt": {
@@ -4306,7 +4374,13 @@
               "fűszerkeverék",
               "bab",
               "zöldségmix",
-              "tök"
+              "tök",
+              "vöröshagyma",
+              "csiperkegomba",
+              "erdei gomba",
+              "cukkini",
+              "kaliforniai paprika",
+              "padlizsán"
             ],
             "vágás / forma": [
               "vágott",
@@ -4344,7 +4418,8 @@
               "natúr",
               "mediterrán",
               "classic",
-              "kapros"
+              "kapros",
+              "grillezett"
             ],
             "minőség / jelleg": [
               "zsenge",
@@ -4502,7 +4577,8 @@
               "sertés",
               "marha",
               "húsmentes",
-              "egyéb"
+              "egyéb",
+              "kacsa"
             ],
             "forma": [
               "mellfilé",
@@ -4517,14 +4593,22 @@
               "máj",
               "szelet",
               "karaj",
-              "fasírtgolyó"
+              "fasírtgolyó",
+              "szárny",
+              "belsőség",
+              "pacal",
+              "miccs",
+              "tépett hús"
             ],
             "ízesítés / panír": [
               "chilis-sajtos",
               "cornflakes",
               "teljes kiőrlésű",
               "csípős",
-              "natúr"
+              "natúr",
+              "BBQ",
+              "sous vide",
+              "ropogós"
             ],
             "töltelék": [
               "sajtos",
@@ -4675,7 +4759,10 @@
               "mini tavaszi tekercs",
               "bagett",
               "szendvicsalap",
-              "leveles tésztás hal"
+              "leveles tésztás hal",
+              "zöldségburger",
+              "lazacburger",
+              "nuggets"
             ],
             "feltét / ízesítés": [
               "sajtos-fokhagymás",
@@ -4692,7 +4779,9 @@
               "spenótos-sajtos",
               "csirkés",
               "zöldséges",
-              "lazacos-kapros"
+              "lazacos-kapros",
+              "édesburgonyás",
+              "karfiolos-brokkolis"
             ]
           }
         },
@@ -4882,7 +4971,14 @@
               "alaszkai tőkehal",
               "garnéla",
               "pangasius",
-              "tenger gyümölcsei"
+              "tenger gyümölcsei",
+              "afrikai harcsa",
+              "tilápia",
+              "tintahal",
+              "kagyló",
+              "fekete tigrisrák",
+              "cápaharcsa",
+              "apróhal"
             ],
             "forma": [
               "filé",
@@ -4892,7 +4988,10 @@
               "egyéb",
               "halrudacska",
               "garnéla",
-              "tenger gyümölcsei mix"
+              "tenger gyümölcsei mix",
+              "gyűrű",
+              "kagyló",
+              "rákfarok"
             ],
             "feltét / ízesítés": [
               "paradicsomos-paprikás",
@@ -5499,7 +5598,24 @@
           "Vegan Grill",
           "Real Nature",
           "Well Well",
-          "Bio ABC"
+          "Bio ABC",
+          "Selfish",
+          "SeaFood Hungary",
+          "SFH",
+          "Vilsund",
+          "Vilsund Blue",
+          "Vici",
+          "Viciunai Hungary kft.",
+          "Barlovento",
+          "Cocedero",
+          "PICK",
+          "Auchan",
+          "Vadhús",
+          "Naszálytej",
+          "Fittej",
+          "ZILDA",
+          "Magyar Tej",
+          "VEDD A HAZAIT"
         ]
       },
       "csoportos": {}
@@ -5776,7 +5892,8 @@
               "tokányhús",
               "combfilé",
               "szűzpecsenye",
-              "gulyáshús"
+              "gulyáshús",
+              "láb"
             ],
             "ízesítés": [
               "magyaros",
@@ -6704,7 +6821,15 @@
               "fokhagymás-zöldfűszeres",
               "borsos",
               "zöld fűszervajas",
-              "egyéb"
+              "egyéb",
+              "grillfűszeres",
+              "fűszervajas",
+              "fokhagymás fűszervajas",
+              "thai grill",
+              "olajos",
+              "fokhagymás olajos",
+              "natúr lében",
+              "édesítőszeres"
             ],
             "csomagolás": [
               "tálcás",
@@ -6725,7 +6850,10 @@
               "hámozott",
               "főtt",
               "bél nélküli",
-              "bőr nélküli"
+              "bőr nélküli",
+              "szuvidált",
+              "pasztörizált",
+              "marinált"
             ]
           }
         },
@@ -8995,7 +9123,9 @@
           "mexikói",
           "marokkói",
           "mediterrán",
-          "egyéb"
+          "egyéb",
+          "görög",
+          "amerikai"
         ],
         "fő alapanyag": [
           "tészta",
@@ -9013,7 +9143,9 @@
           "tojás",
           "bulgur",
           "egyéb",
-          "szárnyas"
+          "szárnyas",
+          "rák",
+          "surimi"
         ],
         "adag": [
           "egyszemélyes",
@@ -9143,7 +9275,11 @@
             "márka": [
               "Wonnemeyer",
               "Snack Time",
-              "egyéb"
+              "egyéb",
+              "Rio Mare",
+              "OLYMP",
+              "Ínyencmester",
+              "Mogyorósi hidegkonyha"
             ]
           },
           "csoportos": {
@@ -9169,7 +9305,11 @@
               "mozzarella",
               "tonhal",
               "szárnyas",
-              "paprika"
+              "paprika",
+              "olajbogyó",
+              "sajt",
+              "rák",
+              "surimi"
             ],
             "saláta fajta": [
               "franciasaláta",
@@ -9193,7 +9333,10 @@
               "salátatál",
               "görög saláta",
               "lyoni saláta",
-              "antipasti"
+              "antipasti",
+              "olajbogyó",
+              "töltött paprika",
+              "ráksaláta"
             ],
             "öntet / alap": [
               "majonézes",
@@ -9207,7 +9350,9 @@
               "creme fraiche",
               "halas",
               "egyéb",
-              "paradicsomos"
+              "paradicsomos",
+              "olajos",
+              "fűszeres olaj"
             ]
           }
         },
@@ -9648,7 +9793,8 @@
               "Happy Harvest",
               "Azon Melegében",
               "márka nélkül",
-              "Pan del Dí"
+              "Pan del Dí",
+              "Jaus"
             ],
             "helyben sütött": {},
             "csomagolt": {}
@@ -9795,7 +9941,8 @@
               "Happy Harvest",
               "Tesoros del Sur",
               "Dijo",
-              "BFree Foods"
+              "BFree Foods",
+              "Roberto"
             ],
             "gluténmentes": {},
             "laktózmentes": {}
@@ -9878,7 +10025,10 @@
               "Nutrifree",
               "Azon Melegében",
               "egyéb",
-              "Balviten"
+              "Balviten",
+              "Quality Bakers",
+              "Jaus",
+              "Schulstad"
             ],
             "gluténmentes": {},
             "fúrt hotdog kifli": {},
@@ -10025,7 +10175,9 @@
               "Cucina",
               "Tesoros del Sur",
               "egyéb",
-              "márka nélkül"
+              "márka nélkül",
+              "Auchan Kedvenc",
+              "Pantastico!"
             ],
             "helyben sütött": {},
             "gluténmentes": {},
@@ -10089,7 +10241,8 @@
             "márka": [
               "Azon Melegében",
               "BBQ",
-              "Nutrifree"
+              "Nutrifree",
+              "Pantastico!"
             ],
             "helyben sütött": {},
             "csomagolt": {}
@@ -10142,11 +10295,14 @@
               "kukorica lepény",
               "rozs lepény",
               "pita",
-              "egyéb"
+              "egyéb",
+              "piadina"
             ],
             "márka": [
               "Enjoy Free!",
-              "Lyttos"
+              "Lyttos",
+              "LECKER",
+              "Roberto"
             ]
           },
           "csoportos": {
@@ -10164,7 +10320,9 @@
               "egyéb",
               "mediterrán",
               "lenmag",
-              "quinoa"
+              "quinoa",
+              "búza",
+              "piadina"
             ]
           }
         },
@@ -10346,7 +10504,9 @@
               "1,5%",
               "2,8%",
               "3,5%",
-              "egyéb"
+              "egyéb",
+              "kecsketej",
+              "aludttej"
             ],
             "laktózmentes": {},
             "light / csökkentett zsír": {},
@@ -10364,7 +10524,17 @@
               "Tolle",
               "egyéb",
               "Kokárdás",
-              "Bio"
+              "Bio",
+              "ZILDA",
+              "Naszálytej",
+              "Fittej",
+              "VEDD A HAZAIT",
+              "Auchan Kedvenc",
+              "Magyar Tej",
+              "Garabonciás",
+              "Lactel",
+              "Abaúj",
+              "Magyar és Finom"
             ]
           },
           "csoportos": {}
@@ -10414,7 +10584,21 @@
               "egyéb",
               "Milsani",
               "Hell",
-              "Mizo"
+              "Mizo",
+              "Pöttyös",
+              "Hell Energy",
+              "HELL ICE COFFEE",
+              "Parmalat",
+              "Tarka",
+              "Zott",
+              "Milli",
+              "Auchan Kedvenc",
+              "Mövenpick",
+              "MÜLLER",
+              "Starbucks",
+              "Cafe Frei",
+              "Tájaink íze",
+              "Milky Way"
             ]
           },
           "csoportos": {
@@ -10432,7 +10616,35 @@
               "flat white",
               "egyéb",
               "sós karamellás",
-              "madártej"
+              "madártej",
+              "csokoládés",
+              "decaf latte",
+              "double espresso",
+              "slim vanília",
+              "pink latte",
+              "kapucíner",
+              "kókusz-mandula",
+              "melange",
+              "fehér csokoládés-epres",
+              "kókuszos-csoki",
+              "tejeskávé",
+              "csokoládé-karamell-keksz",
+              "mogyorós",
+              "pisztácia-kókusz",
+              "csoki-keksz",
+              "citromos sajttorta",
+              "pisztáciás",
+              "espresso macchiato",
+              "mandulás-kávés",
+              "caramel macchiato",
+              "vaníliás frappuccino",
+              "karamellás frappuccino",
+              "frappuccino",
+              "tripleshot",
+              "kókuszos kávé",
+              "mogyorós kávé",
+              "angyalhaj",
+              "milky way"
             ]
           }
         },
@@ -11141,8 +11353,48 @@
               "Auchan Kedvenc",
               "Hochland",
               "Ízes Erdély",
-              "Minus L"
-            ]
+              "Minus L",
+              "Arla",
+              "German White",
+              "márka nélkül",
+              "Fitaki",
+              "Auchan",
+              "Zanetti",
+              "Auchan Tipp",
+              "Tuti Tipp",
+              "Magyar",
+              "Zott",
+              "Lazur",
+              "Pannónia",
+              "Pannónia Mester",
+              "Fallini",
+              "Dziugas",
+              "Bomilact",
+              "Kisteleki",
+              "Talléros",
+              "Camping",
+              "Mackó",
+              "Almette",
+              "Lazur Blue",
+              "Mlekovita",
+              "GOB",
+              "Boursin",
+              "my!cheese",
+              "Paysan Breton",
+              "St. Benoit",
+              "Edelmont",
+              "Bon Fromage",
+              "Dublin Dairy",
+              "PATINÁS",
+              "Kasekönig",
+              "Monterey Jack",
+              "Puszta",
+              "Parmareggio",
+              "Truly Irish",
+              "Auchan Collection",
+              "Szarvasi Mozzarella"
+            ],
+            "protein / magas fehérje": {}
           },
           "csoportos": {
             "ízesítés": [
@@ -11169,7 +11421,41 @@
               "bazsalikomos",
               "paradicsomos",
               "csípős paprikás",
-              "medvehagymás"
+              "medvehagymás",
+              "cheddar ízű",
+              "ementáli ízű",
+              "toast",
+              "sandwich",
+              "füst ízű",
+              "maasdamer",
+              "kékpenészes",
+              "protein",
+              "raclette",
+              "pizza mix",
+              "pasta mix",
+              "sajtkeverék",
+              "fokhagymás-zöldfűszeres",
+              "uborkás-fűszeres",
+              "újhagymás",
+              "tormás",
+              "joghurtos",
+              "szárított paradicsomos",
+              "hagymás-metélőhagymás",
+              "bivalytejes",
+              "magyaros",
+              "zöldborsos",
+              "diós",
+              "provence-i zöldfűszeres",
+              "paradicsomos-fokhagymás",
+              "nemespenészes",
+              "chili-rukkola",
+              "zöld pesto",
+              "vörös cheddar",
+              "fehér cheddar",
+              "érett",
+              "mild",
+              "picante",
+              "kérgében érlelt"
             ],
             "fajta": [
               "parenyica",
@@ -11187,7 +11473,37 @@
               "kecskesajt",
               "ementáli",
               "seetaler",
-              "parmezán"
+              "parmezán",
+              "krémfehér",
+              "vajsajt",
+              "jadegut",
+              "chester",
+              "havarti",
+              "mimolette",
+              "raclette",
+              "kéksajt",
+              "lazur blue",
+              "sajtkeverék",
+              "mascarpone",
+              "ordasajt",
+              "dália",
+              "gomolya",
+              "brie",
+              "coulommiers",
+              "reblochon",
+              "pálpusztai",
+              "boursin",
+              "old amsterdam",
+              "havasi",
+              "caciotta",
+              "monterey jack",
+              "kőrös",
+              "sajtrolád",
+              "severino",
+              "dublin cheddar",
+              "džiugas",
+              "cheddar",
+              "gruyère"
             ]
           }
         },
@@ -11204,7 +11520,12 @@
                   "friss krémsajt",
                   "egyéb",
                   "feta",
-                  "kecskesajt"
+                  "kecskesajt",
+                  "krémfehér",
+                  "mascarpone",
+                  "ordasajt",
+                  "dália",
+                  "gomolya"
                 ]
               }
             },
@@ -11226,7 +11547,19 @@
                   "butterkäse",
                   "kecskesajt",
                   "tilsiti",
-                  "seetaler"
+                  "seetaler",
+                  "vajsajt",
+                  "jadegut",
+                  "havarti",
+                  "mimolette",
+                  "raclette",
+                  "havasi",
+                  "caciotta",
+                  "monterey jack",
+                  "kőrös",
+                  "sajtrolád",
+                  "dublin cheddar",
+                  "gruyère"
                 ]
               }
             },
@@ -11243,7 +11576,12 @@
                   "kashkaval",
                   "egyéb",
                   "grana padano",
-                  "gruyère"
+                  "gruyère",
+                  "parmigiano reggiano",
+                  "old amsterdam",
+                  "severino",
+                  "dublin cheddar",
+                  "džiugas"
                 ]
               }
             },
@@ -11264,7 +11602,12 @@
                   "camembert",
                   "brie",
                   "kékpenészes",
-                  "egyéb"
+                  "egyéb",
+                  "lazur blue",
+                  "pálpusztai",
+                  "boursin",
+                  "coulommiers",
+                  "reblochon"
                 ]
               }
             },
@@ -11310,8 +11653,28 @@
               "Kokárdás",
               "Univer",
               "egyéb",
-              "Milsani"
-            ]
+              "Milsani",
+              "Auchan Tipp",
+              "Tuti Tip",
+              "Kisteleki",
+              "Talléros",
+              "Bomilact",
+              "Camping",
+              "Auchan Kedvenc",
+              "Mackó",
+              "Hajdú",
+              "Karaván",
+              "Medve",
+              "Tihany",
+              "Tolle",
+              "Ammerländer",
+              "Arla",
+              "Almette",
+              "Auchan",
+              "Hochland"
+            ],
+            "light / csökkentett zsír": {},
+            "protein / magas fehérje": {}
           },
           "csoportos": {
             "íz": [
@@ -11326,7 +11689,24 @@
               "fokhagymás",
               "snidlinges",
               "kapros",
-              "csípős paprikás"
+              "csípős paprikás",
+              "zöldfűszeres",
+              "metélőhagymás",
+              "pulykasonkás",
+              "tejszínes",
+              "gombás",
+              "medvehagymás",
+              "tejfölös-vajas",
+              "cheddar ízű",
+              "gyulai kolbász",
+              "fokhagymás-zöldfűszeres",
+              "szárított paradicsomos",
+              "uborkás-fűszeres",
+              "újhagymás",
+              "tormás",
+              "joghurtos",
+              "hagymás-metélőhagymás",
+              "téliszalámis"
             ]
           }
         },
@@ -11439,7 +11819,15 @@
               "egyéb",
               "Dr. Oetker",
               "Violife",
-              "Hulala"
+              "Hulala",
+              "Riso Scotti",
+              "Happy",
+              "JOYA",
+              "Riso",
+              "The Bridge",
+              "Oatly!",
+              "Félegyházi",
+              "The Bridge Bio"
             ]
           },
           "csoportos": {
@@ -11462,7 +11850,8 @@
               "kókusz",
               "borsófehérje",
               "növényi olaj",
-              "egyéb"
+              "egyéb",
+              "mogyoró"
             ],
             "zsírtartalom / jelleg": [
               "1,8%",
@@ -11471,7 +11860,8 @@
               "31%",
               "light",
               "cukormentes",
-              "egyéb"
+              "egyéb",
+              "barista"
             ],
             "dúsítás": [
               "kalcium",
@@ -11490,7 +11880,11 @@
               "kókusz",
               "cheddar",
               "füstölt",
-              "egyéb"
+              "egyéb",
+              "csokoládé",
+              "mogyoró",
+              "kókusz-mandula",
+              "mandulás-kávés"
             ]
           }
         },
@@ -11505,7 +11899,8 @@
                   "mandula",
                   "rizs",
                   "kókusz",
-                  "egyéb"
+                  "egyéb",
+                  "mogyoró"
                 ]
               }
             },
@@ -11570,8 +11965,17 @@
               "FARM",
               "egyéb",
               "Goldland",
-              "Kokárdás"
-            ]
+              "Kokárdás",
+              "Omega-3",
+              "Auchan Kedvenc",
+              "Szijártó",
+              "Jóházi Tojás",
+              "Farm",
+              "márka nélkül"
+            ],
+            "omega-3": {},
+            "GMO-mentes": {},
+            "szalmonella ellen kezelt": {}
           },
           "csoportos": {
             "fajta": [
