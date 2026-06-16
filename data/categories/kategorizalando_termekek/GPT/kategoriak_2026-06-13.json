@@ -326,7 +326,16 @@
           "egyedi": {
             "márka": [
               "Le Gusto",
-              "egyéb"
+              "egyéb",
+              "Laci bácsi fűszerei",
+              "Lucullus",
+              "Kotányi",
+              "Böllér",
+              "Hamé",
+              "Lacikonyha",
+              "Horváth Rozi",
+              "Ízmester",
+              "Thymos"
             ],
             "bio": {}
           },
@@ -339,7 +348,8 @@
               "szeletelt",
               "mag",
               "malmos",
-              "egyéb"
+              "egyéb",
+              "por"
             ],
             "fűszerfajta": [
               "fokhagyma",
@@ -359,7 +369,20 @@
               "zöldfűszer",
               "metélőhagyma",
               "salátafűszer",
-              "egyéb"
+              "egyéb",
+              "mustár",
+              "hagyma",
+              "citromfű",
+              "lime",
+              "méz",
+              "szilva",
+              "áfonya",
+              "barista",
+              "jolly joker",
+              "1001 éjszaka",
+              "Texas BBQ",
+              "citrombors",
+              "fokhagymás"
             ],
             "célétel / stílus": [
               "gyros",
@@ -373,7 +396,27 @@
               "olasz",
               "ázsiai",
               "mexikói",
-              "egyéb"
+              "egyéb",
+              "BBQ",
+              "zöldség",
+              "csirkeszárny",
+              "flekken",
+              "saslik",
+              "oldalas",
+              "sültkrumpli",
+              "hamburger",
+              "vad",
+              "karibi",
+              "ranchero",
+              "indiai",
+              "mediterrán",
+              "édesburgonya",
+              "Kentucky",
+              "szárnyas",
+              "kávés",
+              "keleti",
+              "Texas BBQ",
+              "szárazpác"
             ],
             "csípősség": [
               "nem csípős",
@@ -474,7 +517,30 @@
               "Heinz",
               "egyéb",
               "Hellmann's",
-              "Condito"
+              "Condito",
+              "Böllér",
+              "Ízmester",
+              "Thymos",
+              "Kofa",
+              "Develey",
+              "Univer",
+              "Koch's",
+              "Hamé",
+              "Roleski",
+              "Kühne",
+              "Appel",
+              "Podravka",
+              "Remia",
+              "Chimax",
+              "Felix",
+              "Andrea Milano",
+              "Gala",
+              "Tabasco",
+              "Concordia Natur",
+              "Maille",
+              "BBQUE",
+              "Kikkoman",
+              "Jack Daniel's"
             ],
             "bio": {},
             "gluténmentes": {},
@@ -511,7 +577,53 @@
               "napoletana",
               "krémsajtos",
               "mild",
-              "egyéb"
+              "egyéb",
+              "hot dog",
+              "hamburger",
+              "kebab",
+              "ezersziget",
+              "kapros",
+              "szilvás-áfonyás",
+              "pulled pork",
+              "whisky",
+              "édes-chilis",
+              "paradicsomos-fokhagymás",
+              "sörös-mézes",
+              "zöldfűszeres",
+              "gyros",
+              "mézes-pikáns",
+              "csirke",
+              "worcester",
+              "cézár",
+              "tzatziki",
+              "tartár",
+              "uborkás",
+              "balzsamecetes",
+              "joghurtos",
+              "kéksajtos",
+              "olaszos",
+              "sriracha",
+              "édes-savanyú",
+              "sweet chili",
+              "sültkrumpli",
+              "curry-mangó",
+              "fokhagyma-rozmaring",
+              "epres",
+              "szarvasgombás",
+              "citromos",
+              "aioli",
+              "borsos",
+              "folyékony füst",
+              "fekete fokhagymás",
+              "thai fokhagymás",
+              "cheddar",
+              "dijonnaise",
+              "jalapeño",
+              "chili-tormás",
+              "füstölt",
+              "bükkfa",
+              "teriyaki",
+              "mézes BBQ"
             ],
             "alap": [
               "paradicsom",
@@ -532,7 +644,25 @@
               "dió",
               "ricotta",
               "zöldség",
-              "egyéb"
+              "egyéb",
+              "szilva",
+              "áfonya",
+              "sör",
+              "worcester",
+              "uborka",
+              "balzsamecet",
+              "kéksajt",
+              "mangó",
+              "rozmaring",
+              "eper",
+              "szarvasgomba",
+              "citrom",
+              "bors",
+              "füst",
+              "fekete fokhagyma",
+              "chili",
+              "jalapeño",
+              "teriyaki"
             ],
             "konyha / stílus": [
               "magyaros",
@@ -545,7 +675,10 @@
               "provence-i",
               "francia",
               "balkáni",
-              "egyéb"
+              "egyéb",
+              "amerikai",
+              "közel-keleti",
+              "koreai"
             ],
             "csípősség": [
               "csemege",
@@ -751,7 +884,10 @@
               "egyéb",
               "Monini",
               "Kunsági Éden",
-              "Vénusz"
+              "Vénusz",
+              "Cauvin",
+              "Mantova",
+              "Andrea Milano"
             ],
             "bio": {}
           },
@@ -779,6 +915,12 @@
                   "sütőolaj",
                   "spray",
                   "egyéb"
+                ],
+                "ízesítés": [
+                  "natúr",
+                  "BBQ",
+                  "füstölt BBQ",
+                  "rozmaringos"
                 ]
               }
             },
@@ -805,6 +947,12 @@
                   "sütőolaj",
                   "spray",
                   "egyéb"
+                ],
+                "ízesítés": [
+                  "natúr",
+                  "BBQ",
+                  "füstölt BBQ",
+                  "rozmaringos"
                 ]
               }
             },
@@ -822,7 +970,9 @@
                   "szőlőmag",
                   "tökmag",
                   "magolaj",
-                  "egyéb"
+                  "egyéb",
+                  "szezám",
+                  "avokádó"
                 ],
                 "olaj minőség": [
                   "finomított",
@@ -853,7 +1003,17 @@
                   "balzsamecet",
                   "borecet",
                   "rizsecet",
-                  "egyéb"
+                  "egyéb",
+                  "gránátalmaecet"
+                ],
+                "ízesítés": [
+                  "natúr",
+                  "epres",
+                  "szarvasgombás",
+                  "citromos",
+                  "chilis",
+                  "kurkumás-gyömbéres",
+                  "matchás-citromos"
                 ]
               }
             },
@@ -937,7 +1097,9 @@
                   "szőlőmag",
                   "tökmag",
                   "magolaj",
-                  "egyéb"
+                  "egyéb",
+                  "szezám",
+                  "avokádó"
                 ],
                 "olaj minőség": [
                   "finomított",
@@ -968,7 +1130,17 @@
                   "balzsamecet",
                   "borecet",
                   "rizsecet",
-                  "egyéb"
+                  "egyéb",
+                  "gránátalmaecet"
+                ],
+                "ízesítés": [
+                  "natúr",
+                  "epres",
+                  "szarvasgombás",
+                  "citromos",
+                  "chilis",
+                  "kurkumás-gyömbéres",
+                  "matchás-citromos"
                 ]
               }
             },
@@ -1675,7 +1847,10 @@
               "Sweet Valley",
               "Bonduelle",
               "Kokárdás",
-              "egyéb"
+              "egyéb",
+              "Kertike",
+              "Green House",
+              "Ízmester"
             ],
             "bio": {}
           },
@@ -1753,7 +1928,8 @@
                   "natúr",
                   "fokhagymás",
                   "chilis",
-                  "mézes"
+                  "mézes",
+                  "csemege"
                 ]
               }
             },
@@ -6732,7 +6908,8 @@
               "tofu",
               "seitan",
               "zöldség",
-              "egyéb"
+              "egyéb",
+              "tempeh"
             ],
             "forma": [
               "burger",
@@ -9079,7 +9256,8 @@
             "márka": [
               "Almare Seafood",
               "Primana",
-              "egyéb"
+              "egyéb",
+              "Rio Mare"
             ]
           },
           "csoportos": {
@@ -9616,8 +9794,11 @@
             "márka": [
               "Happy Harvest",
               "Tesoros del Sur",
-              "Dijo"
-            ]
+              "Dijo",
+              "BFree Foods"
+            ],
+            "gluténmentes": {},
+            "laktózmentes": {}
           },
           "csoportos": {
             "fajta": [
