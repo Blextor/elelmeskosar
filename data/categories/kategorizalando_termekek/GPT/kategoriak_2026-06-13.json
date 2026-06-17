@@ -13748,7 +13748,14 @@
               "Füredi OXION",
               "egyéb",
               "Aquitas",
-              "Nestlé"
+              "Nestlé",
+              "Dr. Vis",
+              "Parádi",
+              "Peridot",
+              "Hunyadi János",
+              "Salvus",
+              "Nanna",
+              "Minera"
             ]
           },
           "csoportos": {}
@@ -13802,7 +13809,118 @@
               "Kiwi Trail",
               "La fiesta",
               "Auchan Kedvenc",
-              "Dínom-Dánom"
+              "Dínom-Dánom",
+              "Ostoros",
+              "Ostorosbor",
+              "Ostorosbor Zrt.",
+              "Ungvár Pince",
+              "Varga",
+              "Mátrai Szabó Pince",
+              "BB",
+              "Borissza",
+              "I Love",
+              "Pócz Pincészet",
+              "Szent István Korona",
+              "Varsányi",
+              "Grand Tokaj",
+              "Juhász",
+              "Paulus Fresh&Cool",
+              "Paulus Gold",
+              "Teleki",
+              "Auchan",
+              "Garamvári",
+              "Tokajicum",
+              "Dubicz",
+              "Frittmann",
+              "Angyal Borászat",
+              "Bujdosó",
+              "Taschner",
+              "Tűzkő",
+              "Dereszla",
+              "Hilltop",
+              "Lisicza",
+              "Szőllősi",
+              "Koch",
+              "Bodri",
+              "Bárdos és Fia",
+              "Tornai",
+              "Haraszthy",
+              "Bolyki János",
+              "Pécsinger",
+              "Winelife",
+              "Nyakas",
+              "Babits",
+              "Bock",
+              "Bock Borászat",
+              "Evinor",
+              "Borbély Családi Pincészet",
+              "Szeremley",
+              "Etyeki Kúria",
+              "Gere Tamás",
+              "Hilltop Kamocsay",
+              "Takler Borbirtok",
+              "Ikon Pincészet",
+              "Gere Attila",
+              "Kislaki-Légli Géza",
+              "Chateau Dereszla",
+              "Kreinbacher Birtok",
+              "Laposa Vitorlás",
+              "Figula",
+              "Zelna Borászat",
+              "Pannonhalmi Főapátság",
+              "Figula Mihály",
+              "Font",
+              "Sol Montis",
+              "St. Andrea",
+              "Sári",
+              "Royal Tokaji",
+              "Dobogó",
+              "Pillangósvirágú",
+              "Ostorosbor Soltész",
+              "Eszterbauer",
+              "Szeleshát",
+              "Szende",
+              "Gere & Weninger",
+              "Vida Péter",
+              "Takler",
+              "Jammertal",
+              "Mészáros Pál",
+              "Regia",
+              "Dankó",
+              "LAFI",
+              "Egri Korona",
+              "Gere",
+              "Szent Gaál",
+              "Lajvér",
+              "Tiffán",
+              "Thummerer",
+              "Simonsig",
+              "Petrény",
+              "Bock József",
+              "Balla Géza",
+              "Etalon",
+              "Gál Tibor",
+              "Takler Pince",
+              "Wunderlich Jammertal",
+              "Mokos Pincészet",
+              "Mateus",
+              "Yealands",
+              "Villa Maria",
+              "Matua Valley",
+              "Robert Mondavi",
+              "Woodbridge",
+              "Stellenrust",
+              "Cuatro Rayas",
+              "Vignobles Mourgues",
+              "Bodegas Faustino",
+              "Kaiken",
+              "Tormaresca",
+              "Montes",
+              "Royal Oporto",
+              "Brazin",
+              "Malaga Virgen",
+              "Pierre Chanau",
+              "Zonin"
             ]
           },
           "csoportos": {
@@ -13827,7 +13945,49 @@
               "Badacsony",
               "Balaton",
               "Franciaország",
-              "Pays d'Oc"
+              "Pays d'Oc",
+              "Mátra",
+              "Mátrai",
+              "Balatonboglár",
+              "Etyek-Buda",
+              "Kunság",
+              "Soltvadkert",
+              "Balatonmelléki",
+              "Neszmély",
+              "Neszmélyi",
+              "Hajós-Baja",
+              "Somló",
+              "Pannon",
+              "Duna-Tisza köze",
+              "Sopron",
+              "Budai",
+              "Etyek",
+              "Balatonszőlős",
+              "Balatonfüred",
+              "Nagy-Somló",
+              "Pannonhalma",
+              "Hajós-Bajai",
+              "Villányi",
+              "Egri",
+              "Arad-hegyalja",
+              "Ménes",
+              "Portugália",
+              "Új-Zéland",
+              "USA",
+              "Kalifornia",
+              "Bourgogne",
+              "Camargue",
+              "Spanyolország",
+              "Rioja",
+              "Rueda",
+              "Argentina",
+              "Mendoza",
+              "Bordeaux",
+              "Médoc",
+              "Haut-Médoc",
+              "Saint-Émilion",
+              "Margaux",
+              "Malaga"
             ],
             "szőlőfajta / borstílus": [
               "Syrah",
@@ -13854,7 +14014,103 @@
               "Cabernet",
               "Szamorodni",
               "Rajnai rizling",
-              "Lezser"
+              "Lezser",
+              "Furmint",
+              "Sárgamuskotály",
+              "Ezerjó",
+              "Generosa",
+              "Juhfark",
+              "Muscat Ottonel",
+              "Kéknyelű",
+              "Szürkebarát",
+              "Zenit",
+              "Tramini",
+              "Zöld veltelini",
+              "Blanc Cuvée",
+              "fehér cuvée",
+              "Aszú",
+              "Aszú 4 puttonyos",
+              "Aszú 5 puttonyos",
+              "Aszú 6 puttonyos",
+              "késői szüret",
+              "Halfarka",
+              "Olívia Cuvée",
+              "Tricollis",
+              "Ihlet Cuvée",
+              "Aligvárom",
+              "White Cuvée",
+              "Cabernet Franc",
+              "Syrah Rosé",
+              "Rosé Cuvée",
+              "Cabernet Rosé",
+              "Cabernet Sauvignon Rosé",
+              "Kékfrankos Rosé",
+              "Merlot Rosé",
+              "Syrah-Merlot",
+              "Syrah-Merlot Rosé",
+              "Siller",
+              "Töpszli Cuvée",
+              "Zweigelt",
+              "Zweigelt-Cabernet Franc",
+              "Zweigelt-Cabernet Sauvignon",
+              "Turán",
+              "Menoire",
+              "Medina",
+              "Kadarka",
+              "Bodorka",
+              "Vörös Cuvée",
+              "Shiraz",
+              "Feketeleányka",
+              "Malbec",
+              "Cabernet Franc-Merlot",
+              "Cabernet Franc-Sauvignon",
+              "Cabernet Sauvignon-Cabernet Franc",
+              "PortaGéza",
+              "Mirtill Cuvée",
+              "Civilis Cuvée",
+              "Filigrán Cuvée",
+              "Big Band",
+              "Trió Cuvée",
+              "Indián Nyár Cuvée",
+              "Ermitage",
+              "Cuvée 13",
+              "Tricollis Vörös",
+              "Fajzat Cuvée",
+              "Grandiózus Malbec",
+              "Grandiózus Syrah",
+              "Royal Cuvée",
+              "Cuvée 11",
+              "Grand Cuvée",
+              "Bikavér Superior",
+              "Regnum Cuvée",
+              "Kopar",
+              "Cassiopeia",
+              "Libra Cuvée",
+              "Cuvée 7",
+              "Principium",
+              "Immortal",
+              "Estve",
+              "K2",
+              "almabor",
+              "eper-őszibarackbor",
+              "feketeribizlibor",
+              "meggybor",
+              "Chenin Blanc",
+              "Verdejo",
+              "Tempranillo",
+              "Tempranillo Roble",
+              "Pinotage-Shiraz",
+              "Cabernet-Carmenere",
+              "Zinfandel",
+              "Ruby Port",
+              "Tawny Port",
+              "desszertbor",
+              "Pouilly-Fuissé",
+              "Bordeaux Superieur",
+              "Médoc",
+              "Haut-Médoc",
+              "Saint-Émilion",
+              "Margaux"
             ]
           }
         },
@@ -13880,7 +14136,9 @@
               "Swiss",
               "S-Budget",
               "egyéb",
-              "Flying Power"
+              "Flying Power",
+              "Dr. Pepper",
+              "PROformance"
             ],
             "cukormentes": {}
           },
@@ -13920,7 +14178,22 @@
               "limonádé",
               "vegyes",
               "egyéb",
-              "ananász"
+              "ananász",
+              "fehéreper",
+              "körte",
+              "őszibarack",
+              "kékáfonya",
+              "fekete cseresznye",
+              "piros szőlő",
+              "bogyós gyümölcs",
+              "zöldalma",
+              "mojito",
+              "sárgabarack",
+              "fanyarka",
+              "tea",
+              "citrom",
+              "egzotikus",
+              "citrus"
             ]
           }
         },
@@ -13954,7 +14227,18 @@
               "S-Budget",
               "egyéb",
               "Aquitas",
-              "Szentkirályi"
+              "Szentkirályi",
+              "Swiss Laboratory",
+              "Apenta+",
+              "Aqvital",
+              "Vitalade",
+              "Aqualife",
+              "Mizse",
+              "Fonte Active",
+              "Fonte Beauty",
+              "Fonte Boost",
+              "NaturAqua",
+              "Comix"
             ],
             "energia tartalom": [
               "energiamentes",
@@ -13967,7 +14251,8 @@
             "tartalom": [
               "kollagén",
               "vitamin",
-              "egyéb"
+              "egyéb",
+              "guarana"
             ],
             "íz": [
               "alma",
@@ -13995,7 +14280,43 @@
               "egyéb",
               "kivi",
               "ananász",
-              "maracuja"
+              "maracuja",
+              "meggy",
+              "kaktuszfüge",
+              "őszibarack",
+              "szamóca",
+              "gránátalma",
+              "acai",
+              "vegyes",
+              "vegyes gyümölcs",
+              "vérnarancs",
+              "narancs-maracuja",
+              "lime-gyömbér",
+              "citrom-lime",
+              "lemon-lime",
+              "sárkánygyümölcs",
+              "limonádé",
+              "alma-mangó",
+              "eper-vörösáfonya",
+              "áfonya-levendula",
+              "citrom-maracuja",
+              "málna-lime",
+              "vörösáfonya",
+              "mirabella",
+              "zöld limetta",
+              "eper-bors",
+              "mangó-őszibarack",
+              "gránátalma-hibiszkusz",
+              "rebarbara",
+              "görögdinnye",
+              "multivitamin",
+              "piros szőlő",
+              "guava",
+              "matcha",
+              "fehér barack",
+              "mangó-citromfű",
+              "szeder-levendula",
+              "szőlő-aloe vera"
             ]
           }
         },
@@ -14052,7 +14373,14 @@
                   "Cikorina",
                   "La Natura Lifestyle",
                   "egyéb",
-                  "Caffé Cagliari"
+                  "Caffé Cagliari",
+                  "Auchan Kedvenc",
+                  "Auchan Collection",
+                  "Auchan Tipp",
+                  "EDUSCHO",
+                  "Café Frei",
+                  "NESCAFÉ",
+                  "Tutti"
                 ],
                 "fajta": [
                   "kávé",
@@ -14060,25 +14388,33 @@
                   "cappuccino",
                   "3 az 1-ben",
                   "2 az 1-ben",
-                  "egyéb"
+                  "egyéb",
+                  "cikória kávé",
+                  "kávékrém",
+                  "tejes kávé",
+                  "latte macchiato",
+                  "gabonakávé"
                 ],
                 "típus": [
                   "granulátum / por",
-                  "egyéb"
+                  "egyéb",
+                  "kávékrém / tejpor"
                 ],
                 "koffeintartalom": [
                   "koffeinmentes",
                   "alacsony",
                   "normál",
                   "intenzív",
-                  "egyéb"
+                  "egyéb",
+                  "nem kávé"
                 ],
                 "kiszerelés / rendszer": [
                   "tasakos / párnás",
                   "kapszula",
                   "Nespresso kompatibilis kapszula",
                   "Dolce Gusto kompatibilis kapszula",
-                  "egyéb"
+                  "egyéb",
+                  "kávépárna"
                 ]
               },
               "csoportos": {
@@ -14099,7 +14435,15 @@
                   "espresso",
                   "mocca",
                   "egyéb",
-                  "melange"
+                  "melange",
+                  "bécsi",
+                  "maracuja",
+                  "málna",
+                  "marcipán",
+                  "pisztácia",
+                  "likőr",
+                  "fudge",
+                  "tejszín"
                 ],
                 "feldolgozás": [
                   "fagyasztva szárított",
@@ -14137,7 +14481,17 @@
                   "egyéb",
                   "Douwe Egberts",
                   "Caffé Cagliari",
-                  "Alfa Katsifas"
+                  "Alfa Katsifas",
+                  "Auchan Kedvenc",
+                  "Auchan Collection",
+                  "Café Frei",
+                  "EDUSCHO",
+                  "Segafredo Zanetti",
+                  "Davidoff",
+                  "Lavazza",
+                  "Jacobs",
+                  "Bialetti",
+                  "Degli Angeli"
                 ],
                 "fajta": [
                   "őrölt",
@@ -14158,7 +14512,8 @@
                 "kiszerelés / rendszer": [
                   "tasak",
                   "kapszula",
-                  "egyéb"
+                  "egyéb",
+                  "tasakos / párnás"
                 ]
               },
               "csoportos": {
@@ -14175,7 +14530,17 @@
                   "bécsi",
                   "egyéb",
                   "espresso",
-                  "telt aromájú"
+                  "telt aromájú",
+                  "mandula",
+                  "meggy",
+                  "alma",
+                  "málna",
+                  "pekándió",
+                  "marcipán",
+                  "rum",
+                  "sárgabarack",
+                  "földimogyoró",
+                  "fűszeres"
                 ]
               }
             }
@@ -14216,7 +14581,8 @@
                   "Tesco",
                   "Stockwell & Co.",
                   "egyéb",
-                  "Alfa Katsifa"
+                  "Alfa Katsifa",
+                  "Auchan Kedvenc"
                 ],
                 "típus": [
                   "instant",
@@ -14312,7 +14678,9 @@
                   "Mars",
                   "MilkyWay",
                   "Mantaro",
-                  "egyéb"
+                  "egyéb",
+                  "Nescafé",
+                  "Kit Kat"
                 ],
                 "íz": [
                   "sima",
@@ -14359,7 +14727,9 @@
                   "Hochwald",
                   "Spar",
                   "Milsani",
-                  "egyéb"
+                  "egyéb",
+                  "Auchan Kedvenc",
+                  "Auchan Optimum"
                 ],
                 "fajta": [
                   "kávétejszín",
@@ -14427,7 +14797,23 @@
               "Irsai Olivér",
               "egyéb",
               "Vino Frizzante",
-              "Bollicine Olivier"
+              "Bollicine Olivier",
+              "Royal Hugo",
+              "La fiesta",
+              "LAFI",
+              "ROYAL HUGO",
+              "HUGO",
+              "Ostorosbor Hugo",
+              "Mokos Pincészet",
+              "EILER",
+              "Sol de Espana",
+              "Frittmann",
+              "Etyeki Kúria",
+              "Gere Attila",
+              "Patricius",
+              "Bottega",
+              "Gancia",
+              "Garrone"
             ],
             "alkoholmentes": {},
             "fajta": [
@@ -14463,11 +14849,25 @@
               "meggy",
               "barack",
               "narancs",
-              "egyéb"
+              "egyéb",
+              "trópusi gyümölcs",
+              "keserű narancs",
+              "bodza-menta-lime",
+              "barack-áfonya-narancs",
+              "fűszeres szilva",
+              "sárgadinnye-görögdinnye",
+              "bodzavirág",
+              "puncs",
+              "mangó-őszibarack",
+              "bodzavirág-lime-menta",
+              "szamóca",
+              "Blue Lagoon",
+              "kókusz-ananász"
             ],
             "borvidék / eredet": [
               "Balaton",
-              "egyéb"
+              "egyéb",
+              "Duna-Tisza közi"
             ]
           }
         },
@@ -14528,7 +14928,24 @@
               "Chateau Dereszla",
               "Babits",
               "egyéb",
-              "Stolzenfels"
+              "Stolzenfels",
+              "Szovjetszkoje Igrisztoje",
+              "François President",
+              "Fehérvári",
+              "Laurent Perrier",
+              "Boldog Születésnapot",
+              "Voilá",
+              "Gedeon",
+              "Juhász",
+              "Louis François & Co.",
+              "Veuve Émille",
+              "I Heart",
+              "Treviso",
+              "J. Garcia",
+              "Pink Unikornis",
+              "Vitapress",
+              "SMURFY",
+              "Sonic"
             ],
             "szín": [
               "fehér",
@@ -14543,7 +14960,9 @@
               "félszáraz",
               "édes",
               "extra édes",
-              "egyéb"
+              "egyéb",
+              "brut",
+              "brut nature"
             ],
             "alkoholtartalom": [
               "alkoholos",
@@ -14634,7 +15053,21 @@
                   "Underberg",
                   "Cream Heroes",
                   "egyéb",
-                  "Wildbrunner"
+                  "Wildbrunner",
+                  "Tatratea",
+                  "Aperol",
+                  "Mionetto",
+                  "Mátyás keserű likőr",
+                  "Jim Beam",
+                  "Jack Daniel's",
+                  "Cannabis Spirit",
+                  "Shanky's Whip",
+                  "Tokaj Spirit",
+                  "Nívó",
+                  "Auchan Kedvenc",
+                  "Kunság",
+                  "Carolan's",
+                  "Xixo"
                 ],
                 "fajta": [
                   "tojáslikőr",
@@ -14650,13 +15083,54 @@
                   "diólikőr",
                   "egyéb",
                   "gyógynövénylikőr",
-                  "keserűlikőr"
+                  "keserűlikőr",
+                  "aperitif",
+                  "tea likőr"
                 ],
                 "gyógynövényes": {}
               },
               "csoportos": {
                 "íz": [
-                  "narancs"
+                  "narancs",
+                  "alma",
+                  "fahéj",
+                  "méz",
+                  "cseresznye",
+                  "mogyoróvaj",
+                  "kaktusz",
+                  "szilva",
+                  "vérnarancs",
+                  "tejkrém",
+                  "egyéb",
+                  "mogyoró",
+                  "csokoládé",
+                  "pisztácia",
+                  "mák",
+                  "citrus",
+                  "csipkebogyó",
+                  "homoktövis",
+                  "erdei gyümölcs",
+                  "körte",
+                  "tiramisu",
+                  "kókuszkocka",
+                  "zserbó",
+                  "fehércsoki",
+                  "toffee",
+                  "császárkörte",
+                  "málna",
+                  "arany dió",
+                  "limoncello",
+                  "eper",
+                  "kókusz",
+                  "meggy",
+                  "barack",
+                  "sós karamell",
+                  "popcorn",
+                  "rózsa",
+                  "tejszín",
+                  "kávé",
+                  "hárs",
+                  "lime"
                 ]
               }
             }
@@ -14726,7 +15200,10 @@
                   "Joe Rebel",
                   "egyéb",
                   "Highland Earl",
-                  "Clarke's"
+                  "Clarke's",
+                  "Skrewball",
+                  "Arran",
+                  "Glenfiddich"
                 ]
               },
               "csoportos": {
@@ -14737,13 +15214,21 @@
                   "cseresznye",
                   "narancs",
                   "egzotikus gyümölcsök",
-                  "egyéb"
+                  "egyéb",
+                  "lime",
+                  "vadmálna",
+                  "mogyoróvaj"
                 ],
                 "típus": [
                   "scotch whisky",
                   "bourbon",
                   "egyéb",
-                  "Tennessee whiskey"
+                  "Tennessee whiskey",
+                  "Irish whiskey",
+                  "kanadai whisky",
+                  "blended scotch whisky",
+                  "ízesített whisky alapú szeszesital",
+                  "single malt scotch whisky"
                 ]
               }
             }
@@ -14795,14 +15280,17 @@
                   "Tarsier",
                   "Ukiyo",
                   "The Foxtale",
-                  "egyéb"
+                  "egyéb",
+                  "Coventry",
+                  "Never Never"
                 ]
               },
               "csoportos": {
                 "fajta": [
                   "Pink Gin",
                   "London Dry Gin",
-                  "egyéb"
+                  "egyéb",
+                  "ízesített gin"
                 ]
               }
             }
@@ -14842,7 +15330,11 @@
                   "Brugal",
                   "egyéb",
                   "Old Hopking",
-                  "Silverstone"
+                  "Silverstone",
+                  "Dictador",
+                  "The Demons Share",
+                  "Eminente",
+                  "Kraken"
                 ],
                 "fajta": [
                   "gold",
@@ -14851,7 +15343,9 @@
                   "sima",
                   "gyümölcsös",
                   "egyéb",
-                  "barna"
+                  "barna",
+                  "sötét",
+                  "rumalapú szeszesital"
                 ]
               },
               "csoportos": {}
@@ -14914,7 +15408,10 @@
                   "Spacerowa",
                   "egyéb",
                   "Zaranoff",
-                  "Volga"
+                  "Volga",
+                  "Romanoff",
+                  "Sosborszesz",
+                  "Tattoo Company"
                 ],
                 "fajta": [
                   "sima",
@@ -14933,7 +15430,9 @@
                   "Angelli",
                   "Garrone",
                   "egyéb",
-                  "Ravini"
+                  "Ravini",
+                  "Frescanti",
+                  "Fiero & Tonic Copack"
                 ],
                 "fajta": [
                   "extra száraz",
@@ -14946,7 +15445,8 @@
               "csoportos": {
                 "szín": [
                   "vörös",
-                  "fehér"
+                  "fehér",
+                  "rosé"
                 ]
               }
             }
@@ -14964,7 +15464,13 @@
                   "Magyar",
                   "Zwack",
                   "Rézangyal",
-                  "egyéb"
+                  "egyéb",
+                  "Villányi",
+                  "Bolyhos",
+                  "Magna",
+                  "Kosher",
+                  "Nobilis Pálinka",
+                  "Árpád Pálinka"
                 ],
                 "fajta": [
                   "pálinka",
@@ -14986,7 +15492,14 @@
                   "meggy",
                   "cseresznye",
                   "vegyes",
-                  "egyéb"
+                  "egyéb",
+                  "birs",
+                  "birsalma",
+                  "cigánymeggy",
+                  "irsai olivér",
+                  "málna",
+                  "feketecseresznye",
+                  "kajszi"
                 ]
               }
             }
@@ -15003,13 +15516,19 @@
                   "Napoleon",
                   "Asbach",
                   "S.T Rémy",
-                  "egyéb"
+                  "egyéb",
+                  "Ararat",
+                  "Pâpidoux",
+                  "Trois Tours",
+                  "Waterloo",
+                  "Cortel"
                 ],
                 "fajta": [
                   "tiszta",
                   "konyak",
                   "aromásított",
-                  "egyéb"
+                  "egyéb",
+                  "calvados"
                 ]
               },
               "csoportos": {
@@ -15031,7 +15550,21 @@
                   "Aperini",
                   "Lyttos",
                   "Mini",
-                  "Volga"
+                  "Volga",
+                  "Beefeater",
+                  "Mionetto",
+                  "Aperol",
+                  "A. Le Coq",
+                  "LAFI",
+                  "Mark&Matthew's",
+                  "JACK&COKE",
+                  "Jack Daniel's",
+                  "Malibu",
+                  "Bacardi",
+                  "Tropical",
+                  "Auchan Kedvenc",
+                  "Pilavas",
+                  "Euphoria"
                 ]
               },
               "csoportos": {
@@ -15051,7 +15584,8 @@
                   "aperitív",
                   "egyéb",
                   "ouzo",
-                  "szeszesital"
+                  "szeszesital",
+                  "ánizs"
                 ],
                 "íz": [
                   "kóla",
@@ -15080,7 +15614,9 @@
                   "méz",
                   "Margarita",
                   "Cuba Libre",
-                  "egyéb"
+                  "egyéb",
+                  "ananász-kókusz",
+                  "vodka narancs"
                 ]
               }
             }
@@ -15285,7 +15821,12 @@
               "Crane",
               "Rio D'Oro",
               "AQUA+",
-              "Apenta+"
+              "Apenta+",
+              "Swiss Laboratory",
+              "Auchan Kedvenc",
+              "Absolute Live",
+              "PROformance",
+              "Active O2"
             ],
             "cukormentes": {}
           },
@@ -15297,7 +15838,12 @@
               "izotóniás",
               "magnézium",
               "kollagén",
-              "egyéb"
+              "egyéb",
+              "BCAA",
+              "L-karnitin",
+              "hialuronsav",
+              "aminosav",
+              "guarana"
             ],
             "íz": [
               "ananász",
@@ -15319,7 +15865,28 @@
               "meggy",
               "egzotikus",
               "őszibarack",
-              "citrus"
+              "citrus",
+              "lime",
+              "szeder",
+              "szőlő",
+              "gránátalma-málna",
+              "kaktuszfüge",
+              "zöldalma",
+              "zöld tea",
+              "pomelo",
+              "arónia",
+              "hibiszkusz",
+              "vörösáfonya",
+              "bodza-citrom",
+              "alma-kivi",
+              "grapefruit",
+              "erdei szamóca",
+              "acai",
+              "alma",
+              "kivi",
+              "vegyes gyümölcs",
+              "vegyes bogyós",
+              "szamóca"
             ]
           }
         },
@@ -15341,7 +15908,10 @@
               "egyéb",
               "Bella",
               "márka nélkül",
-              "Piacelli"
+              "Piacelli",
+              "Olympos",
+              "Auchan Kedvenc",
+              "Auchan Tipp"
             ],
             "citrom/lime": [
               "citrom",
@@ -15353,7 +15923,8 @@
               "40%",
               "50%",
               "100%",
-              "egyéb"
+              "egyéb",
+              "20%"
             ]
           },
           "csoportos": {}
@@ -15380,7 +15951,13 @@
               "Mautner",
               "egyéb",
               "Rio D'Oro",
-              "Monin"
+              "Monin",
+              "PALACE",
+              "Palace",
+              "Auchan Kedvenc",
+              "Auchan Tipp",
+              "FruttaMax",
+              "YO"
             ],
             "energia tartalom": [
               "zéró",
@@ -15416,7 +15993,23 @@
               "szőlő",
               "kókusz",
               "mojito",
-              "multivitamin"
+              "multivitamin",
+              "grenadine",
+              "Blue Curacao",
+              "Pina Colada",
+              "szamóca",
+              "vadmálna",
+              "feketeribizli",
+              "mangó-maracuja",
+              "citrom-menta",
+              "kaktuszfüge",
+              "indiáncseresznye",
+              "bodzavirág",
+              "citrus-mix",
+              "bodza-lime-menta",
+              "jaffa",
+              "limonádé",
+              "lime"
             ]
           }
         },
@@ -15437,7 +16030,52 @@
               "Sió",
               "Rio Cold Press",
               "Auchan",
-              "Hohes C"
+              "Hohes C",
+              "Xixo",
+              "Márka",
+              "Auchan Tipp",
+              "San Benedetto",
+              "Fuzetea",
+              "Fuze Tea",
+              "Lipton",
+              "Nestea",
+              "JANA",
+              "Cappy",
+              "Cappy Lemonade",
+              "Arizona",
+              "Coca-Cola",
+              "Pepsi",
+              "Gyöngy",
+              "Queen",
+              "Kinley",
+              "Schweppes",
+              "Fever Tree",
+              "J. Gasco",
+              "Apenta",
+              "Fanta",
+              "Sprite",
+              "7UP",
+              "Mirinda",
+              "San Pellegrino",
+              "Topjoy",
+              "Tutti Juice",
+              "Traubisoda",
+              "Canada Dry",
+              "Dr. Pepper",
+              "Mountain Dew",
+              "Almdudler",
+              "AVE Aloe Vera",
+              "Szobi",
+              "Golden Valley",
+              "Sweet & Fruit",
+              "Hey-Ho",
+              "Pfanner",
+              "Kubu",
+              "Olympos",
+              "DÉR Juice",
+              "Dér Juice Family",
+              "Alföld Aranya",
+              "Koch Frissen Préselt"
             ],
             "íz": [
               "alma",
@@ -15470,7 +16108,101 @@
               "zöldséges",
               "maracuja",
               "multivitamin",
-              "klementin"
+              "klementin",
+              "őszibarack",
+              "barack",
+              "birsalma",
+              "görögdinnye",
+              "citromfű",
+              "aloe vera",
+              "rózsa",
+              "szeder",
+              "matcha",
+              "citrus",
+              "bodzavirág",
+              "bodza",
+              "kaktusz",
+              "pepino",
+              "sárkánygyümölcs",
+              "bodzavirág-citrom",
+              "eper-lime",
+              "mangó-görögdinnye",
+              "őszibarack-rózsa",
+              "eper-aloe vera",
+              "erdei gyümölcs-áfonya",
+              "zöld tea",
+              "szilva",
+              "méz",
+              "menta",
+              "kóla",
+              "cseresznye-kóla",
+              "citrom-lime",
+              "tonik",
+              "vegyes bogyós",
+              "gyömbérsör",
+              "málna-rebarbara",
+              "mediterrán",
+              "tuttifrutti",
+              "fekete cseresznye",
+              "meggy",
+              "cseresznye",
+              "pomelo",
+              "grapefruit-pomelo",
+              "narancs-maracuja",
+              "alma-tuttifrutti",
+              "kaktuszfüge",
+              "bodza-lime",
+              "kékszőlő",
+              "gyógynövény",
+              "vanília",
+              "grapefruit",
+              "paradicsom",
+              "piros gyümölcs",
+              "sárga gyümölcs",
+              "mangosztán",
+              "alma-körte",
+              "alma-őszibarack-sárgadinnye",
+              "cékla-alma",
+              "alma-málna",
+              "alma-őszibarack",
+              "erdei gyümölcs",
+              "sárgadinnye",
+              "homoktövis",
+              "alma-feketeribizli",
+              "alma-homoktövis",
+              "fehérszőlő",
+              "alma-kékszőlő",
+              "gránátalma",
+              "fekete áfonya",
+              "alma-gránátalma-meggy",
+              "alma-körte-szőlő",
+              "görögdinnye-alma",
+              "sárgarépa-narancs",
+              "meggy-szilva-alma",
+              "őszibarack-alma-meggy-málna",
+              "őszibarack-narancs",
+              "alma-maracuja-mangó",
+              "alma-görögdinnye",
+              "alma-lime-kaktusz",
+              "mangó-alma-narancs-citrom",
+              "citrom-görögdinnye",
+              "lime-eper",
+              "őszibarack-citrom-menta",
+              "ananász-kókusz",
+              "alma-meggy",
+              "alma-cékla-homoktövis-gyömbér",
+              "kékszőlő-cékla",
+              "kékszőlő-alma-erdei gyümölcs",
+              "alma-sárkánygyümölcs-guava",
+              "piros szőlő-alma",
+              "rosé szőlő-alma-málna",
+              "banán",
+              "kókusz",
+              "guava",
+              "piros szőlő",
+              "mandarin",
+              "lime-citrom",
+              "alma-ananász-narancs-citrom"
             ],
             "jellemzők": [
               "smoothie",
@@ -15482,7 +16214,15 @@
               "rostos",
               "100% alatt",
               "préselt",
-              "gyümölcs püré"
+              "gyümölcs püré",
+              "ice tea",
+              "limonádé",
+              "szénsavas",
+              "szénsavmentes",
+              "zéró",
+              "alacsony cukortartalmú",
+              "zöldséglé",
+              "nektár"
             ]
           }
         },
@@ -15674,7 +16414,8 @@
                   "Good Choice",
                   "Auchan Kedvenc",
                   "Auchan Nívó",
-                  "Rio Cold Press"
+                  "Rio Cold Press",
+                  "Kubu Play"
                 ],
                 "bio": {},
                 "cukormentes": {}
@@ -15726,7 +16467,13 @@
                   "citrom",
                   "egzotikus",
                   "sárgabarack",
-                  "maracuja"
+                  "maracuja",
+                  "feketeberkenye",
+                  "arónia",
+                  "kaktusz",
+                  "fehérszőlő",
+                  "piros gyümölcs",
+                  "sárga gyümölcs"
                 ],
                 "jellemzők": [
                   "rostos",
@@ -15740,7 +16487,10 @@
                   "shot",
                   "vitaminos",
                   "hidegen préselt",
-                  "direkt préselt"
+                  "direkt préselt",
+                  "zöldséglé",
+                  "gabonás",
+                  "szénsavmentes"
                 ]
               }
             },
