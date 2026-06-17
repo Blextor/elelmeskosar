@@ -241,30 +241,60 @@ def build_view(tree, prods):
         return counts.get(pad, 0)
 
     fk_list = []
+    idx = {}  # path-tuple -> view-node (a szintetikus árvák beszúrásához)
     for fk, fn in tree.items():
         fk_node = {
             "name": fk, "level": 1, "path": [fk],
             "count": count_prefix([fk]),
             "props": props_summary(fn),
-            "children": [],
+            "children": [], "orphan": False,
         }
+        idx[(fk,)] = fk_node
         for ak, an in fn.get("alkategóriák", {}).items():
             ak_node = {
                 "name": ak, "level": 2, "path": [fk, ak],
                 "count": count_prefix([fk, ak]),
                 "direct": count_exact([fk, ak]),
                 "props": props_summary(an),
-                "children": [],
+                "children": [], "orphan": False,
             }
+            idx[(fk, ak)] = ak_node
             for at, atn in an.get("altípusok", {}).items():
-                ak_node["children"].append({
+                at_node = {
                     "name": at, "level": 3, "path": [fk, ak, at],
                     "count": count_exact([fk, ak, at]),
                     "props": props_summary(atn),
-                    "children": [],
-                })
+                    "children": [], "orphan": False,
+                }
+                idx[(fk, ak, at)] = at_node
+                ak_node["children"].append(at_node)
             fk_node["children"].append(ak_node)
         fk_list.append(fk_node)
+
+    # Árva besorolások: olyan termék-hármasok, amikhez nincs node a fában.
+    # Szintetikus, "orphan" jelölésű node-ként beszúrjuk, hogy láthatók és
+    # kezelhetők legyenek (különben a szülő összege nem stimmel a látható gyerekekkel).
+    def _orphan_node(name, level, path, count, direct=None):
+        n = {"name": name, "level": level, "path": list(path), "count": count,
+             "props": [], "children": [], "orphan": True}
+        if direct is not None:
+            n["direct"] = direct
+        return n
+
+    for trip in counts:
+        fk, ak, at = trip
+        if (fk,) not in idx:
+            n = _orphan_node(fk, 1, [fk], count_prefix([fk]))
+            idx[(fk,)] = n
+            fk_list.append(n)
+        if ak and (fk, ak) not in idx:
+            n = _orphan_node(ak, 2, [fk, ak], count_prefix([fk, ak]), direct=count_exact([fk, ak]))
+            idx[(fk, ak)] = n
+            idx[(fk,)]["children"].append(n)
+        if at and (fk, ak, at) not in idx:
+            n = _orphan_node(at, 3, [fk, ak, at], count_exact([fk, ak, at]))
+            idx[(fk, ak, at)] = n
+            idx[(fk, ak)]["children"].append(n)
 
     issues = find_issues(tree, prods, counts)
     return {"tree": fk_list, "total_products": len(prods),
@@ -311,12 +341,14 @@ def op_move_node(tree, prods, source, target):
     if source == target:
         raise ValueError("A forrás és a cél azonos.")
     src_node = get_node(tree, source)
-    if src_node is None:
-        raise ValueError("A forrás node nem létezik.")
 
-    # 1) Fa: leválaszt + beilleszt/összeolvaszt
-    src_cont = get_parent_container(tree, source)
-    detached = src_cont.pop(source[-1])
+    # 1) Fa: leválaszt + beilleszt/összeolvaszt. A forrás-node lehet, hogy nincs a
+    # fában (csak a termékeken él, árva besorolás) — ekkor üres node-ot mozgatunk.
+    if src_node is None:
+        detached = {PROP_KEY: {"egyedi": {}, "csoportos": {}}}
+    else:
+        src_cont = get_parent_container(tree, source)
+        detached = src_cont.pop(source[-1])
     tgt_cont = get_parent_container(tree, target, create=True)
     merged = target[-1] in tgt_cont
     if merged:
@@ -347,15 +379,17 @@ def op_dissolve(tree, prods, source):
     if level not in (2, 3):
         raise ValueError("Feloldani alkategóriát (2) vagy altípust (3) lehet.")
     src_node = get_node(tree, source)
-    if src_node is None:
-        raise ValueError("A forrás node nem létezik.")
     parent_path = source[:-1]
     parent_node = get_node(tree, parent_path)
+    if parent_node is None:
+        raise ValueError("A szülő node nem létezik a fában.")
 
-    # 1) Fa: minden leszármazott tulajdonságát felolvasztjuk a szülőbe, majd töröljük a node-ot
-    _merge_subtree_props_up(parent_node, src_node, level)
-    src_cont = get_parent_container(tree, source)
-    src_cont.pop(source[-1], None)
+    # 1) Fa: a leszármazottak tulajdonságait a szülőbe olvasztjuk, majd töröljük a
+    # node-ot. A forrás lehet árva (nincs a fában) — ekkor csak a termékek változnak.
+    if src_node is not None:
+        _merge_subtree_props_up(parent_node, src_node, level)
+        src_cont = get_parent_container(tree, source)
+        src_cont.pop(source[-1], None)
 
     # 2) Termékek: a source-prefix alatti termékek path-ja a szülő hosszára csonkul
     affected = 0

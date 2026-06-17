@@ -57,7 +57,7 @@ function renderNode(n, q, hideEmpty) {
 
   const k = key(n.path);
   const wrap = document.createElement("div");
-  wrap.className = `node lvl${n.level}`;
+  wrap.className = `node lvl${n.level}` + (n.orphan ? " orphan-node" : "");
   if (SOURCE && key(SOURCE) === k) wrap.classList.add("sel-src");
   if (TARGET && key(TARGET) === k) wrap.classList.add("sel-tgt");
 
@@ -79,6 +79,14 @@ function renderNode(n, q, hideEmpty) {
   name.textContent = n.name;
   name.onclick = () => { if (hasKids) { toggle(k); renderTree(); } };
   row.appendChild(name);
+
+  if (n.orphan) {
+    const o = document.createElement("span");
+    o.className = "orphan-tag";
+    o.textContent = "árva";
+    o.title = "Ez a besorolás a termékeken létezik, de NINCS node a fában. Oldd fel vagy olvaszd össze.";
+    row.appendChild(o);
+  }
 
   const cnt = document.createElement("span");
   cnt.className = "count" + (n.count === 0 ? " zero" : "");
@@ -129,8 +137,8 @@ function afterSelect() {
 }
 
 function refreshSelections() {
-  $("#src").textContent = SOURCE ? pathStr(SOURCE) : "— kattints egy node-ra, majd „Forrás" —";
-  $("#tgt").textContent = TARGET ? pathStr(TARGET) : "— kattints egy node-ra, majd „Cél" —";
+  $("#src").textContent = SOURCE ? pathStr(SOURCE) : `— kattints egy node-ra, majd „Forrás" —`;
+  $("#tgt").textContent = TARGET ? pathStr(TARGET) : `— kattints egy node-ra, majd „Cél" —`;
   renderPropChips("#src-props", SOURCE, true);
   renderPropChips("#tgt-props", TARGET, false);
   renderForm();
