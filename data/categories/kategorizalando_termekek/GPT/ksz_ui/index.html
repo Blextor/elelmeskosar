@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kategória-szerkesztő</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Kategória-szerkesztő</h1>
+    <div id="meta"></div>
+    <button id="reload">Újratöltés</button>
+  </header>
+
+  <main>
+    <section id="tree-pane">
+      <div class="pane-head">
+        <input id="search" type="search" placeholder="Keresés a fában… (név)">
+        <label><input type="checkbox" id="hide-empty"> Üres node-ok elrejtése</label>
+      </div>
+      <div id="tree"></div>
+    </section>
+
+    <section id="op-pane">
+      <div class="selection">
+        <div class="sel-box">
+          <div class="sel-label">FORRÁS</div>
+          <div id="src" class="sel-val">— kattints egy node-ra, majd „Forrás" —</div>
+          <div id="src-props" class="propchips"></div>
+        </div>
+        <div class="sel-box">
+          <div class="sel-label">CÉL</div>
+          <div id="tgt" class="sel-val">— kattints egy node-ra, majd „Cél" —</div>
+          <div id="tgt-props" class="propchips"></div>
+        </div>
+      </div>
+
+      <div class="op-tabs">
+        <button class="tab active" data-op="move_node">Node áthelyezés + összeolvasztás</button>
+        <button class="tab" data-op="dissolve">Altípus feloldása</button>
+        <button class="tab" data-op="move_property">Tulajdonság áthelyezés/átnevezés</button>
+        <button class="tab" data-op="create_property">Új tulajdonság</button>
+      </div>
+
+      <div id="op-forms"></div>
+
+      <div class="actions">
+        <button id="preview-btn">Előnézet</button>
+        <button id="apply-btn" class="danger" disabled>Alkalmaz (ír a fájlokba)</button>
+      </div>
+
+      <div id="result"></div>
+
+      <details id="issues-box">
+        <summary>Talált gondok (kattintható)</summary>
+        <div id="issues"></div>
+      </details>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
