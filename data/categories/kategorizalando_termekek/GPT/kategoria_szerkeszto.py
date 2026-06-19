@@ -176,7 +176,7 @@ def merge_props(dst_node, src_node):
     dst = _ensure_props(dst_node)
     src = src_node.get(PROP_KEY, {})
     for group in GROUPS:
-        for name, val in src.get(group, {}).items():
+        for name, val in prop_group(src, group).items():
             merge_prop_value(dst, group, name, val)
 
 
@@ -213,11 +213,21 @@ def matches_prefix(p, path):
 # --------------------------------------------------------------------------- #
 #  Adat összeállítás a UI-nak (fa + termékszámok + tulajdonságok + gondok)
 # --------------------------------------------------------------------------- #
+def prop_group(container, group):
+    """A megadott tulajdonság-csoportot dict-ként adja vissza.
+
+    A fában néhol üres lista (`[]`) szerepel dict helyett – ezt üres dict-ként
+    kezeljük, hogy ne dőljön el a `.items()` híváson.
+    """
+    val = container.get(group, {})
+    return val if isinstance(val, dict) else {}
+
+
 def props_summary(node):
     out = []
     p = node.get(PROP_KEY, {})
     for group in GROUPS:
-        for name, val in p.get(group, {}).items():
+        for name, val in prop_group(p, group).items():
             if isinstance(val, list):
                 out.append({"group": group, "name": name, "kind": "lista", "values": val})
             else:
@@ -587,17 +597,17 @@ def get_effective_props(tree, prods, path):
     """
     res = {}
 
-    def add_tree(name, val, group, level_name, is_self):
+    def add_tree(name, val, group, level_path, is_self):
         kind = "lista" if isinstance(val, list) else "flag"
         vals = list(val) if isinstance(val, list) else []
         e = res.get(name)
         if e is None:
             res[name] = {"name": name, "group": group, "kind": kind, "values": vals,
                          "where": "fa", "product_count": 0,
-                         "declared": [level_name], "self_declared": is_self}
+                         "declared": [list(level_path)], "self_declared": is_self}
         else:
             e["values"] = _union_list(e["values"], vals)
-            e["declared"].append(level_name)
+            e["declared"].append(list(level_path))
             if is_self:
                 e["self_declared"] = True
             if e["kind"] == "flag" and kind == "lista":
@@ -611,8 +621,8 @@ def get_effective_props(tree, prods, path):
             continue
         is_self = (depth == len(path))
         for group in GROUPS:
-            for name, val in node.get(PROP_KEY, {}).get(group, {}).items():
-                add_tree(name, val, group, sub[-1], is_self)
+            for name, val in prop_group(node.get(PROP_KEY, {}), group).items():
+                add_tree(name, val, group, sub, is_self)
 
     # termékeken ténylegesen előforduló tulajdonságok
     for p in prods:
@@ -639,12 +649,21 @@ def get_effective_props(tree, prods, path):
                 if val not in e["values"]:
                     e["values"].append(val)
 
-    # eredet-címke
+    # eredet-címke: honnan deklarált / honnan örökölt
+    self_depth = len(path)
     for e in res.values():
+        # csak a felmenőkön (a node-nál sekélyebb szinten) deklarált forrás-útvonalak
+        inh_paths = [d for d in e["declared"] if len(d) < self_depth]
+        inh_labels = [" › ".join(d) for d in inh_paths]
+        e["inherited_from"] = inh_labels
         if e["self_declared"]:
             e["origin"] = "saját"
+            if inh_labels:
+                e["origin"] += " + örökölt: " + " ; ".join(inh_labels)
+        elif inh_labels:
+            e["origin"] = "örökölt: " + " ; ".join(inh_labels)
         elif e["declared"]:
-            e["origin"] = "örökölt: " + e["declared"][-1]
+            e["origin"] = "örökölt: " + " › ".join(e["declared"][-1])
         else:
             e["origin"] = "termék"
         e["inherited"] = bool(e["declared"]) and not e["self_declared"]
@@ -694,7 +713,7 @@ def op_merge_mapping(tree, prods, source, target, mappings):
     src_tree_vals = {}
     if src_node is not None:
         for g in GROUPS:
-            for nm, val in src_node.get(PROP_KEY, {}).get(g, {}).items():
+            for nm, val in prop_group(src_node.get(PROP_KEY, {}), g).items():
                 if isinstance(val, list):
                     src_tree_vals[nm] = list(val)
 

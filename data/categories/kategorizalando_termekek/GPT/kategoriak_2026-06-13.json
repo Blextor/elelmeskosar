@@ -51230,6 +51230,10 @@
               "Fruit Step",
               "Pfanner",
               "Auchan",
+              "Bino",
+              "CBA Piros",
+              "Coop",
+              "Solevita",
               "egyéb",
               "Bella",
               "márka nélkül",
@@ -51257,7 +51261,9 @@
               "100%",
               "egyéb",
               "20%"
-            ]
+            ],
+            "cukormentes / zero": {},
+            "szénsavas": {}
           },
           "csoportos": {
             "íz": [
@@ -51272,70 +51278,20 @@
               "50%",
               "sűrítményből",
               "prémium"
+            ],
+            "alapanyag": [
+              "citromlé-sűrítmény"
+            ],
+            "kiszerelés": [
+              "1 l"
+            ],
+            "terméktípus": [
+              "citromízesítő",
+              "citrom ízesítő"
             ]
           }
         },
-        "altípusok": {
-          "Citromlé": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Limmi",
-                  "Olympos",
-                  "Coop",
-                  "Solevita",
-                  "ARO",
-                  "PFANNER",
-                  "OLYMPOS",
-                  "RAUCH",
-                  "LIMMI",
-                  "FRUPPY",
-                  "Bino",
-                  "CBA Piros"
-                ],
-                "cukormentes / zero": {},
-                "szénsavas": {}
-              },
-              "csoportos": {
-                "íz": [
-                  "citrom",
-                  "lime"
-                ],
-                "citrom/lime": [
-                  "citrom",
-                  "lime"
-                ],
-                "citrom tartalom": [
-                  "40%",
-                  "100%"
-                ],
-                "jellemzők": [
-                  "citrom ízesítő",
-                  "40%",
-                  "100%",
-                  "koncentrátumból",
-                  "50%",
-                  "sűrítményből",
-                  "prémium"
-                ],
-                "márka": [
-                  "Bino",
-                  "CBA Piros"
-                ],
-                "terméktípus": [
-                  "citromízesítő",
-                  "citrom ízesítő"
-                ],
-                "alapanyag": [
-                  "citromlé-sűrítmény"
-                ],
-                "kiszerelés": [
-                  "1 l"
-                ]
-              }
-            }
-          }
-        }
+        "altípusok": {}
       },
       "Szörp, üdítőitalpor": {
         "tulajdonságok": {
