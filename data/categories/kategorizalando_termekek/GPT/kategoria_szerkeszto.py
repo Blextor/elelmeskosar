@@ -567,6 +567,222 @@ def _product_move_value(tul, src_key, dst_key, value, moved):
     return True
 
 
+# --------------------------------------------------------------------------- #
+#  Effektív tulajdonságok (fa-deklarált + termékeken ténylegesen előforduló)
+# --------------------------------------------------------------------------- #
+def _infer_kind(val):
+    return "flag" if isinstance(val, bool) else "lista"
+
+
+def get_effective_props(tree, prods, path):
+    """A node ÖRÖKÖLT effektív tulajdonságai a térkép-UI-hoz: a felmenők + a saját
+    fa-deklarált tulajdonságai (érték-listák UNIÓJA, nem felülírás!) ÉS a termékeken
+    ténylegesen előfordulók. Visszaad listát:
+    {name, group, kind, values, where, product_count, declared[], self_declared,
+     inherited, origin}.
+
+    Megjegyzés: a kat25.py get_tulajdonsagok() dict.update()-tel FELÜLÍR (a gyermek
+    márka-listája kicseréli a szülőét) — ez itt szándékosan UNIÓ, hogy a felmenők
+    értékei (pl. a Citromlé alkategória márkái) is látszódjanak/kezelhetők legyenek.
+    """
+    res = {}
+
+    def add_tree(name, val, group, level_name, is_self):
+        kind = "lista" if isinstance(val, list) else "flag"
+        vals = list(val) if isinstance(val, list) else []
+        e = res.get(name)
+        if e is None:
+            res[name] = {"name": name, "group": group, "kind": kind, "values": vals,
+                         "where": "fa", "product_count": 0,
+                         "declared": [level_name], "self_declared": is_self}
+        else:
+            e["values"] = _union_list(e["values"], vals)
+            e["declared"].append(level_name)
+            if is_self:
+                e["self_declared"] = True
+            if e["kind"] == "flag" and kind == "lista":
+                e["kind"] = "lista"
+
+    # felmenők + saját, sekélytől mélyig (öröklés)
+    for depth in range(1, len(path) + 1):
+        sub = path[:depth]
+        node = get_node(tree, sub)
+        if node is None:
+            continue
+        is_self = (depth == len(path))
+        for group in GROUPS:
+            for name, val in node.get(PROP_KEY, {}).get(group, {}).items():
+                add_tree(name, val, group, sub[-1], is_self)
+
+    # termékeken ténylegesen előforduló tulajdonságok
+    for p in prods:
+        if not matches_prefix(p, path):
+            continue
+        tul = p.get("tulajdonsagok")
+        if not isinstance(tul, dict):
+            continue
+        for name, val in tul.items():
+            e = res.get(name)
+            if e is None:
+                e = res[name] = {"name": name, "group": "csoportos",
+                                 "kind": _infer_kind(val), "values": [],
+                                 "where": "termék", "product_count": 0,
+                                 "declared": [], "self_declared": False}
+            elif e["where"] == "fa":
+                e["where"] = "mindkettő"
+            e["product_count"] += 1
+            if isinstance(val, list):
+                for v in val:
+                    if v not in e["values"]:
+                        e["values"].append(v)
+            elif isinstance(val, str) and val:
+                if val not in e["values"]:
+                    e["values"].append(val)
+
+    # eredet-címke
+    for e in res.values():
+        if e["self_declared"]:
+            e["origin"] = "saját"
+        elif e["declared"]:
+            e["origin"] = "örökölt: " + e["declared"][-1]
+        else:
+            e["origin"] = "termék"
+        e["inherited"] = bool(e["declared"]) and not e["self_declared"]
+
+    # sorrend: saját fa-propok, majd örököltek, majd csak termék — néven belül ABC
+    def rank(e):
+        return 0 if e["self_declared"] else (1 if e["declared"] else 2)
+    return sorted(res.values(), key=lambda e: (rank(e), e["name"].lower()))
+
+
+def _merge_vals(a, b):
+    """Két termék-tulajdonságérték összeolvasztása (list/bool/str)."""
+    if isinstance(a, list) or isinstance(b, list):
+        al = a if isinstance(a, list) else ([a] if a not in (None, "", False) else [])
+        bl = b if isinstance(b, list) else ([b] if b not in (None, "", False) else [])
+        return _union_list(al, bl)
+    if isinstance(a, bool) or isinstance(b, bool):
+        return bool(a) or bool(b)
+    return a if a not in (None, "", False) else b
+
+
+def op_merge_mapping(tree, prods, source, target, mappings):
+    """Forrás node + termékei beolvadnak a célba, tulajdonság-térkép szerint.
+    mappings: [{src, dst}]. Be nem kötött forrás-tulajdonság törlődik; a célé marad.
+    A forrás és a cél lehet ELTÉRŐ szintű is: a termékek a cél szintjére kerülnek
+    (a célnál mélyebb szintek kiürülnek, a forrásnál mélyebbek megmaradnak)."""
+    if source == target:
+        raise ValueError("A forrás és a cél azonos.")
+    ls, lt = len(source), len(target)
+    level = ls
+
+    map_dict = {m["src"]: m["dst"] for m in mappings if m.get("dst")}
+    eff = get_effective_props(tree, prods, source)
+    src_names = {e["name"] for e in eff}
+    kind_by = {e["name"]: e["kind"] for e in eff}
+    group_by = {e["name"]: e["group"] for e in eff}
+
+    # cél node (létrehozzuk, ha nincs)
+    tgt_node = get_node(tree, target)
+    if tgt_node is None:
+        tgt_cont = get_parent_container(tree, target, create=True)
+        tgt_node = tgt_cont.setdefault(target[-1], {PROP_KEY: {"egyedi": {}, "csoportos": {}}})
+    tgt_props = _ensure_props(tgt_node)
+
+    # forrás fa-tulajdonság értékei (a cél-listák feltöltéséhez)
+    src_node = get_node(tree, source)
+    src_tree_vals = {}
+    if src_node is not None:
+        for g in GROUPS:
+            for nm, val in src_node.get(PROP_KEY, {}).get(g, {}).items():
+                if isinstance(val, list):
+                    src_tree_vals[nm] = list(val)
+
+    # --- 1) Termékek: tulajdonság-térkép + áthelyezés a célba ---
+    affected = 0
+    deleted_keys = set()
+    collected = {}  # dst-prop -> a célkulcs alá került értékek (fa-szinkron)
+    for p in prods:
+        if not matches_prefix(p, source):
+            continue
+        tul = p.get("tulajdonsagok")
+        if isinstance(tul, dict):
+            new_tul = {}
+            for k, v in tul.items():
+                if k in map_dict:
+                    dst = map_dict[k]
+                    new_tul[dst] = _merge_vals(new_tul.get(dst), v) if dst in new_tul else v
+                elif k in src_names:
+                    deleted_keys.add(k)  # be nem kötött forrás -> törlés
+                else:
+                    new_tul[k] = _merge_vals(new_tul.get(k), v) if k in new_tul else v
+            for dst, val in new_tul.items():
+                if isinstance(val, list):
+                    collected.setdefault(dst, [])
+                    for x in val:
+                        if x not in collected[dst]:
+                            collected[dst].append(x)
+                elif isinstance(val, str) and val:
+                    collected.setdefault(dst, [])
+                    if val not in collected[dst]:
+                        collected[dst].append(val)
+            p["tulajdonsagok"] = new_tul
+        # átsorolás: a cél szintjéig a cél értékei; a forrásnál mélyebb szintek
+        # megmaradnak; a [cél, forrás) közti (csak a forrásnál létező) szintek kiürülnek
+        for i in range(3):
+            if i < lt:
+                p[LEVEL_FIELDS[i]] = target[i]
+            elif i < ls:
+                p[LEVEL_FIELDS[i]] = ""
+        affected += 1
+
+    # --- 2) Fa: a bekötött forrás-tulajdonságok a célba (union), forrás eltávolítása ---
+    for src_name, dst_name in map_dict.items():
+        existing_group = None
+        for g in GROUPS:
+            if dst_name in tgt_props.get(g, {}):
+                existing_group = g
+                break
+        group = existing_group or group_by.get(src_name, "csoportos")
+        grp = tgt_props.setdefault(group, {})
+        if kind_by.get(src_name) == "flag" and dst_name not in grp:
+            grp.setdefault(dst_name, {})
+        else:
+            cur = grp.get(dst_name)
+            cur = cur if isinstance(cur, list) else ([] if not isinstance(cur, dict) else None)
+            if cur is None:  # cél flag maradjon flag
+                continue
+            add = list(src_tree_vals.get(src_name, [])) + list(collected.get(dst_name, []))
+            grp[dst_name] = _union_list(cur, add)
+
+    # forrás node leválasztása (ha a fában volt). Azonos szintnél a forrás
+    # gyerekei a célba olvadnak; eltérő szintnél a gyerekek (a termékek már
+    # átsorolva) a leválasztással együtt megszűnnek.
+    if src_node is not None:
+        src_cont = get_parent_container(tree, source)
+        detached = src_cont.pop(source[-1], None)
+        if detached is not None and ls == lt:
+            child_key = CHILD_KEY[ls]
+            src_children = detached.get(child_key, {})
+            if src_children:
+                dst_children = tgt_node.setdefault(child_key, {})
+                for cname, cnode in src_children.items():
+                    if cname in dst_children:
+                        merge_node(dst_children[cname], cnode, ls + 1)
+                    else:
+                        dst_children[cname] = cnode
+
+    summary = {
+        "op": "merge_mapping", "affected_products": affected,
+        "source": source, "target": target, "level": level,
+        "tree_action": f"beolvasztva ide: {' > '.join(target)}"
+                       + ("" if ls == lt else f"  (eltérő szint: {ls} → {lt})"),
+        "mapped": [{"src": s, "dst": d} for s, d in map_dict.items()],
+        "deleted": sorted(deleted_keys),
+    }
+    return tree, prods, summary
+
+
 OPS = {
     "move_node": lambda t, p, b: op_move_node(t, p, b["source"], b["target"]),
     "dissolve": lambda t, p, b: op_dissolve(t, p, b["source"]),
@@ -575,6 +791,8 @@ OPS = {
     "move_property": lambda t, p, b: op_move_property(
         t, p, b["source"], b["source_prop"], b["target"], b["target_prop"],
         b["group"], b.get("kind", "lista"), b.get("value"), b.get("new_value")),
+    "merge_mapping": lambda t, p, b: op_merge_mapping(
+        t, p, b["source"], b["target"], b.get("mappings", [])),
 }
 
 
@@ -640,6 +858,10 @@ class Handler(http.server.BaseHTTPRequestHandler):
         except Exception as e:
             return self._send(400, {"error": f"hibás JSON: {e}"})
         try:
+            if self.path == "/api/node_props":
+                tree = load_json(TREE_FILE)
+                prods = load_json(EREDMENY)
+                return self._send(200, {"props": get_effective_props(tree, prods, body["path"])})
             if self.path == "/api/preview":
                 return self._send(200, run_operation(body, write=False))
             if self.path == "/api/apply":

@@ -30,6 +30,22 @@ a forrásnak jelöli.
 
 ## Műveletek
 
+- **Összevonás (tulajdonság-térkép)** — *ez az elsődleges összevonó művelet.* Kijelölsz egy
+  **Forrás** és egy **Cél** node-ot (azonos szintűek). A felület kétoldalt kirajzolja a két node
+  tulajdonságait pöttyökkel (a fán deklaráltakat ÉS a termékeken ténylegesen előfordulókat is).
+  Húzd össze őket: kattints egy **bal** (forrás) pöttyre, majd egy **jobb** (cél) pöttyre.
+  - Összekötött forrás-tulajdonság → **beolvad** a cél-tulajdonságba (értékek uniója).
+  - Be **nem** kötött **forrás**-tulajdonság → **törlődik** (pirossal, áthúzva jelölve).
+  - Be nem kötött **cél**-tulajdonság → marad, nem történik vele semmi.
+  - Az **azonos nevűek előre összekötve** indulnak; forrás-pöttyre kattintva bontod a kötést.
+  - Alkalmazáskor a **forrás node és termékei a célba olvadnak** (a forrás megszűnik), a
+    tulajdonságok a térkép szerint képződnek le. Az Előnézet pontosan listázza, mi köt össze és mi törlődik.
+  - **Öröklés:** a pöttyök közt a **felmenők** (fő-/alkategória) tulajdonságai is megjelennek
+    (`örökölt: <szülő>` címke, dőlten), érték-listák **unióval** (nem felülírással). Így a
+    Citromlé altípusnál a Citromlé alkategória teljes márkalistája is látszik.
+  - **Eltérő szint is összevonható:** a forrás és a cél lehet különböző mélységű. Ekkor a forrás
+    termékei a **cél szintjére** kerülnek; ha a cél sekélyebb, a mélyebb szint(ek) kiürülnek
+    (pl. altípus → alkategória = feloldás térképpel).
 - **Node áthelyezés + összeolvasztás** — egy fő-/al-/altípust áthelyez egy másik helyre.
   Ha a célon már van azonos nevű node, **összeolvad** vele (tulajdonság-listák uniója,
   altípusok egyesítése). A forrás alatti termékek besorolása átíródik.

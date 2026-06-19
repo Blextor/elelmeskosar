@@ -7,7 +7,16 @@ let SOURCE = null;           // path tömb
 let TARGET = null;           // path tömb
 let SEL_PROP = null;         // {name, group, kind} a forrás-tulajdonságból
 let SEL_VALUE = null;        // kiválasztott egy érték (opcionális)
-let ACTIVE_OP = "move_node";
+let ACTIVE_OP = "merge_mapping";
+
+// térkép-állapot (Összevonás fül)
+let MAP_SRC = [];            // forrás effektív propok
+let MAP_TGT = [];            // cél effektív propok
+let MAP_CONN = [];           // [{src, dst}]
+let MAP_ARMED = null;        // épp "felhúzott" forrás-tulajdonság neve
+let MAP_KEY = null;          // melyik (source|target) párra töltöttünk be propokat
+const SRC_DOTS = {};         // name -> dot elem
+const TGT_DOTS = {};         // name -> dot elem
 
 const $ = (s) => document.querySelector(s);
 const key = (p) => JSON.stringify(p);
@@ -185,10 +194,130 @@ document.querySelectorAll(".tab").forEach((t) => {
 
 function renderForm() {
   const f = $("#op-forms");
-  if (ACTIVE_OP === "move_node") f.innerHTML = formMoveNode();
+  if (ACTIVE_OP === "merge_mapping") { f.innerHTML = formMerge(); maybeLoadMapping(); }
+  else if (ACTIVE_OP === "move_node") f.innerHTML = formMoveNode();
   else if (ACTIVE_OP === "dissolve") f.innerHTML = formDissolve();
   else if (ACTIVE_OP === "move_property") f.innerHTML = formMoveProp();
   else if (ACTIVE_OP === "create_property") f.innerHTML = formCreateProp();
+}
+
+function formMerge() {
+  if (!SOURCE || !TARGET)
+    return `<p class="hint">Jelölj ki egy <b>Forrás</b> és egy <b>Cél</b> node-ot
+      (fő/al/altípus — <b>eltérő szint is</b> lehet). A forrás node és termékei a célba
+      olvadnak, a tulajdonságokat pedig alább kötöd össze.</p>`;
+  if (key(SOURCE) === key(TARGET))
+    return `<p class="hint">A forrás és a cél azonos.</p>`;
+  return `<div id="mapwrap"><p class="hint">Tulajdonság-térkép betöltése…</p></div>`;
+}
+
+async function fetchProps(path) {
+  const r = await fetch("/api/node_props", {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ path }),
+  });
+  return (await r.json()).props || [];
+}
+
+// Csak akkor töltünk újra, ha a forrás/cél pár változott (ne dobjuk el a kézi kötéseket).
+async function maybeLoadMapping() {
+  if (!SOURCE || !TARGET || key(SOURCE) === key(TARGET)) return;
+  const pairKey = key(SOURCE) + "→" + key(TARGET);
+  if (pairKey === MAP_KEY) { renderMapping(); return; }
+  MAP_KEY = pairKey;
+  const [sp, tp] = await Promise.all([fetchProps(SOURCE), fetchProps(TARGET)]);
+  MAP_SRC = sp; MAP_TGT = tp; MAP_ARMED = null;
+  const tnames = new Set(tp.map((e) => e.name));
+  MAP_CONN = sp.filter((e) => tnames.has(e.name)).map((e) => ({ src: e.name, dst: e.name }));
+  renderMapping();
+}
+
+function renderMapping() {
+  const wrap = $("#mapwrap");
+  if (!wrap) return;
+  const srcOn = new Set(MAP_CONN.map((c) => c.src));
+  const dstOn = new Set(MAP_CONN.map((c) => c.dst));
+  const meta = (e) => `<span class="pmeta">${e.kind}·${e.product_count}db·${e.where}</span>`;
+  const delCount = MAP_SRC.filter((e) => !srcOn.has(e.name)).length;
+
+  wrap.innerHTML = `
+    <p class="hint">Kösd össze a <b>forrás</b> (bal) tulajdonságait a <b>céllal</b> (jobb):
+      kattints egy bal pöttyre, majd egy jobb pöttyre. Bekötetlen
+      <b style="color:#c0392b">forrás törlődik</b>, bekötetlen cél marad.
+      Az azonos nevűek előre összekötve. (Forrás-pöttyre kattintva bontod a kötést.)</p>
+    ${SOURCE.length !== TARGET.length ? `<p class="hint" style="color:#a06a00">Eltérő szint (${SOURCE.length} → ${TARGET.length}): a forrás termékei a cél szintjére kerülnek${TARGET.length < SOURCE.length ? " (a mélyebb szint kiürül)" : ""}.</p>` : ""}
+    <div class="maphdr"><span>FORRÁS: ${escapeHtml(SOURCE[SOURCE.length - 1])} → törlődik: ${delCount} tulajdonság</span>
+      <span>CÉL: ${escapeHtml(TARGET[TARGET.length - 1])}</span></div>
+    <div class="mapcols">
+      <div class="mapcol left">
+        ${MAP_SRC.map((e) => mapRow(e, "src", srcOn.has(e.name))).join("")}
+        ${MAP_SRC.length ? "" : '<p class="hint">Nincs forrás-tulajdonság.</p>'}
+      </div>
+      <svg class="maplines"></svg>
+      <div class="mapcol right">
+        ${MAP_TGT.map((e) => mapRow(e, "dst", dstOn.has(e.name))).join("")}
+        ${MAP_TGT.length ? "" : '<p class="hint">Nincs cél-tulajdonság.</p>'}
+      </div>
+    </div>`;
+
+  Object.keys(SRC_DOTS).forEach((k) => delete SRC_DOTS[k]);
+  Object.keys(TGT_DOTS).forEach((k) => delete TGT_DOTS[k]);
+  wrap.querySelectorAll(".dot").forEach((d) => {
+    const nm = d.dataset.name, side = d.dataset.side;
+    (side === "src" ? SRC_DOTS : TGT_DOTS)[nm] = d;
+    d.onclick = () => onDot(side, nm);
+  });
+  requestAnimationFrame(drawLines);
+}
+
+function mapRow(e, side, on) {
+  const cls = side === "src" ? (on ? "on" : "del") : (on ? "on" : "");
+  const armed = side === "src" && MAP_ARMED === e.name ? " armed" : "";
+  const inh = e.inherited ? " inh" : "";
+  const dot = `<span class="dot ${side} ${cls}${armed}" data-side="${side}" data-name="${escapeAttr(e.name)}"></span>`;
+  const meta = `<span class="pmeta">${e.kind}·${e.product_count}db·${escapeHtml(e.origin || "")}</span>`;
+  const lab = `<span class="plabel ${cls}${inh}">${escapeHtml(e.name)} ${meta}</span>`;
+  return `<div class="prow ${side} ${cls}" title="${escapeAttr(e.origin || "")}">${side === "src" ? lab + dot : dot + lab}</div>`;
+}
+
+function onDot(side, name) {
+  if (side === "src") {
+    if (MAP_CONN.some((c) => c.src === name)) {
+      MAP_CONN = MAP_CONN.filter((c) => c.src !== name);   // kötés bontása
+      MAP_ARMED = null;
+    } else {
+      MAP_ARMED = MAP_ARMED === name ? null : name;        // felhúzás
+    }
+  } else {
+    if (MAP_ARMED) {
+      MAP_CONN = MAP_CONN.filter((c) => c.src !== MAP_ARMED);
+      MAP_CONN.push({ src: MAP_ARMED, dst: name });
+      MAP_ARMED = null;
+    } else {
+      MAP_CONN = MAP_CONN.filter((c) => c.dst !== name);   // a célba futó kötések bontása
+    }
+  }
+  renderMapping();
+}
+
+function drawLines() {
+  const svg = document.querySelector("#mapwrap .maplines");
+  if (!svg) return;
+  const cols = svg.parentElement;
+  const box = cols.getBoundingClientRect();
+  svg.setAttribute("width", box.width);
+  svg.setAttribute("height", box.height);
+  let html = "";
+  for (const c of MAP_CONN) {
+    const sd = SRC_DOTS[c.src], dd = TGT_DOTS[c.dst];
+    if (!sd || !dd) continue;
+    const a = sd.getBoundingClientRect(), b = dd.getBoundingClientRect();
+    const x1 = a.left + a.width / 2 - box.left, y1 = a.top + a.height / 2 - box.top;
+    const x2 = b.left + b.width / 2 - box.left, y2 = b.top + b.height / 2 - box.top;
+    const mx = (x1 + x2) / 2;
+    html += `<path d="M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}" class="cline"/>`;
+  }
+  svg.innerHTML = html;
 }
 
 function formMoveNode() {
@@ -254,6 +383,12 @@ function formCreateProp() {
 
 // ---------------------------------------------------------------- payload
 function buildPayload() {
+  if (ACTIVE_OP === "merge_mapping") {
+    if (!SOURCE || !TARGET) throw "Jelölj ki forrás és cél node-ot.";
+    if (key(SOURCE) === key(TARGET)) throw "A forrás és a cél azonos.";
+    return { op: "merge_mapping", source: SOURCE, target: TARGET, mappings: MAP_CONN };
+  }
+  // (eltérő szintű forrás/cél is megengedett a merge_mapping-nél)
   if (ACTIVE_OP === "move_node") {
     if (!SOURCE) throw "Nincs forrás.";
     if (!TARGET) throw "Nincs cél node kijelölve.";
@@ -329,6 +464,7 @@ $("#apply-btn").onclick = async () => {
   $("#apply-btn").disabled = true;
   setResult("✔ KÉSZ — fájlok mentve.\n\n" + summaryText(j, true), "done");
   SOURCE = TARGET = SEL_PROP = SEL_VALUE = LAST_PAYLOAD = null;
+  MAP_KEY = null; MAP_CONN = []; MAP_SRC = []; MAP_TGT = []; MAP_ARMED = null;
   await loadData();
 };
 
@@ -339,6 +475,14 @@ function summaryText(j, applied) {
   lines.push(`Érintett termékek: ${j.affected_products}`);
   if (j.source) lines.push(`Forrás: ${pathStr(j.source)}`);
   if (j.target) lines.push(`Cél:    ${pathStr(j.target)}`);
+  if (j.mapped) {
+    lines.push(`\nÖsszekötött tulajdonságok (${j.mapped.length}):`);
+    for (const m of j.mapped) lines.push(`  ${m.src}  →  ${m.dst}`);
+  }
+  if (j.deleted && j.deleted.length) {
+    lines.push(`\nTörölt (bekötetlen forrás) tulajdonságok (${j.deleted.length}):`);
+    lines.push("  " + j.deleted.join(", "));
+  }
   if (!applied) lines.push(`\n(Ez csak előnézet — semmit nem írtunk. Az „Alkalmaz" ír.)`);
   return lines.join("\n");
 }
@@ -380,5 +524,6 @@ function escapeAttr(s) { return escapeHtml(s).replace(/"/g, "&quot;"); }
 $("#search").oninput = renderTree;
 $("#hide-empty").onchange = renderTree;
 $("#reload").onclick = loadData;
+window.addEventListener("resize", () => { if (ACTIVE_OP === "merge_mapping") drawLines(); });
 
 loadData();
