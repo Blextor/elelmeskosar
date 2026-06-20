@@ -15,3 +15,9 @@
 2026-06-20 07:43:08,011  INFO     mentve: kategoriak_2026-06-13.json (0.04 s)
 2026-06-20 07:43:08,583  INFO     mentve: eredmeny.json (0.57 s)
 2026-06-20 07:43:08,584  INFO     ALKALMAZ kész: op=merge_values  érintett termék=27  fa=0 érték-művelet, 1 törölt tulajdonság  (Ital > Cider)  (1.22 s)
+2026-06-20 08:05:23,288  INFO     --fix-hashes: kategória-hash teljes újraszámolása indul
+2026-06-20 08:05:24,161  INFO     mentve: eredmeny.json (0.59 s)
+2026-06-20 08:05:24,162  INFO     --fix-hashes kész: 22300 pótolva, 3605 frissítve, összesen 33000 termék
+2026-06-20 08:44:06,512  INFO     --normalize: egyedi/csoportos alak-normalizálás indul
+2026-06-20 08:44:07,462  INFO     mentve: eredmeny.json (0.61 s)
+2026-06-20 08:44:07,462  INFO     --normalize kész: 3604 termék alakja igazítva, hash 0 pótolva / 3604 frissítve

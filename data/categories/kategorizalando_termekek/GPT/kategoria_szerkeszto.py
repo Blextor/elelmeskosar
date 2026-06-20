@@ -20,6 +20,7 @@ majd böngészőben: http://127.0.0.1:8765
 
 import copy
 import glob
+import hashlib
 import http.server
 import json
 import logging
@@ -250,6 +251,112 @@ def matches_prefix(p, path):
         if trip[i] != seg:
             return False
     return True
+
+
+# --------------------------------------------------------------------------- #
+#  Kategória-hash (a kat25.py kategoriak_hash() függvényével AZONOS képlet!)
+# --------------------------------------------------------------------------- #
+def kategoria_hash(fok, al, alt, tul):
+    key = f"{fok}|{al}|{alt}|{json.dumps(tul, sort_keys=True, ensure_ascii=False)}"
+    return hashlib.sha256(key.encode("utf-8")).hexdigest()
+
+
+def recompute_hashes(prods):
+    """Minden termék `kategoria_hash` mezőjét újraszámolja a JELENLEGI besorolásból
+    (fő/al/altípus + tulajdonságok). A hiányzókat pótolja, az elavultakat (pl. a
+    szerkesztő által módosított termékek) frissíti. Visszaad: (pótolt, frissített)."""
+    filled = fixed = 0
+    for p in prods:
+        if not isinstance(p, dict):
+            continue
+        h = kategoria_hash(p.get("fokategoria", "") or "", p.get("alkategoria", "") or "",
+                           p.get("altipus", "") or "", p.get("tulajdonsagok", {}) or {})
+        old = p.get("kategoria_hash")
+        if old != h:
+            p["kategoria_hash"] = h
+            if old:
+                fixed += 1
+            else:
+                filled += 1
+    return filled, fixed
+
+
+def _node_prop_shapes(tree, fok, alk, alt):
+    """A path mentén DEKLARÁLT tulajdonságok alakja a fában:
+      'single' = egyedi, egyértékű (terméken SKALÁR),
+      'multi'  = csoportos (terméken LISTA),
+      'flag'   = egyedi bool (terméken BOOL).
+    Ha egy név több csoportban/szinten más alakkal szerepel → 'ambiguous' (nem nyúlunk hozzá)."""
+    sh = {}
+
+    def add(node):
+        t = node.get(PROP_KEY, {})
+        if not isinstance(t, dict):
+            return
+        eg, cs = t.get("egyedi", {}), t.get("csoportos", {})
+        if isinstance(eg, dict):
+            for k, v in eg.items():
+                sh.setdefault(k, set()).add("flag" if isinstance(v, dict) else "single")
+        if isinstance(cs, dict):
+            for k in cs:
+                sh.setdefault(k, set()).add("multi")
+
+    n = tree.get(fok)
+    if not isinstance(n, dict):
+        return {}
+    add(n)
+    a = n.get(CHILD_KEY[1], {}).get(alk) if alk else None
+    if isinstance(a, dict):
+        add(a)
+        at = a.get(CHILD_KEY[2], {}).get(alt) if alt else None
+        if isinstance(at, dict):
+            add(at)
+    return {k: (next(iter(v)) if len(v) == 1 else "ambiguous") for k, v in sh.items()}
+
+
+def normalize_product_shapes(tree, prods):
+    """A termékek tulajdonság-ÉRTÉKEIT a fa egyedi/csoportos deklarációjához igazítja,
+    hogy a megkülönböztetés a műveletek után is megmaradjon:
+      egyedi (single) -> skalár,  csoportos (multi) -> lista,  egyedi flag -> bool.
+    Csak a fában EGYÉRTELMŰEN deklarált kulcsokat alakítja; a termék-only vagy
+    kétértelmű kulcsokat, és a többértékű egyedi listákat (adatvesztés ellen)
+    érintetlenül hagyja. Visszaadja a módosított termékek számát."""
+    shape_cache = {}
+    changed = 0
+    for p in prods:
+        if not isinstance(p, dict):
+            continue
+        tul = p.get("tulajdonsagok")
+        if not isinstance(tul, dict):
+            continue
+        triple = (p.get("fokategoria", "") or "", p.get("alkategoria", "") or "",
+                  p.get("altipus", "") or "")
+        sm = shape_cache.get(triple)
+        if sm is None:
+            sm = shape_cache[triple] = _node_prop_shapes(tree, *triple)
+        pchanged = False
+        for k, v in list(tul.items()):
+            shape = sm.get(k)
+            if not shape or shape == "ambiguous":
+                continue
+            if shape == "single" and isinstance(v, list):
+                if len(v) <= 1:                       # len>1: kézi rendezésre hagyjuk
+                    tul[k] = v[0] if v else ""
+                    pchanged = True
+            elif shape == "multi" and isinstance(v, str):
+                tul[k] = [v] if v else []
+                pchanged = True
+            elif shape == "flag" and not isinstance(v, bool):
+                if isinstance(v, list):
+                    tul[k] = bool(v) and bool(v[0])
+                elif isinstance(v, str):
+                    tul[k] = v.strip().lower() not in ("", "nem", "false", "0", "n", "-")
+                else:
+                    tul[k] = bool(v)
+                pchanged = True
+        if pchanged:
+            changed += 1
+    return changed
 
 
 # --------------------------------------------------------------------------- #
@@ -1196,6 +1303,18 @@ def _run_operation_inner(body, op, mode, t0, write):
     LOG.debug("%s: művelet kész (%.2f s), %s…", mode, time.time() - t0,
               "mentés" if write else "előnézet építése")
     if write:
+        # Egyedi/csoportos alak megőrzése: a termék-értékeket a fa deklarációjához
+        # igazítjuk (egyedi->skalár, csoportos->lista), MAJD frissítjük a hasheket.
+        normalized = normalize_product_shapes(new_tree, new_prods)
+        if normalized:
+            LOG.info("egyedi/csoportos alak-normalizálás: %s termék", normalized)
+            summary["shapes_normalized"] = normalized
+        # Minden érintett (és korábban hiányos) termék kategória-hashét frissítjük.
+        filled, fixed = recompute_hashes(new_prods)
+        if filled or fixed:
+            LOG.info("kategória-hash: %s pótolva, %s frissítve", filled, fixed)
+            summary["hash_filled"] = filled
+            summary["hash_fixed"] = fixed
         save_json_atomic(TREE_FILE, new_tree)
         save_json_atomic(EREDMENY, new_prods)
         summary["written"] = True
@@ -1293,7 +1412,43 @@ class ThreadingServer(socketserver.ThreadingMixIn, http.server.HTTPServer):
     daemon_threads = True
 
 
+def fix_hashes_cli():
+    """Egyszeri: betölti az eredmeny.json-t, minden termék kategória-hashét
+    újraszámolja, és visszaírja. Futtatás: python kategoria_szerkeszto.py --fix-hashes"""
+    os.chdir(HERE)
+    LOG.info("--fix-hashes: kategória-hash teljes újraszámolása indul")
+    prods = load_json(EREDMENY)
+    filled, fixed = recompute_hashes(prods)
+    if filled or fixed:
+        save_json_atomic(EREDMENY, prods)
+    LOG.info("--fix-hashes kész: %s pótolva, %s frissítve, összesen %s termék",
+             filled, fixed, len(prods))
+    print(f"Kész: {filled} hiányzó pótolva, {fixed} elavult frissítve ({len(prods)} termék).")
+
+
+def normalize_cli():
+    """Egyszeri: a termékek egyedi/csoportos alakját a fához igazítja (egyedi->skalár,
+    csoportos->lista), majd a hasheket frissíti és visszaír.
+    Futtatás: python kategoria_szerkeszto.py --normalize"""
+    os.chdir(HERE)
+    LOG.info("--normalize: egyedi/csoportos alak-normalizálás indul")
+    tree = load_json(TREE_FILE)
+    prods = load_json(EREDMENY)
+    normalized = normalize_product_shapes(tree, prods)
+    filled, fixed = recompute_hashes(prods)
+    if normalized or filled or fixed:
+        save_json_atomic(EREDMENY, prods)
+    LOG.info("--normalize kész: %s termék alakja igazítva, hash %s pótolva / %s frissítve",
+             normalized, filled, fixed)
+    print(f"Kész: {normalized} termék egyedi/csoportos alakja igazítva, "
+          f"hash {filled} pótolva, {fixed} frissítve.")
+
+
 def main():
+    if "--normalize" in sys.argv:
+        return normalize_cli()
+    if "--fix-hashes" in sys.argv:
+        return fix_hashes_cli()
     os.chdir(HERE)
     LOG.info("================ Kategória-szerkesztő indul ================")
     LOG.info("PORT=%s  Fa=%s  Termékek=%s  Log=%s",

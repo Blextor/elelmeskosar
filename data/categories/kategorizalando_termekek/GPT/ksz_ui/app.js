@@ -918,6 +918,10 @@ function summaryText(j, applied) {
     lines.push(`\nÖsszekötött tulajdonságok (${j.mapped.length}):`);
     for (const m of j.mapped) lines.push(`  ${m.src}  →  ${m.dst}`);
   }
+  if (j.shapes_normalized)
+    lines.push(`Egyedi/csoportos alak igazítva: ${j.shapes_normalized} termék`);
+  if (j.hash_filled || j.hash_fixed)
+    lines.push(`Kategória-hash: ${j.hash_filled || 0} pótolva, ${j.hash_fixed || 0} frissítve`);
   if (j.note) lines.push(j.note);
   if (j.value_moves && j.value_moves.length) {
     lines.push(`\nÉrték-műveletek (${j.value_moves.length}):`);

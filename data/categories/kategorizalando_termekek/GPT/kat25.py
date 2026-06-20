@@ -428,9 +428,13 @@ class TermekTagger:
 
     def _termek_hash(self, termek):
         store_product_id = str(termek.get("store_product_id", "")).strip()
-        store_name = str(termek.get("store_name", "")).strip()
         if store_product_id:
-            return f"{store_name}|{store_product_id}"
+            # A store_product_id a CSV-ben gyakorlatilag egyedi (1:1), ezért a
+            # store_name-et NEM tesszük a kulcsba: egyes (batch-besorolt) eredmény-
+            # rekordok termek-objektumából hiányzik a store_name, és emiatt nem
+            # találnának egymásra a CSV-sorral (a besorolásuk "nincs"-ként látszana).
+            return store_product_id
+        store_name = str(termek.get("store_name", "")).strip()
         return (
             str(termek.get("product_name", "")) + "|" +
             store_name + "|" +
