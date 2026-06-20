@@ -18,6 +18,30 @@ let MAP_KEY = null;          // melyik (source|target) párra töltöttünk be p
 const SRC_DOTS = {};         // name -> dot elem
 const TGT_DOTS = {};         // name -> dot elem
 
+// tulajdonság-érték szerkesztő állapot (Tulajdonság-érték fül)
+let EV_PROPS = [];           // a forrás node effektív propjai
+let EV_KEY = null;           // melyik node-ra töltöttünk be propokat
+let EV_SEL = null;           // kiválasztott tulajdonság neve
+let EV_MAP = {};             // {régi_érték: új_érték}  ("" = törlés)
+
+// érték-összevonó állapot (Érték-összevonás tulajdonságok között — kötögetős)
+let MV_PROPS = [];           // a forrás node effektív propjai (lista típus)
+let MV_KEY = null;           // melyik node-ra töltöttünk be
+let MV_ITEMS = [];           // [{id, prop, value}]  minden (tulajdonság, érték) pár
+let MV_CONN = [];            // [{src, dst}]  dst lehet "del" (törlés)
+let MV_ARMED = null;         // épp felhúzott forrás-érték id
+let MV_DELPROPS = new Set();  // teljesen törlendő tulajdonságok nevei
+const MV_SRC_DOTS = {};      // id -> dot (bal)
+const MV_TGT_DOTS = {};      // id -> dot (jobb, "del" is)
+
+// csoport-egyesítő állapot (Tulajdonság-csoport egyesítés fül — kötögetős)
+let CG_PROPS = [];           // a node saját, csoport-bontott propjai
+let CG_KEY = null;           // melyik node-ra töltöttünk be
+let CG_CONN = [];            // [{src, dst}]  ('<csoport>|<név>' kulcsok)
+let CG_ARMED = null;         // épp felhúzott forrás-kulcs
+const CG_SRC_DOTS = {};      // key -> dot elem (bal)
+const CG_TGT_DOTS = {};      // key -> dot elem (jobb)
+
 const $ = (s) => document.querySelector(s);
 const key = (p) => JSON.stringify(p);
 const pathStr = (p) => p.join("  ›  ");
@@ -181,20 +205,25 @@ function renderPropChips(sel, path, isSource) {
 }
 
 // ---------------------------------------------------------------- op fülek
+function activateTab(op) {
+  document.querySelectorAll(".tab").forEach(
+    (x) => x.classList.toggle("active", x.dataset.op === op && !x.disabled));
+  ACTIVE_OP = op;
+  setResult("", "");
+  $("#apply-btn").disabled = true;
+  renderForm();
+}
+
 document.querySelectorAll(".tab").forEach((t) => {
-  t.onclick = () => {
-    document.querySelectorAll(".tab").forEach((x) => x.classList.remove("active"));
-    t.classList.add("active");
-    ACTIVE_OP = t.dataset.op;
-    setResult("", "");
-    $("#apply-btn").disabled = true;
-    renderForm();
-  };
+  t.onclick = () => { if (!t.disabled) activateTab(t.dataset.op); };
 });
 
 function renderForm() {
   const f = $("#op-forms");
   if (ACTIVE_OP === "merge_mapping") { f.innerHTML = formMerge(); maybeLoadMapping(); }
+  else if (ACTIVE_OP === "edit_values") { f.innerHTML = formEditValues(); maybeLoadEvProps(); }
+  else if (ACTIVE_OP === "merge_values") { f.innerHTML = formMergeValues(); maybeLoadMvProps(); }
+  else if (ACTIVE_OP === "consolidate_groups") { f.innerHTML = formConsolidate(); maybeLoadCgProps(); }
   else if (ACTIVE_OP === "move_node") f.innerHTML = formMoveNode();
   else if (ACTIVE_OP === "dissolve") f.innerHTML = formDissolve();
   else if (ACTIVE_OP === "move_property") f.innerHTML = formMoveProp();
@@ -320,6 +349,377 @@ function drawLines() {
   svg.innerHTML = html;
 }
 
+// ---------------------------------------------------------------- tulajdonság-érték
+function formEditValues() {
+  if (!SOURCE)
+    return `<p class="hint">Jelölj ki egy <b>Forrás</b> node-ot (fő-/al-/altípus),
+      aminek egy tulajdonságának értékeit szerkeszted.</p>`;
+  return `<div id="evwrap"><p class="hint">Tulajdonságok betöltése…</p></div>`;
+}
+
+async function maybeLoadEvProps() {
+  if (!SOURCE) return;
+  const k = key(SOURCE);
+  if (k !== EV_KEY) {
+    EV_KEY = k;
+    EV_PROPS = await fetchProps(SOURCE);
+    EV_SEL = null; EV_MAP = {};
+  }
+  renderEv();
+}
+
+function renderEv() {
+  const wrap = $("#evwrap");
+  if (!wrap) return;
+  const listProps = EV_PROPS.filter((e) => e.kind === "lista");
+  if (!listProps.length) {
+    wrap.innerHTML = `<p class="hint">Nincs lista típusú (érték-listás) tulajdonság ezen a node-on.</p>`;
+    return;
+  }
+  if (!EV_SEL || !listProps.some((e) => e.name === EV_SEL)) { EV_SEL = listProps[0].name; EV_MAP = {}; }
+  const prop = listProps.find((e) => e.name === EV_SEL);
+
+  const opts = listProps.map((e) =>
+    `<option value="${escapeAttr(e.name)}"${e.name === EV_SEL ? " selected" : ""}>${escapeHtml(e.name)} · ${escapeHtml(propGroupLabel(e))} [${e.values.length}]</option>`
+  ).join("");
+
+  const dup = (prop.self_groups || []).length >= 2;
+  const groupNote = `<p class="hint">Csoport: <b>${escapeHtml(propGroupLabel(prop))}</b>${
+    dup ? ' — ⚠ ez a tulajdonság egyszerre <b>egyedi</b> és <b>csoportos</b>; az érték-szerkesztés <b>mindkét</b> csoport listáját módosítja. A csoportok egyesítéséhez használd a „Tulajdonság-csoport egyesítés" fület.'
+        : ''}</p>`;
+
+  const rows = prop.values.map((v) => {
+    const cur = EV_MAP[v];                       // undefined=marad, ""=törlés, egyéb=új érték
+    const del = cur === "";
+    const inputVal = (cur !== undefined && cur !== "") ? cur : "";
+    const merged = !del && inputVal && prop.values.includes(inputVal);
+    const note = del ? '<span class="evnote del">törlés</span>'
+      : (inputVal ? (merged ? '<span class="evnote merge">összevonás</span>'
+                            : '<span class="evnote rename">átnevezés</span>') : "");
+    return `<div class="evrow${del ? " del" : ""}">
+      <span class="evfrom" title="${escapeAttr(v)}">${escapeHtml(v)}</span>
+      <span class="evarrow">→</span>
+      <input class="evto" data-val="${escapeAttr(v)}" value="${escapeAttr(inputVal)}" ${del ? "disabled" : ""}
+             list="evvals" placeholder="= marad (írj/válassz másik értéket az összevonáshoz)">
+      ${note}
+      <button class="evdel" data-val="${escapeAttr(v)}">${del ? "mégse" : "töröl"}</button>
+    </div>`;
+  }).join("");
+
+  // Az összes érték a datalistban (a saját nevet nem előtöltve, így a legördülő
+  // ténylegesen a TÖBBI értéket kínálja összevonáshoz).
+  const datalist = `<datalist id="evvals">${prop.values.map((v) => `<option value="${escapeAttr(v)}"></option>`).join("")}</datalist>`;
+
+  wrap.innerHTML = `
+    <p class="hint">Válassz egy tulajdonságot, majd az értékeit <b>átnevezheted</b>,
+      egy másik értékbe <b>összevonhatod</b> (írd be a cél értéket — pl. „zöld alma" → „alma"),
+      vagy <b>törölheted</b>. A nem módosított értékek változatlanok.
+      Csak ezen a node-on (és a termékein) hat.</p>
+    <label>Tulajdonság</label>
+    <select id="ev-prop">${opts}</select>
+    ${groupNote}
+    <div class="evlist">${rows}</div>
+    ${datalist}`;
+
+  $("#ev-prop").onchange = (e) => { EV_SEL = e.target.value; EV_MAP = {}; renderEv(); };
+  wrap.querySelectorAll(".evto").forEach((inp) => {
+    inp.oninput = () => {
+      const v = inp.dataset.val, nv = inp.value.trim();
+      if (nv === "" || nv === v) delete EV_MAP[v];   // üres / változatlan = nincs művelet
+      else EV_MAP[v] = nv;
+    };
+    inp.onchange = renderEv;   // jelzés-frissítés (összevonás/átnevezés címke) szerkesztés után
+  });
+  wrap.querySelectorAll(".evdel").forEach((btn) => {
+    btn.onclick = () => {
+      const v = btn.dataset.val;
+      if (EV_MAP[v] === "") delete EV_MAP[v]; else EV_MAP[v] = "";
+      renderEv();
+    };
+  });
+}
+
+function propGroupLabel(e) {
+  const sg = e.self_groups || [];
+  if (sg.length) return sg.join(" + ");
+  if (e.where === "termék") return "termék";
+  return e.group || "";
+}
+
+// ---------------------------------------------------------------- érték-összevonás (kötögetős)
+function formMergeValues() {
+  if (!SOURCE)
+    return `<p class="hint">Jelölj ki egy <b>Forrás</b> node-ot, amelynek az értékeit
+      tulajdonságok között összevonod / törlöd.</p>`;
+  return `<div id="mvwrap"><p class="hint">Értékek betöltése…</p></div>`;
+}
+
+async function maybeLoadMvProps() {
+  if (!SOURCE) return;
+  const k = key(SOURCE);
+  if (k !== MV_KEY) {
+    MV_KEY = k;
+    // MINDEN tulajdonság (lista + flag). A flagnek nincs értéke, de TÖRÖLHETŐ.
+    MV_PROPS = await fetchProps(SOURCE);
+    MV_ITEMS = [];
+    let i = 0;
+    for (const e of MV_PROPS)
+      for (const v of e.values) MV_ITEMS.push({ id: "v" + (i++), prop: e.name, value: v });
+    MV_CONN = []; MV_ARMED = null; MV_DELPROPS = new Set();
+  }
+  renderMv();
+}
+
+function mvColHtml(side) {
+  let html = "";
+  if (side === "dst") {
+    const on = MV_CONN.some((c) => c.dst === "del");
+    html += `<div class="prow dst trash">
+      <span class="dot dst del-sink${on ? " on" : ""}" data-side="dst" data-id="del"></span>
+      <span class="plabel del">🗑 törlés (érték)</span></div>`;
+  }
+  for (const e of MV_PROPS) {
+    const isFlag = e.kind !== "lista";
+    if (side === "dst" && isFlag) continue;   // flag nem lehet érték-cél
+    const pdel = MV_DELPROPS.has(e.name);
+    // a tulajdonság-fejléc; a bal oldalon törlés-gomb is van az EGÉSZ tulajdonságra
+    const btn = side === "src"
+      ? `<button class="mvpropdel${pdel ? " on" : ""}" data-prop="${escapeAttr(e.name)}">${pdel ? "↺ mégse" : "🗑 tulajdonság"}</button>`
+      : "";
+    html += `<div class="mvhead${pdel ? " del" : ""}">${side === "src" ? btn + " " : ""}${escapeHtml(e.name)} <span class="pmeta">${escapeHtml(propGroupLabel(e))}${isFlag ? " · flag" : ""}</span></div>`;
+    if (isFlag) {
+      if (side === "src")
+        html += `<div class="prow src pflag${pdel ? " pdel" : ""}"><span class="plabel ${pdel ? "del" : ""}">(flag — nincs érték, csak az egész tulajdonság törölhető)</span></div>`;
+      continue;
+    }
+    for (const it of MV_ITEMS) {
+      if (it.prop !== e.name) continue;
+      const on = side === "src" ? MV_CONN.some((c) => c.src === it.id)
+                                : MV_CONN.some((c) => c.dst === it.id);
+      const armed = side === "src" && MV_ARMED === it.id ? " armed" : "";
+      const dot = `<span class="dot ${side}${on ? " on" : ""}${armed}" data-side="${side}" data-id="${it.id}"></span>`;
+      const struck = pdel || (side === "src" && on);
+      const lab = `<span class="plabel ${struck ? "del" : ""}">${escapeHtml(it.value)}</span>`;
+      html += `<div class="prow ${side}${on ? " on" : ""}${pdel ? " pdel" : ""}">${side === "src" ? lab + dot : dot + lab}</div>`;
+    }
+  }
+  return html;
+}
+
+function renderMv() {
+  const wrap = $("#mvwrap");
+  if (!wrap) return;
+  if (!MV_PROPS.length) {
+    wrap.innerHTML = `<p class="hint">Nincs tulajdonság ezen a node-on.</p>`;
+    return;
+  }
+  wrap.innerHTML = `
+    <p class="hint">Kösd össze a <b>bal</b> (forrás) értéket a <b>jobb</b> oldali céllal — a cél lehet
+      egy <b>másik tulajdonság</b> értéke is (pl. <i>típus: alkoholmentes cider</i> →
+      <i>alkoholtartalom: 0,0%</i>), vagy a <b>🗑 törlés</b>. A forrás érték a termékeken a célra
+      cserélődik (törlésnél eltűnik). A be nem kötött értékek változatlanok.
+      Egész tulajdonságot (a <b>flag</b>-eket is) a fejléc <b>🗑 tulajdonság</b> gombjával törölhetsz.
+      (Forrás-pöttyre kattintva bontod a kötést.)</p>
+    <div class="maphdr"><span>FORRÁS érték</span><span>CÉL érték / törlés</span></div>
+    <div class="mapcols">
+      <div class="mapcol left">${mvColHtml("src")}</div>
+      <svg class="maplines mv"></svg>
+      <div class="mapcol right">${mvColHtml("dst")}</div>
+    </div>`;
+
+  Object.keys(MV_SRC_DOTS).forEach((k) => delete MV_SRC_DOTS[k]);
+  Object.keys(MV_TGT_DOTS).forEach((k) => delete MV_TGT_DOTS[k]);
+  wrap.querySelectorAll(".dot").forEach((d) => {
+    const id = d.dataset.id, side = d.dataset.side;
+    (side === "src" ? MV_SRC_DOTS : MV_TGT_DOTS)[id] = d;
+    d.onclick = () => onMvDot(side, id);
+  });
+  wrap.querySelectorAll(".mvpropdel").forEach((b) => {
+    b.onclick = () => {
+      const prop = b.dataset.prop;
+      if (MV_DELPROPS.has(prop)) {
+        MV_DELPROPS.delete(prop);
+      } else {
+        MV_DELPROPS.add(prop);
+        // a teljesen törlendő tulajdonság érték-kötéseit eldobjuk
+        const ids = new Set(MV_ITEMS.filter((it) => it.prop === prop).map((it) => it.id));
+        MV_CONN = MV_CONN.filter((c) => !ids.has(c.src) && !ids.has(c.dst));
+      }
+      renderMv();
+    };
+  });
+  requestAnimationFrame(drawMvLines);
+}
+
+function onMvDot(side, id) {
+  if (side === "src") {
+    if (MV_CONN.some((c) => c.src === id)) {
+      MV_CONN = MV_CONN.filter((c) => c.src !== id);   // kötés bontása
+      MV_ARMED = null;
+    } else {
+      MV_ARMED = MV_ARMED === id ? null : id;           // felhúzás
+    }
+  } else {
+    if (MV_ARMED) {
+      if (MV_ARMED !== id) {                             // ne kösse önmagába
+        MV_CONN = MV_CONN.filter((c) => c.src !== MV_ARMED);
+        MV_CONN.push({ src: MV_ARMED, dst: id });
+      }
+      MV_ARMED = null;
+    } else if (id !== "del") {
+      MV_CONN = MV_CONN.filter((c) => c.dst !== id);     // a célba futó kötések bontása
+    }
+  }
+  renderMv();
+}
+
+function drawMvLines() {
+  const svg = document.querySelector("#mvwrap .maplines.mv");
+  if (!svg) return;
+  const box = svg.parentElement.getBoundingClientRect();
+  svg.setAttribute("width", box.width);
+  svg.setAttribute("height", box.height);
+  let html = "";
+  for (const c of MV_CONN) {
+    const sd = MV_SRC_DOTS[c.src], dd = MV_TGT_DOTS[c.dst];
+    if (!sd || !dd) continue;
+    const a = sd.getBoundingClientRect(), b = dd.getBoundingClientRect();
+    const x1 = a.left + a.width / 2 - box.left, y1 = a.top + a.height / 2 - box.top;
+    const x2 = b.left + b.width / 2 - box.left, y2 = b.top + b.height / 2 - box.top;
+    const mx = (x1 + x2) / 2;
+    const cls = c.dst === "del" ? "cline del" : "cline";
+    html += `<path d="M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}" class="${cls}"/>`;
+  }
+  svg.innerHTML = html;
+}
+
+// ---------------------------------------------------------------- csoport-egyesítés (kötögetős)
+function formConsolidate() {
+  if (!SOURCE)
+    return `<p class="hint">Jelölj ki egy <b>Forrás</b> node-ot, amelynek a tulajdonságait
+      (egyedi/csoportos) egymásba olvasztod.</p>`;
+  return `<div id="cgwrap"><p class="hint">Tulajdonságok betöltése…</p></div>`;
+}
+
+async function fetchGroupProps(path) {
+  const r = await fetch("/api/node_group_props", {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ path }),
+  });
+  return (await r.json()).props || [];
+}
+
+async function maybeLoadCgProps() {
+  if (!SOURCE) return;
+  const k = key(SOURCE);
+  if (k !== CG_KEY) {
+    CG_KEY = k;
+    CG_PROPS = await fetchGroupProps(SOURCE);
+    CG_ARMED = null;
+    CG_CONN = autoCgConn(CG_PROPS);   // azonos nevű egyedi→csoportos párokat előre összekötjük
+  }
+  renderCg();
+}
+
+function autoCgConn(props) {
+  const byName = {};
+  for (const e of props) (byName[e.name] = byName[e.name] || []).push(e);
+  const conn = [];
+  for (const name in byName) {
+    const arr = byName[name];
+    if (arr.length < 2) continue;
+    const eg = arr.find((e) => e.group === "egyedi");
+    const cs = arr.find((e) => e.group === "csoportos");
+    if (eg && cs) conn.push({ src: eg.key, dst: cs.key });   // egyedi beolvad a csoportosba
+  }
+  return conn;
+}
+
+function renderCg() {
+  const wrap = $("#cgwrap");
+  if (!wrap) return;
+  if (!CG_PROPS.length) {
+    wrap.innerHTML = `<p class="hint">Ezen a node-on nincs saját, fában deklarált tulajdonság.</p>`;
+    return;
+  }
+  const srcOn = new Set(CG_CONN.map((c) => c.src));
+  const dstOn = new Set(CG_CONN.map((c) => c.dst));
+  const meta = (e) => `<span class="pmeta">${escapeHtml(e.group)}·${e.kind === "lista" ? e.count + "db" : "⚑"}</span>`;
+  const row = (e, side, on) => {
+    const cls = on ? "on" : "";
+    const armed = side === "src" && CG_ARMED === e.key ? " armed" : "";
+    const dot = `<span class="dot ${side} ${cls}${armed}" data-side="${side}" data-key="${escapeAttr(e.key)}"></span>`;
+    const lab = `<span class="plabel ${side === "src" && on ? "del" : ""}">${escapeHtml(e.name)} ${meta(e)}</span>`;
+    return `<div class="prow ${side} ${cls}">${side === "src" ? lab + dot : dot + lab}</div>`;
+  };
+
+  wrap.innerHTML = `
+    <p class="hint">Kösd össze a <b>bal</b> (forrás) tulajdonságot a <b>jobb</b> (cél) tulajdonsággal:
+      kattints egy bal pöttyre, majd egy jobb pöttyre. A forrás <b style="color:#c0392b">beolvad és
+      törlődik</b>, értékei a cél listájába kerülnek (unió). Az azonos nevű egyedi/csoportos párok
+      előre összekötve. (Forrás-pöttyre kattintva bontod a kötést.)</p>
+    <p class="hint" style="color:#7b2d8e">Ha a forrás és a cél <b>neve azonos</b> (csak a csoport tér
+      el), a <b>termékek nem változnak</b> — a csoport csak a fában létező besorolás; a termékeken
+      névenként egyetlen érték van. Ezért lehet „0 érintett termék". Eltérő nevű összevonásnál a
+      termékek is átkulcsozódnak.</p>
+    <div class="maphdr"><span>FORRÁS (beolvad → törlődik)</span><span>CÉL (megmarad)</span></div>
+    <div class="mapcols">
+      <div class="mapcol left">${CG_PROPS.map((e) => row(e, "src", srcOn.has(e.key))).join("")}</div>
+      <svg class="maplines cg"></svg>
+      <div class="mapcol right">${CG_PROPS.map((e) => row(e, "dst", dstOn.has(e.key))).join("")}</div>
+    </div>`;
+
+  Object.keys(CG_SRC_DOTS).forEach((k) => delete CG_SRC_DOTS[k]);
+  Object.keys(CG_TGT_DOTS).forEach((k) => delete CG_TGT_DOTS[k]);
+  wrap.querySelectorAll(".dot").forEach((d) => {
+    const ky = d.dataset.key, side = d.dataset.side;
+    (side === "src" ? CG_SRC_DOTS : CG_TGT_DOTS)[ky] = d;
+    d.onclick = () => onCgDot(side, ky);
+  });
+  requestAnimationFrame(drawCgLines);
+}
+
+function onCgDot(side, ky) {
+  if (side === "src") {
+    if (CG_CONN.some((c) => c.src === ky)) {
+      CG_CONN = CG_CONN.filter((c) => c.src !== ky);   // kötés bontása
+      CG_ARMED = null;
+    } else {
+      CG_ARMED = CG_ARMED === ky ? null : ky;           // felhúzás
+    }
+  } else {
+    if (CG_ARMED) {
+      if (CG_ARMED !== ky) {                             // ne kösse önmagába
+        CG_CONN = CG_CONN.filter((c) => c.src !== CG_ARMED);
+        CG_CONN.push({ src: CG_ARMED, dst: ky });
+      }
+      CG_ARMED = null;
+    } else {
+      CG_CONN = CG_CONN.filter((c) => c.dst !== ky);     // a célba futó kötések bontása
+    }
+  }
+  renderCg();
+}
+
+function drawCgLines() {
+  const svg = document.querySelector("#cgwrap .maplines.cg");
+  if (!svg) return;
+  const box = svg.parentElement.getBoundingClientRect();
+  svg.setAttribute("width", box.width);
+  svg.setAttribute("height", box.height);
+  let html = "";
+  for (const c of CG_CONN) {
+    const sd = CG_SRC_DOTS[c.src], dd = CG_TGT_DOTS[c.dst];
+    if (!sd || !dd) continue;
+    const a = sd.getBoundingClientRect(), b = dd.getBoundingClientRect();
+    const x1 = a.left + a.width / 2 - box.left, y1 = a.top + a.height / 2 - box.top;
+    const x2 = b.left + b.width / 2 - box.left, y2 = b.top + b.height / 2 - box.top;
+    const mx = (x1 + x2) / 2;
+    html += `<path d="M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}" class="cline"/>`;
+  }
+  svg.innerHTML = html;
+}
+
 function formMoveNode() {
   if (!SOURCE) return `<p class="hint">Jelölj ki egy <b>Forrás</b> node-ot (fő/al/altípus).</p>`;
   const sl = SOURCE.length;
@@ -387,6 +787,39 @@ function buildPayload() {
     if (!SOURCE || !TARGET) throw "Jelölj ki forrás és cél node-ot.";
     if (key(SOURCE) === key(TARGET)) throw "A forrás és a cél azonos.";
     return { op: "merge_mapping", source: SOURCE, target: TARGET, mappings: MAP_CONN };
+  }
+  if (ACTIVE_OP === "edit_values") {
+    if (!SOURCE) throw "Jelölj ki egy node-ot.";
+    if (!EV_SEL) throw "Válassz egy tulajdonságot.";
+    const value_map = {};
+    for (const k in EV_MAP) value_map[k] = EV_MAP[k];
+    if (!Object.keys(value_map).length)
+      throw "Nincs változtatás — nevezz át, vonj össze vagy törölj legalább egy értéket.";
+    const prop = EV_PROPS.find((e) => e.name === EV_SEL);
+    return {
+      op: "edit_values", node: SOURCE, prop: EV_SEL,
+      group: prop ? prop.group : "csoportos", value_map,
+    };
+  }
+  if (ACTIVE_OP === "merge_values") {
+    if (!SOURCE) throw "Jelölj ki egy node-ot.";
+    const delete_props = [...MV_DELPROPS];
+    if (!MV_CONN.length && !delete_props.length)
+      throw "Köss össze legalább egy értéket (vagy jelölj törlendő tulajdonságot).";
+    const byId = {};
+    for (const it of MV_ITEMS) byId[it.id] = it;
+    const moves = MV_CONN.map((c) => {
+      const s = byId[c.src];
+      if (c.dst === "del") return { src_prop: s.prop, src_val: s.value, dst_prop: "", dst_val: "" };
+      const d = byId[c.dst];
+      return { src_prop: s.prop, src_val: s.value, dst_prop: d.prop, dst_val: d.value };
+    });
+    return { op: "merge_values", node: SOURCE, moves, delete_props };
+  }
+  if (ACTIVE_OP === "consolidate_groups") {
+    if (!SOURCE) throw "Jelölj ki egy node-ot.";
+    if (!CG_CONN.length) throw "Köss össze legalább egy forrás–cél tulajdonságot.";
+    return { op: "consolidate_groups", node: SOURCE, mappings: CG_CONN };
   }
   // (eltérő szintű forrás/cél is megengedett a merge_mapping-nél)
   if (ACTIVE_OP === "move_node") {
@@ -462,10 +895,16 @@ $("#apply-btn").onclick = async () => {
   const j = await r.json();
   if (j.error) return setResult("HIBA: " + j.error, "err");
   $("#apply-btn").disabled = true;
-  setResult("✔ KÉSZ — fájlok mentve.\n\n" + summaryText(j, true), "done");
-  SOURCE = TARGET = SEL_PROP = SEL_VALUE = LAST_PAYLOAD = null;
+  // A FORRÁS/CÉL kijelölés MEGMARAD (gyakran ugyanazon a node-on folytatjuk).
+  // Csak a művelet-specifikus állapotot nullázzuk, és a prop-cache-eket ürítjük,
+  // hogy a frissített adatból töltsenek újra.
+  LAST_PAYLOAD = SEL_PROP = SEL_VALUE = null;
   MAP_KEY = null; MAP_CONN = []; MAP_SRC = []; MAP_TGT = []; MAP_ARMED = null;
+  EV_KEY = null; EV_PROPS = []; EV_SEL = null; EV_MAP = {};
+  CG_KEY = null; CG_PROPS = []; CG_CONN = []; CG_ARMED = null;
+  MV_KEY = null; MV_PROPS = []; MV_ITEMS = []; MV_CONN = []; MV_ARMED = null; MV_DELPROPS = new Set();
   await loadData();
+  setResult("✔ KÉSZ — fájlok mentve.\n\n" + summaryText(j, true), "done");
 };
 
 function summaryText(j, applied) {
@@ -479,8 +918,21 @@ function summaryText(j, applied) {
     lines.push(`\nÖsszekötött tulajdonságok (${j.mapped.length}):`);
     for (const m of j.mapped) lines.push(`  ${m.src}  →  ${m.dst}`);
   }
+  if (j.note) lines.push(j.note);
+  if (j.value_moves && j.value_moves.length) {
+    lines.push(`\nÉrték-műveletek (${j.value_moves.length}):`);
+    for (const m of j.value_moves) lines.push("  " + m);
+  }
+  if (j.deleted_props && j.deleted_props.length) {
+    lines.push(`\nTörölt tulajdonságok (${j.deleted_props.length}): ${j.deleted_props.join(", ")}`);
+  }
+  if (j.renamed && j.renamed.length) {
+    lines.push(`\nÁtnevezés / összevonás (${j.renamed.length}):`);
+    for (const r of j.renamed) lines.push("  " + r);
+  }
   if (j.deleted && j.deleted.length) {
-    lines.push(`\nTörölt (bekötetlen forrás) tulajdonságok (${j.deleted.length}):`);
+    const label = j.op === "edit_values" ? "Törölt értékek" : "Törölt (bekötetlen forrás) tulajdonságok";
+    lines.push(`\n${label} (${j.deleted.length}):`);
     lines.push("  " + j.deleted.join(", "));
   }
   if (!applied) lines.push(`\n(Ez csak előnézet — semmit nem írtunk. Az „Alkalmaz" ír.)`);
@@ -508,7 +960,9 @@ function renderIssues() {
     d.className = "issue";
     d.innerHTML = `<span class="itag ${iss.type}">${iss.type}</span>${escapeHtml(iss.text)}`;
     d.onclick = () => {
-      SOURCE = iss.path; afterSelect();
+      SOURCE = iss.path;
+      if (iss.type === "dupla_tulajdonsag") { CG_KEY = null; activateTab("consolidate_groups"); }
+      afterSelect();
       // nyissuk ki az őseit és görgessünk
       for (let i = 1; i <= iss.path.length; i++) EXPANDED.add(key(iss.path.slice(0, i)));
       renderTree();
@@ -524,6 +978,10 @@ function escapeAttr(s) { return escapeHtml(s).replace(/"/g, "&quot;"); }
 $("#search").oninput = renderTree;
 $("#hide-empty").onchange = renderTree;
 $("#reload").onclick = loadData;
-window.addEventListener("resize", () => { if (ACTIVE_OP === "merge_mapping") drawLines(); });
+window.addEventListener("resize", () => {
+  if (ACTIVE_OP === "merge_mapping") drawLines();
+  else if (ACTIVE_OP === "consolidate_groups") drawCgLines();
+  else if (ACTIVE_OP === "merge_values") drawMvLines();
+});
 
 loadData();

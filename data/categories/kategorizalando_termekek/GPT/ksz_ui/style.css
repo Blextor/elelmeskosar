@@ -51,6 +51,7 @@ main { display:flex; height:calc(100vh - 49px); }
 .op-tabs { display:flex; flex-wrap:wrap; gap:6px; margin:10px 0; }
 .tab { font-size:13px; }
 .tab.active { background:#23303d; color:#fff; border-color:#23303d; }
+.tab:disabled { opacity:.45; cursor:not-allowed; background:#f0f1f3; }
 
 #op-forms { background:#fff; border:1px solid #d9dde3; border-radius:8px; padding:12px; min-height:60px; }
 #op-forms label { display:block; font-size:12px; color:#555; margin:8px 0 2px; }
@@ -82,6 +83,33 @@ main { display:flex; height:calc(100vh - 49px); }
 .dot.del { border-color:#c0392b; background:#fff; }
 .dot.armed { box-shadow:0 0 0 4px rgba(46,125,50,.45); border-color:#2e7d32; }
 .dot.tgt.on { background:#1565c0; border-color:#1565c0; }
+.cline.del { stroke:#c0392b; }
+
+/* érték-összevonás (kötögetős) — tulajdonság-fejlécek + törlés-cél */
+.mvhead { font-size:11px; font-weight:700; color:#23303d; text-transform:uppercase; letter-spacing:.03em;
+          margin:8px 0 2px; padding-top:4px; border-top:1px solid #e6e9ee; }
+.mapcol.left .mvhead { text-align:right; }
+.prow.trash { margin-bottom:4px; }
+.prow.trash .plabel.del { color:#c0392b; font-weight:600; text-decoration:none; }
+.dot.del-sink { border-color:#c0392b; }
+.dot.del-sink.on { background:#c0392b; border-color:#c0392b; }
+.mvhead.del { color:#c0392b; text-decoration:line-through; }
+.mvpropdel { padding:0 6px; font-size:10px; line-height:16px; border-radius:8px; vertical-align:middle; }
+.mvpropdel.on { background:#c0392b; color:#fff; border-color:#a5301f; }
+.prow.pdel .plabel { color:#c0392b; opacity:.7; }
+
+/* --- Tulajdonság-érték szerkesztő (Tulajdonság-érték fül) --- */
+.evlist { display:flex; flex-direction:column; gap:4px; margin-top:8px; }
+.evrow { display:flex; align-items:center; gap:8px; }
+.evrow.del .evfrom { color:#c0392b; text-decoration:line-through; }
+.evfrom { flex:0 0 38%; font-weight:600; word-break:break-word; }
+.evarrow { color:#999; }
+.evrow .evto { flex:1; padding:4px 7px; border:1px solid #c2c8d0; border-radius:6px; }
+.evrow .evdel { padding:2px 9px; font-size:12px; }
+.evnote { font-size:10px; padding:0 6px; border-radius:8px; color:#fff; white-space:nowrap; }
+.evnote.rename { background:#1565c0; }
+.evnote.merge { background:#2e7d32; }
+.evnote.del { background:#c0392b; }
 
 #issues-box { margin-top:14px; }
 #issues div.issue { padding:4px 6px; border-bottom:1px solid #eee; cursor:pointer; font-size:13px; }
@@ -89,3 +117,8 @@ main { display:flex; height:calc(100vh - 49px); }
 .itag { font-size:10px; padding:0 6px; border-radius:8px; margin-right:6px; color:#fff; }
 .itag.azonos_nev { background:#c0392b; }
 .itag.arva { background:#a06a00; }
+.itag.dupla_tulajdonsag { background:#7b2d8e; }
+
+.cg-groups { display:flex; gap:18px; margin-top:4px; }
+#op-forms label.inline { display:inline-flex; align-items:center; gap:5px; margin:0; font-size:13px; color:#1c1c1c; }
+#op-forms label.inline input { width:auto; }

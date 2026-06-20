@@ -1,0 +1,17 @@
+2026-06-20 01:25:12,950  INFO     ================ Kategória-szerkesztő indul ================
+2026-06-20 01:25:12,951  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log
+2026-06-20 01:25:18,924  INFO     előnézet indul: op=merge_values  node/source=['Cider']
+2026-06-20 01:25:19,581  INFO     előnézet kész: op=merge_values  érintett termék=0  fa=0 érték-művelet, 1 törölt tulajdonság  (Cider)  (0.66 s)
+2026-06-20 07:40:53,067  INFO     ================ Kategória-szerkesztő indul ================
+2026-06-20 07:40:53,067  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log
+2026-06-20 07:41:18,345  INFO     előnézet indul: op=merge_values  node/source=['Ital', 'Cider']
+2026-06-20 07:41:18,983  INFO     előnézet kész: op=merge_values  érintett termék=27  fa=0 érték-művelet, 1 törölt tulajdonság  (Ital > Cider)  (0.64 s)
+2026-06-20 07:41:27,801  INFO     ALKALMAZ indul: op=merge_values  node/source=['Ital', 'Cider']
+2026-06-20 07:42:51,048  INFO     ================ Kategória-szerkesztő indul ================
+2026-06-20 07:42:51,048  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log
+2026-06-20 07:43:04,746  INFO     előnézet indul: op=merge_values  node/source=['Ital', 'Cider']
+2026-06-20 07:43:05,391  INFO     előnézet kész: op=merge_values  érintett termék=27  fa=0 érték-művelet, 1 törölt tulajdonság  (Ital > Cider)  (0.64 s)
+2026-06-20 07:43:07,365  INFO     ALKALMAZ indul: op=merge_values  node/source=['Ital', 'Cider']
+2026-06-20 07:43:08,011  INFO     mentve: kategoriak_2026-06-13.json (0.04 s)
+2026-06-20 07:43:08,583  INFO     mentve: eredmeny.json (0.57 s)
+2026-06-20 07:43:08,584  INFO     ALKALMAZ kész: op=merge_values  érintett termék=27  fa=0 érték-művelet, 1 törölt tulajdonság  (Ital > Cider)  (1.22 s)

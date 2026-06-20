@@ -50842,14 +50842,16 @@
               "Somersby",
               "Strongbow",
               "Kopparberg",
+              "Woodgate",
               "egyéb",
               "SOMERSBY"
             ],
             "alkoholtartalom": [
-              "alkoholos",
-              "alkoholmentes",
+              "4,5%",
+              "0,0%",
               "egyéb"
-            ]
+            ],
+            "szénsavas": {}
           },
           "csoportos": {
             "íz": [
@@ -50863,110 +50865,16 @@
               "mix",
               "körte",
               "passionfruit",
-              "egyéb",
               "bodzavirág",
               "eper",
+              "egyéb",
               "kékáfonya",
               "meggy",
               "orange spritz"
-            ],
-            "alkoholtartalom": [
-              "4,5%",
-              "0,0%"
-            ],
-            "típus": [
-              "cider",
-              "alkoholmentes cider"
             ]
           }
         },
-        "altípusok": {
-          "Woodgate": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "márka": [
-                  {
-                    "íz": [
-                      "alma"
-                    ]
-                  }
-                ]
-              }
-            }
-          },
-          "Strongbow": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "márka": [
-                  {
-                    "íz": [
-                      "alma"
-                    ]
-                  }
-                ]
-              }
-            }
-          },
-          "Cider": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "SOMERSBY",
-                  "Somersby"
-                ],
-                "szénsavas": {}
-              },
-              "csoportos": {
-                "íz": [
-                  "alma",
-                  "áfonya",
-                  "málna",
-                  "lime",
-                  "kékáfonya",
-                  "körte",
-                  "meggy",
-                  "orange spritz",
-                  "görögdinnye",
-                  "málna-lime"
-                ],
-                "alkoholtartalom": [
-                  "4,5%"
-                ],
-                "típus": [
-                  "cider"
-                ]
-              }
-            }
-          },
-          "Alkoholmentes cider": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "SOMERSBY",
-                  "Somersby"
-                ],
-                "szénsavas": {}
-              },
-              "csoportos": {
-                "íz": [
-                  "bodzavirág",
-                  "lime",
-                  "eper",
-                  "bodzavirág-lime",
-                  "eper-lime"
-                ],
-                "alkoholtartalom": [
-                  "0,0%"
-                ],
-                "típus": [
-                  "alkoholmentes cider"
-                ]
-              }
-            }
-          }
-        }
+        "altípusok": {}
       },
       "Sportital": {
         "tulajdonságok": {
@@ -50982,6 +50890,11 @@
               "PRO+",
               "Absolute LifeStyle",
               "Collagen Vibe",
+              "Kékforrás+",
+              "Fonte Active",
+              "Fonte Boost",
+              "Apenta+ Isotonic",
+              "Optisana Sports",
               "egyéb",
               "Crane",
               "Rio D'Oro",
@@ -51009,6 +50922,9 @@
               "izotóniás",
               "magnézium",
               "kollagén",
+              "zöld tea",
+              "antioxidáns",
+              "B-vitamin",
               "egyéb",
               "BCAA",
               "L-karnitin",
@@ -51038,6 +50954,17 @@
               "kaktusz",
               "papaja",
               "vegyes",
+              "izotóniás",
+              "pink grapefruit",
+              "levendula",
+              "mangó-lime",
+              "szőlő-aloe vera",
+              "szeder-levendula",
+              "áfonya-erdei szamóca",
+              "aloe vera",
+              "gránátalma-acai-piros szőlő",
+              "feketeribizli-vörösáfonya-hibiszkusz",
+              "vegyes bogyós gyümölcs",
               "egyéb",
               "meggy",
               "egzotikus",
@@ -51081,141 +51008,18 @@
               "sárgabarack",
               "ginzeng",
               "erdei gyümölcs"
+            ],
+            "jellemzők": [
+              "sportital",
+              "cool blue",
+              "izotóniás sportital",
+              "mountain blast",
+              "body&mind",
+              "energiamentes"
             ]
           }
         },
-        "altípusok": {
-          "Sportital": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Powerade",
-                  "Optisana Sports",
-                  "Gatorade",
-                  "Prime Hydration",
-                  "Hohes C",
-                  "Swiss",
-                  "Apenta+",
-                  "Vitalade",
-                  "Apenta",
-                  "Active O2",
-                  "Viwa Vitaminwater",
-                  "Theodora Calcia Plus",
-                  "Kékforrás+",
-                  "Fonte Active",
-                  "Fonte Boost",
-                  "Swiss Laboratory",
-                  "Apenta+ Isotonic"
-                ],
-                "cukormentes / zero": {},
-                "szénsavas": {}
-              },
-              "csoportos": {
-                "íz": [
-                  "vérnarancs",
-                  "izotóniás",
-                  "citrom",
-                  "feketeribizli",
-                  "vegyes bogyós",
-                  "zéró cukor",
-                  "mangó",
-                  "cool blue",
-                  "málna",
-                  "Barcelona edition",
-                  "narancs",
-                  "maracuja",
-                  "lime",
-                  "gyömbér",
-                  "eper",
-                  "grapefruit",
-                  "matcha",
-                  "kaktusz",
-                  "ananász",
-                  "sárkánygyümölcs",
-                  "szőlő",
-                  "szeder",
-                  "őszibarack",
-                  "vörösáfonya",
-                  "hibiszkusz",
-                  "pomelo",
-                  "gránátalma",
-                  "acai",
-                  "arónia",
-                  "meggy",
-                  "zöld tea",
-                  "pink grapefruit",
-                  "erdei szamóca",
-                  "körte",
-                  "rebarbara",
-                  "alma",
-                  "iced berry",
-                  "multivitamin",
-                  "áfonya",
-                  "citrom-lime",
-                  "kaktuszfüge",
-                  "vegyes gyümölcs",
-                  "guava",
-                  "görögdinnye",
-                  "sárgabarack",
-                  "ginzeng",
-                  "erdei gyümölcs",
-                  "kivi",
-                  "levendula",
-                  "mangó-lime",
-                  "szőlő-aloe vera",
-                  "szeder-levendula",
-                  "áfonya-erdei szamóca",
-                  "egzotikus",
-                  "aloe vera",
-                  "gránátalma-acai-piros szőlő",
-                  "feketeribizli-vörösáfonya-hibiszkusz",
-                  "vegyes bogyós gyümölcs",
-                  "fekete ribizli"
-                ],
-                "tartalom": [
-                  "izotóniás",
-                  "vitamin",
-                  "energia",
-                  "koffein",
-                  "magnézium",
-                  "kollagén",
-                  "BCAA",
-                  "L-karnitin",
-                  "zöld tea",
-                  "antioxidáns",
-                  "oxigén",
-                  "elektrolit",
-                  "kalcium",
-                  "C-vitamin",
-                  "gyógynövény",
-                  "alakreform",
-                  "B-vitamin"
-                ],
-                "márka": [
-                  "Kékforrás+",
-                  "Fonte Active",
-                  "Fonte Boost",
-                  "Swiss Laboratory",
-                  "Viwa Vitaminwater",
-                  "Vitalade",
-                  "Theodora Calcia Plus",
-                  "Apenta+",
-                  "Powerade",
-                  "Gatorade",
-                  "Apenta+ Isotonic"
-                ],
-                "jellemzők": [
-                  "sportital",
-                  "cool blue",
-                  "izotóniás sportital",
-                  "mountain blast",
-                  "body&mind",
-                  "energiamentes"
-                ]
-              }
-            }
-          }
-        }
+        "altípusok": {}
       },
       "Citromlé": {
         "tulajdonságok": {
