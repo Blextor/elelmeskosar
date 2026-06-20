@@ -21,3 +21,24 @@
 2026-06-20 08:44:06,512  INFO     --normalize: egyedi/csoportos alak-normalizálás indul
 2026-06-20 08:44:07,462  INFO     mentve: eredmeny.json (0.61 s)
 2026-06-20 08:44:07,462  INFO     --normalize kész: 3604 termék alakja igazítva, hash 0 pótolva / 3604 frissítve
+2026-06-20 12:14:38,383  INFO     mentve: kategoriak_2026-06-13.json (0.04 s)
+2026-06-20 12:14:38,965  INFO     mentve: eredmeny.json (0.58 s)
+2026-06-20 12:35:04,477  INFO     Leállítva (Ctrl+C).
+2026-06-20 12:35:04,478  INFO     ================ Szerver kilépett ================
+2026-06-20 12:35:05,647  INFO     ================ Kategória-szerkesztő indul ================
+2026-06-20 12:35:05,648  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log
+2026-06-20 12:35:24,793  INFO     előnézet indul: op=edit_values  node/source=['Ital', 'Cider']
+2026-06-20 12:35:24,984  DEBUG    előnézet: fájlok betöltve (0.19 s), művelet számítása…
+2026-06-20 12:35:25,381  DEBUG    előnézet: művelet kész (0.59 s), előnézet építése…
+2026-06-20 12:35:25,442  INFO     előnézet kész: op=edit_values  érintett termék=15  fa='márka' (Ital > Cider) — fa frissítve  (0.65 s)
+2026-06-20 12:37:15,614  CRITICAL  Elkapatlan kivétel — a folyamat kilép:
+Traceback (most recent call last):
+  File "C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\_consist.py", line 90, in <module>
+    set_group(node, prop, canonical)
+  File "C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\_consist.py", line 59, in set_group
+    eg[prop] = {}
+    ~~^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2026-06-20 12:37:54,846  INFO     mentve: kategoriak_2026-06-13.json (0.04 s)
+2026-06-20 12:37:55,446  INFO     mentve: eredmeny.json (0.60 s)
