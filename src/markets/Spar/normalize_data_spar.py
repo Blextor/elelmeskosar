@@ -4,6 +4,9 @@ import os
 import glob
 from datetime import datetime
 import re
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from image_size import to_full_size
 
 csv.field_size_limit(1024 * 1024 * 1024)
 
@@ -364,7 +367,7 @@ with open(input_file_name, mode='r', encoding='utf-8') as infile, \
         secondary_unit_price = None
         secondary_unit_type = vegleges_kiszereles_2[1]
         secondary_unit_step = vegleges_kiszereles_2[0]
-        image_urls = ";".join([url for url in [kep1, kep2] if url]) or None
+        image_urls = ";".join([to_full_size(url) for url in [kep1, kep2] if url]) or None
         description = None #f"{leiras} {osszetevok}".strip() or None
 
         # ✍️ Írás a kimeneti fájlba

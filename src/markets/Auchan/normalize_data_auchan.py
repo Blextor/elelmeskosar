@@ -6,6 +6,10 @@ import os
 import re
 from typing import Optional, Tuple
 
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from image_size import to_full_size
+
 
 csv.field_size_limit(1024 * 1024 * 1024)
 
@@ -200,7 +204,7 @@ def images(row):
         value = clean_text(row.get(field))
         if value and value not in values:
             values.append(value)
-    return ";".join(values)
+    return ";".join(to_full_size(value) for value in values)
 
 
 def category_path(row):

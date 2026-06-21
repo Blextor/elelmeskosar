@@ -6,6 +6,10 @@ import os
 import re
 from typing import Optional, Tuple
 
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from image_size import to_full_size
+
 
 csv.field_size_limit(1024 * 1024 * 1024)
 
@@ -368,7 +372,7 @@ with open(input_file_name, mode="r", encoding="utf-8", newline="") as infile, op
                 "secondary_unit_price": None,
                 "secondary_unit_type": None,
                 "secondary_unit_step": None,
-                "image_urls": empty_to_none(row.get("defaultImageUrl")),
+                "image_urls": to_full_size(empty_to_none(row.get("defaultImageUrl"))),
                 "description": description_from_row(row),
                 "categories": category_path(row),
             }

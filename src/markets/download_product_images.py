@@ -13,6 +13,10 @@ from urllib.parse import urlsplit
 
 import requests
 
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from image_size import to_full_size
+
 
 csv.field_size_limit(1024 * 1024 * 1024)
 
@@ -56,6 +60,7 @@ def split_image_urls(value):
     for part in str(value or "").split(";"):
         part = clean_text(part)
         if part and part.lower() not in {"none", "nan"} and part.lower().startswith("http"):
+            part = to_full_size(part)  # mindig az eredeti/legnagyobb méretet töltjük
             if part not in urls:
                 urls.append(part)
     return urls
