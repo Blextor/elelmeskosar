@@ -7,7 +7,8 @@
       "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -m py_compile src/markets/Metro/normalize_data_metro.py src/markets/build_promotions.py)",
       "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -X utf8 main_metro.py)",
       "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -X utf8 normalize_data_metro.py)",
-      "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -X utf8 src/markets/build_promotions.py)"
+      "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -X utf8 src/markets/build_promotions.py)",
+      "Bash(python -c ' *)"
     ]
   }
 }

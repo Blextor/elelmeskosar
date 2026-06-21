@@ -68,3 +68,5 @@ Traceback (most recent call last):
     if all(trip[i] == seg for i, seg in enumerate(path)):
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: 'dict_itemiterator' object is not callable
+2026-06-21 06:05:34,929  INFO     Leállítva (Ctrl+C).
+2026-06-21 06:05:34,929  INFO     ================ Szerver kilépett ================
