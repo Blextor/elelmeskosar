@@ -42,3 +42,29 @@ TypeError: list indices must be integers or slices, not str
 
 2026-06-20 12:37:54,846  INFO     mentve: kategoriak_2026-06-13.json (0.04 s)
 2026-06-20 12:37:55,446  INFO     mentve: eredmeny.json (0.60 s)
+2026-06-21 05:52:06,493  INFO     ================ Kategória-szerkesztő indul ================
+2026-06-21 05:52:06,493  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log
+2026-06-21 05:54:33,231  INFO     előnézet indul: op=merge_mapping  node/source=['Alkoholos ital', 'Égetett szesz', 'Gin']
+2026-06-21 05:54:33,466  DEBUG    előnézet: fájlok betöltve (0.23 s), művelet számítása…
+2026-06-21 05:54:34,005  DEBUG    előnézet: művelet kész (0.77 s), előnézet építése…
+2026-06-21 05:54:34,104  INFO     előnézet kész: op=merge_mapping  érintett termék=26  fa=beolvasztva ide: Ital > Alkoholok > Gin  (0.87 s)
+2026-06-21 05:54:39,954  INFO     ALKALMAZ indul: op=merge_mapping  node/source=['Alkoholos ital', 'Égetett szesz', 'Gin']
+2026-06-21 05:54:40,180  DEBUG    ALKALMAZ: fájlok betöltve (0.23 s), művelet számítása…
+2026-06-21 05:54:40,719  DEBUG    ALKALMAZ: művelet kész (0.76 s), mentés…
+2026-06-21 05:54:40,761  INFO     egyedi/csoportos alak-normalizálás: 7144 termék
+2026-06-21 05:54:40,914  INFO     kategória-hash: 8000 pótolva, 0 frissítve
+2026-06-21 05:54:40,967  INFO     mentve: kategoriak_2026-06-13.json (0.05 s)
+2026-06-21 05:54:41,641  INFO     mentve: eredmeny.json (0.67 s)
+2026-06-21 05:54:41,642  INFO     ALKALMAZ kész: op=merge_mapping  érintett termék=26  fa=beolvasztva ide: Ital > Alkoholok > Gin  (1.69 s)
+2026-06-21 05:54:41,964  ERROR    HIBA a GET /api/data kérésben
+Traceback (most recent call last):
+  File "C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.py", line 1373, in do_GET
+    return self._send(200, build_view(tree, prods))
+                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.py", line 415, in build_view
+    "count": count_prefix([fk, ak]),
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.py", line 393, in count_prefix
+    if all(trip[i] == seg for i, seg in enumerate(path)):
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict_itemiterator' object is not callable

@@ -58185,7 +58185,13 @@
                   "citrus",
                   "london dry",
                   "japán gin",
-                  "gin"
+                  "gin",
+                  "sevillai narancs",
+                  "bogyós gyümölcs",
+                  "ananász",
+                  "Japanese Blossom",
+                  "lichee-málna",
+                  "Purple Hibiscus"
                 ],
                 "alkoholtartalom": [
                   "43%",
@@ -58193,7 +58199,11 @@
                   "37,5%",
                   "43,1%",
                   "37.5%",
-                  "41,4%"
+                  "41,4%",
+                  "41%",
+                  "44%",
+                  "41,3%",
+                  "46%"
                 ],
                 "típus": [
                   "gin"
@@ -58202,7 +58212,26 @@
                   "London Dry gin",
                   "gin",
                   "London Dry angol gin",
-                  "Pink Strawberry gin"
+                  "Pink Strawberry gin",
+                  "Madagascar Blood Orange gin",
+                  "Madagascar White Dry gin",
+                  "Rosa grapefruit ízesítésű gin",
+                  "Madagascar Mango gin",
+                  "Madagascar maracuja gin",
+                  "Sunset Special Edition London Dry gin",
+                  "prémium pink desztillált gin",
+                  "Blackcurrant Royale desztillált gin",
+                  "London Dry Gin száraz gin",
+                  "Flor De Sevilla desztillált gin",
+                  "Norwegian gin",
+                  "Wild Strawberry angol gin",
+                  "Pink gin",
+                  "Very Berry gin",
+                  "Pineapple gin",
+                  "Japanese Blossom gin",
+                  "Sakura japán ízesített gin",
+                  "Lychee & Raspberry Pink gin",
+                  "Madagascar Purple Hibiscus gin"
                 ],
                 "kiszerelés": [
                   "700 ml",
@@ -95643,89 +95672,7 @@
           "egyedi": {},
           "csoportos": {}
         },
-        "altípusok": {
-          "Gin": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Kalumba",
-                  "Tanqueray",
-                  "Malfy",
-                  "Bombay Sapphire",
-                  "Gordon's",
-                  "Hendrick's",
-                  "Citadelle",
-                  "Bulldog",
-                  "Harahorn",
-                  "Ironcides",
-                  "Finsbury",
-                  "Old Tower",
-                  "Balaton",
-                  "The Foxtale",
-                  "Ukiyo",
-                  "Roku",
-                  "Tarsier"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Madagascar Blood Orange gin",
-                  "London Dry gin",
-                  "Madagascar White Dry gin",
-                  "Rosa grapefruit ízesítésű gin",
-                  "Madagascar Mango gin",
-                  "Madagascar maracuja gin",
-                  "Sunset Special Edition London Dry gin",
-                  "prémium pink desztillált gin",
-                  "gin",
-                  "Blackcurrant Royale desztillált gin",
-                  "London Dry Gin száraz gin",
-                  "Flor De Sevilla desztillált gin",
-                  "Norwegian gin",
-                  "Wild Strawberry angol gin",
-                  "Pink gin",
-                  "Very Berry gin",
-                  "Pineapple gin",
-                  "Japanese Blossom gin",
-                  "Sakura japán ízesített gin",
-                  "Lychee & Raspberry Pink gin",
-                  "Madagascar Purple Hibiscus gin"
-                ],
-                "íz": [
-                  "vérnarancs",
-                  "grapefruit",
-                  "mangó",
-                  "maracuja",
-                  "pink",
-                  "feketeribizli",
-                  "sevillai narancs",
-                  "eper",
-                  "bogyós gyümölcs",
-                  "ananász",
-                  "Japanese Blossom",
-                  "sakura",
-                  "lichee-málna",
-                  "Purple Hibiscus"
-                ],
-                "alkoholtartalom": [
-                  "37,5%",
-                  "43,1%",
-                  "41%",
-                  "43%",
-                  "41,4%",
-                  "44%",
-                  "41,3%",
-                  "40%",
-                  "46%"
-                ],
-                "kiszerelés": [
-                  "0,7 l",
-                  "700 ml"
-                ]
-              }
-            }
-          }
-        }
+        "altípusok": {}
       },
       "Koktél, long drink": {
         "tulajdonságok": {
