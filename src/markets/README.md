@@ -18,6 +18,8 @@ felépítésű `*_normalized_data_*.csv` fájlokba kerüljenek.
   adatfolyam.
 - `Coop/`: CoopOnline WooCommerce Store API alapú, élelmiszerre szűrt
   adatfolyam.
+- `Coopshop/`: Coopshop (coopshop.hu) WooCommerce Store API alapú,
+  élelmiszerre szűrt adatfolyam.
 - `Lidl/`: Lidl saját search API alapú, `Étel & ital` kategóriából induló
   adatfolyam.
 - `Penny/`: Penny/Roksh shopservice API alapú adatfolyam.

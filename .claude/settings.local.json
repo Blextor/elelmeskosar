@@ -8,7 +8,10 @@
       "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -X utf8 main_metro.py)",
       "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -X utf8 normalize_data_metro.py)",
       "Bash(\"/c/Users/Bobo/AppData/Local/Programs/Python/Python312/python.exe\" -X utf8 src/markets/build_promotions.py)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(curl -s \"https://coopshop.hu/wp-json/wc/store/v1/products/categories?per_page=3\" -A \"Mozilla/5.0\" -H \"Accept: application/json\")",
+      "Bash(curl -s \"https://coopshop.hu/wp-json/wc/store/v1/products?per_page=1\" -A \"Mozilla/5.0\" -H \"Accept: application/json\" -D - -o /tmp/cs_prod.json)",
+      "Read(//tmp/**)"
     ]
   }
 }
