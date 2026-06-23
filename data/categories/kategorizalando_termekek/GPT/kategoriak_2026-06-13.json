@@ -23189,14 +23189,7 @@
         "márka": [
           "Sweet Valley",
           "Mamia Bio"
-        ],
-        "C-vitaminnal": {},
-        "D-vitaminnal": {},
-        "extrudált": {},
-        "speciális gyógyászati célra szánt": {},
-        "HA": {},
-        "AR": {},
-        "hidrolizált fehérje": {}
+        ]
       },
       "csoportos": {
         "életkor": [
@@ -23222,7 +23215,22 @@
             ]
           },
           "csoportos": {
-            "fő alapanyag": [
+            "állag": [
+              "püré",
+              "darabos",
+              "főzelék jellegű",
+              "egyéb"
+            ],
+            "hús": [
+              "csirke",
+              "pulyka",
+              "marha",
+              "hal",
+              "tej",
+              "hús nélküli",
+              "egyéb"
+            ],
+            "Íz / alapanyag": [
               "alma",
               "banán",
               "barack",
@@ -23239,21 +23247,6 @@
               "édesburgonya",
               "mozzarella",
               "körte"
-            ],
-            "állag": [
-              "püré",
-              "darabos",
-              "főzelék jellegű",
-              "egyéb"
-            ],
-            "hús": [
-              "csirke",
-              "pulyka",
-              "marha",
-              "hal",
-              "tej",
-              "hús nélküli",
-              "egyéb"
             ]
           }
         },
@@ -23280,13 +23273,18 @@
                   "190 g",
                   "220 g",
                   "250 g"
-                ],
-                "csomagolás": [
-                  "üveg"
                 ]
               },
               "csoportos": {
-                "fő alapanyag": [
+                "állag": [
+                  "főzelék jellegű",
+                  "darabos",
+                  "püré"
+                ],
+                "hús": [
+                  "hús nélküli"
+                ],
+                "Íz / alapanyag": [
                   "sárgarépa",
                   "zöldség",
                   "zöldborsó",
@@ -23297,14 +23295,6 @@
                   "sütőtök",
                   "burgonya",
                   "édesburgonya"
-                ],
-                "állag": [
-                  "főzelék jellegű",
-                  "darabos",
-                  "püré"
-                ],
-                "hús": [
-                  "hús nélküli"
                 ]
               }
             },
@@ -23336,13 +23326,24 @@
                   "230 g",
                   "190 g",
                   "250 g"
-                ],
-                "csomagolás": [
-                  "üveg"
                 ]
               },
               "csoportos": {
-                "fő alapanyag": [
+                "állag": [
+                  "püré",
+                  "darabos",
+                  "főzelék jellegű"
+                ],
+                "hús": [
+                  "marha",
+                  "pulyka",
+                  "csirke",
+                  "sertésmáj",
+                  "sertés",
+                  "borjú",
+                  "hús"
+                ],
+                "Íz / alapanyag": [
                   "zöldbab",
                   "alma",
                   "banán",
@@ -23376,20 +23377,6 @@
                   "cékla, alma",
                   "sárgarépa, rizs",
                   "édesburgonya, zöldség, rizs"
-                ],
-                "állag": [
-                  "püré",
-                  "darabos",
-                  "főzelék jellegű"
-                ],
-                "hús": [
-                  "marha",
-                  "pulyka",
-                  "csirke",
-                  "sertésmáj",
-                  "sertés",
-                  "borjú",
-                  "hús"
                 ]
               }
             },
@@ -23411,14 +23398,6 @@
                 ]
               },
               "csoportos": {
-                "fő alapanyag": [
-                  "sárgarépa",
-                  "burgonya",
-                  "tészta",
-                  "brokkoli",
-                  "rizs",
-                  "sárgarépa, burgonya"
-                ],
                 "állag": [
                   "püré",
                   "darabos"
@@ -23426,6 +23405,14 @@
                 "hús": [
                   "hal",
                   "tej"
+                ],
+                "Íz / alapanyag": [
+                  "sárgarépa",
+                  "burgonya",
+                  "tészta",
+                  "brokkoli",
+                  "rizs",
+                  "sárgarépa, burgonya"
                 ]
               }
             },
@@ -23452,13 +23439,24 @@
                   "190 g",
                   "220 g",
                   "250 g"
-                ],
-                "csomagolás": [
-                  "üveg"
                 ]
               },
               "csoportos": {
-                "fő alapanyag": [
+                "állag": [
+                  "darabos",
+                  "püré"
+                ],
+                "hús": [
+                  "hús nélküli",
+                  "hús",
+                  "csirke",
+                  "borjú",
+                  "sonka",
+                  "pulyka",
+                  "marha",
+                  "tej"
+                ],
+                "Íz / alapanyag": [
                   "tészta",
                   "paradicsom",
                   "makaróni",
@@ -23475,20 +23473,6 @@
                   "zöldséges lasagne",
                   "tojásos tészta, zöldség",
                   "mozzarella"
-                ],
-                "állag": [
-                  "darabos",
-                  "püré"
-                ],
-                "hús": [
-                  "hús nélküli",
-                  "hús",
-                  "csirke",
-                  "borjú",
-                  "sonka",
-                  "pulyka",
-                  "marha",
-                  "tej"
                 ]
               }
             },
@@ -23508,17 +23492,17 @@
                 ]
               },
               "csoportos": {
-                "fő alapanyag": [
-                  "paradicsom",
-                  "burgonya",
-                  "sütőtök",
-                  "sárgarépa"
-                ],
                 "állag": [
                   "püré"
                 ],
                 "hús": [
                   "hús nélküli"
+                ],
+                "Íz / alapanyag": [
+                  "paradicsom",
+                  "burgonya",
+                  "sütőtök",
+                  "sárgarépa"
                 ]
               }
             },
@@ -23599,7 +23583,14 @@
             ]
           },
           "csoportos": {
-            "fő alapanyag": [
+            "állag": [
+              "püré",
+              "darabos",
+              "krémdesszert",
+              "pouch",
+              "egyéb"
+            ],
+            "Íz / alapanyag": [
               "alma",
               "banán",
               "barack",
@@ -23619,13 +23610,6 @@
               "vegyes gyümölcs",
               "sárgabarack",
               "őszibarack"
-            ],
-            "állag": [
-              "püré",
-              "darabos",
-              "krémdesszert",
-              "pouch",
-              "egyéb"
             ]
           }
         },
@@ -23677,60 +23661,14 @@
                   "163 g",
                   "4 x 100 g (400 g)",
                   "190 g"
-                ],
-                "csomagolás": [
-                  "tasak / pouch",
-                  "üveg"
                 ]
               },
               "csoportos": {
-                "fő alapanyag": [
-                  "alma",
-                  "bodza",
-                  "őszibarack",
-                  "erdei gyümölcs",
-                  "eper",
-                  "mangó",
-                  "sárgabarack",
-                  "szilva",
-                  "banán",
-                  "körte",
-                  "sütőtök",
-                  "cékla",
-                  "maracuja",
-                  "kiwi",
-                  "feketeribizli",
-                  "narancs",
-                  "kókusz",
-                  "málna",
-                  "áfonya",
-                  "ananász",
-                  "guava",
-                  "sárgarépa",
-                  "bodzabogyó",
-                  "acerola",
-                  "vegyes gyümölcs",
-                  "rizs",
-                  "barack",
-                  "alma-őszibarack",
-                  "alma-körte-banán",
-                  "eper-banán-alma",
-                  "őszibarack, banán, alma",
-                  "sütőtök, alma",
-                  "alma, áfonya",
-                  "alma, körte, sárgarépa, banán, acerola, bodza",
-                  "alma, sárgarépa, banán, eper, málna, csipkebogyó, acerola, hibiszkusz",
-                  "meggy",
-                  "fahéj",
-                  "szőlő",
-                  "fermentált tejkészítmény",
-                  "gabona"
-                ],
                 "állag": [
                   "pouch",
                   "püré"
                 ],
-                "íz": [
+                "Íz / alapanyag": [
                   "szilva-feketeribizli körte alapon",
                   "eper-banán alma alapon",
                   "alma-sárgarépa",
@@ -23742,7 +23680,40 @@
                   "alma",
                   "körte",
                   "banán",
-                  "áfonya"
+                  "áfonya",
+                  "bodza",
+                  "őszibarack",
+                  "erdei gyümölcs",
+                  "eper",
+                  "sárgabarack",
+                  "szilva",
+                  "sütőtök",
+                  "cékla",
+                  "maracuja",
+                  "kiwi",
+                  "feketeribizli",
+                  "narancs",
+                  "kókusz",
+                  "málna",
+                  "ananász",
+                  "guava",
+                  "sárgarépa",
+                  "bodzabogyó",
+                  "acerola",
+                  "vegyes gyümölcs",
+                  "rizs",
+                  "alma-őszibarack",
+                  "alma-körte-banán",
+                  "őszibarack, banán, alma",
+                  "sütőtök, alma",
+                  "alma, áfonya",
+                  "alma, körte, sárgarépa, banán, acerola, bodza",
+                  "alma, sárgarépa, banán, eper, málna, csipkebogyó, acerola, hibiszkusz",
+                  "meggy",
+                  "fahéj",
+                  "szőlő",
+                  "fermentált tejkészítmény",
+                  "gabona"
                 ]
               }
             },
@@ -23774,14 +23745,14 @@
                   "163 g",
                   "100 g",
                   "190 g"
-                ],
-                "csomagolás": [
-                  "tasak / pouch",
-                  "üveg"
                 ]
               },
               "csoportos": {
-                "fő alapanyag": [
+                "állag": [
+                  "püré",
+                  "pouch"
+                ],
+                "Íz / alapanyag": [
                   "alma",
                   "banán",
                   "édesburgonya",
@@ -23819,10 +23790,6 @@
                   "búzadara",
                   "zabpehely",
                   "trópusi vegyes gyümölcs"
-                ],
-                "állag": [
-                  "püré",
-                  "pouch"
                 ]
               }
             },
@@ -23846,7 +23813,11 @@
                 ]
               },
               "csoportos": {
-                "fő alapanyag": [
+                "állag": [
+                  "pouch",
+                  "krémdesszert"
+                ],
+                "Íz / alapanyag": [
                   "alma",
                   "eper",
                   "sárgabarack",
@@ -23862,10 +23833,6 @@
                   "áfonya",
                   "gabonaféle",
                   "őszibarack, sárgabarack"
-                ],
-                "állag": [
-                  "pouch",
-                  "krémdesszert"
                 ]
               }
             },
@@ -23891,7 +23858,10 @@
                 ]
               },
               "csoportos": {
-                "fő alapanyag": [
+                "állag": [
+                  "krémdesszert"
+                ],
+                "Íz / alapanyag": [
                   "alma",
                   "keksz",
                   "gabonaféle",
@@ -23905,9 +23875,6 @@
                   "banán, kakaó",
                   "vanília, gríz",
                   "alma, őszibarack"
-                ],
-                "állag": [
-                  "krémdesszert"
                 ]
               }
             },
@@ -23931,19 +23898,19 @@
               "gabonakeverék",
               "egyéb"
             ],
-            "íz": [
+            "állag": [
+              "por",
+              "kása",
+              "instant",
+              "egyéb"
+            ],
+            "Íz / alapanyag": [
               "natúr",
               "vanília",
               "banán",
               "alma",
               "barack",
               "erdei gyümölcs",
-              "egyéb"
-            ],
-            "állag": [
-              "por",
-              "kása",
-              "instant",
               "egyéb"
             ]
           }
@@ -23981,7 +23948,11 @@
                   "búza",
                   "7 gabona"
                 ],
-                "íz": [
+                "állag": [
+                  "por",
+                  "folyadék"
+                ],
+                "Íz / alapanyag": [
                   "banán",
                   "gyümölcs",
                   "csokoládé",
@@ -23997,10 +23968,6 @@
                   "5 gyümölcs",
                   "3 gyümölcs",
                   "vegyes gyümölcs"
-                ],
-                "állag": [
-                  "por",
-                  "folyadék"
                 ]
               }
             },
@@ -24039,7 +24006,11 @@
                   "7 gabona",
                   "8 gabona"
                 ],
-                "íz": [
+                "állag": [
+                  "por",
+                  "folyadék"
+                ],
+                "Íz / alapanyag": [
                   "vegyes gyümölcs",
                   "banán",
                   "gyümölcs",
@@ -24051,10 +24022,6 @@
                   "eper",
                   "3 gyümölcs",
                   "sztracsatella"
-                ],
-                "állag": [
-                  "por",
-                  "folyadék"
                 ]
               }
             },
@@ -24080,16 +24047,16 @@
                 "gabona": [
                   "zab"
                 ],
-                "íz": [
+                "állag": [
+                  "por"
+                ],
+                "Íz / alapanyag": [
                   "alma",
                   "erdei gyümölcs",
                   "gyümölcs",
                   "piros gyümölcs",
                   "gyümölcsduó",
                   "bogyós gyümölcs"
-                ],
-                "állag": [
-                  "por"
                 ]
               }
             },
@@ -24103,22 +24070,6 @@
             "tejalapú": {}
           },
           "csoportos": {
-            "fokozat": [
-              "Start / 0 hó+",
-              "1-es",
-              "2-es",
-              "3-as",
-              "junior",
-              "egyéb"
-            ],
-            "speciális jelleg": [
-              "HA",
-              "AR",
-              "komfort",
-              "szenzitív",
-              "laktózmentes",
-              "egyéb"
-            ],
             "állag": [
               "por",
               "folyadék",
@@ -24140,10 +24091,6 @@
                 ]
               },
               "csoportos": {
-                "fokozat": [
-                  "Start",
-                  "1"
-                ],
                 "életkor": [
                   "0 hó+"
                 ]
@@ -24175,11 +24122,6 @@
                 ]
               },
               "csoportos": {
-                "fokozat": [
-                  "2",
-                  "2-es",
-                  "3"
-                ],
                 "életkor": [
                   "6 hó+",
                   "12 hó+",
@@ -24187,10 +24129,6 @@
                 ],
                 "állag": [
                   "por"
-                ],
-                "speciális jelleg": [
-                  "fehérje-hidrolizátum",
-                  "Cesar-Biotik"
                 ]
               }
             },
@@ -24216,12 +24154,6 @@
                 ]
               },
               "csoportos": {
-                "fokozat": [
-                  "1+",
-                  "3",
-                  "4",
-                  "5"
-                ],
                 "életkor": [
                   "12 hó+",
                   "2 év+",
@@ -24230,11 +24162,8 @@
                 "állag": [
                   "por"
                 ],
-                "íz": [
+                "Íz / alapanyag": [
                   "vanília"
-                ],
-                "speciális jelleg": [
-                  "fehérje-hidrolizátum"
                 ]
               }
             },
@@ -24259,11 +24188,6 @@
                 ]
               },
               "csoportos": {
-                "fokozat": [
-                  "0",
-                  "3",
-                  "2"
-                ],
                 "életkor": [
                   "0 hó+",
                   "12 hó+",
@@ -24271,10 +24195,6 @@
                 ],
                 "állag": [
                   "por"
-                ],
-                "speciális jelleg": [
-                  "HA / hipoallergén",
-                  "érzékeny emésztés / komfort"
                 ]
               }
             },
@@ -24303,11 +24223,6 @@
                 ]
               },
               "csoportos": {
-                "fokozat": [
-                  "3",
-                  "3-as",
-                  "2"
-                ],
                 "életkor": [
                   "9 hó+",
                   "12 hó+",
@@ -24343,12 +24258,6 @@
                 ]
               },
               "csoportos": {
-                "fokozat": [
-                  "egyéb",
-                  "4",
-                  "3",
-                  "5"
-                ],
                 "életkor": [
                   "8 hó+",
                   "12 hó+",
@@ -24359,12 +24268,12 @@
                 "állag": [
                   "por"
                 ],
-                "íz": [
-                  "kakaó",
-                  "vanília"
-                ],
                 "gabona": [
                   "gabona"
+                ],
+                "Íz / alapanyag": [
+                  "kakaó",
+                  "vanília"
                 ]
               }
             }
@@ -24375,7 +24284,7 @@
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {
-            "íz": [
+            "Íz / alapanyag": [
               "natúr",
               "almás",
               "banános",
@@ -24412,7 +24321,7 @@
                 ]
               },
               "csoportos": {
-                "íz": [
+                "Íz / alapanyag": [
                   "natúr",
                   "tönköly",
                   "áfonya",
@@ -24458,7 +24367,10 @@
                 ]
               },
               "csoportos": {
-                "íz": [
+                "állag": [
+                  "puff"
+                ],
+                "Íz / alapanyag": [
                   "banán",
                   "málna",
                   "mangó",
@@ -24475,9 +24387,6 @@
                   "tök",
                   "pizza",
                   "ketchup"
-                ],
-                "állag": [
-                  "puff"
                 ]
               }
             },
@@ -24498,7 +24407,7 @@
                 ]
               },
               "csoportos": {
-                "íz": [
+                "Íz / alapanyag": [
                   "áfonya",
                   "banán",
                   "zab",
@@ -24520,7 +24429,12 @@
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {
-            "íz": [
+            "állag": [
+              "ital",
+              "püréital",
+              "egyéb"
+            ],
+            "Íz / alapanyag": [
               "alma",
               "barack",
               "banán",
@@ -24528,11 +24442,6 @@
               "eper",
               "trópusi",
               "sárgarépa",
-              "egyéb"
-            ],
-            "állag": [
-              "ital",
-              "püréital",
               "egyéb"
             ]
           }
@@ -24550,11 +24459,11 @@
                 ]
               },
               "csoportos": {
-                "íz": [
-                  "natúr"
-                ],
                 "állag": [
                   "ital"
+                ],
+                "Íz / alapanyag": [
+                  "natúr"
                 ]
               }
             },
@@ -24571,16 +24480,16 @@
                 ]
               },
               "csoportos": {
-                "íz": [
+                "állag": [
+                  "instant",
+                  "ital"
+                ],
+                "Íz / alapanyag": [
                   "málna",
                   "csipkebogyó",
                   "narancs",
                   "gyümölcs",
                   "málna-csipkebogyó"
-                ],
-                "állag": [
-                  "instant",
-                  "ital"
                 ]
               }
             },
@@ -24604,7 +24513,10 @@
                 ]
               },
               "csoportos": {
-                "íz": [
+                "állag": [
+                  "ital"
+                ],
+                "Íz / alapanyag": [
                   "alma",
                   "szőlő",
                   "arónia",
@@ -24617,9 +24529,6 @@
                   "piros gyümölcs, csipkebogyótea",
                   "sütőtök",
                   "sárgarépa"
-                ],
-                "állag": [
-                  "ital"
                 ]
               }
             },
@@ -24671,12 +24580,6 @@
                 ]
               },
               "csoportos": {
-                "anyag": [
-                  "szilikon"
-                ],
-                "típus": [
-                  "éjszakai"
-                ],
                 "életkor": [
                   "16 hó+",
                   "0 hó+",
@@ -24716,12 +24619,6 @@
                 ]
               },
               "csoportos": {
-                "fokozat": [
-                  "1."
-                ],
-                "anyag": [
-                  "szilikon"
-                ],
                 "életkor": [
                   "4 hó+",
                   "2 hó+",
@@ -24748,9 +24645,6 @@
                 ]
               },
               "csoportos": {
-                "anyag": [
-                  "szilikon"
-                ],
                 "életkor": [
                   "6 hó+"
                 ]
@@ -24768,9 +24662,6 @@
                 ]
               },
               "csoportos": {
-                "anyag": [
-                  "szilikon"
-                ],
                 "életkor": [
                   "6 hó+"
                 ]
