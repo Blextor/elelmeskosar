@@ -23251,309 +23251,7 @@
             ]
           }
         },
-        "altípusok": {
-          "Zöldséges bébimenü": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {},
-                "életkor": [
-                  "4 hó+",
-                  "5 hó+",
-                  "8 hó+",
-                  "11 hó+",
-                  "6 hó+",
-                  "12 hó+"
-                ],
-                "márka": [
-                  "Univer",
-                  "Kecskeméti",
-                  "HiPP",
-                  "Mamia Bio"
-                ],
-                "kiszerelés": [
-                  "190 g",
-                  "220 g",
-                  "250 g"
-                ]
-              },
-              "csoportos": {
-                "állag": [
-                  "főzelék jellegű",
-                  "darabos",
-                  "püré"
-                ],
-                "hús": [
-                  "hús nélküli"
-                ],
-                "Íz / alapanyag": [
-                  "sárgarépa",
-                  "zöldség",
-                  "zöldborsó",
-                  "kuszkusz",
-                  "rizs",
-                  "spenót",
-                  "tészta",
-                  "sütőtök",
-                  "burgonya",
-                  "édesburgonya"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Húsos-zöldséges menü": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {},
-                "életkor": [
-                  "6 hó+",
-                  "8 hó+",
-                  "5 hó+",
-                  "11 hó+",
-                  "10 hó+",
-                  "12 hó+"
-                ],
-                "márka": [
-                  "Univer",
-                  "Kecskeméti",
-                  "HiPP",
-                  "Univer Disney Baby",
-                  "Milupa",
-                  "Mamia Bio"
-                ],
-                "kiszerelés": [
-                  "163 g",
-                  "220 g",
-                  "230 g",
-                  "190 g",
-                  "250 g"
-                ]
-              },
-              "csoportos": {
-                "állag": [
-                  "püré",
-                  "darabos",
-                  "főzelék jellegű"
-                ],
-                "hús": [
-                  "marha",
-                  "pulyka",
-                  "csirke",
-                  "sertésmáj",
-                  "sertés",
-                  "borjú",
-                  "hús"
-                ],
-                "Íz / alapanyag": [
-                  "zöldbab",
-                  "alma",
-                  "banán",
-                  "sütőtök",
-                  "édesburgonya",
-                  "körte",
-                  "őszibarack",
-                  "spenót",
-                  "burgonya",
-                  "gyümölcs",
-                  "rizs",
-                  "sárgarépa",
-                  "zöldborsó",
-                  "cukkini",
-                  "brokkoli",
-                  "paradicsom",
-                  "zöldség",
-                  "tészta",
-                  "lencse",
-                  "kukorica",
-                  "cékla"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Halas menü": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {},
-                "életkor": [
-                  "5 hó+",
-                  "10 hó+",
-                  "12 hó+",
-                  "11 hó+"
-                ],
-                "márka": [
-                  "HiPP",
-                  "Kecskeméti"
-                ]
-              },
-              "csoportos": {
-                "állag": [
-                  "püré",
-                  "darabos"
-                ],
-                "hús": [
-                  "hal",
-                  "tej"
-                ],
-                "Íz / alapanyag": [
-                  "sárgarépa",
-                  "burgonya",
-                  "tészta",
-                  "brokkoli",
-                  "rizs",
-                  "zöldség"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Tésztás étel": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {},
-                "életkor": [
-                  "8 hó+",
-                  "5 hó+",
-                  "11 hó+",
-                  "12 hó+",
-                  "6 hó+"
-                ],
-                "márka": [
-                  "Univer",
-                  "Kecskeméti",
-                  "HiPP",
-                  "Mamia Bio"
-                ],
-                "kiszerelés": [
-                  "190 g",
-                  "220 g",
-                  "250 g"
-                ]
-              },
-              "csoportos": {
-                "állag": [
-                  "darabos",
-                  "püré"
-                ],
-                "hús": [
-                  "hús nélküli",
-                  "hús",
-                  "csirke",
-                  "borjú",
-                  "sonka",
-                  "pulyka",
-                  "marha",
-                  "tej"
-                ],
-                "Íz / alapanyag": [
-                  "tészta",
-                  "paradicsom",
-                  "makaróni",
-                  "zöldség",
-                  "brokkoli",
-                  "spenót",
-                  "sárgarépa",
-                  "spagetti",
-                  "mozzarella"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Zöldségpüré (natúr)": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {},
-                "életkor": [
-                  "4 hó+"
-                ],
-                "márka": [
-                  "Univer",
-                  "HiPP",
-                  "Kecskeméti"
-                ]
-              },
-              "csoportos": {
-                "állag": [
-                  "püré"
-                ],
-                "hús": [
-                  "hús nélküli"
-                ],
-                "Íz / alapanyag": [
-                  "paradicsom",
-                  "burgonya",
-                  "sütőtök",
-                  "sárgarépa",
-                  "zöldség"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Zöldséges menü": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Univer Disney Baby",
-                  "Univer"
-                ],
-                "kiszerelés": [
-                  "163 g",
-                  "220 g"
-                ]
-              },
-              "csoportos": {
-                "életkor": [
-                  "6 hó+",
-                  "4 hó+",
-                  "8 hó+",
-                  "12 hó+"
-                ]
-              }
-            }
-          },
-          "Húsos-tésztás menü": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Milupa"
-                ],
-                "kiszerelés": [
-                  "230 g"
-                ]
-              },
-              "csoportos": {
-                "életkor": [
-                  "12 hó+"
-                ],
-                "hús": [
-                  "sonka"
-                ]
-              }
-            }
-          },
-          "Húsos-rizses menü": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Univer"
-                ],
-                "kiszerelés": [
-                  "220 g"
-                ]
-              },
-              "csoportos": {
-                "életkor": [
-                  "12 hó+"
-                ],
-                "hús": [
-                  "csirke"
-                ]
-              }
-            }
-          }
-        }
+        "altípusok": {}
       },
       "Gyümölcspüré, bébidesszert": {
         "tulajdonságok": {
@@ -23608,7 +23306,8 @@
                   "5 hó+",
                   "12 hó+",
                   "egyéb",
-                  "gyermekeknek"
+                  "gyermekeknek",
+                  "8 hó+"
                 ],
                 "tejalapú": {},
                 "hozzáadott cukor nélkül": {},
@@ -23635,7 +23334,8 @@
                   "Topjoy",
                   "Gerber Organic for Baby",
                   "Sweet Valley",
-                  "Mamia Bio"
+                  "Mamia Bio",
+                  "Topjoy Snack"
                 ],
                 "kiszerelés": [
                   "100 g",
@@ -23686,137 +23386,41 @@
                   "szőlő",
                   "fermentált tejkészítmény",
                   "gabona",
-                  "zöldség"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Gyümölcs-gabona készítmény": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {},
-                "életkor": [
-                  "8 hó+",
-                  "6 hó+",
-                  "12 hó+",
-                  "4 hó+"
-                ],
-                "tejalapú": {},
-                "márka": [
-                  "Univer",
-                  "HiPP",
-                  "FruchtBar",
-                  "Kecskeméti",
-                  "HiPP HiPPiS",
-                  "Univer Disney Baby",
-                  "Kubu Tízórai",
-                  "Topjoy Snack",
-                  "Mamia Bio"
-                ],
-                "kiszerelés": [
-                  "163 g",
-                  "100 g",
-                  "190 g"
-                ]
-              },
-              "csoportos": {
-                "állag": [
-                  "püré",
-                  "pouch"
-                ],
-                "Íz / alapanyag": [
-                  "alma",
-                  "banán",
+                  "zöldség",
                   "édesburgonya",
                   "zab",
-                  "szilva",
-                  "málna",
-                  "gabona",
-                  "őszibarack",
                   "keksz",
-                  "áfonya",
-                  "rizs",
                   "görögdinnye",
-                  "eper",
-                  "körte",
                   "köles",
-                  "sárgabarack",
                   "kétszersült",
-                  "gyümölcs",
                   "müzli",
-                  "feketeribizli",
-                  "mangó",
                   "tönköly",
-                  "sárgarépa",
-                  "szőlő",
                   "kókusztej",
-                  "ananász",
                   "arónia",
                   "búzadara",
-                  "zabpehely",
-                  "zöldség"
+                  "zabpehely"
                 ]
               }
             },
             "altípusok": {}
           },
-          "Tejes-gyümölcsös desszert": {
+          "Tejes, grízes desszertek": {
             "tulajdonságok": {
               "egyedi": {
                 "bio": {},
                 "életkor": [
                   "6 hó+",
+                  "8 hó+",
+                  "36 hó+",
                   "7 hó+"
                 ],
                 "tejalapú": {},
                 "márka": [
-                  "Hamánek",
+                  "HiPP",
+                  "Nestlé Yogolino",
                   "Kecskeméti",
-                  "HiPP",
-                  "Nestlé Yogolino",
+                  "Hamánek",
                   "Gerber"
-                ]
-              },
-              "csoportos": {
-                "állag": [
-                  "pouch",
-                  "krémdesszert"
-                ],
-                "Íz / alapanyag": [
-                  "alma",
-                  "eper",
-                  "sárgabarack",
-                  "őszibarack",
-                  "maracuja",
-                  "banán",
-                  "müzli",
-                  "gyümölcs",
-                  "mangó",
-                  "ananász",
-                  "kókusz",
-                  "kiwi",
-                  "áfonya",
-                  "gabona"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Puding, tejbegríz desszert": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {},
-                "életkor": [
-                  "6 hó+",
-                  "8 hó+",
-                  "36 hó+"
-                ],
-                "tejalapú": {},
-                "márka": [
-                  "HiPP",
-                  "Nestlé Yogolino",
-                  "Kecskeméti"
                 ],
                 "kiszerelés": [
                   "4 x 100 g (400 g)"
@@ -23824,7 +23428,8 @@
               },
               "csoportos": {
                 "állag": [
-                  "krémdesszert"
+                  "krémdesszert",
+                  "pouch"
                 ],
                 "Íz / alapanyag": [
                   "alma",
@@ -23837,7 +23442,15 @@
                   "vanília",
                   "mangó",
                   "gríz",
-                  "gyümölcs"
+                  "gyümölcs",
+                  "eper",
+                  "sárgabarack",
+                  "maracuja",
+                  "müzli",
+                  "ananász",
+                  "kókusz",
+                  "kiwi",
+                  "áfonya"
                 ]
               }
             },
