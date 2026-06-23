@@ -23189,7 +23189,14 @@
         "márka": [
           "Sweet Valley",
           "Mamia Bio"
-        ]
+        ],
+        "C-vitaminnal": {},
+        "D-vitaminnal": {},
+        "extrudált": {},
+        "speciális gyógyászati célra szánt": {},
+        "HA": {},
+        "AR": {},
+        "hidrolizált fehérje": {}
       },
       "csoportos": {
         "életkor": [
@@ -23209,7 +23216,6 @@
       "Bébiétel, bébimenü (sós)": {
         "tulajdonságok": {
           "egyedi": {
-            "hűtött": {},
             "bio": {},
             "márka": [
               "Univer"
@@ -23234,20 +23240,19 @@
               "mozzarella",
               "körte"
             ],
-            "hús / fehérje": [
+            "állag": [
+              "püré",
+              "darabos",
+              "főzelék jellegű",
+              "egyéb"
+            ],
+            "hús": [
               "csirke",
               "pulyka",
               "marha",
               "hal",
               "tej",
               "hús nélküli",
-              "egyéb",
-              "sajt"
-            ],
-            "állag": [
-              "püré",
-              "darabos",
-              "főzelék jellegű",
               "egyéb"
             ]
           }
@@ -23265,7 +23270,6 @@
                   "6 hó+",
                   "12 hó+"
                 ],
-                "hűtött": {},
                 "márka": [
                   "Univer",
                   "Kecskeméti",
@@ -23294,14 +23298,13 @@
                   "burgonya",
                   "édesburgonya"
                 ],
-                "hús / fehérje": [
-                  "hús nélküli",
-                  "sajt"
-                ],
                 "állag": [
                   "főzelék jellegű",
                   "darabos",
                   "püré"
+                ],
+                "hús": [
+                  "hús nélküli"
                 ]
               }
             },
@@ -23319,7 +23322,6 @@
                   "10 hó+",
                   "12 hó+"
                 ],
-                "hűtött": {},
                 "márka": [
                   "Univer",
                   "Kecskeméti",
@@ -23375,66 +23377,19 @@
                   "sárgarépa, rizs",
                   "édesburgonya, zöldség, rizs"
                 ],
-                "hús / fehérje": [
-                  "csirke",
-                  "marha",
-                  "pulyka",
-                  "sertés",
-                  "borjú",
-                  "hús",
-                  "csirkehús",
-                  "marhahús",
-                  "csirkemell"
-                ],
                 "állag": [
                   "püré",
                   "darabos",
                   "főzelék jellegű"
                 ],
-                "terméktípus": [
-                  "bio sütőtökpüré marhahússal bébiétel",
-                  "körte-őszibarack pulykahússal bébiétel",
-                  "bio édesburgonyás csirke zöldségekkel rizzsel bébiétel",
-                  "alma-banán csirkehússal bébiétel",
-                  "bio édesburgonya csirkehússal bébiétel",
-                  "bio sárgarépás rizottó csirkehússal bébiétel",
-                  "zsenge zöldborsófőzelék csirkehússal bébiétel",
-                  "zöldséges rizottó sertésmájjal bébiétel",
-                  "körtés zöldséges pulykahús rizzsel bébiétel",
-                  "bio zöldséges vadas marhahús rizzsel bébiétel",
-                  "almaszósz csirkehússal bébiétel",
-                  "bio bolognai mártás spagettivel bébiétel",
-                  "zöldséges rizottó csirkemellel bébiétel",
-                  "bio zöldséges sertésragu almával bébiétel",
-                  "bio cukkini sertéshússal tésztával bébiétel",
-                  "bio mexikói zöldségek sertéshússal bébiétel",
-                  "bio zöldborsós marharagu rizzsel bébiétel",
-                  "bio zöldbab-burgonya marhahússal bébiétel",
-                  "zsenge sárgarépa főzelék csirkehússal",
-                  "bio zöldséges rizs marhahússal",
-                  "édesburgonya pulykával",
-                  "sütőtökpüré csirkehússal",
-                  "bio cukkinifőzelék csirkehússal",
-                  "vegyes zöldfőzelék csirkehússal",
-                  "bio paradicsommártás csirkehússal",
-                  "zöldbabpüré csirkehússal",
-                  "bio cukkini sertéshússal, rizzsel",
-                  "burgonyafőzelék pulykahússal",
-                  "spenót-burgonya pulykahússal",
-                  "csirkés rizottó zöldséges húsos étel",
-                  "bio lencsefőzelék sertéshússal",
-                  "bio sárgarépa-brokkoli csirkehússal"
-                ],
                 "hús": [
-                  "marhahús",
-                  "pulykahús",
+                  "marha",
+                  "pulyka",
                   "csirke",
-                  "csirkehús",
                   "sertésmáj",
-                  "csirkemell",
                   "sertés",
-                  "sertéshús",
-                  "pulyka"
+                  "borjú",
+                  "hús"
                 ]
               }
             },
@@ -23450,7 +23405,6 @@
                   "12 hó+",
                   "11 hó+"
                 ],
-                "hűtött": {},
                 "márka": [
                   "HiPP",
                   "Kecskeméti"
@@ -23465,13 +23419,13 @@
                   "rizs",
                   "sárgarépa, burgonya"
                 ],
-                "hús / fehérje": [
-                  "hal",
-                  "tej"
-                ],
                 "állag": [
                   "püré",
                   "darabos"
+                ],
+                "hús": [
+                  "hal",
+                  "tej"
                 ]
               }
             },
@@ -23488,7 +23442,6 @@
                   "12 hó+",
                   "6 hó+"
                 ],
-                "hűtött": {},
                 "márka": [
                   "Univer",
                   "Kecskeméti",
@@ -23523,21 +23476,19 @@
                   "tojásos tészta, zöldség",
                   "mozzarella"
                 ],
-                "hús / fehérje": [
-                  "sajt",
+                "állag": [
+                  "darabos",
+                  "püré"
+                ],
+                "hús": [
                   "hús nélküli",
                   "hús",
                   "csirke",
                   "borjú",
                   "sonka",
                   "pulyka",
-                  "csirke, sajt",
                   "marha",
                   "tej"
-                ],
-                "állag": [
-                  "darabos",
-                  "püré"
                 ]
               }
             },
@@ -23550,7 +23501,6 @@
                 "életkor": [
                   "4 hó+"
                 ],
-                "hűtött": {},
                 "márka": [
                   "Univer",
                   "HiPP",
@@ -23564,11 +23514,11 @@
                   "sütőtök",
                   "sárgarépa"
                 ],
-                "hús / fehérje": [
-                  "hús nélküli"
-                ],
                 "állag": [
                   "püré"
+                ],
+                "hús": [
+                  "hús nélküli"
                 ]
               }
             },
@@ -23587,16 +23537,6 @@
                 ]
               },
               "csoportos": {
-                "terméktípus": [
-                  "édesburgonya zöldségekkel zöldségpüré",
-                  "bio zsenge zöldborsófőzelék",
-                  "bio vegyes zöldfőzelék zöldségpüré",
-                  "bio zsenge sárgarépa főzelék",
-                  "bio paradicsom-burgonya zöldségpüré",
-                  "bio zöldséges lasagne bébiétel",
-                  "bio sütőtökpüré zöldségpüré",
-                  "bio sárgarépa-brokkoli tésztával"
-                ],
                 "életkor": [
                   "6 hó+",
                   "4 hó+",
@@ -23617,10 +23557,6 @@
                 ]
               },
               "csoportos": {
-                "terméktípus": [
-                  "bolognai spagetti",
-                  "sonkás tészta zöldségekkel"
-                ],
                 "életkor": [
                   "12 hó+"
                 ],
@@ -23641,14 +23577,11 @@
                 ]
               },
               "csoportos": {
-                "terméktípus": [
-                  "trópusi gyümölcsös rizs csirkehússal"
-                ],
                 "életkor": [
                   "12 hó+"
                 ],
                 "hús": [
-                  "csirkehús"
+                  "csirke"
                 ]
               }
             }
@@ -23659,7 +23592,6 @@
         "tulajdonságok": {
           "egyedi": {
             "tejalapú": {},
-            "hűtött": {},
             "bio": {},
             "márka": [
               "Kubu",
@@ -23711,7 +23643,6 @@
                   "gyermekeknek"
                 ],
                 "tejalapú": {},
-                "hűtött": {},
                 "hozzáadott cukor nélkül": {},
                 "márka": [
                   "Hamánek",
@@ -23789,7 +23720,11 @@
                   "alma, áfonya",
                   "alma, körte, sárgarépa, banán, acerola, bodza",
                   "alma, sárgarépa, banán, eper, málna, csipkebogyó, acerola, hibiszkusz",
-                  "meggy"
+                  "meggy",
+                  "fahéj",
+                  "szőlő",
+                  "fermentált tejkészítmény",
+                  "gabona"
                 ],
                 "állag": [
                   "pouch",
@@ -23808,53 +23743,6 @@
                   "körte",
                   "banán",
                   "áfonya"
-                ],
-                "terméktípus": [
-                  "bio őszibarack-alma-banán bébidesszert",
-                  "bio sütőtök-alma bébidesszert",
-                  "bio szilva-alma bébidesszert",
-                  "bio alma-őszibarack bébidesszert",
-                  "bio sütőtök-körte-alma bébidesszert",
-                  "bio banán-mangó bébidesszert",
-                  "Gyümölcsvarázs 100% gyümölcspüré",
-                  "bio alma-körte-banán bébidesszert",
-                  "alma-banán 100% gyümölcspüré",
-                  "alma-szilva 100% gyümölcspüré",
-                  "alma-körte 100% gyümölcspüré",
-                  "100% püré",
-                  "püré",
-                  "alma püré",
-                  "alma-szőlő-eper gyümölcspüré",
-                  "alma-körte-szőlő gyümölcspüré",
-                  "alma-szőlő-banán gyümölcspüré",
-                  "barackos gyümölcspüré",
-                  "100% alma-sárgarépa-banán-málna-eper-áfonya püré",
-                  "mangós gyümölcspüré",
-                  "almás gyümölcspüré",
-                  "100% alma-sárgarépa-őszibarack-banán-maracuja püré",
-                  "bio gyümölcspüré",
-                  "bio gyümölcspüré fermentált tejkészítménnyel és gabonával"
-                ],
-                "összetevő": [
-                  "alma",
-                  "őszibarack",
-                  "banán",
-                  "sárgarépa",
-                  "eper",
-                  "rizs",
-                  "fahéj",
-                  "körte",
-                  "szőlő",
-                  "málna",
-                  "áfonya",
-                  "maracuja",
-                  "fermentált tejkészítmény",
-                  "gabona"
-                ],
-                "jellemző": [
-                  "C-vitaminnal",
-                  "C- és D-vitaminnal",
-                  "bio"
                 ]
               }
             },
@@ -23871,7 +23759,6 @@
                   "4 hó+"
                 ],
                 "tejalapú": {},
-                "hűtött": {},
                 "márka": [
                   "Univer",
                   "HiPP",
@@ -23927,29 +23814,15 @@
                   "alma, banán, mangó, kókusztej, zab",
                   "alma, banán, málna, gabona",
                   "alma, őszibarack, rizs",
-                  "ananász"
+                  "ananász",
+                  "arónia",
+                  "búzadara",
+                  "zabpehely",
+                  "trópusi vegyes gyümölcs"
                 ],
                 "állag": [
                   "püré",
                   "pouch"
-                ],
-                "terméktípus": [
-                  "bio alma-banán-édesburgonya zabpehellyel",
-                  "bio szilva-banán zabpehellyel",
-                  "alma-banán-arónia-málna püré búzadarával",
-                  "rostos alma-mangó-banán püré zabpehellyel",
-                  "rostos trópusi vegyes gyümölcs püré rizzsel"
-                ],
-                "összetevő": [
-                  "alma",
-                  "banán",
-                  "arónia",
-                  "málna",
-                  "búzadara",
-                  "mangó",
-                  "zabpehely",
-                  "trópusi vegyes gyümölcs",
-                  "rizs"
                 ]
               }
             },
@@ -23964,7 +23837,6 @@
                   "7 hó+"
                 ],
                 "tejalapú": {},
-                "hűtött": {},
                 "márka": [
                   "Hamánek",
                   "Kecskeméti",
@@ -24009,7 +23881,6 @@
                   "36 hó+"
                 ],
                 "tejalapú": {},
-                "hűtött": {},
                 "márka": [
                   "HiPP",
                   "Nestlé Yogolino",
@@ -24037,13 +23908,6 @@
                 ],
                 "állag": [
                   "krémdesszert"
-                ],
-                "terméktípus": [
-                  "vaníliás ízű grízes babapuding",
-                  "vaníliás ízű babapuding",
-                  "kekszes babapuding",
-                  "kakaós babapuding",
-                  "tejalapú banános bébidesszert"
                 ]
               }
             },
@@ -24137,23 +24001,6 @@
                 "állag": [
                   "por",
                   "folyadék"
-                ],
-                "terméktípus": [
-                  "kekszes tejpép",
-                  "7-gabonás kekszes tejpép",
-                  "zamatos gyümölcsös 7-gabonás tejpép",
-                  "sztracsatellás tejpép",
-                  "eper-banánízű 7-gabonás tejpép",
-                  "gyümölcsös kaland tejpép",
-                  "banános tejpép",
-                  "gyümölcskoktél tejpép",
-                  "5 gyümölcsös tejpép",
-                  "3-gyümölcsös tejpép",
-                  "vaníliaízű tejberizs",
-                  "vaníliaízű tejbegríz",
-                  "kakaós tejberizspép",
-                  "banános tejberizspép",
-                  "vegyes gyümölcsös tejberizspép"
                 ]
               }
             },
@@ -24208,19 +24055,6 @@
                 "állag": [
                   "por",
                   "folyadék"
-                ],
-                "terméktípus": [
-                  "UHT folyékony gabonás bébiétel",
-                  "UHT gluténmentes folyékony gabonás bébiétel",
-                  "7-gabonás kása",
-                  "epres gabonapép",
-                  "3-gyümölcsös gabonapép",
-                  "8 gabonás pép",
-                  "sztracsatellás pép",
-                  "rizskása"
-                ],
-                "jellemző": [
-                  "gluténmentes"
                 ]
               }
             },
@@ -24256,12 +24090,6 @@
                 ],
                 "állag": [
                   "por"
-                ],
-                "terméktípus": [
-                  "gyümölcsduó zabkása",
-                  "almás zabkása",
-                  "pirosgyümölcsös zabkása",
-                  "bogyós-gyümölcsös zabkása"
                 ]
               }
             },
@@ -24312,19 +24140,12 @@
                 ]
               },
               "csoportos": {
-                "terméktípus": [
-                  "anyatej-helyettesítő tápszer"
-                ],
                 "fokozat": [
                   "Start",
                   "1"
                 ],
                 "életkor": [
                   "0 hó+"
-                ],
-                "jellemző": [
-                  "HA",
-                  "hidrolizált fehérje"
                 ]
               }
             },
@@ -24370,9 +24191,6 @@
                 "speciális jelleg": [
                   "fehérje-hidrolizátum",
                   "Cesar-Biotik"
-                ],
-                "terméktípus": [
-                  "tejalapú anyatej-kiegészítő tápszer"
                 ]
               }
             },
@@ -24417,9 +24235,6 @@
                 ],
                 "speciális jelleg": [
                   "fehérje-hidrolizátum"
-                ],
-                "terméktípus": [
-                  "Junior tejalapú anyatej-kiegészítő tápszer"
                 ]
               }
             },
@@ -24460,17 +24275,6 @@
                 "speciális jelleg": [
                   "HA / hipoallergén",
                   "érzékeny emésztés / komfort"
-                ],
-                "terméktípus": [
-                  "Junior tejalapú anyatej-kiegészítő tápszer",
-                  "Junior anyatej-kiegészítő tápszer hidrolizált fehérjével",
-                  "tejalapú anyatej-kiegészítő tápszer",
-                  "anyatej-kiegészítő tápszer hidrolizált fehérjével",
-                  "speciális gyógyászati célra szánt élelmiszer"
-                ],
-                "jellemző": [
-                  "AR",
-                  "speciális gyógyászati célra szánt"
                 ]
               }
             },
@@ -24511,9 +24315,6 @@
                 ],
                 "állag": [
                   "por"
-                ],
-                "terméktípus": [
-                  "tejalapú anyatej-kiegészítő tápszer"
                 ]
               }
             }
@@ -24561,20 +24362,6 @@
                 "íz": [
                   "kakaó",
                   "vanília"
-                ],
-                "terméktípus": [
-                  "vaníliaízű tejes ital",
-                  "natúr tejes ital tejalapú anyatej-kiegészítő tápszer",
-                  "natúr tejes ital",
-                  "Junior tejalapú italpor vitaminokkal és ásványi anyagokkal",
-                  "Junior vaníliás ízű tejalapú italpor vitaminokkal és ásványi anyagokkal",
-                  "Junior tejalapú italpor",
-                  "Junior vaníliaízű tejalapú italpor",
-                  "Junior tejalapú italpor fehérje-hidrolizátumból",
-                  "kakaós gabona alapú ízesítő italpor"
-                ],
-                "jellemző": [
-                  "fehérje-hidrolizátumból"
                 ],
                 "gabona": [
                   "gabona"
@@ -24632,14 +24419,6 @@
                   "banán",
                   "alma",
                   "barack"
-                ],
-                "terméktípus": [
-                  "bio babakeksz 6+ hónapos kortól",
-                  "babakeksz",
-                  "alma-barack ízű keksz"
-                ],
-                "jellemző": [
-                  "bio"
                 ]
               }
             },
@@ -24696,24 +24475,6 @@
                   "tök",
                   "pizza",
                   "ketchup"
-                ],
-                "terméktípus": [
-                  "puffasztott gabonás snack",
-                  "extrudált kukorica-snack",
-                  "Teddy extrudált kukoricás bio snack répával és tökkel",
-                  "Angelina extrudált kukoricás bio snack répával és almával",
-                  "bio gabonasnack",
-                  "Party-Pops bio snack",
-                  "Chewing Wheels bio gabonasnack",
-                  "bio búza- és zabsnack",
-                  "puffasztott bio pizzás karikák",
-                  "bio pancakes",
-                  "gluténmentes bio chips"
-                ],
-                "jellemző": [
-                  "bio",
-                  "extrudált",
-                  "gluténmentes"
                 ],
                 "állag": [
                   "puff"
@@ -24859,12 +24620,6 @@
                 ],
                 "állag": [
                   "ital"
-                ],
-                "terméktípus": [
-                  "bio bébiital"
-                ],
-                "jellemző": [
-                  "bio"
                 ]
               }
             },
@@ -24881,11 +24636,7 @@
                   "Fred & Flo"
                 ]
               },
-              "csoportos": {
-                "terméktípus": [
-                  "állat alakú szivacs"
-                ]
-              }
+              "csoportos": {}
             }
           },
           "Baba fogkefe": {
@@ -24897,10 +24648,6 @@
                 ]
               },
               "csoportos": {
-                "terméktípus": [
-                  "fogkefe gyermekeknek",
-                  "baba fogkefe"
-                ],
                 "életkor": [
                   "2 év+",
                   "6 hó+"
@@ -24924,9 +24671,6 @@
                 ]
               },
               "csoportos": {
-                "terméktípus": [
-                  "szilikon cumi"
-                ],
                 "anyag": [
                   "szilikon"
                 ],
@@ -24953,9 +24697,6 @@
                 ]
               },
               "csoportos": {
-                "terméktípus": [
-                  "tanulópohár"
-                ],
                 "életkor": [
                   "4 hó+"
                 ]
@@ -24975,11 +24716,6 @@
                 ]
               },
               "csoportos": {
-                "terméktípus": [
-                  "hűtőrágóka",
-                  "mini rágóka",
-                  "szilikon rágóka"
-                ],
                 "fokozat": [
                   "1."
                 ],
@@ -25001,11 +24737,7 @@
                   "MAM"
                 ]
               },
-              "csoportos": {
-                "terméktípus": [
-                  "hőérzékelős kanál védőtokkal"
-                ]
-              }
+              "csoportos": {}
             }
           },
           "Baba tányér": {
@@ -25016,9 +24748,6 @@
                 ]
               },
               "csoportos": {
-                "terméktípus": [
-                  "szilikon tányér tapadókoronggal"
-                ],
                 "anyag": [
                   "szilikon"
                 ],
@@ -25039,9 +24768,6 @@
                 ]
               },
               "csoportos": {
-                "terméktípus": [
-                  "szilikon evőeszközök"
-                ],
                 "anyag": [
                   "szilikon"
                 ],
@@ -25066,10 +24792,6 @@
                 ]
               },
               "csoportos": {
-                "terméktípus": [
-                  "pohár puha itatófejjel",
-                  "ivópohár"
-                ],
                 "életkor": [
                   "9 hó+",
                   "12 hó+",
@@ -25088,11 +24810,7 @@
                   "10 db"
                 ]
               },
-              "csoportos": {
-                "terméktípus": [
-                  "eldobható pelenkázó alátét"
-                ]
-              }
+              "csoportos": {}
             }
           }
         },
