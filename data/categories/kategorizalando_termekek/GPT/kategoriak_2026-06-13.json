@@ -23726,12 +23726,14 @@
                   "Milupa Frutapura",
                   "Kubu Tízórai",
                   "Sió Vitatigris",
-                  "Topjoy"
+                  "Topjoy",
+                  "Gerber Organic for Baby"
                 ],
                 "kiszerelés": [
                   "100 g",
                   "90 g",
-                  "120 g"
+                  "120 g",
+                  "80 g"
                 ]
               },
               "csoportos": {
@@ -23792,7 +23794,10 @@
                   "alma-banán-málna",
                   "barack",
                   "mangó",
-                  "alma"
+                  "alma",
+                  "körte",
+                  "banán",
+                  "áfonya"
                 ],
                 "terméktípus": [
                   "bio őszibarack-alma-banán bébidesszert",
@@ -23816,11 +23821,14 @@
                   "100% alma-sárgarépa-banán-málna-eper-áfonya püré",
                   "mangós gyümölcspüré",
                   "almás gyümölcspüré",
-                  "100% alma-sárgarépa-őszibarack-banán-maracuja püré"
+                  "100% alma-sárgarépa-őszibarack-banán-maracuja püré",
+                  "bio gyümölcspüré",
+                  "bio gyümölcspüré fermentált tejkészítménnyel és gabonával"
                 ],
                 "kiszerelés": [
                   "163 g",
-                  "4 x 100 g (400 g)"
+                  "4 x 100 g (400 g)",
+                  "80 g"
                 ],
                 "összetevő": [
                   "alma",
@@ -23834,11 +23842,21 @@
                   "szőlő",
                   "málna",
                   "áfonya",
-                  "maracuja"
+                  "maracuja",
+                  "fermentált tejkészítmény",
+                  "gabona"
                 ],
                 "jellemző": [
                   "C-vitaminnal",
-                  "C- és D-vitaminnal"
+                  "C- és D-vitaminnal",
+                  "bio"
+                ],
+                "korosztály": [
+                  "4 hónapos kortól",
+                  "6 hónapos kortól"
+                ],
+                "jellemzők": [
+                  "bio"
                 ]
               }
             },
@@ -24099,23 +24117,36 @@
               "egyedi": {
                 "márka": [
                   "Nestlé",
-                  "Milupa"
+                  "Milupa",
+                  "Milupa Szép álmokat!",
+                  "Milupa Finom falatok",
+                  "Nestlé Jó éjszakát"
                 ],
                 "életkor": [
                   "6 hó+",
                   "4 hó+",
                   "8 hó+",
                   "10 hó+",
-                  "6 hónapos kortól"
+                  "6 hónapos kortól",
+                  "8 hónapos kortól",
+                  "4 hónapos kortól",
+                  "10 hónapos kortól"
                 ],
                 "tejmentes": {},
-                "tejalapú": {}
+                "tejalapú": {},
+                "kiszerelés": [
+                  "250 g",
+                  "225 g",
+                  "230 g",
+                  "200 g"
+                ]
               },
               "csoportos": {
                 "gabona": [
                   "rizs",
                   "gabonakeverék",
-                  "búza"
+                  "búza",
+                  "7 gabona"
                 ],
                 "íz": [
                   "banán",
@@ -24127,11 +24158,42 @@
                   "kakaó",
                   "narancs",
                   "kekszes",
-                  "gyümölcsös"
+                  "gyümölcsös",
+                  "sztracsatella",
+                  "gyümölcskoktél",
+                  "5 gyümölcs",
+                  "3 gyümölcs",
+                  "vegyes gyümölcs"
                 ],
                 "állag": [
                   "por",
                   "folyadék"
+                ],
+                "terméktípus": [
+                  "kekszes tejpép",
+                  "7-gabonás kekszes tejpép",
+                  "zamatos gyümölcsös 7-gabonás tejpép",
+                  "sztracsatellás tejpép",
+                  "eper-banánízű 7-gabonás tejpép",
+                  "gyümölcsös kaland tejpép",
+                  "banános tejpép",
+                  "gyümölcskoktél tejpép",
+                  "5 gyümölcsös tejpép",
+                  "3-gyümölcsös tejpép",
+                  "vaníliaízű tejberizs",
+                  "vaníliaízű tejbegríz",
+                  "kakaós tejberizspép",
+                  "banános tejberizspép",
+                  "vegyes gyümölcsös tejberizspép"
+                ],
+                "korosztály": [
+                  "6 hónapos kortól",
+                  "8 hónapos kortól",
+                  "4 hónapos kortól",
+                  "10 hónapos kortól"
+                ],
+                "alapanyag": [
+                  "7 gabona"
                 ]
               }
             },
@@ -24143,22 +24205,36 @@
                 "márka": [
                   "Nestlé",
                   "Nestlé Pizsama Hami",
-                  "Milupa"
+                  "Milupa",
+                  "Milupa Natúr",
+                  "Nestlé Junior Cereals"
                 ],
                 "életkor": [
                   "12 hó+",
                   "6 hó+",
                   "8 hó+",
-                  "4 hó+"
+                  "4 hó+",
+                  "6 hónapos kortól",
+                  "8 hónapos kortól",
+                  "12 hónapos kortól",
+                  "4 hónapos kortól"
                 ],
                 "tejmentes": {},
                 "tejalapú": {},
-                "gluténmentes": {}
+                "gluténmentes": {},
+                "kiszerelés": [
+                  "2 x 200 ml",
+                  "225 g",
+                  "200 g",
+                  "250 g"
+                ]
               },
               "csoportos": {
                 "gabona": [
                   "gabonakeverék",
-                  "rizs"
+                  "rizs",
+                  "7 gabona",
+                  "8 gabona"
                 ],
                 "íz": [
                   "vegyes gyümölcs",
@@ -24167,11 +24243,41 @@
                   "kakaó",
                   "keksz",
                   "vanília",
-                  "natúr"
+                  "natúr",
+                  "gyümölcsös",
+                  "eper",
+                  "3 gyümölcs",
+                  "sztracsatella"
                 ],
                 "állag": [
                   "por",
                   "folyadék"
+                ],
+                "terméktípus": [
+                  "UHT folyékony gabonás bébiétel",
+                  "UHT gluténmentes folyékony gabonás bébiétel",
+                  "7-gabonás kása",
+                  "epres gabonapép",
+                  "3-gyümölcsös gabonapép",
+                  "8 gabonás pép",
+                  "sztracsatellás pép",
+                  "rizskása"
+                ],
+                "korosztály": [
+                  "6 hónapos kortól",
+                  "8 hónapos kortól",
+                  "12 hónapos kortól",
+                  "4 hónapos kortól"
+                ],
+                "jellemzők": [
+                  "gluténmentes"
+                ],
+                "jellemző": [
+                  "gluténmentes"
+                ],
+                "alapanyag": [
+                  "7 gabona",
+                  "8 gabona"
                 ]
               }
             },
@@ -24181,13 +24287,18 @@
             "tulajdonságok": {
               "egyedi": {
                 "márka": [
-                  "Milupa"
+                  "Milupa",
+                  "Milupa Jó reggelt!"
                 ],
                 "életkor": [
-                  "6 hó+"
+                  "6 hó+",
+                  "6 hónapos kortól"
                 ],
                 "tejmentes": {},
-                "tejalapú": {}
+                "tejalapú": {},
+                "kiszerelés": [
+                  "225 g"
+                ]
               },
               "csoportos": {
                 "gabona": [
@@ -24197,10 +24308,21 @@
                   "alma",
                   "erdei gyümölcs",
                   "gyümölcs",
-                  "piros gyümölcs"
+                  "piros gyümölcs",
+                  "gyümölcsduó",
+                  "bogyós gyümölcs"
                 ],
                 "állag": [
                   "por"
+                ],
+                "terméktípus": [
+                  "gyümölcsduó zabkása",
+                  "almás zabkása",
+                  "pirosgyümölcsös zabkása",
+                  "bogyós-gyümölcsös zabkása"
+                ],
+                "korosztály": [
+                  "6 hónapos kortól"
                 ]
               }
             },
@@ -24240,8 +24362,39 @@
         "altípusok": {
           "Anyatej-helyettesítő (1-es)": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Milumil HA Start Prosyneo",
+                  "Milumil"
+                ],
+                "kiszerelés": [
+                  "400 g",
+                  "900 g"
+                ]
+              },
+              "csoportos": {
+                "terméktípus": [
+                  "anyatej-helyettesítő tápszer"
+                ],
+                "korosztály": [
+                  "0 hónapos kortól"
+                ],
+                "fokozat": [
+                  "Start",
+                  "1"
+                ],
+                "jellemzők": [
+                  "HA",
+                  "hidrolizált fehérje"
+                ],
+                "életkor": [
+                  "0 hónapos kortól"
+                ],
+                "jellemző": [
+                  "HA",
+                  "hidrolizált fehérje"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -24253,17 +24406,31 @@
                   "Milumil",
                   "BEBA SupremePro",
                   "Milumil Cesar-Biotik",
-                  "Beba"
+                  "Beba",
+                  "Milupa",
+                  "Milupa Szép álmokat!",
+                  "Beba Optipro",
+                  "Milumil Nutri-Biotik"
                 ],
-                "tejalapú": {}
+                "tejalapú": {},
+                "kiszerelés": [
+                  "500 g",
+                  "1000 g",
+                  "2 x 500 g",
+                  "400 g",
+                  "3 x 500 g"
+                ]
               },
               "csoportos": {
                 "fokozat": [
                   "2",
-                  "2-es"
+                  "2-es",
+                  "3"
                 ],
                 "életkor": [
-                  "6 hó+"
+                  "6 hó+",
+                  "6 hónapos kortól",
+                  "6-12 hónap között"
                 ],
                 "állag": [
                   "por"
@@ -24271,6 +24438,14 @@
                 "speciális jelleg": [
                   "fehérje-hidrolizátum",
                   "Cesar-Biotik"
+                ],
+                "terméktípus": [
+                  "tejalapú anyatej-kiegészítő tápszer"
+                ],
+                "korosztály": [
+                  "6 hónapos kortól",
+                  "9 hónapos kortól",
+                  "6-12 hónap között"
                 ]
               }
             },
@@ -24284,9 +24459,16 @@
                   "Lactogen",
                   "BEBA Optipro",
                   "Milumil",
-                  "BEBA SupremePro"
+                  "BEBA SupremePro",
+                  "Milumil Nutri-Biotic",
+                  "Milumil Nutri-Biotik"
                 ],
-                "tejalapú": {}
+                "tejalapú": {},
+                "kiszerelés": [
+                  "1000 g",
+                  "3 x 500 g",
+                  "500 g"
+                ]
               },
               "csoportos": {
                 "fokozat": [
@@ -24299,7 +24481,8 @@
                   "1 éves kortól",
                   "12 hó+",
                   "2 éves kortól",
-                  "3 éves kortól"
+                  "3 éves kortól",
+                  "12 hónapos kortól"
                 ],
                 "állag": [
                   "por"
@@ -24309,6 +24492,12 @@
                 ],
                 "speciális jelleg": [
                   "fehérje-hidrolizátum"
+                ],
+                "terméktípus": [
+                  "Junior tejalapú anyatej-kiegészítő tápszer"
+                ],
+                "korosztály": [
+                  "12 hónapos kortól"
                 ]
               }
             },
@@ -24318,18 +24507,32 @@
             "tulajdonságok": {
               "egyedi": {
                 "márka": [
-                  "BEBA ExpertPro"
+                  "BEBA ExpertPro",
+                  "Beba ExpertPro HA",
+                  "Milumil HA Prosyneo",
+                  "Milumil AR Optima",
+                  "Milumil Pepti Plus Pronutra"
                 ],
-                "tejalapú": {}
+                "tejalapú": {},
+                "kiszerelés": [
+                  "600 g",
+                  "400 g",
+                  "2 x 450 g",
+                  "450 g"
+                ]
               },
               "csoportos": {
                 "fokozat": [
                   "0",
-                  "3"
+                  "3",
+                  "2"
                 ],
                 "életkor": [
                   "0 hó+",
-                  "12 hó+"
+                  "12 hó+",
+                  "12 hónapos kortól",
+                  "6 hónapos kortól",
+                  "újszülött kortól"
                 ],
                 "állag": [
                   "por"
@@ -24337,6 +24540,26 @@
                 "speciális jelleg": [
                   "HA / hipoallergén",
                   "érzékeny emésztés / komfort"
+                ],
+                "terméktípus": [
+                  "Junior tejalapú anyatej-kiegészítő tápszer",
+                  "Junior anyatej-kiegészítő tápszer hidrolizált fehérjével",
+                  "tejalapú anyatej-kiegészítő tápszer",
+                  "anyatej-kiegészítő tápszer hidrolizált fehérjével",
+                  "speciális gyógyászati célra szánt élelmiszer"
+                ],
+                "korosztály": [
+                  "12 hónapos kortól",
+                  "6 hónapos kortól",
+                  "újszülött kortól"
+                ],
+                "jellemzők": [
+                  "AR",
+                  "speciális gyógyászati célra szánt"
+                ],
+                "jellemző": [
+                  "AR",
+                  "speciális gyógyászati célra szánt"
                 ]
               }
             },
@@ -24347,21 +24570,44 @@
               "egyedi": {
                 "márka": [
                   "Milupa",
-                  "Beba"
+                  "Beba",
+                  "Lactogen",
+                  "Milumil",
+                  "Milupa Szép álmokat!",
+                  "Beba Optipro",
+                  "Milumil Cesar-Biotik",
+                  "Milumil Nutri-Biotik"
                 ],
-                "tejalapú": {}
+                "tejalapú": {},
+                "kiszerelés": [
+                  "500 g",
+                  "1000 g",
+                  "2 x 500 g",
+                  "400 g",
+                  "3 x 500 g"
+                ]
               },
               "csoportos": {
                 "fokozat": [
                   "3",
-                  "3-as"
+                  "3-as",
+                  "2"
                 ],
                 "életkor": [
                   "9 hó+",
-                  "12 hó+"
+                  "12 hó+",
+                  "9 hónapos kortól"
                 ],
                 "állag": [
                   "por"
+                ],
+                "terméktípus": [
+                  "tejalapú anyatej-kiegészítő tápszer"
+                ],
+                "korosztály": [
+                  "6 hónapos kortól",
+                  "9 hónapos kortól",
+                  "6-12 hónap között"
                 ]
               }
             }
@@ -24370,22 +24616,73 @@
             "tulajdonságok": {
               "egyedi": {
                 "márka": [
-                  "Nestlé"
+                  "Nestlé",
+                  "Milupa",
+                  "Lactogen",
+                  "Beba Optipro",
+                  "Milumil Nutri-Biotik",
+                  "Milumil",
+                  "Milumil Nutri-Biotic",
+                  "Beba SupremePro"
                 ],
-                "tejalapú": {}
+                "tejalapú": {},
+                "kiszerelés": [
+                  "500 g",
+                  "2 x 500 g",
+                  "1000 g",
+                  "3 x 500 g",
+                  "800 g",
+                  "400 g"
+                ]
               },
               "csoportos": {
                 "fokozat": [
-                  "egyéb"
+                  "egyéb",
+                  "4",
+                  "3",
+                  "5"
                 ],
                 "életkor": [
-                  "8 hó+"
+                  "8 hó+",
+                  "12 hónapos kortól",
+                  "2 éves kortól",
+                  "36 hónapos kortól",
+                  "3 éves kortól",
+                  "8 hónapos kortól"
                 ],
                 "állag": [
                   "por"
                 ],
                 "íz": [
-                  "kakaó"
+                  "kakaó",
+                  "vanília"
+                ],
+                "terméktípus": [
+                  "vaníliaízű tejes ital",
+                  "natúr tejes ital tejalapú anyatej-kiegészítő tápszer",
+                  "natúr tejes ital",
+                  "Junior tejalapú italpor vitaminokkal és ásványi anyagokkal",
+                  "Junior vaníliás ízű tejalapú italpor vitaminokkal és ásványi anyagokkal",
+                  "Junior tejalapú italpor",
+                  "Junior vaníliaízű tejalapú italpor",
+                  "Junior tejalapú italpor fehérje-hidrolizátumból",
+                  "kakaós gabona alapú ízesítő italpor"
+                ],
+                "korosztály": [
+                  "12 hónapos kortól",
+                  "2 éves kortól",
+                  "36 hónapos kortól",
+                  "3 éves kortól",
+                  "8 hónapos kortól"
+                ],
+                "jellemzők": [
+                  "fehérje-hidrolizátumból"
+                ],
+                "jellemző": [
+                  "fehérje-hidrolizátumból"
+                ],
+                "alapanyag": [
+                  "gabona"
                 ]
               }
             }
@@ -24424,13 +24721,22 @@
                   "FruchtBar",
                   "HiPP",
                   "Lupilu",
-                  "Fosfovit"
+                  "Fosfovit",
+                  "Nestlé",
+                  "Milupa"
                 ],
                 "bio": {},
                 "életkor": [
                   "6 hó+",
                   "12 hó+",
-                  "6 hónapos kortól"
+                  "6 hónapos kortól",
+                  "6+ hónap",
+                  "6/9 hónapos kortól",
+                  "12+ hónap"
+                ],
+                "kiszerelés": [
+                  "150 g",
+                  "180 g"
                 ]
               },
               "csoportos": {
@@ -24438,7 +24744,25 @@
                   "natúr",
                   "tönköly",
                   "áfonya",
-                  "banán"
+                  "banán",
+                  "alma",
+                  "barack"
+                ],
+                "terméktípus": [
+                  "bio babakeksz 6+ hónapos kortól",
+                  "babakeksz",
+                  "alma-barack ízű keksz"
+                ],
+                "korosztály": [
+                  "6+ hónap",
+                  "6/9 hónapos kortól",
+                  "12+ hónap"
+                ],
+                "jellemzők": [
+                  "bio"
+                ],
+                "jellemző": [
+                  "bio"
                 ]
               }
             },
@@ -24451,7 +24775,12 @@
                   "Gerber",
                   "FruchtBar",
                   "HiPP",
-                  "SPAR Natur*pur"
+                  "SPAR Natur*pur",
+                  "McLloyd's Little Angel",
+                  "Gerber Organic for Baby",
+                  "Freche Freunde",
+                  "Gerber Organic",
+                  "Freche Freunde Kids"
                 ],
                 "bio": {},
                 "életkor": [
@@ -24459,9 +24788,23 @@
                   "10 hó+",
                   "12 hó+",
                   "1-3 éves korig",
-                  "12 hónapos kortól"
+                  "12 hónapos kortól",
+                  "8 hónapos kortól",
+                  "1 éves kortól",
+                  "10 hónapos kortól",
+                  "3 éves kortól"
                 ],
-                "gluténmentes": {}
+                "gluténmentes": {},
+                "kiszerelés": [
+                  "4 x 15 g",
+                  "35 g",
+                  "7 g",
+                  "15 g",
+                  "28 g",
+                  "70 g",
+                  "8 x 30 g",
+                  "50 g"
+                ]
               },
               "csoportos": {
                 "íz": [
@@ -24476,11 +24819,55 @@
                   "cékla",
                   "gyümölcsös",
                   "natúr",
-                  "alma-eper"
+                  "alma-eper",
+                  "répa",
+                  "tök",
+                  "pizza",
+                  "ketchup"
                 ],
                 "terméktípus": [
                   "puffasztott gabonás snack",
-                  "extrudált kukorica-snack"
+                  "extrudált kukorica-snack",
+                  "Teddy extrudált kukoricás bio snack répával és tökkel",
+                  "Angelina extrudált kukoricás bio snack répával és almával",
+                  "bio gabonasnack",
+                  "Party-Pops bio snack",
+                  "Chewing Wheels bio gabonasnack",
+                  "bio búza- és zabsnack",
+                  "puffasztott bio pizzás karikák",
+                  "bio pancakes",
+                  "gluténmentes bio chips"
+                ],
+                "alapanyag": [
+                  "kukorica",
+                  "búza",
+                  "zab"
+                ],
+                "jellemzők": [
+                  "bio",
+                  "extrudált",
+                  "gluténmentes"
+                ],
+                "jellemző": [
+                  "bio",
+                  "extrudált",
+                  "gluténmentes"
+                ],
+                "korosztály": [
+                  "8 hónapos kortól",
+                  "1 éves kortól",
+                  "10 hónapos kortól",
+                  "3 éves kortól"
+                ],
+                "állag": [
+                  "puff"
+                ],
+                "forma": [
+                  "kerék",
+                  "karika"
+                ],
+                "termékváltozat": [
+                  "pancakes"
                 ]
               }
             },
@@ -24596,13 +24983,17 @@
               "egyedi": {
                 "márka": [
                   "HiPP",
-                  "Kecskeméti"
+                  "Kecskeméti",
+                  "Univer Disney Baby"
                 ],
                 "bio": {},
                 "életkor": [
                   "6 hó+",
                   "4 hó+",
                   "4 hónapos kortól"
+                ],
+                "kiszerelés": [
+                  "200 ml"
                 ]
               },
               "csoportos": {
@@ -24616,10 +25007,24 @@
                   "piros gyümölcsök",
                   "csipkebogyótea",
                   "citromfűtea",
-                  "piros gyümölcs, csipkebogyótea"
+                  "piros gyümölcs, csipkebogyótea",
+                  "sütőtök",
+                  "sárgarépa"
                 ],
                 "állag": [
                   "ital"
+                ],
+                "terméktípus": [
+                  "bio bébiital"
+                ],
+                "korosztály": [
+                  "4 hónapos kortól"
+                ],
+                "jellemzők": [
+                  "bio"
+                ],
+                "jellemző": [
+                  "bio"
                 ]
               }
             },
@@ -24653,6 +25058,275 @@
               }
             }
           }
+        }
+      },
+      "Babaápolási eszköz": {
+        "altípusok": {
+          "Baba fürdetőszivacs": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Fred & Flo"
+                ]
+              },
+              "csoportos": {
+                "terméktípus": [
+                  "állat alakú szivacs"
+                ],
+                "forma": [
+                  "állat alakú"
+                ]
+              }
+            }
+          },
+          "Baba fogkefe": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Tesco Pro Formula Oral Care Baby Steps",
+                  "MAM"
+                ]
+              },
+              "csoportos": {
+                "terméktípus": [
+                  "fogkefe gyermekeknek",
+                  "baba fogkefe"
+                ],
+                "korosztály": [
+                  "0-2 éves korig",
+                  "6+ hónap"
+                ],
+                "életkor": [
+                  "0-2 éves korig",
+                  "6+ hónap"
+                ]
+              }
+            }
+          },
+          "Baba cumi": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "MAM Original Night",
+                  "MAM Original",
+                  "MAM Original Start",
+                  "MAM Air",
+                  "MAM Comfort",
+                  "MAM Original Start Night"
+                ],
+                "kiszerelés": [
+                  "2 db"
+                ]
+              },
+              "csoportos": {
+                "terméktípus": [
+                  "szilikon cumi"
+                ],
+                "korosztály": [
+                  "16+ hónap",
+                  "0+ hónap",
+                  "2-6 hónap",
+                  "6+ hónap",
+                  "0-3 hónap"
+                ],
+                "anyag": [
+                  "szilikon"
+                ],
+                "típus": [
+                  "éjszakai"
+                ],
+                "életkor": [
+                  "16+ hónap",
+                  "0+ hónap",
+                  "2-6 hónap",
+                  "6+ hónap",
+                  "0-3 hónap"
+                ]
+              }
+            }
+          },
+          "Tanulópohár": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "MAM Trainer"
+                ],
+                "kiszerelés": [
+                  "220 ml"
+                ]
+              },
+              "csoportos": {
+                "terméktípus": [
+                  "tanulópohár"
+                ],
+                "korosztály": [
+                  "4+ hónap"
+                ],
+                "életkor": [
+                  "4+ hónap"
+                ]
+              }
+            }
+          },
+          "Baba rágóka": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "MAM Cooler",
+                  "MAM Bite & Relax",
+                  "Petite&Mars Take&Match"
+                ],
+                "kiszerelés": [
+                  "7 x 7 cm"
+                ]
+              },
+              "csoportos": {
+                "terméktípus": [
+                  "hűtőrágóka",
+                  "mini rágóka",
+                  "szilikon rágóka"
+                ],
+                "korosztály": [
+                  "4+ hónap",
+                  "2+ hónap",
+                  "0+ hónap"
+                ],
+                "fokozat": [
+                  "1."
+                ],
+                "anyag": [
+                  "szilikon"
+                ],
+                "szín": [
+                  "Dusty Rose",
+                  "rózsaszín"
+                ],
+                "életkor": [
+                  "4+ hónap",
+                  "2+ hónap",
+                  "0+ hónap"
+                ]
+              }
+            }
+          },
+          "Baba kanál": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "MAM"
+                ]
+              },
+              "csoportos": {
+                "terméktípus": [
+                  "hőérzékelős kanál védőtokkal"
+                ],
+                "funkció": [
+                  "hőérzékelős"
+                ],
+                "tartozék": [
+                  "védőtok"
+                ]
+              }
+            }
+          },
+          "Baba tányér": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Petite&Mars Take&Match"
+                ]
+              },
+              "csoportos": {
+                "terméktípus": [
+                  "szilikon tányér tapadókoronggal"
+                ],
+                "korosztály": [
+                  "6+ hónap"
+                ],
+                "anyag": [
+                  "szilikon"
+                ],
+                "funkció": [
+                  "tapadókorongos"
+                ],
+                "szín": [
+                  "bézs"
+                ],
+                "életkor": [
+                  "6+ hónap"
+                ]
+              }
+            }
+          },
+          "Baba evőeszköz": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Petite&Mars Take&Match"
+                ],
+                "kiszerelés": [
+                  "14 x 3,5 cm"
+                ]
+              },
+              "csoportos": {
+                "terméktípus": [
+                  "szilikon evőeszközök"
+                ],
+                "korosztály": [
+                  "6+ hónap"
+                ],
+                "anyag": [
+                  "szilikon"
+                ],
+                "szín": [
+                  "Misty Green",
+                  "zöld"
+                ],
+                "életkor": [
+                  "6+ hónap"
+                ]
+              }
+            }
+          },
+          "Itatópohár": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "Philips Avent",
+                  "MAM Sports Cup",
+                  "MAM Starter"
+                ],
+                "kiszerelés": [
+                  "300 ml",
+                  "330 ml",
+                  "150 ml"
+                ]
+              },
+              "csoportos": {
+                "terméktípus": [
+                  "pohár puha itatófejjel",
+                  "ivópohár"
+                ],
+                "korosztály": [
+                  "9+ hónap",
+                  "12+ hónap",
+                  "4+ hónap"
+                ],
+                "funkció": [
+                  "puha itatófej"
+                ],
+                "életkor": [
+                  "9+ hónap",
+                  "12+ hónap",
+                  "4+ hónap"
+                ]
+              }
+            }
+          }
+        },
+        "tulajdonságok": {
+          "egyedi": {},
+          "csoportos": {}
         }
       }
     }
@@ -118523,1079 +119197,6 @@
                   "Star Wars",
                   "Ferrari",
                   "Icons"
-                ]
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "Baba-mama": {
-    "alkategóriák": {
-      "Baba snack": {
-        "altípusok": {
-          "Bio kukoricás snack": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "McLloyd's Little Angel"
-                ],
-                "kiszerelés": [
-                  "4 x 15 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Teddy extrudált kukoricás bio snack répával és tökkel",
-                  "Angelina extrudált kukoricás bio snack répával és almával"
-                ],
-                "íz": [
-                  "répa",
-                  "tök",
-                  "alma"
-                ],
-                "alapanyag": [
-                  "kukorica"
-                ],
-                "jellemzők": [
-                  "bio",
-                  "extrudált"
-                ]
-              }
-            }
-          },
-          "Bio gabonasnack": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Gerber Organic for Baby",
-                  "Freche Freunde",
-                  "Gerber Organic"
-                ],
-                "kiszerelés": [
-                  "35 g",
-                  "7 g",
-                  "15 g",
-                  "28 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "bio gabonasnack",
-                  "Party-Pops bio snack",
-                  "Chewing Wheels bio gabonasnack",
-                  "bio búza- és zabsnack"
-                ],
-                "íz": [
-                  "banán",
-                  "málna",
-                  "sárgarépa"
-                ],
-                "korosztály": [
-                  "8 hónapos kortól",
-                  "1 éves kortól",
-                  "10 hónapos kortól"
-                ],
-                "jellemzők": [
-                  "bio"
-                ],
-                "állag": [
-                  "puff"
-                ],
-                "forma": [
-                  "kerék"
-                ],
-                "alapanyag": [
-                  "búza",
-                  "zab"
-                ]
-              }
-            }
-          },
-          "Bio puffasztott snack": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Freche Freunde Kids"
-                ],
-                "kiszerelés": [
-                  "70 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "puffasztott bio pizzás karikák"
-                ],
-                "íz": [
-                  "pizza"
-                ],
-                "jellemzők": [
-                  "bio"
-                ],
-                "forma": [
-                  "karika"
-                ]
-              }
-            }
-          },
-          "Bio palacsinta": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Freche Freunde"
-                ],
-                "kiszerelés": [
-                  "8 x 30 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "bio pancakes"
-                ],
-                "íz": [
-                  "banán"
-                ],
-                "jellemzők": [
-                  "bio"
-                ],
-                "termékváltozat": [
-                  "pancakes"
-                ]
-              }
-            }
-          },
-          "Bio chips": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Freche Freunde Kids"
-                ],
-                "kiszerelés": [
-                  "50 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "gluténmentes bio chips"
-                ],
-                "íz": [
-                  "ketchup"
-                ],
-                "korosztály": [
-                  "3 éves kortól"
-                ],
-                "jellemzők": [
-                  "bio",
-                  "gluténmentes"
-                ]
-              }
-            }
-          }
-        }
-      },
-      "Baba keksz": {
-        "altípusok": {
-          "Bio babakeksz": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Detki"
-                ],
-                "kiszerelés": [
-                  "150 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "bio babakeksz 6+ hónapos kortól"
-                ],
-                "korosztály": [
-                  "6+ hónap"
-                ],
-                "jellemzők": [
-                  "bio"
-                ]
-              }
-            }
-          },
-          "Babakeksz": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Nestlé",
-                  "Milupa"
-                ],
-                "kiszerelés": [
-                  "180 g",
-                  "150 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "babakeksz",
-                  "alma-barack ízű keksz"
-                ],
-                "korosztály": [
-                  "6/9 hónapos kortól",
-                  "12+ hónap"
-                ],
-                "íz": [
-                  "alma",
-                  "barack"
-                ]
-              }
-            }
-          }
-        }
-      },
-      "Babaétel": {
-        "altípusok": {
-          "Folyékony gabonás bébiétel": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Nestlé Pizsama Hami"
-                ],
-                "kiszerelés": [
-                  "2 x 200 ml"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "UHT folyékony gabonás bébiétel",
-                  "UHT gluténmentes folyékony gabonás bébiétel"
-                ],
-                "íz": [
-                  "vanília",
-                  "keksz",
-                  "gyümölcsös",
-                  "banán",
-                  "kakaó"
-                ],
-                "korosztály": [
-                  "6 hónapos kortól"
-                ],
-                "jellemzők": [
-                  "gluténmentes"
-                ]
-              }
-            }
-          },
-          "Baba tejpép": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Nestlé",
-                  "Milupa Szép álmokat!",
-                  "Milupa Finom falatok",
-                  "Nestlé Jó éjszakát"
-                ],
-                "kiszerelés": [
-                  "250 g",
-                  "225 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "kekszes tejpép",
-                  "7-gabonás kekszes tejpép",
-                  "zamatos gyümölcsös 7-gabonás tejpép",
-                  "sztracsatellás tejpép",
-                  "eper-banánízű 7-gabonás tejpép",
-                  "gyümölcsös kaland tejpép",
-                  "banános tejpép",
-                  "gyümölcskoktél tejpép",
-                  "5 gyümölcsös tejpép",
-                  "3-gyümölcsös tejpép"
-                ],
-                "íz": [
-                  "keksz",
-                  "gyümölcsös",
-                  "sztracsatella",
-                  "eper",
-                  "banán",
-                  "gyümölcskoktél",
-                  "5 gyümölcs",
-                  "3 gyümölcs"
-                ],
-                "korosztály": [
-                  "6 hónapos kortól",
-                  "8 hónapos kortól",
-                  "4 hónapos kortól"
-                ],
-                "alapanyag": [
-                  "7 gabona"
-                ]
-              }
-            }
-          },
-          "Baba zabkása": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Milupa Jó reggelt!"
-                ],
-                "kiszerelés": [
-                  "225 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "gyümölcsduó zabkása",
-                  "almás zabkása",
-                  "pirosgyümölcsös zabkása",
-                  "bogyós-gyümölcsös zabkása"
-                ],
-                "íz": [
-                  "gyümölcsduó",
-                  "alma",
-                  "piros gyümölcs",
-                  "bogyós gyümölcs"
-                ],
-                "korosztály": [
-                  "6 hónapos kortól"
-                ]
-              }
-            }
-          },
-          "Baba tejberizs": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Milupa Finom falatok"
-                ],
-                "kiszerelés": [
-                  "225 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "vaníliaízű tejberizs"
-                ],
-                "íz": [
-                  "vanília"
-                ],
-                "korosztály": [
-                  "6 hónapos kortól"
-                ]
-              }
-            }
-          },
-          "Baba tejbegríz": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Milupa Finom falatok"
-                ],
-                "kiszerelés": [
-                  "225 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "vaníliaízű tejbegríz"
-                ],
-                "íz": [
-                  "vanília"
-                ],
-                "korosztály": [
-                  "4 hónapos kortól"
-                ]
-              }
-            }
-          },
-          "Baba gabonakása": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Milupa Natúr"
-                ],
-                "kiszerelés": [
-                  "225 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "7-gabonás kása"
-                ],
-                "korosztály": [
-                  "8 hónapos kortól"
-                ],
-                "alapanyag": [
-                  "7 gabona"
-                ]
-              }
-            }
-          },
-          "Bio gyümölcspüré": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Gerber Organic for Baby"
-                ],
-                "kiszerelés": [
-                  "80 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "bio gyümölcspüré",
-                  "bio gyümölcspüré fermentált tejkészítménnyel és gabonával"
-                ],
-                "íz": [
-                  "körte",
-                  "banán",
-                  "áfonya",
-                  "alma",
-                  "mangó"
-                ],
-                "korosztály": [
-                  "4 hónapos kortól",
-                  "6 hónapos kortól"
-                ],
-                "jellemzők": [
-                  "bio"
-                ],
-                "összetevő": [
-                  "fermentált tejkészítmény",
-                  "gabona"
-                ]
-              }
-            }
-          },
-          "Baba tejberizspép": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Nestlé"
-                ],
-                "kiszerelés": [
-                  "230 g",
-                  "200 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "kakaós tejberizspép",
-                  "banános tejberizspép",
-                  "vegyes gyümölcsös tejberizspép"
-                ],
-                "íz": [
-                  "kakaó",
-                  "banán",
-                  "vegyes gyümölcs"
-                ],
-                "korosztály": [
-                  "10 hónapos kortól",
-                  "6 hónapos kortól"
-                ]
-              }
-            }
-          },
-          "Baba gabonapép": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Nestlé Junior Cereals",
-                  "Nestlé"
-                ],
-                "kiszerelés": [
-                  "200 g",
-                  "250 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "epres gabonapép",
-                  "3-gyümölcsös gabonapép",
-                  "8 gabonás pép",
-                  "sztracsatellás pép"
-                ],
-                "íz": [
-                  "eper",
-                  "3 gyümölcs",
-                  "sztracsatella"
-                ],
-                "korosztály": [
-                  "12 hónapos kortól",
-                  "8 hónapos kortól"
-                ],
-                "alapanyag": [
-                  "8 gabona"
-                ]
-              }
-            }
-          },
-          "Baba rizskása": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Milupa Natúr"
-                ],
-                "kiszerelés": [
-                  "225 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "rizskása"
-                ],
-                "korosztály": [
-                  "4 hónapos kortól"
-                ]
-              }
-            }
-          }
-        }
-      },
-      "Babaápolási eszköz": {
-        "altípusok": {
-          "Baba fürdetőszivacs": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Fred & Flo"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "állat alakú szivacs"
-                ],
-                "forma": [
-                  "állat alakú"
-                ]
-              }
-            }
-          },
-          "Baba fogkefe": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco Pro Formula Oral Care Baby Steps",
-                  "MAM"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "fogkefe gyermekeknek",
-                  "baba fogkefe"
-                ],
-                "korosztály": [
-                  "0-2 éves korig",
-                  "6+ hónap"
-                ]
-              }
-            }
-          },
-          "Baba cumi": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "MAM Original Night",
-                  "MAM Original",
-                  "MAM Original Start",
-                  "MAM Air",
-                  "MAM Comfort",
-                  "MAM Original Start Night"
-                ],
-                "kiszerelés": [
-                  "2 db"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "szilikon cumi"
-                ],
-                "korosztály": [
-                  "16+ hónap",
-                  "0+ hónap",
-                  "2-6 hónap",
-                  "6+ hónap",
-                  "0-3 hónap"
-                ],
-                "anyag": [
-                  "szilikon"
-                ],
-                "típus": [
-                  "éjszakai"
-                ]
-              }
-            }
-          },
-          "Tanulópohár": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "MAM Trainer"
-                ],
-                "kiszerelés": [
-                  "220 ml"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "tanulópohár"
-                ],
-                "korosztály": [
-                  "4+ hónap"
-                ]
-              }
-            }
-          },
-          "Baba rágóka": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "MAM Cooler",
-                  "MAM Bite & Relax",
-                  "Petite&Mars Take&Match"
-                ],
-                "kiszerelés": [
-                  "7 x 7 cm"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "hűtőrágóka",
-                  "mini rágóka",
-                  "szilikon rágóka"
-                ],
-                "korosztály": [
-                  "4+ hónap",
-                  "2+ hónap",
-                  "0+ hónap"
-                ],
-                "fokozat": [
-                  "1."
-                ],
-                "anyag": [
-                  "szilikon"
-                ],
-                "szín": [
-                  "Dusty Rose",
-                  "rózsaszín"
-                ]
-              }
-            }
-          },
-          "Baba kanál": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "MAM"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "hőérzékelős kanál védőtokkal"
-                ],
-                "funkció": [
-                  "hőérzékelős"
-                ],
-                "tartozék": [
-                  "védőtok"
-                ]
-              }
-            }
-          },
-          "Baba tányér": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Petite&Mars Take&Match"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "szilikon tányér tapadókoronggal"
-                ],
-                "korosztály": [
-                  "6+ hónap"
-                ],
-                "anyag": [
-                  "szilikon"
-                ],
-                "funkció": [
-                  "tapadókorongos"
-                ],
-                "szín": [
-                  "bézs"
-                ]
-              }
-            }
-          },
-          "Baba evőeszköz": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Petite&Mars Take&Match"
-                ],
-                "kiszerelés": [
-                  "14 x 3,5 cm"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "szilikon evőeszközök"
-                ],
-                "korosztály": [
-                  "6+ hónap"
-                ],
-                "anyag": [
-                  "szilikon"
-                ],
-                "szín": [
-                  "Misty Green",
-                  "zöld"
-                ]
-              }
-            }
-          },
-          "Itatópohár": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Philips Avent",
-                  "MAM Sports Cup",
-                  "MAM Starter"
-                ],
-                "kiszerelés": [
-                  "300 ml",
-                  "330 ml",
-                  "150 ml"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "pohár puha itatófejjel",
-                  "ivópohár"
-                ],
-                "korosztály": [
-                  "9+ hónap",
-                  "12+ hónap",
-                  "4+ hónap"
-                ],
-                "funkció": [
-                  "puha itatófej"
-                ]
-              }
-            }
-          }
-        }
-      },
-      "Baba italpor": {
-        "altípusok": {
-          "Baba tejes ital": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Milupa"
-                ],
-                "kiszerelés": [
-                  "500 g",
-                  "2 x 500 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "vaníliaízű tejes ital",
-                  "natúr tejes ital tejalapú anyatej-kiegészítő tápszer",
-                  "natúr tejes ital"
-                ],
-                "íz": [
-                  "vanília"
-                ],
-                "korosztály": [
-                  "12 hónapos kortól",
-                  "2 éves kortól",
-                  "36 hónapos kortól"
-                ]
-              }
-            }
-          },
-          "Junior italpor": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Lactogen",
-                  "Beba Optipro",
-                  "Milumil Nutri-Biotik",
-                  "Milumil",
-                  "Milumil Nutri-Biotic",
-                  "Beba SupremePro"
-                ],
-                "kiszerelés": [
-                  "500 g",
-                  "1000 g",
-                  "2 x 500 g",
-                  "3 x 500 g",
-                  "800 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Junior tejalapú italpor vitaminokkal és ásványi anyagokkal",
-                  "Junior vaníliás ízű tejalapú italpor vitaminokkal és ásványi anyagokkal",
-                  "Junior tejalapú italpor",
-                  "Junior vaníliaízű tejalapú italpor",
-                  "Junior tejalapú italpor fehérje-hidrolizátumból"
-                ],
-                "korosztály": [
-                  "2 éves kortól",
-                  "12 hónapos kortól",
-                  "3 éves kortól"
-                ],
-                "fokozat": [
-                  "4",
-                  "3",
-                  "5"
-                ],
-                "íz": [
-                  "vanília"
-                ],
-                "jellemzők": [
-                  "fehérje-hidrolizátumból"
-                ]
-              }
-            }
-          },
-          "Baba ízesítő italpor": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Nestlé"
-                ],
-                "kiszerelés": [
-                  "400 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "kakaós gabona alapú ízesítő italpor"
-                ],
-                "íz": [
-                  "kakaó"
-                ],
-                "korosztály": [
-                  "8 hónapos kortól"
-                ],
-                "alapanyag": [
-                  "gabona"
-                ]
-              }
-            }
-          }
-        }
-      },
-      "Tápszer": {
-        "altípusok": {
-          "Junior tápszer": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Lactogen",
-                  "Milumil",
-                  "Milumil Nutri-Biotic",
-                  "Milumil Nutri-Biotik",
-                  "Beba Optipro"
-                ],
-                "kiszerelés": [
-                  "1000 g",
-                  "3 x 500 g",
-                  "500 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Junior tejalapú anyatej-kiegészítő tápszer"
-                ],
-                "korosztály": [
-                  "12 hónapos kortól"
-                ],
-                "fokozat": [
-                  "3"
-                ]
-              }
-            }
-          },
-          "HA junior tápszer": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Beba ExpertPro HA",
-                  "Milumil HA Prosyneo"
-                ],
-                "kiszerelés": [
-                  "600 g",
-                  "400 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Junior tejalapú anyatej-kiegészítő tápszer",
-                  "Junior anyatej-kiegészítő tápszer hidrolizált fehérjével"
-                ],
-                "korosztály": [
-                  "12 hónapos kortól"
-                ],
-                "fokozat": [
-                  "3"
-                ]
-              }
-            }
-          },
-          "HA tápszer": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Beba ExpertPro HA",
-                  "Milumil HA Prosyneo"
-                ],
-                "kiszerelés": [
-                  "600 g",
-                  "400 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "tejalapú anyatej-kiegészítő tápszer",
-                  "anyatej-kiegészítő tápszer hidrolizált fehérjével"
-                ],
-                "korosztály": [
-                  "6 hónapos kortól"
-                ],
-                "fokozat": [
-                  "2"
-                ]
-              }
-            }
-          },
-          "Anyatej-kiegészítő tápszer": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Milupa",
-                  "Lactogen",
-                  "Milumil",
-                  "Milupa Szép álmokat!",
-                  "Beba Optipro",
-                  "Milumil Cesar-Biotik",
-                  "Milumil Nutri-Biotik"
-                ],
-                "kiszerelés": [
-                  "500 g",
-                  "1000 g",
-                  "2 x 500 g",
-                  "400 g",
-                  "3 x 500 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "tejalapú anyatej-kiegészítő tápszer"
-                ],
-                "korosztály": [
-                  "6 hónapos kortól",
-                  "9 hónapos kortól",
-                  "6-12 hónap között"
-                ],
-                "fokozat": [
-                  "2",
-                  "3"
-                ]
-              }
-            }
-          },
-          "Anyatej-helyettesítő tápszer": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Milumil HA Start Prosyneo",
-                  "Milumil"
-                ],
-                "kiszerelés": [
-                  "400 g",
-                  "900 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "anyatej-helyettesítő tápszer"
-                ],
-                "korosztály": [
-                  "0 hónapos kortól"
-                ],
-                "fokozat": [
-                  "Start",
-                  "1"
-                ],
-                "jellemzők": [
-                  "HA",
-                  "hidrolizált fehérje"
-                ]
-              }
-            }
-          },
-          "Speciális tápszer": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Milumil AR Optima",
-                  "Milumil Pepti Plus Pronutra"
-                ],
-                "kiszerelés": [
-                  "2 x 450 g",
-                  "450 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "speciális gyógyászati célra szánt élelmiszer"
-                ],
-                "korosztály": [
-                  "újszülött kortól",
-                  "6 hónapos kortól"
-                ],
-                "jellemzők": [
-                  "AR",
-                  "speciális gyógyászati célra szánt"
-                ],
-                "fokozat": [
-                  "2"
-                ]
-              }
-            }
-          }
-        }
-      },
-      "Baba ital": {
-        "altípusok": {
-          "Bio bébiital": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Univer Disney Baby"
-                ],
-                "kiszerelés": [
-                  "200 ml"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "bio bébiital"
-                ],
-                "íz": [
-                  "sütőtök",
-                  "banán",
-                  "alma",
-                  "sárgarépa"
-                ],
-                "korosztály": [
-                  "4 hónapos kortól"
-                ],
-                "jellemzők": [
-                  "bio"
                 ]
               }
             }
