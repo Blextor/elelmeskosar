@@ -23240,13 +23240,14 @@
               "burgonya",
               "rizs",
               "tészta",
-              "gabonaféle",
+              "gabona",
               "egyéb",
               "zöldség",
               "paradicsom",
               "édesburgonya",
               "mozzarella",
-              "körte"
+              "körte",
+              "gyümölcs"
             ]
           }
         },
@@ -23353,7 +23354,7 @@
                   "őszibarack",
                   "spenót",
                   "burgonya",
-                  "trópusi",
+                  "gyümölcs",
                   "rizs",
                   "sárgarépa",
                   "zöldborsó",
@@ -23364,19 +23365,7 @@
                   "tészta",
                   "lencse",
                   "kukorica",
-                  "cékla",
-                  "trópusi gyümölcs",
-                  "alma-banán",
-                  "cukkini-rizs",
-                  "rizs-zöldség",
-                  "sütőtök-alma",
-                  "zöldség, rizs",
-                  "alma, őszibarack",
-                  "rizs, trópusi gyümölcs",
-                  "burgonya, paradicsom",
-                  "cékla, alma",
-                  "sárgarépa, rizs",
-                  "édesburgonya, zöldség, rizs"
+                  "cékla"
                 ]
               }
             },
@@ -23412,7 +23401,7 @@
                   "tészta",
                   "brokkoli",
                   "rizs",
-                  "sárgarépa, burgonya"
+                  "zöldség"
                 ]
               }
             },
@@ -23465,13 +23454,6 @@
                   "spenót",
                   "sárgarépa",
                   "spagetti",
-                  "brokkoli-tészta",
-                  "zöldség, tészta",
-                  "spagetti, zöldség",
-                  "spenót, tészta",
-                  "spagetti, paradicsom",
-                  "zöldséges lasagne",
-                  "tojásos tészta, zöldség",
                   "mozzarella"
                 ]
               }
@@ -23502,7 +23484,8 @@
                   "paradicsom",
                   "burgonya",
                   "sütőtök",
-                  "sárgarépa"
+                  "sárgarépa",
+                  "zöldség"
                 ]
               }
             },
@@ -23600,16 +23583,17 @@
               "burgonya",
               "rizs",
               "tészta",
-              "gabonaféle",
+              "gabona",
               "egyéb",
               "körte",
               "eper",
               "meggy",
               "mangó",
               "ananász",
-              "vegyes gyümölcs",
+              "gyümölcs",
               "sárgabarack",
-              "őszibarack"
+              "őszibarack",
+              "zöldség"
             ]
           }
         },
@@ -23669,51 +23653,40 @@
                   "püré"
                 ],
                 "Íz / alapanyag": [
-                  "szilva-feketeribizli körte alapon",
-                  "eper-banán alma alapon",
-                  "alma-sárgarépa",
-                  "banán-körte",
-                  "eper-banán-alma",
-                  "alma-banán-málna",
+                  "szilva",
+                  "feketeribizli",
+                  "körte",
+                  "eper",
+                  "banán",
+                  "alma",
+                  "sárgarépa",
+                  "málna",
                   "barack",
                   "mangó",
-                  "alma",
-                  "körte",
-                  "banán",
                   "áfonya",
                   "bodza",
                   "őszibarack",
-                  "erdei gyümölcs",
-                  "eper",
+                  "gyümölcs",
                   "sárgabarack",
-                  "szilva",
                   "sütőtök",
                   "cékla",
                   "maracuja",
                   "kiwi",
-                  "feketeribizli",
                   "narancs",
                   "kókusz",
-                  "málna",
                   "ananász",
                   "guava",
-                  "sárgarépa",
                   "bodzabogyó",
                   "acerola",
-                  "vegyes gyümölcs",
                   "rizs",
-                  "alma-őszibarack",
-                  "alma-körte-banán",
-                  "őszibarack, banán, alma",
-                  "sütőtök, alma",
-                  "alma, áfonya",
-                  "alma, körte, sárgarépa, banán, acerola, bodza",
-                  "alma, sárgarépa, banán, eper, málna, csipkebogyó, acerola, hibiszkusz",
+                  "csipkebogyó",
+                  "hibiszkusz",
                   "meggy",
                   "fahéj",
                   "szőlő",
                   "fermentált tejkészítmény",
-                  "gabona"
+                  "gabona",
+                  "zöldség"
                 ]
               }
             },
@@ -23759,7 +23732,7 @@
                   "zab",
                   "szilva",
                   "málna",
-                  "gabonaféle",
+                  "gabona",
                   "őszibarack",
                   "keksz",
                   "áfonya",
@@ -23770,26 +23743,19 @@
                   "köles",
                   "sárgabarack",
                   "kétszersült",
-                  "vegyes gyümölcs",
+                  "gyümölcs",
                   "müzli",
                   "feketeribizli",
                   "mangó",
                   "tönköly",
                   "sárgarépa",
                   "szőlő",
-                  "alma-banán-őszibarack-keksz",
-                  "alma-sárgabarack-keksz",
-                  "alma, banán, babakeksz",
-                  "körte, alma, köles",
-                  "banán, alma, gabona",
-                  "alma, banán, mangó, kókusztej, zab",
-                  "alma, banán, málna, gabona",
-                  "alma, őszibarack, rizs",
+                  "kókusztej",
                   "ananász",
                   "arónia",
                   "búzadara",
                   "zabpehely",
-                  "trópusi vegyes gyümölcs"
+                  "zöldség"
                 ]
               }
             },
@@ -23825,14 +23791,13 @@
                   "maracuja",
                   "banán",
                   "müzli",
-                  "vegyes gyümölcs",
+                  "gyümölcs",
                   "mangó",
                   "ananász",
                   "kókusz",
                   "kiwi",
                   "áfonya",
-                  "gabonaféle",
-                  "őszibarack, sárgabarack"
+                  "gabona"
                 ]
               }
             },
@@ -23864,17 +23829,15 @@
                 "Íz / alapanyag": [
                   "alma",
                   "keksz",
-                  "gabonaféle",
+                  "gabona",
                   "őszibarack",
                   "banán",
                   "kakaó",
                   "rizs",
                   "vanília",
                   "mangó",
-                  "alma, babakeksz",
-                  "banán, kakaó",
-                  "vanília, gríz",
-                  "alma, őszibarack"
+                  "gríz",
+                  "gyümölcs"
                 ]
               }
             },
@@ -23901,7 +23864,7 @@
             "állag": [
               "por",
               "kása",
-              "instant",
+              "ital",
               "egyéb"
             ],
             "Íz / alapanyag": [
@@ -23910,7 +23873,7 @@
               "banán",
               "alma",
               "barack",
-              "erdei gyümölcs",
+              "gyümölcs",
               "egyéb"
             ]
           }
@@ -23961,13 +23924,7 @@
                   "eper",
                   "kakaó",
                   "narancs",
-                  "kekszes",
-                  "gyümölcsös",
-                  "sztracsatella",
-                  "gyümölcskoktél",
-                  "5 gyümölcs",
-                  "3 gyümölcs",
-                  "vegyes gyümölcs"
+                  "sztracsatella"
                 ]
               }
             },
@@ -24011,16 +23968,13 @@
                   "folyadék"
                 ],
                 "Íz / alapanyag": [
-                  "vegyes gyümölcs",
-                  "banán",
                   "gyümölcs",
+                  "banán",
                   "kakaó",
                   "keksz",
                   "vanília",
                   "natúr",
-                  "gyümölcsös",
                   "eper",
-                  "3 gyümölcs",
                   "sztracsatella"
                 ]
               }
@@ -24052,11 +24006,7 @@
                 ],
                 "Íz / alapanyag": [
                   "alma",
-                  "erdei gyümölcs",
-                  "gyümölcs",
-                  "piros gyümölcs",
-                  "gyümölcsduó",
-                  "bogyós gyümölcs"
+                  "gyümölcs"
                 ]
               }
             },
@@ -24327,7 +24277,8 @@
                   "áfonya",
                   "banán",
                   "alma",
-                  "barack"
+                  "barack",
+                  "gyümölcs"
                 ]
               }
             },
@@ -24380,13 +24331,14 @@
                   "alma",
                   "áfonya",
                   "cékla",
-                  "gyümölcsös",
+                  "gyümölcs",
                   "natúr",
-                  "alma-eper",
+                  "eper",
                   "répa",
                   "tök",
                   "pizza",
-                  "ketchup"
+                  "ketchup",
+                  "zöldség"
                 ]
               }
             },
@@ -24417,7 +24369,7 @@
                   "joghurt",
                   "meggy",
                   "málna",
-                  "alma-banán"
+                  "gyümölcs"
                 ]
               }
             },
@@ -24440,9 +24392,10 @@
               "banán",
               "mangó",
               "eper",
-              "trópusi",
+              "gyümölcs",
               "sárgarépa",
-              "egyéb"
+              "egyéb",
+              "zöldség"
             ]
           }
         },
@@ -24481,15 +24434,13 @@
               },
               "csoportos": {
                 "állag": [
-                  "instant",
                   "ital"
                 ],
                 "Íz / alapanyag": [
                   "málna",
                   "csipkebogyó",
                   "narancs",
-                  "gyümölcs",
-                  "málna-csipkebogyó"
+                  "gyümölcs"
                 ]
               }
             },
@@ -24523,12 +24474,12 @@
                   "banán",
                   "őszibarack",
                   "narancs",
-                  "piros gyümölcsök",
+                  "gyümölcs",
                   "csipkebogyótea",
                   "citromfűtea",
-                  "piros gyümölcs, csipkebogyótea",
                   "sütőtök",
-                  "sárgarépa"
+                  "sárgarépa",
+                  "zöldség"
                 ]
               }
             },
