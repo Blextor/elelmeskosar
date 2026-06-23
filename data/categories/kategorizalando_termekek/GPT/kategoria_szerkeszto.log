@@ -105,3 +105,5 @@ TypeError: 'dict_itemiterator' object is not callable
 2026-06-23 09:13:41,032  INFO     mentve: kategoriak_2026-06-13.json (0.11 s)
 2026-06-23 09:13:42,473  INFO     mentve: eredmeny.json (1.44 s)
 2026-06-23 09:13:42,474  INFO     ALKALMAZ kész: op=merge_mapping  érintett termék=0  fa=beolvasztva ide: Baba > Bébi snack, keksz > Bébikeksz  (eltérő szint: 2 → 3)  (3.59 s)
+2026-06-23 12:21:26,403  INFO     Leállítva (Ctrl+C).
+2026-06-23 12:21:26,404  INFO     ================ Szerver kilépett ================

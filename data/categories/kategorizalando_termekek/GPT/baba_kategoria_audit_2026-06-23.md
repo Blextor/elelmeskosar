@@ -1,6 +1,6 @@
 # Baba főkategória audit
 
-Dátum: 2026-06-23 12:06:17
+Dátum: 2026-06-23 14:40:08
 
 Források:
 - `C:/Users/Bobo/Documents/GitHub/elelmeskosar2/data/categories/kategorizalando_termekek/GPT/kategoriak_2026-06-13.json`
@@ -122,7 +122,6 @@ Források:
 | hús | 33 |
 | jellemző | 29 |
 | összetevő | 14 |
-| alapanyag | 3 |
 
 ## Életkor értékek
 

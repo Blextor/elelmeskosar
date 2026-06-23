@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Termék-böngésző</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Termék-böngésző</h1>
+    <div class="search-wrap">
+      <input id="name" type="search" placeholder="Keresés névre…" autocomplete="off">
+    </div>
+    <div id="meta" class="meta"></div>
+  </header>
+
+  <main>
+    <aside id="sidebar">
+      <section class="card">
+        <h2>Kategória</h2>
+        <div class="selects">
+          <select id="fokat"></select>
+          <select id="alkat"></select>
+          <select id="altipus"></select>
+        </div>
+        <button id="clear-cat" class="link-btn">Kategória törlése</button>
+      </section>
+
+      <section class="card">
+        <div class="facets-head">
+          <h2>Tulajdonságok</h2>
+          <button id="clear-props" class="link-btn">Mind törlése</button>
+        </div>
+        <div id="facets"></div>
+      </section>
+    </aside>
+
+    <section id="content">
+      <div class="toolbar">
+        <div id="result-info" class="result-info"></div>
+        <div class="toolbar-right">
+          <label>Rendezés:
+            <select id="sort">
+              <option value="name">Név (A–Z)</option>
+              <option value="price_asc">Ár ↑</option>
+              <option value="price_desc">Ár ↓</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div id="active-filters" class="active-filters"></div>
+      <div id="grid" class="grid"></div>
+      <div id="pager" class="pager"></div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-backdrop"></div>
+    <div class="modal-box">
+      <button id="modal-close" class="modal-close" aria-label="Bezárás">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -23795,12 +23795,6 @@
                   "pouch",
                   "püré"
                 ],
-                "alap": [
-                  "málna",
-                  "csipkebogyó",
-                  "körte",
-                  "bodza"
-                ],
                 "íz": [
                   "szilva-feketeribizli körte alapon",
                   "eper-banán alma alapon",
@@ -24716,11 +24710,6 @@
                   "bio pancakes",
                   "gluténmentes bio chips"
                 ],
-                "alapanyag": [
-                  "kukorica",
-                  "búza",
-                  "zab"
-                ],
                 "jellemző": [
                   "bio",
                   "extrudált",
@@ -24728,13 +24717,6 @@
                 ],
                 "állag": [
                   "puff"
-                ],
-                "forma": [
-                  "kerék",
-                  "karika"
-                ],
-                "termékváltozat": [
-                  "pancakes"
                 ]
               }
             },
@@ -24825,8 +24807,7 @@
                 ],
                 "életkor": [
                   "6 hó+"
-                ],
-                "por": {}
+                ]
               },
               "csoportos": {
                 "íz": [
@@ -24903,9 +24884,6 @@
               "csoportos": {
                 "terméktípus": [
                   "állat alakú szivacs"
-                ],
-                "forma": [
-                  "állat alakú"
                 ]
               }
             }
@@ -25008,10 +24986,6 @@
                 "anyag": [
                   "szilikon"
                 ],
-                "szín": [
-                  "Dusty Rose",
-                  "rózsaszín"
-                ],
                 "életkor": [
                   "4 hó+",
                   "2 hó+",
@@ -25030,12 +25004,6 @@
               "csoportos": {
                 "terméktípus": [
                   "hőérzékelős kanál védőtokkal"
-                ],
-                "funkció": [
-                  "hőérzékelős"
-                ],
-                "tartozék": [
-                  "védőtok"
                 ]
               }
             }
@@ -25053,12 +25021,6 @@
                 ],
                 "anyag": [
                   "szilikon"
-                ],
-                "funkció": [
-                  "tapadókorongos"
-                ],
-                "szín": [
-                  "bézs"
                 ],
                 "életkor": [
                   "6 hó+"
@@ -25082,10 +25044,6 @@
                 ],
                 "anyag": [
                   "szilikon"
-                ],
-                "szín": [
-                  "Misty Green",
-                  "zöld"
                 ],
                 "életkor": [
                   "6 hó+"
@@ -25112,9 +25070,6 @@
                   "pohár puha itatófejjel",
                   "ivópohár"
                 ],
-                "funkció": [
-                  "puha itatófej"
-                ],
                 "életkor": [
                   "9 hó+",
                   "12 hó+",
@@ -25136,9 +25091,6 @@
               "csoportos": {
                 "terméktípus": [
                   "eldobható pelenkázó alátét"
-                ],
-                "méret": [
-                  "60 x 60 cm"
                 ]
               }
             }
