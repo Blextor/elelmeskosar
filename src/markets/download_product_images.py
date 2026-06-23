@@ -97,11 +97,13 @@ def get_session():
     return session
 
 
-def download_image(url, target_path, timeout, retries, retry_delay):
+def download_image(url, target_path, timeout, retries, retry_delay, delay=0.0):
     session = get_session()
     last_error = ""
     for attempt in range(1, retries + 1):
         try:
+            if delay:
+                time.sleep(delay)
             response = session.get(url, timeout=timeout)
             if response.status_code != 200:
                 last_error = f"HTTP {response.status_code}"
@@ -174,7 +176,7 @@ def process_store(store_key, normalized_path, args):
         with ThreadPoolExecutor(max_workers=args.workers) as executor:
             futures = {
                 executor.submit(
-                    download_image, url, path, args.timeout, args.retries, args.retry_delay
+                    download_image, url, path, args.timeout, args.retries, args.retry_delay, args.delay
                 ): url
                 for url, path in missing.items()
             }
@@ -303,6 +305,12 @@ def parse_args():
     parser.add_argument("--timeout", type=float, default=30.0)
     parser.add_argument("--retries", type=int, default=2)
     parser.add_argument("--retry-delay", type=float, default=1.5)
+    parser.add_argument(
+        "--delay",
+        type=float,
+        default=0.0,
+        help="Keslektetes (mp) minden kep-lekeres elott szalankent. WAF/rate limit mogotti boltoknal hasznos (pl. coopshop).",
+    )
     parser.add_argument("--refresh", action="store_true", help="Meglevo kepek ujraletoltese is.")
     return parser.parse_args()
 

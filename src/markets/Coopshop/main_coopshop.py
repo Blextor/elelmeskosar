@@ -6,7 +6,8 @@ scripts = [
     ["get_all_data_coopshop.py"],
     ["filter_data_coopshop.py"],
     ["normalize_data_coopshop.py"],
-    ["../download_product_images.py", "--stores", "coopshop"],
+    # A coopshop.hu WAF-ja miatt a kepeket is gyengeden (keves szallal + keslektetessel) toltjuk.
+    ["../download_product_images.py", "--stores", "coopshop", "--workers", "2", "--delay", "0.25"],
 ]
 
 
