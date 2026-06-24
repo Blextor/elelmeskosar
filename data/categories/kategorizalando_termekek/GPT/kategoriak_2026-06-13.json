@@ -64255,7 +64255,10 @@
                   "Duna-Tisza közi Fehér Cuvée félszáraz fehérbor",
                   "Sárga Muskotály fehérbor",
                   "Duna-Tisza Közi Irsai Olivér száraz magyar fehérbor",
-                  "Szekszárdi Irsai Olivér száraz fehérbor"
+                  "Szekszárdi Irsai Olivér száraz fehérbor",
+                  "Somló Zenit száraz fehérbor",
+                  "Kunsági Olivér Cuvée száraz fehér bor",
+                  "Mátrai Sauvignon Blanc száraz fehérbor"
                 ],
                 "szőlőfajta": [
                   "Macabeo",
@@ -64283,7 +64286,8 @@
                   "Zeus",
                   "Trebbiano",
                   "Pinot Grigio",
-                  "Sárga Muskotály"
+                  "Sárga Muskotály",
+                  "Olivér Cuvée"
                 ],
                 "borvidék": [
                   "Campo de Borja",
@@ -64306,7 +64310,8 @@
                   "Duna-Tisza köze",
                   "Marlborough",
                   "Mátra",
-                  "Abruzzo"
+                  "Abruzzo",
+                  "Somló"
                 ],
                 "jellemző": [
                   "bio",
@@ -64322,7 +64327,8 @@
                   "félszáraz"
                 ]
               }
-            }
+            },
+            "altípusok": {}
           },
           "Rozébor": {
             "tulajdonságok": {
@@ -64820,7 +64826,8 @@
                   "Casa Maña",
                   "Dino",
                   "Vineyards Tinto",
-                  "Ostorosbor Bag-In-Box"
+                  "Ostorosbor Bag-In-Box",
+                  "Pannonhalmi Tricollis"
                 ],
                 "cukormentes / zero": {},
                 "alkoholmentes": [],
@@ -65092,7 +65099,8 @@
                   "Primitivo száraz vörösbor",
                   "Tempranillo száraz vörösbor",
                   "Duna-Tisza közi Vörös Cuvée félédes vörösbor",
-                  "Syrah száraz vörösbor"
+                  "Syrah száraz vörösbor",
+                  "Tricollis Vörös száraz vörösbor"
                 ],
                 "szőlőfajta": [
                   "Garnacha Tinta",
@@ -65121,7 +65129,8 @@
                   "Mendoza",
                   "Mátra",
                   "Dunántúl",
-                  "Duna-Tisza köze"
+                  "Duna-Tisza köze",
+                  "Pannonhalma"
                 ],
                 "édesség": [
                   "száraz",
@@ -65138,7 +65147,8 @@
                   "classicus"
                 ]
               }
-            }
+            },
+            "altípusok": {}
           },
           "Boralapú ital": {
             "tulajdonságok": {
@@ -65367,7 +65377,8 @@
                   "Viña Albali Rosado Tempranillo",
                   "Fantasy Muscat Rose",
                   "Gere Rosé Cuvée",
-                  "Dankó"
+                  "Dankó",
+                  "Chill"
                 ],
                 "kiszerelés": [
                   "0,75 l",
@@ -65398,7 +65409,8 @@
                   "rozébor",
                   "félédes rózsaszín bor",
                   "száraz rosébor",
-                  "Felső-Magyarországi Rozé Cuvée édes rozé tájbor"
+                  "Felső-Magyarországi Rozé Cuvée édes rozé tájbor",
+                  "Duna-Tisza közi Kékfrankos Rosé száraz magyar rosébor"
                 ],
                 "édesség": [
                   "száraz",
@@ -65418,10 +65430,18 @@
                 "szőlőfajta": [
                   "Cabernet",
                   "Tempranillo",
-                  "Muscat"
+                  "Muscat",
+                  "Kékfrankos"
+                ],
+                "szín": [
+                  "rosé"
+                ],
+                "borvidék": [
+                  "Duna-Tisza köze"
                 ]
               }
-            }
+            },
+            "altípusok": {}
           },
           "Tokaji borkülönlegesség": {
             "tulajdonságok": {
@@ -73011,6 +73031,128 @@
                 ]
               }
             }
+          },
+          "Koktél, Rögtön ihat, Egyéb": {
+            "tulajdonságok": {
+              "egyedi": {
+                "márka": [
+                  "LE COQ",
+                  "Mix",
+                  "Lafi",
+                  "Beefeater Pink",
+                  "Beefeater",
+                  "Kalumba Madagascar",
+                  "Tanqueray",
+                  "Coca-Cola és Jack Daniel's",
+                  "Jim Beam",
+                  "Jack Daniel's és Coca Cola",
+                  "Breezer",
+                  "Smirnoff Ice",
+                  "Three Sixty Vodka",
+                  "NextGen",
+                  "Jameson",
+                  "Malibu",
+                  "Tatratea",
+                  "Captain Morgan"
+                ]
+              },
+              "csoportos": {
+                "terméktípus": [
+                  "Mojito koktél",
+                  "Cuba Libre koktél",
+                  "Mojito szénsavas alkoholos koktél",
+                  "Blue Lagoon koktél",
+                  "Cosmopolitan koktél",
+                  "Pina Colada koktél",
+                  "Pornstar Martini szénsavas alkoholos koktél",
+                  "Gin & Tonic alkoholos szénsavas ital",
+                  "gin-tonic alkoholos üdítőital",
+                  "Gin&Tonic Purple Hibiscus alkoholtartalmú ital",
+                  "Gin & Tonic Blood Orange alkoholtartalmú ital",
+                  "Gin & Tonic Maracuja alkoholtartalmú ital",
+                  "London Dry Gin&Tonic alkoholtartalmú ital",
+                  "alkoholos szénsavas üdítőital",
+                  "Bourbon Whiskey & Cola alkoholos üdítőital",
+                  "Tennessee Whiskey és Coca Cola Zero Sugar alkoholos szénsavas ital",
+                  "szénsavas alkoholos koktél mix",
+                  "gin & mangó szénsavas alkoholos koktél",
+                  "Lime alkoholos ital",
+                  "Watermelon alkoholos ital",
+                  "Lemon alkoholos ital",
+                  "Orange alkoholos ital",
+                  "Original citromos alkoholtartalmú ital",
+                  "Raspberry málna ízű alkoholtartalmú ital",
+                  "vodka narancs alkoholos szénsavas ital",
+                  "vodka & görögdinnye szénsavas alkoholos koktél",
+                  "vodka & erdei gyümölcs szénsavas alkoholos koktél",
+                  "Vodka Lemon alkoholos üdítőital",
+                  "Vodka Energy alkoholos üdítőital",
+                  "Vodka Espresso Martini alkoholos üdítőital",
+                  "vodka kaktusz és zöld alma szénsavas alkoholos koktél",
+                  "Hugo Frizzante szénsavas boralapú koktél",
+                  "Summer Splash szénsavas boralapú ital",
+                  "Jameson whiskey és gyömbér-lime szénsavas ital",
+                  "Piña Colada fehér rum, ananász és kókuszlikőr koktél",
+                  "vegyes alkoholos szénsavas ital kóla ízzel",
+                  "vegyes alkoholos szénsavas ital tonik ízzel",
+                  "Spiced Gold & Cola alkoholtartalmú ital"
+                ],
+                "íz": [
+                  "mojito",
+                  "Cuba Libre",
+                  "Blue Lagoon",
+                  "Cosmopolitan",
+                  "Pina Colada",
+                  "Pornstar Martini",
+                  "pink strawberry",
+                  "Purple Hibiscus",
+                  "Blood Orange",
+                  "Maracuja",
+                  "whiskey-cola",
+                  "gin & passiógyümölcs",
+                  "gin-mangó",
+                  "lime",
+                  "görögdinnye",
+                  "citrom",
+                  "narancs",
+                  "málna",
+                  "vodka-görögdinnye",
+                  "vodka-erdei gyümölcs",
+                  "energiaital",
+                  "espresso martini",
+                  "vodka-kaktusz-zöld alma",
+                  "eper",
+                  "mangó-passion fruit",
+                  "gyömbér-lime",
+                  "kóla",
+                  "tonik",
+                  "fűszeres rum-cola"
+                ],
+                "alkoholtartalom": [
+                  "4,7%",
+                  "4%",
+                  "4,9%",
+                  "4,5%",
+                  "6,5%",
+                  "5%",
+                  "10%",
+                  "7%",
+                  "7,2%",
+                  "5,2%"
+                ],
+                "kiszerelés": [
+                  "0,33 l",
+                  "250 ml",
+                  "0,25 l",
+                  "330 ml",
+                  "275 ml"
+                ],
+                "cukor": [
+                  "édesítőszerekkel"
+                ]
+              }
+            },
+            "altípusok": {}
           }
         }
       },
@@ -73431,7 +73573,8 @@
                   "erdei gyümölcs",
                   "kávé-kakaóbab",
                   "eperízű",
-                  "bodza"
+                  "bodza",
+                  "epres margarita"
                 ],
                 "alkoholtartalom": [
                   "4%",
@@ -73493,10 +73636,14 @@
                   "szűretlen felsőerjesztésű búzasör és meggyes üdítőital keveréke",
                   "málna ízű ízesített búzasör bodza és málna gyümölcslével",
                   "világos sör és citrus ízű ital keveréke",
-                  "szűretlen lager, ízesített sör"
+                  "szűretlen lager, ízesített sör",
+                  "Original agavé párlat ízesítésű világos sörkülönlegesség",
+                  "Hard Lemon citrom ízesítésű maláta sör",
+                  "Hard Strawberry epres margarita ízesítésű maláta sör"
                 ],
                 "kiszerelés": [
-                  "330 ml"
+                  "330 ml",
+                  "400 ml"
                 ],
                 "termékcsalád": [
                   "Spritz"
@@ -73510,7 +73657,8 @@
                   "lager"
                 ]
               }
-            }
+            },
+            "altípusok": {}
           },
           "Világos sör": {
             "tulajdonságok": {
@@ -117507,504 +117655,6 @@
                 ],
                 "szín": [
                   "fekete"
-                ]
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "Alkoholos ital": {
-    "alkategóriák": {
-      "Égetett szesz": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {}
-      },
-      "Koktél, long drink": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {
-          "Készre kevert koktél": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "LE COQ",
-                  "Mix"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Mojito koktél",
-                  "Cuba Libre koktél",
-                  "Mojito szénsavas alkoholos koktél",
-                  "Blue Lagoon koktél",
-                  "Cosmopolitan koktél",
-                  "Pina Colada koktél",
-                  "Pornstar Martini szénsavas alkoholos koktél"
-                ],
-                "íz": [
-                  "mojito",
-                  "Cuba Libre",
-                  "Blue Lagoon",
-                  "Cosmopolitan",
-                  "Pina Colada",
-                  "Pornstar Martini"
-                ],
-                "alkoholtartalom": [
-                  "4,7%",
-                  "4%"
-                ],
-                "kiszerelés": [
-                  "0,33 l"
-                ]
-              }
-            }
-          },
-          "Gin-tonic": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Lafi",
-                  "Beefeater Pink",
-                  "Beefeater",
-                  "Kalumba Madagascar",
-                  "Tanqueray"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Gin & Tonic alkoholos szénsavas ital",
-                  "gin-tonic alkoholos üdítőital",
-                  "Gin&Tonic Purple Hibiscus alkoholtartalmú ital",
-                  "Gin & Tonic Blood Orange alkoholtartalmú ital",
-                  "Gin & Tonic Maracuja alkoholtartalmú ital",
-                  "London Dry Gin&Tonic alkoholtartalmú ital"
-                ],
-                "alkoholtartalom": [
-                  "4,9%",
-                  "4,5%",
-                  "6,5%"
-                ],
-                "kiszerelés": [
-                  "250 ml",
-                  "0,25 l"
-                ],
-                "íz": [
-                  "pink strawberry",
-                  "Purple Hibiscus",
-                  "Blood Orange",
-                  "Maracuja"
-                ]
-              }
-            }
-          },
-          "Whiskey-cola": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Coca-Cola és Jack Daniel's",
-                  "Jim Beam",
-                  "Jack Daniel's és Coca Cola"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "alkoholos szénsavas üdítőital",
-                  "Bourbon Whiskey & Cola alkoholos üdítőital",
-                  "Tennessee Whiskey és Coca Cola Zero Sugar alkoholos szénsavas ital"
-                ],
-                "íz": [
-                  "whiskey-cola"
-                ],
-                "alkoholtartalom": [
-                  "5%",
-                  "4,5%"
-                ],
-                "kiszerelés": [
-                  "330 ml"
-                ],
-                "cukor": [
-                  "édesítőszerekkel"
-                ]
-              }
-            }
-          },
-          "Gin alapú koktél": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Mix"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "szénsavas alkoholos koktél mix",
-                  "gin & mangó szénsavas alkoholos koktél"
-                ],
-                "íz": [
-                  "gin & passiógyümölcs",
-                  "gin-mangó"
-                ],
-                "alkoholtartalom": [
-                  "4%"
-                ],
-                "kiszerelés": [
-                  "0,33 l"
-                ]
-              }
-            }
-          },
-          "Ízesített alkoholos ital": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Breezer",
-                  "Smirnoff Ice"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Lime alkoholos ital",
-                  "Watermelon alkoholos ital",
-                  "Lemon alkoholos ital",
-                  "Orange alkoholos ital",
-                  "Original citromos alkoholtartalmú ital",
-                  "Raspberry málna ízű alkoholtartalmú ital"
-                ],
-                "íz": [
-                  "lime",
-                  "görögdinnye",
-                  "citrom",
-                  "narancs",
-                  "málna"
-                ],
-                "alkoholtartalom": [
-                  "4%"
-                ],
-                "kiszerelés": [
-                  "275 ml",
-                  "250 ml"
-                ]
-              }
-            }
-          },
-          "Vodka alapú koktél": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Lafi",
-                  "Mix",
-                  "Three Sixty Vodka"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "vodka narancs alkoholos szénsavas ital",
-                  "vodka & görögdinnye szénsavas alkoholos koktél",
-                  "vodka & erdei gyümölcs szénsavas alkoholos koktél",
-                  "Vodka Lemon alkoholos üdítőital",
-                  "Vodka Energy alkoholos üdítőital",
-                  "Vodka Espresso Martini alkoholos üdítőital",
-                  "vodka kaktusz és zöld alma szénsavas alkoholos koktél"
-                ],
-                "íz": [
-                  "narancs",
-                  "vodka-görögdinnye",
-                  "vodka-erdei gyümölcs",
-                  "citrom",
-                  "energiaital",
-                  "espresso martini",
-                  "vodka-kaktusz-zöld alma"
-                ],
-                "alkoholtartalom": [
-                  "4,9%",
-                  "4%",
-                  "10%"
-                ],
-                "kiszerelés": [
-                  "250 ml",
-                  "0,33 l",
-                  "330 ml"
-                ]
-              }
-            }
-          },
-          "Boralapú koktél": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Lafi",
-                  "NextGen"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Hugo Frizzante szénsavas boralapú koktél",
-                  "Summer Splash szénsavas boralapú ital"
-                ],
-                "íz": [
-                  "eper",
-                  "mangó-passion fruit"
-                ],
-                "alkoholtartalom": [
-                  "7%",
-                  "7,2%"
-                ],
-                "kiszerelés": [
-                  "250 ml"
-                ]
-              }
-            }
-          },
-          "Whiskey alapú koktél": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Jameson"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Jameson whiskey és gyömbér-lime szénsavas ital"
-                ],
-                "kiszerelés": [
-                  "0,25 l"
-                ],
-                "alkoholtartalom": [
-                  "5%"
-                ],
-                "íz": [
-                  "gyömbér-lime"
-                ]
-              }
-            }
-          },
-          "Rum alapú koktél": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Malibu"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Piña Colada fehér rum, ananász és kókuszlikőr koktél"
-                ],
-                "kiszerelés": [
-                  "250 ml"
-                ],
-                "alkoholtartalom": [
-                  "5%"
-                ],
-                "íz": [
-                  "Pina Colada"
-                ]
-              }
-            }
-          },
-          "Vegyes alkoholos ital": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tatratea"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "vegyes alkoholos szénsavas ital kóla ízzel",
-                  "vegyes alkoholos szénsavas ital tonik ízzel"
-                ],
-                "kiszerelés": [
-                  "250 ml"
-                ],
-                "alkoholtartalom": [
-                  "5,2%",
-                  "7,2%"
-                ],
-                "íz": [
-                  "kóla",
-                  "tonik"
-                ]
-              }
-            }
-          },
-          "Rum-cola": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Captain Morgan"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Spiced Gold & Cola alkoholtartalmú ital"
-                ],
-                "kiszerelés": [
-                  "250 ml"
-                ],
-                "alkoholtartalom": [
-                  "5%"
-                ],
-                "íz": [
-                  "fűszeres rum-cola"
-                ]
-              }
-            }
-          }
-        }
-      },
-      "Sör": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {
-          "Ízesített sörkülönlegesség": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Desperados",
-                  "Garage"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Original agavé párlat ízesítésű világos sörkülönlegesség",
-                  "Hard Lemon citrom ízesítésű maláta sör",
-                  "Hard Strawberry epres margarita ízesítésű maláta sör"
-                ],
-                "alkoholtartalom": [
-                  "5,9%",
-                  "4,5%"
-                ],
-                "kiszerelés": [
-                  "330 ml",
-                  "400 ml"
-                ],
-                "íz": [
-                  "citrom",
-                  "epres margarita"
-                ]
-              }
-            }
-          }
-        }
-      },
-      "Bor": {
-        "altípusok": {
-          "Fehérbor": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tornai",
-                  "Frittmann",
-                  "Dubicz",
-                  "Grand Tokaj Classic Selection"
-                ],
-                "kiszerelés": [
-                  "750 ml",
-                  "3 l",
-                  "0,75 l"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Somló Zenit száraz fehérbor",
-                  "Kunsági Olivér Cuvée száraz fehér bor",
-                  "Mátrai Sauvignon Blanc száraz fehérbor",
-                  "Tokaji Furmint félédes fehérbor"
-                ],
-                "szín": [
-                  "fehér"
-                ],
-                "édesség": [
-                  "száraz",
-                  "félédes"
-                ],
-                "szőlőfajta": [
-                  "Zenit",
-                  "Olivér Cuvée",
-                  "Sauvignon Blanc",
-                  "Furmint"
-                ],
-                "borvidék": [
-                  "Somló",
-                  "Kunság",
-                  "Mátra",
-                  "Tokaj"
-                ],
-                "alkoholtartalom": [
-                  "13%",
-                  "12,5%",
-                  "12%",
-                  "11%"
-                ]
-              }
-            }
-          },
-          "Vörösbor": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Pannonhalmi Tricollis"
-                ],
-                "kiszerelés": [
-                  "0,75 l"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Tricollis Vörös száraz vörösbor"
-                ],
-                "szín": [
-                  "vörös"
-                ],
-                "édesség": [
-                  "száraz"
-                ],
-                "borvidék": [
-                  "Pannonhalma"
-                ],
-                "alkoholtartalom": [
-                  "14,5%"
-                ]
-              }
-            }
-          },
-          "Rosébor": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Chill"
-                ],
-                "kiszerelés": [
-                  "0,75 l"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "Duna-Tisza közi Kékfrankos Rosé száraz magyar rosébor"
-                ],
-                "szín": [
-                  "rosé"
-                ],
-                "édesség": [
-                  "száraz"
-                ],
-                "szőlőfajta": [
-                  "Kékfrankos"
-                ],
-                "borvidék": [
-                  "Duna-Tisza köze"
-                ],
-                "alkoholtartalom": [
-                  "11,5%"
                 ]
               }
             }

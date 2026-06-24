@@ -107,3 +107,5 @@ TypeError: 'dict_itemiterator' object is not callable
 2026-06-23 09:13:42,474  INFO     ALKALMAZ kész: op=merge_mapping  érintett termék=0  fa=beolvasztva ide: Baba > Bébi snack, keksz > Bébikeksz  (eltérő szint: 2 → 3)  (3.59 s)
 2026-06-23 12:21:26,403  INFO     Leállítva (Ctrl+C).
 2026-06-23 12:21:26,404  INFO     ================ Szerver kilépett ================
+2026-06-24 10:20:50,964  INFO     ================ Kategória-szerkesztő indul ================
+2026-06-24 10:20:50,964  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log
