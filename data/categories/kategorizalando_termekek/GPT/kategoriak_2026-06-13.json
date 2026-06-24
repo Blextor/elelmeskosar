@@ -111535,14 +111535,6 @@
         "feldolgozott": {}
       },
       "csoportos": {
-        "csomagolás": [
-          "csomagolt",
-          "csomós",
-          "salátatál",
-          "csokros",
-          "tálcás",
-          "hálós"
-        ],
         "fajta": [
           "salátakeverék",
           "mix"
@@ -111594,10 +111586,7 @@
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {
-            "márka": [],
-            "csomagolás": [
-              "csomagolt"
-            ]
+            "márka": []
           }
         },
         "altípusok": {}
@@ -111644,10 +111633,6 @@
               "The Grower's Harvest",
               "Tesco",
               "Tesco Finest"
-            ],
-            "csomagolás": [
-              "védőgázas",
-              "csomagolt"
             ],
             "fajta": [
               "Sárga burgonya",
@@ -111717,10 +111702,6 @@
               "SPAR Enjoy",
               "ENJOY"
             ],
-            "csomagolás": [
-              "védőgázas",
-              "zacskós"
-            ],
             "fajta": [
               "Madársaláta",
               "Rukkola",
@@ -111770,10 +111751,6 @@
             "márka": [
               "Metro Chef",
               "Eisberg"
-            ],
-            "csomagolás": [
-              "védőgázas",
-              "csomagolt"
             ]
           }
         },
@@ -111815,9 +111792,6 @@
             "színe": [
               "Fehér",
               "Barna"
-            ],
-            "csomagolás": [
-              "csomagolt"
             ],
             "fajta": [
               "Laskagomba",
@@ -111864,11 +111838,6 @@
               "The Grower's Harvest",
               "Tesco"
             ],
-            "csomagolás": [
-              "védőgázas",
-              "hálós",
-              "csomagolt"
-            ],
             "fajta": [
               "Vöröshagyma",
               "Lilahagyma",
@@ -111901,9 +111870,6 @@
               "Metro Chef",
               "Eisberg"
             ],
-            "csomagolás": [
-              "védőgázas"
-            ],
             "fajta": [
               "Fejes káposzta",
               "Vöröskáposzta",
@@ -111921,9 +111887,6 @@
             "márka": [
               "Metro Chef",
               "Eisberg"
-            ],
-            "csomagolás": [
-              "védőgázas"
             ]
           }
         },
@@ -112027,10 +111990,6 @@
               "S-Budget",
               "SPAR"
             ],
-            "csomagolás": [
-              "csomagolt",
-              "hálós"
-            ],
             "fajta": [
               "Hegyes erős paprika",
               "Lecsópaprika",
@@ -112102,13 +112061,6 @@
               "Trivega",
               "S-Budget"
             ],
-            "csomagolás": [
-              "védőgázas",
-              "dobozos",
-              "csomagolt",
-              "vödrös",
-              "tálcás"
-            ],
             "fürtös": [
               "fürtös"
             ],
@@ -112149,9 +112101,6 @@
             ],
             "márka": [
               "Tesco"
-            ],
-            "csomagolás": [
-              "csomagolt"
             ]
           }
         },
@@ -112181,9 +112130,6 @@
               "Metro Chef",
               "Tesco"
             ],
-            "csomagolás": [
-              "csomagolt"
-            ],
             "fajta": [
               "Jégsaláta",
               "Fejessaláta",
@@ -112207,10 +112153,6 @@
               "S-Budget",
               "SPAR Natur*pur",
               "Tesco"
-            ],
-            "csomagolás": [
-              "védőgázas",
-              "csomagolt"
             ],
             "fajta": [
               "sárgarépa"
@@ -112297,10 +112239,6 @@
           "csoportos": {
             "márka": [
               "Metro Chef"
-            ],
-            "csomagolás": [
-              "védőgázas",
-              "csomagolt"
             ],
             "fajta": [
               "Szárzeller",
