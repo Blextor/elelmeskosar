@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "generated_at": "2026-06-24T19:05:47",
+    "input_category_file": "tejtermekek_kategoria_2026-06-24.json",
+    "input_product_file": "tejtermekek_termekek_2026-06-24.json",
+    "output_category_file": "tejtermekek_javitott_kategoria_2026-06-24.json",
+    "output_product_file": "tejtermekek_javitott_termekek_2026-06-24.json",
+    "fokategoria": "Tejtermékek és tojás",
+    "note": "Csak kulon tejtermekes munkafajlokbol dolgozik; fo JSON fajlokat nem ir."
+  },
+  "counts": {
+    "products": 5103,
+    "alkategoriak": 15,
+    "declared_paths": 118,
+    "used_paths": 102,
+    "empty_altipus_products": 0,
+    "missing_paths": 0,
+    "product_only_props": 0,
+    "category_only_props": 0,
+    "rare_props_max_5": 0,
+    "noisy_or_merged_props_left": 0,
+    "bad_sajt_forma_values_left": 0
+  },
+  "alkategoriak": [
+    {
+      "alkategoria": "Sajt",
+      "termek_db": 1375
+    },
+    {
+      "alkategoria": "Joghurt",
+      "termek_db": 521
+    },
+    {
+      "alkategoria": "Növényi alternatíva",
+      "termek_db": 462
+    },
+    {
+      "alkategoria": "Tejdesszert, puding",
+      "termek_db": 420
+    },
+    {
+      "alkategoria": "Tejital, jegeskávé",
+      "termek_db": 385
+    },
+    {
+      "alkategoria": "Krémtúró, túródesszert",
+      "termek_db": 366
+    },
+    {
+      "alkategoria": "Ivójoghurt, kefir, író, aludttej",
+      "termek_db": 276
+    },
+    {
+      "alkategoria": "Tej",
+      "termek_db": 208
+    },
+    {
+      "alkategoria": "Tejszín",
+      "termek_db": 190
+    },
+    {
+      "alkategoria": "Margarin",
+      "termek_db": 189
+    },
+    {
+      "alkategoria": "Vaj",
+      "termek_db": 168
+    },
+    {
+      "alkategoria": "Tejföl",
+      "termek_db": 165
+    },
+    {
+      "alkategoria": "Sajtkrém, szendvicskrém",
+      "termek_db": 150
+    },
+    {
+      "alkategoria": "Túró",
+      "termek_db": 131
+    },
+    {
+      "alkategoria": "Tojás",
+      "termek_db": 97
+    }
+  ],
+  "termekutak": [
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Félkemény sajt",
+      "termek_db": 388
+    },
+    {
+      "alkategoria": "Joghurt",
+      "altipus": "Gyümölcsös/ízesített joghurt",
+      "termek_db": 284
+    },
+    {
+      "alkategoria": "Krémtúró, túródesszert",
+      "altipus": "Túró Rudi jellegű túródesszert",
+      "termek_db": 240
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Friss / lágy sajt",
+      "termek_db": 191
+    },
+    {
+      "alkategoria": "Margarin",
+      "altipus": "Margarin",
+      "termek_db": 189
+    },
+    {
+      "alkategoria": "Ivójoghurt, kefir, író, aludttej",
+      "altipus": "Ivójoghurt",
+      "termek_db": 180
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Ömlesztett sajt",
+      "termek_db": 176
+    },
+    {
+      "alkategoria": "Növényi alternatíva",
+      "altipus": "Növényi ital",
+      "termek_db": 167
+    },
+    {
+      "alkategoria": "Tejföl",
+      "altipus": "Tejföl",
+      "termek_db": 152
+    },
+    {
+      "alkategoria": "Tejital, jegeskávé",
+      "altipus": "Kávéital / latte / cappuccino",
+      "termek_db": 132
+    },
+    {
+      "alkategoria": "Tejdesszert, puding",
+      "altipus": "Puding",
+      "termek_db": 122
+    },
+    {
+      "alkategoria": "Tej",
+      "altipus": "UHT tartós tej",
+      "termek_db": 112
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Kemény sajt",
+      "termek_db": 112
+    },
+    {
+      "alkategoria": "Tejdesszert, puding",
+      "altipus": "Egyéb tejdesszert",
+      "termek_db": 101
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Penészes sajt",
+      "termek_db": 97
+    },
+    {
+      "alkategoria": "Joghurt",
+      "altipus": "Natúr joghurt",
+      "termek_db": 92
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Grillsajt / halloumi / sütnivaló",
+      "termek_db": 91
+    },
+    {
+      "alkategoria": "Tejital, jegeskávé",
+      "altipus": "Egyéb ízesített tejital",
+      "termek_db": 90
+    },
+    {
+      "alkategoria": "Ivójoghurt, kefir, író, aludttej",
+      "altipus": "Kefir",
+      "termek_db": 89
+    },
+    {
+      "alkategoria": "Tejdesszert, puding",
+      "altipus": "Tejberizs",
+      "termek_db": 88
+    },
+    {
+      "alkategoria": "Tojás",
+      "altipus": "Tyúktojás",
+      "termek_db": 87
+    },
+    {
+      "alkategoria": "Túró",
+      "altipus": "Tehéntúró",
+      "termek_db": 85
+    },
+    {
+      "alkategoria": "Vaj",
+      "altipus": "Teavaj, márkázott vaj",
+      "termek_db": 76
+    },
+    {
+      "alkategoria": "Tejital, jegeskávé",
+      "altipus": "Jegeskávé",
+      "termek_db": 76
+    },
+    {
+      "alkategoria": "Növényi alternatíva",
+      "altipus": "Növényi főzőkrém / tejszín",
+      "termek_db": 72
+    },
+    {
+      "alkategoria": "Tejszín",
+      "altipus": "Főzőtejszín",
+      "termek_db": 68
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Krémsajt / kenhető sajt",
+      "termek_db": 67
+    },
+    {
+      "alkategoria": "Tejital, jegeskávé",
+      "altipus": "Kakaós tej",
+      "termek_db": 67
+    },
+    {
+      "alkategoria": "Tej",
+      "altipus": "ESL tej",
+      "termek_db": 66
+    },
+    {
+      "alkategoria": "Joghurt",
+      "altipus": "Görög joghurt",
+      "termek_db": 63
+    },
+    {
+      "alkategoria": "Joghurt",
+      "altipus": "Krémjoghurt",
+      "termek_db": 59
+    },
+    {
+      "alkategoria": "Sajtkrém, szendvicskrém",
+      "altipus": "Szendvicskrém",
+      "termek_db": 55
+    },
+    {
+      "alkategoria": "Növényi alternatíva",
+      "altipus": "Növényi joghurt",
+      "termek_db": 55
+    },
+    {
+      "alkategoria": "Növényi alternatíva",
+      "altipus": "Növényi sajt",
+      "termek_db": 55
+    },
+    {
+      "alkategoria": "Tejdesszert, puding",
+      "altipus": "Tejszelet",
+      "termek_db": 54
+    },
+    {
+      "alkategoria": "Krémtúró, túródesszert",
+      "altipus": "Gyümölcsös krémtúró",
+      "termek_db": 53
+    },
+    {
+      "alkategoria": "Vaj",
+      "altipus": "Vajkrém",
+      "termek_db": 51
+    },
+    {
+      "alkategoria": "Krémtúró, túródesszert",
+      "altipus": "Natúr krémtúró",
+      "termek_db": 50
+    },
+    {
+      "alkategoria": "Tejszín",
+      "altipus": "Tejszínhab spray",
+      "termek_db": 47
+    },
+    {
+      "alkategoria": "Sajtkrém, szendvicskrém",
+      "altipus": "Sajtkrém",
+      "termek_db": 41
+    },
+    {
+      "alkategoria": "Növényi alternatíva",
+      "altipus": "Növényi desszert",
+      "termek_db": 38
+    },
+    {
+      "alkategoria": "Sajtkrém, szendvicskrém",
+      "altipus": "Ömlesztett sajt",
+      "termek_db": 36
+    },
+    {
+      "alkategoria": "Tejszín",
+      "altipus": "Habtejszín",
+      "termek_db": 35
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Mozzarella",
+      "termek_db": 35
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Szeletelt sajt",
+      "termek_db": 35
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Darabolt sajt",
+      "termek_db": 35
+    },
+    {
+      "alkategoria": "Növényi alternatíva",
+      "altipus": "Növényi szendvicskrém",
+      "termek_db": 33
+    },
+    {
+      "alkategoria": "Tejszín",
+      "altipus": "Kávétejszín",
+      "termek_db": 31
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Camembert / Brie",
+      "termek_db": 31
+    },
+    {
+      "alkategoria": "Tejdesszert, puding",
+      "altipus": "Habdesszert",
+      "termek_db": 24
+    },
+    {
+      "alkategoria": "Tejdesszert, puding",
+      "altipus": "Hűtött snack",
+      "termek_db": 24
+    },
+    {
+      "alkategoria": "Vaj",
+      "altipus": "Kenhető vajkeverék",
+      "termek_db": 23
+    },
+    {
+      "alkategoria": "Joghurt",
+      "altipus": "Skyr / proteinjoghurt",
+      "termek_db": 23
+    },
+    {
+      "alkategoria": "Növényi alternatíva",
+      "altipus": "Növényi joghurt / fermentált készítmény",
+      "termek_db": 23
+    },
+    {
+      "alkategoria": "Krémtúró, túródesszert",
+      "altipus": "Túródesszert",
+      "termek_db": 23
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Reszelt sajt",
+      "termek_db": 22
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Feta / krémfehér sajt",
+      "termek_db": 20
+    },
+    {
+      "alkategoria": "Túró",
+      "altipus": "Körözött",
+      "termek_db": 19
+    },
+    {
+      "alkategoria": "Tejital, jegeskávé",
+      "altipus": "Protein tejital",
+      "termek_db": 18
+    },
+    {
+      "alkategoria": "Sajtkrém, szendvicskrém",
+      "altipus": "Vajkrém",
+      "termek_db": 16
+    },
+    {
+      "alkategoria": "Vaj",
+      "altipus": "Vaj",
+      "termek_db": 16
+    },
+    {
+      "alkategoria": "Túró",
+      "altipus": "Juhtúró",
+      "termek_db": 15
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Mascarpone",
+      "termek_db": 13
+    },
+    {
+      "alkategoria": "Tejföl",
+      "altipus": "Laktózmentes tejföl",
+      "termek_db": 12
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Trappista sajt",
+      "termek_db": 12
+    },
+    {
+      "alkategoria": "Növényi alternatíva",
+      "altipus": "Növényi vaj / margarin",
+      "termek_db": 10
+    },
+    {
+      "alkategoria": "Túró",
+      "altipus": "Cottage cheese",
+      "termek_db": 10
+    },
+    {
+      "alkategoria": "Tej",
+      "altipus": "Friss tej",
+      "termek_db": 9
+    },
+    {
+      "alkategoria": "Tojás",
+      "altipus": "Egyéb tojás (fürj, stb.)",
+      "termek_db": 8
+    },
+    {
+      "alkategoria": "Tej",
+      "altipus": "Sűrített tej",
+      "termek_db": 8
+    },
+    {
+      "alkategoria": "Növényi alternatíva",
+      "altipus": "Növényi tejföl",
+      "termek_db": 8
+    },
+    {
+      "alkategoria": "Tejszín",
+      "altipus": "Cukrászhab",
+      "termek_db": 8
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Parenyica",
+      "termek_db": 8
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Lapka sajt",
+      "termek_db": 8
+    },
+    {
+      "alkategoria": "Tej",
+      "altipus": "Tej",
+      "termek_db": 8
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Sajtsnack",
+      "termek_db": 7
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Kék sajt",
+      "termek_db": 7
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Cheddar",
+      "termek_db": 6
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Kecskesajt",
+      "termek_db": 6
+    },
+    {
+      "alkategoria": "Ivójoghurt, kefir, író, aludttej",
+      "altipus": "Író",
+      "termek_db": 5
+    },
+    {
+      "alkategoria": "Tejdesszert, puding",
+      "altipus": "Desszertalap",
+      "termek_db": 5
+    },
+    {
+      "alkategoria": "Vaj",
+      "altipus": "Fűszervaj",
+      "termek_db": 2
+    },
+    {
+      "alkategoria": "Tejdesszert, puding",
+      "altipus": "Pohárdesszert, krémdesszert",
+      "termek_db": 2
+    },
+    {
+      "alkategoria": "Tejital, jegeskávé",
+      "altipus": "Tejalapú ital",
+      "termek_db": 2
+    },
+    {
+      "alkategoria": "Sajtkrém, szendvicskrém",
+      "altipus": "Sajtszósz",
+      "termek_db": 2
+    },
+    {
+      "alkategoria": "Ivójoghurt, kefir, író, aludttej",
+      "altipus": "Aludttej",
+      "termek_db": 2
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Ricotta",
+      "termek_db": 2
+    },
+    {
+      "alkategoria": "Tojás",
+      "altipus": "Fürjtojás",
+      "termek_db": 2
+    },
+    {
+      "alkategoria": "Túró",
+      "altipus": "Rögös túró",
+      "termek_db": 2
+    },
+    {
+      "alkategoria": "Tej",
+      "altipus": "Kávéfehérítő, tejkészítmény",
+      "termek_db": 2
+    },
+    {
+      "alkategoria": "Tejszín",
+      "altipus": "Hab- és főzőtejszín",
+      "termek_db": 1
+    },
+    {
+      "alkategoria": "Növényi alternatíva",
+      "altipus": "Növényi főzőkrém",
+      "termek_db": 1
+    },
+    {
+      "alkategoria": "Tejföl",
+      "altipus": "Ízesített tejföl",
+      "termek_db": 1
+    },
+    {
+      "alkategoria": "Tej",
+      "altipus": "Kecsketej",
+      "termek_db": 1
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Marinált sajt",
+      "termek_db": 1
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Burrata",
+      "termek_db": 1
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Sajtspecialitás",
+      "termek_db": 1
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Raclette",
+      "termek_db": 1
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Scamorza",
+      "termek_db": 1
+    },
+    {
+      "alkategoria": "Sajt",
+      "altipus": "Juhsajt",
+      "termek_db": 1
+    },
+    {
+      "alkategoria": "Tej",
+      "altipus": "Tejpor",
+      "termek_db": 1
+    },
+    {
+      "alkategoria": "Tej",
+      "altipus": "Laktózmentes tej",
+      "termek_db": 1
+    }
+  ],
+  "missing_paths": [],
+  "product_only_props": [],
+  "category_only_props": [],
+  "rare_props_max_5": [],
+  "noisy_or_merged_props_left": {},
+  "bad_sajt_forma_values_left": {}
+}

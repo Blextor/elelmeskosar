@@ -47,10 +47,10 @@ function buildAlkat() {
     return;
   }
   sel.disabled = false;
-  const aks = Object.keys(TREE[state.fokat]).sort((a, b) => a.localeCompare(b, "hu"));
+  const aks = Object.keys(TREE[state.fokat]).filter(ak => ak !== "").sort((a, b) => a.localeCompare(b, "hu"));
   const cnt = (ak) => Object.values(TREE[state.fokat][ak]).reduce((s, n) => s + n, 0);
   sel.innerHTML = `<option value="">Összes alkategória</option>` +
-    aks.map(ak => `<option value="${esc(ak)}"${ak === state.alkat ? " selected" : ""}>${esc(ak || "—")} (${cnt(ak)})</option>`).join("");
+    aks.map(ak => `<option value="${esc(ak)}"${ak === state.alkat ? " selected" : ""}>${esc(ak)} (${cnt(ak)})</option>`).join("");
   buildAltipus();
 }
 
@@ -63,9 +63,10 @@ function buildAltipus() {
   }
   sel.disabled = false;
   const node = TREE[state.fokat][state.alkat];
-  const ts = Object.keys(node).sort((a, b) => a.localeCompare(b, "hu"));
+  // az üres ("(nincs altípus)") bejegyzést nem mutatjuk külön opcióként – az "Összes altípus" amúgy is tartalmazza
+  const ts = Object.keys(node).filter(t => t !== "").sort((a, b) => a.localeCompare(b, "hu"));
   sel.innerHTML = `<option value="">Összes altípus</option>` +
-    ts.map(t => `<option value="${esc(t)}"${t === state.altipus ? " selected" : ""}>${esc(t || "—")} (${node[t]})</option>`).join("");
+    ts.map(t => `<option value="${esc(t)}"${t === state.altipus ? " selected" : ""}>${esc(t)} (${node[t]})</option>`).join("");
 }
 
 // ---------------------------------------------------------------- events

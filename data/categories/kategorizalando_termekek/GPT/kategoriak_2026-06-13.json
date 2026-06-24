@@ -111521,22 +111521,7 @@
       "egyedi": {
         "bio": {},
         "hazai": {},
-        "kiszerelés": [
-          "lédig",
-          "csomagolt",
-          "tálca",
-          "zacskó",
-          "hálós",
-          "csokor",
-          "1 kg",
-          "2 kg",
-          "csomós",
-          "darabra",
-          "egyéb",
-          "cserép"
-        ],
         "márka": [
-          "márka nélkül",
           "Gazdától az asztalig",
           "LUST",
           "Veresi Piroska",
@@ -111546,23 +111531,21 @@
           "Eisberg",
           "Fresh For You",
           "Auchan Nívó"
-        ]
+        ],
+        "feldolgozott": {}
       },
       "csoportos": {
-        "feldolgozottság": [
-          "egész",
-          "vágott",
-          "mosott",
-          "konyhakész",
-          "mix",
-          "hámozott",
-          "egyéb"
+        "csomagolás": [
+          "csomagolt",
+          "csomós",
+          "salátatál",
+          "csokros",
+          "tálcás",
+          "hálós"
         ],
-        "méret": [
-          "mini",
-          "normál",
-          "extra",
-          "egyéb"
+        "fajta": [
+          "salátakeverék",
+          "mix"
         ]
       }
     },
@@ -111587,11 +111570,7 @@
           "Ceruzabab": {
             "tulajdonságok": {
               "egyedi": {},
-              "csoportos": {
-                "terméktípus": [
-                  "ceruzabab"
-                ]
-              }
+              "csoportos": {}
             },
             "altípusok": {}
           }
@@ -111615,36 +111594,13 @@
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {
-            "márka": [
-              "márka nélkül"
-            ],
-            "kiszerelés": [
-              "csomag"
+            "márka": [],
+            "csomagolás": [
+              "csomagolt"
             ]
           }
         },
-        "altípusok": {
-          "Brokkoli": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "zöldség típusa": [
-                  "brokkoli"
-                ],
-                "kiszerelés": [
-                  "500 g"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Burgonya": {
         "tulajdonságok": {
@@ -111666,174 +111622,61 @@
               "Lila burgonya",
               "Mikrózható",
               "Saláta burgonya",
-              "egyéb"
+              "egyéb",
+              "újburgonya piros",
+              "kifliburgonya",
+              "parázs újburgonya",
+              "újburgonya sárga",
+              "piros étkezési burgonya",
+              "főznivaló burgonya",
+              "piros burgonya",
+              "sárga étkezési burgonya",
+              "salátának való burgonya",
+              "sárga burgonya"
             ]
           },
           "csoportos": {
             "márka": [
-              "márka nélkül",
-              "Metro Chef"
-            ],
-            "kiszerelés": [
-              "zsák",
-              "karton",
-              "lédig",
-              "háló",
-              "tasak",
-              "zacskó"
-            ],
-            "feldolgozottság": [
-              "tisztított nagykocka",
-              "tisztított egész",
-              "tisztított nagyhasáb",
-              "tisztított előfőzött",
-              "tisztított szeletelt",
-              "héjas előfőzött",
-              "egész"
+              "Metro Chef",
+              "Goldenburg",
+              "SPAR Natur*pur",
+              "S-Budget",
+              "The Grower's Harvest",
+              "Tesco",
+              "Tesco Finest"
             ],
             "csomagolás": [
-              "védőgázas"
+              "védőgázas",
+              "csomagolt"
+            ],
+            "fajta": [
+              "Sárga burgonya",
+              "Édesburgonya"
             ]
           }
         },
-        "altípusok": {
-          "Sárga burgonya": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {}
-              },
-              "csoportos": {}
-            },
-            "altípusok": {}
-          },
-          "Burgonya": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {},
-                "bio": {},
-                "fajta": [
-                  "újburgonya piros",
-                  "kifliburgonya",
-                  "újburgonya",
-                  "parázs újburgonya",
-                  "újburgonya sárga",
-                  "piros étkezési burgonya",
-                  "főznivaló burgonya",
-                  "piros burgonya",
-                  "sárga étkezési burgonya",
-                  "salátának való burgonya",
-                  "sárga burgonya"
-                ]
-              },
-              "csoportos": {
-                "márka": [
-                  "Goldenburg",
-                  "márka nélkül",
-                  "SPAR Natur*pur",
-                  "S-Budget",
-                  "The Grower's Harvest",
-                  "Tesco",
-                  "Tesco Finest"
-                ],
-                "felhasználás": [
-                  "sütéshez",
-                  "főzéshez"
-                ],
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "zöldség típusa": [
-                  "újburgonya",
-                  "parázsburgonya"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "terméktípus": [
-                  "burgonya"
-                ],
-                "kiszerelés": [
-                  "5 kg",
-                  "2 kg",
-                  "1 kg"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Édesburgonya": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {},
-                "fajta": [
-                  "édesburgonya"
-                ]
-              },
-              "csoportos": {
-                "zöldség típusa": [
-                  "édesburgonya"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "márka": [
-                  "márka nélkül",
-                  "Tesco"
-                ],
-                "terméktípus": [
-                  "burgonya"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Cékla": {
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {
             "márka": [
-              "márka nélkül",
               "Metro Chef"
-            ],
-            "kiszerelés": [
-              "háló",
-              "zacskó"
-            ],
-            "feldolgozottság": [
-              "egész",
-              "főtt",
-              "szeletelt"
             ]
           }
         },
-        "altípusok": {
-          "Cékla": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "terméktípus": [
-                  "cékla"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Csomagolt saláta, salátatál": {
         "tulajdonságok": {
           "egyedi": {
             "mosott": {},
             "konyhakész": {},
-            "bio": {}
+            "bio": {},
+            "márka": [
+              "Eisberg"
+            ]
           },
           "csoportos": {
             "saláta alap": [
@@ -111868,194 +111711,26 @@
             ],
             "márka": [
               "Eisberg",
-              "márka nélkül",
-              "Metro Chef"
-            ],
-            "kiszerelés": [
-              "zacskó",
-              "csomag",
-              "doboz",
-              "darab",
-              "tálca",
-              "vödör"
-            ],
-            "feldolgozottság": [
-              "egész",
-              "tisztított",
-              "szeletelt",
-              "kockázott",
-              "csíkok"
+              "Metro Chef",
+              "Penny To Go",
+              "SPAR",
+              "SPAR Enjoy",
+              "ENJOY"
             ],
             "csomagolás": [
-              "védőgázas"
+              "védőgázas",
+              "zacskós"
             ],
-            "terméktípus": [
-              "salátakeverék",
-              "friss saláta",
-              "salátatál"
+            "fajta": [
+              "Madársaláta",
+              "Rukkola",
+              "Bébispenót",
+              "Salátakeverék",
+              "Salátatál"
             ]
           }
         },
-        "altípusok": {
-          "Madársaláta": {
-            "tulajdonságok": {
-              "egyedi": {
-                "készre mosott": {}
-              },
-              "csoportos": {
-                "márka": [
-                  "Penny To Go",
-                  "Eisberg"
-                ],
-                "csomagolás": [
-                  "zacskós"
-                ],
-                "terméktípus": [
-                  "madársaláta"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Rukkola": {
-            "tulajdonságok": {
-              "egyedi": {
-                "készre mosott": {}
-              },
-              "csoportos": {
-                "márka": [
-                  "Penny To Go",
-                  "márka nélkül",
-                  "Eisberg"
-                ],
-                "csomagolás": [
-                  "zacskós"
-                ],
-                "zöldség típusa": [
-                  "rukkola"
-                ],
-                "kiszerelés": [
-                  "100 g"
-                ],
-                "terméktípus": [
-                  "rucola"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Bébispenót": {
-            "tulajdonságok": {
-              "egyedi": {
-                "készre mosott": {}
-              },
-              "csoportos": {
-                "márka": [
-                  "Penny To Go",
-                  "Eisberg"
-                ],
-                "csomagolás": [
-                  "zacskós"
-                ],
-                "terméktípus": [
-                  "bébispenót"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Salátakeverék": {
-            "tulajdonságok": {
-              "egyedi": {
-                "készre mosott": {}
-              },
-              "csoportos": {
-                "márka": [
-                  "Penny To Go",
-                  "Eisberg",
-                  "SPAR"
-                ],
-                "íz": [
-                  "Palotás",
-                  "Czifra",
-                  "Supreme",
-                  "Grande"
-                ],
-                "csomagolás": [
-                  "zacskós"
-                ],
-                "terméktípus": [
-                  "csirkés Cézár salátatál",
-                  "görög jellegű salátatál",
-                  "My Salad",
-                  "Your Salad",
-                  "salátakeverék",
-                  "saláta- és zöldségkeverék",
-                  "szeletelt jégsaláta"
-                ],
-                "forma": [
-                  "salátatál",
-                  "salátakeverék"
-                ],
-                "fajta": [
-                  "káposztasaláta",
-                  "Green Time Tango Mix",
-                  "Puszta",
-                  "Green Picnic Farmer Mix",
-                  "Pántlika",
-                  "Bolero Mix",
-                  "De Luxe Mix",
-                  "Ranch Mix",
-                  "Green Drink",
-                  "Betyár",
-                  "Fitness Mix",
-                  "bébilevél mix",
-                  "Pikkoló Mix",
-                  "Korall Mix",
-                  "Classic Mix"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Salátatál": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Eisberg"
-                ]
-              },
-              "csoportos": {
-                "márka": [
-                  "SPAR Enjoy",
-                  "ENJOY"
-                ],
-                "terméktípus": [
-                  "gombasaláta",
-                  "salátatál"
-                ],
-                "fajta": [
-                  "svéd",
-                  "olasz stílusú"
-                ],
-                "alap": [
-                  "saláta",
-                  "zöldség"
-                ],
-                "íz": [
-                  "görög jellegű"
-                ],
-                "forma": [
-                  "tálcás"
-                ],
-                "kiszerelés": [
-                  "tálca"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Egyéb zöldség": {
         "tulajdonságok": {
@@ -112077,16 +111752,8 @@
               "brokkolicsíra"
             ],
             "márka": [
-              "márka nélkül",
               "Metro Chef",
               "Bio Csiri"
-            ],
-            "kiszerelés": [
-              "darab",
-              "lédig",
-              "tálca",
-              "zacskó",
-              "doboz"
             ]
           }
         },
@@ -112097,61 +111764,20 @@
           "egyedi": {},
           "csoportos": {
             "fajta": [
-              "petrezselyemgyökér"
+              "petrezselyemgyökér",
+              "Petrezselyemgyökér"
             ],
             "márka": [
-              "márka nélkül",
               "Metro Chef",
               "Eisberg"
             ],
-            "kiszerelés": [
-              "háló",
-              "zacskó",
-              "csomag",
-              "doboz",
-              "tálca",
-              "vödör"
-            ],
-            "feldolgozottság": [
-              "tisztított",
-              "kockázott",
-              "szeletelt",
-              "egész",
-              "csíkok"
-            ],
             "csomagolás": [
-              "védőgázas"
+              "védőgázas",
+              "csomagolt"
             ]
           }
         },
-        "altípusok": {
-          "Petrezselyemgyökér": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {}
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "zöldség típusa": [
-                  "petrezselyemgyökér"
-                ],
-                "forma": [
-                  "lédig",
-                  "csomós"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ],
-                "terméktípus": [
-                  "petrezselyemgyökér"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Gomba": {
         "tulajdonságok": {
@@ -112175,157 +111801,33 @@
               "Metro Chef",
               "Fungi Exotica",
               "Korona",
-              "márka nélkül",
-              "Gastro Grill"
-            ]
+              "Gastro Grill",
+              "Basic",
+              "My Bio",
+              "Tesco",
+              "Kofa",
+              "S-Budget",
+              "SPAR BBQ"
+            ],
+            "bio": {}
           },
           "csoportos": {
-            "feldolgozottság": [
-              "szárított",
-              "szeletelt",
-              "por",
-              "grill"
-            ],
-            "kiszerelés": [
-              "tálca",
-              "üveg",
-              "rekesz",
-              "csomag",
-              "doboz"
-            ],
             "színe": [
               "Fehér",
               "Barna"
+            ],
+            "csomagolás": [
+              "csomagolt"
+            ],
+            "fajta": [
+              "Laskagomba",
+              "Csiperkegomba",
+              "Fehér csiperkegomba",
+              "Barna csiperkegomba"
             ]
           }
         },
-        "altípusok": {
-          "Laskagomba": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "márka nélkül",
-                  "Basic"
-                ]
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "forma": [
-                  "csokros"
-                ],
-                "zöldség típusa": [
-                  "laskagomba"
-                ],
-                "kiszerelés": [
-                  "300 g"
-                ],
-                "terméktípus": [
-                  "laskagomba"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Csiperkegomba": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {},
-                "márka": [
-                  "My Bio",
-                  "Tesco",
-                  "Kofa"
-                ]
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "forma": [
-                  "szeletelt"
-                ],
-                "fajta": [
-                  "fehér csiperkegomba"
-                ],
-                "kiszerelés": [
-                  "500 g",
-                  "400 g"
-                ],
-                "terméktípus": [
-                  "szeletelt csiperkegomba"
-                ],
-                "előkészítés": [
-                  "szeletelt"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Fehér csiperkegomba": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Korona",
-                  "S-Budget"
-                ]
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "terméktípus": [
-                  "fehér csiperke",
-                  "termesztett fehér csiperke"
-                ],
-                "forma": [
-                  "szeletelt"
-                ],
-                "minőség": [
-                  "extra"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Barna csiperkegomba": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "S-Budget"
-                ]
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "terméktípus": [
-                  "barna csiperkegomba"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Gomba": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "SPAR BBQ"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "csiperkegomba",
-                  "vegyes gombatál"
-                ],
-                "ízesítés": [
-                  "fehér"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Hagymafélék": {
         "tulajdonságok": {
@@ -112347,254 +111849,39 @@
               "Zöldhagyma",
               "Henteshagyma"
             ],
-            "hazai": {}
+            "hazai": {},
+            "bio": {},
+            "márka": [
+              "Tesco"
+            ]
           },
           "csoportos": {
             "márka": [
-              "márka nélkül",
-              "Metro Chef"
-            ],
-            "kiszerelés": [
-              "zacskó",
-              "háló",
-              "zsák",
-              "csomag",
-              "tálca",
-              "csomó",
-              "rekesz",
-              "üveg"
-            ],
-            "feldolgozottság": [
-              "tisztított",
-              "gerezd",
-              "egész",
-              "kockázott",
-              "szeletelt"
+              "Metro Chef",
+              "Penny",
+              "S-Budget",
+              "SPAR Natur*pur",
+              "The Grower's Harvest",
+              "Tesco"
             ],
             "csomagolás": [
-              "védőgázas"
+              "védőgázas",
+              "hálós",
+              "csomagolt"
+            ],
+            "fajta": [
+              "Vöröshagyma",
+              "Lilahagyma",
+              "Fokhagyma",
+              "Fehér hagyma",
+              "Póréhagyma",
+              "Csemegehagyma",
+              "Hagymamix",
+              "Hagyma"
             ]
           }
         },
-        "altípusok": {
-          "Vöröshagyma": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {},
-                "bio": {}
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "hálós"
-                ],
-                "márka": [
-                  "Penny",
-                  "márka nélkül",
-                  "S-Budget",
-                  "SPAR Natur*pur",
-                  "The Grower's Harvest",
-                  "Tesco"
-                ],
-                "zöldség típusa": [
-                  "vöröshagyma"
-                ],
-                "forma": [
-                  "csomagolt",
-                  "lédig"
-                ],
-                "kiszerelés": [
-                  "1 kg",
-                  "lédig",
-                  "3 db"
-                ],
-                "terméktípus": [
-                  "vöröshagyma"
-                ],
-                "fajta": [
-                  "Vöröshagyma"
-                ],
-                "felhasználás": [
-                  "salátákhoz"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Lilahagyma": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {},
-                "bio": {}
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "zöldség típusa": [
-                  "lilahagyma"
-                ],
-                "forma": [
-                  "csomagolt",
-                  "lédig"
-                ],
-                "kiszerelés": [
-                  "1 kg",
-                  "lédig",
-                  "500 g"
-                ],
-                "márka": [
-                  "márka nélkül",
-                  "The Grower's Harvest"
-                ],
-                "terméktípus": [
-                  "lilahagyma",
-                  "lila salátahagyma"
-                ],
-                "fajta": [
-                  "Lilahagyma"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Fokhagyma": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {}
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "zöldség típusa": [
-                  "fokhagyma"
-                ],
-                "forma": [
-                  "necc"
-                ],
-                "darabszám": [
-                  "3 db"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ],
-                "terméktípus": [
-                  "fokhagyma"
-                ],
-                "szín": [
-                  "fehér"
-                ],
-                "fajta": [
-                  "Fokhagyma"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ],
-                "feldolgozottság": [
-                  "egész"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Fehér hagyma": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "zöldség típusa": [
-                  "fehér hagyma"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ],
-                "terméktípus": [
-                  "salátahagyma"
-                ]
-              }
-            }
-          },
-          "Póréhagyma": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "zöldség típusa": [
-                  "póréhagyma"
-                ],
-                "forma": [
-                  "darabos"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ],
-                "terméktípus": [
-                  "póréhagyma"
-                ],
-                "fajta": [
-                  "Póréhagyma"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ]
-              }
-            }
-          },
-          "Csemegehagyma": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "zöldség típusa": [
-                  "csemegehagyma"
-                ],
-                "forma": [
-                  "csomagolt"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ],
-                "terméktípus": [
-                  "csemegehagyma"
-                ],
-                "fajta": [
-                  "Csemegehagyma"
-                ],
-                "kiszerelés": [
-                  "csomó"
-                ]
-              }
-            }
-          },
-          "Hagymamix": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "terméktípus": [
-                  "hagymamix"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Hagyma": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ]
-              },
-              "csoportos": {
-                "fajta": [
-                  "saslik hagyma"
-                ],
-                "kiszerelés": [
-                  "500 g"
-                ]
-              }
-            }
-          }
-        }
+        "altípusok": {}
       },
       "Káposzta": {
         "tulajdonságok": {
@@ -112606,172 +111893,41 @@
               "Lilakáposzta",
               "egyéb",
               "fejes káposzta"
-            ]
+            ],
+            "márka": []
           },
           "csoportos": {
             "márka": [
-              "márka nélkül",
               "Metro Chef",
               "Eisberg"
             ],
-            "kiszerelés": [
-              "háló",
-              "csomag",
-              "lédig",
-              "zsák",
-              "zacskó",
-              "doboz",
-              "tálca",
-              "vödör"
-            ],
-            "feldolgozottság": [
-              "szálas",
-              "reszelt",
-              "tisztított",
-              "szeletelt",
-              "egész",
-              "kockázott",
-              "csíkok"
-            ],
             "csomagolás": [
               "védőgázas"
+            ],
+            "fajta": [
+              "Fejes káposzta",
+              "Vöröskáposzta",
+              "Kelkáposzta",
+              "Fejeskáposzta"
             ]
           }
         },
-        "altípusok": {
-          "Fejes káposzta": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {}
-              },
-              "csoportos": {
-                "zöldség típusa": [
-                  "fejes káposzta"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Vöröskáposzta": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {}
-              },
-              "csoportos": {
-                "zöldség típusa": [
-                  "vöröskáposzta"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ],
-                "terméktípus": [
-                  "vöröskáposzta"
-                ],
-                "fajta": [
-                  "Vöröskáposzta"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Kelkáposzta": {
-            "tulajdonságok": {
-              "egyedi": [],
-              "csoportos": {
-                "zöldség típusa": [
-                  "kelkáposzta"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ]
-              }
-            }
-          },
-          "Fejeskáposzta": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "márka nélkül"
-                ]
-              },
-              "csoportos": {
-                "fajta": [
-                  "Fehér fejeskáposzta"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ]
-              }
-            }
-          }
-        }
+        "altípusok": {}
       },
       "Karalábé": {
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {
             "márka": [
-              "márka nélkül",
               "Metro Chef",
               "Eisberg"
-            ],
-            "kiszerelés": [
-              "darab",
-              "csomó",
-              "zacskó",
-              "csomag",
-              "doboz",
-              "tálca",
-              "vödör"
-            ],
-            "feldolgozottság": [
-              "egész",
-              "tisztított",
-              "szeletelt",
-              "kockázott",
-              "csíkok"
             ],
             "csomagolás": [
               "védőgázas"
             ]
           }
         },
-        "altípusok": {
-          "Karalábé": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "zöldség típusa": [
-                  "karalábé"
-                ],
-                "forma": [
-                  "darabos"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ],
-                "terméktípus": [
-                  "karalábé"
-                ]
-              }
-            }
-          }
-        }
+        "altípusok": {}
       },
       "Karfiol": {
         "tulajdonságok": {
@@ -112781,40 +111937,19 @@
               "Sárga",
               "Sima",
               "egyéb"
-            ]
+            ],
+            "márka": []
           },
           "csoportos": {
             "márka": [
               "Metro Chef"
             ],
-            "kiszerelés": [
-              "darab"
+            "fajta": [
+              "karfiol"
             ]
           }
         },
-        "altípusok": {
-          "Karfiol": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "márka nélkül"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "karfiol"
-                ],
-                "fajta": [
-                  "karfiol"
-                ],
-                "kiszerelés": [
-                  "1 db"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Kelbimbó": {
         "tulajdonságok": {
@@ -112831,12 +111966,7 @@
               "csemegekukorica",
               "bébikukorica"
             ],
-            "márka": [
-              "márka nélkül"
-            ],
-            "kiszerelés": [
-              "tálca"
-            ]
+            "márka": []
           }
         },
         "altípusok": {}
@@ -112854,47 +111984,6 @@
           "csoportos": {}
         },
         "altípusok": {}
-      },
-      "Mix, vegyes": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {
-            "fajta": [
-              "leveszöldség"
-            ],
-            "márka": [
-              "márka nélkül"
-            ],
-            "kiszerelés": [
-              "tálca"
-            ],
-            "feldolgozottság": [
-              "előkészített"
-            ]
-          }
-        },
-        "altípusok": {
-          "Leveszöldség": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {}
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "terméktípus": [
-                  "leveszöldség"
-                ],
-                "márka": [
-                  "S-Budget",
-                  "SPAR Natur*pur"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
       },
       "Paprika": {
         "tulajdonságok": {
@@ -112924,203 +112013,42 @@
               "Zöld",
               "Mix",
               "egyéb"
+            ],
+            "bio": {},
+            "márka": [
+              "Grill Master"
             ]
           },
           "csoportos": {
             "márka": [
               "Metro Chef",
-              "márka nélkül"
+              "The Grower's Harvest",
+              "Tesco Finest",
+              "S-Budget",
+              "SPAR"
             ],
-            "kiszerelés": [
-              "karton",
-              "zacskó",
-              "háló",
-              "lédig",
-              "doboz",
-              "tálca",
-              "csomag"
+            "csomagolás": [
+              "csomagolt",
+              "hálós"
+            ],
+            "fajta": [
+              "Hegyes erős paprika",
+              "Lecsópaprika",
+              "Trikolor paprika",
+              "TV paprika",
+              "Kápia paprika"
+            ],
+            "erős, csípős": [
+              "erős, csípős"
+            ],
+            "színe": [
+              "Mix",
+              "Fehér",
+              "Piros"
             ]
           }
         },
-        "altípusok": {
-          "Hegyes erős paprika": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {}
-              },
-              "csoportos": {
-                "íz": [
-                  "erős"
-                ],
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "zöldség típusa": [
-                  "hegyes erős paprika"
-                ],
-                "forma": [
-                  "darabos"
-                ],
-                "márka": [
-                  "márka nélkül",
-                  "The Grower's Harvest",
-                  "Tesco Finest"
-                ],
-                "terméktípus": [
-                  "hegyes erős paprika",
-                  "zöld hegyes erős lecsópaprika",
-                  "szentesi hegyes erős paprika"
-                ],
-                "ízesítés": [
-                  "csípős"
-                ],
-                "fajta": [
-                  "Hegyes erős"
-                ],
-                "kiszerelés": [
-                  "lédig",
-                  "300 g",
-                  "5 db"
-                ],
-                "erős, csípős": [
-                  "erős, csípős"
-                ],
-                "eredet": [
-                  "Szentes"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Lecsópaprika": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "csomagolás": [
-                  "hálós"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Trikolor paprika": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {},
-                "márka": [
-                  "Grill Master"
-                ]
-              },
-              "csoportos": {
-                "szín": [
-                  "trikolor",
-                  "mix"
-                ],
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "terméktípus": [
-                  "californiai paprika"
-                ],
-                "fajta": [
-                  "Kaliforniai"
-                ],
-                "kiszerelés": [
-                  "500 g"
-                ],
-                "színe": [
-                  "Mix"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "TV paprika": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {}
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "étkezési fehér paprika",
-                  "étkezési paprika"
-                ],
-                "márka": [
-                  "S-Budget",
-                  "SPAR",
-                  "márka nélkül"
-                ],
-                "fajta": [
-                  "TV"
-                ],
-                "színe": [
-                  "Fehér"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Kápia paprika": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "zöldség típusa": [
-                  "kápia paprika"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ],
-                "terméktípus": [
-                  "kápia paprika"
-                ]
-              }
-            }
-          },
-          "Paprika": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "márka": [
-                  "S-Budget",
-                  "márka nélkül",
-                  "Tesco Finest"
-                ],
-                "terméktípus": [
-                  "lecsópaprika",
-                  "chili paprika",
-                  "palermo paprika",
-                  "piknik csomag"
-                ],
-                "ízesítés": [
-                  "paprika",
-                  "csípős"
-                ],
-                "összetevő": [
-                  "paradicsom",
-                  "paprika"
-                ],
-                "fajta": [
-                  "Kaliforniai",
-                  "Szentesi paprika"
-                ],
-                "színe": [
-                  "Piros"
-                ],
-                "kiszerelés": [
-                  "lédig",
-                  "500 g"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Paradicsom": {
         "tulajdonságok": {
@@ -113152,291 +112080,58 @@
               "grillparadicsom",
               "hamburger-paradicsom",
               "extra édes",
-              "egyéb"
-            ]
+              "egyéb",
+              "Strabini"
+            ],
+            "márka": [
+              "Tesco",
+              "Tesco Finest"
+            ],
+            "bio": {}
           },
           "csoportos": {
             "márka": [
               "Metro Chef",
-              "márka nélkül",
               "Fine Life",
-              "Eisberg"
-            ],
-            "kiszerelés": [
-              "zacskó",
-              "doboz",
-              "karton",
-              "tálca",
-              "vödör",
-              "tasak",
-              "csomag"
-            ],
-            "feldolgozottság": [
-              "egész",
-              "tisztított",
-              "szeletelt",
-              "kockázott",
-              "csíkok"
+              "Eisberg",
+              "Veresi Bíborka",
+              "SPAR Hazai Szeretem",
+              "SPAR",
+              "Tesco",
+              "My Bio",
+              "Trivega",
+              "S-Budget"
             ],
             "csomagolás": [
-              "védőgázas"
+              "védőgázas",
+              "dobozos",
+              "csomagolt",
+              "vödrös",
+              "tálcás"
+            ],
+            "fürtös": [
+              "fürtös"
+            ],
+            "fajta": [
+              "Datolya paradicsom",
+              "Fürtös koktélparadicsom",
+              "Fürtösparadicsom",
+              "Bébiszilva paradicsom",
+              "Koktélparadicsom",
+              "Cherry paradicsom",
+              "Delisher paradicsom",
+              "Grill paradicsom",
+              "Snack paradicsom mix",
+              "Szilvaparadicsom",
+              "San Marzano paradicsom",
+              "Eperparadicsom"
+            ],
+            "színe": [
+              "Piros"
             ]
           }
         },
-        "altípusok": {
-          "Datolya paradicsom": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {}
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "dobozos",
-                  "csomagolt"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Fürtös koktélparadicsom": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {},
-                "fajta": [
-                  "Strabini",
-                  "koktélparadicsom"
-                ]
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt",
-                  "dobozos"
-                ],
-                "márka": [
-                  "Veresi Bíborka",
-                  "SPAR Hazai Szeretem",
-                  "SPAR",
-                  "Tesco"
-                ],
-                "kiszerelés": [
-                  "500 g"
-                ],
-                "fürtös": [
-                  "fürtös"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Fürtösparadicsom": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {}
-              },
-              "csoportos": {
-                "zöldség típusa": [
-                  "fürtös paradicsom"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ],
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "fajta": [
-                  "Fürtös"
-                ],
-                "színe": [
-                  "Piros"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ],
-                "fürtös": [
-                  "fürtös"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Bébiszilva paradicsom": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco",
-                  "márka nélkül"
-                ]
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt",
-                  "dobozos"
-                ],
-                "forma": [
-                  "fürtös"
-                ],
-                "fajta": [
-                  "bébi-szilvaparadicsom",
-                  "bébi szilva paradicsom"
-                ],
-                "kiszerelés": [
-                  "250 g"
-                ],
-                "fürtös": [
-                  "fürtös"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Koktélparadicsom": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {}
-              },
-              "csoportos": {
-                "márka": [
-                  "My Bio"
-                ],
-                "csomagolás": [
-                  "csomagolt",
-                  "dobozos",
-                  "vödrös"
-                ],
-                "szín": [
-                  "narancssárga"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Cherry paradicsom": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "szín": [
-                  "piros"
-                ],
-                "csomagolás": [
-                  "csomagolt"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Delisher paradicsom": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "márka": [
-                  "Trivega"
-                ],
-                "csomagolás": [
-                  "dobozos"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Grill paradicsom": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "csomagolás": [
-                  "dobozos"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Snack paradicsom mix": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "márka": [
-                  "Trivega"
-                ],
-                "csomagolás": [
-                  "dobozos"
-                ],
-                "forma": [
-                  "mix"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Paradicsom": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "csomagolás": [
-                  "tálcás",
-                  "csomagolt"
-                ],
-                "márka": [
-                  "S-Budget",
-                  "SPAR Hazai Szeretem"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Szilvaparadicsom": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ]
-              },
-              "csoportos": {
-                "fajta": [
-                  "szilvaparadicsom"
-                ],
-                "kiszerelés": [
-                  "500 g"
-                ]
-              }
-            }
-          },
-          "San Marzano paradicsom": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ]
-              },
-              "csoportos": {
-                "fajta": [
-                  "San Marzano"
-                ],
-                "kiszerelés": [
-                  "350 g"
-                ]
-              }
-            }
-          },
-          "Eperparadicsom": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco Finest"
-                ]
-              },
-              "csoportos": {
-                "fajta": [
-                  "eperparadicsom"
-                ],
-                "kiszerelés": [
-                  "250 g"
-                ]
-              }
-            }
-          }
-        }
+        "altípusok": {}
       },
       "Retekfélék": {
         "tulajdonságok": {
@@ -113447,87 +112142,20 @@
             "fajta": [
               "retek",
               "jégcsapretek",
-              "feketeretek"
+              "feketeretek",
+              "Hónapos retek",
+              "Jégcsapretek",
+              "Vajretek"
             ],
             "márka": [
-              "márka nélkül"
+              "Tesco"
             ],
-            "kiszerelés": [
-              "zacskó",
-              "lédig",
-              "csomag"
+            "csomagolás": [
+              "csomagolt"
             ]
           }
         },
-        "altípusok": {
-          "Hónapos retek": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {}
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "zöldség típusa": [
-                  "hónapos retek",
-                  "piros retek"
-                ],
-                "forma": [
-                  "csomós"
-                ],
-                "márka": [
-                  "márka nélkül",
-                  "Tesco"
-                ],
-                "kiszerelés": [
-                  "300 g",
-                  "csomó",
-                  "10 db"
-                ],
-                "terméktípus": [
-                  "piros retek"
-                ],
-                "fajta": [
-                  "Hónapos retek"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Jégcsapretek": {
-            "tulajdonságok": {
-              "egyedi": [],
-              "csoportos": {
-                "zöldség típusa": [
-                  "jégcsapretek"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ]
-              }
-            }
-          },
-          "Vajretek": {
-            "tulajdonságok": {
-              "egyedi": [],
-              "csoportos": {
-                "zöldség típusa": [
-                  "vajretek"
-                ],
-                "forma": [
-                  "csomós"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ]
-              }
-            }
-          }
-        }
+        "altípusok": {}
       },
       "Salátafélék": {
         "tulajdonságok": {
@@ -113545,172 +112173,51 @@
               "Szívsaláta",
               "Szívsaláta mix"
             ],
-            "hazai": {}
+            "hazai": {},
+            "márka": []
           },
           "csoportos": {
             "márka": [
-              "Metro Chef"
+              "Metro Chef",
+              "Tesco"
             ],
-            "kiszerelés": [
-              "darab",
-              "csomag"
+            "csomagolás": [
+              "csomagolt"
+            ],
+            "fajta": [
+              "Jégsaláta",
+              "Fejessaláta",
+              "Római saláta",
+              "Szívsaláta"
             ]
           }
         },
-        "altípusok": {
-          "Jégsaláta": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "zöldség típusa": [
-                  "jégsaláta"
-                ],
-                "forma": [
-                  "darabos"
-                ],
-                "márka": [
-                  "márka nélkül",
-                  "Tesco"
-                ],
-                "terméktípus": [
-                  "jégsaláta"
-                ],
-                "fajta": [
-                  "jégsaláta"
-                ],
-                "kiszerelés": [
-                  "1 db"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Fejessaláta": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "márka nélkül"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "fejessaláta"
-                ],
-                "fajta": [
-                  "fejessaláta"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Római saláta": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "terméktípus": [
-                  "római saláta"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Szívsaláta": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "márka nélkül"
-                ]
-              },
-              "csoportos": {
-                "fajta": [
-                  "szívsaláta"
-                ],
-                "kiszerelés": [
-                  "2 db"
-                ]
-              }
-            }
-          }
-        }
+        "altípusok": {}
       },
       "Sárgarépa": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "bio": {}
+          },
           "csoportos": {
-            "feldolgozottság": [
-              "tálcás",
-              "egész",
-              "tisztított",
-              "szeletelt",
-              "kockázott",
-              "csíkok"
-            ],
             "márka": [
               "Metro Chef",
               "Fine Life",
               "Eisberg",
-              "márka nélkül"
-            ],
-            "kiszerelés": [
-              "zacskó",
-              "csomag",
-              "doboz",
-              "tálca",
-              "vödör"
+              "S-Budget",
+              "SPAR Natur*pur",
+              "Tesco"
             ],
             "csomagolás": [
-              "védőgázas"
+              "védőgázas",
+              "csomagolt"
+            ],
+            "fajta": [
+              "sárgarépa"
             ]
           }
         },
-        "altípusok": {
-          "Sárgarépa": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {},
-                "bio": {}
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "zöldség típusa": [
-                  "sárgarépa"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "márka": [
-                  "márka nélkül",
-                  "S-Budget",
-                  "SPAR Natur*pur",
-                  "Tesco"
-                ],
-                "terméktípus": [
-                  "sárgarépa"
-                ],
-                "feldolgozottság": [
-                  "egész"
-                ],
-                "kiszerelés": [
-                  "lédig",
-                  "1,5 kg",
-                  "1 kg"
-                ],
-                "fajta": [
-                  "sárgarépa"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Sóska, spenót": {
         "tulajdonságok": {
@@ -113721,80 +112228,27 @@
       },
       "Tökféle, cukkini, padlizsán": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "bio": {},
+            "márka": []
+          },
           "csoportos": {
             "fajta": [
               "padlizsán",
               "cukkini",
               "főzőtök",
               "patiszon",
-              "sütőtök"
+              "sütőtök",
+              "Cukkini",
+              "Padlizsán"
             ],
             "márka": [
-              "márka nélkül",
-              "Metro Chef"
-            ],
-            "kiszerelés": [
-              "háló",
-              "karton",
-              "zacskó"
+              "Metro Chef",
+              "SPAR Natur*pur"
             ]
           }
         },
-        "altípusok": {
-          "Cukkini": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {}
-              },
-              "csoportos": {
-                "zöldség típusa": [
-                  "cukkini"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "márka": [
-                  "márka nélkül",
-                  "SPAR Natur*pur"
-                ],
-                "terméktípus": [
-                  "cukkini"
-                ],
-                "felhasználás": [
-                  "salátának való"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ],
-                "fajta": [
-                  "cukkini"
-                ]
-              }
-            }
-          },
-          "Padlizsán": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "márka nélkül"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "padlizsán"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ],
-                "fajta": [
-                  "padlizsán"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Uborka": {
         "tulajdonságok": {
@@ -113809,71 +112263,23 @@
               "kovászolni való uborka"
             ],
             "bio": {},
-            "hazai": {}
+            "hazai": {},
+            "márka": [
+              "Tesco"
+            ]
           },
           "csoportos": {
             "márka": [
               "Metro Chef",
-              "márka nélkül"
+              "SPAR Natur*pur"
             ],
-            "kiszerelés": [
-              "karton",
-              "zacskó",
-              "háló"
+            "fajta": [
+              "Kígyóuborka",
+              "Snack uborka"
             ]
           }
         },
-        "altípusok": {
-          "Kígyóuborka": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {},
-                "bio": {}
-              },
-              "csoportos": {
-                "zöldség típusa": [
-                  "kígyóuborka"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "márka": [
-                  "márka nélkül",
-                  "SPAR Natur*pur"
-                ],
-                "terméktípus": [
-                  "kígyóuborka"
-                ],
-                "fajta": [
-                  "Kígyúuborka"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Snack uborka": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "snack uborka",
-                  "mini uborka"
-                ],
-                "kiszerelés": [
-                  "250 g"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Zeller": {
         "tulajdonságok": {
@@ -113883,175 +112289,51 @@
               "Szár",
               "egyéb",
               "gumós zeller"
+            ],
+            "márka": [
+              "Tesco"
             ]
           },
           "csoportos": {
             "márka": [
-              "márka nélkül",
               "Metro Chef"
             ],
-            "kiszerelés": [
-              "darab",
-              "tálca",
-              "háló",
-              "lédig",
-              "zacskó"
-            ],
-            "feldolgozottság": [
-              "snack",
-              "tisztított",
-              "kockázott"
-            ],
             "csomagolás": [
-              "védőgázas"
+              "védőgázas",
+              "csomagolt"
+            ],
+            "fajta": [
+              "Szárzeller",
+              "Zellergumó"
             ]
           }
         },
-        "altípusok": {
-          "Szárzeller": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {},
-                "márka": [
-                  "Tesco"
-                ]
-              },
-              "csoportos": {
-                "csomagolás": [
-                  "csomagolt"
-                ],
-                "terméktípus": [
-                  "zellerszár"
-                ],
-                "fajta": [
-                  "zellerszár"
-                ],
-                "kiszerelés": [
-                  "400 g"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
-          "Zellergumó": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {}
-              },
-              "csoportos": {
-                "zöldség típusa": [
-                  "zellergumó"
-                ],
-                "forma": [
-                  "szárral",
-                  "darabos"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ],
-                "terméktípus": [
-                  "zeller"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Gyömbér": {
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {
-            "márka": [
-              "márka nélkül"
-            ],
-            "kiszerelés": [
-              "tálca",
-              "lédig"
-            ],
-            "feldolgozottság": [
-              "egész"
-            ]
+            "márka": []
           }
         },
-        "altípusok": {
-          "Gyömbér": {
-            "tulajdonságok": {
-              "egyedi": {
-                "lédig": {}
-              },
-              "csoportos": {
-                "zöldség típusa": [
-                  "gyömbér"
-                ],
-                "forma": [
-                  "lédig"
-                ],
-                "márka": [
-                  "márka nélkül"
-                ],
-                "terméktípus": [
-                  "gyömbér"
-                ],
-                "kiszerelés": [
-                  "lédig"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Kurkuma": {
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {
-            "márka": [
-              "márka nélkül"
-            ],
-            "kiszerelés": [
-              "tálca"
-            ],
-            "feldolgozottság": [
-              "egész"
-            ]
+            "márka": []
           }
         },
-        "altípusok": {
-          "Kurkuma": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "terméktípus": [
-                  "kurkuma"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Tamarind": {
         "tulajdonságok": {
           "egyedi": {},
           "csoportos": {}
         },
-        "altípusok": {
-          "Tamarind": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "terméktípus": [
-                  "tamarind"
-                ]
-              }
-            },
-            "altípusok": {}
-          }
-        }
+        "altípusok": {}
       },
       "Avokádó": {
         "tulajdonságok": {
@@ -114064,7 +112346,10 @@
         "tulajdonságok": {
           "egyedi": {
             "bio": {},
-            "hazai": {}
+            "hazai": {},
+            "márka": [
+              "Tesco"
+            ]
           },
           "csoportos": {
             "fajta": [
@@ -114082,64 +112367,17 @@
               "zellerzöld",
               "ehető virág",
               "citromnád",
-              "sziksófű"
+              "sziksófű",
+              "Kapor",
+              "Petrezselyem"
             ],
             "márka": [
-              "márka nélkül",
               "Metro Chef",
               "Cress"
-            ],
-            "kiszerelés": [
-              "cserép",
-              "doboz",
-              "csomag",
-              "köteg"
-            ],
-            "feldolgozottság": [
-              "egész"
-            ],
-            "méret": [
-              "normál",
-              "mikrozöld"
             ]
           }
         },
-        "altípusok": {
-          "Kapor": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ],
-                "kiszerelés": [
-                  "50 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "kapor"
-                ]
-              }
-            }
-          },
-          "Petrezselyem": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ],
-                "kiszerelés": [
-                  "50 g"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "metélőpetrezselyem"
-                ]
-              }
-            }
-          }
-        }
+        "altípusok": {}
       },
       "Spárga": {
         "tulajdonságok": {
@@ -114148,612 +112386,33 @@
             "fajta": [
               "fehér spárga"
             ],
-            "márka": [
-              "márka nélkül"
-            ],
-            "kiszerelés": [
-              "csomag"
-            ],
-            "minőség": [
-              "I. osztály"
-            ]
+            "márka": []
           }
         },
         "altípusok": {}
       },
       "Csíra": {
         "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {
-          "Csíra": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {}
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "brokkolicsíra",
-                  "csírakeverék",
-                  "vegyes csíra",
-                  "mungóbabcsíra",
-                  "ízes vegyes csíra",
-                  "retekcsíra"
-                ],
-                "márka": [
-                  "SPAR Natur*pur",
-                  "SPAR asia"
-                ]
-              }
-            },
-            "altípusok": {}
+          "egyedi": {
+            "bio": {}
+          },
+          "csoportos": {
+            "márka": [
+              "SPAR Natur*pur",
+              "SPAR asia"
+            ]
           }
-        }
+        },
+        "altípusok": {}
       },
-      "Friss zöldség": {
+      "Leveszöldség": {
         "tulajdonságok": {
           "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {
-          "Spárga": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "zöld spárga",
-                  "fehér spárga"
-                ],
-                "zöldség": [
-                  "zöld spárga",
-                  "fehér spárga"
-                ],
-                "kiszerelés": [
-                  "500 g"
-                ]
-              }
-            }
-          },
-          "Saláta": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco",
-                  "Eisberg"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "római saláta",
-                  "friss rukkola",
-                  "friss bébispenót",
-                  "friss madársaláta",
-                  "jégsaláta",
-                  "egyszemélyes saláta",
-                  "Betyár Mix saláta- és zöldségkeverék",
-                  "Pántlika Mix saláta- és zöldségkeverék",
-                  "coleslaw saláta mix",
-                  "friss roppanós salátakeverék",
-                  "édes saláta mix",
-                  "Puszta saláta- és zöldségkeverék",
-                  "Batávia saláta"
-                ],
-                "zöldség": [
-                  "római saláta",
-                  "rukkola",
-                  "bébispenót",
-                  "madársaláta",
-                  "jégsaláta",
-                  "salátakeverék",
-                  "coleslaw salátakeverék",
-                  "Batávia saláta"
-                ],
-                "kiszerelés": [
-                  "80 g",
-                  "200 g",
-                  "100 g",
-                  "190 g",
-                  "180 g",
-                  "130 g",
-                  "170 g"
-                ]
-              }
-            }
-          },
-          "Paradicsom": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco",
-                  "Grill Master",
-                  "Tesco Finest"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "bio koktélparadicsom",
-                  "Avalantino paradicsom",
-                  "grillparadicsom",
-                  "bébi-szilva paradicsom mix",
-                  "Starlisher paradicsom",
-                  "húsparadicsom"
-                ],
-                "zöldség": [
-                  "koktélparadicsom",
-                  "paradicsom"
-                ],
-                "minősítés": [
-                  "bio"
-                ],
-                "kiszerelés": [
-                  "250 g",
-                  "400 g",
-                  "200 g"
-                ],
-                "fajta": [
-                  "Avalantino",
-                  "bébi-szilva",
-                  "Starlisher",
-                  "húsparadicsom"
-                ],
-                "felhasználás": [
-                  "grillezés"
-                ],
-                "értékesítés": [
-                  "lédig"
-                ]
-              }
-            }
-          },
-          "Uborka": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco BIO"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "hosszú kígyóuborka",
-                  "fürtös uborka lédig",
-                  "kovászolni való uborka"
-                ],
-                "zöldség": [
-                  "kígyóuborka",
-                  "fürtös uborka",
-                  "uborka"
-                ],
-                "minősítés": [
-                  "bio"
-                ],
-                "felhasználás": [
-                  "kovászolás"
-                ],
-                "értékesítés": [
-                  "lédig"
-                ]
-              }
-            }
-          },
-          "Paprika": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco",
-                  "The Grower's Harvest"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "bio piros paprika",
-                  "kápia paprika lédig",
-                  "lecsópaprika",
-                  "Palermo paprika"
-                ],
-                "zöldség": [
-                  "piros paprika",
-                  "kápia paprika",
-                  "lecsópaprika",
-                  "paprika"
-                ],
-                "minősítés": [
-                  "bio"
-                ],
-                "kiszerelés": [
-                  "400 g",
-                  "700 g",
-                  "500 g"
-                ],
-                "fajta": [
-                  "Palermo"
-                ]
-              }
-            }
-          },
-          "Gyökérzöldség": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "The Grower's Harvest"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "petrezselyemgyökér",
-                  "zeller lédig",
-                  "cékla lédig",
-                  "petrezselyemgyökér csomós",
-                  "zellergumó"
-                ],
-                "zöldség": [
-                  "petrezselyemgyökér",
-                  "zeller",
-                  "cékla",
-                  "zellergumó"
-                ],
-                "kiszerelés": [
-                  "350 g"
-                ]
-              }
-            }
-          },
-          "Leveszöldség": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "The Grower's Harvest"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "előkészített leveszöldség"
-                ],
-                "kiszerelés": [
-                  "1 kg"
-                ]
-              }
-            }
-          },
-          "Káposztaféle": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "karalábé",
-                  "brokkoli",
-                  "kelkáposzta lédig"
-                ],
-                "zöldség": [
-                  "karalábé",
-                  "brokkoli",
-                  "kelkáposzta"
-                ],
-                "kiszerelés": [
-                  "500 g"
-                ]
-              }
-            }
-          },
-          "Fűszernövény, friss fűszer": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "terméktípus": [
-                  "gyömbér lédig"
-                ],
-                "zöldség": [
-                  "gyömbér"
-                ]
-              }
-            }
-          },
-          "Gomba": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "fehér csiperkegomba",
-                  "szeletelt csiperkegomba",
-                  "barna csiperkegomba",
-                  "laskagomba"
-                ],
-                "zöldség": [
-                  "fehér csiperkegomba",
-                  "csiperkegomba",
-                  "barna csiperkegomba",
-                  "laskagomba"
-                ],
-                "kiszerelés": [
-                  "300 g",
-                  "400 g"
-                ]
-              }
-            }
-          },
-          "Répa": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco",
-                  "Eisberg"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "bébirépa",
-                  "csomós sárgarépa",
-                  "friss sárgarépa csík"
-                ],
-                "zöldség": [
-                  "sárgarépa"
-                ],
-                "kiszerelés": [
-                  "300 g",
-                  "200 g"
-                ],
-                "értékesítés": [
-                  "csomós"
-                ],
-                "vágás": [
-                  "csík"
-                ]
-              }
-            }
-          },
-          "Spenót": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "friss bébispenót"
-                ],
-                "zöldség": [
-                  "bébispenót"
-                ],
-                "kiszerelés": [
-                  "250 g"
-                ]
-              }
-            }
-          },
-          "Fűszernövény": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Zöldpont"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "koriander",
-                  "bazsalikom",
-                  "metélőpetrezselyem/rozmaring/metélőhagyma",
-                  "menta"
-                ],
-                "zöldség": [
-                  "koriander",
-                  "bazsalikom",
-                  "metélőpetrezselyem",
-                  "rozmaring",
-                  "metélőhagyma",
-                  "menta"
-                ],
-                "kiszerelés": [
-                  "20 g",
-                  "cserepes"
-                ]
-              }
-            }
-          },
-          "Salátakeverék": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco",
-                  "Eisberg"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "családi mix friss salátakeverék",
-                  "cékla mix friss salátakeverék",
-                  "Green Drink friss saláta- és zöldségkeverék smoothie készítéséhez"
-                ],
-                "kiszerelés": [
-                  "350 g",
-                  "140 g",
-                  "160 g"
-                ],
-                "zöldség": [
-                  "cékla"
-                ],
-                "felhasználás": [
-                  "smoothie"
-                ]
-              }
-            }
-          },
-          "Csíra": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "terméktípus": [
-                  "mungóbabcsíra",
-                  "vegyes csíra"
-                ],
-                "zöldség": [
-                  "mungóbabcsíra",
-                  "vegyes csíra"
-                ],
-                "kiszerelés": [
-                  "200 g",
-                  "130 g"
-                ]
-              }
-            }
-          },
-          "Retek": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "terméktípus": [
-                  "csomós fehér retek"
-                ],
-                "zöldség": [
-                  "fehér retek"
-                ],
-                "értékesítés": [
-                  "csomós"
-                ]
-              }
-            }
-          },
-          "Kukorica": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "terméktípus": [
-                  "előfőzött csöves csemegekukorica"
-                ],
-                "zöldség": [
-                  "csemegekukorica"
-                ],
-                "kiszerelés": [
-                  "400 g"
-                ],
-                "feldolgozás": [
-                  "előfőzött"
-                ]
-              }
-            }
-          },
-          "Zöldségmix": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "piknik csomag"
-                ],
-                "zöldség": [
-                  "paradicsom",
-                  "paprika"
-                ],
-                "kiszerelés": [
-                  "1 kg"
-                ]
-              }
-            }
-          },
-          "Burgonya": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "sárga újburgonya",
-                  "piros újburgonya",
-                  "piros étkezési burgonya",
-                  "parázs burgonya"
-                ],
-                "zöldség": [
-                  "burgonya"
-                ],
-                "fajta": [
-                  "sárga újburgonya",
-                  "piros újburgonya",
-                  "piros"
-                ],
-                "értékesítés": [
-                  "lédig"
-                ],
-                "kiszerelés": [
-                  "10 kg",
-                  "1 kg"
-                ]
-              }
-            }
-          },
-          "Cukkini": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco Bio"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "bio cukkini"
-                ],
-                "zöldség": [
-                  "cukkini"
-                ],
-                "minősítés": [
-                  "bio"
-                ],
-                "kiszerelés": [
-                  "2 db"
-                ]
-              }
-            }
-          },
-          "Tök": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "terméktípus": [
-                  "főzőtök"
-                ],
-                "zöldség": [
-                  "főzőtök"
-                ]
-              }
-            }
-          },
-          "Rebarbara": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Tesco"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "rebarbara"
-                ],
-                "zöldség": [
-                  "rebarbara"
-                ],
-                "kiszerelés": [
-                  "350 g"
-                ]
-              }
-            }
+          "csoportos": {
+            "márka": []
           }
-        }
+        },
+        "altípusok": {}
       }
     }
   },

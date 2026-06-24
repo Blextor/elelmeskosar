@@ -1,0 +1,305 @@
+{
+  "meta": {
+    "generated_at": "2026-06-24T18:53:50",
+    "category_source": "kategoriak_2026-06-13.json",
+    "product_source": "eredmeny.json",
+    "fokategoria": "Tejtermékek és tojás",
+    "termek_db": 5103,
+    "alkategoria_db": 15
+  },
+  "alkategoriak_termekszammal": [
+    {
+      "alkategoria": "Sajt",
+      "termek_db": 1375
+    },
+    {
+      "alkategoria": "Joghurt",
+      "termek_db": 521
+    },
+    {
+      "alkategoria": "Növényi alternatíva",
+      "termek_db": 462
+    },
+    {
+      "alkategoria": "Tejdesszert, puding",
+      "termek_db": 420
+    },
+    {
+      "alkategoria": "Tejital, jegeskávé",
+      "termek_db": 385
+    },
+    {
+      "alkategoria": "Krémtúró, túródesszert",
+      "termek_db": 366
+    },
+    {
+      "alkategoria": "Ivójoghurt, kefir, író, aludttej",
+      "termek_db": 276
+    },
+    {
+      "alkategoria": "Tej",
+      "termek_db": 208
+    },
+    {
+      "alkategoria": "Tejszín",
+      "termek_db": 190
+    },
+    {
+      "alkategoria": "Margarin",
+      "termek_db": 189
+    },
+    {
+      "alkategoria": "Vaj",
+      "termek_db": 168
+    },
+    {
+      "alkategoria": "Tejföl",
+      "termek_db": 165
+    },
+    {
+      "alkategoria": "Sajtkrém, szendvicskrém",
+      "termek_db": 150
+    },
+    {
+      "alkategoria": "Túró",
+      "termek_db": 131
+    },
+    {
+      "alkategoria": "Tojás",
+      "termek_db": 97
+    }
+  ],
+  "gyanus_alkategoriak": [
+    {
+      "alkategoria": "Ivójoghurt, kefir, író, aludttej",
+      "termek_db": 276,
+      "altipusok": [
+        {
+          "altipus": "Ivójoghurt",
+          "termek_db": 180
+        },
+        {
+          "altipus": "Kefir",
+          "termek_db": 89
+        },
+        {
+          "altipus": "Író",
+          "termek_db": 5
+        },
+        {
+          "altipus": "Aludttej",
+          "termek_db": 2
+        }
+      ]
+    },
+    {
+      "alkategoria": "Krémtúró, túródesszert",
+      "termek_db": 366,
+      "altipusok": [
+        {
+          "altipus": "Túró Rudi jellegű túródesszert",
+          "termek_db": 240
+        },
+        {
+          "altipus": "Gyümölcsös krémtúró",
+          "termek_db": 53
+        },
+        {
+          "altipus": "Natúr krémtúró",
+          "termek_db": 50
+        },
+        {
+          "altipus": "Túródesszert",
+          "termek_db": 23
+        }
+      ]
+    },
+    {
+      "alkategoria": "Tejdesszert, puding",
+      "termek_db": 420,
+      "altipusok": [
+        {
+          "altipus": "Puding",
+          "termek_db": 122
+        },
+        {
+          "altipus": "Egyéb tejdesszert",
+          "termek_db": 101
+        },
+        {
+          "altipus": "Tejberizs",
+          "termek_db": 88
+        },
+        {
+          "altipus": "Tejszelet",
+          "termek_db": 54
+        },
+        {
+          "altipus": "Habdesszert",
+          "termek_db": 24
+        },
+        {
+          "altipus": "Hűtött snack",
+          "termek_db": 24
+        },
+        {
+          "altipus": "Desszertalap",
+          "termek_db": 5
+        },
+        {
+          "altipus": "Pohárdesszert, krémdesszert",
+          "termek_db": 2
+        }
+      ]
+    }
+  ],
+  "sajt_altipusok": [
+    {
+      "altipus": "Félkemény sajt",
+      "termek_db": 388
+    },
+    {
+      "altipus": "Friss / lágy sajt",
+      "termek_db": 191
+    },
+    {
+      "altipus": "Ömlesztett sajt",
+      "termek_db": 176
+    },
+    {
+      "altipus": "Kemény sajt",
+      "termek_db": 112
+    },
+    {
+      "altipus": "Penészes sajt",
+      "termek_db": 97
+    },
+    {
+      "altipus": "Grillsajt / halloumi / sütnivaló",
+      "termek_db": 91
+    },
+    {
+      "altipus": "Krémsajt / kenhető sajt",
+      "termek_db": 67
+    },
+    {
+      "altipus": "Darabolt sajt",
+      "termek_db": 35
+    },
+    {
+      "altipus": "Mozzarella",
+      "termek_db": 35
+    },
+    {
+      "altipus": "Szeletelt sajt",
+      "termek_db": 35
+    },
+    {
+      "altipus": "Camembert / Brie",
+      "termek_db": 31
+    },
+    {
+      "altipus": "Reszelt sajt",
+      "termek_db": 22
+    },
+    {
+      "altipus": "Feta / krémfehér sajt",
+      "termek_db": 20
+    },
+    {
+      "altipus": "Mascarpone",
+      "termek_db": 13
+    },
+    {
+      "altipus": "Trappista sajt",
+      "termek_db": 12
+    },
+    {
+      "altipus": "Lapka sajt",
+      "termek_db": 8
+    },
+    {
+      "altipus": "Parenyica",
+      "termek_db": 8
+    },
+    {
+      "altipus": "Kék sajt",
+      "termek_db": 7
+    },
+    {
+      "altipus": "Sajtsnack",
+      "termek_db": 7
+    },
+    {
+      "altipus": "Cheddar",
+      "termek_db": 6
+    },
+    {
+      "altipus": "Kecskesajt",
+      "termek_db": 6
+    },
+    {
+      "altipus": "Ricotta",
+      "termek_db": 2
+    },
+    {
+      "altipus": "Burrata",
+      "termek_db": 1
+    },
+    {
+      "altipus": "Juhsajt",
+      "termek_db": 1
+    },
+    {
+      "altipus": "Marinált sajt",
+      "termek_db": 1
+    },
+    {
+      "altipus": "Raclette",
+      "termek_db": 1
+    },
+    {
+      "altipus": "Sajtspecialitás",
+      "termek_db": 1
+    },
+    {
+      "altipus": "Scamorza",
+      "termek_db": 1
+    }
+  ],
+  "ritka_tulajdonsagok_max_5": [],
+  "termekekben_van_de_kategoriafaban_nincs_tulajdonsag": [],
+  "kategoriafaban_van_de_termekekben_nincs_tulajdonsag": [],
+  "fo_megallapitasok": [
+    {
+      "tipus": "alkategoria_osszevonas",
+      "megallapitas": "A Joghurt, kefir alkategoria vegyesen tartalmaz joghurtot, kefirt, joghurtitalt es novenyi fermentalt keszitmenyt.",
+      "javaslat": "Szetszedes Joghurt, Ivojoghurt/kefir/iro es Novenyi alternativa ala."
+    },
+    {
+      "tipus": "alkategoria_osszevonas",
+      "megallapitas": "A Tejes desszert es Desszert alkategoriak atfednek a Tejdesszert, puding es Kremturo, turodesszert alkategoriakkal.",
+      "javaslat": "Puding/tejberizs/tejdeszert a Tejdesszert, puding ala; turodesszert/kremturo a Kremturo, turodesszert ala; novenyi desszertek a Novenyi alternativa ala."
+    },
+    {
+      "tipus": "altipus_osszevonas",
+      "megallapitas": "A Sajt alatt tobb altipus par duplikalt vagy egymast szukiti: Camembert, brie vs Camembert / Brie; Feta vs Feta / kremfeher sajt; Kremsajt vs Kremsajt / kenheto sajt; Lagy sajt vs Friss / lagy sajt.",
+      "javaslat": "Az alacsonyabb hasznalatu valtozatokat a stabilabb, nagyobb gyujto altipusba kell atvezetni."
+    },
+    {
+      "tipus": "tulajdonsag_torles",
+      "megallapitas": "A termekcsalad es toltott tulajdonsag ritka es nem kategoriateremto informacio.",
+      "javaslat": "Torles a tejtermekes termekekbol es a kategoriafabol, ha szerepel."
+    },
+    {
+      "tipus": "tulajdonsag_tisztitas",
+      "megallapitas": "Az Ivojoghurt, kefir, iro alatt a jelleg tulajdonsag vegyesen altipus-, iz-, es jeloles-jellegu ertekeket hordoz.",
+      "javaslat": "A jelleg torlese innen; a valodi informaciok kulon tulajdonsagokban mar megvannak vagy nevbol potolhatok."
+    },
+    {
+      "tipus": "sajt_tulajdonsag",
+      "megallapitas": "A Sajt forma es fajta tulajdonsagai tobb helyen altipus-informaciot ismetelnek.",
+      "javaslat": "Elso lepesben az altipus-duplikaciokat kell osszevonni; utana lehet a forma/fajta erteklistat szukiteni."
+    }
+  ]
+}
