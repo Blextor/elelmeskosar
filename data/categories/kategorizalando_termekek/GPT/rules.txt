@@ -2,7 +2,7 @@ Minden terméket a .csv-ben található adatai és a képe alapján kell kategor
 A termékek képeit vond össze mindig 5x5-ös formában, hogy egyszerre 25 termék képét tudd feldolgozni.
 Lehetőleg 4x25 terméket tudjál egy etapban bekategorizálni.
 
-Egy terméknek ha meg van a kategóriája, akkor minden tulajdonságát ki kell tölteni.
+Egy terméknek ha meg van a kategóriája, akkor minden tulajdonságát ki kell tölteni az adott kategórián/altípuson belül.
 Ekkor ha igaz/hamis, akkor kell egy true/false,
 több választás esetében meg legalább egyet kell kiválasztani mindig,
 legalább az "egyéb" opciót kell választani.
@@ -23,3 +23,20 @@ vagy segít az eredmények kiírásába, beolvasásába.
 De automatizált, kód alapon történő kategorizálás tilos.
 
 Token-hatékonyan dolgozz kérlek.
+
+A termékek kategorizálásakor először a termék nevéből, képéből, kiszereléséből és eredeti kategóriájából kéne kiindulni.
+Ez alapján kéne a domain tudásod alapján meghatározni a kategóriáját és ezzel együtt, hogy milyen tulajdonságok relevánsak a termékkel kapcsolatban.
+Illetve nem csak a termékkel kapcsolatban, hanem az altípusával/kategóriájával kapcsolatban.
+Fontos, hogy ne legyenek duplikált kategóriák, se altípusok.
+Itt lehetséges, az Ital->Üdítőital->Vitaminital és az Ital->Sportital vagy az Ital->Funkcionális ital mind "duplikált"-nak számítanak és fel kell oldani a problémát.
+Ekkor lehetőeleg az eredetit meg kell tartani, illetve azt, ami a leglogikusabbnak tűnik. Esetleg össze kell vetni őket és általánosab nevet kell adni egy új kategóriának a többit megszüntetve.
+Ezzel kapcsolatos, hogy fontos megvizsgálni a kategorizálás során, hogy a meglévő fában illik-e rá több kategória is.
+Ekkor gyanús, hogy a kategóriafa hibás, ugyanis nem szabad egy terméknek két helyre is illenie.
+Ekkor meg kell vizsgálni, hogy melyik az eredeti/a helyes útvonal a kategóriák közül, és a többit el kell dobni.
+Az eldobott kategóriák tulajdonságait és termékeit át kell emelni újra, termékenként eldöntve a helyes kategóriákba.
+
+Ne legyen túl általános egy kategória, de túl specifikus se.
+Olyan tulajdonság ne legyen kategóriákra bontás alapja, amelyek egyszerre is teljesülhetnek.
+Például a magvak és a mazsola gyakran vegyesen vannak, így nem lehet dió-ra és mandula-ra kategoriákat készíteni.
+Hanem kell egy magvak és mazsola kategória, ahol lehet az összetevői között dió és mandula és mazsola is.
+Ha létezik ilyen kategória/altípus, akkor oldd fel ezt a problémát és a közös bennük legyen a katzegória neve és a tulajdonságokban add meg a fajtáit/összetevőit stb.
