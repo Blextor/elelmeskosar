@@ -1,0 +1,1314 @@
+{
+  "low_path_count": 22,
+  "singleton_count": 7,
+  "low_paths": [
+    {
+      "alkategoria": "Alkoholok",
+      "altipus": "Sake",
+      "count": 1,
+      "items": [
+        {
+          "index": 22299,
+          "name": "Choya Sake japán rizsbor 14,5% 750 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/metro/ea074fb7af4dcaf7.png",
+          "props": {
+            "márka": "Choya",
+            "íz": [
+              "natúr"
+            ],
+            "alkoholtartalom": [
+              "14,5%"
+            ],
+            "típus": [
+              "sake"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Bor",
+      "altipus": "Alkoholmentes bor",
+      "count": 1,
+      "items": [
+        {
+          "index": 45388,
+          "name": "Night Orient Rosé Tempranillo alkoholmentes bor 0,75 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/4efa851ec029d412.jpg",
+          "props": {
+            "márka": "Night Orient Rosé Tempranillo",
+            "terméktípus": [
+              "alkoholmentes bor"
+            ],
+            "szőlőfajta": [
+              "Tempranillo"
+            ],
+            "szín": [
+              "rosé"
+            ],
+            "jellemző": [
+              "alkoholmentes"
+            ],
+            "kiszerelés": "0,75 l"
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Bor",
+      "altipus": "Likőrbor",
+      "count": 1,
+      "items": [
+        {
+          "index": 45825,
+          "name": "Ruby Port likőrbor 18% 750 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/74f7a00e0a9e1d53.jpg",
+          "props": {
+            "márka": "Ruby Port",
+            "terméktípus": [
+              "likőrbor"
+            ],
+            "típus": [
+              "portói"
+            ],
+            "alkoholtartalom": [
+              "18%"
+            ],
+            "kiszerelés": "750 ml"
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Bor",
+      "altipus": "Siller bor",
+      "count": 1,
+      "items": [
+        {
+          "index": 45768,
+          "name": "Sauska Siller száraz siller bor 12,5% 0,75 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/94e6ea7b01d56d73.jpg",
+          "props": {
+            "márka": "Sauska",
+            "terméktípus": [
+              "Siller száraz siller bor"
+            ],
+            "szín": [
+              "siller"
+            ],
+            "édesség": [
+              "száraz"
+            ],
+            "alkoholtartalom": [
+              "12,5%"
+            ],
+            "kiszerelés": "0,75 l"
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Kávé, tea, kakaó (száraz)",
+      "altipus": "Oolong tea",
+      "count": 1,
+      "items": [
+        {
+          "index": 45300,
+          "name": "Basilur Premium Oolong tea 25 filter 50 g",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/2a52faa90eb0ad64.jpg",
+          "props": {
+            "márka": "Basilur Premium",
+            "terméktípus": [
+              "Oolong tea"
+            ],
+            "forma": [
+              "filteres"
+            ],
+            "csomagolás": [
+              "25 filter"
+            ],
+            "kiszerelés": "50 g"
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Növényi ital",
+      "altipus": "Egyéb növényi ital",
+      "count": 1,
+      "items": [
+        {
+          "index": 46865,
+          "name": "Alpro mogyoróital hozzáadott kalciummal és vitaminokkal 1 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/b5cbdfc273d8975c.jpg",
+          "props": {
+            "márka": "Alpro",
+            "terméktípus": [
+              "mogyoróital"
+            ],
+            "íz": [
+              "mogyoró"
+            ],
+            "alapanyag": [
+              "mogyoró"
+            ],
+            "jellemzők": [
+              "kalciummal",
+              "vitaminokkal"
+            ],
+            "kiszerelés": "1 l"
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Sör",
+      "altipus": "Sörválogatás",
+      "count": 1,
+      "items": [
+        {
+          "index": 46225,
+          "name": "Belgium büszkeségei válogatás 6 x 0,33 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/76a89b1964548e29.jpg",
+          "props": {
+            "márka": "Belgium büszkeségei",
+            "terméktípus": [
+              "sörválogatás"
+            ],
+            "jellemzők": [
+              "válogatás"
+            ],
+            "kiszerelés": "6 x 0,33 l"
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Alkoholok",
+      "altipus": "Abszint",
+      "count": 2,
+      "items": [
+        {
+          "index": 22202,
+          "name": "Absinthe Absinth cseh szeszesital 70% 0,5 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/metro/3166e181d32faa1c.png",
+          "props": {
+            "márka": "Absinthe",
+            "íz": [
+              "ánizs"
+            ],
+            "alkoholtartalom": [
+              "70%"
+            ],
+            "típus": [
+              "abszint"
+            ]
+          }
+        },
+        {
+          "index": 22214,
+          "name": "Absinth Black tunel szeszesital 80% 0,7 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/metro/a9eca2eb4ee2343e.png",
+          "props": {
+            "márka": "Absinth Black Tunel",
+            "íz": [
+              "black"
+            ],
+            "alkoholtartalom": [
+              "80%"
+            ],
+            "típus": [
+              "abszint"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Alkoholok",
+      "altipus": "Ouzo",
+      "count": 2,
+      "items": [
+        {
+          "index": 12912,
+          "name": "PILAVAS OUZO KOLONA 40% PAPÍR DD 0.5L",
+          "source_categories": "",
+          "image": "",
+          "props": {
+            "márka": "Pilavas",
+            "íz": [
+              "natúr"
+            ],
+            "cukormentes / zero": false,
+            "alkoholtartalom": [
+              "40%"
+            ]
+          }
+        },
+        {
+          "index": 36882,
+          "name": "Helenas Ouzo görög ánizslikőr 0,7 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/spar/6cc28a378a5b6c6c.jpg",
+          "props": {
+            "márka": "Helenas",
+            "íz": [
+              "ánizs"
+            ],
+            "alkoholtartalom": [
+              "40%"
+            ],
+            "cukormentes / zero": false
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Kávé, tea, kakaó (száraz)",
+      "altipus": "Instant kávéitalpor",
+      "count": 2,
+      "items": [
+        {
+          "index": 44358,
+          "name": "Tesco Flat White instant kávé teljes tejporral és cukorral 16 x 11,7 g (187,2 g)",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/fb3c80f9ee9a9580.jpg",
+          "props": {
+            "márka": "Tesco",
+            "terméktípus": [
+              "Flat White instant kávé teljes tejporral és cukorral"
+            ],
+            "csomagolás": [
+              "16 x 11,7 g"
+            ],
+            "kiszerelés": "187,2 g",
+            "íz": [
+              "kávé"
+            ]
+          }
+        },
+        {
+          "index": 45631,
+          "name": "Dr. Oetker Frappé klasszikus instant italpor sovány tejporral és kávékivonattal 15 g",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/d00acf8d1471efc9.jpg",
+          "props": {
+            "márka": "Dr. Oetker Frappé",
+            "terméktípus": [
+              "klasszikus instant italpor sovány tejporral és kávékivonattal"
+            ],
+            "íz": [
+              "klasszikus"
+            ],
+            "kiszerelés": "15 g",
+            "csomagolás": [
+              "palack"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Gyümölcslé",
+      "altipus": "Paradicsomlé",
+      "count": 3,
+      "items": [
+        {
+          "index": 44366,
+          "name": "Topjoy 100% enyhén fűszerezett paradicsomlé 1 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/26b56113b38fc141.jpg",
+          "props": {
+            "márka": "Topjoy",
+            "terméktípus": [
+              "100% enyhén fűszerezett paradicsomlé"
+            ],
+            "kiszerelés": "1 l"
+          }
+        },
+        {
+          "index": 44415,
+          "name": "Sió Natura 100% paradicsomlé 1 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/0f7c1e130015d310.jpg",
+          "props": {
+            "márka": "Sió Natura",
+            "terméktípus": [
+              "100% paradicsomlé"
+            ],
+            "kiszerelés": "1 l"
+          }
+        },
+        {
+          "index": 44670,
+          "name": "Topjoy 100% pikáns paradicsomlé 1 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/b1e2e4d962f5984a.jpg",
+          "props": {
+            "márka": "Topjoy",
+            "terméktípus": [
+              "100% pikáns paradicsomlé"
+            ],
+            "kiszerelés": "1 l"
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Habzó-, gyöngyözőbor, boralapú ital",
+      "altipus": "Habzóbor",
+      "count": 3,
+      "items": [
+        {
+          "index": 9531,
+          "name": "Gancia Prosecco Glera száraz olasz habzóbor 11,5% 0,75 l",
+          "source_categories": "Italok > Pezsgő > Nemzetközi pezsgő > Prosecco",
+          "image": "data/markets_data/product_images/auchan/239ec05c7e492521.png",
+          "props": {
+            "márka": "Gancia",
+            "alkoholmentes": false,
+            "fajta": [
+              "prosecco"
+            ],
+            "típus": [
+              "száraz"
+            ],
+            "íz": [
+              "egyéb"
+            ],
+            "borvidék / eredet": [
+              "egyéb"
+            ],
+            "kiszerelés": "0,75 l",
+            "terméktípus": [
+              "Habzóbor"
+            ],
+            "borvidék": [
+              "nem jelölt"
+            ],
+            "édesség": [
+              "száraz"
+            ],
+            "alkoholtartalom": [
+              "11,5%"
+            ],
+            "szín": [
+              "rozé"
+            ]
+          }
+        },
+        {
+          "index": 46056,
+          "name": "Louis Couturier Crémant de Bordeaux brut habzóbor 12,5% 75 cl",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/ccade4fa0db4cc07.jpg",
+          "props": {
+            "márka": "Louis Couturier",
+            "terméktípus": [
+              "Crémant de Bordeaux brut habzóbor"
+            ],
+            "borvidék": [
+              "Bordeaux"
+            ],
+            "édesség": [
+              "brut"
+            ],
+            "alkoholtartalom": [
+              "12,5%"
+            ],
+            "kiszerelés": "75 cl",
+            "alkoholmentes": false,
+            "szín": [
+              "nem jelölt"
+            ],
+            "fajta": [
+              "nem jelölt"
+            ],
+            "típus": [
+              "Habzóbor"
+            ],
+            "íz": [
+              "nem jelölt"
+            ],
+            "borvidék / eredet": [
+              "nem jelölt"
+            ]
+          }
+        },
+        {
+          "index": 46083,
+          "name": "Barigny Brut fehér habzóbor 11% 750 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/49fe19326daa53d1.jpg",
+          "props": {
+            "márka": "Barigny Brut",
+            "terméktípus": [
+              "fehér habzóbor"
+            ],
+            "szín": [
+              "fehér"
+            ],
+            "édesség": [
+              "brut"
+            ],
+            "alkoholtartalom": [
+              "11%"
+            ],
+            "kiszerelés": "750 ml",
+            "alkoholmentes": false,
+            "borvidék": [
+              "nem jelölt"
+            ],
+            "fajta": [
+              "nem jelölt"
+            ],
+            "típus": [
+              "Habzóbor"
+            ],
+            "íz": [
+              "nem jelölt"
+            ],
+            "borvidék / eredet": [
+              "nem jelölt"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Habzó-, gyöngyözőbor, boralapú ital",
+      "altipus": "Szénsavas bor",
+      "count": 3,
+      "items": [
+        {
+          "index": 44739,
+          "name": "Varga Irsai Olivér Bubis szénsavas száraz fehér tájbor 10% 0,75 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/7e11fbd875f309ec.jpg",
+          "props": {
+            "márka": "Varga Irsai Olivér Bubis",
+            "terméktípus": [
+              "szénsavas száraz fehér tájbor"
+            ],
+            "szőlőfajta": [
+              "Irsai Olivér"
+            ],
+            "édesség": [
+              "száraz"
+            ],
+            "alkoholtartalom": [
+              "10%"
+            ],
+            "kiszerelés": "0,75 l"
+          }
+        },
+        {
+          "index": 45095,
+          "name": "Varga Édes Bubis rozébor 0,75 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/e0a4bfc95cc1f5d5.jpg",
+          "props": {
+            "márka": "Varga Édes Bubis",
+            "terméktípus": [
+              "rozébor"
+            ],
+            "édesség": [
+              "édes"
+            ],
+            "kiszerelés": "0,75 l",
+            "szőlőfajta": [
+              "nem jelölt"
+            ],
+            "alkoholtartalom": [
+              "alkoholos"
+            ]
+          }
+        },
+        {
+          "index": 45105,
+          "name": "Varga Bubis Rozé száraz bor 0,75 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/a427ac0511506de1.jpg",
+          "props": {
+            "márka": "Varga Bubis Rozé",
+            "terméktípus": [
+              "száraz rozé bor"
+            ],
+            "édesség": [
+              "száraz"
+            ],
+            "kiszerelés": "0,75 l",
+            "szőlőfajta": [
+              "nem jelölt"
+            ],
+            "alkoholtartalom": [
+              "alkoholos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Kávé, tea, kakaó (száraz)",
+      "altipus": "Gabonakávé",
+      "count": 3,
+      "items": [
+        {
+          "index": 44565,
+          "name": "Maci koffeinmentes azonnal oldódó cukrozott pótkávé kivonat 250 g",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/d5675fa1416f5081.jpg",
+          "props": {
+            "márka": "Maci",
+            "terméktípus": [
+              "koffeinmentes azonnal oldódó cukrozott pótkávé kivonat"
+            ],
+            "jellemző": [
+              "koffeinmentes",
+              "cukrozott"
+            ],
+            "kiszerelés": "250 g",
+            "jellemzők": [
+              "alkoholmentes"
+            ]
+          }
+        },
+        {
+          "index": 44956,
+          "name": "Inka Classic instant gabonakávé keverék 180 g",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/a2f14f749f281d2f.jpg",
+          "props": {
+            "márka": "Inka Classic",
+            "terméktípus": [
+              "instant gabonakávé keverék"
+            ],
+            "kiszerelés": "180 g",
+            "jellemzők": [
+              "alkoholmentes"
+            ],
+            "jellemző": [
+              "alkoholmentes"
+            ]
+          }
+        },
+        {
+          "index": 46635,
+          "name": "Biopont BIO koffeinmentes gabona kávé cikóriával 100 g",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/4e02459274fcb84b.jpg",
+          "props": {
+            "márka": "Biopont",
+            "terméktípus": [
+              "BIO koffeinmentes gabona kávé cikóriával"
+            ],
+            "jellemzők": [
+              "bio",
+              "koffeinmentes",
+              "cikóriával"
+            ],
+            "kiszerelés": "100 g",
+            "jellemző": [
+              "bio",
+              "alkoholmentes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Kávé, tea, kakaó (száraz)",
+      "altipus": "Kakaó kapszula",
+      "count": 3,
+      "items": [
+        {
+          "index": 44831,
+          "name": "NESCAFÉ Dolce Gusto Nesquik kakaó alapú italpor tejporral 16 kapszula x 16 g (256 g)",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/d0da6f8104d5589c.jpg",
+          "props": {
+            "márka": "NESCAFÉ Dolce Gusto Nesquik",
+            "terméktípus": [
+              "kakaó alapú italpor tejporral kapszulában"
+            ],
+            "csomagolás": [
+              "16 kapszula x 16 g"
+            ],
+            "kiszerelés": "256 g",
+            "íz": [
+              "kakaó"
+            ]
+          }
+        },
+        {
+          "index": 44951,
+          "name": "Tesco Hot Chocolate zsírszegény kakaópor és teljes tejpor cukorral 8 x 16 g + 8 x 16 g (256 g)",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/67debf5fbc5d316b.jpg",
+          "props": {
+            "márka": "Tesco Hot Chocolate",
+            "terméktípus": [
+              "zsírszegény kakaópor és teljes tejpor cukorral kapszulában"
+            ],
+            "csomagolás": [
+              "8 x 16 g + 8 x 16 g"
+            ],
+            "kiszerelés": "256 g",
+            "íz": [
+              "kakaó",
+              "cola"
+            ]
+          }
+        },
+        {
+          "index": 45661,
+          "name": "NESCAFÉ Dolce Gusto KitKat ízesített italpor tejporral és kakaóporral 16 db 256 g",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/941804da543c97e7.jpg",
+          "props": {
+            "márka": "NESCAFÉ Dolce Gusto KitKat",
+            "terméktípus": [
+              "ízesített italpor tejporral és kakaóporral"
+            ],
+            "íz": [
+              "KitKat",
+              "kakaó"
+            ],
+            "kiszerelés": "16 db",
+            "csomagolás": [
+              "palack"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Üdítőital",
+      "altipus": "Gyökér alapú üdítőital",
+      "count": 3,
+      "items": [
+        {
+          "index": 46871,
+          "name": "Sapinca bio gyökér alapú szénsavas ital 250 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/e059ff2808b23e61.jpg",
+          "props": {
+            "márka": "Sapinca",
+            "terméktípus": [
+              "bio gyökér alapú szénsavas ital"
+            ],
+            "alapanyag": [
+              "gyökér"
+            ],
+            "jellemzők": [
+              "bio",
+              "szénsavas"
+            ],
+            "kiszerelés": "250 ml"
+          }
+        },
+        {
+          "index": 46873,
+          "name": "Sapinca bio vegyes gyökér ital 495 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/eac151ef11590160.jpg",
+          "props": {
+            "márka": "Sapinca",
+            "terméktípus": [
+              "bio vegyes gyökér ital"
+            ],
+            "alapanyag": [
+              "vegyes gyökér"
+            ],
+            "jellemzők": [
+              "bio"
+            ],
+            "kiszerelés": "495 ml"
+          }
+        },
+        {
+          "index": 46874,
+          "name": "Sapinca bio vegyes gyökér és gyümölcs ital 495 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/bcaa9be15efa78ed.jpg",
+          "props": {
+            "márka": "Sapinca",
+            "terméktípus": [
+              "bio vegyes gyökér és gyümölcs ital"
+            ],
+            "alapanyag": [
+              "vegyes gyökér",
+              "gyümölcs"
+            ],
+            "jellemzők": [
+              "bio"
+            ],
+            "kiszerelés": "495 ml"
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Alkoholok",
+      "altipus": "Rum alapú szeszesital",
+      "count": 4,
+      "items": [
+        {
+          "index": 44870,
+          "name": "Captain Morgan Spiced Gold fűszeres jamaicai rumból készült szeszesital 35% 0,7 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/93bae6d89b6c0cca.jpg",
+          "props": {
+            "márka": "Captain Morgan Spiced Gold",
+            "terméktípus": [
+              "fűszeres jamaicai rumból készült szeszesital"
+            ],
+            "alkoholtartalom": [
+              "35%"
+            ],
+            "kiszerelés": "0,7 l",
+            "íz": [
+              "nem jelölt"
+            ],
+            "jellemző": [
+              "nem jelölt"
+            ]
+          }
+        },
+        {
+          "index": 45374,
+          "name": "Captain Morgan Spiced Gold fűszeres jamaicai rumból készült szeszesital + 1 db pohár 35% 0,7 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/10e704ebee151172.jpg",
+          "props": {
+            "márka": "Captain Morgan Spiced Gold",
+            "terméktípus": [
+              "fűszeres jamaicai rumból készült szeszesital"
+            ],
+            "íz": [
+              "fűszeres"
+            ],
+            "alkoholtartalom": [
+              "35%"
+            ],
+            "kiszerelés": "0,7 l",
+            "jellemző": [
+              "1 db pohárral"
+            ]
+          }
+        },
+        {
+          "index": 45404,
+          "name": "Captain Morgan Tiki mangó és ananász ízű szeszesital 25% 0,7 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/c3562b623611c540.jpg",
+          "props": {
+            "márka": "Captain Morgan Tiki",
+            "terméktípus": [
+              "mangó és ananász ízű szeszesital"
+            ],
+            "íz": [
+              "mangó",
+              "ananász"
+            ],
+            "alkoholtartalom": [
+              "25%"
+            ],
+            "kiszerelés": "0,7 l",
+            "jellemző": [
+              "nem jelölt"
+            ]
+          }
+        },
+        {
+          "index": 45405,
+          "name": "Bacardi Spiced rum alapú szeszes ital 35% 700 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/22522d7a55fb38bb.jpg",
+          "props": {
+            "márka": "Bacardi Spiced",
+            "terméktípus": [
+              "rum alapú szeszes ital"
+            ],
+            "íz": [
+              "fűszeres"
+            ],
+            "alkoholtartalom": [
+              "35%"
+            ],
+            "kiszerelés": "700 ml",
+            "jellemző": [
+              "nem jelölt"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Gyümölcslé",
+      "altipus": "Gyümölcspüré",
+      "count": 4,
+      "items": [
+        {
+          "index": 45609,
+          "name": "Kubu Immuno alma-sárgarépa-banán-eper-málna-csipkebogyó-acerola-hibiszkusz püré, C-vitaminnal 100 g",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/d14987593c1bb51f.jpg",
+          "props": {
+            "márka": "Kubu Immuno",
+            "terméktípus": [
+              "alma-sárgarépa-banán-eper-málna-csipkebogyó-acerola-hibiszkusz püré"
+            ],
+            "összetevő": [
+              "alma",
+              "sárgarépa",
+              "banán",
+              "eper",
+              "málna",
+              "csipkebogyó",
+              "acerola",
+              "hibiszkusz"
+            ],
+            "jellemző": [
+              "C-vitaminnal"
+            ],
+            "kiszerelés": "100 g"
+          }
+        },
+        {
+          "index": 45610,
+          "name": "Kubu Immuno alma-körte-sárgarépa-banán-acerola-bodzabogyó püré, C-vitaminnal, cinkkel 100 g",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/fd23610dad515203.jpg",
+          "props": {
+            "márka": "Kubu Immuno",
+            "terméktípus": [
+              "alma-körte-sárgarépa-banán-acerola-bodzabogyó püré"
+            ],
+            "összetevő": [
+              "alma",
+              "körte",
+              "sárgarépa",
+              "banán",
+              "acerola",
+              "bodzabogyó"
+            ],
+            "jellemző": [
+              "C-vitaminnal",
+              "cinkkel"
+            ],
+            "kiszerelés": "100 g"
+          }
+        },
+        {
+          "index": 45611,
+          "name": "Topjoy alma lime kaktusz gyümölcspüré C-vitaminnal és pantoténsavval 200 g",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/dc540f85096715cc.jpg",
+          "props": {
+            "márka": "Topjoy",
+            "terméktípus": [
+              "alma lime kaktusz gyümölcspüré"
+            ],
+            "összetevő": [
+              "alma",
+              "lime",
+              "kaktusz"
+            ],
+            "jellemző": [
+              "C-vitaminnal",
+              "pantoténsavval"
+            ],
+            "kiszerelés": "200 g"
+          }
+        },
+        {
+          "index": 45612,
+          "name": "Topjoy alma banán őszibarack mangó püré 200 g",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/7b19f28639bf7115.jpg",
+          "props": {
+            "márka": "Topjoy",
+            "terméktípus": [
+              "alma banán őszibarack mangó püré"
+            ],
+            "összetevő": [
+              "alma",
+              "banán",
+              "őszibarack",
+              "mangó"
+            ],
+            "kiszerelés": "200 g",
+            "jellemző": [
+              "alkoholmentes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Gyümölcslé",
+      "altipus": "Vegyes gyümölcslé",
+      "count": 4,
+      "items": [
+        {
+          "index": 44315,
+          "name": "Tesco vegyes gyümölcslé és -püré, répalével és kaktuszlével, 12 hozzáadott vitaminnal 1 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/cd385955d9b006d3.jpg",
+          "props": {
+            "márka": "Tesco",
+            "terméktípus": [
+              "vegyes gyümölcslé és -püré"
+            ],
+            "összetevő": [
+              "répalé",
+              "kaktuszlé"
+            ],
+            "jellemző": [
+              "12 hozzáadott vitaminnal"
+            ],
+            "kiszerelés": "1 l"
+          }
+        },
+        {
+          "index": 44406,
+          "name": "Hohes C Plus+ Immun cink 100% vegyes gyümölcslé 1 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/ef8fba042f45dacd.jpg",
+          "props": {
+            "márka": "Hohes C Plus+ Immun",
+            "terméktípus": [
+              "100% vegyes gyümölcslé"
+            ],
+            "jellemző": [
+              "cinkkel"
+            ],
+            "kiszerelés": "1 l",
+            "összetevő": [
+              "nem jelölt"
+            ]
+          }
+        },
+        {
+          "index": 44407,
+          "name": "Hohes C Plus Fókusz 100% vegyes gyümölcslé 1 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/55cfb8cb43115404.jpg",
+          "props": {
+            "márka": "Hohes C Plus Fókusz",
+            "terméktípus": [
+              "100% vegyes gyümölcslé"
+            ],
+            "kiszerelés": "1 l",
+            "összetevő": [
+              "nem jelölt"
+            ],
+            "jellemző": [
+              "alkoholmentes"
+            ]
+          }
+        },
+        {
+          "index": 44553,
+          "name": "Hohes C Plus Harmónia 100% vegyes gyümölcslé 1 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/460a1ced5ff5bd99.jpg",
+          "props": {
+            "márka": "Hohes C Plus Harmónia",
+            "terméktípus": [
+              "100% vegyes gyümölcslé"
+            ],
+            "kiszerelés": "1 l",
+            "összetevő": [
+              "nem jelölt"
+            ],
+            "jellemző": [
+              "alkoholmentes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Ásványvíz",
+      "altipus": "Ivóvíz / vízalapú ital",
+      "count": 4,
+      "items": [
+        {
+          "index": 44712,
+          "name": "Glacéau Smartwater szénsavmentes víz alapú ital hozzáadott ásványi anyagokkal 600 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/41030b47e2891dbf.jpg",
+          "props": {
+            "márka": "Glacéau Smartwater",
+            "terméktípus": [
+              "szénsavmentes víz alapú ital hozzáadott ásványi anyagokkal"
+            ],
+            "jellemző": [
+              "hozzáadott ásványi anyagokkal"
+            ],
+            "kiszerelés": "600 ml",
+            "szénsavasság": [
+              "szénsavmentes"
+            ],
+            "jellemzők": [
+              "alkoholmentes"
+            ]
+          }
+        },
+        {
+          "index": 44777,
+          "name": "Glacéau Smartwater szénsavmentes víz alapú ital hozzáadott ásványi anyagokkal 1,1 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/900081a4b54e39b2.jpg",
+          "props": {
+            "márka": "Glacéau Smartwater",
+            "terméktípus": [
+              "szénsavmentes víz alapú ital hozzáadott ásványi anyagokkal"
+            ],
+            "jellemző": [
+              "hozzáadott ásványi anyagokkal"
+            ],
+            "kiszerelés": "1,1 l",
+            "szénsavasság": [
+              "szénsavmentes"
+            ],
+            "jellemzők": [
+              "alkoholmentes"
+            ]
+          }
+        },
+        {
+          "index": 45162,
+          "name": "Floewater Sparkling szén-dioxiddal dúsított, duplán-szűrt ivóvíz 250 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/27c5c739e0810827.jpg",
+          "props": {
+            "márka": "Floewater Sparkling",
+            "terméktípus": [
+              "szén-dioxiddal dúsított duplán-szűrt ivóvíz"
+            ],
+            "szénsavasság": [
+              "szén-dioxiddal dúsított"
+            ],
+            "kiszerelés": "250 ml",
+            "jellemző": [
+              "alkoholmentes"
+            ],
+            "jellemzők": [
+              "alkoholmentes"
+            ]
+          }
+        },
+        {
+          "index": 45357,
+          "name": "Floewater Still szénsavmentes, duplán-szűrt ivóvíz 250 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/tesco/d3cfbe490f29180b.jpg",
+          "props": {
+            "márka": "Floewater Still",
+            "terméktípus": [
+              "szénsavmentes, duplán-szűrt ivóvíz"
+            ],
+            "szénsavasság": [
+              "szénsavmentes"
+            ],
+            "jellemzők": [
+              "duplán-szűrt"
+            ],
+            "kiszerelés": "250 ml",
+            "jellemző": [
+              "alkoholmentes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Ásványvíz",
+      "altipus": "Szódavíz",
+      "count": 4,
+      "items": [
+        {
+          "index": 10412,
+          "name": "Comix szódavíz 1,5 l",
+          "source_categories": "Italok > Ásványvíz, gyümölcslé, üdítőital, szörp > Víz > Ásványvíz",
+          "image": "data/markets_data/product_images/auchan/e388870d00704a8c.png",
+          "props": {
+            "szénsavasság": "szóda",
+            "márka": "Comix",
+            "cukormentes / zero": false,
+            "szénsavas": false,
+            "íz": [
+              "natúr"
+            ],
+            "terméktípus": [
+              "Szódavíz"
+            ]
+          }
+        },
+        {
+          "index": 23662,
+          "name": "Comix Szódavíz 8 x 1,5 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/metro/7620e5be1834b724.png",
+          "props": {
+            "márka": "Comix",
+            "íz": [
+              "natúr"
+            ],
+            "szénsavasság": "szóda",
+            "szénsavas": true,
+            "cukormentes / zero": true,
+            "terméktípus": [
+              "Szódavíz"
+            ]
+          }
+        },
+        {
+          "index": 35204,
+          "name": "SPAR Verde Fröccsvíz szén-dioxiddal dúsított természetes ásványvíz 1,5 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/spar/76ef93a99bf422d4.jpg",
+          "props": {
+            "márka": "SPAR Verde",
+            "szénsavasság": "szénsavas",
+            "íz": [
+              "natúr"
+            ],
+            "terméktípus": [
+              "fröccsvíz"
+            ],
+            "cukormentes / zero": false,
+            "szénsavas": false
+          }
+        },
+        {
+          "index": 35221,
+          "name": "SPAR Verde fröccsvíz 0,75 l",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/spar/a22f8d2a34f300b7.jpg",
+          "props": {
+            "márka": "SPAR Verde",
+            "szénsavasság": "szénsavas",
+            "íz": [
+              "natúr"
+            ],
+            "terméktípus": [
+              "fröccsvíz"
+            ],
+            "cukormentes / zero": false,
+            "szénsavas": false
+          }
+        }
+      ]
+    },
+    {
+      "alkategoria": "Alkoholok",
+      "altipus": "Soju",
+      "count": 5,
+      "items": [
+        {
+          "index": 22201,
+          "name": "JINRO Soju Grape Ázsiai Szőlő Ízesítésű Szeszesital 13% 350 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/metro/57e89227402debc2.png",
+          "props": {
+            "márka": "JINRO",
+            "íz": [
+              "szőlő"
+            ],
+            "alkoholtartalom": [
+              "13%"
+            ],
+            "típus": [
+              "soju"
+            ]
+          }
+        },
+        {
+          "index": 22218,
+          "name": "JINRO Soju Peach ázsiai Barack Ízesítésű Szeszesital 13% 350 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/metro/30fab9b0466bb28d.png",
+          "props": {
+            "márka": "JINRO",
+            "íz": [
+              "barack"
+            ],
+            "alkoholtartalom": [
+              "13%"
+            ],
+            "típus": [
+              "soju"
+            ]
+          }
+        },
+        {
+          "index": 22219,
+          "name": "JINRO Soju Strawberry Ázsiai Eper Ízesítésű Szeszesital 13% 350 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/metro/a3fc6f7c4c73e2f3.png",
+          "props": {
+            "márka": "JINRO",
+            "íz": [
+              "eper"
+            ],
+            "alkoholtartalom": [
+              "13%"
+            ],
+            "típus": [
+              "soju"
+            ]
+          }
+        },
+        {
+          "index": 22220,
+          "name": "JINRO Soju Fresh Koreai Pálinka 16% 350 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/metro/b6783778261f6515.png",
+          "props": {
+            "márka": "JINRO",
+            "íz": [
+              "natúr"
+            ],
+            "alkoholtartalom": [
+              "16%"
+            ],
+            "típus": [
+              "soju"
+            ]
+          }
+        },
+        {
+          "index": 22221,
+          "name": "JINRO Soju Retro 16% 350 ml",
+          "source_categories": "",
+          "image": "data/markets_data/product_images/metro/fa7e19cddd2c49dd.png",
+          "props": {
+            "márka": "JINRO",
+            "íz": [
+              "natúr"
+            ],
+            "alkoholtartalom": [
+              "16%"
+            ],
+            "típus": [
+              "soju"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
