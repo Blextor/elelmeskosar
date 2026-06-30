@@ -1,0 +1,1538 @@
+{
+  "product_change_count": 359,
+  "tree_change_count": 55,
+  "product_changes_first": [
+    [
+      628,
+      "Laposa Prizma",
+      "Laposa",
+      "BADACSONY Laposa Prizma Olaszrizling, száraz fehérbor, 0,75 l + 50 Ft visszaváltási díj"
+    ],
+    [
+      634,
+      "Laposa Prizma",
+      "Laposa",
+      "BADACSONY Laposa Prizma Rajnai rizling száraz fehérbor, 0,75 l + 50 Ft visszaváltási díj"
+    ],
+    [
+      9024,
+      "Mátrai Szabó Pince",
+      "Szabó Pince",
+      "Mátrai Szabó Pince Zöldveltelini száraz fehér bor 0,75 l"
+    ],
+    [
+      9025,
+      "Mátrai Szabó Pince",
+      "Szabó Pince",
+      "Szabó Pince Felső-Magyarországi Sárgamuskotály édes fehérbor 10,5% 750 ml"
+    ],
+    [
+      9026,
+      "Mátrai Szabó Pince",
+      "Szabó Pince",
+      "Szabó Pince Mátrai Irsai Olivér száraz fehérbor 11% 750 ml"
+    ],
+    [
+      9027,
+      "Mátrai Szabó Pince",
+      "Szabó Pince",
+      "Szabó Pince Mátrai Olaszrizling száraz fehérbor 11,0% 750 ml"
+    ],
+    [
+      9045,
+      "Paulus Fresh&Cool",
+      "Paulus",
+      "Paulus Fresh&Cool Irsai Olivér 0,75l"
+    ],
+    [
+      9046,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus Gold Ezerjó száraz fehérbor 750 ml"
+    ],
+    [
+      9047,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus Gold Generosa száraz fehérbor 750 ml"
+    ],
+    [
+      9048,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus Gold Olaszrizling száraz fehérbor 750 ml"
+    ],
+    [
+      9049,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus Gold Sauvignon Blanc száraz fehérbor 750 ml"
+    ],
+    [
+      9050,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus Gold Zenit száraz fehérbor 14% 0,75 l"
+    ],
+    [
+      9130,
+      "Hilltop Kamocsay",
+      "Hilltop",
+      "Hilltop Kamocsay Prémium Neszmélyi Ihlet Cuvée száraz fehérbor 13% 75 cl"
+    ],
+    [
+      9131,
+      "Hilltop Kamocsay",
+      "Hilltop",
+      "Hilltop Kamocsay Prémium Neszmélyi Irsai Olivér száraz fehérbor 10,5% 75 cl"
+    ],
+    [
+      9132,
+      "Takler Borbirtok",
+      "Takler",
+      "Takler Sauvignon Blanc száraz fehérbor 12% 0,75 l"
+    ],
+    [
+      9133,
+      "Takler Borbirtok",
+      "Takler",
+      "Takler Trió Fehér Cuvée száraz fehérbor 12% 0,75 l"
+    ],
+    [
+      9138,
+      "Hilltop Kamocsay",
+      "Hilltop",
+      "Hilltop Kamocsay Prémium Neszmélyi Chardonnay száraz fehérbor 13,5% 75 cl"
+    ],
+    [
+      9146,
+      "Kreinbacher Birtok",
+      "Kreinbacher",
+      "Kreinbacher Nagy-Somlói Cuvée száraz fehérbor 12,5% 0,75 l"
+    ],
+    [
+      9147,
+      "Laposa Vitorlás",
+      "Laposa",
+      "Laposa Balatoni Olaszrizling száraz fehérbor 13% 75 cl"
+    ],
+    [
+      9151,
+      "Kreinbacher Birtok",
+      "Kreinbacher",
+      "Kreinbacher Nagy-Somlói Juhfark száraz fehérbor 12,5% 0,75 l"
+    ],
+    [
+      9162,
+      "Figula Mihály",
+      "Figula",
+      "Figula Olaszrizling száraz fehérbor 14,5% 0,75 L"
+    ],
+    [
+      9203,
+      "Mátrai Szabó Pince",
+      "Szabó Pince",
+      "Szabó Pince Felső-Magyarországi Rosé Cuvée édes rosébor 12,0% 750 ml"
+    ],
+    [
+      9283,
+      "Mátrai Szabó Pince",
+      "Szabó Pince",
+      "Szabó Pince Felső-Magyarországi Turán édes vörösbor 10,5% 750 ml"
+    ],
+    [
+      9339,
+      "Takler Borbirtok",
+      "Takler",
+      "Takler Trió Cuvée száraz vörösbor 13,5% 0,75 l"
+    ],
+    [
+      9379,
+      "Takler Pince",
+      "Takler",
+      "Takler Regnum Szekszárd Cuvée vörösbor 15% 0,75 l"
+    ],
+    [
+      9761,
+      "ZUBROWKA",
+      "Żubrówka",
+      "Żubrówka Biała vodka 37,5% 0,2 l"
+    ],
+    [
+      9767,
+      "ZUBROWKA",
+      "Żubrówka",
+      "Żubrówka Biała vodka 37,5% 0,5 l"
+    ],
+    [
+      9773,
+      "ZUBROWKA",
+      "Żubrówka",
+      "Żubrówka Bison Grass ízesített vodka 37,5% 0,5 l"
+    ],
+    [
+      9779,
+      "ZUBROWKA",
+      "Żubrówka",
+      "Żubrówka Biała vodka 37,5% 1 l"
+    ],
+    [
+      9787,
+      "ZUBROWKA",
+      "Żubrówka",
+      "Żubrówka Bison Grass ízesített vodka 37,5% 1 l"
+    ],
+    [
+      9789,
+      "ABSOLUT",
+      "Absolut",
+      "Absolut vodka 40% 700 ml"
+    ],
+    [
+      9792,
+      "ABSOLUT",
+      "Absolut",
+      "Absolut vodka 40% 1 l"
+    ],
+    [
+      9893,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős barack ízű szeszesital 34,5% 0,5 l"
+    ],
+    [
+      10132,
+      "Tutti Juice",
+      "Tutti",
+      "Tutti Juice Koffeinmentes Cseresznye 0,25L"
+    ],
+    [
+      10133,
+      "Tutti Juice",
+      "Tutti",
+      "Tutti Juice Koffeinmentes Görögdinnye 0,25L"
+    ],
+    [
+      10134,
+      "Tutti Juice",
+      "Tutti",
+      "Tutti Juice Original 0,25L"
+    ],
+    [
+      10510,
+      "Dér Juice Family",
+      "DÉR Juice",
+      "DÉR Juice Family frissen préselt 100% cékla almával 3 l"
+    ],
+    [
+      10512,
+      "Dér Juice Family",
+      "DÉR Juice",
+      "Dér juice almalé feketeribizlivel 100% 3 l"
+    ],
+    [
+      10513,
+      "Dér Juice Family",
+      "DÉR Juice",
+      "DÉR Juice Family frissen préselt 100% almalé homoktövissel 3 l"
+    ],
+    [
+      10515,
+      "Dér Juice Family",
+      "DÉR Juice",
+      "Dér juice almalé őszibarackkal 100% 3 l"
+    ],
+    [
+      12876,
+      "Theodora Kereki",
+      "Theodora",
+      "THEODORA KEREKI ÁSV.V.ENYHE PET DRS 1.5L"
+    ],
+    [
+      13071,
+      "Szovjetszkoje",
+      "Szovjetszkoje Igrisztoje",
+      "SZOVJETSZKOJE I.PEZS.FEH.SZ.ÜV.DRS 0.75L"
+    ],
+    [
+      13196,
+      "Theodora Kereki",
+      "Theodora",
+      "THEODORA KEREKI ÁSV.V.SZÉNS.PET DRS 1.5L"
+    ],
+    [
+      14395,
+      "Solevita Sol & Mar",
+      "Solevita",
+      "SOLEVITA, SOL&MAR Mandarinlé"
+    ],
+    [
+      21095,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus GOLD Olaszrizling 13% 750 ml"
+    ],
+    [
+      21097,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus GOLD Sauvignon Blanc 12% 750 ml"
+    ],
+    [
+      21098,
+      "KAMOCSAY Hilltop",
+      "Hilltop",
+      "KAMOCSAY Hilltop Prémium Irsai Olivér Száraz Fehérbor 10,5% 750 ml"
+    ],
+    [
+      21099,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus Gold Ezerjó Száraz Fehérbor 12,50% 750 ml"
+    ],
+    [
+      21101,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus GOLD ZENIT Száraz Fehérbor 13% 750 ml"
+    ],
+    [
+      21103,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus GOLD Chardonnay Száraz Fehérbor 12% 750 ml"
+    ],
+    [
+      21108,
+      "KAMOCSAY Hilltop",
+      "Hilltop",
+      "KAMOCSAY Hilltop Prémium Neszmélyi Ihlet Cuvée száraz fehérbor 13,5% 75 cl"
+    ],
+    [
+      21109,
+      "KAMOCSAY Hilltop",
+      "Hilltop",
+      "KAMOCSAY Hilltop Prémium Neszmélyi Sárgamuskotály Száraz Fehérbor 12% 750 ml"
+    ],
+    [
+      21110,
+      "KAMOCSAY Hilltop",
+      "Hilltop",
+      "KAMOCSAY Hilltop Prémium Sauvignon Blanc Száraz Fehérbor 12% 750 ml"
+    ],
+    [
+      21111,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus GOLD Generosa Száraz Fehérbor 13,5% 750 ml"
+    ],
+    [
+      21509,
+      "KAMOCSAY Hilltop",
+      "Hilltop",
+      "KAMOCSAY Hilltop Prémium Merlot vörösbor 13,5% 75 cl"
+    ],
+    [
+      21523,
+      "Teleki Inspiráció",
+      "Teleki",
+      "Teleki Inspiráció Villányi Franc prémium száraz vörösbor 13,5% 0,75 l"
+    ],
+    [
+      21575,
+      "Teleki Inspiráció",
+      "Teleki",
+      "Teleki Inspiráció Villányi Cabernet Sauvignon 14,5% 750 ml"
+    ],
+    [
+      21576,
+      "Teleki Inspiráció",
+      "Teleki",
+      "Teleki Inspiráció Villányi Kékfrankos 14% 750 ml"
+    ],
+    [
+      21902,
+      "Laposa Cooler",
+      "Laposa",
+      "LAPOSA Cooler Friss Bodza-Menta Borkoktél 4,9% 250 ml"
+    ],
+    [
+      21903,
+      "Laposa Cooler",
+      "Laposa",
+      "LAPOSA Cooler Illatos Levendula-Gyömbér Borkoktél 4,7% 250 ml"
+    ],
+    [
+      21904,
+      "Laposa Cooler",
+      "Laposa",
+      "LAPOSA Cooler Rosé Málna Borkoktél 4,7% 250 ml"
+    ],
+    [
+      22111,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős Tutti Frutti ízű likőr 24,5% 0,5 l"
+    ],
+    [
+      22117,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "FÜTYÜLŐS Barack Pálinka 34,5% 500 ml"
+    ],
+    [
+      22123,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "FÜTYÜLŐS MEGGY Ízű Likőr 24,5% 500 ml"
+    ],
+    [
+      22125,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "FÜTYÜLŐS Barack Gyümölcspárlat Mézzel 22,5% 500 ml"
+    ],
+    [
+      22126,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "FÜTYÜLŐS Feketecseresznye Gyümölcspárlat Mézzel 22,5% 500 ml"
+    ],
+    [
+      22127,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "FÜTYÜLŐS Kékáfonya Gyümölcspárlat Mézzel 22,5% 500 ml"
+    ],
+    [
+      22129,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "FÜTYÜLŐS Csokis Mogyoró 22,5% 500 ml"
+    ],
+    [
+      22130,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "FÜTYÜLŐS Málna-Lime 22.5% 500 ml"
+    ],
+    [
+      22144,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős csokis mogyoró ízű likőr 24,5% 0,5 l"
+    ],
+    [
+      22188,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős feketecseresznye likőr mézzel 24,5% 0,2 l"
+    ],
+    [
+      22189,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős barack ízű likőr mézzel 24,5% 0,2 l"
+    ],
+    [
+      22190,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős feketecseresznye ízű likőr mézzel 24,5% 0,5 l"
+    ],
+    [
+      22191,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős Mézes Barack ízű Likőr 24,5% 500 ml"
+    ],
+    [
+      22266,
+      "ABSOLUT",
+      "Absolut",
+      "Absolut Vanillia Prémium Svéd Vodka Vanília Ízesítéssel 38% 700 ml"
+    ],
+    [
+      22268,
+      "ABSOLUT",
+      "Absolut",
+      "ABSOLUT vodka 40% 1 l"
+    ],
+    [
+      22271,
+      "ABSOLUT",
+      "Absolut",
+      "ABSOLUT vodka 40% 700 ml"
+    ],
+    [
+      22287,
+      "ABSOLUT",
+      "Absolut",
+      "Absolut Raspberry Málna Ízesítésű Vodka 38% 700 ml"
+    ],
+    [
+      22288,
+      "ABSOLUT",
+      "Absolut",
+      "Absolut Mangó Mangó Ízesítésű Vodka 38% 700 ml"
+    ],
+    [
+      22289,
+      "ABSOLUT",
+      "Absolut",
+      "Absolut Citromos Vodka 40% 700 ml"
+    ],
+    [
+      22296,
+      "ZUBROWKA",
+      "Żubrówka",
+      "ZUBROWKA Lemon Mint 18% 500 ml"
+    ],
+    [
+      22297,
+      "ZUBROWKA",
+      "Żubrówka",
+      "ZUBROWKA Watermelon-Lemon 18% 500 ml"
+    ],
+    [
+      22301,
+      "ZUBROWKA",
+      "Żubrówka",
+      "ZUBROWKA Żubrówka Biała vodka 37,5% 1 l"
+    ],
+    [
+      22322,
+      "ZUBROWKA",
+      "Żubrówka",
+      "ZUBROWKA Żubrówka Bison Grass ízesített vodka 37,5% 1 l"
+    ],
+    [
+      22326,
+      "ZUBROWKA",
+      "Żubrówka",
+      "ZUBROWKA Żubrówka Biała vodka 37,5% 0,2 l"
+    ],
+    [
+      22327,
+      "ZUBROWKA",
+      "Żubrówka",
+      "ZUBROWKA Żubrówka Biała vodka 37,5% 0,5 l"
+    ],
+    [
+      22328,
+      "ZUBROWKA",
+      "Żubrówka",
+      "ZUBROWKA Żubrówka Bison Grass ízesített vodka 37,5% 0,7 l"
+    ],
+    [
+      22339,
+      "ABSOLUT",
+      "Absolut",
+      "ABSOLUT Vodka 40% 12 x 50 ml"
+    ],
+    [
+      23671,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki Szénsavmentes Természetes Ásványvíz 500 ml"
+    ],
+    [
+      23672,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki Szénsavmentes Természetes Ásványvíz 12 x 500 ml"
+    ],
+    [
+      23677,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki Szénsavmentes Természetes Ásványvíz 330 ml"
+    ],
+    [
+      23683,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki Szénsavmentes Természetes Ásványvíz 1,5 l"
+    ],
+    [
+      23684,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki Szénsavmentes Természetes Ásványvíz 6 x 1,5 l"
+    ],
+    [
+      23688,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki Szénsavas Természetes Ásványvíz 330 ml"
+    ],
+    [
+      23689,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki Szénsavas Természetes Ásványvíz 12 x 330 ml"
+    ],
+    [
+      23694,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki Szénsavas Természetes Ásványvíz 1,5 l"
+    ],
+    [
+      23695,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki Szénsavas Természetes Ásványvíz 6 x 1,5 l"
+    ],
+    [
+      23710,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki Szénsavmentes Természetes Üveges Ásványvíz 330 ml"
+    ],
+    [
+      23711,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki Szénsavmentes Természetes Üveges Ásványvíz 24 x 330 ml"
+    ],
+    [
+      23743,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki szén-dioxiddal enyhén dúsított természetes ásványvíz 1,5 l"
+    ],
+    [
+      23768,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Calcia Plusz Collagén tartalmú ital 0,7 l"
+    ],
+    [
+      23769,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Theodora Calcia Plus Antistress üdítőital 0,7 l"
+    ],
+    [
+      23770,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Theodora Calcia Plus Revital Üdítőital 0,7l"
+    ],
+    [
+      23772,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Theodora Calcia Plus Szén-dioxiddal enyhén dúsított Sárgabarack - gyömbér - lime Ízú üdítőital 700 ml"
+    ],
+    [
+      23773,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Theodora Calcia Plus Focus Sárgabarack-Maracuja-Ginzeng Ízű Enyhén Szénsavas Üdítőital visszaváltható PET palackban 700 ml"
+    ],
+    [
+      25764,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus Gold Ezerjó száraz fehérbor 750 ml"
+    ],
+    [
+      26203,
+      "Kékforrás Libra",
+      "Kékforrás",
+      "Kékforrás Libra szénsavmentes természetes ásványvíz 0,5 l"
+    ],
+    [
+      26206,
+      "Kékforrás Minera",
+      "Kékforrás",
+      "Kékforrás Minera extra dús szén-dioxiddal dúsított természetes ásványvíz 1,5 l"
+    ],
+    [
+      26230,
+      "Kékforrás+",
+      "Kékforrás",
+      "Kékforrás+ narancs mangó ízű szénsavmentes üdítőital édesítőszerekkel 750 ml"
+    ],
+    [
+      26231,
+      "Kékforrás+",
+      "Kékforrás",
+      "Kékforrás+ áfonya ízű cukormentes, energiamentes, szénsavmentes üdítőital édesítőszerekkel 750 ml"
+    ],
+    [
+      26286,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Theodora Calcia Plus Revital szőlő-aloe vera ízű szén-dioxiddal enyhén dúsított üdítőital 700 ml"
+    ],
+    [
+      26287,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Theodora Calcia Plus Collagen szeder-levendula ízű szén-dioxiddal enyhén dúsított üdítőital 700 ml"
+    ],
+    [
+      29985,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Theodora Calcia Plus Anti-Stress mangó-citromfű ízű enyhén szénsavas üdítőital 700 ml"
+    ],
+    [
+      29986,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Theodora Calcia Plus Collagen szeder-levendula ízű szén-dioxiddal enyhén dúsított üdítőital 700 ml"
+    ],
+    [
+      29987,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Theodora Calcia Plus Revital szőlő-aloe vera ízű szén-dioxiddal enyhén dúsított üdítőital 700 ml"
+    ],
+    [
+      30017,
+      "Theodora Calcia",
+      "Theodora",
+      "Theodora Calcia szén-dioxiddal dúsított természetes ásványvíz 1,5 l"
+    ],
+    [
+      30018,
+      "Theodora Calcia",
+      "Theodora",
+      "Theodora Calcia szénsavmentes természetes ásványvíz 1,5 l"
+    ],
+    [
+      30026,
+      "Theodora Kereki",
+      "Theodora",
+      "Theodora Kereki szénsavas természetes ásványvíz 0,33 l"
+    ],
+    [
+      30027,
+      "Theodora Emese",
+      "Theodora",
+      "Theodora Emese szén-dioxiddal dúsított természetes ásványvíz 1500 ml"
+    ],
+    [
+      30028,
+      "Theodora Emese",
+      "Theodora",
+      "Theodora Emese szénsavmentes természetes ásványvíz 1500 ml"
+    ],
+    [
+      30388,
+      "FruttaMax Bubble",
+      "FruttaMax",
+      "FruttaMax Bubble¹² málna ízű vegyes gyümölcsszörp cukorral és édesítőszerekkel 500 ml"
+    ],
+    [
+      30389,
+      "FruttaMax Bubble",
+      "FruttaMax",
+      "FruttaMax Bubble¹² mangó ízű vegyes gyümölcsszörp cukorral és édesítőszerekkel 500 ml"
+    ],
+    [
+      30390,
+      "FruttaMax Bubble Light",
+      "FruttaMax",
+      "FruttaMax Bubble¹² Light málna ízű vegyes gyümölcsszörp édesítőszerekkel 500 ml"
+    ],
+    [
+      30392,
+      "FruttaMax Bubble",
+      "FruttaMax",
+      "FruttaMax Bubble¹² citrom-lime gyümölcsszörp cukorral és édesítőszerekkel 500 ml"
+    ],
+    [
+      30459,
+      "Gösser Spritz",
+      "Gösser",
+      "Gösser Spritz eperízű alkoholos sörital 4% 330 ml"
+    ],
+    [
+      30463,
+      "Gösser Spritz",
+      "Gösser",
+      "Gösser Spritz borókabogyó-ízű alkoholos sörital 4% 330 ml"
+    ],
+    [
+      30527,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős barack ízű szeszesital 34,5% 0,5 l"
+    ],
+    [
+      30553,
+      "Frittmann Art",
+      "Frittmann",
+      "Frittmann Art Kunsági Cserszegi Fűszeres száraz fehér bor 12% 750 ml"
+    ],
+    [
+      30554,
+      "Frittmann Classic",
+      "Frittmann",
+      "Frittmann Classic Irsai Olivér száraz fehérbor 11,5% 750 ml"
+    ],
+    [
+      30582,
+      "Frittmann Classic",
+      "Frittmann",
+      "Frittmann Classic Kunsági Kékfrankos Rosé száraz rosé bor 12% 750 ml"
+    ],
+    [
+      30583,
+      "Frittmann Art",
+      "Frittmann",
+      "Frittmann Art Duna-Tisza közi Rosé Cuvée száraz rosé bor 12,5% 750 ml"
+    ],
+    [
+      30605,
+      "Frittmann Classic",
+      "Frittmann",
+      "Frittmann Classic Kunsági Kékfrankos száraz vörös bor 12,5% 750 ml"
+    ],
+    [
+      30609,
+      "Frittmann Classic",
+      "Frittmann",
+      "Frittmann Classic Dunántúli Cabernet Franc száraz vörös bor 13% 750 ml"
+    ],
+    [
+      35216,
+      "Theodora Calcia",
+      "Theodora",
+      "Theodora Calcia szénsavmentes természetes ásványvíz 1,5 l"
+    ],
+    [
+      35219,
+      "Theodora Calcia",
+      "Theodora",
+      "Theodora Calcia szén-dioxiddal dúsított természetes ásványvíz 1,5 l"
+    ],
+    [
+      35429,
+      "Sprite Zero",
+      "Sprite",
+      "Sprite zéró cukor citrom- és limeízű energiamentes szénsavas üdítőital édesítőszerekkel 1,75 l"
+    ],
+    [
+      35485,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Theodora Calcia Plus Revital szőlő-aloe vera ízű szén-dioxiddal enyhén dúsított üdítőital 700 ml"
+    ],
+    [
+      35486,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Theodora Calcia Plus Collagen szeder-levendula ízű szén-dioxiddal enyhén dúsított üdítőital 700 ml"
+    ],
+    [
+      35487,
+      "Theodora Calcia Plus",
+      "Theodora",
+      "Theodora Calcia Plus Anti-Stress mangó-citromfű ízű enyhén szénsavas üdítőital 700 ml"
+    ],
+    [
+      35542,
+      "Red Bull Sugarfree",
+      "Red Bull",
+      "Red Bull Sugarfree magas koffeintartalmú szénsavas energiaital édesítőszerekkel 250 ml"
+    ],
+    [
+      35718,
+      "FruttaMax Bubble",
+      "FruttaMax",
+      "FruttaMax Bubble¹² Light meggy gyümölcsszörp édesítőszerekkel 500 ml"
+    ],
+    [
+      35729,
+      "FruttaMax Bubble",
+      "FruttaMax",
+      "FruttaMax Bubble¹² Light mangó ízű vegyes gyümölcsszörp édesítőszerekkel 500 ml"
+    ],
+    [
+      35735,
+      "FruttaMax Bubble",
+      "FruttaMax",
+      "FruttaMax Bubble¹² Light málna ízű vegyes gyümölcsszörp édesítőszerekkel 500 ml"
+    ],
+    [
+      35736,
+      "FruttaMax Bubble",
+      "FruttaMax",
+      "FruttaMax Light Bubble¹² citrom-lime gyümölcsszörp édesítőszerekkel 500 ml"
+    ],
+    [
+      36516,
+      "Pannonhalmi Főapátság Sörfőzde",
+      "Pannonhalmi Főapátság",
+      "Pannonhalmi Főapátság Sörfőzde Blonde szűretlen világos sör 5% 0,33 l"
+    ],
+    [
+      36517,
+      "Pannonhalmi Főapátság Sörfőzde",
+      "Pannonhalmi Főapátság",
+      "Pannonhalmi Főapátság Sörfőzde Tripel szűretlen világos sör 8% 0,33 l"
+    ],
+    [
+      36518,
+      "Pannonhalmi Főapátság Sörfőzde",
+      "Pannonhalmi Főapátság",
+      "Pannonhalmi Főapátság Sörfőzde Dubbel szűretlen barna sör 6,5% 0,33 l"
+    ],
+    [
+      36519,
+      "Pannonhalmi Főapátság Sörfőzde",
+      "Pannonhalmi Főapátság",
+      "Pannonhalmi Főapátság Sörfőzde Quadrupel barna sör 10%, 330 ml"
+    ],
+    [
+      36644,
+      "Pannonhalmi Főapátság Sörfőzde",
+      "Pannonhalmi Főapátság",
+      "Pannonhalmi Főapátság Sörfőzde Meggy Ale 4,2% 0,33 l"
+    ],
+    [
+      36741,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős feketecseresznye likőr mézzel 24,5% 0,2 l"
+    ],
+    [
+      36742,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős barack ízű szeszesital 34,5% 0,5 l"
+    ],
+    [
+      36758,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős meggy ízű likőr 24,5% 0,5 l"
+    ],
+    [
+      36769,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős málna-lime ízű likőr 22,5% 0,5 l"
+    ],
+    [
+      36809,
+      "Fütyülős",
+      "Zwack Fütyülős",
+      "Fütyülős barack ízű likőr mézzel 24,5% 0,2 l"
+    ],
+    [
+      36839,
+      "ABSOLUT",
+      "Absolut",
+      "Absolut vodka 40% 700 ml"
+    ],
+    [
+      36845,
+      "Żubrówka Bison Grass",
+      "Żubrówka",
+      "Żubrówka Bison Grass ízesített vodka 37,5% 0,5 l"
+    ],
+    [
+      36846,
+      "ABSOLUT",
+      "Absolut",
+      "Absolut természetes málna ízesítésű vodka 38% 700 ml"
+    ],
+    [
+      36913,
+      "Gösser Spritz",
+      "Gösser",
+      "Gösser Spritz eperízű alkoholos sörital 4% 330 ml"
+    ],
+    [
+      36919,
+      "Hilltop Kamocsay",
+      "Hilltop",
+      "Hilltop Kamocsay Prémium Neszmélyi Irsai Olivér száraz fehérbor 10,5% 75 cl"
+    ],
+    [
+      36922,
+      "Hilltop Kamocsay",
+      "Hilltop",
+      "Hilltop Kamocsay Prémium Neszmélyi Chardonnay száraz fehérbor 14% 75 cl"
+    ],
+    [
+      36928,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus Gold Chardonnay száraz fehérbor 750 ml"
+    ],
+    [
+      36929,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus Gold Ezerjó száraz fehérbor 750 ml"
+    ],
+    [
+      36930,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus Gold Generosa száraz fehérbor 750 ml"
+    ],
+    [
+      36949,
+      "Hilltop Kamocsay",
+      "Hilltop",
+      "Hilltop Kamocsay Prémium Neszmélyi Sárgamuskotály száraz fehérbor 12% 75 cl"
+    ],
+    [
+      36982,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus Gold Olaszrizling száraz fehérbor 750 ml"
+    ],
+    [
+      36983,
+      "Paulus Gold",
+      "Paulus",
+      "Paulus Gold Sauvignon Blanc száraz fehérbor 750 ml"
+    ],
+    [
+      37120,
+      "Frittmann Art",
+      "Frittmann",
+      "Frittmann Art Duna-Tisza közi Rosé Cuvée száraz rosé bor 12,5% 750 ml"
+    ],
+    [
+      37123,
+      "Frittmann Classic",
+      "Frittmann",
+      "Frittmann Classic Kunsági Kékfrankos Rosé száraz rosé bor 12% 750 ml"
+    ],
+    [
+      37611,
+      "Theodora Emese",
+      "Theodora",
+      "Theodora Emese szénsavmentes természetes ásványvíz 1500 ml"
+    ],
+    [
+      37622,
+      "Theodora Emese",
+      "Theodora",
+      "Theodora Emese szén-dioxiddal dúsított természetes ásványvíz 1500 ml"
+    ],
+    [
+      39829,
+      "Beefeater Pink",
+      "Beefeater",
+      "Beefeater Pink alkoholos üdítőital ginből és tonikból 4,9% 0,25 l"
+    ],
+    [
+      39838,
+      "Kalumba Madagascar",
+      "Kalumba",
+      "Kalumba Madagascar Gin&Tonic Purple Hibiscus ízű szénsavval dúsított alkoholtartalmú ital 4,5%250 ml"
+    ],
+    [
+      39839,
+      "Kalumba Madagascar",
+      "Kalumba",
+      "Kalumba Madagascar Gin & Tonic Blood Orange ízű szénsavval dúsított alkoholtartalmú ital 4,5% 250 ml"
+    ],
+    [
+      39840,
+      "Kalumba Madagascar",
+      "Kalumba",
+      "Kalumba Madagascar Gin & Tonic Maracuja ízű szénsavval dúsított alkoholtartalmú ital 4,5% 250 ml"
+    ],
+    [
+      42879,
+      "Nestlé Nesquik",
+      "Nesquik",
+      "Nestlé Nesquik szirup zsírszegény kakaóporral 300 ml"
+    ],
+    [
+      43991,
+      "Dr. Oetker Snack&Shake",
+      "Dr. Oetker",
+      "Dr. Oetker Snack&Shake csokoládéízű italpor 29 g"
+    ],
+    [
+      43992,
+      "Dr. Oetker Snack&Shake",
+      "Dr. Oetker",
+      "Dr. Oetker Snack&Shake vaníliaízű italpor 26 g"
+    ],
+    [
+      43993,
+      "Dr. Oetker Snack&Shake",
+      "Dr. Oetker",
+      "Dr. Oetker Snack&Shake málnízű italpor 21 g"
+    ],
+    [
+      44151,
+      "Nestlé Aquarel Cédrus",
+      "Nestlé Aquarel",
+      "Nestlé Aquarel Cédrus szénsavmentes természetes ásványvíz 1,5 l"
+    ],
+    [
+      44183,
+      "Nestlé Aquarel Cédrus",
+      "Nestlé Aquarel",
+      "Nestlé Aquarel Cédrus szénsavas természetes ásványvíz 1,5 l"
+    ],
+    [
+      44198,
+      "Theodora Calcia",
+      "Theodora",
+      "Theodora Calcia szénsavmentes természetes ásványvíz 1,5 l"
+    ],
+    [
+      44199,
+      "Sprite Zero",
+      "Sprite",
+      "Sprite zéró cukor citrom- és limeízű energiamentes szénsavas üdítőital édesítőszerekkel 1,75 l"
+    ],
+    [
+      44220,
+      "Martini Asti",
+      "Martini",
+      "Martini Asti illatos minőségi édes pezsgő 7,5% 750 ml"
+    ],
+    [
+      44221,
+      "Gösser Premium",
+      "Gösser",
+      "Gösser Premium minőségi világos sör 5% 500 ml"
+    ],
+    [
+      44246,
+      "Theodora Calcia",
+      "Theodora",
+      "Theodora Calcia szén-dioxiddal dúsított természetes ásványvíz 1,5 l"
+    ],
+    [
+      44252,
+      "Sir Morton Earl Grey",
+      "Sir Morton",
+      "Sir Morton Earl Grey bergamottízű fekete tea 20 filter 30 g"
+    ],
+    [
+      44360,
+      "Dr. Oetker Choco-Choco",
+      "Dr. Oetker",
+      "Dr. Oetker Choco-Choco klasszikus forró csokoládé italpor 34 g"
+    ],
+    [
+      44387,
+      "Johnnie Walker Red Label",
+      "Johnnie Walker",
+      "Johnnie Walker Red Label skót whisky 40% 0,7 l"
+    ],
+    [
+      44420,
+      "Gösser Premium",
+      "Gösser",
+      "Gösser Premium minőségi világos sör 5% 6 x 500 ml"
+    ],
+    [
+      44438,
+      "Segafredo Zanetti Intermezzo",
+      "Segafredo Zanetti",
+      "Segafredo Zanetti Intermezzo őrölt pörkölt kávé 250 g"
+    ],
+    [
+      44446,
+      "Segafredo Zanetti Intermezzo",
+      "Segafredo Zanetti",
+      "Segafredo Zanetti Intermezzo szemes pörkölt kávé 1000 g"
+    ],
+    [
+      44497,
+      "Red Bull Sugarfree",
+      "Red Bull",
+      "Red Bull Sugarfree magas koffeintartalmú szénsavas energiaital édesítőszerekkel 250 ml"
+    ],
+    [
+      44516,
+      "Miller Lime",
+      "Miller",
+      "Miller Lime világos sör és szénsavas limeízű ital keveréke 4% 330 ml"
+    ],
+    [
+      44526,
+      "Staropramen Dark",
+      "Staropramen",
+      "Staropramen Dark minőségi barna sör 4,4% 0,5 l"
+    ],
+    [
+      44567,
+      "Nyakas Aligvárom",
+      "Nyakas",
+      "Nyakas Aligvárom száraz fehérbor 12,5% 0,75 l"
+    ],
+    [
+      44599,
+      "Johnnie Walker Red Label",
+      "Johnnie Walker",
+      "Johnnie Walker Red Label skót whisky 40% 0,7 l + 0,2 l"
+    ],
+    [
+      44627,
+      "Mokate 3in1 Latte",
+      "Mokate",
+      "Mokate 3in1 Latte azonnal oldódó kávéspecialitás 24 x 15 g (360 g)"
+    ],
+    [
+      44656,
+      "New Gen Classic",
+      "New Gen",
+      "New Gen Classic tuttifruttiízű, koffeintartalmú, szénsavas, alkoholmentes ital 500 ml"
+    ],
+    [
+      44662,
+      "Sir Morton Garzon",
+      "Sir Morton",
+      "Sir Morton Garzon fekete tea 20 filter 30 g"
+    ],
+    [
+      44669,
+      "Dilmah Earl Grey",
+      "Dilmah",
+      "Dilmah Earl Grey aromás filteres fekete tea 20 filter 30 g"
+    ]
+  ],
+  "tree_changes": [
+    [
+      "Ásványvíz",
+      "Szénsavmentes ásványvíz",
+      56,
+      50
+    ],
+    [
+      "Ásványvíz",
+      "Babavíz",
+      13,
+      12
+    ],
+    [
+      "Ásványvíz",
+      "Szénsavas ásványvíz",
+      45,
+      40
+    ],
+    [
+      "Ásványvíz",
+      "Enyhén szénsavas ásványvíz",
+      26,
+      24
+    ],
+    [
+      "Ásványvíz",
+      "Lúgos víz",
+      18,
+      18
+    ],
+    [
+      "Bor",
+      "Fehérbor",
+      244,
+      226
+    ],
+    [
+      "Bor",
+      "Rozébor",
+      123,
+      116
+    ],
+    [
+      "Bor",
+      "Vörösbor",
+      190,
+      176
+    ],
+    [
+      "Bor",
+      "Boralapú ital",
+      37,
+      35
+    ],
+    [
+      "Energiaital",
+      "Energiaital",
+      52,
+      48
+    ],
+    [
+      "Ízesített víz",
+      "Vitaminos ízesített víz",
+      17,
+      16
+    ],
+    [
+      "Ízesített víz",
+      "Ízesített ásványvíz",
+      27,
+      26
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Őrölt kávé",
+      79,
+      76
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "3in1 instant kávé",
+      46,
+      43
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Szemes kávé",
+      82,
+      77
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Kakaó italpor",
+      66,
+      63
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Fekete tea",
+      40,
+      35
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Forró csokoládé italpor",
+      58,
+      56
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Zöld tea",
+      37,
+      33
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Instant kávéitalpor",
+      2,
+      2
+    ],
+    [
+      "Pezsgő",
+      "Pezsgő",
+      110,
+      101
+    ],
+    [
+      "Alkoholok",
+      "Likőr",
+      143,
+      136
+    ],
+    [
+      "Alkoholok",
+      "Whisky & Bourbon",
+      98,
+      93
+    ],
+    [
+      "Alkoholok",
+      "Rum",
+      63,
+      61
+    ],
+    [
+      "Alkoholok",
+      "Vodka",
+      67,
+      61
+    ],
+    [
+      "Alkoholok",
+      "Pálinka",
+      36,
+      36
+    ],
+    [
+      "Alkoholok",
+      "Koktél, Rögtön iható, Egyéb",
+      44,
+      42
+    ],
+    [
+      "Alkoholok",
+      "Vermut",
+      10,
+      8
+    ],
+    [
+      "Alkoholok",
+      "Szeszesital",
+      22,
+      21
+    ],
+    [
+      "Alkoholok",
+      "Gyümölcspárlat",
+      2,
+      2
+    ],
+    [
+      "Alkoholok",
+      "Alkoholmentes szeszesital",
+      7,
+      5
+    ],
+    [
+      "Alkoholok",
+      "Ízesített szeszesital",
+      10,
+      7
+    ],
+    [
+      "Alkoholok",
+      "Keserűlikőr",
+      7,
+      7
+    ],
+    [
+      "Alkoholok",
+      "Rum alapú szeszesital",
+      3,
+      2
+    ],
+    [
+      "Alkoholok",
+      "Whiskey likőr",
+      6,
+      4
+    ],
+    [
+      "Sör",
+      "Ízesített sör",
+      72,
+      69
+    ],
+    [
+      "Sör",
+      "Világos sör",
+      120,
+      114
+    ],
+    [
+      "Sör",
+      "Barna sör",
+      80,
+      77
+    ],
+    [
+      "Sportital",
+      "Sportital",
+      34,
+      31
+    ],
+    [
+      "Szörp, üdítőitalpor",
+      "Szörp",
+      32,
+      29
+    ],
+    [
+      "Szörp, üdítőitalpor",
+      "Italkoncentrátum",
+      13,
+      13
+    ],
+    [
+      "Üdítőital",
+      "Jegestea",
+      38,
+      38
+    ],
+    [
+      "Üdítőital",
+      "Szénsavas üdítő",
+      106,
+      104
+    ],
+    [
+      "Üdítőital",
+      "Tonic",
+      12,
+      11
+    ],
+    [
+      "Gyümölcslé",
+      "Almalé",
+      17,
+      16
+    ],
+    [
+      "Gyümölcslé",
+      "Szőlőlé",
+      4,
+      4
+    ],
+    [
+      "Gyümölcslé",
+      "Vegyes gyümölcs- és zöldséglé",
+      56,
+      55
+    ],
+    [
+      "Gyümölcslé",
+      "Gyümölcsital / nektár",
+      62,
+      60
+    ],
+    [
+      "Növényi ital",
+      "Zabital",
+      12,
+      11
+    ],
+    [
+      "Növényi ital",
+      "Mandulaital",
+      10,
+      9
+    ],
+    [
+      "Növényi ital",
+      "Kevert növényi ital",
+      5,
+      4
+    ],
+    [
+      "Funkcionális ital",
+      "Fit ital",
+      8,
+      6
+    ],
+    [
+      "Funkcionális ital",
+      "Vitaminital",
+      18,
+      18
+    ],
+    [
+      "Funkcionális ital",
+      "Shot ital",
+      5,
+      4
+    ],
+    [
+      "Funkcionális ital",
+      "Funkcionális ital",
+      13,
+      12
+    ]
+  ]
+}

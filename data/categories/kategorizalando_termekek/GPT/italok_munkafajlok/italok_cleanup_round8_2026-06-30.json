@@ -1,0 +1,18 @@
+{
+  "removed_product_props": {
+    "intenzitás": 60,
+    "eredet": 2
+  },
+  "removed_tree_props": [
+    [
+      "csoportos",
+      "eredet",
+      2
+    ],
+    [
+      "csoportos",
+      "intenzitás",
+      10
+    ]
+  ]
+}

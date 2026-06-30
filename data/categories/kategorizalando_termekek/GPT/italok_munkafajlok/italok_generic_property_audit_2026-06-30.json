@@ -1,0 +1,3164 @@
+[
+  {
+    "alkategoria": "Bor",
+    "altipus": "Fehérbor",
+    "prop": "típus",
+    "product_count": 964,
+    "value_count": 1280,
+    "unique_values": 12,
+    "redundant_count": 527,
+    "redundant_ratio": 0.4117,
+    "filler_count": 2,
+    "filler_ratio": 0.0016,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "száraz",
+        562
+      ],
+      [
+        "fehérbor",
+        527
+      ],
+      [
+        "félédes",
+        80
+      ],
+      [
+        "édes",
+        54
+      ],
+      [
+        "késői szüret",
+        13
+      ],
+      [
+        "aszú",
+        13
+      ],
+      [
+        "félszáraz",
+        9
+      ],
+      [
+        "szamorodni",
+        9
+      ],
+      [
+        "kései szüretelésű",
+        7
+      ],
+      [
+        "egyéb",
+        2
+      ],
+      [
+        "jégbor",
+        2
+      ],
+      [
+        "alkoholmentes bor",
+        2
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Bor",
+    "altipus": "Vörösbor",
+    "prop": "típus",
+    "product_count": 674,
+    "value_count": 917,
+    "unique_values": 11,
+    "redundant_count": 429,
+    "redundant_ratio": 0.4678,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 4,
+    "top_values": [
+      [
+        "száraz",
+        431
+      ],
+      [
+        "vörösbor",
+        407
+      ],
+      [
+        "félédes",
+        31
+      ],
+      [
+        "édes vörösbor",
+        22
+      ],
+      [
+        "édes",
+        17
+      ],
+      [
+        "bikavér",
+        3
+      ],
+      [
+        "bikavér superior",
+        2
+      ],
+      [
+        "félszáraz",
+        1
+      ],
+      [
+        "mazsolabor",
+        1
+      ],
+      [
+        "alkoholmentes bor",
+        1
+      ],
+      [
+        "Ermitage Cuvée",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "félszáraz",
+        "examples": [
+          [
+            588,
+            "OLASZORSZÁG Primitovo Puglia félszáraz vörösbor, 0,75 l + 50 Ft visszaváltási díj"
+          ]
+        ]
+      },
+      {
+        "value": "mazsolabor",
+        "examples": [
+          [
+            14386,
+            "Mavrodaphne Mazsolabor"
+          ]
+        ]
+      },
+      {
+        "value": "alkoholmentes bor",
+        "examples": [
+          [
+            21936,
+            "NATUREO Garnacha - Syrah Alkoholmentes Vörösbor 0,0 % 750 ml"
+          ]
+        ]
+      },
+      {
+        "value": "Ermitage Cuvée",
+        "examples": [
+          [
+            37041,
+            "Bock Ermitage Villányi classicus száraz vörösbor 14,5% 750 ml"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Likőr",
+    "prop": "fajta",
+    "product_count": 556,
+    "value_count": 557,
+    "unique_values": 20,
+    "redundant_count": 199,
+    "redundant_ratio": 0.3573,
+    "filler_count": 346,
+    "filler_ratio": 0.6212,
+    "singleton_values": 5,
+    "top_values": [
+      [
+        "nem jelölt",
+        333
+      ],
+      [
+        "gyógynövénylikőr",
+        75
+      ],
+      [
+        "krémlikőr",
+        43
+      ],
+      [
+        "gyümölcslikőr",
+        23
+      ],
+      [
+        "keserűlikőr",
+        15
+      ],
+      [
+        "tea likőr",
+        14
+      ],
+      [
+        "egyéb",
+        13
+      ],
+      [
+        "whiskey likőr",
+        7
+      ],
+      [
+        "gyomorkeserű",
+        6
+      ],
+      [
+        "tojáslikőr",
+        5
+      ],
+      [
+        "aperitif",
+        5
+      ],
+      [
+        "máklikőr",
+        4
+      ],
+      [
+        "likőr",
+        4
+      ],
+      [
+        "rumalapú likőr",
+        3
+      ],
+      [
+        "csokoládélikőr",
+        2
+      ],
+      [
+        "tealikőr",
+        1
+      ],
+      [
+        "karamellalikőr",
+        1
+      ],
+      [
+        "diólikőr",
+        1
+      ],
+      [
+        "kávélikőr",
+        1
+      ],
+      [
+        "amaretto",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "tealikőr",
+        "examples": [
+          [
+            670,
+            "TATRATEA Eredeti tealikőr 52% alk., 0,7 l + 50 Ft visszaváltási díj"
+          ]
+        ]
+      },
+      {
+        "value": "karamellalikőr",
+        "examples": [
+          [
+            9892,
+            "Angelli Toffee likőr 0,5 l"
+          ]
+        ]
+      },
+      {
+        "value": "diólikőr",
+        "examples": [
+          [
+            9895,
+            "Magna Likőr arany dió likőr 30% 0,5 l"
+          ]
+        ]
+      },
+      {
+        "value": "kávélikőr",
+        "examples": [
+          [
+            9913,
+            "Sheridan's likőr 15,5% 0,5 l"
+          ]
+        ]
+      },
+      {
+        "value": "amaretto",
+        "examples": [
+          [
+            25881,
+            "Firenze Amaretto likőr 24,5% 0,7 l"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Pezsgő",
+    "altipus": "Pezsgő",
+    "prop": "típus",
+    "product_count": 438,
+    "value_count": 438,
+    "unique_values": 20,
+    "redundant_count": 112,
+    "redundant_ratio": 0.2557,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 3,
+    "top_values": [
+      [
+        "édes",
+        103
+      ],
+      [
+        "Pezsgő",
+        97
+      ],
+      [
+        "brut",
+        58
+      ],
+      [
+        "száraz",
+        49
+      ],
+      [
+        "félszáraz",
+        34
+      ],
+      [
+        "extra száraz",
+        25
+      ],
+      [
+        "extra dry",
+        25
+      ],
+      [
+        "champagne",
+        11
+      ],
+      [
+        "alkoholmentes pezsgő",
+        6
+      ],
+      [
+        "kölyökpezsgő",
+        5
+      ],
+      [
+        "brut nature",
+        4
+      ],
+      [
+        "spumante",
+        4
+      ],
+      [
+        "tokaji",
+        4
+      ],
+      [
+        "nyerspezsgő",
+        3
+      ],
+      [
+        "doux",
+        3
+      ],
+      [
+        "muskotály",
+        2
+      ],
+      [
+        "különlegesen száraz",
+        2
+      ],
+      [
+        "crémant",
+        1
+      ],
+      [
+        "pezsgőkeverék",
+        1
+      ],
+      [
+        "extra brut",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "crémant",
+        "examples": [
+          [
+            21771,
+            "VALENTIN VIGNOT Crémant 12 % 750 ml"
+          ]
+        ]
+      },
+      {
+        "value": "pezsgőkeverék",
+        "examples": [
+          [
+            21797,
+            "CINZANO To Spritz Fehér Száraz Pezsgőkeverék 11,5% 750 ml"
+          ]
+        ]
+      },
+      {
+        "value": "extra brut",
+        "examples": [
+          [
+            21894,
+            "Sauska Extra Brut Rosé Pezsgő 12,5 % 750 ml"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Energiaital",
+    "altipus": "Energiaital",
+    "prop": "termékcsalád",
+    "product_count": 345,
+    "value_count": 414,
+    "unique_values": 4,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 1,
+    "top_values": [
+      [
+        "alkoholmentes",
+        344
+      ],
+      [
+        "zero",
+        52
+      ],
+      [
+        "vitaminos",
+        17
+      ],
+      [
+        "The White Edition",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "The White Edition",
+        "examples": [
+          [
+            35544,
+            "Red Bull The White Edition energiaital kókusz és áfonya ízesítéssel 250 ml"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Őrölt kávé",
+    "prop": "változat",
+    "product_count": 255,
+    "value_count": 263,
+    "unique_values": 6,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 3,
+    "top_values": [
+      [
+        "alkoholmentes",
+        252
+      ],
+      [
+        "prémium",
+        5
+      ],
+      [
+        "bio",
+        3
+      ],
+      [
+        "Silk",
+        1
+      ],
+      [
+        "Espresso Intensive",
+        1
+      ],
+      [
+        "Classic",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "Silk",
+        "examples": [
+          [
+            38417,
+            "Douwe Egberts Omnia Silk őrölt-pörkölt kávé 1000 g"
+          ]
+        ]
+      },
+      {
+        "value": "Espresso Intensive",
+        "examples": [
+          [
+            45686,
+            "Eduscho Espresso Intensive őrölt, pörkölt kávé 250 g"
+          ]
+        ]
+      },
+      {
+        "value": "Classic",
+        "examples": [
+          [
+            45735,
+            "Bravos Classic őrölt, pörkölt kávé 250 g"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Gyümölcstea",
+    "prop": "forma",
+    "product_count": 247,
+    "value_count": 247,
+    "unique_values": 3,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 14,
+    "filler_ratio": 0.0567,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "filteres",
+        230
+      ],
+      [
+        "nem jelölt",
+        14
+      ],
+      [
+        "szálas",
+        3
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Whisky & Bourbon",
+    "prop": "típus",
+    "product_count": 238,
+    "value_count": 238,
+    "unique_values": 22,
+    "redundant_count": 38,
+    "redundant_ratio": 0.1597,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 4,
+    "top_values": [
+      [
+        "skót whisky",
+        38
+      ],
+      [
+        "Whisky & Bourbon",
+        30
+      ],
+      [
+        "ír whiskey",
+        25
+      ],
+      [
+        "Tennessee whiskey",
+        24
+      ],
+      [
+        "scotch whisky",
+        19
+      ],
+      [
+        "bourbon whiskey",
+        19
+      ],
+      [
+        "blended scotch whisky",
+        14
+      ],
+      [
+        "ízesített whisky alapú szeszesital",
+        12
+      ],
+      [
+        "single malt scotch whisky",
+        12
+      ],
+      [
+        "japán whisky",
+        8
+      ],
+      [
+        "kevert skót whisky",
+        8
+      ],
+      [
+        "Irish whiskey",
+        6
+      ],
+      [
+        "bourbon",
+        5
+      ],
+      [
+        "kanadai whisky",
+        4
+      ],
+      [
+        "blended whisky",
+        3
+      ],
+      [
+        "whisky",
+        3
+      ],
+      [
+        "malátawhisky",
+        2
+      ],
+      [
+        "single malt whisky",
+        2
+      ],
+      [
+        "kevert skót whiskey",
+        1
+      ],
+      [
+        "skót malátawhisky",
+        1
+      ],
+      [
+        "blended japán whisky",
+        1
+      ],
+      [
+        "Islay single malt scotch whisky",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "kevert skót whiskey",
+        "examples": [
+          [
+            45755,
+            "Monkey Shoulder The Original kevert skót whiskey 40% 0,7 l"
+          ]
+        ]
+      },
+      {
+        "value": "skót malátawhisky",
+        "examples": [
+          [
+            45780,
+            "Laphroaig skót malátawhisky 40% 0,7 l"
+          ]
+        ]
+      },
+      {
+        "value": "blended japán whisky",
+        "examples": [
+          [
+            45828,
+            "Akashi Blended japán whisky 40% 0,5 l"
+          ]
+        ]
+      },
+      {
+        "value": "Islay single malt scotch whisky",
+        "examples": [
+          [
+            45841,
+            "Scarabus Islay Single Malt Scotch whisky 46% 0,7 l"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Szemes kávé",
+    "prop": "változat",
+    "product_count": 236,
+    "value_count": 240,
+    "unique_values": 9,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 7,
+    "top_values": [
+      [
+        "alkoholmentes",
+        230
+      ],
+      [
+        "bio",
+        3
+      ],
+      [
+        "prémium",
+        1
+      ],
+      [
+        "Espresso Forte",
+        1
+      ],
+      [
+        "Caffè Crema",
+        1
+      ],
+      [
+        "Crema Classica",
+        1
+      ],
+      [
+        "Espresso Intenso",
+        1
+      ],
+      [
+        "Capri",
+        1
+      ],
+      [
+        "Classic",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "prémium",
+        "examples": [
+          [
+            33078,
+            "SPAR PREMIUM Caffé Crema pörkölt szemes kávé 1000 g"
+          ]
+        ]
+      },
+      {
+        "value": "Espresso Forte",
+        "examples": [
+          [
+            45668,
+            "Lavazza Crema e Gusto Espresso Forte pörkölt szemes kávé 1000 g"
+          ]
+        ]
+      },
+      {
+        "value": "Caffè Crema",
+        "examples": [
+          [
+            45687,
+            "Eduscho Caffè Crema pörkölt, szemes kávé 1000 g"
+          ]
+        ]
+      },
+      {
+        "value": "Crema Classica",
+        "examples": [
+          [
+            45706,
+            "Caffè Borbone Crema Classica szemes pörkölt kávékeverék 1 kg"
+          ]
+        ]
+      },
+      {
+        "value": "Espresso Intenso",
+        "examples": [
+          [
+            45708,
+            "Caffè Borbone Espresso Intenso szemes pörkölt kávékeverék 1 kg"
+          ]
+        ]
+      },
+      {
+        "value": "Capri",
+        "examples": [
+          [
+            45718,
+            "L'OR Espresso Capri szemes pörkölt kávé 450 g"
+          ]
+        ]
+      },
+      {
+        "value": "Classic",
+        "examples": [
+          [
+            45734,
+            "Bravos Classic pörkölt szemes kávé 1000 g"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Teafű, filteres tea, instant tea",
+    "prop": "fajta",
+    "product_count": 209,
+    "value_count": 209,
+    "unique_values": 15,
+    "redundant_count": 6,
+    "redundant_ratio": 0.0287,
+    "filler_count": 22,
+    "filler_ratio": 0.1053,
+    "singleton_values": 4,
+    "top_values": [
+      [
+        "gyümölcs",
+        69
+      ],
+      [
+        "fekete",
+        28
+      ],
+      [
+        "zöld",
+        26
+      ],
+      [
+        "gyógynövény",
+        25
+      ],
+      [
+        "teaválogatás",
+        17
+      ],
+      [
+        "egyéb",
+        13
+      ],
+      [
+        "nem jelölt",
+        9
+      ],
+      [
+        "gyömbér",
+        6
+      ],
+      [
+        "instant",
+        6
+      ],
+      [
+        "gyerektea",
+        3
+      ],
+      [
+        "rooibos",
+        3
+      ],
+      [
+        "zöld tea",
+        1
+      ],
+      [
+        "matcha",
+        1
+      ],
+      [
+        "fehér",
+        1
+      ],
+      [
+        "maté",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "zöld tea",
+        "examples": [
+          [
+            13234,
+            "DILMAH JASMINE GREEN TEA 30G"
+          ]
+        ]
+      },
+      {
+        "value": "matcha",
+        "examples": [
+          [
+            23976,
+            "MOKATE Mangó Ízű Matcha Latte Tej és Zöldtea Alapú Instant Italpor 84 g"
+          ]
+        ]
+      },
+      {
+        "value": "fehér",
+        "examples": [
+          [
+            24097,
+            "English Tea Shop fehér tea, áfonya és bodza bio tea 20 teafilter 40 g"
+          ]
+        ]
+      },
+      {
+        "value": "maté",
+        "examples": [
+          [
+            24181,
+            "HERBÁRIA Maté levél borítékolt filterezett tea 20 x 1,5 g"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Teafű, filteres tea, instant tea",
+    "prop": "forma",
+    "product_count": 209,
+    "value_count": 209,
+    "unique_values": 4,
+    "redundant_count": 142,
+    "redundant_ratio": 0.6794,
+    "filler_count": 54,
+    "filler_ratio": 0.2584,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "filteres",
+        140
+      ],
+      [
+        "nem jelölt",
+        54
+      ],
+      [
+        "por",
+        13
+      ],
+      [
+        "instant",
+        2
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Teafű, filteres tea, instant tea",
+    "prop": "típus",
+    "product_count": 209,
+    "value_count": 209,
+    "unique_values": 7,
+    "redundant_count": 193,
+    "redundant_ratio": 0.9234,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 2,
+    "top_values": [
+      [
+        "filteres",
+        168
+      ],
+      [
+        "instant",
+        16
+      ],
+      [
+        "teafű / keverék",
+        15
+      ],
+      [
+        "Teafű, filteres tea, instant tea",
+        6
+      ],
+      [
+        "instant tea",
+        2
+      ],
+      [
+        "matcha",
+        1
+      ],
+      [
+        "tea",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "matcha",
+        "examples": [
+          [
+            11933,
+            "ZEN Japán BIO Matcha Por 50 g"
+          ]
+        ]
+      },
+      {
+        "value": "tea",
+        "examples": [
+          [
+            33248,
+            "Loyd Grog tea szilva ízesítéssel 10 filter 30 g"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Instant kávé",
+    "prop": "fajta",
+    "product_count": 197,
+    "value_count": 197,
+    "unique_values": 11,
+    "redundant_count": 72,
+    "redundant_ratio": 0.3655,
+    "filler_count": 77,
+    "filler_ratio": 0.3909,
+    "singleton_values": 3,
+    "top_values": [
+      [
+        "nem jelölt",
+        76
+      ],
+      [
+        "kávé",
+        40
+      ],
+      [
+        "instant kávé",
+        32
+      ],
+      [
+        "3 az 1-ben",
+        18
+      ],
+      [
+        "cappuccino",
+        16
+      ],
+      [
+        "2 az 1-ben",
+        6
+      ],
+      [
+        "gabonakávé",
+        4
+      ],
+      [
+        "cikória kávé",
+        2
+      ],
+      [
+        "egyéb",
+        1
+      ],
+      [
+        "kávékivonat",
+        1
+      ],
+      [
+        "cikória-kávé",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "egyéb",
+        "examples": [
+          [
+            11019,
+            "Jacobs Milka azonnal oldódó kávé- és kakaóitalpor 8 x 18,5 g (126,4 g)"
+          ]
+        ]
+      },
+      {
+        "value": "kávékivonat",
+        "examples": [
+          [
+            13408,
+            "MACI KÁVÉKIVONAT 250G"
+          ]
+        ]
+      },
+      {
+        "value": "cikória-kávé",
+        "examples": [
+          [
+            23983,
+            "Ricoré azonnal oldódó kávé és cikória 150 g"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Instant kávé",
+    "prop": "változat",
+    "product_count": 197,
+    "value_count": 197,
+    "unique_values": 2,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 1,
+    "top_values": [
+      [
+        "alkoholmentes",
+        196
+      ],
+      [
+        "Gold Coffee",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "Gold Coffee",
+        "examples": [
+          [
+            38372,
+            "Stockwell & Co. fagyasztva szárított instant kávé 200 g"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Pálinka",
+    "prop": "fajta",
+    "product_count": 135,
+    "value_count": 135,
+    "unique_values": 6,
+    "redundant_count": 105,
+    "redundant_ratio": 0.7778,
+    "filler_count": 30,
+    "filler_ratio": 0.2222,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "pálinka",
+        62
+      ],
+      [
+        "nem jelölt",
+        28
+      ],
+      [
+        "ágyas pálinka",
+        26
+      ],
+      [
+        "gyümölcspálinka",
+        11
+      ],
+      [
+        "törkölypálinka",
+        6
+      ],
+      [
+        "egyéb",
+        2
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Gin",
+    "prop": "fajta",
+    "product_count": 133,
+    "value_count": 133,
+    "unique_values": 11,
+    "redundant_count": 90,
+    "redundant_ratio": 0.6767,
+    "filler_count": 43,
+    "filler_ratio": 0.3233,
+    "singleton_values": 3,
+    "top_values": [
+      [
+        "nem jelölt",
+        35
+      ],
+      [
+        "london dry gin",
+        28
+      ],
+      [
+        "ízesített gin",
+        24
+      ],
+      [
+        "gin",
+        19
+      ],
+      [
+        "egyéb",
+        8
+      ],
+      [
+        "pink gin",
+        7
+      ],
+      [
+        "japán gin",
+        5
+      ],
+      [
+        "dry gin",
+        4
+      ],
+      [
+        "desztillált gin",
+        1
+      ],
+      [
+        "skót gin",
+        1
+      ],
+      [
+        "francia gin",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "desztillált gin",
+        "examples": [
+          [
+            22058,
+            "Tanqueray Rangpur Lime desztillált gin 41,3% 0,7 l"
+          ]
+        ]
+      },
+      {
+        "value": "skót gin",
+        "examples": [
+          [
+            22068,
+            "HENDRICK'S Skót Gin 41,4% 700 ml"
+          ]
+        ]
+      },
+      {
+        "value": "francia gin",
+        "examples": [
+          [
+            22083,
+            "CITADELLE Francia Gin 44% 700 ml"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Fekete tea",
+    "prop": "forma",
+    "product_count": 129,
+    "value_count": 129,
+    "unique_values": 3,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 8,
+    "filler_ratio": 0.062,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "filteres",
+        115
+      ],
+      [
+        "nem jelölt",
+        8
+      ],
+      [
+        "szálas",
+        6
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Koktél, Rögtön iható, Egyéb",
+    "prop": "fajta",
+    "product_count": 119,
+    "value_count": 119,
+    "unique_values": 9,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 99,
+    "filler_ratio": 0.8319,
+    "singleton_values": 5,
+    "top_values": [
+      [
+        "nem jelölt",
+        99
+      ],
+      [
+        "ready to drink",
+        10
+      ],
+      [
+        "Moscow Mule",
+        3
+      ],
+      [
+        "gin tonic",
+        2
+      ],
+      [
+        "soju",
+        1
+      ],
+      [
+        "Pina Colada Cocktail",
+        1
+      ],
+      [
+        "Tequila Sunrise Cocktail",
+        1
+      ],
+      [
+        "Sex on the Beach Cocktail",
+        1
+      ],
+      [
+        "Mojito Cocktail",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "soju",
+        "examples": [
+          [
+            14943,
+            "JINRO Soju*"
+          ]
+        ]
+      },
+      {
+        "value": "Pina Colada Cocktail",
+        "examples": [
+          [
+            45236,
+            "Tropical Classic Style Pina Colada Cocktail Alacsony alkoholtartalmú ital 14,5% 0,7 l"
+          ]
+        ]
+      },
+      {
+        "value": "Tequila Sunrise Cocktail",
+        "examples": [
+          [
+            45257,
+            "Tropical Classic Style Tequila Sunrise Cocktail Alacsony alkoholtartalmú ital 7% 0,7 l"
+          ]
+        ]
+      },
+      {
+        "value": "Sex on the Beach Cocktail",
+        "examples": [
+          [
+            45258,
+            "Tropical Classic Style Sex on the Beach Cocktail Alacsony alkoholtartalmú ital 7% 0,7 l"
+          ]
+        ]
+      },
+      {
+        "value": "Mojito Cocktail",
+        "examples": [
+          [
+            45259,
+            "Tropical Classic Style Mojito Cocktail Alacsony alkoholtartalmú ital 7% 0,7 l"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Rum",
+    "prop": "fajta",
+    "product_count": 115,
+    "value_count": 115,
+    "unique_values": 10,
+    "redundant_count": 39,
+    "redundant_ratio": 0.3391,
+    "filler_count": 25,
+    "filler_ratio": 0.2174,
+    "singleton_values": 2,
+    "top_values": [
+      [
+        "nem jelölt",
+        25
+      ],
+      [
+        "rum",
+        25
+      ],
+      [
+        "fehér",
+        17
+      ],
+      [
+        "barna",
+        14
+      ],
+      [
+        "rumalapú szeszesital",
+        14
+      ],
+      [
+        "fűszeres",
+        9
+      ],
+      [
+        "gold",
+        5
+      ],
+      [
+        "sötét",
+        4
+      ],
+      [
+        "gyümölcsös",
+        1
+      ],
+      [
+        "cachaça",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "gyümölcsös",
+        "examples": [
+          [
+            9736,
+            "Captain Morgan Tiki mangó és ananász ízű szeszesital 25% 0,7 l"
+          ]
+        ]
+      },
+      {
+        "value": "cachaça",
+        "examples": [
+          [
+            22520,
+            "Ypióca Reserva Castanheira Cachaça fahordóban érlelt cukornádpárlat 38% 1 l"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Bor",
+    "altipus": "Boralapú ital",
+    "prop": "fajta",
+    "product_count": 100,
+    "value_count": 100,
+    "unique_values": 5,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 35,
+    "filler_ratio": 0.35,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "fehérbor",
+        36
+      ],
+      [
+        "nem jelölt",
+        35
+      ],
+      [
+        "vörösbor",
+        13
+      ],
+      [
+        "rozébor",
+        9
+      ],
+      [
+        "gyümölcsbor",
+        7
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Bor",
+    "altipus": "Boralapú ital",
+    "prop": "típus",
+    "product_count": 100,
+    "value_count": 101,
+    "unique_values": 12,
+    "redundant_count": 38,
+    "redundant_ratio": 0.3762,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 2,
+    "top_values": [
+      [
+        "Boralapú ital",
+        38
+      ],
+      [
+        "boralapú koktél",
+        12
+      ],
+      [
+        "hugo spritz",
+        10
+      ],
+      [
+        "gyümölcsbor",
+        9
+      ],
+      [
+        "szénsavas boralapú koktél",
+        8
+      ],
+      [
+        "ízesített bor",
+        7
+      ],
+      [
+        "borkoktél",
+        5
+      ],
+      [
+        "portói",
+        4
+      ],
+      [
+        "sangria",
+        4
+      ],
+      [
+        "forralt bor",
+        2
+      ],
+      [
+        "sherry",
+        1
+      ],
+      [
+        "likőrbor",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "sherry",
+        "examples": [
+          [
+            21756,
+            "DON PABLO Sherry Fino 15% 750 ml"
+          ]
+        ]
+      },
+      {
+        "value": "likőrbor",
+        "examples": [
+          [
+            21757,
+            "Royal Oporto Ruby Porto Édes Likőrbor 19 % 750 ml"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Ízesített sör",
+    "prop": "típus",
+    "product_count": 95,
+    "value_count": 97,
+    "unique_values": 17,
+    "redundant_count": 41,
+    "redundant_ratio": 0.4227,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 5,
+    "top_values": [
+      [
+        "Ízesített sör",
+        26
+      ],
+      [
+        "sör",
+        15
+      ],
+      [
+        "radler",
+        12
+      ],
+      [
+        "sörkülönlegesség",
+        8
+      ],
+      [
+        "ale",
+        7
+      ],
+      [
+        "lambic",
+        7
+      ],
+      [
+        "sörital",
+        5
+      ],
+      [
+        "búzasör",
+        3
+      ],
+      [
+        "kézműves sör",
+        3
+      ],
+      [
+        "alkoholos sörital",
+        2
+      ],
+      [
+        "maláta sör",
+        2
+      ],
+      [
+        "ízesített búzasör",
+        2
+      ],
+      [
+        "malátaital",
+        1
+      ],
+      [
+        "világos",
+        1
+      ],
+      [
+        "panaché",
+        1
+      ],
+      [
+        "sour ale",
+        1
+      ],
+      [
+        "barna sör",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "malátaital",
+        "examples": [
+          [
+            11331,
+            "Friss gránátalma-meggy 0,5L"
+          ]
+        ]
+      },
+      {
+        "value": "világos",
+        "examples": [
+          [
+            11389,
+            "Dreher Meggy világos sör és meggy ízű ital keveréke 4% 0,5 l"
+          ]
+        ]
+      },
+      {
+        "value": "panaché",
+        "examples": [
+          [
+            15105,
+            "ARGUS Panaché"
+          ]
+        ]
+      },
+      {
+        "value": "sour ale",
+        "examples": [
+          [
+            36540,
+            "Mad Scientist Elvenberry sour ale szűretlen sör eperrel, szederrel és meggyel 2,5% 330 ml"
+          ]
+        ]
+      },
+      {
+        "value": "barna sör",
+        "examples": [
+          [
+            36652,
+            "Horizont Morning Joe minőségi, szűretlen, kávéval és kakaóbabbal ízesített barna sör 6% 330 ml"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Alkoholmentes sör",
+    "prop": "típus",
+    "product_count": 95,
+    "value_count": 96,
+    "unique_values": 11,
+    "redundant_count": 31,
+    "redundant_ratio": 0.3229,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 3,
+    "top_values": [
+      [
+        "Alkoholmentes sör",
+        20
+      ],
+      [
+        "radler",
+        18
+      ],
+      [
+        "alkoholmentes világos sör",
+        18
+      ],
+      [
+        "világos",
+        12
+      ],
+      [
+        "sör",
+        11
+      ],
+      [
+        "malátaital",
+        7
+      ],
+      [
+        "búzasör",
+        4
+      ],
+      [
+        "stout",
+        3
+      ],
+      [
+        "lager",
+        1
+      ],
+      [
+        "ipa",
+        1
+      ],
+      [
+        "pilsner",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "lager",
+        "examples": [
+          [
+            22738,
+            "ESTRELLA DAMM Gluténmentes Alkoholmentes Üveges Sör 0,0% 250 ml"
+          ]
+        ]
+      },
+      {
+        "value": "ipa",
+        "examples": [
+          [
+            22792,
+            "BAVARIA Ipa Alkoholmentes Világos Üveges Sör 0,0% 330 ml"
+          ]
+        ]
+      },
+      {
+        "value": "pilsner",
+        "examples": [
+          [
+            22798,
+            "SZENT ANDRÁS Majdnem Pilsner Alkoholmentes Sör 0% 330 ml"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Gyógytea",
+    "prop": "forma",
+    "product_count": 90,
+    "value_count": 90,
+    "unique_values": 2,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 4,
+    "filler_ratio": 0.0444,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "filteres",
+        86
+      ],
+      [
+        "nem jelölt",
+        4
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Kakaó italpor",
+    "prop": "termékcsalád",
+    "product_count": 81,
+    "value_count": 103,
+    "unique_values": 3,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "alkoholmentes",
+        78
+      ],
+      [
+        "vitaminos",
+        22
+      ],
+      [
+        "Snack&Shake",
+        3
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Kakaó italpor",
+    "prop": "típus",
+    "product_count": 81,
+    "value_count": 81,
+    "unique_values": 7,
+    "redundant_count": 42,
+    "redundant_ratio": 0.5185,
+    "filler_count": 4,
+    "filler_ratio": 0.0494,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "Kakaó italpor",
+        42
+      ],
+      [
+        "édesített kakaópor",
+        11
+      ],
+      [
+        "kakaópor",
+        10
+      ],
+      [
+        "szívószál",
+        6
+      ],
+      [
+        "kapszula",
+        5
+      ],
+      [
+        "egyéb",
+        4
+      ],
+      [
+        "milkshake",
+        3
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "3in1 instant kávé",
+    "prop": "változat",
+    "product_count": 81,
+    "value_count": 81,
+    "unique_values": 2,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 1,
+    "top_values": [
+      [
+        "alkoholmentes",
+        80
+      ],
+      [
+        "Strong",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "Strong",
+        "examples": [
+          [
+            45574,
+            "NESCAFÉ 3in1 Strong azonnal oldódó kávéspecialitás 28 x 16 g (448 g)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Zöld tea",
+    "prop": "forma",
+    "product_count": 78,
+    "value_count": 78,
+    "unique_values": 4,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 2,
+    "filler_ratio": 0.0256,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "filteres",
+        68
+      ],
+      [
+        "por",
+        5
+      ],
+      [
+        "szálas",
+        3
+      ],
+      [
+        "nem jelölt",
+        2
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "IPA / Ale",
+    "prop": "sörtípus",
+    "product_count": 67,
+    "value_count": 67,
+    "unique_values": 4,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 25,
+    "filler_ratio": 0.3731,
+    "singleton_values": 1,
+    "top_values": [
+      [
+        "szűretlen",
+        37
+      ],
+      [
+        "nem jelölt",
+        25
+      ],
+      [
+        "prémium",
+        4
+      ],
+      [
+        "session IPA",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "session IPA",
+        "examples": [
+          [
+            46309,
+            "Dreher Session IPA felsőerjesztésű minőségi világos sör 5% 0,5 l"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "IPA / Ale",
+    "prop": "típus",
+    "product_count": 67,
+    "value_count": 73,
+    "unique_values": 17,
+    "redundant_count": 47,
+    "redundant_ratio": 0.6438,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 7,
+    "top_values": [
+      [
+        "ipa",
+        26
+      ],
+      [
+        "ale",
+        11
+      ],
+      [
+        "IPA / ale",
+        10
+      ],
+      [
+        "new england IPA",
+        4
+      ],
+      [
+        "világos",
+        3
+      ],
+      [
+        "sörkülönlegesség",
+        3
+      ],
+      [
+        "session IPA",
+        3
+      ],
+      [
+        "pils",
+        2
+      ],
+      [
+        "lager",
+        2
+      ],
+      [
+        "India Pale Ale",
+        2
+      ],
+      [
+        "west coast IPA",
+        1
+      ],
+      [
+        "sour IPA",
+        1
+      ],
+      [
+        "double west coast IPA",
+        1
+      ],
+      [
+        "black IPA",
+        1
+      ],
+      [
+        "pale ale",
+        1
+      ],
+      [
+        "dupla IPA",
+        1
+      ],
+      [
+        "apa",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "west coast IPA",
+        "examples": [
+          [
+            36521,
+            "Horizont Gentle Bastard West Coast IPA minőségi szűretlen világos sör 6,5% 330 ml"
+          ]
+        ]
+      },
+      {
+        "value": "sour IPA",
+        "examples": [
+          [
+            36524,
+            "Fehér Nyúl Rafa Sour IPA sör 6,8% 330 ml"
+          ]
+        ]
+      },
+      {
+        "value": "double west coast IPA",
+        "examples": [
+          [
+            36526,
+            "MONYO Dead Rabbit Double West Coast IPA típusú szűretlen felsőerjesztésű sör 8,3% 330 ml"
+          ]
+        ]
+      },
+      {
+        "value": "black IPA",
+        "examples": [
+          [
+            36539,
+            "Mad Scientist Mordor black IPA szűretlen sör 5,5% 330 ml"
+          ]
+        ]
+      },
+      {
+        "value": "pale ale",
+        "examples": [
+          [
+            36541,
+            "Mad Scientist White Tree Pale szűretlen hidegkomlózott pale ale sör 5,2% 330 ml"
+          ]
+        ]
+      },
+      {
+        "value": "dupla IPA",
+        "examples": [
+          [
+            36543,
+            "Mad Scientist Liquid Cocaine szűretlen dupla IPA sör 9% 330 ml"
+          ]
+        ]
+      },
+      {
+        "value": "apa",
+        "examples": [
+          [
+            36568,
+            "Soproni APA szűretlen felsőerjesztésű sörkülönlegesség 5,5% 500 ml"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Búzasör",
+    "prop": "sörtípus",
+    "product_count": 56,
+    "value_count": 59,
+    "unique_values": 5,
+    "redundant_count": 1,
+    "redundant_ratio": 0.0169,
+    "filler_count": 29,
+    "filler_ratio": 0.4915,
+    "singleton_values": 2,
+    "top_values": [
+      [
+        "nem jelölt",
+        29
+      ],
+      [
+        "szűretlen",
+        25
+      ],
+      [
+        "prémium",
+        3
+      ],
+      [
+        "alkoholmentes",
+        1
+      ],
+      [
+        "búzasör",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "alkoholmentes",
+        "examples": [
+          [
+            11369,
+            "1664 Blanc búzasör 5,0% 0,5 l"
+          ]
+        ]
+      },
+      {
+        "value": "búzasör",
+        "examples": [
+          [
+            46301,
+            "1664 Blanc világos búzasör 5% 4 x 0,5 l (2 l)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Habzó-, gyöngyözőbor, boralapú ital",
+    "altipus": "Gyöngyözőbor",
+    "prop": "fajta",
+    "product_count": 53,
+    "value_count": 54,
+    "unique_values": 11,
+    "redundant_count": 29,
+    "redundant_ratio": 0.537,
+    "filler_count": 12,
+    "filler_ratio": 0.2222,
+    "singleton_values": 3,
+    "top_values": [
+      [
+        "fehér gyöngyözőbor",
+        16
+      ],
+      [
+        "nem jelölt",
+        12
+      ],
+      [
+        "gyöngyözőbor",
+        9
+      ],
+      [
+        "rozé",
+        3
+      ],
+      [
+        "prosecco",
+        3
+      ],
+      [
+        "fehér",
+        3
+      ],
+      [
+        "rozé gyöngyözőbor",
+        3
+      ],
+      [
+        "gyümölcsbor",
+        2
+      ],
+      [
+        "rosato",
+        1
+      ],
+      [
+        "bianco",
+        1
+      ],
+      [
+        "vörös gyöngyözőbor",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "rosato",
+        "examples": [
+          [
+            15103,
+            "ALLINI Secco Rosato / Bianco"
+          ]
+        ]
+      },
+      {
+        "value": "bianco",
+        "examples": [
+          [
+            15103,
+            "ALLINI Secco Rosato / Bianco"
+          ]
+        ]
+      },
+      {
+        "value": "vörös gyöngyözőbor",
+        "examples": [
+          [
+            21337,
+            "GRAND TOKAJ Classic Selection Gyöngyözőbor Cuvée Száraz Vörösbor 11,5 % 750 ml"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Habzó-, gyöngyözőbor, boralapú ital",
+    "altipus": "Gyöngyözőbor",
+    "prop": "típus",
+    "product_count": 53,
+    "value_count": 53,
+    "unique_values": 9,
+    "redundant_count": 24,
+    "redundant_ratio": 0.4528,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 5,
+    "top_values": [
+      [
+        "gyöngyözőbor",
+        24
+      ],
+      [
+        "száraz",
+        15
+      ],
+      [
+        "édes",
+        5
+      ],
+      [
+        "frizzante",
+        4
+      ],
+      [
+        "bubis",
+        1
+      ],
+      [
+        "irsai",
+        1
+      ],
+      [
+        "Sprizz",
+        1
+      ],
+      [
+        "secco",
+        1
+      ],
+      [
+        "gyöngybor",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "bubis",
+        "examples": [
+          [
+            14405,
+            "Balatoni Friss Bubis"
+          ]
+        ]
+      },
+      {
+        "value": "irsai",
+        "examples": [
+          [
+            14638,
+            "FEIND Irsai gyöngyözőbor"
+          ]
+        ]
+      },
+      {
+        "value": "Sprizz",
+        "examples": [
+          [
+            15102,
+            "ALLINI Bitterol Sprizz"
+          ]
+        ]
+      },
+      {
+        "value": "secco",
+        "examples": [
+          [
+            15103,
+            "ALLINI Secco Rosato / Bianco"
+          ]
+        ]
+      },
+      {
+        "value": "gyöngybor",
+        "examples": [
+          [
+            21221,
+            "LELOVITS gyöngybor 750 ml"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Lager sör",
+    "prop": "típus",
+    "product_count": 50,
+    "value_count": 73,
+    "unique_values": 8,
+    "redundant_count": 34,
+    "redundant_ratio": 0.4658,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 4,
+    "top_values": [
+      [
+        "lager",
+        25
+      ],
+      [
+        "világos",
+        22
+      ],
+      [
+        "pils",
+        14
+      ],
+      [
+        "Lager sör",
+        8
+      ],
+      [
+        "sörkülönlegesség",
+        1
+      ],
+      [
+        "barna",
+        1
+      ],
+      [
+        "sör",
+        1
+      ],
+      [
+        "dark / premium lager",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "sörkülönlegesség",
+        "examples": [
+          [
+            11396,
+            "Bohemia Regent Cseh pils típusú speciáls zöld sör 0,5 L"
+          ]
+        ]
+      },
+      {
+        "value": "barna",
+        "examples": [
+          [
+            13217,
+            "KRUSOVICE CERNE BARNA SÖR 3.8% DOBOZO DRS 0.5L"
+          ]
+        ]
+      },
+      {
+        "value": "sör",
+        "examples": [
+          [
+            14718,
+            "BECKS Sör"
+          ]
+        ]
+      },
+      {
+        "value": "dark / premium lager",
+        "examples": [
+          [
+            15085,
+            "KOZEL Dark / Premium Lager sör"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Habzó-, gyöngyözőbor, boralapú ital",
+    "altipus": "Ízesített boralapú ital",
+    "prop": "fajta",
+    "product_count": 49,
+    "value_count": 49,
+    "unique_values": 3,
+    "redundant_count": 14,
+    "redundant_ratio": 0.2857,
+    "filler_count": 15,
+    "filler_ratio": 0.3061,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "koktél",
+        20
+      ],
+      [
+        "nem jelölt",
+        15
+      ],
+      [
+        "boralapú ital",
+        14
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Habzó-, gyöngyözőbor, boralapú ital",
+    "altipus": "Ízesített boralapú ital",
+    "prop": "típus",
+    "product_count": 49,
+    "value_count": 49,
+    "unique_values": 6,
+    "redundant_count": 10,
+    "redundant_ratio": 0.2041,
+    "filler_count": 3,
+    "filler_ratio": 0.0612,
+    "singleton_values": 2,
+    "top_values": [
+      [
+        "édes",
+        30
+      ],
+      [
+        "Ízesített boralapú ital",
+        10
+      ],
+      [
+        "Pezsgőkoktél",
+        4
+      ],
+      [
+        "egyéb",
+        3
+      ],
+      [
+        "félédes",
+        1
+      ],
+      [
+        "spritz",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "félédes",
+        "examples": [
+          [
+            9006,
+            "Royal White Hugo bodzavirág- és lime ízű, szénsavas, ízesített boralapú ital 7,3% 750 ml"
+          ]
+        ]
+      },
+      {
+        "value": "spritz",
+        "examples": [
+          [
+            21854,
+            "Zonin Limoneto Spritz 6% 750 ml"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Brandy",
+    "prop": "fajta",
+    "product_count": 43,
+    "value_count": 43,
+    "unique_values": 11,
+    "redundant_count": 17,
+    "redundant_ratio": 0.3953,
+    "filler_count": 6,
+    "filler_ratio": 0.1395,
+    "singleton_values": 3,
+    "top_values": [
+      [
+        "cognac",
+        11
+      ],
+      [
+        "görög brandy",
+        7
+      ],
+      [
+        "brandy",
+        7
+      ],
+      [
+        "egyéb",
+        5
+      ],
+      [
+        "tiszta",
+        3
+      ],
+      [
+        "örmény brandy",
+        3
+      ],
+      [
+        "calvados",
+        2
+      ],
+      [
+        "konyak",
+        2
+      ],
+      [
+        "aromásított",
+        1
+      ],
+      [
+        "armagnac",
+        1
+      ],
+      [
+        "nem jelölt",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "aromásított",
+        "examples": [
+          [
+            665,
+            "Brandy ízű mini szeszesital, 0,04 l"
+          ]
+        ]
+      },
+      {
+        "value": "armagnac",
+        "examples": [
+          [
+            22019,
+            "Janneau Armagnac VSOP 40% 700 ml"
+          ]
+        ]
+      },
+      {
+        "value": "nem jelölt",
+        "examples": [
+          [
+            45467,
+            "Ararat 5 YO brandy 40% 0,7 l"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Habzó-, gyöngyözőbor, boralapú ital",
+    "altipus": "Alkoholmentes habzó ital",
+    "prop": "típus",
+    "product_count": 31,
+    "value_count": 31,
+    "unique_values": 3,
+    "redundant_count": 8,
+    "redundant_ratio": 0.2581,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "édes",
+        18
+      ],
+      [
+        "Alkoholmentes habzó ital",
+        8
+      ],
+      [
+        "borból készült habzó ital",
+        5
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Cappuccino italpor",
+    "prop": "változat",
+    "product_count": 29,
+    "value_count": 32,
+    "unique_values": 3,
+    "redundant_count": 1,
+    "redundant_ratio": 0.0312,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 1,
+    "top_values": [
+      [
+        "alkoholmentes",
+        28
+      ],
+      [
+        "zero",
+        3
+      ],
+      [
+        "cappuccino",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "cappuccino",
+        "examples": [
+          [
+            45613,
+            "NESCAFÉ Cappuccino azonnal oldódó kávéspecialitás 8 x 13,5 g (108 g)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Vermut",
+    "prop": "fajta",
+    "product_count": 28,
+    "value_count": 28,
+    "unique_values": 5,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 12,
+    "filler_ratio": 0.4286,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "édes",
+        12
+      ],
+      [
+        "nem jelölt",
+        10
+      ],
+      [
+        "egyéb",
+        2
+      ],
+      [
+        "extra száraz",
+        2
+      ],
+      [
+        "cherry",
+        2
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Bor",
+    "altipus": "Tokaji borkülönlegesség",
+    "prop": "fajta",
+    "product_count": 28,
+    "value_count": 28,
+    "unique_values": 3,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 9,
+    "filler_ratio": 0.3214,
+    "singleton_values": 1,
+    "top_values": [
+      [
+        "fehér",
+        18
+      ],
+      [
+        "nem jelölt",
+        9
+      ],
+      [
+        "muskotály",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "muskotály",
+        "examples": [
+          [
+            45156,
+            "Tokajicum Tokaji Sárgamuskotály édes fehérbor 10,5% 0,5 l"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Bor",
+    "altipus": "Tokaji borkülönlegesség",
+    "prop": "típus",
+    "product_count": 28,
+    "value_count": 28,
+    "unique_values": 3,
+    "redundant_count": 10,
+    "redundant_ratio": 0.3571,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 1,
+    "top_values": [
+      [
+        "édes",
+        17
+      ],
+      [
+        "Tokaji borkülönlegesség",
+        10
+      ],
+      [
+        "száraz",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "száraz",
+        "examples": [
+          [
+            9115,
+            "Babits Tokaji szamorodni, száraz 0,75L"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Forró csokoládé italpor",
+    "prop": "termékcsalád",
+    "product_count": 25,
+    "value_count": 25,
+    "unique_values": 1,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "alkoholmentes",
+        25
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Kávé ízesítők / tejek / tejporok",
+    "prop": "fajta",
+    "product_count": 24,
+    "value_count": 24,
+    "unique_values": 2,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 11,
+    "filler_ratio": 0.4583,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "krémpor / tejpor",
+        13
+      ],
+      [
+        "nem jelölt",
+        11
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Kávé ízesítők / tejek / tejporok",
+    "prop": "forma",
+    "product_count": 24,
+    "value_count": 24,
+    "unique_values": 2,
+    "redundant_count": 23,
+    "redundant_ratio": 0.9583,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 1,
+    "top_values": [
+      [
+        "por",
+        23
+      ],
+      [
+        "folyékony",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "folyékony",
+        "examples": [
+          [
+            33136,
+            "Hochwald kávétejszín 10 db 100 g"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Kávé ízesítők / tejek / tejporok",
+    "prop": "típus",
+    "product_count": 24,
+    "value_count": 24,
+    "unique_values": 2,
+    "redundant_count": 11,
+    "redundant_ratio": 0.4583,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "granulátum / por",
+        13
+      ],
+      [
+        "Kávé ízesítők / tejek / tejporok",
+        11
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Tequila",
+    "prop": "típus",
+    "product_count": 21,
+    "value_count": 22,
+    "unique_values": 7,
+    "redundant_count": 7,
+    "redundant_ratio": 0.3182,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 2,
+    "top_values": [
+      [
+        "Tequila",
+        5
+      ],
+      [
+        "blanco",
+        5
+      ],
+      [
+        "silver",
+        4
+      ],
+      [
+        "reposado",
+        4
+      ],
+      [
+        "silver tequila",
+        2
+      ],
+      [
+        "gold",
+        1
+      ],
+      [
+        "agavepárlat",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "gold",
+        "examples": [
+          [
+            22521,
+            "DON DIEGO Tequila Gold 38% 700 ml"
+          ]
+        ]
+      },
+      {
+        "value": "agavepárlat",
+        "examples": [
+          [
+            45541,
+            "Jose Cuervo Especial Tequila Silver mexikói agavepárlat 38% 0,7 l"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Rooibos tea",
+    "prop": "forma",
+    "product_count": 16,
+    "value_count": 16,
+    "unique_values": 1,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 0,
+    "top_values": [
+      [
+        "filteres",
+        16
+      ]
+    ],
+    "singletons_first": []
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Alkoholmentes szeszesital",
+    "prop": "típus",
+    "product_count": 10,
+    "value_count": 10,
+    "unique_values": 6,
+    "redundant_count": 2,
+    "redundant_ratio": 0.2,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 3,
+    "top_values": [
+      [
+        "alkoholmentes aperitif",
+        3
+      ],
+      [
+        "alkoholmentes vermut",
+        2
+      ],
+      [
+        "Alkoholmentes szeszesital",
+        2
+      ],
+      [
+        "alkoholmentes gin",
+        1
+      ],
+      [
+        "alkoholmentes rum jellegű ital",
+        1
+      ],
+      [
+        "alkoholmentes whisky jellegű ital",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "alkoholmentes gin",
+        "examples": [
+          [
+            22566,
+            "Tanqueray Alkoholmentes Gin Ital Természetes Aromákkal 0,0% 700 ml"
+          ]
+        ]
+      },
+      {
+        "value": "alkoholmentes rum jellegű ital",
+        "examples": [
+          [
+            22579,
+            "SOBER SPIRITS Rum Alkoholmentes Rum jellegű Ital 0,0% 500 ml"
+          ]
+        ]
+      },
+      {
+        "value": "alkoholmentes whisky jellegű ital",
+        "examples": [
+          [
+            22580,
+            "Sober Spirits Whisky jellegű Alkoholmentes Ital 0,0% 500 ml"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Oolong tea",
+    "prop": "forma",
+    "product_count": 1,
+    "value_count": 1,
+    "unique_values": 1,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 1,
+    "top_values": [
+      [
+        "filteres",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "filteres",
+        "examples": [
+          [
+            45300,
+            "Basilur Premium Oolong tea 25 filter 50 g"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "alkategoria": "Bor",
+    "altipus": "Likőrbor",
+    "prop": "típus",
+    "product_count": 1,
+    "value_count": 1,
+    "unique_values": 1,
+    "redundant_count": 0,
+    "redundant_ratio": 0.0,
+    "filler_count": 0,
+    "filler_ratio": 0.0,
+    "singleton_values": 1,
+    "top_values": [
+      [
+        "portói",
+        1
+      ]
+    ],
+    "singletons_first": [
+      {
+        "value": "portói",
+        "examples": [
+          [
+            45825,
+            "Ruby Port likőrbor 18% 750 ml"
+          ]
+        ]
+      }
+    ]
+  }
+]

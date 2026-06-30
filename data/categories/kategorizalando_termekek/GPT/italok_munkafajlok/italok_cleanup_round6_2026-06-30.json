@@ -1,0 +1,401 @@
+{
+  "changed_products_count": 1372,
+  "changed_products_first": [
+    538,
+    539,
+    540,
+    541,
+    543,
+    544,
+    546,
+    547,
+    548,
+    549,
+    550,
+    551,
+    552,
+    553,
+    554,
+    556,
+    557,
+    563,
+    566,
+    570,
+    584,
+    585,
+    590,
+    599,
+    604,
+    608,
+    623,
+    631,
+    635,
+    639,
+    644,
+    648,
+    652,
+    655,
+    656,
+    1208,
+    1212,
+    1213,
+    1214,
+    9194,
+    9195,
+    9196,
+    9197,
+    9198,
+    9200,
+    9201,
+    9202,
+    9203,
+    9204,
+    9205,
+    9206,
+    9207,
+    9208,
+    9209,
+    9210,
+    9211,
+    9212,
+    9213,
+    9214,
+    9215,
+    9216,
+    9217,
+    9218,
+    9219,
+    9220,
+    9221,
+    9222,
+    9223,
+    9224,
+    9225,
+    9226,
+    9227,
+    9228,
+    9229,
+    9230,
+    9231,
+    9232,
+    9233,
+    9234,
+    9235,
+    9236,
+    9237,
+    9238,
+    9239,
+    9240,
+    9241,
+    9242,
+    9243,
+    9244,
+    9245,
+    9246,
+    9247,
+    9248,
+    9249,
+    9250,
+    9251,
+    9253,
+    9254,
+    9255,
+    9256,
+    9257,
+    9258,
+    9419,
+    9420,
+    9421,
+    9422,
+    9531,
+    9533,
+    9534,
+    9537,
+    9538,
+    9539,
+    9540,
+    9543,
+    9545,
+    9551,
+    9553,
+    9554,
+    9555,
+    9556,
+    9557,
+    9558,
+    9559,
+    9560,
+    9561,
+    9562,
+    9566,
+    9567,
+    9568,
+    9569,
+    9570,
+    9571,
+    9573,
+    9723,
+    9725,
+    9726,
+    9727,
+    9728,
+    9729,
+    9730,
+    9731,
+    9732,
+    9733,
+    9734,
+    9735,
+    9736,
+    9737,
+    9738,
+    9739,
+    9740,
+    9741,
+    9742,
+    9743,
+    9744,
+    9745,
+    9746,
+    9747,
+    9748,
+    9749,
+    9750,
+    9751,
+    9752,
+    9753,
+    9754,
+    9755,
+    9756,
+    9757,
+    9817,
+    9818,
+    9819,
+    9820,
+    9821,
+    9822,
+    9823,
+    9824,
+    9825,
+    9826,
+    9827,
+    9829,
+    9830,
+    9831,
+    9832,
+    9833,
+    9834,
+    9835,
+    9836,
+    9837,
+    9838,
+    9839,
+    9840,
+    9841,
+    9842,
+    9843,
+    9844,
+    9845,
+    9846,
+    11196,
+    11197,
+    11199,
+    11202
+  ],
+  "tree_removed_props": [
+    [
+      "Bor > Rozébor | típus",
+      1
+    ],
+    [
+      "Habzó-, gyöngyözőbor, boralapú ital > Alkoholmentes habzó ital | fajta",
+      1
+    ],
+    [
+      "Habzó-, gyöngyözőbor, boralapú ital > Habzóbor | fajta",
+      1
+    ],
+    [
+      "Habzó-, gyöngyözőbor, boralapú ital > Habzóbor | típus",
+      1
+    ],
+    [
+      "Pezsgő > Prosecco | típus",
+      1
+    ],
+    [
+      "Alkoholok > Rum | típus",
+      1
+    ],
+    [
+      "Alkoholok > Pálinka | típus",
+      1
+    ],
+    [
+      "Alkoholok > Gyümölcspárlat | típus",
+      1
+    ],
+    [
+      "Sör > Világos sör | típus",
+      1
+    ],
+    [
+      "Sör > Búzasör | típus",
+      1
+    ],
+    [
+      "Sör > Alkoholmentes radler | típus",
+      1
+    ],
+    [
+      "Sör > Barna sör | típus",
+      1
+    ],
+    [
+      "Kombucha > Kombucha | fajta",
+      1
+    ]
+  ],
+  "product_removed_props": [
+    [
+      "típus",
+      1293
+    ],
+    [
+      "fajta",
+      49
+    ]
+  ],
+  "tree_brand_changes": [
+    [
+      "NESCAFÉ Vanilla Cappuccino -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Irish Cappuccino -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ 2in1 Unsweetened Taste -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ 3in1 Classic Smooth & Rich -> Nescafé",
+      1
+    ],
+    [
+      "Nescafé 3in1 Brown Sugar -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ 3in1 Creamy Latte -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ 3in1 Strong Intense & Rich -> Nescafé",
+      1
+    ],
+    [
+      "Nescafé Classic Brasero -> Nescafé",
+      1
+    ],
+    [
+      "Nescafé Farmers Origins -> Nescafé",
+      1
+    ],
+    [
+      "Nescafé Dolce Gusto Cortado -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Farmers Origins Colombia Espresso -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Farmers Origins Brazil -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Farmers Origins Africas Ristretto -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Farmers Origins Mexico Espresso -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Dolce Gusto Nesquik -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Dolce Gusto KitKat -> Nescafé",
+      1
+    ]
+  ],
+  "product_brand_changes": [
+    [
+      "Nescafé Farmers Origins -> Nescafé",
+      12
+    ],
+    [
+      "NESCAFÉ 3in1 Classic Smooth & Rich -> Nescafé",
+      3
+    ],
+    [
+      "Nescafé 3in1 Brown Sugar -> Nescafé",
+      2
+    ],
+    [
+      "NESCAFÉ 2in1 Unsweetened Taste -> Nescafé",
+      2
+    ],
+    [
+      "NESCAFÉ 3in1 Strong Intense & Rich -> Nescafé",
+      2
+    ],
+    [
+      "NESCAFÉ Farmers Origins Colombia Espresso -> Nescafé",
+      2
+    ],
+    [
+      "Nescafé Dolce Gusto Cortado -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ 3in1 Creamy Latte -> Nescafé",
+      1
+    ],
+    [
+      "Nescafé Classic Brasero -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Farmers Origins Brazil -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Dolce Gusto Nesquik -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Farmers Origins Africas Ristretto -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Vanilla Cappuccino -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Irish Cappuccino -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Farmers Origins Mexico Espresso -> Nescafé",
+      1
+    ],
+    [
+      "NESCAFÉ Dolce Gusto KitKat -> Nescafé",
+      1
+    ]
+  ]
+}

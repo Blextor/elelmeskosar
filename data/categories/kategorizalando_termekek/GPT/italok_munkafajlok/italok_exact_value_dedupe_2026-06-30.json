@@ -1,0 +1,190 @@
+{
+  "value_map_count": 20,
+  "changed_products_count": 20,
+  "changed_products_first": [
+    21163,
+    21571,
+    21914,
+    22077,
+    22411,
+    22442,
+    22507,
+    22562,
+    22580,
+    22636,
+    22712,
+    22725,
+    22953,
+    36753,
+    36786,
+    36882,
+    36888,
+    39420,
+    45540,
+    46091
+  ],
+  "tree_changes": [
+    [
+      "márka: ZLATY BAZANT -> Zlaty Bazant",
+      5
+    ],
+    [
+      "márka: Helenas -> HELENAS",
+      2
+    ],
+    [
+      "márka: VILLA MARIA -> Villa Maria",
+      1
+    ],
+    [
+      "márka: ETALON -> Etalon",
+      1
+    ],
+    [
+      "márka: SOL DE ESPANA -> Sol de Espana",
+      1
+    ],
+    [
+      "márka: kislaki -> Kislaki",
+      1
+    ],
+    [
+      "márka: Cointreau -> COINTREAU",
+      1
+    ],
+    [
+      "márka: Kahlúa -> KAHLUA",
+      1
+    ],
+    [
+      "márka: Hatozaki -> HATOZAKI",
+      1
+    ],
+    [
+      "márka: TALISKER -> Talisker",
+      1
+    ],
+    [
+      "márka: GLENMORANGIE -> Glenmorangie",
+      1
+    ],
+    [
+      "márka: Citadelle -> CITADELLE",
+      1
+    ],
+    [
+      "márka: DRUMSHANBO -> Drumshanbo",
+      1
+    ],
+    [
+      "márka: THE DEMON'S SHARE -> The Demon's Share",
+      1
+    ],
+    [
+      "márka: PROFESSORADO -> Professorado",
+      1
+    ],
+    [
+      "márka: Napoleon Grand -> Napóleon Grand",
+      1
+    ],
+    [
+      "márka: Sober Spirits -> SOBER SPIRITS",
+      1
+    ],
+    [
+      "márka: KARLOVAČKO -> Karlovačko",
+      1
+    ],
+    [
+      "márka: KAISERDOM -> Kaiserdom",
+      1
+    ],
+    [
+      "márka: ALFÖLD ARANYA -> Alföld Aranya",
+      1
+    ]
+  ],
+  "product_changes": [
+    [
+      "márka: VILLA MARIA -> Villa Maria",
+      1
+    ],
+    [
+      "márka: ETALON -> Etalon",
+      1
+    ],
+    [
+      "márka: SOL DE ESPANA -> Sol de Espana",
+      1
+    ],
+    [
+      "márka: DRUMSHANBO -> Drumshanbo",
+      1
+    ],
+    [
+      "márka: TALISKER -> Talisker",
+      1
+    ],
+    [
+      "márka: GLENMORANGIE -> Glenmorangie",
+      1
+    ],
+    [
+      "márka: THE DEMON'S SHARE -> The Demon's Share",
+      1
+    ],
+    [
+      "márka: PROFESSORADO -> Professorado",
+      1
+    ],
+    [
+      "márka: Sober Spirits -> SOBER SPIRITS",
+      1
+    ],
+    [
+      "márka: ZLATY BAZANT -> Zlaty Bazant",
+      1
+    ],
+    [
+      "márka: KARLOVAČKO -> Karlovačko",
+      1
+    ],
+    [
+      "márka: KAISERDOM -> Kaiserdom",
+      1
+    ],
+    [
+      "márka: ALFÖLD ARANYA -> Alföld Aranya",
+      1
+    ],
+    [
+      "márka: Cointreau -> COINTREAU",
+      1
+    ],
+    [
+      "márka: Hatozaki -> HATOZAKI",
+      1
+    ],
+    [
+      "márka: Helenas -> HELENAS",
+      1
+    ],
+    [
+      "márka: Napoleon Grand -> Napóleon Grand",
+      1
+    ],
+    [
+      "márka: Citadelle -> CITADELLE",
+      1
+    ],
+    [
+      "márka: Kahlúa -> KAHLUA",
+      1
+    ],
+    [
+      "márka: kislaki -> Kislaki",
+      1
+    ]
+  ]
+}

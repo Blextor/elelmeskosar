@@ -3085,10 +3085,6 @@
       12713
     ],
     [
-      "terméktípus",
-      12655
-    ],
-    [
       "íz",
       12605
     ],
@@ -3097,40 +3093,16 @@
       12505
     ],
     [
-      "jellemzők",
-      10225
-    ],
-    [
-      "cukormentes / zero",
-      9311
-    ],
-    [
-      "jellemző",
-      8274
-    ],
-    [
-      "típus",
-      6138
-    ],
-    [
-      "szénsavas",
-      6025
-    ],
-    [
-      "fajta",
-      5752
-    ],
-    [
       "alkoholtartalom",
       5517
     ],
     [
-      "édesítés",
-      3974
+      "cukormentes / zero",
+      4191
     ],
     [
-      "alkoholmentes",
-      3966
+      "édesítés",
+      3974
     ],
     [
       "szín",
@@ -3141,32 +3113,28 @@
       3538
     ],
     [
-      "bio",
-      3387
-    ],
-    [
-      "forma",
-      3308
-    ],
-    [
-      "cukormentes",
-      2994
-    ],
-    [
-      "koffeinmentes",
-      2732
+      "típus",
+      3228
     ],
     [
       "édesség",
       2684
     ],
     [
+      "cukormentes",
+      2670
+    ],
+    [
+      "koffeinmentes",
+      2496
+    ],
+    [
       "borvidék",
       2471
     ],
     [
-      "csomagolás",
-      2443
+      "bio",
+      2434
     ],
     [
       "szőlőfajta",
@@ -3181,6 +3149,10 @@
       2130
     ],
     [
+      "szénsavasság",
+      2123
+    ],
+    [
       "kiszerelés / rendszer",
       2088
     ],
@@ -3189,8 +3161,12 @@
       2082
     ],
     [
-      "ízesítés",
-      1938
+      "csomagolás",
+      1965
+    ],
+    [
+      "fajta",
+      1789
     ],
     [
       "cukor",
@@ -3205,20 +3181,12 @@
       1604
     ],
     [
+      "ízesítés",
+      1460
+    ],
+    [
       "vitamin",
       1374
-    ],
-    [
-      "szénsavasság",
-      1374
-    ],
-    [
-      "változat",
-      1276
-    ],
-    [
-      "koffeintartalom",
-      1166
     ],
     [
       "energiamentes",
@@ -3229,22 +3197,6 @@
       1137
     ],
     [
-      "szénsav",
-      1090
-    ],
-    [
-      "kézműves",
-      992
-    ],
-    [
-      "szűretlen",
-      992
-    ],
-    [
-      "eredet",
-      969
-    ],
-    [
       "gyümölcstartalom",
       943
     ],
@@ -3253,16 +3205,20 @@
       935
     ],
     [
+      "szűretlen",
+      894
+    ],
+    [
       "alapanyag",
       851
     ],
     [
-      "alkoholos",
-      799
+      "változat",
+      798
     ],
     [
-      "édesítőszerrel",
-      784
+      "forma",
+      794
     ],
     [
       "gyümölcs",
@@ -3273,16 +3229,16 @@
       766
     ],
     [
+      "édesítőszerrel",
+      759
+    ],
+    [
       "koffein",
       756
     ],
     [
       "alap",
       756
-    ],
-    [
-      "sörtípus",
-      743
     ],
     [
       "ásványi anyag",
@@ -3301,16 +3257,12 @@
       734
     ],
     [
-      "feldolgozás",
-      722
+      "koffeintartalom",
+      688
     ],
     [
-      "azonnal oldódó",
-      675
-    ],
-    [
-      "cukormentes / hozzáadott cukor nélkül",
-      675
+      "kézműves",
+      637
     ],
     [
       "gluténmentes",
@@ -3321,11 +3273,7 @@
       556
     ],
     [
-      "termékcsalád",
-      546
-    ],
-    [
-      "kávé típusa",
+      "eredet",
       491
     ],
     [
@@ -3333,28 +3281,8 @@
       491
     ],
     [
-      "tea típusa",
-      481
-    ],
-    [
-      "tea_típusa",
-      481
-    ],
-    [
-      "tea",
-      481
-    ],
-    [
-      "intenzitás",
-      478
-    ],
-    [
-      "italtípus",
-      478
-    ],
-    [
-      "por",
-      409
+      "termékcsalád",
+      451
     ],
     [
       "érlelés",
@@ -3377,12 +3305,20 @@
       341
     ],
     [
+      "feldolgozás",
+      244
+    ],
+    [
       "összetétel",
       236
     ],
     [
       "gyümölcsös",
       133
+    ],
+    [
+      "sörtípus",
+      123
     ],
     [
       "alkohol",
@@ -3425,12 +3361,12 @@
       65
     ],
     [
-      "citromlé tartalom",
-      57
+      "jellemzők",
+      62
     ],
     [
-      "gyümölcs / íz",
-      42
+      "citromlé tartalom",
+      57
     ],
     [
       "minősítés",

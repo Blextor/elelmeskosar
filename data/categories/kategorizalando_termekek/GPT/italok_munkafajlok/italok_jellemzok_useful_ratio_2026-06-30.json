@@ -1,0 +1,2841 @@
+[
+  {
+    "alkategoria": "Bor",
+    "altipus": "Alkoholmentes bor",
+    "product_count": 1,
+    "with_jellemzok": 1,
+    "with_useful_after_bad_value_removal": 0,
+    "useful_ratio": 0.0,
+    "top_useful_values": []
+  },
+  {
+    "alkategoria": "Üdítőital",
+    "altipus": "Alkoholmentes koktél",
+    "product_count": 6,
+    "with_jellemzok": 6,
+    "with_useful_after_bad_value_removal": 0,
+    "useful_ratio": 0.0,
+    "top_useful_values": []
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Alkoholmentes szeszesital",
+    "product_count": 10,
+    "with_jellemzok": 10,
+    "with_useful_after_bad_value_removal": 0,
+    "useful_ratio": 0.0,
+    "top_useful_values": []
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Alkoholmentes sörital",
+    "product_count": 23,
+    "with_jellemzok": 23,
+    "with_useful_after_bad_value_removal": 0,
+    "useful_ratio": 0.0,
+    "top_useful_values": []
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Kávé ízesítők / tejek / tejporok",
+    "product_count": 24,
+    "with_jellemzok": 24,
+    "with_useful_after_bad_value_removal": 0,
+    "useful_ratio": 0.0,
+    "top_useful_values": []
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Likőr",
+    "product_count": 556,
+    "with_jellemzok": 556,
+    "with_useful_after_bad_value_removal": 2,
+    "useful_ratio": 0.0036,
+    "top_useful_values": [
+      [
+        "rum alapú",
+        1
+      ],
+      [
+        "bourbon whiskey alapú",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Whisky & Bourbon",
+    "product_count": 238,
+    "with_jellemzok": 238,
+    "with_useful_after_bad_value_removal": 1,
+    "useful_ratio": 0.0042,
+    "top_useful_values": [
+      [
+        "papír díszdobozban",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Vodka",
+    "product_count": 188,
+    "with_jellemzok": 188,
+    "with_useful_after_bad_value_removal": 1,
+    "useful_ratio": 0.0053,
+    "top_useful_values": [
+      [
+        "német",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Bor",
+    "altipus": "Vörösbor",
+    "product_count": 674,
+    "with_jellemzok": 674,
+    "with_useful_after_bad_value_removal": 4,
+    "useful_ratio": 0.0059,
+    "top_useful_values": [
+      [
+        "bio",
+        1
+      ],
+      [
+        "barrique",
+        1
+      ],
+      [
+        "extra bubis",
+        1
+      ],
+      [
+        "classicus",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Pezsgő",
+    "altipus": "Pezsgő",
+    "product_count": 438,
+    "with_jellemzok": 438,
+    "with_useful_after_bad_value_removal": 3,
+    "useful_ratio": 0.0068,
+    "top_useful_values": [
+      [
+        "bio",
+        1
+      ],
+      [
+        "díszdobozban",
+        1
+      ],
+      [
+        "24K aranypehellyel",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Ásványvíz",
+    "altipus": "Szénsavas ásványvíz",
+    "product_count": 134,
+    "with_jellemzok": 134,
+    "with_useful_after_bad_value_removal": 1,
+    "useful_ratio": 0.0075,
+    "top_useful_values": [
+      [
+        "üveges",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Instant kávé",
+    "product_count": 197,
+    "with_jellemzok": 197,
+    "with_useful_after_bad_value_removal": 2,
+    "useful_ratio": 0.0102,
+    "top_useful_values": [
+      [
+        "koffeinmentes",
+        2
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "3in1 instant kávé",
+    "product_count": 81,
+    "with_jellemzok": 81,
+    "with_useful_after_bad_value_removal": 1,
+    "useful_ratio": 0.0123,
+    "top_useful_values": [
+      [
+        "3in1",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Bor",
+    "altipus": "Fehérbor",
+    "product_count": 964,
+    "with_jellemzok": 964,
+    "with_useful_after_bad_value_removal": 13,
+    "useful_ratio": 0.0135,
+    "top_useful_values": [
+      [
+        "késői szüret",
+        5
+      ],
+      [
+        "bio",
+        4
+      ],
+      [
+        "szénsavas",
+        1
+      ],
+      [
+        "aszú",
+        1
+      ],
+      [
+        "battonage",
+        1
+      ],
+      [
+        "classicus",
+        1
+      ],
+      [
+        "orange bor",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Pálinka",
+    "product_count": 135,
+    "with_jellemzok": 135,
+    "with_useful_after_bad_value_removal": 2,
+    "useful_ratio": 0.0148,
+    "top_useful_values": [
+      [
+        "Hollóházi porcelán kulacsban",
+        2
+      ],
+      [
+        "díszdobozban",
+        2
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Rum",
+    "product_count": 115,
+    "with_jellemzok": 115,
+    "with_useful_after_bad_value_removal": 2,
+    "useful_ratio": 0.0174,
+    "top_useful_values": [
+      [
+        "rum jellegű",
+        2
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Kávékapszula",
+    "product_count": 478,
+    "with_jellemzok": 478,
+    "with_useful_after_bad_value_removal": 10,
+    "useful_ratio": 0.0209,
+    "top_useful_values": [
+      [
+        "koffeinmentes",
+        6
+      ],
+      [
+        "bio",
+        1
+      ],
+      [
+        "iced",
+        1
+      ],
+      [
+        "100% Arabica",
+        1
+      ],
+      [
+        "alumínium kapszula",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Szemes kávé",
+    "product_count": 236,
+    "with_jellemzok": 236,
+    "with_useful_after_bad_value_removal": 5,
+    "useful_ratio": 0.0212,
+    "top_useful_values": [
+      [
+        "bio",
+        3
+      ],
+      [
+        "100% Arabica",
+        2
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Őrölt kávé",
+    "product_count": 255,
+    "with_jellemzok": 255,
+    "with_useful_after_bad_value_removal": 7,
+    "useful_ratio": 0.0275,
+    "top_useful_values": [
+      [
+        "bio",
+        3
+      ],
+      [
+        "koffeinmentes",
+        2
+      ],
+      [
+        "Robusta",
+        1
+      ],
+      [
+        "lágy pörkölésű",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Habzó-, gyöngyözőbor, boralapú ital",
+    "altipus": "Alkoholmentes habzó ital",
+    "product_count": 31,
+    "with_jellemzok": 31,
+    "with_useful_after_bad_value_removal": 1,
+    "useful_ratio": 0.0323,
+    "top_useful_values": [
+      [
+        "alkoholmentesített",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Bor",
+    "altipus": "Tokaji borkülönlegesség",
+    "product_count": 28,
+    "with_jellemzok": 28,
+    "with_useful_after_bad_value_removal": 1,
+    "useful_ratio": 0.0357,
+    "top_useful_values": [
+      [
+        "késői szüret",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Gyógynövénylikőr",
+    "product_count": 28,
+    "with_jellemzok": 28,
+    "with_useful_after_bad_value_removal": 1,
+    "useful_ratio": 0.0357,
+    "top_useful_values": [
+      [
+        "2 pohár fém díszdobozban",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Gyümölcstea",
+    "product_count": 247,
+    "with_jellemzok": 247,
+    "with_useful_after_bad_value_removal": 10,
+    "useful_ratio": 0.0405,
+    "top_useful_values": [
+      [
+        "bio",
+        4
+      ],
+      [
+        "vitaminos",
+        3
+      ],
+      [
+        "C-vitaminnal",
+        2
+      ],
+      [
+        "B6-vitaminnal",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Ásványvíz",
+    "altipus": "Szénsavmentes ásványvíz",
+    "product_count": 207,
+    "with_jellemzok": 207,
+    "with_useful_after_bad_value_removal": 11,
+    "useful_ratio": 0.0531,
+    "top_useful_values": [
+      [
+        "üveges",
+        5
+      ],
+      [
+        "gyógyvíz",
+        4
+      ],
+      [
+        "sport",
+        1
+      ],
+      [
+        "junior",
+        1
+      ],
+      [
+        "artézi",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Barna sör",
+    "product_count": 56,
+    "with_jellemzok": 56,
+    "with_useful_after_bad_value_removal": 3,
+    "useful_ratio": 0.0536,
+    "top_useful_values": [
+      [
+        "szűretlen",
+        3
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Világos sör",
+    "product_count": 475,
+    "with_jellemzok": 475,
+    "with_useful_after_bad_value_removal": 28,
+    "useful_ratio": 0.0589,
+    "top_useful_values": [
+      [
+        "szűretlen",
+        16
+      ],
+      [
+        "világos sör",
+        5
+      ],
+      [
+        "minőségi",
+        4
+      ],
+      [
+        "gluténmentes",
+        3
+      ],
+      [
+        "bio",
+        2
+      ],
+      [
+        "cseh",
+        1
+      ],
+      [
+        "spanyol",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Gyógytea",
+    "product_count": 90,
+    "with_jellemzok": 90,
+    "with_useful_after_bad_value_removal": 7,
+    "useful_ratio": 0.0778,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        4
+      ],
+      [
+        "bio",
+        1
+      ],
+      [
+        "B3-vitaminnal",
+        1
+      ],
+      [
+        "cinkkel",
+        1
+      ],
+      [
+        "D-vitaminnal",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Bor",
+    "altipus": "Boralapú ital",
+    "product_count": 100,
+    "with_jellemzok": 100,
+    "with_useful_after_bad_value_removal": 9,
+    "useful_ratio": 0.09,
+    "top_useful_values": [
+      [
+        "szénsavas",
+        9
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Szörp, üdítőitalpor",
+    "altipus": "Italkoncentrátum",
+    "product_count": 32,
+    "with_jellemzok": 32,
+    "with_useful_after_bad_value_removal": 3,
+    "useful_ratio": 0.0938,
+    "top_useful_values": [
+      [
+        "zero",
+        3
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Lager sör",
+    "product_count": 50,
+    "with_jellemzok": 50,
+    "with_useful_after_bad_value_removal": 5,
+    "useful_ratio": 0.1,
+    "top_useful_values": [
+      [
+        "szűretlen",
+        2
+      ],
+      [
+        "bio",
+        2
+      ],
+      [
+        "biosör",
+        2
+      ],
+      [
+        "világos",
+        1
+      ],
+      [
+        "alsóerjesztésű",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Cappuccino italpor",
+    "product_count": 29,
+    "with_jellemzok": 29,
+    "with_useful_after_bad_value_removal": 3,
+    "useful_ratio": 0.1034,
+    "top_useful_values": [
+      [
+        "zero",
+        3
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "2in1 instant kávé",
+    "product_count": 19,
+    "with_jellemzok": 19,
+    "with_useful_after_bad_value_removal": 2,
+    "useful_ratio": 0.1053,
+    "top_useful_values": [
+      [
+        "hozzáadott cukor nélkül",
+        2
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Forró csokoládé italpor",
+    "product_count": 25,
+    "with_jellemzok": 25,
+    "with_useful_after_bad_value_removal": 3,
+    "useful_ratio": 0.12,
+    "top_useful_values": [
+      [
+        "magnéziummal",
+        3
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Citromlé",
+    "altipus": "Limelé",
+    "product_count": 8,
+    "with_jellemzok": 8,
+    "with_useful_after_bad_value_removal": 1,
+    "useful_ratio": 0.125,
+    "top_useful_values": [
+      [
+        "100%",
+        1
+      ],
+      [
+        "sűrítményből",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Cider",
+    "altipus": "Cider",
+    "product_count": 32,
+    "with_jellemzok": 32,
+    "with_useful_after_bad_value_removal": 4,
+    "useful_ratio": 0.125,
+    "top_useful_values": [
+      [
+        "szénsavas",
+        4
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Tequila",
+    "product_count": 21,
+    "with_jellemzok": 21,
+    "with_useful_after_bad_value_removal": 3,
+    "useful_ratio": 0.1429,
+    "top_useful_values": [
+      [
+        "blanco",
+        2
+      ],
+      [
+        "reposado",
+        1
+      ],
+      [
+        "mexikói",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Cider",
+    "altipus": "Alkoholmentes cider",
+    "product_count": 13,
+    "with_jellemzok": 13,
+    "with_useful_after_bad_value_removal": 2,
+    "useful_ratio": 0.1538,
+    "top_useful_values": [
+      [
+        "szénsavas",
+        2
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Gyümölcslé",
+    "altipus": "100% gyümölcslé",
+    "product_count": 32,
+    "with_jellemzok": 32,
+    "with_useful_after_bad_value_removal": 5,
+    "useful_ratio": 0.1562,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        4
+      ],
+      [
+        "csonterő",
+        1
+      ],
+      [
+        "100%",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Szörp, üdítőitalpor",
+    "altipus": "Italtabletta",
+    "product_count": 6,
+    "with_jellemzok": 6,
+    "with_useful_after_bad_value_removal": 1,
+    "useful_ratio": 0.1667,
+    "top_useful_values": [
+      [
+        "C-vitaminnal",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Ízesített szeszesital",
+    "product_count": 10,
+    "with_jellemzok": 10,
+    "with_useful_after_bad_value_removal": 2,
+    "useful_ratio": 0.2,
+    "top_useful_values": [
+      [
+        "skót whisky alapú",
+        2
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Ízesített víz",
+    "altipus": "Ízesített ásványvíz",
+    "product_count": 66,
+    "with_jellemzok": 66,
+    "with_useful_after_bad_value_removal": 14,
+    "useful_ratio": 0.2121,
+    "top_useful_values": [
+      [
+        "ásványvíz alapú",
+        6
+      ],
+      [
+        "zero",
+        4
+      ],
+      [
+        "energiamentes",
+        3
+      ],
+      [
+        "szénsavmentes",
+        2
+      ],
+      [
+        "vitaminos",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Ízesített sör",
+    "product_count": 95,
+    "with_jellemzok": 95,
+    "with_useful_after_bad_value_removal": 22,
+    "useful_ratio": 0.2316,
+    "top_useful_values": [
+      [
+        "szűretlen",
+        17
+      ],
+      [
+        "sörital",
+        5
+      ],
+      [
+        "felsőerjesztésű",
+        2
+      ],
+      [
+        "izotóniás",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Alkoholok",
+    "altipus": "Rum alapú szeszesital",
+    "product_count": 4,
+    "with_jellemzok": 4,
+    "with_useful_after_bad_value_removal": 1,
+    "useful_ratio": 0.25,
+    "top_useful_values": [
+      [
+        "1 db pohárral",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Gyümölcslé",
+    "altipus": "Szőlőlé",
+    "product_count": 8,
+    "with_jellemzok": 8,
+    "with_useful_after_bad_value_removal": 2,
+    "useful_ratio": 0.25,
+    "top_useful_values": [
+      [
+        "hozzáadott cukor nélkül",
+        1
+      ],
+      [
+        "zero",
+        1
+      ],
+      [
+        "szűrt",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Alkoholmentes sör",
+    "product_count": 95,
+    "with_jellemzok": 95,
+    "with_useful_after_bad_value_removal": 24,
+    "useful_ratio": 0.2526,
+    "top_useful_values": [
+      [
+        "alkoholmentes sör",
+        19
+      ],
+      [
+        "szűretlen",
+        3
+      ],
+      [
+        "zero",
+        2
+      ],
+      [
+        "fekete sör",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Kakaó italpor",
+    "product_count": 81,
+    "with_jellemzok": 81,
+    "with_useful_after_bad_value_removal": 22,
+    "useful_ratio": 0.2716,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        22
+      ],
+      [
+        "kalciummal dúsított",
+        2
+      ],
+      [
+        "ásványi anyagokkal",
+        1
+      ],
+      [
+        "kalciummal",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Ásványvíz",
+    "altipus": "Lúgos víz",
+    "product_count": 12,
+    "with_jellemzok": 12,
+    "with_useful_after_bad_value_removal": 4,
+    "useful_ratio": 0.3333,
+    "top_useful_values": [
+      [
+        "lúgosító",
+        2
+      ],
+      [
+        "pH9,3",
+        2
+      ],
+      [
+        "bio",
+        1
+      ],
+      [
+        "lúgos",
+        1
+      ],
+      [
+        "ionizált",
+        1
+      ],
+      [
+        "oxigénnel dúsított",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Citromlé",
+    "altipus": "Citromlé",
+    "product_count": 48,
+    "with_jellemzok": 48,
+    "with_useful_after_bad_value_removal": 16,
+    "useful_ratio": 0.3333,
+    "top_useful_values": [
+      [
+        "citrom ízesítő",
+        9
+      ],
+      [
+        "40%",
+        5
+      ],
+      [
+        "50%",
+        5
+      ],
+      [
+        "100%",
+        4
+      ],
+      [
+        "bio",
+        1
+      ],
+      [
+        "koncentrátumból",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Üdítőital",
+    "altipus": "Tonic",
+    "product_count": 69,
+    "with_jellemzok": 69,
+    "with_useful_after_bad_value_removal": 26,
+    "useful_ratio": 0.3768,
+    "top_useful_values": [
+      [
+        "szénsavas",
+        19
+      ],
+      [
+        "zero",
+        11
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Energiaital",
+    "altipus": "Energiaital",
+    "product_count": 345,
+    "with_jellemzok": 345,
+    "with_useful_after_bad_value_removal": 134,
+    "useful_ratio": 0.3884,
+    "top_useful_values": [
+      [
+        "zero",
+        52
+      ],
+      [
+        "szénsavas",
+        33
+      ],
+      [
+        "energiaital",
+        19
+      ],
+      [
+        "vitaminos",
+        17
+      ],
+      [
+        "koffeinnel",
+        16
+      ],
+      [
+        "ultra",
+        8
+      ],
+      [
+        "juiced",
+        7
+      ],
+      [
+        "koffeintartalmú",
+        3
+      ],
+      [
+        "cukormentes",
+        2
+      ],
+      [
+        "B-vitaminokkal",
+        2
+      ],
+      [
+        "rehab",
+        2
+      ],
+      [
+        "magas koffeintartalmú",
+        2
+      ],
+      [
+        "gyümölcslével",
+        2
+      ],
+      [
+        "focus+",
+        1
+      ],
+      [
+        "multi+",
+        1
+      ],
+      [
+        "strong",
+        1
+      ],
+      [
+        "blue edition",
+        1
+      ],
+      [
+        "fruit punch",
+        1
+      ],
+      [
+        "sour twist",
+        1
+      ],
+      [
+        "orange fire",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Alkoholmentes radler",
+    "product_count": 86,
+    "with_jellemzok": 86,
+    "with_useful_after_bad_value_removal": 35,
+    "useful_ratio": 0.407,
+    "top_useful_values": [
+      [
+        "alkoholmentes sörital",
+        35
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Gyümölcslé",
+    "altipus": "Narancslé",
+    "product_count": 17,
+    "with_jellemzok": 17,
+    "with_useful_after_bad_value_removal": 7,
+    "useful_ratio": 0.4118,
+    "top_useful_values": [
+      [
+        "C-vitaminnal",
+        3
+      ],
+      [
+        "vitaminos",
+        3
+      ],
+      [
+        "gyümölcshússal",
+        2
+      ],
+      [
+        "100%",
+        2
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Gyümölcslé",
+    "altipus": "Őszibaracklé",
+    "product_count": 17,
+    "with_jellemzok": 17,
+    "with_useful_after_bad_value_removal": 7,
+    "useful_ratio": 0.4118,
+    "top_useful_values": [
+      [
+        "rostos",
+        3
+      ],
+      [
+        "100%",
+        3
+      ],
+      [
+        "hozzáadott cukor nélkül",
+        1
+      ],
+      [
+        "zero",
+        1
+      ],
+      [
+        "5 vitaminnal",
+        1
+      ],
+      [
+        "vitaminos",
+        1
+      ],
+      [
+        "frissen préselt",
+        1
+      ],
+      [
+        "préslé",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Üdítőital",
+    "altipus": "Aloe vera ital",
+    "product_count": 21,
+    "with_jellemzok": 21,
+    "with_useful_after_bad_value_removal": 9,
+    "useful_ratio": 0.4286,
+    "top_useful_values": [
+      [
+        "szénsavmentes",
+        9
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Üdítőital",
+    "altipus": "Limonádé",
+    "product_count": 78,
+    "with_jellemzok": 78,
+    "with_useful_after_bad_value_removal": 36,
+    "useful_ratio": 0.4615,
+    "top_useful_values": [
+      [
+        "limonádé",
+        28
+      ],
+      [
+        "szénsavas",
+        8
+      ],
+      [
+        "szénsavmentes",
+        7
+      ],
+      [
+        "zero",
+        4
+      ],
+      [
+        "100% alatt",
+        3
+      ],
+      [
+        "energiamentes",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Gyümölcslé",
+    "altipus": "Vegyes gyümölcslé",
+    "product_count": 4,
+    "with_jellemzok": 4,
+    "with_useful_after_bad_value_removal": 2,
+    "useful_ratio": 0.5,
+    "top_useful_values": [
+      [
+        "12 hozzáadott vitaminnal",
+        1
+      ],
+      [
+        "cinkkel",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Gyümölcslé",
+    "altipus": "Almalé",
+    "product_count": 34,
+    "with_jellemzok": 34,
+    "with_useful_after_bad_value_removal": 17,
+    "useful_ratio": 0.5,
+    "top_useful_values": [
+      [
+        "100%",
+        8
+      ],
+      [
+        "vitaminos",
+        4
+      ],
+      [
+        "szűrt",
+        3
+      ],
+      [
+        "hozzáadott cukor nélkül",
+        2
+      ],
+      [
+        "zero",
+        2
+      ],
+      [
+        "5 vitaminnal",
+        2
+      ],
+      [
+        "C-vitaminnal",
+        1
+      ],
+      [
+        "szűretlen",
+        1
+      ],
+      [
+        "hidegen préselt",
+        1
+      ],
+      [
+        "rostos",
+        1
+      ],
+      [
+        "bio",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Búzasör",
+    "product_count": 56,
+    "with_jellemzok": 56,
+    "with_useful_after_bad_value_removal": 30,
+    "useful_ratio": 0.5357,
+    "top_useful_values": [
+      [
+        "szűretlen",
+        25
+      ],
+      [
+        "búzasör",
+        2
+      ],
+      [
+        "málna ízű búzasör",
+        2
+      ],
+      [
+        "belga fehér búzasör",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Üdítőital",
+    "altipus": "Szénsavas üdítő",
+    "product_count": 756,
+    "with_jellemzok": 756,
+    "with_useful_after_bad_value_removal": 417,
+    "useful_ratio": 0.5516,
+    "top_useful_values": [
+      [
+        "zero",
+        205
+      ],
+      [
+        "szénsavas",
+        132
+      ],
+      [
+        "szénsavmentes",
+        86
+      ],
+      [
+        "100% alatt",
+        64
+      ],
+      [
+        "energiamentes",
+        28
+      ],
+      [
+        "egyéb",
+        18
+      ],
+      [
+        "vitaminos",
+        12
+      ],
+      [
+        "energiaszegény",
+        12
+      ],
+      [
+        "ásványvizes",
+        9
+      ],
+      [
+        "jegestea",
+        8
+      ],
+      [
+        "100%",
+        5
+      ],
+      [
+        "préselt",
+        4
+      ],
+      [
+        "rostos",
+        4
+      ],
+      [
+        "limonádé",
+        3
+      ],
+      [
+        "zöldséglé",
+        2
+      ],
+      [
+        "gyümölcs püré",
+        2
+      ],
+      [
+        "bio",
+        2
+      ],
+      [
+        "energia tartalmú",
+        2
+      ],
+      [
+        "koffeinmentes",
+        2
+      ],
+      [
+        "cukormentes",
+        2
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Ízesített víz",
+    "altipus": "Vitaminos ízesített víz",
+    "product_count": 52,
+    "with_jellemzok": 52,
+    "with_useful_after_bad_value_removal": 29,
+    "useful_ratio": 0.5577,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        22
+      ],
+      [
+        "zero",
+        9
+      ],
+      [
+        "szénsavmentes",
+        5
+      ],
+      [
+        "szénsavas",
+        4
+      ],
+      [
+        "energiamentes",
+        3
+      ],
+      [
+        "gingko biloba",
+        2
+      ],
+      [
+        "elektrolitokkal",
+        2
+      ],
+      [
+        "bio",
+        1
+      ],
+      [
+        "csökkentett energiatartalmú",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Üdítőital",
+    "altipus": "Jegestea",
+    "product_count": 481,
+    "with_jellemzok": 481,
+    "with_useful_after_bad_value_removal": 270,
+    "useful_ratio": 0.5613,
+    "top_useful_values": [
+      [
+        "jegestea",
+        181
+      ],
+      [
+        "zero",
+        101
+      ],
+      [
+        "szénsavmentes",
+        76
+      ],
+      [
+        "alacsony cukortartalmú",
+        14
+      ],
+      [
+        "csökkentett energiatartalmú",
+        9
+      ],
+      [
+        "bio",
+        6
+      ],
+      [
+        "cukormentes",
+        6
+      ],
+      [
+        "energiamentes",
+        5
+      ],
+      [
+        "italgyöngyökkel",
+        4
+      ],
+      [
+        "szétpattanó golyóval",
+        2
+      ],
+      [
+        "0% cukor",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "IPA / Ale",
+    "product_count": 67,
+    "with_jellemzok": 67,
+    "with_useful_after_bad_value_removal": 39,
+    "useful_ratio": 0.5821,
+    "top_useful_values": [
+      [
+        "szűretlen",
+        38
+      ],
+      [
+        "felsőerjesztésű",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Szörp, üdítőitalpor",
+    "altipus": "Szörp",
+    "product_count": 367,
+    "with_jellemzok": 367,
+    "with_useful_after_bad_value_removal": 215,
+    "useful_ratio": 0.5858,
+    "top_useful_values": [
+      [
+        "gyümölcsszörp",
+        56
+      ],
+      [
+        "zero",
+        51
+      ],
+      [
+        "bárszirup",
+        33
+      ],
+      [
+        "szörp",
+        25
+      ],
+      [
+        "szirup",
+        20
+      ],
+      [
+        "vitaminos",
+        19
+      ],
+      [
+        "püré",
+        12
+      ],
+      [
+        "C-vitaminnal",
+        8
+      ],
+      [
+        "édesítőszerrel",
+        8
+      ],
+      [
+        "különleges minőségű",
+        7
+      ],
+      [
+        "csökkentett energiatartalmú",
+        7
+      ],
+      [
+        "XXL",
+        6
+      ],
+      [
+        "fitt light",
+        5
+      ],
+      [
+        "bubble",
+        5
+      ],
+      [
+        "koktélszirup",
+        4
+      ],
+      [
+        "esszencia",
+        4
+      ],
+      [
+        "feketerépalével színezve",
+        4
+      ],
+      [
+        "fekete berkenyével és feketerépalével színezve",
+        2
+      ],
+      [
+        "cukorszirup",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Üdítőital",
+    "altipus": "Cola",
+    "product_count": 329,
+    "with_jellemzok": 329,
+    "with_useful_after_bad_value_removal": 193,
+    "useful_ratio": 0.5866,
+    "top_useful_values": [
+      [
+        "zero",
+        159
+      ],
+      [
+        "szénsavas",
+        72
+      ],
+      [
+        "energiamentes",
+        13
+      ],
+      [
+        "koffeinmentes",
+        3
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kávé, tea, kakaó (száraz)",
+    "altipus": "Gabonakávé",
+    "product_count": 3,
+    "with_jellemzok": 3,
+    "with_useful_after_bad_value_removal": 2,
+    "useful_ratio": 0.6667,
+    "top_useful_values": [
+      [
+        "koffeinmentes",
+        2
+      ],
+      [
+        "cukrozott",
+        1
+      ],
+      [
+        "bio",
+        1
+      ],
+      [
+        "cikóriával",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Sportital",
+    "altipus": "Sportital",
+    "product_count": 172,
+    "with_jellemzok": 172,
+    "with_useful_after_bad_value_removal": 121,
+    "useful_ratio": 0.7035,
+    "top_useful_values": [
+      [
+        "zero",
+        44
+      ],
+      [
+        "izotóniás",
+        41
+      ],
+      [
+        "vitaminos",
+        34
+      ],
+      [
+        "szénsavmentes",
+        10
+      ],
+      [
+        "izotóniás sportital",
+        8
+      ],
+      [
+        "sportital",
+        4
+      ],
+      [
+        "hydration",
+        4
+      ],
+      [
+        "energiamentes",
+        3
+      ],
+      [
+        "mountain blast",
+        2
+      ],
+      [
+        "body&mind",
+        2
+      ],
+      [
+        "Hydro Active",
+        2
+      ],
+      [
+        "pantoténsavval",
+        2
+      ],
+      [
+        "cool blue",
+        1
+      ],
+      [
+        "fat burner",
+        1
+      ],
+      [
+        "Defend",
+        1
+      ],
+      [
+        "Attack",
+        1
+      ],
+      [
+        "Midfield",
+        1
+      ],
+      [
+        "magnéziummal",
+        1
+      ],
+      [
+        "BCAA",
+        1
+      ],
+      [
+        "szénsavas",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Üdítőital",
+    "altipus": "Szénsavmentes üdítő",
+    "product_count": 56,
+    "with_jellemzok": 56,
+    "with_useful_after_bad_value_removal": 41,
+    "useful_ratio": 0.7321,
+    "top_useful_values": [
+      [
+        "szénsavmentes",
+        35
+      ],
+      [
+        "100% alatt",
+        16
+      ],
+      [
+        "zero",
+        6
+      ],
+      [
+        "limonádé",
+        3
+      ],
+      [
+        "jegestea",
+        2
+      ],
+      [
+        "vitaminos",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Üdítőital",
+    "altipus": "Gyümölcsital",
+    "product_count": 423,
+    "with_jellemzok": 423,
+    "with_useful_after_bad_value_removal": 313,
+    "useful_ratio": 0.74,
+    "top_useful_values": [
+      [
+        "100% alatt",
+        172
+      ],
+      [
+        "vitaminos",
+        58
+      ],
+      [
+        "rostos",
+        40
+      ],
+      [
+        "gyümölcsital",
+        31
+      ],
+      [
+        "zero",
+        15
+      ],
+      [
+        "szénsavmentes",
+        14
+      ],
+      [
+        "szűrt",
+        9
+      ],
+      [
+        "smoothie",
+        8
+      ],
+      [
+        "hozzáadott cukor nélkül",
+        5
+      ],
+      [
+        "energiaszegény",
+        5
+      ],
+      [
+        "gyümölcs püré",
+        4
+      ],
+      [
+        "gyümölcshússal",
+        2
+      ],
+      [
+        "25%",
+        1
+      ],
+      [
+        "50%",
+        1
+      ],
+      [
+        "100%",
+        1
+      ],
+      [
+        "25% gyümölcstartalom",
+        1
+      ],
+      [
+        "kalciummal dúsított",
+        1
+      ],
+      [
+        "gingerade",
+        1
+      ],
+      [
+        "grapefruit péppel",
+        1
+      ],
+      [
+        "immunitás",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Ásványvíz",
+    "altipus": "Ivóvíz / vízalapú ital",
+    "product_count": 4,
+    "with_jellemzok": 4,
+    "with_useful_after_bad_value_removal": 3,
+    "useful_ratio": 0.75,
+    "top_useful_values": [
+      [
+        "hozzáadott ásványi anyagokkal",
+        2
+      ],
+      [
+        "duplán-szűrt",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Gyümölcslé",
+    "altipus": "Gyümölcspüré",
+    "product_count": 4,
+    "with_jellemzok": 4,
+    "with_useful_after_bad_value_removal": 3,
+    "useful_ratio": 0.75,
+    "top_useful_values": [
+      [
+        "C-vitaminnal",
+        3
+      ],
+      [
+        "cinkkel",
+        1
+      ],
+      [
+        "pantoténsavval",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Funkcionális ital",
+    "altipus": "Vitaminos üdítőital",
+    "product_count": 8,
+    "with_jellemzok": 8,
+    "with_useful_after_bad_value_removal": 6,
+    "useful_ratio": 0.75,
+    "top_useful_values": [
+      [
+        "zero",
+        4
+      ],
+      [
+        "energiamentes",
+        4
+      ],
+      [
+        "vitaminos",
+        1
+      ],
+      [
+        "csökkentett energiatartalmú",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Funkcionális ital",
+    "altipus": "Funkcionális ital",
+    "product_count": 25,
+    "with_jellemzok": 25,
+    "with_useful_after_bad_value_removal": 19,
+    "useful_ratio": 0.76,
+    "top_useful_values": [
+      [
+        "zero",
+        8
+      ],
+      [
+        "szénsavmentes",
+        6
+      ],
+      [
+        "energiamentes",
+        5
+      ],
+      [
+        "szénsavas",
+        5
+      ],
+      [
+        "oxigénnel dúsított",
+        4
+      ],
+      [
+        "energiaszegény",
+        4
+      ],
+      [
+        "koffeintartalmú",
+        3
+      ],
+      [
+        "funkcionális",
+        3
+      ],
+      [
+        "Yerba Mate alapú",
+        2
+      ],
+      [
+        "vitaminos",
+        1
+      ],
+      [
+        "svájci gyógynövény kivonattal",
+        1
+      ],
+      [
+        "guaranával",
+        1
+      ],
+      [
+        "mate kivonattal",
+        1
+      ],
+      [
+        "enyhén szénsavas",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Gyümölcslé",
+    "altipus": "Gyümölcsital / nektár",
+    "product_count": 311,
+    "with_jellemzok": 311,
+    "with_useful_after_bad_value_removal": 243,
+    "useful_ratio": 0.7814,
+    "top_useful_values": [
+      [
+        "100%",
+        105
+      ],
+      [
+        "szénsavmentes",
+        80
+      ],
+      [
+        "vitaminos",
+        57
+      ],
+      [
+        "100% alatt",
+        53
+      ],
+      [
+        "nektár",
+        45
+      ],
+      [
+        "rostos",
+        26
+      ],
+      [
+        "100% gyümölcslé",
+        23
+      ],
+      [
+        "préselt",
+        10
+      ],
+      [
+        "zero",
+        9
+      ],
+      [
+        "gyümölcs püré",
+        6
+      ],
+      [
+        "gyümölcshússal",
+        6
+      ],
+      [
+        "hozzáadott cukor nélkül",
+        6
+      ],
+      [
+        "C-vitaminnal",
+        4
+      ],
+      [
+        "zöldséglé",
+        3
+      ],
+      [
+        "szűretlen",
+        3
+      ],
+      [
+        "smoothie",
+        3
+      ],
+      [
+        "shot",
+        3
+      ],
+      [
+        "gyümölcsital",
+        3
+      ],
+      [
+        "energiaszegény",
+        3
+      ],
+      [
+        "szénsavas",
+        2
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Gyümölcslé",
+    "altipus": "Vegyes gyümölcs- és zöldséglé",
+    "product_count": 261,
+    "with_jellemzok": 261,
+    "with_useful_after_bad_value_removal": 213,
+    "useful_ratio": 0.8161,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        74
+      ],
+      [
+        "100%",
+        68
+      ],
+      [
+        "100% alatt",
+        51
+      ],
+      [
+        "szénsavmentes",
+        31
+      ],
+      [
+        "gyümölcs püré",
+        25
+      ],
+      [
+        "bio",
+        21
+      ],
+      [
+        "smoothie",
+        17
+      ],
+      [
+        "préselt",
+        14
+      ],
+      [
+        "rostos",
+        13
+      ],
+      [
+        "hidegen préselt",
+        8
+      ],
+      [
+        "shot",
+        7
+      ],
+      [
+        "direkt préselt",
+        6
+      ],
+      [
+        "C-vitaminnal",
+        6
+      ],
+      [
+        "zöldséglé",
+        5
+      ],
+      [
+        "gabonás",
+        3
+      ],
+      [
+        "energiaszegény",
+        3
+      ],
+      [
+        "gyümölcs-zöldség ital",
+        3
+      ],
+      [
+        "csökkentett kalóriatartalom",
+        1
+      ],
+      [
+        "zero",
+        1
+      ],
+      [
+        "frissen préselt",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Növényi ital",
+    "altipus": "Kókuszital",
+    "product_count": 6,
+    "with_jellemzok": 6,
+    "with_useful_after_bad_value_removal": 5,
+    "useful_ratio": 0.8333,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        3
+      ],
+      [
+        "UHT",
+        2
+      ],
+      [
+        "hozzáadott kalciummal",
+        2
+      ],
+      [
+        "barista",
+        1
+      ],
+      [
+        "kalciummal",
+        1
+      ],
+      [
+        "édesített",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Gyümölcslé",
+    "altipus": "Zöldséglé",
+    "product_count": 42,
+    "with_jellemzok": 42,
+    "with_useful_after_bad_value_removal": 37,
+    "useful_ratio": 0.881,
+    "top_useful_values": [
+      [
+        "100%",
+        22
+      ],
+      [
+        "bio",
+        11
+      ],
+      [
+        "zöldséglé",
+        10
+      ],
+      [
+        "szénsavmentes",
+        9
+      ],
+      [
+        "100% zöldséglé",
+        5
+      ],
+      [
+        "pikáns",
+        2
+      ],
+      [
+        "enyhén fűszerezett",
+        2
+      ],
+      [
+        "tengeri sóval",
+        2
+      ],
+      [
+        "préselt",
+        1
+      ],
+      [
+        "zöldségital",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Üdítőital",
+    "altipus": "Gyerekital",
+    "product_count": 161,
+    "with_jellemzok": 161,
+    "with_useful_after_bad_value_removal": 147,
+    "useful_ratio": 0.913,
+    "top_useful_values": [
+      [
+        "gyerekital",
+        49
+      ],
+      [
+        "100% alatt",
+        36
+      ],
+      [
+        "gyümölcs püré",
+        35
+      ],
+      [
+        "vitaminos",
+        28
+      ],
+      [
+        "100%",
+        18
+      ],
+      [
+        "szénsavas",
+        13
+      ],
+      [
+        "püré",
+        11
+      ],
+      [
+        "szénsavmentes",
+        10
+      ],
+      [
+        "smoothie",
+        5
+      ],
+      [
+        "gyümölcspüré",
+        4
+      ],
+      [
+        "kalciummal dúsított",
+        4
+      ],
+      [
+        "gabonás",
+        2
+      ],
+      [
+        "gyümölcsital",
+        1
+      ],
+      [
+        "gyümölcs-zöldség ital",
+        1
+      ],
+      [
+        "búzadarával",
+        1
+      ],
+      [
+        "cinkkel",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Növényi ital",
+    "altipus": "Mandulaital",
+    "product_count": 14,
+    "with_jellemzok": 14,
+    "with_useful_after_bad_value_removal": 13,
+    "useful_ratio": 0.9286,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        6
+      ],
+      [
+        "barista",
+        4
+      ],
+      [
+        "UHT",
+        4
+      ],
+      [
+        "kalciummal",
+        4
+      ],
+      [
+        "hozzáadott kalciummal",
+        2
+      ],
+      [
+        "bio",
+        2
+      ],
+      [
+        "cukormentes",
+        2
+      ],
+      [
+        "zero",
+        1
+      ],
+      [
+        "édesített",
+        1
+      ],
+      [
+        "gluténmentes",
+        1
+      ],
+      [
+        "0% cukor",
+        1
+      ],
+      [
+        "zsírszegény",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Kombucha",
+    "altipus": "Kombucha",
+    "product_count": 15,
+    "with_jellemzok": 15,
+    "with_useful_after_bad_value_removal": 14,
+    "useful_ratio": 0.9333,
+    "top_useful_values": [
+      [
+        "bio",
+        12
+      ],
+      [
+        "fermentált",
+        5
+      ],
+      [
+        "élőflórával",
+        4
+      ],
+      [
+        "élő tea",
+        3
+      ],
+      [
+        "zero",
+        2
+      ],
+      [
+        "organikus",
+        2
+      ],
+      [
+        "enyhén szénsavas",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Gyümölcslé",
+    "altipus": "Multivitamin gyümölcslé",
+    "product_count": 22,
+    "with_jellemzok": 22,
+    "with_useful_after_bad_value_removal": 21,
+    "useful_ratio": 0.9545,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        21
+      ],
+      [
+        "8 vitaminnal",
+        3
+      ],
+      [
+        "hozzáadott cukor nélkül",
+        1
+      ],
+      [
+        "zero",
+        1
+      ],
+      [
+        "6 vitaminnal",
+        1
+      ],
+      [
+        "5 vitaminnal",
+        1
+      ],
+      [
+        "100%",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Sör",
+    "altipus": "Sörválogatás",
+    "product_count": 1,
+    "with_jellemzok": 1,
+    "with_useful_after_bad_value_removal": 1,
+    "useful_ratio": 1.0,
+    "top_useful_values": [
+      [
+        "válogatás",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Növényi ital",
+    "altipus": "Egyéb növényi ital",
+    "product_count": 1,
+    "with_jellemzok": 1,
+    "with_useful_after_bad_value_removal": 1,
+    "useful_ratio": 1.0,
+    "top_useful_values": [
+      [
+        "kalciummal",
+        1
+      ],
+      [
+        "vitaminos",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Üdítőital",
+    "altipus": "Gyökér alapú üdítőital",
+    "product_count": 3,
+    "with_jellemzok": 3,
+    "with_useful_after_bad_value_removal": 3,
+    "useful_ratio": 1.0,
+    "top_useful_values": [
+      [
+        "bio",
+        3
+      ],
+      [
+        "szénsavas",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Funkcionális ital",
+    "altipus": "Shot ital",
+    "product_count": 6,
+    "with_jellemzok": 6,
+    "with_useful_after_bad_value_removal": 6,
+    "useful_ratio": 1.0,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        2
+      ],
+      [
+        "antiox",
+        1
+      ],
+      [
+        "immun",
+        1
+      ],
+      [
+        "energia",
+        1
+      ],
+      [
+        "chilipaprika-kivonattal",
+        1
+      ],
+      [
+        "Memory+",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Növényi ital",
+    "altipus": "Kevert növényi ital",
+    "product_count": 7,
+    "with_jellemzok": 7,
+    "with_useful_after_bad_value_removal": 7,
+    "useful_ratio": 1.0,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        3
+      ],
+      [
+        "kalciummal",
+        3
+      ],
+      [
+        "barista",
+        3
+      ],
+      [
+        "bio",
+        2
+      ],
+      [
+        "UHT",
+        2
+      ],
+      [
+        "gluténmentes",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Növényi ital",
+    "altipus": "Rizsital",
+    "product_count": 8,
+    "with_jellemzok": 8,
+    "with_useful_after_bad_value_removal": 8,
+    "useful_ratio": 1.0,
+    "top_useful_values": [
+      [
+        "UHT",
+        6
+      ],
+      [
+        "bio",
+        4
+      ],
+      [
+        "gluténmentes",
+        4
+      ],
+      [
+        "0% cukor",
+        1
+      ],
+      [
+        "kalciummal",
+        1
+      ],
+      [
+        "vitaminos",
+        1
+      ],
+      [
+        "barista",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Növényi ital",
+    "altipus": "Szójaital",
+    "product_count": 9,
+    "with_jellemzok": 9,
+    "with_useful_after_bad_value_removal": 9,
+    "useful_ratio": 1.0,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        9
+      ],
+      [
+        "kalciummal",
+        6
+      ],
+      [
+        "fehérjében gazdag",
+        3
+      ],
+      [
+        "hozzáadott kalciummal",
+        2
+      ],
+      [
+        "édesített",
+        1
+      ],
+      [
+        "plant protein",
+        1
+      ],
+      [
+        "jóddal",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Funkcionális ital",
+    "altipus": "Fit ital",
+    "product_count": 11,
+    "with_jellemzok": 11,
+    "with_useful_after_bad_value_removal": 11,
+    "useful_ratio": 1.0,
+    "top_useful_values": [
+      [
+        "enyhén szénsavas",
+        6
+      ],
+      [
+        "zero",
+        4
+      ],
+      [
+        "immuno",
+        3
+      ],
+      [
+        "energiamentes",
+        2
+      ],
+      [
+        "L-karnitinnel",
+        2
+      ],
+      [
+        "szénsavmentes",
+        2
+      ],
+      [
+        "L-Carnitine",
+        1
+      ],
+      [
+        "vitaminos",
+        1
+      ],
+      [
+        "collagen",
+        1
+      ],
+      [
+        "anti-stress",
+        1
+      ],
+      [
+        "revital",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Növényi ital",
+    "altipus": "Zabital",
+    "product_count": 23,
+    "with_jellemzok": 23,
+    "with_useful_after_bad_value_removal": 23,
+    "useful_ratio": 1.0,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        10
+      ],
+      [
+        "UHT",
+        7
+      ],
+      [
+        "kalciummal",
+        7
+      ],
+      [
+        "ásványi anyagokkal",
+        5
+      ],
+      [
+        "bio",
+        4
+      ],
+      [
+        "barista",
+        4
+      ],
+      [
+        "cukormentes",
+        3
+      ],
+      [
+        "D2-vitaminnal",
+        2
+      ],
+      [
+        "barista iced",
+        2
+      ],
+      [
+        "zero",
+        1
+      ],
+      [
+        "hozzáadott kalciummal",
+        1
+      ],
+      [
+        "D-vitaminnal",
+        1
+      ],
+      [
+        "B12-vitaminnal",
+        1
+      ],
+      [
+        "gluténmentes",
+        1
+      ]
+    ]
+  },
+  {
+    "alkategoria": "Funkcionális ital",
+    "altipus": "Vitaminital",
+    "product_count": 73,
+    "with_jellemzok": 73,
+    "with_useful_after_bad_value_removal": 73,
+    "useful_ratio": 1.0,
+    "top_useful_values": [
+      [
+        "vitaminos",
+        50
+      ],
+      [
+        "szénsavmentes",
+        30
+      ],
+      [
+        "100% alatt",
+        23
+      ],
+      [
+        "zero",
+        20
+      ],
+      [
+        "100%",
+        7
+      ],
+      [
+        "nektár",
+        6
+      ],
+      [
+        "collagen",
+        5
+      ],
+      [
+        "vitaminital",
+        4
+      ],
+      [
+        "kollagénnel",
+        3
+      ],
+      [
+        "anti-stress",
+        3
+      ],
+      [
+        "enyhén szénsavas",
+        3
+      ],
+      [
+        "szénsavas",
+        2
+      ],
+      [
+        "antiox",
+        2
+      ],
+      [
+        "energiamentes",
+        2
+      ],
+      [
+        "fit",
+        2
+      ],
+      [
+        "ready",
+        2
+      ],
+      [
+        "power-c",
+        2
+      ],
+      [
+        "relax",
+        2
+      ],
+      [
+        "boost",
+        2
+      ],
+      [
+        "immuno",
+        2
+      ]
+    ]
+  }
+]

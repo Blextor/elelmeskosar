@@ -1,0 +1,50 @@
+{
+  "product_change_count": 3,
+  "product_changes": [
+    [
+      33137,
+      "Spar",
+      "SPAR",
+      "SPAR kávéfehérítő krémpor 200 g"
+    ],
+    [
+      45487,
+      "OMG Bubble tea",
+      "OMG Bubble Tea",
+      "OMG Bubble Tea barack ízű fekete tea & eper ízű szétpattanó golyóval 270 ml"
+    ],
+    [
+      45551,
+      "OMG Bubble tea",
+      "OMG Bubble Tea",
+      "OMG Bubble Tea passiógyümölcs ízű zöld tea & zöldalma ízű szétpattanó golyóval 270 ml"
+    ]
+  ],
+  "tree_change_count": 4,
+  "tree_changes": [
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Teafű, filteres tea, instant tea",
+      70,
+      70
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Kávé ízesítők / tejek / tejporok",
+      23,
+      23
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Szemes kávé",
+      82,
+      82
+    ],
+    [
+      "Üdítőital",
+      "Jegestea",
+      38,
+      38
+    ]
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "changed_products_count": 2285,
+  "changed_products_first": [
+    4,
+    15,
+    16,
+    57,
+    58,
+    192,
+    193,
+    194,
+    386,
+    387,
+    388,
+    389,
+    390,
+    420,
+    436,
+    437,
+    462,
+    486,
+    487,
+    488,
+    489,
+    490,
+    491,
+    493,
+    501,
+    502,
+    506,
+    507,
+    508,
+    543,
+    1162,
+    1204,
+    1208,
+    1212,
+    1213,
+    1214,
+    1216,
+    1224,
+    1225,
+    1226,
+    1260,
+    1261,
+    1268,
+    1269,
+    1270,
+    1280,
+    1281,
+    1282,
+    1283,
+    1284,
+    1292,
+    1293,
+    6882,
+    8797,
+    9866,
+    9867,
+    9868,
+    9873,
+    9874,
+    9935,
+    9989,
+    9993,
+    9994,
+    9995,
+    9996,
+    9997,
+    9998,
+    9999,
+    10000,
+    10001,
+    10002,
+    10003,
+    10004,
+    10005,
+    10006,
+    10007,
+    10008,
+    10009,
+    10010,
+    10011,
+    10012,
+    10013,
+    10014,
+    10015,
+    10016,
+    10017,
+    10018,
+    10019,
+    10020,
+    10021,
+    10022,
+    10023,
+    10024,
+    10025,
+    10026,
+    10027,
+    10028,
+    10029,
+    10030,
+    10031,
+    10032,
+    10033,
+    10034,
+    10035,
+    10036,
+    10037,
+    10038,
+    10039,
+    10040,
+    10041,
+    10042,
+    10043,
+    10044,
+    10045,
+    10046,
+    10047,
+    10048,
+    10049,
+    10050,
+    10051,
+    10052,
+    10053,
+    10054,
+    10055,
+    10056,
+    10058,
+    10059,
+    10061,
+    10062,
+    10063,
+    10064,
+    10066,
+    10067,
+    10068,
+    10069,
+    10070,
+    10071,
+    10072,
+    10073,
+    10075,
+    10076,
+    10077,
+    10129,
+    10131,
+    10144,
+    10158,
+    10166,
+    10317,
+    10318,
+    10319,
+    10320,
+    10436,
+    10438,
+    10439,
+    10440,
+    10441,
+    10442,
+    10443,
+    10444,
+    10445,
+    10446,
+    10447,
+    10450,
+    10451,
+    10452,
+    10453,
+    10455,
+    10456,
+    10457,
+    10458,
+    10459,
+    10461,
+    10463,
+    10468,
+    10471,
+    10472,
+    10481,
+    10482,
+    10483,
+    10484,
+    10486,
+    10492,
+    10501,
+    10519,
+    10525,
+    10545,
+    10550,
+    10553,
+    10561,
+    10565,
+    10566,
+    10567,
+    10568,
+    10569,
+    10570,
+    10571,
+    10580,
+    10581,
+    10583,
+    10584
+  ],
+  "drop_path_props_count": 20,
+  "drop_path_props": [
+    {
+      "alkategoria": "Citromlé",
+      "altipus": "Citromízesítő",
+      "prop": "cukormentes / zero"
+    },
+    {
+      "alkategoria": "Funkcionális ital",
+      "altipus": "Vitaminital",
+      "prop": "bio"
+    },
+    {
+      "alkategoria": "Gyümölcslé",
+      "altipus": "Zöldséglé",
+      "prop": "cukormentes"
+    },
+    {
+      "alkategoria": "Gyümölcslé",
+      "altipus": "Zöldséglé",
+      "prop": "cukormentes / zero"
+    },
+    {
+      "alkategoria": "Kávé, tea, kakaó (száraz)",
+      "altipus": "Forró csokoládé italpor",
+      "prop": "édesítőszerrel"
+    },
+    {
+      "alkategoria": "Kávé, tea, kakaó (száraz)",
+      "altipus": "Szemes kávé",
+      "prop": "koffeinmentes"
+    },
+    {
+      "alkategoria": "Szörp, üdítőitalpor",
+      "altipus": "Üdítőitalpor",
+      "prop": "por"
+    },
+    {
+      "alkategoria": "Sör",
+      "altipus": "Alkoholmentes radler",
+      "prop": "kézműves"
+    },
+    {
+      "alkategoria": "Sör",
+      "altipus": "Alkoholmentes radler",
+      "prop": "szűretlen"
+    },
+    {
+      "alkategoria": "Sör",
+      "altipus": "Alkoholmentes sör",
+      "prop": "kézműves"
+    },
+    {
+      "alkategoria": "Sör",
+      "altipus": "Búzasör",
+      "prop": "kézműves"
+    },
+    {
+      "alkategoria": "Sör",
+      "altipus": "Malátaital",
+      "prop": "kézműves"
+    },
+    {
+      "alkategoria": "Sör",
+      "altipus": "Malátaital",
+      "prop": "szűretlen"
+    },
+    {
+      "alkategoria": "Üdítőital",
+      "altipus": "Aloe vera ital",
+      "prop": "bio"
+    },
+    {
+      "alkategoria": "Üdítőital",
+      "altipus": "Aloe vera ital",
+      "prop": "cukormentes"
+    },
+    {
+      "alkategoria": "Üdítőital",
+      "altipus": "Aloe vera ital",
+      "prop": "cukormentes / zero"
+    },
+    {
+      "alkategoria": "Üdítőital",
+      "altipus": "Cola",
+      "prop": "bio"
+    },
+    {
+      "alkategoria": "Üdítőital",
+      "altipus": "Limonádé",
+      "prop": "bio"
+    },
+    {
+      "alkategoria": "Üdítőital",
+      "altipus": "Szénsavmentes üdítő",
+      "prop": "bio"
+    },
+    {
+      "alkategoria": "Üdítőital",
+      "altipus": "Tonic",
+      "prop": "bio"
+    }
+  ],
+  "tree_removed_props": [
+    [
+      "Kávé, tea, kakaó (száraz) > Szemes kávé | koffeinmentes",
+      1
+    ],
+    [
+      "Kávé, tea, kakaó (száraz) > Instant kávé | azonnal oldódó",
+      1
+    ],
+    [
+      "Kávé, tea, kakaó (száraz) > Instant kávé | cukormentes / hozzáadott cukor nélkül",
+      1
+    ],
+    [
+      "Kávé, tea, kakaó (száraz) > Forró csokoládé italpor | édesítőszerrel",
+      1
+    ],
+    [
+      "Kávé, tea, kakaó (száraz) > Kávékapszula | azonnal oldódó",
+      1
+    ],
+    [
+      "Kávé, tea, kakaó (száraz) > Kávékapszula | cukormentes / hozzáadott cukor nélkül",
+      1
+    ],
+    [
+      "Sör > Alkoholmentes sör | kézműves",
+      1
+    ],
+    [
+      "Sör > Malátaital | kézműves",
+      1
+    ],
+    [
+      "Sör > Malátaital | szűretlen",
+      1
+    ],
+    [
+      "Sör > Búzasör | kézműves",
+      1
+    ],
+    [
+      "Sör > Alkoholmentes radler | kézműves",
+      1
+    ],
+    [
+      "Sör > Alkoholmentes radler | szűretlen",
+      1
+    ],
+    [
+      "Citromlé > Citromízesítő | cukormentes / zero",
+      1
+    ],
+    [
+      "Szörp, üdítőitalpor > Szörp | por",
+      1
+    ],
+    [
+      "Szörp, üdítőitalpor > Üdítőitalpor | por",
+      1
+    ],
+    [
+      "Szörp, üdítőitalpor > Italkoncentrátum | por",
+      1
+    ],
+    [
+      "Üdítőital > Limonádé | bio",
+      1
+    ],
+    [
+      "Üdítőital > Cola | bio",
+      1
+    ],
+    [
+      "Üdítőital > Aloe vera ital | cukormentes / zero",
+      1
+    ],
+    [
+      "Üdítőital > Aloe vera ital | bio",
+      1
+    ],
+    [
+      "Üdítőital > Aloe vera ital | cukormentes",
+      1
+    ],
+    [
+      "Üdítőital > Tonic | bio",
+      1
+    ],
+    [
+      "Üdítőital > Szénsavmentes üdítő | bio",
+      1
+    ],
+    [
+      "Gyümölcslé > Zöldséglé | cukormentes / zero",
+      1
+    ],
+    [
+      "Gyümölcslé > Zöldséglé | cukormentes",
+      1
+    ],
+    [
+      "Funkcionális ital > Vitaminital | bio",
+      1
+    ]
+  ],
+  "product_removed_props": [
+    [
+      "azonnal oldódó",
+      675
+    ],
+    [
+      "cukormentes / hozzáadott cukor nélkül",
+      675
+    ],
+    [
+      "bio",
+      626
+    ],
+    [
+      "por",
+      409
+    ],
+    [
+      "kézműves",
+      249
+    ],
+    [
+      "koffeinmentes",
+      236
+    ],
+    [
+      "szűretlen",
+      98
+    ],
+    [
+      "cukormentes / zero",
+      72
+    ],
+    [
+      "cukormentes",
+      63
+    ],
+    [
+      "édesítőszerrel",
+      25
+    ]
+  ],
+  "tree_value_changes": [
+    [
+      "collagen -> kollagénnel",
+      2
+    ],
+    [
+      "plant protein -> fehérjében gazdag",
+      1
+    ],
+    [
+      "0% cukor -> cukormentes",
+      1
+    ],
+    [
+      "L-Carnitine -> L-karnitinnel",
+      1
+    ],
+    [
+      "immun -> immuno",
+      1
+    ]
+  ],
+  "product_value_changes": [
+    [
+      "collagen -> kollagénnel",
+      6
+    ],
+    [
+      "immun -> immuno",
+      1
+    ],
+    [
+      "L-Carnitine -> L-karnitinnel",
+      1
+    ],
+    [
+      "0% cukor -> cukormentes",
+      1
+    ],
+    [
+      "plant protein -> fehérjében gazdag",
+      1
+    ]
+  ],
+  "tree_brand_changes": [
+    [
+      "Jägermeister Manifest -> Jägermeister",
+      2
+    ],
+    [
+      "Vilmos Eredeti -> Vilmos",
+      2
+    ],
+    [
+      "Zwack Vilmos -> Vilmos",
+      1
+    ],
+    [
+      "Coca-Cola és Jack Daniel's -> Jack Daniel's & Coca-Cola",
+      1
+    ],
+    [
+      "Jack Daniel's és Coca Cola -> Jack Daniel's & Coca-Cola",
+      1
+    ],
+    [
+      "Jägermeister Orange -> Jägermeister",
+      1
+    ]
+  ],
+  "product_brand_changes": [
+    [
+      "Jägermeister Manifest -> Jägermeister",
+      2
+    ],
+    [
+      "Vilmos Eredeti -> Vilmos",
+      2
+    ],
+    [
+      "Jägermeister Orange -> Jägermeister",
+      2
+    ],
+    [
+      "Zwack Vilmos -> Vilmos",
+      1
+    ],
+    [
+      "Coca-Cola és Jack Daniel's -> Jack Daniel's & Coca-Cola",
+      1
+    ],
+    [
+      "Jack Daniel's és Coca Cola -> Jack Daniel's & Coca-Cola",
+      1
+    ]
+  ]
+}

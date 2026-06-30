@@ -1,0 +1,1125 @@
+{
+  "brand_change_count": 124,
+  "system_change_count": 190,
+  "removed_props": {
+    "csomagolás": 478,
+    "feldolgozás": 478,
+    "ízesítés": 478,
+    "koffeintartalom": 478,
+    "változat": 478
+  },
+  "filtered_values": {
+    "eredet": 476,
+    "intenzitás": 418
+  },
+  "tree_removed_props": [
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Kávékapszula",
+      "csomagolás",
+      15
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Kávékapszula",
+      "feldolgozás",
+      5
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Kávékapszula",
+      "ízesítés",
+      13
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Kávékapszula",
+      "koffeintartalom",
+      6
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Kávékapszula",
+      "változat",
+      20
+    ]
+  ],
+  "tree_value_updates": [
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Kávé ízesítők / tejek / tejporok",
+      "márka",
+      24,
+      23
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Őrölt kávé",
+      "márka",
+      81,
+      79
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Szemes kávé",
+      "márka",
+      83,
+      82
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Instant kávé",
+      "márka",
+      66,
+      64
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Kávékapszula",
+      "márka",
+      131,
+      31
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Kávékapszula",
+      "kiszerelés / rendszer",
+      55,
+      5
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Kávékapszula",
+      "eredet",
+      3,
+      2
+    ],
+    [
+      "Kávé, tea, kakaó (száraz)",
+      "Kávékapszula",
+      "intenzitás",
+      12,
+      10
+    ],
+    [
+      "Alkoholok",
+      "Likőr",
+      "márka",
+      146,
+      143
+    ],
+    [
+      "Alkoholok",
+      "Whisky & Bourbon",
+      "márka",
+      102,
+      98
+    ],
+    [
+      "Alkoholok",
+      "Rum",
+      "márka",
+      64,
+      63
+    ],
+    [
+      "Alkoholok",
+      "Tequila",
+      "márka",
+      17,
+      16
+    ],
+    [
+      "Alkoholok",
+      "Vodka",
+      "márka",
+      68,
+      67
+    ],
+    [
+      "Alkoholok",
+      "Brandy",
+      "márka",
+      22,
+      21
+    ],
+    [
+      "Üdítőital",
+      "Jegestea",
+      "márka",
+      39,
+      38
+    ],
+    [
+      "Üdítőital",
+      "Szénsavas üdítő",
+      "márka",
+      107,
+      106
+    ]
+  ],
+  "brand_change_examples": [
+    [
+      10964,
+      "Omnia",
+      "Douwe Egberts Omnia",
+      "Douwe Egberts Omnia Classic őrölt-pörkölt kávé kapszulában 20 db 104 g"
+    ],
+    [
+      10965,
+      "Omnia",
+      "Douwe Egberts Omnia",
+      "Douwe Egberts Omnia Colombia őrölt-pörkölt kávé kapszulában 20 db 104 g"
+    ],
+    [
+      10966,
+      "Omnia",
+      "Douwe Egberts Omnia",
+      "Douwe Egberts Omnia Crema őrölt-pörkölt kávé kapszulában 20 db 104 g"
+    ],
+    [
+      21964,
+      "Zwack",
+      "Zwack Kosher",
+      "Kosher Zwack Szilvapálinka 40 % 500 ml"
+    ],
+    [
+      22187,
+      "Zwack",
+      "Zwack Unicum",
+      "ZWACK Unicum Barista gyógynövénylikőr 34,5% 100 ml"
+    ],
+    [
+      22259,
+      "Zwack",
+      "Zwack Unicum",
+      "Zwack Unicum gyógynövénylikőr 40% 3 l"
+    ],
+    [
+      23849,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Café au Lait Tejes Kávékapszula 160 g 16 db"
+    ],
+    [
+      23857,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Flat White tejes kávékapszula cukorral 16 db 187,2 g"
+    ],
+    [
+      23863,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Cortado Espresso Macchiato koffeinmentes kávékapszula 16 db/16 csésze 99,2 g"
+    ],
+    [
+      23877,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Doppio Espresso kávékapszula 16 x 8,5 g (136 g)"
+    ],
+    [
+      23881,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Cortado Espresso Macchiato tejes kávékapszula 16 db 100,8 g"
+    ],
+    [
+      23887,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Espresso kávékapszula 16 x 5,5 g (88 g)"
+    ],
+    [
+      23907,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Cappuccino tej- és kávékapszula cukorral 16 db 186,4 g"
+    ],
+    [
+      23909,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Espresso Intenso kávékapszula 16 db 112 g"
+    ],
+    [
+      23910,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Latte Macchiato tejes kávékapszula cukorral 16 db 183,2 g"
+    ],
+    [
+      23923,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Latte Macchiato Caramel tej- és kávékapszula 16 db/8 csésze 145,6 g"
+    ],
+    [
+      23941,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Espresso koffeinmentes őrölt pörkölt kávé 16 x 5,5 g (88 g)"
+    ],
+    [
+      23958,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Dolce Gusto Ristretto Ardenza kávékapszula 16 x 6,5 g (104 g)"
+    ],
+    [
+      23962,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Café au Lait Intenso tejes kávékapszula 16 db/16 csésze 160 g"
+    ],
+    [
+      23964,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Ristretto Barista kávékapszula 16 x 6,5 g (104 g)"
+    ],
+    [
+      24035,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Lungo kávékapszula 16 x 5,6 g (89,6 g)"
+    ],
+    [
+      24039,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Espresso Roma kávékapszula 16 x 6,2 g (99,2 g)"
+    ],
+    [
+      24040,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Espresso Milano kávékapszula 16 x 6,2 g (99,2 g)"
+    ],
+    [
+      24041,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Espresso Palermo kávékapszula 16 x 7 (112 g)"
+    ],
+    [
+      24042,
+      "Dolce Gusto",
+      "Nescafé",
+      "Dolce Gusto NESCAFÉ Espresso Napoli kávékapszula 16 x 8 g (128 g)"
+    ],
+    [
+      29722,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Colombia őrölt, pörkölt kávé kapszula 10 db 57 g"
+    ],
+    [
+      29732,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Blonde Espresso Roast őrölt, pörkölt kávékapszula 10 db 53 g"
+    ],
+    [
+      29734,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Pike Place Roast Lungo őrölt, pörkölt kávé kapszula 10 db 53 g"
+    ],
+    [
+      29749,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Blonde Espresso Roast koffeinmentes őrölt pörkölt kávé 10 kapszula 55 g"
+    ],
+    [
+      29750,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso House Blend őrölt pörkölt kávé 10 kapszula 57 g"
+    ],
+    [
+      29751,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Italian Style Roast őrölt pörkölt kávé 10 kapszula 56 g"
+    ],
+    [
+      29752,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Breakfast Blend őrölt pörkölt kávé 10 kapszula 56 g"
+    ],
+    [
+      29753,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Sunny Day Blend őrölt pörkölt kávé 10 kapszula 56 g"
+    ],
+    [
+      29754,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Smooth Caramel karamellízű őrölt pörkölt kávé 10 kapszula 51 g"
+    ],
+    [
+      30495,
+      "Jack Daniel's Single Barrel",
+      "Jack Daniel's",
+      "Jack Daniel's Single Barrel Tennessee whiskey 45% 0.7l"
+    ],
+    [
+      32965,
+      "Starbucks by NESCAFÉ Dolce Gusto",
+      "Starbucks",
+      "Starbucks by Nescafé Dolce Gusto Colombia Espresso kávékapszula 12 db/12 csésze 66 g"
+    ],
+    [
+      32966,
+      "Starbucks by NESCAFÉ Dolce Gusto",
+      "Starbucks",
+      "Starbucks by NESCAFÉ Dolce Gusto Cappuccino tej- és kávékapszula 12 db/6 csésze 120 g"
+    ],
+    [
+      32969,
+      "Starbucks by NESCAFÉ Dolce Gusto",
+      "Starbucks",
+      "Starbucks by NESCAFÉ Dolce Gusto Caramel Macchiato tej- és kávékapszula 12 db/6 csésze 127,8 g"
+    ],
+    [
+      32977,
+      "Starbucks by NESCAFÉ Dolce Gusto",
+      "Starbucks",
+      "Starbucks by NESCAFÉ Dolce Gusto White Mocha tej- és kávékapszula 12 db/6 csésze 123 g"
+    ],
+    [
+      32979,
+      "Starbucks by NESCAFÉ Dolce Gusto",
+      "Starbucks",
+      "Starbucks by NESCAFÉ Dolce Gusto Latte Macchiato tej- és kávékapszula 12 db/6 csésze 129 g"
+    ],
+    [
+      33000,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Espresso Blonde Roast őrölt pörkölt kávé 10 kapszula 53 g"
+    ],
+    [
+      33001,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Colombia őrölt pörkölt kávé 10 kapszula 57 g"
+    ],
+    [
+      33002,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Pike Place Roast őrölt pörkölt kávé 10 kapszula 53 g"
+    ],
+    [
+      33014,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Guatemala őrölt pörkölt kávé 10 kapszula 52 g"
+    ],
+    [
+      33015,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Smooth Caramel karamellízű őrölt pörkölt kávé 10 kapszula 51 g"
+    ],
+    [
+      33020,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Creamy Vanilla vaníliaízű őrölt pörkölt kávé 10 kapszula 51 g"
+    ],
+    [
+      33029,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Blonde Espresso Roast koffeinmentes őrölt pörkölt kávé 10 kapszula 55 g"
+    ],
+    [
+      33030,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Blonde Espresso Roast őrölt pörkölt kávé 18 kapszula 94 g"
+    ],
+    [
+      33031,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Breakfast Blend őrölt pörkölt kávé 10 kapszula 56 g"
+    ],
+    [
+      33032,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Italian Style Roast őrölt pörkölt kávé 10 kapszula 56 g"
+    ],
+    [
+      33033,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Sunny Day Blend őrölt pörkölt kávé 10 kapszula 56 g"
+    ],
+    [
+      33038,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Ristretto Shot őrölt pörkölt kávé 10 kapszula 57 g"
+    ],
+    [
+      33048,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Chocolate Hazelnut csokoládés-mogyoró ízű őrölt pörkölt kávé 10 kapszula 51 g"
+    ],
+    [
+      33049,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Espresso Roast őrölt pörkölt kávé 10 kapszula 55 g"
+    ],
+    [
+      33050,
+      "Starbucks by Nespresso",
+      "Starbucks",
+      "Starbucks by Nespresso Espresso Roast koffeinmentes őrölt pörkölt kávé 10 kapszula 55 g"
+    ],
+    [
+      43565,
+      "Tesco Finest Lungo",
+      "Tesco Finest",
+      "Tesco Finest Lungo csokoládé-kókusz ízű őrölt, pörkölt kávé kapszulákban 10 db 54 g"
+    ],
+    [
+      43566,
+      "Tesco Finest Lungo",
+      "Tesco Finest",
+      "Tesco Finest Lungo fahéj ízű, őrölt, pörkölt kávé kapszulákban 10 db 54 g"
+    ],
+    [
+      43567,
+      "Tesco Lungo Hazelnut",
+      "Tesco",
+      "Tesco Lungo Hazelnut mogyoró ízű őrölt, pörkölt kávé kapszulákban 10 db 54 g"
+    ],
+    [
+      43568,
+      "Tesco Finest Espresso America",
+      "Tesco Finest",
+      "Tesco Finest Espresso America őrölt, pörkölt kávé kapszulákban 10 db 54 g"
+    ],
+    [
+      43569,
+      "Tesco Finest Espresso Brazil",
+      "Tesco Finest",
+      "Tesco Finest Espresso Brazil őrölt, pörkölt kávé kapszulákban 10 db 54 g"
+    ],
+    [
+      43570,
+      "Tesco Finest Espresso Sumatra",
+      "Tesco Finest",
+      "Tesco Finest Espresso Sumatra őrölt, pörkölt kávé kapszulákban 10 db 54 g"
+    ],
+    [
+      43571,
+      "Tesco Lungo Smooth & Fragrant",
+      "Tesco",
+      "Tesco Lungo Smooth & Fragrant őrölt, pörkölt kávé kapszulákban 10 db 54 g"
+    ],
+    [
+      44412,
+      "Starbucks by Nespresso Smooth Caramel",
+      "Starbucks",
+      "Starbucks by Nespresso Smooth Caramel karamellízű őrölt pörkölt kávé 10 kapszula 51 g"
+    ],
+    [
+      44448,
+      "Starbucks by Nespresso Colombia",
+      "Starbucks",
+      "Starbucks by Nespresso Colombia őrölt pörkölt kávé 10 kapszula 57 g"
+    ],
+    [
+      44451,
+      "Tchibo Cafissimo Barista Edition",
+      "Tchibo",
+      "Tchibo Cafissimo Barista Edition Espresso Brasil kávékapszula 10 db 80 g"
+    ],
+    [
+      44462,
+      "Starbucks by Nespresso Creamy Vanilla",
+      "Starbucks",
+      "Starbucks by Nespresso Creamy Vanilla vaníliaízű őrölt pörkölt kávé 10 kapszula 51 g"
+    ],
+    [
+      44482,
+      "Starbucks by Nespresso Espresso Blonde Roast",
+      "Starbucks",
+      "Starbucks by Nespresso Espresso Blonde Roast őrölt pörkölt kávé 10 kapszula 53 g"
+    ],
+    [
+      44491,
+      "Tchibo Cafissimo Espresso Flavored Edition Caramel",
+      "Tchibo",
+      "Tchibo Cafissimo Espresso Flavored Edition Caramel kávékapszula 10 db 75 g"
+    ],
+    [
+      44514,
+      "Tchibo Cafissimo Espresso Flavored Edition Buttertoffee",
+      "Tchibo",
+      "Tchibo Cafissimo Espresso Flavored Edition Buttertoffee kávékapszula 10 db 70 g"
+    ],
+    [
+      44548,
+      "Tchibo Cafissimo Espresso Flavored Edition Toasted Nut",
+      "Tchibo",
+      "Tchibo Cafissimo Espresso Flavored Edition Toasted Nut kávékapszula 10 db 70 g"
+    ],
+    [
+      44550,
+      "Starbucks by Nespresso Espresso Roast",
+      "Starbucks",
+      "Starbucks by Nespresso Espresso Roast őrölt pörkölt kávé 10 kapszula 55 g"
+    ],
+    [
+      44638,
+      "Tchibo Cafissimo Espresso Intense Aroma",
+      "Tchibo",
+      "Tchibo Cafissimo Espresso Intense Aroma kávékapszula 30 db 225 g"
+    ],
+    [
+      44729,
+      "Jacobs Lungo Classico",
+      "Jacobs",
+      "Jacobs Lungo Classico őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      44733,
+      "Starbucks by Nespresso Espresso Roast Decaf",
+      "Starbucks",
+      "Starbucks by Nespresso Espresso Roast koffeinmentes őrölt pörkölt kávé 10 kapszula 55 g"
+    ],
+    [
+      44771,
+      "Starbucks by Nespresso Pike Place Roast",
+      "Starbucks",
+      "Starbucks by Nespresso Pike Place Roast őrölt pörkölt kávé 10 kapszula 53 g"
+    ],
+    [
+      44783,
+      "Jacobs Espresso Classico",
+      "Jacobs",
+      "Jacobs Espresso Classico őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      44828,
+      "Starbucks by Nespresso Guatemala",
+      "Starbucks",
+      "Starbucks by Nespresso Guatemala őrölt pörkölt kávé 10 kapszula 52 g"
+    ],
+    [
+      44849,
+      "Tchibo Cafissimo Decaffeinato",
+      "Tchibo",
+      "Tchibo Cafissimo Decaffeinato koffeinmentes kávékapszula 10 db 70 g"
+    ],
+    [
+      44857,
+      "Starbucks by Nescafé Dolce Gusto Colombia Espresso",
+      "Starbucks",
+      "Starbucks by Nescafé Dolce Gusto Colombia Espresso kávékapszula 12 db/12 csésze 66 g"
+    ],
+    [
+      44912,
+      "L'OR Espresso Decaffeinato",
+      "L'OR",
+      "L'OR Espresso Decaffeinato koffeinmentes őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ]
+  ],
+  "system_change_examples": [
+    [
+      10915,
+      "kapszula",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Barista Edition Caffe Crema kávékapszula 10 db 80 g"
+    ],
+    [
+      10916,
+      "kapszula",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Barista Edition Espresso Brasil kávékapszula 10 db 80 g"
+    ],
+    [
+      10917,
+      "kapszula",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Caffe Crema Rich Aroma kávékapszula 10 db 76 g"
+    ],
+    [
+      10918,
+      "kapszula",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Espresso Flavored Edition Caramel kávékapszula 10 db 75 g"
+    ],
+    [
+      10919,
+      "kapszula",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Espresso Flavored Edition Double Choc kávékapszula 10 db 70 g"
+    ],
+    [
+      10920,
+      "kapszula",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Espresso Intense Aroma kávékapszula 10 db 75 g"
+    ],
+    [
+      10973,
+      "kapszula",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Caffe Crema Fine Aroma kávékapszula 30 db 210 g"
+    ],
+    [
+      10974,
+      "kapszula",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Espresso Elegant kávékapszula 30 db 210 g"
+    ],
+    [
+      10975,
+      "kapszula",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Espresso Intense Aroma kávékapszula 30 db 225 g"
+    ],
+    [
+      12817,
+      "104 g",
+      "Dolce Gusto kompatibilis kapszula",
+      "NESCAFÉ DOLCE GUSTO BARISTA 104G"
+    ],
+    [
+      12940,
+      "20DB",
+      "Nespresso kompatibilis kapszula",
+      "D.E.OMNIA ESPR.COLOMBIA NCC KAPSZ. 20DB"
+    ],
+    [
+      12941,
+      "20DB",
+      "Nespresso kompatibilis kapszula",
+      "D.E.OMNIA ESPR.CREMA NCC KAPSZULA 20DB"
+    ],
+    [
+      12942,
+      "20DB",
+      "Nespresso kompatibilis kapszula",
+      "D.E.OMNIA ESPR.CLAS.NCC KAPSZULA 20DB"
+    ],
+    [
+      12944,
+      "7G",
+      "kapszula",
+      "TCHIBO CAF.FINE AROMA 10CAPSX7G"
+    ],
+    [
+      12945,
+      "7,5G",
+      "kapszula",
+      "TCHIBO CAF.ESPRESSO INT.AR.10CAPSX7.5G"
+    ],
+    [
+      12946,
+      "7G",
+      "kapszula",
+      "TCHIBO CAF.ESPR.ELEGANT AROMA 10CAPSX7G"
+    ],
+    [
+      12995,
+      "50DB",
+      "Nespresso kompatibilis kapszula",
+      "ITALIAN COFFEE RISTRETTO NESPRESSO PROFESSIONAL KOMPATIBILIS KÁVÉPÁRNA 50DB"
+    ],
+    [
+      12996,
+      "50DB",
+      "Nespresso kompatibilis kapszula",
+      "ITALIAN COFFEE COLOMBIA NESPRESSO PROFESSIONAL KOMPATIBILIS KÁVÉPÁRNA 50DB"
+    ],
+    [
+      12997,
+      "50DB",
+      "Nespresso kompatibilis kapszula",
+      "ITALIAN COFFEE BRAZIL NESPRESSO PROFESSIONAL KOMPATIBILIS KÁVÉPÁRNA 50DB"
+    ],
+    [
+      13296,
+      "kapszula",
+      "Dolce Gusto kompatibilis kapszula",
+      "NESCAFÉ DOLCE GUSTO FLAT WHITE 187.2G"
+    ],
+    [
+      13306,
+      "kapszula",
+      "Dolce Gusto kompatibilis kapszula",
+      "NESCAFÉ DOLCE GUSTO CAPPUCCINO 186.4G"
+    ],
+    [
+      13318,
+      "kapszula",
+      "Dolce Gusto kompatibilis kapszula",
+      "NESCAFÉ DOLCE GUSTO CORTADO KOF.M. 99.2G"
+    ],
+    [
+      13319,
+      "kapszula",
+      "Dolce Gusto kompatibilis kapszula",
+      "NESCAFÉ DOLCE GUSTO CAFÉ AU LAIT 160G"
+    ],
+    [
+      13354,
+      "kapszula",
+      "Dolce Gusto kompatibilis kapszula",
+      "NESCAFÉ DOLCE GUSTO CORTADO 100.8G"
+    ],
+    [
+      14526,
+      "nem jelölt",
+      "kapszula",
+      "BELLAROM Kávékapszula"
+    ],
+    [
+      14845,
+      "nem jelölt",
+      "Dolce Gusto kompatibilis kapszula",
+      "NESCAFE Dolce Gusto kávékapszula*"
+    ],
+    [
+      14956,
+      "nem jelölt",
+      "kapszula",
+      "BELLAROM Kávékapszula"
+    ],
+    [
+      29717,
+      "52 g",
+      "kapszula",
+      "Jacobs Espresso Classico őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29718,
+      "52 g",
+      "kapszula",
+      "Jacobs Espresso Intenso őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29719,
+      "52 g",
+      "kapszula",
+      "Jacobs Lungo Classico őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29720,
+      "52 g",
+      "kapszula",
+      "Jacobs Espresso Ristretto őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29721,
+      "52 g",
+      "kapszula",
+      "Jacobs Lungo Intenso őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29722,
+      "57 g",
+      "Nespresso kompatibilis kapszula",
+      "Starbucks by Nespresso Colombia őrölt, pörkölt kávé kapszula 10 db 57 g"
+    ],
+    [
+      29723,
+      "52 g",
+      "kapszula",
+      "L'OR Espresso Colombia őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29724,
+      "80 g",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Barista Espresso kávékapszula 10 db 80 g"
+    ],
+    [
+      29725,
+      "80 g",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Caffè Crema Colombia kávékapszula 10 db 80 g"
+    ],
+    [
+      29726,
+      "80 g",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Barista Espresso Brasil kávékapszula 10 db 80 g"
+    ],
+    [
+      29727,
+      "80 g",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Barista Caffè Crema kávékapszula 10 db 80 g"
+    ],
+    [
+      29728,
+      "100,8 g",
+      "Dolce Gusto kompatibilis kapszula",
+      "NESCAFÉ Dolce Gusto Cortado Espresso Macchiato tejes kávékapszula 16 db 100,8 g"
+    ],
+    [
+      29729,
+      "88 g",
+      "Dolce Gusto kompatibilis kapszula",
+      "NESCAFÉ Dolce Gusto Espresso kávékapszula 16db/ 16 csésze 88 g"
+    ],
+    [
+      29730,
+      "16 db",
+      "Dolce Gusto kompatibilis kapszula",
+      "Nescafé Dolce Gusto Espresso Intenso kávékapszula, 112 g, 16 db"
+    ],
+    [
+      29731,
+      "16 db",
+      "Dolce Gusto kompatibilis kapszula",
+      "Nescafé Dolce Gusto Flat White tejes kávékapszula 187,2 g, 16 db"
+    ],
+    [
+      29732,
+      "53 g",
+      "Nespresso kompatibilis kapszula",
+      "Starbucks by Nespresso Blonde Espresso Roast őrölt, pörkölt kávékapszula 10 db 53 g"
+    ],
+    [
+      29733,
+      "186,4 g",
+      "Dolce Gusto kompatibilis kapszula",
+      "NESCAFÉ Dolce Gusto Cappuccino tej- és kávékapszula cukorral 16 db 186,4 g"
+    ],
+    [
+      29734,
+      "53 g",
+      "Nespresso kompatibilis kapszula",
+      "Starbucks by Nespresso Pike Place Roast Lungo őrölt, pörkölt kávé kapszula 10 db 53 g"
+    ],
+    [
+      29735,
+      "70 g",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Caffè Crema Fine Aroma kávékapszula 10 db 70 g"
+    ],
+    [
+      29736,
+      "76 g",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Caffè Crema Rich Aroma kávékapszula 10 db 76 g"
+    ],
+    [
+      29737,
+      "70 g",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Espresso Elegant Aroma kávékapszula 10 db 70 g"
+    ],
+    [
+      29738,
+      "104 g",
+      "kapszula",
+      "Douwe Egberts Omnia Classic őrölt-pörkölt kávé kapszulában 20 db 104 g"
+    ],
+    [
+      29739,
+      "104 g",
+      "kapszula",
+      "Jacobs Espresso Intenso őrölt-pörkölt kávé kapszulában 20 db 104 g"
+    ],
+    [
+      29740,
+      "104 g",
+      "kapszula",
+      "Jacobs Espresso Ristretto őrölt-pörkölt kávé kapszulában 20 db 104 g"
+    ],
+    [
+      29741,
+      "104 g",
+      "kapszula",
+      "Jacobs Lungo Classico őrölt-pörkölt kávé kapszulában 20 db 104 g"
+    ],
+    [
+      29742,
+      "104 g",
+      "kapszula",
+      "Jacobs Decaffeinato Classico koffeinmentes őrölt-pörkölt kávé kapszulában 20 db 104 g"
+    ],
+    [
+      29743,
+      "104 g",
+      "kapszula",
+      "Jacobs Krönung Crema őrölt-pörkölt kávé kapszulában 20 db 104 g"
+    ],
+    [
+      29744,
+      "52 g",
+      "kapszula",
+      "L'OR Espresso Or Rose őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29745,
+      "52 g",
+      "kapszula",
+      "L'OR Espresso Decaffeinato koffeinmentes őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29746,
+      "52 g",
+      "kapszula",
+      "L'OR Espresso Ristretto őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29747,
+      "52 g",
+      "kapszula",
+      "L'OR Espresso karamellízű őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29748,
+      "104 g",
+      "kapszula",
+      "Douwe Egberts Omnia Colombia őrölt-pörkölt kávé kapszulában 20 db 104 g"
+    ],
+    [
+      29749,
+      "55 g",
+      "Nespresso kompatibilis kapszula",
+      "Starbucks by Nespresso Blonde Espresso Roast koffeinmentes őrölt pörkölt kávé 10 kapszula 55 g"
+    ],
+    [
+      29750,
+      "57 g",
+      "Nespresso kompatibilis kapszula",
+      "Starbucks by Nespresso House Blend őrölt pörkölt kávé 10 kapszula 57 g"
+    ],
+    [
+      29751,
+      "56 g",
+      "Nespresso kompatibilis kapszula",
+      "Starbucks by Nespresso Italian Style Roast őrölt pörkölt kávé 10 kapszula 56 g"
+    ],
+    [
+      29752,
+      "56 g",
+      "Nespresso kompatibilis kapszula",
+      "Starbucks by Nespresso Breakfast Blend őrölt pörkölt kávé 10 kapszula 56 g"
+    ],
+    [
+      29753,
+      "56 g",
+      "Nespresso kompatibilis kapszula",
+      "Starbucks by Nespresso Sunny Day Blend őrölt pörkölt kávé 10 kapszula 56 g"
+    ],
+    [
+      29754,
+      "51 g",
+      "Nespresso kompatibilis kapszula",
+      "Starbucks by Nespresso Smooth Caramel karamellízű őrölt pörkölt kávé 10 kapszula 51 g"
+    ],
+    [
+      29755,
+      "55 g",
+      "kapszula",
+      "Lavazza Qualità Oro őrölt pörkölt kávé kapszula 10 db 55 g"
+    ],
+    [
+      29756,
+      "75 g",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Espresso Intense Aroma kávékapszula 10 db 75 g"
+    ],
+    [
+      29757,
+      "70 g",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Decaffeinato koffeinmentes kávékapszula 10 db 70 g"
+    ],
+    [
+      29758,
+      "75 g",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo Espresso Flavored Edition Caramel kávékapszula 10 db 75 g"
+    ],
+    [
+      29759,
+      "104 g",
+      "Dolce Gusto kompatibilis kapszula",
+      "NESCAFÉ Dolce Gusto Ristretto Barista kávékapszula 16 db/ 16 csésze 104 g"
+    ],
+    [
+      29760,
+      "104 g",
+      "kapszula",
+      "Douwe Egberts Omnia Crema őrölt-pörkölt kávé kapszulában 20 db 104 g"
+    ],
+    [
+      29761,
+      "75 g",
+      "Tchibo Cafissimo",
+      "Tchibo Cafissimo caffè crema kávékapszula 10db 75g"
+    ],
+    [
+      29762,
+      "52 g",
+      "kapszula",
+      "L'OR Espresso Brazil őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29763,
+      "52 g",
+      "kapszula",
+      "L'OR Espresso mogyoróízű őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29764,
+      "52 g",
+      "kapszula",
+      "L'OR Espresso vaníliaízű őrölt-pörkölt kávé kapszulában 10 db 52 g"
+    ],
+    [
+      29765,
+      "53 g",
+      "kapszula",
+      "NESCAFÉ Farmers Origins Colombia Espresso koffeinmentes őrölt pörkölt kávé kapszula 10 db 53 g"
+    ],
+    [
+      29766,
+      "44 g",
+      "kapszula",
+      "NESCAFÉ Farmers Origins Africas Ristretto őrölt pörkölt kávé kapszula 10 db 44 g"
+    ],
+    [
+      29767,
+      "44 g",
+      "kapszula",
+      "NESCAFÉ Farmers Origins Brazil őrölt pörkölt kávé kapszula 10 db 44 g"
+    ],
+    [
+      29768,
+      "44 g",
+      "kapszula",
+      "NESCAFÉ Farmers Origins Colombia Espresso őrölt pörkölt kávé kapszula 10 db 44 g"
+    ],
+    [
+      29769,
+      "44 g",
+      "kapszula",
+      "NESCAFÉ Farmers Origins India Espresso őrölt pörkölt kávé kapszula 10 db 44 g"
+    ]
+  ]
+}
