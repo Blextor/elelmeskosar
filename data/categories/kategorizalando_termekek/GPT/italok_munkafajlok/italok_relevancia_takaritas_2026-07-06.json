@@ -1,0 +1,61 @@
+{
+ "3_kor_fo_muveletek": [
+  "asvanyviz_iz_torolve: 418",
+  "bor_iz_edessegbe: 1936",
+  "const_torolve::borvidék / eredet: 27",
+  "const_torolve::szénsavasság: 35",
+  "const_torolve::szín: 1950",
+  "const_torolve::termékcsalád: 25",
+  "edesites_kulonleges_elveszik: 9",
+  "edesitoszeres_atnevezve: 2693",
+  "fa_altipus_torolve: 2",
+  "fa_atnevezes::édesítőszeres: 8",
+  "fa_izviz_osszevonva: 1",
+  "fa_kisz_rendszer_tisztitva: 7",
+  "fa_prop_torolve: 114",
+  "hash_frissitve: 8976",
+  "kisz_rendszer_suly_ki: 427",
+  "konf_arva_torolve: 5",
+  "konf_kitoltve: 2018",
+  "mozgat::gancia_prosecco: 1",
+  "mozgat::izesitett_szesz: 6",
+  "mozgat::izesitett_viz: 58",
+  "mozgat::oolong: 1",
+  "mozgat::tesco_forrocsoki: 1",
+  "sync_edesitoszer: 339",
+  "sync_koffeinmentes: 30",
+  "torolve_cukor: 3184",
+  "torolve_izesites: 1162",
+  "torolve_kisz_rendszer_tea: 770",
+  "torolve_koffein: 713",
+  "torolve_koffeintartalom: 676",
+  "torolve_teatipus: 584",
+  "torolve_édesítés: 4645",
+  "ures_prop_torolve: 6498"
+ ],
+ "vorosafonya_dedup": [
+  "KIÍRVA, termék javítva: 42"
+ ],
+ "vorosafonya_fa": [
+  "fa-listák javítva: 11"
+ ],
+ "bor_iz_torles": [
+  "KIÍRVA, javítva: 338"
+ ],
+ "zaro_ellenorzes": [
+  "Termékszám: 47030 | Ital: 12713",
+  "Strukturális problémák: NINCS",
+  "Név-konfliktusok: 0",
+  "Fa értéklista-duplikátumok: 0",
+  "Üres altípusok: NINCS"
+ ],
+ "dontesek": [
+  "ÖSSZEVONVA: Ízesített ásványvíz -> Ízesített víz (58 termék; a szétválasztás nem tükrözött valós tartalmi különbséget)",
+  "ÖSSZEVONVA: Ízesített szeszesital -> Szeszesital (6); Oolong tea -> Teafű fajta=oolong (1)",
+  "ÁTHELYEZVE: Gancia Prosecco -> Pezsgő/Prosecco; Tesco Hot Chocolate -> Forró csokoládé italpor",
+  "TULAJDONSÁG-ÖSSZEVONÁS: édesítés+cukor -> cukormentes/zero + édesítőszerrel bool-ok; koffein+koffeintartalom -> koffeinmentes bool; ízesítés -> íz; édesítőszeres -> édesítőszerrel névegységesítés",
+  "BOR: íz sweetness-értékei -> édesség; szín törölve Fehér/Rozé/Vörösnél (kategória-redundáns); Tokaji borvidék/eredet konstans törölve",
+  "TÖRÖLVE: 6498 érték 100%-ban üres tulajdonságokból (n>=20, kiszerelés/márka/alkoholtartalom védett); ásványvizek natúr íz-e; teáknál kategória-redundáns teatípus és kiszerelés/rendszer; kávéknál súly-értékek a kiszerelés/rendszerből",
+  "MEGTARTVA szándékosan: ritka-de-informatív flagek (bio, koffeinmentes 1-5% True); Cider konstans 4,5% alkoholtartalom; Gabonakávé/Sake/Abszint/Ouzo/Siller/Likőrbor/Habzóbor kis altípusok (valós, különálló típusok); Pálinka vs Gyümölcspárlat (jogilag különböző); Cola/Tonic/Limonádé (bolti konvenció)"
+ ]
+}
