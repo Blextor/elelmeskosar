@@ -1,0 +1,43 @@
+{
+ "9_kor_iker_egyesites": [
+  "konfliktusos névcsoport: 1838",
+  "fa_arnyekolt_torolve: 2",
+  "fa_kis_prop_torolve: 8",
+  "kis_prop_torolve: 87",
+  "kiszereles_javitva: 2",
+  "nev_unio_bool: 267",
+  "nev_unio_lista: 7201",
+  "nev_unio_skalar: 524"
+ ],
+ "10_kor_kiszereles_kanon": [
+  "fa_arnyekolt: 2",
+  "fa_kisz_kanon: 70",
+  "kisz_kanon: 3490"
+ ],
+ "11_kor_normalizalas": [
+  "konfliktusos névcsoport: 842",
+  "feloldható (név, prop) párok: 535",
+  "ertek_szinonima: 808",
+  "fa_szinonima: 13",
+  "iker_feloldva::alkoholtartalom: 2",
+  "iker_feloldva::energia tartalom: 7",
+  "iker_feloldva::kiszerelés: 124",
+  "iker_feloldva::márka: 751",
+  "lista_rendezve: 6072"
+ ],
+ "zaro_ellenorzes": [
+  "Termékszám: 47030 | Ital: 12713",
+  "Strukturális problémák: NINCS",
+  "Név-konfliktusok: 0",
+  "Fa értéklista-duplikátumok: 0",
+  "Üres altípusok: NINCS"
+ ],
+ "dontesek": [
+  "IKERPÉLDÁNYOK (azonos nevű termék több boltból, eltérő tulajdonságokkal): 1838 csoport -> 171. Módszer: üres->informatív átvétel, lista-unió, bool-OR (7992 érték), lista-sorrend kanonizálás (6072), márka: hosszabb/specifikusabb nyer ha a rövidebb részhalmaza (751), kiszerelés: méret veri a csomagolás-szót (124), energia tartalom névből (7)",
+  "ÉRTÉK-SZINONIMÁK: palack->üveg (palack propban), Dunántúli->Dunántúl, különlegesen száraz->extra száraz (808 termék + 13 fa-lista)",
+  "KISZERELÉS-FORMÁTUM: 3490 termék kanonizálva (<1 l -> ml, >=1 l -> l, g/kg hasonlóan) — az 5. körben riportolt l/ml keveredés megszűnt",
+  "KIS ALTÍPUSOK: 14 halott (100% üres) tulajdonság törölve (Shot ital, Gyümölcspüré, Malátaital szín...); 2+2 árnyékolt szülő-def törölve (Habzó borvidék/szőlőfajta, Sör szín, Üdítőital cukormentes/zero); BB pezsgő 75 l->0,75 l, Frittmann 50 ml->750 ml",
+  "MARADÉK 171 csoport: valódi informatív-informatív ütközések (eltérő márka-írásmódok nem-részhalmaz viszonyban, tasak vs vákuumcsomagolt, fajta koktél vs fehérbor) — címke/kép nélkül nem dönthetők el gépi úton",
+  "ELLENŐRIZVE, RENDBEN: statusz mind kesz; nincs üres tulajdonság-készlet; nincs duplikált bolti rekord; a 8 kiszerelés vs mennyiség eltérésből a maradék a bolti forrásmező (vegso_mennyiseg) hibája, a mi propunk a helyes"
+ ]
+}

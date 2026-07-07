@@ -1,0 +1,57 @@
+{
+ "12_kor_muveletek": [
+  "prop-drop jelöltek: 16",
+  "demisec_javitva: 1",
+  "drop_informativ_veszik: 25",
+  "dtk_szetbontva: 2",
+  "fa_alkoholmentes_osszevonva: 1",
+  "fa_demisec: 1",
+  "fa_koktelszirup_atnevezve: 1",
+  "fa_marka_frissitve: 60",
+  "fa_osszetevo_torolve: 9",
+  "fa_prop_torolve: 16",
+  "konf_kitoltve: 6",
+  "marka_collapse: 382",
+  "marka_remap_termek: 1118",
+  "marka_varians: 8",
+  "mozgat::alkoholmentes_koktel: 6",
+  "mozgat::alkoholmentes_szesz: 10",
+  "mozgat::koktelszirup: 32",
+  "osszetevo_izbe: 1393",
+  "prop_torolve: 3490"
+ ],
+ "torolt_propok": [
+  "DROP: ('Alkoholok', 'Brandy', 'érlelés')",
+  "DROP: ('Alkoholok', 'Koktél, Rögtön iható, Egyéb', 'összetevő')",
+  "DROP: ('Alkoholok', 'Rum', 'érlelés')",
+  "DROP: ('Citromlé', 'Citromlé', 'cukormentes / zero')",
+  "DROP: ('Funkcionális ital', 'Funkcionális ital', 'hatóanyag')",
+  "DROP: ('Gyümölcslé', '100% gyümölcslé', 'püré')",
+  "DROP: ('Gyümölcslé', 'Vegyes gyümölcs- és zöldséglé', 'gyümölcstartalom')",
+  "DROP: ('Kávé, tea, kakaó (száraz)', 'Cappuccino italpor', 'cukormentes / diabetikus')",
+  "DROP: ('Kávé, tea, kakaó (száraz)', 'Instant kávé', 'változat')",
+  "DROP: ('Kávé, tea, kakaó (száraz)', 'Kakaó italpor', 'édesítőszerrel')",
+  "DROP: ('Kávé, tea, kakaó (száraz)', 'Teafű, filteres tea, instant tea', 'bio')",
+  "DROP: ('Kávé, tea, kakaó (száraz)', 'Őrölt kávé', 'pörkölés')",
+  "DROP: ('Sör', 'Alkoholmentes sör', 'származás')",
+  "DROP: ('Üdítőital', 'Gyümölcsital', 'fűszer')",
+  "DROP: ('Üdítőital', 'Szénsavas üdítő', 'bio')",
+  "DROP: ('Üdítőital', 'Szénsavas üdítő', 'koffeinmentes')"
+ ],
+ "zaro_ellenorzes": [
+  "Termékszám: 47030 | Ital: 12713",
+  "Strukturális problémák: NINCS",
+  "Név-konfliktusok: 0",
+  "Fa értéklista-duplikátumok: 0",
+  "Üres altípusok: NINCS"
+ ],
+ "dontesek": [
+  "MÁRKA: 8 írásmód-variáns egységesítve (Carolans, Fever-Tree, Gere - Schubert, The Demons Share...); 382 al-változat márka a domináns alapmárkára vonva (Baileys Salted Caramel->Baileys, Jim Beam Black Cherry->Jim Beam, Royal Kaktusz->Royal) — 1118 termék + 60 fa-lista; szabály: rövid alak nyer, ha legalább 2x használt és nem ritkább a hosszúnál",
+  "Duna-Tisza közi Kékfrankos márka (2 termék) szétbontva: borvidék=Duna-Tisza közi + szőlőfajta=Kékfrankos",
+  "NEM ELEMI: demi-sec -> félszáraz (utolsó maradék)",
+  "FELESLEGES PROPOK: 16 tulajdonság törölve, amely <=2 informatív értéket hordozott (Brandy/Rum érlelés, Őrölt kávé pörkölés, hatóanyag, származás, fűszer, püré...) — 25 logolt értékveszteség, névből rekonstruálható",
+  "ÖSSZETEVŐ->ÍZ: a gyümölcs-családban (Gyümölcslé + Gyümölcsital/Gyerekital/Smoothie/Aloe vera) az összetevő 62-88%-ban duplikálta az ízt -> unió + törlés (1393 termék, 9 fa-def); kávéknál/alkoholnál az összetevő megmaradt",
+  "KATEGÓRIA: Üdítőital/Alkoholmentes koktél(6) + Alkoholok/Alkoholmentes szeszesital(10) -> \"Alkoholmentes szeszesital, koktél\" (átfedtek: alkoholmentes spritz/aperitif mindkettőben); Italkoncentrátum -> \"Koktélszirup, italkoncentrátum\" (a tartalma Monin/Palace koktélszirup volt)",
+  "MEGTARTVA: 95-99% üres, de >=3 valós flaget hordozó propok (bio sörök, Whisky érlelés, cukormentes szörp) — a ritka-de-informatív elv szerint"
+ ]
+}
