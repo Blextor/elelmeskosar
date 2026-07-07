@@ -1,0 +1,29 @@
+{
+ "8_kor_muveletek": [
+  "alk_format: 246",
+  "fa_alk_normalizalva: 25",
+  "gin_likor_fajta: 2",
+  "marka_fajta_tisztitva: 9",
+  "marka_uritve_nincs_cel: 9",
+  "marka_videk_tisztitva: 21"
+ ],
+ "marka_lista_javitas": [
+  "Hiányzó nem jelölt a márka-listában: {('Bor', 'Tokaji borkülönlegesség'): 9, ('Bor', 'Fehérbor'): 21, ('Habzó-, gyöngyözőbor, boralapú ital', 'Gyöngyözőbor'): 1, ('Bor', 'Vörösbor'): 5, ('Bor', 'Rozébor'): 1, ('Pezsgő', 'Pezsgő'): 1, ('Bor', 'Boralapú ital'): 1}",
+  "lista bővítve: 7"
+ ],
+ "zaro_ellenorzes": [
+  "Termékszám: 47030 | Ital: 12713",
+  "Strukturális problémák: NINCS",
+  "Név-konfliktusok: 0",
+  "Fa értéklista-duplikátumok: 0",
+  "Üres altípusok: NINCS"
+ ],
+ "dontesek": [
+  "ALKOHOLTARTALOM-FORMÁTUM: 246 termék + 25 fa-lista egységesítve (pont->vessző, 5.0%->5%, 0%->0,0%)",
+  "BOR-MÁRKA TISZTÍTÁS (a márka-kitöltési kísérlet fedte fel): 39 terméknél szőlőfajta/tájnév ült a márka mezőben — 9 fajta (Irsai Olivér, Egri Bikavér, Sauvignon Blanc, Ruby Port...) a szőlőfajta/borstílusba, 21 tájnév (Tokaj/Tokaji, Bordeaux, Sancerre, Egri Rosé) a borvidékbe került, 9-nél (Tokaji borkülönlegesség) csak a márka ürült (a borvidék ott a kategóriából adódik)",
+  "GIN-LIKŐRÖK: 2 termék fajta=gin likőr jelölést kapott",
+  "ÍZ-KITÖLTÉS NÉVBŐL: szókincs-validált kísérlet 0 biztonságos találatot adott — a 108 audit-jelölt mind önnév-visszhang vagy zaj volt; NEM töltöttünk",
+  "MÁRKA-KITÖLTÉS: a nem-bor kategóriákban 0 hiányzó márka maradt; a borok üres márkái valós márkátlan tájborok",
+  "TOKAJ BORVIDÉK PEZSGŐKNÉL: már mind helyes volt (0 módosítás)"
+ ]
+}

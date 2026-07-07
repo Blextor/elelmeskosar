@@ -62918,7 +62918,8 @@
                   "Brazin",
                   "Malaga Virgen",
                   "Tokajicum Tokaji Kedves Cuvée",
-                  "Grand Tokaj Late Harvest"
+                  "Grand Tokaj Late Harvest",
+                  "nem jelölt"
                 ],
                 "palack": [
                   "üveg",
@@ -63127,7 +63128,7 @@
                   "Trebbiano"
                 ],
                 "alkoholtartalom": [
-                  "0%",
+                  "0,0%",
                   "10,5%",
                   "11,5%",
                   "12%",
@@ -63287,7 +63288,8 @@
                   "Jammertal",
                   "Chateau Dereszla",
                   "Sári",
-                  "Regia"
+                  "Regia",
+                  "nem jelölt"
                 ],
                 "palack": [
                   "üveg",
@@ -63351,7 +63353,8 @@
                   "Badacsony",
                   "Portugália",
                   "Camargue",
-                  "nem jelölt"
+                  "nem jelölt",
+                  "Egri Rosé"
                 ],
                 "szőlőfajta / borstílus": [
                   "Merlot",
@@ -63389,11 +63392,10 @@
                   "13%",
                   "alkoholos",
                   "11%",
-                  "12,0%",
                   "11,5%",
                   "10%",
                   "10,5%",
-                  "0%",
+                  "0,0%",
                   "14,5%"
                 ],
                 "édesség": [
@@ -63583,7 +63585,8 @@
                   "Zonin",
                   "Kaiken",
                   "Montes",
-                  "Pierre Chanau"
+                  "Pierre Chanau",
+                  "nem jelölt"
                 ],
                 "palack": [
                   "üveg",
@@ -63760,7 +63763,7 @@
                   "syrah"
                 ],
                 "alkoholtartalom": [
-                  "0%",
+                  "0,0%",
                   "10,5%",
                   "12,5%",
                   "13%",
@@ -63828,7 +63831,8 @@
                   "LAFI",
                   "EILER",
                   "Frescanti",
-                  "Ruby Port"
+                  "Ruby Port",
+                  "nem jelölt"
                 ],
                 "palack": [
                   "üveg",
@@ -63907,8 +63911,11 @@
                   "12%",
                   "11%",
                   "10%",
-                  "0%",
-                  "18%"
+                  "0,0%",
+                  "18%",
+                  "4,9%",
+                  "4,7%",
+                  "7,2%"
                 ],
                 "szőlőfajta / borstílus": [
                   "tawny",
@@ -63916,7 +63923,8 @@
                   "áfonya",
                   "cherry",
                   "erdei gyümölcs",
-                  "nem jelölt"
+                  "nem jelölt",
+                  "Ruby Port"
                 ],
                 "szín": [
                   "vörös",
@@ -63976,12 +63984,24 @@
                   "Babits",
                   "Evinor",
                   "Grand Tokaj",
-                  "Dobogó"
+                  "Dobogó",
+                  "Angyal Borászat",
+                  "PAANGOLD TOKAJI",
+                  "LYSKA",
+                  "Paangold",
+                  "Kiss István",
+                  "Pauleczki",
+                  "GRÓF DEGENFELD",
+                  "HHattyús",
+                  "Tesco",
+                  "nem jelölt"
                 ],
                 "kiszerelés": [
                   "0,5 l",
                   "500 ml",
-                  "0,75 l"
+                  "0,75 l",
+                  "nem jelölt",
+                  "250 ml"
                 ]
               },
               "csoportos": {
@@ -63997,7 +64017,11 @@
                   "11,5%",
                   "alkoholos",
                   "13%",
-                  "9,5%"
+                  "9,5%",
+                  "0,0%",
+                  "14,5%",
+                  "10%",
+                  "12%"
                 ],
                 "palack": [
                   "üveg",
@@ -64008,7 +64032,8 @@
                   "száraz",
                   "aszú",
                   "szamorodni",
-                  "nem jelölt"
+                  "nem jelölt",
+                  "Tokaji borkülönlegesség"
                 ],
                 "fajta": [
                   "fehér",
@@ -64023,7 +64048,10 @@
                   "nem jelölt",
                   "Sárgamuskotály",
                   "Tokaji Aszú",
-                  "Tokaji Szamorodni"
+                  "Tokaji Szamorodni",
+                  "5 puttonyos",
+                  "muskotály",
+                  "Muscat Lunel"
                 ]
               }
             }
@@ -66383,7 +66411,8 @@
                   "Balatoni Friss",
                   "Varga Irsai Olivér Bubis",
                   "Louis Couturier",
-                  "Barigny Brut"
+                  "Barigny Brut",
+                  "nem jelölt"
                 ],
                 "kiszerelés": [
                   "750 ml",
@@ -66471,7 +66500,7 @@
                   "10,5%",
                   "12%",
                   "alkoholos",
-                  "0%",
+                  "0,0%",
                   "4%",
                   "7,5%",
                   "13%",
@@ -66521,7 +66550,6 @@
                   "alkoholmentes édes"
                 ],
                 "alkoholtartalom": [
-                  "0%",
                   "0,0%"
                 ],
                 "típus": [
@@ -66626,7 +66654,8 @@
                   "alkoholos",
                   "7,2%",
                   "3,4%",
-                  "8,4%"
+                  "8,4%",
+                  "6%"
                 ],
                 "fajta": [
                   "boralapú ital",
@@ -66848,7 +66877,8 @@
                   "Pink Unikornis",
                   "Süsü",
                   "SMURFY",
-                  "Sonic"
+                  "Sonic",
+                  "nem jelölt"
                 ],
                 "típus": [
                   "extra száraz",
@@ -66884,7 +66914,9 @@
                   "6,5%",
                   "13%",
                   "53,5%",
-                  "0,0%"
+                  "0,0%",
+                  "12,3%",
+                  "10,6%"
                 ],
                 "kiszerelés": [
                   "750 ml",
@@ -67323,12 +67355,13 @@
                   "72%",
                   "14%",
                   "alkoholos",
-                  "0%",
+                  "0,0%",
                   "48%",
                   "57%",
                   "67%",
                   "15,5%",
-                  "47%"
+                  "47%",
+                  "50%"
                 ],
                 "fajta": [
                   "tojáslikőr",
@@ -67348,7 +67381,8 @@
                   "amaretto",
                   "whiskey likőr",
                   "egyéb",
-                  "nem jelölt"
+                  "nem jelölt",
+                  "gin likőr"
                 ],
                 "összetevő": [
                   "nem jelölt",
@@ -67502,8 +67536,9 @@
                   "45,8%",
                   "46%",
                   "43%",
-                  "0%",
-                  "alkoholos"
+                  "0,0%",
+                  "alkoholos",
+                  "50%"
                 ],
                 "érlelés": [
                   "3 éves",
@@ -67611,7 +67646,7 @@
                   "41,3%",
                   "46%",
                   "alkoholos",
-                  "0%",
+                  "0,0%",
                   "38%",
                   "47,3%",
                   "42%",
@@ -67730,7 +67765,7 @@
                   "34%",
                   "38%",
                   "alkoholos",
-                  "0%",
+                  "0,0%",
                   "50%",
                   "43%",
                   "41,3%"
@@ -67901,7 +67936,7 @@
                   "30%",
                   "34,5%",
                   "alkoholos",
-                  "0%"
+                  "0,0%"
                 ]
               }
             }
@@ -67998,12 +68033,13 @@
                   "38%",
                   "alkoholos",
                   "43%",
-                  "0%",
+                  "0,0%",
                   "42%",
                   "50%",
                   "44%",
                   "52%",
-                  "34,5%"
+                  "34,5%",
+                  "70%"
                 ],
                 "fajta": [
                   "ágyas pálinka",
@@ -68069,8 +68105,9 @@
                   "40%",
                   "36%",
                   "38%",
-                  "0%",
-                  "alkoholos"
+                  "0,0%",
+                  "alkoholos",
+                  "30%"
                 ],
                 "érlelés": [
                   "5 YO",
@@ -68238,8 +68275,9 @@
                   "7,2%",
                   "alkoholos",
                   "38%",
-                  "0%",
-                  "70%"
+                  "0,0%",
+                  "70%",
+                  "40%"
                 ],
                 "összetevő": [
                   "mangó",
@@ -68400,7 +68438,7 @@
                   "40%",
                   "34%",
                   "80%",
-                  "0%",
+                  "0,0%",
                   "36%",
                   "35%",
                   "22,5%",
@@ -68447,7 +68485,7 @@
                   "nem jelölt"
                 ],
                 "alkoholtartalom": [
-                  "0%",
+                  "0,0%",
                   "<0,5%"
                 ],
                 "típus": [
@@ -68569,7 +68607,7 @@
                 "alkoholtartalom": [
                   "4%",
                   "2%",
-                  "0%",
+                  "0,0%",
                   "3,1%",
                   "3,5%",
                   "4,2%",
@@ -68578,7 +68616,6 @@
                   "5,9%",
                   "4,3%",
                   "2,5%",
-                  "2,0%",
                   "8%",
                   "6%",
                   "alkoholos",
@@ -68841,14 +68878,14 @@
                   "6,6%",
                   "8,5%",
                   "8%",
-                  "0%",
+                  "0,0%",
                   "alkoholos",
                   "7,2%",
                   "5,1%",
                   "5,2%",
                   "3,8%",
                   "6%",
-                  "5,0%"
+                  "3%"
                 ],
                 "szín": [
                   "világos",
@@ -68939,7 +68976,7 @@
                   "nem jelölt"
                 ],
                 "alkoholtartalom": [
-                  "0%",
+                  "0,0%",
                   "0,5%"
                 ],
                 "szín": [
@@ -68991,7 +69028,7 @@
                   "alma"
                 ],
                 "alkoholtartalom": [
-                  "0%"
+                  "0,0%"
                 ],
                 "csomagolás": [
                   "egyéb",
@@ -69072,7 +69109,7 @@
                   "4,5%",
                   "alkoholos",
                   "4,7%",
-                  "0%"
+                  "0,0%"
                 ],
                 "szín": [
                   "világos",
@@ -69152,7 +69189,7 @@
                   "natúr"
                 ],
                 "alkoholtartalom": [
-                  "0%",
+                  "0,0%",
                   "alkoholos"
                 ],
                 "szín": [
@@ -69259,7 +69296,7 @@
                   "alkoholos",
                   "7,9%",
                   "4,3%",
-                  "0%"
+                  "0,0%"
                 ],
                 "szín": [
                   "barna",
@@ -69492,7 +69529,6 @@
                   "bodzavirág"
                 ],
                 "alkoholtartalom": [
-                  "0%",
                   "0,0%"
                 ],
                 "csomagolás": [
@@ -72641,7 +72677,9 @@
                   "citrom",
                   "málna",
                   "nem jelölt",
-                  "menta"
+                  "menta",
+                  "barack",
+                  "citromfű"
                 ],
                 "alapanyag": [
                   "zöld tea",
