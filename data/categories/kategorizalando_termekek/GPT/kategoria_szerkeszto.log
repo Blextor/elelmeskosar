@@ -109,3 +109,5 @@ TypeError: 'dict_itemiterator' object is not callable
 2026-06-23 12:21:26,404  INFO     ================ Szerver kilépett ================
 2026-06-24 10:20:50,964  INFO     ================ Kategória-szerkesztő indul ================
 2026-06-24 10:20:50,964  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log
+2026-07-17 22:02:37,369  INFO     ================ Kategória-szerkesztő indul ================
+2026-07-17 22:02:37,369  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar2\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log
