@@ -1,0 +1,2094 @@
+{
+  "generated_at": "2026-07-24T00:13:02",
+  "mode": "source-migration",
+  "apply": true,
+  "source_route_coverage": 89,
+  "before": {
+    "ital_products": 12876,
+    "paths": 89,
+    "parent_categories": 18,
+    "path_counts": {
+      "Alkoholok > Alkoholmentes szeszesital, koktél": 16,
+      "Alkoholok > Brandy": 41,
+      "Alkoholok > Gin": 133,
+      "Alkoholok > Koktél, Rögtön iható, Egyéb": 119,
+      "Alkoholok > Likőr": 601,
+      "Alkoholok > Pálinka": 133,
+      "Alkoholok > Rum": 119,
+      "Alkoholok > Szeszesital": 86,
+      "Alkoholok > Tequila": 21,
+      "Alkoholok > Vermut": 27,
+      "Alkoholok > Vodka": 188,
+      "Alkoholok > Whisky & Bourbon": 240,
+      "Ásványvíz > Enyhén szénsavas ásványvíz": 35,
+      "Ásványvíz > Szénsavas ásványvíz": 155,
+      "Ásványvíz > Szénsavmentes ásványvíz": 230,
+      "Bor > Alkoholmentes bor": 4,
+      "Bor > Boralapú ital": 79,
+      "Bor > Fehérbor": 934,
+      "Bor > Rozébor": 312,
+      "Bor > Tokaji borkülönlegesség": 56,
+      "Bor > Vörösbor": 673,
+      "Cider > Alkoholmentes cider": 13,
+      "Cider > (nincs altípus)": 60,
+      "Citromlé > Citromízesítő": 5,
+      "Citromlé > (nincs altípus)": 60,
+      "Energiaital > (nincs altípus)": 341,
+      "Funkcionális ital > (nincs altípus)": 139,
+      "Funkcionális ital > Shot ital": 8,
+      "Funkcionális ital > Vitaminital": 155,
+      "Gyümölcslé > 100% gyümölcslé": 222,
+      "Gyümölcslé > Gyümölcspüré": 3,
+      "Gyümölcslé > Nektár": 81,
+      "Gyümölcslé > Vegyes gyümölcs- és zöldséglé": 190,
+      "Gyümölcslé > Zöldséglé": 41,
+      "Habzó-, gyöngyözőbor, boralapú ital > Alkoholmentes habzó ital": 31,
+      "Habzó-, gyöngyözőbor, boralapú ital > Gyöngyözőbor": 58,
+      "Habzó-, gyöngyözőbor, boralapú ital > Ízesített boralapú ital": 70,
+      "Ízesített víz > (nincs altípus)": 93,
+      "Kávé, tea, kakaó (száraz) > 2in1, 3in1 instant kávé": 110,
+      "Kávé, tea, kakaó (száraz) > Cappuccino italpor": 35,
+      "Kávé, tea, kakaó (száraz) > Fekete tea": 160,
+      "Kávé, tea, kakaó (száraz) > Forró csokoládé italpor": 26,
+      "Kávé, tea, kakaó (száraz) > Gyógytea": 121,
+      "Kávé, tea, kakaó (száraz) > Gyümölcstea": 318,
+      "Kávé, tea, kakaó (száraz) > Instant kávé": 186,
+      "Kávé, tea, kakaó (száraz) > Kakaó italpor": 77,
+      "Kávé, tea, kakaó (száraz) > Kakaópor": 35,
+      "Kávé, tea, kakaó (száraz) > Kávé ízesítők / tejek / tejporok": 24,
+      "Kávé, tea, kakaó (száraz) > Kávékapszula": 479,
+      "Kávé, tea, kakaó (száraz) > Őrölt kávé": 256,
+      "Kávé, tea, kakaó (száraz) > Rooibos tea": 21,
+      "Kávé, tea, kakaó (száraz) > Szemes kávé": 235,
+      "Kávé, tea, kakaó (száraz) > Teafű, filteres tea, instant tea": 45,
+      "Kávé, tea, kakaó (száraz) > Zöld tea": 106,
+      "Kombucha > (nincs altípus)": 17,
+      "Növényi ital > Egyéb növényi ital": 1,
+      "Növényi ital > Kevert növényi ital": 23,
+      "Növényi ital > Kókuszital": 24,
+      "Növényi ital > Mandulaital": 52,
+      "Növényi ital > Mogyoróital": 2,
+      "Növényi ital > Rizsital": 27,
+      "Növényi ital > Szójaital": 26,
+      "Növényi ital > Zabital": 76,
+      "Pezsgő > (nincs altípus)": 414,
+      "Pezsgő > Prosecco": 57,
+      "Sör > Alkoholmentes radler": 126,
+      "Sör > Alkoholmentes sör": 75,
+      "Sör > Barna sör": 57,
+      "Sör > Búzasör": 56,
+      "Sör > IPA / Ale": 66,
+      "Sör > Ízesített sör": 96,
+      "Sör > Malátaital": 19,
+      "Sör > Sörválogatás": 1,
+      "Sör > Világos sör": 519,
+      "Sportital > (nincs altípus)": 86,
+      "Szörp, üdítőitalpor > Koktélszirup, italkoncentrátum": 32,
+      "Szörp, üdítőitalpor > Szörp": 367,
+      "Szörp, üdítőitalpor > Üdítőitalpor, italtabletta": 15,
+      "Üdítőital > Aloe vera ital": 21,
+      "Üdítőital > Cola": 341,
+      "Üdítőital > Gyerekital": 223,
+      "Üdítőital > Gyökér alapú üdítőital": 3,
+      "Üdítőital > Gyümölcsital": 594,
+      "Üdítőital > Jegestea": 482,
+      "Üdítőital > Limonádé": 74,
+      "Üdítőital > Smoothie": 25,
+      "Üdítőital > Szénsavas üdítő": 665,
+      "Üdítőital > Szénsavmentes üdítő": 125,
+      "Üdítőital > Tonic": 83
+    }
+  },
+  "after": {
+    "ital_products": 12810,
+    "paths": 41,
+    "parent_categories": 8,
+    "path_counts": {
+      "Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital": 2128,
+      "Alkoholos italok és alkoholmentes alternatívák > Brandy": 41,
+      "Alkoholos italok és alkoholmentes alternatívák > Cider": 73,
+      "Alkoholos italok és alkoholmentes alternatívák > Egyéb szeszes ital": 86,
+      "Alkoholos italok és alkoholmentes alternatívák > Gin": 135,
+      "Alkoholos italok és alkoholmentes alternatívák > Koktél és előre kevert ital": 125,
+      "Alkoholos italok és alkoholmentes alternatívák > Likőr": 601,
+      "Alkoholos italok és alkoholmentes alternatívák > Pálinka": 133,
+      "Alkoholos italok és alkoholmentes alternatívák > Pezsgő, habzóbor és gyöngyözőbor": 560,
+      "Alkoholos italok és alkoholmentes alternatívák > Rum": 120,
+      "Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital": 1015,
+      "Alkoholos italok és alkoholmentes alternatívák > Tequila": 21,
+      "Alkoholos italok és alkoholmentes alternatívák > Vermut és aperitif": 33,
+      "Alkoholos italok és alkoholmentes alternatívák > Vodka": 188,
+      "Alkoholos italok és alkoholmentes alternatívák > Whisky és bourbon": 241,
+      "Funkcionális és teljesítményitalok > Egyéb funkcionális ital": 147,
+      "Funkcionális és teljesítményitalok > Energiaital": 341,
+      "Funkcionális és teljesítményitalok > Sport- és izotóniás ital": 86,
+      "Funkcionális és teljesítményitalok > Vitamin- és wellnessital": 155,
+      "Gyümölcs- és zöldségitalok > Gyümölcsital": 765,
+      "Gyümölcs- és zöldségitalok > Lé": 463,
+      "Gyümölcs- és zöldségitalok > Nektár": 81,
+      "Gyümölcs- és zöldségitalok > Smoothie és püréital": 86,
+      "Italkészítési alapok > Italpor és tabletta": 29,
+      "Italkészítési alapok > Italszirup és folyékony koncentrátum": 395,
+      "Kávé-, tea- és kakaótermékek > Kakaó és forró csokoládé": 138,
+      "Kávé-, tea- és kakaótermékek > Kávé": 1301,
+      "Kávé-, tea- és kakaótermékek > Kávé- és teaadalék": 24,
+      "Kávé-, tea- és kakaótermékek > Tea": 760,
+      "Növényi italok > Egynövényes ital": 200,
+      "Növényi italok > Kevert növényi ital": 31,
+      "Üdítőitalok > Aloe vera ital": 21,
+      "Üdítőitalok > Egyéb ízesített üdítőital": 689,
+      "Üdítőitalok > Gyömbér- és gyökéralapú üdítőital": 57,
+      "Üdítőitalok > Jegestea": 482,
+      "Üdítőitalok > Kóla": 349,
+      "Üdítőitalok > Kombucha": 17,
+      "Üdítőitalok > Limonádé": 93,
+      "Üdítőitalok > Tonik": 87,
+      "Víz és vízalapú italok > Ízesítetlen palackozott víz": 420,
+      "Víz és vízalapú italok > Ízesített víz": 93
+    }
+  },
+  "operations": {
+    "kiszerelés_rendszer_szétválasztva": 1325,
+    "alkoholtartalom_normalizálva": 974,
+    "szénsavasság_egyértékűsítve": 3281,
+    "redundáns_energiamentes_flag_törölve": 1089,
+    "citrus_alapanyag_ágba_mozgatva": 65,
+    "koffeinmentes_flag_alakja_javítva": 3,
+    "Nesquik_desszertszósz_ágba_mozgatva": 1,
+    "útvonalon_belüli_típus_egységesítve": 4419,
+    "útvonalon_belüli_értékírásmód_egységesítve": 35
+  },
+  "changed_products": 12876,
+  "source_route_transitions": {
+    "Ital > Kávé, tea, kakaó (száraz) > Szemes kávé -> Ital > Kávé-, tea- és kakaótermékek > Kávé": 235,
+    "Ital > Kávé, tea, kakaó (száraz) > Kakaó italpor -> Ital > Kávé-, tea- és kakaótermékek > Kakaó és forró csokoládé": 77,
+    "Ital > Kávé, tea, kakaó (száraz) > Instant kávé -> Ital > Kávé-, tea- és kakaótermékek > Kávé": 186,
+    "Ital > Kávé, tea, kakaó (száraz) > Teafű, filteres tea, instant tea -> Ital > Kávé-, tea- és kakaótermékek > Tea": 34,
+    "Ital > Kávé, tea, kakaó (száraz) > Kávé ízesítők / tejek / tejporok -> Ital > Kávé-, tea- és kakaótermékek > Kávé- és teaadalék": 24,
+    "Ital > Kávé, tea, kakaó (száraz) > Gyümölcstea -> Ital > Kávé-, tea- és kakaótermékek > Tea": 318,
+    "Ital > Kávé, tea, kakaó (száraz) > Gyógytea -> Ital > Kávé-, tea- és kakaótermékek > Tea": 121,
+    "Ital > Kávé, tea, kakaó (száraz) > Fekete tea -> Ital > Kávé-, tea- és kakaótermékek > Tea": 160,
+    "Ital > Kávé, tea, kakaó (száraz) > Kávékapszula -> Ital > Kávé-, tea- és kakaótermékek > Kávé": 479,
+    "Ital > Kávé, tea, kakaó (száraz) > Őrölt kávé -> Ital > Kávé-, tea- és kakaótermékek > Kávé": 256,
+    "Ital > Kávé, tea, kakaó (száraz) > Zöld tea -> Ital > Kávé-, tea- és kakaótermékek > Tea": 106,
+    "Ital > Sör > Világos sör -> Ital > Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital": 519,
+    "Ital > Sör > Búzasör -> Ital > Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital": 56,
+    "Ital > Sör > IPA / Ale -> Ital > Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital": 66,
+    "Ital > Sör > Ízesített sör -> Ital > Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital": 96,
+    "Ital > Cider > (nincs altípus) -> Ital > Alkoholos italok és alkoholmentes alternatívák > Cider": 60,
+    "Ital > Bor > Vörösbor -> Ital > Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital": 673,
+    "Ital > Bor > Rozébor -> Ital > Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital": 312,
+    "Ital > Bor > Fehérbor -> Ital > Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital": 934,
+    "Ital > Habzó-, gyöngyözőbor, boralapú ital > Ízesített boralapú ital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital": 70,
+    "Ital > Habzó-, gyöngyözőbor, boralapú ital > Gyöngyözőbor -> Ital > Alkoholos italok és alkoholmentes alternatívák > Pezsgő, habzóbor és gyöngyözőbor": 58,
+    "Ital > Pezsgő > (nincs altípus) -> Ital > Alkoholos italok és alkoholmentes alternatívák > Pezsgő, habzóbor és gyöngyözőbor": 414,
+    "Ital > Alkoholok > Vermut -> Ital > Alkoholos italok és alkoholmentes alternatívák > Vermut és aperitif": 27,
+    "Ital > Bor > Tokaji borkülönlegesség -> Ital > Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital": 56,
+    "Ital > Alkoholok > Koktél, Rögtön iható, Egyéb -> Ital > Alkoholos italok és alkoholmentes alternatívák > Koktél és előre kevert ital": 119,
+    "Ital > Alkoholok > Likőr -> Ital > Alkoholos italok és alkoholmentes alternatívák > Likőr": 601,
+    "Ital > Alkoholok > Pálinka -> Ital > Alkoholos italok és alkoholmentes alternatívák > Pálinka": 133,
+    "Ital > Alkoholok > Vodka -> Ital > Alkoholos italok és alkoholmentes alternatívák > Vodka": 188,
+    "Ital > Alkoholok > Gin -> Ital > Alkoholos italok és alkoholmentes alternatívák > Gin": 133,
+    "Ital > Alkoholok > Rum -> Ital > Alkoholos italok és alkoholmentes alternatívák > Rum": 119,
+    "Ital > Alkoholok > Whisky & Bourbon -> Ital > Alkoholos italok és alkoholmentes alternatívák > Whisky és bourbon": 240,
+    "Ital > Alkoholok > Brandy -> Ital > Alkoholos italok és alkoholmentes alternatívák > Brandy": 41,
+    "Ital > Gyümölcslé > Vegyes gyümölcs- és zöldséglé -> Ital > Gyümölcs- és zöldségitalok > Lé": 190,
+    "Ital > Üdítőital > Cola -> Ital > Üdítőitalok > Kóla": 341,
+    "Ital > Üdítőital > Szénsavas üdítő -> Ital > Üdítőitalok > Egyéb ízesített üdítőital": 574,
+    "Ital > Ásványvíz > Szénsavas ásványvíz -> Ital > Víz és vízalapú italok > Ízesítetlen palackozott víz": 155,
+    "Ital > Ásványvíz > Szénsavmentes ásványvíz -> Ital > Víz és vízalapú italok > Ízesítetlen palackozott víz": 230,
+    "Ital > Energiaital > (nincs altípus) -> Ital > Funkcionális és teljesítményitalok > Energiaital": 341,
+    "Ital > Sör > Alkoholmentes sör -> Ital > Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital": 75,
+    "Ital > Üdítőital > Jegestea -> Ital > Üdítőitalok > Jegestea": 482,
+    "Ital > Funkcionális ital > Vitaminital -> Ital > Funkcionális és teljesítményitalok > Vitamin- és wellnessital": 155,
+    "Ital > Üdítőital > Szénsavas üdítő -> Ital > Üdítőitalok > Kóla": 8,
+    "Ital > Ízesített víz > (nincs altípus) -> Ital > Víz és vízalapú italok > Ízesített víz": 93,
+    "Ital > Citromlé > (nincs altípus) -> Alapanyag, sütés-főzés > Olaj, ecet, zsiradék > Citruslé és citrusízesítő": 60,
+    "Ital > Sör > Alkoholmentes radler -> Ital > Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital": 126,
+    "Ital > Sportital > (nincs altípus) -> Ital > Funkcionális és teljesítményitalok > Sport- és izotóniás ital": 86,
+    "Ital > Citromlé > Citromízesítő -> Alapanyag, sütés-főzés > Olaj, ecet, zsiradék > Citruslé és citrusízesítő": 5,
+    "Ital > Üdítőital > Limonádé -> Ital > Üdítőitalok > Limonádé": 74,
+    "Ital > Üdítőital > Szénsavas üdítő -> Ital > Üdítőitalok > Gyömbér- és gyökéralapú üdítőital": 54,
+    "Ital > Üdítőital > Tonic -> Ital > Üdítőitalok > Tonik": 83,
+    "Ital > Szörp, üdítőitalpor > Szörp -> Ital > Italkészítési alapok > Italszirup és folyékony koncentrátum": 367,
+    "Ital > Szörp, üdítőitalpor > Koktélszirup, italkoncentrátum -> Ital > Italkészítési alapok > Italszirup és folyékony koncentrátum": 28,
+    "Ital > Növényi ital > Rizsital -> Ital > Növényi italok > Egynövényes ital": 24,
+    "Ital > Növényi ital > Kókuszital -> Ital > Növényi italok > Egynövényes ital": 24,
+    "Ital > Növényi ital > Mandulaital -> Ital > Növényi italok > Egynövényes ital": 52,
+    "Ital > Növényi ital > Zabital -> Ital > Növényi italok > Egynövényes ital": 73,
+    "Ital > Növényi ital > Kevert növényi ital -> Ital > Növényi italok > Kevert növényi ital": 23,
+    "Ital > Növényi ital > Szójaital -> Ital > Növényi italok > Egynövényes ital": 24,
+    "Ital > Növényi ital > Mogyoróital -> Ital > Növényi italok > Egynövényes ital": 2,
+    "Ital > Üdítőital > Smoothie -> Ital > Gyümölcs- és zöldségitalok > Smoothie és püréital": 25,
+    "Ital > Gyümölcslé > 100% gyümölcslé -> Ital > Gyümölcs- és zöldségitalok > Lé": 222,
+    "Ital > Gyümölcslé > Zöldséglé -> Ital > Gyümölcs- és zöldségitalok > Lé": 41,
+    "Ital > Bor > Boralapú ital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital": 79,
+    "Ital > Pezsgő > Prosecco -> Ital > Alkoholos italok és alkoholmentes alternatívák > Pezsgő, habzóbor és gyöngyözőbor": 57,
+    "Ital > Habzó-, gyöngyözőbor, boralapú ital > Alkoholmentes habzó ital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Pezsgő, habzóbor és gyöngyözőbor": 31,
+    "Ital > Üdítőital > Gyerekital -> Ital > Gyümölcs- és zöldségitalok > Gyümölcsital": 157,
+    "Ital > Üdítőital > Szénsavas üdítő -> Ital > Gyümölcs- és zöldségitalok > Gyümölcsital": 9,
+    "Ital > Alkoholok > Szeszesital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Egyéb szeszes ital": 86,
+    "Ital > Alkoholok > Tequila -> Ital > Alkoholos italok és alkoholmentes alternatívák > Tequila": 21,
+    "Ital > Üdítőital > Szénsavas üdítő -> Ital > Üdítőitalok > Limonádé": 14,
+    "Ital > Üdítőital > Szénsavmentes üdítő -> Ital > Üdítőitalok > Limonádé": 5,
+    "Ital > Üdítőital > Szénsavas üdítő -> Ital > Üdítőitalok > Tonik": 4,
+    "Ital > Üdítőital > Gyümölcsital -> Ital > Gyümölcs- és zöldségitalok > Gyümölcsital": 594,
+    "Ital > Funkcionális ital > (nincs altípus) -> Ital > Funkcionális és teljesítményitalok > Egyéb funkcionális ital": 139,
+    "Ital > Üdítőital > Aloe vera ital -> Ital > Üdítőitalok > Aloe vera ital": 21,
+    "Ital > Üdítőital > Szénsavmentes üdítő -> Ital > Üdítőitalok > Egyéb ízesített üdítőital": 115,
+    "Ital > Ásványvíz > Enyhén szénsavas ásványvíz -> Ital > Víz és vízalapú italok > Ízesítetlen palackozott víz": 35,
+    "Ital > Üdítőital > Szénsavas üdítő -> Ital > Gyümölcs- és zöldségitalok > Lé": 2,
+    "Ital > Gyümölcslé > Nektár -> Ital > Gyümölcs- és zöldségitalok > Nektár": 81,
+    "Ital > Üdítőital > Gyerekital -> Ital > Gyümölcs- és zöldségitalok > Lé": 8,
+    "Ital > Üdítőital > Szénsavmentes üdítő -> Ital > Gyümölcs- és zöldségitalok > Gyümölcsital": 5,
+    "Ital > Üdítőital > Gyerekital -> Ital > Gyümölcs- és zöldségitalok > Smoothie és püréital": 58,
+    "Ital > Szörp, üdítőitalpor > Üdítőitalpor, italtabletta -> Ital > Italkészítési alapok > Italpor és tabletta": 15,
+    "Ital > Kávé, tea, kakaó (száraz) > 2in1, 3in1 instant kávé -> Ital > Kávé-, tea- és kakaótermékek > Kávé": 110,
+    "Ital > Kávé, tea, kakaó (száraz) > Cappuccino italpor -> Ital > Kávé-, tea- és kakaótermékek > Kávé": 35,
+    "Ital > Kávé, tea, kakaó (száraz) > Rooibos tea -> Ital > Kávé-, tea- és kakaótermékek > Tea": 21,
+    "Ital > Kávé, tea, kakaó (száraz) > Teafű, filteres tea, instant tea -> Ital > Italkészítési alapok > Italpor és tabletta": 11,
+    "Ital > Kávé, tea, kakaó (száraz) > Kakaópor -> Ital > Kávé-, tea- és kakaótermékek > Kakaó és forró csokoládé": 35,
+    "Ital > Kávé, tea, kakaó (száraz) > Forró csokoládé italpor -> Ital > Kávé-, tea- és kakaótermékek > Kakaó és forró csokoládé": 26,
+    "Ital > Sör > Barna sör -> Ital > Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital": 57,
+    "Ital > Cider > Alkoholmentes cider -> Ital > Alkoholos italok és alkoholmentes alternatívák > Cider": 13,
+    "Ital > Sör > Malátaital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital": 19,
+    "Ital > Kombucha > (nincs altípus) -> Ital > Üdítőitalok > Kombucha": 17,
+    "Ital > Alkoholok > Alkoholmentes szeszesital, koktél -> Ital > Alkoholos italok és alkoholmentes alternatívák > Koktél és előre kevert ital": 6,
+    "Ital > Bor > Alkoholmentes bor -> Ital > Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital": 4,
+    "Ital > Alkoholok > Alkoholmentes szeszesital, koktél -> Ital > Alkoholos italok és alkoholmentes alternatívák > Gin": 2,
+    "Ital > Alkoholok > Alkoholmentes szeszesital, koktél -> Ital > Alkoholos italok és alkoholmentes alternatívák > Vermut és aperitif": 6,
+    "Ital > Alkoholok > Alkoholmentes szeszesital, koktél -> Ital > Alkoholos italok és alkoholmentes alternatívák > Rum": 1,
+    "Ital > Alkoholok > Alkoholmentes szeszesital, koktél -> Ital > Alkoholos italok és alkoholmentes alternatívák > Whisky és bourbon": 1,
+    "Ital > Funkcionális ital > Shot ital -> Ital > Funkcionális és teljesítményitalok > Egyéb funkcionális ital": 8,
+    "Ital > Gyümölcslé > Gyümölcspüré -> Ital > Gyümölcs- és zöldségitalok > Smoothie és püréital": 3,
+    "Ital > Növényi ital > Szójaital -> Ital > Növényi italok > Kevert növényi ital": 2,
+    "Ital > Szörp, üdítőitalpor > Koktélszirup, italkoncentrátum -> Alapanyag, sütés-főzés > Szószok, öntetek, dresszingek > Desszertszósz, topping": 1,
+    "Ital > Szörp, üdítőitalpor > Koktélszirup, italkoncentrátum -> Ital > Italkészítési alapok > Italpor és tabletta": 3,
+    "Ital > Sör > Sörválogatás -> Ital > Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital": 1,
+    "Ital > Növényi ital > Zabital -> Ital > Növényi italok > Kevert növényi ital": 3,
+    "Ital > Növényi ital > Rizsital -> Ital > Növényi italok > Kevert növényi ital": 3,
+    "Ital > Növényi ital > Egyéb növényi ital -> Ital > Növényi italok > Egynövényes ital": 1,
+    "Ital > Üdítőital > Gyökér alapú üdítőital -> Ital > Üdítőitalok > Gyömbér- és gyökéralapú üdítőital": 3
+  },
+  "conflicts": [
+    {
+      "id": "533696",
+      "property": "alkoholtartalom",
+      "before": [
+        "0,0%"
+      ],
+      "resolution": null,
+      "reason": "alkoholos termékút mellett csak 0-0,5% szerepelt"
+    },
+    {
+      "id": "632561:4169951",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "632558:4169948",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "586439:4123829",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "20821:20824",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "66227:3603308",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "693194:4230584",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "53199:53538",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "585563:4122953",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "588377:4125767",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "20824:20827",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "583839:4121229",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "582205:4119595",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "784529:4321919",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "21223:21226",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "20830:20833",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "122202:3659400",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "66233:3603314",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "583836:4121226",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "640916:4178306",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "632618:4170008",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "443608:3980992",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "23449:23452",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "684905:4222295",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "53202:53541",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "678539:4215929",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "324803:3862094",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "783761:4321151",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "100522:3637729",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "99678:3636882",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "100609:3637816",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "941999:4479389",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "557103:4094493",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "468659:4006031",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "1034381:4571771",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "1034378:4571768",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "66371:3603452",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "53259:53598",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "587102:4124492",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "51123:51465",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "66236:3603317",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "679259:4216649",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "207412:3744661",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "588386:4125776",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "963221:4500611",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "632546:4169936",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "41383:41386",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "211880:3749141",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X17421200320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X17420600320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X9753300320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X11131700320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X16538400320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X17296000320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X7737500320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X7737600320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X16318000320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X9650000320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X10730000320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X10729100320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X16318300320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X10729900320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X11998500320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X16470400320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X16555900320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X16318500320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X17311500320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X10990200320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X10991200320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X12391000320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X12514000320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X16556000320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "BTY-X17245700320021",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "916403",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "815188",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "901772",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "6050436ad40baab8f9dc1ea4",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "d15e50e74e32dfebf544c5b9",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "5dd137e43037739b1ca90ec8",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "194971d65c5149cb1486884f",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "52a4e544cfb10a49240ccd91",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "4516ff84cffb2b5fd0dc139c",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "26bb2e73f95ea698742ff744",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "d9f370f02acbd128f0fb56c0",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "5a620284b6ad5e18b7d94fd4",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "e50b981c32491a86232ffc3e",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "2f94fa49fbfd6e0448e9ea08",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "3220dd32b763f708f9865359",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "2a1f9166467a6448cfc39c6f",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "7f32ecb34a3f3aa8dfa0f513",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "b0a265c99c2c0a3624224f61",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "55dbe1a03da15b07cf73ee86",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "7d7dab52f30c1d68c3d43c1e",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "1ebafb8df032f47f4fd6a4be",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "e2fa73034e380b40fc17ca7a",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "80ff0f079530473af6bb6ebb",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "0f7da3ffe5acee69eb4d75c8",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "3c8d4c4366883b7347fc889c",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "6eecb10b6976ccafc5109463",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "1022251805e16dd0f0f0565a",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "76f70f17d362e8410bc4b732",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "7faec0c6bfeee0a98b71f5cd",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "5889aa96cbc0d2992691b30f",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "47104419aabd32c167563f41",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "8a2fc82adb41d34e86f357f6",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "d95f2e92c53c153229d2fb42",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "ba51da840bed799de3e555ba",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "f2c2b2a95f6a213ee871a7ac",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "e5294b73e5f9b6f56f7d5348",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "4c7135370760db16a52e2d0c",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "106d0b4e95b48e2cc07781aa",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "8e12e8d9c10642b245cec789",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "40732c12a141d8cc49dbcdff",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "970afdc4f6aed7ff22bc8d7d",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "f913bd05e2713b32de34e8bb",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "ebf48c447bebf74f34e58dfd",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "09ba0aca1f240bd292c2c165",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "650a8df2a7954796e8d4e360",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "fb2f3e1f7a756eec3b155536",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "8a6679719c6efd19abc58164",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "e5a5612ba088819699091148",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "95edde747e19fd15eb4b0b53",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "011de134c0171fedf69bc2f6",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "de7a08c266b6c92fed21ba5b",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "f703a5cb422eb46af756c330",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "bd18ba13a641cdb6e9ce6e88",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "f9984d6561a48498a134a171",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "cb81b55a3687c647fe5f86f9",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "f03f02d4395eee4958266fd4",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "dff0bb8e81fb8bebb7f7516b",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "bf85ac81daa9e96e17252563",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "bc5bc56340fe8f2a2afa256f",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "b8df85eec4ea3607a86575ca",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "18a60c5583ad019d217dba7e",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "121220195",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "121220166",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "120760887",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220341207",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105002481",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220156979",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "120760870",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220341210",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105002482",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "120760904",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105003613",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105002474",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105004505",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220341212",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105013863",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105002470",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "120760841",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105003614",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220156977",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "120760910",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220262072",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220334010",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "121217050",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220343336",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220334001",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220341208",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105014540",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220341211",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "209532591",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220128351",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "120760674",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220263454",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220314931",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105013846",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105441019",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105441020",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "105441024",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "121267485",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220322374",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220322379",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    },
+    {
+      "id": "220322380",
+      "property": "szénsavasság",
+      "before": [
+        "szénsavas",
+        "szénsavmentes"
+      ],
+      "resolution": null,
+      "reason": "ellentmondó többértékű adat"
+    }
+  ],
+  "validation": {
+    "status": "ok",
+    "errors": [],
+    "counts": {
+      "total_products": 47030,
+      "ital_products": 12810,
+      "ital_paths": 41,
+      "ital_parent_categories": 8,
+      "citrus_moved": 65
+    },
+    "details": {
+      "declaration_errors": [],
+      "type_errors": [],
+      "value_errors": [],
+      "hash_errors": [],
+      "alcohol_errors": [],
+      "carbonation_errors": [],
+      "citrus_hash_errors": []
+    }
+  },
+  "checker": {
+    "stage": {
+      "status": "ok",
+      "inputs": {
+        "products": "C:\\Users\\Bobo\\Documents\\GitHub\\elelmeskosar2\\data\\categories\\kategorizalando_termekek\\GPT\\eredmeny.json.ital-tree-stage",
+        "categories": "C:\\Users\\Bobo\\Documents\\GitHub\\elelmeskosar2\\data\\categories\\kategorizalando_termekek\\GPT\\kategoriak_2026-06-13.json.ital-tree-stage"
+      },
+      "summary": {
+        "products": 47030,
+        "ital_products": 12810,
+        "expected_ital_subcategories": 8,
+        "expected_ital_leaves": 41,
+        "declared_ital_leaves": 41,
+        "used_ital_leaves": 41,
+        "empty_ital_altipus_products": 0,
+        "alcohol_branch_products": 5500,
+        "water_branch_products": 513,
+        "cola_and_tonic_products": 436,
+        "nesquik_records": 1,
+        "citrus_ids_expected": 65,
+        "citrus_records_on_target": 65,
+        "citrus_records_fully_checked": 65
+      },
+      "failures": {}
+    },
+    "final": {
+      "status": "ok",
+      "inputs": {
+        "products": "C:\\Users\\Bobo\\Documents\\GitHub\\elelmeskosar2\\data\\categories\\kategorizalando_termekek\\GPT\\eredmeny.json",
+        "categories": "C:\\Users\\Bobo\\Documents\\GitHub\\elelmeskosar2\\data\\categories\\kategorizalando_termekek\\GPT\\kategoriak_2026-06-13.json"
+      },
+      "summary": {
+        "products": 47030,
+        "ital_products": 12810,
+        "expected_ital_subcategories": 8,
+        "expected_ital_leaves": 41,
+        "declared_ital_leaves": 41,
+        "used_ital_leaves": 41,
+        "empty_ital_altipus_products": 0,
+        "alcohol_branch_products": 5500,
+        "water_branch_products": 513,
+        "cola_and_tonic_products": 436,
+        "nesquik_records": 1,
+        "citrus_ids_expected": 65,
+        "citrus_records_on_target": 65,
+        "citrus_records_fully_checked": 65
+      },
+      "failures": {}
+    }
+  }
+}
