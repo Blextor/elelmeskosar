@@ -8942,16 +8942,18 @@
                 ],
                 "gyümölcs": [
                   "citrom",
-                  "gyömbér",
                   "lime",
                   "menta",
                   "narancs"
                 ],
+                "összetevő": [
+                  "gyömbér"
+                ],
                 "terméktípus": [
                   "citromlé",
                   "citrusízesítő",
-                  "gyömbér-citromlé",
-                  "limelé"
+                  "limelé",
+                  "narancslé-koncentrátum"
                 ]
               }
             }
@@ -62477,23 +62479,50 @@
           "Ízesítetlen palackozott víz": {
             "tulajdonságok": {
               "egyedi": {
+                "csomagdarabszám": [
+                  12,
+                  14,
+                  18,
+                  24,
+                  6,
+                  8
+                ],
                 "DRS": {},
+                "egységnyi kiszerelés": [
+                  "1,5 l",
+                  "1 l",
+                  "330 ml",
+                  "500 ml",
+                  "750 ml"
+                ],
                 "kiszerelés": [
+                  "0,75 l",
                   "1,1 l",
                   "1,5 l",
                   "1,6 l",
                   "1 l",
+                  "10500 ml",
+                  "12 l",
+                  "12000 ml",
                   "19 l",
                   "2 l",
+                  "2000 ml",
                   "250 ml",
+                  "3000 ml",
                   "330 ml",
                   "375 ml",
+                  "3960 ml",
+                  "4000 ml",
                   "5 l",
                   "500 ml",
+                  "6 l",
                   "600 ml",
+                  "6000 ml",
                   "700 ml",
                   "750 ml",
-                  "nem jelölt"
+                  "7920 ml",
+                  "9 l",
+                  "9000 ml"
                 ],
                 "márka": [
                   "Acqua Panna",
@@ -62511,12 +62540,11 @@
                   "Comix",
                   "Coop",
                   "Dr. Vis",
-                  "Emese",
                   "Evian",
                   "Ferenc József",
                   "Floewater Sparkling",
                   "Floewater Still",
-                  "Fonte Natura",
+                  "Fonte",
                   "Füredi ION",
                   "Füredi OXION",
                   "Glacéau Smartwater",
@@ -62539,7 +62567,6 @@
                   "Primavera",
                   "RIOBA",
                   "S-Budget",
-                  "S. Pellegrino",
                   "Salvus",
                   "San Benedetto",
                   "San Pellegrino",
@@ -62562,6 +62589,15 @@
                 ]
               },
               "csoportos": {
+                "célcsoport": [
+                  "gyerek"
+                ],
+                "csomagolás": [
+                  "multipack"
+                ],
+                "termékcsalád": [
+                  "Emese"
+                ],
                 "terméktípus": [
                   "babavíz",
                   "gyógyvíz",
@@ -62571,6 +62607,7 @@
                 ],
                 "változat": [
                   "Cívis",
+                  "Natura",
                   "Verde"
                 ]
               }
@@ -62579,23 +62616,22 @@
           "Ízesített víz": {
             "tulajdonságok": {
               "egyedi": {
-                "cukormentes / zero": {},
-                "energia tartalom": [
+                "cukormentes": {},
+                "cukrozott": {},
+                "energiastátusz": [
                   "csökkentett energiatartalmú",
-                  "cukros",
-                  "egyéb",
                   "energiamentes",
                   "energiaszegény"
                 ],
                 "kiszerelés": [
                   "1,5 l",
                   "1 l",
+                  "1500 ml",
                   "250 ml",
                   "375 ml",
                   "500 ml",
                   "700 ml",
-                  "750 ml",
-                  "nem jelölt"
+                  "750 ml"
                 ],
                 "márka": [
                   "Apenta",
@@ -62604,7 +62640,7 @@
                   "Aqvital",
                   "Comix",
                   "Coop",
-                  "Fonte Beauty",
+                  "Fonte",
                   "Jana",
                   "Kékforrás",
                   "Mizse",
@@ -62660,10 +62696,10 @@
                   "uborka"
                 ],
                 "tartalom": [
-                  "egyéb",
                   "vitamin"
                 ],
                 "változat": [
+                  "Beauty",
                   "Egy csepp gyümölcs"
                 ]
               }
@@ -62684,11 +62720,20 @@
                   "alkoholmentes",
                   "alkoholos"
                 ],
+                "csomagdarabszám": [
+                  6
+                ],
+                "egységnyi kiszerelés": [
+                  "0,75 l",
+                  "2 l",
+                  "750 ml"
+                ],
                 "ízesített": {},
                 "kiszerelés": [
                   "1,5 l",
                   "1 l",
                   "10 l",
+                  "12 l",
                   "187 ml",
                   "19 l",
                   "2 l",
@@ -62696,23 +62741,21 @@
                   "250 ml",
                   "3 l",
                   "375 ml",
+                  "4,5 l",
+                  "4500 ml",
                   "5 l",
                   "500 ml",
-                  "6 x 2 l",
+                  "5000 ml",
                   "700 ml",
-                  "750 ml",
-                  "nem jelölt"
+                  "750 ml"
                 ],
                 "márka": [
                   "ADRIEN ROMET ARMAND DARTOIS",
-                  "African Rock Selection",
+                  "African Rock",
                   "Amulett",
                   "Angelli",
-                  "ANGYAL",
                   "Angyal Borászat",
-                  "Angyal Borászat Mosoly Tokaji Édes Cuvée",
-                  "Aperitivo Bianco",
-                  "Aperitivo Cherry",
+                  "Aperitivo",
                   "Arany Koma",
                   "Armilar",
                   "Auchan",
@@ -62731,13 +62774,12 @@
                   "Bodegas Faustino",
                   "Bodri",
                   "BOLDOG KARÁCSONYT!",
-                  "BOLYKI",
-                  "Bolyki János",
+                  "Bolyki",
                   "Borbár",
                   "Borbély Családi Pincészet",
                   "Bordeaux AOP Superieur",
                   "Borissza",
-                  "Bostavan Gold Premium",
+                  "Bostavan",
                   "Brazin",
                   "Bucks Fizz",
                   "BUJDOSÓ",
@@ -62765,10 +62807,7 @@
                   "DON PABLO",
                   "Dubicz",
                   "Dúzsi",
-                  "Dúzsi Tamás",
                   "Egri Korona",
-                  "Egri Korona Borház",
-                  "egyéb",
                   "Eiler Früchtegarten",
                   "EL BAR ARGENTINO",
                   "El Circo",
@@ -62778,11 +62817,9 @@
                   "Etyek-Budai Olaszrizling",
                   "ETYEKI KÚRIA",
                   "Evinor",
-                  "Fantasy Cabernet Sauvignon",
-                  "Fantasy Chardonnay",
-                  "Fantasy Muscat Rose",
+                  "Fantasy",
                   "FAUSTINO",
-                  "FEHÉRVÁRI Borbirtok",
+                  "Fehérvári",
                   "Feind",
                   "Fernway",
                   "Figula",
@@ -62792,7 +62829,6 @@
                   "FONTBREUIL",
                   "FONTE FRONTINI",
                   "Frescanti",
-                  "Frescanti Cherry",
                   "Frittmann",
                   "Gál",
                   "Gál Tibor",
@@ -62801,7 +62837,6 @@
                   "Gere",
                   "GERE ATTILA",
                   "Gere - Schubert",
-                  "Gere Tamás",
                   "Gere Tamás & Zsolt",
                   "GILVESY",
                   "Gilvesy Bohém Cuvée",
@@ -62810,7 +62845,6 @@
                   "Grand Tokaj",
                   "Green Cape",
                   "GRÓF DEGENFELD",
-                  "Günzer",
                   "Günzer Tamás",
                   "György - Villa",
                   "Haraszthy",
@@ -62828,7 +62862,6 @@
                   "Hüttenglut",
                   "I Love",
                   "Ikon",
-                  "Ikon Pincészet",
                   "INSÓLITO",
                   "Jackfall",
                   "Jammertal",
@@ -62839,7 +62872,7 @@
                   "Kaikoura Bay",
                   "KAMOCSAY",
                   "Kancellár",
-                  "Katona Nálad Vagy Nálam",
+                  "Katona",
                   "Kislaki",
                   "Kislaki-Légli Géza",
                   "Kiss István",
@@ -62863,18 +62896,15 @@
                   "LYSKA",
                   "M. CHAPOUTIER",
                   "Maczkó",
-                  "Maczkó Medve Álom",
                   "Malaga Virgen",
                   "MÁRTON PINCE",
                   "MASI",
                   "Mateus",
                   "Mátra-Bacchus",
                   "Mátrai Cserszegi Fűszeres",
-                  "MATUA",
-                  "Matua Valley",
+                  "Matua",
                   "Mavrodaphne",
                   "Merlot del Veneto",
-                  "Mészáros",
                   "Mészáros Pál",
                   "Michel Laurent",
                   "Mini borok",
@@ -62889,12 +62919,9 @@
                   "NEXTGEN",
                   "Night Orient",
                   "Nyakas",
-                  "Ostoros Hugo Spritz",
                   "Ostorosbor",
                   "Paangold",
                   "Pannonhalmi Főapátság",
-                  "Pannonhalmi Tricollis",
-                  "Pannonhalmi Tricollis Fehér",
                   "Patricius",
                   "Pauleczki",
                   "Paulus",
@@ -62903,7 +62930,6 @@
                   "PETRÉNY",
                   "Pierre Chanau",
                   "Piknik",
-                  "Piknik Selection",
                   "Pillangósvirágú",
                   "Pincemester",
                   "Pócz Pincészet",
@@ -62936,7 +62962,6 @@
                   "Szeleshát",
                   "Szende",
                   "Szent Gaál",
-                  "Szent Gaál Twist",
                   "Szent István Korona",
                   "Szentesi Pince",
                   "Szepsy",
@@ -62950,7 +62975,6 @@
                   "TESSUTO",
                   "Thummerer",
                   "Tiffán",
-                  "Tiffán's",
                   "Tokajicum",
                   "Tolnai Chardonnay",
                   "Tormaresca",
@@ -62998,6 +63022,10 @@
                 ]
               },
               "csoportos": {
+                "alap": [
+                  "fekete ribizli",
+                  "meggy"
+                ],
                 "alkoholtartalom": [
                   "0%",
                   "0,0%",
@@ -63037,13 +63065,44 @@
                   "9,5%"
                 ],
                 "borstílus": [
+                  "aszú",
+                  "bikavér",
+                  "bikavér superior",
+                  "cuvée",
+                  "desszertbor",
+                  "egri csillag",
+                  "gyümölcsbor",
+                  "jégbor",
+                  "késői szüret",
+                  "rozé",
+                  "ruby port",
+                  "siller",
+                  "szamorodni",
+                  "tawny port",
                   "tokaji borkülönlegesség"
                 ],
                 "bortípus": [
                   "bor",
                   "boralapú ital"
                 ],
-                "borvidék / eredet": [
+                "csomagolás": [
+                  "bag-in-box",
+                  "doboz",
+                  "hordó",
+                  "multipack",
+                  "palack"
+                ],
+                "csomagolás anyaga": [
+                  "műanyag",
+                  "üveg"
+                ],
+                "édesség": [
+                  "édes",
+                  "félédes",
+                  "félszáraz",
+                  "száraz"
+                ],
+                "eredet": [
                   "Abruzzo",
                   "Alentejo",
                   "Anjou",
@@ -63052,15 +63111,13 @@
                   "Badacsony",
                   "Balaton",
                   "Balatonboglár",
-                  "Balatonboglári",
                   "Balatonfüred",
                   "Balatonfüred-Csopak",
                   "Balatonmellék",
-                  "Balatonmelléke",
-                  "Balatonmelléki",
                   "Balatonszőlős",
                   "Beaujolais",
                   "Bordeaux",
+                  "Bordeaux Supérieur",
                   "Bourgogne",
                   "Budai",
                   "Camargue",
@@ -63068,46 +63125,40 @@
                   "Carinena",
                   "Chianti",
                   "Chile",
+                  "Côtes du Rhône",
                   "Debrő",
                   "Dél-Afrika",
                   "Delle Venezie",
                   "Duna-Tisza köze",
-                  "Duna-Tisza közi",
                   "Dunántúl",
                   "Eger",
-                  "Egri",
-                  "Egri Rosé",
-                  "egyéb",
                   "Etyek",
                   "Etyek-Buda",
-                  "Etyek-Budai",
                   "Felső-Magyarország",
-                  "Felső-Magyarországi",
                   "Franciaország",
                   "Hajós-Baja",
                   "Haut-Médoc",
                   "Kalifornia",
                   "Kunság",
-                  "Kunsági",
                   "Magyarország",
                   "Malaga",
                   "Margaux",
                   "Marlborough",
                   "Mátra",
-                  "Mátrai",
                   "Médoc",
                   "Mendoza",
                   "Ménes",
+                  "Montagne-Saint-Émilion",
                   "Mór",
                   "Nagy-Somló",
                   "Neszmély",
-                  "Neszmélyi",
                   "Olaszország",
                   "Pannon",
                   "Pannonhalma",
                   "Pays d'Oc",
                   "Pécs",
                   "Portugália",
+                  "Pouilly-Fuissé",
                   "Puglia",
                   "Rhône",
                   "Rioja",
@@ -63123,21 +63174,16 @@
                   "Szekszárd",
                   "Szicília",
                   "Tokaj",
-                  "Tokaji",
                   "Tolna",
                   "Toscana",
                   "Új-Zéland",
                   "Valle Central",
                   "Veneto",
                   "Villány",
-                  "Villányi",
                   "Zemplén"
                 ],
-                "édesség": [
-                  "édes",
-                  "félédes",
-                  "félszáraz",
-                  "száraz"
+                "érlelés": [
+                  "roble"
                 ],
                 "fajta": [
                   "boralapú ital",
@@ -63168,14 +63214,12 @@
                   "egri bikavér",
                   "egri cuvée",
                   "egri merlot",
-                  "egyéb",
                   "eper",
                   "erdei gyümölcs",
                   "forralt bor",
                   "görögdinnye",
                   "gránátalma",
                   "gyömbér",
-                  "irsai olivér",
                   "kávé",
                   "kékfrankos",
                   "késői szüret",
@@ -63189,14 +63233,12 @@
                   "maracuja",
                   "meggy",
                   "menta",
-                  "merlot",
                   "mojito",
                   "muskotály",
                   "narancs",
                   "natúr",
                   "olaszrizling",
                   "őszibarack",
-                  "pinot noir",
                   "pisztácia",
                   "portói ruby",
                   "portói tawny",
@@ -63227,7 +63269,6 @@
                   "gránátalma",
                   "gyömbér",
                   "kókusz",
-                  "kóla",
                   "lime",
                   "málna",
                   "mangó",
@@ -63237,192 +63278,92 @@
                   "őszibarack",
                   "szőlő"
                 ],
-                "palack": [
-                  "bag-in-box",
-                  "doboz",
-                  "keg",
-                  "műanyag",
-                  "üveg"
+                "puttonyszám": [
+                  4,
+                  5,
+                  6
                 ],
                 "szín": [
                   "fehér",
                   "rozé",
                   "vörös"
                 ],
-                "szőlőfajta / borstílus": [
-                  "5 puttonyos",
-                  "áfonya",
-                  "Aligvárom",
-                  "Aszú 4 puttonyos",
-                  "Aszú 5 puttonyos",
-                  "Aszú 6 puttonyos",
-                  "Beaujolais",
-                  "Big Band",
-                  "Bikavér",
-                  "Bikavér Superior",
-                  "Blanc Cuvée",
-                  "Bodorka",
-                  "Bordeaux cuvée",
-                  "Bordeaux Superieur",
-                  "cabernet",
+                "szőlőfajta": [
+                  "Cabernet",
                   "Cabernet Franc",
-                  "Cabernet Rosé",
                   "Cabernet Sauvignon",
-                  "Cabernet Sauvignon Rosé",
                   "Carmenere",
                   "Chardonnay",
                   "Chenin Blanc",
-                  "cherry",
-                  "Chianti",
                   "Cirfandli",
-                  "Civilis Cuvée",
                   "Colombard",
-                  "Côtes du Rhône",
                   "Csabagyöngye",
                   "Cserszegi fűszeres",
-                  "cuvée",
-                  "Cuvée 11",
-                  "Cuvée 13",
-                  "Cuvée 7",
-                  "desszertbor",
-                  "Egri Bikavér",
-                  "Egri Csillag",
-                  "Egri Rozé",
-                  "egyéb",
-                  "Émilion",
-                  "erdei gyümölcs",
-                  "Ermitage",
-                  "Estve",
                   "Ezerjó",
-                  "Fajzat Cuvée",
-                  "fehér cuvée",
-                  "fekete leányka",
-                  "feketeribizlibor",
-                  "Filigrán Cuvée",
-                  "Franc",
-                  "Fuissé",
+                  "Fekete leányka",
                   "Furmint",
                   "Garnacha",
                   "Garnacha Blanca",
                   "Garnacha Tinta",
                   "Generosa",
-                  "Grand Cuvée",
-                  "Grandiózus Malbec",
-                  "Grandiózus Syrah",
                   "Grillo",
-                  "GT Rosé",
-                  "Halfarka",
                   "Hárslevelű",
-                  "Haut",
-                  "Ihlet Cuvée",
-                  "Immortal",
-                  "Indián Nyár Cuvée",
                   "Irsai Olivér",
-                  "jégbor",
                   "Juhfark",
-                  "K2",
                   "Kadarka",
                   "Kékfrankos",
-                  "Kékfrankos Rosé",
                   "Kéknyelű",
-                  "késői szüret",
                   "Királyleányka",
-                  "Kopar",
-                  "Kopar Cuvée",
-                  "Late Harvest",
-                  "Lezser",
-                  "Libra Cuvée",
                   "Macabeo",
                   "Malbec",
-                  "Margaux",
                   "Medina",
-                  "Médoc",
-                  "meggybor",
                   "Menoire",
                   "Merlot",
-                  "Merlot Cuvée",
-                  "Merlot Rosé",
-                  "Mirtill Cuvée",
                   "Montepulciano",
-                  "Montepulciano d'Abruzzo",
-                  "More",
                   "Muscat",
                   "Muscat Blanc",
                   "Muscat Lunel",
                   "Muscat Ottonel",
-                  "muskotály",
-                  "muskotályos",
+                  "Muskotály",
                   "Nero d'Avola",
-                  "olaszrizling",
-                  "Olivér Cuvée",
-                  "Olívia",
-                  "Olívia Cuvée",
-                  "Pannon Cuvée Blanc",
+                  "Olaszrizling",
                   "Pinot Grigio",
                   "Pinot Noir",
                   "Pinotage",
-                  "PortaGéza",
                   "Portugieser",
-                  "Pouilly",
                   "Primitivo",
-                  "Principium",
                   "Rajnai Rizling",
-                  "Regnum Cuvée",
-                  "riesling",
-                  "rizling",
-                  "Rosé",
-                  "Rosé Cuvée",
-                  "Rosso Toscana",
-                  "Royal",
-                  "Royal Cuvée",
-                  "Rozé",
-                  "Rozé Cuvée",
-                  "Ruby Port",
-                  "Saint",
+                  "Riesling",
+                  "Rizling",
                   "Sangiovese",
                   "Sárgamuskotály",
-                  "Sauvignon",
                   "Sauvignon Blanc",
-                  "Shiraz",
-                  "siller",
-                  "Somlói Cuvée",
-                  "syrah",
-                  "Syrah Rosé",
-                  "Szamorodni",
+                  "Syrah",
                   "Szürkebarát",
-                  "tawny",
-                  "Tawny Port",
                   "Tempranillo",
-                  "Tempranillo Roble",
-                  "Tokaji Aszú",
-                  "Tokaji Szamorodni",
-                  "Töpszli Cuvée",
                   "Tramini",
                   "Trebbiano",
-                  "Tricollis",
-                  "Tricollis Vörös",
-                  "Trió Cuvée",
                   "Turán",
                   "Verdejo",
                   "Viura",
-                  "Vörös Cuvée",
-                  "White Cuvée",
                   "Zenit",
                   "Zeus",
                   "Zinfandel",
-                  "zöld veltelini",
+                  "Zöld veltelini",
                   "Zweigelt"
+                ],
+                "termékcsalád": [
+                  "Hugo Spritz",
+                  "Selection",
+                  "Tricollis"
                 ],
                 "típus": [
                   "aszú",
-                  "bikavér",
                   "bikavér superior",
-                  "Boralapú ital",
                   "boralapú koktél",
                   "borkoktél",
                   "édes",
                   "édes vörösbor",
-                  "egyéb",
                   "Ermitage Cuvée",
                   "félédes",
                   "félszáraz",
@@ -63431,7 +63372,6 @@
                   "hugo spritz",
                   "ízesített bor",
                   "Ízesített boralapú ital",
-                  "jégbor",
                   "kései szüretelésű",
                   "késői szüret",
                   "likőrbor",
@@ -63441,26 +63381,68 @@
                   "sangria",
                   "sherry",
                   "spritz",
-                  "szamorodni",
                   "száraz",
                   "szénsavas boralapú koktél",
                   "Tokaji borkülönlegesség"
                 ],
                 "változat": [
                   "100% Balaton",
+                  "Aligvárom",
+                  "Bianco",
+                  "Big Band",
                   "Blanc",
+                  "Bodorka",
                   "Boldog névnapot",
                   "Boldog születésnapot",
+                  "Cherry",
+                  "Civilis",
                   "Classic Collection",
+                  "Cuvée 11",
+                  "Cuvée 13",
+                  "Cuvée 7",
+                  "Ermitage",
+                  "Estve",
+                  "Fajzat",
+                  "Fehér",
+                  "Filigrán",
                   "FRUIT",
+                  "Gold Premium",
+                  "Grand Cuvée",
+                  "Grandiózus",
+                  "GT",
+                  "Halfarka",
                   "Hugo",
                   "Hugo Spritz",
+                  "Ihlet",
+                  "Immortal",
+                  "Indián Nyár",
+                  "K2",
+                  "Kopar",
+                  "Lezser",
+                  "Libra",
+                  "Medve Álom",
+                  "Mirtill",
+                  "Mosoly",
+                  "Nálad Vagy Nálam",
+                  "Olivér",
+                  "Olívia",
+                  "Pannon",
+                  "PortaGéza",
+                  "Principium",
+                  "Regnum",
                   "Rosé Tempranillo",
+                  "Royal",
                   "Rozi",
+                  "Selection",
                   "Serena",
                   "Superior",
                   "Tokaji Kedves Cuvée",
-                  "Tündérrózsa"
+                  "Töpszli",
+                  "Tricollis",
+                  "Trió",
+                  "Tündérrózsa",
+                  "Twist",
+                  "Zenit & More"
                 ]
               }
             }
@@ -63472,15 +63454,24 @@
                   "alkoholmentes",
                   "alkoholos"
                 ],
+                "csomagdarabszám": [
+                  4,
+                  6
+                ],
+                "egységnyi kiszerelés": [
+                  "0,2 l",
+                  "750 ml"
+                ],
                 "kiszerelés": [
                   "1,5 l",
                   "200 ml",
                   "250 ml",
                   "3 l",
                   "375 ml",
+                  "4500 ml",
                   "500 ml",
                   "750 ml",
-                  "nem jelölt"
+                  "800 ml"
                 ],
                 "márka": [
                   "ADRIEN ROMET",
@@ -63515,7 +63506,6 @@
                   "Dom Pérignon",
                   "ETYEKI KÚRIA",
                   "Fehérvári",
-                  "FEHÉRVÁRI Borbirtok",
                   "Feind",
                   "Francois Louis François & Co.",
                   "François President",
@@ -63523,7 +63513,7 @@
                   "Frittmann",
                   "Gancia",
                   "GARAMVÁRI",
-                  "Gedeon Birtok Brut",
+                  "Gedeon",
                   "Gere Frici",
                   "Giorgio",
                   "Grand Tokaj",
@@ -63540,13 +63530,12 @@
                   "Kreinbacher",
                   "LA GIOIOSA",
                   "Laposa",
-                  "Laposa Méthode Charmat",
                   "Laurent Perrier",
                   "LELOVITS",
                   "Louis Couturier",
                   "Martini",
                   "Menolia",
-                  "Mészáros",
+                  "Mészáros Pál",
                   "Mionetto",
                   "Moët & Chandon",
                   "Mokos Pincészet",
@@ -63564,7 +63553,6 @@
                   "Royal",
                   "Sauska",
                   "Stolzenfels",
-                  "Szovjetszkoje Igristoje",
                   "Szovjetszkoje Igrisztoje",
                   "Teleki",
                   "Tesco",
@@ -63576,7 +63564,6 @@
                   "Veuve Clicquot",
                   "Veuve Émille",
                   "Veuve Pelletier",
-                  "Veuve Pelletier Ponsardin",
                   "Villa Vincento",
                   "Vino Frizzante",
                   "Visiega",
@@ -63601,11 +63588,13 @@
                   "12,5%",
                   "13%",
                   "4%",
-                  "53,5%",
                   "6,5%",
                   "7%",
                   "7,5%",
                   "9,5%"
+                ],
+                "borstílus": [
+                  "cuvée"
                 ],
                 "bortípus": [
                   "alkoholmentes habzó ital",
@@ -63613,19 +63602,12 @@
                   "pezsgő",
                   "prosecco"
                 ],
-                "borvidék / eredet": [
-                  "Balaton",
-                  "Balatonboglár",
-                  "Bordeaux",
-                  "Dunántúl",
-                  "egyéb",
-                  "Etyek-Buda",
-                  "Felső-Magyarország",
-                  "Olaszország",
-                  "Pannonhalma",
-                  "Tokaj",
-                  "Treviso",
-                  "Villány"
+                "csomagolás": [
+                  "multipack",
+                  "palack"
+                ],
+                "csomagolás anyaga": [
+                  "üveg"
                 ],
                 "édesség": [
                   "brut",
@@ -63638,17 +63620,31 @@
                   "különleges száraz",
                   "száraz"
                 ],
+                "eljárás": [
+                  "Charmat"
+                ],
+                "eredet": [
+                  "Balaton",
+                  "Balatonboglár",
+                  "Bordeaux",
+                  "Dunántúl",
+                  "Etyek-Buda",
+                  "Felső-Magyarország",
+                  "Olaszország",
+                  "Pannonhalma",
+                  "Tokaj",
+                  "Treviso",
+                  "Villány"
+                ],
                 "eredetvédelem": [
                   "DOC"
                 ],
                 "fajta": [
                   "bianco",
-                  "fehér",
                   "fehér gyöngyözőbor",
                   "gyümölcsbor",
                   "prosecco",
                   "rosato",
-                  "rozé",
                   "rozé gyöngyözőbor",
                   "vörös gyöngyözőbor"
                 ],
@@ -63698,32 +63694,20 @@
                   "Tokaji Doux",
                   "trocken"
                 ],
-                "palack": [
-                  "üveg"
-                ],
                 "szín": [
-                  "egyéb",
                   "fehér",
                   "rozé",
                   "vörös"
                 ],
-                "szőlőfajta / borstílus": [
-                  "chardonnay",
+                "szőlőfajta": [
+                  "Chardonnay",
                   "Cserszegi fűszeres",
-                  "cuvée",
-                  "egyéb",
                   "Irsai Olivér",
                   "Moscato",
-                  "muskotály",
-                  "Olivier",
-                  "prosecco",
-                  "Rosé Cuvée",
-                  "Rozé Cuvée",
-                  "Sárgamuskotály",
-                  "White Cuvée"
+                  "Muskotály",
+                  "Sárgamuskotály"
                 ],
                 "típus": [
-                  "alkoholmentes habzó ital",
                   "alkoholmentes pezsgő",
                   "borból készült habzó ital",
                   "brut",
@@ -63755,6 +63739,8 @@
                   "Finest Premier Cru Champagne",
                   "Friss",
                   "Impérial",
+                  "Olivier",
+                  "Ponsardin",
                   "Prosecco"
                 ]
               }
@@ -63768,30 +63754,49 @@
                   "alkoholos"
                 ],
                 "bio": {},
-                "cukormentes / zero": {},
+                "csomagdarabszám": [
+                  20,
+                  24,
+                  4,
+                  6
+                ],
+                "cukormentes": {},
+                "egységnyi kiszerelés": [
+                  "0,33 l",
+                  "0,5 l",
+                  "25 cl",
+                  "250 ml",
+                  "330 ml",
+                  "500 ml"
+                ],
                 "gluténmentes": {},
                 "ízesített": {},
                 "kézműves": {},
                 "kiszerelés": [
-                  "0,5 l doboz",
-                  "0,5 l üveg",
+                  "0,5 l",
+                  "1,32 l",
                   "1,5 l",
+                  "1,98 l",
                   "1 l",
+                  "10000 ml",
+                  "1320 ml",
+                  "150 cl",
+                  "1500 ml",
                   "2,5 l",
                   "2 l",
+                  "2000 ml",
                   "250 ml",
+                  "3 l",
                   "300 ml",
+                  "3000 ml",
                   "330 ml",
                   "355 ml",
-                  "4 x 0,5 l",
                   "400 ml",
                   "440 ml",
                   "5 l",
                   "500 ml",
-                  "6 x 0,33 l",
-                  "6 x 0,5 l",
                   "750 ml",
-                  "nem jelölt"
+                  "7920 ml"
                 ],
                 "márka": [
                   "1664",
@@ -63804,18 +63809,14 @@
                   "Arany Korsó",
                   "Arany Szarvas",
                   "Argus",
-                  "ASAHI",
-                  "Asahi Super Dry",
+                  "Asahi",
                   "Auchan",
                   "AZ ÉN SÖRÖM",
-                  "Bad Dogs Bulldog IPA",
-                  "Bad Dogs Mopsz Meggy",
-                  "Bad Dogs Puli Pils",
+                  "Bad Dogs",
                   "Balatonszentgyörgyi",
                   "BAVARIA",
                   "BE(er) Cool",
                   "Beck's",
-                  "BEERCOOL",
                   "Belgium büszkeségei",
                   "Bergkönig",
                   "Berliner Kindl",
@@ -63860,14 +63861,12 @@
                   "Gösser",
                   "Guinness",
                   "Hacker Pschorr",
-                  "HB",
                   "Heineken",
                   "HOBGOBLIN",
                   "Hoegaarden",
                   "Hofbräu München",
                   "Holsten",
                   "Horizont",
-                  "Horizont Brewing",
                   "Hübris",
                   "Hunyadi Mátyás",
                   "Kaiserdom",
@@ -63885,8 +63884,6 @@
                   "Kronenbourg",
                   "Kronenbourg 1664",
                   "Krusovice",
-                  "Krušovice Černé",
-                  "Krušovice Originál",
                   "LASKO ZLATOROG",
                   "Leffe",
                   "Leute",
@@ -63906,7 +63903,6 @@
                   "Pécsi",
                   "Perlenbacher",
                   "Peroni",
-                  "Peroni Nastro Azzurro",
                   "Pilsner Urquell",
                   "Platan",
                   "PRAŽAČKA",
@@ -63934,7 +63930,6 @@
                   "Tsingtao",
                   "Tuborg",
                   "Van Pur",
-                  "Velkopopovický Kozel Premium Lager",
                   "Warsteiner",
                   "Welsenburg",
                   "Wundertal",
@@ -63996,10 +63991,10 @@
                 ],
                 "csomagolás": [
                   "doboz",
-                  "egyéb",
-                  "filter",
                   "multipack",
-                  "palack",
+                  "palack"
+                ],
+                "csomagolás anyaga": [
                   "üveg"
                 ],
                 "íz": [
@@ -64009,7 +64004,6 @@
                   "ale",
                   "alma",
                   "amber",
-                  "APA",
                   "bak",
                   "barack",
                   "barna",
@@ -64038,7 +64032,6 @@
                   "dubbel",
                   "dunkel",
                   "dupla IPA",
-                  "egyéb",
                   "eper",
                   "eperízű",
                   "erdei gyümölcs",
@@ -64048,7 +64041,6 @@
                   "félbarna IPA",
                   "genuine draft",
                   "gluténmentes",
-                  "gold",
                   "golden ale",
                   "görögdinnye",
                   "granát",
@@ -64070,7 +64062,6 @@
                   "karamell",
                   "kávé",
                   "kellerbier",
-                  "klasszikus",
                   "körte",
                   "kriek",
                   "lager",
@@ -64085,14 +64076,12 @@
                   "mester",
                   "münchner hell",
                   "natúr",
-                  "new england IPA",
                   "nostro azzurro",
                   "oatmeal stout",
                   "panaché",
                   "pilsener",
                   "pilseni",
                   "pilsner",
-                  "premium",
                   "premium lager",
                   "prémium pils",
                   "punk IPA",
@@ -64103,45 +64092,41 @@
                   "sour IPA",
                   "stile capri",
                   "stout",
-                  "super dry",
                   "szeder",
-                  "szűretlen",
                   "tequila",
                   "thai",
-                  "tradicionális",
                   "tremens",
                   "tripel",
                   "tropical ale",
                   "trópusi",
-                  "unfiltered",
                   "vegyes",
                   "vérnarancs",
                   "weissbier",
                   "west coast IPA",
                   "white",
                   "wit beer",
-                  "witbier",
-                  "zero"
+                  "witbier"
+                ],
+                "minőség": [
+                  "prémium"
                 ],
                 "sörtípus": [
                   "ale",
-                  "barna",
+                  "APA",
                   "búzasör",
-                  "dark",
                   "felsőerjesztésű sör",
-                  "ipa",
+                  "India Pale Lager",
+                  "IPA",
                   "lager",
                   "lambic",
                   "malátaital",
-                  "new england IPA",
+                  "New England IPA",
                   "pils",
-                  "prémium",
                   "premium lager",
                   "radler",
-                  "session IPA",
+                  "Session IPA",
                   "sör",
-                  "sörkülönlegesség",
-                  "világos"
+                  "sörkülönlegesség"
                 ],
                 "szín": [
                   "barna",
@@ -64149,6 +64134,9 @@
                   "rozé",
                   "világos",
                   "vörös"
+                ],
+                "termékcsalád": [
+                  "Nastro Azzurro"
                 ],
                 "terméktípus": [
                   "malátaital",
@@ -64158,19 +64146,28 @@
                 ],
                 "változat": [
                   "Blanc",
+                  "Bulldog IPA",
+                  "Černé",
                   "Genuine Draft",
+                  "Gold",
                   "Hefetrüb Original",
+                  "Klasszikus",
                   "Kriek",
                   "Lager",
+                  "Mopsz Meggy",
                   "Natur Zitrone",
                   "Original",
                   "Óvatos Duhaj Démon",
+                  "Premium",
                   "Prémium Búza",
                   "Prémium Meggy",
+                  "Puli Pils",
                   "Radler Prémium",
                   "Rosé",
                   "Sör",
+                  "Super Dry",
                   "Szent István",
+                  "Tradicionális",
                   "Tropical Ale",
                   "White"
                 ]
@@ -64184,10 +64181,18 @@
                   "alkoholmentes",
                   "alkoholos"
                 ],
+                "csomagdarabszám": [
+                  24
+                ],
+                "egységnyi kiszerelés": [
+                  "330 ml",
+                  "500 ml"
+                ],
                 "kiszerelés": [
+                  "12000 ml",
                   "330 ml",
                   "500 ml",
-                  "nem jelölt"
+                  "7920 ml"
                 ],
                 "márka": [
                   "Kopparberg",
@@ -64208,7 +64213,10 @@
                 ],
                 "csomagolás": [
                   "doboz",
-                  "palack",
+                  "multipack",
+                  "palack"
+                ],
+                "csomagolás anyaga": [
                   "üveg"
                 ],
                 "íz": [
@@ -64247,12 +64255,28 @@
                 "alkoholstátusz": [
                   "alkoholos"
                 ],
+                "csomagdarabszám": [
+                  12,
+                  20,
+                  24,
+                  30,
+                  6
+                ],
+                "egységnyi kiszerelés": [
+                  "0,04 l",
+                  "40 ml",
+                  "50 ml"
+                ],
                 "gyógynövényes": {},
                 "kiszerelés": [
+                  "0,24 l",
+                  "0,8 l",
+                  "0,96 l",
                   "1,75 l",
                   "1 l",
                   "10 ml",
                   "100 ml",
+                  "1200 ml",
                   "20 ml",
                   "200 ml",
                   "240 ml",
@@ -64260,14 +64284,14 @@
                   "350 ml",
                   "40 ml",
                   "400 ml",
+                  "480 ml",
                   "50 ml",
                   "500 ml",
                   "700 ml",
                   "750 ml",
                   "770 ml",
                   "90 ml",
-                  "960 ml",
-                  "nem jelölt"
+                  "960 ml"
                 ],
                 "márka": [
                   "Amaretto",
@@ -64284,7 +64308,7 @@
                   "Beregi",
                   "Berentzen",
                   "Bitter",
-                  "Bols Advocaat",
+                  "Bols",
                   "Bombardino",
                   "Bottega",
                   "Bumbu",
@@ -64297,7 +64321,6 @@
                   "Cream Heroes",
                   "CREMA DI LATTE",
                   "Desszert",
-                  "Desszert Triple Sec",
                   "Disaronno",
                   "Feeney's Dubai Chocolate Style",
                   "Ferencz",
@@ -64357,7 +64380,7 @@
                   "Sunburst",
                   "Sütő",
                   "Szent Márk",
-                  "Takamaka Koko",
+                  "Takamaka",
                   "Tatratea",
                   "Tipli",
                   "Tokaj Spirit",
@@ -64411,12 +64434,13 @@
                   "67%",
                   "72%"
                 ],
+                "csomagolás": [
+                  "multipack"
+                ],
                 "fajta": [
-                  "amaretto",
                   "aperitif",
                   "csokoládélikőr",
                   "diólikőr",
-                  "egyéb",
                   "gin likőr",
                   "gyógynövénylikőr",
                   "gyomorkeserű",
@@ -64444,7 +64468,6 @@
                   "apricot",
                   "banán",
                   "barack",
-                  "barista",
                   "berry kiss",
                   "bitter",
                   "black cherry",
@@ -64460,7 +64483,6 @@
                   "csipkebogyó",
                   "csokoládé",
                   "dió",
-                  "egyéb",
                   "eper",
                   "erdei gyógynövény",
                   "erdei gyümölcs",
@@ -64526,7 +64548,6 @@
                   "tiramisu",
                   "toffee",
                   "tojás",
-                  "tojáslikőr",
                   "tojásos",
                   "triple sec",
                   "tropical chilli",
@@ -64545,8 +64566,14 @@
                 "összetevő": [
                   "narancs"
                 ],
+                "terméktípus": [
+                  "tojáslikőr",
+                  "triple sec"
+                ],
                 "változat": [
+                  "Barista",
                   "Cream",
+                  "Koko",
                   "Original Hungary"
                 ]
               }
@@ -64559,8 +64586,17 @@
                   "alkoholmentes",
                   "alkoholos"
                 ],
+                "csomagdarabszám": [
+                  10,
+                  12,
+                  2
+                ],
+                "egységnyi kiszerelés": [
+                  "0,5 dl",
+                  "50 ml"
+                ],
                 "kiszerelés": [
-                  "0,7 l + 0,2 l",
+                  "0,9 l",
                   "1,5 l",
                   "1 l",
                   "20 ml",
@@ -64569,17 +64605,16 @@
                   "4,5 l",
                   "50 ml",
                   "500 ml",
-                  "700 ml",
-                  "nem jelölt"
+                  "6 dl",
+                  "700 ml"
                 ],
                 "márka": [
                   "Akashi Blended",
-                  "Arran Barrel Reserve",
+                  "Arran",
                   "Auchentoshan",
                   "Ballantine's",
                   "Black Velvet",
                   "Bulleit",
-                  "Bulleit Bourbon",
                   "Chivas Regal",
                   "Clarke's",
                   "Connemara",
@@ -64608,10 +64643,9 @@
                   "Laphroaig",
                   "Maker's Mark",
                   "Matsui",
-                  "Monkey Shoulder The Original",
+                  "Monkey Shoulder",
                   "Naked Grouse",
-                  "NIKKA",
-                  "Nikka Days",
+                  "Nikka",
                   "O'LIAM",
                   "Queen Margot",
                   "Scarabus Islay Single Malt Scotch",
@@ -64623,7 +64657,6 @@
                   "Tamnavulin",
                   "Teacher's",
                   "Teeling",
-                  "Teeling Whiskey Small Batch",
                   "Tesco",
                   "The Deacon",
                   "The Irishman",
@@ -64649,6 +64682,13 @@
                   "47%",
                   "50%"
                 ],
+                "csomagegységek": [
+                  "0,2 l",
+                  "0,7 l"
+                ],
+                "csomagolás": [
+                  "multipack"
+                ],
                 "érlelés": [
                   "12 éves",
                   "3 éves",
@@ -64660,7 +64700,6 @@
                   "bourbon",
                   "cseresznye",
                   "édes",
-                  "egyéb",
                   "fahéj",
                   "kávé",
                   "lime",
@@ -64671,6 +64710,9 @@
                   "smoky",
                   "stout",
                   "whisky jellegű"
+                ],
+                "termékcsalád": [
+                  "Days"
                 ],
                 "típus": [
                   "alkoholmentes whisky jellegű ital",
@@ -64697,7 +64739,10 @@
                   "whisky"
                 ],
                 "változat": [
-                  "Special Reserve"
+                  "Barrel Reserve",
+                  "Small Batch",
+                  "Special Reserve",
+                  "The Original"
                 ]
               }
             }
@@ -64709,7 +64754,19 @@
                   "alkoholmentes",
                   "alkoholos"
                 ],
+                "csomagdarabszám": [
+                  6
+                ],
+                "egységnyi kiszerelés": [
+                  "700 ml"
+                ],
                 "gyümölcsös": {},
+                "kiszerelés": [
+                  "1 l",
+                  "4200 ml",
+                  "500 ml",
+                  "700 ml"
+                ],
                 "márka": [
                   "Agárdi",
                   "Balaton",
@@ -64769,10 +64826,12 @@
                   "47%",
                   "47,3%"
                 ],
+                "csomagolás": [
+                  "multipack"
+                ],
                 "fajta": [
                   "desztillált gin",
                   "dry gin",
-                  "egyéb",
                   "francia gin",
                   "ízesített gin",
                   "japán gin",
@@ -64808,12 +64867,6 @@
                   "tea",
                   "vérnarancs"
                 ],
-                "kiszerelés": [
-                  "1 l",
-                  "500 ml",
-                  "700 ml",
-                  "nem jelölt"
-                ],
                 "típus": [
                   "alkoholmentes gin",
                   "Alkoholmentes szeszesital"
@@ -64832,8 +64885,7 @@
                   "1 l",
                   "200 ml",
                   "500 ml",
-                  "700 ml",
-                  "nem jelölt"
+                  "700 ml"
                 ],
                 "márka": [
                   "Bacardi",
@@ -64867,7 +64919,7 @@
                   "SOBER SPIRITS",
                   "St Simon",
                   "Stroh",
-                  "Takamaka Dark Spiced",
+                  "Takamaka",
                   "The Demons Share",
                   "The Kraken",
                   "Ypióca",
@@ -64894,7 +64946,6 @@
                 ],
                 "fajta": [
                   "barna",
-                  "cachaça",
                   "fehér",
                   "fűszeres",
                   "gold",
@@ -64930,7 +64981,8 @@
                   "alkoholmentes rum jellegű ital"
                 ],
                 "változat": [
-                  "60"
+                  "60",
+                  "Dark Spiced"
                 ]
               }
             }
@@ -64941,10 +64993,16 @@
                 "alkoholstátusz": [
                   "alkoholos"
                 ],
+                "csomagdarabszám": [
+                  12
+                ],
+                "egységnyi kiszerelés": [
+                  "50 ml"
+                ],
                 "kiszerelés": [
                   "1 l",
                   "350 ml",
-                  "50 ml",
+                  "600 ml",
                   "700 ml"
                 ],
                 "márka": [
@@ -64953,8 +65011,7 @@
                   "EL JIMADOR",
                   "Jose Cuervo",
                   "Olmeca",
-                  "PATRON",
-                  "Patrón Silver",
+                  "Patrón",
                   "Sierra"
                 ]
               },
@@ -64964,6 +65021,9 @@
                   "38%",
                   "40%"
                 ],
+                "csomagolás": [
+                  "multipack"
+                ],
                 "típus": [
                   "agavepárlat",
                   "blanco",
@@ -64971,6 +65031,9 @@
                   "reposado",
                   "silver",
                   "silver tequila"
+                ],
+                "változat": [
+                  "Silver"
                 ]
               }
             }
@@ -64980,6 +65043,15 @@
               "egyedi": {
                 "alkoholstátusz": [
                   "alkoholos"
+                ],
+                "csomagdarabszám": [
+                  12,
+                  24
+                ],
+                "egységnyi kiszerelés": [
+                  "40 ml",
+                  "50 ml",
+                  "700 ml"
                 ],
                 "kiszerelés": [
                   "1 l",
@@ -64991,9 +65063,11 @@
                   "40 ml",
                   "50 ml",
                   "500 ml",
+                  "600 ml",
                   "700 ml",
+                  "8400 ml",
                   "90 ml",
-                  "nem jelölt"
+                  "960 ml"
                 ],
                 "márka": [
                   "Absolut",
@@ -65001,7 +65075,7 @@
                   "Arany Koma",
                   "Beluga",
                   "Belvedere",
-                  "Bols Marine",
+                  "Bols",
                   "CIROC",
                   "Coop",
                   "Eiko",
@@ -65013,7 +65087,7 @@
                   "Kazakoff",
                   "Koronás",
                   "NEFT",
-                  "Nicolaus Extra Fine",
+                  "Nicolaus",
                   "Opera",
                   "Pannónia",
                   "Pure Star",
@@ -65046,6 +65120,9 @@
                   "38%",
                   "40%"
                 ],
+                "csomagolás": [
+                  "multipack"
+                ],
                 "íz": [
                   "áfonya",
                   "bison grass",
@@ -65064,6 +65141,8 @@
                   "vanília"
                 ],
                 "változat": [
+                  "Extra Fine",
+                  "Marine",
                   "Original",
                   "Vlagyimir"
                 ]
@@ -65083,8 +65162,7 @@
                   "40 ml",
                   "50 ml",
                   "500 ml",
-                  "700 ml",
-                  "nem jelölt"
+                  "700 ml"
                 ],
                 "márka": [
                   "Agárdi",
@@ -65092,7 +65170,6 @@
                   "Árpád Pálinka",
                   "Bolyhos",
                   "Éden Pálinka",
-                  "egyéb",
                   "Favágó",
                   "Grape-Vine",
                   "HORTOBÁGYI Betyár",
@@ -65106,7 +65183,6 @@
                   "Óbester",
                   "Pannonhalmi Pálinkárium",
                   "Panyolai",
-                  "Panyolai Elixír",
                   "Puszta Kincse",
                   "Rézangyal",
                   "Rónasági",
@@ -65130,7 +65206,7 @@
                   "52%",
                   "70%"
                 ],
-                "borvidék / eredet": [
+                "eredet": [
                   "Villány"
                 ],
                 "fajta": [
@@ -65155,6 +65231,9 @@
                   "törköly",
                   "vegyes",
                   "vegyes gyümölcs"
+                ],
+                "termékcsalád": [
+                  "Elixír"
                 ]
               }
             }
@@ -65169,8 +65248,7 @@
                   "1 l",
                   "40 ml",
                   "500 ml",
-                  "700 ml",
-                  "nem jelölt"
+                  "700 ml"
                 ],
                 "márka": [
                   "ARARAT",
@@ -65202,7 +65280,6 @@
                   "aromásított",
                   "calvados",
                   "cognac",
-                  "egyéb",
                   "görög brandy",
                   "konyak",
                   "örmény brandy",
@@ -65210,7 +65287,6 @@
                 ],
                 "íz": [
                   "alma",
-                  "egyéb",
                   "fűszeres",
                   "gyümölcs",
                   "tölgy"
@@ -65230,8 +65306,7 @@
                   "1 l",
                   "500 ml",
                   "700 ml",
-                  "750 ml",
-                  "nem jelölt"
+                  "750 ml"
                 ],
                 "márka": [
                   "Cinzano",
@@ -65264,7 +65339,6 @@
                   "boralapú ital",
                   "cherry",
                   "édes",
-                  "egyéb",
                   "extra száraz"
                 ],
                 "íz": [
@@ -65294,15 +65368,26 @@
                 "alkoholstátusz": [
                   "alkoholos"
                 ],
+                "csomagdarabszám": [
+                  24
+                ],
+                "egységnyi kiszerelés": [
+                  "0,04 l",
+                  "40 ml"
+                ],
                 "kiszerelés": [
+                  "0,5 l",
+                  "0,7 l",
+                  "0,96 l",
                   "1 l",
                   "200 ml",
+                  "350 ml",
                   "40 ml",
                   "50 ml",
                   "500 ml",
                   "700 ml",
-                  "960 ml",
-                  "nem jelölt"
+                  "750 ml",
+                  "960 ml"
                 ],
                 "márka": [
                   "Absinth Black Tunel",
@@ -65351,6 +65436,9 @@
                   "50%",
                   "70%",
                   "80%"
+                ],
+                "csomagolás": [
+                  "multipack"
                 ],
                 "fajta": [
                   "abszint",
@@ -65412,8 +65500,7 @@
                   "40 ml",
                   "500 ml",
                   "700 ml",
-                  "750 ml",
-                  "nem jelölt"
+                  "750 ml"
                 ],
                 "márka": [
                   "Aperini",
@@ -65452,7 +65539,7 @@
                   "Solevita",
                   "Tanqueray",
                   "Tatratea",
-                  "Three Sixty Vodka",
+                  "Three Sixty",
                   "Tropical"
                 ],
                 "szénsavasság": [
@@ -65460,17 +65547,15 @@
                 ]
               },
               "csoportos": {
-                "alkohol": [
-                  "alkoholos ital",
-                  "ánizs",
+                "alkoholalap": [
+                  "abszint",
                   "aperitív",
                   "gin",
                   "likőr",
                   "ouzo",
+                  "pastis",
                   "rum",
-                  "szeszesital",
                   "tequila",
-                  "tonik",
                   "vodka",
                   "whisky"
                 ],
@@ -65523,7 +65608,6 @@
                   "erdei gyümölcs",
                   "espresso martini",
                   "fűszeres rum",
-                  "gin",
                   "görögdinnye",
                   "gyömbér",
                   "hibiszkusz",
@@ -65545,7 +65629,6 @@
                   "pink strawberry",
                   "Pornstar Martini",
                   "Purple Hibiscus",
-                  "rum",
                   "sex on the beach",
                   "spritz",
                   "Strawberry Margarita",
@@ -65556,6 +65639,9 @@
                   "vérnarancs",
                   "vodka",
                   "whiskey"
+                ],
+                "keverőanyag": [
+                  "tonik"
                 ],
                 "változat": [
                   "Blue",
@@ -65577,12 +65663,50 @@
           "Kóla": {
             "tulajdonságok": {
               "egyedi": {
-                "cukormentes / zero": {},
+                "csomagdarabszám": [
+                  2,
+                  24,
+                  4,
+                  8
+                ],
+                "cukormentes": {},
+                "cukrozott": {},
                 "édesítőszerrel": {},
-                "energia tartalom": [
+                "egységnyi kiszerelés": [
+                  "0,33 l",
+                  "1,5 l",
+                  "1,75 l",
+                  "2 l",
+                  "250 ml",
+                  "330 ml"
+                ],
+                "energiastátusz": [
                   "csökkentett energiatartalmú",
-                  "cukros",
                   "energiamentes"
+                ],
+                "kiszerelés": [
+                  "1,32 l",
+                  "1,33 l",
+                  "1,5 l",
+                  "1,75 l",
+                  "1 l",
+                  "1320 ml",
+                  "16 l",
+                  "1750 ml",
+                  "2,25 l",
+                  "2,5 l",
+                  "2 l",
+                  "250 ml",
+                  "275 ml",
+                  "3,5 l",
+                  "3 l",
+                  "300 ml",
+                  "330 ml",
+                  "3500 ml",
+                  "500 ml",
+                  "6000 ml",
+                  "7000 ml",
+                  "8000 ml"
                 ],
                 "koffeinmentes": {},
                 "márka": [
@@ -65605,7 +65729,7 @@
                   "S-Budget",
                   "SPAR",
                   "Stockwell & Co.",
-                  "Vitamizu Minions",
+                  "Vitamizu",
                   "XIXO"
                 ],
                 "szénsavasság": [
@@ -65616,6 +65740,13 @@
                 "alap": [
                   "kóla",
                   "narancs"
+                ],
+                "célcsoport": [
+                  "gyerek"
+                ],
+                "csomagolás": [
+                  "multipack",
+                  "palack"
                 ],
                 "íz": [
                   "barack",
@@ -65631,32 +65762,13 @@
                   "meggy",
                   "narancs",
                   "natúr",
-                  "ribizli",
                   "sárgabarack",
                   "vanília",
                   "vegyes"
                 ],
-                "kiszerelés": [
-                  "1,33 l",
-                  "1,5 l",
-                  "1,75 l",
-                  "1 l",
-                  "2,25 l",
-                  "2,5 l",
-                  "2 l",
-                  "2 x 1,5 l",
-                  "250 ml",
-                  "275 ml",
-                  "300 ml",
-                  "330 ml",
-                  "4 x 330 ml",
-                  "500 ml",
-                  "multipack",
-                  "nem jelölt",
-                  "palack"
-                ],
                 "változat": [
-                  "be fresh!"
+                  "be fresh!",
+                  "Minions"
                 ]
               }
             }
@@ -65664,11 +65776,27 @@
           "Tonik": {
             "tulajdonságok": {
               "egyedi": {
-                "cukormentes / zero": {},
+                "csomagdarabszám": [
+                  24
+                ],
+                "cukormentes": {},
+                "cukrozott": {},
                 "édesítőszerrel": {},
-                "energia tartalom": [
-                  "cukros",
+                "egységnyi kiszerelés": [
+                  "250 ml"
+                ],
+                "energiastátusz": [
                   "energiamentes"
+                ],
+                "kiszerelés": [
+                  "1,5 l",
+                  "1 l",
+                  "2 l",
+                  "200 ml",
+                  "250 ml",
+                  "330 ml",
+                  "500 ml",
+                  "6000 ml"
                 ],
                 "márka": [
                   "Auchan",
@@ -65687,6 +65815,11 @@
                 ]
               },
               "csoportos": {
+                "csomagolás": [
+                  "doboz",
+                  "multipack",
+                  "palack"
+                ],
                 "íz": [
                   "bodza",
                   "bogyós gyümölcs",
@@ -65701,17 +65834,6 @@
                   "tonik",
                   "vegyes bogyós"
                 ],
-                "kiszerelés": [
-                  "1,5 l",
-                  "2 l",
-                  "200 ml",
-                  "250 ml",
-                  "330 ml",
-                  "500 ml",
-                  "doboz",
-                  "nem jelölt",
-                  "palack"
-                ],
                 "változat": [
                   "be fresh!"
                 ]
@@ -65722,13 +65844,32 @@
             "tulajdonságok": {
               "egyedi": {
                 "bio": {},
-                "cukormentes / zero": {},
+                "csomagdarabszám": [
+                  24
+                ],
+                "cukormentes": {},
+                "cukrozott": {},
                 "édesítőszerrel": {},
-                "energia tartalom": [
+                "egységnyi kiszerelés": [
+                  "250 ml"
+                ],
+                "energiastátusz": [
                   "csökkentett energiatartalmú",
-                  "cukros",
                   "energiamentes",
                   "energiaszegény"
+                ],
+                "kiszerelés": [
+                  "0,5 l",
+                  "1,5 l",
+                  "1 l",
+                  "2 l",
+                  "250 ml",
+                  "270 ml",
+                  "330 ml",
+                  "360 ml",
+                  "450 ml",
+                  "500 ml",
+                  "6000 ml"
                 ],
                 "koffeinmentes": {},
                 "márka": [
@@ -65760,6 +65901,11 @@
                 ]
               },
               "csoportos": {
+                "csomagolás": [
+                  "doboz",
+                  "multipack",
+                  "palack"
+                ],
                 "íz": [
                   "áfonya",
                   "alma",
@@ -65803,20 +65949,6 @@
                   "vegyes gyümölcs",
                   "zöldalma"
                 ],
-                "kiszerelés": [
-                  "1,5 l",
-                  "1 l",
-                  "2 l",
-                  "250 ml",
-                  "270 ml",
-                  "330 ml",
-                  "360 ml",
-                  "450 ml",
-                  "500 ml",
-                  "doboz",
-                  "nem jelölt",
-                  "palack"
-                ],
                 "teatípus": [
                   "fehér tea",
                   "fekete tea",
@@ -65834,11 +65966,21 @@
           "Limonádé": {
             "tulajdonságok": {
               "egyedi": {
-                "cukormentes / zero": {},
+                "cukormentes": {},
+                "cukrozott": {},
                 "édesítőszerrel": {},
-                "energia tartalom": [
-                  "cukros",
+                "energiastátusz": [
                   "energiamentes"
+                ],
+                "kiszerelés": [
+                  "1,25 l",
+                  "1,5 l",
+                  "1 l",
+                  "2 l",
+                  "250 ml",
+                  "275 ml",
+                  "400 ml",
+                  "500 ml"
                 ],
                 "márka": [
                   "Arizona",
@@ -65887,17 +66029,6 @@
                   "szamóca",
                   "tea"
                 ],
-                "kiszerelés": [
-                  "1,25 l",
-                  "1,5 l",
-                  "1 l",
-                  "2 l",
-                  "250 ml",
-                  "275 ml",
-                  "400 ml",
-                  "500 ml",
-                  "nem jelölt"
-                ],
                 "teatípus": [
                   "fekete tea"
                 ],
@@ -65916,14 +66047,13 @@
                   "1 l",
                   "300 ml",
                   "400 ml",
-                  "500 ml",
-                  "nem jelölt"
+                  "500 ml"
                 ],
                 "márka": [
                   "Aleo",
                   "Alo Alo",
                   "Aloe Vera Original",
-                  "AVE Aloe Vera",
+                  "AVE",
                   "OKF",
                   "OKF Farmer's",
                   "Queen",
@@ -65954,11 +66084,30 @@
             "tulajdonságok": {
               "egyedi": {
                 "bio": {},
-                "cukormentes / zero": {},
+                "csomagdarabszám": [
+                  24
+                ],
+                "cukormentes": {},
+                "cukrozott": {},
                 "édesítőszerrel": {},
-                "energia tartalom": [
-                  "cukros",
+                "egységnyi kiszerelés": [
+                  "250 ml"
+                ],
+                "energiastátusz": [
                   "energiamentes"
+                ],
+                "kiszerelés": [
+                  "1,5 l",
+                  "1 l",
+                  "2 l",
+                  "200 ml",
+                  "250 ml",
+                  "275 ml",
+                  "330 ml",
+                  "495 ml",
+                  "500 ml",
+                  "6000 ml",
+                  "750 ml"
                 ],
                 "márka": [
                   "Canada Dry",
@@ -65988,26 +66137,16 @@
                   "uborka",
                   "vegyes gyökér"
                 ],
+                "csomagolás": [
+                  "doboz",
+                  "multipack",
+                  "palack"
+                ],
                 "íz": [
                   "ginger ale",
                   "gyömbér",
                   "rozmaring",
                   "uborka"
-                ],
-                "kiszerelés": [
-                  "0,33 ml",
-                  "1,5 l",
-                  "2 l",
-                  "200 ml",
-                  "250 ml",
-                  "275 ml",
-                  "330 ml",
-                  "495 ml",
-                  "500 ml",
-                  "750 ml",
-                  "doboz",
-                  "nem jelölt",
-                  "palack"
                 ],
                 "változat": [
                   "be fresh!"
@@ -66019,7 +66158,7 @@
             "tulajdonságok": {
               "egyedi": {
                 "bio": {},
-                "cukormentes / zero": {},
+                "cukormentes": {},
                 "kiszerelés": [
                   "100 ml",
                   "250 ml",
@@ -66080,13 +66219,48 @@
           "Egyéb ízesített üdítőital": {
             "tulajdonságok": {
               "egyedi": {
-                "cukormentes / zero": {},
+                "csomagdarabszám": [
+                  2,
+                  24,
+                  4
+                ],
+                "cukormentes": {},
+                "cukrozott": {},
                 "édesítőszerrel": {},
-                "energia tartalom": [
+                "egységnyi kiszerelés": [
+                  "1,75 l",
+                  "250 ml",
+                  "330 ml"
+                ],
+                "energiastátusz": [
                   "csökkentett energiatartalmú",
-                  "cukros",
                   "energiamentes",
                   "energiaszegény"
+                ],
+                "kiszerelés": [
+                  "0,5 l",
+                  "1,25 l",
+                  "1,5 l",
+                  "1,75 l",
+                  "1 l",
+                  "1000 ml",
+                  "1320 ml",
+                  "1500 ml",
+                  "2,25 l",
+                  "2,5 l",
+                  "2 l",
+                  "200 ml",
+                  "250 ml",
+                  "270 ml",
+                  "275 ml",
+                  "3,5 l",
+                  "300 ml",
+                  "33 cl",
+                  "330 ml",
+                  "3500 ml",
+                  "500 ml",
+                  "6000 ml",
+                  "750 ml"
                 ],
                 "márka": [
                   "7Up",
@@ -66101,7 +66275,6 @@
                   "Coop",
                   "Dr. Pepper",
                   "Drinky",
-                  "egyéb",
                   "Fanta",
                   "Fentimans",
                   "Fonti Di Crodo",
@@ -66144,7 +66317,7 @@
                   "Topjoy",
                   "Traubisoda",
                   "Tutti",
-                  "Vitamizu Stumble Guys",
+                  "Vitamizu",
                   "Vöslauer",
                   "XIXO"
                 ],
@@ -66159,11 +66332,11 @@
                   "áfonya",
                   "alma",
                   "ananász",
+                  "ásványvíz",
                   "barack",
                   "bodza",
                   "citrom",
                   "cseresznye",
-                  "enyhén szénsavas ásványvíz",
                   "eper",
                   "görögdinnye",
                   "grapefruit",
@@ -66177,7 +66350,6 @@
                   "meggy",
                   "menta",
                   "narancs",
-                  "natúr",
                   "őszibarack",
                   "pomelo",
                   "ribizli",
@@ -66185,8 +66357,16 @@
                   "szőlő",
                   "tuttifrutti"
                 ],
+                "csomagolás": [
+                  "doboz",
+                  "multipack",
+                  "palack"
+                ],
                 "édesség": [
                   "édes"
+                ],
+                "funkció": [
+                  "energia"
                 ],
                 "íz": [
                   "áfonya",
@@ -66208,7 +66388,6 @@
                   "cseresznye",
                   "dr pepper",
                   "echinacea",
-                  "egyéb",
                   "eper",
                   "erdei gyümölcs",
                   "fekete bors",
@@ -66241,8 +66420,6 @@
                   "pink aromatic berry",
                   "piros gyümölcs",
                   "pomelo",
-                  "répa",
-                  "ribizli",
                   "sárgarépa",
                   "szamóca",
                   "szeder",
@@ -66256,30 +66433,6 @@
                   "vegyes gyümölcs",
                   "vérnarancs",
                   "zöldalma"
-                ],
-                "kiszerelés": [
-                  "1,25 l",
-                  "1,5 l",
-                  "1,75 l",
-                  "1 l",
-                  "2,25 l",
-                  "2,5 l",
-                  "2 l",
-                  "2 x 1,75 l",
-                  "200 ml",
-                  "250 ml",
-                  "270 ml",
-                  "275 ml",
-                  "300 ml",
-                  "330 ml",
-                  "4 x 250 ml",
-                  "4 x 330 ml",
-                  "500 ml",
-                  "750 ml",
-                  "doboz",
-                  "multipack",
-                  "nem jelölt",
-                  "palack"
                 ],
                 "összetevő": [
                   "alma",
@@ -66298,7 +66451,6 @@
                   "szőlő"
                 ],
                 "tartalom": [
-                  "energia",
                   "koffein"
                 ],
                 "teatípus": [
@@ -66311,7 +66463,8 @@
                   "ONE TOUCH",
                   "Original",
                   "Party Drinks",
-                  "Sparkling"
+                  "Sparkling",
+                  "Stumble Guys"
                 ]
               }
             }
@@ -66328,12 +66481,37 @@
             "tulajdonságok": {
               "egyedi": {
                 "bio": {},
-                "cukormentes / zero": {},
+                "csomagdarabszám": [
+                  24,
+                  3,
+                  8
+                ],
+                "cukormentes": {},
                 "édesítőszerrel": {},
-                "energia tartalom": [
-                  "csökkentett energiatartalmú",
-                  "cukros",
-                  "energiamentes"
+                "egységnyi kiszerelés": [
+                  "200 ml",
+                  "250 ml"
+                ],
+                "kiszerelés": [
+                  "1,5 l",
+                  "1 l",
+                  "120 g",
+                  "180 ml",
+                  "2 l",
+                  "200 ml",
+                  "2000 ml",
+                  "250 ml",
+                  "3 l",
+                  "300 ml",
+                  "330 ml",
+                  "5 l",
+                  "500 ml",
+                  "600 ml",
+                  "6000 ml",
+                  "750 ml",
+                  "800 ml",
+                  "900 ml",
+                  "980 ml"
                 ],
                 "márka": [
                   "Alföld Aranya",
@@ -66356,19 +66534,13 @@
                   "Koch",
                   "Kubu",
                   "Limenita",
-                  "Limenita Freshing Coolture",
-                  "Limenita Golden Sweet",
                   "McEnnedy",
-                  "Olympos",
                   "Orange",
-                  "Penny",
                   "Pfanner",
                   "Pölz",
-                  "Power Fruit",
                   "Purissima",
                   "Rauch",
                   "RIO",
-                  "Rio Cold Press",
                   "Rio D'Oro",
                   "S-Budget",
                   "Sió",
@@ -66376,16 +66548,14 @@
                   "SPAR",
                   "Szobi",
                   "Tesco",
-                  "The Deli",
                   "TOMA",
                   "Topjoy",
-                  "Univer",
-                  "Vemondo"
+                  "Univer"
                 ],
                 "pürét tartalmaz": {},
+                "rostos": {},
                 "szénsavasság": [
                   "enyhén szénsavas",
-                  "szénsavas",
                   "szénsavmentes"
                 ]
               },
@@ -66400,11 +66570,17 @@
                 "célcsoport": [
                   "gyerek"
                 ],
+                "csomagolás": [
+                  "multipack"
+                ],
                 "feldolgozás": [
                   "frissen préselt",
                   "hidegen préselt",
                   "közvetlenül préselt",
                   "préselt"
+                ],
+                "funkció": [
+                  "immun"
                 ],
                 "gyümölcshús": [
                   "igen"
@@ -66414,7 +66590,6 @@
                 ],
                 "íz": [
                   "acerola",
-                  "áfonya",
                   "alma",
                   "ananász",
                   "banán",
@@ -66431,27 +66606,20 @@
                   "fókusz",
                   "gránátalma",
                   "grapefruit",
-                  "Green Glory",
                   "guava",
                   "gyömbér",
-                  "gyümölcs",
                   "homoktövis",
-                  "immun cink",
-                  "inulin",
                   "kékszőlő",
                   "kivi",
                   "klementin",
                   "kókusz",
                   "körte",
-                  "kurkuma",
-                  "licsi",
                   "lime",
                   "málna",
                   "mandarin",
                   "mangó",
                   "maracuja",
                   "meggy",
-                  "méz",
                   "multivitamin",
                   "narancs",
                   "natúr",
@@ -66461,74 +66629,44 @@
                   "piros gyümölcs",
                   "piros multivitamin",
                   "répa",
-                  "ribizli",
                   "sárgabarack",
                   "sárgarépa",
                   "sárkánygyümölcs",
                   "savanyú",
-                  "smoothie",
-                  "smoothie relax",
                   "spenót",
                   "szilva",
                   "szőlő",
                   "tengeri só",
-                  "trópusi",
                   "uborka",
                   "vegyes",
                   "vegyes gyümölcs",
                   "vegyes zöldség",
                   "vérnarancs",
-                  "zöldalma",
                   "zöldség",
                   "zöldséges"
                 ],
-                "kiszerelés": [
-                  "1,5 l",
-                  "1 l",
-                  "100 g",
-                  "120 g",
-                  "150 ml",
-                  "180 ml",
-                  "2 l",
-                  "200 ml",
-                  "250 ml",
-                  "3 l",
-                  "300 ml",
-                  "330 ml",
-                  "5 l",
-                  "500 ml",
-                  "55 ml",
-                  "750 ml",
-                  "800 ml",
-                  "90 g",
-                  "900 ml",
-                  "980 ml",
-                  "nem jelölt"
-                ],
                 "lé típusa": [
-                  "gyümölcs- és zöldséglé",
                   "gyümölcslé",
                   "zöldséglé"
                 ],
-                "rostos": [
-                  "igen"
+                "összetevő": [
+                  "cékla",
+                  "sárgarépa"
                 ],
                 "tartalom": [
                   "C-vitamin",
                   "cink",
-                  "kalcium",
-                  "magnézium",
                   "vas",
                   "vitamin"
                 ],
-                "változat": [
-                  "Natur*pur",
-                  "Natura",
-                  "To Go"
+                "termékcsalád": [
+                  "Cold Press"
                 ],
-                "zöldség": [
-                  "cékla",
-                  "sárgarépa"
+                "változat": [
+                  "Freshing Coolture",
+                  "Golden Sweet",
+                  "Natur*pur",
+                  "Natura"
                 ]
               }
             }
@@ -66536,14 +66674,20 @@
           "Nektár": {
             "tulajdonságok": {
               "egyedi": {
+                "bio": {},
+                "csomagdarabszám": [
+                  24
+                ],
                 "édesítőszerrel": {},
+                "egységnyi kiszerelés": [
+                  "250 ml"
+                ],
                 "kiszerelés": [
                   "1 l",
                   "2 l",
                   "200 ml",
-                  "250 ml",
                   "330 ml",
-                  "nem jelölt"
+                  "6000 ml"
                 ],
                 "márka": [
                   "ARO",
@@ -66552,8 +66696,10 @@
                   "Hey-Ho",
                   "Paw Patrol",
                   "Pfanner",
+                  "Pölz",
                   "Purissima",
                   "Rauch",
+                  "Rio D'Oro",
                   "Sió",
                   "Solevita",
                   "SPAR",
@@ -66565,6 +66711,9 @@
                 ]
               },
               "csoportos": {
+                "csomagolás": [
+                  "multipack"
+                ],
                 "gyümölcstartalom": [
                   "25%",
                   "40%",
@@ -66590,7 +66739,6 @@
                   "narancs",
                   "natúr",
                   "őszibarack",
-                  "ribizli",
                   "sárgabarack",
                   "szamóca",
                   "tropical multivitamin",
@@ -66613,14 +66761,37 @@
           "Gyümölcsital": {
             "tulajdonságok": {
               "egyedi": {
-                "cukormentes / zero": {},
+                "bio": {},
+                "cukormentes": {},
+                "cukrozott": {},
                 "édesítőszerrel": {},
-                "energia tartalom": [
-                  "cukros",
+                "energiastátusz": [
+                  "csökkentett energiatartalmú",
                   "energiamentes",
                   "energiaszegény"
                 ],
+                "kiszerelés": [
+                  "1,5 l",
+                  "1 l",
+                  "100 g",
+                  "150 ml",
+                  "180 ml",
+                  "2 l",
+                  "200 g",
+                  "200 ml",
+                  "250 ml",
+                  "300 ml",
+                  "330 ml",
+                  "400 ml",
+                  "5 l",
+                  "500 ml",
+                  "55 ml",
+                  "700 ml",
+                  "750 ml",
+                  "800 ml"
+                ],
                 "márka": [
+                  "Andros",
                   "Apenta",
                   "ARO",
                   "Auchan",
@@ -66648,6 +66819,7 @@
                   "Power Fruit",
                   "Rauch",
                   "RIO",
+                  "Rio D'Oro",
                   "S-Budget",
                   "Sió",
                   "SMURFY",
@@ -66663,9 +66835,9 @@
                   "Traubisoda",
                   "Vitalade",
                   "YIPPY",
-                  "Zuegg Intenso",
-                  "Zuegg Zero"
+                  "Zuegg"
                 ],
+                "pürét tartalmaz": {},
                 "szénsavasság": [
                   "szénsavas",
                   "szénsavmentes"
@@ -66674,7 +66846,6 @@
               "csoportos": {
                 "alap": [
                   "alma",
-                  "barack",
                   "narancs",
                   "őszibarack",
                   "szőlő"
@@ -66696,8 +66867,9 @@
                   "4%",
                   "5%",
                   "50%",
+                  "50,6%",
                   "55%",
-                  "6%"
+                  "99,5%"
                 ],
                 "íz": [
                   "acerola",
@@ -66710,11 +66882,13 @@
                   "boba",
                   "bodza",
                   "bogyós gyümölcs",
+                  "cékla",
                   "cherry",
                   "citrom",
                   "citrus",
                   "cseresznye",
                   "egres",
+                  "egzotikus",
                   "eper",
                   "erdei gyümölcs",
                   "erdei szamóca",
@@ -66724,6 +66898,7 @@
                   "görögdinnye",
                   "gránátalma",
                   "grapefruit",
+                  "Green Glory",
                   "gríz",
                   "guava",
                   "gyömbér",
@@ -66745,6 +66920,7 @@
                   "mangó",
                   "maracuja",
                   "meggy",
+                  "méz",
                   "Monster Alarm",
                   "multifruit",
                   "multivitamin",
@@ -66776,46 +66952,33 @@
                   "vegyes gyümölcs",
                   "vérnarancs",
                   "zöldalma",
-                  "zöldalma püré"
-                ],
-                "kiszerelés": [
-                  "1,5 l",
-                  "1 l",
-                  "100 g",
-                  "180 ml",
-                  "2 l",
-                  "200 g",
-                  "200 ml",
-                  "250 ml",
-                  "300 ml",
-                  "330 ml",
-                  "400 ml",
-                  "5 l",
-                  "500 ml",
-                  "700 ml",
-                  "750 ml",
-                  "nem jelölt"
+                  "zöldalma püré",
+                  "zöldség",
+                  "zöldséges"
                 ],
                 "összetevő": [
                   "barack",
                   "őszibarack"
                 ],
-                "püré": [
-                  "igen"
-                ],
                 "tartalom": [
                   "C-vitamin",
-                  "hozzáadott vitaminok",
+                  "cink",
                   "kalcium",
+                  "magnézium",
                   "vitamin"
                 ],
                 "változat": [
+                  "Blue",
                   "Fair Drink",
+                  "Freshing Coolture",
                   "Fruit'n Fun",
+                  "Intenso",
                   "Jungle Drink",
                   "Monster Alarm",
                   "Mystic Dragon",
-                  "Vitatigris"
+                  "To Go",
+                  "Vitatigris",
+                  "Zero"
                 ]
               }
             }
@@ -66823,23 +66986,50 @@
           "Smoothie és püréital": {
             "tulajdonságok": {
               "egyedi": {
-                "cukormentes / zero": {},
+                "bio": {},
+                "csomagdarabszám": [
+                  12
+                ],
+                "cukormentes": {},
                 "édesítőszerrel": {},
+                "egységnyi kiszerelés": [
+                  "100 g",
+                  "250 ml"
+                ],
+                "kiszerelés": [
+                  "100 g",
+                  "120 g",
+                  "1200 g",
+                  "200 g",
+                  "200 ml",
+                  "237 ml",
+                  "250 ml",
+                  "3000 ml",
+                  "90 g"
+                ],
                 "márka": [
+                  "Auchan",
+                  "BIO",
                   "Kubu",
+                  "Penny",
+                  "Rio D'Oro",
                   "Sió",
+                  "Solevita",
                   "SPAR",
                   "Tesco",
-                  "Topjoy"
+                  "Topjoy",
+                  "Vemondo"
                 ],
                 "szénsavasság": [
-                  "szénsavas",
                   "szénsavmentes"
                 ]
               },
               "csoportos": {
                 "célcsoport": [
                   "gyerek"
+                ],
+                "csomagolás": [
+                  "multipack"
                 ],
                 "forma": [
                   "püré",
@@ -66867,6 +67057,8 @@
                   "feketeberkenye",
                   "feketeribizli",
                   "görögdinnye",
+                  "gyömbér",
+                  "gyümölcs",
                   "hibiszkusz",
                   "kaktusz",
                   "kék balaton",
@@ -66879,31 +67071,29 @@
                   "mangó",
                   "maracuja",
                   "narancs",
+                  "natúr",
                   "őszibarack",
-                  "répa",
                   "ribizli",
                   "rizs",
                   "sárgarépa",
+                  "smoothie",
+                  "smoothie relax",
                   "szőlő",
                   "trópusi",
                   "trópusi gyümölcs",
                   "vegyes",
-                  "zöldalma"
-                ],
-                "kiszerelés": [
-                  "100 g",
-                  "200 g",
-                  "200 ml",
-                  "237 ml",
-                  "250 ml",
-                  "90 g"
+                  "vegyes gyümölcs",
+                  "zöldalma",
+                  "zöldség"
                 ],
                 "tartalom": [
                   "C-vitamin",
+                  "inulin",
                   "vitamin"
                 ],
                 "változat": [
                   "Enjoy",
+                  "To Go",
                   "Vitatigris"
                 ]
               }
@@ -66920,17 +67110,23 @@
           "Energiaital": {
             "tulajdonságok": {
               "egyedi": {
-                "cukormentes / zero": {},
+                "csomagdarabszám": [
+                  4
+                ],
+                "cukormentes": {},
+                "egységnyi kiszerelés": [
+                  "250 ml"
+                ],
                 "kiszerelés": [
                   "1,5 l",
+                  "1000 ml",
                   "250 ml",
                   "355 ml",
-                  "4 x 250 ml",
                   "500 ml",
                   "60 ml",
-                  "600 ml",
-                  "nem jelölt"
+                  "600 ml"
                 ],
+                "koffeinmentes": {},
                 "márka": [
                   "Adrenalin",
                   "Arizona",
@@ -66958,6 +67154,12 @@
                 ]
               },
               "csoportos": {
+                "csomagolás": [
+                  "multipack"
+                ],
+                "funkció": [
+                  "energia"
+                ],
                 "íz": [
                   "áfonya",
                   "alma",
@@ -66972,11 +67174,9 @@
                   "citrom",
                   "citrus",
                   "citrusfélék",
-                  "classic",
                   "cseresznye",
                   "doctor",
                   "dragon fruit",
-                  "egyéb",
                   "egzotikus",
                   "eper",
                   "extra strong",
@@ -66988,7 +67188,6 @@
                   "fókusz",
                   "földieper",
                   "full throttle",
-                  "gold",
                   "Goldberg",
                   "görögdinnye",
                   "gránátalma",
@@ -67045,20 +67244,19 @@
                   "vegyes",
                   "vegyes gyümölcs",
                   "viking berry",
-                  "zéró cukor",
-                  "zero sugar",
                   "zöldalma"
                 ],
                 "tartalom": [
-                  "egyéb",
-                  "energia",
                   "koffein",
-                  "koffeinmentes",
                   "prebiotikum",
-                  "rehab",
                   "vitamin"
                 ],
+                "termékcsalád": [
+                  "Rehab"
+                ],
                 "változat": [
+                  "Classic",
+                  "Gold",
                   "Mucho Mango",
                   "The White Edition"
                 ]
@@ -67068,9 +67266,9 @@
           "Sport- és izotóniás ital": {
             "tulajdonságok": {
               "egyedi": {
-                "cukormentes / zero": {},
-                "energia tartalom": [
-                  "cukros",
+                "cukormentes": {},
+                "cukrozott": {},
+                "energiastátusz": [
                   "energiamentes"
                 ],
                 "kiszerelés": [
@@ -67079,8 +67277,7 @@
                   "600 ml",
                   "700 ml",
                   "750 ml",
-                  "900 ml",
-                  "nem jelölt"
+                  "900 ml"
                 ],
                 "márka": [
                   "Absolute Live",
@@ -67100,6 +67297,10 @@
                 ]
               },
               "csoportos": {
+                "funkció": [
+                  "energia",
+                  "izotóniás"
+                ],
                 "íz": [
                   "áfonya",
                   "alma",
@@ -67130,14 +67331,11 @@
                   "vegyes bogyós",
                   "vegyes gyümölcs",
                   "vérnarancs",
-                  "zéró cukor",
                   "zöldalma"
                 ],
                 "tartalom": [
                   "elektrolit",
-                  "energia",
                   "guarana",
-                  "izotóniás",
                   "magnézium",
                   "pantoténsav",
                   "vitamin"
@@ -67153,11 +67351,11 @@
           "Vitamin- és wellnessital": {
             "tulajdonságok": {
               "egyedi": {
-                "cukormentes / zero": {},
+                "cukormentes": {},
+                "cukrozott": {},
                 "édesítőszerrel": {},
-                "energia tartalom": [
+                "energiastátusz": [
                   "csökkentett energiatartalmú",
-                  "cukros",
                   "energiamentes"
                 ],
                 "kiszerelés": [
@@ -67188,7 +67386,7 @@
                   "Rio D'Oro",
                   "Sconto",
                   "Sweet & Fruit",
-                  "Swiss",
+                  "Swiss Laboratory",
                   "Szentkirályi",
                   "Topjoy",
                   "Vitalade",
@@ -67202,6 +67400,12 @@
                 ]
               },
               "csoportos": {
+                "célcsoport": [
+                  "gyerek"
+                ],
+                "funkció": [
+                  "energia"
+                ],
                 "íz": [
                   "acai",
                   "áfonya",
@@ -67210,7 +67414,6 @@
                   "arónia",
                   "barack",
                   "citrom",
-                  "egyéb",
                   "egzotikus",
                   "eper",
                   "erdei gyümölcs",
@@ -67235,7 +67438,6 @@
                   "piros gyümölcs",
                   "pomelo",
                   "rebarbara",
-                  "répa",
                   "sárgarépa",
                   "szeder",
                   "szőlő",
@@ -67258,7 +67460,6 @@
                   "BCAA",
                   "C-vitamin",
                   "elektrolit",
-                  "energia",
                   "gyógynövény",
                   "kollagén",
                   "magnézium",
@@ -67274,8 +67475,8 @@
           "Egyéb funkcionális ital": {
             "tulajdonságok": {
               "egyedi": {
-                "cukormentes / zero": {},
-                "energia tartalom": [
+                "cukormentes": {},
+                "energiastátusz": [
                   "energiamentes",
                   "energiaszegény"
                 ],
@@ -67299,19 +67500,16 @@
                   "Apenta",
                   "Auchan",
                   "Coop",
-                  "Fonte Active",
-                  "Fonte Boost",
+                  "Fonte",
                   "Hohes C",
                   "New Gen",
                   "Nutriversum Flow",
                   "PRO+",
                   "Rauch",
-                  "Swiss",
                   "Swiss Laboratory",
                   "Theodora",
                   "Vitalade",
-                  "Vitamizu Mizu Mate Classic",
-                  "Vitamizu Mizu Mate Grapefruit-Lime"
+                  "Vitamizu"
                 ],
                 "szénsavasság": [
                   "enyhén szénsavas",
@@ -67323,11 +67521,12 @@
                 "forma": [
                   "shot"
                 ],
-                "hatóanyag / cél": [
-                  "Antiox",
-                  "Energie",
-                  "Immun",
-                  "regeneration"
+                "funkció": [
+                  "alakreform",
+                  "antioxidáns",
+                  "energia",
+                  "immunrendszer támogatása",
+                  "regeneráció"
                 ],
                 "íz": [
                   "acai",
@@ -67337,7 +67536,6 @@
                   "ananász",
                   "antistressz",
                   "arónia",
-                  "barack",
                   "bodza",
                   "citrom",
                   "citromfű",
@@ -67359,7 +67557,6 @@
                   "kaktusz",
                   "kivi",
                   "kókusz",
-                  "kollagén",
                   "körte",
                   "lemon",
                   "levendula",
@@ -67374,7 +67571,6 @@
                   "papaja",
                   "papaya",
                   "revitalizáló",
-                  "ribizli",
                   "sárgabarack",
                   "sárkánygyümölcs",
                   "szamóca",
@@ -67384,6 +67580,7 @@
                   "tuttifrutti",
                   "vegyes",
                   "vegyes gyümölcs",
+                  "zöld tea",
                   "zöldalma"
                 ],
                 "összetevő": [
@@ -67393,12 +67590,10 @@
                   "őszibarack"
                 ],
                 "tartalom": [
-                  "alakreform",
                   "aminosav",
                   "B-vitamin",
                   "BCAA",
                   "C-vitamin",
-                  "energia",
                   "guarana",
                   "hialuronsav",
                   "kalcium",
@@ -67408,10 +67603,13 @@
                   "magnézium",
                   "oxigén",
                   "prebiotikum",
-                  "vitamin",
-                  "zöld tea"
+                  "vitamin"
                 ],
                 "változat": [
+                  "Active",
+                  "Boost",
+                  "Mizu Mate Classic",
+                  "Mizu Mate Grapefruit-Lime",
                   "Super Shots"
                 ]
               }
@@ -67429,18 +67627,16 @@
             "tulajdonságok": {
               "egyedi": {
                 "bio": {},
-                "cukormentes / zero": {},
+                "cukormentes": {},
                 "gluténmentes": {},
                 "kiszerelés": [
                   "1 l",
                   "1000 ml",
-                  "1L",
                   "200 ml",
                   "235 ml",
                   "320 ml",
                   "500 ml",
-                  "doboz",
-                  "nem jelölt"
+                  "750 ml"
                 ],
                 "márka": [
                   "Alpro",
@@ -67458,7 +67654,8 @@
                   "Tesco",
                   "The Bridge",
                   "Vemondo"
-                ]
+                ],
+                "zsírszegény": {}
               },
               "csoportos": {
                 "alap": [
@@ -67469,8 +67666,14 @@
                   "szója",
                   "zab"
                 ],
+                "csomagolás": [
+                  "doboz"
+                ],
                 "édesség": [
                   "édesített"
+                ],
+                "fehérjetartalom": [
+                  "50 g"
                 ],
                 "feldolgozás": [
                   "UHT"
@@ -67480,7 +67683,6 @@
                 ],
                 "íz": [
                   "banán",
-                  "barista",
                   "csokoládé",
                   "eper",
                   "fahéj",
@@ -67500,7 +67702,6 @@
                   "vanília"
                 ],
                 "tartalom": [
-                  "50 g protein",
                   "ásványi anyag",
                   "B12-vitamin",
                   "D-vitamin",
@@ -67512,6 +67713,7 @@
                 ],
                 "változat": [
                   "Almond",
+                  "Barista",
                   "Kedvenc",
                   "Not Milk",
                   "PUR",
@@ -67520,11 +67722,8 @@
                 ],
                 "zsírtartalom": [
                   "0%",
-                  "1",
-                  "3",
-                  "5%",
-                  "8%",
-                  "zsírszegény"
+                  "1,8%",
+                  "3,5%"
                 ]
               }
             }
@@ -67536,11 +67735,10 @@
                 "gluténmentes": {},
                 "kiszerelés": [
                   "1 l",
-                  "1L",
+                  "1000 ml",
+                  "220 ml",
                   "250 ml",
-                  "750 ml",
-                  "doboz",
-                  "pohár"
+                  "750 ml"
                 ],
                 "márka": [
                   "Alpro",
@@ -67550,7 +67748,8 @@
                   "Riso Scotti",
                   "SPAR",
                   "The Bridge"
-                ]
+                ],
+                "zsírszegény": {}
               },
               "csoportos": {
                 "alap": [
@@ -67560,12 +67759,15 @@
                   "karamell",
                   "kávé",
                   "kókusz",
-                  "kóla",
                   "mandula",
                   "rizs",
                   "szója",
                   "vanília",
                   "zab"
+                ],
+                "csomagolás": [
+                  "doboz",
+                  "pohár"
                 ],
                 "feldolgozás": [
                   "UHT"
@@ -67574,7 +67776,6 @@
                   "barista"
                 ],
                 "íz": [
-                  "barista",
                   "csokoládé",
                   "fahéj",
                   "kakaó",
@@ -67594,8 +67795,8 @@
                   "protein",
                   "vitamin"
                 ],
-                "zsírtartalom": [
-                  "zsírszegény"
+                "változat": [
+                  "Barista"
                 ]
               }
             }
@@ -67611,8 +67812,63 @@
           "Kávé": {
             "tulajdonságok": {
               "egyedi": {
+                "arabica arány": [
+                  "100%",
+                  "55%",
+                  "80%"
+                ],
                 "bio": {},
-                "cukormentes / zero": {},
+                "csomagdarabszám": [
+                  10,
+                  100,
+                  16,
+                  2,
+                  20,
+                  24,
+                  25,
+                  28,
+                  30,
+                  4,
+                  40,
+                  45,
+                  50,
+                  8,
+                  9
+                ],
+                "cukormentes": {},
+                "egységnyi kiszerelés": [
+                  "10 g",
+                  "11,1 g",
+                  "11,7 g",
+                  "12,4 g",
+                  "12,6 g",
+                  "12 g",
+                  "13,5 g",
+                  "14 g",
+                  "15 g",
+                  "16,5 g",
+                  "16 g",
+                  "17 g",
+                  "18,5 g",
+                  "18 g",
+                  "2,5 g",
+                  "2 g",
+                  "250 g",
+                  "4,8 g",
+                  "5,1 g",
+                  "5,2 g",
+                  "5,5 g",
+                  "5,6 g",
+                  "5,7 g",
+                  "5 g",
+                  "6,2 g",
+                  "6,3 g",
+                  "6,5 g",
+                  "7,5 g",
+                  "7 g",
+                  "8,5 g",
+                  "8 g"
+                ],
                 "fajta": [
                   "2 az 1-ben",
                   "3 az 1-ben",
@@ -67622,38 +67878,33 @@
                   "kávé",
                   "kávékivonat"
                 ],
+                "instant": {},
                 "kiszerelés": [
                   "1 kg",
                   "10 db",
-                  "10 g",
-                  "10 x 5 g",
                   "100,8 g",
                   "100 g",
                   "104 g",
                   "108 g",
-                  "10X18G",
                   "111 g",
                   "112 g",
-                  "12,4 g",
                   "12 db",
                   "120 g",
                   "121,2 g",
                   "123 g",
+                  "124 g",
                   "125 g",
-                  "126,4 g",
                   "126 g",
                   "127,8 g",
                   "128 g",
                   "129 g",
-                  "13,5 g",
                   "130 g",
                   "132 g",
                   "136 g",
-                  "14 g",
                   "140 g",
                   "144 g",
                   "145,6 g",
-                  "145 g",
+                  "148 g",
                   "15 g",
                   "150 g",
                   "156 g",
@@ -67661,24 +67912,17 @@
                   "16,5 g",
                   "16 db",
                   "16 g",
-                  "16 x 6,3 g (100,8 g)",
-                  "16 x 7 g",
                   "160 g",
                   "165 g",
                   "168 g",
-                  "17 g",
                   "170 g",
-                  "18 g",
                   "180 g",
                   "183,2 g",
                   "186,4 g",
                   "187,2 g",
                   "192 g",
-                  "2,5 g",
-                  "2 g",
                   "20 db",
                   "20 g",
-                  "20 x 5 g",
                   "200 g",
                   "208 g",
                   "210 g",
@@ -67686,11 +67930,12 @@
                   "225 g",
                   "227 g",
                   "228 g",
+                  "234 g",
                   "248 g",
                   "250 g",
                   "252 g",
                   "256 g",
-                  "28 x 16 g",
+                  "260 g",
                   "30 db",
                   "300 g",
                   "336 g",
@@ -67700,26 +67945,19 @@
                   "384 g",
                   "389 g",
                   "396 g",
-                  "4,8 g",
                   "40 db",
-                  "40 db 208 g",
+                  "40 g",
                   "408 g",
                   "414 g",
                   "44 g",
+                  "448 g",
                   "45 g",
-                  "45 x 5,2 g",
                   "450 g",
                   "462 g",
                   "48 g",
-                  "5,2 g",
-                  "5,5 g",
-                  "5,6 g",
-                  "5,7 g",
-                  "5 g",
+                  "50 db",
                   "50 g",
-                  "50 x 17 g",
                   "500 g",
-                  "50DB",
                   "51 g",
                   "52 g",
                   "53 g",
@@ -67728,6 +67966,7 @@
                   "57 g",
                   "600 g",
                   "66 g",
+                  "68 g",
                   "7,5 g",
                   "7 g",
                   "70 g",
@@ -67735,7 +67974,6 @@
                   "750 g",
                   "76 g",
                   "78 g",
-                  "8 g",
                   "80 g",
                   "84 g",
                   "850 g",
@@ -67746,8 +67984,7 @@
                   "94 g",
                   "95 g",
                   "98 g",
-                  "99,2 g",
-                  "nem jelölt"
+                  "99,2 g"
                 ],
                 "koffeinmentes": {},
                 "márka": [
@@ -67778,8 +68015,6 @@
                   "Delice",
                   "Dolcezza",
                   "Douwe Egberts",
-                  "Douwe Egberts Omnia",
-                  "Douwe Egberts Paloma",
                   "Dr. Oetker",
                   "Eduscho",
                   "Gala",
@@ -67799,9 +68034,7 @@
                   "Mokate",
                   "Nescafé",
                   "Nestlé Ricoré",
-                  "Nestlé Ricoré 3in1",
                   "Omnia",
-                  "Paloma Classic",
                   "Pellini",
                   "Pepe Coffee",
                   "REGIO",
@@ -67816,30 +68049,18 @@
                   "Tchibo",
                   "Tesco",
                   "Tutti"
+                ],
+                "robusta arány": [
+                  "100%",
+                  "20%",
+                  "45%"
                 ]
               },
               "csoportos": {
                 "csomagolás": [
-                  "10 x 10 g",
-                  "10 x 14 g",
-                  "10 x 15 g",
-                  "10 x 16",
-                  "10 x 16 g",
-                  "10 x 17 g",
-                  "10 x 18 g",
-                  "10 x 8 g",
-                  "20 x 12",
-                  "20 x 8 g",
-                  "24 x 14 g",
-                  "24 x 15 g",
-                  "24 x 16 g",
-                  "28 x 16",
-                  "4 g",
-                  "5 g",
-                  "6 g",
                   "kapszula",
                   "kávépárna",
-                  "palack",
+                  "multipack",
                   "tasak",
                   "utántöltő tasak",
                   "vákuumcsomagolás"
@@ -67850,7 +68071,6 @@
                   "Chiapas",
                   "Colombia",
                   "Costa Rica",
-                  "egyéb",
                   "India",
                   "Kenya",
                   "Peru",
@@ -67860,8 +68080,7 @@
                   "fagyasztva szárított"
                 ],
                 "forma": [
-                  "instant",
-                  "instant italpor",
+                  "italpor",
                   "kapszula",
                   "őrölt",
                   "szemes"
@@ -67877,7 +68096,6 @@
                   "armonioso",
                   "aromatico",
                   "bar crema",
-                  "barista",
                   "barista caffè crema",
                   "barista edition caffè crema",
                   "barista edition espresso",
@@ -67905,13 +68123,10 @@
                   "calma fine roast",
                   "cappuccino",
                   "Capri Dolce Vita ristretto",
-                  "Chiapas",
                   "cikória",
-                  "classic",
                   "classic crema",
                   "classic smooth",
                   "classic traditional",
-                  "classico",
                   "Colombia",
                   "Colombia espresso",
                   "cortado",
@@ -67933,7 +68148,6 @@
                   "crema strong",
                   "cremoso",
                   "csokoládé",
-                  "decaffeinato",
                   "delicato",
                   "dió",
                   "dohány",
@@ -67986,10 +68200,8 @@
                   "forza",
                   "frappé",
                   "fudge",
-                  "fusion",
                   "fűszeres",
                   "gazdag aroma",
-                  "gold",
                   "gold crema",
                   "gold decaf",
                   "gold espresso",
@@ -68001,7 +68213,6 @@
                   "home barista espresso intenso",
                   "house blend",
                   "il mattino",
-                  "India",
                   "India espresso",
                   "intenso",
                   "intenzív",
@@ -68019,7 +68230,6 @@
                   "kávé",
                   "Kenya",
                   "kit kat",
-                  "klasszikus",
                   "kókusz",
                   "kóla",
                   "krémes",
@@ -68056,7 +68266,6 @@
                   "nut",
                   "onyx",
                   "or rose",
-                  "paloma classic",
                   "pekándió",
                   "Pike Place Roast",
                   "Pike Place Roast Lungo",
@@ -68078,7 +68287,6 @@
                   "selezione espresso",
                   "selymes",
                   "silk",
-                  "strong",
                   "strong intense",
                   "sunny day blend",
                   "tejpor",
@@ -68100,6 +68308,10 @@
                   "white mocha",
                   "wiener extra"
                 ],
+                "kávéfajta": [
+                  "arabica",
+                  "robusta"
+                ],
                 "kávékeverék típusa": [
                   "2in1",
                   "3in1",
@@ -68111,45 +68323,45 @@
                   "Nespresso-kompatibilis",
                   "Tchibo Cafissimo"
                 ],
-                "összetétel": [
-                  "100% arabica",
-                  "100% robusta",
-                  "55% arabica 45% robusta",
-                  "80% arabica 20% robusta"
-                ],
                 "összetevő": [
                   "barna cukor",
                   "cikória",
                   "csokoládé",
                   "kakaó",
                   "karamell",
-                  "kóla",
                   "málna",
                   "maracuja",
                   "mogyoró",
                   "natúr",
-                  "tuttifrutti",
                   "vanília"
                 ],
+                "termékcsalád": [
+                  "Omnia",
+                  "Paloma"
+                ],
                 "változat": [
-                  "2in1",
-                  "3in1",
                   "3in1 Cappuccino",
+                  "Barista",
                   "bio",
                   "Café",
                   "Caffè Crema",
-                  "cappuccino",
                   "Cappuccino Zero",
                   "Capri",
                   "Classic",
+                  "Classico",
                   "Crema Classica",
                   "Espresso 57",
                   "Espresso Brazil",
                   "Espresso Forte",
                   "Espresso Intensive",
                   "Espresso Intenso",
+                  "Fusion",
+                  "Gold",
+                  "Karaván",
+                  "Klasszikus",
                   "Natur*pur",
                   "PREMIUM",
+                  "Professional",
                   "Silk",
                   "Strong",
                   "zero"
@@ -68161,12 +68373,98 @@
             "tulajdonságok": {
               "egyedi": {
                 "bio": {},
+                "csomagdarabszám": [
+                  10,
+                  100,
+                  20,
+                  25,
+                  3,
+                  5,
+                  50,
+                  6,
+                  92
+                ],
+                "egységnyi kiszerelés": [
+                  "1,2 g",
+                  "1,4 g",
+                  "1,5 g",
+                  "1,52 g",
+                  "1,6 g",
+                  "1,7 g",
+                  "1,75 g",
+                  "1,76 g",
+                  "1,9 g",
+                  "1,94 g",
+                  "1 g",
+                  "100 g",
+                  "14 g",
+                  "2,24 g",
+                  "2,25 g",
+                  "2,5 g",
+                  "2,8 g",
+                  "2 g",
+                  "3 g",
+                  "50 g"
+                ],
                 "fajta": [
-                  "egyéb",
                   "fehér",
-                  "maté",
                   "oolong",
                   "teaválogatás"
+                ],
+                "instant": {},
+                "kiszerelés": [
+                  "100 g",
+                  "1000 g",
+                  "120 g",
+                  "125 g",
+                  "138 g",
+                  "140 g",
+                  "150 g",
+                  "165 g",
+                  "17,5 g",
+                  "18 g",
+                  "2 g",
+                  "20 db",
+                  "20 g",
+                  "200 g",
+                  "24 g",
+                  "25 g",
+                  "250 g",
+                  "26 g",
+                  "28 g",
+                  "30 g",
+                  "300 g",
+                  "32,3 g",
+                  "32,4 g",
+                  "32 g",
+                  "33 g",
+                  "34 g",
+                  "35 g",
+                  "36 g",
+                  "37,5 g",
+                  "38,5 g",
+                  "38,75 g",
+                  "38,8 g",
+                  "38 g",
+                  "40 g",
+                  "400 g",
+                  "42 g",
+                  "43,75 g",
+                  "44 g",
+                  "45 g",
+                  "46 g",
+                  "50 g",
+                  "54 g",
+                  "56 g",
+                  "6 g",
+                  "60 g",
+                  "70 g",
+                  "74 g",
+                  "75 g",
+                  "80 g",
+                  "84 g",
+                  "88 g",
+                  "90 g"
                 ],
                 "márka": [
                   "Alfa Katsifa",
@@ -68177,7 +68475,6 @@
                   "Coop",
                   "Dilmah",
                   "Dr. Chen",
-                  "Dr. Chen Patika",
                   "Ekland",
                   "English Tea Shop",
                   "Flosana",
@@ -68189,7 +68486,6 @@
                   "Just a Minute",
                   "Lipton",
                   "London Fruit & Herb",
-                  "London Fruit & Herb Company",
                   "Loyd",
                   "Milford",
                   "Mokate",
@@ -68217,35 +68513,33 @@
                 ]
               },
               "csoportos": {
+                "célcsoport": [
+                  "gyerek"
+                ],
                 "csomagolás": [
-                  "20 tasak",
-                  "20 x 1",
-                  "20 x 2 g",
-                  "75 g",
                   "aromazáró csomagolás",
-                  "filter",
-                  "palack",
-                  "szálas"
+                  "multipack"
                 ],
                 "forma": [
                   "filteres",
                   "por",
                   "szálas"
                 ],
-                "hatóanyag / cél": [
-                  "B-vitamin komplex",
-                  "B5-vitamin",
-                  "beauty",
-                  "C-vitamin",
-                  "cink",
+                "funkció": [
                   "detox",
-                  "emésztés",
                   "emésztés támogatása",
-                  "ginseng",
-                  "immunity",
+                  "immunrendszer támogatása",
                   "koncentráció",
                   "nyugodt alvás",
-                  "relax"
+                  "relaxáció",
+                  "szépség"
+                ],
+                "hatóanyag": [
+                  "B-vitamin komplex",
+                  "B5-vitamin",
+                  "C-vitamin",
+                  "cink",
+                  "ginseng"
                 ],
                 "íz": [
                   "acai bogyó",
@@ -68263,7 +68557,6 @@
                   "citrom",
                   "citromfű",
                   "citrus",
-                  "classic",
                   "classic label",
                   "csalán",
                   "csalánlevél",
@@ -68272,7 +68565,6 @@
                   "Earl Grey",
                   "Earl Grey Lemon",
                   "echinacea",
-                  "egyéb",
                   "English Breakfast",
                   "eper",
                   "erdei gyümölcs",
@@ -68343,79 +68635,8 @@
                   "vegyesgyümölcs",
                   "vérnarancs",
                   "világ teái",
-                  "Yellow Label",
                   "yuzu",
                   "zserbó"
-                ],
-                "kiszerelés": [
-                  "1,2 g",
-                  "1,4 g",
-                  "1,5 g",
-                  "1,52 g",
-                  "1,6 g",
-                  "1,7 g",
-                  "1,75 g",
-                  "1,76 g",
-                  "1,9 g",
-                  "1,94 g",
-                  "1 g",
-                  "100 g",
-                  "120 g",
-                  "125 g",
-                  "138 g",
-                  "140 g",
-                  "150 g",
-                  "165 g",
-                  "17,5 g",
-                  "18 g",
-                  "2,24 g",
-                  "2,25 g",
-                  "2,5 g",
-                  "2,8 g",
-                  "2 g",
-                  "20 db",
-                  "20 filter",
-                  "20 filter 40 g",
-                  "20 g",
-                  "20 teafilter",
-                  "20 x 1,5 g",
-                  "200 g",
-                  "24 g",
-                  "25 g",
-                  "250 g",
-                  "26 g",
-                  "28 g",
-                  "3 g",
-                  "30 g",
-                  "300 g",
-                  "32,3 g",
-                  "32,4 g",
-                  "32 g",
-                  "33 g",
-                  "34 g",
-                  "35 g",
-                  "36 g",
-                  "37,5 g",
-                  "38,5 g",
-                  "38,75 g",
-                  "38 g",
-                  "40 g",
-                  "400 g",
-                  "42 g",
-                  "43,75 g",
-                  "44 g",
-                  "45 g",
-                  "50 g",
-                  "54 g",
-                  "60 g",
-                  "70 g",
-                  "74 g",
-                  "75 g",
-                  "80 g",
-                  "84 g",
-                  "88 g",
-                  "90 g",
-                  "nem jelölt"
                 ],
                 "összetevő": [
                   "áfonya",
@@ -68443,6 +68664,7 @@
                 ],
                 "változat": [
                   "Boost Super Tea",
+                  "Classic",
                   "Classic Matcha Latte",
                   "Defense",
                   "Digestion Super Tea",
@@ -68454,7 +68676,8 @@
                   "Premium",
                   "Premium Assam",
                   "Strawberry Matcha Latte",
-                  "Sweet Dreams Super Tea"
+                  "Sweet Dreams Super Tea",
+                  "Yellow Label"
                 ]
               }
             }
@@ -68462,7 +68685,54 @@
           "Kakaó és forró csokoládé": {
             "tulajdonságok": {
               "egyedi": {
+                "csomagdarabszám": [
+                  10,
+                  30,
+                  5,
+                  8
+                ],
+                "egységnyi kiszerelés": [
+                  "15,8 g",
+                  "15 g",
+                  "16 g",
+                  "18 g",
+                  "20 g",
+                  "25 g",
+                  "6 g"
+                ],
                 "instant": {},
+                "kiszerelés": [
+                  "1,5 kg",
+                  "1 kg",
+                  "100 g",
+                  "104 g",
+                  "126,4 g",
+                  "128 g",
+                  "150 g",
+                  "180 g",
+                  "200 g",
+                  "21 g",
+                  "25 g",
+                  "250 g",
+                  "256 g",
+                  "26 g",
+                  "29 g",
+                  "30 g",
+                  "300 g",
+                  "32 g",
+                  "34 g",
+                  "350 g",
+                  "390 g",
+                  "400 g",
+                  "450 g",
+                  "500 g",
+                  "600 g",
+                  "70 g",
+                  "75 g",
+                  "80 g",
+                  "800 g",
+                  "90 g"
+                ],
                 "márka": [
                   "ARO",
                   "Back Family",
@@ -68476,7 +68746,7 @@
                   "Dr. Oetker",
                   "Good Choice",
                   "Jacobs",
-                  "La Festa Hot Chocolatta Classico",
+                  "La Festa",
                   "Mantaro",
                   "Milky",
                   "Mokate",
@@ -68500,9 +68770,7 @@
               },
               "csoportos": {
                 "csomagolás": [
-                  "10 x 25 g",
-                  "8 x 16 g",
-                  "palack"
+                  "multipack"
                 ],
                 "forma": [
                   "italpor",
@@ -68526,44 +68794,14 @@
                   "vanília"
                 ],
                 "kakaóvaj tartalom": [
-                  "20-22%",
-                  "egyéb"
-                ],
-                "kiszerelés": [
-                  "1,5 kg",
-                  "1 kg",
-                  "100 g",
-                  "104 g",
-                  "126,4 g",
-                  "15 g",
-                  "150 g",
-                  "18 g",
-                  "180 g",
-                  "200 g",
-                  "21 g",
-                  "25 g",
-                  "250 g",
-                  "256 g",
-                  "26 g",
-                  "29 g",
-                  "30 g",
-                  "300 g",
-                  "32 g",
-                  "34 g",
-                  "350 g",
-                  "390 g",
-                  "400 g",
-                  "500 g",
-                  "600 g",
-                  "70 g",
-                  "75 g",
-                  "800 g",
-                  "90 g",
-                  "nem jelölt"
+                  "20-22%"
                 ],
                 "tartalom": [
                   "kalcium",
                   "vitamin"
+                ],
+                "termékcsalád": [
+                  "Hot Chocolatta"
                 ],
                 "terméktípus": [
                   "forró csokoládé",
@@ -68572,7 +68810,6 @@
                 ],
                 "típus": [
                   "édesített kakaópor",
-                  "egyéb",
                   "kakaópor",
                   "kapszula",
                   "milkshake",
@@ -68580,6 +68817,7 @@
                 ],
                 "változat": [
                   "Cho-Quick",
+                  "Classico",
                   "Hot Chocolate",
                   "Shake",
                   "Snack"
@@ -68587,8 +68825,7 @@
                 "zsírtartalom": [
                   "10-12%",
                   "15-18%",
-                  "20-22%",
-                  "zsírszegény"
+                  "20-22%"
                 ]
               }
             }
@@ -68596,15 +68833,21 @@
           "Kávé- és teaadalék": {
             "tulajdonságok": {
               "egyedi": {
+                "csomagdarabszám": [
+                  2
+                ],
+                "egységnyi kiszerelés": [
+                  "200 g"
+                ],
+                "instant": {},
                 "kiszerelés": [
                   "100 g",
                   "120 g",
                   "200 g",
                   "250 g",
                   "350 g",
-                  "90 g",
-                  "adagcsomagolt",
-                  "tasak"
+                  "400 g",
+                  "90 g"
                 ],
                 "márka": [
                   "Auchan",
@@ -68623,11 +68866,9 @@
               },
               "csoportos": {
                 "csomagolás": [
+                  "adagcsomagolt",
+                  "multipack",
                   "tasak"
-                ],
-                "fajta": [
-                  "krémpor",
-                  "tejpor"
                 ],
                 "forma": [
                   "folyékony",
@@ -68639,11 +68880,10 @@
                   "utántöltő"
                 ],
                 "terméktípus": [
-                  "kávéfehérítő vagy tejpor"
-                ],
-                "típus": [
-                  "granulátum",
-                  "por"
+                  "kávéfehérítő",
+                  "kávékrémpor",
+                  "kávétejszín",
+                  "tejpor"
                 ]
               }
             }
@@ -68659,13 +68899,25 @@
           "Italszirup és folyékony koncentrátum": {
             "tulajdonságok": {
               "egyedi": {
-                "C-vitamin": {},
-                "cukormentes / zero": {},
+                "cukormentes": {},
+                "cukrozott": {},
                 "édesítőszerrel": {},
-                "energia tartalom": [
+                "energiastátusz": [
                   "csökkentett energiatartalmú",
-                  "cukros",
                   "energiamentes"
+                ],
+                "kiszerelés": [
+                  "1,3 kg",
+                  "1,5 l",
+                  "1 l",
+                  "2 l",
+                  "200 ml",
+                  "250 ml",
+                  "440 ml",
+                  "500 ml",
+                  "700 ml",
+                  "750 ml",
+                  "8,5 g"
                 ],
                 "márka": [
                   "ARO",
@@ -68687,8 +68939,8 @@
                   "RIOBA",
                   "S-Budget",
                   "Shapeway",
+                  "Sodastream",
                   "Sodastream 7Up",
-                  "Sodastream Classics",
                   "Sodastream Mirinda",
                   "Sodastream Pepsi",
                   "Solevita",
@@ -68696,11 +68948,13 @@
                   "Stockwell & Co.",
                   "Szobi",
                   "Tesco",
-                  "Yo",
-                  "YO Sirup"
+                  "YO"
                 ]
               },
               "csoportos": {
+                "célcsoport": [
+                  "gyerek"
+                ],
                 "íz": [
                   "áfonya",
                   "alma",
@@ -68719,7 +68973,6 @@
                   "cukor",
                   "cukornád",
                   "édes",
-                  "egyéb",
                   "eper",
                   "erdei gyümölcs",
                   "erdei vegyes gyümölcs",
@@ -68772,20 +69025,6 @@
                   "vegyes",
                   "zöldalma"
                 ],
-                "kiszerelés": [
-                  "1,3 kg",
-                  "1,5 l",
-                  "1 l",
-                  "2 l",
-                  "200 ml",
-                  "250 ml",
-                  "440 ml",
-                  "500 ml",
-                  "700 ml",
-                  "750 ml",
-                  "8,5 g",
-                  "nem jelölt"
-                ],
                 "összetevő": [
                   "bodza",
                   "citrom",
@@ -68804,7 +69043,14 @@
                 "színezék": [
                   "feketerépalével színezve"
                 ],
+                "tartalom": [
+                  "C-vitamin"
+                ],
+                "terméktípus": [
+                  "szörp"
+                ],
                 "változat": [
+                  "Classics",
                   "Hazai Szeretem",
                   "PREMIUM"
                 ]
@@ -68814,18 +69060,34 @@
           "Italpor és tabletta": {
             "tulajdonságok": {
               "egyedi": {
-                "energia tartalom": [
-                  "cukros"
+                "csomagdarabszám": [
+                  12
+                ],
+                "cukrozott": {},
+                "egységnyi kiszerelés": [
+                  "2,1 g",
+                  "2 g"
                 ],
                 "fajta": [
-                  "egyéb",
-                  "gyümölcs",
-                  "instant"
+                  "gyümölcs"
+                ],
+                "instant": {},
+                "kiszerelés": [
+                  "1,5 kg",
+                  "10 g",
+                  "20 g",
+                  "24 db",
+                  "24 g",
+                  "25,2 g",
+                  "28 g",
+                  "300 g",
+                  "350 g",
+                  "40 g"
                 ],
                 "márka": [
                   "Dr. Oetker",
                   "Ekland",
-                  "Haas Classic",
+                  "Haas",
                   "Penny",
                   "RIOBA",
                   "SPAR",
@@ -68835,10 +69097,9 @@
               },
               "csoportos": {
                 "csomagolás": [
-                  "palack"
+                  "multipack"
                 ],
                 "forma": [
-                  "instant",
                   "por",
                   "tabletta"
                 ],
@@ -68864,18 +69125,6 @@
                   "tea",
                   "vegyes"
                 ],
-                "kiszerelés": [
-                  "1,5 kg",
-                  "10 g",
-                  "12 x 2,0 g",
-                  "12 x 2,1 g",
-                  "20 g",
-                  "24 db",
-                  "28 g",
-                  "300 g",
-                  "350 g",
-                  "40 g"
-                ],
                 "összetevő": [
                   "áfonya",
                   "alma",
@@ -68883,11 +69132,11 @@
                   "szeder"
                 ],
                 "típus": [
-                  "instant",
                   "instant tea"
                 ],
                 "változat": [
-                  "Aquadrop"
+                  "Aquadrop",
+                  "Classic"
                 ]
               }
             }

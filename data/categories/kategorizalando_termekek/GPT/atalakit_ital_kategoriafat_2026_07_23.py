@@ -44,6 +44,191 @@ NESQUIK_ID = "209545089"
 CITRIORANGE_ID = "440767:3978151"
 FRUIT_STEP_GINGER_ID = "121283822"
 
+# A régi „Vegyes gyümölcs- és zöldséglé” ág 190 rekordjának kézzel
+# ellenőrzött, egymást kizáró célcsoportjai. A fennmaradó 106 rekord valódi lé.
+LEGACY_MIXED_JUICE_ID_SHA256 = (
+    "369b35c38029ae2049ca1f1b4d3718c86edf9d9a196aa5152569ef6a6289dcbf"
+)
+SMOOTHIE_PUREE_IDS = frozenset(
+    {
+        "015757a9096c30525cd97616",
+        "10003689",
+        "10101629",
+        "121231061",
+        "440431:3977815",
+        "440434:3977818",
+        "4599177",
+        "4599178",
+        "4599179",
+        "4599180",
+        "4603362",
+        "513662:4051052",
+        "533147:4070537",
+        "533153:4070543",
+        "534752",
+        "534753",
+        "534754",
+        "536931:4074321",
+        "6a6c94adaf66dd29f4c5f062",
+        "775977:4313367",
+        "778329:4315719",
+        "849917:4387307",
+        "849920:4387310",
+        "849923:4387313",
+        "9571:9574",
+        "BTY-X15551700320021",
+        "BTY-X15563000320021",
+        "BTY-X17539800320022",
+        "BTY-X7821900320022",
+        "ad9df10725f96fe1644950b6",
+        "e53d95437f2838192d3d832b",
+    }
+)
+FRUIT_DRINK_IDS = frozenset(
+    {
+        "10000450",
+        "10000456",
+        "10045431",
+        "10055678",
+        "1028336",
+        "121229554",
+        "121229709",
+        "121230045",
+        "121230281",
+        "121230309",
+        "220341206",
+        "2807800",
+        "2808563",
+        "2dda65cc3f4c183bee87c7f2",
+        "3372094",
+        "3372099",
+        "4604103",
+        "4605175",
+        "588194:4125584",
+        "632549:4169939",
+        "674834:4212224",
+        "674840:4212230",
+        "674846:4212236",
+        "691970:4229360",
+        "711749:4249139",
+        "711755:4249145",
+        "711758:4249148",
+        "711761:4249151",
+        "753873",
+        "757841",
+        "757842",
+        "783350:4320740",
+        "787775:4325165",
+        "795707:4333097",
+        "796328:4333718",
+        "818540:4355930",
+        "818594:4355984",
+        "818600:4355990",
+        "818612:4356002",
+        "848948:4386338",
+        "84cff7483ff5d2096fa310e6",
+        "935735",
+        "935736",
+        "935737",
+        "944844",
+        "986393",
+        "986394",
+        "aca22233ae9019e85728e396",
+        "c16cd8fee0515b8654060bd9",
+        "e4443d9fe66eed9bf7d69966",
+    }
+)
+NECTAR_IDS = frozenset({"914263", "950537:4487927", "986392"})
+LEGACY_JUICE_VEGETABLE_ONLY_IDS = frozenset(
+    {
+        "121236845",
+        "121311646",
+        "470711:4008083",
+        "541900",
+        "688067:4225457",
+        "688070:4225460",
+        "720272:4257662",
+        "720275:4257665",
+        "825842:4363232",
+        "947300:4484690",
+        "950759:4488149",
+        "950762:4488152",
+    }
+)
+LEGACY_JUICE_MIXED_IDS = frozenset(
+    {
+        "1021641",
+        "105007895",
+        "121236712",
+        "121236758",
+        "121236862",
+        "121263155",
+        "15ba1924746fbabc7918d1bb",
+        "2f5d164f1fc8dc1818f9f8c8",
+        "44824294b396e198ef5ccced",
+        "588146:4125536",
+        "61850:3598934",
+        "791240:4328630",
+        "8152f50d112035382f9196cc",
+        "848798:4386188",
+        "914735",
+        "BTY-X15030300320021",
+        "BTY-X17540400320021",
+        "BTY-X9170800320021",
+    }
+)
+
+# A már eleve más léágról érkező rekordok bizonyított létípus-javításai.
+EXTRA_JUICE_VEGETABLE_ONLY_IDS = frozenset(
+    {"848801:4386191", "220104087"}
+)
+EXTRA_JUICE_MIXED_IDS = frozenset(
+    {
+        "121230091",
+        "121230223",
+        "121291035",
+        "121291115",
+        "121296485",
+        "220104085",
+        "4cd548da9047172acfece395",
+        "61709:3634424",
+        "693530:4230920",
+        "693533:4230923",
+        "783731:4321121",
+        "818582:4355972",
+        "818591:4355981",
+    }
+)
+MISSING_JUICE_FRUIT_ONLY_IDS = frozenset(
+    {
+        "121220097",
+        "3c8291fd8bb68c6030e564d0",
+        "684869:4222259",
+        "8362:8365",
+        "BTY-X17427700320021",
+    }
+)
+MISSING_JUICE_VEGETABLE_ONLY_IDS = frozenset({"40114:40117"})
+MISSING_JUICE_MIXED_IDS = frozenset(
+    {
+        "121219952",
+        "684953:4222343",
+        "8c192683e56e4a336c1b16a6",
+        "BTY-X17427600320021",
+    }
+)
+
+FORCED_STILL_IDS = frozenset(
+    {
+        "03f69e37a32ef60be065c483",
+        "40114:40117",
+        "582181:4119571",
+        "8362:8365",
+        "8a25dbbaf94cbcf6f8de8ee5",
+        "BTY-X16027500320021",
+    }
+)
+
 ALCOHOL_BRANCH = "Alkoholos italok és alkoholmentes alternatívák"
 WATER_BRANCH = "Víz és vízalapú italok"
 SOFT_BRANCH = "Üdítőitalok"
@@ -372,9 +557,17 @@ def reject_duplicate_keys(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
     return result
 
 
+def reject_nonfinite_number(value: str) -> None:
+    raise ValueError(f"Nem véges JSON-szám: {value}")
+
+
 def load_json(path: Path) -> Any:
     with path.open(encoding="utf-8") as handle:
-        return json.load(handle, object_pairs_hook=reject_duplicate_keys)
+        return json.load(
+            handle,
+            object_pairs_hook=reject_duplicate_keys,
+            parse_constant=reject_nonfinite_number,
+        )
 
 
 def dump_json(path: Path, payload: Any) -> None:
@@ -831,11 +1024,16 @@ def add_source_semantics(
         elif old_alt == "IPA / Ale":
             text = product_text(product)
             additions: list[str] = []
-            if "ipa" in text:
+            if re.search(r"\bipa\b", text):
                 additions.append("IPA")
+            if re.search(r"\bapa\b", text):
+                additions.append("APA")
             if re.search(r"\bale\b", text):
                 additions.append("ale")
-            append_list(props, "sörtípus", additions or ["felsőerjesztésű sör"])
+            if additions:
+                append_list(props, "sörtípus", additions)
+            elif "lager" not in text:
+                append_list(props, "sörtípus", ["felsőerjesztésű sör"])
         if "sörtípus" in props:
             props["sörtípus"] = [
                 value
@@ -852,7 +1050,9 @@ def add_source_semantics(
             append_list(props, "lé típusa", ["gyümölcslé"])
             append_list(props, "gyümölcstartalom", ["100%"])
         elif old_alt == "Vegyes gyümölcs- és zöldséglé":
-            append_list(props, "lé típusa", ["gyümölcslé", "zöldséglé"])
+            # Szándékosan a forrásjelölő marad meg eddig a pontig: a későbbi,
+            # exact ID-készletekkel védett lé-normalizáló választ valódi célágat.
+            append_list(props, "lé típusa", ["gyümölcs- és zöldséglé"])
         elif old_alt == "Zöldséglé":
             append_list(props, "lé típusa", ["zöldséglé"])
         elif old_alt == "Gyümölcspüré":
@@ -953,7 +1153,11 @@ def transform_citrus_product(product: dict[str, Any], old_path: tuple[str, str])
     if isinstance(brand, str) and brand.strip():
         new_props["márka"] = brand
     new_props["terméktípus"] = [product_type]
-    new_props["gyümölcs"] = dedupe(flavors or ["citrom"])
+    if product_id(product) == FRUIT_STEP_GINGER_ID:
+        new_props["gyümölcs"] = ["citrom"]
+        new_props["összetevő"] = ["gyömbér"]
+    else:
+        new_props["gyümölcs"] = dedupe(flavors or ["citrom"])
     if content:
         new_props["citruslé-tartalom"] = dedupe(content)
     # A célfőkategóriában a kiszerelés a csomagolás alakja, nem a méret.
@@ -975,32 +1179,471 @@ def transform_nesquik(product: dict[str, Any]) -> None:
     }
 
 
-def normalize_atomic_semantics(
+def remove_folded_atoms(
+    props: dict[str, Any],
+    property_name: str,
+    folded_values: set[str] | frozenset[str],
+) -> None:
+    if property_name not in props:
+        return
+    kept = [
+        value
+        for value in values_of(props[property_name])
+        if fold_text(value) not in folded_values
+    ]
+    if kept:
+        props[property_name] = dedupe(kept)
+    else:
+        props.pop(property_name, None)
+
+
+def normalize_juice_taxonomy(
     products: list[dict[str, Any]],
     operations: Counter[str],
 ) -> None:
-    """A migráció által érintett, még összetett értékeket elemi értékekre bontja."""
+    """A hibás 190-es gyűjtőágat és a bizonyított létípus-hibákat rendezi."""
+
+    legacy_rows = []
+    for product in products:
+        if product.get("fokategoria") != ITAL:
+            continue
+        juice_types = values_of((product.get("tulajdonsagok") or {}).get("lé típusa"))
+        if any(fold_text(value) == "gyumolcs es zoldsegle" for value in juice_types):
+            legacy_rows.append(product)
+
+    legacy_ids = {product_id(product) for product in legacy_rows}
+    if legacy_rows:
+        digest = hashlib.sha256(
+            "\n".join(sorted(legacy_ids)).encode("utf-8")
+        ).hexdigest()
+        if len(legacy_rows) != 190 or len(legacy_ids) != 190:
+            raise RuntimeError(
+                f"A régi vegyeslé-korpusz nem 190 egyedi rekord: "
+                f"rows={len(legacy_rows)}, ids={len(legacy_ids)}"
+            )
+        if digest != LEGACY_MIXED_JUICE_ID_SHA256:
+            raise RuntimeError(f"A régi vegyeslé-korpusz ID-hash-e eltér: {digest}")
+        known_moved = SMOOTHIE_PUREE_IDS | FRUIT_DRINK_IDS | NECTAR_IDS
+        if not known_moved < legacy_ids:
+            raise RuntimeError(
+                "Hiányzó exact vegyeslé-célrekordok: "
+                f"{sorted(known_moved - legacy_ids)[:20]}"
+            )
+
+    for product in legacy_rows:
+        item_id = product_id(product)
+        props = product.get("tulajdonsagok") or {}
+        if item_id in SMOOTHIE_PUREE_IDS:
+            product["alkategoria"], product["altipus"] = (
+                FRUIT_BRANCH,
+                "Smoothie és püréital",
+            )
+            form = "smoothie" if "smoothie" in fold_text(product_name(product)) else "püré"
+            append_list(props, "forma", [form])
+            props.pop("lé típusa", None)
+            operations["vegyeslé_smoothie_vagy_püréitalra_javítva"] += 1
+        elif item_id in FRUIT_DRINK_IDS:
+            product["alkategoria"], product["altipus"] = (
+                FRUIT_BRANCH,
+                "Gyümölcsital",
+            )
+            props.pop("lé típusa", None)
+            operations["vegyeslé_gyümölcsitalra_javítva"] += 1
+        elif item_id in NECTAR_IDS:
+            product["alkategoria"], product["altipus"] = (
+                FRUIT_BRANCH,
+                "Nektár",
+            )
+            props.pop("lé típusa", None)
+            operations["vegyeslé_nektárra_javítva"] += 1
+        else:
+            product["alkategoria"], product["altipus"] = FRUIT_BRANCH, "Lé"
+            if item_id in LEGACY_JUICE_VEGETABLE_ONLY_IDS:
+                props["lé típusa"] = ["zöldséglé"]
+            elif item_id in LEGACY_JUICE_MIXED_IDS:
+                props["lé típusa"] = ["gyümölcslé", "zöldséglé"]
+            else:
+                props["lé típusa"] = ["gyümölcslé"]
+            operations["vegyeslé_atomi_létípusra_javítva"] += 1
+
+    vegetable_only_ids = (
+        LEGACY_JUICE_VEGETABLE_ONLY_IDS
+        | EXTRA_JUICE_VEGETABLE_ONLY_IDS
+        | MISSING_JUICE_VEGETABLE_ONLY_IDS
+    )
+    mixed_ids = (
+        LEGACY_JUICE_MIXED_IDS
+        | EXTRA_JUICE_MIXED_IDS
+        | MISSING_JUICE_MIXED_IDS
+    )
+    fruit_only_ids = MISSING_JUICE_FRUIT_ONLY_IDS
+    for product in products:
+        if (
+            product.get("fokategoria") != ITAL
+            or product.get("alkategoria") != FRUIT_BRANCH
+            or product.get("altipus") != "Lé"
+        ):
+            continue
+        item_id = product_id(product)
+        props = product.get("tulajdonsagok") or {}
+        before = copy.deepcopy(props.get("lé típusa"))
+        if item_id in vegetable_only_ids:
+            props["lé típusa"] = ["zöldséglé"]
+        elif item_id in mixed_ids:
+            props["lé típusa"] = ["gyümölcslé", "zöldséglé"]
+        elif item_id in fruit_only_ids:
+            props["lé típusa"] = ["gyümölcslé"]
+        if before != props.get("lé típusa"):
+            operations["egyéb_bizonyított_létípus_javítva"] += 1
+
+
+BRAND_MAIN_MAP = {
+    "African Rock Selection": "African Rock",
+    "ANGYAL": "Angyal Borászat",
+    "Angyal Borászat Mosoly Tokaji Édes Cuvée": "Angyal Borászat",
+    "Aperitivo Bianco": "Aperitivo",
+    "Aperitivo Cherry": "Aperitivo",
+    "Arran Barrel Reserve": "Arran",
+    "ASAHI": "Asahi",
+    "Asahi Super Dry": "Asahi",
+    "AVE Aloe Vera": "AVE",
+    "Bad Dogs Bulldog IPA": "Bad Dogs",
+    "Bad Dogs Mopsz Meggy": "Bad Dogs",
+    "Bad Dogs Puli Pils": "Bad Dogs",
+    "BEERCOOL": "BE(er) Cool",
+    "BOLYKI": "Bolyki",
+    "Bolyki János": "Bolyki",
+    "Bols Advocaat": "Bols",
+    "Bols Marine": "Bols",
+    "Bostavan Gold Premium": "Bostavan",
+    "Bulleit Bourbon": "Bulleit",
+    "Desszert Triple Sec": "Desszert",
+    "Douwe Egberts Omnia": "Douwe Egberts",
+    "Douwe Egberts Paloma": "Douwe Egberts",
+    "Dr. Chen Patika": "Dr. Chen",
+    "Dúzsi Tamás": "Dúzsi",
+    "Egri Korona Borház": "Egri Korona",
+    "Emese": "Theodora",
+    "Fantasy Cabernet Sauvignon": "Fantasy",
+    "Fantasy Chardonnay": "Fantasy",
+    "Fantasy Muscat Rose": "Fantasy",
+    "FEHÉRVÁRI Borbirtok": "Fehérvári",
+    "Fonte Active": "Fonte",
+    "Fonte Beauty": "Fonte",
+    "Fonte Boost": "Fonte",
+    "Fonte Natura": "Fonte",
+    "Frescanti Cherry": "Frescanti",
+    "Gere Tamás": "Gere Tamás & Zsolt",
+    "Gedeon Birtok Brut": "Gedeon",
+    "Günzer": "Günzer Tamás",
+    "Haas Classic": "Haas",
+    "HB": "Hofbräu München",
+    "Horizont Brewing": "Horizont",
+    "Ikon Pincészet": "Ikon",
+    "Katona Nálad Vagy Nálam": "Katona",
+    "Krušovice Černé": "Krusovice",
+    "Krušovice Originál": "Krusovice",
+    "La Festa Hot Chocolatta Classico": "La Festa",
+    "Laposa Méthode Charmat": "Laposa",
+    "Limenita Freshing Coolture": "Limenita",
+    "Limenita Golden Sweet": "Limenita",
+    "London Fruit & Herb Company": "London Fruit & Herb",
+    "Maczkó Medve Álom": "Maczkó",
+    "MATUA": "Matua",
+    "Matua Valley": "Matua",
+    "Mészáros": "Mészáros Pál",
+    "Monkey Shoulder The Original": "Monkey Shoulder",
+    "Nestlé Ricoré 3in1": "Nestlé Ricoré",
+    "Nicolaus Extra Fine": "Nicolaus",
+    "NIKKA": "Nikka",
+    "Nikka Days": "Nikka",
+    "Ostoros Hugo Spritz": "Ostorosbor",
+    "Paloma Classic": "Douwe Egberts",
+    "Pannonhalmi Tricollis": "Pannonhalmi Főapátság",
+    "Pannonhalmi Tricollis Fehér": "Pannonhalmi Főapátság",
+    "Panyolai Elixír": "Panyolai",
+    "PATRON": "Patrón",
+    "Patrón Silver": "Patrón",
+    "Peroni Nastro Azzurro": "Peroni",
+    "Piknik Selection": "Piknik",
+    "Rio Cold Press": "RIO",
+    "S. Pellegrino": "San Pellegrino",
+    "Szent Gaál Twist": "Szent Gaál",
+    "Sodastream Classics": "Sodastream",
+    "Szovjetszkoje Igristoje": "Szovjetszkoje Igrisztoje",
+    "Swiss": "Swiss Laboratory",
+    "Takamaka Dark Spiced": "Takamaka",
+    "Takamaka Koko": "Takamaka",
+    "Teeling Whiskey Small Batch": "Teeling",
+    "The Deli": "Rio D'Oro",
+    "Three Sixty Vodka": "Three Sixty",
+    "Tiffán's": "Tiffán",
+    "Velkopopovický Kozel Premium Lager": "Kozel",
+    "Veuve Pelletier Ponsardin": "Veuve Pelletier",
+    "Vitamizu Minions": "Vitamizu",
+    "Vitamizu Mizu Mate Classic": "Vitamizu",
+    "Vitamizu Mizu Mate Grapefruit-Lime": "Vitamizu",
+    "Vitamizu Stumble Guys": "Vitamizu",
+    "Yo": "YO",
+    "YO Sirup": "YO",
+    "Zuegg Intenso": "Zuegg",
+    "Zuegg Zero": "Zuegg",
+}
+
+BRAND_FAMILY_BY_SOURCE = {
+    "African Rock Selection": "Selection",
+    "Douwe Egberts Omnia": "Omnia",
+    "Douwe Egberts Paloma": "Paloma",
+    "Emese": "Emese",
+    "La Festa Hot Chocolatta Classico": "Hot Chocolatta",
+    "Nikka Days": "Days",
+    "Ostoros Hugo Spritz": "Hugo Spritz",
+    "Paloma Classic": "Paloma",
+    "Pannonhalmi Tricollis": "Tricollis",
+    "Pannonhalmi Tricollis Fehér": "Tricollis",
+    "Panyolai Elixír": "Elixír",
+    "Peroni Nastro Azzurro": "Nastro Azzurro",
+    "Rio Cold Press": "Cold Press",
+}
+
+BRAND_VARIANT_BY_SOURCE = {
+    "African Rock Selection": "Selection",
+    "Aperitivo Bianco": "Bianco",
+    "Aperitivo Cherry": "Cherry",
+    "Bad Dogs Bulldog IPA": "Bulldog IPA",
+    "Bad Dogs Mopsz Meggy": "Mopsz Meggy",
+    "Bad Dogs Puli Pils": "Puli Pils",
+    "Bostavan Gold Premium": "Gold Premium",
+    "Fonte Active": "Active",
+    "Fonte Beauty": "Beauty",
+    "Fonte Boost": "Boost",
+    "Fonte Natura": "Natura",
+    "Krušovice Černé": "Černé",
+    "Krušovice Originál": "Originál",
+    "La Festa Hot Chocolatta Classico": "Classico",
+    "Nicolaus Extra Fine": "Extra Fine",
+    "Pannonhalmi Tricollis Fehér": "Fehér",
+    "Patrón Silver": "Silver",
+    "Piknik Selection": "Selection",
+    "Szent Gaál Twist": "Twist",
+    "Takamaka Dark Spiced": "Dark Spiced",
+    "Takamaka Koko": "Koko",
+    "Veuve Pelletier Ponsardin": "Ponsardin",
+    "Vitamizu Minions": "Minions",
+    "Vitamizu Mizu Mate Classic": "Mizu Mate Classic",
+    "Vitamizu Mizu Mate Grapefruit-Lime": "Mizu Mate Grapefruit-Lime",
+    "Vitamizu Stumble Guys": "Stumble Guys",
+    "Zuegg Intenso": "Intenso",
+    "Zuegg Zero": "Zero",
+}
+
+
+def normalize_brand_semantics(
+    products: list[dict[str, Any]],
+    operations: Counter[str],
+) -> None:
+    """Csak bizonyított termékcsaládokat választ le a főmárkáról."""
 
     for product in products:
         if product.get("fokategoria") != ITAL:
             continue
         props = product.get("tulajdonsagok") or {}
-
-        juice_types = values_of(props.get("lé típusa"))
-        if any(fold_text(value) == "gyumolcs es zoldsegle" for value in juice_types):
-            props["lé típusa"] = dedupe(
-                [
-                    atom
-                    for value in juice_types
-                    for atom in (
-                        ["gyümölcslé", "zöldséglé"]
-                        if fold_text(value) == "gyumolcs es zoldsegle"
-                        else [value]
-                    )
-                ]
+        source_brand = props.get("márka")
+        if source_brand in BRAND_FAMILY_BY_SOURCE:
+            append_list(
+                props,
+                "termékcsalád",
+                [BRAND_FAMILY_BY_SOURCE[source_brand]],
             )
-            operations["összetett_létípus_atomokra_bontva"] += 1
+            operations["márkából_termékcsalád_leválasztva"] += 1
+        if source_brand in BRAND_VARIANT_BY_SOURCE:
+            append_list(
+                props,
+                "változat",
+                [BRAND_VARIANT_BY_SOURCE[source_brand]],
+            )
+            operations["márkából_változat_leválasztva"] += 1
+        if source_brand in BRAND_MAIN_MAP:
+            props["márka"] = BRAND_MAIN_MAP[source_brand]
+            operations["márka_főmárkára_egyszerűsítve"] += 1
+        brand = props.get("márka")
+        text = fold_text(product_name(product))
 
+        if brand == "YO":
+            append_list(props, "terméktípus", ["szörp"])
+        if brand == "Asahi" and "super dry" in text:
+            append_list(props, "változat", ["Super Dry"])
+            remove_folded_atoms(props, "íz", {"super dry"})
+        if brand == "Angyal Borászat" and "mosoly" in text:
+            append_list(props, "változat", ["Mosoly"])
+        if brand == "Teeling" and "small batch" in text:
+            append_list(props, "változat", ["Small Batch"])
+        if brand == "Monkey Shoulder" and "the original" in text:
+            append_list(props, "változat", ["The Original"])
+        if brand == "Maczkó" and "medve alom" in text:
+            append_list(props, "változat", ["Medve Álom"])
+        if brand == "Arran" and "barrel reserve" in text:
+            append_list(props, "változat", ["Barrel Reserve"])
+        if brand == "Haas" and re.search(r"\bclassic\b", text):
+            append_list(props, "változat", ["Classic"])
+        if brand == "Laposa" and "methode charmat" in text:
+            append_list(props, "eljárás", ["Charmat"])
+        if brand == "Douwe Egberts":
+            if "omnia" in text:
+                append_list(props, "termékcsalád", ["Omnia"])
+            if "paloma" in text:
+                append_list(props, "termékcsalád", ["Paloma"])
+            if "paloma" in text and re.search(r"\bclassic\b", text):
+                append_list(props, "változat", ["Classic"])
+            elif "paloma" in text and "karavan" in text:
+                append_list(props, "változat", ["Karaván"])
+            elif "paloma" in text and "professional" in text:
+                append_list(props, "változat", ["Professional"])
+            remove_folded_atoms(props, "íz", {"classic", "paloma classic"})
+        if brand == "Peroni" and "nastro azzurro" in text:
+            append_list(props, "termékcsalád", ["Nastro Azzurro"])
+        if brand == "Nikka" and re.search(r"\bdays\b", text):
+            append_list(props, "termékcsalád", ["Days"])
+        if brand == "Pannonhalmi Főapátság" and "tricollis" in text:
+            append_list(props, "termékcsalád", ["Tricollis"])
+        if brand == "Ostorosbor" and "hugo spritz" in text:
+            append_list(props, "termékcsalád", ["Hugo Spritz"])
+        if brand == "Nestlé Ricoré" and (
+            "3in1" in text or "3 az 1" in text
+        ):
+            append_list(props, "változat", ["3in1"])
+        if brand == "Desszert" and "triple sec" in text:
+            append_list(props, "terméktípus", ["triple sec"])
+        if brand == "Fantasy":
+            if "cabernet sauvignon" in text:
+                append_list(props, "szőlőfajta", ["Cabernet Sauvignon"])
+            elif "chardonnay" in text:
+                append_list(props, "szőlőfajta", ["Chardonnay"])
+            elif "muscat" in text:
+                append_list(props, "szőlőfajta", ["Muscat"])
+        if brand == "Limenita":
+            if "golden sweet" in text:
+                append_list(props, "változat", ["Golden Sweet"])
+            elif "freshing coolture" in text:
+                append_list(props, "változat", ["Freshing Coolture"])
+            elif re.search(r"\bblue\b", text):
+                append_list(props, "változat", ["Blue"])
+            # A „lime” érték mind a kilenc rekordnál kizárólag a márkanévből
+            # szivárgott be, egyik termék neve/címkéje sem lime ízű.
+            remove_folded_atoms(props, "íz", {"lime"})
+        if brand == "Kozel" and "premium lager" in text:
+            append_list(props, "változat", ["Premium"])
+            append_list(props, "sörtípus", ["lager"])
+            remove_folded_atoms(props, "íz", {"lager"})
+        if brand == "Sodastream" and re.search(r"\bclassics\b", text):
+            append_list(props, "változat", ["Classics"])
+        if brand == "Bols" and "advocaat" in text:
+            append_list(props, "terméktípus", ["tojáslikőr"])
+            remove_folded_atoms(props, "fajta", {"tojaslikor"})
+            remove_folded_atoms(props, "íz", {"tojaslikor"})
+        if brand == "Bols" and re.search(r"\bmarine\b", text):
+            append_list(props, "változat", ["Marine"])
+        if brand == "Katona" and "nalad vagy nalam" in text:
+            append_list(props, "változat", ["Nálad Vagy Nálam"])
+
+
+def normalize_beer_semantics(
+    products: list[dict[str, Any]],
+    operations: Counter[str],
+) -> None:
+    pilsner_false_ipa = frozenset({"1028287", "680000:4217390"})
+    apa_ids = frozenset(
+        {
+            "121225339",
+            "53cf74709f0aed73960662e0",
+            "673034:4210424",
+            "678785:4216175",
+            "BTY-X17303200320021",
+            "dea8ebbdd70dbb5168b50674",
+        }
+    )
+    for product in products:
+        if (
+            product.get("fokategoria") != ITAL
+            or product.get("altipus") != "Sör, radler és malátaital"
+        ):
+            continue
+        item_id = product_id(product)
+        props = product.get("tulajdonsagok") or {}
+        before = copy.deepcopy(props.get("sörtípus"))
+        if item_id in pilsner_false_ipa:
+            remove_folded_atoms(props, "sörtípus", {"ipa"})
+        elif item_id == "678794:4216184":
+            props["sörtípus"] = ["pils"]
+        elif item_id == "780917:4318307":
+            remove_folded_atoms(props, "sörtípus", {"felsoerjesztesu sor"})
+            append_list(props, "sörtípus", ["lager"])
+        elif item_id == "789926:4327316":
+            remove_folded_atoms(props, "sörtípus", {"felsoerjesztesu sor"})
+            append_list(props, "sörtípus", ["lager", "India Pale Lager"])
+        elif item_id == "BTY-X17887400320021":
+            append_list(props, "sörtípus", ["ale", "búzasör"])
+        if item_id in apa_ids:
+            append_list(props, "sörtípus", ["APA"])
+        if "sörtípus" in props:
+            canonical = {
+                "apa": "APA",
+                "ipa": "IPA",
+                "new england ipa": "New England IPA",
+                "session ipa": "Session IPA",
+            }
+            props["sörtípus"] = dedupe(
+                canonical.get(fold_text(value), value)
+                for value in values_of(props["sörtípus"])
+            )
+        if before != props.get("sörtípus"):
+            operations["sörtípus_bizonyított_hibája_javítva"] += 1
+
+
+CHILD_NAME_RE = re.compile(
+    r"\b(?:gyerek\w*|gyermek\w*|kids?|baby|junior|babaviz|babaknak)\b"
+    r"|\bbaba\s+mama\b"
+)
+
+
+def normalize_proven_product_semantics(
+    products: list[dict[str, Any]],
+    operations: Counter[str],
+) -> None:
+    for product in products:
+        if product.get("fokategoria") != ITAL:
+            continue
+        props = product.get("tulajdonsagok") or {}
+        item_id = product_id(product)
+        if (
+            product.get("alkategoria") == SOFT_BRANCH
+            and product.get("altipus") == "Jegestea"
+            and props.get("márka") == "Nestea"
+        ) or item_id in FORCED_STILL_IDS:
+            if props.get("szénsavasság") != "szénsavmentes":
+                props["szénsavasság"] = "szénsavmentes"
+                operations["bizonyítottan_szénsavmentes_termék_javítva"] += 1
+        if CHILD_NAME_RE.search(fold_text(product_name(product))):
+            before = copy.deepcopy(props.get("célcsoport"))
+            append_list(props, "célcsoport", ["gyerek"])
+            if before != props.get("célcsoport"):
+                operations["gyerek_célcsoport_pótolva"] += 1
+        if item_id == "BTY-X17833000320021":
+            props["cukormentes / zero"] = True
+            operations["Royal_Crown_cukormentes_javítva"] += 1
+
+
+def normalize_atomic_semantics(
+    products: list[dict[str, Any]],
+    operations: Counter[str],
+) -> None:
+    """A bizonyítottan összetett értékeket és főmárkákat normalizálja."""
+
+    normalize_juice_taxonomy(products, operations)
+    for product in products:
+        if product.get("fokategoria") != ITAL:
+            continue
+        props = product.get("tulajdonsagok") or {}
         product_types = values_of(props.get("terméktípus"))
         if any(
             fold_text(value) == "kavefeherito vagy tejpor"
@@ -1011,19 +1654,18 @@ def normalize_atomic_semantics(
                 product_type = "kávétejszín"
             elif "tejpor" in name:
                 product_type = "tejpor"
-            else:
+            elif "kavefeherito" in name:
                 product_type = "kávéfehérítő"
+            else:
+                product_type = "kávékrémpor"
             props["terméktípus"] = [product_type]
-            # A régi gyűjtőkategória minden termékre rámásolt, emiatt
-            # félrevezető és a fenti atomi típussal redundáns tengelyei.
             props.pop("fajta", None)
             props.pop("típus", None)
             operations["kávéadalék_típusa_atomizálva"] += 1
 
-        if props.get("márka") == "Katona Nálad Vagy Nálam":
-            props["márka"] = "Katona"
-            append_list(props, "változat", ["Nálad Vagy Nálam"])
-            operations["márka_főmárkára_egyszerűsítve"] += 1
+    normalize_brand_semantics(products, operations)
+    normalize_beer_semantics(products, operations)
+    normalize_proven_product_semantics(products, operations)
 
 
 def normalize_external_targets(
@@ -1063,6 +1705,982 @@ def normalize_external_targets(
             if props.get("kiszerelés") != "tasak":
                 props["kiszerelés"] = "tasak"
                 operations["Fruit_Step_csomagolása_javítva"] += 1
+            if props.get("gyümölcs") != ["citrom"]:
+                props["gyümölcs"] = ["citrom"]
+                operations["Fruit_Step_gyümölcstengelye_javítva"] += 1
+            before_ingredients = copy.deepcopy(props.get("összetevő"))
+            append_list(props, "összetevő", ["gyömbér"])
+            if before_ingredients != props.get("összetevő"):
+                operations["Fruit_Step_gyömbér_összetevője_pótolva"] += 1
+
+
+ORIGIN_ALIASES = {
+    "Balatonboglári": "Balatonboglár",
+    "Balatonmelléke": "Balatonmellék",
+    "Balatonmelléki": "Balatonmellék",
+    "Duna-Tisza közi": "Duna-Tisza köze",
+    "Egri": "Eger",
+    "Etyek-Budai": "Etyek-Buda",
+    "Felső-Magyarországi": "Felső-Magyarország",
+    "Kunsági": "Kunság",
+    "Mátrai": "Mátra",
+    "Neszmélyi": "Neszmély",
+    "Tokaji": "Tokaj",
+    "Villányi": "Villány",
+}
+
+WINE_GRAPE_VALUES = frozenset(
+    {
+        "cabernet",
+        "Cabernet Franc",
+        "Cabernet Sauvignon",
+        "Carmenere",
+        "Chardonnay",
+        "chardonnay",
+        "Chenin Blanc",
+        "Cirfandli",
+        "Colombard",
+        "Csabagyöngye",
+        "Cserszegi fűszeres",
+        "Ezerjó",
+        "fekete leányka",
+        "Furmint",
+        "Garnacha",
+        "Garnacha Blanca",
+        "Garnacha Tinta",
+        "Generosa",
+        "Grillo",
+        "Hárslevelű",
+        "Irsai Olivér",
+        "Juhfark",
+        "Kadarka",
+        "Királyleányka",
+        "Kékfrankos",
+        "Kéknyelű",
+        "Macabeo",
+        "Malbec",
+        "Medina",
+        "Menoire",
+        "Merlot",
+        "Moscato",
+        "Muscat",
+        "Muscat Blanc",
+        "Muscat Lunel",
+        "Muscat Ottonel",
+        "muskotály",
+        "Nero d'Avola",
+        "olaszrizling",
+        "Pinot Grigio",
+        "Pinot Noir",
+        "Pinotage",
+        "Portugieser",
+        "Primitivo",
+        "Rajnai Rizling",
+        "riesling",
+        "rizling",
+        "Sangiovese",
+        "Sauvignon Blanc",
+        "Shiraz",
+        "syrah",
+        "Szürkebarát",
+        "Sárgamuskotály",
+        "Tempranillo",
+        "Tramini",
+        "Trebbiano",
+        "Turán",
+        "Verdejo",
+        "Viura",
+        "Zenit",
+        "Zeus",
+        "Zinfandel",
+        "Zweigelt",
+        "zöld veltelini",
+    }
+)
+WINE_GRAPE_CANONICAL = {
+    "cabernet": "Cabernet",
+    "chardonnay": "Chardonnay",
+    "fekete leányka": "Fekete leányka",
+    "muskotály": "Muskotály",
+    "olaszrizling": "Olaszrizling",
+    "riesling": "Riesling",
+    "rizling": "Rizling",
+    "Shiraz": "Syrah",
+    "syrah": "Syrah",
+    "zöld veltelini": "Zöld veltelini",
+}
+WINE_STYLE_CANONICAL = {
+    "Bikavér": "bikavér",
+    "Bikavér Superior": "bikavér superior",
+    "cuvée": "cuvée",
+    "desszertbor": "desszertbor",
+    "Egri Bikavér": "bikavér",
+    "Egri Csillag": "egri csillag",
+    "jégbor": "jégbor",
+    "késői szüret": "késői szüret",
+    "Late Harvest": "késői szüret",
+    "Ruby Port": "ruby port",
+    "siller": "siller",
+    "Szamorodni": "szamorodni",
+    "tawny": "tawny port",
+    "Tawny Port": "tawny port",
+    "Tokaji Aszú": "aszú",
+    "Tokaji Szamorodni": "szamorodni",
+}
+WINE_COLOR_CANONICAL = {"Rosé": "rozé", "Rozé": "rozé"}
+WINE_TYPE_CANONICAL = {"prosecco": "prosecco"}
+
+WINE_CONTEXT_FIXES_BY_ID = {
+    "24418:24421": {
+        "remove": ("Saint", "Émilion"),
+        "eredet": ("Montagne-Saint-Émilion",),
+    },
+    "38053:38056": {
+        "remove": ("Saint", "Émilion"),
+        "eredet": ("Saint-Émilion",),
+    },
+    "65615:3602696": {
+        "remove": ("Haut", "Médoc"),
+        "eredet": ("Haut-Médoc",),
+    },
+    "24460:24463": {
+        "remove": ("Médoc",),
+        "eredet": ("Médoc",),
+    },
+    "24430:24433": {
+        "remove": ("Pouilly", "Fuissé"),
+        "eredet": ("Pouilly-Fuissé",),
+    },
+    "BTY-X17339500320021": {
+        "remove": ("More",),
+        "változat": ("Zenit & More",),
+    },
+    "12712:12715": {
+        "remove": ("Sauvignon",),
+        "szőlőfajta": ("Cabernet Sauvignon",),
+    },
+}
+
+WINE_MANUAL_VALUE_MAP: dict[str, dict[str, Any]] = {
+    "5 puttonyos": {"borstílus": ("aszú",), "puttonyszám": "5"},
+    "Aligvárom": {"változat": ("Aligvárom",)},
+    "Aszú 4 puttonyos": {"borstílus": ("aszú",), "puttonyszám": "4"},
+    "Aszú 5 puttonyos": {"borstílus": ("aszú",), "puttonyszám": "5"},
+    "Aszú 6 puttonyos": {"borstílus": ("aszú",), "puttonyszám": "6"},
+    "Beaujolais": {"eredet": ("Beaujolais",)},
+    "Big Band": {"változat": ("Big Band",)},
+    "Blanc Cuvée": {"borstílus": ("cuvée",), "szín": ("fehér",)},
+    "Bodorka": {"változat": ("Bodorka",)},
+    "Bordeaux cuvée": {"borstílus": ("cuvée",), "eredet": ("Bordeaux",)},
+    "Bordeaux Superieur": {"eredet": ("Bordeaux Supérieur",)},
+    "Cabernet Rosé": {"szőlőfajta": ("Cabernet",), "szín": ("rozé",)},
+    "Cabernet Sauvignon Rosé": {
+        "szőlőfajta": ("Cabernet Sauvignon",),
+        "szín": ("rozé",),
+    },
+    "cherry": {"íz": ("cseresznye",)},
+    "Chianti": {"eredet": ("Chianti",)},
+    "Civilis Cuvée": {"borstílus": ("cuvée",), "változat": ("Civilis",)},
+    "Cuvée 11": {"borstílus": ("cuvée",), "változat": ("Cuvée 11",)},
+    "Cuvée 13": {"borstílus": ("cuvée",), "változat": ("Cuvée 13",)},
+    "Cuvée 7": {"borstílus": ("cuvée",), "változat": ("Cuvée 7",)},
+    "Côtes du Rhône": {"eredet": ("Côtes du Rhône",)},
+    "Egri Rozé": {"eredet": ("Eger",), "szín": ("rozé",)},
+    "egyéb": {"discard": True},
+    "erdei gyümölcs": {
+        "borstílus": ("gyümölcsbor",),
+        "íz": ("erdei gyümölcs",),
+    },
+    "Ermitage": {"borstílus": ("cuvée",), "változat": ("Ermitage",)},
+    "Estve": {"változat": ("Estve",)},
+    "Fajzat Cuvée": {"borstílus": ("cuvée",), "változat": ("Fajzat",)},
+    "fehér cuvée": {"borstílus": ("cuvée",), "szín": ("fehér",)},
+    "feketeribizlibor": {
+        "alap": ("fekete ribizli",),
+        "borstílus": ("gyümölcsbor",),
+    },
+    "Filigrán Cuvée": {"borstílus": ("cuvée",), "változat": ("Filigrán",)},
+    "Franc": {"szőlőfajta": ("Cabernet Franc",)},
+    "Fuissé": {"context_only": True},
+    "Grand Cuvée": {
+        "borstílus": ("cuvée",),
+        "változat": ("Grand Cuvée",),
+    },
+    "Grandiózus Malbec": {
+        "szőlőfajta": ("Malbec",),
+        "változat": ("Grandiózus",),
+    },
+    "Grandiózus Syrah": {
+        "szőlőfajta": ("Syrah",),
+        "változat": ("Grandiózus",),
+    },
+    "GT Rosé": {"szín": ("rozé",), "változat": ("GT",)},
+    "Halfarka": {"változat": ("Halfarka",)},
+    "Haut": {"context_only": True},
+    "Ihlet Cuvée": {"borstílus": ("cuvée",), "változat": ("Ihlet",)},
+    "Immortal": {"változat": ("Immortal",)},
+    "Indián Nyár Cuvée": {
+        "borstílus": ("cuvée",),
+        "változat": ("Indián Nyár",),
+    },
+    "K2": {"változat": ("K2",)},
+    "Kopar": {"változat": ("Kopar",)},
+    "Kopar Cuvée": {"borstílus": ("cuvée",), "változat": ("Kopar",)},
+    "Kékfrankos Rosé": {
+        "szőlőfajta": ("Kékfrankos",),
+        "szín": ("rozé",),
+    },
+    "Lezser": {"változat": ("Lezser",)},
+    "Libra Cuvée": {"borstílus": ("cuvée",), "változat": ("Libra",)},
+    "Margaux": {"eredet": ("Margaux",)},
+    "meggybor": {"alap": ("meggy",), "borstílus": ("gyümölcsbor",)},
+    "Merlot Cuvée": {"borstílus": ("cuvée",), "szőlőfajta": ("Merlot",)},
+    "Merlot Rosé": {"szőlőfajta": ("Merlot",), "szín": ("rozé",)},
+    "Mirtill Cuvée": {"borstílus": ("cuvée",), "változat": ("Mirtill",)},
+    "Montepulciano": {"szőlőfajta": ("Montepulciano",)},
+    "Montepulciano d'Abruzzo": {
+        "eredet": ("Abruzzo",),
+        "szőlőfajta": ("Montepulciano",),
+    },
+    "More": {"context_only": True},
+    "Médoc": {"context_only": True},
+    "Olivér Cuvée": {"borstílus": ("cuvée",), "változat": ("Olivér",)},
+    "Olívia": {"változat": ("Olívia",)},
+    "Olívia Cuvée": {"borstílus": ("cuvée",), "változat": ("Olívia",)},
+    "Pannon Cuvée Blanc": {
+        "borstílus": ("cuvée",),
+        "szín": ("fehér",),
+        "változat": ("Pannon",),
+    },
+    "PortaGéza": {"változat": ("PortaGéza",)},
+    "Pouilly": {"context_only": True},
+    "Principium": {"változat": ("Principium",)},
+    "Regnum Cuvée": {"borstílus": ("cuvée",), "változat": ("Regnum",)},
+    "Rosso Toscana": {"eredet": ("Toscana",), "szín": ("vörös",)},
+    "Rosé Cuvée": {"borstílus": ("cuvée",), "szín": ("rozé",)},
+    "Royal": {"változat": ("Royal",)},
+    "Royal Cuvée": {"borstílus": ("cuvée",), "változat": ("Royal",)},
+    "Rozé Cuvée": {"borstílus": ("cuvée",), "szín": ("rozé",)},
+    "Saint": {"context_only": True},
+    "Somlói Cuvée": {"borstílus": ("cuvée",), "eredet": ("Somló",)},
+    "Syrah Rosé": {"szőlőfajta": ("Syrah",), "szín": ("rozé",)},
+    "Tempranillo Roble": {
+        "szőlőfajta": ("Tempranillo",),
+        "érlelés": ("roble",),
+    },
+    "Tricollis": {"változat": ("Tricollis",)},
+    "Tricollis Vörös": {"szín": ("vörös",), "változat": ("Tricollis",)},
+    "Trió Cuvée": {"borstílus": ("cuvée",), "változat": ("Trió",)},
+    "Töpszli Cuvée": {"borstílus": ("cuvée",), "változat": ("Töpszli",)},
+    "Vörös Cuvée": {"borstílus": ("cuvée",), "szín": ("vörös",)},
+    "White Cuvée": {"borstílus": ("cuvée",), "szín": ("fehér",)},
+    "áfonya": {"íz": ("áfonya",)},
+    "Émilion": {"context_only": True},
+    "muskotályos": {"discard": True},
+    "Olivier": {"változat": ("Olivier",)},
+    "Sauvignon": {"context_only": True},
+}
+
+FUNCTION_VALUE_MAP = {
+    "antiox": "antioxidáns",
+    "beauty": "szépség",
+    "detox": "detox",
+    "emesztes": "emésztés támogatása",
+    "emesztes tamogatasa": "emésztés támogatása",
+    "energie": "energia",
+    "immun": "immunrendszer támogatása",
+    "immunity": "immunrendszer támogatása",
+    "koncentracio": "koncentráció",
+    "nyugodt alvas": "nyugodt alvás",
+    "regeneration": "regeneráció",
+    "relax": "relaxáció",
+}
+ACTIVE_INGREDIENT_VALUES = frozenset(
+    {"b5 vitamin", "b vitamin komplex", "c vitamin", "cink", "ginseng"}
+)
+INSTANT_CORRECTION_IDS = frozenset(
+    {
+        "100241927",
+        "111274825",
+        "111274827",
+        "111275295",
+        "70f8217f1c3b2c6ac11133f4",
+    }
+)
+
+
+def normalize_origin_axis(
+    props: dict[str, Any],
+    operations: Counter[str],
+) -> None:
+    if "borvidék / eredet" not in props:
+        return
+    raw_values = values_of(props.pop("borvidék / eredet"))
+    for value in raw_values:
+        folded = fold_text(value)
+        if folded in {"", "egyeb"}:
+            continue
+        if folded == "egri rose":
+            append_list(props, "eredet", ["Eger"])
+            append_list(props, "borstílus", ["rozé"])
+            continue
+        append_list(props, "eredet", [ORIGIN_ALIASES.get(str(value), value)])
+    operations["borvidék_eredet_tengely_atomizálva"] += 1
+
+
+def normalize_wine_descriptor_axis(
+    product: dict[str, Any],
+    props: dict[str, Any],
+    operations: Counter[str],
+) -> None:
+    if "szőlőfajta / borstílus" not in props:
+        return
+    raw_values = values_of(props.pop("szőlőfajta / borstílus"))
+    context_fix = WINE_CONTEXT_FIXES_BY_ID.get(product_id(product), {})
+    removed = {
+        fold_text(value)
+        for value in context_fix.get("remove", ())
+    }
+    for property_name, additions in context_fix.items():
+        if property_name == "remove":
+            continue
+        append_list(props, property_name, additions)
+
+    for value in raw_values:
+        if fold_text(value) in removed:
+            continue
+        if value in WINE_GRAPE_VALUES:
+            append_list(
+                props,
+                "szőlőfajta",
+                [WINE_GRAPE_CANONICAL.get(value, value)],
+            )
+            continue
+        if value in WINE_STYLE_CANONICAL:
+            append_list(props, "borstílus", [WINE_STYLE_CANONICAL[value]])
+            if value.startswith("Egri "):
+                append_list(props, "eredet", ["Eger"])
+            if value.startswith("Tokaji "):
+                append_list(props, "eredet", ["Tokaj"])
+            continue
+        if value in WINE_COLOR_CANONICAL:
+            append_list(props, "szín", [WINE_COLOR_CANONICAL[value]])
+            continue
+        if value in WINE_TYPE_CANONICAL:
+            append_list(props, "bortípus", [WINE_TYPE_CANONICAL[value]])
+            continue
+        mapping = WINE_MANUAL_VALUE_MAP.get(str(value))
+        if mapping is None:
+            raise RuntimeError(
+                f"Ismeretlen szőlőfajta/borstílus érték: "
+                f"{product_id(product)} / {value!r}"
+            )
+        if mapping.get("context_only"):
+            raise RuntimeError(
+                f"Kontextus nélkül maradt tört borérték: "
+                f"{product_id(product)} / {value!r}"
+            )
+        if mapping.get("discard"):
+            continue
+        for property_name, additions in mapping.items():
+            if isinstance(additions, tuple):
+                append_list(props, property_name, additions)
+            else:
+                set_scalar(props, property_name, additions)
+
+    grape_values = values_of(props.get("szőlőfajta"))
+    grape_folds = {fold_text(value) for value in grape_values}
+    if "cabernet" in grape_folds and {
+        "cabernet franc",
+        "cabernet sauvignon",
+    } & grape_folds:
+        remove_folded_atoms(props, "szőlőfajta", {"cabernet"})
+    operations["szőlőfajta_borstílus_tengely_atomizálva"] += 1
+
+
+def normalize_function_axis(
+    props: dict[str, Any],
+    operations: Counter[str],
+) -> None:
+    if "hatóanyag / cél" not in props:
+        return
+    raw_values = values_of(props.pop("hatóanyag / cél"))
+    for value in raw_values:
+        folded = fold_text(value)
+        if folded in ACTIVE_INGREDIENT_VALUES:
+            canonical = {
+                "b5 vitamin": "B5-vitamin",
+                "b vitamin komplex": "B-vitamin komplex",
+                "c vitamin": "C-vitamin",
+                "cink": "cink",
+                "ginseng": "ginseng",
+            }[folded]
+            append_list(props, "hatóanyag", [canonical])
+        elif folded in FUNCTION_VALUE_MAP:
+            append_list(props, "funkció", [FUNCTION_VALUE_MAP[folded]])
+        else:
+            raise RuntimeError(f"Ismeretlen hatóanyag/cél érték: {value!r}")
+    operations["hatóanyag_cél_tengely_atomizálva"] += 1
+
+
+def normalize_container_axis(
+    props: dict[str, Any],
+    operations: Counter[str],
+) -> None:
+    if "palack" not in props:
+        return
+    raw_values = values_of(props.pop("palack"))
+    for value in raw_values:
+        folded = fold_text(value)
+        if folded == "uveg":
+            append_list(props, "csomagolás", ["palack"])
+            append_list(props, "csomagolás anyaga", ["üveg"])
+        elif folded == "muanyag":
+            append_list(props, "csomagolás", ["palack"])
+            append_list(props, "csomagolás anyaga", ["műanyag"])
+        elif folded == "bag in box":
+            append_list(props, "csomagolás", ["bag-in-box"])
+        elif folded == "keg":
+            append_list(props, "csomagolás", ["hordó"])
+        elif folded == "doboz":
+            append_list(props, "csomagolás", ["doboz"])
+        else:
+            raise RuntimeError(f"Ismeretlen régi palackérték: {value!r}")
+    operations["palack_tengely_csomagolásra_bontva"] += 1
+
+
+def normalize_coffee_composition(
+    props: dict[str, Any],
+    operations: Counter[str],
+) -> None:
+    if "összetétel" not in props:
+        return
+    raw_values = values_of(props.pop("összetétel"))
+    for value in raw_values:
+        text = fold_text(value)
+        matches = re.findall(r"(\d+)\s*arabica|(\d+)\s*robusta", text)
+        if not matches:
+            raise RuntimeError(f"Ismeretlen kávéösszetétel: {value!r}")
+        for arabica, robusta in matches:
+            if arabica:
+                append_list(props, "kávéfajta", ["arabica"])
+                set_scalar(props, "arabica arány", f"{arabica}%")
+            if robusta:
+                append_list(props, "kávéfajta", ["robusta"])
+                set_scalar(props, "robusta arány", f"{robusta}%")
+    operations["kávéösszetétel_atomizálva"] += 1
+
+
+def normalize_misc_property_axes(
+    product: dict[str, Any],
+    operations: Counter[str],
+) -> None:
+    props = product.get("tulajdonsagok") or {}
+    if "cukormentes / zero" in props:
+        props["cukormentes"] = bool(props.pop("cukormentes / zero"))
+        operations["cukormentes_zero_tengely_átnevezve"] += 1
+
+    if "püré" in props:
+        if any(fold_text(value) == "igen" for value in values_of(props.pop("püré"))):
+            props["pürét tartalmaz"] = True
+        operations["püré_jelölés_logikaivá_alakítva"] += 1
+    if "rostos" in props and not isinstance(props["rostos"], bool):
+        props["rostos"] = any(
+            fold_text(value) in {"igen", "true"}
+            for value in values_of(props["rostos"])
+        )
+        operations["rostos_jelölés_logikaivá_alakítva"] += 1
+
+    if "C-vitamin" in props:
+        if props.pop("C-vitamin") is True:
+            append_list(props, "tartalom", ["C-vitamin"])
+        operations["C_vitamin_flag_tartalomba_vezetve"] += 1
+
+    if product_id(product) in INSTANT_CORRECTION_IDS:
+        props["instant"] = True
+    if props.get("instant") is False:
+        props.pop("instant")
+        operations["hamis_instant_flag_törölve"] += 1
+
+    if "zöldség" in props:
+        append_list(props, "összetevő", values_of(props.pop("zöldség")))
+        operations["zöldség_tengely_összetevőre_vezetve"] += 1
+
+    if "alkohol" in props:
+        raw_values = values_of(props.pop("alkohol"))
+        for value in raw_values:
+            folded = fold_text(value)
+            if folded in {
+                "aperitiv",
+                "gin",
+                "likor",
+                "ouzo",
+                "rum",
+                "tequila",
+                "vodka",
+                "whisky",
+            }:
+                append_list(props, "alkoholalap", [value])
+            elif folded == "tonik":
+                append_list(props, "keverőanyag", ["tonik"])
+            elif folded in {"alkoholos ital", "szeszesital", "anizs"}:
+                continue
+            else:
+                raise RuntimeError(f"Ismeretlen alkoholalap-érték: {value!r}")
+        name = fold_text(product_name(product))
+        if "pastis" in name:
+            append_list(props, "alkoholalap", ["pastis"])
+        elif "abszint" in name:
+            append_list(props, "alkoholalap", ["abszint"])
+        operations["alkohol_tengely_alkoholalapra_bontva"] += 1
+
+    normalize_origin_axis(props, operations)
+    normalize_wine_descriptor_axis(product, props, operations)
+    normalize_function_axis(props, operations)
+    normalize_container_axis(props, operations)
+    normalize_coffee_composition(props, operations)
+
+
+def normalize_placeholder_and_text_values(
+    products: list[dict[str, Any]],
+    operations: Counter[str],
+) -> None:
+    placeholders = frozenset({"egyeb", "nem jelolt"})
+    for product in products:
+        if product.get("fokategoria") != ITAL:
+            continue
+        props = product.get("tulajdonsagok") or {}
+        for property_name, raw_value in list(props.items()):
+            if isinstance(raw_value, bool):
+                continue
+            if isinstance(raw_value, list):
+                cleaned = []
+                for value in raw_value:
+                    normalized = (
+                        re.sub(r"\s+", " ", value).strip()
+                        if isinstance(value, str)
+                        else value
+                    )
+                    if isinstance(normalized, str) and fold_text(normalized) in placeholders:
+                        continue
+                    cleaned.append(normalized)
+                cleaned = dedupe(cleaned)
+                if cleaned:
+                    props[property_name] = cleaned
+                else:
+                    props.pop(property_name, None)
+            elif isinstance(raw_value, str):
+                normalized = re.sub(r"\s+", " ", raw_value).strip()
+                if not normalized or fold_text(normalized) in placeholders:
+                    props.pop(property_name, None)
+                else:
+                    props[property_name] = normalized
+        flavors = values_of(props.get("íz"))
+        folded_flavors = {fold_text(value) for value in flavors}
+        redundant_generics = set()
+        if "sargarepa" in folded_flavors:
+            redundant_generics.add("repa")
+        if "oszibarack" in folded_flavors:
+            redundant_generics.add("barack")
+        if {"feketeribizli", "piros ribizli"} & folded_flavors:
+            redundant_generics.add("ribizli")
+        if {"kekszolo", "voros szolo"} & folded_flavors:
+            redundant_generics.add("szolo")
+        if redundant_generics:
+            remove_folded_atoms(props, "íz", redundant_generics)
+            operations["redundáns_generikus_ízérték_törölve"] += 1
+
+
+HALF_PERCENT_BEER_IDS = frozenset(
+    {
+        "121227556",
+        "3258894b9df044556713e967",
+        "678971:4216361",
+        "680045:4217435",
+        "9fe1fad92de106673703c895",
+        "a51fcde4249c0f2564c25818",
+    }
+)
+LOOSE_TWININGS_IDS = frozenset(
+    {
+        "8131:8134",
+        "BTY-X46022900320021",
+        "bb4015d154f73a6a5332a3ef",
+    }
+)
+WRONG_COLA_BASE_IDS = frozenset({"989120", "209543894", "220339659"})
+TUTTIFRUTTI_INGREDIENT_NOISE_IDS = frozenset(
+    {
+        "0ab83ef40bba18b921ea51bc",
+        "51789:52131",
+        "583947:4121337",
+    }
+)
+HAAS_FALSE_INSTANT_IDS = frozenset({"127538:3664736", "203228544"})
+
+
+def normalize_semantic_value_axes(
+    product: dict[str, Any],
+    operations: Counter[str],
+) -> None:
+    """Bizonyított értékhibák és más tengelyre került atomok javítása."""
+
+    props = product.get("tulajdonsagok") or {}
+    item_id = product_id(product)
+    name = fold_text(product_name(product))
+
+    forms = values_of(props.get("forma"))
+    if forms:
+        kept_forms: list[Any] = []
+        found_instant = False
+        for value in forms:
+            folded = fold_text(value)
+            if folded == "instant":
+                found_instant = True
+                continue
+            if folded == "instant italpor":
+                found_instant = True
+                kept_forms.append("italpor")
+                continue
+            kept_forms.append(value)
+        if found_instant:
+            props["instant"] = True
+            if kept_forms:
+                props["forma"] = dedupe(kept_forms)
+            else:
+                props.pop("forma", None)
+            operations["instant_állapot_formából_leválasztva"] += 1
+    for generic_property in ("típus", "fajta"):
+        generic_values = values_of(props.get(generic_property))
+        if any(fold_text(value) == "instant" for value in generic_values):
+            remove_folded_atoms(props, generic_property, {"instant"})
+            if item_id not in HAAS_FALSE_INSTANT_IDS:
+                props["instant"] = True
+            operations["instant_állapot_generikus_tengelyről_leválasztva"] += 1
+    if re.search(r"\binstant\b|\bazonnal oldodo\b", name):
+        if props.get("instant") is not True:
+            props["instant"] = True
+            operations["instant_névjelölés_pótolva"] += 1
+
+    energy_status = props.pop("energia tartalom", None)
+    if energy_status is not None:
+        folded_energy = fold_text(energy_status)
+        if folded_energy == "cukros":
+            props["cukrozott"] = True
+        elif folded_energy in {
+            "energiamentes",
+            "energiaszegeny",
+            "csokkentett energiatartalmu",
+        }:
+            props["energiastátusz"] = str(energy_status)
+        elif folded_energy not in {"", "egyeb", "nem jelolt"}:
+            raise RuntimeError(
+                f"Ismeretlen energia-/cukorstátusz: {item_id} / {energy_status!r}"
+            )
+        operations["energia_cukor_vegyes_tengely_szétválasztva"] += 1
+
+    fat = props.get("zsírtartalom")
+    if fat == ["1", "8%"] and "1 8" in name:
+        props["zsírtartalom"] = ["1,8%"]
+        operations["tört_zsírtartalom_javítva"] += 1
+    elif fat == ["3", "5%"] and "3 5" in name:
+        props["zsírtartalom"] = ["3,5%"]
+        operations["tört_zsírtartalom_javítva"] += 1
+
+    if item_id == "2807722":
+        props["gyümölcstartalom"] = ["50,6%"]
+        operations["tört_gyümölcstartalom_javítva"] += 1
+    elif item_id == "BTY-X11998900320021":
+        props["gyümölcstartalom"] = ["99,5%"]
+        operations["tört_gyümölcstartalom_javítva"] += 1
+
+    if item_id in HALF_PERCENT_BEER_IDS:
+        props["alkoholtartalom"] = ["0,5%"]
+        operations["dupla_alkoholfok_javítva"] += 1
+    elif item_id == "121357396":
+        # A gyártói termékoldal szerinti 12%; a forrás 53,5%-a nyilvánvaló
+        # OCR/adatbeviteli hiba egy Brut Nature pezsgőnél.
+        props["alkoholtartalom"] = ["12%"]
+        operations["Sauska_alkoholfok_javítva"] += 1
+
+    if item_id == "789008:4326398":
+        props["kiszerelés"] = "330 ml"
+        operations["Old_Jamaica_kiszerelés_javítva"] += 1
+    elif item_id == "692993:4230383":
+        props["csomagdarabszám"] = 6
+        operations["multipack_darabszám_pótolva"] += 1
+    elif item_id == "752013:4289403":
+        props["csomagdarabszám"] = 4
+        props["egységnyi kiszerelés"] = "330 ml"
+        props["kiszerelés"] = "1320 ml"
+        append_list(props, "csomagolás", ["multipack"])
+        operations["multipack_darabszám_pótolva"] += 1
+
+    content = values_of(props.get("tartalom"))
+    if content:
+        kept_content: list[Any] = []
+        for value in content:
+            folded = fold_text(value)
+            if folded == "energia":
+                append_list(props, "funkció", ["energia"])
+            elif folded == "izotonias":
+                append_list(props, "funkció", ["izotóniás"])
+            elif folded == "alakreform":
+                append_list(props, "funkció", ["alakreform"])
+            elif folded == "rehab":
+                append_list(props, "termékcsalád", ["Rehab"])
+            elif folded == "koffeinmentes":
+                props["koffeinmentes"] = True
+            elif folded == "zold tea":
+                append_list(props, "íz", ["zöld tea"])
+            elif folded == "50 g protein":
+                append_list(props, "fehérjetartalom", ["50 g"])
+            elif folded == "hozzaadott vitaminok":
+                kept_content.append("vitamin")
+            else:
+                kept_content.append(value)
+        specific_vitamin = any(
+            "vitamin" in fold_text(value) and fold_text(value) != "vitamin"
+            for value in kept_content
+        )
+        if specific_vitamin:
+            kept_content = [
+                value for value in kept_content if fold_text(value) != "vitamin"
+            ]
+        kept_content = dedupe(kept_content)
+        if kept_content:
+            props["tartalom"] = kept_content
+        else:
+            props.pop("tartalom", None)
+        if kept_content != content:
+            operations["tartalom_tengely_atomizálva"] += 1
+
+    flavors = values_of(props.get("íz"))
+    if flavors:
+        variant_atoms = {
+            "barista": "Barista",
+            "classic": "Classic",
+            "classico": "Classico",
+            "fusion": "Fusion",
+            "gold": "Gold",
+            "klasszikus": "Klasszikus",
+            "premium": "Premium",
+            "strong": "Strong",
+            "tradicionalis": "Tradicionális",
+            "yellow label": "Yellow Label",
+        }
+        retained_flavors: list[Any] = []
+        flavor_changed = False
+        for value in flavors:
+            folded = fold_text(value)
+            if folded in variant_atoms:
+                append_list(props, "változat", [variant_atoms[folded]])
+                flavor_changed = True
+            elif folded == "decaffeinato":
+                props["koffeinmentes"] = True
+                flavor_changed = True
+            elif folded in {"zero", "zero sugar", "zero cukor"}:
+                props["cukormentes"] = True
+                flavor_changed = True
+            elif folded in {"szuretlen", "unfiltered"}:
+                props["szűretlen"] = True
+                flavor_changed = True
+            elif folded in {"inulin", "kollagen"}:
+                append_list(props, "tartalom", [value])
+                flavor_changed = True
+            elif folded == "immun cink":
+                append_list(props, "funkció", ["immun"])
+                append_list(props, "tartalom", ["cink"])
+                flavor_changed = True
+            else:
+                retained_flavors.append(value)
+        if retained_flavors:
+            props["íz"] = dedupe(retained_flavors)
+        else:
+            props.pop("íz", None)
+        if flavor_changed:
+            operations["ízből_nem_íz_atom_külön_tengelyre_vezetve"] += 1
+
+    fat_values = values_of(props.get("zsírtartalom"))
+    if any(fold_text(value) == "zsirszegeny" for value in fat_values):
+        props["zsírszegény"] = True
+        remove_folded_atoms(props, "zsírtartalom", {"zsirszegeny"})
+        operations["zsírszegény_státusz_tengelyre_vezetve"] += 1
+
+    beer_values = values_of(props.get("sörtípus"))
+    if beer_values:
+        retained_beer_values: list[Any] = []
+        beer_axis_changed = False
+        for value in beer_values:
+            folded = fold_text(value)
+            if folded in {"vilagos", "barna", "dark"}:
+                append_list(
+                    props,
+                    "szín",
+                    ["barna" if folded in {"barna", "dark"} else "világos"],
+                )
+                beer_axis_changed = True
+            elif folded == "premium":
+                append_list(props, "minőség", ["prémium"])
+                beer_axis_changed = True
+            else:
+                retained_beer_values.append(value)
+        if retained_beer_values:
+            props["sörtípus"] = dedupe(retained_beer_values)
+        else:
+            props.pop("sörtípus", None)
+        if beer_axis_changed:
+            operations["sörtípus_szín_minőség_atomjai_szétválasztva"] += 1
+
+    if "puttonyszám" in props:
+        raw_puttony = values_of(props["puttonyszám"])
+        numeric_puttony = [
+            int(value)
+            for value in raw_puttony
+            if isinstance(value, (int, str)) and str(value).isdigit()
+        ]
+        if len(numeric_puttony) != len(raw_puttony):
+            raise RuntimeError(
+                f"Nem numerikus puttonyszám: {item_id} / {raw_puttony!r}"
+            )
+        props["puttonyszám"] = numeric_puttony
+        if raw_puttony != numeric_puttony:
+            operations["puttonyszám_numerikussá_alakítva"] += 1
+
+    def remove_redundant_axis_atoms(
+        source_property: str,
+        target_properties: tuple[str, ...],
+    ) -> None:
+        source_values = values_of(props.get(source_property))
+        if not source_values:
+            return
+        dedicated = {
+            fold_text(value)
+            for target_property in target_properties
+            for value in values_of(props.get(target_property))
+        }
+        redundant = {
+            fold_text(value)
+            for value in source_values
+            if fold_text(value) in dedicated
+        }
+        if redundant:
+            remove_folded_atoms(props, source_property, redundant)
+            operations["rossz_tengelyen_duplikált_atom_törölve"] += 1
+
+    remove_redundant_axis_atoms(
+        "típus",
+        (
+            "édesség",
+            "borstílus",
+            "forma",
+            "terméktípus",
+            "sörtípus",
+            "teatípus",
+            "bortípus",
+            "kávékeverék típusa",
+        ),
+    )
+    remove_redundant_axis_atoms(
+        "fajta",
+        (
+            "szín",
+            "édesség",
+            "forma",
+            "szőlőfajta",
+            "sörtípus",
+            "terméktípus",
+            "íz",
+        ),
+    )
+    remove_redundant_axis_atoms(
+        "íz",
+        (
+            "sörtípus",
+            "eredet",
+            "szőlőfajta",
+            "alkoholalap",
+            "kávékeverék típusa",
+        ),
+    )
+    remove_redundant_axis_atoms("változat", ("kávékeverék típusa",))
+    remove_redundant_axis_atoms("terméktípus", ("sörtípus",))
+
+    if props.get("koffeinmentes") is True:
+        remove_folded_atoms(
+            props,
+            "íz",
+            {"koffeinmentes", "koffein mentes", "decaf"},
+        )
+    if props.get("cukormentes") is True:
+        remove_folded_atoms(
+            props,
+            "íz",
+            {"cukormentes", "no sugar", "sugarfree", "zero"},
+        )
+    if props.get("alkoholstátusz") == "alkoholmentes":
+        remove_folded_atoms(props, "íz", {"alkoholmentes"})
+
+    bases = values_of(props.get("alap"))
+    if bases:
+        normalized_bases = []
+        for value in bases:
+            folded = fold_text(value)
+            if folded == "natur":
+                continue
+            if folded == "kola" and item_id in WRONG_COLA_BASE_IDS:
+                continue
+            if folded == "enyhen szensavas asvanyviz":
+                normalized_bases.append("ásványvíz")
+            else:
+                normalized_bases.append(value)
+        normalized_bases = dedupe(normalized_bases)
+        if normalized_bases:
+            props["alap"] = normalized_bases
+        else:
+            props.pop("alap", None)
+        if normalized_bases != bases:
+            operations["alap_tengely_zaja_javítva"] += 1
+        normalized_base_folds = {
+            fold_text(value) for value in values_of(props.get("alap"))
+        }
+        redundant_base_atoms = set()
+        if "oszibarack" in normalized_base_folds:
+            redundant_base_atoms.add("barack")
+        if "barna rizs" in normalized_base_folds:
+            redundant_base_atoms.add("rizs")
+        if redundant_base_atoms:
+            remove_folded_atoms(props, "alap", redundant_base_atoms)
+            operations["redundáns_generikus_alapérték_törölve"] += 1
+
+    if "csokolad" in name:
+        before = copy.deepcopy(props.get("összetevő"))
+        remove_folded_atoms(props, "összetevő", {"kola"})
+        if before != props.get("összetevő"):
+            operations["összetevő_substring_zaj_törölve"] += 1
+    if item_id in TUTTIFRUTTI_INGREDIENT_NOISE_IDS:
+        before = copy.deepcopy(props.get("összetevő"))
+        remove_folded_atoms(props, "összetevő", {"tuttifrutti"})
+        if before != props.get("összetevő"):
+            operations["összetevő_substring_zaj_törölve"] += 1
+
+    if item_id in LOOSE_TWININGS_IDS:
+        before = copy.deepcopy(props.get("forma"))
+        remove_folded_atoms(props, "forma", {"filteres"})
+        append_list(props, "forma", ["szálas"])
+        if before != props.get("forma"):
+            operations["Twinings_szálas_forma_javítva"] += 1
+
+
+def normalize_property_axes(
+    products: list[dict[str, Any]],
+    operations: Counter[str],
+) -> None:
+    for product in products:
+        if product.get("fokategoria") == ITAL:
+            normalize_misc_property_axes(product, operations)
+            normalize_semantic_value_axes(product, operations)
+    normalize_placeholder_and_text_values(products, operations)
 
 
 PACKAGING_CANONICAL = {
@@ -1086,21 +2704,180 @@ PACKAGING_CANONICAL = {
     "vakuumcsomagolas": "vákuumcsomagolás",
     "aromazaro csomagolas": "aromazáró csomagolás",
     "multipack": "multipack",
+    "bag in box": "bag-in-box",
+    "pohar": "pohár",
 }
+
+
+QUANTITY_UNITS = frozenset({"g", "kg", "ml", "cl", "dl", "l"})
+
+
+def canonical_quantity_unit(unit: str) -> str:
+    folded = fold_text(unit)
+    return "g" if folded == "gr" else folded
+
+
+def format_quantity(number: float, unit: str) -> str:
+    unit = canonical_quantity_unit(unit)
+    if number.is_integer():
+        text = str(int(number))
+    else:
+        text = f"{number:.6f}".rstrip("0").rstrip(".").replace(".", ",")
+    return f"{text} {unit}"
 
 
 def final_quantity_from_source(product: dict[str, Any]) -> str | None:
     item = product.get("termek") or {}
     amount = str(item.get("vegso_mennyiseg") or "").strip()
-    unit = str(item.get("vegso_egyseg") or "").strip()
+    unit = fold_text(item.get("vegso_egyseg") or "")
     if not amount or not unit:
+        return None
+    if unit not in QUANTITY_UNITS:
         return None
     if not re.fullmatch(r"\d+(?:[.,]\d+)?", amount):
         return None
-    number = amount.replace(".", ",")
-    if number.endswith(",0"):
-        number = number[:-2]
-    return f"{number} {unit}"
+    return format_quantity(float(amount.replace(",", ".")), unit)
+
+
+def multipack_from_name(product: dict[str, Any]) -> tuple[int, float, str] | None:
+    match = re.search(
+        r"(?<!\d)(\d+)\s*[x×]\s*(\d+(?:[.,]\d+)?)\s*"
+        r"(kg|ml|cl|dl|l|gr|g)\b",
+        product_name(product),
+        flags=re.IGNORECASE,
+    )
+    if not match:
+        return None
+    return (
+        int(match.group(1)),
+        float(match.group(2).replace(",", ".")),
+        canonical_quantity_unit(match.group(3)),
+    )
+
+
+def quantity_from_name(product: dict[str, Any]) -> str | None:
+    matches = list(
+        re.finditer(
+            r"(?<!\d)(\d+(?:[.,]\d+)?)\s*(kg|ml|cl|dl|l|gr|g)\b",
+            product_name(product),
+            flags=re.IGNORECASE,
+        )
+    )
+    if not matches:
+        return None
+    match = matches[-1]
+    return format_quantity(
+        float(match.group(1).replace(",", ".")),
+        canonical_quantity_unit(match.group(2)),
+    )
+
+
+def normalize_size_candidate(
+    product: dict[str, Any],
+    value: Any,
+    props: dict[str, Any],
+    packaging: list[str],
+    path: tuple[str, str],
+) -> str | None:
+    text = re.sub(r"\s+", " ", str(value)).strip()
+    number = r"(\d+(?:[.,]\d+)?)"
+    unit = r"(kg|ml|cl|dl|l|gr|g|db)"
+
+    plus_match = re.fullmatch(
+        rf"{number}\s*{unit}\s*\+\s*{number}\s*{unit}",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if plus_match:
+        first_number = float(plus_match.group(1).replace(",", "."))
+        first_unit = canonical_quantity_unit(plus_match.group(2))
+        second_number = float(plus_match.group(3).replace(",", "."))
+        second_unit = canonical_quantity_unit(plus_match.group(4))
+        if first_unit != second_unit:
+            raise RuntimeError(
+                f"Eltérő egységű csomagösszetétel: {product_id(product)} / {text}"
+            )
+        props["csomagdarabszám"] = 2
+        props["csomagegységek"] = [
+            format_quantity(first_number, first_unit),
+            format_quantity(second_number, second_unit),
+        ]
+        packaging.append("multipack")
+        return format_quantity(first_number + second_number, first_unit)
+
+    multipack_match = re.fullmatch(
+        rf"(\d+)\s*[x×]\s*{number}\s*{unit}",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if multipack_match:
+        count = int(multipack_match.group(1))
+        unit_amount = float(multipack_match.group(2).replace(",", "."))
+        quantity_unit = canonical_quantity_unit(multipack_match.group(3))
+        props["csomagdarabszám"] = count
+        props["egységnyi kiszerelés"] = format_quantity(
+            unit_amount,
+            quantity_unit,
+        )
+        packaging.append("multipack")
+        return format_quantity(count * unit_amount, quantity_unit)
+
+    count_total_match = re.fullmatch(
+        rf"(\d+)\s*(filter|teafilter|db)\s+{number}\s*{unit}",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if count_total_match:
+        props["csomagdarabszám"] = int(count_total_match.group(1))
+        if "filter" in count_total_match.group(2).casefold() and path == (
+            HOT_BRANCH,
+            "Tea",
+        ):
+            append_list(props, "forma", ["filteres"])
+        return format_quantity(
+            float(count_total_match.group(3).replace(",", ".")),
+            canonical_quantity_unit(count_total_match.group(4)),
+        )
+
+    count_only_match = re.fullmatch(
+        r"(\d+)\s*(filter|teafilter)",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if count_only_match:
+        props["csomagdarabszám"] = int(count_only_match.group(1))
+        if path == (HOT_BRANCH, "Tea"):
+            append_list(props, "forma", ["filteres"])
+        return None
+
+    packaged_quantity_match = re.fullmatch(
+        rf"{number}\s*{unit}\s*(uveg|üveg|doboz)",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if packaged_quantity_match:
+        package_folded = fold_text(packaged_quantity_match.group(3))
+        if package_folded == "uveg":
+            packaging.append("palack")
+            append_list(props, "csomagolás anyaga", ["üveg"])
+        else:
+            packaging.append("doboz")
+        return format_quantity(
+            float(packaged_quantity_match.group(1).replace(",", ".")),
+            canonical_quantity_unit(packaged_quantity_match.group(2)),
+        )
+
+    simple_match = re.fullmatch(
+        rf"{number}\s*{unit}",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if simple_match:
+        return format_quantity(
+            float(simple_match.group(1).replace(",", ".")),
+            canonical_quantity_unit(simple_match.group(2)),
+        )
+    return text
 
 
 def normalize_size_and_packaging(
@@ -1137,6 +2914,14 @@ def normalize_size_and_packaging(
                 return
             if any(char.isdigit() for char in str(value)):
                 return
+            if folded == "uveg":
+                packaging.append("palack")
+                append_list(props, "csomagolás anyaga", ["üveg"])
+                return
+            if folded == "pet palack":
+                packaging.append("palack")
+                append_list(props, "csomagolás anyaga", ["PET"])
+                return
             canonical = PACKAGING_CANONICAL.get(folded, str(value))
             if (
                 canonical == "palack"
@@ -1169,8 +2954,26 @@ def normalize_size_and_packaging(
                 if re.search(r"\b\d+\s*x\s*\d+", fold_text(value))
             ]
             selected_size = multipack_sizes[-1] if multipack_sizes else size_candidates[0]
-            if re.search(r"\b\d+\s*x\s*\d+", name_folded):
-                selected_size = final_quantity_from_source(product) or selected_size
+            selected_size = normalize_size_candidate(
+                product,
+                selected_size,
+                props,
+                packaging,
+                path,
+            )
+        multipack = multipack_from_name(product)
+        if multipack:
+            count, unit_amount, unit = multipack
+            source_total = final_quantity_from_source(product)
+            computed_total = format_quantity(count * unit_amount, unit)
+            selected_size = source_total or computed_total
+            props["csomagdarabszám"] = count
+            props["egységnyi kiszerelés"] = format_quantity(unit_amount, unit)
+            packaging.append("multipack")
+        elif "multipack" in name_folded:
+            packaging.append("multipack")
+        if selected_size is None:
+            selected_size = final_quantity_from_source(product) or quantity_from_name(product)
         if selected_size is None:
             props.pop("kiszerelés", None)
         else:
@@ -1703,30 +3506,62 @@ def transaction_artifacts() -> tuple[Path, Path, Path, Path]:
     )
 
 
+def transaction_partial_backups() -> tuple[Path, Path]:
+    _result_stage, _category_stage, result_backup, category_backup = (
+        transaction_artifacts()
+    )
+    return (
+        result_backup.with_name(result_backup.name + ".partial"),
+        category_backup.with_name(category_backup.name + ".partial"),
+    )
+
+
+def all_transaction_artifacts() -> tuple[Path, ...]:
+    return (*transaction_artifacts(), *transaction_partial_backups())
+
+
+def atomic_backup_copy(source: Path, backup: Path, partial: Path) -> None:
+    if backup.exists() or partial.exists():
+        raise RuntimeError(f"Nem tiszta backup-cél: {backup} / {partial}")
+    shutil.copy2(source, partial)
+    load_json(partial)
+    partial.replace(backup)
+
+
 def recover_interrupted_transaction() -> bool:
     """Egy korábban félbeszakadt kétfájlos csere biztonságos helyreállítása."""
 
     result_stage, category_stage, result_backup, category_backup = transaction_artifacts()
+    result_partial, category_partial = transaction_partial_backups()
     stages = (result_stage, category_stage)
     backups = (result_backup, category_backup)
     existing_backups = [path for path in backups if path.exists()]
 
     if existing_backups:
         if len(existing_backups) == 2:
+            # Ha mindkét főfájl már célállapotban van, a commit lezajlott,
+            # csak a takarítás szakadt félbe. Vegyes/hibás párnál visszaállunk.
+            try:
+                run_checker(RESULT_PATH, CATEGORY_PATH)
+            except Exception:
+                shutil.copy2(result_backup, RESULT_PATH)
+                shutil.copy2(category_backup, CATEGORY_PATH)
+        elif result_backup.exists():
+            # A backup-sorrend miatt itt a commit még nem kezdődhetett el:
+            # az eredményfájl biztos másolatát visszatesszük, a kategóriafájl
+            # főpéldánya pedig még érintetlen.
             shutil.copy2(result_backup, RESULT_PATH)
-            shutil.copy2(category_backup, CATEGORY_PATH)
         else:
-            # Ez tipikusan a már sikeresen ellenőrzött csere utáni
-            # backup-takarítás megszakadását jelenti. Csak a teljes jelenlegi
-            # fájlpár sikeres ellenőrzése esetén fogadjuk el.
+            # Csak kategóriabackup kizárólag a sikeres commit utáni,
+            # sorrendi takarítás közben maradhat vissza.
             run_checker(RESULT_PATH, CATEGORY_PATH)
-        for path in (*stages, *backups):
+        for path in all_transaction_artifacts():
             if path.exists():
                 path.unlink()
         return True
 
     recovered = False
-    for path in stages:
+    for path in (*stages, result_partial, category_partial):
         if path.exists():
             path.unlink()
             recovered = True
@@ -1738,7 +3573,8 @@ def write_transactionally(
     categories: dict[str, Any],
 ) -> dict[str, Any]:
     result_stage, category_stage, result_backup, category_backup = transaction_artifacts()
-    auxiliaries = (result_stage, category_stage, result_backup, category_backup)
+    result_partial, category_partial = transaction_partial_backups()
+    auxiliaries = all_transaction_artifacts()
     leftovers = [str(path) for path in auxiliaries if path.exists()]
     if leftovers:
         raise RuntimeError(f"Korábbi staging/backup fájl maradt vissza: {leftovers}")
@@ -1746,8 +3582,8 @@ def write_transactionally(
         dump_json(result_stage, products)
         dump_json(category_stage, categories)
         stage_check = run_checker(result_stage, category_stage)
-        shutil.copy2(RESULT_PATH, result_backup)
-        shutil.copy2(CATEGORY_PATH, category_backup)
+        atomic_backup_copy(RESULT_PATH, result_backup, result_partial)
+        atomic_backup_copy(CATEGORY_PATH, category_backup, category_partial)
         try:
             result_stage.replace(RESULT_PATH)
             category_stage.replace(CATEGORY_PATH)
@@ -1763,7 +3599,7 @@ def write_transactionally(
             category_backup.unlink()
             return {"stage": stage_check, "final": final_check}
     finally:
-        for path in (result_stage, category_stage):
+        for path in (result_stage, category_stage, result_partial, category_partial):
             if path.exists():
                 path.unlink()
 
@@ -1832,6 +3668,11 @@ def path_counts(products: list[dict[str, Any]]) -> dict[str, int]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--apply", action="store_true", help="A két fő JSON-fájl tranzakciós visszaírása")
+    parser.add_argument(
+        "--assert-idempotent",
+        action="store_true",
+        help="Célfán a legkisebb eltérést is hibának tekinti",
+    )
     args = parser.parse_args()
 
     if not CHECKER_PATH.is_file():
@@ -1839,7 +3680,7 @@ def main() -> int:
     if args.apply:
         recover_interrupted_transaction()
     else:
-        leftovers = [str(path) for path in transaction_artifacts() if path.exists()]
+        leftovers = [str(path) for path in all_transaction_artifacts() if path.exists()]
         if leftovers:
             raise RuntimeError(
                 "Félbeszakadt tranzakció nyoma maradt; a helyreállításhoz "
@@ -1937,6 +3778,7 @@ def main() -> int:
 
     normalize_atomic_semantics(products, operations)
     normalize_external_targets(products, operations)
+    normalize_property_axes(products, operations)
     normalize_size_and_packaging(products, operations)
     align_shapes_within_paths(products, operations)
     canonicalize_equivalent_values_within_paths(products, operations)
@@ -1950,16 +3792,49 @@ def main() -> int:
             changed_indices.add(index)
 
     # Minden eredetileg nem Ital-termék változatlan marad.
-    unexpected_non_ital_changes = []
-    for index, original in enumerate(original_products):
-        if original.get("fokategoria") == ITAL or products[index] == original:
-            continue
+    def allowed_external_product_change(
+        original: dict[str, Any],
+        current: dict[str, Any],
+    ) -> bool:
+        item_id = product_id(original)
+        allowed_property_names = {
+            CITRIORANGE_ID: frozenset({"terméktípus"}),
+            FRUIT_STEP_GINGER_ID: frozenset(
+                {"gyümölcs", "kiszerelés", "terméktípus", "összetevő"}
+            ),
+        }.get(item_id)
+        if allowed_property_names is None:
+            return False
         original_path = (
             original.get("fokategoria"),
             original.get("alkategoria"),
             original.get("altipus"),
         )
-        if product_id(original) == CITRIORANGE_ID and original_path == CITRUS_TARGET:
+        current_path = (
+            current.get("fokategoria"),
+            current.get("alkategoria"),
+            current.get("altipus"),
+        )
+        if original_path != CITRUS_TARGET or current_path != CITRUS_TARGET:
+            return False
+        expected = copy.deepcopy(original)
+        expected_props = expected.setdefault("tulajdonsagok", {})
+        current_props = current.get("tulajdonsagok") or {}
+        for property_name in allowed_property_names:
+            if property_name in current_props:
+                expected_props[property_name] = copy.deepcopy(
+                    current_props[property_name]
+                )
+            else:
+                expected_props.pop(property_name, None)
+        expected["kategoria_hash"] = current.get("kategoria_hash")
+        return expected == current
+
+    unexpected_non_ital_changes = []
+    for index, original in enumerate(original_products):
+        if original.get("fokategoria") == ITAL or products[index] == original:
+            continue
+        if allowed_external_product_change(original, products[index]):
             continue
         unexpected_non_ital_changes.append(index)
     if unexpected_non_ital_changes:
@@ -1970,14 +3845,28 @@ def main() -> int:
     current_without_scope = copy.deepcopy(categories)
     original_without_scope.pop(ITAL, None)
     current_without_scope.pop(ITAL, None)
+
+    def remove_declared_properties(
+        node: dict[str, Any],
+        property_names: frozenset[str],
+    ) -> None:
+        prop_block = node.get(PROP_KEY) or {}
+        for group_name in ("egyedi", "csoportos"):
+            group = prop_block.get(group_name) or {}
+            for property_name in property_names:
+                group.pop(property_name, None)
+
     for snapshot in (original_without_scope, current_without_scope):
         root = snapshot[CITRUS_TARGET[0]]
         citrus_parent = root[ALK_KEY][CITRUS_TARGET[1]]
-        citrus_parent.pop(PROP_KEY, None)
+        remove_declared_properties(citrus_parent, frozenset({"márka"}))
         citrus_parent[ALT_KEY].pop(CITRUS_OLD_TARGET[2], None)
         citrus_parent[ALT_KEY].pop(CITRUS_TARGET[2], None)
         nesquik_parent = root[ALK_KEY][NESQUIK_TARGET[1]]
-        nesquik_parent.pop(PROP_KEY, None)
+        remove_declared_properties(
+            nesquik_parent,
+            frozenset({"márka", "íz"}),
+        )
         nesquik_parent[ALT_KEY].pop(NESQUIK_TARGET[2], None)
     if original_without_scope != current_without_scope:
         raise RuntimeError("A kategóriafa az Ital és a két külső célágon kívül is módosult")
@@ -2013,6 +3902,18 @@ def main() -> int:
         "conflicts": conflicts,
         "validation": validation,
     }
+
+    if args.assert_idempotent:
+        if mode != "target-idempotency-check":
+            raise RuntimeError(
+                "--assert-idempotent csak a teljes célfán használható"
+            )
+        if changed_indices or categories != original_categories:
+            raise RuntimeError(
+                "Az átalakítás nem idempotens: "
+                f"termékek={len(changed_indices)}, "
+                f"kategóriafa_változott={categories != original_categories}"
+            )
 
     if not args.apply:
         print(

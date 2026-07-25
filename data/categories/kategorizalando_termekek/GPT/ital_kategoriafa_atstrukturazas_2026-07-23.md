@@ -40,10 +40,10 @@
   - Kombucha: 17
   - Egyéb ízesített üdítőital: 689
 - **Gyümölcs- és zöldségitalok**
-  - Lé: 463
-  - Nektár: 81
-  - Gyümölcsital: 765
-  - Smoothie és püréital: 86
+  - Lé: 379
+  - Nektár: 84
+  - Gyümölcsital: 815
+  - Smoothie és püréital: 117
 - **Funkcionális és teljesítményitalok**
   - Energiaital: 341
   - Sport- és izotóniás ital: 86
@@ -79,3 +79,69 @@
 ## Automatikusan feloldott ellentmondások
 
 Összesen 175 eset. A teljes lista a gépi audit JSON-ban található.
+
+## Tulajdonság- és márkanormalizálás – 2026-07-24
+
+- A végleges tulajdonságfutás **9707 terméket** módosított, majd az ismételt
+  idempotenciateszt **0 módosítandó terméket** talált.
+- **12720** Ital-termék rendelkezik márkával; **1105** különböző főmárka maradt.
+  A betűméret- és ékezetfüggetlen márkaütközések száma **0**.
+- A közvetlen Git-összehasonlítás szerint ebben a végső futásban már
+  **0 márkaértéket** kellett átírni: a korábbi normalizálás eredménye a
+  kiinduló fájlban is jelen volt. Az ellenőrzött 90 ismert termékvonal-,
+  termékváltozat- és írásmód-alias egyike sem maradt aktív márkaértékként.
+  A termékcsalád jelentése külön `termékcsalád` vagy `változat`
+  tulajdonságban maradt meg.
+- A bolti saját márkák továbbra is külön márkák. Példák:
+  `S-Budget`, `SPAR`, `CBA Piros`, `CBA Minera`, `Barissimo`, `Solevita`,
+  `Freeway` és `Bellarom`.
+- Nem történt bizonytalan vállalati vagy társmárka-összevonás. Többek között
+  külön maradtak a Nestlé-, Zwack-, Bacardi/Breezer-, Budweiser/Budvar-,
+  Kronenbourg/1664- és SodaStream-licencmárkák.
+
+### Elemi tulajdonságok
+
+- A 190 korábbi vegyes gyümölcsital-rekordot tartalom alapján szétválasztottuk:
+  106 lé, 50 gyümölcsital, 31 smoothie/püréital és 3 nektár.
+- A `kávéfehérítő vagy tejpor` 24 összetett értéke elemi értékekre vált:
+  17 kávékrémpor, 4 tejpor, 2 kávéfehérítő és 1 kávétejszín.
+- Megszűntek az összetett tengelyek, például:
+  `borvidék / eredet`, `szőlőfajta / borstílus`, `hatóanyag / cél`,
+  `cukormentes / zero` és `kiszerelés / rendszer`.
+- A korábbi összevont értékek külön elemi tengelyekre kerültek, többek között:
+  `eredet`, `szőlőfajta`, `borstílus`, `hatóanyag`, `funkció`,
+  `cukormentes`, `energiastátusz`, `cukrozott`, `alkoholalap`,
+  `keverőanyag`, `csomagolás` és `csomagolás anyaga`.
+- Az `instant` nem formaérték, hanem logikai tulajdonság. Összesen
+  **421 terméknél** szerepel.
+- A `kiszerelés` elemi skalár: **12531** értelmezett méret és **279**
+  valóban hiányzó vagy nem biztonságosan értelmezhető adat maradt.
+- **611 többdarabos csomag** mindegyikénél pozitív darabszám van; a teljes
+  kiszerelés, az egységnyi kiszerelés és a darabszám számtanilag is ellenőrzött.
+
+### Bizonyított adatjavítások
+
+- Helyreálltak a hibás tizedes értékek, köztük az Alpro 1,8% és 3,5%
+  zsírtartalmai, a Cappy 50,6% és a Rauch 99,5% gyümölcstartalma.
+- A Sauska Brut Nature alkoholtartalma 12%-ra javult az
+  [Sauska hivatalos termékoldala](https://shop.sauska.hu/pezsgok-27/sauska-brut-nature-nv-3117)
+  alapján.
+- Javítva lett az Old Jamaica 330 ml-es mérete, két többdarabos csomag
+  darabszáma, valamint hat alkoholmentes sör téves 0%-os duplikátuma.
+
+### Végső validáció
+
+- Szigorú JSON-beolvasás: duplikált kulcs és nem véges szám nélkül.
+- Független ellenőrző: `ok` – **47030 termék**, **12810 Ital-termék**,
+  **41/41 deklarált és használt levél**, **5288 ellenőrzött faérték**.
+- Márkakiosztás, levélkategóriák, tulajdonságszámok és kijelölt termékcsoportok
+  teljes azonosító-hash alapján rögzítve.
+- Hat szándékosan elrontott mintát az ellenőrző mind elutasított:
+  régi márkaalias, rossz lé-kategória, helykitöltő érték, duplikált listaelem,
+  összetett kiszerelés és használaton kívüli faérték.
+- Végleges idempotenciateszt: `ok`, várható további változás:
+  **0 termék**, kategóriafa-változás nélkül.
+
+A korábbi gépi audit JSON az első, kategóriafa-szintű migráció részleteit
+tartalmazza; ez a kiegészítő fejezet dokumentálja a későbbi tulajdonság- és
+márkanormalizálást.
