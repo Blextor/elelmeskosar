@@ -1,0 +1,37 @@
+Néhány apróságot még szükséges lenne javítani.
+A pölöskei ZERO-ban van cukor.
+A teaízesítő az nem pezsgő vagy italtabletta. A kategória neve legyen pezsgőtabletta csak.
+Az italpor az egy nagyon szűk kategória, oda instant tea/tea ízű dolgok nem kerülhetnének.
+Illetve tej alapúak se, azokat 
+Gyümülcslé altípusban nem kell az édesség.
+A gyümölcsital-nál viszont nincs cukormentes, a termékek képein egyértelműen látszik, hogy zero a hozzáadott cukortartalom, természetes módon tartalmaz viszont.
+Így legyen boolean a "hozzáadott cukor nélkül" tulajdonság a cukormentes helyett.
+A smoothie és pürés esetében nem kell a rostosság tulajdonság ahogy a cukormentes sem.
+Az energiaital az alkategória legyen, ne alítpus.
+
+Ez a termék:
+HELL Ice Cool Körte-mandarin- és Tutti-frutti ízű Koffeintartalmú Szénsavas Alkoholmentes Ital 250 ml
+valamiért sós és karamell ízű
+Kérlek majd a javítások végén vizsgáld felül az összes nem alkoholos ital termékeket.
+
+Az ásványvíz legyen egy alkategória, ahogy az ízesített víz is. Ne altípusok legyenek.
+Illetve a képeket továbbra vedd figyelembe, mert a "hozzáadott cukor nélküli" azok nem cukormentesek.
+Pl. az Apenta light termékek. Kérlek vizsgáld meg a képeket és azokon lévő feliratokat.
+
+A kapszulás kávék esetén az intenzitást inkább gyenge, közpesen gyenge, normál, erős, extra erős legyen.
+Sok intenzitása más skálán mozog, így lehet őket egységesíteni. (ilyenkor vedd figyelembe a fajtáját, hogy az milyen erősségűre utal, illetve a képen szereplő intenziását is (a 6-os intenzitás lehet a 11-ből normál, és a 6-os ból extra erős is))
+Az íz és fajta valahogy csak 414 esetben van megadva, de van 486, kérlek javítsd.
+Ez így igaz az őrölt kévák esetén is.
+Itt is fontos lenne az intenzitás, hasonlóan szövegesen.
+Tea esetében por/instant legyen a forma.
+
+Kévák esetében egybe kéne vonni inkább az instant, szemes, őrölt és kapszulásat.
+Így az ízeket egyszerűbb összesíteni, illetve az intenzitást is lehet együtt.
+Viszont így lenne egy kapszula komptaibilitás és egy hány az egyben tulajdonság az kapszulás és az intstant kávéknak.
+
+Forrócsokinál kéne natúr íz, illetve por és kapszula állag.
+
+Az üdítők kb. jók teljesen, viszont van 1902 termék jeleneleg, de csak 1809-nek van íze mintha.
+
+Kérlek nézd át az össes nem alkaohol ital terméket, hogy megfelelő-e a kategóriájuk és a tulajdonságaik és értékeik.
+

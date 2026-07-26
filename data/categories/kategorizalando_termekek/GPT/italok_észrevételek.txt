@@ -1,1 +1,80 @@
+Leírás, hogy mit kellene megvalósítani.
+Minden észrevételedet egy külön .md fájlba gyűjtsd össze.
+
 Ásványvíz kategória kéne legyen a neve a Víz és vízalapú italoknak.
+Azon belül fontos lenne, hogy a márkanevek elemiek legyenek. Flowater Still és a Flowater Sparkling ugyan úgy Flowater csak szénsavas az egyik a másik meg nem.
+Minden ilyen duplikátumot kérlek vonj össze.
+Ebben a kategóriában a szénsavassági fokozatok remekek, hagyd is így őket.
+Tulajdonsága a termékcsalád és a változat, amik fölöslegesek.
+A terméktípus között szerepel az ivóvíz, ami szinte mindegyikre jellemző, azegész terméktípus tulajdonságot szüntesd meg.
+A célcsoport egyetlen értéket tartalmaz, ami gyanús, hogy nem boolean, ez egy másik kategória lenne, minthogy egy tulajdonság. Baba esetében egy alkategória, vagy itt lenne alkategória ez.
+
+Az ízesített víz jó altípus, de itt is vannak problémák.
+Az íz értékei között van marakuja és maracuja. Ilyen duplikátumokat mind töröld, nem csak ebben a kategóriában.
+Az energiatartalom és a cukrozott az átfedésben van. Van zéró és csökkentett kalóriatartalmú, illetve normál. Nem kell külön a cukrozott tulajdonság.
+A változat tulajdonság nem kell. A tartalom meg megint csoportos tulajdonság, miközben csak vitamin az egyetlen értéke.
+Ha kell vitamin, akkor az egy külön bool tulajdonság legyen.
+
+A növényi italok mind tejre kínált alternatívák, mind tejfehérek.
+A tejtermékekhez sorolnám őket, növényialapú-akhoz.
+Zsírszegény és fehérjetartalom nem kell, mert fölösleges. A zsírtartalom maradjon.
+Az ízei között van a matcha és a tea is amikből csak a matcha maradjon.
+A not milk nem íz, de kétszer is szerepel, töröld őket.
+Az ízek között ne mszerepel a szója, pedig több helyen is szerepel.
+A cukormentes és az édesség külön van. A barista meg legyen külön boolean tulajdonság.
+
+A kakaó az alapvető élelmiszerekhez kéne csoportosítani, csak a forrócsoki maradjon.
+A kakaó esetében kellene a natúr vagy cukrozott, illetve %-os érték, hogy mennyi kakaót tartalmaz.
+A forrócsoki esetében a tulajdonságokat gondold át.
+A kávé és teadalék helyett legyen krém és tejpor, tejszín az altípus neve.
+Csak a típus legyen a tulajdonsága, és a márka.
+
+A teák valóban por, teafű, vagy filteresek.
+A teáknak két tulajdonsága legyen ezen kívül még a márkán kívül.
+A fajtája és az összetevő. Fajta mint a Sweet Dreams vagy Oolong, az összetevő meg ami konkrétabb, mint a málna, fahéj, kamilla, stb.
+Illetve maradjon meg a teatípus tulajdonság.
+A többi tulajdonság kb. nem kell.
+
+Kávé:
+Kell külön altípusba az instant kávé, az őrölt kávé, a szemes kávé és a kapszulás kávé.
+Kellene valamilyen szinten az erősség/intenzitás, amelyik altípusban értelmezhető.
+Kellene a koffeinmentes mint boolean tulajdonság.
+Kellene az íz és fajtája egyben, ezeket szelektáld, mert sok a hasonló, ami ugyan az.
+Hasonlóak a caffé crema és a crema az íznél, de Caffé Crema szerepel a változatnál is.
+Ahogy az Intensive és az intensivo. Illetve espresso, caffe előtaggal.
+Ezeket mind redukáld és vond össze.
+Eredet, pörkölés stb. az macera és nem kell. Kb. csak az előző tulajdonságok maradjanak.
+
+Italalapok:
+Nem rossz név, de jobb lenne itt több alkategória helyette ezen a szinten:
+(pezsgő?)tabletta, szörp / koncentrátum, italpor. Ezekre gondoltam.
+Kell a tulajdonságoknál mindegyik esetben az összetevő/íz (egyben), pezsgőtablettánál külön a vitaminok, illetve az energiatartalom, hogy édesítőszeres, csökkentett vagy normál.
+A márka mindegyik kategóriában maradjon, de más nem kell itt.
+Szörp esetében ha kivehető a higítás aránya, az jó lenne.
+
+A funkcionális italok-ból legyen kiemelve az energiaital, a többi legyen egy kalap alatt kezelve.
+sport/izotómiás/kollagénes ital és a  shot maradjon itt, többi ne.
+Ami nem tartozik az előzőek közé, azoknak nincs itt a helyük.
+Az Apenta Vitamixx italok azok ízesített vizek, a Cappy multivitamin meg gyümölcslé. Nézd át ezt a kategóriát, hogy csak azokok legyenek itt, amik máshova nem tartoznak.
+Az Active O2 is ízesített víz, nem érdekes az oxigénnal dúsítottsága, ahogy a plusz vitamin sem.
+Kollagén, izotómiás, sport ital, vagy shot, ezek maradjanak csak.
+Ezekből, hogy melyik, az tulajdonság érték legyen, mert lehet a shot-ban kollagén, egymást nem zárják ki.
+
+Gyümölcslevek és zöldséglevek
+Ezek a tulajdonságok kellenek: márka, gyümölcstartalom (%), íz(alapanyagai), rostos (boolean), illetve cukormentes (boolean)
+Van néhány tévesen idehelyezett termék.
+A Kubu Waterr azok ízesített vizek.
+A Süsü és a többi kölyökpezsgő az a kölyökpezsgökhöz kéne sorolni. (az üdítőitalokon belül a kölyökpezsgőhöz)
+Ide is került néhány shot, azok a funkcionálisakhoz tartoznak.
+Vizsgáld át a termékeket és hogy milyen tulajdonság kellene még. Illetve, hogy mi tartozik ide és mi máshova.
+
+Üdítőitalok:
+Az előző kategóriákból sok termék idekerült, mint a Cappy Ice Fruit Meggy.
+Át kell vizsgálni a kategóriafa szerkesztése során, hogy a termékek hova kerülnek végül.
+Az altípusok jók: aloeveraás italok, kombucha, kóla, tonik, jegestea, gyömbér/gyökéralapú italok és az egyéb ízetített üdítőitalok.
+Nem kell a limunádé, mert az gyanúsan félrevezető volt.
+Mindegyik altípusban kellenek az alábbi tulajdonságok:
+    márka, íz(kóla, stb. esetében a natúr ha nincs extra íze), szénsavas(boolean), energiatartalom (cukormentes, energiacsökkentett, normál), 
+Egyes altípusokban értelmetlen a tulajdonság, mint a jegesteában a szésavasság, ezeket nézd át, de több tulajdonságot max az észrevételeid közé vegyél fel.
+
+Ezek lennének első körben, az alkoholokat még nem kell változtatni.
