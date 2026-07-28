@@ -1,0 +1,2615 @@
+{
+  "status": "ok",
+  "errors": [],
+  "total_products": 47030,
+  "alcohol_products": 5493,
+  "alcohol_leaf_counts": {
+    "Sör, radler és malátaital": 1013,
+    "Cider": 73,
+    "Bor és boralapú ital": 2134,
+    "Pezsgő, habzóbor és gyöngyözőbor": 554,
+    "Vermut és aperitif": 53,
+    "Likőr": 583,
+    "Pálinka": 131,
+    "Vodka": 185,
+    "Gin": 135,
+    "Rum": 86,
+    "Egyéb szeszes ital": 150,
+    "Whisky és bourbon": 224,
+    "Koktél és előre kevert ital": 112,
+    "Brandy": 39,
+    "Tequila": 21
+  },
+  "fallback_counts": {
+    "Sör, radler és malátaital / szín / egyéb": 98,
+    "Sör, radler és malátaital / alkoholtartalom / ismeretlen": 18,
+    "Bor és boralapú ital / márka / márka nélkül": 55,
+    "Bor és boralapú ital / alkoholtartalom / ismeretlen": 433,
+    "Bor és boralapú ital / puttonyszám / nem alkalmazható": 2107,
+    "Bor és boralapú ital / eredet / egyéb": 445,
+    "Bor és boralapú ital / édesség / egyéb": 374,
+    "Bor és boralapú ital / csomagolás anyaga / egyéb": 140,
+    "Bor és boralapú ital / szín / egyéb": 141,
+    "Pezsgő, habzóbor és gyöngyözőbor / márka / márka nélkül": 7,
+    "Pezsgő, habzóbor és gyöngyözőbor / alkoholtartalom / ismeretlen": 87,
+    "Pezsgő, habzóbor és gyöngyözőbor / szőlőfajta / egyéb": 514,
+    "Pezsgő, habzóbor és gyöngyözőbor / eredet / egyéb": 486,
+    "Pezsgő, habzóbor és gyöngyözőbor / szín / egyéb": 40,
+    "Vermut és aperitif / alkoholtartalom / ismeretlen": 3,
+    "Vermut és aperitif / szín / egyéb": 4,
+    "Likőr / alkoholtartalom / ismeretlen": 25,
+    "Gin / íz / ismeretlen": 5,
+    "Vodka / alkoholtartalom / ismeretlen": 4,
+    "Rum / alkoholtartalom / ismeretlen": 9,
+    "Gin / alkoholtartalom / ismeretlen": 9,
+    "Whisky és bourbon / alkoholtartalom / ismeretlen": 12,
+    "Pezsgő, habzóbor és gyöngyözőbor / édesség / egyéb": 20,
+    "Egyéb szeszes ital / alkoholtartalom / ismeretlen": 1,
+    "Likőr / kiszerelés / ismeretlen": 6,
+    "Likőr / egységnyi kiszerelés / ismeretlen": 6,
+    "Bor és boralapú ital / kiszerelés / ismeretlen": 1,
+    "Bor és boralapú ital / egységnyi kiszerelés / ismeretlen": 1,
+    "Whisky és bourbon / kiszerelés / ismeretlen": 5,
+    "Whisky és bourbon / egységnyi kiszerelés / ismeretlen": 5,
+    "Gin / kiszerelés / ismeretlen": 5,
+    "Gin / egységnyi kiszerelés / ismeretlen": 5,
+    "Rum / kiszerelés / ismeretlen": 4,
+    "Vermut és aperitif / kiszerelés / ismeretlen": 1,
+    "Koktél és előre kevert ital / szénsavasság / ismeretlen": 3,
+    "Vodka / kiszerelés / ismeretlen": 1,
+    "Vodka / egységnyi kiszerelés / ismeretlen": 1,
+    "Likőr / márka / márka nélkül": 4,
+    "Koktél és előre kevert ital / alkoholalap / egyéb": 1,
+    "Vermut és aperitif / édesség / egyéb": 4
+  },
+  "kids_sparkling_products": 47,
+  "functional_products": 141,
+  "moves": 102,
+  "changed_products": 5487,
+  "changed_paths": {
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital": 1013,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Cider -> Ital > Alkoholos italok és alkoholmentes alternatívák > Cider": 73,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital": 2128,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Pezsgő, habzóbor és gyöngyözőbor -> Ital > Alkoholos italok és alkoholmentes alternatívák > Pezsgő, habzóbor és gyöngyözőbor": 554,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Vermut és aperitif -> Ital > Alkoholos italok és alkoholmentes alternatívák > Vermut és aperitif": 33,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Koktél és előre kevert ital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Vermut és aperitif": 2,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Likőr -> Ital > Alkoholos italok és alkoholmentes alternatívák > Likőr": 579,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Pálinka -> Ital > Alkoholos italok és alkoholmentes alternatívák > Pálinka": 121,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Vodka -> Ital > Alkoholos italok és alkoholmentes alternatívák > Vodka": 185,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Gin -> Ital > Alkoholos italok és alkoholmentes alternatívák > Gin": 135,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Rum -> Ital > Alkoholos italok és alkoholmentes alternatívák > Rum": 83,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Koktél és előre kevert ital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Egyéb szeszes ital": 7,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Whisky és bourbon -> Ital > Alkoholos italok és alkoholmentes alternatívák > Whisky és bourbon": 224,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Brandy -> Ital > Alkoholos italok és alkoholmentes alternatívák > Egyéb szeszes ital": 2,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Vodka -> Ital > Alkoholos italok és alkoholmentes alternatívák > Egyéb szeszes ital": 3,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Koktél és előre kevert ital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital": 4,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Pezsgő, habzóbor és gyöngyözőbor -> Ital > Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital": 1,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Pezsgő, habzóbor és gyöngyözőbor -> Ital > Üdítőitalok > Kölyökpezsgő": 5,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Whisky és bourbon -> Ital > Alkoholos italok és alkoholmentes alternatívák > Egyéb szeszes ital": 14,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Koktél és előre kevert ital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Koktél és előre kevert ital": 112,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Likőr -> Ital > Alkoholos italok és alkoholmentes alternatívák > Vermut és aperitif": 18,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Egyéb szeszes ital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Egyéb szeszes ital": 85,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Rum -> Ital > Alkoholos italok és alkoholmentes alternatívák > Egyéb szeszes ital": 33,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Brandy -> Ital > Alkoholos italok és alkoholmentes alternatívák > Brandy": 39,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Likőr -> Ital > Alkoholos italok és alkoholmentes alternatívák > Egyéb szeszes ital": 4,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Tequila -> Ital > Alkoholos italok és alkoholmentes alternatívák > Tequila": 21,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Sör, radler és malátaital -> Ital > Funkcionális italok > Sport-, izotóniás, kollagén- és shot ital": 2,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Whisky és bourbon -> Ital > Alkoholos italok és alkoholmentes alternatívák > Likőr": 3,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Pálinka -> Ital > Alkoholos italok és alkoholmentes alternatívák > Egyéb szeszes ital": 2,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Egyéb szeszes ital -> Ital > Alkoholos italok és alkoholmentes alternatívák > Bor és boralapú ital": 1,
+    "Ital > Alkoholos italok és alkoholmentes alternatívák > Rum -> Ital > Alkoholos italok és alkoholmentes alternatívák > Likőr": 1
+  },
+  "changed_properties": {
+    "egységnyi kiszerelés": 4868,
+    "csomagdarabszám": 992,
+    "fajta": 2914,
+    "terméktípus": 1070,
+    "csomagolás": 3184,
+    "sörtípus": 258,
+    "gluténmentes": 421,
+    "bio": 497,
+    "kézműves": 336,
+    "szín": 399,
+    "alkoholtartalom": 688,
+    "ízesített": 166,
+    "csomagolás anyaga": 370,
+    "íz": 3617,
+    "kiszerelés": 683,
+    "bortípus": 2693,
+    "eredet": 934,
+    "puttonyszám": 2134,
+    "szénsavasság": 2223,
+    "márka": 461,
+    "szőlőfajta": 1746,
+    "édesség": 571,
+    "típus": 660,
+    "borstílus": 657,
+    "termékcsalád": 66,
+    "változat": 420,
+    "alkoholalap": 37,
+    "gyümölcsös": 23,
+    "gyógynövényes": 114,
+    "szűretlen": 148,
+    "összetevő": 104,
+    "alap": 2,
+    "érlelés": 9,
+    "eredetvédelem": 10,
+    "energiatartalom": 5,
+    "alkoholstátusz": 7,
+    "szénsavas": 5,
+    "keverőanyag": 7,
+    "minőség": 7,
+    "cukormentes": 5,
+    "funkció": 2,
+    "eljárás": 2,
+    "csomagegységek": 1
+  },
+  "samples": [
+    {
+      "id": "989118",
+      "név": "PERONI Nastro Azzuro minőségi világos sör 5% alk., 0,33 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Peroni",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "330 ml",
+        "alkoholtartalom": [
+          "5%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Peroni",
+        "kiszerelés": "330 ml",
+        "alkoholtartalom": [
+          "5%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "330 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "541393",
+      "név": "KARLSKRONE Világos sör 4,2% alk., 0,5 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Karlskrone",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,2%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Karlskrone",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,2%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "873849",
+      "név": "KARLSKRONE Világos sör 3,0% Alk. 0,5 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Karlskrone",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "3%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Karlskrone",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "3%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "1027165",
+      "név": "KARLSKRONE Világos sör 4,5% alk., 0,5 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Karlskrone",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Karlskrone",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "749188",
+      "név": "KARLSKRONE Lager világos sör 4,9% alk., 0,5 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Karlskrone",
+        "íz": [
+          "natúr"
+        ],
+        "bio": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "szűretlen": false,
+        "alkoholtartalom": [
+          "4,9%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "sörtípus": [
+          "lager"
+        ],
+        "kézműves": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Karlskrone",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,9%"
+        ],
+        "fajta": [
+          "sör",
+          "lager"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "533682",
+      "név": "KARLSKRONE Búzasör 5% alk., 0,5 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Karlskrone",
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "5%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "sörtípus": [
+          "búzasör"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Karlskrone",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "5%"
+        ],
+        "fajta": [
+          "sör",
+          "búzasör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "egyéb"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "4598565",
+      "név": "BERGKÖNIG Prémium világos sör, 0,33 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Bergkönig",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "330 ml",
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Bergkönig",
+        "kiszerelés": "330 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "330 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "1059546",
+      "név": "KARLSKRONE IPA sör, 0,5 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Karlskrone",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "kiszerelés": "500 ml",
+        "csomagolás": [
+          "palack"
+        ],
+        "sörtípus": [
+          "IPA"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Karlskrone",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,9%"
+        ],
+        "fajta": [
+          "sör",
+          "IPA"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "egyéb"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "541087",
+      "név": "BERGKÖNIG Világos sör 7,2% alk., 0,5 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Bergkönig",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "7,2%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Bergkönig",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "7,2%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "541746",
+      "név": "LÖWENBRÄU Világos sör 4,0% alk., 0,5 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Löwenbräu",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Löwenbräu",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "992576",
+      "név": "KŐBÁNYAI Világos sör 4,3% alk. 0,5 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Kőbányai",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,3%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Kőbányai",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,3%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "4604641",
+      "név": "ARANY ÁSZOK Világos sör 4,3% alk., 0,5 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Arany Ászok",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,3%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Arany Ászok",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,3%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "913908",
+      "név": "BORSODI Világos sör, 0,5 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Borsodi",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Borsodi",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "4605610",
+      "név": "SOPRONI Világos sör 4,5% alk., 0,5 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Soproni",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Soproni",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "539287",
+      "név": "GÖSSER Világos sör 5.0% alk., 0,5 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Gösser",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "5%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Gösser",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "5%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "4606192",
+      "név": "DREHER Világos sör, 5% alk. 0,5 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Dreher",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "5%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Dreher",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "5%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "996225",
+      "név": "STAROPRAMEN Világos sör 5% alk., 0,5 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Staropramen",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "5%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Staropramen",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "5%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "997189",
+      "név": "SOPRONI Óvatos Duhaj Meggy szűretlen meggyes sörkülönlegesség, 4% alk., 0,5 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Soproni",
+        "kézműves": false,
+        "íz": [
+          "meggy"
+        ],
+        "szűretlen": true,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "sörtípus": [
+          "sörkülönlegesség"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "ízesített": true
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Soproni",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "meggy"
+        ],
+        "szín": [
+          "egyéb"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": true
+      }
+    },
+    {
+      "id": "997187",
+      "név": "HEINEKEN Világos sör 5% alk., 0,5 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Heineken",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "5%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Heineken",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "5%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "566880",
+      "név": "MILLER Genuine Draft 4,7% alk., 0,33 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Miller",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "330 ml",
+        "alkoholtartalom": [
+          "4,7%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Miller",
+        "kiszerelés": "330 ml",
+        "alkoholtartalom": [
+          "4,7%"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "330 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "1059047",
+      "név": "RAVINI Ízesített üveges cider alma, 4,5 % alk. 0,33 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Cider"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Cider"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Ravini",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "íz": [
+          "alma"
+        ],
+        "kiszerelés": "330 ml",
+        "csomagolás": [
+          "palack"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "cider"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "csomagolás": "palack",
+        "márka": "Ravini",
+        "kiszerelés": "330 ml",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "íz": [
+          "alma"
+        ],
+        "egységnyi kiszerelés": "330 ml"
+      }
+    },
+    {
+      "id": "1059048",
+      "név": "RAVINI Ízesített üveges cider szeder, 4,5% alk. 0,33 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Cider"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Cider"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Ravini",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "íz": [
+          "szeder"
+        ],
+        "kiszerelés": "330 ml",
+        "csomagolás": [
+          "palack"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "cider"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "csomagolás": "palack",
+        "márka": "Ravini",
+        "kiszerelés": "330 ml",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "íz": [
+          "szeder"
+        ],
+        "egységnyi kiszerelés": "330 ml"
+      }
+    },
+    {
+      "id": "1059049",
+      "név": "RAVINI Ízesített üveges cider spritz, 4,5% alk, 0,33 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Cider"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Cider"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Ravini",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "íz": [
+          "spritz"
+        ],
+        "kiszerelés": "330 ml",
+        "csomagolás": [
+          "palack"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "cider"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "csomagolás": "palack",
+        "márka": "Ravini",
+        "kiszerelés": "330 ml",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "íz": [
+          "narancs"
+        ],
+        "egységnyi kiszerelés": "330 ml"
+      }
+    },
+    {
+      "id": "539156",
+      "név": "SOMERSBY Cider almabor klasszikus 4,5% alk., 0,33 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Cider"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Cider"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Somersby",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "íz": [
+          "alma"
+        ],
+        "kiszerelés": "330 ml",
+        "csomagolás": [
+          "palack"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "cider"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "csomagolás": "palack",
+        "márka": "Somersby",
+        "kiszerelés": "330 ml",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "íz": [
+          "alma"
+        ],
+        "egységnyi kiszerelés": "330 ml"
+      }
+    },
+    {
+      "id": "833223",
+      "név": "SOMERSBY Cider almabor áfonya 4,5% alk., 0,33 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Cider"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Cider"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Somersby",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "íz": [
+          "áfonya"
+        ],
+        "kiszerelés": "330 ml",
+        "csomagolás": [
+          "palack"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "cider"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "csomagolás": "palack",
+        "márka": "Somersby",
+        "kiszerelés": "330 ml",
+        "alkoholtartalom": [
+          "4,5%"
+        ],
+        "íz": [
+          "áfonya"
+        ],
+        "egységnyi kiszerelés": "330 ml"
+      }
+    },
+    {
+      "id": "1026722",
+      "név": "SIXTUSBRÄU Világos sör 1,5 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Sixtusbräu",
+        "kézműves": false,
+        "íz": [
+          "natúr"
+        ],
+        "szűretlen": false,
+        "gluténmentes": false,
+        "kiszerelés": "1,5 l",
+        "csomagolás": [
+          "palack"
+        ],
+        "bio": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Sixtusbräu",
+        "kiszerelés": "1500 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "fajta": [
+          "sör"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "1500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "992577",
+      "név": "PILSNER URQUELL Világos sör 4,4% alk., 0,5 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Sör, radler és malátaital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Pilsner Urquell",
+        "íz": [
+          "natúr"
+        ],
+        "bio": false,
+        "gluténmentes": false,
+        "kiszerelés": "500 ml",
+        "szűretlen": false,
+        "alkoholtartalom": [
+          "4,4%"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "kézműves": false,
+        "alkoholstátusz": "alkoholos",
+        "terméktípus": [
+          "sör"
+        ],
+        "szín": [
+          "világos"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Pilsner Urquell",
+        "kiszerelés": "500 ml",
+        "alkoholtartalom": [
+          "4,4%"
+        ],
+        "fajta": [
+          "sör",
+          "pilsner"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szín": [
+          "világos"
+        ],
+        "egységnyi kiszerelés": "500 ml",
+        "csomagdarabszám": 1,
+        "bio": false,
+        "gluténmentes": false,
+        "kézműves": false,
+        "szűretlen": false
+      }
+    },
+    {
+      "id": "1005710",
+      "név": "Vörösbor félédes vörösbor, 0,75 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "kiszerelés": "750 ml",
+        "édesség": [
+          "félédes"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "bor"
+        ],
+        "szín": [
+          "vörös"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "márka nélkül",
+        "kiszerelés": "750 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "üveg"
+        ],
+        "szín": [
+          "vörös"
+        ],
+        "édesség": [
+          "félédes"
+        ],
+        "eredet": [
+          "egyéb"
+        ],
+        "bortípus": "bor",
+        "egységnyi kiszerelés": "750 ml"
+      }
+    },
+    {
+      "id": "1018151",
+      "név": "Mini borok Syrah Rosé, 0,25 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Mini borok",
+        "kiszerelés": "250 ml",
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "bor"
+        ],
+        "szín": [
+          "rozé"
+        ],
+        "szőlőfajta": [
+          "Syrah"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "márka nélkül",
+        "kiszerelés": "250 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "üveg"
+        ],
+        "szín": [
+          "rozé"
+        ],
+        "édesség": [
+          "egyéb"
+        ],
+        "eredet": [
+          "egyéb"
+        ],
+        "bortípus": "bor",
+        "egységnyi kiszerelés": "250 ml"
+      }
+    },
+    {
+      "id": "1018152",
+      "név": "Mini borok Chardonnay, 0,25 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "típus": [
+          "száraz"
+        ],
+        "márka": "Mini borok",
+        "kiszerelés": "250 ml",
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "bor"
+        ],
+        "szín": [
+          "fehér"
+        ],
+        "szőlőfajta": [
+          "Chardonnay"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "márka nélkül",
+        "kiszerelés": "250 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "üveg"
+        ],
+        "szín": [
+          "fehér"
+        ],
+        "édesség": [
+          "egyéb"
+        ],
+        "eredet": [
+          "egyéb"
+        ],
+        "bortípus": "bor",
+        "egységnyi kiszerelés": "250 ml"
+      }
+    },
+    {
+      "id": "1018153",
+      "név": "Mini borok Merlot, 0,25 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "típus": [
+          "száraz"
+        ],
+        "márka": "Mini borok",
+        "kiszerelés": "250 ml",
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "bor"
+        ],
+        "szín": [
+          "vörös"
+        ],
+        "szőlőfajta": [
+          "Merlot"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "márka nélkül",
+        "kiszerelés": "250 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "üveg"
+        ],
+        "szín": [
+          "vörös"
+        ],
+        "édesség": [
+          "egyéb"
+        ],
+        "eredet": [
+          "egyéb"
+        ],
+        "bortípus": "bor",
+        "egységnyi kiszerelés": "250 ml"
+      }
+    },
+    {
+      "id": "533720",
+      "név": "Fehérbor félédes, 0,75 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "kiszerelés": "750 ml",
+        "édesség": [
+          "félédes"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "bor"
+        ],
+        "szín": [
+          "fehér"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "márka nélkül",
+        "kiszerelés": "750 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "üveg"
+        ],
+        "szín": [
+          "fehér"
+        ],
+        "édesség": [
+          "félédes"
+        ],
+        "eredet": [
+          "egyéb"
+        ],
+        "bortípus": "bor",
+        "egységnyi kiszerelés": "750 ml"
+      }
+    },
+    {
+      "id": "885296",
+      "név": "Rosé félédes, 0,75 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "kiszerelés": "750 ml",
+        "édesség": [
+          "félédes"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "bor"
+        ],
+        "szín": [
+          "rozé"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "márka nélkül",
+        "kiszerelés": "750 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "üveg"
+        ],
+        "szín": [
+          "rozé"
+        ],
+        "édesség": [
+          "félédes"
+        ],
+        "eredet": [
+          "egyéb"
+        ],
+        "bortípus": "bor",
+        "egységnyi kiszerelés": "750 ml"
+      }
+    },
+    {
+      "id": "1014272",
+      "név": "Muskotályos édes fehérbor, 0,75 liter + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "kiszerelés": "750 ml",
+        "édesség": [
+          "édes"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "bor"
+        ],
+        "szín": [
+          "fehér"
+        ],
+        "szőlőfajta": [
+          "Muskotály"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "márka nélkül",
+        "kiszerelés": "750 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "üveg"
+        ],
+        "szín": [
+          "fehér"
+        ],
+        "édesség": [
+          "édes"
+        ],
+        "eredet": [
+          "egyéb"
+        ],
+        "bortípus": "bor",
+        "egységnyi kiszerelés": "750 ml"
+      }
+    },
+    {
+      "id": "997145",
+      "név": "EGER Olaszrizling száraz fehérbor + 50 Ft visszaváltási díj, 0,75 l",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "kiszerelés": "750 ml",
+        "édesség": [
+          "száraz"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "bor"
+        ],
+        "szín": [
+          "fehér"
+        ],
+        "eredet": [
+          "Eger"
+        ],
+        "szőlőfajta": [
+          "Olaszrizling"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Ostorosbor",
+        "kiszerelés": "750 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "üveg"
+        ],
+        "szín": [
+          "fehér"
+        ],
+        "édesség": [
+          "száraz"
+        ],
+        "eredet": [
+          "Eger"
+        ],
+        "bortípus": "bor",
+        "egységnyi kiszerelés": "750 ml"
+      }
+    },
+    {
+      "id": "940621",
+      "név": "Merlot félédes vörösbor, 0,75 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "kiszerelés": "750 ml",
+        "édesség": [
+          "félédes"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "bor"
+        ],
+        "szín": [
+          "vörös"
+        ],
+        "szőlőfajta": [
+          "Merlot"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "márka nélkül",
+        "kiszerelés": "750 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "üveg"
+        ],
+        "szín": [
+          "vörös"
+        ],
+        "édesség": [
+          "félédes"
+        ],
+        "eredet": [
+          "egyéb"
+        ],
+        "bortípus": "bor",
+        "egységnyi kiszerelés": "750 ml"
+      }
+    },
+    {
+      "id": "540869",
+      "név": "EGER Kékfrankos, száraz vörösbor, 0,75 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "kiszerelés": "750 ml",
+        "édesség": [
+          "száraz"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "bor"
+        ],
+        "szín": [
+          "vörös"
+        ],
+        "eredet": [
+          "Eger"
+        ],
+        "szőlőfajta": [
+          "Kékfrankos"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Ostorosbor",
+        "kiszerelés": "750 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "üveg"
+        ],
+        "szín": [
+          "vörös"
+        ],
+        "édesség": [
+          "száraz"
+        ],
+        "eredet": [
+          "Eger"
+        ],
+        "bortípus": "bor",
+        "egységnyi kiszerelés": "750 ml"
+      }
+    },
+    {
+      "id": "986458",
+      "név": "DUNÁNTÚL Sauvignon Blanc száraz fehérbor + 50 Ft visszaváltási díj, 0,75 l",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "kiszerelés": "750 ml",
+        "édesség": [
+          "száraz"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "bor"
+        ],
+        "szín": [
+          "fehér"
+        ],
+        "eredet": [
+          "Dunántúl"
+        ],
+        "szőlőfajta": [
+          "Sauvignon Blanc"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "márka nélkül",
+        "kiszerelés": "750 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "üveg"
+        ],
+        "szín": [
+          "fehér"
+        ],
+        "édesség": [
+          "száraz"
+        ],
+        "eredet": [
+          "Dunántúl"
+        ],
+        "bortípus": "bor",
+        "egységnyi kiszerelés": "750 ml"
+      }
+    },
+    {
+      "id": "997446",
+      "név": "DUNA-TISZA KÖZI Cserszegi fűszeres száraz fehérbor, 0,75 l + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "kiszerelés": "750 ml",
+        "édesség": [
+          "száraz"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "bor"
+        ],
+        "szín": [
+          "fehér"
+        ],
+        "eredet": [
+          "Duna-Tisza köze"
+        ],
+        "szőlőfajta": [
+          "Cserszegi fűszeres"
+        ],
+        "csomagolás": [
+          "palack"
+        ],
+        "csomagolás anyaga": [
+          "üveg"
+        ]
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "márka nélkül",
+        "kiszerelés": "750 ml",
+        "alkoholtartalom": [
+          "ismeretlen"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "üveg"
+        ],
+        "szín": [
+          "fehér"
+        ],
+        "édesség": [
+          "száraz"
+        ],
+        "eredet": [
+          "Duna-Tisza köze"
+        ],
+        "bortípus": "bor",
+        "egységnyi kiszerelés": "750 ml"
+      }
+    },
+    {
+      "id": "538682",
+      "név": "RAVINI Hugo Classic 6,9% alk. + 50 Ft visszaváltási díj",
+      "út_előtte": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "út_utána": [
+        "Ital",
+        "Alkoholos italok és alkoholmentes alternatívák",
+        "Bor és boralapú ital"
+      ],
+      "tulajdonságok_előtte": {
+        "márka": "Hugo",
+        "fajta": [
+          "boralapú ital"
+        ],
+        "alkoholtartalom": [
+          "6,9%"
+        ],
+        "alkoholstátusz": "alkoholos",
+        "bortípus": [
+          "boralapú ital"
+        ],
+        "ízesített": true,
+        "kiszerelés": "750 ml"
+      },
+      "tulajdonságok_utána": {
+        "alkoholstátusz": "alkoholos",
+        "márka": "Ravini",
+        "kiszerelés": "750 ml",
+        "alkoholtartalom": [
+          "6,9%"
+        ],
+        "íz": [
+          "natúr"
+        ],
+        "szénsavasság": "szénsavmentes",
+        "puttonyszám": "nem alkalmazható",
+        "csomagolás anyaga": [
+          "egyéb"
+        ],
+        "szín": [
+          "egyéb"
+        ],
+        "édesség": [
+          "egyéb"
+        ],
+        "eredet": [
+          "egyéb"
+        ],
+        "bortípus": "boralapú ital",
+        "egységnyi kiszerelés": "750 ml"
+      }
+    }
+  ],
+  "products_source": "C:\\Users\\Bobo\\Documents\\GitHub\\elelmeskosar2\\data\\categories\\kategorizalando_termekek\\GPT\\eredmeny.json",
+  "categories_source": "C:\\Users\\Bobo\\Documents\\GitHub\\elelmeskosar2\\data\\categories\\kategorizalando_termekek\\GPT\\kategoriak_2026-06-13.json",
+  "decisions_source": "C:\\Users\\Bobo\\Documents\\GitHub\\elelmeskosar2\\data\\categories\\kategorizalando_termekek\\GPT\\ital_eszrevetelek3_dontesek_2026_07_28.json",
+  "products_sha256": "ecad87fa8cc24c99e97f065f4fa5b96ca076273e5bde0af78b438c912dc8ddea",
+  "categories_sha256": "30f095e805e70fe350ba7922dac0b8503e94ed23c8ead79e8797d2fa7ea86277",
+  "independent_check": {
+    "status": "ok",
+    "error_count": 0,
+    "errors": [],
+    "errors_truncated": false,
+    "total_products": 47030,
+    "source_total_products": 47030,
+    "unique_plain_product_ids": 47029,
+    "unique_record_keys": 47030,
+    "plain_id_collisions": {
+      "734295": 2
+    },
+    "alcohol_products": 5493,
+    "alcohol_leaf_counts": {
+      "Sör, radler és malátaital": 1013,
+      "Cider": 73,
+      "Bor és boralapú ital": 2134,
+      "Pezsgő, habzóbor és gyöngyözőbor": 554,
+      "Vermut és aperitif": 53,
+      "Likőr": 583,
+      "Pálinka": 131,
+      "Vodka": 185,
+      "Gin": 135,
+      "Rum": 86,
+      "Egyéb szeszes ital": 150,
+      "Whisky és bourbon": 224,
+      "Koktél és előre kevert ital": 112,
+      "Brandy": 39,
+      "Tequila": 21
+    },
+    "kids_sparkling_products": 47,
+    "functional_products": 141,
+    "moves": 102,
+    "brand_decisions": 117,
+    "property_decision_products": 1059,
+    "fallback_counts": {
+      "Sör, radler és malátaital / szín / egyéb": 98,
+      "Sör, radler és malátaital / alkoholtartalom / ismeretlen": 18,
+      "Bor és boralapú ital / márka / márka nélkül": 55,
+      "Bor és boralapú ital / alkoholtartalom / ismeretlen": 433,
+      "Bor és boralapú ital / puttonyszám / nem alkalmazható": 2107,
+      "Bor és boralapú ital / eredet / egyéb": 445,
+      "Bor és boralapú ital / édesség / egyéb": 374,
+      "Bor és boralapú ital / csomagolás anyaga / egyéb": 140,
+      "Bor és boralapú ital / szín / egyéb": 141,
+      "Pezsgő, habzóbor és gyöngyözőbor / márka / márka nélkül": 7,
+      "Pezsgő, habzóbor és gyöngyözőbor / alkoholtartalom / ismeretlen": 87,
+      "Pezsgő, habzóbor és gyöngyözőbor / szőlőfajta / egyéb": 514,
+      "Pezsgő, habzóbor és gyöngyözőbor / eredet / egyéb": 486,
+      "Pezsgő, habzóbor és gyöngyözőbor / szín / egyéb": 40,
+      "Vermut és aperitif / alkoholtartalom / ismeretlen": 3,
+      "Vermut és aperitif / szín / egyéb": 4,
+      "Likőr / alkoholtartalom / ismeretlen": 25,
+      "Gin / íz / ismeretlen": 5,
+      "Vodka / alkoholtartalom / ismeretlen": 4,
+      "Rum / alkoholtartalom / ismeretlen": 9,
+      "Gin / alkoholtartalom / ismeretlen": 9,
+      "Whisky és bourbon / alkoholtartalom / ismeretlen": 12,
+      "Pezsgő, habzóbor és gyöngyözőbor / édesség / egyéb": 20,
+      "Egyéb szeszes ital / alkoholtartalom / ismeretlen": 1,
+      "Likőr / kiszerelés / ismeretlen": 6,
+      "Likőr / egységnyi kiszerelés / ismeretlen": 6,
+      "Bor és boralapú ital / kiszerelés / ismeretlen": 1,
+      "Bor és boralapú ital / egységnyi kiszerelés / ismeretlen": 1,
+      "Whisky és bourbon / kiszerelés / ismeretlen": 5,
+      "Whisky és bourbon / egységnyi kiszerelés / ismeretlen": 5,
+      "Gin / kiszerelés / ismeretlen": 5,
+      "Gin / egységnyi kiszerelés / ismeretlen": 5,
+      "Rum / kiszerelés / ismeretlen": 4,
+      "Vermut és aperitif / kiszerelés / ismeretlen": 1,
+      "Koktél és előre kevert ital / szénsavasság / ismeretlen": 3,
+      "Vodka / kiszerelés / ismeretlen": 1,
+      "Vodka / egységnyi kiszerelés / ismeretlen": 1,
+      "Likőr / márka / márka nélkül": 4,
+      "Koktél és előre kevert ital / alkoholalap / egyéb": 1,
+      "Vermut és aperitif / édesség / egyéb": 4
+    },
+    "hashes": {
+      "source_termek_payloads": "e69a45334887fee89b81fe03a99ca62569859ece24575198585da58d9da59639",
+      "candidate_termek_payloads": "e69a45334887fee89b81fe03a99ca62569859ece24575198585da58d9da59639",
+      "source_outside_products": "0dadb7a182e0461f36f37a7e9c05428ab766d650fc50ee362eb1ed5965ad43cd",
+      "candidate_outside_products": "0dadb7a182e0461f36f37a7e9c05428ab766d650fc50ee362eb1ed5965ad43cd",
+      "source_outside_tree": "f234b770e16d1942058be9243f3b3ff48af5427d699dbf65d248d37fb4553a75",
+      "candidate_outside_tree": "f234b770e16d1942058be9243f3b3ff48af5427d699dbf65d248d37fb4553a75"
+    }
+  }
+}
