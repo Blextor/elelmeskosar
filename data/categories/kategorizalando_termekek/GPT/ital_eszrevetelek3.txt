@@ -70,15 +70,3 @@ Világos sörök
 Vörös sörök
 
 De lehet más is, ahogy jónak látod.
-
-
-Az észrevételeid közül próbáltam a tulajdonságok közötti átfedéseket feloldani.
-Az íz-eket megfelelően kellene a típusokkal/fajtákkal összeolvasztani vagy épp elkülöníteni.
-Eltévedt értékeket rendezni kéne: "221 bor/pezsgő édessége a típus, 8 a fajta, 6 az íz mezőbe került."
-A több nyelven is szereplő értékek, mint a brut/száraz, alma/apple, legyenek szűrve és csak a magyar megtartva.
-Ugyan ez igaz a szinonímákra és az írásmódi különbségekre is, mint whiskey és a whisky.
-A csomagolás esetében csak a kiszerelés tulajdonságot tartottam meg, illete néhol cska az egségkiszerelést és a csomagolást.
-
-Amiket észrevettél átsorolásra, azok at helyezd át, és vizsgálódj tovább is, mert pl. a Cherry több helyen is szerepelt.
-Ezt a kategóriafa tulajdonságainak rendezését követően, ha gondolod hozz létre új altípust.
-A Márkák esetében is eleminek kéne maradni, ami közös eredetű, mint a Gere Attila és a Frici, ott is valamit kéne megtartani (Gere / Gere Frici / Gere Attila csal egyikét)
