@@ -23,7 +23,7 @@ Dátum: 2026-07-29
 
 | Ellenőrzött | Összes | Készültség |
 |---:|---:|---:|
-| 5533 | 12 455 | 44,42% |
+| 8102 | 12 455 | 65,05% |
 
 Az előrehaladás egyedi termékazonosítók alapján számol. A korábbi 2 734-es
 érték 45 olyan Bikavér-rekord második ellenőrzését is új termékként számolta,
@@ -36,6 +36,20 @@ kategóriánként és tulajdonságonként.
 
 | Kategóriaút | Tulajdonság | Felvett értékek | Törölt értékek | Indok |
 |---|---|---|---|---|
+| Ital → Ásványvíz | márka | `Emese` | – | Két Metro-rekord teljes termékneve és `EMESE` forrásmárkája, valamint mindkét közvetlen palackkép kizárólag az önálló `Emese` márkajelzést mutatja; ezeket nem vontuk össze a külön Theodora-márkával. |
+| Ital → Ásványvíz | márka | `Fonte Natura` | – | A közvetlen termékképen a teljes `fonte NATURA` márkajelzés olvasható, a termék CSV-forrásneve és márkamezője egyaránt `Fonte Natura`, és a gyártó hivatalos márkaoldala is ezen a néven azonosítja a termékcsaládot. |
+| Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | gyümölcstartalom | `68%` | – | A Rauch Happy Day alma–szilva pontos Tesco-termékadata és két további, egyező közvetlen termékforrása 60% vegyes gyümölcslevet és 8% szilvapürét sorol fel. A 68% közvetlenül összeadható, bizonyított gyümölcstartalom, és az érték a termék `Gyümölcsital` besorolásához szükséges. |
+| Ital → Gyümölcs- és zöldségitalok → Lé | íz | `kaktusz`, `licsi`, `papaya` | – | A Tesco Multivitamin Juice közvetlen termékadata a víz nélküli, 100%-os lé–püré keverékben mindhárom gyümölcsöt szó szerint felsorolja; az értékek önállóak, elemiek és közvetlenül az íz tulajdonsághoz tartoznak. |
+| Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | íz | `berkenye` | – | A Tesco alma–bogyósgyümölcsital közvetlen termékadata 0,27% berkenyelevet közöl; az érték önálló, elemi és közvetlenül az íz tulajdonsághoz tartozik. |
+| Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | íz | `bodzabogyó`, `fekete áfonya` | – | A Pfanner feketeáfonya-ital közvetlen összetevőlistája 11% feketeáfonya-levet és bodzabogyólevet, a Coop piros gyümölcsital pontos termékadata pedig fekete bodzabogyólevet közöl. Mindkét érték önálló, elemi és megkülönbözteti a gyümölcsöt a `bodza` virág-, illetve az általános `áfonya` értéktől. |
+| Ital → Gyümölcs- és zöldségitalok → Nektár | márka | `Topjoy` | – | A Topjoy őszibarack pontos gyártói termékoldala szó szerint őszibaracknektárként azonosítja az 50%-os terméket. |
+| Ital → Gyümölcs- és zöldségitalok → Smoothie és püréital | márka | `Limenita` | – | Három konkrét Limenita-termék közvetlen összetevőlistája 100%-os lé–püré keveréket, a Tesco közvetlen akciós kiadványa pedig a 250 ml-es Freshing Coolture termékcsaládot smoothie-ként azonosítja. |
+| Ital → Gyümölcs- és zöldségitalok → Smoothie és püréital | íz | `citrom`, `gránátalma` | – | A céllevél szigorú értékparitása tíz, korábban már kézzel ellenőrzött rekordnál mutatta ki a fa hiányát. A Rio D'Oro fehér, a Tesco Pineapple Paradise és a Sió Immun pontos összetevői citromot, a Sió erdei piros bogyós közvetlen címkéje gránátalmát igazolt; a rekordok már helyesek voltak. |
+| Ital → Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital | márka | `Tesco` | – | A 180 ml-es alma–gyömbér termék közvetlen angol Tesco-oldalának pontos neve `Tesco Apple & Ginger Shot`, ezért a márka a meglévő shot levélhez bizonyított. |
+| Ital → Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital | márka | `Penny` | – | A PENNY To Go Ginger Shot közvetlen termékképe és pontos termékforrása igazolja; a termék a funkcionális ital kategóriában díjazott Penny saját márkás shot. |
+| Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | gyümölcstartalom | `20,1%` | – | A Capri-Sun Mystic Dragon édesítőszeres, azonos nevű és kiszerelésű változatának pontos magyar termékadata 20,1% gyümölcslevet közöl; ez nem a régi, édesítőszer nélküli 10%-os recept. |
+| Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | gyümölcstartalom | `60%` | – | A Rauch Happy Day Immun Active pontos összetevőlistája 60% vegyes gyümölcslevet és -pürét, valamint 60% teljes gyümölcstartalmat igazol. |
+| Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | íz | `szegfűszeg` | – | A 11. Gyümölcsital-blokkban már kézzel ellenőrzött `BTY-X18537700320021` alma–szilva téli ital pontos összetevőlistája szegfűszeget igazolt, és a rekord értéke már javítva volt; a teljes levélparitás mutatta ki, hogy az engedélyezett érték kategóriafából való felvétele maradt el. |
 | Ital → Alkoholos italok és alkoholmentes alternatívák → Bor és boralapú ital | íz | `keserűnarancs`, `sárgadinnye`, `fekete ribizli` | `kávé` | A három új értéket konkrét terméknév és kép igazolja. A `kávé` mind a 35 használata Bikavér-rekordból, hibás részszóillesztésből származott. |
 | Ital → Alkoholos italok és alkoholmentes alternatívák → Bor és boralapú ital | csomagolás anyaga | `fém` | – | Két Lafi Hugo Frizzante termék alumíniumdobozos; a korábbi `egyéb` nem volt kellően pontos. |
 | Ital → Alkoholos italok és alkoholmentes alternatívák → Bor és boralapú ital | szín | `kék` | – | A Lafi Hugo Blue Lagoon folyadéka a képen egyértelműen kék. |
@@ -144,6 +158,25 @@ kategóriánként és tulajdonságonként.
 | Ital → Alkoholos italok és alkoholmentes alternatívák → Egyéb szeszes ital | íz | `fekete cseresznye`, `kannabisz` | – | A Fütyülős teljes neve és közvetlen címkéje fekete cseresznyét, az Euphoria Cannabis Absinthe neve, címkéje és gyártói termékadata pedig kannabiszt igazol. Mindkettő önálló, elemi és pontosabb a korábbi általános ízértéknél. |
 | Ital → Alkoholos italok és alkoholmentes alternatívák → Egyéb szeszes ital | íz | `zöld szőlő` | – | A Jinro Green Grape teljes neve és közvetlen címkéje a zöldszőlő-változatot igazolja; a pontos érték önálló és szűkebb a korábbi általános `szőlő` értéknél. |
 | Ital → Alkoholos italok és alkoholmentes alternatívák → Egyéb szeszes ital | íz | – | `fekete cseresznye` | Az értéket igazoló egyetlen rekordot a teljes Fütyülős termékcsalád összevetése után kézzel a `Likőr` levélbe soroltuk át, ahol a `fekete cseresznye` már megengedett. Az Egyéb szeszes ital levélben az érték használatlan lett. |
+| Ital → Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital | íz | `banán` | – | A New Gen Strawberry–Banana teljes forrásneve és közvetlen dobozfelirata egyaránt banánízt igazol. Az érték önálló, elemi, és közvetlenül a céllevél íz tulajdonságához tartozik. |
+| Ital → Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital | márka | `Absolute Live` | `Absolute` | Mindhárom használó teljes neve, közvetlen palackfelirata és forrásmárkája `Absolute Live`; az általános `Absolute` értéket a céllevélben más rekord nem használta. |
+| Ital → Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital | íz | `bogyós gyümölcs`, `vegyes gyümölcs` | – | A Powerade Mountain Blast pontos neve a zéró változatnál vegyes bogyósgyümölcsöt, a normál változat két forrásánál vegyes gyümölcsöt közöl. Mindkettő önálló, elemi ízérték. |
+| Ital → Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital | márka | `Friss` | `Borsodi` | A két Friss+ doboz közvetlen címkéje és forrásmárkája egyaránt `Friss`; a `Borsodi` értéket a céllevélben más rekord nem használta. |
+| Ital → Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital | íz | `sárgadinnye` | – | A Coca-Cola hivatalos magyar Powerade-oldala a Playstyles Midfield változatot szó szerint sárgadinnye / melon ízű, izotóniás sportitalként azonosítja. |
+| Ital → Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital | íz | `chili` | – | Az Andros Memory+ teljes neve és közvetlen címkéje málnát, gránátalmát és chilipaprika-kivonatot közöl. A `chili` önálló, elemi ízérték, és a kategóriafa más ágaiban is ezt a normalizált alakot használja. |
+| Ital → Gyümölcs- és zöldségitalok → Smoothie és püréital | íz | `cékla`, `cikória`, `füge`, `sárgabarack`, `sütőtök`, `tőzegáfonya` | – | A konkrét Auchan és Sió terméknevek, valamint a közvetlen Rio D'Oro és Sió címkék szó szerint igazolják ezeket az önálló gyümölcs- és zöldségíz-összetevőket. |
+| Ital → Gyümölcs- és zöldségitalok → Smoothie és püréital | íz | `feketeszeder`, `szilva` | – | A Sió Smoothie Relax közvetlen palackcímkéje az alma és áfonya mellett feketeszedret és szilvát is felsorol; mindkettő önálló, elemi ízérték. |
+| Ital → Gyümölcs- és zöldségitalok → Smoothie és püréital | íz | `bodzabogyó` | – | A Kubu Immuno körte–bodzabogyó püré teljes neve és közvetlen tasakcímkéje egyaránt bodzabogyót közöl. Az érték önálló, elemi, és pontosabb a virágra is utaló általános `bodza` értéknél; utóbbi más rekordokhoz megmaradt. |
+| Ital → Gyümölcs- és zöldségitalok → Smoothie és püréital | íz | `guava`, `licsi`, `papaya` | – | A Topjoy Snack trópusi gyümölcs–rizs püré azonos EAN-jú összetevőlistája mindhárom gyümölcsöt szó szerint felsorolja. Ezek önálló, elemi ízértékek; új kategória vagy tulajdonság nem jött létre. |
+| Ital → Gyümölcs- és zöldségitalok → Lé | íz | `feketerépa` | – | A Hohes C Plus Energia pontos magyar gyártói ismertetője, teljes Tesco-összetevőlistája és közvetlen dobozcímkéje egyaránt feketerépát közöl. Az érték önálló, elemi, és nem azonos a korábban tévesen rögzített `cékla` értékkel. |
+| Ital → Gyümölcs- és zöldségitalok → Lé | íz | `áfonya`, `chili`, `feketebors`, `hagyma`, `kapor`, `káposzta`, `nektarin`, `szeder`, `vörösáfonya`, `zeller` | – | A SPAR vegyes zöldséglé és savanyúkáposzta-lé pontos gyártói összetevőlistája, a Topjoy pikáns paradicsomlé gyártói adata, valamint a Hohes C és Rauch multivitaminlevek pontos összetétele közvetlenül igazolja ezeket az önálló, elemi íz- vagy alapanyagértékeket. |
+| Ital → Gyümölcs- és zöldségitalok → Lé | íz | `étkezési só` | – | A Topjoy enyhén fűszerezett paradicsomlé pontos gyártói összetevőlistája közvetlenül étkezési sót közöl. Ez önálló, elemi íz- és összetevőérték; nem vontuk össze a külön igazolt `tengeri só` értékkel. |
+| Ital → Gyümölcs- és zöldségitalok → Lé | íz | `bab`, `burgonya`, `paprika`, `retek` | – | A Biopont zöldségkoktél és vegyes zöldséglé pontos, azonos termékazonosítójú Tesco-összetevőlistája százalékosan felsorolt bab-, burgonya-, paprika- és retkeredetű lé/velő összetevőket igazol. Mind a négy önálló, elemi alapanyagérték. |
+| Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | gyümölcstartalom | `24%`, `25,1%`, `86,5%`, `99,7%`, `99,9%` | – | Az Andros cranberry, licsi és ACE, valamint a Rauch Juice Bar Green Glory és ananász–narancs–maracuja pontos gyártói vagy azonos SKU-s összetevőlistája közvetlenül igazolja az öt új, elemi százalékértéket. |
+| Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | íz | `feketerépa`, `piros szőlő`, `uborka`, `vörösáfonya` | – | A Sió Vitatigris piros, Rauch Juice Bar Green Glory és Andros cranberry pontos termékadatai közvetlenül igazolják a négy önálló, elemi íz- vagy alapanyagértéket. |
+| Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | gyümölcstartalom | `65%` | – | A Zuegg Zero erdei gyümölcs közvetlen Tesco-összetevőlistája 34,25% almalevet, 18% piros szőlőlevet és összesen 12,75% bogyósgyümölcs-levet, illetve -pürét, vagyis pontosan 65% gyümölcstartalmat közöl. |
+| Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | íz | `ribizli` | – | Ugyanez a Zuegg termék 4,25% ribizlilevet külön sorol fel a feketeribizli-koncentrátumtól; a két elemi alapanyag ezért nem vonható össze. |
+| Ital → Üdítőitalok → Egyéb ízesített üdítőital | íz | `feketerépa` | – | A Capri-Sun Fairy/Fair Drink közvetlen Tesco-összetevőlistája a 10% gyümölcslé mellett feketerépalé-sűrítményt is közöl. Ez önálló, elemi alapanyagérték. |
 
 ## Termékszintű módosítások
 
@@ -11132,18 +11165,7697 @@ felülvizsgált.
 | `121315659` | szénsavas `false` → `true` |
 | `121315665` | szénsavas `false` → `true` |
 
+### Kölyökpezsgő kézi felülvizsgálat, 1–25. tétel
+
+- Mind a 25 teljes rekordot, forrássort és helyi termékképet
+  egyenként, közvetlenül és részletes felbontásban ellenőriztük.
+- A Celebration Party, Kölyök, Süsü, Vitapress, SMURFY és Sonic
+  termékek kategóriaútja, márkája, íze, szénsavassága és
+  energiatartalma a pontos névvel és csomagolással egyezik.
+- A `szamóca` termékeket a meglévő `eper`, a `vadmálna`
+  termékeket a meglévő `málna` szinonimaértéken tartottuk; nem
+  vettünk fel párhuzamos, azonos jelentésű értéket.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Változatlanul hagyott rekord: **25**
+  (`769656:4307046`, `661461:4198851`, `684401:4221791`,
+  `684398:4221788`, `684404:4221794`, `661464:4198854`,
+  `679211:4216601`, `679214:4216604`, `679217:4216607`,
+  `818951:4356341`, `797579:4334969`, `965129:4502519`,
+  `965126:4502516`, `748902:4286292`, `797582:4334972`,
+  `769659:4307049`, `BTY-X17219500320021`,
+  `BTY-X17219400320021`, `BTY-X17176700320021`,
+  `BTY-X17219600320021`, `BTY-X17810400320021`,
+  `BTY-X17810500320021`, `e862a3fb03f89070e8287dfd`,
+  `771ad0bb0d16c25230148ca0`, `00e3b97b38a1b130cd4b6346`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A 47 030 rekordos teljes validáció hibamentes; az ellenőrzött
+  25 azonosító mind a Kölyökpezsgő levélen maradt.
+
+### Kölyökpezsgő kézi felülvizsgálat, 26–47. tétel
+
+- Mind a 22 teljes rekordot, forrássort és helyi termékképet
+  egyenként, közvetlenül és részletes felbontásban ellenőriztük.
+- A Kölyök, Royal, DreamWorks Madagascar, Jurassic World, Süsü
+  és Bello! termékek kategóriaútja, márkája, íze,
+  szénsavassága és energiatartalma a pontos névvel és
+  csomagolással egyezik.
+- A `szamóca` és `vadmálna` megnevezések itt is a már
+  következetesen használt `eper`, illetve `málna`
+  szinonimaértéken maradtak.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Változatlanul hagyott rekord: **22**
+  (`15942758f1b8f8a9c5e7c4b5`, `6630a3a361fd4620dc766e31`,
+  `18554ba03d7aec0b25f5e7a1`, `d57e4f193b2e90d7a3e2a4c5`,
+  `20a51071d1312d8fc2fd96fc`, `08dafa3801f11c81cbf42f91`,
+  `bc071862dcc530d36c4cbe6a`, `6bfceb8948f178cbc2e86c5f`,
+  `bc364d912b026a9e40149485`, `7fac53361c94bb6fefb8927f`,
+  `121221995`, `121222020`, `121265441`, `121265458`,
+  `121222360`, `121230505`, `121230511`, `121222037`,
+  `121222072`, `121230528`, `121316641`, `121340559`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A 47 030 rekordos teljes validáció hibamentes; az ellenőrzött
+  22 azonosító mind a Kölyökpezsgő levélen maradt.
+- A Kölyökpezsgő levél **47/47** rekordjának kézi
+  felülvizsgálata lezárult.
+
+### Tonik kézi felülvizsgálat, 1–25. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként,
+  közvetlenül ellenőriztük. Huszonnégy használható helyi
+  termékképet részletes felbontásban vizsgáltunk meg; a Coop
+  tonikhoz nem tartozott helyi kép, ezért ott a pontos terméknév
+  és forrássor szolgált közvetlen bizonyítékként.
+- A Kinley, Auchan, Schweppes, Fever-Tree és J. Gasco tonikok
+  márkája, íze, szénsavassága és energiatartalma a névvel és
+  csomagolással egyezik.
+- A `Fever Tree Ginger Beer 200ml` közvetlen neve és címkéje
+  gyömbérsört, nem tonikot igazol. A rekordot ezért a meglévő
+  `Gyömbér- és gyökéralapú üdítőital` levélre helyeztük át; a
+  `Fever-Tree` márka, `gyömbér` íz, szénsavasság és normál
+  energiatartalom változatlan maradt.
+- Módosított rekord: **1**.
+- Kategóriaáthelyezés: **1**.
+- Módosított tulajdonságmező: **0**.
+- Változatlanul hagyott rekord: **24**
+  (`992683`, `684152:4221542`, `712673:4250063`,
+  `678761:4216151`, `675224:4212614`, `678755:4216145`,
+  `678011:4215401`, `678017:4215407`, `675221:4212611`,
+  `675227:4212617`, `747326:4284716`, `747329:4284719`,
+  `754917:4292307`, `754920:4292310`, `772059:4309449`,
+  `773385:4310775`, `675218:4212608`, `675230:4212620`,
+  `678758:4216148`, `678014:4215404`, `678020:4215410`,
+  `772062:4309452`, `946346:4483736`, `3375655`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A 47 030 rekordos teljes validáció hibamentes. Az áthelyezés
+  után a Tonik levélen 87, a Gyömbér- és gyökéralapú
+  üdítőital levélen 58 rekord található.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `776421:4313811` | altípus `Tonik` → `Gyömbér- és gyökéralapú üdítőital` |
+
+### Tonik kézi felülvizsgálat, 26–50. ellenőrzött tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként,
+  közvetlenül ellenőriztük. Huszonegy használható helyi
+  termékképet részletes felbontásban vizsgáltunk meg; a négy
+  Coop-rekordhoz nem tartozott helyi kép, ezért ott a pontos
+  terméknév és forrássor szolgált közvetlen bizonyítékként.
+- A Fever-Tree, Freeway, Kinley, Schweppes, Three Cents és
+  Drinky termékek kategóriaútja, márkája, szénsavassága és
+  energiatartalma helyes.
+- Három Kinley-rekordnál a `citromfű` összetett szó hibás
+  részszóegyezése miatt külön `citrom` íz is szerepelt. A pontos
+  terméknevek kizárólag citromfű-ízesítést igazolnak, ezért az
+  `íz` listát `citrom, citromfű` értékről `citromfű` értékre
+  javítottuk.
+- Módosított rekord: **3**.
+- Módosított tulajdonságmező: **3**.
+- Változatlanul hagyott rekord: **22**
+  (`2807682`, `2807486`, `10041714`, `10044814`,
+  `BTY-X17435700320021`, `BTY-X16740200320021`,
+  `BTY-X17324200320021`, `BTY-X17344300320021`,
+  `BTY-X17324700320021`, `BTY-X18246400320021`,
+  `BTY-X17323700320021`, `BTY-X17435500320021`,
+  `BTY-X17685100320021`, `BTY-X17435200320021`,
+  `BTY-X17345800320021`, `BTY-X17344400320021`,
+  `BTY-X17345900320021`, `BTY-X17437600320021`,
+  `BTY-X18246600320021`, `BTY-X18282900320021`,
+  `1010423`, `986657`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `2807744` | íz `citrom, citromfű` → `citromfű` |
+| `2807743` | íz `citrom, citromfű` → `citromfű` |
+| `BTY-X18753500320021` | íz `citrom, citromfű` → `citromfű` |
+
+### Tonik kézi felülvizsgálat, 51–75. ellenőrzött tétel
+
+- Mind a 25 teljes rekordot, forrássort és helyi termékképet
+  egyenként, közvetlenül és részletes felbontásban ellenőriztük.
+- A Prima, SPAR és Tesco kínálatában szereplő Kinley,
+  Schweppes, SPAR be fresh! és Fever-Tree termékek
+  kategóriaútja, márkája, íze, szénsavassága és
+  energiatartalma a pontos névvel és csomagolással egyezik.
+- A normál és zéró Kinley-változatok, a normál és
+  feketeribizlis Schweppes-változatok, valamint a Fever-Tree
+  Indian és Mediterranean tételek elkülönítése következetes.
+- A SPAR-nál általános toniknévvel szereplő, de közvetlen kék
+  címkéjén `Mediterranean Tonic Water` feliratú Fever-Tree
+  rekord `íz` értékét a záró rész összevetésekor `natúr`
+  helyett `mediterrán` értékre javítottuk.
+- Módosított rekord: **1**.
+- Módosított tulajdonságmező: **1**.
+- Változatlanul hagyott rekord: **24**
+  (`02ee5afaee7c1b104fbe245b`, `b0f6d7e1a675bff85bc49c2b`,
+  `a56a943d1e6b9fdf40f74ddb`, `1f058af5e0b681ed7c717ab1`,
+  `58dd82f25183c57442ff7b57`, `f373ae894d85a4e4437b4187`,
+  `cfac6f2a35a0b93800f4da30`, `336d168eb3507c9784e06670`,
+  `78840db39a4df5cf3c4cc227`, `bfd408473f88144678e0a2fe`,
+  `24ca0b0bddbdb1c5d515fca8`, `46a178abfbdcc0baa9f26c04`,
+  `52519a0b7bf994129760d0bc`, `67ea9803d6384647cabcb80e`,
+  `1627ab1ec2bd82f849776b17`, `90aafc7cf57570fdbbf27171`,
+  `dbf1c0187ed22b8bea134435`, `c0a9d6f218b9bfbbe149a110`,
+  `5758e8ecef6bb4d83492409a`, `11850b6f31fcb849368cf6f6`,
+  `121223382`, `121223635`, `121218072`, `121217228`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A 47 030 rekordos teljes validáció hibamentes; az ellenőrzött
+  25 azonosító mind a Tonik levélen maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `b10636c3acb1e562eb3533f3` | íz `natúr` → `mediterrán` |
+
+### Tonik kézi felülvizsgálat, 76–88. ellenőrzött tétel
+
+- Mind a 13 teljes rekordot, forrássort és helyi termékképet
+  egyenként, közvetlenül és részletes felbontásban ellenőriztük.
+- A Schweppes, Kinley, Fever-Tree és Stockwell & Co. termékek
+  kategóriaútja, márkája, szénsavassága és energiatartalma a
+  közvetlen névvel és csomagolással egyezik.
+- Két további kék címkés Fever-Tree Mediterranean rekord
+  `íz` értékét `natúr` helyett `mediterrán` értékre
+  javítottuk. Az azonos képű, előző részben szereplő SPAR-
+  rekordot ugyanekkor visszamenőleg javítottuk; annak
+  statisztikáját és módosítási sorát a fenti 51–75. részben
+  rögzítettük.
+- Módosított rekord ebben a részben: **2**.
+- Módosított tulajdonságmező ebben a részben: **2**.
+- A közös javítási futásban kezelt előző részbeli rekord: **1**.
+- Változatlanul hagyott rekord: **11**
+  (`121223324`, `121235903`, `121223895`, `121255165`,
+  `121216886`, `121218037`, `121235875`, `121223537`,
+  `121333614`, `121236574`, `121270336`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+- Az eredeti Tonik-állomány **88/88** rekordjának kézi
+  felülvizsgálata lezárult. A Fever-Tree Ginger Beer
+  áthelyezése után a Tonik levél jelenlegi állománya **87/87**
+  felülvizsgált rekord.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `121235892` | íz `natúr` → `mediterrán` |
+| `121270342` | íz `natúr` → `mediterrán` |
+
+### Gyömbér- és gyökéralapú üdítőital kézi felülvizsgálat, 1–25. új tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként,
+  közvetlenül ellenőriztük. Húsz használható helyi termékképet
+  részletes felbontásban vizsgáltunk meg; öt Coop-rekordhoz nem
+  tartozott helyi kép, ezért ott a pontos terméknév és forrássor
+  szolgált közvetlen bizonyítékként.
+- A Kinley, Canada Dry, J. Gasco, Royalty, Old Jamaica, Coop,
+  Freeway és Fever-Tree termékek kategóriaútja, márkája, íze,
+  szénsavassága és energiatartalma a közvetlen adatokkal
+  egyezik. A normál és zéró Kinley-változatok, valamint a
+  gyömbér–rozmaring változatok elkülönítése helyes.
+- A `BTY-X17690900320021` Metro-rekord helyi képe tévesen
+  Fever-Tree Premium Tonic Watert ábrázol, miközben a
+  forrásnév közvetlenül 200 ml-es Fever-Tree gyömbéritalt
+  azonosít. A terméktípus és kiszerelés független
+  termékforrásokkal is egyezik, ezért a hibás helyi kép alapján
+  nem soroltuk át a rekordot Tonikra.
+- Módosított rekord: **0**.
+- Változatlanul hagyott rekord: **25**
+  (`992678`, `678734:4216124`, `678737:4216127`,
+  `678749:4216139`, `675206:4212596`, `1030844:4568234`,
+  `675209:4212599`, `678740:4216130`, `789005:4326395`,
+  `789008:4326398`, `3375654`, `3375495`, `2808541`,
+  `2807742`, `2807741`, `10107163`,
+  `BTY-X17325500320021`, `BTY-X17325200320021`,
+  `BTY-X17325300320021`, `BTY-X17325100320021`,
+  `BTY-X17344800320021`, `BTY-X17690900320021`,
+  `BTY-X17344200320021`, `BTY-X17927900320021`,
+  `BTY-X17345600320021`).
+- A Tonikból korábban áthelyezett `776421:4313811` rekordot
+  itt nem számoltuk újra.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A 47 030 rekordos teljes validáció hibamentes; az ellenőrzött
+  25 azonosító mind a Gyömbér- és gyökéralapú üdítőital
+  levélen maradt.
+
+### Gyömbér- és gyökéralapú üdítőital kézi felülvizsgálat, 26–50. új tétel
+
+- Mind a 25 teljes rekordot, forrássort és helyi termékképet
+  egyenként, közvetlenül és részletes felbontásban ellenőriztük.
+- A Kinley, Fentimans, Three Cents, Drinky, Canada Dry és SPAR
+  termékek kategóriaútja, márkája, íze és szénsavassága a
+  pontos névvel és csomagolással egyezik.
+- Az energiamentes Drinky és a zéró Kinley tételek
+  `cukormentes`, a cukrot is tartalmazó Canada Dry és a normál
+  Kinley tételek `normál` energiatartalommal szerepelnek;
+  hibás változat-összemosást nem találtunk.
+- Módosított rekord: **0**.
+- Változatlanul hagyott rekord: **25**
+  (`BTY-X17324800320021`, `BTY-X18246500320021`,
+  `BTY-X18417600320021`, `BTY-X18282700320021`, `1012096`,
+  `993907`, `987697`, `8b2ff393db97e4c34f9952aa`,
+  `4f914fca3cc9dc7cf176cc66`, `ce50052ed43dfd7f60404db2`,
+  `43e5e270fa5f49b64dbe7e57`, `a932a842a7d98232051c5ad8`,
+  `8d142efecf59af9f67820642`, `781874c49cbd57f082683bbb`,
+  `4008fe4c5acee21ef27a678c`, `15cec1394625e6a154c77e7d`,
+  `5668d5e072cef8d3813bf2cb`, `31419824e62c8356d93b949e`,
+  `512a0632ff6d98f283cb81a2`, `e853e7c4558fb1dc9889e50a`,
+  `afe6322b06d7823de9fa4049`, `1ea63bc75b672f87925ef89d`,
+  `121217995`, `121223353`, `121217205`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A 47 030 rekordos teljes validáció hibamentes; az ellenőrzött
+  25 azonosító mind a Gyömbér- és gyökéralapú üdítőital
+  levélen maradt.
+
+### Gyömbér- és gyökéralapú üdítőital kézi felülvizsgálat, 51–57. új tétel
+
+- Mind a hét teljes rekordot, forrássort és helyi termékképet
+  egyenként, közvetlenül és részletes felbontásban ellenőriztük.
+- A három Kinley-változat, a Chernel uborka–gyömbér Fizz Water
+  és a három Sapinca gyökéralapú ital kategóriaútja és
+  tulajdonságai a közvetlen adatokkal egyeznek.
+- A szénsavas Sapinca Root igazolt `citrom`, `guayusa`,
+  `gyömbér` és `kurkuma` ízekkel szerepel. A két 495 ml-es,
+  szénsavmentes Sapinca összetett ízét a név és az előlapi kép
+  nem bontja atomi értékekre; ezért a meglévő
+  `íz kézi ellenőrzést igényel: true` jelölést megtartottuk,
+  és nem találgattunk új ízértékeket.
+- Módosított rekord: **0**.
+- Változatlanul hagyott rekord: **7**
+  (`121218020`, `121255038`, `121218947`, `121308599`,
+  `121313638`, `121313650`, `121313667`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A 47 030 rekordos teljes validáció hibamentes; az ellenőrzött
+  hét azonosító mind a Gyömbér- és gyökéralapú üdítőital
+  levélen maradt.
+- Az 57 korábban itt szereplő rekord és a Tonikból kézzel
+  áthelyezett Fever-Tree Ginger Beer együtt a levél jelenlegi
+  **58/58** rekordos kézi felülvizsgálatát lezárja.
+
+### Aloe vera ital kézi felülvizsgálat, 1–21. tétel
+
+- Mind a 21 teljes rekordot, forrássort és helyi termékképet
+  egyenként, közvetlenül és részletes felbontásban ellenőriztük.
+- Az AVE, Aleo, OKF, Solevita, Vitasia, Queen, RIO, Aloe Vera
+  és Alo Alo termékek kategóriaútját, márkáját, ízét,
+  szénsavasságát és energiatartalmát összevetettük a pontos
+  névvel és csomagolással.
+- Az `ALEO ALOE VERA IT.30% GR.ALMA` rövidítésben a
+  `GR.ALMA` gránátalmát jelent, amit a közvetlen gránátalmás
+  címke is igazol. A részszóegyezésből tévesen felvett külön
+  `alma` ízt ezért eltávolítottuk.
+- Az általános `OKF Aloe Vera ital` névhez tartozó helyi kép
+  egyértelműen mangós OKF Farmer's változatot ábrázol. A már
+  megengedett `mangó` értéket ezért hozzáadtuk az `íz`
+  listához az `aloe vera` mellé.
+- Módosított rekord: **2**.
+- Módosított tulajdonságmező: **2**.
+- Változatlanul hagyott rekord: **19**
+  (`678293:4215683`, `678296:4215686`, `678302:4215692`,
+  `678305:4215695`, `2807759`, `2807533`, `10106428`,
+  `10107289`, `BTY-X17178200320021`,
+  `BTY-X18225600320021`, `BTY-X18225700320021`, `998015`,
+  `1031577`, `121258369`, `121258375`, `121258398`,
+  `121354733`, `121354785`, `121354791`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+- Az Aloe vera ital levél **21/21** rekordjának kézi
+  felülvizsgálata lezárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `2807535` | íz `alma, gránátalma` → `gránátalma` |
+| `10107809` | íz `aloe vera` → `aloe vera, mangó` |
+
+### Forró csokoládé kézi felülvizsgálat, 1–25. tétel
+
+- Mind a 25 teljes rekordot, forrássort és helyi termékképet
+  egyenként, közvetlenül és részletes felbontásban ellenőriztük.
+- A Nescafé, Dr. Oetker, Tutti, Mokate, Mantaro, RIOBA és
+  Caffè Vergnano termékek kategóriaútját, por- vagy
+  kapszulaállagát, csokoládétípusát és ízét összevetettük a
+  pontos névvel és csomagolással.
+- A `BTY-X63480200320021` általános forrócsokoládé-nevéhez
+  tartozó helyi Mokate-csomagolás közvetlenül `dark`
+  változatot igazol. A `csokoládétípus` értékét ezért a már
+  megengedett `klasszikus` helyett `ét` értékre javítottuk.
+- Módosított rekord: **1**.
+- Módosított tulajdonságmező: **1**.
+- Változatlanul hagyott rekord: **24**
+  (`1005700:4543090`, `68069:3605150`, `51513:51855`,
+  `127517:3664715`, `638162:4175552`, `637493:4174883`,
+  `73035:3610123`, `2924828`, `BTY-X17735300320021`,
+  `BTY-X84838600320021`, `BTY-X18992800320021`,
+  `BTY-X14360700320021`, `BTY-X14360800320021`,
+  `BTY-X9532300320021`, `BTY-X14361000320021`,
+  `BTY-X16531800320021`, `BTY-X16498900320021`,
+  `BTY-X16937300320021`, `BTY-X17808100320021`,
+  `BTY-X18677000320021`, `BTY-X17070400320021`,
+  `BTY-X18676800320021`, `1714e29f26da732910f8a20f`,
+  `4bfe88a17cf2d4e0f1883941`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `BTY-X63480200320021` | csokoládétípus `klasszikus` → `ét` |
+
+### Forró csokoládé kézi felülvizsgálat, 26–33. tétel
+
+- Mind a nyolc teljes rekordot, forrássort és helyi
+  termékképet egyenként, közvetlenül és részletes felbontásban
+  ellenőriztük.
+- A Mokate, Nescafé, Dr. Oetker, La Festa és Tesco termékek
+  kategóriaútja, por- vagy kapszulaállaga, íze és – az egy
+  javított tétel kivételével – csokoládétípusa a közvetlen
+  adatokkal egyezik.
+- Az `a7dd692d835596fc97a64735` SPAR-rekord helyi csomagolása
+  szintén közvetlenül Mokate `dark` változatot igazol. A
+  `csokoládétípus` értékét `klasszikus` helyett `ét` értékre
+  javítottuk.
+- Módosított rekord: **1**.
+- Módosított tulajdonságmező: **1**.
+- Változatlanul hagyott rekord: **7**
+  (`36e538e78dabefc6c5b9c1c7`, `220339679`, `205794696`,
+  `220339680`, `220010422`, `100643284`, `111269938`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+- A Forró csokoládé levél **33/33** rekordjának kézi
+  felülvizsgálata lezárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `a7dd692d835596fc97a64735` | csokoládétípus `klasszikus` → `ét` |
+
+### Krém, tejpor és tejszín kézi felülvizsgálat, 1–24. tétel
+
+- Mind a 24 teljes rekordot és forrássort egyenként,
+  közvetlenül ellenőriztük. Huszonhárom használható helyi
+  termékképet részletes felbontásban vizsgáltunk meg; az egy
+  Coop Completa-utántöltőhöz nem tartozott helyi kép, ezért ott
+  a pontos terméknév és forrássor szolgált közvetlen
+  bizonyítékként.
+- A Milsani, Auchan, Tutti, Completa, Vegabond, Coop,
+  Casa Blanca, Coffeeta, Lattimo, Hochwald, SPAR és Tesco
+  termékek kategóriaútja, márkája és `krémpor`, `tejpor` vagy
+  `tejszín` típusa a közvetlen adatokkal egyezik.
+- A sovány és zsíros Tutti tejporokat, a Vegabond
+  kókusztejport, a Hochwald adagolt kávétejszínt és a
+  különböző kávéfehérítő krémporokat nem mostuk össze:
+  mindegyik a tényleges terméktípusán maradt.
+- Módosított rekord: **0**.
+- Változatlanul hagyott rekord: **24**
+  (`979387`, `39718:39721`, `33319:33322`, `41452:41455`,
+  `41455:41458`, `35521:35524`, `399119:3936440`,
+  `2023:2023`, `2754170`, `2753440`, `2752685`, `554630`,
+  `5205d56287617f640e8b0fcc`, `3cdee17f9dd9b3999f0ade74`,
+  `b153ea93cb86190f97f4f04a`, `2d9ed138d57fb57228814241`,
+  `9fa9e0bac72568d7c444bc00`, `fa27af78f875815b8db7cc04`,
+  `f82324c6b57367afb0d32187`, `6fabae7e4a22f6f07aeaf4c0`,
+  `1608c232fa656be580707988`, `100429512`, `207540062`,
+  `205722873`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A 47 030 rekordos teljes validáció hibamentes; az ellenőrzött
+  24 azonosító mind a Krém, tejpor és tejszín levélen maradt.
+- A levél **24/24** rekordjának kézi felülvizsgálata lezárult.
+
+### Nektár kézi felülvizsgálat, 1–25. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként,
+  közvetlenül ellenőriztük. Huszonkét használható helyi
+  termékképet részletes felbontásban vizsgáltunk meg; három
+  Coop-rekordhoz nem tartozott helyi kép, ezért ott a pontos
+  terméknév és forrássor szolgált közvetlen bizonyítékként.
+- A Rio D'Oro, Cappy, Sió, Auchan, Pfanner, Rauch, Pölz,
+  Verde és Hey-Ho termékek nektárbesorolását, márkáját, ízét,
+  rostosságát, cukormentességét és rendelkezésre álló
+  gyümölcstartalmát egyenként összevetettük.
+- Tíz, névből és előlapi képből nem teljesen meghatározható
+  gyümölcstartalmat pontos gyártói vagy kereskedői
+  termékadatból pótoltunk: Cappy Tropical 50%, Sió Natura
+  Multivitamin 50%, Cappy narancs 55%, Sió Natura málna 50%,
+  Rauch meggy 50%, Sió Natura körte 50%, Sió Natura
+  őszibarack 50%, Cappy ananász 51% és Rauch guava 25%.
+  A Cappy Tropical két kiszerelése külön rekordként szerepel.
+- A közvetlenül igazolt `55%` új, atomi
+  `gyümölcstartalom`-érték volt ezen a levélen. Ezt egyszer
+  hozzáadtuk a kategóriafához, majd a Cappy narancsrekordon
+  alkalmaztuk.
+- Módosított rekord: **10**.
+- Módosított tulajdonságmező: **10**.
+- Változatlanul hagyott rekord: **15**
+  (`914263`, `986392`, `674939:4212329`, `40579:40582`,
+  `674942:4212332`, `674711:4212101`, `963248:4500638`,
+  `52326:52665`, `52329:52668`, `950537:4487927`, `3091152`,
+  `2807731`, `2776234`, `2754385`, `2752622`).
+- Új megengedett érték: **1** (`gyümölcstartalom`: `55%`).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `818150:4355540` | gyümölcstartalom hiányzó → `50%` |
+| `819572:4356962` | gyümölcstartalom hiányzó → `50%` |
+| `946499:4483889` | gyümölcstartalom hiányzó → `50%` |
+| `818132:4355522` | gyümölcstartalom hiányzó → `55%` |
+| `819569:4356959` | gyümölcstartalom hiányzó → `50%` |
+| `3436:3436` | gyümölcstartalom hiányzó → `50%` |
+| `532712:4070102` | gyümölcstartalom hiányzó → `50%` |
+| `26599:26602` | gyümölcstartalom hiányzó → `50%` |
+| `678548:4215938` | gyümölcstartalom hiányzó → `51%` |
+| `1000879:4538269` | gyümölcstartalom hiányzó → `25%` |
+
+### Nektár kézi felülvizsgálat, 26–50. tétel
+
+- Mind a 25 teljes rekordot, forrássort és helyi termékképet
+  egyenként, közvetlenül és részletes felbontásban
+  ellenőriztük.
+- A Solevita, ARO, Cappy, Rauch, Sió, Toma, Pfanner és
+  Purissima termékek nektárbesorolását, márkáját, ízét,
+  rostosságát, cukormentességét és gyümölcstartalmát
+  egyenként összevetettük a pontos névvel, csomagolással és –
+  ahol az előoldal nem tartalmazta a százalékot – pontos
+  gyártói vagy kereskedői termékadattal.
+- A Solevita barack–narancs nektár közvetlen csomagolása az
+  általános `barack` mellett külön `peach` és `apricot`
+  összetevőt nevez meg. Az ízlistát ezért a már megengedett
+  elemi `narancs`, `őszibarack` és `sárgabarack` értékekre
+  pontosítottuk.
+- A Purissima vegyes gyümölcs-, őszibarack- és
+  narancsnektár csomagolásán közvetlenül olvasható az 50%-os
+  gyümölcstartalom. A többi pótolt értéket azonos
+  termékváltozathoz tartozó pontos adatok igazolták:
+  Solevita barack–narancs 51%, mangó 25%, meggy 50%;
+  Cappy narancs 55%, Tropical 50%; Rauch feketeribizli 25%,
+  guava 25%, meggy 50%; Sió Natura őszibarack 50%; Toma
+  feketeribizli 25%; Pfanner ananász és multivitamin 50%.
+- Módosított rekord: **20**.
+- Módosított tulajdonságmező: **21**.
+- Változatlanul hagyott rekord: **5**
+  (`BTY-X16561200320021`, `BTY-X18244900320021`,
+  `BTY-X18445900320021`, `BTY-X18621300320021`,
+  `BTY-X2968400320021`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `10013704` | gyümölcstartalom hiányzó → `51%`; íz `barack, narancs` → `narancs, őszibarack, sárgabarack` |
+| `10052719` | gyümölcstartalom hiányzó → `25%` |
+| `6410784` | gyümölcstartalom hiányzó → `50%` |
+| `BTY-X18121200320021` | gyümölcstartalom hiányzó → `55%` |
+| `BTY-X13567600320021` | gyümölcstartalom hiányzó → `25%` |
+| `BTY-X41839000320022` | gyümölcstartalom hiányzó → `50%` |
+| `BTY-X11999000320021` | gyümölcstartalom hiányzó → `25%` |
+| `BTY-X27997900320023` | gyümölcstartalom hiányzó → `50%` |
+| `BTY-X17478600320021` | gyümölcstartalom hiányzó → `25%` |
+| `BTY-X18121300320021` | gyümölcstartalom hiányzó → `50%` |
+| `BTY-X3014100320021` | gyümölcstartalom hiányzó → `50%` |
+| `BTY-X3014300320021` | gyümölcstartalom hiányzó → `50%` |
+| `BTY-X18121500320021` | gyümölcstartalom hiányzó → `50%` |
+| `BTY-X18121400320021` | gyümölcstartalom hiányzó → `55%` |
+| `914784` | gyümölcstartalom hiányzó → `50%` |
+| `555108` | gyümölcstartalom hiányzó → `50%` |
+| `914774` | gyümölcstartalom hiányzó → `50%` |
+| `ea587130407235bacee3ef59` | gyümölcstartalom hiányzó → `50%` |
+| `290cc332521a44356fc78ac6` | gyümölcstartalom hiányzó → `50%` |
+| `7de3e15491246e420d5b155b` | gyümölcstartalom hiányzó → `25%` |
+
+### Nektár kézi felülvizsgálat, 51–75. tétel
+
+- Mind a 25 teljes rekordot, forrássort és helyi termékképet
+  egyenként, közvetlenül és részletes felbontásban
+  ellenőriztük.
+- A Cappy, Rauch, SPAR, Sió és Paw Patrol termékek
+  nektárbesorolását, márkáját, ízét, rostosságát,
+  cukormentességét és gyümölcstartalmát egyenként
+  összevetettük a pontos névvel, csomagolással és pontos
+  termékösszetétellel.
+- A Rauch Happy Day Immun Iron és Immun Power változatánál
+  a közvetlen termékadat egyaránt minimum 55%-os
+  gyümölcstartalmat igazol. Az eltérő gyümölcsösszetételt nem
+  mostuk össze egyetlen ízzé.
+- A SPAR multivitamin nektár 50%-os értéke közvetlenül
+  olvasható a dobozon. A három Paw Patrol nektár
+  termékösszetétele egyaránt minimum 50%-ot közöl. A Cappy
+  ananász 51%, narancs 55%, Tropical 50%; a Rauch narancs és
+  meggy 50%, feketeribizli 25%; a Sió őszibarack és málna
+  50%-os értékei a pontos termékváltozatok adataival egyeznek.
+- Módosított rekord: **24**.
+- Módosított tulajdonságmező: **24**.
+- Változatlanul hagyott rekord: **1**
+  (`046b34695bcc87f3902bc53f`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `b072528d1edb4b4fe2b13c91` | gyümölcstartalom hiányzó → `51%` |
+| `8983648153f762f33efb7fb5` | gyümölcstartalom hiányzó → `55%` |
+| `a319b81ed3614754b4776fde` | gyümölcstartalom hiányzó → `55%` |
+| `f2c6c1954532f411a21aacbe` | gyümölcstartalom hiányzó → `55%` |
+| `7e3d6f1c94ee37123e5c04c3` | gyümölcstartalom hiányzó → `50%` |
+| `db7e6cfb35a859ee7827324f` | gyümölcstartalom hiányzó → `55%` |
+| `445238ced59b831ddb1a4d0b` | gyümölcstartalom hiányzó → `50%` |
+| `1a065a0bca05e03c5517b039` | gyümölcstartalom hiányzó → `50%` |
+| `06fd38d5f2d3b440ca961b69` | gyümölcstartalom hiányzó → `50%` |
+| `d3cac53a7555e59b6994e531` | gyümölcstartalom hiányzó → `50%` |
+| `adfce7835ec37427b64384d2` | gyümölcstartalom hiányzó → `25%` |
+| `71967bd588b030743a730318` | gyümölcstartalom hiányzó → `50%` |
+| `2ee45b0400c71aa7c176d2e6` | gyümölcstartalom hiányzó → `51%` |
+| `7391a45fb1da983cd44f1d83` | gyümölcstartalom hiányzó → `55%` |
+| `ed0950b2001af7ed002fb51c` | gyümölcstartalom hiányzó → `50%` |
+| `94a7d06de673521347e77330` | gyümölcstartalom hiányzó → `50%` |
+| `74cc2d50b753bca8b2b2082b` | gyümölcstartalom hiányzó → `50%` |
+| `210092220` | gyümölcstartalom hiányzó → `50%` |
+| `208445267` | gyümölcstartalom hiányzó → `50%` |
+| `121217505` | gyümölcstartalom hiányzó → `51%` |
+| `220289861` | gyümölcstartalom hiányzó → `25%` |
+| `105027925` | gyümölcstartalom hiányzó → `50%` |
+| `105028248` | gyümölcstartalom hiányzó → `50%` |
+| `105028265` | gyümölcstartalom hiányzó → `50%` |
+
+### Nektár kézi felülvizsgálat, 76–84. tétel
+
+- Mind a kilenc teljes rekordot, forrássort és helyi
+  termékképet egyenként, közvetlenül és részletes
+  felbontásban ellenőriztük.
+- A Paw Patrol, Sió, Rauch és Cappy termékek
+  nektárbesorolását, márkáját, ízét, rostosságát,
+  cukormentességét és gyümölcstartalmát egyenként
+  összevetettük a pontos névvel, csomagolással és pontos
+  termékösszetétellel.
+- A Paw Patrol alma–narancs nektár pontos összetétele minimum
+  50%-ot közöl. A Sió multivitamin, málna és körte, valamint a
+  Rauch narancs értéke 50%; a Cappy Tropical 50%, a Cappy
+  narancs 55%. Az ismétlődő kiszereléseket külön rekordként,
+  de ugyanazon pontos termékváltozat alapján ellenőriztük.
+- Módosított rekord: **9**.
+- Módosított tulajdonságmező: **9**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+- A Nektár levél **84/84** rekordjának kézi felülvizsgálata
+  lezárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `105028266` | gyümölcstartalom hiányzó → `50%` |
+| `105477959` | gyümölcstartalom hiányzó → `50%` |
+| `105477973` | gyümölcstartalom hiányzó → `50%` |
+| `111273705` | gyümölcstartalom hiányzó → `50%` |
+| `121307295` | gyümölcstartalom hiányzó → `50%` |
+| `121307312` | gyümölcstartalom hiányzó → `55%` |
+| `121308150` | gyümölcstartalom hiányzó → `50%` |
+| `121308167` | gyümölcstartalom hiányzó → `55%` |
+| `220321369` | gyümölcstartalom hiányzó → `50%` |
+
+### Energiaital kézi felülvizsgálat, 1–25. tétel
+
+- Mind a 25 teljes rekordot, forrássort és helyi
+  termékképet egyenként, közvetlenül és részletes
+  felbontásban ellenőriztük.
+- A Flying Power, HELL, Red Bull, Kobra, Watt, Bomba! és
+  Adrenalin termékek energiaital-besorolását, márkáját,
+  ízét, cukor- és koffeinmentességét, valamint
+  szénsavasságát egyenként összevetettük a pontos névvel,
+  csomagolással és pontos termékleírással.
+- A Flying Power Strong Apple és a HELL Strong Apple
+  közvetlen termékadata az alma mellett a tuttifrutti ízt
+  is megnevezi. A HELL Strong Watermelon ugyanígy
+  görögdinnye- és tuttifruttiízű; a HELL Classic és a Kobra
+  Classic pedig tuttifruttiízű. Ezeket a már megengedett
+  elemi ízértékekkel pontosítottuk.
+- Az Adrenalin szedermálna–sárkánygyümölcs változat
+  csomagolása közvetlenül `TAYBERRY DRAGONFRUIT` feliratot
+  tartalmaz, ezért az általános `szeder` értéket a már
+  megengedett `tayberry` értékre pontosítottuk.
+- Tíz, korábban tévesen nem szénsavasként tárolt terméknél
+  a pontos termékváltozat adata igazolta a szénsavasságot:
+  négy Flying Power, három HELL, valamint egy-egy Red Bull,
+  Kobra és Bomba! energiaitalnál.
+- Módosított rekord: **11**.
+- Módosított tulajdonságmező: **16**.
+- Változatlanul hagyott rekord: **14**
+  (`679133:4216523`, `679136:4216526`, `679139:4216529`,
+  `679130:4216520`, `712691:4250081`, `991229:4528619`,
+  `981599:4518989`, `981596:4518986`, `981602:4518992`,
+  `677951:4215341`, `677960:4215350`, `677978:4215368`,
+  `677972:4215362`, `677969:4215359`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `912817` | szénsavas `false` → `true` |
+| `984121` | íz `alma` → `alma, tuttifrutti`; szénsavas `false` → `true` |
+| `1017545` | szénsavas `false` → `true` |
+| `1056396` | szénsavas `false` → `true` |
+| `923140` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `4599884` | íz `görögdinnye` → `görögdinnye, tuttifrutti`; szénsavas `false` → `true` |
+| `4599920` | íz `alma` → `alma, tuttifrutti`; szénsavas `false` → `true` |
+| `989138` | szénsavas `false` → `true` |
+| `886733:4424123` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `981593:4518983` | íz `sárkánygyümölcs, szeder` → `sárkánygyümölcs, tayberry` |
+| `991217:4528607` | szénsavas `false` → `true` |
+
+### Energiaital kézi felülvizsgálat, 26–50. tétel
+
+- Mind a 25 teljes rekordot, forrássort és helyi
+  termékképet egyenként, közvetlenül és részletes
+  felbontásban ellenőriztük.
+- A HELL, New Gen, Bomba!, Burn és Red Bull termékek
+  energiaital-besorolását, márkáját, ízét, cukor- és
+  koffeinmentességét, valamint szénsavasságát egyenként
+  összevetettük a pontos névvel, csomagolással és pontos
+  termékadattal.
+- A HELL Zero Berry Flavour termék közvetlen csomagolása és
+  jogi neve bogyós gyümölcsízt nevez meg, nem erdei
+  gyümölcsöt. Emiatt a korábbi általánosítás helyett az
+  elemi, bizonyítható `bogyós gyümölcs` ízértéket vettük fel
+  és alkalmaztuk.
+- A Burn Fruit Punch csomagolása és neve közvetlenül a
+  gyümölcspuncs ízt igazolja, ezért az általános `puncs`
+  értéket a már megengedett `gyümölcspuncs` értékre
+  pontosítottuk.
+- A Bomba! 600 ml-es tuttifrutti-változat pontos termékadata
+  szénsavas italt nevez meg. A Red Bull Apricot, Blue és
+  White Edition pontos összetétele szén-dioxidot, illetve
+  szénsavas vizet tartalmaz; mind a négy korábbi `false`
+  értéket `true` értékre javítottuk.
+- Módosított rekord: **6**.
+- Módosított tulajdonságmező: **6**.
+- Változatlanul hagyott rekord: **19**
+  (`677954:4215344`, `677981:4215371`, `677966:4215356`,
+  `795269:4332659`, `677963:4215353`, `849449:4386839`,
+  `849446:4386836`, `974621:4512011`, `974651:4512041`,
+  `974624:4512014`, `974633:4512023`, `974627:4512017`,
+  `974618:4512008`, `847943:4385333`, `849542:4386932`,
+  `712697:4250087`, `712688:4250078`, `683921:4221311`,
+  `687959:4225349`).
+- Új megengedett érték: **1** (`íz`: `bogyós gyümölcs`).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `795272:4332662` | íz `erdei gyümölcs, tuttifrutti` → `bogyós gyümölcs, tuttifrutti` |
+| `991214:4528604` | szénsavas `false` → `true` |
+| `974630:4512020` | íz `puncs` → `gyümölcspuncs` |
+| `793136:4330526` | szénsavas `false` → `true` |
+| `793130:4330520` | szénsavas `false` → `true` |
+| `683915:4221305` | szénsavas `false` → `true` |
+
+### Energiaital kézi felülvizsgálat, 51–75. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként
+  ellenőriztük. Huszonnégy terméknél közvetlen helyi képet is
+  részletes felbontásban vizsgáltunk; a kép nélküli HELL Zero
+  Green Apple tételt a pontos név és pontos termékadat
+  igazolta.
+- A Red Bull, Monster és HELL termékek márkáját, ízét,
+  cukormentességét és szénsavasságát egyenként összevetettük
+  a pontos változattal. A Monster Ultra termékeknél a
+  csomagoláson közvetlenül olvasható `Zéró cukor` feliratot
+  alkalmaztuk.
+- A Monster Full Throttle pontos gyártói ízprofilja
+  őszibarackot és nektarint, a Monarch ugyanezt a két ízt
+  nevezi meg. A Pacific Punch gyümölcspuncs; a Pipeline
+  Punch pontos ízprofilja guava, maracuja és narancs. A
+  White Monster pontos gyártói ízprofilja citrus.
+- A Monster The Doctor, az Ultra Golden Pineapple, a HELL
+  Strong Apple és Classic többes csomagok, a HELL Zero Green
+  Apple, valamint a Red Bull Zero pontos termékadata
+  igazolta a korábban hiányzó szénsavasságot.
+- Négy PROformance 60 ml-es funkcionális shotot
+  kézzel átsoroltunk az `Energiaital` ágból a már meglévő
+  `Funkcionális italok → Sport-, izotóniás, kollagén- és
+  shot ital` levélbe. A közvetlen terméknév és csomagolás
+  alapján `funkcionális ital` és `shot` funkciót kaptak.
+- Módosított rekord: **19**.
+- Módosított tulajdonságmező: **31**.
+- Kézi kategória-átsorolás: **4**.
+- Változatlanul hagyott rekord: **6**
+  (`974579:4511969`, `974588:4511978`, `974585:4511975`,
+  `981584:4518974`, `974612:4512002`, `981578:4518968`).
+- Új megengedett érték: **1** (`márka`: `PROformance` a
+  célzott funkcionális levélben).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `680639:4218029` | szénsavas `false` → `true` |
+| `974594:4511984` | íz hiányzó → `nektarin, őszibarack` |
+| `974606:4511996` | íz `őszibarack` → `nektarin, őszibarack` |
+| `974600:4511990` | íz `puncs` → `gyümölcspuncs` |
+| `974603:4511993` | íz `puncs` → `guava, maracuja, narancs` |
+| `987350:4524740` | szénsavas `false` → `true` |
+| `974582:4511972` | cukormentes `false` → `true` |
+| `974609:4511999` | cukormentes `false` → `true` |
+| `981581:4518971` | cukormentes `false` → `true` |
+| `974597:4511987` | íz hiányzó → `citrus`; cukormentes `false` → `true` |
+| `981575:4518965` | íz `barack, tea` → `őszibarack, tea` |
+| `974615:4512005` | cukormentes `false` → `true`; szénsavas `false` → `true` |
+| `1048202:4585592` | íz `alma` → `alma, tuttifrutti`; szénsavas `false` → `true` |
+| `1048205:4585595` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `3380728` | szénsavas `false` → `true` |
+| `789014:4326404` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: PROformance`, `funkció: funkcionális ital, shot` |
+| `789017:4326407` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: PROformance`, `funkció: funkcionális ital, shot` |
+| `789023:4326413` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: PROformance`, `funkció: funkcionális ital, shot` |
+| `789020:4326410` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: PROformance`, `funkció: funkcionális ital, shot` |
+
+### Energiaital kézi felülvizsgálat, eredeti 76–100. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként
+  ellenőriztük. Két terméknél közvetlen helyi képet is
+  részletes felbontásban vizsgáltunk; a 23 kép nélküli
+  tételnél a pontos terméknevet az azonos termékváltozat
+  közvetlen csomagolásával, gyártói vagy pontos kereskedői
+  adatával vetettük össze.
+- A négy korábbi PROformance-átsorolás miatt ezek a rekordok
+  a jelenlegi Energiaital-lista 72–96. pozícióján állnak; az
+  eredeti 76–100. tételként naplózzuk őket, így egyetlen
+  termék sem maradt ki.
+- A Monster Ultra Zero White citrus ízét és
+  szénsavasságát, a Red Bull Coconut Edition áfonya–kókusz
+  ízét és szénsavasságát, valamint a Red Bull Sugarfree
+  cukormentességét és szénsavasságát a pontos változat adata
+  igazolta.
+- Az Adrenalin, Burn, New Gen, Monster Mango Loco és Squid
+  Game termékeknél az azonos pontos változat termékadata
+  igazolta a hiányzó szénsavasságot. Az Adrenalin Original
+  közvetlen változata tuttifruttiízű.
+- A HELL Classic, Zero, Strong Apple, Strong Red Grape,
+  Strong Watermelon, Black Cherry és Focus+ termékek
+  hiányzó elemi ízeit és szénsavasságát a pontos
+  termékadatok alapján pótoltuk. A két, név szerint New Gen
+  termék márkáját `HELL` értékről `New Gen` értékre
+  javítottuk.
+- A két rövidített nevű HELL Summer/Ice limitált terméknél
+  csak a bizonyítható szénsavasságot rögzítettük; a
+  rövidített forrásnévből nem következtettünk ízre.
+- Módosított rekord: **25**.
+- Módosított tulajdonságmező: **41**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `3375673` | íz hiányzó → `citrus`; szénsavas `false` → `true` |
+| `3375672` | szénsavas `false` → `true` |
+| `3375671` | szénsavas `false` → `true` |
+| `3375670` | szénsavas `false` → `true` |
+| `3375669` | szénsavas `false` → `true` |
+| `3375668` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `3375667` | szénsavas `false` → `true` |
+| `3375563` | szénsavas `false` → `true` |
+| `3373836` | szénsavas `false` → `true` |
+| `3372292` | szénsavas `false` → `true` |
+| `3372291` | szénsavas `false` → `true` |
+| `3372253` | márka `HELL` → `New Gen`; íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `3372252` | márka `HELL` → `New Gen`; íz `cseresznye` → `cseresznye, tuttifrutti`; szénsavas `false` → `true` |
+| `3372161` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `3372131` | szénsavas `false` → `true` |
+| `3372130` | szénsavas `false` → `true` |
+| `2817309` | íz `kókusz` → `áfonya, kókusz`; szénsavas `false` → `true` |
+| `2817307` | cukormentes `false` → `true`; szénsavas `false` → `true` |
+| `2808614` | íz `görögdinnye` → `görögdinnye, tuttifrutti`; szénsavas `false` → `true` |
+| `2808613` | íz hiányzó → `mangó, narancs, tuttifrutti`; szénsavas `false` → `true` |
+| `2808612` | íz `cseresznye` → `cseresznye, tuttifrutti`; szénsavas `false` → `true` |
+| `2808611` | íz `szőlő` → `szőlő, tuttifrutti`; szénsavas `false` → `true` |
+| `2808610` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `2808609` | íz `alma` → `alma, tuttifrutti`; szénsavas `false` → `true` |
+| `2808608` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+
+### Energiaital kézi felülvizsgálat, eredeti 101–125. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként
+  ellenőriztük. Huszonnégy terméknél közvetlen helyi képet is
+  részletes felbontásban vizsgáltunk; az egyetlen kép nélküli
+  Red Bull Classic tételnél a pontos terméknév és az azonos
+  termékváltozat adata támasztotta alá a javítást.
+- A négy korábbi PROformance-átsorolás miatt ezek a rekordok
+  a jelenlegi Energiaital-lista 97–121. pozícióján állnak; az
+  eredeti 101–125. tételként naplózzuk őket, így egyetlen
+  termék sem maradt ki.
+- A Red Bull Classic, Original és White Edition, valamint a
+  HELL Citrus Pink Grapefruit és Zero Tutti-frutti pontos
+  változata igazolta a korábban hiányzó szénsavasságot.
+- A HELL Strong Red Grape csomagolása a szőlő mellett
+  tuttifruttiízt is megnevez. A HELL Zero White Berry
+  csomagolása és az azonos pontos változat adata a
+  `bogyós gyümölcs, tuttifrutti` elemi ízértékeket igazolta.
+- A KONG STRONG Tropical pontos neve és közvetlen csomagolása
+  egyértelműen a `trópusi` ízt és a szénsavasságot igazolta.
+  Az `íz: trópusi` értéket ezért kizárólag az Energiaital
+  meglévő `íz` tulajdonságának megengedett értékei közé
+  vettük fel; új kategória vagy tulajdonság nem keletkezett.
+- Módosított rekord: **8**.
+- Módosított tulajdonságmező: **10**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **17**
+  (`BTY-X17285200320021`, `BTY-X17285700320021`,
+  `BTY-X18018500320021`, `BTY-X17303700320021`,
+  `BTY-X18284100320021`, `BTY-X17298800320021`,
+  `BTY-X17298700320021`, `BTY-X17303800320021`,
+  `BTY-X18283900320021`, `BTY-X17286100320021`,
+  `BTY-X18284300320021`, `BTY-X18045400320021`,
+  `BTY-X18045500320021`, `BTY-X17286000320021`,
+  `BTY-X17303900320021`, `BTY-X17299200320021`,
+  `BTY-X17285900320021`).
+- Új megengedett érték: **1** (`íz`: `trópusi` az
+  Energiaital levélben).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `2807556` | szénsavas `false` → `true` |
+| `10034513` | szénsavas `false` → `true` |
+| `10101679` | íz `szőlő` → `szőlő, tuttifrutti`; szénsavas `false` → `true` |
+| `10104559` | íz hiányzó → `trópusi`; szénsavas `false` → `true` |
+| `BTY-X18158900320021` | szénsavas `false` → `true` |
+| `BTY-X17298900320021` | szénsavas `false` → `true` |
+| `BTY-X17303400320021` | szénsavas `false` → `true` |
+| `BTY-X18022500320021` | íz `tuttifrutti` → `bogyós gyümölcs, tuttifrutti` |
+
+### Energiaital kézi felülvizsgálat, eredeti 126–150. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként
+  ellenőriztük, és mind a 25 terméknél közvetlen helyi képet
+  is részletes felbontásban vizsgáltunk.
+- A négy korábbi PROformance-átsorolás miatt ezek a rekordok
+  a felülvizsgálat előtti Energiaital-lista 122–146.
+  pozícióján álltak; az eredeti 126–150. tételként naplózzuk
+  őket, így egyetlen termék sem maradt ki.
+- Két tárolt kép más termékváltozatot mutatott, mint a teljes
+  rekord és a forrássor. Az alma–fahéj HELL Apple Pie
+  rekordhoz Cactus Twist, a piros őszibarack–citrom–lime
+  HELL Epic rekordhoz Goji Berry kép társult. Ezeknél nem a
+  téves képből következtettünk: a pontos terméknév és az
+  azonos változat részletes termékadata alapján rögzítettük
+  az ízeket. Így került ki a hibás `goldberg` érték is.
+- A HELL Apple Pie pontos változata alma- és fahéjízű,
+  szénsavas ital. A Kobra Cranberry pontos neve, doboza és
+  részletes termékadata vörösáfonya-ízt és szénsavasságot
+  igazolt.
+- Az Adrenalin Tayberry–Dragonfruit doboz és azonos pontos
+  termékváltozat alapján `sárkánygyümölcs, tayberry` ízt
+  kapott; a forrásnévben szereplő „szeder-málna” ennek
+  magyar leírása, nem két külön további íz.
+- A Red Bull Peach Edition, az Adrenalin Original Zero és
+  Gránátalma–citrom, valamint a BOMBA! Classic pontos
+  termékadata igazolta a hiányzó szénsavasságot. Az
+  Adrenalin Original Zero és a BOMBA! Classic
+  tuttifruttiíze is közvetlenül igazolt.
+- A HELL NEW GEN Melon–Prickly Pear doboza kifejezetten
+  `Functional Drink with Prebiotic` megjelölésű, a gyártói
+  termékoldal pedig funkcionális italként azonosítja. Ezért
+  kézzel átsoroltuk a már meglévő `Funkcionális italok →
+  Sport-, izotóniás, kollagén- és shot ital` levélbe,
+  `márka: New Gen`, `funkció: funkcionális ital` és
+  `íz: görögdinnye, kaktusz` tulajdonságokkal.
+- Módosított rekord: **9**.
+- Módosított kategória- vagy tulajdonságmező: **15**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **16**
+  (`BTY-X18424900320021`, `BTY-X18626000320021`,
+  `BTY-X18626100320021`, `BTY-X18626200320021`,
+  `BTY-X18626400320021`, `BTY-X18626500320021`,
+  `BTY-X18626600320021`, `BTY-X18641800320021`,
+  `BTY-X18641900320021`, `BTY-X18642000320021`,
+  `BTY-X18642200320021`, `BTY-X18665900320021`,
+  `BTY-X18890100320021`, `BTY-X18673600320021`,
+  `BTY-X17304100320021`, `BTY-X17348600320021`).
+- Új megengedett érték: **3** (`íz`: `fahéj`,
+  `vörösáfonya` az Energiaital levélben; `márka`:
+  `New Gen` a funkcionális céllevélben).
+- Törölt megengedett érték: **1** (`íz`: `goldberg` az
+  Energiaital levélből; a javítás után egyetlen termék sem
+  használta).
+- Minden rekordcsere után, a kategóriafa tisztítása után és
+  a végén is lefutott a 47 030 rekordos teljes validáció;
+  eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `BTY-X17504500320021` | íz `banán, karácsonyi fűszer` → `alma, fahéj`; szénsavas `false` → `true` |
+| `BTY-X18330600320021` | íz `szőlő` → `vörösáfonya`; szénsavas `false` → `true` |
+| `BTY-X18642100320021` | íz `málna, sárkánygyümölcs, szeder` → `sárkánygyümölcs, tayberry` |
+| `BTY-X18720000320021` | szénsavas `false` → `true` |
+| `BTY-X18824000320021` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: görögdinnye, kaktusz` |
+| `BTY-X18890700320021` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `BTY-X18890800320021` | szénsavas `false` → `true` |
+| `BTY-X18835700320021` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `BTY-X17656000320021` | íz `citrom, goldberg, lime, tuttifrutti` → `citrom, lime, őszibarack, tuttifrutti` |
+
+### Energiaital kézi felülvizsgálat, eredeti 151–175. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként
+  ellenőriztük, és mind a 25 terméknél közvetlen helyi képet
+  is részletes felbontásban vizsgáltunk.
+- Az öt korábbi funkcionális átsorolás miatt ezek a rekordok
+  a felülvizsgálat előtti Energiaital-lista 146–170.
+  pozícióján álltak; az eredeti 151–175. tételként naplózzuk
+  őket, így egyetlen termék sem maradt ki.
+- A HELL New Gen Pink Guava és Gummy Bear doboza egyaránt
+  közvetlenül `Functional Drink` megjelölésű, a gyártói
+  termékoldal pedig funkcionális italként azonosítja őket.
+  Ezért mindkettőt kézzel átsoroltuk a már meglévő
+  `Funkcionális italok → Sport-, izotóniás, kollagén- és
+  shot ital` levélbe, `márka: New Gen`, `funkció:
+  funkcionális ital` és a pontos elemi íz tulajdonságokkal.
+- A Monster gyártói változatadata alapján a Full Throttle
+  Zero íze nektarin–őszibarack, a Lando Norris Zero
+  görögdinnye–yuzu, a Pipeline Punch guava–maracuja–narancs,
+  a Rio Punch pedig feketeribizli–papaya–vanília. A Rehab
+  Peach `barack` értékét a pontos `őszibarack` értékre
+  javítottuk.
+- A Monster Ultra White citrusízét és cukormentességét, az
+  Ultra Strawberry Dreams és Ultra Gold cukormentességét,
+  valamint az Ultra Fantasy Ruby Red citrus–grapefruit
+  ízprofilját a doboz és a pontos gyártói termékadat
+  együttesen igazolta.
+- A BOMBA! gyártói termékadat szerint a Classic dobozos,
+  Classic üveges, Gold 38 Extra Strong és Classic Zero
+  változat egyaránt tuttifruttiízű, szénsavas ital; ezeket
+  az eddig hiányzó értékeket mind a négy rekordnál
+  pótoltuk.
+- Módosított rekord: **15**.
+- Módosított kategória- vagy tulajdonságmező: **24**.
+- Kézi kategória-átsorolás: **2**.
+- Változatlanul hagyott rekord: **10**
+  (`BTY-X18623900320021`, `BTY-X18624000320021`,
+  `BTY-X18624300320021`, `BTY-X18624400320021`,
+  `BTY-X18624500320021`, `BTY-X18625200320021`,
+  `BTY-X18625800320021`, `989262`, `990081`, `990082`).
+- Új megengedett érték: **6** (`íz`: `feketeribizli`,
+  `papaya`, `vanília`, `yuzu` az Energiaital levélben;
+  `gummy bear`, `pink guava` a funkcionális céllevélben).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `BTY-X18284200320021` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: pink guava` |
+| `BTY-X18623600320021` | íz hiányzó → `nektarin, őszibarack` |
+| `BTY-X18624700320021` | íz `barack, tea` → `őszibarack, tea` |
+| `BTY-X18625000320021` | íz hiányzó → `citrus`; cukormentes `false` → `true` |
+| `BTY-X18625100320021` | íz `görögdinnye` → `görögdinnye, yuzu` |
+| `BTY-X18625700320021` | cukormentes `false` → `true` |
+| `BTY-X18625900320021` | íz hiányzó → `guava, maracuja, narancs` |
+| `BTY-X18835200320021` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `BTY-X18835400320021` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `BTY-X18835500320021` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `BTY-X18890000320021` | íz `grapefruit` → `citrus, grapefruit` |
+| `BTY-X18947900320021` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: gummy bear` |
+| `BTY-X18624600320021` | cukormentes `false` → `true` |
+| `BTY-X18624800320021` | íz hiányzó → `feketeribizli, papaya, vanília` |
+| `BTY-X18835300320021` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+
+### Energiaital kézi felülvizsgálat, eredeti 176–200. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként
+  ellenőriztük, és mind a 25 terméknél közvetlen helyi képet
+  is részletes felbontásban vizsgáltunk.
+- A hét korábbi funkcionális átsorolás miatt ezek a rekordok
+  a felülvizsgálat előtti Energiaital-lista 169–193.
+  pozícióján álltak; az eredeti 176–200. tételként naplózzuk
+  őket, így egyetlen termék sem maradt ki.
+- A New Gen Classic és Green Apple doboza közvetlenül
+  `Functional Drink` megjelölésű, a Green Apple teljes
+  forrásneve is funkcionális italt mond. Ezért mindkettőt
+  kézzel átsoroltuk a már meglévő `Funkcionális italok →
+  Sport-, izotóniás, kollagén- és shot ital` levélbe,
+  `márka: New Gen`, `funkció: funkcionális ital` és a pontos
+  `tuttifrutti`, illetve `zöldalma` ízzel.
+- A Red Bull Zero, Original 250 ml és 355 ml, Sugarfree,
+  White Edition kókusz–áfonya és a második Zero tétel pontos
+  termékváltozata igazolta a hat hiányzó szénsavasságot.
+- A rövidített nevű HELL Classic tételnél pótoltuk a
+  tuttifruttiízt és a szénsavasságot; a Strong Red Grape
+  tételnél a szőlő mellé tuttifrutti került, és szintén
+  pótoltuk a szénsavasságot. A Black Cherry és Focus+
+  pontos változata igazolta a hiányzó szénsavasságot.
+- A HELL Multi+ teljes neve közvetlenül vegyes
+  gyümölcsízt mond, ezért az eddig üres ízmező `vegyes
+  gyümölcs` elemi értéket kapott.
+- Módosított rekord: **13**.
+- Módosított kategória- vagy tulajdonságmező: **19**.
+- Kézi kategória-átsorolás: **2**.
+- Változatlanul hagyott rekord: **12**
+  (`990083`, `990089`, `997275`, `1000977`, `4599396`,
+  `1023365`, `996473`, `996474`, `997528`, `1035953`,
+  `1035954`, `1035955`).
+- Új megengedett érték: **3** (`íz`: `vegyes gyümölcs`
+  az Energiaital levélben; `tuttifrutti`, `zöldalma` a
+  funkcionális céllevélben).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `1057451` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: tuttifrutti` |
+| `1057453` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: zöldalma` |
+| `990612` | szénsavas `false` → `true` |
+| `0b71f9b1a980f049309dab3d` | szénsavas `false` → `true` |
+| `9a0a0189e3d361ac8f1a9208` | szénsavas `false` → `true` |
+| `05a16a5bd1bcabfa595db788` | szénsavas `false` → `true` |
+| `8614f548f2e65c86979a35cb` | szénsavas `false` → `true` |
+| `7e231e3f67b86a06cc1411c3` | szénsavas `false` → `true` |
+| `ebf6ecd8293866da72f421f2` | íz hiányzó → `tuttifrutti`; szénsavas `false` → `true` |
+| `64352c0c1644e680b4a750b9` | íz `szőlő` → `szőlő, tuttifrutti`; szénsavas `false` → `true` |
+| `850df6e32b50d60fbedab047` | szénsavas `false` → `true` |
+| `929ea8b9d9aaa3e28aae4ee1` | szénsavas `false` → `true` |
+| `f846548c482c085aa37fb4b9` | íz hiányzó → `vegyes gyümölcs` |
+
+### Energiaital kézi felülvizsgálat, eredeti 201–225. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként
+  ellenőriztük, és mind a 25 terméknél közvetlen helyi képet
+  is részletes felbontásban vizsgáltunk.
+- A kilenc korábbi funkcionális átsorolás miatt ezek a
+  rekordok a felülvizsgálat előtti Energiaital-lista
+  192–216. pozícióján álltak; az eredeti 201–225. tételként
+  naplózzuk őket, így egyetlen termék sem maradt ki.
+- A Red Bull Blue Edition pontos változatadata igazolta a
+  hiányzó szénsavasságot. A Burn Fruit Punch teljes
+  forrásneve közvetlenül `vegyes gyümölcs` ízt mondott,
+  ezért az üres ízmezőt ezzel az elemi értékkel pótoltuk.
+- A Monster Rio Punch pontos gyártói változatadata
+  feketeribizli–papaya–vanília ízprofilt, a Full Throttle
+  Zero Sugar változaté nektarin–őszibarack ízt igazolt.
+- Az Ultra Golden Pineapple, Ultra Rosá, Ultra Strawberry
+  Dreams és Ultra White pontos doboza, változatneve és
+  gyártói termékadata együttesen igazolta a négy hibásan
+  `false` értékű cukormentességi jelző javítását.
+- Módosított rekord: **8**.
+- Módosított kategória- vagy tulajdonságmező: **8**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **17**
+  (`2faba9f831c044bd04173a85`,
+  `d799f874d5f1dd1b5bd10e79`,
+  `573ff8d64755f582042e9236`,
+  `4f797fd060dcb44e8204af98`,
+  `0bbe518fd21038133c4ff959`,
+  `6f0878d96da07ee16f01b274`,
+  `eeab92edbb6972f0437f97a5`,
+  `17d1b9fd6235857461127ef8`,
+  `cb1504dbb23dbbe5f7599ecb`,
+  `5802abf48b7eebc7fe8f407d`,
+  `3b4319a1e25bd8492d8f7ee8`,
+  `c8736ad7a38ae676f385be21`,
+  `884fc1fc4a93147ddef12ca6`,
+  `712ba93f98d157d2e702a04d`,
+  `564c35c79d9ea74a8f2c32e9`,
+  `b5c53565638448f74a8b78de`,
+  `9e984cacb3ec5dc84de2a7b9`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `ac2dba5daa3ea40b714bed44` | szénsavas `false` → `true` |
+| `e05511114dbdc83a78bf2bef` | íz hiányzó → `vegyes gyümölcs` |
+| `c2cc330a80cd1755fc7c0901` | íz hiányzó → `feketeribizli, papaya, vanília` |
+| `24f06aa28640cc0a87be6d21` | cukormentes `false` → `true` |
+| `ff44d8ac08c5ec4ef24c4a1a` | cukormentes `false` → `true` |
+| `49316bdddb4c831df6ba06ea` | cukormentes `false` → `true` |
+| `ba916d2b2213438d25a67de0` | cukormentes `false` → `true` |
+| `ebfa2c086790fc8ccd0f7470` | íz hiányzó → `nektarin, őszibarack` |
+
+### Energiaital kézi felülvizsgálat, eredeti 226–250. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként
+  ellenőriztük, és mind a 25 terméknél közvetlen helyi képet
+  is részletes felbontásban vizsgáltunk.
+- A kilenc korábbi funkcionális átsorolás miatt ezek a
+  rekordok a felülvizsgálat előtti Energiaital-lista
+  217–241. pozícióján álltak; az eredeti 226–250. tételként
+  naplózzuk őket, így egyetlen termék sem maradt ki.
+- Hét New Gen doboz — két Black Cherry, két Classic, két
+  Green Apple és egy Strawberry–Banana — közvetlenül
+  `Functional Drink` megjelölésű. Mind a hetet kézzel a már
+  meglévő `Funkcionális italok → Sport-, izotóniás,
+  kollagén- és shot ital` levélbe soroltuk, `márka: New
+  Gen`, `funkció: funkcionális ital` és a pontos elemi
+  ízekkel.
+- A Strawberry–Banana pontos neve és doboza miatt a
+  funkcionális céllevél egyetlen új, közvetlenül igazolt
+  megengedett értéket kapott: `íz: banán`.
+- A Monster gyártói termékadata a Nitro Super Dry
+  citrusízét, a Lando Norris Zero görögdinnye–yuzu
+  ízprofilját és a Viking Berry bogyósgyümölcs-ízét
+  igazolta. A Valentino Rossi Zero két azonos jelentésű
+  `citrusfélék, citrus` értékét az egységes, elemi
+  `citrus` értékre tisztítottuk.
+- A HELL Lemon Pink-Grapefruit, Zero Berry, Zero White
+  Peach, Strong Red Grape, Zero Classic, Classic, Black
+  Cherry, Strong Watermelon és Focus+, valamint a Red Bull
+  White Edition pontos változatadata igazolta a tíz
+  hiányzó szénsavassági jelzőt. A Zero Berry név szerinti
+  `bogyós gyümölcs` ízét a korábbi pontatlan `erdei
+  gyümölcs` érték helyett rögzítettük.
+- Módosított rekord: **21**.
+- Módosított kategória- vagy tulajdonságmező: **36**.
+- Kézi kategória-átsorolás: **7**.
+- Változatlanul hagyott rekord: **4**
+  (`4154c2e191bb857f206bb26a`,
+  `713bb69e7b007fe1efea3e47`,
+  `aa93346530e07b5093a6e143`,
+  `25c85e84d5e23311fba64886`).
+- Új megengedett érték: **1** (`íz`: `banán` a
+  funkcionális céllevélben).
+- Törölt megengedett érték: **0**.
+- A kategóriafa módosítása után, minden rekordcsere után és
+  a végén is lefutott a 47 030 rekordos teljes validáció;
+  eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `5fdd23ac39838264a8ce6d87` | íz hiányzó → `citrus` |
+| `1c0cf08c716515c18125f946` | íz hiányzó → `görögdinnye, yuzu` |
+| `b55a40ebab86d340bebfb7ea` | szénsavas `false` → `true` |
+| `49552d4cf6ddbc3983200ae7` | íz `erdei gyümölcs` → `bogyós gyümölcs`; szénsavas `false` → `true` |
+| `f288aeb0940cfa78d89fde64` | szénsavas `false` → `true` |
+| `6107bdbb9d7189fdfc274f32` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: cseresznye, tuttifrutti` |
+| `574e37195d5849eb59778fc5` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: tuttifrutti` |
+| `92f25feb6c099e52729ee353` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: zöldalma` |
+| `04b6002737bba678d0a87ad5` | íz `erdei gyümölcs` → `bogyós gyümölcs` |
+| `0fd88581b58ee3734f2c60ba` | íz `citrusfélék, citrus` → `citrus` |
+| `1c6cd8422caf0176abe52f25` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: cseresznye, tuttifrutti` |
+| `7c53ff533dbe9943c6342d52` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: tuttifrutti` |
+| `17792e0dd1311b2834b696e4` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: banán, eper` |
+| `bc4bf203482012b91854db53` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: zöldalma` |
+| `96c57bb00d741359cb99f902` | szénsavas `false` → `true` |
+| `a3af03f31ef01764e1a66b58` | szénsavas `false` → `true` |
+| `939872c282422159e95dc159` | szénsavas `false` → `true` |
+| `fe7157ee61d8aaf10d8fef30` | szénsavas `false` → `true` |
+| `ac47f21a5b871cf1adb84b29` | szénsavas `false` → `true` |
+| `57ef9fed02f3fcc755c1f083` | szénsavas `false` → `true` |
+| `a6a3dde21352bb0e979a0ee2` | szénsavas `false` → `true` |
+
+### Energiaital kézi felülvizsgálat, eredeti 251–275. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként
+  ellenőriztük, és mind a 25 terméknél közvetlen helyi képet
+  is részletes felbontásban vizsgáltunk.
+- A tizenhat korábbi funkcionális átsorolás miatt ezek a
+  rekordok a felülvizsgálat előtti Energiaital-lista
+  235–259. pozícióján álltak; az eredeti 251–275. tételként
+  naplózzuk őket, így egyetlen termék sem maradt ki.
+- Hat további New Gen doboz — két Black Cherry, két
+  Classic és két Green Apple — közvetlenül `Functional
+  Drink` megjelölésű. Mind a hatot kézzel a már meglévő
+  `Funkcionális italok → Sport-, izotóniás, kollagén- és
+  shot ital` levélbe soroltuk, `márka: New Gen`,
+  `funkció: funkcionális ital` és a pontos elemi ízekkel.
+- A HELL Apple Pie azonos pontos változatadata alma–fahéj
+  ízt és szénsavasságot igazolt. A Strong Apple és a Lemon
+  Pink-Grapefruit pontos változatánál szintén pótoltuk a
+  hiányzó szénsavasságot.
+- A Monster gyártói termékadata alapján a Rio Punch
+  feketeribizli–papaya–vanília, a Lando Norris Zero
+  görögdinnye–yuzu, a Full Throttle Zero Sugar pedig
+  nektarin–őszibarack ízt kapott. Az Ultra Strawberry
+  Dreams és az Ultra White közvetlen doboza és pontos
+  változatadata igazolta a cukormentességet.
+- Módosított rekord: **14**.
+- Módosított kategória- vagy tulajdonságmező: **27**.
+- Kézi kategória-átsorolás: **6**.
+- Változatlanul hagyott rekord: **11**
+  (`dc0780149d9601ba3175a271`,
+  `c522721111c4d22f43fabe9b`,
+  `0bbed5327ca072eecff6d77f`,
+  `cdb231cbf4c5457ae93af604`,
+  `5a682b03093f6a0ae4a9ffec`,
+  `fe60ec26ed9d88b282b5521e`,
+  `3c9e3d709597cf988ac15660`,
+  `2efc0cb76c91d18da3469bc2`,
+  `2a881996839d4871aab3a978`,
+  `53f0d0341a6dc13d0c1d5b75`,
+  `9307302ce2b9f2e49dac86d5`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `7f559e541da4e94036aff12a` | íz `apple pie` → `alma, fahéj`; szénsavas `false` → `true` |
+| `f341ed9a9f3a708d86ef16b7` | szénsavas `false` → `true` |
+| `cce70cd35ac80c742e96bf7a` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: cseresznye, tuttifrutti` |
+| `f84202bdabe2d0381a58cf24` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: tuttifrutti` |
+| `3af2610f71066f3371497f38` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: zöldalma` |
+| `d2122a39277570f982117353` | szénsavas `false` → `true` |
+| `1ac9eca2474ef9768e4eecac` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: tuttifrutti` |
+| `e035afa27df004c14d784c98` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: cseresznye, tuttifrutti` |
+| `880f55650f4af70ebe74f340` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: zöldalma` |
+| `fda7cf987c02cb3fa3222bfc` | íz hiányzó → `feketeribizli, papaya, vanília` |
+| `bf082d541f9f5be50eb66062` | íz hiányzó → `görögdinnye, yuzu` |
+| `60d8931efbdcec3f571364dc` | cukormentes `false` → `true` |
+| `d251730c330f8e12776db1af` | cukormentes `false` → `true` |
+| `d214df4d6b1849d6a2890477` | íz hiányzó → `nektarin, őszibarack` |
+
+### Energiaital kézi felülvizsgálat, eredeti 276–300. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként
+  ellenőriztük, és mind a 25 terméknél közvetlen helyi képet
+  is részletes felbontásban vizsgáltunk.
+- A huszonkét korábbi funkcionális átsorolás miatt ezek a
+  rekordok a felülvizsgálat előtti Energiaital-lista
+  254–278. pozícióján álltak; az eredeti 276–300. tételként
+  naplózzuk őket, így egyetlen termék sem maradt ki.
+- Három további New Gen doboz — Melon–Prickly Pear, Green
+  Apple és Strawberry–Banana — közvetlenül `Functional
+  Drink` megjelölésű. Mindhármat kézzel a már meglévő
+  `Funkcionális italok → Sport-, izotóniás, kollagén- és
+  shot ital` levélbe soroltuk, `márka: New Gen`,
+  `funkció: funkcionális ital` és a pontos elemi ízekkel.
+- Az Adrenalin Tayberry–Dragonfruit pontos dobozfelirata
+  igazolta, hogy a korábbi `málna, sárkánygyümölcs,
+  szeder` érték helyett a pontos `sárkánygyümölcs,
+  tayberry` ízpár tartozik a rekordhoz.
+- A Monster Viking Berry gyártói ízprofilját az egységes
+  `bogyós gyümölcs` értékre javítottuk; a Valentino Rossi
+  Zero két azonos jelentésű értékét `citrus` értékre
+  tisztítottuk. Az Ultra Fantasy Ruby Red pontos gyártói
+  változatadata `citrus, grapefruit` ízt és
+  cukormentességet igazolt.
+- Hét, rövidített nevű HELL Tesco-rekordnál a már más
+  forrásból is ellenőrzött pontos változat alapján pótoltuk
+  a hiányzó szénsavasságot: Classic, Black Cherry, Strong
+  Apple, Zero Classic, Strong Red Grape, Focus+ és Strong
+  Watermelon.
+- Módosított rekord: **14**.
+- Módosított kategória- vagy tulajdonságmező: **21**.
+- Kézi kategória-átsorolás: **3**.
+- Változatlanul hagyott rekord: **11**
+  (`7287e30d95dc3785da1a4b23`,
+  `539ae55aef93b98885d5bed8`,
+  `e7a89db7e811d082b26c567a`,
+  `47fa7c6f82bd22576c5a9dce`,
+  `9fc6f75328b6c92547396fb4`,
+  `3c58d757c1969a43d7877f0c`,
+  `6a83b91970bc914b33fb6ba5`,
+  `eab0c74f8dd78ae66d09e6f6`,
+  `121250239`, `121225656`, `121250274`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `0fd1019e7207fec53ac5557f` | íz `málna, sárkánygyümölcs, szeder` → `sárkánygyümölcs, tayberry` |
+| `5afd9885231d4657f23411c2` | íz `erdei gyümölcs` → `bogyós gyümölcs` |
+| `79e13bcee941dc1c18c3895d` | íz `citrusfélék, citrus` → `citrus` |
+| `1c7e7087a17f23e8b388f5c6` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: görögdinnye, kaktusz` |
+| `f9509cd13a6d60a61f52c8f3` | íz hiányzó → `citrus, grapefruit`; cukormentes `false` → `true` |
+| `121225380` | szénsavas `false` → `true` |
+| `121225996` | szénsavas `false` → `true` |
+| `121225368` | szénsavas `false` → `true` |
+| `121225345` | szénsavas `false` → `true` |
+| `121272806` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: zöldalma` |
+| `121225351` | szénsavas `false` → `true` |
+| `121225414` | szénsavas `false` → `true` |
+| `121272772` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: banán, eper` |
+| `121225495` | szénsavas `false` → `true` |
+
+### Energiaital kézi felülvizsgálat, eredeti 301–325. tétel
+
+- Mind a 25 teljes rekordot és forrássort egyenként
+  ellenőriztük, és mind a 25 terméknél közvetlen helyi képet
+  is részletes felbontásban vizsgáltunk.
+- A huszonöt korábbi funkcionális átsorolás miatt ezek a
+  rekordok a felülvizsgálat előtti Energiaital-lista
+  276–300. pozícióján álltak; az eredeti 301–325. tételként
+  naplózzuk őket, így egyetlen termék sem maradt ki.
+- Öt további New Gen doboz — a Black Cherry és Classic
+  500 ml-es, valamint a Classic, Black Cherry és Green
+  Apple 250 ml-es változata — közvetlenül `Functional
+  Drink` megjelölésű. Mind az ötöt kézzel a már meglévő
+  `Funkcionális italok → Sport-, izotóniás, kollagén- és
+  shot ital` levélbe soroltuk, `márka: New Gen`,
+  `funkció: funkcionális ital` és a pontos elemi ízekkel.
+- Négy Red Bull-változatnál — White Edition, Zero, Apricot
+  Edition és Blue Edition —, valamint három HELL-változatnál
+  — Zero White Peach, Zero Berry és Lemon Pink Grapefruit —
+  pótoltuk a hiányzó szénsavasságot. A HELL Berry ízét a
+  névvel egyező `bogyós gyümölcs` értékre normalizáltuk.
+- A V-Power teljes neve a már meglévő `vegyes gyümölcs`
+  értéket közvetlenül igazolta. Az Adrenalin
+  Tayberry–Dragonfruit dobozfelirata alapján a korábbi
+  `málna, sárkánygyümölcs, szeder` ízlistát a pontos
+  `sárkánygyümölcs, tayberry` párra javítottuk.
+- Módosított rekord: **14**.
+- Módosított kategória- vagy tulajdonságmező: **25**.
+- Kézi kategória-átsorolás: **5**.
+- Változatlanul hagyott rekord: **11**
+  (`121248364`, `121283154`, `121332638`, `121343395`,
+  `121343435`, `121343441`, `121343458`, `121343850`,
+  `121343867`, `121343885`, `121343896`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `121249490` | szénsavas `false` → `true` |
+| `121226822` | íz hiányzó → `vegyes gyümölcs` |
+| `121297564` | szénsavas `false` → `true` |
+| `121297570` | szénsavas `false` → `true` |
+| `121297587` | szénsavas `false` → `true` |
+| `121302824` | szénsavas `false` → `true` |
+| `121302847` | íz `erdei gyümölcs` → `bogyós gyümölcs`; szénsavas `false` → `true` |
+| `121314637` | szénsavas `false` → `true` |
+| `121343355` | íz `málna, sárkánygyümölcs, szeder` → `sárkánygyümölcs, tayberry` |
+| `121272766` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: cseresznye, tuttifrutti` |
+| `121272755` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: tuttifrutti` |
+| `121322443` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: tuttifrutti` |
+| `121322455` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: cseresznye, tuttifrutti` |
+| `121322466` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: zöldalma` |
+
+### Energiaital kézi felülvizsgálat, eredeti 326–346. tétel
+
+- Az energiaital-ág utolsó 21 teljes rekordját és
+  forrássorát egyenként ellenőriztük, és mind a 21
+  terméknél közvetlen helyi képet is részletes
+  felbontásban vizsgáltunk.
+- A harminc korábbi funkcionális átsorolás miatt ezek a
+  rekordok a felülvizsgálat előtti Energiaital-lista
+  296–316. pozícióján álltak; az eredeti 326–346. tételként
+  naplózzuk őket. A jelenlegi 315 energiaital és a kézzel
+  áthelyezett 31 funkcionális tétel együtt pontosan lefedi
+  az eredeti 346 energiaital-rekordot.
+- A New Gen Melon–Prickly Pear 250 ml-es doboza és teljes
+  neve közvetlenül `Functional Drink`, illetve
+  funkcionális ital megjelölést ad. Kézzel a már meglévő
+  `Funkcionális italok → Sport-, izotóniás, kollagén- és
+  shot ital` levélbe soroltuk, `márka: New Gen`,
+  `funkció: funkcionális ital`, `íz: görögdinnye, kaktusz`
+  tulajdonságokkal.
+- A már korábbi blokkokban kézzel igazolt, azonos Monster
+  változatokkal egyezően pótoltuk a Lando Norris,
+  Nitro Super Dry, Full Throttle és Rio Punch elemi
+  ízprofilját. Az Ultra, Strawberry Dreams, Fiesta Mango
+  és Ultra Rosá dobozának `Zero Sugar` / `Zero Cukor`
+  jelölése alapján javítottuk a cukormentességet.
+- A Strawberry Dreams ízlistájából eltávolítottuk a nem
+  elemi, az `eper` jelentését megismétlő `strawberry
+  dreams` értéket. A Valentino Rossi
+  `citrusfélék, citrus` duplikációját az egységes `citrus`
+  értékre tisztítottuk. A Burn Fruit Punch teljes neve a
+  már meglévő `vegyes gyümölcs` ízt közvetlenül igazolta.
+- Módosított rekord: **11**.
+- Módosított kategória- vagy tulajdonságmező: **14**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **10**
+  (`121344054`, `121344077`, `121344123`, `121344175`,
+  `121344336`, `121344359`, `121344371`, `121344388`,
+  `121347137`, `121350121`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `121344060` | íz hiányzó → `vegyes gyümölcs` |
+| `121344083` | íz hiányzó → `görögdinnye, yuzu` |
+| `121344135` | íz hiányzó → `citrus` |
+| `121344198` | íz hiányzó → `nektarin, őszibarack` |
+| `121344209` | cukormentes `false` → `true` |
+| `121344215` | íz `eper, strawberry dreams` → `eper`; cukormentes `false` → `true` |
+| `121344250` | cukormentes `false` → `true` |
+| `121344325` | íz hiányzó → `feketeribizli, papaya, vanília` |
+| `121344365` | cukormentes `false` → `true` |
+| `121345595` | íz `citrusfélék, citrus` → `citrus` |
+| `121349901` | `Energiaital` → `Funkcionális italok / Sport-, izotóniás, kollagén- és shot ital`; tulajdonságok → `márka: New Gen`, `funkció: funkcionális ital`, `íz: görögdinnye, kaktusz` |
+
+### Funkcionális ital kézi felülvizsgálat, 1. új blokk
+
+- A céllevél első 25 még nem vizsgált teljes rekordját és
+  forrássorát egyenként ellenőriztük, és mind a 25
+  terméknél közvetlen helyi képet is részletes
+  felbontásban vizsgáltunk.
+- A jelenlegi lista 1–29. pozíciójából a 10–13. pozíción
+  álló négy, korábban az Energiaital ágból kézzel
+  áthelyezett rekordot egyedi azonosító alapján kihagytuk.
+  Így ez a blokk 25 új terméket fed le, ismételt
+  előrehaladás-számítás nélkül.
+- Négy kizárólag kollagénesként megnevezett és feliratozott
+  italról eltávolítottuk a téves `sportital` funkciót.
+  A Vitalade sport üdítőital és a Powerade Mountain Blast
+  Zero esetén az `izotóniás` funkciót töröltük, mert azt
+  sem a teljes név, sem a közvetlen címke nem igazolja.
+- A három Absolute Live termék márkáját a teljes névvel,
+  forrásmárkával és palackfelirattal egyezően javítottuk.
+  A céllevélben az `Absolute` érték használatlan lett, ezért
+  az engedélyezett márkák közül is töröltük.
+- Három Mountain Blast rekord ízét a részletesebb
+  forrásnevek alapján javítottuk: két normál változat
+  `vegyes gyümölcs`, a zéró változat `bogyós gyümölcs`
+  értéket kapott.
+- Módosított rekord: **10**.
+- Módosított kategória- vagy tulajdonságmező: **12**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **15**
+  (`3371615`, `3373461`, `3374385`, `997176`,
+  `818540:4355930`, `787775:4325165`,
+  `796328:4333718`, `830327:4367717`,
+  `777651:4315041`, `777642:4315032`,
+  `793133:4330523`, `677993:4215383`,
+  `712703:4250093`, `678086:4215476`,
+  `678077:4215467`).
+- Új megengedett érték: **3** (`márka`: `Absolute Live`;
+  `íz`: `bogyós gyümölcs`, `vegyes gyümölcs`).
+- Törölt megengedett érték: **1** (`márka`: `Absolute` a
+  céllevélből).
+- A kategóriafa bővítése után, minden rekordcsere után, az
+  elavult márkaérték törlése után és a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `997162` | íz `áfonya` → `vegyes gyümölcs` |
+| `685031:4222421` | funkció `sportital, kollagén` → `kollagén` |
+| `777648:4315038` | funkció `sportital, kollagén` → `kollagén` |
+| `684320:4221710` | funkció `sportital, kollagén` → `kollagén` |
+| `680642:4218032` | márka `Absolute` → `Absolute Live`; funkció `sportital, kollagén` → `kollagén` |
+| `684305:4221695` | márka `Absolute` → `Absolute Live` |
+| `683972:4221362` | márka `Absolute` → `Absolute Live` |
+| `686129:4223519` | funkció `sportital, izotóniás` → `sportital` |
+| `678080:4215470` | íz `erdei gyümölcs` → `vegyes gyümölcs` |
+| `678083:4215473` | íz `erdei gyümölcs` → `bogyós gyümölcs`; funkció `sportital, izotóniás` → `sportital` |
+
+### Funkcionális ital kézi felülvizsgálat, 2. új blokk
+
+- A céllevél következő 25 még nem vizsgált teljes rekordját
+  és forrássorát egyenként ellenőriztük. **22** terméknél
+  közvetlen helyi képet is részletes felbontásban
+  vizsgáltunk; **3** rekordnál nem volt helyi kép
+  (`3372230`, `3372116`, `2808604`).
+- A jelenlegi lista 30–55. pozíciójából az 53. pozíción
+  álló, korábban az Energiaital ágból kézzel áthelyezett
+  rekordot egyedi azonosító alapján kihagytuk. A három kép
+  nélküli rekordot csak a teljes név és forrás alapján
+  vizsgáltuk, és bizonyíték hiányában változatlanul hagytuk.
+- Két Gatorade-rekordnál a név és a gyártói termékadat csak
+  sportitalt igazolt, ezért eltávolítottuk az
+  `izotóniás` értéket. A Radler Reboost neve viszont csak
+  izotóniás italt közöl, ezért ott a téves `sportital`
+  értéket töröltük.
+- A két Friss+ doboz márkáját a forrásmárkával és a
+  közvetlen címkével egyezően `Friss` értékre javítottuk.
+  A céllevélben használatlanná vált `Borsodi` márkaértéket
+  töröltük.
+- A Solevita Ginger Shot közvetlen dobozpereme alma,
+  citrom és gyömbér, a Ginger Turmeric Shoté citrom,
+  gyömbér, kurkuma és narancs összetevőízt sorol fel; az
+  elemi ízlistákat ennek megfelelően kiegészítettük.
+- Négy Powerade-ismétlődésnél a már kézzel igazolt pontos
+  ízt vittük át: Golden Mango → `mangó`, Mountain Blast →
+  `vegyes gyümölcs`, Mountain Blast Zero → `bogyós
+  gyümölcs`. A két zéró / Body&Mind termékről
+  eltávolítottuk a névvel és gyártói változatadattal nem
+  igazolt `izotóniás` értéket.
+- A Coca-Cola hivatalos magyar és német Powerade-oldala
+  alapján a Playstyles Attack íze `fahéj`, a Midfieldé
+  `sárgadinnye`; mindkettő izotóniás sportital, ezért a
+  funkciólistájuk változatlan maradt.
+- Módosított rekord: **14**.
+- Módosított kategória- vagy tulajdonságmező: **15**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **11**
+  (`824750:4362140`, `824747:4362137`,
+  `847973:4385363`, `3372230`, `3372116`, `2817978`,
+  `2808604`, `10000567`, `10055678`,
+  `BTY-X18120400320021`, `BTY-X17316400320021`).
+- Új megengedett érték: **2** (`márka`: `Friss`; `íz`:
+  `sárgadinnye`).
+- Törölt megengedett érték: **1** (`márka`: `Borsodi` a
+  céllevélből).
+- A kategóriafa bővítése után, minden rekordcsere után, az
+  elavult márkaérték törlése után és a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `712577:4249967` | íz `citrom, mangó` → `mangó` |
+| `675260:4212650` | funkció `sportital, izotóniás` → `sportital` |
+| `675257:4212647` | funkció `sportital, izotóniás` → `sportital` |
+| `827387:4364777` | funkció `sportital, izotóniás` → `izotóniás` |
+| `1034975:4572365` | márka `Borsodi` → `Friss` |
+| `1034978:4572368` | márka `Borsodi` → `Friss` |
+| `10000450` | íz `gyömbér` → `alma, citrom, gyömbér` |
+| `10000456` | íz `gyömbér, kurkuma` → `citrom, gyömbér, kurkuma, narancs` |
+| `BTY-X18120800320021` | funkció `sportital, izotóniás` → `sportital` |
+| `BTY-X17316200320021` | íz `erdei gyümölcs` → `vegyes gyümölcs` |
+| `BTY-X17316500320021` | íz `erdei gyümölcs` → `bogyós gyümölcs`; funkció `sportital, izotóniás` → `sportital` |
+| `BTY-X17693600320021` | íz `citrom, mangó` → `mangó` |
+| `BTY-X18885500320021` | íz `vérnarancs` → `fahéj` |
+| `BTY-X18885800320021` | íz `erdei gyümölcs` → `sárgadinnye` |
+
+### Funkcionális ital kézi felülvizsgálat, 3. új blokk
+
+- A céllevél következő 25 még nem vizsgált teljes rekordját
+  és forrássorát egyenként ellenőriztük, és mind a 25
+  terméknél közvetlen helyi képet is részletes
+  felbontásban vizsgáltunk.
+- A jelenlegi lista 56–84. pozíciójából az 57., 59., 74.
+  és 75. pozíción álló négy, korábban az Energiaital
+  ágból kézzel áthelyezett rekordot egyedi azonosító
+  alapján kihagytuk. Így ez a blokk 25 új terméket fed le,
+  ismételt előrehaladás-számítás nélkül.
+- Négy Gatorade-rekord, a Prime Barcelona kiadás és két
+  Vitalade teljes neve, forrásadata és közvetlen címkéje
+  sportitalt, illetve hidratációs italt igazol, de
+  izotóniás termékállítást nem. Ezért ezekről eltávolítottuk
+  a téves `izotóniás` funkciót.
+- Két Powerade Mountain Blast ismétlődésnél a teljes
+  terméknév szó szerint vegyesgyümölcs-ízt közöl, ezért az
+  ízértéket `erdei gyümölcs` helyett a már engedélyezett
+  `vegyes gyümölcs` értékre javítottuk.
+- Az Apenta+ ISOTONIC kaktusz és ananász közvetlen címkéje
+  az `ISOTONIC` felirat mellett sportitalként is azonosítja
+  a terméket, ezért ezek kettős funkcióját változatlanul
+  hagytuk.
+- Módosított rekord: **9**.
+- Módosított kategória- vagy tulajdonságmező: **9**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **16**
+  (`BTY-X17350600320021`, `BTY-X17352500320021`,
+  `BTY-X18623300320021`, `BTY-X17423900320021`,
+  `BTY-X17655200320021`, `BTY-X18655200320021`,
+  `BTY-X18655400320021`, `BTY-X17301300320021`,
+  `BTY-X17408200320021`, `BTY-X18275900320021`,
+  `1016657`, `1174081`, `997966`,
+  `816e81644594d6fda72e93ad`,
+  `ebab72eea455b5a2daa6c8a5`,
+  `518b07a8ac830f53decf20ea`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `BTY-X17348200320021` | funkció `sportital, izotóniás` → `sportital` |
+| `BTY-X18330100320021` | funkció `sportital, izotóniás` → `sportital` |
+| `BTY-X17347900320021` | funkció `sportital, izotóniás` → `sportital` |
+| `BTY-X17234600320021` | funkció `sportital, izotóniás` → `sportital` |
+| `BTY-X17234500320021` | funkció `sportital, izotóniás` → `sportital` |
+| `996499` | íz `erdei gyümölcs` → `vegyes gyümölcs` |
+| `0c58458333d5ea3024592e5b` | funkció `sportital, izotóniás` → `sportital` |
+| `9372bd4f79187e7537a1d98b` | funkció `sportital, izotóniás` → `sportital` |
+| `138ffff3d4ffb19f95a5a9f5` | íz `erdei gyümölcs` → `vegyes gyümölcs` |
+
+### Funkcionális ital kézi felülvizsgálat, 4. új blokk
+
+- A céllevél következő 25 még nem vizsgált teljes rekordját
+  és forrássorát egyenként ellenőriztük, és mind a 25
+  terméknél közvetlen helyi képet is részletes
+  felbontásban vizsgáltunk.
+- A jelenlegi lista 85–123. pozíciójából 14, korábban az
+  Energiaital ágból kézzel áthelyezett rekordot egyedi
+  azonosító alapján kihagytunk (89–91., 96–99. és
+  113–119. pozíció). Így ez a blokk 25 új terméket fed le,
+  ismételt előrehaladás-számítás nélkül.
+- Két zéró Mountain Blast ismétlődésnél a név szerinti
+  `bogyós gyümölcs` ízt rögzítettük, és eltávolítottuk a
+  névvel vagy címkével nem igazolt `izotóniás` funkciót.
+  Egy normál Mountain Blast ízét `vegyes gyümölcs`
+  értékre javítottuk.
+- Két Apenta+ Isotonic rekord hiányzó `vegyes gyümölcs`
+  ízét pótoltuk; mindkét név szó szerint közli az ízt.
+- A mangóízű Powerade-ről eltávolítottuk a téves `citrom`
+  ízt, egy Gatorade Cool Blue ismétlődésről pedig a névvel
+  és címkével nem igazolt `izotóniás` funkciót.
+- Módosított rekord: **7**.
+- Módosított kategória- vagy tulajdonságmező: **9**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **18**
+  (`3b9742fc15fdd5a8b3d858c6`,
+  `5f513de20a5a09d65444a9c1`,
+  `85ae3dad027a8eed0eeba08c`,
+  `24ad66a1ff1485a796a1ded9`,
+  `7486a3db2557fbcbc4d53be2`,
+  `e323c33c9d7f89dd56124bf1`,
+  `66ac4c21564cf55eaca82c29`,
+  `0c92888e66223ecb13dcc8b9`,
+  `84cff7483ff5d2096fa310e6`,
+  `279787f97383b762332eac0c`,
+  `8c4b16713a2ebd9260920dd1`,
+  `5ade240c14c1d7b9429f21c0`,
+  `5dbce6fc8e00ebc1e37ba67a`,
+  `e70cca5811d2900e58179ae7`,
+  `0dd9f03167a14fdaeee21eac`,
+  `3da8218458c5808af91985ca`,
+  `c4a853b2096a4af427d875ab`,
+  `5c6ce771e1e3aed98aaf9dfa`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `c318439a223df2f11b735032` | íz `erdei gyümölcs` → `bogyós gyümölcs`; funkció `sportital, izotóniás` → `sportital` |
+| `f8d24a312df124f2915e727c` | íz `citrom, mangó` → `mangó` |
+| `d5fc0c805d317230a9161e8c` | íz hiányzott → `vegyes gyümölcs` |
+| `864984a8db814593761cb46a` | íz hiányzott → `vegyes gyümölcs` |
+| `c508c15cf870e8b947c342ea` | íz `erdei gyümölcs` → `vegyes gyümölcs` |
+| `7b6195bc29679961296c414b` | íz `erdei gyümölcs` → `bogyós gyümölcs`; funkció `sportital, izotóniás` → `sportital` |
+| `baa2e9115428822030942b1b` | funkció `sportital, izotóniás` → `sportital` |
+
+### Funkcionális ital kézi felülvizsgálat, 5. új blokk
+
+- A céllevél következő 25 még nem vizsgált teljes rekordját
+  és forrássorát egyenként ellenőriztük, és mind a 25
+  terméknél közvetlen helyi képet is részletes
+  felbontásban vizsgáltunk.
+- A jelenlegi lista 124–152. pozíciójából a 137–140.
+  pozíción álló négy, korábban az Energiaital ágból kézzel
+  áthelyezett rekordot egyedi azonosító alapján kihagytuk.
+  Így ez a blokk 25 új terméket fed le, ismételt
+  előrehaladás-számítás nélkül.
+- A Powerade Midfield ízét a teljes névvel egyezően
+  `sárgadinnye` értékre javítottuk. A Radler Reboost neve
+  csak izotóniás italt igazol, ezért a téves `sportital`
+  funkciót eltávolítottuk.
+- Egy normál Mountain Blast ízét `vegyes gyümölcs`
+  értékre, egy zéró változatét `bogyós gyümölcs` értékre
+  javítottuk; a zéró változatról a nem igazolt
+  `izotóniás` funkciót is töröltük.
+- A mangóízű Powerade-ről eltávolítottuk a téves `citrom`
+  ízt. Két Gatorade és egy Vitalade ismétlődésnél a név és
+  a közvetlen címke csak sportitalt igazol, ezért ezekről
+  töröltük az `izotóniás` funkciót.
+- Módosított rekord: **8**.
+- Módosított kategória- vagy tulajdonságmező: **9**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **17**
+  (`b92b72e0be613d1ac900e255`,
+  `33afd4130cf3c3365d157347`,
+  `0c773144018f2503dcf6fb14`,
+  `210df58a04723dc21c50ed06`,
+  `b6656f290b8e40c3fc7bbcd9`, `105010609`,
+  `105010606`, `121328166`, `121220005`, `121254045`,
+  `121218141`, `121217085`, `121232152`, `121254892`,
+  `121233306`, `121254022`, `121254379`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `13c9d2cd833d788edc8d1f71` | íz `görögdinnye` → `sárgadinnye` |
+| `011fa465ecd9b3bf893eb250` | funkció `sportital, izotóniás` → `izotóniás` |
+| `121217044` | íz `erdei gyümölcs` → `vegyes gyümölcs` |
+| `121255159` | íz `erdei gyümölcs` → `bogyós gyümölcs`; funkció `sportital, izotóniás` → `sportital` |
+| `121259783` | íz `citrom, mangó` → `mangó` |
+| `121223422` | funkció `sportital, izotóniás` → `sportital` |
+| `121226897` | funkció `sportital, izotóniás` → `sportital` |
+| `121223439` | funkció `sportital, izotóniás` → `sportital` |
+
+### Funkcionális ital kézi felülvizsgálat, 6. záró blokk
+
+- A céllevél utolsó 16 még nem vizsgált teljes rekordját
+  és forrássorát egyenként ellenőriztük, és mind a 16
+  terméknél közvetlen helyi képet is részletes
+  felbontásban vizsgáltunk.
+- A jelenlegi lista 153–172. pozíciójából a 159–161. és
+  169. pozíción álló négy, korábban az Energiaital ágból
+  kézzel áthelyezett rekordot egyedi azonosító alapján
+  kihagytuk. Így ez a blokk 16 új terméket fed le, ismételt
+  előrehaladás-számítás nélkül.
+- Az Andros Memory+ teljes neve a már rögzített málna és
+  gránátalma mellett chilipaprika-kivonatot is közöl. A
+  céllevélhez felvettük a normalizált `chili` ízértéket, és
+  ezt a rekord ízlistájához is hozzáadtuk.
+- A Radler Reboost ismétlődés neve csak izotóniás italt
+  igazol, ezért eltávolítottuk a téves `sportital`
+  funkciót.
+- A Prime Hydration Barcelona és az Apenta+ Isotonic teljes
+  neve szó szerint vegyesgyümölcs-ízt közöl; a két hiányzó
+  ízmezőt a már engedélyezett `vegyes gyümölcs` értékkel
+  pótoltuk.
+- Módosított rekord: **4**.
+- Módosított kategória- vagy tulajdonságmező: **4**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **12**
+  (`121288926`, `121302980`, `121306475`, `121309448`,
+  `121322656`, `121322662`, `121322679`, `121342195`,
+  `121342235`, `121356915`, `121356938`, `220372569`).
+- Új megengedett érték: **1** (`íz`: `chili`).
+- Törölt megengedett érték: **0**.
+- A kategóriafa bővítése után, minden rekordcsere után és a
+  végén is lefutott a 47 030 rekordos teljes validáció;
+  eltérés nem maradt.
+- A jelenlegi **172** termékes céllevél minden rekordja
+  kézzel ellenőrzött: 141 eredeti rekord ebben a hat
+  blokkban, 31 rekord pedig már az Energiaital ág
+  felülvizsgálatakor, az átsorolása előtt kapott teljes
+  kézi ellenőrzést.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `111273604` | íz `gránátalma, málna` → `chili, gránátalma, málna` |
+| `121320612` | funkció `sportital, izotóniás` → `izotóniás` |
+| `121322691` | íz hiányzott → `vegyes gyümölcs` |
+| `121342246` | íz hiányzott → `vegyes gyümölcs` |
+
+### Smoothie és püréital kézi felülvizsgálat, 1. blokk
+
+- A céllevél első 25 teljes rekordját és forrássorát
+  egyenként ellenőriztük, és mind a 25 terméknél közvetlen
+  helyi képet is részletes felbontásban vizsgáltunk.
+- A sárga és fehér Rio D'Oro palack közvetlen címkéje
+  tételesen felsorolja a gyümölcsöket; ezek alapján
+  pótoltuk a korábban teljesen hiányzó ízlistákat.
+- Az alma–eper–tőzegáfonya Auchan smoothie általános
+  `áfonya` értékét a pontos `tőzegáfonya` értékre
+  javítottuk, az alma–mangó–sütőtök–gyömbér változatnál
+  pedig pótoltuk a hiányzó sütőtököt.
+- Négy Sió smoothie közvetlen címkéjéről rögzítettük a
+  tételes gyümölcs- és zöldségösszetételt. A negyedik
+  blokkban megnyitott nagy felbontású, azonos címkék az
+  erdei piros bogyós, a frissítő zöld kivi, a Kék Balaton
+  és a trópusi mangó korábbi olvasatát tovább pontosították;
+  ezek visszamenőleges korrekcióját ott külön naplóztuk.
+- A `4599179` és `4599180` Rio D'Oro rekordnál a forrásnév
+  és a helyi kép felcserélt színváltozatot mutat: a „piros”
+  rekord képe Green, a „zöld” rekordé Red. Az ellentmondó
+  bizonyíték miatt egyikhez sem rendeltünk ízlistát, és a
+  két rekordot változatlanul hagytuk.
+- Módosított rekord: **9**.
+- Módosított kategória- vagy tulajdonságmező: **9**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **16**
+  (`534752`, `534753`, `534754`, `4599179`, `4599180`,
+  `849917:4387307`, `778329:4315719`,
+  `582181:4119571`, `40069:40072`,
+  `632729:4170119`, `40075:40078`,
+  `513677:4051067`, `40072:40075`,
+  `602705:4140095`, `602711:4140101`,
+  `470192:4007564`).
+- Új megengedett érték: **6** (`íz`: `cékla`, `cikória`,
+  `füge`, `sárgabarack`, `sütőtök`, `tőzegáfonya`).
+- Törölt megengedett érték: **0**.
+- A kategóriafa bővítése után, minden rekordcsere után és a
+  végén is lefutott a 47 030 rekordos teljes validáció;
+  eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `4599177` | íz hiányzott → `alma, banán, kókusz, mangó, maracuja, narancs` |
+| `4599178` | íz hiányzott → `ananász, banán, citrom, kókusz, mangó` |
+| `849920:4387310` | íz `áfonya, alma, eper` → `alma, eper, tőzegáfonya` |
+| `849923:4387313` | íz `alma, gyömbér, mangó` → `alma, gyömbér, mangó, sütőtök` |
+| `782153:4319543` | íz `erdei gyümölcs` → `alma, feketeribizli, gránátalma, málna` |
+| `791204:4328594` | íz `kivi, zöldalma` → `alma, banán, füge, kivi, narancs` |
+| `775974:4313364` | íz hiányzott → `alma, banán, őszibarack, sárgabarack` |
+| `775977:4313367` | íz hiányzott → `alma, banán, cékla, cikória, citrom, gyömbér, narancs, sárgarépa` |
+| `782150:4319540` | íz `mangó` → `alma, banán, mangó, narancs` |
+
+### Smoothie és püréital kézi felülvizsgálat, 2. blokk
+
+- A céllevél következő 25 teljes rekordját és forrássorát
+  egyenként ellenőriztük. **18** rekordhoz tartozott helyi
+  képfájl, **7** rekordhoz nem volt kép.
+- A `2756150` Coop-rekord helyi képe nem terméket, hanem
+  Perfex papírtörlőt mutat. Ezt a nyilván téves képet nem
+  használtuk bizonyítékként; a rekord pontos neve viszont
+  önmagában igazolja a már meglévő barackízt és 100%-os
+  gyümölcstartalmat.
+- Három Sió Natura tasak közvetlen címkéje `100%`
+  gyümölcstartalmat közöl, ezért ezt pótoltuk. A képeken
+  látható gyümölcsök alapján a banánoshoz almát, az epreshez
+  almát, a trópusihoz almát, ananászt, mangót és maracuját
+  rögzítettünk.
+- A Solevita Tropical Wonder közvetlen címkéje ananászt,
+  banánt és kókuszt, a Vemondo Oat Smoothie mangót és epret
+  igazol; a korábban hiányzó ízlistákat pótoltuk.
+- Az öt nagy kiszerelésű Sió smoothie címkéjéről tételesen
+  rögzítettük az összetételt. A Relax korábbi
+  `erdei gyümölcs` és `kékszőlő` értékei helyett a címke
+  szerinti alma, áfonya, feketeszeder és szilva került be;
+  a Kék Balaton nagy felbontású címkéje pedig alma, banán,
+  körte, őszibarack és sárgabarack összetételt igazol. A
+  negyedik blokkban felismert hiányzó körtét ezen a korábbi
+  rekordon is visszamenőleg pótoltuk.
+- Módosított rekord: **10**.
+- Módosított kategória- vagy tulajdonságmező: **13**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **15**
+  (`9571:9574`, `148651:3685897`, `9568:9571`,
+  `440434:3977818`, `440431:3977815`,
+  `513662:4051052`, `2776258`, `2756150`, `2754364`,
+  `2754261`, `2754226`, `2754219`, `2754218`, `2753212`,
+  `BTY-X16539800320021`).
+- Új megengedett érték: **2** (`íz`: `feketeszeder`,
+  `szilva`).
+- Törölt megengedett érték: **0**.
+- A kategóriafa bővítése után, minden rekordcsere után és a
+  végén is lefutott a 47 030 rekordos teljes validáció;
+  eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `536931:4074321` | gyümölcstartalom hiányzott → `100%`; íz `banán` → `alma, banán` |
+| `533153:4070543` | gyümölcstartalom hiányzott → `100%`; íz `eper` → `alma, eper` |
+| `533147:4070537` | gyümölcstartalom hiányzott → `100%`; íz hiányzott → `alma, ananász, mangó, maracuja` |
+| `10003689` | íz hiányzott → `ananász, banán, kókusz` |
+| `10101629` | íz hiányzott → `eper, mangó` |
+| `BTY-X17539800320022` | íz `alma, narancs, sárgarépa` → `alma, banán, cékla, cikória, citrom, gyömbér, narancs, sárgarépa` |
+| `BTY-X17540000320022` | íz `alma, erdei gyümölcs, kékszőlő` → `áfonya, alma, feketeszeder, szilva` |
+| `BTY-X17539500320022` | íz `mangó` → `acerola, alma, banán, mangó, narancs` |
+| `BTY-X17539600320022` | íz `kivi` → `acerola, alma, banán, füge, kivi` |
+| `BTY-X17539700320022` | íz `alma, kékszőlő` → `alma, banán, őszibarack, sárgabarack` |
+
+### Smoothie és püréital kézi felülvizsgálat, 3. blokk
+
+- A céllevél következő 25 teljes rekordját és forrássorát
+  egyenként ellenőriztük. **22** rekordhoz tartozott helyi
+  kép, **3** rekordhoz nem volt kép
+  (`BTY-X14973600320021`, `BTY-X15563000320021`,
+  `BTY-X7821700320022`).
+- A Sió Vitatigris tasakok közvetlen címkéjén
+  `100% gyümölcs` szerepel. Ezt a köteg nyolc érintett
+  rekordjánál pótoltuk. Az azonos, már az első blokkban
+  ellenőrzött barackos és mangós változatnál
+  (`582181:4119571`, `470192:4007564`) ugyanaz a hiány
+  maradt, ezért ezeket utólag is javítottuk, de az
+  előrehaladásban nem számoltuk új terméknek.
+- A kép nélküli banános Sió Natura az előző blokkban
+  közvetlen képpel igazolt, pontosan azonos nevű és méretű
+  termék ismétlődése; ennek alapján `100%`
+  gyümölcstartalmat és alma–banán ízlistát kapott. A
+  trópusi változatnál ugyanezt a közvetlen címkét a mostani
+  képfájl is igazolja.
+- A két Kubu Immuno tasaknál a `100%` gyümölcstartalom
+  mellett a címkén felsorolt összes gyümölcs- és
+  zöldségízt rögzítettük. A körte változatnál a pontos
+  `bodzabogyó` váltotta az általános `bodza` értéket.
+- A Penny To Go címkéje ananász, banán és kókusz
+  összetételt igazol. Négy palackos Sió ismétlődésnél az
+  első blokkokban rendelkezésre álló tételes ízlistákat
+  vittük át. A negyedik blokk nagy felbontású címkéi négy
+  listát tovább pontosítottak; ezeket ott visszamenőleges
+  korrekcióként naplóztuk.
+- Módosított rekord: **19** (**17** a mostani 25 új
+  rekordból, **2** korábbi rekord utólagos korrekciója).
+- Módosított kategória- vagy tulajdonságmező: **23**
+  (**21** a mostani blokkban, **2** utólag).
+- Kézi kategória-átsorolás: **0**.
+- A mostani blokkból változatlanul hagyott rekord: **8**
+  (`BTY-X6399600320022`, `BTY-X6399700320022`,
+  `BTY-X6399800320022`, `BTY-X15011700320021`,
+  `BTY-X16218800320021`, `BTY-X16218900320021`,
+  `2158ecc3230dd9e172cb9140`,
+  `5b29a6e6601140c4400b9faa`).
+- Új megengedett érték: **1** (`íz`: `bodzabogyó`).
+- Törölt megengedett érték: **0**.
+- A kategóriafa bővítése után, minden rekordcsere után és a
+  végén is lefutott a 47 030 rekordos teljes validáció;
+  eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `582181:4119571` | gyümölcstartalom hiányzott → `100%` (utólagos korrekció) |
+| `470192:4007564` | gyümölcstartalom hiányzott → `100%` (utólagos korrekció) |
+| `BTY-X14973600320021` | gyümölcstartalom hiányzott → `100%` |
+| `BTY-X15563000320021` | gyümölcstartalom hiányzott → `100%`; íz `banán` → `alma, banán` |
+| `BTY-X7467700320022` | gyümölcstartalom hiányzott → `100%` |
+| `BTY-X16027500320021` | gyümölcstartalom hiányzott → `100%` |
+| `BTY-X7821900320022` | gyümölcstartalom hiányzott → `100%` |
+| `BTY-X15551700320021` | gyümölcstartalom hiányzott → `100%`; íz hiányzott → `alma, ananász, mangó, maracuja` |
+| `BTY-X7821700320022` | gyümölcstartalom hiányzott → `100%` |
+| `BTY-X17173000320021` | gyümölcstartalom hiányzott → `100%` |
+| `BTY-X18334000320021` | gyümölcstartalom hiányzott → `100%`; íz `bodza, körte` → `acerola, alma, banán, bodzabogyó, körte, sárgarépa` |
+| `BTY-X18334100320021` | gyümölcstartalom hiányzott → `100%`; íz `csipkebogyó, málna` → `acerola, alma, banán, csipkebogyó, eper, hibiszkusz, málna, sárgarépa` |
+| `4603362` | íz hiányzott → `ananász, banán, kókusz` |
+| `30a58a1ffb2809734ffa7d77` | gyümölcstartalom hiányzott → `100%` |
+| `371bfa9528c2eb9e543a4836` | gyümölcstartalom hiányzott → `100%` |
+| `a2ee300e92edd2ce7f3847ed` | íz `erdei gyümölcs` → `alma, feketeribizli, gránátalma, málna` |
+| `1ad5839771478737c907b11c` | íz `kivi, zöldalma` → `alma, banán, füge, kivi, narancs` |
+| `04da4bf276b0d5ef014c5fb8` | íz hiányzott → `alma, banán, őszibarack, sárgabarack` |
+| `310b6618a08658d92c3dd376` | íz `mangó` → `alma, banán, mangó, narancs` |
+
+### Smoothie és püréital kézi felülvizsgálat, 4. blokk
+
+- A céllevél következő 25 teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz tartozott
+  közvetlen helyi képfájl; az öt részletes képlapot és a
+  bizonyító erejű címkéket eredeti felbontásban is
+  megvizsgáltuk.
+- A Kubu alma–banán–eper–sárgarépa, a két Kubu Immuno és a
+  nyolc Sió Vitatigris tasak címkéje közvetlenül `100%`
+  püré-, illetve gyümölcstartalmat igazol, ezért a hiányzó
+  értéket pótoltuk. A körtés Kubu Immuno pontatlan `bodza`
+  értékét a címke szerinti `bodzabogyó` értékre javítottuk.
+- A palackos Sió Smoothie címkéket külön-külön, nagy
+  felbontásban olvastuk le. A Kék Balaton öt összetevője
+  alma, banán, körte, őszibarack és sárgabarack; az erdei
+  piros bogyósé áfonya, alma, banán, gránátalma és málna.
+  A trópusi mangó acerola–alma–banán–mangó–narancs, a
+  frissítő zöld kivi acerola–alma–banán–füge–kivi, az Immun
+  pedig alma–banán–cékla–cikória–citrom–gyömbér–narancs–
+  sárgarépa összetételt közöl. A két Relax palacknál az
+  áfonya–alma–feketeszeder–szilva lista került be.
+- Ugyanezek a címkék tíz, az első három blokkban már
+  ellenőrzött rekord korábbi, rövidebb ízlistáját is
+  pontosították. Ezek nem új termékellenőrzések, ezért az
+  összesített előrehaladást nem növelték.
+- Módosított rekord: **27** (**17** a mostani 25 új
+  rekordból, **10** korábbi rekord utólagos korrekciója).
+- Módosított kategória- vagy tulajdonságmező: **28**
+  (**18** a mostani blokkban, **10** utólag).
+- Kézi kategória-átsorolás: **0**.
+- A mostani blokkból változatlanul hagyott rekord: **8**
+  (`bd995bf53ad2839bac0f3937`,
+  `c8468dc8b263717636435074`,
+  `72f9654d625ffc2a1ed6fe47`,
+  `f7b02ae3a354f87b04ee0478`,
+  `6a6c94adaf66dd29f4c5f062`,
+  `1c0bdaddfbab8c4e28a3cae5`,
+  `b427d98e8977ee0d330fd89e`,
+  `e5c2b7638e5b5ce9525d4560`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `4f89d6e2e0d6107482d54403` | gyümölcstartalom hiányzott → `100%` |
+| `03f69e37a32ef60be065c483` | gyümölcstartalom hiányzott → `100%` |
+| `6fbe900ca5dc4ed4473a3545` | gyümölcstartalom hiányzott → `100%` |
+| `bc99dc8281ae6190396fef63` | gyümölcstartalom hiányzott → `100%`; íz `acerola, alma, banán, bodza, körte, sárgarépa` → `acerola, alma, banán, bodzabogyó, körte, sárgarépa` |
+| `a920f4472f583fa5ee61f503` | gyümölcstartalom hiányzott → `100%` |
+| `ad9df10725f96fe1644950b6` | íz hiányzott → `áfonya, alma, feketeszeder, szilva` |
+| `4b471036334b70a2d914e5b0` | íz hiányzott → `alma, banán, körte, őszibarack, sárgabarack` |
+| `628b2efbb6f3991306303d38` | íz `erdei gyümölcs` → `áfonya, alma, banán, gránátalma, málna` |
+| `e53d95437f2838192d3d832b` | íz hiányzott → `alma, banán, cékla, cikória, citrom, gyömbér, narancs, sárgarépa` |
+| `015757a9096c30525cd97616` | íz hiányzott → `áfonya, alma, feketeszeder, szilva` |
+| `0ecb8cb462b0306e62b3b2a5` | íz `mangó` → `acerola, alma, banán, mangó, narancs` |
+| `243e6210264ef5bc31c7922a` | íz `kivi, zöldalma` → `acerola, alma, banán, füge, kivi` |
+| `a266a4fc8dd3bc784da1f368` | gyümölcstartalom hiányzott → `100%` |
+| `1b61d2a6bc75fe87127b7493` | gyümölcstartalom hiányzott → `100%` |
+| `4f6f9b51bf2d8d9c80ff2e8c` | gyümölcstartalom hiányzott → `100%` |
+| `6bd3272b45f2481613f63d2e` | gyümölcstartalom hiányzott → `100%` |
+| `8a25dbbaf94cbcf6f8de8ee5` | gyümölcstartalom hiányzott → `100%` |
+| `782153:4319543` | íz `alma, feketeribizli, gránátalma, málna` → `áfonya, alma, banán, gránátalma, málna` (utólagos korrekció) |
+| `791204:4328594` | íz `alma, banán, füge, kivi, narancs` → `acerola, alma, banán, füge, kivi` (utólagos korrekció) |
+| `775974:4313364` | íz `alma, banán, őszibarack, sárgabarack` → `alma, banán, körte, őszibarack, sárgabarack` (utólagos korrekció) |
+| `778329:4315719` | íz hiányzott → `áfonya, alma, feketeszeder, szilva` (utólagos korrekció) |
+| `782150:4319540` | íz `alma, banán, mangó, narancs` → `acerola, alma, banán, mangó, narancs` (utólagos korrekció) |
+| `BTY-X17539700320022` | íz `alma, banán, őszibarack, sárgabarack` → `alma, banán, körte, őszibarack, sárgabarack` (utólagos korrekció) |
+| `a2ee300e92edd2ce7f3847ed` | íz `alma, feketeribizli, gránátalma, málna` → `áfonya, alma, banán, gránátalma, málna` (utólagos korrekció) |
+| `1ad5839771478737c907b11c` | íz `alma, banán, füge, kivi, narancs` → `acerola, alma, banán, füge, kivi` (utólagos korrekció) |
+| `04da4bf276b0d5ef014c5fb8` | íz `alma, banán, őszibarack, sárgabarack` → `alma, banán, körte, őszibarack, sárgabarack` (utólagos korrekció) |
+| `310b6618a08658d92c3dd376` | íz `alma, banán, mangó, narancs` → `acerola, alma, banán, mangó, narancs` (utólagos korrekció) |
+
+### Smoothie és püréital kézi felülvizsgálat, 5. blokk
+
+- A céllevél utolsó **17** teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a 17 rekordhoz tartozott
+  közvetlen helyi képfájl; a négy részletes képlapot
+  eredeti felbontásban is megvizsgáltuk.
+- Az ismétlődő Kubu és Kubu Immuno tasakokon a közvetlen
+  `100% püré` felirat igazolja a hiányzó
+  gyümölcstartalmat. A körtés Immuno változatnál a pontos
+  `bodzabogyó` érték váltotta a tágabb `bodza` értéket.
+- A Tesco Berry Sensation, Tropical Delight és Pineapple
+  Paradise kis méretű helyi címkeképét a pontos
+  termékazonosítóhoz tartozó hivatalos Tesco
+  összetevőlistával is összevetettük. A Berry Sensation
+  áfonya, alma, banán, eper, málna és narancs; a Tropical
+  Delight alma, ananász, mangó, maracuja és narancs; a
+  Pineapple Paradise ananász, banán, citrom, kókusz és
+  mangó összetevőket igazol.
+- A Tesco bizonyítékai:
+  [Berry Sensation](https://bevasarlas.tesco.hu/groceries/en-HU/products/2004121250090),
+  [Tropical Delight](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004121250205),
+  [Pineapple Paradise](https://bevasarlas.tesco.hu/groceries/en-HU/products/2004121250147).
+- Az öt Sió palack közvetlen címkéje megegyezik a negyedik
+  blokkban eredeti felbontásban leolvasott pontos
+  összetevőlistákkal; ezeket a Tesco-rekordokon is
+  rögzítettük.
+- Módosított rekord: **11**.
+- Módosított kategória- vagy tulajdonságmező: **12**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **6**
+  (`9c29a52ba7c6127227d00630`,
+  `cfc42a9b320468439a0939ba`,
+  `76ec2c6f9afb679dc03ca30b`,
+  `18da015537da83acf6d46038`, `105441094`,
+  `105441172`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Ezzel a `Smoothie és püréital` levél mind a **117**
+  terméke kézzel ellenőrzött.
+- Minden rekordcsere után és a végén is lefutott a 47 030
+  rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `6d059100411fd66147c53ac0` | gyümölcstartalom hiányzott → `100%` |
+| `121250090` | íz `áfonya, erdei gyümölcs, eper, málna` → `áfonya, alma, banán, eper, málna, narancs` |
+| `121250205` | íz hiányzott → `alma, ananász, mangó, maracuja, narancs` |
+| `121250147` | íz `ananász, kókusz` → `ananász, banán, citrom, kókusz, mangó` |
+| `121230989` | íz `mangó` → `acerola, alma, banán, mangó, narancs` |
+| `121231015` | íz `kivi, zöldalma` → `acerola, alma, banán, füge, kivi` |
+| `121231055` | íz hiányzott → `alma, banán, körte, őszibarack, sárgabarack` |
+| `121231061` | íz hiányzott → `alma, banán, cékla, cikória, citrom, gyömbér, narancs, sárgarépa` |
+| `121232215` | íz `erdei gyümölcs` → `áfonya, alma, banán, gránátalma, málna` |
+| `105441071` | gyümölcstartalom hiányzott → `100%` |
+| `105441081` | gyümölcstartalom hiányzott → `100%`; íz `acerola, alma, banán, bodza, körte, sárgarépa` → `acerola, alma, banán, bodzabogyó, körte, sárgarépa` |
+
+### Lé kézi felülvizsgálat, 1. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél első 25
+  teljes rekordját és forrássorát egyenként ellenőriztük.
+  Mind a **25** rekordhoz tartozott közvetlen helyi kép; az
+  öt részletes képlapot eredeti felbontásban vizsgáltuk.
+- Négy termék közvetlen címkéjén `rostos`, illetve
+  `gyümölcshússal / with pulp` szerepel, ezért a téves
+  `rostos: false` értéket `true` értékre javítottuk.
+- A három 330 ml-es Good Choice, a két 1 literes Good
+  Choice Multi és a két Auchan Kedvenc palack közvetlenül
+  `100% Direktsaft`, illetve `100% pur jus pressé`
+  feliratot mutat; ezeknél pótoltuk a hiányzó
+  gyümölcstartalmat.
+- A Good Choice Grüner Multi címkéje alma, ananász,
+  uborka és lime összetételt közöl, ezért a forrásnévből
+  származó pontatlan `kivi` értéket `uborka` váltotta. Az
+  Oranger Multi címkéjéről alma, ananász, mangó, maracuja
+  és őszibarack, az Auchan egzotikus lé címkéjéről
+  ananász, mangó és maracuja került be.
+- A Good Choice Blutorange egyetlen, pontos íze
+  `vérnarancs`; a redundáns általános `narancs` értéket
+  eltávolítottuk.
+- A `986294:4523684` RIO termék közvetlen címkéje
+  `Ginger Shot`, kiszerelése 180 ml, és azonos a már
+  ellenőrzött RIO Ginger Shot termékcsaláddal. Ezért a
+  `Lé` levélből a `Funkcionális italok → Sport-,
+  izotóniás, kollagén- és shot ital` levélbe soroltuk át,
+  `shot` funkcióval; az alma és gyömbér ízt megtartottuk.
+- Módosított rekord: **13**.
+- Módosított tulajdonságmező: **15**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **12** (`565292`,
+  `565293`, `914972`, `4598404`, `533985`, `533986`,
+  `533987`, `1059572`, `818591:4355981`,
+  `848798:4386188`, `986291:4523681`,
+  `848801:4386191`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után, az átsorolás után és a végén is
+  lefutott a 47 030 rekordos teljes validáció; eltérés nem
+  maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `541900` | rostos `false` → `true` |
+| `915034` | rostos `false` → `true` |
+| `1021639` | gyümölcstartalom hiányzott → `100%` |
+| `1021640` | gyümölcstartalom hiányzott → `100%` |
+| `1021641` | gyümölcstartalom hiányzott → `100%` |
+| `1021642` | gyümölcstartalom hiányzott → `100%`; íz `alma, ananász, kivi, lime` → `alma, ananász, lime, uborka` |
+| `1021643` | gyümölcstartalom hiányzott → `100%`; íz hiányzott → `alma, ananász, mangó, maracuja, őszibarack` |
+| `4598256` | rostos `false` → `true` |
+| `541707` | íz `narancs, vérnarancs` → `vérnarancs` |
+| `818597:4355987` | rostos `false` → `true` |
+| `818642:4356032` | gyümölcstartalom hiányzott → `100%` |
+| `818645:4356035` | gyümölcstartalom hiányzott → `100%`; íz hiányzott → `ananász, mangó, maracuja` |
+| `986294:4523684` | `Gyümölcs- és zöldségitalok → Lé` → `Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital`; rostos mező eltávolítva; funkció hiányzott → `shot` |
+
+### Lé kézi felülvizsgálat, 2. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. Mind a 25 rekordhoz tartozott közvetlen
+  helyi kép; az öt részletes képlapot eredeti
+  felbontásban is megvizsgáltuk.
+- A Hohes C narancs–acerola és a Rauch narancs címkéjén
+  közvetlenül `mit Fruchtfleisch`, illetve `with pulp`
+  szerepel, ezért a téves `rostos: false` értékeket
+  `true` értékre javítottuk.
+- A Rauch vérnarancslé ugyancsak gyümölcshúsos; a
+  közvetlen címke egyetlen pontos íze `vérnarancs`, ezért
+  a redundáns általános `narancs` értéket eltávolítottuk.
+- A Hohes C Antioxidáns közvetlen palackcímkéjén látható
+  `100%` jelölés alapján pótoltuk a hiányzó
+  gyümölcstartalmat. A gyártó
+  [gyümölcslé-oldala](https://www.hohesc.de/products/fruchtsafte/)
+  ugyancsak 100%-os gyümölcsléként írja le ezt a
+  termékvonalat; a pontos, de ezen a címkén nem
+  leolvasható összetevőket nem találgattuk.
+- A Rauch Juice Bar Pink Dragon közvetlen címkéje
+  igazolja a hiányzó `sárkánygyümölcs` ízt.
+- Módosított rekord: **5**.
+- Módosított tulajdonságmező: **6**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **20**
+  (`31231:31234`, `818786:4356176`, `793943:4331333`,
+  `986633:4524023`, `986651:4524041`,
+  `830351:4367741`, `791234:4328624`,
+  `818588:4355978`, `818582:4355972`,
+  `818789:4356179`, `818618:4356008`,
+  `795716:4333106`, `818630:4356020`,
+  `747068:4284458`, `208380:3745626`,
+  `752154:4289544`, `40114:40117`,
+  `452428:3989818`, `20146:20149`,
+  `18610:18613`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `874748:4412138` | rostos `false` → `true` |
+| `791240:4328630` | gyümölcstartalom hiányzott → `100%` |
+| `818579:4355969` | rostos `false` → `true` |
+| `818585:4355975` | rostos `false` → `true`; íz `narancs, vérnarancs` → `vérnarancs` |
+| `795710:4333100` | íz hiányzott → `sárkánygyümölcs` |
+
+### Lé kézi felülvizsgálat, 3. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. Mind a 25 rekordhoz tartozott közvetlen
+  helyi kép; az öt részletes képlapot eredeti
+  felbontásban is megvizsgáltuk.
+- A Hohes C Classic Multivitamin közvetlen dobozképének
+  elején `100% Frucht` jelölés látható, ezért pótoltuk a
+  hiányzó gyümölcstartalmat.
+- A Cappy 100% narancslé teljes forrásneve közvetlenül
+  `gyümölcshússal` terméket azonosít, ezért a téves
+  `rostos: false` értéket `true` értékre javítottuk.
+- A multivitaminos termékek előoldali
+  gyümölcsillusztrációit nem kezeltük teljes
+  összetevőlistaként; ezeknél bizonyíték nélkül nem
+  bővítettük az ízértékeket.
+- Módosított rekord: **2**.
+- Módosított tulajdonságmező: **2**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **23**
+  (`23842:23845`, `10924:10927`, `849470:4386860`,
+  `758904:4296294`, `1034351:4571741`,
+  `12349:12352`, `513782:4051172`,
+  `980894:4518284`, `10555:10558`,
+  `470258:4007630`, `73001:3610089`, `55:55`,
+  `470255:4007627`, `684869:4222259`,
+  `30055:30058`, `678563:4215953`,
+  `849473:4386863`, `72997:3610085`,
+  `693533:4230923`, `678524:4215914`, `385:385`,
+  `10411:10414`, `26605:26608`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `10828:10831` | gyümölcstartalom hiányzott → `100%` |
+| `678578:4215968` | rostos `false` → `true` |
+
+### Lé kézi felülvizsgálat, 4. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. Mind a 25 rekordhoz tartozott közvetlen
+  helyi kép; az öt részletes képlapot eredeti
+  felbontásban is megvizsgáltuk.
+- Az Alföld Aranya nagy dobozának közvetlen felirata
+  `100% Rostos Almalé`. A Cappy és Rauch 1 literes
+  narancslevek teljes forrásneve, illetve címkéje
+  `gyümölcshússal` / `Fruchtfleisch` jelölést ad. A
+  három téves `rostos: false` értéket ezért `true`
+  értékre javítottuk.
+- A Hohes C Plus Energia közvetlen dobozcímkéjét a
+  [gyártó pontos magyar ismertetőjével](https://www.hohesc.hu/products/plus/plus-energia/)
+  és a
+  [teljes Tesco-összetevőlistával](https://bevasarlas.tesco.hu/shop/hu-HU/products/2005105007895)
+  vetettük össze. Az igazolt ízek: acerola, alma,
+  citrom, feketerépa, gránátalma, málna és paradicsom.
+  A téves `cékla` értéket eltávolítottuk; a közvetlenül
+  igazolt, elemi `feketerépa` értéket felvettük a
+  céllevél meglévő `íz` tulajdonságához.
+- A Hohes C Plus Fókusz pontos
+  [Tesco-összetevőlistája](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004020332818)
+  alma-, acerola-, mangó- és citromlevet, valamint
+  kajszibarack- és körtepürét közöl. Ezeket az egységes
+  `acerola, alma, citrom, körte, mangó, sárgabarack`
+  értékekkel rögzítettük.
+- Módosított rekord: **5**.
+- Módosított tulajdonságmező: **5**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **20**
+  (`7063:7066`, `693515:4230905`, `693521:4230911`,
+  `693527:4230917`, `693530:4230920`, `9934:9937`,
+  `537030:4074420`, `61709:3634424`,
+  `536844:4074234`, `501293:4038689`,
+  `61706:3634420`, `501296:4038692`,
+  `73003:3610091`, `975278:4512668`,
+  `30052:30055`, `72999:3610087`, `382:382`,
+  `537027:4074417`, `537075:4074465`,
+  `537051:4074441`).
+- Új megengedett érték: **1** (`íz: feketerépa`).
+- Törölt megengedett érték: **0**.
+- A kategóriafa módosítása után, minden rekordcsere után
+  és a végén is lefutott a 47 030 rekordos teljes
+  validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `8362:8365` | rostos `false` → `true` |
+| `678512:4215902` | rostos `false` → `true` |
+| `43258:43261` | rostos `false` → `true` |
+| `61850:3598934` | íz `cékla, gránátalma` → `acerola, alma, citrom, feketerépa, gránátalma, málna, paradicsom` |
+| `554160:4091550` | íz hiányzott → `acerola, alma, citrom, körte, mangó, sárgabarack` |
+
+### Lé kézi felülvizsgálat, 5. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. **17** rekordhoz tartozott közvetlen
+  helyi kép, **8** rekordhoz nem; a négy képes részletlapot
+  eredeti felbontásban is megvizsgáltuk.
+- A három Koch 3 literes doboz közvetlen előoldalán
+  egyaránt `100% gyümölcstartalom` jelölés látható,
+  ezért pótoltuk a hiányzó gyümölcstartalmat.
+- Az Auchan BIO sárgarépalé és paradicsomlé pontos
+  termékoldala egyaránt 100%-os zöldségtartalmat közöl;
+  a hiányzó értékeket ezért pótoltuk:
+  [sárgarépalé](https://auchan.hu/shop/auchan-kedvenc-bio-sargarepale-1-l.p-933059),
+  [paradicsomlé](https://auchan.hu/shop/auchan-kedvenc-bio-paradicsomle-1-l.p-933056).
+- A Biopont céklalé pontos összetétele 99% céklalé és 1%
+  acerola-cseresznyevelő. Ez összesen 100% zöldség- és
+  gyümölcstartalom, és a korábbi cékla mellé igazolja az
+  `acerola` ízt. A Biopont répalé pontos termékadata
+  100% répalét igazol. Bizonyítékok:
+  [céklalé](https://multi-vitamin.hu/gyumolcs-zoldseglevek/biopont-bio-ceklale-750ml-p1071),
+  [répalé](https://shop.rossmann.hu/termek/biopont-bio-repale-750-ml-3).
+- A kép nélküli `2754549` Hohes C Plus Vas teljes neve
+  ugyanazt az alma–gránátalma–málna terméket azonosítja,
+  amelynek pontos összetételét az előző blokkban a
+  gyártói és Tesco-adatokkal ellenőriztük. Ennél is a
+  teljes, egységes
+  `acerola, alma, citrom, feketerépa, gránátalma, málna,
+  paradicsom` ízlista került be.
+- A további hét kép nélküli rekordnál a teljes forrásnév
+  nem indokolt új vagy eltérő értéket, ezért azokat
+  változatlanul hagytuk.
+- Módosított rekord: **8**.
+- Módosított tulajdonságmező: **9**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **17**
+  (`783731:4321121`, `25201:25204`,
+  `1034375:4571765`, `470711:4008083`,
+  `684953:4222343`, `796703:4334093`,
+  `825842:4363232`, `688070:4225460`,
+  `688067:4225457`, `947300:4484690`, `3375572`,
+  `2808560`, `2807732`, `2755570`, `2755091`,
+  `2755090`, `2753909`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `588146:4125536` | gyümölcstartalom hiányzott → `100%` |
+| `588140:4125530` | gyümölcstartalom hiányzott → `100%` |
+| `588137:4125527` | gyümölcstartalom hiányzott → `100%` |
+| `950762:4488152` | gyümölcstartalom hiányzott → `100%` |
+| `720275:4257665` | gyümölcstartalom hiányzott → `100%`; íz `cékla` → `acerola, cékla` |
+| `720272:4257662` | gyümölcstartalom hiányzott → `100%` |
+| `950759:4488149` | gyümölcstartalom hiányzott → `100%` |
+| `2754549` | íz `alma, gránátalma, málna` → `acerola, alma, citrom, feketerépa, gránátalma, málna, paradicsom` |
+
+### Lé kézi felülvizsgálat, 6. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. **23** rekordhoz tartozott közvetlen
+  helyi kép, **2** rekordhoz nem; az öt részletes képlapot
+  és a bizonyító címkéket eredeti felbontásban is
+  megvizsgáltuk.
+- A Solevita klementin-, ananász-, mandarin- és
+  narancslevek, a Hazánk Kincsei Szatmári almalé,
+  valamint a Rauch Happy Day narancslé közvetlen
+  címkéjén egyértelmű `100%`, `100% juice`,
+  `100% squeezed` vagy `100% gyümölcs` jelölés
+  olvasható, ezért pótoltuk a hat hiányzó
+  gyümölcstartalmat.
+- A `10003646` forrásneve mandarint ír, de a közvetlen
+  termékkép pontosan `Solevita Clementine 100%
+  Squeezed` terméket mutat. Ezért az ízt a már
+  megengedett, pontosabb `klementin` értékre
+  javítottuk.
+- A Solevita narancs–pink grapefruit–sárkánygyümölcslé
+  előoldalán `with pulp`, a két Metro-termék teljes
+  forrásnevében pedig `gyümölcshússal` szerepel.
+  Mindhárom téves `rostos: false` értéket `true`
+  értékre javítottuk.
+- A további képeken látható gyümölcsillusztrációkat és
+  az önmagában szereplő `juice` feliratot nem
+  értelmeztük bizonyíték nélkül 100%-os
+  gyümölcstartalomként.
+- Módosított rekord: **9**.
+- Módosított tulajdonságmező: **10**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **16**
+  (`2753405`, `2752620`, `10049385`, `10106398`,
+  `10107907`, `2360`, `6405077`, `6407894`,
+  `6408260`, `BTY-X42950600320023`,
+  `BTY-X42953400320023`, `BTY-X17421100320021`,
+  `BTY-X17421000320021`, `BTY-X17540200320021`,
+  `BTY-X17540400320021`, `BTY-X99614900320022`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `10003646` | gyümölcstartalom hiányzott → `100%`; íz `mandarin` → `klementin` |
+| `10052077` | gyümölcstartalom hiányzott → `100%` |
+| `10106878` | gyümölcstartalom hiányzott → `100%` |
+| `10107231` | rostos `false` → `true` |
+| `5503815` | gyümölcstartalom hiányzott → `100%` |
+| `6403664` | gyümölcstartalom hiányzott → `100%` |
+| `6404796` | gyümölcstartalom hiányzott → `100%` |
+| `BTY-X42951300320023` | rostos `false` → `true` |
+| `BTY-X17540100320021` | rostos `false` → `true` |
+
+### Lé kézi felülvizsgálat, 7. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. Mind a 25 rekordhoz tartozott közvetlen
+  helyi kép; az öt részletes képlapot eredeti
+  felbontásban is megvizsgáltuk.
+- A Metro Hohes C Plus Energia ugyanazt a terméket
+  azonosítja, amelynek pontos összetételét a Lé 4.
+  blokkjában a közvetlen címke, a gyártói ismertető és
+  a Tesco teljes összetevőlistája alapján
+  ellenőriztük. Ennél is a teljes, egységes
+  `acerola, alma, citrom, feketerépa, gránátalma,
+  málna, paradicsom` ízlista került be a téves
+  `cékla, gránátalma` helyett.
+- A Hohes C Classic Multivitamin közvetlen
+  dobozcímkéjén `100% gyümölcs` jelölés olvasható,
+  ezért pótoltuk a hiányzó gyümölcstartalmat.
+- A multivitaminos dobozok gyümölcsillusztrációit nem
+  kezeltük teljes összetevőlistaként, ezért bizonyíték
+  nélkül nem bővítettük az ízértékeket.
+- Módosított rekord: **2**.
+- Módosított tulajdonságmező: **2**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **23**
+  (`BTY-X18341800320021`, `BTY-X11056000320022`,
+  `BTY-X18341700320021`, `BTY-X18342300320021`,
+  `BTY-X18342200320021`, `BTY-X17636600320022`,
+  `BTY-X18341600320021`, `BTY-X18245100320021`,
+  `BTY-X43894900320021`, `BTY-X69202000320023`,
+  `BTY-X3107900320022`, `BTY-X75966800320022`,
+  `BTY-X72898700320023`, `BTY-X80331300320022`,
+  `BTY-X17261600320021`, `BTY-X16862400320021`,
+  `BTY-X6121100320022`, `BTY-X17479600320021`,
+  `BTY-X17427600320021`, `BTY-X10991300320021`,
+  `BTY-X10835100320022`, `BTY-X87663800320023`,
+  `BTY-X17243700320021`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `BTY-X9170800320021` | íz `cékla, gránátalma` → `acerola, alma, citrom, feketerépa, gránátalma, málna, paradicsom` |
+| `BTY-X31552600320022` | gyümölcstartalom hiányzott → `100%` |
+
+### Lé kézi felülvizsgálat, 8. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. **23** rekordhoz tartozott közvetlen
+  helyi kép, **2** rekordhoz nem; az öt részletes
+  képlapot és a bizonyító címkéket eredeti
+  felbontásban is megvizsgáltuk.
+- A kép nélküli Hohes C Plus Cink pontos
+  [Tesco-összetevőlistája](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004020315837)
+  alma-, pink grapefruit-, acerola-, vörösáfonya- és
+  citromlevet, guavavelőt, feketerépa- és céklalevet,
+  valamint eper- és málnavelőt közöl. A korábbi,
+  önmagában álló `cékla` értéket ezért a teljes,
+  egységes `acerola, alma, citrom, cékla, eper,
+  feketerépa, grapefruit, guava, málna, vörösáfonya`
+  ízlistára bővítettük.
+- A Hohes C Plus Fókusz közvetlen címkéje alma,
+  őszibarack és kajszibarack megjelölést, a képpel
+  egyező pontos
+  [Auchan-termékadat](https://auchan.hu/en/shop/hohes-c-plus-fokusz-100percent-mixed-fruit-drink-1-l.p-619214)
+  pedig alma, őszibarack, kajszibarack, körte és banán
+  ízesítést közöl. A hiányzó ízlista egységesen
+  `alma, banán, körte, őszibarack, sárgabarack` lett.
+- A 120 grammos Sió Natura Epres Gyümölcsmix Püré nem
+  folyékony lé, hanem tasakos, 100%-os gyümölcspüré.
+  A már ellenőrzött, azonos Sió Natura termék másik
+  áruházi rekordja az alma–eper összetételt is
+  igazolja. Ezért kézzel a már meglévő `Smoothie és
+  püréital` levélbe soroltuk át, az ízt
+  `alma, eper` értékre egészítettük ki, a céllevélben
+  nem értelmezett `rostos` mezőt pedig eltávolítottuk.
+- A Happy Day Mild pink grapefruitlé teljes forrásneve
+  közvetlenül `gyümölcshússal` terméket azonosít,
+  ezért a téves `rostos: false` értéket `true`
+  értékre javítottuk.
+- Módosított rekord: **4**.
+- Módosított kategória- vagy tulajdonságmező: **6**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **21**
+  (`BTY-X6652300320021`, `BTY-X42952000320023`,
+  `BTY-X10729400320021`, `BTY-X87663100320023`,
+  `BTY-X254600320023`, `BTY-X10729300320021`,
+  `BTY-X15017500320021`, `BTY-X15018300320021`,
+  `BTY-X17427700320021`, `BTY-X17479900320021`,
+  `BTY-X18666700320021`, `BTY-X18667300320021`,
+  `BTY-X18667400320021`, `BTY-X18667500320021`,
+  `BTY-X18719700320021`, `BTY-X18796900320021`,
+  `BTY-X18797200320021`, `BTY-X18797300320021`,
+  `BTY-X3013100320021`, `BTY-X56284200320022`,
+  `BTY-X72896600320023`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után, az átsorolás után és a végén
+  is lefutott a 47 030 rekordos teljes validáció;
+  eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `BTY-X15030300320021` | íz `cékla` → `acerola, alma, citrom, cékla, eper, feketerépa, grapefruit, guava, málna, vörösáfonya` |
+| `BTY-X15551800320021` | altípus `Lé` → `Smoothie és püréital`; íz `eper` → `alma, eper`; rostos `false` → eltávolítva |
+| `BTY-X15873400320021` | íz hiányzott → `alma, banán, körte, őszibarack, sárgabarack` |
+| `BTY-X6635100320021` | rostos `false` → `true` |
+
+### Lé kézi felülvizsgálat, 9. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. Mind a 25 rekordhoz tartozott közvetlen
+  helyi kép; az öt részletes képlapot és a bizonyító
+  címkéket eredeti felbontásban is megvizsgáltuk.
+- A RIOBA Préselt Mandarinlé közvetlen palackcímkéje
+  pontosan `Clementine` terméket mutat, ezért az
+  általános `mandarin` ízt a már meglévő, pontosabb
+  `klementin` értékre javítottuk.
+- A Purissima 0,2 és 1 literes multivitaminos terméke
+  azonos címkét és összetételt mutat. A pontos
+  [összetevőlista](https://hazhozabc.hu/termek/multivitamin-gyumolcsle-100-1l-purissima)
+  alma-, narancs-, ananász-, körte-, szőlő-,
+  maracuja- és citromlevet; alma-, banán-,
+  őszibarack-, guava-, mangó- és sárgabarackpürét,
+  valamint sárgarépalevet közöl. Mindkét rekord
+  egységesen ezt a 13 elemi ízértéket kapta.
+- A Rauch Happy Day narancslé teljes forrásneve és
+  közvetlen címkéje egyaránt `gyümölcshússal`
+  terméket azonosít, ezért a téves `rostos: false`
+  értéket `true` értékre javítottuk.
+- A `szűretlen` vagy `natúrtrüb` megjelölést önmagában
+  nem kezeltük gyümölcshús-jelölésként; ilyen
+  terméknél bizonyíték nélkül nem változtattuk meg a
+  `rostos` értéket.
+- Módosított rekord: **4**.
+- Módosított tulajdonságmező: **4**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **21**
+  (`BTY-X77674800320022`, `BTY-X18245000320021`,
+  `BTY-X17645300320022`, `BTY-X17442300320021`,
+  `555046`, `984933`, `180525`, `555049`, `552124`,
+  `922977`, `555047`, `555039`,
+  `d006e4413e18c07d487aea45`,
+  `540449e88edbd15d13375e3d`,
+  `acf54272118d28a8f880e0ef`,
+  `117d266e48310ba3c69de778`,
+  `767fef3ab18f103a81a6f9a2`,
+  `41c219b38ab06fcabbf63c9b`,
+  `83d21149efa89698887e8d53`,
+  `692df66608942daa14395218`,
+  `fc4835a0fba4a0f10fd72f9a`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `BTY-X17636700320022` | íz `mandarin` → `klementin` |
+| `914735` | íz `sárgarépa` → `alma, ananász, banán, citrom, guava, körte, mangó, maracuja, narancs, sárgarépa, sárgabarack, szőlő, őszibarack` |
+| `555043` | íz hiányzott → `alma, ananász, banán, citrom, guava, körte, mangó, maracuja, narancs, sárgarépa, sárgabarack, szőlő, őszibarack` |
+| `7b61f747ab0698e17054013d` | rostos `false` → `true` |
+
+### Lé kézi felülvizsgálat, 10. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. Mind a 25 rekordhoz tartozott közvetlen
+  helyi kép; az öt részletes képlapot és a bizonyító
+  címkéket eredeti felbontásban is megvizsgáltuk.
+- A két Cappy narancslé, a Rauch Juice Bar narancslé
+  és a Hohes C narancs–acerolalé teljes forrásneve,
+  illetve közvetlen címkéje `gyümölcshússal` /
+  `with pulp` terméket azonosít. Mind a négy téves
+  `rostos: false` értéket `true` értékre javítottuk.
+- A Hohes C Plus Immun közvetlen dobozcímkéje szó
+  szerint alma, szőlő, feketerépa, guava és pink
+  grapefruit gyümölcsöket sorol fel. A hiányzó ízlista
+  egységesen `alma, feketerépa, grapefruit, guava,
+  szőlő` lett.
+- A Hohes C Antioxidáns és a direkt préselt
+  narancs–mangó–acerola palack elején egyaránt
+  közvetlen `100% gyümölcs` jelölés látható, ezért
+  pótoltuk a két hiányzó gyümölcstartalmat.
+- A Rauch Juice Bar Pink Dragon pontos
+  [gyártói összetevőlistája](https://www.rauch.cc/at/brands/rauch-juice-bar/rauch-juice-bar-pink-dragon-68112)
+  fehér szőlőlevet, almalevet, sárkánygyümölcsvelőt,
+  kókuszvizet és maracujalevet közöl. Ezekből az
+  egységes `alma, kókusz, maracuja, sárkánygyümölcs,
+  szőlő` ízlista került a rekordba.
+- Az Univer termék közvetlen címkéje `Paradicsom-ital`,
+  a pontos
+  [termékadat](https://firsthand.hu/termek/11132-paradicsom-ital-500ml-univer-drs)
+  pedig vizet és hozzáadott cukrot tartalmazó,
+  rostos paradicsomitalt igazol. Ezért kézzel a már
+  meglévő `Gyümölcsital` levélbe soroltuk át,
+  `rostos: true` és `hozzáadott cukor nélkül: false`
+  értékekkel.
+- Módosított rekord: **9**.
+- Módosított kategória- vagy tulajdonságmező: **11**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **16**
+  (`65af6b0b9ceb44335eecec95`,
+  `e276022fd2f62230d720821b`,
+  `4b78809d2bc180ebe9c5e22c`,
+  `44cdcb9726ec7f42335aafb2`,
+  `7b2547e04392082584b2da50`,
+  `f855e4b35f25ef1c3d59facd`,
+  `4cd548da9047172acfece395`,
+  `3c8291fd8bb68c6030e564d0`,
+  `c2ce3634bbda59909fa3a7e6`,
+  `16e29ef0b11dbd24ada141aa`,
+  `8c192683e56e4a336c1b16a6`,
+  `a81415ccf0884fc14ac0a845`,
+  `7acfedf3830a714e2450fa20`,
+  `fae9f1f607fa097c1bea7264`,
+  `7ee670874110143815082af1`,
+  `2b76081b338dadc53adae3a5`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után, az átsorolás után és a végén
+  is lefutott a 47 030 rekordos teljes validáció;
+  eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `fba2ccf8cb35bee10b452cc5` | rostos `false` → `true` |
+| `3bc6beac0254d63144d071f0` | rostos `false` → `true` |
+| `41bcc017afd2b7d9ae6fa40f` | rostos `false` → `true` |
+| `04680fdd89b8ffa6cb2421c2` | íz hiányzott → `alma, feketerépa, grapefruit, guava, szőlő` |
+| `62159fd2d7bc1bf8ccb3eafa` | altípus `Lé` → `Gyümölcsital`; rostos `false` → `true`; hozzáadott cukor nélkül hiányzott → `false` |
+| `91612709cb1450ddc00fd808` | rostos `false` → `true` |
+| `2f5d164f1fc8dc1818f9f8c8` | gyümölcstartalom hiányzott → `100%` |
+| `bd470fd35797d4ad860e62e7` | gyümölcstartalom hiányzott → `100%` |
+| `7f405426e93035bd72a9806b` | íz hiányzott → `alma, kókusz, maracuja, sárkánygyümölcs, szőlő` |
+
+### Lé kézi felülvizsgálat, 11. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. Mind a 25 rekordhoz tartozott közvetlen
+  helyi kép; az öt részletes képlapot és a bizonyító
+  címkéket eredeti felbontásban is megvizsgáltuk.
+- A két 180 ml-es RIO palack közvetlen címkéjén
+  egyértelműen `Ginger Shot Apple`, illetve `Ginger
+  Shot Orange` olvasható. Az azonos termékcsalád
+  korábban ellenőrzött alma–cékla változatával
+  egyezően mindkettőt kézzel a már meglévő
+  `Funkcionális italok → Sport-, izotóniás,
+  kollagén- és shot ital` levélbe soroltuk át,
+  `funkció: shot` értékkel; a céllevélben nem
+  értelmezett `rostos` mezőt eltávolítottuk.
+- A SPAR Apple-Berry palack közvetlen címkéje és
+  gyümölcsábrái almát, epret, feketeribizlit,
+  gránátalmát és szőlőt igazolnak; a korábban hiányzó
+  ízlista ezt az öt elemi értéket kapta.
+- A SPAR narancslé neve és címkéje egyaránt
+  `gyümölcshússal` / `with pulp` terméket azonosít,
+  ezért a téves `rostos: false` értéket `true`
+  értékre javítottuk.
+- A SPAR Natur*pur savanyúkáposzta-lé pontos
+  [gyártói oldala](https://www.spar.at/produktwelt/spar-natur-pur-bio-sauerkrautsaft-direkt-gepresst-p8132420)
+  bio fejeskáposztából, tejsavas erjesztéssel készült
+  levet és tengeri sót közöl. A pontatlan `savanyú`
+  ízértéket ezért az elemi `káposzta, tengeri só`
+  listára cseréltük.
+- A SPAR Natur*pur vegyes zöldséglé pontos
+  [gyártói összetevőlistája](https://www.spar.at/produktwelt/spar-natur-pur-bio-gemuesesaft-direkt-gepresst-p8132017)
+  paradicsom-, sárgarépa-, cékla-, zeller-, uborka-,
+  savanyúkáposzta-, hagyma-, citrom- és kaporlevet
+  sorol fel. A helyi terméknévben közölt tengeri sóval
+  együtt ezt a tíz elemi összetevőt rögzítettük.
+- A SPAR Natur*pur sárgarépalé pontos
+  [gyártói oldala](https://www.spar.at/produktwelt/spar-natur-pur-bio-karotte-direkt-gepresst-p8132093)
+  94% sárgarépalevet és citromlevet közöl, ezért a
+  hiányzó `citrom` értéket pótoltuk.
+- A Rauch Happy Day normál multivitamin pontos
+  [gyártói összetétele](https://www.rauch.cc/at/brands/happy-day/happy-day-100-multivitamin-3381a)
+  13 gyümölcsöt, a piros változat
+  [gyártói összetétele](https://www.rauch.cc/at/brands/happy-day/happy-day-100-multivitamin-rot-34599a)
+  11 gyümölcsöt sorol fel. A két normál kiszerelés és
+  a piros változat korábban hiányzó ízlistáját ezekkel
+  az elemi értékekkel pótoltuk.
+- A Hohes C Classic Multivitamin pontos
+  [összetevőadata](https://produkte.globus.de/getraenke/saefte/fruchtsaft-nektar/4048517701832/multivitamin-saft)
+  kilenc, a Hohes C Mild Multivitamin
+  [gyártói oldala](https://www.hohesc.de/products/fruchtsafte/milder-multivitamin/)
+  pedig hat gyümölcsöt igazol; mindkét hiányzó
+  ízlistát ennek megfelelően pótoltuk.
+- A Topjoy pikáns paradicsomlé pontos
+  [gyártói összetevőlistája](https://maspex.hu/markaink/topjoy/topjoy-paradicsom/pikans/)
+  paradicsomot, tengeri sót, chili-cayenne borsot és
+  feketeborsot közöl. A termék szűretlen, a címke
+  felrázást kér a rosttartalom miatt, ezért az ízlista
+  bővítése mellett a téves `rostos: false` értéket is
+  `true` értékre javítottuk.
+- Módosított rekord: **13**.
+- Módosított kategória- vagy tulajdonságmező: **18**.
+- Kézi kategória-átsorolás: **2**.
+- Változatlanul hagyott rekord: **12**
+  (`8152f50d112035382f9196cc`,
+  `a697d13775b40876d4c403c3`,
+  `08c58da28f8db8cde23df97b`,
+  `ce59f497dd12a8a0e6116782`,
+  `cb6504f58b6fb91259243f3f`,
+  `692be6c0ef9ef25c43466c83`,
+  `cb7b6328fa9b1f241d7752a2`,
+  `9046c7fc58874dd0533c9f7f`,
+  `62b4b20e34eeed371cc29cf1`,
+  `f9e6a42b178b7af623c7544f`,
+  `d27558118cdc9dc95146efd3`,
+  `88c83b0ae3ec9936fec37b5e`).
+- Új megengedett érték: **10** (`áfonya`, `chili`,
+  `feketebors`, `hagyma`, `kapor`, `káposzta`,
+  `nektarin`, `szeder`, `vörösáfonya`, `zeller`).
+- Törölt megengedett érték: **0**.
+- A kategóriafa bővítése után, minden rekordcsere
+  után, az átsorolási köteg után és a végén is
+  lefutott a 47 030 rekordos teljes validáció;
+  eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `1f26754682578b9cc92708da` | `Gyümölcs- és zöldségitalok → Lé` → `Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital`; rostos `false` → eltávolítva; funkció hiányzott → `shot` |
+| `7a8b0b074e46e3911959a748` | `Gyümölcs- és zöldségitalok → Lé` → `Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital`; rostos `false` → eltávolítva; funkció hiányzott → `shot` |
+| `27d095c0ecb51b17bb53e3a1` | íz hiányzott → `alma, eper, feketeribizli, gránátalma, szőlő` |
+| `f59bebf3ab2b253508da7468` | rostos `false` → `true` |
+| `0d7d5256ecf58685694b550d` | íz `savanyú` → `káposzta, tengeri só` |
+| `387ff39d7717c8155459d570` | íz hiányzott → `cékla, citrom, hagyma, kapor, káposzta, paradicsom, sárgarépa, tengeri só, uborka, zeller` |
+| `c06ac8a2bcb4c984137df0a2` | íz `sárgarépa` → `citrom, sárgarépa` |
+| `6a88ca59e8e12a3d469f85b3` | íz hiányzott → `alma, ananász, banán, citrom, guava, körte, mandarin, mangó, maracuja, narancs, őszibarack, sárgabarack, szőlő` |
+| `cbbb5308a5f606eb6e58e603` | íz hiányzott → `acerola, alma, ananász, banán, citrom, mangó, maracuja, narancs, nektarin` |
+| `6c394607651a94f88a7d94b4` | íz hiányzott → `acerola, alma, banán, citrom, mangó, narancs` |
+| `241f5c35b3f5dfca172d230e` | íz hiányzott → `alma, áfonya, bodza, citrom, feketeribizli, gránátalma, málna, meggy, szeder, szőlő, vörösáfonya` |
+| `c17f435a79f7faaf7af2fe29` | íz `paradicsom` → `chili, feketebors, paradicsom, tengeri só`; rostos `false` → `true` |
+| `91d2c4ab52053707f2478e0b` | íz hiányzott → `alma, ananász, banán, citrom, guava, körte, mandarin, mangó, maracuja, narancs, őszibarack, sárgabarack, szőlő` |
+
+### Lé kézi felülvizsgálat, 12. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. Mind a 25 rekordhoz tartozott közvetlen
+  helyi kép; az öt részletes képlapot és a bizonyító
+  címkéket eredeti felbontásban is megvizsgáltuk.
+- A Hohes C Plus Vas dobozcímkéje az ugyanilyen
+  összetételű, korábban ellenőrzött Plus Energia
+  változatot azonosítja; a már összevetett
+  [gyártói ismertető](https://www.hohesc.hu/products/plus/plus-energia/)
+  és
+  [teljes Tesco-összetevőlista](https://bevasarlas.tesco.hu/shop/hu-HU/products/2005105007895)
+  alapján a hiányzó ízlista `acerola, alma, citrom,
+  feketerépa, gránátalma, málna, paradicsom` lett.
+- A SPAR multivitaminlé pontos
+  [összetevőlistája](https://hazaimarket.hu/termek/spar-multivitamin-100-vegyes-gyumolcs-es-zoldsegle-1-l)
+  az alma, ananász, banán, citrom, guava, körte,
+  mangó, maracuja, narancs, őszibarack, sárgabarack,
+  sárgarépa és szőlő jelenlétét igazolja; a hiányzó
+  ízlistát ezzel a 13 elemi értékkel pótoltuk.
+- A Hohes C Plus Immun cink pontos
+  [Tesco-összetevőlistája](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004020315837)
+  alapján a hiányzó ízlista `acerola, alma, citrom,
+  cékla, eper, feketerépa, grapefruit, guava, málna,
+  vörösáfonya` lett.
+- A jelenlegi csomagolású Hohes C Plus Fókusz pontos
+  [Tesco-termékadata](https://bevasarlas.tesco.hu/shop/en-HU/products/220332818)
+  alma-, acerola-, mangó- és citromlevet, valamint
+  sárgabarack- és körtepürét közöl. A rekordba az
+  egységes `acerola, alma, citrom, körte, mangó,
+  sárgabarack` ízlista került; a képpel nem egyező
+  régebbi receptúrát nem használtuk fel.
+- A Cappy és Rauch négy narancslé-rekordjának teljes
+  neve, illetve közvetlen címkéje egyaránt
+  `gyümölcshússal` terméket azonosít. A négy téves
+  `rostos: false` értéket ezért `true` értékre
+  javítottuk.
+- Az Univer termék közvetlen címkéje `Paradicsom-ital`,
+  a pontos
+  [termékadat](https://firsthand.hu/termek/11132-paradicsom-ital-500ml-univer-drs)
+  pedig vizet és hozzáadott cukrot tartalmazó,
+  rostos paradicsomitalt igazol. Ezért kézzel a már
+  meglévő `Gyümölcsital` levélbe soroltuk át,
+  `rostos: true` és `hozzáadott cukor nélkül: false`
+  értékekkel.
+- A Topjoy enyhén fűszerezett paradicsomlé pontos
+  [gyártói összetevőlistája](https://maspex.hu/markaink/topjoy/topjoy-paradicsom/enyhen-fuszerezett/)
+  paradicsomot, étkezési sót, feketeborsot és
+  természetes zelleraromát közöl. A gyártó rostos
+  termékként jelöli, ezért az ízlistát mind a négy
+  elemi értékkel kiegészítettük, a `rostos` értéket
+  pedig `true` értékre javítottuk. Az új, közvetlenül
+  igazolt `étkezési só` értéket felvettük a céllevél
+  meglévő `íz` tulajdonságához.
+- A Hohes C Plus Csonterő pontos
+  [összetevőlistája](https://www.dm.hu/p/d/3124991/hohes-c-vegyes-gyumolcsle-plusz-csontero)
+  alma-, szőlő-, citrom-, acerola- és maracujalevet,
+  valamint mangó- és guavapürét közöl; ezekből
+  pótoltuk a hiányzó hét elemű ízlistát.
+- A SPAR Natur*pur paradicsomlé pontos
+  [gyártói összetevőlistája](https://www.spar.at/produktwelt/spar-natur-pur-bio-tomatensaft-direkt-gepresst-p8132482)
+  paradicsomot, tengeri sót és citromlevet közöl,
+  ezért a hiányzó `citrom` értéket pótoltuk. Rostos
+  termékre utaló közvetlen állítás híján a `rostos:
+  false` értéket nem változtattuk meg.
+- Módosított rekord: **12**.
+- Módosított kategória- vagy tulajdonságmező: **15**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **13**
+  (`becd9b0bb679ecde5f8cb473`,
+  `1f7cc85c82969d0620b93947`,
+  `b4ebdd0b2d6b58814192d5bc`,
+  `dea2e7f154791c2a4b609c87`,
+  `7e15d178834cd2e426b025de`,
+  `a0b3b116dfdfaa623c40499e`,
+  `2cb5bddcab08037d35a50c81`,
+  `ec5a91966ed2547d2c47b807`,
+  `c24deb6729ceb0ebb3ed49e3`,
+  `32eb085e1870b0c92ee8acca`,
+  `f4ae657ec728f2563228b964`, `121220137`,
+  `220104091`).
+- Új megengedett érték: **1** (`étkezési só`).
+- Törölt megengedett érték: **0**.
+- A kategóriafa bővítése után, minden rekordcsere
+  után, az átsorolás után és a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `15ba1924746fbabc7918d1bb` | íz hiányzott → `acerola, alma, citrom, feketerépa, gránátalma, málna, paradicsom` |
+| `44824294b396e198ef5ccced` | íz hiányzott → `alma, ananász, banán, citrom, guava, körte, mangó, maracuja, narancs, őszibarack, sárgabarack, sárgarépa, szőlő` |
+| `7d2d2318c37a101725349e05` | íz hiányzott → `acerola, alma, citrom, cékla, eper, feketerépa, grapefruit, guava, málna, vörösáfonya` |
+| `335472d91d329a01da1524d9` | íz hiányzott → `acerola, alma, citrom, körte, mangó, sárgabarack` |
+| `7c875bdb07c89eab33a170c6` | rostos `false` → `true` |
+| `4e7b28136c9bfc53a36b1991` | rostos `false` → `true` |
+| `9cab00c28ff25607f0c291c3` | rostos `false` → `true` |
+| `73c5c035e85e5c3d4edfdc22` | rostos `false` → `true` |
+| `26399fa7cc2fc4ff07114c6d` | altípus `Lé` → `Gyümölcsital`; rostos `false` → `true`; hozzáadott cukor nélkül hiányzott → `false` |
+| `ec1076759936794a5d9883ad` | íz `paradicsom` → `étkezési só, feketebors, paradicsom, zeller`; rostos `false` → `true` |
+| `b16a7112958e01c12fd09caf` | íz hiányzott → `acerola, alma, citrom, guava, mangó, maracuja, szőlő` |
+| `ca6f9c0ea6739b7714b80711` | íz `paradicsom, tengeri só` → `citrom, paradicsom, tengeri só` |
+
+### Lé kézi felülvizsgálat, 13. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. Mind a 25 rekordhoz tartozott közvetlen
+  helyi kép; az öt részletes képlapot és a bizonyító
+  címkéket eredeti felbontásban is megvizsgáltuk.
+- A Rauch Juice Bar vérnarancslé pontos
+  [gyártói termékadata](https://www.rauch.cc/at/brands/rauch-juice-bar/rauch-juice-bar-blutorange-68108)
+  100%-os, közvetlenül préselt vérnarancslevet
+  gyümölcshússal igazol. A redundáns általános
+  `narancs` értéket eltávolítottuk, az egyetlen pontos
+  íz `vérnarancs` maradt, a téves `rostos: false`
+  értéket pedig `true` értékre javítottuk.
+- A Tesco grapefruitlé teljes neve `gyümölcshússal`,
+  a Hohes C narancs–acerolalé neve ugyancsak
+  `gyümölcshússal`, a 200 ml-es Tesco narancslé neve
+  pedig `narancspéppel` terméket azonosít. Mindhárom
+  téves `rostos: false` értéket `true` értékre
+  javítottuk.
+- A Rauch Juice Bar Pink Dragon közvetlen palackképe
+  azonosította a változatot. A pontos
+  [gyártói összetevőlista](https://www.rauch.cc/at/brands/rauch-juice-bar/rauch-juice-bar-pink-dragon-68112)
+  fehér szőlőlevet, almalevet, sárkánygyümölcsvelőt,
+  kókuszvizet és maracujalevet közöl; a hiányzó
+  ízlista egységesen `alma, kókusz, maracuja,
+  sárkánygyümölcs, szőlő` lett.
+- A Tesco 100% trópusi lé pontos, azonos
+  termékazonosítójú
+  [összetevőlistája](https://bevasarlas.tesco.hu/groceries/hu-HU/products/121250222)
+  alma-, narancs-, ananász- és zöldcitromlevet,
+  valamint mangó- és maracujapürét közöl. A hiányzó
+  ízlista ezért `alma, ananász, lime, mangó,
+  maracuja, narancs` lett.
+- A Tesco Citrus Juice pontos
+  [termékadata](https://nakup.itesco.cz/groceries/cs-CZ/products/2001020000749)
+  60% mandarin-, 30% narancs- és 10%
+  grapefruitlevet közöl; a hiányzó ízlistát ezzel a
+  három elemi értékkel pótoltuk.
+- Módosított rekord: **7**.
+- Módosított tulajdonságmező: **8**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **18**
+  (`121249305`, `220104085`, `121249271`, `220104087`,
+  `220000726`, `121277231`, `105014177`, `220104086`,
+  `121230223`, `121230252`, `121234835`, `121277283`,
+  `121277277`, `121249288`, `121230091`, `121231003`,
+  `121296485`, `121296496`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `121230102` | íz `narancs, vérnarancs` → `vérnarancs`; rostos `false` → `true` |
+| `121249311` | rostos `false` → `true` |
+| `121230396` | íz hiányzott → `alma, kókusz, maracuja, sárkánygyümölcs, szőlő` |
+| `121250222` | íz hiányzott → `alma, ananász, lime, mangó, maracuja, narancs` |
+| `121250049` | íz hiányzott → `grapefruit, mandarin, narancs` |
+| `121230995` | rostos `false` → `true` |
+| `121296473` | rostos `false` → `true` |
+
+### Lé kézi felülvizsgálat, 14. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. Mind a 25 rekordhoz tartozott közvetlen
+  helyi kép; az öt részletes képlapot és a bizonyító
+  címkéket eredeti felbontásban is megvizsgáltuk.
+- Az Andros termék teljes neve `100% tiszta
+  gránátalmalé`, az azonos termék pontos
+  [Tesco-összetevőlistája](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004121322570)
+  pedig kizárólag gránátalmalevet közöl. A téves,
+  redundáns `alma` értéket ezért eltávolítottuk.
+- A Hohes C Mild multivitamin, Hohes C Classic
+  multivitamin, Rauch Happy Day normál multivitamin és
+  Rauch Happy Day piros multivitamin az előző
+  blokkokban pontos gyártói összetevőlistával
+  ellenőrzött termékek újabb áruházi rekordjai. A négy
+  hiányzó ízlistát ugyanazokkal a teljes, elemi
+  gyümölcsértékekkel pótoltuk. A Classic csomagolása és
+  pontos termékadata 100%-os levet igazol, ezért annál
+  a hiányzó `gyümölcstartalom: 100%` értéket is
+  rögzítettük.
+- A Topjoy enyhén fűszerezett paradicsomlé pontos
+  [gyártói összetevőlistája](https://maspex.hu/markaink/topjoy/topjoy-paradicsom/enyhen-fuszerezett/)
+  paradicsomot, étkezési sót, feketeborsot és
+  zelleraromát, a pikáns változat
+  [gyártói összetétele](https://maspex.hu/markaink/topjoy/topjoy-paradicsom/pikans/)
+  paradicsomot, tengeri sót, chilit és feketeborsot
+  közöl. Mindkettő rostos termék; a két ízlistát és a
+  két téves `rostos` értéket ennek megfelelően
+  javítottuk.
+- A Hohes C Plus Energia/Vas, Immun cink és jelenlegi
+  csomagolású Fókusz az előző blokkokban teljes
+  összetevőlistával ellenőrzött termékek újabb
+  rekordjai. A hiányzó vagy részleges ízlistákat a már
+  bizonyított teljes összetételre javítottuk.
+- A Hohes C Plus Harmónia pontos
+  [összetevőlistája](https://www.dm.hu/p/d/2322153/hohes-c-vegyes-gyumolcsle-plus-harmonia)
+  alma-, narancs-, szőlő-, lime- és acerolasűrítményt
+  közöl; a hiányzó ízlista `acerola, alma, lime,
+  narancs, szőlő` lett.
+- A Rauch Happy Day narancslé teljes neve közvetlenül
+  `gyümölcshússal` terméket azonosít, ezért a téves
+  `rostos: false` értéket `true` értékre javítottuk.
+  A `szűretlen` almalé jelzőjét önmagában továbbra sem
+  kezeltük gyümölcshús-bizonyítékként.
+- Módosított rekord: **12**.
+- Módosított tulajdonságmező: **15**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **13**
+  (`121337800`, `208962184`, `120098824`, `210393365`,
+  `203236693`, `209515242`, `121217165`, `209805237`,
+  `210445217`, `203235351`, `203236433`, `209268544`,
+  `210393556`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `121322570` | íz `alma, gránátalma` → `gránátalma` |
+| `209937662` | íz hiányzott → `acerola, alma, banán, citrom, mangó, narancs` |
+| `210213649` | íz hiányzott → `alma, áfonya, bodza, citrom, feketeribizli, gránátalma, málna, meggy, szeder, szőlő, vörösáfonya` |
+| `203213229` | gyümölcstartalom hiányzott → `100%`; íz hiányzott → `acerola, alma, ananász, banán, citrom, mangó, maracuja, narancs, nektarin` |
+| `203235535` | íz hiányzott → `alma, ananász, banán, citrom, guava, körte, mandarin, mangó, maracuja, narancs, őszibarack, sárgabarack, szőlő` |
+| `207000061` | íz `paradicsom` → `étkezési só, feketebors, paradicsom, zeller`; rostos `false` → `true` |
+| `105007895` | íz `cékla, gránátalma` → `acerola, alma, citrom, feketerépa, gránátalma, málna, paradicsom` |
+| `105007881` | íz hiányzott → `acerola, alma, citrom, cékla, eper, feketerépa, grapefruit, guava, málna, vörösáfonya` |
+| `220332818` | íz hiányzott → `acerola, alma, citrom, körte, mangó, sárgabarack` |
+| `105007898` | íz hiányzott → `acerola, alma, lime, narancs, szőlő` |
+| `206358910` | rostos `false` → `true` |
+| `220256642` | íz `paradicsom` → `chili, feketebors, paradicsom, tengeri só`; rostos `false` → `true` |
+
+### Lé kézi felülvizsgálat, 15. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél következő
+  **25** teljes rekordját és forrássorát egyenként
+  ellenőriztük. Mind a 25 rekordhoz tartozott közvetlen
+  helyi kép; az öt részletes képlapot és a bizonyító
+  címkéket eredeti felbontásban is megvizsgáltuk.
+- A Cappy 100% narancslé teljes neve és közvetlen
+  csomagolásképe egyaránt `gyümölcshússal` terméket
+  igazol, ezért a téves `rostos: false` értéket
+  `true` értékre javítottuk.
+- A Rauch Happy Day 100% multivitaminlé két kis
+  kiszerelése az előző blokkokban pontos gyártói
+  összetevőlistával ellenőrzött termék újabb rekordja.
+  Mindkét hiányzó ízlista az igazolt `alma, ananász,
+  banán, citrom, guava, körte, mandarin, mangó,
+  maracuja, narancs, őszibarack, sárgabarack, szőlő`
+  értéksort kapta.
+- A Hohes C Plus Csonterő ugyancsak korábban, pontos
+  [termékadattal](https://www.dm.hu/p/d/3124991/hohes-c-vegyes-gyumolcsle-plusz-csontero)
+  ellenőrzött változat újabb áruházi rekordja. A
+  hiányzó ízlistát `acerola, alma, citrom, guava,
+  mangó, maracuja, szőlő` értékekkel pótoltuk.
+- A Bauer bio céklalé pontos
+  [gyártói termékadata](https://shop-bauer-fruchtsaft.de/Bauer-Bio-Rote-Betesaft)
+  100% zöldségtartalmú, közvetlen céklalevet, a
+  Biopont bio répalé azonos termékazonosítójú
+  [Tesco-adatlapja](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004121311646)
+  pedig 100% laktofermentált répalevet közöl. Mindkét
+  rekord hiányzó `gyümölcstartalom` értéke `100%`
+  lett. A meglévő séma ezt a mezőt a tiszta
+  zöldségleveknél is használja.
+- A DÉR Juice rostos változatainál a teljes terméknév
+  közvetlen bizonyíték volt; a sima hidegen préselt
+  almalénél azonban nem állítottunk be rostosságot.
+- Módosított rekord: **6**.
+- Módosított tulajdonságmező: **6**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **19**
+  (`121217349`, `210393549`, `121236758`, `220314933`,
+  `121263178`, `121263155`, `121236712`, `121236689`,
+  `121219952`, `121220097`, `121253945`, `121291035`,
+  `121291046`, `121291052`, `121291069`, `121291109`,
+  `121291115`, `121291121`, `121291138`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere után és a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `121216419` | rostos `false` → `true` |
+| `210903908` | íz hiányzott → `alma, ananász, banán, citrom, guava, körte, mandarin, mangó, maracuja, narancs, őszibarack, sárgabarack, szőlő` |
+| `121237452` | gyümölcstartalom hiányzott → `100%` |
+| `111274648` | íz hiányzott → `acerola, alma, citrom, guava, mangó, maracuja, szőlő` |
+| `121253962` | íz hiányzott → `alma, ananász, banán, citrom, guava, körte, mandarin, mangó, maracuja, narancs, őszibarack, sárgabarack, szőlő` |
+| `121311646` | gyümölcstartalom hiányzott → `100%` |
+
+### Lé kézi felülvizsgálat, 16. blokk
+
+- A `Gyümölcs- és zöldségitalok → Lé` céllevél utolsó
+  **8** teljes rekordját és forrássorát egyenként
+  ellenőriztük. Mind a nyolc rekordhoz tartozott
+  közvetlen helyi kép; a két részletes képlapot és a
+  bizonyító címkéket eredeti felbontásban is
+  megvizsgáltuk. Ezzel a jelenlegi Lé levél mind a
+  **377** rekordjának kézi ellenőrzése befejeződött.
+- A Biopont bio vegyes zöldséglé pontos, azonos
+  termékazonosítójú
+  [Tesco-adatlapja](https://bevasarlas.tesco.hu/groceries/hu-HU/products/121311669)
+  52,5% céklalevet, 20-20% sárgarépa- és zellerlevet,
+  5% burgonyalevet, 1,5% reteklevet és 1% acerola
+  pépet közöl. A hiányzó `gyümölcstartalom` `100%`
+  lett, az ízlistát pedig mind a hat elemi alapanyaggal
+  pótoltuk.
+- A Biopont bio zöldségkoktél pontos
+  [összetevőlistája](https://bevasarlas.tesco.hu/groceries/hu-HU/products/121311675)
+  paradicsom-, sárgarépa-, savanyúkáposzta-, cékla-,
+  zeller-, uborka-, hagyma-, bab- és kaporlevet,
+  paprikavelőt, valamint tengeri sót közöl. A termék
+  100% zöldségtartalmú; a hiányzó tartalomértéket és a
+  teljes, normalizált ízlistát rögzítettük.
+- A Biopont bio céklalé azonos termékazonosítójú
+  [Tesco-adatlapja](https://bevasarlas.tesco.hu/shop/hu-HU/products/121236845)
+  99% céklalevet és acerola cseresznyevelőt igazol.
+  Ezek együtt 100% gyümölcs-/zöldségtartalmat adnak;
+  a hiányzó tartalomértéket és az acerola ízértéket
+  pótoltuk.
+- A Biopont bio reggeli vegyes lé pontos
+  [összetevőlistája](https://bevasarlas.tesco.hu/groceries/hu-HU/products/121236862)
+  összesen 84% gyümölcsöt és 16% zöldséget, ezen belül
+  alma-, narancs-, sárgarépa-, szőlő- és körtelevet,
+  banán-, mangó-, acerola- és guavapürét, valamint
+  maracujalevet közöl. A hiányzó `100%`
+  gyümölcstartalmat és a tíz elemi ízértéket
+  rögzítettük.
+- A négy összetevőlistában közvetlenül igazolt, eddig
+  nem engedélyezett `bab`, `burgonya`, `paprika` és
+  `retek` értéket felvettük a Lé meglévő `íz`
+  tulajdonságához. Új kategória vagy tulajdonság nem
+  jött létre.
+- Módosított rekord: **4**.
+- Módosított tulajdonságmező: **8**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **4**
+  (`121321473`, `121321485`, `208173016`, `210092251`).
+- Új megengedett érték: **4** (`bab`, `burgonya`,
+  `paprika`, `retek`).
+- Törölt megengedett érték: **0**.
+- A kategóriafa bővítése után, minden rekordcsere
+  után és a végén is lefutott a 47 030 rekordos teljes
+  validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `121311669` | gyümölcstartalom hiányzott → `100%`; íz hiányzott → `acerola, burgonya, cékla, retek, sárgarépa, zeller` |
+| `121311675` | gyümölcstartalom hiányzott → `100%`; íz hiányzott → `bab, cékla, hagyma, kapor, káposzta, paprika, paradicsom, sárgarépa, tengeri só, uborka, zeller` |
+| `121236845` | gyümölcstartalom hiányzott → `100%`; íz `cékla` → `acerola, cékla` |
+| `121236862` | gyümölcstartalom hiányzott → `100%`; íz hiányzott → `acerola, alma, banán, guava, körte, mangó, maracuja, narancs, sárgarépa, szőlő` |
+
+### Gyümölcsital kézi felülvizsgálat, 1. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  céllevél első **25** teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a 25 rekordhoz tartozott
+  közvetlen helyi kép; az öt részletes képlapot és a
+  bizonyító címkéket eredeti felbontásban is
+  megvizsgáltuk.
+- A két kis Rio D'Oro őszibarack- és narancsital
+  dobozán közvetlenül a `rostos` megjelölés szerepel.
+  A két téves `rostos: false` értéket `true` értékre
+  javítottuk. A szűrt alma változat változatlanul
+  `false` maradt.
+- A Sió eredeti őszibarackital neve és doboza rostos
+  terméket igazol, pontos termékadata pedig 20%
+  őszibarackvelőt közöl. A Sió Zero alma azonos
+  termékének
+  [összetevőlistája](https://bevasarlas.tesco.hu/shop/hu-HU/products/2005105002482)
+  12% almalevet igazol. A hiányzó tartalomértékeket,
+  illetve az őszibarackital rostosságát pótoltuk.
+- A Cappy őszibarack mix pontos termékneve
+  őszibarackpürét és almalevet, a Cappy Green Apple
+  azonos EAN-jú
+  [termékadata](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004121299654)
+  20% zöldalmapürét és 10% almalevet közöl. Az első
+  ízlistájához hozzáadtuk az almát, a második hiányzó
+  gyümölcstartalma `30%` lett. A Cappy Eper mix pontos
+  34%-os összetevőlistája alma-, eper- és
+  feketeberkenye-eredetű gyümölcsrészt igazol; a
+  részleges ízlistát erre a három értékre javítottuk.
+- A Rauch Juice Bar ananász–narancs–maracuja két
+  kiszerelésének pontos
+  [gyártói összetétele](https://www.rauch.cc/at/brands/rauch-juice-bar/rauch-juice-bar-ananas-orange-maracuja-68107)
+  99,9% vegyes gyümölcslevet közöl, amelyben a
+  megnevezett három gyümölcs mellett fehérszőlőlé is
+  van. Mindkét rekord tartalomértékét, szőlő
+  ízértékét és a hozzáadott cukor hiányát rögzítettük.
+  A Green Glory pontos
+  [összetevőlistája](https://potravinydomov.itesco.sk/shop/sk-SK/products/121570091)
+  99,7% alma-, szőlő-, uborka-, kivi- és citromeredetű
+  gyümölcs-/zöldségtartalmat közöl hozzáadott cukor
+  nélkül; a három hiányzó/hibás mezőt javítottuk.
+- Az Andros licsi pontos
+  [gyártói oldala](https://www.andros.fr/andros/produits/jus-boissons/boisson-au-litchi/)
+  22% licsipürét, 2,6% citromlevet és 0,5%
+  sárkánygyümölcs-pürét; az ACE
+  [gyártói oldala](https://www.andros.fr/andros/produits/jus-boissons/ace-1l/)
+  összesen 86,5% narancs-, alma-, sárgarépa- és
+  citromlevet, hozzáadott cukor nélkül; a cranberry
+  [gyártói oldala](https://www.andros.fr/andros/produits/jus-boissons/boisson-a-la-cranberry-1l/)
+  pedig 24% vörösáfonyalevet közöl. Mindhárom rekord
+  hiányzó tartalmát, valamint a licsi és cranberry
+  pontos ízlistáját, illetve az ACE
+  `hozzáadott cukor nélkül` értékét javítottuk.
+- A Márka Fruitica multivitamin pontos
+  [összetevőlistája](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/marka-fruitica-multivitamin-vegyes-gyumolcsital-1-5l-5999862309589),
+  a Hey-Ho azonos Auchan-termékadata, a Sió
+  Találkozások
+  [összetétele](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/sio-talalkozasok-rostos-multivitamin-vegyes-gyumolcsital-1l),
+  valamint a piros és sárga Vitatigris pontos
+  [termékadatai](https://bevasarlas.tesco.hu/shop/hu-HU/products/2005105003613)
+  közvetlenül igazolták az öt hiányzó
+  gyümölcstartalmat és teljes ízlistát.
+- A két Traubisoda teljes neve és forráskategóriája
+  szénsavas üdítőitalt azonosít; a normál és Zero
+  rekordot kézzel az `Üdítőitalok → Egyéb ízesített
+  üdítőital` levélbe soroltuk, a céllevél pontos
+  `szénsavas` és `energiatartalom` mezőivel. A
+  Vitalade palack közvetlenül `Sportsdrink`, a gyártó
+  [hivatalos tájékoztatója](https://vitalade.com/gyik/)
+  pedig multivitamin ízű sportitalként azonosítja; ezt
+  kézzel a `Funkcionális italok → Sport-, izotóniás,
+  kollagén- és shot ital` levélbe soroltuk,
+  `íz: vegyes gyümölcs` és `funkció: sportital`
+  értékekkel.
+- Módosított rekord: **21**.
+- Módosított tulajdonságmező az átsorolásokon kívül:
+  **33**.
+- Kézi kategória-átsorolás: **3**.
+- Változatlanul hagyott rekord: **4**
+  (`757842`, `935735`, `935736`, `935737`).
+- Új megengedett érték: **9** (`24%`, `25,1%`,
+  `86,5%`, `99,7%`, `99,9%`, `feketerépa`,
+  `piros szőlő`, `uborka`, `vörösáfonya`).
+- Törölt megengedett érték: **0**.
+- A kategóriafa bővítése után, minden rekordcsere
+  után, az átsorolási köteg előtt és után, valamint a
+  végén is lefutott a 47 030 rekordos teljes
+  validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `753873` | rostos `false` → `true` |
+| `757841` | rostos `false` → `true` |
+| `944844` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `4604103` | gyümölcstartalom hiányzott → `12%` |
+| `986393` | íz `őszibarack` → `alma, őszibarack` |
+| `986394` | gyümölcstartalom hiányzott → `30%` |
+| `1028336` | íz `eper` → `alma, eper, feketeberkenye` |
+| `818600:4355990` | gyümölcstartalom hiányzott → `99,9%`; íz `ananász, maracuja, narancs` → `ananász, maracuja, narancs, szőlő`; hozzáadott cukor nélkül `false` → `true` |
+| `818612:4356002` | gyümölcstartalom hiányzott → `25,1%`; íz `licsi` → `citrom, licsi, sárkánygyümölcs` |
+| `848948:4386338` | gyümölcstartalom hiányzott → `86,5%`; hozzáadott cukor nélkül `false` → `true` |
+| `783350:4320740` | gyümölcstartalom hiányzott → `24%`; íz `áfonya` → `vörösáfonya` |
+| `795707:4333097` | gyümölcstartalom hiányzott → `99,7%`; íz hiányzott → `alma, citrom, kivi, szőlő, uborka`; hozzáadott cukor nélkül `false` → `true` |
+| `818594:4355984` | gyümölcstartalom hiányzott → `99,9%`; íz `ananász, maracuja, narancs` → `ananász, maracuja, narancs, szőlő`; hozzáadott cukor nélkül `false` → `true` |
+| `875015:4412405` | `Gyümölcs- és zöldségitalok → Gyümölcsital` → `Üdítőitalok → Egyéb ízesített üdítőital`; célmezők: `márka: Traubisoda`, `íz: szőlő`, `szénsavas: true`, `energiatartalom: normál` |
+| `875024:4412414` | `Gyümölcs- és zöldségitalok → Gyümölcsital` → `Üdítőitalok → Egyéb ízesített üdítőital`; célmezők: `márka: Traubisoda`, `íz: szőlő`, `szénsavas: true`, `energiatartalom: cukormentes` |
+| `747323:4284713` | `Gyümölcs- és zöldségitalok → Gyümölcsital` → `Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital`; célmezők: `márka: Vitalade`, `íz: vegyes gyümölcs`, `funkció: sportital` |
+| `684044:4221434` | gyümölcstartalom hiányzott → `25%`; íz hiányzott → `alma, ananász, citrom, guava, mandarin, maracuja, narancs, nektarin, sárgabarack, szőlő` |
+| `53208:53547` | gyümölcstartalom hiányzott → `25%`; íz hiányzott → `alma, áfonya, bodza, eper, feketeberkenye, feketeribizli, málna, szeder, szőlő` |
+| `588401:4125791` | gyümölcstartalom hiányzott → `25%`; íz hiányzott → `alma, banán, citrom, maracuja, narancs, őszibarack` |
+| `632561:4169951` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `632558:4169948` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, narancs, sárgabarack, sárgarépa` |
+
+### Gyümölcsital kézi felülvizsgálat, 2. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  céllevél következő **25** egyedi teljes rekordját és
+  forrássorát egyenként ellenőriztük. Mind a 25
+  rekordhoz tartozott közvetlen helyi kép; az öt
+  részletes képlapot eredeti felbontásban is
+  megvizsgáltuk.
+- A Sió Zero multivitamin azonos termékének
+  [összetevőlistája](https://hazaimarket.hu/termek/sio-zero-edesitoszerekkel-keszult-multivitamin-gyumolcsital-1-l)
+  20% gyümölcstartalmat, valamint alma-, narancs-,
+  banán-, őszibarack- és citromeredetű összetevőket
+  igazol. A Topjoy Immunitás
+  [pontos Tesco-adatlapja](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2005105013844)
+  szintén 20%-ot és alma-, narancs-, citrom-,
+  fehérszőlő-, lime- és ananászlevet közöl; az
+  [azonos Auchan-termékadat](https://auchan.hu/en/shop/topjoy-immunitas-multivitamin-mixed-fruit-drink-1-l.p-828082)
+  a szűretlen állagot is megerősíti.
+- A Pfanner BCE erdei gyümölcsital
+  [hivatalos gyártói leírása](https://www.pfanner.com/hu/termekek/lepjen-be-a-gyuemoelcslevek-vilagaba/)
+  minimum 30% gyümölcstartalmat és alma,
+  feketeberkenye, piros szőlő, feketeribizli, bodza,
+  eper, málna, áfonya és szeder összetételt közöl. A
+  korábbi általános `erdei gyümölcs` ízt a bizonyított
+  elemi összetevőkre cseréltük.
+- A Cappy Multivitamin pontos
+  [Auchan-adatlapja](https://auchan.hu/shop/cappy-multivitamin-gyumolcsital-gyumolcslevel-es-gyumolcspurevel-cukorral-es-edesitoszerekkel-1-l.p-839420)
+  50% gyümölcstartalmat, az azonos megnevezésű
+  [részletes összetevőlista](https://www.kifli.hu/1357-cappy-multivitamin-gyuemoelcsital-gyuemoelcslevel-es-gyuemoelcspuerevel-cukorral-es-edesitoszerekkel)
+  pedig alma-, narancs-, citrom-, szőlő- és
+  őszibarackeredetű gyümölcsrészt igazol. A Cappy
+  Őszibarack mix
+  [pontos Auchan-adatlapja](https://auchan.hu/shop/cappy-oszibarack-mix-gyumolcsital-oszibarackpure-es-almale-suritmenybol-330-ml.p-839429)
+  50%-os, szűretlen terméket közöl; a hiányzó
+  tartalomértéket és a téves `rostos: false` értéket
+  javítottuk.
+- A Sió 0,2 literes őszibarackital
+  [pontos termékadata](https://auchan.hu/shop/sio-rostos-oszibarack-ital-02-l.p-657355)
+  20%-ot, a 0,2 és 1 literes szűrt almaital
+  [összetevőlistája](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/sio-szurt-alma-ital-1l-5998815122947)
+  12%-ot igazol. A két Sió Zero alma kiszereléshez az
+  azonos termék
+  [leírása](https://www.kamraellato.hu/Sio-zero-rostos-udito-alma-20-gyumolcstartalom-1-l)
+  12%-os tartalmat közöl.
+- A Topjoy gyermek almaital
+  [azonos termékoldala](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/topjoy-almaital-200ml)
+  30% almalevet; a Kubu málna változat
+  [azonos termékadata](https://cooponline.hu/termek/kubu-srepa-alma-malna-it-mezzel-40-0-2l/)
+  40%, az őszibarack változat
+  [pontos Auchan-adatlapja](https://auchan.hu/shop/kubu-sargarepa-alma-oszibarack-ital-mezzel-vitaminokkal-200-ml.p-893383)
+  38% zöldség- és gyümölcstartalmat igazol.
+- A helyi csomagolásképeken közvetlenül olvasható
+  `12%` jelölést, illetve az azonos termékoldalakat
+  használtuk a Szobi alma és narancs, a Hey-Ho alma
+  és narancs, valamint a Rauch Bravo alma
+  tartalomértékéhez. A Rauch értékét az
+  [azonos Auchan-adatlap](https://auchan.hu/shop/rauch-bravo-almaital-15-l.p-11262),
+  a Hey-Ho almáét a
+  [részletes összetevőlista](https://cooponline.hu/termek/hey-ho-alma-12-1l/)
+  is megerősíti.
+- A Márka Fruitica alma
+  [összetevőlistája](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/marka-fruitica-alma-gyumolcsital-1-5l)
+  és a narancs
+  [pontos Auchan-adatlapja](https://auchan.hu/en/shop/marka-fruitica-orange-non-carbonated-fruit-drink-with-sugar-15-l.p-853075)
+  egyaránt 25% gyümölcstartalmat igazol.
+- A Topjoy Snack trópusi gyümölcsök–rizs termék
+  közvetlen képe és teljes neve pürét, nem italt
+  azonosít. Az azonos EAN-jú
+  [részletes összetevőlista](https://evedd.hu/Topjoy-Pure-100Gr-Tropic-Rizs-Snack)
+  alma-, banán-, ananász-, narancs-, mangó-,
+  őszibarack-, guava-, fügekaktusz-, papaya-,
+  maracuja-, lime-, licsi- és kivieredetű összetevőt
+  közöl. A rekordot kézzel a `Smoothie és püréital`
+  levélbe soroltuk ezzel az elemi ízlistával.
+- Módosított rekord: **21**.
+- Módosított tulajdonságmező az átsoroláson kívül:
+  **27**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **3**
+  (`674702:4212092`, `674936:4212326`,
+  `674708:4212098`).
+- Új megengedett érték: **3** (`guava`, `licsi`,
+  `papaya`).
+- Törölt megengedett érték: **0**.
+- A kategóriafa bővítése után, minden rekordcsere
+  előtt és után, az átsorolási köteg előtt és után,
+  valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció; eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `588380:4125770` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, banán, citrom, narancs, őszibarack` |
+| `672989:4210379` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, ananász, citrom, lime, narancs, szőlő`; rostos `false` → `true` |
+| `51099:51441` | gyümölcstartalom hiányzott → `30%`; íz `erdei gyümölcs` → `alma, áfonya, bodza, eper, feketeberkenye, feketeribizli, málna, piros szőlő, szeder` |
+| `678554:4215944` | gyümölcstartalom hiányzott → `50%`; íz hiányzott → `alma, citrom, narancs, őszibarack, szőlő` |
+| `583833:4121223` | gyümölcstartalom hiányzott → `20%` |
+| `586439:4123829` | gyümölcstartalom hiányzott → `12%` |
+| `100537:3637744` | gyümölcstartalom hiányzott → `30%` |
+| `946319:4483709` | gyümölcstartalom hiányzott → `40%` |
+| `946316:4483706` | gyümölcstartalom hiányzott → `38%` |
+| `513665:4051055` | `Gyümölcs- és zöldségitalok → Gyümölcsital` → `Gyümölcs- és zöldségitalok → Smoothie és püréital`; célmezők: `márka: Topjoy`, `íz: alma, ananász, banán, guava, kaktusz, kivi, licsi, lime, mangó, maracuja, narancs, őszibarack, papaya` |
+| `20821:20824` | gyümölcstartalom hiányzott → `12%` |
+| `66227:3603308` | gyümölcstartalom hiányzott → `12%` |
+| `684038:4221428` | gyümölcstartalom hiányzott → `25%` |
+| `693194:4230584` | gyümölcstartalom hiányzott → `12%` |
+| `53199:53538` | gyümölcstartalom hiányzott → `12%` |
+| `678581:4215971` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+| `585563:4122953` | gyümölcstartalom hiányzott → `12%` |
+| `588377:4125767` | gyümölcstartalom hiányzott → `12%` |
+| `388:388` | gyümölcstartalom hiányzott → `12%` |
+| `20824:20827` | gyümölcstartalom hiányzott → `12%` |
+| `66230:3603311` | gyümölcstartalom hiányzott → `12%` |
+| `684032:4221422` | gyümölcstartalom hiányzott → `25%` |
+
+### Gyümölcsital kézi felülvizsgálat, 3. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  céllevél következő **25** egyedi teljes rekordját és
+  forrássorát egyenként ellenőriztük. Mind a 25
+  rekordhoz tartozott közvetlen helyi kép; az öt
+  részletes képlapot eredeti felbontásban is
+  megvizsgáltuk.
+- A Sió narancs és szőlő 0,2/1 literes változatai,
+  a Szobi kék- és fehérszőlő, valamint a Hey-Ho
+  fehér- és kékszőlő közvetlen csomagolásképe és
+  pontos termékadata 12% gyümölcstartalmat igazol. A
+  Sió értékét az
+  [azonos összetevőlista](https://szlivenspar.hu/sio-szurt-szolo-ital-1-l),
+  a Szobi termékcsaládét a
+  [gyártói oldal](https://szobi.hu/termekek/), a
+  Hey-Ho változatokat pedig a pontos
+  [fehérszőlő](https://auchan.hu/shop/hey-ho-feherszolo-ital-1-l.p-105224)
+  és
+  [kékszőlő](https://auchan.hu/shop/hey-ho-kekszolo-ital-1-l.p-918962)
+  adatlap is megerősíti.
+- A Topjoy alma–kékszőlő pontos
+  [címkedokumentuma](https://cdn.metro-group.com/hu/hu_fir_174170001001_hu.pdf)
+  18% almalevet és 2% kékszőlőlevet közöl. A hiányzó
+  `20%` értéket pótoltuk, a termékben nem szereplő
+  `kivi` ízt pedig töröltük a rekordról.
+- A Hey-Ho sárkánygyümölcs
+  [pontos összetevőlistája](https://hazaimarket.hu/termek/hey-ho-sarkanygyumolcsital-1-l)
+  20%-ot, alma- és feketerépa-eredetű összetevőt,
+  valamint szűretlen állagot igazol. A Hey-Ho eper
+  [pontos Auchan-adatlapja](https://auchan.hu/en/shop/hey-ho-strawberry-drink-1-l.p-4128)
+  25%-os, alma–eper összetételű, szűretlen terméket
+  közöl. Mindkét részleges rekordot teljessé tettük.
+- A Rauch Bravo Piros Multi
+  [részletes összetevőlistája](https://www.groby.hu/termekek/44493-rauch-bravo-gyumolcsital-1-5-l-piros-multi-12)
+  12% alma-, meggy-, feketeribizli-, narancs-, bodza-,
+  málna- és szederlevet igazol. A Cappy Eper mix
+  [hivatalos gyártói oldala](https://www.coca-cola.com/hu/hu/brands/cappy/cappy-fruit-nectar)
+  minimum 34% alma-, eper- és aróniatartalmat közöl;
+  a közvetlen név, kép és pontos Auchan-adatlap a
+  szűretlen állagot is megerősíti.
+- A Rauch Happy Day gránátalma
+  [azonos termékoldala](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/rauch-happy-day-granatalma-vegyes-gyumolcsital-1l)
+  30% gránátalma-, alma-, arónia- és bodzaeredetű
+  levet közöl. A hiányzó tartalmat és két hiányzó
+  ízértéket pótoltuk.
+- A Topjoy körte
+  [pontos termékadata](https://auchan.hu/shop/topjoy-korte-ital-250-ml.p-857795)
+  50%-os, szűretlen terméket; a Márka alma–körte
+  [összetevőlistája](https://innotechshop.hu/marka-alma-korte-gyumolcsital-25-15l-drs-csak-egyedi-szallitassal-vagy-szemelyes-atvetellel)
+  19% almalevet és 6% körtelevet; a Hey-Ho körte
+  [pontos adatlapja](https://auchan.hu/shop/hey-ho-korteital-1-l.p-918957)
+  25%-os, szűretlen italt igazol.
+- A Sió Találkozások alma–körte
+  [részletes összetevőlistája](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/sio-talalkozasok-rostos-alma-korte-gyumolcsital-1l)
+  9% almavelőt és 3% körtevelőt; a Sió rostos körte
+  [azonos termékoldala](https://ecofamily.hu/p/sio-gyumolcsital-1l-rostos-korte-20)
+  20% körtevelőt igazol. A Cappy körte
+  [összetevőlistája](https://szlivenspar.hu/cappy-korte-gyumolcsital-1l)
+  33% körtepürét, a Topjoy alma–őszibarack–eper
+  [összetevőlistája](https://shop.hosso.hu/top-joy-02l-alma-oszi-eper-dob-1356)
+  összesen 30% gyümölcsrészt közöl.
+- A Hey-Ho Zero Piros Multivitamin
+  [pontos összetevőlistája](https://cooponline.hu/termek/hey-ho-piros-multivitamin-zero-20-1l/)
+  20% meggy-, alma-, pirosszőlő-, arónia-, eper-,
+  málna-, áfonya- és szederlevet közöl, hozzáadott
+  cukor nélkül. A közvetlen dobozkép `ZERO HOZZÁADOTT
+  CUKOR` felirata és az adatlap szűretlen jelölése
+  alapján mind a négy hiányos/hibás mezőt javítottuk.
+- A Hohes C Classic narancs–acerola dobozán
+  közvetlenül `100% gyümölcslé` olvasható, ezért nem
+  gyümölcsital. A rekordot kézzel a `Lé` levélbe
+  soroltuk `gyümölcstartalom: 100%`, `íz: acerola,
+  narancs` és `rostos: false` célértékekkel.
+- Módosított rekord: **21**.
+- Módosított tulajdonságmező az átsoroláson kívül:
+  **36**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **3**
+  (`674696:4212086`, `640916:4178306`,
+  `23449:23452`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolási
+  köteg előtt és után, valamint a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem
+  maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `583839:4121229` | gyümölcstartalom hiányzott → `12%` |
+| `10837:10840` | `Gyümölcs- és zöldségitalok → Gyümölcsital` → `Gyümölcs- és zöldségitalok → Lé`; célmezők: `márka: Hohes C`, `gyümölcstartalom: 100%`, `íz: acerola, narancs`, `rostos: false` |
+| `582205:4119595` | gyümölcstartalom hiányzott → `12%` |
+| `784529:4321919` | gyümölcstartalom hiányzott → `20%`; íz `alma, kékszőlő, kivi` → `alma, kékszőlő` |
+| `21223:21226` | gyümölcstartalom hiányzott → `12%` |
+| `20830:20833` | gyümölcstartalom hiányzott → `12%` |
+| `122202:3659400` | gyümölcstartalom hiányzott → `12%` |
+| `66233:3603314` | gyümölcstartalom hiányzott → `12%` |
+| `583836:4121226` | gyümölcstartalom hiányzott → `12%` |
+| `632618:4170008` | gyümölcstartalom hiányzott → `20%`; íz `sárkánygyümölcs` → `alma, feketerépa, sárkánygyümölcs`; rostos `false` → `true` |
+| `443608:3980992` | gyümölcstartalom hiányzott → `25%`; íz `eper` → `alma, eper`; rostos `false` → `true` |
+| `785885:4323275` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, bodza, feketeribizli, málna, meggy, narancs, szeder` |
+| `678545:4215935` | gyümölcstartalom hiányzott → `34%`; íz `eper` → `alma, eper, feketeberkenye`; rostos `false` → `true` |
+| `588191:4125581` | gyümölcstartalom hiányzott → `30%`; íz `alma, gránátalma` → `alma, arónia, bodza, gránátalma` |
+| `684905:4222295` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+| `684041:4221431` | gyümölcstartalom hiányzott → `25%` |
+| `53202:53541` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `588389:4125779` | gyümölcstartalom hiányzott → `12%` |
+| `583842:4121232` | gyümölcstartalom hiányzott → `20%` |
+| `678539:4215929` | gyümölcstartalom hiányzott → `33%`; rostos `false` → `true` |
+| `100540:3637747` | gyümölcstartalom hiányzott → `30%` |
+| `945191:4482581` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, áfonya, eper, feketeberkenye, málna, meggy, piros szőlő, szeder`; rostos `false` → `true`; hozzáadott cukor nélkül `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 4. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  céllevél következő **25** egyedi teljes rekordját és
+  forrássorát egyenként ellenőriztük. Mind a 25
+  rekordhoz tartozott közvetlen helyi kép; az öt
+  részletes képlapot eredeti felbontásban is
+  megvizsgáltuk.
+- A három Sió Találkozások változatnál a közvetlen
+  dobozkép igazolta a teljes ízlistát és a rostos
+  állagot. A meggy–szilva–alma
+  [pontos összetevőlistája](https://szlivenspar.hu/sio-talalkozasok-rostos-meggy-szilva-alma-gyumolcsital-1-l-59971),
+  az őszibarack–alma–meggy–málna
+  [részletes termékadata](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/sio-talalkozasok-rostos-oszibarack-alma-meggy-malna-vegyes-gyumolcsital-1l-5998815123395)
+  és az őszibarack–narancs
+  [azonos termékoldala](https://www.groby.hu/termekek/41314-sio-talalkozasok-rostos-vegyes-gyumolcsital-1-l-oszibarack-narancs-12)
+  egyaránt 12% gyümölcstartalmat igazol.
+- A Sió Zero meggy–szilva–alma
+  [összetevőlistája](https://bevasarlas.tesco.hu/groceries/hu-HU/products/105002474)
+  20% velőt és levet, az alma–maracuja–mangó
+  [pontos termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/2005105441020)
+  15%, az alma–sárkánygyümölcs–guava
+  [részletes összetétele](https://www.kifli.hu/en-HU/107000-sio-zero-apple-dragonfruit-guava-1l)
+  13%, a piros szőlő–alma
+  [összetevőlistája](https://www.groby.hu/termekek/45564-sio-zero-gyumolcsital-1-l-piros-szolo-alma-19)
+  19%, az őszibarack
+  [pontos termékadata](https://firsthand.hu/termek/14522-sio-zero-edesitoszerekkel-keszuelt-oszibarack-gyuemoelcsital-1-l-20)
+  pedig 20% gyümölcstartalmat igazol. A pürét vagy
+  velőt tartalmazó változatok hibás `rostos: false`
+  értékét `true` értékre javítottuk; a szűrt
+  pirosszőlő–alma változat `false` maradt, és a
+  pontatlan `szőlő` ízt `piros szőlő` értékre
+  pontosítottuk.
+- A gyártó hivatalos termékadata szerint a Topjoy
+  alma–görögdinnye
+  [20%](https://maspex.hu/markaink/topjoy/topjoy-fruits-of-the-world/gorogdinnye/),
+  az alma–lime–kaktusz
+  [42%](https://maspex.hu/markaink/topjoy/topjoy-fruits-of-the-world/kaktusz/),
+  a rostos mangó–alma–narancs–citrom pedig
+  [24%](https://maspex.hu/markaink/topjoy/topjoy-fruits-of-the-world/mango/)
+  gyümölcstartalmú. Mindhárom hiányzó értéket és a
+  mangóváltozat rostosságát pótoltuk.
+- A Rauch Happy Day mangó pontos
+  [Auchan-adatlapja](https://auchan.hu/en/shop/rauch-happy-day-mango-drink-1-l.p-628554)
+  26%-os, szűretlen italt, a
+  [részletes összetevőlista](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/rauch-happy-day-mango-ital-1l)
+  pedig a mangó mellett maracujalevet is igazol. A
+  Pfanner ananász–kókusz hivatalos
+  [gyártói oldala](https://www.pfanner.com/hu/termekek/lepjen-be-a-gyuemoelcslevek-vilagaba/)
+  25%-os gyümölcstartalmat közöl.
+- A Sió Citrus Friss közvetlen termékneve és képe
+  `sárgadinnye-lime-alma vegyes üdítőital
+  gyümölcshússal` terméket igazol. A gyártó
+  [termékcsalád-oldala](https://www.siogyumolcs.hu/products/citrusfriss/)
+  ugyanezt a három ízt és az extra gyümölcshúst
+  erősíti meg. A rekordot kézzel az `Üdítőitalok →
+  Egyéb ízesített üdítőital` levélbe soroltuk
+  `energiatartalom: normál`, `márka: Sió`,
+  `szénsavas: false`, `íz: alma, lime, sárgadinnye`
+  célmezőkkel; ezzel a téves `görögdinnye` érték is
+  megszűnt.
+- A Szobi őszibarack közvetlen dobozán olvasható
+  `12%` értéket a pontos
+  [összetevőlista](https://www.arukereso.hu/gyumolcsle-zoldsegle-c1058/szobi/oszibarack-ital-12-1-l-p728739363/)
+  is igazolja. A két eltérő Hey-Ho őszibarackrekord
+  pontos Auchan-adatlapja külön-külön
+  [12%-os, szűretlen](https://auchan.hu/shop/hey-ho-oszibarackital-1-l.p-929689)
+  és
+  [12%-os, szűretlen](https://auchan.hu/shop/hey-ho-oszibarackital-1-l.p-929688)
+  terméket közöl; mindkét hiányzó tartalmat és
+  rostosságot pótoltuk.
+- A Márka Fruitica őszibarack
+  [pontos Auchan-adatlapja](https://auchan.hu/shop/marka-fruitica-oszibarack-szensavmentes-gyumolcsital-cukorral-15-l.p-853076)
+  25%-os, szűrt terméket, részletes
+  [összetevőlistája](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/marka-fruitica-oszibarack-szensavmentes-gyumolcsital-cukorral-1-5l)
+  pedig almalevet és őszibaracklevet/-velőt igazol.
+  A hiányzó tartalmat és az `alma` ízt pótoltuk.
+- A Sió kajszibarack és őszibarack pontos termékadata
+  egyaránt
+  [20% kajszibarackvelőt](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004020341217),
+  illetve
+  [20% őszibarackvelőt](https://hazaimarket.hu/termek/sio-rostos-oszibarack-ital-1-l)
+  igazol. A Sió Zero őszibarack
+  [összetevőlistája](https://ecofamily.hu/p/sio-gyumolcsital-1l-zero-oszibarack-20)
+  szintén 20% őszibarackvelőt közöl; a hiányzó
+  tartalom és a téves `rostos: false` érték
+  javításra került.
+- A Rauch Bravo őszibarack
+  [pontos címkedokumentuma](https://www.netdiszkont.hu/termekinfo/Rauch-Bravo-oszibarack-ital-1-5l.pdf)
+  25% őszibarackpürét, a Cappy Őszibarack mix
+  [termékadata](https://www.aldi.hu/hu/p.cappy-oszibarack-mix--gyumolcstartalom--l.000000000580810002.html)
+  50% gyümölcstartalmat, a Rauch Happy Day
+  őszibarack
+  [összetevőlistája](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/rauch-happy-day-oszibarackital-c-vitaminnal-1l)
+  35% őszibarackpürét, a Pfanner 2 literes
+  őszibarack pedig
+  [25% gyümölcstartalmat](https://ecofamily.hu/p/pfanner-oszibarack-ital-oszibarackvelobol-2-l)
+  igazol. Mind a négy hiányzó tartalomértéket és a
+  püré/velő alapján bizonyított rostosságot
+  pótoltuk.
+- Módosított rekord: **24**.
+- Módosított tulajdonságmező az átsoroláson kívül:
+  **38**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **1**
+  (`674717:4212107`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolási
+  köteg előtt és után, valamint a végén is lefutott a
+  47 030 rekordos teljes validáció; eltérés nem
+  maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `588395:4125785` | gyümölcstartalom hiányzott → `12%` |
+| `588392:4125782` | gyümölcstartalom hiányzott → `12%` |
+| `588398:4125788` | gyümölcstartalom hiányzott → `12%` |
+| `324803:3862094` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `783761:4321151` | gyümölcstartalom hiányzott → `15%`; rostos `false` → `true` |
+| `100522:3637729` | gyümölcstartalom hiányzott → `20%` |
+| `99678:3636882` | gyümölcstartalom hiányzott → `42%` |
+| `100609:3637816` | gyümölcstartalom hiányzott → `24%`; rostos `false` → `true` |
+| `941999:4479389` | `Gyümölcs- és zöldségitalok → Gyümölcsital` → `Üdítőitalok → Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Sió`, `szénsavas: false`, `íz: alma, lime, sárgadinnye` |
+| `557103:4094493` | gyümölcstartalom hiányzott → `26%`; íz `mangó` → `mangó, maracuja`; rostos `false` → `true` |
+| `468659:4006031` | gyümölcstartalom hiányzott → `25%` |
+| `1034381:4571771` | gyümölcstartalom hiányzott → `13%`; rostos `false` → `true` |
+| `1034378:4571768` | gyümölcstartalom hiányzott → `19%`; íz `alma, szőlő` → `alma, piros szőlő` |
+| `20827:20830` | gyümölcstartalom hiányzott → `12%` |
+| `66371:3603452` | gyümölcstartalom hiányzott → `12%`; rostos `false` → `true` |
+| `684035:4221425` | gyümölcstartalom hiányzott → `25%`; íz `őszibarack` → `alma, őszibarack` |
+| `53259:53598` | gyümölcstartalom hiányzott → `12%`; rostos `false` → `true` |
+| `583845:4121235` | gyümölcstartalom hiányzott → `20%` |
+| `582208:4119598` | gyümölcstartalom hiányzott → `20%` |
+| `587102:4124492` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `391:391` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `678518:4215908` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+| `442723:3980107` | gyümölcstartalom hiányzott → `35%`; rostos `false` → `true` |
+| `51123:51465` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 5. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  céllevél következő **25** egyedi teljes rekordját és
+  forrássorát egyenként ellenőriztük. Mind a 25
+  rekordhoz tartozott közvetlen helyi kép; az öt
+  részletes képlapot eredeti felbontásban is
+  megvizsgáltuk.
+- A Hey-Ho trópusi vegyes ital pontos
+  [összetevőlistája](https://chefmarket.hu/termek/51476125/uditoital-12-tropusi-hey-ho-1l)
+  12% gyümölcstartalmat és alma, narancs, mangó,
+  őszibarack, fehérszőlő, maracuja és guava
+  összetételt igazol. A Hey-Ho ananász
+  [termékadata](https://ecofamily.hu/p/hey-ho-ananaszital-1-l)
+  20% ananászlevet közöl.
+- A Sió Citrus Friss lime–citrom pontos
+  [termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004121267082)
+  12% gyümölcstartalmat, citromot, lime-ot,
+  narancsot és extra gyümölcshúst igazol mindkét
+  kiszereléshez. A grapefruit változat
+  [részletes adata](https://firsthand.hu/termek/14501-sio-citrus-friss-grapefruit-ital-gyuemoelcshussal-12-1l)
+  12% alma-, grapefruit- és narancstartalmat, valamint
+  narancs-gyümölcshúst közöl. A három rekord hiányzó
+  tartalmát és összetevőit pótoltuk, a téves
+  `rostos: false` értéket `true` értékre javítottuk.
+- A Sió Zero ananász pontos
+  [összetevőlistája](https://www.groby.hu/termekek/41653-sio-zero-gyumolcsital-1-l-ananasz-20)
+  17,1% ananászlevet és 2,9% ananászvelőt, összesen
+  20% gyümölcstartalmat igazol. A Topjoy Fitness
+  alma–ananász–narancs–citrom közvetlen palackképe
+  `0% hozzáadott cukor` feliratot mutat, pontos
+  [termékadata](https://fittvita.hu/en/spd/FV_8988-00004515/TopJoy-Fitness-Alm-anan.nar.citr-1L)
+  pedig 20% gyümölcstartalmat közöl; mindkét mezőt
+  javítottuk.
+- A Pfanner ananász–kókusz hivatalos
+  [gyártói oldala](https://www.pfanner.com/hu/termekek/lepjen-be-a-gyuemoelcslevek-vilagaba/)
+  25% gyümölcstartalmat igazol. Az ugyanott szereplő
+  gránátalma 25%-os tartalma és jelenlegi
+  tulajdonságai már megfelelőek voltak, ezért a
+  `41383:41386` rekord változatlan maradt.
+- A Szobi 0,2 literes narancs, őszibarack, alma és
+  fehérszőlő termékcsaládjának pontos
+  [terméklistája](https://szobi.hu/termekek/) és a
+  [tételes kereskedelmi adatok](https://viznagyker.hu/marka/11-szobi)
+  mind a négy változatnál 12% gyümölcstartalmat
+  igazolnak. A szűrt fehérszőlő pontatlan `szőlő`
+  értékét `fehérszőlő` értékre pontosítottuk. A Rauch
+  Bravo Select alma részletes
+  [összetevőlistája](https://www.groby.hu/termekek/1063-rauch-bravo-gyumolcsital-0-2-l-alma-12)
+  szintén 12% almalét igazol.
+- A Sió Vitatigris rostos változat pontos
+  [összetevőlistája](https://www.futashoz.hu/sio-vitatigris-rostos-vegyes-gyumolcsital-20-0-2-liter/)
+  20% narancs-, kajszibarack- és őszibarack-tartalmat
+  igazol. A rózsaszín változat
+  [Tesco-adatlapja](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2005105003593)
+  20% őszibarack-, alma-, meggy-, feketerépa- és
+  málnatartalmat közöl. A piros és sárga változat
+  közvetlen termékadatai 20%-ot, valamint rendre
+  `alma, eper, feketerépa, piros szőlő`, illetve
+  `alma, narancs, sárgabarack, sárgarépa`
+  összetételt igazolnak. Mind a négy rekord hiányzó
+  íz- és tartalomadatait pótoltuk; csak a név szerint
+  is rostos változat maradt `rostos: true`.
+- A 250 ml-es Topjoy termékeknél a nagyobb
+  kiszerelések receptje helyett a pontos, kisüveges
+  gyártói adatokat használtuk. Az alma–görögdinnye
+  [20%](https://maspex.hu/markaink/topjoy/topjoy-0-25l-uveges/gorogdinnye/),
+  az alma–lime–kaktusz
+  [50%](https://maspex.hu/markaink/topjoy/topjoy-0-25l-uveges/kaktusz/),
+  a mangó–alma–narancs–citrom
+  [25%](https://maspex.hu/markaink/topjoy/topjoy-0-25l-uveges/mango/),
+  az őszibarack pedig
+  [50%](https://maspex.hu/markaink/topjoy/topjoy-0-25l-uveges/oszibarack/)
+  gyümölcstartalmú. A mangó- és őszibarackváltozat
+  pürét tartalmaz, ezért a `rostos` értéket is
+  `true` értékre javítottuk. Az alma–meggy
+  [gyártói összetétele](https://maspex.hu/markaink/topjoy/topjoy-0-25l-uveges/alma-meggy/)
+  15% alma- és 10% meggylevet sorol fel, ezért az
+  egy helyen tévesen közölt 20%-os összesítés helyett
+  az összetevők összegével egyező 25% került a
+  rekordba.
+- A Kubu banán–alma–őszibarack pontos
+  [Tesco-adatlapja](https://bevasarlas.tesco.hu/groceries/hu-HU/products/121219727)
+  42% gyümölcs- és zöldségtartalmat, sárgarépát és
+  rostos állagot igazol. A banán–sárgarépa–áfonya
+  [részletes termékadata](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004121220016)
+  36% pürét és rostos állagot közöl. Mindkét
+  tartalomértéket és rostosságot pótoltuk, az első
+  rekord ízlistájához pedig felvettük a bizonyított
+  sárgarépát.
+- Módosított rekord: **24**.
+- Módosított tulajdonságmező: **41**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **1**
+  (`41383:41386`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, valamint a végén
+  is lefutott a 47 030 rekordos teljes validáció;
+  eltérés nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `66236:3603317` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, fehérszőlő, guava, mangó, maracuja, narancs, őszibarack` |
+| `679259:4216649` | gyümölcstartalom hiányzott → `12%`; íz `citrom, lime` → `citrom, lime, narancs`; rostos `false` → `true` |
+| `207412:3744661` | gyümölcstartalom hiányzott → `20%` |
+| `588386:4125776` | gyümölcstartalom hiányzott → `20%` |
+| `963221:4500611` | gyümölcstartalom hiányzott → `20%`; hozzáadott cukor nélkül `false` → `true` |
+| `632540:4169930` | gyümölcstartalom hiányzott → `12%`; íz `grapefruit` → `alma, grapefruit, narancs`; rostos `false` → `true` |
+| `632546:4169936` | gyümölcstartalom hiányzott → `12%`; íz `citrom, lime` → `citrom, lime, narancs`; rostos `false` → `true` |
+| `211880:3749141` | gyümölcstartalom hiányzott → `25%` |
+| `21229:21232` | gyümölcstartalom hiányzott → `12%` |
+| `21232:21235` | gyümölcstartalom hiányzott → `12%` |
+| `21226:21229` | gyümölcstartalom hiányzott → `12%` |
+| `40126:40129` | gyümölcstartalom hiányzott → `12%`; íz `szőlő` → `fehérszőlő` |
+| `588194:4125584` | gyümölcstartalom hiányzott → `12%` |
+| `632549:4169939` | íz hiányzott → `narancs, sárgabarack, őszibarack` |
+| `632555:4169945` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `632543:4169933` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, feketerépa, málna, meggy, őszibarack` |
+| `632552:4169942` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, narancs, sárgabarack, sárgarépa` |
+| `684956:4222346` | gyümölcstartalom hiányzott → `20%` |
+| `684959:4222349` | gyümölcstartalom hiányzott → `50%` |
+| `684965:4222355` | gyümölcstartalom hiányzott → `25%` |
+| `684962:4222352` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `684968:4222358` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+| `684917:4222307` | gyümölcstartalom hiányzott → `42%`; íz `alma, banán, őszibarack` → `alma, banán, sárgarépa, őszibarack`; rostos `false` → `true` |
+| `684914:4222304` | gyümölcstartalom hiányzott → `36%`; rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 6. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  céllevél következő **25** egyedi teljes rekordját és
+  forrássorát egyenként ellenőriztük. **23** rekordhoz
+  tartozott közvetlen helyi termékkép; az öt részletes
+  képlapot eredeti felbontásban is megvizsgáltuk. A két
+  kép nélküli rekordnál kizárólag a forrásnévben vagy
+  pontos termékadatlapon bizonyított érték maradt.
+- A négy Kubu Fruity Play változat pontos adatlapjai
+  rendre 12%-os
+  [eper–alma](https://shop.rossmann.hu/termek/kubu-fruity-play-eper-izu-ital-400-ml),
+  12%-os
+  [görögdinnye–alma–lime](https://coopshop.hu/termek/kubu-fruity-play-gorogdinnye-izu-ital-400-ml/),
+  15%-os
+  [málna–sárgarépa–alma–lime](https://coopshop.hu/termek/kubu-fruity-play-malna-izu-ital-400-ml/)
+  és 15%-os
+  [mangó–alma–narancs–citrom](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/kubu-fruity-play-mango-izu-ital-400ml)
+  összetételt igazolnak. A mangóváltozat mangópürét
+  tartalmaz, ezért a rostosságát is javítottuk.
+- A Fruity Play Multivitamin
+  [12%-os receptje](https://ecofamily.hu/p/kubu-fruity-play-multivitamin-vegyes-gyumolcsital-400-ml)
+  és a 300 ml-es Kubu Multivitamin
+  [50%-os összetétele](https://auchan.hu/shop/kubu-multivitamin-gyumolcsital-300-ml.p-857822)
+  közvetlenül felsorolja a rekordokba felvett gyümölcs-
+  és zöldségösszetevőket; mindkettő pürét is tartalmaz.
+  A sárgarépa–alma–banán–eper–őszibarack
+  [32%-os](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004121219762),
+  a sárgarépa–málna–alma változat pedig
+  [44%-os](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/kubu-sargarepa-malna-alma-ital-300ml);
+  a pürék miatt mindkét rekord `rostos: true` lett.
+- A Rauch Yippy termékeknél a pontos recepteket
+  használtuk. Az almaital 12%-os, az
+  [eperváltozat](https://bevasarlas.tesco.hu/shop/en-HU/products/2004121229842)
+  7% fehérszőlő- és 5% eperlevet tartalmaz. A Cherry
+  terméknév ellenére a
+  [magyar összetétel](https://bevasarlas.tesco.hu/shop/hu-HU/products/121229617)
+  meggyet, narancsot és banánpürét közöl, ezért a
+  téves `cseresznye` értéket erre a három elemre, a
+  rostosságot pedig `true` értékre javítottuk. A
+  narancs–sárgarépa–citrom változat
+  [12%-os](https://sparwittner.hu/rauch-yippy-narancs-sargarepa-citrom-vegyes-gyumolcsital-5-vitaminnal-es-kalciummal-330-ml-25160),
+  az őszibarackos
+  [12% őszibarackot, almát és citromot](https://coopshop.hu/termek/rauch-yippy-oszibarack-ital-5-vitaminnal-es-kalciummal-330-ml/)
+  tartalmaz. A Red Berries
+  [12%-os receptje](https://shop.billa.at/produkte/rauch-yippy-red-berries-00779874)
+  almát, szedret, epret, citromot és bodzát sorol fel.
+- Mind a nyolc Power Fruit palackképe 12%
+  gyümölcstartalmat és hozzáadottcukor-mentességet
+  igazol. A részletes receptek ezt az
+  [ananász–alma](https://www.e-nagyker.hu/Power-Fruit-Ananasz-750-ml-DRS),
+  [görögdinnye–alma](https://bevasarlas.tesco.hu/shop/hu-HU/products/121234392),
+  [gránátalma–alma](https://bevasarlas.tesco.hu/shop/hu-HU/products/121234334),
+  [meggy–alma](https://www.balancefood.hu/Power-Fruit-Meggy-izu-ital-K-es-D-vitaminokkal-750),
+  [vörösáfonya–alma](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004121234553),
+  [Exotic](https://coopshop.hu/termek/power-fruit-exotic-energiaszegeny-vegyesgyumolcs-ital-szurt-vizzel-edesitoszerekkel-750-ml/),
+  [málna–alma](https://www.herbahaz.hu/power-fruit-ital-malna-edesitoszerekkel-750ml-drs50ft-betetdij/)
+  és
+  [mangó–alma–citrom](https://pingvinpatika.hu/power-fruit-mango-vigyel-vissza-pet-palack-750ml-230525)
+  változatnál is megerősítik. A vörösáfonya pontatlan
+  `áfonya` értékét `vörösáfonya` értékre
+  pontosítottuk; az Exotic és ananászváltozatnál a
+  közvetlenül megnevezett trópusi gyümölcsöket is
+  rögzítettük.
+- A kép nélküli `3380727` forrásneve 25%-os Rauch
+  Happy Day eperitalt jelöl, miközben a jelenlegi
+  [Rauch Happy Day adatlap](https://bevasarlas.tesco.hu/groceries/hu-HU/products/220280003)
+  már 35%-os, eltérő receptet közöl. Biztos
+  termékazonosság nélkül nem írtuk felül a forrásban
+  bizonyított 25%-ot. A `3380717` Topjoy és a
+  `3375613` Cappy rekord minden közvetlenül
+  bizonyítható mezője már helyes volt.
+- A céllevél teljes értékparitási ellenőrzése feltárta,
+  hogy több, korábbi blokkban már közvetlenül igazolt
+  termékérték még nem szerepelt a kategóriafa
+  engedélyezett listájában. A Gyümölcsital levélhez
+  felvettük a `26%`, `32%`, `36%`, `42%`, `44%`,
+  `Univer`, `arónia`, `fehérszőlő`, `nektarin`,
+  `papaya` és `paradicsom` értéket. Az
+  `Üdítőitalok → Egyéb ízesített üdítőital` levél
+  `arónia` ízértéke az ott már ellenőrzött öt
+  Apenta+ Body arónia–meggy rekorddal került
+  összhangba. Új kategória vagy tulajdonság nem
+  készült.
+- Módosított rekord: **22**.
+- Módosított tulajdonságmező: **51**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **3**
+  (`3380727`, `3380717`, `3375613`).
+- Új megengedett érték: **12**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, valamint a végén
+  is lefutott a 47 030 rekordos teljes validáció. A
+  772 Gyümölcsital-rekord külön
+  kategóriafa-paritásellenőrzése 0 hiányzó
+  engedélyezett értékkel zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `684920:4222310` | gyümölcstartalom hiányzott → `12%`; íz `eper` → `alma, eper` |
+| `684923:4222313` | gyümölcstartalom hiányzott → `12%`; íz `görögdinnye` → `alma, görögdinnye, lime` |
+| `684926:4222316` | gyümölcstartalom hiányzott → `15%`; íz `málna` → `alma, lime, málna, sárgarépa` |
+| `684929:4222319` | gyümölcstartalom hiányzott → `15%`; íz `mangó` → `alma, citrom, mangó, narancs`; rostos `false` → `true` |
+| `684932:4222322` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, ananász, banán, guava, lime, mandarin, mangó, maracuja, narancs, sárgabarack, őszibarack`; rostos `false` → `true` |
+| `684935:4222325` | gyümölcstartalom hiányzott → `50%`; íz hiányzott → `alma, ananász, banán, guava, kaktusz, kivi, licsi, lime, mangó, maracuja, narancs, papaya, sárgarépa, őszibarack`; rostos `false` → `true` |
+| `684941:4222331` | gyümölcstartalom hiányzott → `32%`; rostos `false` → `true` |
+| `684938:4222328` | gyümölcstartalom hiányzott → `44%`; rostos `false` → `true` |
+| `674840:4212230` | gyümölcstartalom hiányzott → `12%` |
+| `674843:4212233` | gyümölcstartalom hiányzott → `12%`; íz `cseresznye` → `banán, meggy, narancs`; rostos `false` → `true` |
+| `674837:4212227` | gyümölcstartalom hiányzott → `12%`; íz `eper` → `eper, fehérszőlő` |
+| `674846:4212236` | gyümölcstartalom hiányzott → `12%` |
+| `674831:4212221` | gyümölcstartalom hiányzott → `12%`; íz `őszibarack` → `alma, citrom, őszibarack` |
+| `674834:4212224` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, bodza, citrom, eper, szeder` |
+| `691970:4229360` | gyümölcstartalom hiányzott → `12%`; íz `alma, ananász` → `alma, ananász, banán, citrom, guava, lime, mandarin, mangó, maracuja, narancs, papaya, sárgabarack`; hozzáadott cukor nélkül `false` → `true` |
+| `711752:4249142` | gyümölcstartalom hiányzott → `12%`; hozzáadott cukor nélkül `false` → `true` |
+| `691973:4229363` | gyümölcstartalom hiányzott → `12%`; hozzáadott cukor nélkül `false` → `true` |
+| `711758:4249148` | gyümölcstartalom hiányzott → `12%`; hozzáadott cukor nélkül `false` → `true` |
+| `711764:4249154` | gyümölcstartalom hiányzott → `12%`; íz `áfonya, alma` → `alma, vörösáfonya`; hozzáadott cukor nélkül `false` → `true` |
+| `711761:4249151` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, ananász, banán, guava, lime, mandarin, mangó, maracuja, narancs, papaya, sárgabarack`; hozzáadott cukor nélkül `false` → `true` |
+| `711749:4249139` | gyümölcstartalom hiányzott → `12%`; íz `málna` → `alma, málna`; hozzáadott cukor nélkül `false` → `true` |
+| `711755:4249145` | gyümölcstartalom hiányzott → `12%`; íz `mangó` → `alma, citrom, mangó`; hozzáadott cukor nélkül `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 7. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és
+  forrássorát egyenként ellenőriztük. Csak **1**
+  rekordhoz tartozott helyi termékkép; a többi 24
+  esetben a pontos forrásnevet, azonos termékadatot
+  és az előző blokkban már kézzel igazolt azonos
+  receptet használtuk.
+- A Rauch Bravo őszibarack pontos
+  [összetevőlistája](https://www.groby.hu/termekek/1059-rauch-bravo-gyumolcsital-1-5-l-oszibarack-25)
+  20% őszibarackpürét közöl, ezért a már helyes
+  gyümölcstartalom mellett a rostosságot javítottuk.
+  Az Olympos Light görögdinnye–alma
+  [termékadata](https://coopshop.hu/termek/olympos-light-energiaszegeny-gorogdinnye-alma-uditoital-edesitoszerekkel-15-l/)
+  5% görögdinnyét, 5% almát és hozzáadottcukor-mentes
+  receptet igazol; ennek minden mezője már helyes
+  volt.
+- A Coop Multivitamin
+  [pontos összetétele](https://cooponline.hu/termek/coop-gyumol-it-multivitamin-12-drs-1-5l/)
+  almát, citromot, narancsot, ananászt, szőlőt,
+  mandarint, maracuját, sárgabarackot, guavát és
+  nektarint sorol fel; ezt a hiányzó ízlistát
+  pótoltuk. A 12%-os Coop őszibarack közvetlen
+  [termékadata](https://cooponline.hu/termek/coop-gyumol-it-oszibarack-12-drs-1-5l/)
+  megerősítette a meglévő értékeket. A piros
+  gyümölcsös változatnál pontos recept hiányában nem
+  bontottuk találgatással elemi ízekre a gyűjtőnevet.
+- A 200 ml-es Kubu sárgarépa–alma–málna
+  [40%-os receptje](https://pepita.hu/bebietelek-c2717/kubu-sargarepa-alma-malna-mezzel-40-200ml-p26437384)
+  és a sárgarépa–alma–őszibarack
+  [38%-os gyártói összetétele](https://maspex.hu/kubu-sargarepa-alma-oszibarack-02l/)
+  kizárólag püréket sorol fel és rostos terméket
+  igazol. Mindkét téves `rostos: false` értéket
+  `true` értékre javítottuk.
+- A Hey-Ho Zero őszibarack
+  [20% őszibarackpürét](https://cooponline.hu/termek/hey-ho-oszibarack-zero-20-1l/)
+  tartalmaz, ezért a már helyes százalék és
+  hozzáadottcukor-mentesség mellett a rostosságot is
+  javítottuk. A Hey-Ho sárkánygyümölcs
+  [pontos receptje](https://firsthand.hu/termek/14484-hey-ho-sarkanygyuemoelcs-20-1l)
+  almapürét, almalevet és 4% sárkánygyümölcspürét
+  közöl; az `alma` ízt és a rostosságot pótoltuk.
+- A Topjoy 250 ml-es kaktusz és őszibarack rekordjai
+  az előző blokkban ellenőrzött, azonos gyártói
+  receptek ismétlődései. A kaktusz ízlistája
+  `alma, kaktusz, lime` lett, az 50%-os őszibarack
+  pürétartalma miatt pedig `rostos: true`.
+- A Cappy Eper 35% helyi képe a megfelelő
+  eperváltozatot mutatja, pontos
+  [35%-os összetétele](https://ricsi-viszi.hu/cappy-eper-koktel-vegyesgyumolcs-ital-1-cpy001)
+  pedig 19% eperpürét, valamint alma-, eper-,
+  arónia- és feketeribizlilevet közöl. Az ízlistát és
+  a rostosságot ennek megfelelően javítottuk.
+- A Kubu Play alma–eper és Multivitamin az előző
+  blokk pontosan ellenőrzött receptjeinek
+  ismétlődése. Az elsőhöz a hiányzó `12%`, a
+  másodikhoz a teljes ízlista és `rostos: true`
+  került. A `2808563` forrásneve 53%-os Kubu
+  Multivitamint jelöl, miközben a hozzáférhető
+  [korábbi specifikáció](https://www.netdiszkont.hu/termekinfo/Kubu-multivitamin-rostos-gyumolcsital-0-3l.pdf)
+  51%-ot, a jelenlegi termékadat pedig 50%-ot közöl.
+  Biztos receptverzió nélkül megőriztük a forrás 53%
+  értékét, de a minden verzióban közvetlenül
+  megnevezett rostosságot javítottuk.
+- Az öt Rauch Yippy rekord az előző blokkban
+  ellenőrzött azonos recepteket ismétli. Az
+  eperváltozatnál felvettük a fehérszőlőt, az
+  őszibaracknál az almát és citromot, a Red Berries
+  rekordnál az alma–bodza–citrom–eper–szeder
+  összetételt, a Cherry rekordnál pedig a
+  banán–meggy–narancs ízeket és a banánpürével
+  bizonyított rostosságot. Az almaital már helyes
+  volt.
+- A három Soma 5 literes terméket a forrás
+  gyümölcslé-polcra helyezte, de a terméknevek,
+  kereskedelmi
+  [termékoldalak](https://www.dunamarket.hu/webaruhaz/termek/soma-5l-multivitamin-izu-ueditoital)
+  és a kereskedelmi katalógusban szereplő
+  `nealko nesýtený nápoj` megjelölés egyaránt
+  szénsavmentes üdítőitalt igazol. Ezért a
+  Multivitamin, őszibarack és körte változatot az
+  `Üdítőitalok → Egyéb ízesített üdítőital` levélbe
+  soroltuk. A nem elemi `multivitamin ízű` megjelölést
+  nem alakítottuk át kitalált gyümölcslistává; helyette
+  az erre szolgáló `íz kézi ellenőrzést igényel: true`
+  jelölést használtuk.
+- Az Apenta málna
+  [pontos termékadata](https://fittvita.hu/spd/FV_8988-00004922/Apenta-Udito-1-5-L-Malna-DRS)
+  és a már ellenőrzött azonos Apenta-rekordok
+  szénsavas, normál energiatartalmú üdítőitalt
+  igazolnak. A málna és szőlő változatot ezért
+  szintén az `Egyéb ízesített üdítőital` levélbe
+  soroltuk.
+- Az üdítőital-levél meglévő `márka` tulajdonságához
+  felvettük a közvetlenül bizonyított `Soma` értéket.
+  Új kategória vagy tulajdonság nem készült.
+- Módosított rekord: **21**.
+- Módosított tulajdonságmező az átsorolásokon kívül:
+  **20**.
+- Kézi kategória-átsorolás: **5**.
+- Változatlanul hagyott rekord: **4**
+  (`3375517`, `3372324`, `3372323`, `2808498`).
+- Új megengedett érték: **1** (`márka: Soma`).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolási
+  köteg előtt és után, valamint a végén is lefutott a
+  47 030 rekordos teljes validáció. A két érintett
+  céllevél külön értékparitási ellenőrzése 0
+  deklarálatlan mezővel és 0 hiányzó engedélyezett
+  értékkel zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `3375574` | rostos `false` → `true` |
+| `3375514` | `Gyümölcs- és zöldségitalok → Gyümölcsital` → `Üdítőitalok → Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `íz kézi ellenőrzést igényel: true`, `márka: Soma`, `szénsavas: false` |
+| `3375513` | `Gyümölcs- és zöldségitalok → Gyümölcsital` → `Üdítőitalok → Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Soma`, `szénsavas: false`, `íz: őszibarack` |
+| `3375512` | `Gyümölcs- és zöldségitalok → Gyümölcsital` → `Üdítőitalok → Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Soma`, `szénsavas: false`, `íz: körte` |
+| `3372325` | íz hiányzott → `alma, ananász, citrom, guava, mandarin, maracuja, narancs, nektarin, sárgabarack, szőlő` |
+| `3372099` | rostos `false` → `true` |
+| `3372094` | rostos `false` → `true` |
+| `3091333` | rostos `false` → `true` |
+| `2817949` | íz `kaktusz` → `alma, kaktusz, lime` |
+| `2817943` | íz `eper` → `alma, arónia, eper, feketeribizli`; rostos `false` → `true` |
+| `2809948` | íz `sárkánygyümölcs` → `alma, sárkánygyümölcs`; rostos `false` → `true` |
+| `2808590` | `Gyümölcs- és zöldségitalok → Gyümölcsital` → `Üdítőitalok → Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Apenta`, `szénsavas: true`, `íz: málna` |
+| `2808588` | `Gyümölcs- és zöldségitalok → Gyümölcsital` → `Üdítőitalok → Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Apenta`, `szénsavas: true`, `íz: szőlő` |
+| `2808580` | gyümölcstartalom hiányzott → `12%` |
+| `2808579` | íz hiányzott → `alma, ananász, banán, guava, lime, mandarin, mangó, maracuja, narancs, sárgabarack, őszibarack`; rostos `false` → `true` |
+| `2808574` | rostos `false` → `true` |
+| `2808563` | rostos `false` → `true` |
+| `2808526` | íz `eper` → `eper, fehérszőlő` |
+| `2808503` | íz `őszibarack` → `alma, citrom, őszibarack` |
+| `2808502` | íz hiányzott → `alma, bodza, citrom, eper, szeder` |
+| `2808497` | íz `meggy` → `banán, meggy, narancs`; rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 8. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és
+  forrássorát egyenként ellenőriztük. **1** rekordhoz
+  tartozott felhasználható helyi termékkép; a többi
+  24 esetben a teljes forrássort, a pontos
+  terméknevet és közvetlen termékadatokat
+  ellenőriztünk.
+- A Rauch Yippy Multivitamin az előző blokkban már
+  igazolt azonos recept ismétlődése, ezért a hiányzó
+  `citrom, narancs, sárgarépa` ízlistát pótoltuk. A
+  három Olympos és a Topjoy alma–görögdinnye rekord
+  minden közvetlenül bizonyítható mezője már helyes
+  volt.
+- A Márka őszibarack
+  [gyártói termékoldala](https://markaudito.hu/marka-termekek/barack-1-5l)
+  15% almalevet, 5% őszibaracklevet és 5%
+  őszibarackvelőt közöl. Ezért az `alma` ízt és a
+  rostosságot pótoltuk. A Márka Multivitamin pontos
+  [DRS-termékadata](https://cooponline.hu/termek/marka-multivi-vegy-gy-i-25-pet-drs-1-5l/)
+  tíz gyümölcsöt, köztük guava- és nektarinpürét
+  sorol fel; a teljes ízlistát és a rostosságot ennek
+  megfelelően javítottuk.
+- A Topjoy meggy–alma forrásneve 20%-ot jelöl, de az
+  azonos 250 ml-es termék
+  [gyártói receptje](https://maspex.hu/markaink/topjoy/topjoy-0-25l-uveges/alma-meggy/)
+  15% almalevet és 10% meggylevet, összesen 25%
+  gyümölcstartalmat igazol. A téves 20%-ot ezért
+  25%-ra javítottuk. A Kubu Play
+  sárgarépa–málna–lime–alma és görögdinnye rekord az
+  előző blokkban kézzel ellenőrzött azonos receptek
+  ismétlődése; az elsőnél a hiányzó 15%-ot, a
+  másodiknál az `alma` és `lime` ízt pótoltuk.
+- A Cappy Őszibarack Mix
+  [termékadata](https://www.kifli.hu/92631-cappy-peach-mix-1l)
+  50,6% gyümölcstartalmat, őszibarackpürét és
+  almalevet közöl. Az `alma` ízt és a rostosságot
+  pótoltuk. A Cappy Körte
+  [összetevőlistája](https://szlivenspar.hu/cappy-korte-gyumolcsital-1l)
+  33% körtepürét igazol, ezért a téves
+  `rostos: false` értéket `true` értékre
+  javítottuk.
+- A 200 ml-es Sió Vitatigris Piros pontos
+  [termékadata](https://www.dm.hu/p/d/3134109/sio-gyumolcsle-piros-gyumolcs-mix)
+  almát, epret, feketerépát és piros szőlőt sorol
+  fel. Az 1 literes, 20%-os rekord helyi képe a
+  jelenlegi Piros Gyümölcs-Mix csomagolást mutatja,
+  a kiszereléshez tartozó
+  [összetevőlista](https://szlivenspar.hu/sio-vitatigris-piros-gyumolcs-mix-vegyes-gyumolcsital-1-l-68906)
+  pedig ugyanezt a négy gyümölcsöt igazolja. Mindkét
+  hiányzó ízlistát pótoltuk; a régebbi, eltérő
+  málna–bodza receptet nem kevertük a jelenlegi
+  változathoz.
+- A Sió Zero ananász korábban ellenőrzött azonos
+  receptje ananászpürét tartalmaz. A Zero Őszibarack
+  közvetlen [termékadata](https://ecofamily.hu/p/sio-gyumolcsital-1l-zero-oszibarack-20)
+  20% őszibarackvelőt és felrázási utasítást közöl.
+  Mindkét rekordnál `rostos: true` értékre
+  javítottunk. A Zero Alma, a két pontosan
+  megnevezett 12%-os rostos gyümölcsmix, a
+  rostos őszibarack–narancs, a 200 ml-es rostos
+  őszibarack, valamint a 200 ml-es alma és szőlő
+  rekord már helyes volt.
+- A Sió Rostos Multivitamin
+  [pontos receptje](https://cooponline.hu/termek/sio-rostos-multivitamin-12-1l/)
+  almát, narancsot, őszibarackot, banánt, citromot
+  és maracuját sorol fel; ezt a hiányzó ízlistát
+  rögzítettük. A Sió Körte
+  [termékadata](https://www.kifli.hu/en-HU/88742-sio-rostos-koerte)
+  20% körtevelőt igazol, ezért a rostosságot
+  javítottuk.
+- Módosított rekord: **14**.
+- Módosított tulajdonságmező: **17**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **11**
+  (`2807800`, `2807799`, `2807798`, `2807781`,
+  `2775081`, `2775080`, `2775078`, `2775076`,
+  `2756263`, `2756262`, `2756261`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, valamint a végén
+  is lefutott a 47 030 rekordos teljes validáció. A
+  céllevél értékparitási ellenőrzése 0 deklarálatlan
+  mezővel és 0 hiányzó megengedett értékkel zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `2808496` | íz hiányzott → `citrom, narancs, sárgarépa` |
+| `2807811` | íz `őszibarack` → `alma, őszibarack`; rostos `false` → `true` |
+| `2807809` | íz hiányzott → `alma, ananász, citrom, guava, mandarin, maracuja, narancs, nektarin, sárgabarack, szőlő`; rostos `false` → `true` |
+| `2807780` | gyümölcstartalom `20%` → `25%` |
+| `2807779` | gyümölcstartalom hiányzott → `15%` |
+| `2807778` | íz `görögdinnye` → `alma, görögdinnye, lime` |
+| `2807722` | íz `őszibarack` → `alma, őszibarack`; rostos `false` → `true` |
+| `2807714` | rostos `false` → `true` |
+| `2776264` | íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `2776262` | íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `2775084` | rostos `false` → `true` |
+| `2775082` | rostos `false` → `true` |
+| `2775077` | íz hiányzott → `alma, banán, citrom, maracuja, narancs, őszibarack` |
+| `2756260` | rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 9. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és
+  forrássorát egyenként ellenőriztük. **5** rekordhoz
+  tartozott helyi termékkép; mind az öt képet eredeti
+  felbontásban is megvizsgáltuk.
+- A Sió kajszibarack forrásneve 20%-os változatot
+  jelöl, a közvetlen termékadat és termékleírás
+  [kajszibarackvelőt](https://babella.hu/termek/sio-kajszibarack/2073)
+  igazol, ezért `rostos: true` értékre javítottuk. A
+  Sió rostos őszibarack, narancs, szőlő és alma
+  rekord már helyes volt.
+- A két Kubu Tízórai 100 g-os termék nem
+  gyümölcsital. A málna–gríz változat pontos
+  [összetétele](https://shop.rossmann.hu/termek/kubu-tizorai-malna-griz-100-g)
+  alma-, banán-, arónia- és málnapürét, valamint
+  búzadarát; az alma–fahéj–rizs
+  [gyártói oldala](https://maspex.hu/markaink/kubu/kubu-pure/kubu-tizorai-alma-pure-rizs/)
+  80% almapürét, almalevet, rizsdarát és fahéjat
+  közöl. Az azonos termékrekordokkal egyezően
+  mindkettőt a `Smoothie és püréital` levélbe
+  soroltuk, és a rövidített málna–gríz rekord teljes
+  ízlistáját is helyreállítottuk.
+- A Coop 200 ml-es és 1 literes fehérszőlő rekordjai
+  a terméknevek és a pontos
+  [1 literes összetevőlista](https://cooponline.hu/termek/coop-feher-szoloital-12-1l/)
+  alapján `fehérszőlő` ízt kaptak a túl tág
+  `szőlő` helyett. A 200 ml-es és az 1 literes Coop
+  őszibarack
+  [25% őszibarackpürét](https://cooponline.hu/termek/coop-oszibarack-ital-25-0-2l/)
+  tartalmaz, ezért mindkét téves rostosságot
+  javítottuk. A Coop almaital már helyes volt.
+- A Topjoy alma–feketeberkenye–meggy–erdei szamóca
+  pontos [receptje](https://bevasarlas.tesco.hu/shop/hu-HU/products/220144252)
+  3,5% feketeberkenyét közöl, nem feketeribizlit;
+  ezt az egy ízt javítottuk. A Topjoy Eper valójában
+  alma–őszibarack–eper ital: a
+  [termékadat](https://www.arukereso.hu/gyumolcsle-zoldsegle-c1058/topjoy/eper-ital-0-2-l-p964591338/)
+  25% almalevet, 4% őszibarackpürét és 1% eperlevet
+  igazol. A teljes ízlistát és a rostosságot
+  rögzítettük.
+- A Hey-Ho fehérszőlő rekord ízét a pontos
+  forrásnév szerint `fehérszőlő` értékre
+  pontosítottuk. A 12%-os őszibarack
+  [összetevőlistája](https://www.kamraellato.hu/Hey-Ho-oszibarack-izu-gyumolcsle-12-1000ml)
+  őszibarackpürét igazol, ezért a rostosságot
+  javítottuk. A 25%-os Piros Multivitamin
+  [pontos receptje](https://firsthand.hu/termek/7328-hey-ho-piros-multivitamin-25-1l)
+  almát, szőlőt, feketeberkenyét, feketeribizlit,
+  epret, bodzát, málnát, áfonyát és szedret sorol
+  fel; ezt a teljes ízlistát pótoltuk. A Sió
+  citrom–lime, a Hey-Ho alma és a Rauch Bravo alma
+  rekord már helyes volt.
+- A két Solevita szőlőital helyi csomagolásán a
+  `legalább 12%` gyümölcstartalom közvetlenül
+  olvasható volt, ezért mindkét hiányzó százalékot
+  pótoltuk. A név nélkül érkezett Solevita
+  gyümölcsital helyi képe
+  `kaktuszfüge–lime` változatot és 12%-os
+  gyümölcstartalmat mutat; ezt `kaktusz, lime`
+  ízlistával rögzítettük.
+- A Solevita őszibarack helyi képén a 25%-os
+  gyümölcstartalom és a rostos jelleg közvetlenül
+  azonosítható volt, ezért mindkét mezőt pótoltuk. A
+  Solevita pink grapefruit helyi csomagolásán a
+  `100% gyümölcstartalom` és `rostos` felirat
+  egyaránt közvetlenül látható; ezt a rekordot ezért
+  `Gyümölcsital` helyett a `Lé` levélbe soroltuk.
+- Módosított rekord: **17**.
+- Módosított tulajdonságmező az átsorolásokon kívül:
+  **17**.
+- Kézi kategória-átsorolás: **3**.
+- Változatlanul hagyott rekord: **8**
+  (`2756258`, `2756257`, `2756256`, `2756255`,
+  `2755383`, `2754443`, `2754388`, `2752554`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolási
+  köteg előtt és után, valamint a végén is lefutott a
+  47 030 rekordos teljes validáció. Mindhárom
+  érintett céllevél értékparitási ellenőrzése 0
+  deklarálatlan mezővel és 0 hiányzó megengedett
+  értékkel zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `2756259` | rostos `false` → `true` |
+| `2756102` | `Gyümölcsital` → `Smoothie és püréital`; célmezők: `márka: Kubu`, `íz: alma, arónia, banán, málna` |
+| `2756091` | `Gyümölcsital` → `Smoothie és püréital`; célmezők: `márka: Kubu`, `íz: alma, fahéj` |
+| `2755385` | íz `szőlő` → `fehérszőlő` |
+| `2755382` | rostos `false` → `true` |
+| `2755381` | íz `szőlő` → `fehérszőlő` |
+| `2755378` | rostos `false` → `true` |
+| `2754679` | íz `alma, erdei szamóca, feketeribizli, meggy` → `alma, erdei szamóca, feketeberkenye, meggy` |
+| `2754656` | íz `eper` → `alma, eper, őszibarack`; rostos `false` → `true` |
+| `2754637` | íz `szőlő` → `fehérszőlő` |
+| `2754390` | rostos `false` → `true` |
+| `2754389` | íz hiányzott → `alma, áfonya, bodza, eper, feketeberkenye, feketeribizli, málna, szeder, szőlő` |
+| `10013168` | gyümölcstartalom hiányzott → `12%` |
+| `10045431` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `íz: grapefruit`, `márka: Solevita`, `rostos: true` |
+| `10107090` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `kaktusz, lime` |
+| `10107285` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `10107287` | gyümölcstartalom hiányzott → `12%` |
+
+### Gyümölcsital kézi felülvizsgálat, 10. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk. A `BTY-X17295200320021` rekordhoz kapcsolt
+  kép másik terméket (Sió bodzás limonádét) ábrázolt, ezért
+  azt bizonyítékként elvetettük, és a pontos forrásnév alapján
+  kerestük vissza a terméket.
+- A Madam Hong Lady Boba nem gyümölcsital, hanem tarót,
+  zöldteaport és tejport tartalmazó kész bubble tea. A már
+  meglévő teaalapú bubble tea precedensekkel egyezően a
+  `Jegestea` levélbe soroltuk. A közvetlen
+  [gyártói termékoldal](https://www.madamhong.com.tw/product/beverage/rtd-bubble-milk-tea/taro-bubble-tea-drink-pp-bottle)
+  és a pontos
+  [összetevőlista](https://www.orientalwebshop.nl/en/madam-hong-canned-taro-bubble-tea-drink-315ml)
+  alapján a `Madam Hong` márka és a `taro` íz lett a céllevél
+  két új, közvetlenül bizonyított megengedett értéke.
+- A `6407592` Solevita csomagolása őszibaracknektárt, a
+  [Lidl-kiadvány](https://akcios-ujsag.hu/uploads/2026/01/Lidl-2026.01.08-2026.01.14.pdf)
+  50% gyümölcstartalmat igazol; ezért a terméket
+  `Nektár` alá soroltuk. A `6409645` esetén a helyi kép és
+  a pontos
+  [Lidl-ajánlat](https://akcios-ujsag.hu/uploads/2025/09/Lidl-2025.09.11-2025.09.17.pdf)
+  egyaránt 50%-os light multivitamin-nektárt azonosít, így
+  ez is a `Nektár` levélbe került, `Solevita` márkával.
+- A három kis Solevita italnál a közvetlen Lidl-kiadványok
+  alapján az alma és az őszibarack 25%-os, a körte 25%-os;
+  az 1 literes Solevita őszibarack 25%-os és rostos. A másik
+  1 literes Solevita őszibarack pontos
+  [Lidl-ajánlata](https://akcios-ujsag.hu/akcios-ujsagok/lidl-akcios-ujsag-2026-05-28-06-03/)
+  12%-ot igazol, az almaital csomagolásán 20% olvasható.
+- A Topjoy alma–kékszőlő pontos
+  [termékadatlapja](https://cdn.metro-group.com/hu/hu_fir_174170001001_hu.pdf)
+  18% almalevet és 2% kékszőlőlevet közöl; a téves `kivi`
+  ízt töröltük. A mangó–alma–narancs–citrom
+  [receptje](https://www.netdiszkont.hu/termekinfo/TopJoy-mango-0-25l.pdf)
+  25% gyümölcsöt és gyümölcspüréket igazol. A korabeli,
+  helyi képen szereplő Topjoy körte a
+  [35%-os recept](https://www.szomjasfutar.hu/TopJoy-korte-ital-025l-uveges)
+  szerinti termék; nem írtuk felül a későbbi 50%-os
+  reformuláció adataival. Az alma–meggy 25%, az
+  alma–lime–kaktusz 40%, az őszibarack 50% és rostos, az
+  alma–görögdinnye 20%.
+- A Sió szűrt alma és szőlő 12%-os. A rossz helyi képhez
+  kötött Sió rostos őszibarack pontos
+  [termékadata](https://hazaimarket.hu/termek/sio-rostos-oszibarack-ital-0-4-l)
+  20% őszibarackvelőt igazol. A két Vitatigris rekord teljes
+  20%-os recept szerinti ízlistáját helyreállítottuk.
+- A Hey-Ho piros multivitaminnál a már korábban igazolt
+  25%-os teljes receptet rögzítettük. A Hey-Ho eper
+  [összetevőlistája](https://evedd.hu/Hey-Ho-1L-Eper-25)
+  15% almapürét és 10% eperpürét közöl, ezért az
+  `alma, eper`, `25%`, `rostos: true` mezőket kapta.
+- Módosított rekord: **22**.
+- Módosított tulajdonságmező az átsorolásokon kívül:
+  **29**.
+- Kézi kategória-átsorolás: **3**.
+- Változatlanul hagyott rekord: **3**
+  (`6407588`, `BTY-X16337500320021`,
+  `BTY-X16337100320021`).
+- Új megengedett érték: **2** (`Madam Hong`, `taro` a
+  `Jegestea` levélen).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolási köteg előtt
+  és után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. A három érintett céllevél
+  értékparitási ellenőrzése 0 deklarálatlan mezővel és 0
+  hiányzó megengedett értékkel zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `10107813` | `Gyümölcsital` → `Jegestea`; célmezők: `energiatartalom: normál`, `márka: Madam Hong`, `íz: taro` |
+| `6407589` | gyümölcstartalom hiányzott → `25%` |
+| `6407590` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `6407591` | gyümölcstartalom hiányzott → `25%` |
+| `6407592` | `Gyümölcsital` → `Nektár`; célmezők: `gyümölcstartalom: 50%`, `márka: Solevita`, `íz: őszibarack`, `rostos: true` |
+| `6409645` | `Gyümölcsital` → `Nektár`; márka `Lidl` → `Solevita`; célmezők: `gyümölcstartalom: 50%`, `rostos: false` |
+| `6412334` | gyümölcstartalom hiányzott → `20%` |
+| `6412603` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X16337200320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X17421200320021` | gyümölcstartalom hiányzott → `20%`; íz `alma, kékszőlő, kivi` → `alma, kékszőlő` |
+| `BTY-X17426000320021` | gyümölcstartalom hiányzott → `25%` |
+| `BTY-X17295200320021` | gyümölcstartalom hiányzott → `20%` |
+| `BTY-X7738000320021` | gyümölcstartalom hiányzott → `25%`; teljes ízlista pótlása |
+| `BTY-X17420700320021` | gyümölcstartalom hiányzott → `40%` |
+| `BTY-X16337600320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X17420800320021` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+| `BTY-X17420500320021` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `BTY-X16539700320021` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `BTY-X16539900320021` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, feketerépa, málna, meggy, őszibarack` |
+| `BTY-X17420400320021` | gyümölcstartalom hiányzott → `20%` |
+| `BTY-X17420600320021` | gyümölcstartalom hiányzott → `35%`; rostos `false` → `true` |
+| `BTY-X9753300320021` | gyümölcstartalom hiányzott → `25%`; íz `eper` → `alma, eper`; rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 11. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk. A `BTY-X17295100320021` Sió szűrt alma
+  rekordhoz tévesen Sió rostos őszibarack kép kapcsolódott;
+  ezt bizonyítékként elvetettük.
+- A Topjoy erdei gyümölcs
+  [pontos receptje](https://www.kifli.hu/102418-topjoy-erdei-gyumolcs-ital)
+  20% gyümölcsöt, azon belül almát, feketeribizlit, málnát
+  és szamócát igazol. A mangó–alma–narancs–citrom
+  [gyártói receptje](https://maspex.hu/markaink/topjoy/topjoy-fruits-of-the-world/mango/)
+  25%-os, pürét is tartalmaz; a hiányzó százalékot és a
+  rostosságot pótoltuk.
+- A Hey-Ho sárkánygyümölcs
+  [összetevőlistája](https://hazaimarket.hu/termek/hey-ho-sarkanygyumolcsital-1-l)
+  almapürét, almalevet és 4% sárkánygyümölcspürét, összesen
+  20% gyümölcsöt közöl. A Vitatigris sárga
+  [pontos termékadata](https://www.dm.hu/p/d/3134128/sio-gyumolcsle-sarga-gyumolcs-mix)
+  20%-os alma–narancs–sárgarépa–sárgabarack receptet
+  igazol. Mindkét teljes ízlistát rögzítettük.
+- A Sió szűrt alma 0,4 és 1 literes rekordja 12%-os. A Sió
+  Citrus Friss lime–citrom az azonos, már ellenőrzött
+  termékrekord szerint 12%-os, narancsot is tartalmazó,
+  gyümölcshúsos ital; a százalékot, a narancsot és a
+  rostosságot pótoltuk.
+- A Márka Fruitica alma
+  [összetevőlistája](https://firsthand.hu/termek/11357-marka-fruitica-alma-15l-drs)
+  kizárólag 25% almalevet igazol, ezért a téves
+  `feketeribizli` értéket töröltük. A Fruitica őszibarack
+  22% almát és 3% őszibarackot, a PomCherry 25%
+  gyümölcstartalmat igazol; a hiányzó százalékokat és az
+  őszibarackitalnál az almaízt pótoltuk.
+- A Topjoy alma–szeder
+  [receptje](https://www.argep.hu/trend/TOPJ/Topjoy-250-ml.html)
+  19% almát és 1% szedret tartalmaz, ezért a téves bodza és
+  málna értéket töröltük. Az alma–bodza
+  [termékadata](https://www.sixi.hu/top-joy-250ml-alma-bodza-drs-85814)
+  20%-ot igazol. A szilva–szegfűszeg
+  [gyártói receptje](https://maspex.hu/markaink/topjoy/topjoy-0-25l-uveges/topjoy-0-25l-uveges-szilva-szegfuszeggel/)
+  almát, szilvát és szegfűszeg-kivonatot közöl; a teljes
+  ízlistát rögzítettük.
+- A Hey-Ho Zero őszibarack
+  [pontos termékadata](https://www.kifli.hu/111287-hey-ho-zero-oszibarack)
+  20% őszibarackpürét igazol, ezért `rostos: true` értéket
+  kapott. A Zero piros multivitamin
+  [receptje](https://www.kifli.hu/111286-hey-ho-zero-piros-multivitamin)
+  meggyet, almát, piros szőlőt, aróniát, epret, málnát,
+  áfonyát és szedret sorol fel. A régi Hey-Ho alma 12%-os,
+  a régi őszibarack 12%-os és rostos.
+- A Topjoy alma–lime–kaktusz 1 literes, azonos ellenőrzött
+  receptje 42%-os. Az ARO 1 literes őszibarack helyi képe
+  közvetlenül 25%-ot és rostosságot mutatott; a többi ARO
+  százalék- és rostosságmező már helyes volt.
+- A Fine Life 1 literes és 200 ml-es multivitamin terméke
+  nem hígított gyümölcsital. A pontos
+  [1 literes](https://metro.zakaz.ua/en/products/sik-fain-laif-1000ml--04337182257196/)
+  és [200 ml-es](https://metro.zakaz.ua/en/products/sik-fain-laif-200ml--04337182257318/)
+  összetevőlista azonos 100%-os receptet közöl: 70% alma,
+  10% almapép, 10% narancs, 5% ananász, 3% banánpüré és
+  2% citrom. Mindkét rekordot a `Lé` levélbe soroltuk a
+  teljes ízlistával.
+- Módosított rekord: **21**.
+- Módosított tulajdonságmező az átsorolásokon kívül:
+  **29**.
+- Kézi kategória-átsorolás: **2**.
+- Változatlanul hagyott rekord: **4**
+  (`BTY-X18667700320021`, `BTY-X11416000320022`,
+  `BTY-X11416200320022`, `BTY-X11416100320022`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolási köteg előtt
+  és után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. Mindkét érintett céllevél
+  értékparitási ellenőrzése 0 deklarálatlan mezővel és 0
+  hiányzó megengedett értékkel zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `BTY-X17421300320021` | gyümölcstartalom hiányzott → `20%`; íz `erdei gyümölcs` → `alma, erdei szamóca, feketeribizli, málna` |
+| `BTY-X11131700320021` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `BTY-X16538400320021` | gyümölcstartalom hiányzott → `20%`; íz `sárkánygyümölcs` → `alma, sárkánygyümölcs`; rostos `false` → `true` |
+| `BTY-X16539400320021` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, narancs, sárgabarack, sárgarépa` |
+| `BTY-X17295100320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X17296000320021` | gyümölcstartalom hiányzott → `12%`; íz `citrom, lime` → `citrom, lime, narancs`; rostos `false` → `true` |
+| `BTY-X17609300320021` | gyümölcstartalom hiányzott → `25%`; íz `alma, feketeribizli` → `alma` |
+| `BTY-X17609500320021` | gyümölcstartalom hiányzott → `25%`; íz `őszibarack` → `alma, őszibarack` |
+| `BTY-X17883000320021` | gyümölcstartalom hiányzott → `25%` |
+| `BTY-X18016200320021` | íz `alma, bodza, málna, szeder` → `alma, szeder` |
+| `BTY-X18171200320021` | rostos `false` → `true` |
+| `BTY-X18171400320021` | íz hiányzott → `alma, arónia, áfonya, eper, málna, meggy, piros szőlő, szeder` |
+| `BTY-X18224000320021` | gyümölcstartalom hiányzott → `20%` |
+| `BTY-X18537700320021` | íz `szilva` → `alma, szegfűszeg, szilva` |
+| `BTY-X7737500320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X7737600320021` | gyümölcstartalom hiányzott → `12%`; rostos `false` → `true` |
+| `BTY-X7808300320022` | gyümölcstartalom hiányzott → `42%` |
+| `BTY-X11056100320022` | gyümölcstartalom hiányzott → `25%` |
+| `BTY-X18341500320021` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `márka: FINE LIFE`, `íz: alma, ananász, banán, citrom, narancs`, `rostos: true` |
+| `BTY-X18341900320021` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `márka: FINE LIFE`, `íz: alma, ananász, banán, citrom, narancs`, `rostos: true` |
+| `BTY-X16318000320021` | gyümölcstartalom hiányzott → `12%` |
+
+### Gyümölcsital kézi felülvizsgálat, 12. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- Az azonos, korábban ellenőrzött teljes termékek közvetlen
+  adatai igazolták a Rauch Bravo alma 12%-os, a Sió rostos
+  őszibarack 20%-os, a Szobi alma-, narancs-, fehérszőlő- és
+  kékszőlőitalok 12%-os értékeit. A fehérszőlőital általános
+  `szőlő` ízét a pontosabb `fehérszőlő` értékre javítottuk.
+- A Rauch Happy Day vörösáfonya
+  [összetevőlistája](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004120023845)
+  25% vörösáfonyalevet, 5% almalevet, valamint arónia- és
+  bodzalésűrítményt, összesen 30% gyümölcstartalmat igazol.
+  A százalékot és a teljes ízlistát rögzítettük.
+- A Márka Fruitica multivitamin
+  [pontos receptje](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/marka-fruitica-multivitamin-vegyes-gyumolcsital-1-5l-5999862309589)
+  25% gyümölcslevet és -pürét közöl, almával, citrommal,
+  naranccsal, ananásszal, szőlővel, guavával, mandarinnal,
+  nektarinnal, maracujával és sárgabarackkal. A Fruitica
+  alma–körte
+  [összetevőlistája](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/marka-fruitica-alma-korte-szensavmentes-gyumolcsital-cukorral-1-5l)
+  19% almát és 6% körtét, összesen 25%-ot igazol.
+- Az azonos Cappy-rekordok alapján a multivitamin 50%-os
+  alma–citrom–narancs–őszibarack–szőlő recept, az őszibarack
+  mix 50%-os alma–őszibarack recept, az eper mix pedig
+  34%-os alma–eper–feketeberkenye recept. A pürét tartalmazó
+  italok `rostos: true` értéket kaptak.
+- A Hohes C Classic narancs–acerola helyi címkéje közvetlenül
+  `100% fruit` feliratot mutatott, és az azonos ellenőrzött
+  termékrekord is 100%-os gyümölcsléként szerepelt. Ezért a
+  rekordot a `Gyümölcsital` levélből a `Lé` levélbe
+  helyeztük.
+- Az azonos Kubu-rekordok igazolták a banán–alma–őszibarack
+  42%-os, sárgarépát is tartalmazó rostos receptjét; a Fruity
+  Play multivitamin 12%-os teljes receptjét; a görögdinnye
+  12%-os alma–görögdinnye–lime, valamint a málna 15%-os
+  alma–lime–málna–sárgarépa receptjét.
+- Az azonos Rauch-rekordok alapján a Happy Day mangó 26%-os,
+  mangó–maracuja és rostos; a Happy Day őszibarack 35%-os és
+  rostos. A Bravo Select őszibarack
+  [termékadata](https://hazaimarket.hu/termek/rauch-bravo-select-oszibarack-gyumolcsital-cukorral-es-edesitoszerekkel-c-vitaminnal-0-2-l)
+  legalább 25% őszibarackpürét igazol, ezért a százalék
+  mellett a rostosságot is rögzítettük.
+- Módosított rekord: **23**.
+- Módosított tulajdonságmező az átsoroláson kívül: **41**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **2**
+  (`BTY-X9650000320021`, `BTY-X16421400320021`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolás előtt és
+  után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. Mindkét érintett céllevél
+  értékparitási ellenőrzése 0 deklarálatlan mezővel és 0
+  hiányzó megengedett értékkel zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `BTY-X17474500320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X16317800320021` | gyümölcstartalom hiányzott → `20%` |
+| `BTY-X10730000320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X10729100320021` | gyümölcstartalom hiányzott → `12%`; íz `szőlő` → `fehérszőlő` |
+| `BTY-X10728600320022` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X16318300320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X6635200320021` | gyümölcstartalom hiányzott → `30%`; íz `áfonya` → `alma, arónia, bodza, vörösáfonya` |
+| `BTY-X17609800320021` | gyümölcstartalom hiányzott → `25%`; íz hiányzott → `alma, ananász, citrom, guava, mandarin, maracuja, narancs, nektarin, sárgabarack, szőlő`; rostos `false` → `true` |
+| `BTY-X17313500320021` | gyümölcstartalom hiányzott → `50%`; íz hiányzott → `alma, citrom, narancs, őszibarack, szőlő`; rostos `false` → `true` |
+| `BTY-X17313400320021` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+| `BTY-X17327900320021` | gyümölcstartalom hiányzott → `34%`; íz `eper` → `alma, eper, feketeberkenye`; rostos `false` → `true` |
+| `BTY-X16714700320021` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `márka: Hohes C`, `íz: acerola, narancs`, `rostos: false` |
+| `BTY-X10729900320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X17434700320021` | gyümölcstartalom hiányzott → `42%`; íz `alma, banán, őszibarack` → `alma, banán, sárgarépa, őszibarack`; rostos `false` → `true` |
+| `BTY-X11998500320021` | gyümölcstartalom hiányzott → `26%`; íz `mangó` → `mangó, maracuja`; rostos `false` → `true` |
+| `BTY-X17443100320021` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, ananász, banán, guava, lime, mandarin, mangó, maracuja, narancs, sárgabarack, őszibarack`; rostos `false` → `true` |
+| `BTY-X13567700320021` | gyümölcstartalom hiányzott → `35%`; rostos `false` → `true` |
+| `BTY-X17443000320021` | gyümölcstartalom hiányzott → `12%`; íz `görögdinnye` → `alma, görögdinnye, lime` |
+| `BTY-X3373100320022` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `BTY-X16470400320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X10728700320022` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X17609600320021` | gyümölcstartalom hiányzott → `25%` |
+| `BTY-X17443200320021` | gyümölcstartalom hiányzott → `15%`; íz `málna` → `alma, lime, málna, sárgarépa` |
+
+### Gyümölcsital kézi felülvizsgálat, 13. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- Az azonos, korábban ellenőrzött Kubu-rekordok alapján a
+  multivitamin 50%-os, pürés, tizennégy összetevős recept;
+  a banán–sárgarépa–áfonya 36%-os és rostos; a
+  sárgarépa–málna–alma 44%-os és rostos; a Fruity Play eper
+  pedig 12%-os alma–eper ital.
+- Az azonos Szobi-rekordok mindkét rostos őszibarackitalnál
+  12%-ot, a szűrt fehérszőlőitalnál 12%-ot igazoltak. Az
+  utóbbi általános `szőlő` értékét `fehérszőlő` értékre
+  pontosítottuk.
+- A Sió Citrus Friss azonos ellenőrzött receptje 12%-os,
+  narancsot is tartalmazó, gyümölcshúsos lime–citrom ital.
+  A Sió kajszibarack és körte 20%-os, a szűrt szőlő 12%-os.
+  A Vitatigris piros 20%-os alma–eper–feketerépa–piros
+  szőlő, a Találkozások multivitamin pedig 25%-os
+  alma–banán–citrom–maracuja–narancs–őszibarack recept.
+- A Sió Zero ananász
+  [összetevőlistája](https://www.groby.hu/termekek/41653-sio-zero-gyumolcsital-1-l-ananasz-20)
+  17,1% ananászlevet és 2,9% ananászvelőt, összesen 20%-ot
+  igazol; ezért a százalék mellett a rostosságot is
+  rögzítettük. Az azonos Sió Zero őszibarack 20%-os és
+  rostos. A Találkozások őszibarack–narancs hiányzó
+  gyümölcstartalma 12%.
+- Az azonos Cappy-rekordok alapján az őszibarack mix 50%-os
+  és rostos, a körte pedig 33%-os, körtepürét tartalmazó
+  rostos ital.
+- A Pfanner vörösáfonya
+  [pontos receptje](https://www.pfanner.cz/pfanner-cranberry-20-1l)
+  20%-os alma–arónia–vörösáfonya ital. Az ACE
+  [összetevőlistája](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004006309202)
+  25% alma–narancs–körte–citrom gyümölcslevet és 5%
+  sárgarépalevet közöl. A fekete áfonya
+  [receptje](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/pfanner-fekete-afonyaital-20-1l)
+  fekete áfonyát, almát és bodzabogyót tartalmaz; a teljes
+  ízlistákat rögzítettük.
+- Módosított rekord: **21**.
+- Módosított tulajdonságmező: **35**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **4**
+  (`BTY-X18273700320021`, `BTY-X16412700320021`,
+  `BTY-X16412600320021`, `BTY-X16412500320021`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, valamint a végén is
+  lefutott a 47 030 rekordos teljes validáció. A céllevél
+  értékparitási ellenőrzése 0 deklarálatlan mezővel és 0
+  hiányzó megengedett értékkel zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `BTY-X17439300320021` | gyümölcstartalom hiányzott → `50%`; íz hiányzott → `alma, ananász, banán, guava, kaktusz, kivi, licsi, lime, mangó, maracuja, narancs, papaya, sárgarépa, őszibarack`; rostos `false` → `true` |
+| `BTY-X17442700320021` | gyümölcstartalom hiányzott → `36%`; rostos `false` → `true` |
+| `BTY-X10728800320022` | gyümölcstartalom hiányzott → `12%`; íz `szőlő` → `fehérszőlő` |
+| `BTY-X10729800320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X16581900320021` | gyümölcstartalom hiányzott → `12%`; íz `citrom, lime` → `citrom, lime, narancs`; rostos `false` → `true` |
+| `BTY-X10728500320022` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X16318100320021` | gyümölcstartalom hiányzott → `20%` |
+| `BTY-X81587100320022` | íz `áfonya` → `alma, arónia, vörösáfonya` |
+| `BTY-X16412300320021` | gyümölcstartalom hiányzott → `25%`; íz hiányzott → `alma, banán, citrom, maracuja, narancs, őszibarack` |
+| `BTY-X16555900320021` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `BTY-X17442800320021` | gyümölcstartalom hiányzott → `12%`; íz `eper` → `alma, eper` |
+| `BTY-X16318200320021` | gyümölcstartalom hiányzott → `20%` |
+| `BTY-X16318500320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X17440900320021` | gyümölcstartalom hiányzott → `44%`; rostos `false` → `true` |
+| `BTY-X16420800320021` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `BTY-X17313600320021` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+| `BTY-X17311500320021` | gyümölcstartalom hiányzott → `33%`; rostos `false` → `true` |
+| `BTY-X16421200320021` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `BTY-X16412400320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X10990100320021` | íz hiányzott → `alma, citrom, körte, narancs, sárgarépa` |
+| `BTY-X10990200320021` | íz `áfonya` → `alma, áfonya, bodza` |
+
+### Gyümölcsital kézi felülvizsgálat, 14. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A Pfanner őszibarack az azonos ellenőrzött rekord szerint
+  25%-os és rostos. Az ananász–kókusz 1 és 2 literes
+  változatának
+  [összetevőlistája](https://bevasarlas.tesco.hu/shop/hu-HU/products/220128351)
+  22% ananászt és 3% kókuszt, összesen 25%-ot igazol.
+- A Rauch Happy Day eper
+  [receptje](https://bevasarlas.tesco.hu/groceries/hu-HU/products/220280003)
+  25% almát és 10% eperpürét, továbbá feketerépát és
+  feketeribizlit közöl; a 35%-os teljes érték, a teljes
+  ízlista és a rostosság bekerült. A körte
+  [összetevőlistája](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/rauch-happy-day-korteital-c-vitaminnal-1l)
+  35% körtepürét igazol.
+- Az azonos Sió-rekordok alapján a Zero meggy–szilva–alma
+  20%-os és rostos; a Zero multivitamin 20%-os
+  alma–banán–citrom–narancs–őszibarack; a Vitatigris sárga
+  20%-os alma–narancs–sárgabarack–sárgarépa recept.
+- A Szobi Citrus-Mix
+  [pontos összetevőlistája](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/szobi-citrus-mix-vegyes-gyumolcsital-edesitoszerekkel-1l)
+  12% alma–citrom–grapefruit–lime–narancs keveréket igazol;
+  a gyűjtő `citrus` értéket a teljes listára cseréltük.
+- A Rauch Bravo Multivit
+  [gyártói receptje](https://www.rauch.cc/brands/bravo/bravo-multivit-6856b)
+  12%-os, tíz gyümölcsből álló keverék. A Bravo Sunny
+  Orange 10%-os. Az azonos Yippy-rekordok alapján a Multi,
+  Cherry és alma 12%-os; a Cherry banán–meggy–narancs és
+  rostos. A Red Berries
+  [összetevőlistája](https://fittvita.hu/Yippy-Red-Berries-033-Lit-Pet-DRS)
+  12%-os alma–bodza–citrom–eper–szeder receptet igazol.
+- A Sió Citrus Friss sárgadinnye–lime–alma teljes neve
+  `vegyes üdítőital`, és az azonos ellenőrzött rekord is az
+  `Üdítőitalok → Egyéb ízesített üdítőital` levélben
+  szerepel. A téves `görögdinnye` érték helyett
+  `sárgadinnye` került a célrekordba, és a terméket
+  átsoroltuk.
+- Az azonos Kubu-rekordok alapján a sárgarépa–alma–banán–
+  eper–őszibarack 32%-os és rostos; a Fruity Play mangó
+  15%-os alma–citrom–mangó–narancs recept és rostos. A
+  Bravo őszibarack 25%-os és rostos, a Fruitica narancs
+  25%-os. A két újabb Sió Zero keverék pürét tartalmaz,
+  ezért `rostos: true` értéket kapott.
+- Módosított rekord: **22**.
+- Módosított tulajdonságmező az átsoroláson kívül: **37**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **3**
+  (`BTY-X11998900320021`, `BTY-X17478700320021`,
+  `BTY-X17949800320021`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolás előtt és
+  után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. Mindkét érintett céllevél
+  értékparitási ellenőrzése 0 deklarálatlan mezővel és 0
+  hiányzó megengedett értékkel zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `BTY-X10991200320021` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `BTY-X12391000320021` | gyümölcstartalom hiányzott → `25%` |
+| `BTY-X12514000320021` | gyümölcstartalom hiányzott → `25%` |
+| `BTY-X13567500320021` | gyümölcstartalom hiányzott → `35%`; íz `eper` → `alma, eper, feketerépa, feketeribizli`; rostos `false` → `true` |
+| `BTY-X13567800320021` | gyümölcstartalom hiányzott → `35%`; rostos `false` → `true` |
+| `BTY-X16421000320021` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `BTY-X16421100320021` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, banán, citrom, narancs, őszibarack` |
+| `BTY-X16556000320021` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, narancs, sárgabarack, sárgarépa` |
+| `BTY-X16585200320021` | gyümölcstartalom hiányzott → `12%`; íz `citrus` → `alma, citrom, grapefruit, lime, narancs` |
+| `BTY-X17190000320021` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, ananász, citrom, fehérszőlő, guava, mandarin, maracuja, narancs, nektarin, sárgabarack` |
+| `BTY-X17190100320021` | gyümölcstartalom hiányzott → `10%` |
+| `BTY-X17191200320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X17191400320021` | gyümölcstartalom hiányzott → `12%`; íz `meggy` → `banán, meggy, narancs`; rostos `false` → `true` |
+| `BTY-X17191600320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X17191800320021` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, bodza, citrom, eper, szeder` |
+| `BTY-X17245700320021` | `Gyümölcsital` → `Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Sió`, `szénsavas: false`, `íz: alma, lime, sárgadinnye` |
+| `BTY-X17437800320021` | gyümölcstartalom hiányzott → `32%`; rostos `false` → `true` |
+| `BTY-X17442900320021` | gyümölcstartalom hiányzott → `15%`; íz `mangó` → `alma, citrom, mangó, narancs`; rostos `false` → `true` |
+| `BTY-X17474600320021` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `BTY-X17609700320021` | gyümölcstartalom hiányzott → `25%` |
+| `BTY-X18040600320021` | rostos `false` → `true` |
+| `BTY-X18040700320021` | rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 15. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A Topjoy XXL Kaktusz és Mango teljes neve, előoldala és
+  összetevőlistája püréitalt igazol. A Kaktusz
+  alma–kaktusz–lime, a Mango pedig 100%-os
+  alma–banán–mangó–őszibarack püréital; mindkettő a
+  `Smoothie és püréital` levélbe került.
+- A TOMA Orange 50% előoldalán kifejezetten `narancsnektár`
+  szerepel, ezért a terméket 50%-os, rostos narancsnektárként
+  átsoroltuk. A Vitalade Multivit előoldalán `Sportdrink`
+  olvasható, és az azonos ellenőrzött rekord is sportitalként
+  szerepel; ezért a funkcionális sportitalok közé került.
+- A Cappy zöldalma 20% zöldalmapürét és 10% almalevet,
+  összesen 30%-ot tartalmaz. A Sió Citrus Friss grapefruit
+  25%-os alma–bodza–grapefruit–narancs recept, gyümölcshúst
+  is tartalmaz. A Rauch Happy Day gránátalma 30%-os
+  alma–arónia–bodza–gránátalma ital.
+- Az azonos ellenőrzött receptek alapján a Topjoy Kids
+  változatok 30%-osak; a feketeberkenyés változatból a
+  hibás általános `eper` értéket töröltük, mert a recept
+  kizárólag erdei szamócát igazol. A Pfanner B+C+E
+  erdeigyümölcs ital 30%-os, és a gyűjtőérték helyett a
+  teljes kilencelemű ízlistát rögzítettük.
+- A Cappy Multivitamin 50%-os és rostos. A TOMA őszibarack
+  30%-os és rostos; a Rauch Bravo piros multivitamin
+  12%-os, teljes ízlistája bekerült. A három Penny saját
+  márkás 0,2 literes ital elő- és hátoldala egyaránt 25%-ot
+  igazol, az őszibarack pürét is tartalmaz.
+- Módosított rekord: **24**.
+- Módosított tulajdonságmező az átsorolásokon kívül: **31**.
+- Kézi kategória-átsorolás: **4**.
+- Változatlanul hagyott rekord: **1**
+  (`BTY-X18654600320021`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolások előtt és
+  után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. Mind az öt érintett céllevél
+  értékparitási ellenőrzése 0 deklarálatlan mezővel és 0
+  hiányzó megengedett értékkel zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `BTY-X18040800320021` | íz `alma, szőlő` → `alma, piros szőlő` |
+| `BTY-X18225400320021` | íz `mangó` → `kókusz, mangó` |
+| `BTY-X18225500320021` | íz `licsi` → `kókusz, licsi` |
+| `BTY-X18231200320021` | gyümölcstartalom hiányzott → `30%`; rostos `false` → `true` |
+| `BTY-X18273800320021` | gyümölcstartalom hiányzott → `20%` |
+| `BTY-X18329300320021` | gyümölcstartalom hiányzott → `25%`; íz `grapefruit` → `alma, bodza, grapefruit, narancs`; rostos `false` → `true` |
+| `BTY-X18333800320021` | gyümölcstartalom hiányzott → `12%` |
+| `BTY-X18334300320021` | `Gyümölcsital` → `Smoothie és püréital`; célmezők: `márka: Topjoy`, `íz: alma, kaktusz, lime` |
+| `BTY-X18334500320021` | `Gyümölcsital` → `Smoothie és püréital`; célmezők: `gyümölcstartalom: 100%`, `márka: Topjoy`, `íz: alma, banán, mangó, őszibarack` |
+| `BTY-X18646900320021` | `Gyümölcsital` → `Nektár`; célmezők: `cukormentes: false`, `gyümölcstartalom: 50%`, `márka: TOMA`, `rostos: true`, `íz: narancs` |
+| `BTY-X18694800320021` | íz `szőlő` → `piros szőlő` |
+| `BTY-X5129100320021` | gyümölcstartalom hiányzott → `30%`; íz `alma, gránátalma` → `alma, arónia, bodza, gránátalma` |
+| `BTY-X9713800320022` | gyümölcstartalom hiányzott → `30%` |
+| `BTY-X9724500320022` | gyümölcstartalom hiányzott → `30%` |
+| `BTY-X9724700320022` | gyümölcstartalom hiányzott → `30%` |
+| `BTY-X9724800320022` | gyümölcstartalom hiányzott → `30%`; a receptben nem szereplő `eper` íz törölve |
+| `BTY-X9896400320021` | gyümölcstartalom hiányzott → `30%`; íz `erdei gyümölcs` → `alma, áfonya, bodza, eper, feketeberkenye, feketeribizli, málna, piros szőlő, szeder` |
+| `BTY-X17313300320021` | gyümölcstartalom hiányzott → `50%`; íz hiányzott → `alma, citrom, narancs, őszibarack, szőlő`; rostos `false` → `true` |
+| `BTY-X17479200320021` | gyümölcstartalom hiányzott → `30%`; rostos `false` → `true` |
+| `BTY-X18333900320021` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, bodza, feketeribizli, málna, meggy, narancs, szeder` |
+| `BTY-X17234300320021` | `Gyümölcsital` → `Sport-, izotóniás, kollagén- és shot ital`; célmezők: `márka: Vitalade`, `íz: vegyes gyümölcs`, `funkció: sportital` |
+| `914770` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `914772` | gyümölcstartalom hiányzott → `25%` |
+| `914771` | gyümölcstartalom hiányzott → `25%` |
+
+### Gyümölcsital kézi felülvizsgálat, 16. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- Az azonos, korábban kézzel ellenőrzött Sió-rekordok a
+  Vitatigris piros 20%-os alma–eper–feketerépa–piros
+  szőlő, a sárga 20%-os alma–narancs–sárgabarack–
+  sárgarépa receptjét igazolják. A szűrt szőlő 12%-os;
+  a képen fehér szőlő látható. A Citrus Friss lime–citrom
+  12%-os, narancsot és gyümölcshúst is tartalmaz. A két
+  Sió Zero értéke 20%, illetve 12%; az őszibarack pürés.
+- A Topjoy mangó
+  [pontos összetevőlistája](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004121220264)
+  10% mangópürét, 5% almapürét, továbbá alma-, narancs- és
+  citromlevet, összesen 25%-ot igazol. A kaktusz
+  [termékadata](https://auchan.hu/shop/topjoy-alma-lime-kaktusz-ital-250-ml.p-857836)
+  40%-os, szűrt alma–lime–kaktusz italt közöl.
+- A Bino őszibarack 1 literes csomagolásán 25%, az
+  1,5 literes újabb változaton 12%, az almán 20%, az
+  alma–körtén 12% olvasható. A Hey-Ho meggy már teljes és
+  helyes volt. A két Bino multivitamin/erdei italhoz nem
+  találtunk olyan közvetlen receptet vagy százalékot, amely
+  pontosabb mezőt igazolna, ezért ezeket változatlanul
+  hagytuk.
+- Az azonos ellenőrzött Kubu-receptek alapján a málna
+  15%-os alma–lime–málna–sárgarépa, a görögdinnye 12%-os
+  alma–görögdinnye–lime, a Multivitamin pedig 12%-os,
+  tizenegy gyümölcsből álló pürés ital. Mind a négy Fruit
+  Garden előoldalán 20% olvasható; a trópusi változat
+  [összetevőlistája](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/fruit-garden-rostos-tropusi-izu-gyumolcsital-edesitoszerekkel-1l)
+  a teljes tízelemű gyümölcslistát is megadja.
+- A Cappy Botanical teljes neve és
+  [receptje](https://hazaimarket.hu/termek/cappy-botanical-szensavmentes-citromos-uditoital-sargabaracklevel-es-narancsvirag-kivonattal-1-25-l)
+  szénsavmentes citromos üdítőitalt igazol
+  sárgabaracklével; ezért az egyéb ízesített üdítők közé
+  került. A Vitalade palackján `Sportdrink` szerepel, és az
+  azonos ellenőrzött rekord is sportital. A PENNY To Go
+  termék képe `Ginger Shot`, pontos
+  [forrása](https://cashmap.hu/termekek/460314/penny-to-go-ginger-shot-apple-lemon-bio-ital-alma-gyomber-es-citromlebol-pet-50-ft-betetdij-015-l)
+  alma–gyömbér–citrom bio italként azonosítja; mindkettő a
+  funkcionális céllevélbe került.
+- Módosított rekord: **22**.
+- Módosított tulajdonságmező az átsorolásokon kívül: **31**.
+- Kézi kategória-átsorolás: **3**.
+- Változatlanul hagyott rekord: **3**
+  (`916403`, `1010434`, `1010435`).
+- Új megengedett érték: **1** (`márka: Penny` a
+  funkcionális sport-, izotóniás, kollagén- és shot
+  italoknál).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolások előtt és
+  után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. A két céllevél külön, teljes
+  mező-, érték- és hash-paritási ellenőrzése is 0 hibával
+  zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `901775` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `918557` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, narancs, sárgabarack, sárgarépa` |
+| `995318` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `995320` | gyümölcstartalom hiányzott → `40%` |
+| `555044` | gyümölcstartalom hiányzott → `25%` |
+| `914773` | gyümölcstartalom hiányzott → `20%` |
+| `995739` | gyümölcstartalom hiányzott → `15%`; íz `málna` → `alma, lime, málna, sárgarépa` |
+| `995741` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, ananász, banán, guava, lime, mandarin, mangó, maracuja, narancs, sárgabarack, őszibarack`; rostos `false` → `true` |
+| `995742` | gyümölcstartalom hiányzott → `12%`; íz `görögdinnye` → `alma, görögdinnye, lime` |
+| `1000628` | gyümölcstartalom hiányzott → `20%` |
+| `1000629` | gyümölcstartalom hiányzott → `20%` |
+| `1000630` | gyümölcstartalom hiányzott → `20%` |
+| `1000631` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, ananász, banán, citrom, guava, mangó, maracuja, narancs, sárgabarack, őszibarack` |
+| `815188` | gyümölcstartalom hiányzott → `12%`; íz `szőlő` → `fehérszőlő` |
+| `4604291` | `Gyümölcsital` → `Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Cappy`, `szénsavas: false`, `íz: citrom, sárgabarack` |
+| `987747` | gyümölcstartalom hiányzott → `12%`; íz `citrom, lime` → `citrom, lime, narancs`; rostos `false` → `true` |
+| `996243` | `Gyümölcsital` → `Sport-, izotóniás, kollagén- és shot ital`; célmezők: `márka: Vitalade`, `íz: vegyes gyümölcs`, `funkció: sportital` |
+| `4605175` | `Gyümölcsital` → `Sport-, izotóniás, kollagén- és shot ital`; célmezők: `márka: Penny`, `íz: alma, citrom, gyömbér`, `funkció: shot` |
+| `1010431` | gyümölcstartalom hiányzott → `12%` |
+| `1010433` | gyümölcstartalom hiányzott → `12%` |
+| `846747` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `846751` | gyümölcstartalom hiányzott → `12%` |
+
+### Gyümölcsital kézi felülvizsgálat, 17. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- Az azonos, korábban ellenőrzött teljes termékek közvetlen
+  adatai igazolták a Sió Vitatigris piros 20%-os teljes
+  receptjét, a szűrt alma, narancs és fehérszőlő 12%-os,
+  a rostos körte és őszibarack 20%-os értékeit. A három
+  általános `szőlő` értéket a név és kép alapján
+  `fehérszőlő` értékre pontosítottuk.
+- Az azonos Rauch-rekordok alapján a Bravo alma és Bravo
+  Select alma 12%-os, a Bravo Select őszibarack 25%-os és
+  pürés. A Happy Day mangó 26%-os mangó–maracuja és
+  rostos; a gránátalma 30%-os alma–arónia–bodza–
+  gránátalma recept.
+- A Rauch Happy Day eper
+  [összetevőlistája](https://bevasarlas.tesco.hu/groceries/hu-HU/products/220280003)
+  25% almát és 10% eperpürét, továbbá feketerépát és
+  feketeribizlit, összesen 35%-ot igazol. Az őszibarack és
+  körte szintén 35%-os és pürés. A vörösáfonya
+  [receptje](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004120023845)
+  25% vörösáfonyalevet, 5% almalevet, továbbá arónia- és
+  bodzalésűrítményt közöl; a teljes 30%-os érték és ízlista
+  bekerült. A pink grapefruit
+  [termékadata](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/rauch-happy-day-family-pink-grapefruit-ital-c-vitaminnal-1l)
+  30%-ot igazol.
+- Az azonos Hey-Ho-rekordok és a helyi csomagolások alapján
+  az alma 12%, az ananász 20%, az eper 25%-os alma–eper és
+  pürés, a fehér- és kékszőlő 12%, a körte pedig 25%-os és
+  pürés.
+- A kiterjesztett teljes levél-ellenőrzés feltárta, hogy a
+  11. blokkban már kézzel igazolt alma–szegfűszeg–szilva
+  rekord `szegfűszeg` értéke szerepelt a termékben, de az
+  engedélyezett érték felvétele kimaradt a kategóriafából.
+  Az adminisztratív hiányt pótoltuk.
+- Módosított rekord: **25**.
+- Módosított tulajdonságmező: **41**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **1** (`íz: szegfűszeg` a
+  Gyümölcsital levélben; a korábban ellenőrzött 11. blokk
+  elmaradt kategóriafa-pótlása).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, valamint a végén is
+  lefutott a 47 030 rekordos teljes validáció. A
+  Gyümölcsital levél mind a **750** rekordjára kiterjedő
+  külön mező-, érték- és hash-paritási ellenőrzése is 0
+  hibával zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `901772` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `c518bbd1d791d04b6c050c79` | gyümölcstartalom hiányzott → `12%` |
+| `6050436ad40baab8f9dc1ea4` | gyümölcstartalom hiányzott → `26%`; íz `mangó` → `mangó, maracuja`; rostos `false` → `true` |
+| `e4443d9fe66eed9bf7d69966` | gyümölcstartalom hiányzott → `12%` |
+| `ddfd3a80de2847cff7deb288` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `ae85accb7b4d0b12110f87d2` | gyümölcstartalom hiányzott → `30%`; íz `alma, gránátalma` → `alma, arónia, bodza, gránátalma` |
+| `d15e50e74e32dfebf544c5b9` | gyümölcstartalom hiányzott → `12%` |
+| `5dd137e43037739b1ca90ec8` | gyümölcstartalom hiányzott → `12%` |
+| `0b37e574f8a7b35d08371591` | gyümölcstartalom hiányzott → `20%` |
+| `194971d65c5149cb1486884f` | gyümölcstartalom hiányzott → `12%`; íz `szőlő` → `fehérszőlő` |
+| `3a078cd6e00c7cd006c8b138` | gyümölcstartalom hiányzott → `12%` |
+| `f150a8af7ff896b2ff399ece` | gyümölcstartalom hiányzott → `20%` |
+| `52a4e544cfb10a49240ccd91` | gyümölcstartalom hiányzott → `12%` |
+| `4516ff84cffb2b5fd0dc139c` | gyümölcstartalom hiányzott → `12%`; íz `szőlő` → `fehérszőlő` |
+| `28df8213ad7ff9a0476ff5d3` | gyümölcstartalom hiányzott → `35%`; íz `eper` → `alma, eper, feketerépa, feketeribizli`; rostos `false` → `true` |
+| `551c67dcae75bf307421c5a5` | gyümölcstartalom hiányzott → `35%`; rostos `false` → `true` |
+| `f4490187729259bfc43851f8` | gyümölcstartalom hiányzott → `30%`; íz `áfonya` → `alma, arónia, bodza, vörösáfonya` |
+| `29ea9f189951d7c3d491a8ca` | gyümölcstartalom hiányzott → `35%`; rostos `false` → `true` |
+| `060c27f2ac64a80405804dfb` | gyümölcstartalom hiányzott → `30%` |
+| `26bb2e73f95ea698742ff744` | gyümölcstartalom hiányzott → `12%` |
+| `d9f370f02acbd128f0fb56c0` | gyümölcstartalom hiányzott → `20%` |
+| `5a620284b6ad5e18b7d94fd4` | gyümölcstartalom hiányzott → `25%`; íz `eper` → `alma, eper`; rostos `false` → `true` |
+| `e50b981c32491a86232ffc3e` | gyümölcstartalom hiányzott → `12%`; íz `szőlő` → `fehérszőlő` |
+| `2f94fa49fbfd6e0448e9ea08` | gyümölcstartalom hiányzott → `12%` |
+| `3220dd32b763f708f9865359` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 18. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- Az azonos, korábban ellenőrzött teljes termékek igazolták
+  a Hey-Ho őszibarack 12%-os és rostos, a Piros
+  Multivitamin 25%-os kilencgyümölcsös receptjét. A Sió
+  Találkozások őszibarack–narancs 12%, a multivitamin 25%;
+  a Zero meggy–szilva–alma és a Vitatigris rózsaszín
+  20%-os. A Sió rostos kajszibarack aktuális
+  [gyártói oldala](https://www.siogyumolcs.hu/products/classic/sio-rostos-kajszibarack/)
+  és pontos összetevőlistája 20%-ot igazol.
+- A Rauch Bravo Select narancs pontos
+  [termékadata](https://www.arukereso.hu/gyumolcsle-zoldsegle-c1058/bravo/narancs-12-0-2l-p1153002433/)
+  12% narancslevet és 12% teljes gyümölcstartalmat közöl.
+  Az alma, eper, multi és őszibarack Yippy változatokat az
+  azonos ellenőrzött rekordok alapján 12%-ra, az epret
+  eper–fehérszőlőre, az őszibarackot
+  alma–citrom–őszibarackra egészítettük ki.
+- A Happy Day Immun Active közvetlen
+  [gyártói leírása](https://www.rauch.cc/hu/brands/happy-day/immun-range)
+  az alma, piros szőlő, málna, áfonya és feketeribizli
+  összetételt, a pontos
+  [termékadat](https://hazaimarket.hu/termek/rauch-happy-day-immun-active-vegyes-gyumolcsital-c-vitaminnal-es-kalciummal-1-l)
+  pedig a 60%-os gyümölcstartalmat igazolja. A `60%`
+  értéket ezért felvettük a Gyümölcsital levél meglévő
+  `gyümölcstartalom` tulajdonságához.
+- Az azonos Cappy-rekordokból az Eper mix 34%-os
+  alma–eper–feketeberkenye, a Körte 33%, a Multivitamin és
+  az Őszibarack mix 50%-os; a névben is jelzett
+  gyümölcspüré miatt mind rostos. A Kubu
+  sárgarépa–alma–banán–eper–őszibarack 32%, a
+  Multivitamin 50%, a sárgarépa–málna–alma 44%, a Fruity
+  Play málna pedig 15%-os alma–lime–málna–sárgarépa ital.
+- Módosított rekord: **24**.
+- Módosított tulajdonságmező: **47**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **1**
+  (`c2fde0756d52d8ab46514be9`).
+- Új megengedett érték: **1** (`gyümölcstartalom: 60%` a
+  Gyümölcsital levélben).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, valamint a végén is
+  lefutott a 47 030 rekordos teljes validáció. A
+  Gyümölcsital levél mind a **750** rekordjára kiterjedő
+  külön mező-, érték- és hash-paritási ellenőrzése is 0
+  hibával zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `2a1f9166467a6448cfc39c6f` | gyümölcstartalom hiányzott → `12%`; rostos `false` → `true` |
+| `307dfab09c8831875dc4e7c5` | gyümölcstartalom hiányzott → `25%`; íz hiányzott → `alma, áfonya, bodza, eper, feketeberkenye, feketeribizli, málna, szeder, szőlő` |
+| `70e1249338dc7fd20a421fba` | gyümölcstartalom hiányzott → `12%` |
+| `85a23004847534852395dd7c` | gyümölcstartalom hiányzott → `12%` |
+| `f79192ba61bca920c141bcd0` | gyümölcstartalom hiányzott → `25%`; íz hiányzott → `alma, banán, citrom, maracuja, narancs, őszibarack` |
+| `7f32ecb34a3f3aa8dfa0f513` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `657ebeda5c929081cffa0992` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, feketerépa, málna, meggy, őszibarack` |
+| `b0a265c99c2c0a3624224f61` | gyümölcstartalom hiányzott → `12%`; rostos `false` → `true` |
+| `c7f3b74bbfd25684f45d341d` | gyümölcstartalom hiányzott → `20%` |
+| `bbc9bea8a867b383cf83cdef` | gyümölcstartalom hiányzott → `34%`; íz `eper` → `alma, eper, feketeberkenye`; rostos `false` → `true` |
+| `9b10fdf4efb15487d79a9686` | gyümölcstartalom hiányzott → `34%`; íz `eper` → `alma, eper, feketeberkenye`; rostos `false` → `true` |
+| `55dbe1a03da15b07cf73ee86` | gyümölcstartalom hiányzott → `33%`; rostos `false` → `true` |
+| `6e46eac8ff3bf0980f58d38b` | gyümölcstartalom hiányzott → `50%`; íz hiányzott → `alma, citrom, narancs, őszibarack, szőlő`; rostos `false` → `true` |
+| `6a9d7156bd1aa5256c14f219` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+| `a3e040702ba66677437e4c25` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+| `67432126b33e354ade603672` | gyümölcstartalom hiányzott → `32%`; rostos `false` → `true` |
+| `9261dec615ea950a90578107` | gyümölcstartalom hiányzott → `50%`; íz hiányzott → `alma, ananász, banán, guava, kaktusz, kivi, licsi, lime, mangó, maracuja, narancs, papaya, sárgarépa, őszibarack`; rostos `false` → `true` |
+| `a2cf5282d610a31a60964a13` | gyümölcstartalom hiányzott → `44%`; rostos `false` → `true` |
+| `978cfd38944b7cd5ef526dd5` | gyümölcstartalom hiányzott → `60%`; íz hiányzott → `alma, áfonya, feketeribizli, málna, piros szőlő` |
+| `7714e0e055827d1f01ddb28c` | gyümölcstartalom hiányzott → `12%` |
+| `31c60a22c962dfa972d4b8d7` | gyümölcstartalom hiányzott → `12%`; íz `eper` → `eper, fehérszőlő` |
+| `24dd82ccc7bf2c7cec52a5cf` | gyümölcstartalom hiányzott → `12%` |
+| `8c8b2776db85438003f288f8` | gyümölcstartalom hiányzott → `12%`; íz `őszibarack` → `alma, citrom, őszibarack` |
+| `54b05a97941aa468418cb574` | gyümölcstartalom hiányzott → `15%`; íz `málna` → `alma, lime, málna, sárgarépa` |
+
+### Gyümölcsital kézi felülvizsgálat, 19. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- Az azonos, már ellenőrzött Kubu-receptek alapján a Fruity
+  Play Multivitamin 12%-os és pürés, a görögdinnye
+  12%-os alma–görögdinnye–lime, az eper 12%-os
+  alma–eper ital. A banán–alma–őszibarack termék
+  sárgarépát is tartalmaz, 42%-os és rostos.
+- A 250 ml-es Topjoy termékeknél a pontos kisüveges
+  recepteket és a korabeli helyi képet vettük figyelembe:
+  alma–meggy 25%, alma–görögdinnye 20%, a pürés mangó
+  25%, a kaktusz 40%, a pürés őszibarack 50%,
+  alma–kékszőlő 20%, a képen szereplő régebbi körte pedig
+  35%. Az alma–kékszőlő téves `kivi` értékét töröltük.
+- A Topjoy 1,5 literes alma–körte pontos
+  [összetevőlistája](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004121219710)
+  19% almát és 1% körtét, az alma–eper–egres
+  [receptje](https://bevasarlas.tesco.hu/groceries/hu-HU/products/121219451)
+  10% almát, 1% epret és 1% egrest, az őszibarack–mangó
+  [termékadata](https://www.arukereso.hu/gyumolcsle-zoldsegle-c1058/topjoy/barack-mango-pet-1-5l-6-drs-delfinbuvar-p1114145212/)
+  10% őszibarackot és 2% mangót igazol. A Multifruit
+  [teljes receptje](https://www.groby.hu/termekek/44060-topjoy-multifruit-vegyes-gyumolcsital-1-5-l)
+  12%-ot és tizenegy gyümölcsöt, köztük püréket közöl.
+- A Capri-Sun Mystic Dragon édesítőszeres, azonos nevű
+  [magyar receptje](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2005105250409)
+  20,1% alma-, banán-, eper- és maracujalevet igazol. A
+  `20,1%` értéket ezért felvettük a Gyümölcsital levél
+  meglévő `gyümölcstartalom` tulajdonságához; a régi,
+  édesítőszer nélküli 10%-os változatot nem kevertük vele.
+- A Rauch Bravo alma és narancs 12%-os. Az őszibarack
+  pontos, a rekord címével egyező
+  [termékadata](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/rauch-bravo-oszibarack-gyumolcsital-cukorral-es-edesitoszerekkel-c-vitaminnal-1-5l)
+  20% őszibarackpürét, a piros változat
+  [összetevőlistája](https://shop.hosso.hu/bravo-15l-multivitamin-12-tetra-6270)
+  12% alma-, meggy-, feketeribizli-, narancs-, bodza-,
+  málna- és szederlevet közöl.
+- A Sió Találkozások alma–körte 12%-os, a két Vitatigris
+  piros 20%-os alma–eper–feketerépa–piros szőlő ital, a
+  Zero multivitamin pedig 20%-os, ötgyümölcsös recept. A
+  Citrus Friss sárgadinnye–lime–alma neve, képe és két
+  azonos, már ellenőrzött rekordja szénsavmentes vegyes
+  üdítőitalt igazol; ezért az `Egyéb ízesített
+  üdítőital` levélbe került, és a téves `görögdinnye`
+  értéket `sárgadinnye` váltotta.
+- Módosított rekord: **25**.
+- Módosított tulajdonságmező az átsoroláson kívül: **42**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **1** (`gyümölcstartalom: 20,1%`
+  a Gyümölcsital levélben).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolás előtt és
+  után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. A Gyümölcsital **749** és az Egyéb
+  ízesített üdítőital **850** rekordjára kiterjedő külön
+  mező-, érték- és hash-paritási ellenőrzés is 0 hibával
+  zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `aeca27649b639069c3512b2a` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, ananász, banán, guava, lime, mandarin, mangó, maracuja, narancs, sárgabarack, őszibarack`; rostos `false` → `true` |
+| `05b6714a41e01b80ca6d237c` | gyümölcstartalom hiányzott → `12%`; íz `görögdinnye` → `alma, görögdinnye, lime` |
+| `8599d67e338b6fbbfb15373e` | gyümölcstartalom hiányzott → `25%` |
+| `8f3c017579179e484d91ea41` | gyümölcstartalom hiányzott → `20%` |
+| `1ec228ca324ae14d7911ebed` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `a14691d0d0d966247c898d62` | gyümölcstartalom hiányzott → `40%` |
+| `4c2f0fca211f24a395faba4a` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+| `7d7dab52f30c1d68c3d43c1e` | gyümölcstartalom hiányzott → `20%`; íz `alma, kékszőlő, kivi` → `alma, kékszőlő` |
+| `6b6201fb2e66d6ea9045fd81` | gyümölcstartalom hiányzott → `20%` |
+| `5023a2b509a867582e286a3e` | gyümölcstartalom hiányzott → `12%` |
+| `8fafacadf7700f32840f9f84` | gyümölcstartalom hiányzott → `12%` |
+| `81819a007b26d41f6e221558` | gyümölcstartalom hiányzott → `12%`; íz `eper` → `alma, eper` |
+| `cf32e7cf6e7fba9e17487836` | gyümölcstartalom hiányzott → `42%`; íz `alma, banán, őszibarack` → `alma, banán, sárgarépa, őszibarack`; rostos `false` → `true` |
+| `46c11a28d5710cad7ddae013` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, ananász, banán, guava, lime, mandarin, mangó, maracuja, narancs, sárgabarack, őszibarack`; rostos `false` → `true` |
+| `bcdda45694170801824c5be6` | gyümölcstartalom hiányzott → `20,1%`; íz hiányzott → `alma, banán, eper, maracuja` |
+| `cb19ac594325200479faa55d` | gyümölcstartalom hiányzott → `12%` |
+| `d40217fc992d4022a1cbce3e` | gyümölcstartalom hiányzott → `12%` |
+| `44d8d301b3603742a3024590` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `c86e7ea61e177257c5606303` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, bodza, feketeribizli, málna, meggy, narancs, szeder` |
+| `1ebafb8df032f47f4fd6a4be` | `Gyümölcsital` → `Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Sió`, `szénsavas: false`, `íz: alma, lime, sárgadinnye` |
+| `4872974d0ea5025456fdb24b` | gyümölcstartalom hiányzott → `12%` |
+| `924a7b50f5feb58e4e286857` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `e2fa73034e380b40fc17ca7a` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `3dd268dbca98ba70ee9a2d32` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, banán, citrom, narancs, őszibarack` |
+| `80ff0f079530473af6bb6ebb` | gyümölcstartalom hiányzott → `35%`; rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 20. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A Capri-Sun Multivitamin és Jungle Drink jelenlegi,
+  cukorral és édesítőszerrel készült receptje egyaránt
+  **20,1%** gyümölcstartalmú. A Multivitamin hét, a Jungle
+  hat tényleges gyümölcsösszetevőjét rögzítettük; a
+  guavapürét is tartalmazó Jungle rostos jelölést kapott. A
+  Monster Alarm ugyanezen jelenlegi receptváltozata
+  20,1%-os alma–citrom–eper–feketeribizli–lime–meggy ital.
+- A Kubu banán–sárgarépa–áfonya 36%-os és pürés; a Fruity
+  Play mangó pontos receptje 15%-os, alma–citrom–mangó–
+  narancs összetételű és pürés. A Cappy zöldalma 30%-os,
+  pürét tartalmazó ital.
+- A pontos Hey-Ho receptek alapján a sárkánygyümölcsital
+  20%-os alma–feketerépa–sárkánygyümölcs ital; a Piros
+  Multivitamin 20%-os, nyolcgyümölcsös és pürés; az
+  őszibarack 20%-os és pürés. A két `ZERO` feliratú,
+  édesítőszeres terméknél a képen is igazolt `hozzáadott
+  cukor nélkül` értéket `true`-ra javítottuk. A narancsital
+  12%-os.
+- A Rauch Yippy Cherry pontos receptje 12%-os
+  banán–meggy–narancs ital, ezért a téves `cseresznye`
+  értéket `meggy` váltotta, és a püré miatt rostosnak
+  jelöltük.
+- A Sió Zero alma–maracuja–mangó 15%-os és pürés, az
+  alma–sárkánygyümölcs–guava 13%-os és pürés, a piros
+  szőlő–alma 19%-os. Utóbbinál az általános `szőlő`
+  értéket a névvel és recepttel egyező `piros szőlő`
+  váltotta. A Vitatigris sárga 20%-os
+  alma–narancs–sárgabarack–sárgarépa ital. A Citrus Friss
+  grapefruit pontos összetevőlistája 25% összes
+  gyümölcstartalmat, alma-, bodza-, grapefruit- és
+  narancsösszetevőket, továbbá gyümölcshúst igazol.
+- A Topjoy 250 ml-es alma–szeder és alma–eper 20%-os, a
+  négy 200 ml-es gyerekital 30%-os. Az
+  alma–feketeberkenye–meggy–erdei szamóca változatból
+  töröltük a tévesen megkettőzött általános `eper`
+  értéket. A 200 ml-es almaital szintén 30%-os.
+- A RIO Gingerade pontos receptje **10,7%**, a Greponade
+  receptje **13,8%** gyümölcstartalmat igazol; mindkettő
+  gyümölcshúst vagy pürét tartalmaz. A Greponade ízeit
+  citrom–grapefruit–hibiszkusz összetételre egészítettük
+  ki.
+- A Hohes C Classic Piros Multi képe, neve és pontos
+  összetétele **100%-os vegyes gyümölcslevet** igazol,
+  ezért a `Gyümölcsital` levélből a `Lé` levélbe került.
+  Az összetételben szereplő acerola, alma, arónia, citrom,
+  feketerépa, meggy és szőlő ízértékeit rögzítettük.
+- Módosított rekord: **25**.
+- Módosított tulajdonságmező az átsoroláson kívül: **51**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **4** (`gyümölcstartalom: 10,7%`,
+  `gyümölcstartalom: 13,8%` és `íz: hibiszkusz` a
+  Gyümölcsital levélben; `íz: arónia` a Lé levélben).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolás előtt és
+  után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. A Gyümölcsital **748** és a Lé **383**
+  rekordjára kiterjedő külön mező-, érték- és
+  hash-paritási ellenőrzés is 0 hibával zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `c7aa0b622ce500f54b75246e` | gyümölcstartalom hiányzott → `30%` |
+| `db5d5736f7ec509209a07a36` | gyümölcstartalom hiányzott → `20,1%`; íz hiányzott → `alma, ananász, banán, citrom, kivi, maracuja, narancs` |
+| `d7e6f67b8bc4bc8736c73306` | gyümölcstartalom hiányzott → `20,1%`; íz hiányzott → `alma, ananász, citrom, guava, maracuja, narancs`; rostos `false` → `true` |
+| `7ffe3af448530548bd27826f` | gyümölcstartalom hiányzott → `36%`; rostos `false` → `true` |
+| `2ee43449efc076630873c536` | gyümölcstartalom hiányzott → `20%` |
+| `2de12cd6a46fb4b1f4840bd7` | gyümölcstartalom hiányzott → `15%`; íz `mangó` → `alma, citrom, mangó, narancs`; rostos `false` → `true` |
+| `6ff1008de2f079fa4b9761c3` | gyümölcstartalom hiányzott → `30%`; rostos `false` → `true` |
+| `0f7da3ffe5acee69eb4d75c8` | gyümölcstartalom hiányzott → `20%`; íz `sárkánygyümölcs` → `alma, feketerépa, sárkánygyümölcs`; rostos `false` → `true` |
+| `3b6564962cec4ac5fd1ebb15` | gyümölcstartalom hiányzott → `12%`; íz `cseresznye` → `banán, meggy, narancs`; rostos `false` → `true` |
+| `b27456445c9b44548f2385f8` | gyümölcstartalom hiányzott → `20,1%`; íz hiányzott → `alma, citrom, eper, feketeribizli, lime, meggy` |
+| `e8e095cbdd0617929ce5086c` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, áfonya, eper, feketeberkenye, málna, meggy, piros szőlő, szeder`; rostos `false` → `true`; hozzáadott cukor nélkül `false` → `true` |
+| `2e60d96ccd9bcf79002c3d5a` | gyümölcstartalom hiányzott → `12%` |
+| `ba3b2cd1f9ed62ee1eed7334` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true`; hozzáadott cukor nélkül `false` → `true` |
+| `3c8d4c4366883b7347fc889c` | gyümölcstartalom hiányzott → `15%`; rostos `false` → `true` |
+| `6eecb10b6976ccafc5109463` | gyümölcstartalom hiányzott → `13%`; rostos `false` → `true` |
+| `1022251805e16dd0f0f0565a` | gyümölcstartalom hiányzott → `19%`; íz `alma, szőlő` → `alma, piros szőlő` |
+| `76f70f17d362e8410bc4b732` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, narancs, sárgabarack, sárgarépa` |
+| `ae6cfc206a6f85d5ca7d23ba` | gyümölcstartalom hiányzott → `25%`; íz `grapefruit` → `alma, bodza, grapefruit, narancs`; rostos `false` → `true` |
+| `2fcbaf6d1484fa4ef7439abb` | gyümölcstartalom hiányzott → `20%` |
+| `b2d71ed7c7a5d2f1fe64147d` | gyümölcstartalom hiányzott → `30%` |
+| `64c99e735badbf88b856756a` | gyümölcstartalom hiányzott → `30%` |
+| `0818dc3a0872c0b21a2c66ad` | gyümölcstartalom hiányzott → `30%`; íz `alma, eper, erdei szamóca, feketeberkenye, meggy` → `alma, erdei szamóca, feketeberkenye, meggy` |
+| `59c0a0bd3dadccb28e129135` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `márka: Hohes C`, `rostos: false`, `íz: acerola, alma, arónia, citrom, feketerépa, meggy, szőlő` |
+| `5161653c7f2a499be267999a` | gyümölcstartalom hiányzott → `10,7%`; rostos `false` → `true` |
+| `9026a6969f29e702aa9c25ea` | gyümölcstartalom hiányzott → `13,8%`; íz `grapefruit` → `citrom, grapefruit, hibiszkusz`; rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 21. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A RIO Coldpress Kurkuma Shot 180 ml-es kiszerelése,
+  előlapja és pontos
+  [összetétele](https://potravinydomov.itesco.sk/groceries/en-SK/products/121559520)
+  40% hidegen préselt narancslevet, 13% mangópürét, 4,3%
+  gyömbérpürét, kurkumát, valamint hozzáadott C- és
+  D3-vitamint igazol. Ez kifejezetten shot termék, ezért a
+  `Sport-, izotóniás, kollagén- és shot ital` levélbe
+  került.
+- A Hohes C Classic Piros Multi második, az előző blokkban
+  ellenőrzöttel azonos változata szintén **100%-os**
+  gyümölcslé; ezért a `Lé` levélbe került, azonos teljes
+  összetétellel.
+- A Hey-Ho kékszőlő és alma képe egyaránt 12%-ot jelez. Az
+  azonos, már ellenőrzött receptek alapján az eper 25%-os
+  alma–eper, pürés ital, az ananász 20%-os. A
+  sárkánygyümölcs 20%-os alma–feketerépa–
+  sárkánygyümölcs ital, és a püré miatt rostos.
+- A Topjoy Fruits of the World mangó pontos
+  [összetevőlistája](https://bevasarlas.tesco.hu/shop/en-HU/products/220263454)
+  10% mangópürét, 5% almapürét, valamint 4% alma-, 3%
+  narancs- és 2% citromlevet közöl. A korábbi párrekordok
+  24%/25% eltérését így a felülvizsgált változatra
+  **24%**-ként döntöttük el, és rostosnak jelöltük.
+- A Rauch Happy Day őszibarack az azonos, már ellenőrzött
+  recept szerint 35%-os és pürés.
+- A korabeli DESPAR gyümölcsital-vonal közvetlen
+  [gyártói közlése](https://www.desparsicilia.it/post/posts/view/320/despar-presenta-la-linea-di-succhi-e-nettari-con-minor-quantita-di-zucchero-nata-in-collaborazione-con-l-universita-di-parma/)
+  a gyümölcsitalokat 30%-osként írja le, és név szerint
+  tartalmazza az ACE Rosso, ananász és vérnarancs 1,5
+  literes termékeket. Az ACE Rosso képe a
+  vérnarancs–sárgarépa–citrom összetételt igazolja; a
+  vérnarancs terméknél a felesleges általános `narancs`
+  értéket eltávolítottuk.
+- A Sió Zero és Találkozások változatok minden pontos
+  párrekordja egyezett. A Zero alma 12%, az ananász,
+  multivitamin, meggy–szilva–alma és őszibarack 20%. Az
+  ananász pontos
+  [összetevőlistájában](https://www.groby.hu/termekek/41653-sio-zero-gyumolcsital-1-l-ananasz-20)
+  szereplő 2,9% ananászvelő, továbbá a meggy–szilva–alma
+  és az őszibarack receptje igazolja a rostos jelölést. A
+  Találkozások őszibarack–alma–meggy–málna,
+  meggy–szilva–alma, alma–körte és őszibarack–narancs
+  12%-os; a Multivitamin 25%-os és hatgyümölcsös.
+- A hagyományos Sió szűrt alma és narancs 12%-os, a rostos
+  őszibarack 20%-os.
+- Módosított rekord: **25**.
+- Módosított tulajdonságmező az átsorolásokon kívül:
+  **36**.
+- Kézi kategória-átsorolás: **2**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolások előtt
+  és után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. A Gyümölcsital **746**, a Lé **384**
+  és a funkcionális sport-/shot levél **180** rekordjára
+  kiterjedő külön mező-, érték- és hash-paritási
+  ellenőrzés is 0 hibával zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `b6fa4aee9106973f72140f01` | `Gyümölcsital` → `Sport-, izotóniás, kollagén- és shot ital`; célmezők: `márka: RIO`, `funkció: shot`, `íz: gyömbér, kurkuma, mangó, narancs` |
+| `16081e88e83bd20ee4d3a8b9` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `márka: Hohes C`, `rostos: false`, `íz: acerola, alma, arónia, citrom, feketerépa, meggy, szőlő` |
+| `7faec0c6bfeee0a98b71f5cd` | gyümölcstartalom hiányzott → `12%` |
+| `5889aa96cbc0d2992691b30f` | gyümölcstartalom hiányzott → `12%` |
+| `47104419aabd32c167563f41` | gyümölcstartalom hiányzott → `25%`; íz `eper` → `alma, eper`; rostos `false` → `true` |
+| `8a2fc82adb41d34e86f357f6` | gyümölcstartalom hiányzott → `24%`; rostos `false` → `true` |
+| `d95f2e92c53c153229d2fb42` | gyümölcstartalom hiányzott → `20%` |
+| `461171437468ec7316a51665` | gyümölcstartalom hiányzott → `35%`; rostos `false` → `true` |
+| `c16cd8fee0515b8654060bd9` | gyümölcstartalom hiányzott → `30%`; íz hiányzott → `citrom, sárgarépa, vérnarancs` |
+| `e20e5bbea18433f16f0770cf` | gyümölcstartalom hiányzott → `30%` |
+| `0c126876831166c17d3b6c82` | gyümölcstartalom hiányzott → `30%`; íz `narancs, vérnarancs` → `vérnarancs` |
+| `ba51da840bed799de3e555ba` | gyümölcstartalom hiányzott → `12%` |
+| `f2c2b2a95f6a213ee871a7ac` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `da780a27028b63c22d686bf1` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, banán, citrom, narancs, őszibarack` |
+| `e5294b73e5f9b6f56f7d5348` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `ed7f0455947cc1dcb2811d7a` | gyümölcstartalom hiányzott → `12%` |
+| `42a42e17d1efebdbbcba2d1d` | gyümölcstartalom hiányzott → `25%`; íz hiányzott → `alma, banán, citrom, maracuja, narancs, őszibarack` |
+| `4c7135370760db16a52e2d0c` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `c51de2115b17235f4a0b0bb5` | gyümölcstartalom hiányzott → `12%` |
+| `115479cbbbde79e61481891a` | gyümölcstartalom hiányzott → `12%` |
+| `27f5c71205949cb737f3f076` | gyümölcstartalom hiányzott → `12%` |
+| `106d0b4e95b48e2cc07781aa` | gyümölcstartalom hiányzott → `20%`; íz `sárkánygyümölcs` → `alma, feketerépa, sárkánygyümölcs`; rostos `false` → `true` |
+| `8e12e8d9c10642b245cec789` | gyümölcstartalom hiányzott → `12%` |
+| `40732c12a141d8cc49dbcdff` | gyümölcstartalom hiányzott → `12%` |
+| `d4e9fd2aa6cf6c0992b04c86` | gyümölcstartalom hiányzott → `20%` |
+
+### Gyümölcsital kézi felülvizsgálat, 22. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A Sió párrekordok alapján a rostos kajszibarack és körte
+  20%-os, a szűrt fehérszőlő 12%-os. A Citrus Friss
+  grapefruit a korábban ellenőrzött, pontosan egyező
+  25%-os alma–bodza–grapefruit–narancs recept, a
+  lime–citrom pedig 12%-os citrom–lime–narancs ital;
+  mindkettő gyümölcshúsos. Az általános `szőlő` értéket a
+  képpel egyező `fehérszőlő` váltotta.
+- A Rauch Bravo édesítőszeres őszibarack 20%-os és pürés,
+  az alma és a narancs 12%-os. A SPAR őszibarack közvetlen
+  [termékadata](https://hazaimarket.hu/termek/spar-oszibarack-ital-1-l)
+  25% őszibarackpürét igazol.
+- A Hey-Ho azonos nevű, de eltérő receptű termékeit nem
+  vontuk össze. A sötétkék csomagolású alma 25%-os; a
+  sötétkék őszibarack pontos
+  [összetevőlistája](https://www.groby.hu/termekek/2609-hey-ho-gyumolcsital-1-l-oszibarack-25)
+  25% őszibarackpürét közöl. A világoskék, elől `12%`
+  jelölésű őszibarack 12%-os és pürés. A körte 25%-os és
+  pürés, a narancs és fehérszőlő 12%-os. A Piros
+  Multivitamin régi, 6-vitaminos változata 25%-os és
+  kilenc gyümölcsösszetevőjét rögzítettük.
+- A Topjoy Fruits of the World kaktusz 42%-os, az
+  alma–görögdinnye 20%-os. A 250 ml-es alma–eper 20%, a
+  zöldalma 1,5 l 12%. Az alma–bodza `0% CUKOR` képe és a
+  pontos termékadat 12%-os gyümölcstartalmat, valamint
+  hozzáadott cukor nélküli, édesítőszeres receptet igazol.
+  Az Immunitás Multivitamin 20%-os, hatgyümölcsös és
+  pürés.
+- A Cappy zöldalma az egyező, már ellenőrzött rekordok
+  alapján 30%-os és pürés. A DESPAR narancs–sárgarépa–
+  citrom az előző blokkban igazolt termékvonalhoz tartozó
+  30%-os ital.
+- Az S-Budget csomagolása szó szerint `Multi Nektar`, a
+  közvetlen
+  [gyártói oldal](https://www.spar.at/produktwelt/s-budget-multinektar-50-p2020004285645)
+  pedig 50%-os többgyümölcs-nektárként, hét lé- és hat
+  püréösszetevővel írja le. Ezért a `Nektár` levélbe
+  került, teljes, tizenkét egyedi gyümölcsértékkel és
+  rostos jelöléssel.
+- Módosított rekord: **25**.
+- Módosított tulajdonságmező az átsoroláson kívül: **40**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **4** (`márka: S-Budget`, valamint
+  `íz: citrom`, `íz: fehérszőlő` és `íz: maracuja` a
+  Nektár levélben).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolás előtt és
+  után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. A Gyümölcsital **745** és a Nektár
+  **88** rekordjára kiterjedő külön mező-, érték- és
+  hash-paritási ellenőrzés is 0 hibával zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `a0e13c80cbd66f73698d042d` | gyümölcstartalom hiányzott → `20%` |
+| `b7973796d5e2c27e4ec9fceb` | gyümölcstartalom hiányzott → `25%`; íz `grapefruit` → `alma, bodza, grapefruit, narancs`; rostos `false` → `true` |
+| `970afdc4f6aed7ff22bc8d7d` | gyümölcstartalom hiányzott → `12%`; íz `szőlő` → `fehérszőlő` |
+| `2fda2fd25226429d4bc44e38` | gyümölcstartalom hiányzott → `12%`; íz `citrom, lime` → `citrom, lime, narancs`; rostos `false` → `true` |
+| `2d0dd29188eb3d6f4c2bf8ce` | gyümölcstartalom hiányzott → `20%` |
+| `e1087ef42739712c994923e6` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `add97391ca15c415b4ba7266` | gyümölcstartalom hiányzott → `12%` |
+| `dba36369e922c3f9780f5e1d` | gyümölcstartalom hiányzott → `12%` |
+| `0a3f20d580ebed10a86231e7` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `f913bd05e2713b32de34e8bb` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `323f65c4440b0573ef91ea73` | gyümölcstartalom hiányzott → `25%`; íz hiányzott → `alma, áfonya, bodza, eper, feketeberkenye, feketeribizli, málna, szeder, szőlő` |
+| `ebf48c447bebf74f34e58dfd` | gyümölcstartalom hiányzott → `42%` |
+| `09ba0aca1f240bd292c2c165` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `650a8df2a7954796e8d4e360` | gyümölcstartalom hiányzott → `20%` |
+| `fb2f3e1f7a756eec3b155536` | gyümölcstartalom hiányzott → `12%`; rostos `false` → `true` |
+| `8a6679719c6efd19abc58164` | gyümölcstartalom hiányzott → `25%` |
+| `578069ea1fa7f092ed4928dc` | gyümölcstartalom hiányzott → `30%`; rostos `false` → `true` |
+| `b336221b5eb84948173635b3` | `Gyümölcsital` → `Nektár`; célmezők: `gyümölcstartalom: 50%`, `márka: S-Budget`, `rostos: true`, `íz: alma, ananász, banán, citrom, fehérszőlő, guava, körte, mangó, maracuja, narancs, őszibarack, sárgabarack` |
+| `d1c6474ccdb439dacd978727` | gyümölcstartalom hiányzott → `20%` |
+| `b4a411d77637d640ffb7512f` | gyümölcstartalom hiányzott → `12%`; hozzáadott cukor nélkül `false` → `true` |
+| `3a74844219759608ea7380e6` | gyümölcstartalom hiányzott → `12%` |
+| `2dda65cc3f4c183bee87c7f2` | gyümölcstartalom hiányzott → `30%` |
+| `5b79561131695141ab4041a3` | gyümölcstartalom hiányzott → `12%` |
+| `e5a5612ba088819699091148` | gyümölcstartalom hiányzott → `12%`; íz `szőlő` → `fehérszőlő` |
+| `2984851432c09f03611fdfc4` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, ananász, citrom, lime, narancs, szőlő`; rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 23. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A Topjoy Fitness alma–ananász–narancs–citrom közvetlen
+  [termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/105013846)
+  20%-os, hozzáadott cukor nélküli receptet, a Topjoy
+  Vitalitás pontos
+  [összetevőlistája](https://www.arukereso.hu/gyumolcsle-zoldsegle-c1058/topjoy/vitalitas-alma-oszibarack-1-l-p1166839798/)
+  pedig 10% őszibarackpürét, 5% almalét és 5% almapürét
+  igazol. Mindkettő jogi megnevezése gyümölcsital, ezért a
+  vitamin- és funkcióállítások ellenére ebben a levélben
+  maradt.
+- A Kubu, Cappy, Sió, Rauch Yippy, Topjoy üveges és Power
+  Fruit termékek pontosan egyező, korábban ellenőrzött
+  kiszerelései egységes recepteket igazoltak. Ezek alapján
+  többek között a Kubu 32%-os és pürés; a Cappy
+  Őszibarack Mix és Multivitamin 50%-os és pürés; a
+  Topjoy mangó 25%-os és pürés; az alma–kékszőlő 20%-os,
+  az alma–lime–kaktusz 40%-os; a Power Fruit termékek
+  12%-osak és hozzáadott cukor nélküliek.
+- A SPAR multivitamin közvetlen
+  [összetevőlistája](https://hazaimarket.hu/termek/spar-multivitamin-gyumolcsital-1-5-l)
+  **12,5%** összes gyümölcstartalmat, kilenc
+  gyümölcsösszetevőt és több pürét közöl. A
+  [SPAR őszibarack](https://hazaimarket.hu/termek/spar-oszibarack-gyumolcsital-1-5-l)
+  és az
+  [alma–eper](https://hazaimarket.hu/termek/spar-alma-eper-gyumolcsital-1-5-l)
+  egyaránt 12%-os, léalapú ital.
+- A Rauch Juice Bar Green Glory közvetlen
+  [termékadata](https://www.kifli.hu/en-HU/98873-)
+  **99,7%** gyümölcs- és zöldségtartalmat, alma-, fehérszőlő-,
+  uborka- és citromlevet, továbbá kivi- és almapürét igazol.
+  Hozzáadott cukrot nem tartalmaz; a szabályozott
+  termékmegnevezés ugyanakkor ital, nem 100%-os lé, ezért
+  nem került a `Lé` levélbe.
+- A Topjoy Fruity őszibarack–mangó közvetlen
+  [termékadata](https://bevasarlas.tesco.hu/shop/en-HU/products/121219687)
+  12%-ot közöl. A Fruity Multifruit
+  [összetevőlistája](https://bevasarlas.tesco.hu/shop/hu-HU/products/121219422)
+  szintén 12%-os, és a tizenhárom elemi gyümölcsértéket,
+  valamint a pürés jelleget is igazolja.
+- A Sió Citrus Friss sárgadinnye–lime–alma neve és képe
+  egyaránt `vegyes üdítőital` megjelölést tartalmaz, az
+  azonos 1 literes párrekordok pedig ugyanazt a
+  szénsavmentes receptet igazolják. Ezért az `Egyéb
+  ízesített üdítőital` levélbe került; a téves
+  `görögdinnye` értéket `sárgadinnye` váltotta.
+- Módosított rekord: **25**.
+- Módosított tulajdonságmező az átsoroláson kívül: **45**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **1** (`gyümölcstartalom:
+  12,5%` a Gyümölcsital levélben).
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolás előtt és
+  után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. A Gyümölcsital **744** és az Egyéb
+  ízesített üdítőital **851** rekordjára kiterjedő külön
+  mező-, érték- és hash-paritási ellenőrzés is 0 hibával
+  zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `95edde747e19fd15eb4b0b53` | gyümölcstartalom hiányzott → `20%`; hozzáadott cukor nélkül `false` → `true` |
+| `583cb481a89ecea32af542e1` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `fd4f8cc0e25eb1b84ccf4b30` | gyümölcstartalom hiányzott → `32%`; rostos `false` → `true` |
+| `d3d32e6863c900041da4e085` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+| `a5b7bc95e0576960a6e9c700` | gyümölcstartalom hiányzott → `20%` |
+| `cd275b505b7fc406cb526770` | gyümölcstartalom hiányzott → `50%`; íz hiányzott → `alma, citrom, narancs, őszibarack, szőlő`; rostos `false` → `true` |
+| `30960ef1dd6ffeb625157d2c` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `011de134c0171fedf69bc2f6` | gyümölcstartalom hiányzott → `20%`; íz `alma, kékszőlő, kivi` → `alma, kékszőlő` |
+| `fc2115f06eec82b1a765a859` | gyümölcstartalom hiányzott → `40%` |
+| `52f5d734ef932283d788c4e5` | gyümölcstartalom hiányzott → `12,5%`; íz hiányzott → `alma, ananász, banán, citrom, guava, mangó, narancs, őszibarack, sárgabarack`; rostos `false` → `true` |
+| `ca7de5c14f17968609cc3b4a` | gyümölcstartalom hiányzott → `12%`; íz `citrom, lime` → `citrom, lime, narancs`; rostos `false` → `true` |
+| `aca22233ae9019e85728e396` | gyümölcstartalom hiányzott → `99,7%`; íz hiányzott → `alma, citrom, fehérszőlő, kivi, uborka`; rostos `false` → `true`; hozzáadott cukor nélkül `false` → `true` |
+| `deb675249e2e5f3712b93b03` | gyümölcstartalom hiányzott → `12%`; íz `eper` → `eper, fehérszőlő` |
+| `9a2aa192a3c269e6e1d67edb` | gyümölcstartalom hiányzott → `12%` |
+| `de7a08c266b6c92fed21ba5b` | gyümölcstartalom hiányzott → `12%` |
+| `6752fce35099683947ef45b3` | `Gyümölcsital` → `Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Sió`, `szénsavas: false`, `íz: alma, lime, sárgadinnye` |
+| `812ad4730b51a1b17b5ba86d` | gyümölcstartalom hiányzott → `12%` |
+| `14e538131fe17835f0075764` | gyümölcstartalom hiányzott → `12%` |
+| `e69b16bf995c49c7259afceb` | gyümölcstartalom hiányzott → `12%` |
+| `e08b212f97d7c0dd653317d5` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, ananász, banán, guava, kaktusz, kivi, licsi, lime, mangó, maracuja, narancs, őszibarack, papaya`; rostos `false` → `true` |
+| `41efa5c087ca8fb4d3adab3d` | gyümölcstartalom hiányzott → `12%` |
+| `b1d18d9ec3834a561d2570cd` | gyümölcstartalom hiányzott → `20%` |
+| `6a73955ea5d69c5d39484dd4` | gyümölcstartalom hiányzott → `12%` |
+| `4b85da4bd564d15e1418655f` | gyümölcstartalom hiányzott → `12%`; hozzáadott cukor nélkül `false` → `true` |
+| `a388cb192af4428aa3af291c` | gyümölcstartalom hiányzott → `12%`; íz `áfonya, alma` → `alma, vörösáfonya`; hozzáadott cukor nélkül `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 24. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A Power Fruit, Topjoy, Cappy, Sió Zero és Rauch Bravo
+  termékek korábban igazolt, pontosan egyező receptjei
+  alapján rögzítettük a gyümölcstartalmat, a pürés jelleget
+  és a hozzáadott cukor nélküli jelölést. A Topjoy
+  alma–feketeberkenye–meggy–erdei szamóca terméknél a
+  redundáns `eper` értéket töröltük.
+- A Hey-Ho őszibarack közvetlen
+  [termékadata](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2005105504729)
+  20% őszibarackpürét és hozzáadott cukor nélküli receptet
+  igazol. A Piros Multivitamin pontos
+  [összetevőlistája](https://www.foodora.hu/groceries/product/RCH137/heyho-piros-multivitamin-vegyes-gymlcsital-destszerrekkel-s-5-vitaminnal-1-l)
+  20% gyümölcslevet, alma-, meggy-, pirosszőlő-, arónia-,
+  eper-, málna-, áfonya- és szederösszetevőt közöl; pürét
+  nem tartalmaz.
+- A SPAR alma–körte közvetlen
+  [termékadata](https://hazaimarket.hu/termek/spar-alma-korte-gyumolcsital-1-5-l)
+  12%-os, léalapú receptet igazol. Az S-Budget
+  [őszibarack](https://hazaimarket.hu/termek/s-budget-oszibarack-ital-0-2-l)
+  25% őszibarackpürét, a
+  [szűrt alma](https://hazaimarket.hu/termek/s-budget-szurt-almaital-0-2-l)
+  25% almalevet tartalmaz.
+- A Sió Vitatigris rózsaszín
+  [összetevőlistája](https://www.groby.hu/termekek/44259-sio-vitatigris-0-2l-rozsaszin-gyumolcs-mix-20)
+  20%-os receptet, citromlevet, valamint őszibarack- és
+  meggypürét igazol. A sárga változat pontos
+  [termékadata](https://www.groby.hu/termekek/41840-sio-vitatigris-gyumolcsital-1-l-sarga-gyumolcs-mix-20)
+  20%-os össztartalmat és 2,5% sárgabarackpürét közöl. A
+  piros változat 20%-os, léalapú alma–eper–feketerépa–
+  pirosszőlő recept.
+- A Sió szűrt szőlő közvetlen
+  [összetevőlistája](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004020341211)
+  12% szőlőlevet közöl, de nem bizonyít külön
+  fehérszőlő-fajtát; ezért az általános `szőlő` értéket
+  tartottuk meg. A Rauch Bravo vegyes piros
+  [termékadata](https://www.kifli.hu/105592-rauch-bravo-vegyes-piros-gyuemoelcsital-5-vitaminnal)
+  12%-os, alma–bodza–feketeribizli–málna–meggy–narancs–
+  szeder receptet igazol.
+- A Sió Citrus Friss sárgadinnye–lime–alma 1 literes
+  termék neve és képe is `vegyes üdítőital` megjelölést
+  tartalmaz, és az előző blokk 0,4 literes párjával azonos.
+  Ezért az `Egyéb ízesített üdítőital` levélbe került, a
+  hibás `görögdinnye` értéket pedig `sárgadinnye`
+  váltotta.
+- Az új, pontosabb összetevőadatok alapján **12**, korábbi
+  blokkban már kézzel ellenőrzött rekordot is
+  visszajavítottunk: két Piros Multivitamin, három
+  rózsaszín és hat sárga Vitatigris, valamint egy Sió
+  szőlőital rekordot. Ezeket az összesített
+  előrehaladásban nem számoltuk újra.
+- Módosított rekord az új blokkban: **24**.
+- Korábban ellenőrzött, visszajavított rekord: **12**.
+- Módosított tulajdonságmező az átsoroláson kívül, az új
+  blokk és a visszajavítások együtt: **59**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **1**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolás előtt és
+  után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. A Gyümölcsital **743** és az Egyéb
+  ízesített üdítőital **852** rekordjára kiterjedő külön
+  mező-, érték- és hash-paritási ellenőrzés is 0 hibával
+  zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `ac5eee8f5066b3982141d114` | gyümölcstartalom hiányzott → `12%`; hozzáadott cukor nélkül `false` → `true` |
+| `f703a5cb422eb46af756c330` | `Gyümölcsital` → `Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Sió`, `szénsavas: false`, `íz: alma, lime, sárgadinnye` |
+| `1c6689a65cd7ccc7217a705d` | gyümölcstartalom hiányzott → `30%`; íz `alma, eper, erdei szamóca, feketeberkenye, meggy` → `alma, erdei szamóca, feketeberkenye, meggy` |
+| `3f38a109d823c368d93f2815` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true`; hozzáadott cukor nélkül `false` → `true` |
+| `eb259d94313da9588926a58d` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, arónia, áfonya, eper, málna, meggy, piros szőlő, szeder`; hozzáadott cukor nélkül `false` → `true` |
+| `bd18ba13a641cdb6e9ce6e88` | gyümölcstartalom hiányzott → `33%`; rostos `false` → `true` |
+| `ace1116120db8f7de558b05a` | gyümölcstartalom hiányzott → `12%` |
+| `97defe9ed7c31f2c8beb8920` | gyümölcstartalom hiányzott → `20%` |
+| `3f468ce33a95d78e40fcff1e` | gyümölcstartalom hiányzott → `30%` |
+| `af0140cf48014d6d53f48189` | gyümölcstartalom hiányzott → `30%` |
+| `f9b63c4308cd3a4ed363d7d4` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `15603a6922ddd0c84fedec9a` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, citrom, feketerépa, málna, meggy, őszibarack`; rostos `false` → `true` |
+| `f9984d6561a48498a134a171` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `cb81b55a3687c647fe5f86f9` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, narancs, sárgabarack, sárgarépa`; rostos `false` → `true` |
+| `7a5df9ee1bf725df42c62091` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `2325f11a6eee45065c72489b` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, narancs, sárgabarack, sárgarépa`; rostos `false` → `true` |
+| `a1925bd237eb325d52ce2fff` | gyümölcstartalom hiányzott → `25%` |
+| `a8c54004a53bde7cc649ac9d` | gyümölcstartalom hiányzott → `20%` |
+| `f03f02d4395eee4958266fd4` | gyümölcstartalom hiányzott → `12%` |
+| `dff0bb8e81fb8bebb7f7516b` | gyümölcstartalom hiányzott → `12%` |
+| `29b4037cc7c1d7e48b103264` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, bodza, feketeribizli, málna, meggy, narancs, szeder` |
+| `313b9e5489596cf11ed88ed1` | gyümölcstartalom hiányzott → `12%` |
+| `bf85ac81daa9e96e17252563` | ellenőrizve; a meglévő `12%`, `meggy`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `bc5bc56340fe8f2a2afa256f` | gyümölcstartalom hiányzott → `13%`; rostos `false` → `true` |
+| `b8df85eec4ea3607a86575ca` | gyümölcstartalom hiányzott → `15%`; rostos `false` → `true` |
+
+A pontosabb forrásadatok miatt visszajavított, korábban már
+ellenőrzött rekordok:
+
+| Termékazonosító | Visszajavítás |
+|---|---|
+| `945191:4482581` | ízben `feketeberkenye` → `arónia`; rostos `true` → `false` |
+| `e8e095cbdd0617929ce5086c` | ízben `feketeberkenye` → `arónia`; rostos `true` → `false` |
+| `632543:4169933` | ízhez hozzáadva `citrom`; rostos `false` → `true` |
+| `BTY-X16539900320021` | ízhez hozzáadva `citrom`; rostos `false` → `true` |
+| `657ebeda5c929081cffa0992` | ízhez hozzáadva `citrom`; rostos `false` → `true` |
+| `632558:4169948` | rostos `false` → `true` |
+| `632552:4169942` | rostos `false` → `true` |
+| `BTY-X16539400320021` | rostos `false` → `true` |
+| `BTY-X16556000320021` | rostos `false` → `true` |
+| `918557` | rostos `false` → `true` |
+| `76f70f17d362e8410bc4b732` | rostos `false` → `true` |
+| `4516ff84cffb2b5fd0dc139c` | íz `fehérszőlő` → `szőlő` |
+
+### Gyümölcsital kézi felülvizsgálat, 25. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A Sió Zero pirosszőlő–alma pontosan egyező, már
+  ellenőrzött párrekordjai 19%-os, hozzáadott cukor
+  nélküli receptet igazoltak. A hagyományos Sió piros
+  szőlő közvetlen
+  [termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/111273512)
+  20% pirosszőlőlevet közöl. Mindkét terméknél az általános
+  `szőlő` értéket a névvel és összetevővel bizonyított
+  `piros szőlő` váltotta.
+- A SPAR ananász–kókusz hivatalos
+  [összetevőlistája](https://www.spar.at/produktwelt/spar-qualitaetsmarke-ananas-kokos-p2020005753808)
+  27% ananászlevet és 3% kókuszvizet, összesen 30%-ot
+  igazol. A SPAR eper hivatalos
+  [termékadata](https://www.spar.at/produktwelt/spar-erdbeere-p2020006138192)
+  20% eperpürét, 10% eperlevet és almapürét közöl, ezért
+  `alma, eper` ízű és rostos lett. A Fruit'n Fun
+  Multivitamin közvetlen
+  [adatlapja](https://www.spar.at/produktwelt/spar-fruit-n-fun-multi-3x0-2l-p2020006065375)
+  10%-os receptet, hét gyümölcslevet és banánpürét sorol
+  fel; a hiányzó nyolc elemi ízt és a rostos jelölést is
+  rögzítettük.
+- A Hey-Ho Zero alma közvetlen
+  [összetevőlistája](https://ecofamily.hu/p/heyho-gyumolcsital-1l-alma-zero)
+  20% almalevet, édesítőszereket és hozzáadott cukor
+  hiányát igazol. Az S-Budget alma 20%-os és az 1 literes
+  őszibarack 12%-os adata már teljesen helyes volt. A
+  fehérszőlő-változat neve és csomagolása közvetlenül
+  bizonyította, hogy a tág `szőlő` helyett `fehérszőlő`
+  szükséges.
+- A 300 ml-es Kubu Multivitamin aktuális
+  [címkeadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/121219670)
+  minimum **53%** összes zöldség- és gyümölcstartalmat
+  közöl: 40% sárgarépapürét, továbbá tizennégy
+  gyümölcsösszetevőt, köztük több pürét. Ez pontosabb a
+  korábban használt áruházi `50%` marketingmezőnél, ezért
+  az aktuális és három korábbi rekordot 53%-ra
+  helyesbítettük. A Fruity Play Multivitamin 12%-os és
+  pürés; tizenegy elemi összetevőjét rögzítettük.
+- A Kubu sárgarépa–málna–alma 300 ml-es változata 44%-os
+  és pürés. A 200 ml-es mézes málna
+  [összetevőlistája](https://kangaboo.hu/sargarepa-alma-malna-ital-mezzel-0-2l-140969)
+  36% sárgarépa-, 3% alma- és 1% málnapürét, a mézes
+  őszibarack
+  [termékadata](https://pepita.hu/bebietelek-c2717/kubu-sargarepa-alma-oszibarack-mezzel-38-200ml-p26456370)
+  38%-os, rostos receptet igazol. Emiatt az aktuális kettő
+  mellett két korábbi rekord rostosságát is
+  visszajavítottuk.
+- A Fruity Play málna 15%-os alma–lime–málna–sárgarépa,
+  az eper 12%-os alma–eper, a görögdinnye 12%-os
+  alma–görögdinnye–lime recept. A 250 ml-es Topjoy
+  alma–lime–kaktusz az egyező, már ellenőrzött rekordok
+  alapján 40%-os.
+- A Rauch Yippy közvetlen és pontos párrekordjai alapján
+  az alma, eper és narancs–sárgarépa–citrom változat
+  12%-os. Az eper 7% fehérszőlő- és 5% eperlevet
+  tartalmaz. A Cherry hivatalos
+  [összetevőlistája](https://www.spar.at/produktwelt/rauch-yippy-kirsche-p2020005435193)
+  a név ellenére 5% meggylevet, 5% narancslevet és 2%
+  banánpürét közöl; mindkét aktuális rekord `banán,
+  meggy, narancs` ízű és rostos lett.
+- Az új, pontosabb Kubu-adatok alapján **5**, korábbi
+  blokkban már kézzel ellenőrzött rekordot is
+  visszajavítottunk. Ezeket az összesített
+  előrehaladásban nem számoltuk újra.
+- Módosított rekord az új blokkban: **23**.
+- Korábban ellenőrzött, visszajavított rekord: **5**.
+- Módosított tulajdonságmező az új blokk és a
+  visszajavítások együtt: **48**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **2**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, valamint a végén is
+  lefutott a 47 030 rekordos teljes validáció. A
+  Gyümölcsital **743** rekordjára kiterjedő külön mező-,
+  érték- és hash-paritási ellenőrzés is 0 hibával zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `18a60c5583ad019d217dba7e` | gyümölcstartalom hiányzott → `19%`; íz `alma, szőlő` → `alma, piros szőlő` |
+| `a456cd305ff17ea634b79181` | gyümölcstartalom hiányzott → `30%` |
+| `63b324a8ff83980bcc682723` | ellenőrizve; a meglévő `20%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `3e20ba46cd4212d8fe3da268` | gyümölcstartalom hiányzott → `53%`; íz hiányzott → `alma, ananász, banán, guava, kaktusz, kivi, licsi, lime, mangó, maracuja, narancs, papaya, sárgarépa, őszibarack`; rostos `false` → `true` |
+| `bf7368d18b90698059ff3d61` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, ananász, banán, guava, lime, mandarin, mangó, maracuja, narancs, sárgabarack, őszibarack`; rostos `false` → `true` |
+| `9a2a346550f4bb0415fe9227` | gyümölcstartalom hiányzott → `12%`; íz `cseresznye` → `banán, meggy, narancs`; rostos `false` → `true` |
+| `f6686c14acf3f4bd0b4629e6` | gyümölcstartalom hiányzott → `12%` |
+| `9ddd1829f3e73aad0222c7c6` | gyümölcstartalom hiányzott → `44%`; rostos `false` → `true` |
+| `a272eb0cce6f388c93407c82` | gyümölcstartalom hiányzott → `15%`; íz `málna` → `alma, lime, málna, sárgarépa` |
+| `1ddefd9bab8381b79fe80f56` | gyümölcstartalom hiányzott → `12%`; íz `eper` → `alma, eper` |
+| `db409016102d31337c516d92` | gyümölcstartalom hiányzott → `12%`; íz `görögdinnye` → `alma, görögdinnye, lime` |
+| `d6556f9997ea366566b1059d` | gyümölcstartalom hiányzott → `12%` |
+| `d953f98d130786e03136e87b` | gyümölcstartalom hiányzott → `40%`; rostos `false` → `true` |
+| `c2e5f85e2c4d8d5163daba18` | gyümölcstartalom hiányzott → `38%`; rostos `false` → `true` |
+| `aeaa5fb2fe11b90e52661aa4` | gyümölcstartalom hiányzott → `20%`; íz `szőlő` → `piros szőlő` |
+| `1dc6545d40882498d38cf3f1` | gyümölcstartalom hiányzott → `20%`; hozzáadott cukor nélkül `false` → `true` |
+| `eb06dbfa1b59f263621f283d` | ellenőrizve; a meglévő `12%`, `őszibarack`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `56e364e0a37380891b6ac974` | íz `eper` → `alma, eper`; rostos `false` → `true` |
+| `f9ba3adf26875329300f0647` | íz hiányzott → `alma, ananász, banán, citrom, fehérszőlő, kivi, maracuja, narancs`; rostos `false` → `true` |
+| `b824383634bbc3b4f76d7542` | íz `szőlő` → `fehérszőlő` |
+| `121220258` | gyümölcstartalom hiányzott → `40%` |
+| `121229617` | gyümölcstartalom hiányzott → `12%`; íz `cseresznye` → `banán, meggy, narancs`; rostos `false` → `true` |
+| `121229709` | gyümölcstartalom hiányzott → `12%` |
+| `121229842` | gyümölcstartalom hiányzott → `12%`; íz `eper` → `eper, fehérszőlő` |
+| `121229554` | gyümölcstartalom hiányzott → `12%` |
+
+A pontosabb forrásadatok miatt visszajavított, korábban már
+ellenőrzött rekordok:
+
+| Termékazonosító | Visszajavítás |
+|---|---|
+| `684935:4222325` | gyümölcstartalom `50%` → `53%` |
+| `BTY-X17439300320021` | gyümölcstartalom `50%` → `53%` |
+| `9261dec615ea950a90578107` | gyümölcstartalom `50%` → `53%` |
+| `946319:4483709` | rostos `false` → `true` |
+| `946316:4483706` | rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 26. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A Tesco alma–bogyósgyümölcsital közvetlen
+  [termékadata](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004121226920)
+  12% összes gyümölcstartalmat, valamint almát, berkenyét,
+  epret, feketeribizlit, szedret és bodzát közöl. Az
+  alma–őszibarack
+  [összetevőlistája](https://bevasarlas.tesco.hu/groceries/hu-HU/products/121226955)
+  8% almalevet és 4% őszibarackpürét, az alma–körte
+  [termékadata](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/tesco-alma-korte-gyumolcsital-cukorral-es-edesitoszerrel-15l)
+  8% almalevet és 4% körtelevet igazol. A multivitaminos
+  Tesco ital
+  [pontos oldala](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004020173561)
+  12%-os, nektarinpürét és nyolc további gyümölcslevet
+  tartalmazó receptet közöl.
+- A Topjoy gyártói termékadatai alapján az
+  [őszibarack](https://maspex.hu/markaink/topjoy/topjoy-0-25l-uveges/oszibarack/)
+  50%-os őszibaracknektár, ezért a `Nektár` levélbe került.
+  A [körte](https://maspex.hu/markaink/topjoy/topjoy-0-25l-uveges/korte/)
+  jelenlegi gyártói neve viszont `Körte ital`; 50% körtepürét
+  és körtelét tartalmaz, ezért rostos Gyümölcsital maradt.
+  Az
+  [alma–szilva](https://maspex.hu/markaink/topjoy/topjoy-0-25l-uveges/topjoy-0-25l-uveges-szilva-szegfuszeggel/)
+  20%-os, és a névvel egyezően szegfűszeg-kivonatot is
+  tartalmaz. A pontos egyező gyártói vagy már ellenőrzött
+  párrekordok alapján az alma–görögdinnye, az
+  alma–kékszőlő, az erdei gyümölcs, az alma–szeder és az
+  alma–eper 20%-os; a mangós keverék és az alma–meggy
+  25%-os. Az alma–kékszőlő téves `kivi` értékét töröltük,
+  az erdei gyümölcsöt pedig a bizonyított alma, erdei
+  szamóca, feketeribizli és málna összetevőkre bontottuk.
+- A Rauch Yippy Red Berries egyező, már ellenőrzött
+  párrekordja 12%-os alma–bodza–citrom–eper–szeder
+  receptet igazolt. A Rauch Juice Bar Green Glory egyező
+  pontos rekordja 99,7%-os alma–citrom–fehérszőlő–kivi–
+  uborka összetételt, pürét és hozzáadott cukor nélküli
+  receptet közölt. A 330 ml-es Juice Bar egyező rekordja
+  99,9%-os ananász–maracuja–narancs–szőlő összetételt és
+  hozzáadott cukor hiányát igazolta.
+- A RIO Greponade egyező, már ellenőrzött pontos rekordja
+  13,8%-os citrom–grapefruit–hibiszkusz receptet és
+  grapefruitpépet igazolt.
+- A Tesco Tropical Delight közvetlen
+  [termékadata](https://nakup.itesco.cz/groceries/en-GB/products/2005105006284)
+  smoothie-ként azonosítja a 100%-os alma–ananász–mangó–
+  maracuja–narancs lé–püré keveréket. A Berry Sensation
+  [pontos oldala](https://bevasarlas.tesco.hu/shop/en-HU/products/121250118)
+  100%-os alma–málna–eper–banán–áfonya–narancs smoothie-t
+  igazol. Mindkettő a `Smoothie és püréital` levélbe
+  került.
+- A Limenita három piros gyümölcsből készült italának
+  [közvetlen termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/121265562)
+  100% préselt szőlő–málna–cseresznye gyümölcslevet közöl;
+  ez a `Lé` levélbe került. A 250 ml-es spirulinás
+  [változat](https://bevasarlas.tesco.hu/groceries/hu-HU/products/121234864)
+  100%-os, almapüré–kivipüré–alma–ananász–szőlő–lime
+  keverék. A másik 250 ml-es
+  [változat](https://bevasarlas.tesco.hu/groceries/hu-HU/products/121234737)
+  100%-os alma–mangó–banán–maracuja–narancs lé–püré
+  keverék. A Limeñita Blue
+  [közvetlen oldala](https://bevasarlas.tesco.hu/shop/hu-HU/products/121265556)
+  100 g préselt gyümölcsöt, almát, kókuszvizet, szőlőt,
+  guavapürét, lime-ot és maracuját közöl. Ezek a
+  pürét hangsúlyozó, smoothie-ként is forgalmazott
+  termékek a `Smoothie és püréital` levélbe kerültek.
+- A Tesco 180 ml-es termék közvetlen angol
+  [termékoldala](https://bevasarlas.tesco.hu/shop/en-HU/products/121296507)
+  `Tesco Apple & Ginger Shot` néven azonosítja a 92,2%
+  hidegen préselt almalevet, 7,7% gyömbéres keveréket és
+  C-vitamint tartalmazó terméket. Ezért a meglévő
+  `Funkcionális italok → Sport-, izotóniás, kollagén- és
+  shot ital` levélbe soroltuk.
+- A szigorú céllevél-paritás tíz, korábban már kézzel
+  ellenőrzött smoothie-rekordnál mutatta ki, hogy a
+  rekordokon helyesen használt `citrom` és `gránátalma`
+  még nem szerepelt a fa megengedett ízértékei között. A
+  korábbi közvetlen címkebizonyítékok alapján mindkettőt
+  felvettük; termékrekordot emiatt nem kellett módosítani.
+- Módosított rekord: **25**.
+- Módosított tulajdonságmező az átsorolásokon kívül:
+  **34**.
+- Kézi kategória-átsorolás: **8**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **6**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolások előtt
+  és után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. A Gyümölcsital, Nektár, Smoothie és
+  püréital, Lé, valamint a funkcionális shot levél összesen
+  **1 518** rekordjára kiterjedő külön mező-, érték- és
+  hash-paritási ellenőrzés is 0 hibával zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `121226920` | gyümölcstartalom hiányzott → `12%`; íz `alma, erdei gyümölcs` → `alma, berkenye, bodza, eper, feketeribizli, szeder` |
+| `121220235` | `Gyümölcsital` → `Nektár`; célmezők: `cukormentes: false`, `gyümölcstartalom: 50%`, `márka: Topjoy`, `rostos: true`, `íz: őszibarack` |
+| `121226955` | gyümölcstartalom hiányzott → `12%`; rostos `false` → `true` |
+| `121220241` | gyümölcstartalom hiányzott → `20%` |
+| `121220264` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `121219819` | gyümölcstartalom hiányzott → `25%` |
+| `121230045` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, bodza, citrom, eper, szeder` |
+| `121220195` | gyümölcstartalom hiányzott → `20%`; íz `alma, kékszőlő, kivi` → `alma, kékszőlő` |
+| `121226914` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `ananász, citrom, fehérszőlő, guava, mandarin, maracuja, narancs, nektarin, sárgabarack`; rostos `false` → `true` |
+| `121226943` | gyümölcstartalom hiányzott → `12%` |
+| `121220206` | gyümölcstartalom hiányzott → `20%`; íz `erdei gyümölcs` → `alma, erdei szamóca, feketeribizli, málna` |
+| `121220166` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+| `121298626` | gyümölcstartalom hiányzott → `20%` |
+| `121298678` | gyümölcstartalom hiányzott → `20%`; íz `alma, szilva` → `alma, szegfűszeg, szilva` |
+| `121342160` | gyümölcstartalom hiányzott → `20%` |
+| `121250216` | `Gyümölcsital` → `Smoothie és püréital`; célmezők: `gyümölcstartalom: 100%`, `márka: Tesco`, `íz: alma, ananász, mangó, maracuja, narancs` |
+| `121230281` | gyümölcstartalom hiányzott → `99,7%`; íz hiányzott → `alma, citrom, fehérszőlő, kivi, uborka`; rostos `false` → `true`; hozzáadott cukor nélkül `false` → `true` |
+| `121250118` | `Gyümölcsital` → `Smoothie és püréital`; célmezők: `gyümölcstartalom: 100%`, `márka: Tesco`, `íz: áfonya, alma, banán, eper, málna, narancs` |
+| `121232475` | gyümölcstartalom hiányzott → `13,8%`; íz `grapefruit` → `citrom, grapefruit, hibiszkusz`; rostos `false` → `true` |
+| `121265562` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `márka: Limenita`, `rostos: true`, `íz: cseresznye, málna, szőlő` |
+| `121234864` | `Gyümölcsital` → `Smoothie és püréital`; célmezők: `gyümölcstartalom: 100%`, `márka: Limenita`, `íz: alma, ananász, kivi, lime, szőlő` |
+| `121265556` | `Gyümölcsital` → `Smoothie és püréital`; célmezők: `gyümölcstartalom: 100%`, `márka: Limenita`, `íz: alma, guava, kókusz, lime, maracuja, szőlő` |
+| `121234737` | `Gyümölcsital` → `Smoothie és püréital`; célmezők: `gyümölcstartalom: 100%`, `márka: Limenita`, `íz: alma, banán, mangó, maracuja, narancs` |
+| `121230309` | gyümölcstartalom hiányzott → `99,9%`; íz `ananász, maracuja, narancs` → `ananász, maracuja, narancs, szőlő`; hozzáadott cukor nélkül `false` → `true` |
+| `121296507` | `Gyümölcsital` → `Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital`; célmezők: `márka: Tesco`, `funkció: shot`, `íz: alma, gyömbér` |
+
+### Gyümölcsital kézi felülvizsgálat, 27. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A Sió és Hey-Ho termékek nagy részéhez több, pontosan
+  egyező, korábban már kézzel ellenőrzött rekord állt
+  rendelkezésre. Ezek igazolták a Sió rostos őszibarack,
+  kajszibarack és körte 20%-os, a szűrt alma, szűrt
+  szőlő, narancs és a Találkozások három gyümölcskeverék
+  12%-os receptjét. A Sió Vitatigris piros 20%-os
+  alma–eper–feketerépa–piros szőlő; a Találkozások
+  Multivitamin 25%-os alma–banán–citrom–maracuja–narancs–
+  őszibarack keverék.
+- A Sió Zero őszibarack és a meggy–szilva–alma egyező
+  rekordjai 20%-os, pürét tartalmazó recepteket, a szűrt
+  alma 12%-os receptet igazolt. A Sió Zero ananász
+  közvetlen
+  [termékadata](https://bevasarlas.tesco.hu/groceries/en-HU/products/105002470)
+  17,1% ananászlevet és 2,9% ananászvelőt közöl, ezért
+  20%-os és rostos. A Zero Multivitamin egyező rekordjai
+  20%-os alma–banán–citrom–narancs–őszibarack
+  összetételt igazoltak.
+- A Sió Citrus Friss egyező, közvetlenül bizonyított
+  rekordjai alapján 12%-os, narancsot is tartalmazó
+  citrom–lime ital, és a gyümölcshús miatt rostos. A
+  jelenlegi rekord korábban a narancsot és a rostos
+  jelölést is elvesztette.
+- A Hey-Ho őszibarack közvetlen
+  [összetevőlistája](https://ecofamily.hu/p/hey-ho-oszibarackital-1-l)
+  12% őszibarackpürét közöl, ezért rostos. A Hey-Ho alma
+  aktuális
+  [Tesco-termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004020334001)
+  25% almalevet igazol. A fehérszőlő, kékszőlő, meggy és
+  narancs 12%-os egyező rekordjai alapján pótoltuk a
+  hiányzó százalékokat; a fehérszőlő általános `szőlő`
+  értékét a pontos terméknévnek megfelelően
+  `fehérszőlő` értékre javítottuk.
+- A Tesco Multivitamin Juice közvetlen
+  [termékadata](https://bevasarlas.tesco.hu/groceries/en-HU/products/220354415)
+  víz nélküli, 100%-os vegyes gyümölcs- és zöldséglé,
+  illetve -püré összetételt közöl. A terméket ezért a
+  `Lé` levélbe soroltuk, és mind a tizenöt bizonyított
+  elemi ízét rögzítettük.
+- A Cappy Őszibarack Mix pontosan egyező, korábban már
+  kézzel ellenőrzött 1 literes és 330 ml-es rekordjai
+  50%-os alma–őszibarack receptet és őszibarackpürét
+  igazoltak; a jelenlegi rekordnál a százalékot és a
+  rostos jelölést is helyreállítottuk.
+- Módosított rekord: **24**.
+- Módosított tulajdonságmező az átsoroláson kívül:
+  **34**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **1**.
+- Új megengedett érték: **3**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolás előtt és
+  után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. A Gyümölcsital és Lé levél összesen
+  **1 120** rekordjára kiterjedő külön mező-, érték- és
+  hash-paritási ellenőrzés is 0 hibával zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `220341213` | gyümölcstartalom hiányzott → `20%` |
+| `120760887` | gyümölcstartalom hiányzott → `12%`; rostos `false` → `true` |
+| `220341207` | gyümölcstartalom hiányzott → `12%` |
+| `105002481` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `220156979` | gyümölcstartalom hiányzott → `12%`; íz `szőlő` → `fehérszőlő` |
+| `120760870` | gyümölcstartalom hiányzott → `25%` |
+| `220341210` | gyümölcstartalom hiányzott → `12%` |
+| `105001570` | gyümölcstartalom hiányzott → `12%` |
+| `105002482` | gyümölcstartalom hiányzott → `12%` |
+| `120760904` | gyümölcstartalom hiányzott → `12%` |
+| `105003613` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `220341217` | gyümölcstartalom hiányzott → `20%` |
+| `220341216` | gyümölcstartalom hiányzott → `20%` |
+| `105002474` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `105004505` | gyümölcstartalom hiányzott → `12%`; íz `citrom, lime` → `citrom, lime, narancs`; rostos `false` → `true` |
+| `220341212` | gyümölcstartalom hiányzott → `12%` |
+| `220354415` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `márka: Tesco`, `rostos: true`, `íz: alma, ananász, banán, guava, kaktusz, kivi, licsi, lime, mangó, maracuja, narancs, papaya, sárgarépa, szőlő, őszibarack` |
+| `105013863` | ellenőrizve; a meglévő `12%`, `meggy`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `105001572` | gyümölcstartalom hiányzott → `12%` |
+| `120760893` | gyümölcstartalom hiányzott → `12%` |
+| `105002470` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `105001571` | gyümölcstartalom hiányzott → `12%` |
+| `105001568` | gyümölcstartalom hiányzott → `25%`; íz hiányzott → `alma, banán, citrom, maracuja, narancs, őszibarack` |
+| `105002475` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, banán, citrom, narancs, őszibarack` |
+| `121253887` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 28. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A Sió Találkozások rostos alma–körte, a Vitatigris
+  sárga és piros, a rostos őszibarack, valamint a szűrt
+  alma pontosan egyező, korábban kézzel ellenőrzött
+  rekordjai igazolták a hiányzó gyümölcstartalmat,
+  összetevőízeket és a pürés termékek rostos jelölését.
+  Ugyanilyen egyezések bizonyították a Topjoy négy
+  200 ml-es gyümölcsitalának 30%-os gyümölcstartalmát,
+  valamint az alma–feketeberkenye–meggy–erdei szamóca
+  változat téves, külön `eper` értékének törlését.
+- A Hey-Ho őszibarack közvetlen
+  [összetevőlistája](https://ecofamily.hu/p/hey-ho-oszibarackital-1-l)
+  12% őszibarackpürét közöl. A Hey-Ho alma közvetlen
+  [Tesco-termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004020334001)
+  25% almalevet igazol. A pontosan egyező kézi
+  előzményekből pótoltuk a vegyes gyümölcs, ananász,
+  körte és sárkánygyümölcs változatok százalékát és
+  összetevőízeit is. A sárkánygyümölcs ital
+  [részletes termékadata](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/hey-ho-sarkanygyumolcsital-1l)
+  az alma mellett 4% sárkánygyümölcspürét és
+  feketerépa-sűrítményt is közöl, ezért a teljes
+  gyümölcstartalom 20%, a termék pedig rostos.
+- A Topjoy multivitamin közvetlen
+  [Tesco-termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004020341206)
+  30% gyümölcs- és zöldségtartalmat, banán-, mangó-,
+  maracuja-, licsi-, guava- és papayapürét, valamint a
+  többi rögzített levet igazolja. Emiatt a hiányzó
+  százalékot és mind a tizenöt elemi ízt pótoltuk, a
+  terméket pedig rostosnak jelöltük.
+- A Cappy Multivitamin, Körte és Strawberry Mix,
+  továbbá a Topjoy Fruity Multifruit, Capri-Sun
+  Multivitamin és Rauch Happy Day körte pontosan egyező,
+  korábban kézzel ellenőrzött termékei igazolták a
+  százalékokat, összetevőízeket és pürés jelöléseket. A
+  Capri-Sun pontos `20,1%` értékét a kategóriafában már
+  korábban, közvetlen magyar termékadat alapján
+  engedélyeztük; a rekordot ugyanebben a vesszős alakban
+  rögzítettük.
+- A Sió Citrus Friss sárgadinnye–lime teljes neve és az
+  egyező, már kézzel ellenőrzött rekordok azt igazolták,
+  hogy ez 12%-os, szénsavmentes gyümölcsös üdítőital,
+  nem gyümölcsital. A terméket ezért a meglévő
+  `Üdítőitalok → Egyéb ízesített üdítőital` levélbe
+  soroltuk; a korábbi téves `görögdinnye` helyett a
+  név szerinti `sárgadinnye` ízt rögzítettük.
+- Módosított rekord: **25**.
+- Módosított tulajdonságmező az átsoroláson kívül:
+  **47**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolás előtt és
+  után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. A Gyümölcsital és az Egyéb ízesített
+  üdítőital levél összesen **1 586** rekordjára kiterjedő
+  külön mező-, érték- és hash-paritási ellenőrzése is
+  0 hibával zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `105001573` | gyümölcstartalom hiányzott → `12%` |
+| `120760841` | gyümölcstartalom hiányzott → `12%`; rostos `false` → `true` |
+| `105003614` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, narancs, sárgabarack, sárgarépa`; rostos `false` → `true` |
+| `220156977` | gyümölcstartalom hiányzott → `25%`; íz `eper` → `alma, eper`; rostos `false` → `true` |
+| `220144252` | gyümölcstartalom hiányzott → `30%`; íz `alma, eper, erdei szamóca, feketeberkenye, meggy` → `alma, erdei szamóca, feketeberkenye, meggy` |
+| `120760910` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, fehérszőlő, guava, mangó, maracuja, narancs, őszibarack` |
+| `220144253` | gyümölcstartalom hiányzott → `30%` |
+| `220262072` | gyümölcstartalom hiányzott → `20%` |
+| `220144251` | gyümölcstartalom hiányzott → `30%` |
+| `220144254` | gyümölcstartalom hiányzott → `30%` |
+| `121216402` | gyümölcstartalom hiányzott → `50%`; íz hiányzott → `alma, citrom, narancs, őszibarack, szőlő`; rostos `false` → `true` |
+| `120760864` | gyümölcstartalom hiányzott → `25%`; íz hiányzott → `alma, áfonya, bodza, eper, feketeberkenye, feketeribizli, málna, szeder, szőlő` |
+| `220341206` | gyümölcstartalom hiányzott → `30%`; íz hiányzott → `alma, ananász, banán, citrom, guava, kaktusz, kivi, licsi, lime, mangó, maracuja, narancs, papaya, sárgarépa, őszibarack`; rostos `false` → `true` |
+| `220334010` | gyümölcstartalom hiányzott → `25%`; rostos `false` → `true` |
+| `121217050` | gyümölcstartalom hiányzott → `33%`; rostos `false` → `true` |
+| `220341214` | gyümölcstartalom hiányzott → `20%` |
+| `220343336` | gyümölcstartalom hiányzott → `20%`; íz `sárkánygyümölcs` → `alma, feketerépa, sárkánygyümölcs`; rostos `false` → `true` |
+| `220334001` | gyümölcstartalom hiányzott → `25%` |
+| `105003615` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, eper, feketerépa, piros szőlő` |
+| `220341208` | gyümölcstartalom hiányzott → `12%` |
+| `105014540` | `Gyümölcsital` → `Üdítőitalok → Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Sió`, `szénsavas: false`, `íz: alma, lime, sárgadinnye` |
+| `121253893` | gyümölcstartalom hiányzott → `34%`; íz `eper` → `alma, eper, feketeberkenye`; rostos `false` → `true` |
+| `121219422` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, ananász, banán, guava, kaktusz, kivi, licsi, lime, mangó, maracuja, narancs, őszibarack, papaya`; rostos `false` → `true` |
+| `105250406` | gyümölcstartalom hiányzott → `20,1%`; íz hiányzott → `alma, ananász, banán, citrom, kivi, maracuja, narancs` |
+| `220277945` | gyümölcstartalom hiányzott → `35%`; rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 29. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A Topjoy Fruity őszibarack–mangó, alma–körte és
+  alma–meggy pontosan egyező, korábban kézzel ellenőrzött
+  rekordjai 12%, 20%, illetve 25% gyümölcstartalmat
+  igazoltak. A Fruits of the World 1 literes
+  alma–lime–kaktusz két pontos egyezése 42%-ot, az
+  1 literes mangó–alma–narancs–citrom azonos receptjei
+  24%-ot és pürét igazoltak.
+- A Rauch Happy Day mangó egyező rekordjai 26%-os,
+  mangó–maracuja, pürés receptet mutattak. A vörösáfonya
+  és gránátalma pontos egyezései egyaránt 30%-os,
+  alma–arónia–bodza alapú összetételt igazoltak; a
+  korábbi általános `áfonya`, illetve hiányos ízlistákat
+  ezért pontosítottuk.
+- A Capri-Sun Jungle Drink, Monster Alarm és Mystic
+  Dragon azonos nevű, méretű és receptű, korábban kézzel
+  ellenőrzött rekordjai egyaránt `20,1%`
+  gyümölcstartalmat igazoltak. Ezekből pótoltuk az elemi
+  összetevőízeket; a Jungle Drink guavapürét tartalmaz,
+  ezért rostos.
+- A Sió szűrt szőlő közvetlen
+  [összetevőlistája](https://ceretem.hu/sio/sio_szoloital_2dl)
+  12% szőlőlevet közöl. A Vitatigris sárga és rózsaszín
+  termékek több pontosan egyező, korábban ellenőrzött
+  rekordja 20%-os, pürés összetételt és az összes
+  rögzített gyümölcs-, illetve zöldségízt igazolta.
+- A Kubu sárgarépa–alma–málna és
+  sárgarépa–alma–őszibarack azonos termékei 40%, illetve
+  38% gyümölcs- és zöldségtartalmat, továbbá pürés
+  összetételt igazoltak. A Szobi rostos őszibarack,
+  szűrt alma, szűrt fehérszőlő és narancs sorozat
+  egyező rekordjai egyaránt 12%-osak; a fehérszőlő
+  terméknév alapján a korábbi általános `szőlő` ízt is
+  pontosítottuk.
+- A Pfanner ananász–kókusz egyező rekordjai 25%-ot
+  igazoltak. A 20%-os vörösáfonya változatnál a
+  részletesebb egyező rekord alapján az általános
+  `áfonya` helyett alma, arónia és vörösáfonya került a
+  mezőbe. A Pfanner gránátalma meglévő 25%-os,
+  alma–gránátalma besorolása teljesen helyes volt.
+- A Cappy Őszibarack Mix pontosan egyező 330 ml-es
+  rekordjai 50%-os alma–őszibarack receptet és
+  őszibarackpürét igazoltak.
+- A Hohes C Classic Narancs-Acerola gyártói
+  [termékoldala](https://www.hohesc.hu/products/classic/classic-narancs-acerola/)
+  és az Auchan
+  [termékadata](https://auchan.hu/shop/hohes-c-classic-narancs-acerola-gyumolcsle-1-l.p-4263)
+  egyaránt 100%-os narancs–acerola gyümölcsléként
+  azonosítja a terméket. Ezért a meglévő `Lé` levélbe
+  soroltuk.
+- Módosított rekord: **24**.
+- Módosított tulajdonságmező az átsoroláson kívül:
+  **40**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **1** (`220314931`).
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolás előtt és
+  után, valamint a végén is lefutott a 47 030 rekordos
+  teljes validáció. A Gyümölcsital és Lé levél összesen
+  **1 119** rekordjára kiterjedő külön mező-, érték- és
+  hash-paritási ellenőrzése is 0 hibával zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `121219687` | gyümölcstartalom hiányzott → `12%` |
+| `220341211` | gyümölcstartalom hiányzott → `12%` |
+| `209532591` | gyümölcstartalom hiányzott → `26%`; íz `mangó` → `mangó, maracuja`; rostos `false` → `true` |
+| `220128351` | gyümölcstartalom hiányzott → `25%` |
+| `105250408` | gyümölcstartalom hiányzott → `20,1%`; íz hiányzott → `alma, ananász, citrom, guava, maracuja, narancs`; rostos `false` → `true` |
+| `120023845` | gyümölcstartalom hiányzott → `30%`; íz `áfonya` → `alma, arónia, bodza, vörösáfonya` |
+| `105250410` | gyümölcstartalom hiányzott → `20,1%`; íz hiányzott → `alma, citrom, eper, feketeribizli, lime, meggy` |
+| `105250409` | gyümölcstartalom hiányzott → `20,1%`; íz hiányzott → `alma, banán, eper, maracuja` |
+| `120760674` | gyümölcstartalom hiányzott → `42%` |
+| `209532607` | gyümölcstartalom hiányzott → `30%`; íz `alma, gránátalma` → `alma, arónia, bodza, gránátalma` |
+| `105003616` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, narancs, sárgabarack, sárgarépa`; rostos `false` → `true` |
+| `105005480` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `márka: Hohes C`, `rostos: false`, `íz: acerola, narancs` |
+| `105014430` | gyümölcstartalom hiányzott → `40%`; rostos `false` → `true` |
+| `220263454` | gyümölcstartalom hiányzott → `24%`; rostos `false` → `true` |
+| `121219710` | gyümölcstartalom hiányzott → `20%` |
+| `220322381` | gyümölcstartalom hiányzott → `12%` |
+| `220322376` | gyümölcstartalom hiányzott → `12%` |
+| `105014428` | gyümölcstartalom hiányzott → `38%`; rostos `false` → `true` |
+| `105003593` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, citrom, feketerépa, málna, meggy, őszibarack`; rostos `false` → `true` |
+| `220322375` | gyümölcstartalom hiányzott → `12%`; íz `szőlő` → `fehérszőlő` |
+| `220316477` | íz `áfonya` → `alma, arónia, vörösáfonya` |
+| `220314931` | ellenőrizve; a meglévő `25%`, `alma, gránátalma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `220322382` | gyümölcstartalom hiányzott → `12%` |
+| `121219497` | gyümölcstartalom hiányzott → `25%` |
+| `121253927` | gyümölcstartalom hiányzott → `50%`; rostos `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 30. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt helyi
+  termékkép, és mindegyiket eredeti felbontásban is
+  megvizsgáltuk.
+- A Sió narancs, rostos őszibarack és szűrt alma
+  pontosan egyező, korábban kézzel ellenőrzött rekordjai
+  12%, 20%, illetve 12% gyümölcstartalmat igazoltak. A
+  három Sió Zero-változat egyező receptjei 13%, 15% és
+  19% gyümölcstartalmat, az első kettőnél pürét, a
+  harmadiknál pedig pontos `piros szőlő` ízt igazoltak.
+- A Topjoy Fitness közvetlen dobozfelirata `0%`
+  hozzáadott cukrot jelez; pontos egyezései 20%-os
+  alma–ananász–narancs–citrom receptet mutattak. A
+  Vitalitás, alma–körte, Multifruit, Eper–egres és
+  Immunitás pontos egyező rekordjaiból pótoltuk a
+  százalékot, az összetevőízeket és a pürés jelöléseket.
+- A három Power Fruit termék teljes neve energiaszegény,
+  édesítőszeres italt közöl, képeik pedig `No Added Sugar`
+  feliratot viselnek. Az azonos termékek 12%-os
+  gyümölcstartalmat igazoltak; a vörösáfonya-rekord
+  általános `áfonya` értékét a név szerinti
+  `vörösáfonya` értékre pontosítottuk.
+- A Rauch Bravo alma és vegyes piros gyümölcs pontos
+  egyezései 12%-os recepteket igazoltak. A piros
+  változatnál mind a hét összetevőízt rögzítettük.
+- A Kubu banán–alma–őszibarack egyező rekordjai 42%-os,
+  sárgarépát és pürét is tartalmazó receptet igazoltak.
+  A Cappy Eper Mix 330 ml-es pontos egyezései 34%-os,
+  alma–eper–feketeberkenye, pürés összetételt mutattak.
+- A Zuegg Zero erdei gyümölcs közvetlen
+  [Tesco-termékadata](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2005105140834)
+  65% gyümölcsöt közöl: almát, piros szőlőt, eper-,
+  málna- és áfonyapürét, ribizlilevet, továbbá
+  feketerépa- és feketeribizli-koncentrátumot. A Zuegg
+  alma–áfonya
+  [termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/2005105140835)
+  45% almalevet, 10% áfonyapürét, feketerépát és
+  feketeribizlit igazol. Mindkét rekord százalékát,
+  elemi ízeit és rostos jelölését ennek megfelelően
+  javítottuk.
+- A Hey-Ho Piros Multivitamin és őszibarack jelenlegi
+  képei egyaránt `Zero hozzáadott cukor` feliratot
+  viselnek. Az azonos nevű és receptű rekordok 20%-os,
+  hozzáadott cukor nélküli összetételt igazoltak; az
+  őszibarack pürés, a piros multivitaminnál pedig mind a
+  nyolc elemi gyümölcsízt rögzítettük.
+- A Vitalade Multivitamin három pontosan egyező rekordja
+  már kézzel ellenőrizve a funkcionális sportitalok
+  között szerepelt. A jelenlegi tételt ezért a meglévő
+  `Funkcionális italok → Sport-, izotóniás, kollagén- és
+  shot ital` levélbe soroltuk.
+- A Capri-Sun Fairy/Fair Drink közvetlen
+  [Tesco-termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/2005105251657)
+  10% gyümölcstartalmú vegyes gyümölcs
+  **üdítőitalként** azonosítja, és citromot, almát,
+  banánt, epret, lime-ot, valamint feketerépát sorol fel.
+  Ezért a meglévő `Üdítőitalok → Egyéb ízesített
+  üdítőital` levélbe került.
+- Módosított rekord: **25**.
+- Módosított tulajdonságmező az átsorolásokon kívül:
+  **49**.
+- Kézi kategória-átsorolás: **2**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **3**.
+- Törölt megengedett érték: **0**.
+- Minden rekordcsere előtt és után, az átsorolások előtt
+  és után, valamint a végén is lefutott a 47 030
+  rekordos teljes validáció. A Gyümölcsital, funkcionális
+  sportital és Egyéb ízesített üdítőital levél összesen
+  **1 766** rekordjára kiterjedő külön mező-, érték- és
+  hash-paritási ellenőrzése is 0 hibával zárult.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `105013617` | gyümölcstartalom hiányzott → `12%` |
+| `121226816` | `Gyümölcsital` → `Funkcionális italok → Sport-, izotóniás, kollagén- és shot ital`; célmezők: `márka: Vitalade`, `íz: vegyes gyümölcs`, `funkció: sportital` |
+| `121254016` | gyümölcstartalom hiányzott → `20%` |
+| `105013846` | gyümölcstartalom hiányzott → `20%`; hozzáadott cukor nélkül `false` → `true` |
+| `121234334` | gyümölcstartalom hiányzott → `12%`; hozzáadott cukor nélkül `false` → `true` |
+| `105196240` | gyümölcstartalom hiányzott → `12%` |
+| `105013845` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `121219727` | gyümölcstartalom hiányzott → `42%`; íz `alma, banán, őszibarack` → `alma, banán, sárgarépa, őszibarack`; rostos `false` → `true` |
+| `121258006` | gyümölcstartalom hiányzott → `20%` |
+| `105196241` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, bodza, feketeribizli, málna, meggy, narancs, szeder` |
+| `121234553` | gyümölcstartalom hiányzott → `12%`; íz `áfonya, alma` → `alma, vörösáfonya`; hozzáadott cukor nélkül `false` → `true` |
+| `121257998` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, ananász, banán, guava, lime, mandarin, mangó, maracuja, narancs, sárgabarack, őszibarack`; rostos `false` → `true` |
+| `121217361` | gyümölcstartalom hiányzott → `34%`; íz `eper` → `alma, eper, feketeberkenye`; rostos `false` → `true` |
+| `105013844` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, ananász, citrom, lime, narancs, szőlő`; rostos `false` → `true` |
+| `121234392` | gyümölcstartalom hiányzott → `12%`; hozzáadott cukor nélkül `false` → `true` |
+| `105140834` | gyümölcstartalom hiányzott → `65%`; íz `alma, erdei gyümölcs, szőlő` → `alma, áfonya, eper, feketerépa, feketeribizli, málna, piros szőlő, ribizli`; rostos `false` → `true` |
+| `105140835` | gyümölcstartalom hiányzott → `55%`; íz `áfonya, alma` → `alma, áfonya, feketerépa, feketeribizli`; rostos `false` → `true` |
+| `121254005` | gyümölcstartalom hiányzott → `12%` |
+| `121258012` | gyümölcstartalom hiányzott → `12%` |
+| `105251657` | `Gyümölcsital` → `Üdítőitalok → Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Capri-Sun`, `szénsavas: false`, `íz: alma, banán, citrom, eper, feketerépa, lime` |
+| `105441019` | gyümölcstartalom hiányzott → `13%`; rostos `false` → `true` |
+| `105441020` | gyümölcstartalom hiányzott → `15%`; rostos `false` → `true` |
+| `105441024` | gyümölcstartalom hiányzott → `19%`; íz `alma, szőlő` → `alma, piros szőlő` |
+| `105504721` | gyümölcstartalom hiányzott → `20%`; íz hiányzott → `alma, arónia, áfonya, eper, málna, meggy, piros szőlő, szeder`; hozzáadott cukor nélkül `false` → `true` |
+| `105504729` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true`; hozzáadott cukor nélkül `false` → `true` |
+
+### Gyümölcsital kézi felülvizsgálat, 31. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és forrássorát
+  egyenként ellenőriztük. **13** rekordhoz volt helyi
+  termékkép, ezeket eredeti felbontásban is megvizsgáltuk;
+  **12** rekordnál nem volt helyi kép, így ezeknél a teljes
+  névre, közvetlen termékadatra és pontos egyező
+  párrekordokra támaszkodtunk.
+- A három Aldi saját márkás ital képe a 12%-os őszibarack-,
+  alma- és szőlőtartalmat igazolta. A szőlőital képe
+  egyértelműen fehér szőlőt ábrázol, ezért az általános
+  `szőlő` értéket `fehérszőlő` értékre pontosítottuk.
+- Az Auchan Tipp szőlőital közvetlen címkéje szó szerint
+  `Fehér szőlő gyümölcsital 12%` megjelölést visel, ezért
+  ezt is `fehérszőlő` értékre javítottuk. Az Auchan Tipp
+  almaital helyi képe 12%-os feliratú, miközben a teljes
+  forrásnév és a jelenlegi
+  [közvetlen Auchan-termékoldal](https://auchan.hu/shop/auchan-tipp-szurt-alma-gyumolcsital-25pct-1-l.p-831798)
+  ugyanazt a terméket 25%-osként azonosítja; a frissebb,
+  pontos termékoldal alapján a rekord 25%-os értékét
+  tartottuk meg, a képet pedig elavultnak tekintettük.
+- A Pfanner feketeáfonya-ital
+  [közvetlen Tesco-összetevőlistája](https://bevasarlas.tesco.hu/shop/hu-HU/products/2004010582400)
+  20% vegyes levet, ezen belül 11% feketeáfonya-,
+  továbbá alma- és bodzabogyólevet közöl. A
+  [Pfanner termékkínálata](https://www.pfanner.com/hu/termekek/lepjen-be-a-gyuemoelcslevek-vilagaba/)
+  ugyanezt a feketeáfonya-terméket igazolja. Az általános
+  `áfonya` értéket ezért a bizonyított `alma`,
+  `bodzabogyó`, `fekete áfonya` összetevőkre bontottuk.
+- Az Auchan Kedvenc őszibarackital címkéjén a `ROSTOS
+  GYÜMÖLCSITAL` megjelölés olvasható, ezért a `rostos`
+  jelzőt igazra állítottuk.
+- A Rauch Happy Day Happy Eper
+  [pontos összetevőlistája](https://www.groby.hu/termekek/39348-rauch-happy-day-happy-strawberry-1-l-eper)
+  25% alma- és 10% epertartalmat, almapürét, valamint
+  feketerépa- és feketeribizli-koncentrátumot közöl. A
+  teljes gyümölcstartalmat ezért 35%-ra, az ízeket
+  `alma, eper, feketerépa, feketeribizli` értékre, a
+  püré miatt a `rostos` jelzőt igazra javítottuk. A
+  forrásnévben szereplő 25% csak az almatartalommal
+  egyezik, nem a teljes recepttel.
+- A Cappy Narancs C-vitaminnal
+  [közvetlen Tesco-termékadata](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004121307312)
+  szó szerint narancsnektárként azonosítja az 55%-os
+  terméket. A rekord ezért a meglévő `Nektár` levélbe
+  került, az ott használt `cukormentes: false` mezővel.
+- A Coop piros gyümölcsital
+  [közvetlen termékadata](https://cooponline.hu/termek/coop-gyum-it-piros-gyumol-12-drs-1-5l/)
+  12% gyümölcslevet közöl: almát, fekete berkenyét,
+  epret, fekete ribizlit, szedret és fekete
+  bodzabogyót. A feketerépa csak színező
+  koncentrátumként szerepel, ezért azt ennél a
+  terméknél nem vettük fel ízként.
+- Az Olympos sárgarépa–narancs
+  [közvetlen termékadata](https://cooponline.hu/termek/olympos-sargarepa-nara-4-pet-drs-1-5l/)
+  4%-os, édesítőszeres italt és `Hozzáadott cukrot nem
+  tartalmaz` állítást közöl; a hozzáadottcukor-mentes
+  jelzőt ennek megfelelően igazra állítottuk. A
+  mandarin változat pontos összetevőadata cukrot is
+  felsorol, az alma–körte–szőlő forrásneve pedig nem
+  közöl zero állítást, ezért ezek meglévő hamis jelzője
+  változatlan maradt.
+- A Topjoy alma–görögdinnye
+  [gyártói termékadata](https://maspex.hu/markaink/topjoy/topjoy-0-25l-uveges/gorogdinnye/)
+  18% almát és 2% görögdinnyét igazol. A feketerépa és
+  fekete áfonya csak színező összetevő, ezért a
+  meglévő két hirdetett ízt tartottuk meg.
+- Módosított rekord: **8**.
+- Módosított tulajdonságmező az átsoroláson kívül:
+  **9**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **17**.
+- Új megengedett érték: **2**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a
+  Gyümölcsital és Nektár levél külön ellenőrzése
+  összesen **819** rekordot fedett le, szintén 0 hibával.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `757842` | ellenőrizve; a meglévő `Rio D'Oro`, `25%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `935735` | ellenőrizve; a meglévő `Aldi`, `12%`, `őszibarack`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `935736` | ellenőrizve; a meglévő `Aldi`, `12%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `935737` | íz `szőlő` → `fehérszőlő` |
+| `674702:4212092` | ellenőrizve; a közvetlen termékoldallal igazolt `Auchan`, `25%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan; a helyi kép elavult 12%-os változatot mutat |
+| `674936:4212326` | ellenőrizve; a meglévő `Auchan`, `25%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `674708:4212098` | ellenőrizve; a meglévő `Auchan`, `25%`, `narancs`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `674696:4212086` | íz `szőlő` → `fehérszőlő` |
+| `640916:4178306` | ellenőrizve; a meglévő `Hey-Ho`, `12%`, `meggy`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `23449:23452` | íz `áfonya` → `alma, bodzabogyó, fekete áfonya` |
+| `674717:4212107` | rostos `false` → `true` |
+| `41383:41386` | ellenőrizve; a meglévő `Pfanner`, `25%`, `alma, gránátalma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `3380727` | gyümölcstartalom `25%` → `35%`; íz `eper` → `alma, eper, feketerépa, feketeribizli`; rostos `false` → `true` |
+| `3380717` | ellenőrizve; a meglévő `Topjoy`, `12%`, `alma, eper`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `3375613` | `Gyümölcsital` → `Nektár`; célmezők: `cukormentes: false`, `gyümölcstartalom: 55%`, `márka: Cappy`, `rostos: false`, `íz: narancs` |
+| `3375517` | ellenőrizve; a meglévő `Olympos`, `10%`, `alma, görögdinnye`, nem rostos, hozzáadott cukor nélküli besorolás változatlan |
+| `3372324` | ellenőrizve; a meglévő `Coop`, `12%`, `őszibarack`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `3372323` | íz hiányzott → `alma, bodzabogyó, eper, feketeberkenye, feketeribizli, szeder` |
+| `2808498` | ellenőrizve; a meglévő `Rauch`, `12%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2807800` | hozzáadott cukor nélkül `false` → `true` |
+| `2807799` | ellenőrizve; a meglévő `Olympos`, `4%`, `mandarin`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2807798` | ellenőrizve; a meglévő `Olympos`, `4%`, `alma, körte, szőlő`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2807781` | ellenőrizve; a meglévő `Topjoy`, `20%`, `alma, görögdinnye`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2775081` | ellenőrizve; a meglévő `Sió`, `12%`, `alma`, nem rostos, hozzáadott cukor nélküli besorolás változatlan |
+| `2775080` | ellenőrizve; a meglévő `Sió`, `12%`, `alma, málna, meggy, őszibarack`, rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+
+### Gyümölcsital kézi felülvizsgálat, 32. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** egyedi teljes rekordját és eredeti
+  CSV-forrássorát egyenként ellenőriztük. Az
+  `eredmeny.json` beágyazott `termek` objektuma egyiknél
+  sem őrizte meg a helyi kép útját, az eredeti
+  `kategorizalatlan_termekek.csv` azonban **12** rekordhoz
+  tartalmazott képet: egy Lidl- és tizenegy
+  Metro-termékhez. Mind a 12 képet eredeti felbontásban
+  megvizsgáltuk. A további **13** Coop-rekordnál pontos,
+  képes párrekordokat és közvetlen termékadatokat
+  használtunk.
+- A Sió Találkozások meggy–szilva–alma,
+  őszibarack–narancs és alma–körte rekordjai pontosan
+  egyeznek a már kézzel ellenőrzött, képes Auchan- és
+  Metro-párjaikkal. A 12%-os tartalom, az összetevőízek,
+  a rostos jelző és a hozzáadott cukrot tartalmazó
+  besorolás ezért változatlan maradt. Ugyanez igaz a
+  Sió 20%-os rostos őszibarack, 12%-os szűrt alma és
+  narancs kis- és nagy kiszereléseire.
+- A Sió szűrt szőlőital közvetlen Auchan-képe sárgászöld
+  szőlőfürtöt mutat, az azonos termék több már
+  felülvizsgált rekordja pedig `fehérszőlő` értékkel
+  szerepelt. A két jelenlegi Coop-rekordot és az ennek
+  ellentmondó nyolc, már korábban felülvizsgált pontos
+  párrekordot egységesen `fehérszőlő` értékre
+  pontosítottuk. A piros szőlőitalokat ez a korrekció
+  nem érintette.
+- A Sió Citrus Friss lime–citrom
+  [közvetlen Coop-termékadata](https://cooponline.hu/termek/sio-citrus-friss-lime-citrom-12-1l/)
+  5% narancs gyümölcshúst, 4% lime- és 3% citromlevet
+  közöl; a dobozképen az `Extra gyümölcshús` felirat is
+  olvasható. A hiányzó `narancs` ízt ezért felvettük,
+  a `rostos` jelzőt igazra állítottuk. A recept cukrot
+  vagy fruktóz-glükózszirupot is tartalmaz, így a
+  hozzáadottcukor-mentes jelző hamis maradt.
+- A Fruit Garden alma–meggy eredeti Metro-forrásneve
+  tévesen 50%-ot közöl, de a forrássorhoz tartozó
+  közvetlen termékképen a csomagolás **20%** felirata
+  látható. A termék
+  [pontos összetevőlistája](https://shoppy.hu/elelmiszer/alkoholmentes-italok/gyumolcs--es-zoldsegle/fruit-garden-rostos-alma-meggy-gyumolcsital-edesitoszerekkel-1l)
+  15% almát és 5% meggyet, édesítőszereket, de
+  hozzáadott cukrot nem sorol fel. A rekordot ezért
+  20%-ra és hozzáadottcukor-mentesre javítottuk; ugyanezt
+  a bizonyított korrekciót elvégeztük a korábban
+  felülvizsgált, pontos Penny-párrekordon is.
+- A három ARO 0,2 literes termék közvetlen Metro-képe
+  egyértelműen 25%-os szűrt alma-, rostos őszibarack-,
+  illetve rostos narancsitalt mutat. A
+  [Metro Trader alma](https://metrotrader.hu/categories/gyumolcslevek-uditoitalok/products/0-2l-aro-alma-25)
+  és
+  [őszibarack](https://metrotrader.hu/categories/gyumolcslevek-uditoitalok/products/0-2l-aro-oszibarackle-25)
+  termékoldala a neveket és a kiszerelést is megerősíti.
+- A Hey-Ho Zero alma közvetlen csomagolásán a `ZERO
+  HOZZÁADOTT CUKOR` felirat olvasható; a 20%-os
+  tartalmat a forrásnév és az azonos receptű, már
+  ellenőrzött termék igazolja. A Sió Zero alma képe
+  ugyancsak egyértelmű 0% hozzáadottcukor-jelölést
+  visel.
+- A Lidl 0,2 literes almaital képe a 25%-os tartalmat,
+  a Pfanner gránátalma pontos Metro-képe és előző
+  blokkban ellenőrzött receptje pedig a 25%-os
+  alma–gránátalma összetételt igazolta.
+- A jelenlegi 25 rekordból módosított: **4**.
+- A jelenlegi 25 rekordból változatlanul hagyott:
+  **21**.
+- Bizonyított párrekord-korrekció korábban már
+  felülvizsgált terméken: **9**.
+- Összes módosított rekord ebben a blokkban: **13**.
+- Módosított tulajdonságmező: **15**; ebből a jelenlegi
+  25 rekordban **6**, a kilenc párrekordon **9**.
+- Kézi kategória-átsorolás: **0**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult. A
+  korábbi Sió-szőlő hash 0 rekordnál maradt meg; az
+  összes pontos fehérszőlő-pár egységes, újraszámolt
+  hashértéket kapott.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `2775078` | ellenőrizve; a meglévő `Sió`, `12%`, `alma, meggy, szilva`, rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2775076` | ellenőrizve; a meglévő `Sió`, `12%`, `narancs, őszibarack`, rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2756263` | ellenőrizve; a meglévő `Sió`, `20%`, `őszibarack`, rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2756262` | íz `szőlő` → `fehérszőlő` |
+| `2756261` | ellenőrizve; a meglévő `Sió`, `12%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2756258` | ellenőrizve; a meglévő `Sió`, `20%`, `őszibarack`, rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2756257` | ellenőrizve; a meglévő `Sió`, `12%`, `narancs`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2756256` | íz `szőlő` → `fehérszőlő` |
+| `2756255` | ellenőrizve; a meglévő `Sió`, `12%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2755383` | ellenőrizve; a meglévő `Coop`, `25%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2754443` | íz `citrom, lime` → `citrom, lime, narancs`; rostos `false` → `true` |
+| `2754388` | ellenőrizve; a forrásnév szerinti `Hey-Ho`, `12%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `2752554` | ellenőrizve; a meglévő `Rauch`, `12%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `6407588` | ellenőrizve; a közvetlen képpel igazolt `Lidl`, `25%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `BTY-X16337500320021` | ellenőrizve; a meglévő `Sió`, `20%`, `őszibarack`, rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `BTY-X16337100320021` | ellenőrizve; a meglévő `Sió`, `12%`, `narancs`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `BTY-X18667700320021` | ellenőrizve; a meglévő `Hey-Ho`, `20%`, `alma`, nem rostos, hozzáadott cukor nélküli besorolás változatlan |
+| `BTY-X11416000320022` | ellenőrizve; a meglévő `ARO`, `25%`, `alma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `BTY-X11416200320022` | ellenőrizve; a meglévő `ARO`, `25%`, `őszibarack`, rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `BTY-X11416100320022` | ellenőrizve; a meglévő `ARO`, `25%`, `narancs`, rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `BTY-X9650000320021` | ellenőrizve; a meglévő `Pfanner`, `25%`, `alma, gránátalma`, nem rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `BTY-X16421400320021` | ellenőrizve; a meglévő `Sió`, `12%`, `alma`, nem rostos, hozzáadott cukor nélküli besorolás változatlan |
+| `BTY-X18273700320021` | gyümölcstartalom `50%` → `20%`; hozzáadott cukor nélkül `false` → `true`; a forrásnév 50%-os adata hibás, a hozzárendelt kép és az összetevőlista 20%-ot igazol |
+| `BTY-X16412700320021` | ellenőrizve; a meglévő `Sió`, `12%`, `alma, meggy, szilva`, rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+| `BTY-X16412600320021` | ellenőrizve; a meglévő `Sió`, `12%`, `alma, körte`, rostos, hozzáadott cukrot tartalmazó besorolás változatlan |
+
+A jelenlegi blokk bizonyítéka alapján korrigált, korábban már
+felülvizsgált pontos párrekordok:
+
+| Termékazonosító | Utólagos, bizonyított korrekció |
+|---|---|
+| `582205:4119595` | íz `szőlő` → `fehérszőlő` |
+| `583836:4121226` | íz `szőlő` → `fehérszőlő` |
+| `BTY-X16337600320021` | íz `szőlő` → `fehérszőlő` |
+| `BTY-X16318500320021` | íz `szőlő` → `fehérszőlő` |
+| `4516ff84cffb2b5fd0dc139c` | íz `szőlő` → `fehérszőlő` |
+| `f03f02d4395eee4958266fd4` | íz `szőlő` → `fehérszőlő` |
+| `220341210` | íz `szőlő` → `fehérszőlő` |
+| `220341211` | íz `szőlő` → `fehérszőlő` |
+| `1000629` | hozzáadott cukor nélkül `false` → `true`; a 20%-os érték már helyes volt |
+
+### Gyümölcsital kézi felülvizsgálat, 33. blokk
+
+- A `Gyümölcs- és zöldségitalok → Gyümölcsital`
+  következő **25** még nem ellenőrzött, egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. Mind a 25 rekord helyi
+  termékképét az eredeti
+  `kategorizalatlan_termekek.csv` forrásból azonosítottuk,
+  és eredeti felbontásban megvizsgáltuk.
+- A következő blokk első jelöltlistájában kilenc, korábbi
+  blokkokban már lezárt termék is szerepelt. Ezeket a
+  jelentés termékazonosítói alapján kiszűrtük, nem
+  ellenőriztük és nem számoltuk újra; helyettük kilenc
+  valóban még nem vizsgált rekord került ebbe a blokkba.
+- A Zuegg Intenso vérnarancs–narancs
+  [pontos Tesco-termékadata](https://bevasarlas.tesco.hu/groceries/hu-HU/products/105580968)
+  15% vérnarancs- és 10% narancslevet, továbbá
+  feketerépa-, feketeribizli- és acerola-koncentrátumot
+  közöl. A termék így 25%-os; cukrot tartalmaz, és nem
+  rostos.
+- A Hohes C Classic Piros Multi
+  [pontos termékadata](https://www.dm.hu/p/d/3114090/hohes-c-gyumolcsle-classic-piros-multi)
+  és az azonos, már kézzel ellenőrzött két párrekord
+  100%-os, acerola–alma–arónia–citrom–feketerépa–meggy–
+  szőlő összetételű levet igazol. A rekord ezért a `Lé`
+  levélbe került.
+- A Sió piros szőlő csomagolása és az azonos
+  felülvizsgált Metro-párrekord 20%-os `piros szőlő`
+  italt igazol. A Citrus Friss sárgadinnye–lime–alma neve
+  és képe `vegyes üdítőital` megjelölést tartalmaz, ezért
+  az azonos korábbi párrekordokkal egyezően az `Egyéb
+  ízesített üdítőital` levélbe került. A lime–citrom
+  [pontos receptje](https://cooponline.hu/termek/sio-citrus-friss-lime-citrom-12-1l/)
+  5% narancshúst, 4% lime- és 3% citromlevet igazol. A
+  Sió Zero alma pontos párrekordjai a 12%-os,
+  hozzáadottcukor-mentes besorolást igazolják.
+- A Rauch Happy Day alma–mangó
+  [pontos Tesco-receptje](https://bevasarlas.tesco.hu/shop/hu-HU/products/111273698)
+  90% almalevet, 10% mangópürét és citromlevet, az
+  alma–bodza
+  [termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/2005111273704)
+  almalevet, 5% bodzavirág-kivonatot és citromlevet
+  közöl. Mindkét víz nélküli termék 100%-os csomagolást
+  visel; az első pürés, a második nem rostos, ezért a `Lé`
+  levélbe kerültek.
+- A Rauch Happy Day alma–szilva
+  [pontos Tesco-termékadata](https://bevasarlas.tesco.hu/groceries/hu-HU/products/2005111273702)
+  60% alma–piros szőlő–citrom–bodza vegyes gyümölcslevet
+  és 8% szilvapürét sorol fel, hozzáadott cukor nélkül.
+  Emiatt a termék a forrás szerinti `Gyümölcsital`
+  levélben maradt, 68%-os, rostos és
+  hozzáadottcukor-mentes mezőkkel.
+- A Hey-Ho alma közvetlen képe `ZERO HOZZÁADOTT CUKOR`
+  állítást mutat; az azonos felülvizsgált párrekord a
+  20%-os tartalmat igazolja. A hét Kubu-terméket a már
+  kézzel ellenőrzött, teljesen azonos receptű
+  párrekordokkal egyeztettük: a hiányzó tartalmakat és
+  elemi gyümölcsízeket, valamint a pürés termékek rostos
+  jelzőjét ezek alapján rögzítettük.
+- A két RIO Nata de Coco pontos, már felülvizsgált
+  párrekordja igazolja, hogy a licsi, illetve mangó
+  mellett a `kókusz` érték is szükséges. A Cappy zöldalma
+  [közvetlen Tesco-termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/121299654)
+  20% zöldalmapürét és 10% almalé-sűrítményt igazol,
+  ezért 30%-os és rostos.
+- A Rauch Bravo őszibarack
+  [közvetlen Tesco-termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/202751098)
+  20% őszibarackpürét és cukrot közöl. A négy Szobi
+  csomagolásán egyaránt 12% olvasható; az őszibarack
+  rostos, a fehérszőlő, narancs és alma szűrt. A
+  fehérszőlő pontos ízértékét a név, a szőlőfürtös kép és
+  az azonos ellenőrzött párrekordok egyaránt igazolják.
+- Módosított rekord: **25**.
+- Módosított tulajdonságmező az átsorolásokon kívül:
+  **41**.
+- Kézi kategória-átsorolás: **4**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **1** (`gyümölcstartalom: 68%`
+  a Gyümölcsital levélben).
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult. A jelenlegi
+  25 rekord külön célállapot- és hash-ellenőrzése
+  ugyancsak 0 hibát talált.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `105580968` | gyümölcstartalom hiányzott → `25%`; íz `narancs, vérnarancs` → `acerola, feketerépa, feketeribizli, narancs, vérnarancs` |
+| `111273511` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `márka: Hohes C`, `rostos: false`, `íz: acerola, alma, arónia, citrom, feketerépa, meggy, szőlő` |
+| `111273512` | gyümölcstartalom hiányzott → `20%`; íz `szőlő` → `piros szőlő` |
+| `111273698` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `márka: Rauch`, `rostos: true`, `íz: alma, citrom, mangó` |
+| `111273702` | gyümölcstartalom hiányzott → `68%`; íz hiányzott → `alma, bodza, citrom, piros szőlő, szilva`; rostos `false` → `true`; hozzáadott cukor nélkül `false` → `true` |
+| `111273704` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `márka: Rauch`, `rostos: false`, `íz: alma, bodza, citrom` |
+| `111274092` | gyümölcstartalom hiányzott → `20%`; hozzáadott cukor nélkül `false` → `true` |
+| `121219347` | gyümölcstartalom hiányzott → `12%`; íz hiányzott → `alma, ananász, banán, guava, lime, mandarin, mangó, maracuja, narancs, sárgabarack, őszibarack`; rostos `false` → `true` |
+| `121219514` | gyümölcstartalom hiányzott → `15%`; íz `málna` → `alma, lime, málna, sárgarépa` |
+| `121219670` | gyümölcstartalom hiányzott → `53%`; íz hiányzott → `alma, ananász, banán, guava, kaktusz, kivi, licsi, lime, mangó, maracuja, narancs, papaya, sárgarépa, őszibarack`; rostos `false` → `true` |
+| `121219693` | gyümölcstartalom hiányzott → `44%`; rostos `false` → `true` |
+| `121219762` | gyümölcstartalom hiányzott → `32%`; rostos `false` → `true` |
+| `121220016` | gyümölcstartalom hiányzott → `36%`; rostos `false` → `true` |
+| `121220074` | gyümölcstartalom hiányzott → `12%`; íz `görögdinnye` → `alma, görögdinnye, lime` |
+| `121267053` | `Gyümölcsital` → `Egyéb ízesített üdítőital`; célmezők: `energiatartalom: normál`, `márka: Sió`, `szénsavas: false`, `íz: alma, lime, sárgadinnye` |
+| `121267082` | gyümölcstartalom hiányzott → `12%`; íz `citrom, lime` → `citrom, lime, narancs`; rostos `false` → `true` |
+| `121267485` | gyümölcstartalom hiányzott → `12%` |
+| `121296634` | íz `licsi` → `kókusz, licsi` |
+| `121296640` | íz `mangó` → `kókusz, mangó` |
+| `121299654` | gyümölcstartalom hiányzott → `30%`; rostos `false` → `true` |
+| `202751098` | gyümölcstartalom hiányzott → `20%`; rostos `false` → `true` |
+| `220322373` | gyümölcstartalom hiányzott → `12%` |
+| `220322374` | gyümölcstartalom hiányzott → `12%`; íz `szőlő` → `fehérszőlő` |
+| `220322379` | gyümölcstartalom hiányzott → `12%` |
+| `220322380` | gyümölcstartalom hiányzott → `12%` |
+
+### Gyümölcsital kézi felülvizsgálat, 34. záró blokk
+
+- A Gyümölcsital levél utolsó, korábban még nem
+  ellenőrzött egyedi rekordjának teljes CSV-forrását és
+  minden mezőjét kézzel ellenőriztük. A helyi termékképet
+  eredeti felbontásban is megvizsgáltuk; azon `Organic
+  apple mango juice` olvasható.
+- A Biopont bio alma–mangó
+  [közvetlen Tesco-termékadata](https://bevasarlas.tesco.hu/shop/hu-HU/products/121236856)
+  100% gyümölcstartalmat, 75% almalevet és 25% mangó
+  gyümölcspépet közöl. A termék ezért a `Lé` levélbe
+  került, a mangópép miatt rostos jelzővel.
+- Módosított rekord: **1**.
+- Módosított tulajdonságmező az átsoroláson kívül:
+  **0**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **0**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult. A
+  Gyümölcsital levél összes eredeti rekordja szerepel a
+  kézi jelentésben; jelentés nélküli rekord nem maradt.
+
+| Termékazonosító | Kézzel ellenőrzött módosítások |
+|---|---|
+| `121236856` | `Gyümölcsital` → `Lé`; célmezők: `gyümölcstartalom: 100%`, `márka: Biopont`, `rostos: true`, `íz: alma, mangó` |
+
+### Ásványvíz kézi felülvizsgálat, 1. blokk
+
+- Az `Ásványvíz` levél első **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. Mind a 25 rekordhoz tartozott
+  helyi termékkép, és mindegyiket eredeti felbontásban
+  megvizsgáltuk.
+- Az Aquitas hét normál változatának képe és neve
+  pontosan igazolja a 0,5, 1,5 és 2 literes
+  kiszereléseket, valamint a szénsavmentes, enyhén
+  szénsavas és szénsavas értékeket. Az extra dús 1,5
+  literes és a Szentkirályi extra dús 1,5 és 0,7 literes
+  csomagolásán az `extra dús` jelölés közvetlenül
+  olvasható.
+- A Nestlé Aquarel, a hat Szentkirályi, a két Theodora
+  Emese, az Aqua Minera, a Mizse, az Aquablu, a két
+  Auchan Kedvenc Primavera, a két Zafír és a Theodora
+  Kereki képe minden esetben egyezik a forrásnévvel,
+  márkával, kiszereléssel és szénsavassággal.
+- Az ALDI-forrásnevek mind a tizenöt első rekordnál
+  visszaváltási díjat közölnek, ezért a `DRS: true`
+  mezők helyesek. A tíz Auchan-rekord forrásneve és
+  csomagolása nem közöl DRS-jelölést, így a meglévő
+  `DRS: false` mezőket változatlanul hagytuk.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a 25
+  jelenlegi ásványvízrekord külön mező- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `753851` | ellenőrizve; a meglévő `Aquitas`, `500 ml`, szénsavas, DRS-es besorolás változatlan |
+| `891124` | ellenőrizve; a meglévő `Aquitas`, `500 ml`, szénsavmentes, DRS-es besorolás változatlan |
+| `748986` | ellenőrizve; a meglévő `Aquitas`, `1,5 l`, szénsavmentes, DRS-es besorolás változatlan |
+| `753852` | ellenőrizve; a meglévő `Aquitas`, `1,5 l`, szénsavas, DRS-es besorolás változatlan |
+| `757824` | ellenőrizve; a meglévő `Aquitas`, `1,5 l`, enyhén szénsavas, DRS-es besorolás változatlan |
+| `549651` | ellenőrizve; a meglévő `Aquitas`, `2 l`, szénsavmentes, DRS-es besorolás változatlan |
+| `831664` | ellenőrizve; a meglévő `Aquitas`, `2 l`, szénsavas, DRS-es besorolás változatlan |
+| `980567` | ellenőrizve; a meglévő `Aquitas`, `1,5 l`, extra szénsavas, DRS-es besorolás változatlan |
+| `970480` | ellenőrizve; a meglévő `Nestlé Aquarel`, `1,5 l`, szénsavmentes, DRS-es besorolás változatlan |
+| `984130` | ellenőrizve; a meglévő `Szentkirályi`, `500 ml`, szénsavmentes, DRS-es besorolás változatlan |
+| `984927` | ellenőrizve; a meglévő `Szentkirályi`, `500 ml`, szénsavas, DRS-es besorolás változatlan |
+| `989194` | ellenőrizve; a meglévő `Szentkirályi`, `1,5 l`, szénsavas, DRS-es besorolás változatlan |
+| `991344` | ellenőrizve; a meglévő `Szentkirályi`, `1,5 l`, szénsavmentes, DRS-es besorolás változatlan |
+| `541479` | ellenőrizve; a meglévő `Szentkirályi`, `1,5 l`, extra szénsavas, DRS-es besorolás változatlan |
+| `4606921` | ellenőrizve; a meglévő `Szentkirályi`, `700 ml`, extra szénsavas, DRS-es besorolás változatlan |
+| `823202:4360592` | ellenőrizve; a meglévő `Theodora`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `823199:4360589` | ellenőrizve; a meglévő `Theodora`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `820625:4358015` | ellenőrizve; a meglévő `Aqua Minera`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `822218:4359608` | ellenőrizve; a meglévő `Mizse`, `1 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `678365:4215755` | ellenőrizve; a meglévő `Aquablu`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `678776:4216166` | ellenőrizve; a meglévő `Auchan`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `678782:4216172` | ellenőrizve; a meglévő `Auchan`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `679154:4216544` | ellenőrizve; a meglévő `Zafír`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `678995:4216385` | ellenőrizve; a meglévő `Zafír`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `675065:4212455` | ellenőrizve; a meglévő `Theodora`, `330 ml`, szénsavas, nem DRS-es besorolás változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 2. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. Mind a 25 rekordhoz tartozott
+  helyi termékkép, és mindegyiket eredeti felbontásban
+  megvizsgáltuk.
+- A Theodora Kereki, Veritas, két Nestlé Aquarel Cédrus,
+  két NaturAqua, két Szentkirályi, két Jana, S.
+  Pellegrino, két Dr. Vis, Parádi, Peridot és a két
+  Auchan Tipp Pannon-Aqua közvetlen képe igazolja a
+  meglévő márkát, kiszerelést és szénsavasságot.
+- A Glacéau Smartwater címkéje desztillált vizet és
+  ízhatás céljából hozzáadott ásványi anyagokat, a Nanna
+  VitalpH ásványvíz alapú lúgos italt közöl. Új kategória
+  felvétele tilos, a jelenlegi fában pedig az
+  `Ásványvíz` a legközelebbi meglévő levél; ezért a
+  besorolásukat nem módosítottuk. A pontosabb
+  kategóriajavaslatot külön, az összegző javaslati
+  részében rögzítettük.
+- A Parádi kénes, Ferenc József, Mira, Hunyadi János és
+  Salvus képe és neve gyógyvizet igazol. Ezekhez sincs
+  külön meglévő levél, ezért az `Ásványvíz` besorolás
+  maradt; a márka, kiszerelés és szénsavmentes jelző
+  helyes.
+- Az Auchan Tipp Pannon-Aqua zöld címkéjén és teljes
+  forrásnevében is `enyhe`, illetve szén-dioxiddal
+  enyhén dúsított jelölés szerepel. A meglévő normál
+  `szénsavas` értéket ezért `enyhén szénsavas` értékre
+  pontosítottuk.
+- Módosított rekord: **1**.
+- Módosított tulajdonságmező: **1**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **24**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a 25
+  jelenlegi ásványvízrekord külön mező- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `675053:4212443` | ellenőrizve; a meglévő `Theodora`, `330 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `679100:4216490` | ellenőrizve; a meglévő `Veritas`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `675062:4212452` | ellenőrizve; a meglévő `Nestlé Aquarel`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `675020:4212410` | ellenőrizve; a meglévő `Nestlé Aquarel`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `678482:4215872` | ellenőrizve; a meglévő `NaturAqua`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `678473:4215863` | ellenőrizve; a meglévő `NaturAqua`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `675041:4212431` | ellenőrizve; a meglévő `Szentkirályi`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `675032:4212422` | ellenőrizve; a meglévő `Szentkirályi`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `679583:4216973` | ellenőrizve; a meglévő `Jana`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `675035:4212425` | ellenőrizve; a meglévő `Szentkirályi`, `330 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `679574:4216964` | ellenőrizve; a meglévő `Jana`, `1 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `678470:4215860` | ellenőrizve; a meglévő `Smartwater`, `1,1 l`, szénsavmentes, nem DRS-es besorolás változatlan; a legközelebbi meglévő levél |
+| `684242:4221632` | ellenőrizve; a meglévő `San Pellegrino`, `1 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `751983:4289373` | ellenőrizve; a meglévő `Dr. Vis`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `679535:4216925` | ellenőrizve; a meglévő `Parádi`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `1279:1279` | ellenőrizve; a meglévő `Parádi`, `700 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `679091:4216481` | ellenőrizve; a meglévő `Peridot`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `712040:4249430` | ellenőrizve; a meglévő `Ferenc József`, `700 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `754914:4292304` | ellenőrizve; a meglévő `Mira`, `700 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `754911:4292301` | ellenőrizve; a meglévő `Hunyadi János`, `700 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `673061:4210451` | ellenőrizve; a meglévő `Salvus`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `751980:4289370` | ellenőrizve; a meglévő `Dr. Vis`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `785879:4323269` | ellenőrizve; a meglévő `Nanna`, `1,6 l`, szénsavmentes, nem DRS-es besorolás változatlan; a legközelebbi meglévő levél |
+| `677861:4215251` | ellenőrizve; a meglévő `Auchan Tipp Pannon-Aqua`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `677864:4215254` | szénsavasság `szénsavas` → `enyhén szénsavas` |
+
+### Ásványvíz kézi felülvizsgálat, 3. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. Mind a 25 rekordhoz tartozott
+  helyi termékkép, és mindegyiket eredeti felbontásban
+  megvizsgáltuk.
+- A Pannon-Aqua, Primavera, Zafír, Mizse, NaturAqua,
+  Aqua Minera, Nestlé Aquarel, Fonte Natura, Minera
+  Fröccsvíz és Theodora termékek neve, kiszerelése,
+  márkája és szénsavassága közvetlenül összevethető volt
+  a címkével.
+- Négy, régi csomagolású enyhén szénsavas termék
+  tulajdonságai közül hiányzott a `DRS` mező. A képeken
+  nincs visszaváltási jelölés, a blokk azonos időszakú
+  pártermékei pedig helyesen `DRS: false` értéket
+  tartalmaznak; ezért a hiányzó mezőt mind a négynél
+  pótoltuk.
+- Az enyhén szénsavas, 2 literes Pannon-Aqua képén és
+  mennyiségi forrásmezőiben is 2 liter szerepel, ezért a
+  `2000 ml` kiszerelésértéket a levél egységes `2 l`
+  alakjára pontosítottuk.
+- A Fonte Natura közvetlen címkéje `fonte NATURA` és
+  `extra dús` jelölést visel. A teljes márkanevet a
+  gyártó hivatalos márkaoldala is igazolja, ezért a
+  `Fonte` értéket `Fonte Natura`, a normál
+  `szénsavas` értéket `extra szénsavas` értékre
+  javítottuk.
+- A Minera Fröccsvíz címkéjén `extra dús` olvasható,
+  ezért ennél a rekordnál is `extra szénsavas` a pontos
+  érték. Az `Aqua Minera` márka változatlan maradt,
+  mert a közvetlen palackkép és a termékcsalád ezt
+  támasztja alá.
+- Módosított rekord: **6**.
+- Módosított tulajdonságmező: **8**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **19**.
+- Új megengedett érték: **1** (`márka: Fonte Natura`).
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a 25
+  jelenlegi ásványvízrekord külön mező- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `677855:4215245` | ellenőrizve; a meglévő `Auchan Tipp Pannon-Aqua`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `678779:4216169` | ellenőrizve; a meglévő `Auchan`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `678773:4216163` | ellenőrizve; a meglévő `Auchan`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `677867:4215257` | ellenőrizve; a meglévő `Auchan Tipp Pannon-Aqua`, `2 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `677870:4215260` | kiszerelés `2000 ml` → `2 l`; hiányzó `DRS` → `false` |
+| `677858:4215248` | ellenőrizve; a meglévő `Auchan Tipp Pannon-Aqua`, `2 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `679169:4216559` | ellenőrizve; a meglévő `Zafír`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `679172:4216562` | hiányzó `DRS` → `false`; a meglévő `Zafír`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `679151:4216541` | ellenőrizve; a meglévő `Zafír`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `679160:4216550` | ellenőrizve; a meglévő `Mizse`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `679157:4216547` | hiányzó `DRS` → `false`; a meglévő `Mizse`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `679145:4216535` | ellenőrizve; a meglévő `Mizse`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `678488:4215878` | ellenőrizve; a meglévő `NaturAqua`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `678491:4215881` | hiányzó `DRS` → `false`; a meglévő `NaturAqua`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `678476:4215866` | ellenőrizve; a meglévő `NaturAqua`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `821276:4358666` | ellenőrizve; a meglévő `Aqua Minera`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `679163:4216553` | ellenőrizve; a meglévő `Mizse`, `2 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `679142:4216532` | ellenőrizve; a meglévő `Mizse`, `2 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `675071:4212461` | ellenőrizve; a meglévő `Nestlé Aquarel`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `675026:4212416` | ellenőrizve; a meglévő `Nestlé Aquarel`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `712328:4249718` | márka `Fonte` → `Fonte Natura`; szénsavasság `szénsavas` → `extra szénsavas` |
+| `679112:4216502` | szénsavasság `szénsavas` → `extra szénsavas`; a meglévő `Aqua Minera`, `1,5 l`, nem DRS-es besorolás egyébként változatlan |
+| `679166:4216556` | ellenőrizve; a meglévő `Primavera`, `2 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `679148:4216538` | ellenőrizve; a meglévő `Primavera`, `2 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `675077:4212467` | ellenőrizve; a meglévő `Theodora`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 4. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. **23** rekordhoz tartozott
+  helyi termékkép, ezeket eredeti felbontásban
+  megvizsgáltuk; a két Coop-rekordhoz nem volt helyi
+  kép, amit az egyedi soroknál külön jelöltünk.
+- A Theodora, Szentkirályi, San Benedetto, Jana,
+  Vöslauer, Borsec, Hargita Gyöngye, Jamnica, Evian és
+  Nestlé Aquarel képe közvetlenül igazolja a márkát,
+  kiszerelést és a szénsavasságot.
+- Három régi csomagolású, enyhén szénsavas termék
+  tulajdonságai közül hiányzott a `DRS` mező. A
+  képeken nincs visszaváltási jelölés, az azonos
+  termékcsaládok párrekordjai pedig `DRS: false`
+  értéket tartalmaznak; a hiányzó mezőt ezért
+  pótoltuk.
+- A Hargita Gyöngye 2 és 5 literes zöld címkés
+  változata részlegesen szénsavmentesített. A közvetlen
+  név és kép mellett a pontos kereskedelmi termékforrás
+  is enyhén szénsavasként azonosítja, ezért a két
+  `szénsavmentes` értéket `enyhén szénsavas` értékre
+  javítottuk.
+- A Comix termék közvetlen címkéje és termékadata
+  szűrt, tisztított ivóvízből és szén-dioxidból készült
+  szikvizet igazol. Új kategória felvétele tilos, ezért
+  az `Ásványvíz` maradt a legközelebbi meglévő levél;
+  a pontosabb `Szódavíz és szikvíz` kategóriajavaslatot
+  az összegző javaslati részében rögzítettük.
+- A kép nélküli Szivárvány-forrásnév szó szerint lúgos,
+  pH 8,2-es, szénsavmentes, DRS-es 1,5 literes vizet,
+  a Cívis-forrásnév pedig szénsavmentes, DRS-es 1,5
+  literes ásványvizet közöl. Csak ezekre a közvetlen
+  forrásmezőkre támaszkodtunk; egyik rekordot sem
+  módosítottuk.
+- Módosított rekord: **5**.
+- Módosított tulajdonságmező: **5**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **20**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a 25
+  jelenlegi ásványvízrekord külön mező- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `675059:4212449` | ellenőrizve; a meglévő `Theodora`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `675080:4212470` | hiányzó `DRS` → `false`; a meglévő `Theodora`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `675083:4212473` | ellenőrizve; a meglévő `Theodora`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `675056:4212446` | ellenőrizve; a meglévő `Theodora`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `675044:4212434` | ellenőrizve; a meglévő `Szentkirályi`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `675047:4212437` | hiányzó `DRS` → `false`; a meglévő `Szentkirályi`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `675038:4212428` | ellenőrizve; a meglévő `Szentkirályi`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `31174:31177` | ellenőrizve; `Comix`, `1,5 l`, szénsavas, nem DRS-es; új levél hiányában a legközelebbi meglévő `Ásványvíz` besorolás változatlan |
+| `675050:4212440` | ellenőrizve; a meglévő `Szentkirályi`, `1,5 l`, extra szénsavas, nem DRS-es besorolás változatlan |
+| `680162:4217552` | ellenőrizve; a meglévő `San Benedetto`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `679586:4216976` | ellenőrizve; a meglévő `Jana`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `679067:4216457` | ellenőrizve; a meglévő `Vöslauer`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `761088:4298478` | ellenőrizve; a meglévő `Borsec`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `713723:4251113` | szénsavasság `szénsavmentes` → `enyhén szénsavas` |
+| `713729:4251119` | ellenőrizve; a meglévő `Hargita Gyöngye`, `2 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `713726:4251116` | ellenőrizve; a meglévő `Hargita Gyöngye`, `2 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `679589:4216979` | ellenőrizve; a meglévő `Jamnica`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `761085:4298475` | ellenőrizve; a meglévő `Borsec`, `2 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `12868:12871` | ellenőrizve; a meglévő `Szentkirályi`, `5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `533123:4070513` | szénsavasság `szénsavmentes` → `enyhén szénsavas` |
+| `533126:4070516` | ellenőrizve; a meglévő `Hargita Gyöngye`, `5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `674876:4212266` | ellenőrizve; a meglévő `Evian`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `675074:4212464` | hiányzó `DRS` → `false`; a meglévő `Nestlé Aquarel`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `3375565` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Szivárvány`, `1,5 l`, DRS-es, szénsavmentes lúgos víz, a legközelebbi meglévő levél változatlan |
+| `3375559` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Cívis`, `1,5 l`, DRS-es, szénsavmentes ásványvíz változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 5. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját és eredeti CSV-forrássorát egyenként
+  ellenőriztük. Egy rekordhoz tartozott helyi kép, ezt
+  eredeti felbontásban megvizsgáltuk; **24** Coop-
+  rekordhoz nem volt helyi kép, ezért azoknál kizárólag
+  a teljes forrásnévből és mennyiségi mezőkből
+  bizonyítható tulajdonságokat fogadtuk el.
+- Mind a 25 forrásnév szó szerint közli a márkát vagy
+  saját márkát, a kiszerelést, a DRS-jelölést és a
+  szénsavasságot. A képes Coop lúgos víz címkéje a
+  `Coop`, `Lúgos víz`, `pH 8.2` és `1,5 L`
+  adatokat külön is igazolja.
+- Hét rekordnál a forrásnévben szereplő `DRS` ellenére
+  hiányzott a DRS-tulajdonság, egy közülük pedig
+  tévesen `false` értéket tartalmazott. Mind a hét
+  rekordnál `DRS: true` értékre javítottuk.
+- A Coop Extra Dús Fröccsvíz és a Coop lúgos víz nem
+  természetes ásványvíz. Új kategória felvétele tilos,
+  ezért a jelenlegi `Ásványvíz` maradt a legközelebbi
+  meglévő levél; a hozzájuk illő `Szódavíz és szikvíz`,
+  illetve `Egyéb ivóvíz` javaslat már szerepel az
+  összegző javaslati részében.
+- Módosított rekord: **7**.
+- Módosított tulajdonságmező: **7**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **18**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a 25
+  jelenlegi ásványvízrekord külön mező- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `3375493` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Coop Cívis`, `2 l`, DRS-es, szénsavas ásványvíz változatlan |
+| `3372277` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Coop`, `1,5 l`, DRS-es, extra szénsavas fröccsvíz; a legközelebbi meglévő `Ásványvíz` levél változatlan |
+| `3372104` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Theodora`, `1,5 l`, DRS-es, szénsavas Calcia ásványvíz változatlan |
+| `3372103` | hiányzó `DRS` → `true`; helyi kép nélkül, a forrásnév szerinti `Theodora`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `3372102` | hiányzó `DRS` → `true`; helyi kép nélkül, a forrásnév szerinti `Nestlé Aquarel`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `3372096` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Mizse`, `1,5 l`, DRS-es, szénsavmentes ásványvíz változatlan |
+| `3164754` | `DRS` `false` → `true`; a helyi kép és forrásnév szerinti `Coop`, `1,5 l`, szénsavmentes lúgos víz egyébként változatlan |
+| `2809134` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Szentkirályi`, `1,5 l`, DRS-es, extra szénsavas ásványvíz változatlan |
+| `2809133` | hiányzó `DRS` → `true`; helyi kép nélkül, a forrásnév szerinti `Coop Cívis`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `2808581` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Jana`, `1,5 l`, DRS-es, szénsavmentes ásványvíz változatlan |
+| `2808492` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Coop Cívis`, `500 ml`, DRS-es, szénsavmentes ásványvíz változatlan |
+| `2808491` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Coop Cívis`, `1,5 l`, DRS-es, szénsavmentes ásványvíz változatlan |
+| `2808310` | hiányzó `DRS` → `true`; helyi kép nélkül, a forrásnév szerinti `NaturAqua`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `2807736` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `NaturAqua`, `500 ml`, DRS-es, szénsavmentes ásványvíz változatlan |
+| `2807735` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `NaturAqua`, `1,5 l`, DRS-es, szénsavmentes ásványvíz változatlan |
+| `2807734` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `NaturAqua`, `500 ml`, DRS-es, szénsavas ásványvíz változatlan |
+| `2807733` | hiányzó `DRS` → `true`; helyi kép nélkül, a forrásnév szerinti `NaturAqua`, `500 ml`, enyhén szénsavas besorolás egyébként változatlan |
+| `2807656` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Nestlé Aquarel`, `1,5 l`, DRS-es, szénsavas ásványvíz változatlan |
+| `2807526` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Coop Cívis`, `500 ml`, DRS-es, szénsavas ásványvíz változatlan |
+| `2807420` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Theodora`, `1,5 l`, DRS-es, szénsavas ásványvíz változatlan |
+| `2807419` | hiányzó `DRS` → `true`; helyi kép nélkül, a forrásnév szerinti `Szentkirályi`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `2807311` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `NaturAqua`, `1,5 l`, DRS-es, szénsavas ásványvíz változatlan |
+| `2807207` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Szentkirályi`, `1,5 l`, DRS-es, szénsavmentes ásványvíz változatlan |
+| `2807087` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Coop Cívis`, `1,5 l`, DRS-es, szénsavas ásványvíz változatlan |
+| `2807070` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Szentkirályi`, `500 ml`, DRS-es, szénsavas ásványvíz változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 6. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. **18** rekordhoz volt helyi
+  képfájl; ezekből **15** használható képet eredeti
+  felbontásban megvizsgáltunk, három fájl teljesen üres
+  termékkép volt. Hét rekordhoz nem volt helyi kép.
+  Kép nélkül vagy üres kép esetén csak a forrásnévből és
+  mennyiségi mezőkből közvetlenül igazolható adatot
+  használtuk.
+- A három Coop gyógyvízkép, a Lidl Hazánk Kincsei és
+  NaturAqua képek, valamint a Metro Mizse, NaturAqua,
+  Minera, Szentkirályi és AVE képek igazolják a
+  márkákat, kiszereléseket és a címkén olvasható
+  szénsavasságot.
+- A Salvus pontos DRS-es terméknév önmagában nem
+  közölte a szénsavasságot. A konkrét 1,5 literes
+  terméket közvetlen kereskedelmi források a
+  szénsavmentes ásványvizek között azonosítják, és a
+  korábban kézzel ellenőrzött azonos Salvus-változat is
+  szénsavmentes; ezért a `szénsavas` értéket
+  `szénsavmentes` értékre javítottuk.
+- A két, ugyanazt a Hazánk Kincsei lúgos vizet
+  reprezentáló Lidl-rekord mennyiségi forrásmezője és
+  közvetlen képe 1,5 litert igazol. A hiányzó
+  `kiszerelés` mezőt mindkettőnél `1,5 l` értékkel
+  pótoltuk.
+- A Lidl NaturAqua rekord 1,5 literes mennyiségi
+  forrásmezője és rózsaszín, `Szénsavmentes` címkéje
+  alapján a hiányzó kiszerelést pótoltuk, a téves
+  `szénsavas` értéket pedig `szénsavmentes` értékre
+  javítottuk.
+- A Minera Fröccsvíz egyedi palackképén `extra dús`
+  olvasható; ezért a normál `szénsavas` értéket
+  `extra szénsavas` értékre pontosítottuk. Az ugyanehhez
+  tartozó multipack már eleve helyes volt.
+- Módosított rekord: **5**.
+- Módosított tulajdonságmező: **6**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **20**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a 25
+  jelenlegi ásványvízrekord külön mező- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `2807069` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Szentkirályi`, `500 ml`, DRS-es, szénsavmentes ásványvíz változatlan |
+| `2807068` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Nestlé Aquarel`, `1,5 l`, DRS-es, szénsavmentes ásványvíz változatlan |
+| `2806984` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Theodora`, `1,5 l`, DRS-es, szénsavmentes Kereki ásványvíz változatlan |
+| `2806983` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Theodora`, `1,5 l`, DRS-es, szénsavmentes Calcia ásványvíz változatlan |
+| `2806805` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Szentkirályi`, `1,5 l`, DRS-es, szénsavas ásványvíz változatlan |
+| `2806119` | szénsavasság `szénsavas` → `szénsavmentes`; helyi kép nélkül, a forrásnév szerinti `Salvus`, `1,5 l`, DRS-es gyógyvíz egyébként változatlan |
+| `2753773` | helyi kép nélkül, a közvetlen Coop-forrásnév alapján ellenőrizve; `Parádi`, `700 ml`, nem DRS-es, szénsavmentes gyógyvíz; a legközelebbi meglévő levél változatlan |
+| `10549` | ellenőrizve; a közvetlen kép és név szerinti `Ferenc József`, `700 ml`, nem DRS-es, szénsavmentes gyógyvíz; a legközelebbi meglévő levél változatlan |
+| `10548` | ellenőrizve; a közvetlen kép és név szerinti `Hunyadi János`, `700 ml`, nem DRS-es, szénsavmentes gyógyvíz; a legközelebbi meglévő levél változatlan |
+| `10547` | ellenőrizve; a közvetlen kép és név szerinti `Mira`, `700 ml`, nem DRS-es, szénsavmentes gyógyvíz; a legközelebbi meglévő levél változatlan |
+| `10000198` | hiányzó kiszerelés → `1,5 l`; a közvetlen Lidl-kép szerinti `Hazánk Kincsei`, szénsavmentes, nem DRS-es lúgos ásványvíz egyébként változatlan |
+| `10106396` | hiányzó kiszerelés → `1,5 l`; szénsavasság `szénsavas` → `szénsavmentes` |
+| `6407984` | hiányzó kiszerelés → `1,5 l`; a közvetlen Lidl-kép szerinti `Hazánk Kincsei`, szénsavmentes, nem DRS-es lúgos ásványvíz egyébként változatlan |
+| `BTY-X17292500320021` | ellenőrizve; a meglévő `Mizse`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17292500320022` | ellenőrizve; a meglévő `Mizse`, `6 × 1,5 l`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17327000320021` | ellenőrizve; a meglévő `NaturAqua`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17327000320022` | a helyi képfájl üres; a közvetlen forrásnév és mennyiségi mezők alapján ellenőrizve; `NaturAqua`, `6 × 1,5 l`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17292400320021` | ellenőrizve; a meglévő `Mizse`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17292400320022` | ellenőrizve; a meglévő `Mizse`, `6 × 1,5 l`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17305200320021` | szénsavasság `szénsavas` → `extra szénsavas` |
+| `BTY-X17305200320022` | a helyi képfájl üres; a közvetlen forrásnév és mennyiségi mezők alapján ellenőrizve; `Aqua Minera`, `6 × 1,5 l`, extra szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17326000320021` | ellenőrizve; a meglévő `NaturAqua`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17326000320022` | a helyi képfájl üres; a közvetlen forrásnév és mennyiségi mezők alapján ellenőrizve; `NaturAqua`, `6 × 1,5 l`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X11727300320022` | ellenőrizve; a közvetlen palackkép szerinti `Szentkirályi`, `750 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X60353300320021` | ellenőrizve; a közvetlen ballonképen és névben szereplő `AVE`, `19 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 7. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. **24** rekordhoz volt helyi
+  képfájl; **23** használható képet eredeti
+  felbontásban megvizsgáltunk, egy NaturAqua
+  multipack-kép teljesen üres volt. Egy Zafír-rekordhoz
+  nem volt helyi kép; ennél csak a teljes forrásnevet és
+  mennyiségi mezőket használtuk.
+- A NaturAqua, Jana, Ursu, Theodora–Emese,
+  Szentkirályi, ARO–Mizse, Zafír és RIOBA–Primavera
+  címkék közvetlenül igazolják a jelenlegi gyűjtőmárkát,
+  kiszerelést és szénsavasságot. Az Emese címkén a
+  `THEODORA`, a Mizse címkén az `aro`, a Primavera
+  címkén a `RIOBA` márkajelzés külön is olvasható;
+  ezért ezeket nem bontottuk új márkaértékekre.
+- A két NaturAqua enyhe rekord és az ARO Mizse enyhe
+  rekord régi, DRS-jelölés nélküli csomagolású. A
+  hiányzó `DRS` mezőt mindháromnál `false` értékkel
+  pótoltuk.
+- A két Emese terméknév `Visszaváltható PET Palackban`
+  megjelölése a régi újratölthető csomagolást jelenti,
+  nem a DRS-rendszert; a képeken nincs DRS-jelölés,
+  ezért a meglévő `DRS: false` érték helyes.
+- Módosított rekord: **3**.
+- Módosított tulajdonságmező: **3**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **22**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a 25
+  jelenlegi ásványvízrekord külön mező- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X17326200320021` | hiányzó `DRS` → `false`; a meglévő `NaturAqua`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `BTY-X17326200320022` | hiányzó `DRS` → `false`; a helyi képfájl üres, de a forrásnév és mennyiségi mezők szerinti `NaturAqua`, `6 × 1,5 l`, enyhén szénsavas multipack-besorolás egyébként változatlan |
+| `BTY-X17413100320021` | ellenőrizve; a meglévő `Jana`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X18715700320021` | ellenőrizve; a közvetlen kép szerinti `Ursu`, `1,5 l`, pH 9-es lúgos, szénsavmentes, nem DRS-es ásványvíz változatlan |
+| `BTY-X18715800320021` | ellenőrizve; a címkén szereplő `Theodora`–`Emese`, `500 ml`, szénsavas, régi visszaváltható, nem DRS-es besorolás változatlan |
+| `BTY-X18716000320021` | ellenőrizve; a címkén szereplő `Theodora`–`Emese`, `500 ml`, szénsavmentes, régi visszaváltható, nem DRS-es besorolás változatlan |
+| `BTY-X86327500320021` | ellenőrizve; a meglévő `Szentkirályi`, `5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17291500320021` | ellenőrizve; a közvetlen címke szerinti `ARO`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17291500320022` | ellenőrizve; a meglévő `ARO`, `6 × 1,5 l`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17291300320021` | ellenőrizve; a közvetlen címke szerinti `ARO`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17291300320022` | ellenőrizve; a meglévő `ARO`, `6 × 1,5 l`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17291100320021` | ellenőrizve; a meglévő `ARO`, `6 × 500 ml`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17291100320022` | ellenőrizve; a meglévő `ARO`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17291200320021` | ellenőrizve; a meglévő `ARO`, `6 × 500 ml`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17291200320022` | ellenőrizve; a meglévő `ARO`, `6 × 500 ml`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17293400320021` | ellenőrizve; a meglévő `Zafír`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17293400320022` | ellenőrizve; a meglévő `Zafír`, `6 × 1,5 l`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17293200320021` | ellenőrizve; a meglévő `Zafír`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17293200320022` | ellenőrizve; a meglévő `Zafír`, `6 × 1,5 l`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17288800320022` | ellenőrizve; a meglévő `Szentkirályi`, `18 × 500 ml`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17293000320021` | ellenőrizve; a meglévő `Zafír`, `6 × 500 ml`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17293000320022` | helyi kép nélkül, a forrásnév és mennyiségi mezők alapján ellenőrizve; `Zafír`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17291700320021` | hiányzó `DRS` → `false`; a meglévő `ARO`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `BTY-X18880700320021` | ellenőrizve; a közvetlen címke szerinti `RIOBA`, `500 ml`, szénsavmentes, nem DRS-es Primavera ásványvíz változatlan |
+| `BTY-X17289500320021` | ellenőrizve; a meglévő `Szentkirályi`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 8. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. **24** rekordhoz volt helyi
+  képfájl; **23** használható képet eredeti
+  felbontásban megvizsgáltunk, egy NaturAqua
+  multipack-kép teljesen üres volt. Egy Zafír-rekordhoz
+  nem volt helyi kép; ennél csak a teljes forrásnevet és
+  mennyiségi mezőket használtuk.
+- A Szentkirályi, Zafír, Comix, NaturAqua, Theodora
+  Kereki, Acqua Panna, Nestlé Aquarel és Cívis
+  termékek közvetlen képei a jelenlegi márkát,
+  kiszerelést és szénsavasságot igazolják. A
+  multipack-rekordoknál a csomag mennyiségi mezőit is
+  külön összevetettük az egyedi palack méretével.
+- A Comix képe közvetlenül `Szikvíz` feliratú, a Cívis
+  képe pedig `19 l`-es ballont és `Szénsavmentes`
+  feliratot mutat. Mivel egyikhez sincs pontosabb
+  meglévő levél, a korábban dokumentált
+  kategóriajavaslatok mellett a legközelebbi
+  `Ásványvíz` besorolásukat változatlanul hagytuk.
+- A régi visszaváltható üveges Szentkirályi és
+  NaturAqua rekordok nem a DRS-rendszer csomagolásai;
+  a meglévő `DRS: false` értékük ezért helyes.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a 25
+  jelenlegi ásványvízrekord külön mező- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X17289500320022` | ellenőrizve; a meglévő `Szentkirályi`, `6 × 1,5 l`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17293100320021` | ellenőrizve; a közvetlen címke szerinti `Zafír`, `6 × 500 ml`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17293100320022` | helyi kép nélkül, a forrásnév és mennyiségi mezők alapján ellenőrizve; `Zafír`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X18589400320021` | ellenőrizve; a közvetlen kép szerinti `Comix`, `8 × 1,5 l`, szénsavas, nem DRS-es szikvíz; a legközelebbi meglévő levél változatlan |
+| `BTY-X17288700320022` | ellenőrizve; a meglévő `Szentkirályi`, `18 × 500 ml`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17326600320021` | ellenőrizve; a közvetlen címke szerinti `NaturAqua`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17326600320022` | a helyi képfájl üres; a forrásnév és mennyiségi mezők alapján ellenőrizve; `NaturAqua`, `24 × 500 ml`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X18247200320021` | ellenőrizve; a közvetlen kép szerinti `NaturAqua`, `24 × 330 ml`, szénsavmentes, régi visszaváltható üveges, nem DRS-es besorolás változatlan |
+| `BTY-X17428400320021` | ellenőrizve; a közvetlen címke szerinti `NaturAqua`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17428400320022` | ellenőrizve; a meglévő `NaturAqua`, `12 × 500 ml`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17289200320021` | ellenőrizve; a közvetlen kép és forrásnév szerinti `Szentkirályi`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17289200320022` | ellenőrizve; a meglévő `Szentkirályi`, `6 × 1,5 l`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17356000320021` | ellenőrizve; a közvetlen címke szerinti `Theodora` Kereki, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17356000320022` | ellenőrizve; a meglévő `Theodora` Kereki, `12 × 500 ml`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X11727400320022` | ellenőrizve; a közvetlen kép szerinti `Szentkirályi`, `330 ml`, szénsavmentes, régi visszaváltható üveges, nem DRS-es besorolás változatlan |
+| `BTY-X18247300320021` | ellenőrizve; a közvetlen kép szerinti `NaturAqua`, `330 ml`, szénsavas, régi visszaváltható üveges, nem DRS-es besorolás változatlan |
+| `BTY-X17289600320021` | ellenőrizve; a közvetlen címkén `extra dús` jelölésű `Szentkirályi`, `1,5 l`, extra szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17289600320022` | ellenőrizve; a meglévő `Szentkirályi`, `6 × 1,5 l`, extra szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17355700320021` | ellenőrizve; a közvetlen címke szerinti `Theodora` Kereki, `330 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17381500320021` | ellenőrizve; a közvetlen kép szerinti `Acqua Panna`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17357300320021` | ellenőrizve; a közvetlen címke szerinti `Nestlé Aquarel`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17357300320022` | ellenőrizve; a meglévő `Nestlé Aquarel`, `6 × 1,5 l`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X2905900320021` | ellenőrizve; a közvetlen ballonképen `19 l` és `Szénsavmentes` jelölésű `Cívis`, nem DRS-es ásványvíz változatlan |
+| `BTY-X11727500320022` | ellenőrizve; a közvetlen kép szerinti `Szentkirályi`, `750 ml`, szénsavmentes, nem DRS-es üveges besorolás változatlan |
+| `BTY-X17356300320021` | ellenőrizve; a közvetlen címke szerinti `Theodora` Kereki, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 9. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. **23** rekordhoz volt helyi
+  képfájl; **19** használható képet eredeti
+  felbontásban megvizsgáltunk, négy multipack-kép
+  teljesen üres volt. Két Mizse-rekordhoz nem volt
+  helyi kép; ezeknél csak a teljes forrásnevet és
+  mennyiségi mezőket használtuk.
+- A Theodora, Mizse, Szentkirályi, San Pellegrino,
+  Acqua Panna, Nestlé Aquarel, NaturAqua, Evian,
+  Vöslauer termékek képei a márkát, az egyedi palack
+  méretét és a szénsavasságot közvetlenül igazolják.
+- A két Szentkirályi „szén-dioxiddal enyhén dúsított”
+  rekord régi, DRS-jelölés nélküli csomagolást
+  reprezentál. A hiányzó `DRS` mezőt mindkettőnél
+  `false` értékkel pótoltuk.
+- A 12 darabos Nestlé Aquarel teljes forrásneve
+  `0,5 l x 12` kiszerelést közöl. A téves egyedi
+  `500 ml` besorolást ezért `6000 ml`, 12 darabos,
+  `500 ml` egységnyi kiszerelésű `multipack`
+  besorolásra javítottuk.
+- A két Evian-rekord képei fel vannak cserélve: az
+  egyedi forráshoz hatos csomagképet, a hatos
+  forráshoz egyedi palackképet adtak. A teljes
+  terméknevek és mennyiségi mezők egymással
+  következetesek, ezért a jelenlegi egyedi és
+  multipack-besorolást változatlanul hagytuk.
+- Módosított rekord: **3**.
+- Módosított tulajdonságmező: **6**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **22**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a 25
+  jelenlegi ásványvízrekord külön mező- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X17356300320022` | ellenőrizve; a meglévő `Theodora` Kereki, `6 × 1,5 l`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17292000320021` | ellenőrizve; a közvetlen címke szerinti `Mizse`, `6 × 500 ml`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17292000320022` | helyi kép nélkül, a forrásnév és mennyiségi mezők alapján ellenőrizve; `Mizse`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17355600320021` | ellenőrizve; a közvetlen címke szerinti `Theodora` Kereki, `330 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17355600320022` | a helyi képfájl üres; a forrásnév és mennyiségi mezők alapján ellenőrizve; `Theodora` Kereki, `12 × 330 ml`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17289400320021` | hiányzó `DRS` → `false`; a közvetlen kép és teljes forrásnév szerinti `Szentkirályi`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `BTY-X17289400320022` | hiányzó `DRS` → `false`; a helyi képfájl üres, de a teljes forrásnév és mennyiségi mezők szerinti `Szentkirályi`, `6 × 1,5 l`, enyhén szénsavas multipack-besorolás egyébként változatlan |
+| `BTY-X17380700320021` | ellenőrizve; a közvetlen üvegkép szerinti `San Pellegrino`, `750 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17356100320021` | ellenőrizve; a közvetlen címke szerinti `Theodora` Kereki, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17356100320022` | ellenőrizve; a meglévő `Theodora` Kereki, `6 × 1,5 l`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17381800320021` | ellenőrizve; a közvetlen kép szerinti `Acqua Panna`, `1 l`, szénsavmentes, nem DRS-es PET-palackos besorolás változatlan |
+| `BTY-X17356800320022` | kiszerelés `500 ml` → `6000 ml`; hiányzó csomagdarabszám → `12`; hiányzó egységnyi kiszerelés → `500 ml`; hiányzó csomagolás → `multipack` |
+| `BTY-X18245300320021` | ellenőrizve; a közvetlen kép és forrásnév szerinti `NaturAqua`, `14 × 750 ml`, szénsavmentes, régi visszaváltható üveges, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17356900320022` | ellenőrizve; a közvetlen címke szerinti `Nestlé Aquarel`, `12 × 500 ml`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17576100320021` | ellenőrizve; a teljes forrásnév és mennyiségi mezők szerinti `Evian`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan; a hozzá rendelt kép tévesen hatos csomagot mutat |
+| `BTY-X17576100320023` | ellenőrizve; a teljes forrásnév és mennyiségi mezők szerinti `Evian`, `6 × 500 ml`, szénsavmentes, nem DRS-es multipack-besorolás változatlan; a hozzá rendelt kép tévesen egyedi palackot mutat |
+| `BTY-X17292200320021` | ellenőrizve; a közvetlen címke szerinti `Mizse`, `6 × 500 ml`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17292200320022` | helyi kép nélkül, a forrásnév és mennyiségi mezők alapján ellenőrizve; `Mizse`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17460700320021` | ellenőrizve; a közvetlen címke szerinti `Vöslauer`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17460700320022` | ellenőrizve; a meglévő `Vöslauer`, `8 × 500 ml`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17356700320021` | ellenőrizve; a közvetlen üvegkép szerinti `Theodora` Kereki, `330 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17356700320022` | a helyi képfájl üres; a forrásnév és mennyiségi mezők alapján ellenőrizve; `Theodora` Kereki, `24 × 330 ml`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17357000320021` | ellenőrizve; a közvetlen címke szerinti `Nestlé Aquarel`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17357000320022` | a helyi képfájl üres; a forrásnév és mennyiségi mezők alapján ellenőrizve; `Nestlé Aquarel`, `6 × 1,5 l`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17381600320021` | ellenőrizve; a közvetlen üvegkép szerinti `Acqua Panna`, `750 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 10. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. Mind a **25** rekordhoz volt
+  helyi képfájl; **22** használható képet eredeti
+  felbontásban megvizsgáltunk, három multipack-kép
+  teljesen üres volt.
+- A San Pellegrino, Evian, Vöslauer, Emese, Zafír,
+  NaturAqua, Theodora Calcia és Kereki, Nestlé
+  Aquarel, Jana, AVE és Cívis képei közvetlenül
+  igazolják a márkát, kiszerelést és szénsavasságot.
+- A két Emese-rekord teljes forrásneve és
+  `brand_name` mezője, továbbá mindkét palack címkéje
+  kizárólag az önálló `Emese` márkát mutatja. A téves
+  `Theodora` márkaértéket ezért `Emese` értékre
+  javítottuk, és az elemi, közvetlenül bizonyított új
+  értéket az ásványvíz márkalistájához felvettük.
+- A Zafír, NaturAqua, Theodora Kereki és Nestlé
+  Aquarel enyhén szénsavas rekordjai régi,
+  DRS-jelölés nélküli palackokat reprezentálnak. A
+  hiányzó `DRS` mezőt mind a négy rekordon `false`
+  értékkel pótoltuk.
+- A két egyforma nevű, 500 ml-es Jana-rekordhoz eltérő
+  régi palackkép tartozik, de mindkettő közvetlenül
+  `Jana`, 500 ml-es, szénsavmentes ásványvizet mutat;
+  ezért mindkét besorolás változatlan.
+- Módosított rekord: **6**.
+- Módosított tulajdonságmező: **6**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **19**.
+- Új megengedett érték: **1** (`Ital → Ásványvíz →
+  márka`: `Emese`).
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; az
+  `Emese` márka pontosan a két bizonyított célrekordon
+  szerepel, a 25 jelenlegi ásványvízrekord külön
+  mező- és hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X17380600320021` | ellenőrizve; a közvetlen palackkép szerinti `San Pellegrino`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17576400320021` | ellenőrizve; a közvetlen kép szerinti `Evian`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17576400320022` | a helyi képfájl üres; a forrásnév és mennyiségi mezők alapján ellenőrizve; `Evian`, `6 × 1,5 l`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17453700320021` | ellenőrizve; a közvetlen címke szerinti `Vöslauer`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17453700320022` | a helyi képfájl üres; a forrásnév és mennyiségi mezők alapján ellenőrizve; `Vöslauer`, `8 × 500 ml`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17380800320021` | ellenőrizve; a közvetlen palackkép szerinti `San Pellegrino`, `1 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17380800320022` | a helyi képfájl üres; a forrásnév és mennyiségi mezők alapján ellenőrizve; `San Pellegrino`, `6 × 1 l`, szénsavas, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X17289700320021` | márka `Theodora` → `Emese`; a közvetlen kép és forrásnév szerinti `1,5 l`, szénsavas, nem DRS-es ásványvíz egyébként változatlan |
+| `BTY-X17289800320021` | márka `Theodora` → `Emese`; a közvetlen kép és forrásnév szerinti `1,5 l`, szénsavmentes, nem DRS-es ásványvíz egyébként változatlan |
+| `BTY-X17293300320021` | hiányzó `DRS` → `false`; a közvetlen címke szerinti `Zafír`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `BTY-X17326100320021` | hiányzó `DRS` → `false`; a közvetlen címke szerinti `NaturAqua`, `500 ml`, enyhén szénsavas besorolás egyébként változatlan |
+| `BTY-X17355400320021` | ellenőrizve; a közvetlen címke szerinti `Theodora Calcia`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17355500320021` | ellenőrizve; a közvetlen címke szerinti `Theodora Calcia`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17356200320021` | hiányzó `DRS` → `false`; a közvetlen címke szerinti `Theodora` Kereki, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `BTY-X17357100320021` | hiányzó `DRS` → `false`; a közvetlen címke szerinti `Nestlé Aquarel`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `BTY-X17413000320021` | ellenőrizve; a közvetlen címke szerinti `Jana`, `1 l`, szénsavmentes, nem DRS-es sportkupakos besorolás változatlan |
+| `BTY-X17414700320021` | ellenőrizve; a közvetlen címke szerinti `Jana`, `500 ml`, szénsavmentes, nem DRS-es sportkupakos besorolás változatlan |
+| `BTY-X17414800320021` | ellenőrizve; a közvetlen címke szerinti `Jana`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17445800320021` | ellenőrizve; a közvetlen kép szerinti `Vöslauer Sport`, `750 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17453900320021` | ellenőrizve; a közvetlen címke szerinti `Vöslauer`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17460900320021` | ellenőrizve; a közvetlen címke szerinti `Vöslauer`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17519800320021` | ellenőrizve; a közvetlen címke szerinti `AVE`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17519900320021` | ellenőrizve; a közvetlen címke szerinti `AVE`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `BTY-X17520000320021` | ellenőrizve; a közvetlen címke szerinti `AVE`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X17520500320021` | ellenőrizve; a közvetlen címke szerinti `Cívis`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 11. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. Mind a **25** helyi
+  termékképet használható minőségben, eredeti
+  felbontásban megvizsgáltuk.
+- A Vöslauer, VOSS, Mizse, NaturAqua, Kékforrás,
+  Szentkirályi, CBA Minera, CBA Pannon-Aqua termékek
+  képei közvetlenül igazolják a márkát, kiszerelést és
+  szénsavasságot.
+- A VOSS teljes forrásneve és közvetlen üvegképe
+  természetes norvég ártézi vizet, nem természetes
+  ásványvizet igazol. Mivel pontosabb meglévő levél
+  nincs, az `Ásványvíz` besorolást változatlanul
+  hagytuk, és a terméket hozzáadtuk a már dokumentált
+  `Ital → Egyéb ivóvíz` kategóriajavaslat indokához.
+- A Penny Szentkirályi, valamint a két Prima
+  NaturAqua enyhén szénsavas rekord régi,
+  DRS-jelölés nélküli palackot reprezentál. A hiányzó
+  `DRS` mezőt mindháromnál `false` értékkel pótoltuk.
+- A két CBA Minera 500 ml-es rekord teljes forrásneve
+  kifejezetten `DRS` jelölésű; ezért a közvetlen képen
+  nem látható embléma ellenére a meglévő `DRS: true`
+  értékük helyes.
+- Módosított rekord: **3**.
+- Módosított tulajdonságmező: **3**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **22**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a 25
+  jelenlegi ásványvízrekord külön mező- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X18051800320021` | ellenőrizve; a közvetlen címkén `super sparkling` és `highly carbonated` jelölésű `Vöslauer`, `1,5 l`, extra szénsavas, nem DRS-es besorolás változatlan |
+| `BTY-X18051900320021` | ellenőrizve; a közvetlen üvegkép és forrásnév szerinti `VOSS`, `375 ml`, szénsavmentes, nem DRS-es ártézi víz; a legközelebbi meglévő levél változatlan |
+| `BTY-X7298000320022` | ellenőrizve; a közvetlen címke szerinti `Mizse`, `6 × 1 l`, szénsavmentes, nem DRS-es multipack-besorolás változatlan |
+| `BTY-X18245400320021` | ellenőrizve; a közvetlen üvegkép és forrásnév szerinti `NaturAqua`, `14 × 750 ml`, szénsavas, régi visszaváltható üveges, nem DRS-es multipack-besorolás változatlan |
+| `1012097` | ellenőrizve; a közvetlen Penny-kép szerinti `Kékforrás`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `1023379` | ellenőrizve; a közvetlen Penny-kép szerinti `Kékforrás Libra`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `1012106` | ellenőrizve; a közvetlen Penny-kép szerinti `Kékforrás`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `1012109` | ellenőrizve; a közvetlen Penny-kép szerinti `Kékforrás`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `4604826` | ellenőrizve; a közvetlen címkén `Minera dús` jelölésű `Kékforrás`, `1,5 l`, extra szénsavas, nem DRS-es besorolás változatlan |
+| `1012094` | ellenőrizve; a közvetlen Penny-kép szerinti `Kékforrás`, `2 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `1012107` | ellenőrizve; a közvetlen Penny-kép szerinti `Kékforrás`, `2 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `986080` | ellenőrizve; a közvetlen Penny-kép szerinti `Szentkirályi`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `986290` | ellenőrizve; a közvetlen Penny-kép szerinti `Szentkirályi`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `986291` | hiányzó `DRS` → `false`; a közvetlen Penny-kép és forrásnév szerinti `Szentkirályi`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `986292` | ellenőrizve; a közvetlen Penny-kép szerinti `Szentkirályi`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `986293` | ellenőrizve; a közvetlen címkén `extra dús` jelölésű `Szentkirályi`, `1,5 l`, extra szénsavas, nem DRS-es besorolás változatlan |
+| `ec8e2d7a45292dc0e511481a` | ellenőrizve; a közvetlen Prima-kép szerinti `CBA Minera`, `2 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `875dbbb95244f97305b4d317` | ellenőrizve; a teljes forrásnév kifejezetten DRS-es `CBA Minera`, `500 ml`, szénsavas ásványvizet igazol; `DRS: true` változatlan |
+| `ed294413f3a82fc28b9a8197` | ellenőrizve; a teljes forrásnév kifejezetten DRS-es `CBA Minera`, `500 ml`, szénsavmentes ásványvizet igazol; `DRS: true` változatlan |
+| `a96d2f36b5cecee09c11afa6` | ellenőrizve; a közvetlen Prima-kép szerinti `CBA Pannon-Aqua`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `913a824486991a0c73e0f077` | ellenőrizve; a közvetlen Prima-kép szerinti `CBA Pannon-Aqua`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `344d38dce32ce56b4e338f4d` | ellenőrizve; a közvetlen Prima-kép szerinti `NaturAqua`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `93de2254a2d470c3462f27c9` | ellenőrizve; a közvetlen Prima-kép szerinti `NaturAqua`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `571a2256c45d8c95f00bea1a` | hiányzó `DRS` → `false`; a közvetlen Prima-kép szerinti `NaturAqua`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `7289ebc34b2194d29a37feb8` | hiányzó `DRS` → `false`; a közvetlen Prima-kép szerinti `NaturAqua`, `500 ml`, enyhén szénsavas besorolás egyébként változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 12. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. Mind a **25** helyi
+  termékképet használható minőségben, eredeti
+  felbontásban megvizsgáltuk.
+- A NaturAqua, Mizse, Primavera, Nestlé Aquarel,
+  Szentkirályi, Theodora Calcia, Theodora Kereki,
+  Theodora–Emese, Jana és SPAR Verde képei közvetlenül
+  igazolják a márkát, kiszerelést és szénsavasságot.
+- A Mizse, Szentkirályi és Theodora enyhén szénsavas
+  rekord régi, DRS-jelölés nélküli palackot
+  reprezentál. A hiányzó `DRS` mezőt mindháromnál
+  `false` értékkel pótoltuk.
+- A két Theodora–Emese címkén a nagy `Emese` felirat
+  mellett a `THEODORA` gyűjtőmárka is közvetlenül
+  olvasható, és a teljes forrásnév mindkettőt közli.
+  Ezért a korábbi döntéssel összhangban a meglévő
+  `Theodora` márkaértéket változatlanul hagytuk.
+- A Primavera szénsavmentes rekord közvetlen képe régi
+  csomagolást mutat, de teljes forrásneve kifejezetten
+  `DRS` jelölésű; ezért a meglévő `DRS: true` érték
+  helyes.
+- Módosított rekord: **3**.
+- Módosított tulajdonságmező: **3**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **22**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a 25
+  jelenlegi ásványvízrekord külön mező- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `8b1a156cfe4b5b11766026be` | ellenőrizve; a közvetlen Prima-kép szerinti `NaturAqua`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `9fe4c809dee9dee82fc22c24` | ellenőrizve; a közvetlen Prima-kép szerinti `NaturAqua`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `f7b46b152f13e6707fe3ba47` | ellenőrizve; a közvetlen Prima-kép szerinti `Mizse`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `a1f29c49a67f3bed4fe28cd0` | ellenőrizve; a közvetlen Prima-kép szerinti `Mizse`, `2 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `29c530e8d85ee3cddf3de1a8` | hiányzó `DRS` → `false`; a közvetlen Prima-kép szerinti `Mizse`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `7c25f5dee734e67f1a415e8a` | ellenőrizve; a teljes forrásnév szerint DRS-es `Primavera`, `1,5 l`, szénsavmentes ásványvíz; `DRS: true` változatlan |
+| `eef7fbc5863af2cd37aa8703` | ellenőrizve; a közvetlen Prima-kép szerinti `Primavera`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `62e6924192856df2ada04586` | ellenőrizve; a közvetlen címke szerinti `Nestlé Aquarel`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `e5521655b37b6a8a3ebbfcec` | ellenőrizve; a közvetlen címke szerinti `Nestlé Aquarel`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `6a21f47e5edd5146937e1025` | ellenőrizve; a közvetlen címkén `extra dús` jelölésű `Szentkirályi`, `1,5 l`, extra szénsavas, nem DRS-es besorolás változatlan |
+| `d36d1438455b5ff4f06dcaae` | ellenőrizve; a közvetlen Prima-kép szerinti `Szentkirályi`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `8665d55a84df5ec7558e69d4` | ellenőrizve; a közvetlen Prima-kép szerinti `Szentkirályi`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `785a413905156484cec5afbd` | hiányzó `DRS` → `false`; a közvetlen Prima-kép szerinti `Szentkirályi`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `322053f3dc8357e1fab79bac` | ellenőrizve; a közvetlen címke szerinti `Theodora Calcia`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `60d7d79815d0f860c0114431` | ellenőrizve; a közvetlen címke szerinti `Theodora Calcia`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `c3877e0cda8bfb90b78bc841` | hiányzó `DRS` → `false`; a közvetlen Prima-kép szerinti `Theodora`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `6ac838218c235344e1287537` | ellenőrizve; a közvetlen Prima-kép szerinti `Theodora`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `929f8afd6d06e7f31c6c33eb` | ellenőrizve; a közvetlen Prima-kép szerinti `Theodora`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `dbf13f1b1a928b20a79ed429` | ellenőrizve; a közvetlen Prima-kép szerinti `Theodora`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `719425a4cdbdc53f5389964f` | ellenőrizve; a közvetlen Prima-kép szerinti `Theodora`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `ecab4c9e330607deab5ea863` | ellenőrizve; a közvetlen címke szerinti `Jana`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `a02a73d3f80640815ab0b04f` | ellenőrizve; a közvetlen címke szerinti `Theodora` Kereki, `330 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `3541be05288a2b8063d47ad5` | ellenőrizve; a közvetlen címkén `THEODORA` és `Emese` jelölésű, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `5b37b01b4b4d082693392dc5` | ellenőrizve; a közvetlen címkén `THEODORA` és `Emese` jelölésű, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `7133fbaa7e00e4e607bf997d` | ellenőrizve; a közvetlen címke szerinti `SPAR Verde`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 13. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. Mind a **25** helyi
+  termékképet használható minőségben, eredeti
+  felbontásban megvizsgáltuk.
+- A Jana, NaturAqua, Emese, Theodora, Szentkirályi,
+  Nestlé Aquarel, Primavera és Mizse képei közvetlenül
+  igazolják a márkát, kiszerelést és szénsavasságot.
+- A két közvetlen képen és a teljes forrásnévben is
+  kizárólag `Emese` néven szereplő rekord téves
+  `Theodora` márkaértékét `Emese` értékre javítottuk.
+  Az `Emese` márka már az előző, bizonyított javítás
+  nyomán szerepel az ásványvíz megengedett értékei között,
+  ezért új faértéket nem kellett felvenni.
+- A Szentkirályi és a Mizse enyhén szénsavas rekord régi,
+  DRS-jelölés nélküli palackot reprezentál. A hiányzó
+  `DRS` mezőt mindkettőnél `false` értékkel pótoltuk.
+- Módosított rekord: **4**.
+- Módosított tulajdonságmező: **4**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **21**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a négy
+  módosított ásványvízrekord külön célállapot- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `ccbdb706edc0bf1eb17b9040` | ellenőrizve; a közvetlen címke szerinti `Jana`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `1eba93617a419abc920b4e6e` | ellenőrizve; a közvetlen kép szerinti `NaturAqua`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `72edd8910661b7ce94f48385` | márka `Theodora` → `Emese`; a teljes forrásnév és a közvetlen címke kizárólag az `Emese` márkát igazolja; az `1,5 l`, szénsavmentes, nem DRS-es besorolás egyébként változatlan |
+| `36376f10e53b16319b40e3c7` | ellenőrizve; a közvetlen kép szerinti `NaturAqua`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `11b77701f6aae8ffe28a4207` | márka `Theodora` → `Emese`; a teljes forrásnév és a közvetlen címke kizárólag az `Emese` márkát igazolja; az `1,5 l`, szénsavas, nem DRS-es besorolás egyébként változatlan |
+| `ba71447b471146606f5ba53a` | ellenőrizve; a közvetlen címke szerinti `Theodora`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `99442902cc4a116cfc4f99fd` | hiányzó `DRS` → `false`; a közvetlen kép és forrásnév szerinti `Szentkirályi`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `6f5552e6a970334aad34b4cb` | ellenőrizve; a közvetlen kép szerinti `Szentkirályi`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `e865d88a0778a3e2403e3e94` | ellenőrizve; a közvetlen kép szerinti `Szentkirályi`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `cfb94eb39e7625f3a0804883` | ellenőrizve; a közvetlen kép szerinti `Szentkirályi`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `79dd5702bc1db67fdd924c3e` | ellenőrizve; a közvetlen sportkupakos kép szerinti `Szentkirályi Sport`, `750 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `60d2e32f55f680d596c34e63` | ellenőrizve; a közvetlen kép szerinti `Szentkirályi`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `6fd3bd6ee13aca39c3ef9b3c` | ellenőrizve; a közvetlen címke szerinti `Nestlé Aquarel Cédrus`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `199be2c11cd038769b5e9cb4` | ellenőrizve; a közvetlen címkén `extra dús` jelölésű `Szentkirályi`, `1,5 l`, extra szénsavas, nem DRS-es besorolás változatlan |
+| `b51d305556f1a53d93f88da0` | ellenőrizve; a közvetlen címke szerinti `Nestlé Aquarel Cédrus`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `3a664beefcec8d91542be1d7` | ellenőrizve; a közvetlen címke szerinti `Theodora`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `26baa0c598b12a73876a7d74` | ellenőrizve; a közvetlen címke szerinti `Primavera`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `29993f8721ee81f2827f9938` | ellenőrizve; a közvetlen címke szerinti `Mizse`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `5eb5ee7286d184044aba6a81` | ellenőrizve; a közvetlen címke szerinti `Primavera`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `1c1cb4aabc8245808c0703d9` | ellenőrizve; a közvetlen címke szerinti `Primavera`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `32f936f4748aa73c0b0b3c04` | ellenőrizve; a közvetlen címke szerinti `Mizse`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `91dc0ef1d2cd0caaed7eefac` | ellenőrizve; a közvetlen címke szerinti `Mizse`, `2 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `6c50ca322b1e8c8eff7c02d5` | hiányzó `DRS` → `false`; a közvetlen kép és forrásnév szerinti `Mizse`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `24be4aa5a3bc774d8367842d` | ellenőrizve; a közvetlen kép szerinti `NaturAqua`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `eaeb8f27cf1f348128353ab0` | ellenőrizve; a közvetlen kép szerinti `NaturAqua`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 14. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. Mind a **25** helyi
+  termékképet használható minőségben, eredeti
+  felbontásban megvizsgáltuk.
+- A Smartwater, SPAR Verde, S-Budget Zafír és Libra,
+  Jana, Mira, Peridot, Theodora Calcia, Hunyadi János,
+  Ferenc József, Szentkirályi, Salvus, Theodora–Emese és
+  Tesco képei a forrásnévvel együtt közvetlenül igazolják
+  a rögzített márkát, kiszerelést és szénsavasságot.
+- A Smartwater desztillált, hozzáadott ásványi anyagokat
+  tartalmazó ivóvíz, a Mira, Hunyadi János, Ferenc József
+  és Salvus pedig gyógyvíz. Pontosabb meglévő levél
+  hiányában az `Ásványvíz` besorolásuk változatlan; ezek
+  már szerepelnek az összegyűjtött kategóriajavaslatok
+  indokában.
+- A SPAR Verde enyhén szénsavas rekord régi,
+  DRS-jelölés nélküli palackot reprezentál. A hiányzó
+  `DRS` mezőt `false` értékkel pótoltuk.
+- A két Tesco Theodora–Emese rekord teljes forrásneve
+  mindkét megnevezést közli; a korábbi azonos
+  termékekkel összhangban a `Theodora` márkaérték
+  változatlan.
+- Módosított rekord: **1**.
+- Módosított tulajdonságmező: **1**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **24**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a módosított
+  ásványvízrekord külön célállapot- és hash-ellenőrzése
+  szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `f4699baa15c1da274ae18505` | ellenőrizve; a közvetlen címke szerinti `Glacéau Smartwater`, `600 ml`, szénsavmentes, nem DRS-es desztillált ivóvíz; a legközelebbi meglévő levél változatlan |
+| `4a8a4b57c920d5929cc9a954` | ellenőrizve; a közvetlen címke szerinti `SPAR Verde Fröccsvíz`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `f3635c6da2b7297c86491e8f` | hiányzó `DRS` → `false`; a közvetlen címke szerinti `SPAR Verde`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `741c09816bc7b0d19e9bb552` | ellenőrizve; a közvetlen címke szerinti `SPAR Verde`, `750 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `33fa399e39c6fd413b542a8d` | ellenőrizve; a közvetlen címke szerinti `SPAR Verde`, `750 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `0f7d64b1bf6c8fd656c68990` | ellenőrizve; a közvetlen címke szerinti `SPAR Verde`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `781837c87ba5d498bb3af504` | ellenőrizve; a közvetlen címke szerinti `S-Budget Zafír`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `c3a60455445a7a7c6b11f05a` | ellenőrizve; a közvetlen címke szerinti `S-Budget Zafír`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `a7380d6d467b6348ba172a53` | ellenőrizve; a közvetlen sportkupakos kép szerinti `Jana`, `1 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `70013bf14c179b83d9ace432` | ellenőrizve; a közvetlen címke szerinti `S-Budget Libra`, `2 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `c0ab5466e1b16fcf0dc89f77` | ellenőrizve; a közvetlen címke szerinti `S-Budget Libra`, `2 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `c5cd943db805fc012f524077` | ellenőrizve; a közvetlen címke szerinti `Mira`, `700 ml`, szénsavmentes, nem DRS-es gyógyvíz; a legközelebbi meglévő levél változatlan |
+| `e39eb918e6c887581ec50450` | ellenőrizve; a közvetlen címke szerinti `Peridot`, `1,5 l`, természetesen lúgos, szénsavmentes, nem DRS-es ásványvíz besorolása változatlan |
+| `6fd5339a660930d593a0850b` | ellenőrizve; a közvetlen címke szerinti `Theodora Calcia`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `bd088cfe1f8966d0d5879e47` | ellenőrizve; a közvetlen címke szerinti `Hunyadi János`, `700 ml`, szénsavmentes, nem DRS-es gyógyvíz; a legközelebbi meglévő levél változatlan |
+| `463796a6bb9a4af4c122ad04` | ellenőrizve; a közvetlen címke szerinti `Ferenc József`, `700 ml`, szénsavmentes, nem DRS-es gyógyvíz; a legközelebbi meglévő levél változatlan |
+| `edffd9024d82e754686e5f95` | ellenőrizve; a közvetlen címke szerinti `Theodora Calcia`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `610aff847416e82e4ee3ff36` | ellenőrizve; a közvetlen fogantyús palack szerinti `Szentkirályi`, `5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `87731dd81c33d6d80372aecf` | ellenőrizve; a közvetlen címke szerinti `SPAR Verde Fröccsvíz`, `750 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `c32cda815776c17f74ad9337` | ellenőrizve; a közvetlen címke szerinti `Salvus`, `1,5 l`, szénsavmentes, nem DRS-es gyógyvíz; a legközelebbi meglévő levél változatlan |
+| `121229934` | ellenőrizve; a közvetlen Tesco-kép szerinti `Szentkirályi`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121254615` | ellenőrizve; a teljes forrásnév szerinti `Theodora Emese`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121254667` | ellenőrizve; a teljes forrásnév szerinti `Theodora Emese`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `121230195` | ellenőrizve; a közvetlen Tesco-kép szerinti `Szentkirályi`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `121233888` | ellenőrizve; a közvetlen címke szerinti `Tesco`, `1,5 l`, szénsavmentes, nem DRS-es ásványvíz; az összevont forrásnév ellenére a rögzített márka helyes |
+
+### Ásványvíz kézi felülvizsgálat, 15. blokk
+
+- Az `Ásványvíz` levél következő **25** egyedi teljes
+  rekordját, eredeti CSV-forrássorát és minden mezőjét
+  egyenként ellenőriztük. Mind a **25** helyi Tesco-képet
+  használható minőségben, eredeti felbontásban
+  megvizsgáltuk.
+- A Tesco Zafír és Libra, Szentkirályi, Mizse,
+  Nestlé Aquarel Cédrus, Primavera, Theodora,
+  Theodora Calcia, NaturAqua és Jana képei a teljes
+  forrásnévvel együtt közvetlenül igazolják a márkát,
+  kiszerelést és szénsavasságot.
+- A Szentkirályi, Tesco Zafír, Mizse és Theodora enyhén
+  szénsavas rekord régi, DRS-jelölés nélküli palackot
+  reprezentál. A hiányzó `DRS` mezőt mind a négy
+  rekordon `false` értékkel pótoltuk.
+- Módosított rekord: **4**.
+- Módosított tulajdonságmező: **4**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **21**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. A teljes **12 455**
+  italrekord útvonal-, tulajdonság-, érték- és
+  hash-paritási ellenőrzése 0 hibával zárult; a négy
+  módosított ásványvízrekord külön célállapot- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `121233773` | ellenőrizve; a közvetlen címke szerinti `Tesco Zafír`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `121230154` | hiányzó `DRS` → `false`; a közvetlen Tesco-kép és forrásnév szerinti `Szentkirályi`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `121233825` | hiányzó `DRS` → `false`; a közvetlen címke és forrásnév szerinti `Tesco Zafír`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `121233675` | ellenőrizve; a közvetlen Tesco-kép szerinti `Mizse`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121233652` | ellenőrizve; a közvetlen Tesco-kép szerinti `Mizse`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `121229698` | ellenőrizve; a közvetlen címkén `extra dús` jelölésű `Szentkirályi`, `1,5 l`, extra szénsavas, nem DRS-es besorolás változatlan |
+| `121229911` | ellenőrizve; a közvetlen címke szerinti `Nestlé Aquarel Cédrus`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121233721` | hiányzó `DRS` → `false`; a közvetlen Tesco-kép és forrásnév szerinti `Mizse`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `210293726` | ellenőrizve; a közvetlen fogantyús palack szerinti `Szentkirályi`, `5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121233911` | ellenőrizve; a közvetlen Tesco-kép szerinti `Primavera`, `2 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121229905` | ellenőrizve; a közvetlen címke szerinti `Theodora`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121230183` | ellenőrizve; a közvetlen címke szerinti `Nestlé Aquarel Cédrus`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `121230160` | ellenőrizve; a közvetlen címke szerinti `Theodora`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `121234081` | ellenőrizve; a közvetlen Tesco-kép szerinti `Primavera`, `2 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `121216857` | ellenőrizve; a közvetlen címke szerinti `NaturAqua`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121229963` | ellenőrizve; a közvetlen címke szerinti `Theodora Calcia`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121230148` | hiányzó `DRS` → `false`; a közvetlen címke és forrásnév szerinti `Theodora`, `1,5 l`, enyhén szénsavas besorolás egyébként változatlan |
+| `121234426` | ellenőrizve; a közvetlen címke szerinti `Jana`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121229750` | ellenőrizve; a közvetlen Tesco-kép szerinti `Szentkirályi`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121230200` | ellenőrizve; a közvetlen címke szerinti `Theodora Calcia`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `121233905` | ellenőrizve; a közvetlen címke szerinti `Tesco Libra`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121233894` | ellenőrizve; a közvetlen címke szerinti `Tesco Zafír`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `121233744` | ellenőrizve; a közvetlen sportkupakos kép szerinti `Mizse`, `1 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121234109` | ellenőrizve; a közvetlen Tesco-kép szerinti `Mizse`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121229721` | ellenőrizve; a közvetlen Tesco-kép szerinti `Szentkirályi`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 16. blokk
+
+- Az `Ásványvíz` eredeti célkészletének következő **25**
+  egyedi teljes rekordját, eredeti CSV-forrássorát és
+  minden mezőjét egyenként ellenőriztük. Mind a **25**
+  helyi Tesco-képet használható minőségben, eredeti
+  felbontásban megvizsgáltuk.
+- A Mizse, Jana, NaturAqua, Szentkirályi Cseppség,
+  Smartwater, Evian, Nestlé Aquarel Cédrus, Vöslauer
+  Sport, Floewater, Jamnica, San Pellegrino, VOSS,
+  Fonte Natura, Aqvital és Füredi képei a teljes
+  forrásnévvel együtt közvetlenül igazolják a rögzített
+  termékazonosságot, kiszerelést és szénsavasságot.
+- A `Szentkirályi Cseppség` teljes forráskategóriája
+  `Baba | Bébiital | Bébiital | Babavíz`, a közvetlen kép
+  pedig gyermekeknek szánt Cseppség-palackot mutat. A
+  rekordot ezért az `Ital → Ásványvíz` útvonalról a már
+  meglévő, pontos `Baba → Bébiital, víz → Bébivíz`
+  útvonalra soroltuk át; minden tulajdonsága ott is
+  megengedett.
+- A `Fonte Natura` teljes forrásneve és közvetlen címkéje
+  is a teljes `Fonte Natura` márkát igazolja, ezért a
+  rövidített `Fonte` márkaértéket `Fonte Natura` értékre
+  javítottuk. Mindkét érték már szerepelt a fában, így
+  faérték-módosítás nem kellett.
+- A Floewater duplán szűrt ivóvíz, az Aqvital és a két
+  Füredi termék pedig lúgos/ionizált ital; pontosabb
+  meglévő vízlevél hiányában az `Ásványvíz` besorolásuk
+  változatlan, és bekerültek az `Egyéb ivóvíz`
+  kategóriajavaslat indokába.
+- Módosított rekord: **2**.
+- Módosított tulajdonságmező: **1**.
+- Kézi kategória-átsorolás: **1**.
+- Változatlanul hagyott rekord: **23**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Mindkét JSON beolvasása sikeres. Az eredeti **12 455**
+  ital-célrekordból álló ellenőrzési halmaz (a jelenlegi
+  **12 454** `Ital` rekord és az egy bizonyítottan
+  `Baba` alá átsorolt rekord) útvonal-, tulajdonság-,
+  érték- és hash-paritási ellenőrzése 0 hibával zárult;
+  a két módosított rekord külön célállapot- és
+  hash-ellenőrzése szintén 0 hibát talált.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `121234138` | ellenőrizve; a közvetlen Tesco-kép szerinti `Mizse`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `121234259` | ellenőrizve; a közvetlen sportkupakos kép szerinti `Jana`, `1 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121216834` | ellenőrizve; a közvetlen címke szerinti `NaturAqua`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121259034` | kategória `Ital → Ásványvíz` → `Baba → Bébiital, víz → Bébivíz`; a teljes forráskategória és a közvetlen `Szentkirályi Cseppség` kép `330 ml`, szénsavmentes, nem DRS-es babavizet igazol |
+| `121217862` | ellenőrizve; a közvetlen címke szerinti `Glacéau Smartwater`, `600 ml`, szénsavmentes, nem DRS-es desztillált ivóvíz; a legközelebbi meglévő vízlevél változatlan |
+| `121217879` | ellenőrizve; a közvetlen címke szerinti `Glacéau Smartwater`, `1,1 l`, szénsavmentes, nem DRS-es desztillált ivóvíz; a legközelebbi meglévő vízlevél változatlan |
+| `121234196` | ellenőrizve; a közvetlen címke szerinti `Jana`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121220460` | ellenőrizve; a közvetlen címke szerinti `Evian`, `1,5 l`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121216828` | ellenőrizve; a közvetlen címke szerinti `NaturAqua`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `121229595` | ellenőrizve; a közvetlen címke szerinti `Nestlé Aquarel Cédrus`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121232941` | ellenőrizve; a közvetlen sportkupakos kép és forrásnév szerinti `Vöslauer Sport`, `750 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121229623` | ellenőrizve; a közvetlen címke szerinti `Nestlé Aquarel Cédrus`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `121266135` | ellenőrizve; a közvetlen dobozkép szerinti `Floewater Sparkling`, `250 ml`, szénsavas, nem DRS-es, duplán szűrt ivóvíz; a legközelebbi meglévő vízlevél változatlan |
+| `121254673` | ellenőrizve; a közvetlen címke szerinti `Jamnica`, `1,5 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `121284648` | ellenőrizve; a közvetlen üvegkép szerinti `San Pellegrino`, `1 l`, szénsavas, nem DRS-es besorolás változatlan |
+| `121220477` | ellenőrizve; a közvetlen címke szerinti `Evian`, `500 ml`, szénsavmentes, nem DRS-es besorolás változatlan |
+| `121266152` | ellenőrizve; a közvetlen dobozkép szerinti `Floewater Still`, `250 ml`, szénsavmentes, nem DRS-es, duplán szűrt ivóvíz; a legközelebbi meglévő vízlevél változatlan |
+| `121272910` | ellenőrizve; a közvetlen üvegkép és forrásnév szerinti `VOSS`, `375 ml`, szénsavas, nem DRS-es víz; a legközelebbi meglévő vízlevél változatlan |
+| `121254258` | ellenőrizve; a közvetlen címke szerinti `Vöslauer`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `121272904` | ellenőrizve; a közvetlen üvegkép és forrásnév szerinti `VOSS`, `375 ml`, szénsavmentes, nem DRS-es víz; a legközelebbi meglévő vízlevél változatlan |
+| `121284337` | ellenőrizve; a közvetlen üvegkép szerinti `San Pellegrino`, `500 ml`, szénsavas, nem DRS-es besorolás változatlan |
+| `121287392` | márka `Fonte` → `Fonte Natura`; a teljes forrásnév és közvetlen címke szerinti `1,5 l`, szénsavas, nem DRS-es ásványvíz egyébként változatlan |
+| `121290030` | ellenőrizve; a közvetlen címke szerinti `Aqvital`, `1,5 l`, lúgos ionizált, szénsavmentes, nem DRS-es víz; a legközelebbi meglévő vízlevél változatlan |
+| `121312000` | ellenőrizve; a közvetlen címke szerinti `Füredi OXION`, `750 ml`, oxigénnel dúsított lúgosító, szénsavmentes, nem DRS-es ital; a legközelebbi meglévő vízlevél változatlan |
+| `121312017` | ellenőrizve; a közvetlen címke szerinti `Füredi ION`, `750 ml`, lúgosító, szénsavmentes, nem DRS-es ital; a legközelebbi meglévő vízlevél változatlan |
+
+### Ásványvíz kézi felülvizsgálat, 17. záró blokk
+
+- Az `Ásványvíz` eredeti célkészletének utolsó **2**
+  egyedi teljes rekordját, eredeti CSV-forrássorát és
+  minden mezőjét egyenként ellenőriztük. Mindkét helyi
+  Tesco-képet használható minőségben, eredeti
+  felbontásban megvizsgáltuk.
+- Mindkét közvetlen címke `Ursu` természetes ásványvizet
+  mutat; az 500 ml-es és az 1,5 l-es kiszerelés, a
+  szénsavmentesség és a régi, DRS-jelölés nélküli
+  csomagolás is egyezik a meglévő tulajdonságokkal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **2**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Az eredeti **402** ásványvíz-célrekord kézi
+  felülvizsgálata ezzel lezárult: **401** maradt az
+  `Ital → Ásványvíz` útvonalon, **1** bizonyított
+  babavíz pedig a `Baba → Bébiital, víz → Bébivíz`
+  útvonalra került.
+- Mindkét JSON beolvasása sikeres. Az eredeti **12 455**
+  ital-célrekordból álló ellenőrzési halmaz útvonal-,
+  tulajdonság-, érték- és hash-paritási ellenőrzése
+  0 hibával zárult; az eredeti 402 ásványvíz-célazonosító
+  mindegyike pontosan egyszer szerepel a kézi naplóban.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `121351788` | ellenőrizve; a közvetlen címke szerinti `Ursu`, `500 ml`, szénsavmentes, nem DRS-es természetes ásványvíz besorolása változatlan |
+| `121351828` | ellenőrizve; a közvetlen címke szerinti `Ursu`, `1,5 l`, szénsavmentes, nem DRS-es természetes ásványvíz besorolása változatlan |
+
 ## Új kategória- vagy tulajdonságjavaslatok
 
-Eddig nincs olyan javaslat, amely új kategóriát vagy új tulajdonságot
-indokolna.
+Az alábbi javaslatokat csak összegyűjtöttük; a
+kategóriafát ezekkel nem bővítettük:
+
+| Javaslat | Indok |
+|---|---|
+| `Ital → Gyógyvíz` | A Parádi kénes, Ferenc József, Mira, Hunyadi János és Salvus termékneve és közvetlen címkéje gyógyvizet igazol. A gyógyvíz jogilag és felhasználásában is eltér a természetes ásványvíztől, de jelenleg nincs hozzá külön levél. |
+| `Ital → Egyéb ivóvíz` | A Glacéau Smartwater desztillált víz hozzáadott ásványi anyagokkal; a Floewater duplán szűrt ivóvíz; a Nanna VitalpH, Aqvital és Füredi ION/OXION lúgos vagy ionizált vízalapú ital; a VOSS pontos neve és közvetlen üvegképe pedig természetes, norvég ártézi vizet igazol. Egyik sem illeszkedik pontosan a természetes ásványvíz fogalmába, de jelenleg az `Ásványvíz` az egyetlen használható, ízesítetlen vízlevél. |
+| `Ital → Szódavíz és szikvíz` | A Comix közvetlen címkéje `Szikvíz`, termékadata pedig szűrt, tisztított ivóvizet és hozzáadott szén-dioxidot közöl. Ez nem természetes ásványvíz, de jelenleg nincs hozzá pontosabb meglévő levél. |
 
 ## Ellenőrzések
 
 - Mindkét JSON újra beolvasható.
 - Termékrekordok: **47 030**, összetett áruház–termékazonosító: **47 030
   egyedi**.
-- `Ital` termékek: **12 455**.
+- Jelenlegi `Ital` termékek: **12 454**; az eredeti
+  **12 455** ital-célrekordból **1** bizonyítottan a
+  `Baba → Bébiital, víz → Bébivíz` útvonalra került.
 - Alkoholos célág: **5 493** termék.
+- Energiaital: **315** termék; `Funkcionális italok →
+  Sport-, izotóniás, kollagén- és shot ital`: **182** termék;
+  `Gyümölcs- és zöldségitalok → Lé`: **391** termék;
+  `Gyümölcs- és zöldségitalok → Gyümölcsital`:
+  **724** termék;
+  `Gyümölcs- és zöldségitalok → Nektár`: **90** termék;
+  `Gyümölcs- és zöldségitalok → Smoothie és püréital`:
+  **128** termék.
+- `Üdítőitalok → Jegestea`: **488** termék.
+- `Üdítőitalok → Egyéb ízesített üdítőital`: **855**
+  termék.
 - Likőr: **589**; Egyéb szeszes ital: **144**; Koktél és előre
   kevert ital: **112**.
 - Termékoldali, fában nem deklarált tulajdonság vagy érték: **0**.
