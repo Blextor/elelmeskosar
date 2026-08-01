@@ -2,7 +2,7 @@
 
 Dátum: 2026-07-29
 
-Állapot: folyamatban
+Állapot: kész
 
 ## Hatókör és szabályok
 
@@ -23,11 +23,13 @@ Dátum: 2026-07-29
 
 | Ellenőrzött | Összes | Készültség |
 |---:|---:|---:|
-| 8102 | 12 455 | 65,05% |
+| 12 455 | 12 455 | 100% |
 
-Az előrehaladás egyedi termékazonosítók alapján számol. A korábbi 2 734-es
-érték 45 olyan Bikavér-rekord második ellenőrzését is új termékként számolta,
-amely az első tételcsalád után a sorszámos borkötegekben ismét szerepelt.
+Az előrehaladás a célrekordok egyedi áruház–termékazonosítóira vonatkozik.
+Az előző, 9 240-es lezárt álláshoz hozzáadtuk a teljes `Kávé` (1 299),
+`Tea` (771), `Jegestea` (487), `Szörp és koncentrátum` (391) és az
+`Egyéb ízesített üdítőital` fennmaradó (267) altípust. Így a teljes, 12 455
+rekordos Ital-célállomány kézi ellenőrzése lezárult.
 
 ## Kategóriafa-értékek változásai
 
@@ -36,6 +38,8 @@ kategóriánként és tulajdonságonként.
 
 | Kategóriaút | Tulajdonság | Felvett értékek | Törölt értékek | Indok |
 |---|---|---|---|---|
+| Ital → Kávé-, tea- és forrócsokoládé-termékek → Tea | összetevő | `vörösáfonya` | – | A vörös- és tőzegáfonya megnevezésű tea-termékek képe és neve önálló cranberry-összetevőt igazol; az általános `áfonya` helyett külön, elemi érték szükséges. |
+| Ital → Kávé-, tea- és forrócsokoládé-termékek → Kávé | íz / fajta | – | `omnia`, `karaván` | Mindkét érték márkanév vagy termékcsalád volt, nem kávéíz/fajta; a Kávé-ág kézi ellenőrzése után egyik sem maradt használatban. |
 | Ital → Ásványvíz | márka | `Emese` | – | Két Metro-rekord teljes termékneve és `EMESE` forrásmárkája, valamint mindkét közvetlen palackkép kizárólag az önálló `Emese` márkajelzést mutatja; ezeket nem vontuk össze a külön Theodora-márkával. |
 | Ital → Ásványvíz | márka | `Fonte Natura` | – | A közvetlen termékképen a teljes `fonte NATURA` márkajelzés olvasható, a termék CSV-forrásneve és márkamezője egyaránt `Fonte Natura`, és a gyártó hivatalos márkaoldala is ezen a néven azonosítja a termékcsaládot. |
 | Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | gyümölcstartalom | `68%` | – | A Rauch Happy Day alma–szilva pontos Tesco-termékadata és két további, egyező közvetlen termékforrása 60% vegyes gyümölcslevet és 8% szilvapürét sorol fel. A 68% közvetlenül összeadható, bizonyított gyümölcstartalom, és az érték a termék `Gyümölcsital` besorolásához szükséges. |
@@ -177,6 +181,9 @@ kategóriánként és tulajdonságonként.
 | Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | gyümölcstartalom | `65%` | – | A Zuegg Zero erdei gyümölcs közvetlen Tesco-összetevőlistája 34,25% almalevet, 18% piros szőlőlevet és összesen 12,75% bogyósgyümölcs-levet, illetve -pürét, vagyis pontosan 65% gyümölcstartalmat közöl. |
 | Ital → Gyümölcs- és zöldségitalok → Gyümölcsital | íz | `ribizli` | – | Ugyanez a Zuegg termék 4,25% ribizlilevet külön sorol fel a feketeribizli-koncentrátumtól; a két elemi alapanyag ezért nem vonható össze. |
 | Ital → Üdítőitalok → Egyéb ízesített üdítőital | íz | `feketerépa` | – | A Capri-Sun Fairy/Fair Drink közvetlen Tesco-összetevőlistája a 10% gyümölcslé mellett feketerépalé-sűrítményt is közöl. Ez önálló, elemi alapanyagérték. |
+| Ital → Üdítőitalok → Kóla | íz | `eper` | – | A Lidl `Pepsi*` rekord közvetlen termékképén olvasható `STRAWBERRIES 'N' CREAM FLAVOUR`; a képen a zero-sugar jelölés is egyértelmű, ezért az `eper` ízértéket felvettük és a rekord tulajdonságait javítottuk. |
+| Ital → Alkoholos italok és alkoholmentes alternatívák → Pálinka | egységnyi kiszerelés | `40 ml`, `50 ml`, `200 ml`, `350 ml`, `500 ml`, `700 ml`, `1000 ml` | – | A pálinkarekordok kiszereléséből és közvetlen forrásadataiból igazolható egységméretek; mind a 131 rekordnál a teljes kiszereléssel azonos értéket használtuk. |
+| Ital → Alkoholos italok és alkoholmentes alternatívák → Sör, radler és malátaital | fajta | – | `malátaital` | Az észrevétel-fájl szerint a malátaital nem maradhat sörfajtaként; a 24 érintett rekord a név és kép alapján `radler` lett. |
 
 ## Termékszintű módosítások
 
@@ -18824,6 +18831,2452 @@ felülvizsgált pontos párrekordok:
 |---|---|
 | `121351788` | ellenőrizve; a közvetlen címke szerinti `Ursu`, `500 ml`, szénsavmentes, nem DRS-es természetes ásványvíz besorolása változatlan |
 | `121351828` | ellenőrizve; a közvetlen címke szerinti `Ursu`, `1,5 l`, szénsavmentes, nem DRS-es természetes ásványvíz besorolása változatlan |
+
+### Ízesített víz kézi felülvizsgálat, 1. blokk
+
+- Az `Ízesített víz` még nem naplózott célkészletének első **25**
+  teljes rekordját, eredeti forrásmezőit és közvetlen termékképeit
+  egyenként ellenőriztük. Mind a 25 kép használható volt a címke,
+  íz, kiszerelés és szénsavasság ellenőrzésére.
+- Az első négy `Aquitas` címke közvetlenül `ENERGIAMENTES` és
+  édesítőszeres jelölést mutat; az ezekhez tartozó két flaget
+  egységesítettük. A `Szentkirályi Egy Csepp` képei `0% CUKOR` és
+  édesítőszeres jelölést mutatnak; a hiányzó flagértékeket pótoltuk.
+- A három `Szentkirályi Immuno` címke B6/B12/D3- és cinkjelölése
+  közvetlenül vitamintartalmat igazol, ezért a meglévő érték változatlan.
+  Az összes `Apenta Light` kép `0% CUKOR`, energiamentes és
+  édesítőszeres; a meglévő értékek egyeznek. Az `Apenta+ Energy Water`
+  kép guaranát és 75 mg koffeint mutat, de a jelenlegi fában nincs
+  koffein-tulajdonság, ezért új tulajdonságot nem hoztunk létre.
+  Az `Aqvital`, `Active O2` és `Hohes C Vitamin Water` rekordok
+  kategória- és tulajdonságértékei a közvetlen képekkel egyeznek.
+- Módosított rekord: **8**.
+- Módosított tulajdonságmező: **13**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **17**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `533578` | `Aquitas` málna, 1,5 l, szénsavmentes; a közvetlen címkén `ENERGIAMENTES` és édesítőszer szerepel, ezért `energiamentes: true`, `édesítőszert tartalmaz: true` |
+| `891154` | `Aquitas` citrom, 1,5 l, szénsavmentes; a közvetlen címke alapján `energiamentes: true`, `édesítőszert tartalmaz: true` |
+| `1006768` | `Aquitas` málna, 1,5 l, szénsavas; a közvetlen címke alapján `energiamentes: true`, `édesítőszert tartalmaz: true` |
+| `1006769` | `Aquitas` citrom, 1,5 l, szénsavas; a közvetlen címke alapján `energiamentes: true`, `édesítőszert tartalmaz: true` |
+| `972119` | `Szentkirályi Egy Csepp` citromos, 1,5 l, szénsavmentes; a közvetlen `0% CUKOR` és édesítőszer-jelölés alapján `hozzáadott cukor nélkül: true`, `édesítőszert tartalmaz: true` |
+| `4606919` | `Szentkirályi Egy Csepp` alma–menta, 700 ml, szénsavas; a közvetlen `0% CUKOR`/édesítőszer-jelölés alapján az édesítőszer-flag `true` |
+| `4606920` | `Szentkirályi Egy Csepp` mangó, 700 ml, szénsavas; a közvetlen `0% CUKOR`/édesítőszer-jelölés alapján az édesítőszer-flag `true` |
+| `4606922` | `Szentkirályi Egy Csepp` citrom, 700 ml, szénsavas; a közvetlen `0% CUKOR`/édesítőszer-jelölés alapján az édesítőszer-flag `true` |
+| `4606916` | `Szentkirályi Immuno` alma–kivi–ananász, 700 ml, szénsavas; B6/B12/D3- és cinkjelölés, `vitamint tartalmaz: true` változatlan |
+| `4606917` | `Szentkirályi Immuno` mangó–narancs, 700 ml, szénsavas; B6/B12/D3- és cinkjelölés, `vitamint tartalmaz: true` változatlan |
+| `4606918` | `Szentkirályi Immuno` maracuja–körte, 700 ml, szénsavas; B6/B12/D3- és cinkjelölés, `vitamint tartalmaz: true` változatlan |
+| `684992:4222382` | `Apenta Light` málna, 1,5 l, enyhén szénsavas; `0% CUKOR`, energiamentes és édesítőszeres címke, minden meglévő flag változatlan |
+| `684989:4222379` | `Apenta Light` meggy, 1,5 l, enyhén szénsavas; `0% CUKOR`, energiamentes és édesítőszeres címke, minden meglévő flag változatlan |
+| `684983:4222373` | `Apenta Light` szőlő, 1,5 l, enyhén szénsavas; közvetlen `0% CUKOR`/energiamentes/édesítőszeres jelölés, változatlan |
+| `684998:4222388` | `Apenta Light` bodza, 1,5 l, enyhén szénsavas; közvetlen `0% CUKOR`/energiamentes/édesítőszeres jelölés, változatlan |
+| `685001:4222391` | `Apenta Light` görögdinnye, 1,5 l, enyhén szénsavas; közvetlen `0% CUKOR`/energiamentes/édesítőszeres jelölés, változatlan |
+| `685004:4222394` | `Apenta Light` grapefruit–pomelo, 1,5 l, enyhén szénsavas; közvetlen `0% CUKOR`/energiamentes/édesítőszeres jelölés, változatlan |
+| `685010:4222400` | `Apenta Light` narancs, 1,5 l, enyhén szénsavas; közvetlen `0% CUKOR`/energiamentes/édesítőszeres jelölés, változatlan |
+| `685007:4222397` | `Apenta Light` kaktuszfüge, 1,5 l, enyhén szénsavas; közvetlen `0% CUKOR`/energiamentes/édesítőszeres jelölés, változatlan |
+| `827693:4365083` | `Apenta+ Energy Water` szőlő, 750 ml, szénsavmentes; a kép guaranát és 75 mg koffeint igazol, de koffein-tulajdonság hiányában új mező nélkül változatlan |
+| `946394:4483784` | `Aqvital` ananász–mangó, 750 ml, enyhén szénsavas; ásványvízalapú ízesített víz, a meglévő útvonal és flagértékek változatlanok |
+| `675137:4212527` | `Active O2` alma–kivi, 500 ml, szénsavmentes; oxigénnel dúsított, energiaszegény címke, `energiacsökkentett: true` változatlan |
+| `675140:4212530` | `Active O2` citrom, 500 ml, szénsavmentes; oxigénnel dúsított, energiaszegény címke, `energiacsökkentett: true` változatlan |
+| `827096:4364486` | `Hohes C Vitamin Water Antiox` eper–grapefruit, 500 ml, szénsavas; Vitamin Water címke, `vitamint tartalmaz: true` változatlan |
+| `827126:4364516` | `Hohes C Vitamin Water Energy` narancs–maracuja, 500 ml, szénsavas; Vitamin Water címke, `vitamint tartalmaz: true` változatlan |
+
+### Ízesített víz kézi felülvizsgálat, 2. blokk
+
+- Az `Ízesített víz` következő **25** teljes rekordját, minden eredeti
+  forrásmezőjét és közvetlen képét egyenként ellenőriztük. Mind a 25
+  kép használható volt az íz, kiszerelés és szénsavasság ellenőrzésére.
+- A `Fonte Active` képén B3-, E- és B5-vitamin, a `Fonte Boost` képén
+  C-vitamin szerepel; ezért mindkét rekord `vitamint tartalmaz` értéke
+  `true` lett. A többi rekord meglévő útvonala és tulajdonságértéke a
+  névvel, címkével és képpel egyezett.
+- A `Comix` közvetlen palackképe `Szikvíz Limonádé` megjelölést mutat;
+  külön szódavíz-levél továbbra sincs a fában, ezért az útvonalat nem
+  módosítottuk és a korábbi kategóriajavaslatot sem bővítettük.
+- Módosított rekord: **2**.
+- Módosított tulajdonságmező: **2**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **23**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `827129:4364519` | `Hohes C Vitamin Water Protect` lime–gyömbér, 500 ml, szénsavas; C+D+E-vitamin jelölés és `vitamint tartalmaz: true` változatlan |
+| `782324:4319714` | `Aqualife` körte, 1,5 l, szénsavas; a közvetlen címke és forrásnév szerinti energiamentes, édesítőszeres értékek változatlanok |
+| `782342:4319732` | `Aqualife` citrom, 1,5 l, szénsavas; a közvetlen címke és forrásnév szerinti energiamentes, édesítőszeres értékek változatlanok |
+| `782327:4319717` | `Aqualife Zero` bodza, 1,5 l, szénsavas; `ZERO`/energiamentes és cukormentes jelölés, meglévő flagértékek változatlanok |
+| `782330:4319720` | `Aqualife Zero` málna, 1,5 l, szénsavas; `ZERO`/energiamentes és cukormentes jelölés, meglévő flagértékek változatlanok |
+| `714485:4251875` | `Mizse` bodza, 1,5 l, szénsavas; forrásnév és címke szerinti édesítőszeres, cukormentes értékek változatlanok |
+| `714488:4251878` | `Mizse` lemon–lime, 1,5 l, szénsavas; forrásnév és címke szerinti édesítőszeres, cukormentes értékek változatlanok |
+| `714482:4251872` | `Mizse` sárkánygyümölcs–málna, 1,5 l, szénsavas; címke szerinti íz és szénsavasság, meglévő nem-édesítőszeres flag változatlan |
+| `674921:4212311` | `Szentkirályi Egy csepp gyümölcs` citrom, 1,5 l, enyhén szénsavas; `0% CUKOR` címke, meglévő cukor- és édesítőszer-értékek változatlanok |
+| `674918:4212308` | `Szentkirályi Egy csepp gyümölcs` erdei gyümölcs, 1,5 l, enyhén szénsavas; `0% CUKOR` címke, meglévő értékek változatlanok |
+| `678383:4215773` | `Fonte Active` citrom–lime, 750 ml, szénsavmentes; B3-, E- és B5-vitamin közvetlen jelölése miatt `vitamint tartalmaz: false` → `true` |
+| `768210:4305600` | `Fonte Beauty` kaktuszfüge, 750 ml, szénsavmentes; 3000 mg kollagén és cukormentes jelölés, új vitamin-állítás nélkül változatlan |
+| `678386:4215776` | `Fonte Boost` egzotikus íz, 750 ml, szénsavmentes; közvetlen `C-VITAMIN` jelölés miatt `vitamint tartalmaz: false` → `true` |
+| `678503:4215893` | `NaturAqua Emotion` szeder–lime, 500 ml, szénsavas; `ZERO`/energiamentes és édesítőszeres címke, meglévő értékek változatlanok |
+| `468716:4006088` | `Comix` limonádé ízű szóda, 1,5 l; közvetlen `Szikvíz Limonádé` palackkép, pontosabb meglévő levél hiányában útvonal változatlan |
+| `684854:4222244` | `Kubu Waterrr` alma, 500 ml, szénsavmentes; közvetlen íz- és kiszereléskép, meglévő értékek változatlanok |
+| `684857:4222247` | `Kubu Waterrr` citrom, 500 ml, szénsavmentes; közvetlen íz- és kiszereléskép, meglévő értékek változatlanok |
+| `684851:4222241` | `Kubu Waterrr` eper, 500 ml, szénsavmentes; közvetlen íz- és kiszereléskép, meglévő értékek változatlanok |
+| `684860:4222250` | `Kubu Waterrr` görögdinnye, 500 ml, szénsavmentes; közvetlen íz- és kiszereléskép, meglévő értékek változatlanok |
+| `713072:4250462` | `Kubu Waterrr` málna, 500 ml, szénsavmentes; közvetlen íz- és kiszereléskép, meglévő értékek változatlanok |
+| `791258:4328648` | `Apenta Light` eper, 1,5 l, enyhén szénsavas; `0% CUKOR` és energiamentes/édesítőszeres jelölés, meglévő értékek változatlanok |
+| `684848:4222238` | `Apenta Vitamixx` alma–mangó, 1,5 l, szénsavmentes; `Vitamixx` jelölés, `vitamint tartalmaz: true` változatlan |
+| `684839:4222229` | `Apenta Vitamixx` eper–vörösáfonya, 1,5 l, szénsavmentes; `Vitamixx` jelölés, `vitamint tartalmaz: true` változatlan |
+| `684842:4222232` | `Apenta Vitamixx Zero` áfonya–levendula, 1,5 l, szénsavmentes; `ZERO CUKOR`/energiamentes címke, meglévő vitamin- és flagértékek változatlanok |
+| `684833:4222223` | `Apenta Vitamixx Zero` citrom–maracuja, 1,5 l, szénsavmentes; `ZERO CUKOR`/energiamentes címke, meglévő vitamin- és flagértékek változatlanok |
+
+### Ízesített víz kézi felülvizsgálat, 3. blokk
+
+- A következő **25** rekord minden mezőjét egyenként ellenőriztük.
+  Az első 10 rekordhoz helyi termékkép is rendelkezésre állt; a további
+  15 rekordnál a közvetlen, teljes forrásnév volt az egyetlen helyi
+  bizonyíték, ezt külön jelöljük.
+- A `COOP FRIBIZLI Í.SZÉNSAV.VÍZ` forrásnév közvetlenül szénsavas
+  vizet jelent, ezért a téves `szénsavmentes` értéket `szénsavas`-ra
+  javítottuk. Az `Apenta+ Energy Water` koffein/guarana jelölése és a
+  `Vöslauer` hozzáadott vas jelölése nem alakítható át meglévő vitamin-
+  tulajdonsággá; új tulajdonságot nem hoztunk létre.
+- Módosított rekord: **1**.
+- Módosított tulajdonságmező: **1**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **24**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `684836:4222226` | `Apenta Vitamixx Zero` málna–lime, 1,5 l, szénsavmentes; `ZERO`/energiamentes és vitamintartalmú jelölés, változatlan |
+| `793115:4330505` | `Aqvital` citrom–lime, 750 ml, enyhén szénsavas; ásványvízalapú ízesített víz, meglévő értékek változatlanok |
+| `946283:4483673` | `Vöslauer Balance Juicy Plus` gránátalma–hibiszkusz, 750 ml, szénsavas; hozzáadott vas nem vitamin, meglévő `vitamint tartalmaz: false` változatlan |
+| `679076:4216466` | `Vöslauer Balance Juicy` szőlő, 750 ml, szénsavas; közvetlen kép szerinti íz és szénsavasság, változatlan |
+| `776103:4313493` | `Jana` citrom, 1,5 l, szénsavmentes; a forrásnév szerinti energiaszegény jelölés `energiacsökkentett: true`, változatlan |
+| `678494:4215884` | `NaturAqua Emotion` áfonya–gránátalma, 1,5 l, szénsavas; közvetlen kép szerinti íz és szénsavasság, változatlan |
+| `678497:4215887` | `NaturAqua Emotion` eper–rebarbara, 1,5 l, szénsavas; közvetlen kép szerinti íz és szénsavasság, változatlan |
+| `825710:4363100` | `Apenta+ Energy Water` matcha, 750 ml, szénsavmentes; energiaitalos jelölés mellett nincs meglévő koffeinmező, új tulajdonság nélkül változatlan |
+| `847970:4385360` | `Theodora Calcia Plus Anti-Stress` mangó–citromfű, 700 ml, enyhén szénsavas; közvetlen kép szerinti íz/kiszerelés, változatlan |
+| `850061:4387451` | `Theodora Calcia Plus Revital` szőlő–aloe vera, 700 ml, enyhén szénsavas; közvetlen kép szerinti íz/kiszerelés, változatlan |
+| `3380683` | Helyi kép nincs; `APENTA VITAMIN ZERO KAKTUSZ-GUAVA DRS 1.5L` forrásnév, vitamin/zero jelölés és 1,5 l kiszerelés alapján a meglévő értékek változatlanok |
+| `3375601` | Helyi kép nincs; `SZENTKIRÁLYI EGY CS.GYÜM.MANG.P.DRS 1.5L` forrásnév szerinti mangó, 1,5 l és szénsavmentes értékek változatlanok |
+| `3375578` | Helyi kép nincs; `APENTA LIGHT EPER PET DRS 1.5L` forrásnév szerinti Light/eper, energiamentes és édesítőszeres értékek változatlanok |
+| `3375516` | Helyi kép nincs; `APENTA LIGHT ÜDÍTŐI.NARANCS PET.DRS 1.5L` forrásnév szerinti Light/narancs, energiamentes és édesítőszeres értékek változatlanok |
+| `3372232` | Helyi kép nincs; `THEODORA CALCIA PLUS REVIT.PET.DRS 0.7L` forrásnév szerinti 700 ml-es Revital, meglévő értékek változatlanok |
+| `3372231` | Helyi kép nincs; `THEODORA CALCIA PL.ANTIST.PET.DRS 0.7L` forrásnév szerinti 700 ml-es Anti-Stress, meglévő értékek változatlanok |
+| `3372111` | Helyi kép nincs; `SZENTKIRÁLYI EGY CS.GYÜM.ERD.P.DRS 1.5L` forrásnév szerinti erdei gyümölcs, meglévő értékek változatlanok |
+| `3372110` | Helyi kép nincs; `SZENTKIRÁLYI EGY CS.GYÜM.CITR.P.DRS 1.5L` forrásnév szerinti citrus, meglévő értékek változatlanok |
+| `3164770` | Helyi kép nincs; `COOP KÖRTE Í.SZ.MENTES VÍZ PET.DRS 1.5L` közvetlen forrásnév szerinti szénsavmentes körtevíz, változatlan |
+| `3164768` | Helyi kép nincs; `COOP MÁLNA Í.SZ.MENTES VÍZ PET.DRS 1.5L` közvetlen forrásnév szerinti szénsavmentes málnavíz, változatlan |
+| `3164766` | Helyi kép nincs; `COOP CITROM Í.SZ.MENTES VÍZ PET.DRS 1.5L` közvetlen forrásnév szerinti szénsavmentes citromvíz, változatlan |
+| `3164764` | Helyi kép nincs; `COOP FRIBIZLI Í.SZÉNSAV.VÍZ PET.DRS 1.5L` közvetlen forrásnév szerinti szénsavas feketeribizli-víz; `szénsavmentes` → `szénsavas` |
+| `3164762` | Helyi kép nincs; `COOP BODZA Í.SZÉNSAVAS VÍZ PET.DRS 1.5L` közvetlen forrásnév szerinti szénsavas bodzavíz, változatlan |
+| `3164760` | Helyi kép nincs; `COOP MÁLNA Í.SZÉNSAVAS VÍZ PET.DRS 1.5L` közvetlen forrásnév szerinti szénsavas málnavíz, változatlan |
+| `2817958` | Helyi kép nincs; `APENTA LIGHT GÖRÖGDINNYE PET.DRS 1.5L` forrásnév szerinti Light/görögdinnye, energiamentes és édesítőszeres értékek változatlanok |
+
+### Ízesített víz kézi felülvizsgálat, 4. blokk
+
+- A következő **25**, helyi kép nélküli rekordot a teljes eredeti
+  forrásnév és minden meglévő mező alapján, egyenként ellenőriztük.
+- A `VITAM.`/`VITAM.ZERO` megjelölés közvetlenül vitaminos terméket
+  igazol, ezért az `Apenta` `2808597` és `2807793` rekordban a
+  `vitamint tartalmaz` értéket `false` → `true` javítottuk. A többi
+  rekordnál a forrásnév nem bizonyított új értéket; a `DRS` csak
+  visszaváltási jelölés, nem új kategória- vagy tulajdonságérték.
+- Módosított rekord: **2**.
+- Módosított tulajdonságmező: **2**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **23**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `2808597` | Helyi kép nincs; `APENTA VITAM.EPER-VÖRÖSÁFO.PET.DRS 1.5L` közvetlen `VITAM.` megjelölése miatt `vitamint tartalmaz: false` → `true` |
+| `2808595` | Helyi kép nincs; `APENTA LIGHT ÜD.IT.MEGGY PET.DRS 1.5L`, Light/meggy, energiamentes és édesítőszeres értékek változatlanok |
+| `2808594` | Helyi kép nincs; `APENTA LIGHT ÜD.IT.BODZA PET.DRS 1.5L`, Light/bodza, energiamentes és édesítőszeres értékek változatlanok |
+| `2808593` | Helyi kép nincs; `APENTA LIGHT ÜD.IT.KAKTUSZF.PET.DRS 1.5L`, Light/kaktusz, energiamentes és édesítőszeres értékek változatlanok |
+| `2808592` | Helyi kép nincs; `APENTA LIGHT ÜD.IT.GRFR-POM.PET.DRS 1.5L`, Light/grapefruit–pomelo, meglévő értékek változatlanok |
+| `2808591` | Helyi kép nincs; `APENTA LIGHT ÜD.IT.MÁLNA PET.DRS 1.5L`, Light/málna, meglévő értékek változatlanok |
+| `2808578` | Helyi kép nincs; `KUBU WATERRR EPER GYEREKI.PET.DRS 0.5L`, 500 ml-es szénsavmentes epervíz, változatlan |
+| `2808577` | Helyi kép nincs; `KUBU WATERRR MÁLNA GYEREKI.PET.DRS 0.5L`, 500 ml-es szénsavmentes málnavíz, változatlan |
+| `2807793` | Helyi kép nincs; `APENTA VITAM.ZERO MÁLNA-LI.PET.DRS 1.5L` közvetlen `VITAM.ZERO` megjelölése miatt `vitamint tartalmaz: false` → `true` |
+| `2807777` | Helyi kép nincs; `KUBU WATERRR ALMA GYEREKI.PET.DRS 0.5L`, 500 ml-es szénsavmentes almavíz, változatlan |
+| `2807776` | Helyi kép nincs; `KUBU WATERRR GÖRÖGDINNYE PET.DRS 0.5L`, 500 ml-es szénsavmentes görögdinnyés víz, változatlan |
+| `2807549` | Helyi kép nincs; `JANA ÁSVÁNYVÍZ CITROM-LIME PET.DRS 1.5L`, 1,5 l-es szénsavmentes citrom–lime víz, változatlan |
+| `2807548` | Helyi kép nincs; `JANA ÁSVÁNYVÍZ EPER-GUAVA PET.DRS 1.5L`, 1,5 l-es szénsavmentes eper–guava víz, változatlan |
+| `2807547` | Helyi kép nincs; `JANA ÁSVÁNYVÍZ VÖRÖS-KÉKÁFO.PET.DRS 1.5L`, 1,5 l-es szénsavmentes áfonyavíz, változatlan |
+| `BTY-X17421900320021` | Helyi kép nincs; `Apenta Light` grapefruit–pomelo, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres forrásnév, változatlan |
+| `BTY-X17421800320021` | Helyi kép nincs; `Apenta Light` málna, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres forrásnév, változatlan |
+| `BTY-X17422000320021` | Helyi kép nincs; `Apenta Light` narancs, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres forrásnév, változatlan |
+| `BTY-X17422200320021` | Helyi kép nincs; `Apenta Light` meggy, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres forrásnév, változatlan |
+| `BTY-X18016000320021` | Helyi kép nincs; `Apenta Light` eper, 1,5 l, szénsavas forrásnév, meglévő Light/energiamentes/édesítőszeres értékek változatlanok |
+| `BTY-X18016100320021` | Helyi kép nincs; `Apenta Light` citrom, 1,5 l, szénsavas forrásnév, meglévő Light/energiamentes/édesítőszeres értékek változatlanok |
+| `BTY-X17160200320021` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` citrom, 1,5 l, enyhén szénsavas, meglévő értékek változatlanok |
+| `BTY-X17160400320021` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` erdei gyümölcs, 1,5 l, enyhén szénsavas, meglévő értékek változatlanok |
+| `BTY-X17444500320021` | Helyi kép nincs; `Vöslauer Balance Juicy` szőlő, 750 ml, szénsavas, meglévő értékek változatlanok |
+| `BTY-X17669500320021` | Helyi kép nincs; `Apenta+ Anti-Stress` gránátalma–acai–szőlő, 750 ml, enyhén szénsavas, új vitaminérték nélkül változatlan |
+| `BTY-X18037700320021` | Helyi kép nincs; `Szentkirályi Egy Csepp Gyümölcs` mangó, 1,5 l, szénsavmentes forrásnév, meglévő értékek változatlanok |
+
+### Ízesített víz kézi felülvizsgálat, 5. blokk
+
+- A következő **25**, helyi kép nélküli rekordot a teljes eredeti
+  forrásnév és valamennyi mező alapján, egyenként ellenőriztük.
+- A `Viwa Vitaminwater Immunity Zero` forrásnév közvetlenül
+  `energia- és szénsavmentes` terméket ír le, ezért az
+  `energiamentes` értéket `false` → `true` javítottuk. A Theodora
+  `Szén-dioxiddal enyhén dúsított` forrásnév közvetlenül az enyhén
+  szénsavas értéket bizonyítja, ezért a hibás `szénsavmentes` értéket
+  javítottuk. A többi rekord meglévő értékei a forrásnévvel egyeztek.
+- Módosított rekord: **2**.
+- Módosított tulajdonságmező: **2**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **23**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X18038000320021` | Helyi kép nincs; `Vöslauer Balance Juicy Plus` gránátalma–hibiszkusz, 750 ml, szénsavas forrásnév, változatlan |
+| `BTY-X18201700320021` | Helyi kép nincs; `Hohes C Vitamin Water Energy` narancs–maracuja, 500 ml, szénsavas, vitamintartalmú forrásnév, változatlan |
+| `BTY-X18201800320021` | Helyi kép nincs; `Hohes C Vitamin Water Protect` lime–gyömbér, 500 ml, szénsavas, vitamintartalmú forrásnév, változatlan |
+| `BTY-X18201900320021` | Helyi kép nincs; `Hohes C Vitamin Water Antiox` eper–grapefruit, 500 ml, szénsavas, vitamintartalmú forrásnév, változatlan |
+| `BTY-X18334700320021` | Helyi kép nincs; `Apenta+ Energy Water` matcha, 750 ml, szénsavmentes, édesítőszeres forrásnév; új koffeinmező nélkül változatlan |
+| `BTY-X17477000320021` | Helyi kép nincs; `KUBU Waterrr` eper, 500 ml, szénsavmentes, meglévő cukor- és ízértékek változatlanok |
+| `BTY-X17477200320021` | Helyi kép nincs; `KUBU Waterrr` citrom, 500 ml, szénsavmentes, meglévő cukor- és ízértékek változatlanok |
+| `BTY-X17477100320021` | Helyi kép nincs; `KUBU Waterrr` málna, 500 ml, szénsavmentes, meglévő cukor- és ízértékek változatlanok |
+| `BTY-X17422600320021` | Helyi kép nincs; `Apenta Vitamixx` körte–rebarbara, 1,5 l, szénsavmentes, `Vitamixx`/vitaminérték változatlan |
+| `BTY-X17422400320021` | Helyi kép nincs; `Apenta Vitamixx` alma–mangó, 1,5 l, szénsavmentes, vitaminérték változatlan |
+| `BTY-X17461000320021` | Helyi kép nincs; `KUBU Waterrr` alma, 500 ml, szénsavmentes, meglévő értékek változatlanok |
+| `BTY-X17183400320021` | Helyi kép nincs; `Active O2` alma–kivi, 500 ml, oxigénnel dúsított, energiaszegény és szénsavmentes forrásnév, változatlan |
+| `BTY-X17190300320021` | Helyi kép nincs; `Active O2` citrom, 500 ml, oxigénnel dúsított, energiaszegény és szénsavmentes forrásnév, változatlan |
+| `BTY-X17190400320021` | Helyi kép nincs; `Active O2` áfonya, 500 ml, oxigénnel dúsított, energiaszegény és szénsavmentes forrásnév, változatlan |
+| `BTY-X17408000320021` | Helyi kép nincs; `Viwa Vitaminwater` narancs–guava, 600 ml, csökkentett energiatartalmú és szénsavmentes, `energiacsökkentett: true` változatlan |
+| `BTY-X17408400320021` | Helyi kép nincs; `Viwa Vitaminwater Immunity Zero` citrom, 600 ml; közvetlen `energia- és szénsavmentes` jelölés miatt `energiamentes: false` → `true` |
+| `BTY-X17422500320021` | Helyi kép nincs; `Apenta Vitamixx` eper–vörösáfonya, 1,5 l, szénsavmentes, vitaminérték változatlan |
+| `BTY-X17422700320021` | Helyi kép nincs; `Apenta Vitamixx Zero` áfonya–levendula, 1,5 l, szénsavmentes és energiamentes, meglévő értékek változatlanok |
+| `BTY-X17422800320021` | Helyi kép nincs; `Apenta Vitamixx Zero` málna–lime, 1,5 l, szénsavmentes, energiamentes és édesítőszeres, változatlan |
+| `BTY-X17477300320021` | Helyi kép nincs; `KUBU Waterrr` görögdinnye, 500 ml, szénsavmentes, meglévő értékek változatlanok |
+| `BTY-X18045700320021` | Helyi kép nincs; `Mizse` citrom–lime, 1,5 l, közvetlenül szénsavas ízesített víz, változatlan |
+| `BTY-X18045800320021` | Helyi kép nincs; `Mizse` bodza, 1,5 l, közvetlenül szénsavas ízesített víz, változatlan |
+| `BTY-X18276000320021` | Helyi kép nincs; `Theodora Calcia Plus Antistress`, 700 ml, forrásnév szerinti narancsíz, meglévő szénsavasság változatlan |
+| `BTY-X18276100320021` | Helyi kép nincs; `Theodora Calcia Plus Revital`, 700 ml, forrásnév szerinti meggyíz, meglévő szénsavasság változatlan |
+| `BTY-X18622000320021` | Helyi kép nincs; `Theodora Calcia Plus` sárgabarack–gyömbér–lime, 700 ml; `Szén-dioxiddal enyhén dúsított` miatt `szénsavmentes` → `enyhén szénsavas` |
+
+### Ízesített víz kézi felülvizsgálat, 6. blokk
+
+- A következő **25**, helyi kép nélküli rekordot a teljes forrásnév és
+  minden mező alapján, egyenként ellenőriztük.
+- A `Viwa Vitaminwater Gingko Biloba` forrásnév közvetlenül
+  `energia- és szénsavmentes` terméket ír le; az `energiamentes`
+  értéket `false` → `true` javítottuk. A többi rekord meglévő útvonala
+  és tulajdonságértéke a forrásnévvel egyezett.
+- Módosított rekord: **1**.
+- Módosított tulajdonságmező: **1**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **24**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X18716100320021` | Helyi kép nincs; `Theodora Calcia Plus Focus` sárgabarack–maracuja–ginzeng, 700 ml, enyhén szénsavas forrásnév, változatlan |
+| `BTY-X18757400320021` | Helyi kép nincs; `Hohes C Vitaminvíz Electrolyte` citrom–lime, 500 ml, szénsavmentes, vitamintartalmú forrásnév, változatlan |
+| `BTY-X17435400320021` | Helyi kép nincs; `Szentkirályi Egy csepp Gyümölcs` erdei gyümölcs, 250 ml, szén-dioxiddal enyhén dúsított, változatlan |
+| `998966` | Helyi kép nincs; `Kékforrás+` narancs–mangó, 750 ml, szénsavmentes, édesítőszeres forrásnév, változatlan |
+| `1048032` | Helyi kép nincs; `Kékforrás+` áfonya, 750 ml, cukor- és energiamentes, szénsavmentes, édesítőszeres forrásnév, változatlan |
+| `1010424` | Helyi kép nincs; `Kékforrás` bodza, 1,5 l, energiamentes, szénsavas, édesítőszeres forrásnév, változatlan |
+| `1010427` | Helyi kép nincs; `Kékforrás` citrom, 1,5 l, energiamentes, szénsavas, édesítőszeres forrásnév, változatlan |
+| `1010428` | Helyi kép nincs; `Kékforrás` feketeribizli, 1,5 l, szénsavas és édesítőszeres forrásnév, meglévő cukor/energia-értékek változatlanok |
+| `1010430` | Helyi kép nincs; `Kékforrás` málna, 1,5 l, szénsavas és édesítőszeres forrásnév, meglévő cukor/energia-értékek változatlanok |
+| `1013989` | Helyi kép nincs; `Fonte Active` citrom–lime, 750 ml, energia- és cukormentes, szénsavmentes, édesítőszeres forrásnév, változatlan |
+| `1013990` | Helyi kép nincs; `Fonte Boost` egzotikus, 750 ml, energia- és cukormentes, szénsavmentes, édesítőszeres forrásnév, változatlan |
+| `1000395` | Helyi kép nincs; `Viwa Vitaminwater Gingko Biloba` mangó–lime, 600 ml; közvetlen `energia- és szénsavmentes` jelölés miatt `energiamentes: false` → `true` |
+| `1173832` | Helyi kép nincs; `Theodora Calcia Plus Revital` szőlő–aloe vera, 700 ml, szén-dioxiddal enyhén dúsított, meglévő értékek változatlanok |
+| `993926` | Helyi kép nincs; `Kubu Waterrr` málna, 500 ml, szénsavmentes, meglévő értékek változatlanok |
+| `88f6aac2d7a80e8a10d0781d` | Helyi kép nincs; `Apenta Light` bodza, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres forrásnév, változatlan |
+| `66567f9ea3e956bb0fad4461` | Helyi kép nincs; `Apenta Light` görögdinnye, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres forrásnév, változatlan |
+| `32840e2318a97512083f42e1` | Helyi kép nincs; `Apenta Light` grapefruit–pomelo, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres forrásnév, változatlan |
+| `de00cb17cd3c25ed6a9ef8dc` | Helyi kép nincs; `Apenta Light` kaktuszfüge, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres forrásnév, változatlan |
+| `d1a635e392a4bb45fc047b84` | Helyi kép nincs; `Apenta Light` málna, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres forrásnév, változatlan |
+| `ed7c8e7ac20d3210a8df2375` | Helyi kép nincs; `Apenta Light` narancs, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres forrásnév, változatlan |
+| `12735dc398634f3389499e45` | Helyi kép nincs; `Apenta Light` szőlő, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres forrásnév, változatlan |
+| `83b74c7e9b3aded31d8531e3` | Helyi kép nincs; `Apenta Vitamixx Zero` áfonya–levendula, 1,5 l, szénsavmentes és energiamentes, vitaminérték változatlan |
+| `314602de4b61cfd19a800f38` | Helyi kép nincs; `Hohes C Vitamin Water Antiox` eper–grapefruit, 500 ml, szénsavas és vitamintartalmú forrásnév, változatlan |
+| `2654e7febb38120c704f6f27` | Helyi kép nincs; `Hohes C Vitamin Water Energy` narancs–maracuja, 500 ml, szénsavas és vitamintartalmú forrásnév, változatlan |
+| `99d1072be8a0eab6f6bd583a` | Helyi kép nincs; `Hohes C Vitamin Water Protect` lime–gyömbér, 500 ml, szénsavas és vitamintartalmú forrásnév, változatlan |
+
+### Ízesített víz kézi felülvizsgálat, 7. blokk
+
+- A következő **25**, helyi kép nélküli rekordot a teljes forrásnév és
+  minden mező alapján, egyenként ellenőriztük.
+- A két `Viwa Vitaminwater` forrásnév közvetlen `energia- és
+  szénsavmentes` jelölése miatt az `energiamentes` értéket `false` →
+  `true` javítottuk (`a35aa...` és `b20b...`). Minden további rekord
+  meglévő útvonala és tulajdonsága egyezett a forrásnévvel.
+- Módosított rekord: **2**.
+- Módosított tulajdonságmező: **2**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **23**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `5956abca448f08949236cac8` | Helyi kép nincs; `Apenta Light` eper, 1,5 l, energiamentes, enyhén szénsavas és édesítőszeres forrásnév, változatlan |
+| `71ce51ad1c0288c2dbdc0935` | Helyi kép nincs; `Apenta Light` citrom, 1,5 l, energiamentes, enyhén szénsavas és édesítőszeres forrásnév, változatlan |
+| `b0964288dcf21515a63dff4a` | Helyi kép nincs; `Theodora Calcia Plus Anti-Stress` mangó–citromfű, 700 ml, enyhén szénsavas forrásnév, változatlan |
+| `44d14b847b65e8967e13a643` | Helyi kép nincs; `Theodora Calcia Plus Revital` szőlő–aloe vera, 700 ml, szén-dioxiddal enyhén dúsított, változatlan |
+| `9398d4643cc506afe504e896` | Helyi kép nincs; `NaturAqua Emotion` szeder–lime, 500 ml, energiamentes, szénsavas és édesítőszeres forrásnév, változatlan |
+| `42cf9def1c5491d3a917e7de` | Helyi kép nincs; `NaturAqua Emotion` eper–rebarbara, 1,5 l, szénsavas forrásnév, változatlan |
+| `f900d1e6c652ada2cf8765dd` | Helyi kép nincs; `Jana` kék- és vörösáfonya, 1,5 l, energiaszegény és szénsavmentes forrásnév, változatlan |
+| `7d08c4deb29dde28e0d09874` | Helyi kép nincs; `Apenta Vitamixx` alma–mangó, 1,5 l, szénsavmentes és vitamintartalmú forrásnév, változatlan |
+| `3024c26e284c9d5890e555f4` | Helyi kép nincs; `Apenta Vitamixx` eper–vörösáfonya, 1,5 l, szénsavmentes és vitamintartalmú forrásnév, változatlan |
+| `653e01311c14fe92a3a86c06` | Helyi kép nincs; `Apenta Vitamixx` körte–rebarbara, 1,5 l, szénsavmentes és vitamintartalmú forrásnév, változatlan |
+| `233c45c4630504788e7f6239` | Helyi kép nincs; `Apenta Vitamixx Zero` citrom–maracuja, 1,5 l, szénsavmentes és energiamentes, vitaminérték változatlan |
+| `0981d6de11dabc90f4cb160b` | Helyi kép nincs; `Apenta Vitamixx Zero` málna–lime, 1,5 l, szénsavmentes és energiamentes, vitaminérték változatlan |
+| `040949da3a2ed75fc9423529` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` citrom, 1,5 l, szén-dioxiddal enyhén dúsított, változatlan |
+| `7da9d7acbdae7db5d29a0929` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` erdei gyümölcs, 1,5 l, szén-dioxiddal enyhén dúsított, változatlan |
+| `f2bf38c57c6eafb227e8fce1` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` mangó, 1,5 l, szén-dioxiddal enyhén dúsított, változatlan |
+| `b8ae973d26242adc7ae3cfc3` | Helyi kép nincs; `Kubu Waterrr` eper, 500 ml, szénsavmentes, meglévő értékek változatlanok |
+| `46844fbe4db9cdde147b4628` | Helyi kép nincs; `Kubu Waterrr` málna, 500 ml, szénsavmentes, meglévő értékek változatlanok |
+| `fa25b34747555c862fd2a8b7` | Helyi kép nincs; `Kubu Waterrr` alma, 500 ml, szénsavmentes, meglévő értékek változatlanok |
+| `8dac142e1108127ec506e478` | Helyi kép nincs; `Kubu Waterrr` görögdinnye, 500 ml, szénsavmentes, meglévő értékek változatlanok |
+| `38262f3d8153c87228bf8063` | Helyi kép nincs; `Kubu Waterrr` citrom, 500 ml, szénsavmentes, meglévő értékek változatlanok |
+| `3900d082424a18d08409e7a8` | Helyi kép nincs; `Viwa Vitaminwater` citrom, 600 ml, csökkentett energiatartalmú és szénsavmentes forrásnév, változatlan |
+| `a35aa9015ec102ab88fc4fb3` | Helyi kép nincs; `Viwa Vitaminwater` málna–hibiszkusz, 600 ml; közvetlen `energia- és szénsavmentes` jelölés miatt `energiamentes: false` → `true` |
+| `b78aa8365fd626f7e79d80db` | Helyi kép nincs; `Viwa Vitaminwater` narancs–guava, 600 ml, csökkentett energiatartalmú és szénsavmentes, változatlan |
+| `b20b5b6b1367fdbd04365121` | Helyi kép nincs; `Viwa Vitaminwater Gingko Biloba` mangó–lime, 600 ml; közvetlen `energia- és szénsavmentes` jelölés miatt `energiamentes: false` → `true` |
+| `e614782e04de4c23990e797b` | Helyi kép nincs; `Viwa Vitaminwater` őszibarack, 600 ml, energiamentes és szénsavmentes forrásnév, változatlan |
+
+### Ízesített víz kézi felülvizsgálat, 8. blokk
+
+- A következő **25**, helyi kép nélküli rekordot a teljes forrásnév és
+  minden mező alapján, egyenként ellenőriztük.
+- Három `Viwa Vitaminwater` forrásnév (`energia- és szénsavmentes`)
+  közvetlenül bizonyítja az `energiamentes: true` értéket; ezeket a
+  hibás `false` értékekből javítottuk. A többi rekord meglévő értéke
+  egyezett a forrásnévvel.
+- Módosított rekord: **3**.
+- Módosított tulajdonságmező: **3**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **22**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `4ff5c872002c06da5a755308` | Helyi kép nincs; `Viwa Vitaminwater` citrom–lime, 600 ml, energiamentes és szénsavmentes forrásnév, meglévő értékek változatlanok |
+| `76c80440bf91152a6c94e4ee` | Helyi kép nincs; `Viwa Vitaminwater Immunity Zero` citrom, 600 ml; közvetlen `energia- és szénsavmentes` jelölés miatt `energiamentes: false` → `true` |
+| `d65129ca0f4df30a348d9cdc` | Helyi kép nincs; `Apenta+ Energy Water` szőlő, 750 ml, szénsavmentes és guaranás, új koffeinmező nélkül változatlan |
+| `ca6183377616c0e98ad0a914` | Helyi kép nincs; `Apenta+ Energy Water` matcha, 750 ml, szénsavmentes, meglévő értékek változatlanok |
+| `7661adaff355de04ff1949b5` | Helyi kép nincs; `Apenta+ Energy Water` matcha, 750 ml, szénsavmentes, meglévő értékek változatlanok |
+| `05d7670b19dd953045acba41` | Helyi kép nincs; `Viwa Vitaminwater` mangó, 600 ml; közvetlen `energia-, szénsavmentes` jelölés miatt `energiamentes: false` → `true` |
+| `f82113f5492d7629ff4a2401` | Helyi kép nincs; `Viwa Vitaminwater Gingko Biloba` mangó–lime, 600 ml; közvetlen `energia- és szénsavmentes` jelölés miatt `energiamentes: false` → `true` |
+| `dba61223a2cf071c062cfc00` | Helyi kép nincs; `Apenta Vitamixx` eper–vörösáfonya, 1,5 l, szénsavmentes és vitamintartalmú forrásnév, változatlan |
+| `cc34c0939a42ce23d6bbd83b` | Helyi kép nincs; `Apenta Vitamixx` alma–mangó, 1,5 l, szénsavmentes és vitamintartalmú forrásnév, változatlan |
+| `0f74648b466b96c9b5959c4e` | Helyi kép nincs; `Apenta Vitamixx Zero` citrom–maracuja, 1,5 l, szénsavmentes és energiamentes, változatlan |
+| `13ea661feeabb260b9264dec` | Helyi kép nincs; `Apenta Vitamixx Zero` málna–lime, 1,5 l, szénsavmentes és energiamentes, változatlan |
+| `91cffb654c6139576fdccc62` | Helyi kép nincs; `Apenta Vitamixx Zero` áfonya–levendula, 1,5 l, szénsavmentes és energiamentes, változatlan |
+| `f3d383f1771d4e1c38911a80` | Helyi kép nincs; `Kubu Waterrr` málna, 500 ml, szénsavmentes, meglévő értékek változatlanok |
+| `b9caaf8ae3df42ed802d9bf2` | Helyi kép nincs; `Kubu Waterrr` eper, 500 ml, szénsavmentes, meglévő értékek változatlanok |
+| `de0d38c2f8f2088d4579671b` | Helyi kép nincs; `Apenta Vitamixx` kaktusz–guava, 1,5 l, szénsavmentes és vitamintartalmú forrásnév, változatlan |
+| `039c46473f6ec558c557bdaf` | Helyi kép nincs; `Apenta Light` bodza, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres, változatlan |
+| `1b9e3efc7b688754b4e04eec` | Helyi kép nincs; `Apenta Light` szőlő, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres, változatlan |
+| `9d45d207c9cbfa4c1eff2690` | Helyi kép nincs; `Apenta Light` görögdinnye, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres, változatlan |
+| `f1dc453a629327ef666788a5` | Helyi kép nincs; `Apenta Light` grapefruit–pomelo, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres, változatlan |
+| `9b40152e3a894d1f33da6b95` | Helyi kép nincs; `Apenta Light` eper, 1,5 l, enyhén szénsavas, energiamentes és édesítőszeres, változatlan |
+| `72d799688b10fd4eb791dbe5` | Helyi kép nincs; `Theodora Calcia Plus Revital` szőlő–aloe vera, 700 ml, enyhén szénsavas, változatlan |
+| `66c5181d5bb0328bb01f1ef5` | Helyi kép nincs; `Theodora Calcia Plus Anti-Stress` mangó–citromfű, 700 ml, enyhén szénsavas, változatlan |
+| `05954cc5dabf7c0345a545d4` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` erdei gyümölcs, 1,5 l, enyhén szénsavas, változatlan |
+| `dd8e090a7d5117e75984461c` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` citrom, 1,5 l, enyhén szénsavas, változatlan |
+| `d963a12b5e621afa4ca26617` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` mangó, 1,5 l, enyhén szénsavas, változatlan |
+
+### Ízesített víz kézi felülvizsgálat, 9. blokk
+
+- A következő **25**, helyi kép nélküli rekordot a teljes forrásnév és
+  minden mező alapján, egyenként ellenőriztük. A forrásnév és a meglévő
+  tulajdonságok minden rekordnál egyeztek.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `121220080` | Helyi kép nincs; `Apenta Light` málna, 1,5 l, energiamentes, enyhén szénsavas és édesítőszeres forrásnév, változatlan |
+| `121251475` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` citrom, 1,5 l, szén-dioxiddal enyhén dúsított, változatlan |
+| `121254990` | Helyi kép nincs; `Apenta Light` meggy, 1,5 l, energiamentes, enyhén szénsavas és édesítőszeres, változatlan |
+| `121219376` | Helyi kép nincs; `Apenta Light` narancs, 1,5 l, energiamentes, enyhén szénsavas és édesítőszeres, változatlan |
+| `121251532` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` erdei gyümölcs, 1,5 l, enyhén szénsavas, változatlan |
+| `121254235` | Helyi kép nincs; `Mizse` lemon–lime, 1,5 l, szénsavas és édesítőszeres, változatlan |
+| `121254264` | Helyi kép nincs; `Mizse` bodza, 1,5 l, szénsavas és édesítőszeres, változatlan |
+| `121254984` | Helyi kép nincs; `Apenta Light` bodza, 1,5 l, energiamentes, enyhén szénsavas és édesítőszeres, változatlan |
+| `121220068` | Helyi kép nincs; `Apenta Vitamixx` alma–mangó, 1,5 l, szénsavmentes és vitamintartalmú, változatlan |
+| `121220172` | Helyi kép nincs; `Apenta Vitamixx` eper–vörösáfonya, 1,5 l, szénsavmentes és vitamintartalmú, változatlan |
+| `121220155` | Helyi kép nincs; `Apenta Light` grapefruit–pomelo, 1,5 l, energiamentes, enyhén szénsavas és édesítőszeres, változatlan |
+| `121219704` | Helyi kép nincs; `Apenta Light` szőlő, 1,5 l, energiamentes, enyhén szénsavas és édesítőszeres, változatlan |
+| `121219998` | Helyi kép nincs; `Apenta Vitamixx Zero` málna–lime, 1,5 l, szénsavmentes és energiamentes, változatlan |
+| `121254241` | Helyi kép nincs; `Mizse` sárkánygyümölcs–málna, 1,5 l, szénsavas, változatlan |
+| `121254650` | Helyi kép nincs; `Apenta Vitamixx Zero` áfonya–levendula, 1,5 l, szénsavmentes és energiamentes, változatlan |
+| `121219946` | Helyi kép nincs; `Apenta Vitamixx Zero` citrom–maracuja, 1,5 l, szénsavmentes és energiamentes, változatlan |
+| `121219802` | Helyi kép nincs; `Apenta Light` görögdinnye, 1,5 l, energiamentes, enyhén szénsavas és édesítőszeres, változatlan |
+| `121220189` | Helyi kép nincs; `Apenta Light` kaktuszfüge, 1,5 l, energiamentes, enyhén szénsavas és édesítőszeres, változatlan |
+| `121232964` | Helyi kép nincs; `Vöslauer Balance Juicy` szőlő, 750 ml, szénsavas, változatlan |
+| `121252479` | Helyi kép nincs; `Active O2` alma–kivi, 500 ml, oxigénnel dúsított, energiaszegény és szénsavmentes, változatlan |
+| `121229577` | Helyi kép nincs; `Viwa Vitaminwater` citrom, 600 ml, csökkentett energiatartalmú és szénsavmentes, változatlan |
+| `121229082` | Helyi kép nincs; `Viwa Vitaminwater` narancs–guava, 600 ml, csökkentett energiatartalmú és szénsavmentes, változatlan |
+| `121252502` | Helyi kép nincs; `Active O2` áfonya, 500 ml, oxigénnel dúsított, energiaszegény és szénsavmentes, változatlan |
+| `121254385` | Helyi kép nincs; `Aqvital Multivitamin` 750 ml, vitaminokkal és édesítőszerrel, szénsavmentes forrásnév, változatlan |
+| `121252485` | Helyi kép nincs; `Active O2` citrom, 500 ml, oxigénnel dúsított, energiaszegény és szénsavmentes, változatlan |
+
+### Ízesített víz kézi felülvizsgálat, 10. blokk
+
+- A következő **25**, helyi kép nélküli rekordot a teljes forrásnév és
+  minden mező alapján, egyenként ellenőriztük.
+- Két `Viwa Vitaminwater` forrásnév közvetlen `energia- és
+  szénsavmentes` jelölése miatt az `energiamentes` értéket `false` →
+  `true` javítottuk (`121306515`, `121306526`). A többi rekord meglévő
+  értéke a forrásnévvel egyezett.
+- Módosított rekord: **2**.
+- Módosított tulajdonságmező: **2**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **23**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `121232993` | Helyi kép nincs; `Vöslauer Balance Juicy Plus` maracuja–ananász–mangó, 750 ml, szénsavas, változatlan |
+| `121272927` | Helyi kép nincs; `Voss` mandarin–citromfű, 375 ml, szén-dioxiddal dúsított/szénsavas, változatlan |
+| `121254212` | Helyi kép nincs; `Aqvital` ananász–mangó, 750 ml, enyhén szénsavas, változatlan |
+| `121254155` | Helyi kép nincs; `Aqvital` eper–rebarbara, 750 ml, enyhén szénsavas, változatlan |
+| `121272933` | Helyi kép nincs; `Voss` citrom–uborka, 375 ml, szén-dioxiddal dúsított/szénsavas, változatlan |
+| `121272945` | Helyi kép nincs; `Voss` lime–menta, 375 ml, szén-dioxiddal dúsított/szénsavas, változatlan |
+| `121254143` | Helyi kép nincs; `Aqvital` citrom–lime, 750 ml, enyhén szénsavas, változatlan |
+| `121219249` | Helyi kép nincs; `Kubu Waterrr` eper, 500 ml, szénsavmentes, változatlan |
+| `121219785` | Helyi kép nincs; `Kubu Waterrr` citrom, 500 ml, szénsavmentes, változatlan |
+| `121219791` | Helyi kép nincs; `Kubu Waterrr` alma, 500 ml, szénsavmentes, változatlan |
+| `121220108` | Helyi kép nincs; `Kubu Waterrr` málna, 500 ml, szénsavmentes, változatlan |
+| `121252491` | Helyi kép nincs; `Active O2` őszibarack tea, 500 ml, energiaszegény és szénsavmentes, változatlan |
+| `121253910` | Helyi kép nincs; `Kubu Waterrr` görögdinnye, 500 ml, szénsavmentes, változatlan |
+| `121296922` | Helyi kép nincs; `Aqvital Multivitamin zero cukor` erdei gyümölcs, 750 ml, szénsavmentes és vitamintartalmú, meglévő értékek változatlanok |
+| `121296939` | Helyi kép nincs; `Aqvital` erdei gyümölcs, 1,5 l, szénsavmentes, változatlan |
+| `121296945` | Helyi kép nincs; `Aqvital` egzotikus gyümölcs, 1,5 l, szénsavmentes, változatlan |
+| `121296974` | Helyi kép nincs; `Apenta Light` eper, 1,5 l, energiamentes, enyhén szénsavas és édesítőszeres, változatlan |
+| `121296980` | Helyi kép nincs; `Apenta Light` citrom, 1,5 l, energiamentes, enyhén szénsavas és édesítőszeres, változatlan |
+| `121306515` | Helyi kép nincs; `Viwa Vitaminwater` málna–hibiszkusz, 600 ml; közvetlen `energia- és szénsavmentes` jelölés miatt `energiamentes: false` → `true` |
+| `121306526` | Helyi kép nincs; `Viwa Vitaminwater Gingko Biloba` mangó–lime, 600 ml; közvetlen `energia- és szénsavmentes` jelölés miatt `energiamentes: false` → `true` |
+| `121306912` | Helyi kép nincs; `Hohes C Vitamin Water Energy` narancs–maracuja, 500 ml, szénsavas és vitamintartalmú, változatlan |
+| `121306935` | Helyi kép nincs; `Hohes C Vitamin Water Antiox` eper–grapefruit, 500 ml, szénsavas és vitamintartalmú, változatlan |
+| `121309419` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` mangó, 1,5 l, szén-dioxiddal enyhén dúsított, változatlan |
+| `121309454` | Helyi kép nincs; `Theodora Calcia Plus Anti-Stress` mangó–citromfű, 700 ml, enyhén szénsavas, változatlan |
+| `121309500` | Helyi kép nincs; `Theodora Calcia Plus Revital` szőlő–aloe vera, 700 ml, szén-dioxiddal enyhén dúsított, változatlan |
+
+### Ízesített víz kézi felülvizsgálat, 11. záró blokk
+
+- Az `Ízesített víz` eredeti célkészletének utolsó **12**, helyi kép
+  nélküli rekordját a teljes forrásnév és minden mező alapján,
+  egyenként ellenőriztük.
+- A három `Szentkirályi Immuno` név közvetlenül `szén-dioxiddal enyhén
+  dúsított` italt ír le; a hibás `szénsavmentes` értékeket `enyhén
+  szénsavas` értékre javítottuk. Az `Immuno` megnevezés önmagában nem
+  volt elég új vitaminérték felvételéhez kép nélkül.
+- Módosított rekord: **3**.
+- Módosított tulajdonságmező: **3**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **9**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- Az `Ízesített víz` eredeti **262** célrekordjának kézi felülvizsgálata
+  ezzel lezárult; útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `121312639` | Helyi kép nincs; `Vöslauer` citrom, 1 l, energiamentes és szénsavas, változatlan |
+| `121312651` | Helyi kép nincs; `Vöslauer` málna, 1 l, energiamentes és szénsavas, változatlan |
+| `121322783` | Helyi kép nincs; `Apenta+ Energy Water` szőlő, 750 ml, szénsavmentes és guaranás, változatlan |
+| `121322823` | Helyi kép nincs; `Apenta+ Energy Water` matcha, 750 ml, szénsavmentes, változatlan |
+| `121350985` | Helyi kép nincs; `Szentkirályi Immuno` maracuja–körte, 700 ml; `szén-dioxiddal enyhén dúsított`: `szénsavmentes` → `enyhén szénsavas` |
+| `121351016` | Helyi kép nincs; `Szentkirályi Immuno` mangó–narancs, 700 ml; `szénsavmentes` → `enyhén szénsavas` a közvetlen forrásnév alapján |
+| `121351022` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` citrom, 700 ml, enyhén szénsavas, változatlan |
+| `121351039` | Helyi kép nincs; `Szentkirályi Immuno` alma–kivi–ananász, 700 ml; `szénsavmentes` → `enyhén szénsavas` |
+| `121351045` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` mangó, 700 ml, enyhén szénsavas, változatlan |
+| `121351074` | Helyi kép nincs; `Szentkirályi Egy csepp gyümölcs` alma–menta, 700 ml, enyhén szénsavas, változatlan |
+| `121363601` | Helyi kép nincs; `Hohes C Vitamin Water Electrolytes` grapefruit–citrom, 500 ml, szénsavas és vitamintartalmú, változatlan |
+| `121363618` | Helyi kép nincs; `Hohes C Vitamin Water Electrolytes` citrom–lime, 500 ml, szénsavas és vitamintartalmú, változatlan |
+
+### Kóla kézi felülvizsgálat, 1. blokk
+
+- A `Kóla` eredeti célkészletének első **25** rekordját, minden
+  forrásmezőjét és közvetlen termékképét egyenként ellenőriztük.
+  A képek a márkát/ízt, a kóla- és zero-változatot, valamint a
+  szénsavasságot egyezően mutatták.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `4605703` | `Coca-Cola` eredeti íz, 4×330 ml, normál energiatartalom, szénsavas; közvetlen multipack-kép, változatlan |
+| `4606190` | `Coca-Cola Zero`, 4×330 ml, `ZÉRÓ CUKOR`/cukormentes, szénsavas; változatlan |
+| `1059531` | Aldi colaízű, 2 l, energiacsökkentett és szénsavas; közvetlen palackkép, változatlan |
+| `997201` | `XIXO Cola`, 250 ml, normál energiatartalom és szénsavas; változatlan |
+| `997202` | `XIXO Cola Zero`, 250 ml, cukormentes és szénsavas; változatlan |
+| `981441` | `River Cola Zero`, 1,5 l, `ZERO`/cukormentes és szénsavas; változatlan |
+| `981442` | `River Cola Classic`, 1,5 l, normál energiatartalom és szénsavas; változatlan |
+| `991340` | `Coca-Cola Classic`, 500 ml, normál energiatartalom és szénsavas; változatlan |
+| `991341` | `Coca-Cola Zero`, 500 ml, cukormentes és szénsavas; változatlan |
+| `989120` | `Fanta` narancs, 1 l, normál energiatartalom és szénsavas; kóla-levélben tárolt narancsíz, meglévő érték változatlan |
+| `989121` | `Coca-Cola Zero`, 1 l, cukormentes és szénsavas; változatlan |
+| `989139` | `Coca-Cola Classic`, 1 l, normál energiatartalom és szénsavas; változatlan |
+| `4599208` | `Pepsi` meggy, 2,25 l, normál energiatartalom és szénsavas; közvetlen Cherry-kép, változatlan |
+| `4599209` | `Pepsi` citrom, 2,25 l, normál energiatartalom és szénsavas; közvetlen Lemon Twist-kép, változatlan |
+| `4599210` | `Pepsi Max`, 2,25 l, cukormentes és szénsavas; változatlan |
+| `4599211` | `Pepsi Cola`, 2,25 l, normál energiatartalom és szénsavas; változatlan |
+| `991328` | `Coca-Cola` eredeti íz, 2 l, normál energiatartalom és szénsavas; változatlan |
+| `991333` | `Coca-Cola Zero`, 2 l, cukormentes és szénsavas; változatlan |
+| `829511:4366901` | `XIXO Cherry Coke`, cseresznye–kóla, 250 ml, cukros/édesítőszeres és szénsavas; változatlan |
+| `677873:4215263` | `XIXO Cola`, 250 ml, cukros/édesítőszeres és szénsavas; változatlan |
+| `677876:4215266` | `XIXO Cola Zero`, 250 ml, cukormentes/édesítőszeres és szénsavas; változatlan |
+| `684128:4221518` | `Auchan Tipp Cola`, 2 l, energiamentes/cukormentes, édesítőszeres és szénsavas; közvetlen címkekép, változatlan |
+| `678170:4215560` | `Coca-Cola` eredeti íz, 300 ml, normál energiatartalom és szénsavas; változatlan |
+| `678173:4215563` | `Coca-Cola Zero`, 300 ml, zéró cukor/energiamentes és édesítőszeres, szénsavas; változatlan |
+| `684047:4221437` | `Gyöngy Cola`, 2 l, zéró/energiamentes és édesítőszeres, szénsavas; közvetlen címkekép, változatlan |
+
+### Kóla kézi felülvizsgálat, 2. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét és
+  közvetlen képét egyenként ellenőriztük. A képek a kóla-, zero-, lime-,
+  cherry- és citromváltozatokat, valamint a szénsavasságot igazolták;
+  a meglévő energiatartalom-értékek is egyeztek a névvel/címkével.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `678662:4216052` | `Coca-Cola Cherry`, 330 ml, normál energiatartalom és szénsavas, változatlan |
+| `678584:4215974` | `Coca-Cola` eredeti íz, 330 ml, normál és szénsavas, változatlan |
+| `678617:4216007` | `Coca-Cola Zero Cherry`, 330 ml, cukormentes és szénsavas, változatlan |
+| `678656:4216046` | `Coca-Cola Zero`, 330 ml, zéró cukor/édesítőszeres és szénsavas, változatlan |
+| `675146:4212536` | `Pepsi`, 330 ml, cukros/édesítőszeres és szénsavas, változatlan |
+| `795236:4332626` | `Pepsi Lemon Zero`, 330 ml, zero/cukormentes citromos és szénsavas, változatlan |
+| `675161:4212551` | `Pepsi Zero`, 330 ml, cukormentes/édesítőszeres és szénsavas, változatlan |
+| `678659:4216049` | `Coca-Cola Cherry`, 500 ml, normál és szénsavas, változatlan |
+| `678587:4215977` | `Coca-Cola` eredeti íz, 500 ml, normál és szénsavas, változatlan |
+| `678629:4216019` | `Coca-Cola Light`, 500 ml, cukormentes/édesítőszeres és szénsavas, változatlan |
+| `821822:4359212` | `Coca-Cola Lime`, 500 ml, normál és szénsavas, változatlan |
+| `678611:4216001` | `Coca-Cola Zero Cherry`, 500 ml, cukormentes és szénsavas, változatlan |
+| `678632:4216022` | `Coca-Cola Zero`, 500 ml, zéró cukor/édesítőszeres és szénsavas, változatlan |
+| `678608:4215998` | `Coca-Cola Zero koffeinmentes`, 500 ml, cukormentes/édesítőszeres és szénsavas, változatlan |
+| `675149:4212539` | `Pepsi`, 0,5 l, cukros/édesítőszeres és szénsavas, változatlan |
+| `675164:4212554` | `Pepsi Zero`, 0,5 l, cukormentes/édesítőszeres és szénsavas, változatlan |
+| `675155:4212545` | `Pepsi`, 1 l, cukros/édesítőszeres és szénsavas, változatlan |
+| `675170:4212560` | `Pepsi Zero`, 1 l, cukormentes/édesítőszeres és szénsavas, változatlan |
+| `678593:4215983` | `Coca-Cola` eredeti íz, 1 l, normál és szénsavas, változatlan |
+| `678644:4216034` | `Coca-Cola Zero`, 1 l, zéró cukor/édesítőszeres és szénsavas, változatlan |
+| `678626:4216016` | `Coca-Cola Zero koffeinmentes`, 1 l, cukormentes/édesítőszeres és szénsavas, változatlan |
+| `684053:4221443` | `Márka Cola`, 2 l, cukros/édesítőszeres és szénsavas, változatlan |
+| `684056:4221446` | `Márka Cola Zéró`, 2,5 l, cukormentes/édesítőszeres és szénsavas, változatlan |
+| `684050:4221440` | `Márka Cola`, 2,5 l, cukros/édesítőszeres és szénsavas, változatlan |
+| `675152:4212542` | `Pepsi`, 1,5 l, cukros/édesítőszeres és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 3. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét és
+  közvetlen termékképét egyenként ellenőriztük. A képek és a nevek a
+  márkát/ízt, a normál vagy zero-változatot, valamint a szénsavasságot
+  egyezően igazolták; a multipack-rekordoknál a közvetlen csomagoláskép
+  is rendelkezésre állt.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `675167:4212557` | `Pepsi Zero`, 1,5 l, cukormentes és szénsavas, változatlan |
+| `783179:4320569` | `Queen Cola`, 2,5 l, normál energiatartalom és szénsavas, változatlan |
+| `678665:4216055` | `Coca-Cola Cherry`, 1,75 l, normál energiatartalom és szénsavas, változatlan |
+| `678590:4215980` | `Coca-Cola` eredeti íz, 1,75 l, normál energiatartalom és szénsavas, változatlan |
+| `678638:4216028` | `Coca-Cola Light`, 1,75 l, cukormentes és szénsavas, változatlan |
+| `821828:4359218` | `Coca-Cola Lime`, 1,75 l, normál energiatartalom és szénsavas, változatlan |
+| `678614:4216004` | `Coca-Cola Zero Cherry`, 1,75 l, cukormentes és szénsavas, változatlan |
+| `678641:4216031` | `Coca-Cola Zero`, 1,75 l, cukormentes és szénsavas, változatlan |
+| `945578:4482968` | `Pepsi Cherry Zero`, 2 l, cukormentes és szénsavas, változatlan |
+| `675158:4212548` | `Pepsi Cola`, 2 l, normál energiatartalom és szénsavas, változatlan |
+| `795230:4332620` | `Pepsi Lemon Zero`, 2 l, cukormentes és szénsavas, változatlan |
+| `675173:4212563` | `Pepsi Zero`, 2 l, cukormentes és szénsavas, változatlan |
+| `678596:4215986` | `Coca-Cola` eredeti íz, 2,25 l, normál energiatartalom és szénsavas, változatlan |
+| `678647:4216037` | `Coca-Cola Zero`, 2,25 l, cukormentes és szénsavas, változatlan |
+| `680147:4217537` | `Coca-Cola Cherry`, 4×330 ml, normál energiatartalom és szénsavas, multipack-kép alapján változatlan |
+| `678602:4215992` | `Coca-Cola` eredeti íz, 4×330 ml, normál energiatartalom és szénsavas, multipack-kép alapján változatlan |
+| `678635:4216025` | `Coca-Cola Zero`, 4×330 ml, cukormentes és szénsavas, multipack-kép alapján változatlan |
+| `678599:4215989` | `Coca-Cola` eredeti íz, 2×1,75 l, normál energiatartalom és szénsavas, multipack-kép alapján változatlan |
+| `678650:4216040` | `Coca-Cola Zero`, 2×1,75 l, cukormentes és szénsavas, multipack-kép alapján változatlan |
+| `678605:4215995` | `Coca-Cola` eredeti íz, 4×1,75 l, normál energiatartalom és szénsavas, multipack-kép alapján változatlan |
+| `678653:4216043` | `Coca-Cola Zero`, 4×1,75 l, cukormentes és szénsavas, multipack-kép alapján változatlan |
+| `670647:4208037` | `Pepsi Cola`, 4×2 l, normál energiatartalom és szénsavas, multipack-kép alapján változatlan |
+| `1000882:4538272` | `Coca-Cola vanilla`, 330 ml, normál energiatartalom és szénsavas, változatlan |
+| `675212:4212602` | `Dr Pepper`, 1,5 l, normál energiatartalom és szénsavas; a meglévő `Kóla` levélben tárolt rekord, érték változatlan |
+| `3380679` | Helyi kép nincs; `COCA-COLA ZERO SLEEK DOB.DRS 4X0.33L`, cukormentes és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 4. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét egyenként
+  ellenőriztük. Helyi termékkép egyik rekordhoz sem állt rendelkezésre;
+  ezért a közvetlen forrásnév és az összes tárolt mező alapján vizsgáltuk
+  a márkát, ízt, szénsavasságot és energiatartalmat.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `3375542` | Helyi kép nincs; `COOP COLA PET DRS 2.5L`, 2,5 l, `Coop`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `3375528` | Helyi kép nincs; `MÁRKA COLA SZÉNS.ÜDÍTŐ PET.DRS 2.5L`, 2,5 l, `Márka`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `3372113` | Helyi kép nincs; `COCA-COLA CHERRY DOB.DRS 0.33L`, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `3091357` | Helyi kép nincs; `COCA-COLA LIME PET.DRS 1.75L`, lime-os, normál energiatartalom és szénsavas, változatlan |
+| `3091008` | Helyi kép nincs; `COCA-COLA SLEEK DOB.DRS 4X0.33L`, natúr, normál energiatartalom és szénsavas, multipack, változatlan |
+| `3091005` | Helyi kép nincs; `COCA-COLA ZERO PET DRS 0.3L`, natúr, cukormentes és szénsavas, változatlan |
+| `3091004` | Helyi kép nincs; `COCA-COLA PET DRS 0.3L`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `2808642` | Helyi kép nincs; `COOP COLA ZERO SZÉNS.ÜDÍTŐ PET.DRS 1.5L`, `Coop`, natúr, cukormentes és szénsavas, változatlan |
+| `2808618` | Helyi kép nincs; `XIXO SZÉNS.ÜD.COLA ZERO DOB.DRS 250ML`, natúr, cukormentes és szénsavas, változatlan |
+| `2808617` | Helyi kép nincs; `XIXO SZÉNS.ÜD.COLA DOB.DRS 250ML`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `2808530` | Helyi kép nincs; `COCA-COLA ZERO PET DRS 0.5L`, natúr, cukormentes és szénsavas, változatlan |
+| `2808499` | Helyi kép nincs; `PEPSI COLA SZÉNSAVAS ÜDÍTŐ DOB.DRS 0.33L`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `2808244` | Helyi kép nincs; `COOP COLA SZÉNSAVAS ÜDÍTŐ PET.DRS 1.5L`, `Coop`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `2808061` | Helyi kép nincs; `COCA-COLA PET DRS 1.75L`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `2808023` | Helyi kép nincs; `COCA-COLA ZERO PET DRS 1.75L`, natúr, cukormentes és szénsavas, változatlan |
+| `2807756` | Helyi kép nincs; `COCA-COLA CHERRY ZERO PET DRS 0.5L`, cseresznyés, cukormentes és szénsavas, változatlan |
+| `2807755` | Helyi kép nincs; `COCA-COLA LIGHT PET DRS 0.5L`, natúr, cukormentes és szénsavas, változatlan |
+| `2807754` | Helyi kép nincs; `COCA-COLA LIGHT PET DRS 1.75L`, natúr, cukormentes és szénsavas, változatlan |
+| `2807707` | Helyi kép nincs; `COCA-COLA CHERRY PET DRS 0.5L`, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `2807706` | Helyi kép nincs; `COCA-COLA PET DRS 2.25L`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `2807705` | Helyi kép nincs; `COCA-COLA PET DRS 1L`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `2807679` | Helyi kép nincs; `PEPSI ZERO SZÉNSAV.ÜDÍTŐ PET DRS 2L`, natúr, cukormentes és szénsavas, változatlan |
+| `2807678` | Helyi kép nincs; `PEPSI ZERO SZÉNSAV.ÜDÍTŐ PET DRS 0.5L`, natúr, cukormentes és szénsavas, változatlan |
+| `2807671` | Helyi kép nincs; `PEPSI COLA SZÉNSAVAS ÜDÍTŐ PET DRS 1L`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `2807667` | Helyi kép nincs; `PEPSI COLA SZÉNSAVAS ÜDÍTŐ PET DRS 0.5L`, natúr, normál energiatartalom és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 5. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét és a helyi
+  termékképét egyenként ellenőriztük. Hét rekordnál nem volt helyi kép;
+  a többi képe a márkát, ízt, zero-változatot és szénsavasságot igazolta.
+- Módosított rekord: **4**.
+- Módosított tulajdonságmező: **5**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **21**.
+- Új megengedett érték: **1** (`eper`, `íz`).
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `2807666` | Helyi kép nincs; `PEPSI ZERO SZÉNSAV.ÜDÍTŐ PET DRS 1L`, natúr, cukormentes és szénsavas, változatlan |
+| `2807600` | Helyi kép nincs; `PEPSI COLA SZÉNSAVAS ÜDÍTŐ PET DRS 2L`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `2807527` | Helyi kép nincs; `PEPSI COLA SZÉNSAVAS ÜDÍTŐ PET DRS 1.5L`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `2807366` | Helyi kép nincs; `COCA-COLA CHERRY ZERO PET DRS 1.75L`, cseresznyés, cukormentes és szénsavas, változatlan |
+| `2807052` | Helyi kép nincs; `COCA-COLA ZERO PET DRS 1L`, natúr, cukormentes és szénsavas, változatlan |
+| `2806908` | Helyi kép nincs; `COCA-COLA ZERO SLEEK CAN DRS 0.33L`, natúr, cukormentes és szénsavas, változatlan |
+| `2806907` | Helyi kép nincs; `COCA-COLA SLEEK DOB.DRS 0.33L`, natúr, normál energiatartalom és szénsavas, változatlan |
+| `10000094` | `Freeway Cola`, közvetlen palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `10003093` | `Freeway Cola zero`, közvetlen `zero sugar` palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `10033210` | `Coca Cola`, közvetlen `ZERO CUKOR` palackkép; `normál` → `cukormentes` energiatartalom |
+| `10047996` | `Coca-Cola`, közvetlen 4×330 ml-es `Cherry` multipack-kép; `natúr` → `cseresznye` íz |
+| `10104571` | `Pepsi Regular`, közvetlen palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `10104573` | `Pepsi Zero`, közvetlen `ZERO SUGAR` palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `10107321` | `Pepsi*`, közvetlen `STRAWBERRIES 'N' CREAM FLAVOUR` és `ZERO SUGAR` dobozkép; `natúr` → `eper`, `normál` → `cukormentes` |
+| `10107365` | `FREEWAY Feketeribizli-ízű Cola`, közvetlen Freeway-kép; a forrásnév bizonyítja a `feketeribizli` ízt, változatlan |
+| `10107423` | `Coca-Cola* / Coca-Cola Zero*`, közvetlen eredeti ízű multipack-kép; a forrásnév két változatot jelöl, ezért a meglévő cukormentes értéket nem találgattuk át, változatlan |
+| `10107811` | `DR. PEPPER Szénsavas üdítőital`, közvetlen `Creamy & Sweet` dobozkép; pontos elemi ízérték nem olvasható ki, változatlan |
+| `10107819` | `COCA-COLA Szénsavas üditőital`, közvetlen `Cherry Float` dobozkép; `natúr` → `cseresznye` íz |
+| `10107947` | `Dr Pepper`, közvetlen palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17319300320021` | `Coca-Cola` colaízű, közvetlen eredeti ízű palackkép, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17320700320021` | `Coca-Cola zéró cukor`, közvetlen `ZERO` palackkép, cukormentes és szénsavas, változatlan |
+| `BTY-X17319600320021` | `Coca-Cola` colaízű, közvetlen eredeti ízű palackkép, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17320300320021` | `Coca-Cola Cherry`, közvetlen `Cherry` palackkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18121800320021` | `Coca-Cola Cola- és lime ízű`, közvetlen `Lime` palackkép, lime-os, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17321000320021` | `Coca-Cola zéró cukor`, közvetlen `ZÉRÓ CUKOR` palackkép, natúr, cukormentes és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 6. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét és
+  közvetlen termékképét egyenként ellenőriztük. A képek a Cherry-,
+  Cherry Zero-, Light-, Lemon Zero-, Kofola- és normál kólaváltozatokat,
+  valamint a szénsavasságot és az energiatartalmat egyezően igazolták.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X17321600320021` | `Coca-Cola Zero Cherry`, közvetlen Cherry Zero palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `BTY-X17320500320021` | `Coca-Cola Zero Cherry`, közvetlen Cherry Zero multipack-kép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `BTY-X17321400320021` | `Coca-Cola Cherry`, közvetlen Cherry palackkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17320400320021` | `Coca-Cola Zero koffeinmentes`, közvetlen koffeinmentes/zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17320600320021` | `Coca-Cola Light`, közvetlen Light palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17321100320021` | `Coca-Cola Light`, közvetlen Light palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17340700320021` | `Pepsi` colaízű, közvetlen Pepsi-palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17340900320021` | `Pepsi Zero`, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17344700320021` | `Dr Pepper`, közvetlen 23-as jelölésű palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17833800320021` | `Kofola cukormentes`, közvetlen cukormentes palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17834000320021` | `Kofola meggy`, közvetlen meggy-jelölésű palackkép, meggyes, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18417300320021` | `Fentimans Curiosity Cola`, közvetlen Curiosity Cola üvegkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18647400320021` | `Pepsi Lemon Zero`, közvetlen Lemon Flavour/Zero Sugar palackkép, citromos, cukormentes és szénsavas, változatlan |
+| `BTY-X17319000320021` | `Coca-Cola` colaízű, közvetlen eredeti ízű palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17319800320021` | `Coca-Cola zéró cukor`, közvetlen zéró cukor dobozkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X18246000320021` | `Coca-Cola` visszaváltható üveges multipack, közvetlen eredeti ízű üvegkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18246100320021` | `Coca-Cola Zero` visszaváltható üveges multipack, közvetlen zéró cukor üvegkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17319700320021` | `Coca-Cola` colaízű, közvetlen eredeti ízű palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17319500320021` | `Coca-Cola` colaízű, közvetlen eredeti ízű palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18078700320021` | `Pepsi Cola Lemon Zero`, közvetlen Lemon Flavour/Zero Sugar palackkép, citromos, cukormentes és szénsavas, változatlan |
+| `BTY-X17343400320021` | `Pepsi` colaízű, közvetlen Pepsi dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17898600320021` | `XIXO Cherry Coke`, közvetlen Cherry Cola dobozkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17342200320021` | `Pepsi` colaízű, közvetlen Pepsi-palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17319100320021` | `Coca-Cola Cherry`, közvetlen Cherry palackkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18420900320021` | `Pepsi Black Cherry Zero`, közvetlen Cherry Flavour/Zero Sugar dobozkép, cseresznyés, cukormentes és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 7. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét és
+  közvetlen termékképét egyenként ellenőriztük. A képek a Dr Pepper,
+  Márka, Coca-Cola Lime/Zero, Pepsi/Pepsi Zero/Lemon Zero, XIXO,
+  Kofola és Royal Crown változatokat, valamint a szénsavasságot és az
+  energiatartalmat egyezően igazolták.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X17346100320021` | `Dr Pepper`, közvetlen 23-as jelölésű dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17410300320021` | `Márka` cola, közvetlen 2 l-es Márka Cola palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18121700320021` | `Coca-Cola Lime`, közvetlen lime-os dobozkép, lime-os, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17320900320021` | `Coca-Cola zéró cukor`, közvetlen ZÉRÓ CUKOR palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17341500320021` | `Pepsi Zero`, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17343500320021` | `Pepsi Zero`, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X18078600320021` | `Pepsi Lemon Zero`, közvetlen Lemon/Zero Sugar dobozkép, citromos, cukormentes és szénsavas, változatlan |
+| `BTY-X18411300320021` | `Pepsi Cherry Zero`, közvetlen Cherry/Zero Sugar palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `BTY-X17321200320021` | `Coca-Cola Zéro`, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17301400320021` | `XIXO Cola`, közvetlen Cola dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17342400320021` | `Pepsi Cola`, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17342600320021` | `Pepsi Max`, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17693700320021` | `Coca-Cola`, közvetlen colaízű palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17301500320021` | `XIXO Cola Zero`, közvetlen Zero Cola dobozkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17341400320021` | `Pepsi Cola`, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17409500320021` | `Gyöngy` cola, közvetlen energiamentes palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17832900320021` | `Royal Crown Cola Classic`, közvetlen Classic palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17833000320021` | `Royal Crown No Sugar`, közvetlen No Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X17833100320021` | `Kofola Original`, közvetlen Original palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17849600320021` | `Kofola Citrom`, közvetlen citromos palackkép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17864200320021` | `Royal Crown Cola Classic`, közvetlen Classic palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18116200320021` | `Márka` cola, közvetlen 250 ml-es Márka Cola dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18116300320021` | `Márka` cola, közvetlen 500 ml-es Márka Cola dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18118000320021` | `Royal Crown Cola`, közvetlen 330 ml-es Classic palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18420800320021` | `Pepsi Cherry Zero`, közvetlen Cherry/Zero Sugar palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 8. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét és
+  közvetlen termékképét egyenként ellenőriztük. A képek a koffeinmentes
+  és zero Coca-Cola, Pepsi Twist/Lemon Zero, vaníliás Coca-Cola, Kofola,
+  Royal Crown, Drinky és CBA Piros változatokat, valamint a
+  szénsavasságot és az energiatartalmat egyezően igazolták.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X18754000320021` | `Coca-Cola` koffeinmentes/zéró cukor, közvetlen fekete dobozkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X18755900320021` | `Coca-Cola Zero` visszaváltható üveg, közvetlen zéró cukor üvegkép, natúr, cukormentes és szénsavas, változatlan |
+| `BTY-X18836400320021` | Helyi kép nincs; `Pepsi Twist`, citromos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18836500320022` | `Pepsi Twist` 8×2 l, közvetlen Lemon Twist multipack-kép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17959000320021` | `Coca-Cola Coke Vanilla`, közvetlen vaníliás palackkép, vaníliás, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18078500320021` | `Pepsi Lemon Zero`, közvetlen Lemon/Zero Sugar palackkép, citromos, cukormentes és szénsavas, változatlan |
+| `BTY-X16626200320021` | `Kofola Original`, közvetlen Original palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17833400320021` | `Kofola sárgabarack`, közvetlen sárgabarackos palackkép, sárgabarackos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17833500320021` | `Kofola görögdinnye`, közvetlen görögdinnyés palackkép, görögdinnyés, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18118200320021` | `Royal Crown Cola Cukormentes`, közvetlen No Sugar dobozkép, natúr, cukormentes és szénsavas, változatlan |
+| `1010421` | `Drinky Cola`, közvetlen Cola palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `1045001` | `Coca-Cola`, közvetlen eredeti ízű palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `1045006` | `Coca-Cola zéró cukor`, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `1393316` | `Pepsi Zero Lemon`, közvetlen Lemon/Zero palackkép, citromos, cukormentes és szénsavas, változatlan |
+| `4602918` | `Pepsi Zero Cherry`, közvetlen Cherry/Zero palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `176426` | `Pepsi Max`, közvetlen Pepsi Max palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `177092` | `Pepsi`, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `1045004` | `Coca-Cola`, közvetlen eredeti ízű palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `1045009` | `Coca-Cola zéró cukor`, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `a8db63de74856b80a7116ec7` | `CBA Piros` cola, közvetlen energiamentes címkekép, natúr, cukormentes és szénsavas, változatlan |
+| `7c9f7f78d8f88797de409e82` | `Coca-Cola Cherry`, közvetlen Cherry palackkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `02a0a2513ac129d94682f3fc` | `Coca-Cola Cherry`, közvetlen Cherry dobozkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `e99f9bbfbc51e075f8c2cbff` | `Coca-Cola Cherry` 4×330 ml, közvetlen Cherry multipack-kép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `96322686e43fc45e0e85dee7` | `Coca-Cola Cherry`, közvetlen Cherry palackkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `a2e87c3c07766002ce3ffd0a` | `Coca-Cola`, közvetlen eredeti ízű palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 9. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét és
+  közvetlen termékképét egyenként ellenőriztük. A Coca-Cola és Pepsi
+  eredeti/natúr, zero/cukormentes, illetve Coca-Cola Zero Cherry
+  változatai, továbbá a Dr Pepper termékek képei és forrásnevei egyeztek
+  a rögzített kategóriaúttal és tulajdonságokkal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `e9ef7b440908a468b395555a` | `Coca-Cola` colaízű 1,75 l, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `afa6a88546aa745611921d54` | `Coca-Cola` colaízű 2,25 l, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `b49576b6649f62494770f8b3` | `Coca-Cola` colaízű 330 ml, közvetlen Eredeti íz dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `c2d350208bd9755a502eaf03` | `Coca-Cola` colaízű 4×330 ml, közvetlen Eredeti íz multipack-kép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `81171de49ba0d74c45cb7d57` | `Coca-Cola` colaízű 500 ml, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `f8eb7def4d5f2c16208659b8` | `Coca-Cola Light` 1750 ml, közvetlen Light palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `5fd0bfea1883fe1eb64a77b2` | `Coca-Cola Light` 500 ml, közvetlen Light palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `6d3ccbdbaa6cbd004ccaac4e` | `Coca-Cola Zero Cherry` 330 ml, közvetlen Cherry/zéró cukor dobozkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `0c5545805ece12460aebe0e2` | `Coca-Cola Zero Cherry` 500 ml, közvetlen Cherry/zéró cukor palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `f2d410a0b04e1902d3ce969d` | `Coca-Cola` zéró cukor 1 l, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `008c5feaedb9bbf28ac480dc` | `Coca-Cola` zéró cukor 1,75 l, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `d02a57f8056a631a4fd406a6` | `Coca-Cola Zéro` 2,25 l, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `5ab9d981957efdf05037f74f` | `Coca-Cola` zéró cukor 330 ml, közvetlen zéró cukor dobozkép, natúr, cukormentes és szénsavas, változatlan |
+| `50e969139ca704f624690151` | `Coca-Cola Zero` 4×330 ml, közvetlen zéró cukor multipack-kép, natúr, cukormentes és szénsavas, változatlan |
+| `976a2d65dc861aa436fe8ea9` | `Coca-Cola` zéró cukor 500 ml, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `4d1b702c460ba0fd50b4bc86` | `Coca-Cola Zero` koffeinmentes 1 l, közvetlen koffeinmentes/zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `ddacd9f18febcc9c1fcd0e21` | `Coca-Cola Zero` koffeinmentes 500 ml, közvetlen koffeinmentes/zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `a0aaeb4a487a012f13eeedce` | `Dr Pepper` 1,5 l, közvetlen 23 ízesítésű palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `7c872344a9aa65115cf75272` | `Dr Pepper` 330 ml, közvetlen 23 ízesítésű dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `1a8e9a491a703b45fd37215d` | `Pepsi cola` 0,5 l, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `8d0a79ad64ee7d96f85e9d0c` | `Pepsi cola` 1 l, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `fc62802c48fc35d6eebdeb6d` | `Pepsi cola` 1,5 l, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `9b2668cce1c31b57884648d9` | `Pepsi cola` 330 ml, közvetlen Pepsi dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `0a71f0db1df704633bcdf3ad` | `Pepsi Zero` 0,5 l, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `d2c0b2badf11cc537c028bd8` | `Pepsi Zero` 1 l, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 10. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét és
+  közvetlen termékképét egyenként ellenőriztük. A Pepsi Zero, Coca-Cola
+  eredeti/Lime/Cherry/Zero és koffeinmentes változatai, valamint a Márka
+  Cola képei és forrásnevei egyeztek a rögzített kategóriaúttal és
+  tulajdonságokkal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `0bd66e53d54de75db17bb773` | `Pepsi Zero` 1,5 l, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `83f97349c76386e380ac5b29` | `Pepsi Zero` 2 l, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `a23e27c89fe8221cd2c16704` | `Pepsi Zero` 330 ml, közvetlen Zero Sugar dobozkép, natúr, cukormentes és szénsavas, változatlan |
+| `52b9c10f545ff41918d1d2d9` | `Coca-Cola` colaízű 300 ml, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `eb89db27dcbc91f19b598b0d` | `Coca-Cola Lime` 330 ml, közvetlen Lime dobozkép, lime-os, normál energiatartalom és szénsavas, változatlan |
+| `a0704bb7c1ed542be15453fe` | `Coca-Cola Lime` 500 ml, közvetlen Lime palackkép, lime-os, normál energiatartalom és szénsavas, változatlan |
+| `b1902dcfb98bf9cd0148b438` | `Coca-Cola Lime` 1,75 l, közvetlen Lime palackkép, lime-os, normál energiatartalom és szénsavas, változatlan |
+| `9a9fbed82275e5e12b7c5084` | `Coca-Cola` koffeinmentes 1,75 l, közvetlen koffeinmentes/zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `09d7e5d45c5b086e8619e171` | `Pepsi Zero` citromos 2 l, közvetlen Lemon/Zero Sugar palackkép, citromos, cukormentes és szénsavas, változatlan |
+| `98ed145f144015a63a8b2f5b` | `Coca-Cola` zéró cukor 300 ml, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `d1d80d26dc47decce3790536` | `Pepsi Zero` cseresznyés 330 ml, közvetlen Cherry/Zero Sugar dobozkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `3e97086c149f56694e05b4e3` | `Márka Cola` 2 l, közvetlen Cola palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `4a355da825444d2e9d5211ae` | `Pepsi Zero` cseresznyés 0,5 l, közvetlen Cherry/Zero Sugar palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `074d8360b63b7c82114770e6` | `Coca-Cola` 1,75 l, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `efe97de98c699f1d60930786` | `Coca-Cola` 2,25 l, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `4e82ef877351e996d2c96943` | `Coca-Cola Cherry` 1,75 l, közvetlen Cherry palackkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `4d64ea576d4c06d50182b6a7` | `Coca-Cola Zero Cherry` 500 ml, közvetlen Cherry/zéró cukor palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `727c3081832378485bfad2db` | `Coca-Cola` 1 l, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `d855d2b57752ebb394105837` | `Coca-Cola` zéró cukor 1,75 l, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `afc287b3cbf338750ed95d2a` | `Coca-Cola Zéro` 2,25 l, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `860bd1e998e56558b1c64236` | `Coca-Cola` cola 2×1,75 l, közvetlen Eredeti íz multipack-kép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `86f1ee5f57320f3214ab49ed` | `Coca-Cola Zero Cherry` 1,75 l, közvetlen Cherry/zéró cukor palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `d267f4d5486dfc40732206d0` | `Coca-Cola` zéró cukor 500 ml, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `b3ca1582139e4a16ba83eff7` | `Coca-Cola Zero` koffeinmentes 1 l, közvetlen koffeinmentes/zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `1652927eedcb7fa03e681bbf` | `Coca-Cola` zéró cukor 1 l, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 11. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét és
+  közvetlen termékképét egyenként ellenőriztük. A Coca-Cola Zero és Light,
+  Pepsi eredeti/Zero/Citrom, Coca-Cola Cherry és Lime, továbbá Márka,
+  SPAR be fresh! és S-Budget kóla képei és forrásnevei egyeztek a
+  rögzített kategóriaúttal és tulajdonságokkal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `7e1e1cf16baaed32e9e370b6` | `Coca-Cola Zero` koffeinmentes 500 ml, közvetlen koffeinmentes/zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `a11539de3d1d2512434a8fe3` | `Coca-Cola Zéró` 2×1,75 l, közvetlen zéró cukor multipack-kép, natúr, cukormentes és szénsavas, változatlan |
+| `046a71793b99972f6d630384` | `Coca-Cola Light` 1750 ml, közvetlen Light palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `b7c4fc3363e3836dd929070d` | `Pepsi` 1,5 l, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `2f04d66c2670268a4660cd2f` | `Pepsi Zero` 1 l, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `738a1e31c53c2a2b8acdf691` | `Pepsi Zero` 0,5 l, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `b26bc19e88b3b3b04b61405d` | `Pepsi Zero` 1,5 l, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `3cd282cbf910af40d513c723` | `Pepsi` 1 l, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `17762001d3ab128a29ee7a10` | `Pepsi` 0,5 l, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `29008be9ac1039ef94dd1fbb` | `Pepsi Cola` 2 l, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `8f24d5fb2736b3b829335acf` | `Pepsi Zero` 2 l, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `0ab51d3a1bbc4252ab2fef3e` | `Coca-Cola` colaízű 300 ml, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `1ad6786d299ed4856a7ea1a4` | `Coca-Cola Cherry` 500 ml, közvetlen Cherry palackkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `e69a23e904ca604dcb413a74` | `Coca-Cola` zéró cukor 300 ml, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `65e3444e128d71a36d4f949a` | `Coca-Cola` colaízű 500 ml, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `84ed0f1c17330167950a20e3` | `Coca-Cola Light` 500 ml, közvetlen Light palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `997df09442c4c22ce4bb48f2` | `SPAR be fresh! Cola` 1,5 l, közvetlen Cola palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `46e76668c609d4084c84dda7` | `S-Budget Cola` 2 l, közvetlen Cola palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `e2bc016d3ff534256b5347e1` | `Márka Cola` 2 l, közvetlen Cola palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `bf5602d4d5dbdd63df68f91d` | `Coca-Cola Lime` 500 ml, közvetlen Lime palackkép, lime-os, normál energiatartalom és szénsavas, változatlan |
+| `68449201fcc2d83c8a0c19f4` | `Coca-Cola Lime` 1,75 l, közvetlen Lime palackkép, lime-os, normál energiatartalom és szénsavas, változatlan |
+| `4b3b6c6219daed5878bda931` | `Coca-Cola` koffeinmentes 1,75 l, közvetlen koffeinmentes/zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `062f418ebac8d6c11470c6c9` | `Pepsi Zero` citromos 0,5 l, közvetlen Lemon/Zero Sugar palackkép, citromos, cukormentes és szénsavas, változatlan |
+| `cbd84e51a79b1d4bcaa5e83b` | `Márka Cola` 2,5 l, közvetlen Cola palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `d8035becf0eb3ad84276c255` | `Pepsi Zero` citromos 2 l, közvetlen Lemon/Zero Sugar palackkép, citromos, cukormentes és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 12. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét és
+  közvetlen termékképét egyenként ellenőriztük. A Pepsi Zero citromos,
+  Coca-Cola eredeti/Cherry/Zero, XIXO Cola/Zero, Rauch Yippy Cola-meggy
+  és Cola-narancs, valamint Tesco saját képei és forrásnevei egyeztek a
+  rögzített kategóriaúttal és tulajdonságokkal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `58634eb25158397935224685` | `Pepsi Zero` citromos 1,5 l, közvetlen Lemon/Zero Sugar palackkép, citromos, cukormentes és szénsavas, változatlan |
+| `07bd10aabe25abbba8f505e0` | `Coca-Cola` colaízű 330 ml, közvetlen Eredeti íz dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `2f82a3608dc7f9c64f33f7b4` | `Coca-Cola Cherry` 330 ml, közvetlen Cherry dobozkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `5f39c1b9ba1893c50893829a` | `Coca-Cola` zéró cukor 330 ml, közvetlen zéró cukor dobozkép, natúr, cukormentes és szénsavas, változatlan |
+| `4b08b6ca6634f2bcacefc030` | `Coca-Cola` 4×330 ml, közvetlen Eredeti íz multipack-kép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `77e51ad0386a74547c6b0e70` | `Coca-Cola Zero` 4×330 ml, közvetlen zéró cukor multipack-kép, natúr, cukormentes és szénsavas, változatlan |
+| `c2a6a812e310d28b427f70eb` | `Pepsi` 330 ml, közvetlen Pepsi dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `10d4de460e6679d6c947ff4d` | `Pepsi Zero` 330 ml, közvetlen Zero Sugar dobozkép, natúr, cukormentes és szénsavas, változatlan |
+| `49e35d685034362bc71e5c12` | `XIXO Cola` 250 ml, közvetlen Cola dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `d569cfe388a6049a3917d3af` | `XIXO Cola Zero` 250 ml, közvetlen Zero Cola dobozkép, natúr, cukormentes és szénsavas, változatlan |
+| `52a8120dfe6eab8523c51b43` | `Pepsi Zero` cseresznyés 0,5 l, közvetlen Cherry/Zero Sugar palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `121252986` | `Rauch Yippy Cola-meggy` 330 ml, közvetlen Cola Cherry palackkép, meggyes, normál energiatartalom és szénsavas, változatlan |
+| `121252975` | `Rauch Yippy Cola-narancs` 330 ml, közvetlen Cola Orange palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `121218395` | `Coca-Cola` 1,75 l, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121218291` | `Coca-Cola` 2,25 l, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121218435` | `Coca-Cola Zéró` 1,75 l, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121217499` | `Coca-Cola Zéró` 2,25 l, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121254402` | `Pepsi Cola` 2 l, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121255205` | `Pepsi Zero` 2 l, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121218279` | `Coca-Cola` 2×1,75 l, közvetlen Eredeti íz multipack-kép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121254932` | `Coca-Cola` 4×330 ml, közvetlen Eredeti íz multipack-kép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121218452` | `Coca-Cola Cherry` 1,75 l, közvetlen Cherry palackkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `121218233` | `Coca-Cola Zéró` 2×1,75 l, közvetlen zéró cukor multipack-kép, natúr, cukormentes és szénsavas, változatlan |
+| `121254788` | `Coca-Cola Zero` 4×330 ml, közvetlen zéró cukor multipack-kép, natúr, cukormentes és szénsavas, változatlan |
+| `121218417` | `Coca-Cola Light` 1,75 l, közvetlen Light palackkép, natúr, cukormentes és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 13. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét és
+  közvetlen termékképét egyenként ellenőriztük. Coca-Cola Zero Cherry,
+  Coca-Cola koffeinmentes/eredeti/Zero/Light, Pepsi Zero és normál Pepsi,
+  Stockwell & Co., Gyöngy, Márka, Dr Pepper, XIXO Cola/Cherry, valamint a
+  Tesco saját képei és forrásnevei egyeztek a rögzített kategóriaúttal és
+  tulajdonságokkal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `121254765` | `Coca-Cola Zero Cherry` 1,75 l, közvetlen Cherry/zéró cukor palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `121254949` | `Coca-Cola Zero` koffeinmentes 1 l, közvetlen koffeinmentes/zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121236539` | `Stockwell & Co. Cola` 2 l, közvetlen Cola palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121217240` | `Coca-Cola` 1 l, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121254172` | `Pepsi Zero` 1,5 l, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121229214` | `Gyöngy Cola` 2 l, közvetlen Cola palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121228987` | `Márka Cola` 2,5 l, közvetlen Cola palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121216955` | `Coca-Cola` 500 ml, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121217234` | `Coca-Cola Zéró` 1 l, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121228993` | `Márka Cola Zéró` 2,5 l, közvetlen Cola Zero palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121216926` | `Coca-Cola` zéró cukor 500 ml, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121255228` | `Pepsi` 1,5 l, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121218095` | `Coca-Cola Zéró` 330 ml, közvetlen zéró cukor dobozkép, natúr, cukormentes és szénsavas, változatlan |
+| `121259950` | `Márka Cola` 2 l, közvetlen Cola palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121218112` | `Coca-Cola` 330 ml, közvetlen Eredeti íz dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121255136` | `Dr Pepper` 1,5 l, közvetlen Dr Pepper palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121263011` | `Coca-Cola Cherry` 4×330 ml, közvetlen Cherry multipack-kép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `121262922` | `Coca-Cola` 300 ml, közvetlen Eredeti íz palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121223572` | `Pepsi Zero` 330 ml, közvetlen Zero Sugar dobozkép, natúr, cukormentes és szénsavas, változatlan |
+| `121262939` | `Coca-Cola` zéró cukor 300 ml, közvetlen zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121223405` | `Pepsi` 330 ml, közvetlen Pepsi dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121217378` | `Coca-Cola Zero` koffeinmentes 500 ml, közvetlen koffeinmentes/zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121281438` | `XIXO Cherry Coke` 250 ml, közvetlen Cherry Cola dobozkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `121216932` | `Coca-Cola Light` 500 ml, közvetlen Light palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121225420` | `XIXO Cola` 250 ml, közvetlen Cola dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 14. blokk
+
+- A `Kóla` következő **25** rekordját, minden forrásmezőjét és
+  közvetlen termékképét egyenként ellenőriztük. Coca-Cola
+  Cherry/Zero/Light/Lime/koffeinmentes, Pepsi normál/Zero/Citrom/Cherry,
+  Dr Pepper, XIXO Cola/Zero/Cherry és Vitamizu Minions Cola képei és
+  forrásnevei egyeztek a rögzített kategóriaúttal és tulajdonságokkal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `121216984` | `Coca-Cola Cherry` 500 ml, közvetlen Cherry palackkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `121254696` | `Coca-Cola Zero Cherry` 500 ml, közvetlen Cherry/zéró cukor palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `121225437` | `XIXO Cola Zero` 250 ml, közvetlen Zero Cola dobozkép, natúr, cukormentes és szénsavas, változatlan |
+| `121254707` | `Coca-Cola Zero Cherry` 330 ml, közvetlen Cherry/zéró cukor dobozkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `121223399` | `Pepsi Zero` 0,5 l, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121223318` | `Pepsi` 0,5 l, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121223566` | `Dr Pepper` 330 ml, közvetlen 23 ízesítésű dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121219065` | `Coca-Cola Cherry` 330 ml, közvetlen Cherry dobozkép, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `121218210` | `Coca-Cola` koffeinmentes 1,75 l, közvetlen koffeinmentes/zéró cukor palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121289315` | `Pepsi` 4×330 ml, közvetlen Pepsi multipack-kép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121289326` | `Pepsi Zero` 4×330 ml, közvetlen Zero Sugar multipack-kép, natúr, cukormentes és szénsavas, változatlan |
+| `121307335` | `Coca-Cola Lime` 330 ml, közvetlen Lime dobozkép, lime-os, normál energiatartalom és szénsavas, változatlan |
+| `121307531` | `Coca-Cola Lime` 500 ml, közvetlen Lime palackkép, lime-os, normál energiatartalom és szénsavas, változatlan |
+| `121307548` | `Coca-Cola Lime` 1,75 l, közvetlen Lime palackkép, lime-os, normál energiatartalom és szénsavas, változatlan |
+| `121309535` | `Pepsi Zero` citromos 1,5 l, közvetlen Lemon/Zero Sugar palackkép, citromos, cukormentes és szénsavas, változatlan |
+| `121309575` | `Pepsi Zero` citromos 0,5 l, közvetlen Lemon/Zero Sugar palackkép, citromos, cukormentes és szénsavas, változatlan |
+| `121309621` | `Pepsi Zero` cseresznyés 0,5 l, közvetlen Cherry/Zero Sugar palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `121309638` | `Pepsi Zero` citromos 2 l, közvetlen Lemon/Zero Sugar palackkép, citromos, cukormentes és szénsavas, változatlan |
+| `121309644` | `Pepsi Zero` cseresznyés 2 l, közvetlen Cherry/Zero Sugar palackkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `121309685` | `Pepsi Zero` citromos 330 ml, közvetlen Lemon/Zero Sugar dobozkép, citromos, cukormentes és szénsavas, változatlan |
+| `121309696` | `Pepsi Zero` cseresznyés 330 ml, közvetlen Cherry/Zero Sugar dobozkép, cseresznyés, cukormentes és szénsavas, változatlan |
+| `121311272` | `Pepsi` 1 l, közvetlen Pepsi palackkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121311312` | `Pepsi Zero` 1 l, közvetlen Zero Sugar palackkép, natúr, cukormentes és szénsavas, változatlan |
+| `121330306` | `Vitamizu Minions` gyerek cola 250 ml, közvetlen Minions Cola dobozkép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121345554` | `Coca-Cola` koffeinmentes 330 ml, közvetlen koffeinmentes/zéró cukor dobozkép, natúr, cukormentes és szénsavas, változatlan |
+
+### Kóla kézi felülvizsgálat, 15. blokk
+
+- A `Kóla` utolsó **4** rekordját, minden forrásmezőjét és közvetlen
+  termékképét egyenként ellenőriztük. A Pepsi normál, Pepsi Zero és Pepsi
+  Lemon Twist multipack/palackképei, valamint a forrásnevek egyeztek a
+  rögzített kategóriaúttal és tulajdonságokkal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **4**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `121348021` | `Pepsi Cola` 2×1,5 l, közvetlen Pepsi multipack-kép, natúr, normál energiatartalom és szénsavas, változatlan |
+| `121348044` | `Pepsi Zero` 2×1,5 l, közvetlen Zero Sugar multipack-kép, natúr, cukormentes és szénsavas, változatlan |
+| `121356564` | `Pepsi Lemon Twist Flavour` 1,5 l, közvetlen Lemon palackkép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `121356604` | `Pepsi Lemon Twist Flavour` 2 l, közvetlen Lemon palackkép, citromos, normál energiatartalom és szénsavas, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 1. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25** rekordját, minden
+  forrásmezőjét és közvetlen termékképét egyenként ellenőriztük. A Fanta,
+  Crane, XIXO, Rio D'Oro, Apenta, Cappy, Kinley, Sprite és Sharky
+  terméknevei, képfeliratai, ízei, szénsavassága és energiatartalma
+  egyezett a rögzített kategóriaúttal és tulajdonságokkal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `4606191` | `Fanta` 4×330 ml, közvetlen Narancs multipack-kép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `994943` | `Crane Vitaminital ZERO` málna-eper, közvetlen málna-eper címkekép, málnás és epres, cukormentes, szénsavmentes, változatlan |
+| `997199` | `XIXO Tutti Fruity` 250 ml, közvetlen Tutti Fruity dobozkép, tutifruttis, normál energiatartalom és szénsavas, változatlan |
+| `997200` | `XIXO Tutti Fruity Alma` 250 ml, közvetlen Tutti Fruity Apple dobozkép, almás és tutifruttis, normál energiatartalom és szénsavas, változatlan |
+| `991904` | `Rio D'Oro` vitaminital meggy, közvetlen meggyes palackkép, meggyes, normál energiatartalom és szénsavmentes, változatlan |
+| `991905` | `Rio D'Oro ACE Exotic`, közvetlen Orange-Carrot-Ananas címkekép, ananászos, narancsos és sárgarépás, normál energiatartalom és szénsavmentes, változatlan |
+| `991906` | `Rio D'Oro` őszibarack, közvetlen őszibarackos palackkép, őszibarackos, normál energiatartalom és szénsavmentes, változatlan |
+| `533904` | `Rio D'Oro` alma, közvetlen Apfel palackkép, almás, normál energiatartalom és szénsavas, változatlan |
+| `989140` | `Apenta` málna light, közvetlen málna/Light címkekép, málnás, cukormentes és szénsavas, változatlan |
+| `989141` | `Apenta` málna, közvetlen málna címkekép, málnás, normál energiatartalom és szénsavas, változatlan |
+| `997175` | `Apenta+ Relax`, közvetlen feketeribizli-vörösáfonya-hibiszkusz címkekép, feketeribizlis, vörösáfonyás és hibiszkuszos, normál energiatartalom és szénsavmentes, változatlan |
+| `997177` | `Apenta+ Antiox`, közvetlen gránátalma-acai címkekép, acai- és gránátalmás, normál energiatartalom és szénsavmentes, változatlan |
+| `984143` | `Cappy Lemonade` citrom, közvetlen Citrom címkekép, citromos, normál energiatartalom és szénsavmentes, változatlan |
+| `4604649` | `Cappy Lemonade` eper, közvetlen Citrom & Eper címkekép, epres, normál energiatartalom és szénsavmentes, változatlan |
+| `4604650` | `Cappy Lemonade` bodza, közvetlen Lemon & Elderflower címkekép, bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `1014280` | `Kinley Pink Aromatic Berry`, közvetlen erdei gyümölcs és jázmin címkekép, erdei gyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `992695` | `Sprite` 2 l, közvetlen Citrom-Lime palackkép, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `992699` | `Fanta Narancs Zero` 2 l, közvetlen zéró cukor/narancs palackkép, narancsos, cukormentes és szénsavas, változatlan |
+| `992703` | `Fanta Narancs` 2 l, közvetlen narancs palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `674474:4211864` | `Sharky` alkoholmentes kékszőlő, közvetlen kék szőlő címkekép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `674471:4211861` | `Sharky` alkoholmentes vadmálna, közvetlen vadmálna címkekép, málnás, normál energiatartalom és szénsavas, változatlan |
+| `821825:4359215` | `XIXO Orange Lemonade`, közvetlen Orange Lemonade dobozkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `677987:4215377` | `XIXO Lemonade` bodza-citrom, közvetlen bodzavirág- és citromcímke, bodzás, citromos és limonádés, normál energiatartalom és szénsavas, változatlan |
+| `677990:4215380` | `XIXO Pink Lemonade` eper-lime, közvetlen Pink Lemonade dobozkép, epres, lime-os és limonádés, normál energiatartalom és szénsavas, változatlan |
+| `678023:4215413` | `Cappy Lemonade` citrom, közvetlen Citrom címkekép, citromos, normál energiatartalom és szénsavmentes, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 2. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25** rekordját, minden
+  forrásmezőjét és közvetlen termékképét egyenként ellenőriztük. Márka és
+  Sió limonádék, Cappy Lemonade, XIXO Tutti Fruity/Lemonade, Gyöngy,
+  Apenta, Fanta, Kinley, Auchan Tipp, Sprite és 7UP terméknevei,
+  képfeliratai, ízei, szénsavassága és energiatartalma egyezett a
+  rögzített kategóriaúttal és tulajdonságokkal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `714281:4251671` | `Márka Limonádé` citrom 2 l, közvetlen Citrom címkekép, citromos, cukormentes és szénsavas, változatlan |
+| `946268:4483658` | `Márka Limonádé` kaktusz 2 l, közvetlen Kaktusz címkekép, kaktuszos, normál energiatartalom és szénsavas, változatlan |
+| `875012:4412402` | `Márka Limonádé` pepino 2 l, közvetlen Pepino címkekép, pepinós, normál energiatartalom és szénsavas, változatlan |
+| `714287:4251677` | `Márka Limonádé` sárkánygyümölcs 2 l, közvetlen Sárkánygyümölcs címkekép, sárkánygyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `679253:4216643` | `Sió Limonádé Élénk Bodza` 0,4 l, közvetlen Bodza címkekép, bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `679256:4216646` | `Sió Limonádé Üde Citrus` 0,4 l, közvetlen Citrus címkekép, citrusos, normál energiatartalom és szénsavmentes, változatlan |
+| `678035:4215425` | `Cappy Lemonade` citrom-eper 1,25 l, közvetlen Citrom & Eper címkekép, citromos és epres, normál energiatartalom és szénsavmentes, változatlan |
+| `678026:4215416` | `Cappy Lemonade` citrom 1,25 l, közvetlen Tasty Lemon címkekép, citromos, normál energiatartalom és szénsavmentes, változatlan |
+| `829508:4366898` | `XIXO Tutti Fruity Black Cherry` 250 ml, közvetlen Black Cherry/Tutti Fruity dobozkép, cseresznyés és tutifruttis, normál energiatartalom és szénsavas, változatlan |
+| `684071:4221461` | `Gyöngy` málna 2 l, közvetlen Málna címkekép, málnás, cukormentes és szénsavas, változatlan |
+| `684995:4222385` | `Apenta` málna 1,5 l, közvetlen Málna címkekép, málnás, normál energiatartalom és szénsavas, változatlan |
+| `684077:4221467` | `Márka` málna 2 l, közvetlen Málna címkekép, málnás, cukormentes és szénsavas, változatlan |
+| `684080:4221470` | `Márka` meggy 2 l, közvetlen Meggy címkekép, meggyes, normál energiatartalom és szénsavas, változatlan |
+| `684083:4221473` | `Márka Zero` meggy 2 l, közvetlen Zero/Meggy címkekép, meggyes, cukormentes és szénsavas, változatlan |
+| `684074:4221464` | `Márka` málna 2,5 l, közvetlen Málna címkekép, málnás, cukormentes és szénsavas, változatlan |
+| `678161:4215551` | `Fanta Zero` málna 500 ml, közvetlen zéró cukor/málna palackkép, málnás, cukormentes és szénsavas, változatlan |
+| `782051:4319441` | `Kinley Pink Aromatic Berry` 1 l, közvetlen Pink Aromatic Berry címkekép, erdei gyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `684143:4221533` | `Auchan Tipp` Citrom 2 l, közvetlen Citromízű palackkép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `684146:4221536` | `Auchan Tipp` Narancs 2 l, közvetlen Narancsízű palackkép, narancsos, cukormentes és szénsavas, változatlan |
+| `678176:4215566` | `Fanta` narancs 300 ml, közvetlen Narancs palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `684059:4221449` | `Gyöngy` narancs 2 l, közvetlen Narancs címkekép, narancsos, cukormentes és szénsavas, változatlan |
+| `678695:4216085` | `Fanta` narancs 330 ml, közvetlen Narancs dobozkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `678704:4216094` | `Sprite` citrom-lime 330 ml, közvetlen Sprite címkekép, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `682283:4219673` | `7UP Zero` 0,5 l, közvetlen Zero Sugar palackkép, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `678674:4216064` | `Fanta` narancs 500 ml, közvetlen Narancs dobozkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 3. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25** rekordját, minden
+  forrásmezőjét és közvetlen termékképét egyenként ellenőriztük. Fanta,
+  Mirinda, Sprite, San Benedetto, Schweppes, Márka, San Pellegrino,
+  7UP és Kinley képei és forrásnevei egyeztek a rögzített kategóriaúttal;
+  a három San Benedetto ZERO/SUGAR FREE kép az energiatartalom javítását
+  igazolta.
+- Módosított rekord: **3** (`680165:4217555`, `680168:4217558`,
+  `680171:4217561`).
+- Módosított tulajdonságmező: **3** (`energiatartalom: normál → cukormentes`).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **22**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `678692:4216082` | `Fanta Zero` narancs 500 ml, közvetlen zéró cukor/narancs palackkép, narancsos, cukormentes és szénsavas, változatlan |
+| `675182:4212572` | `Mirinda` Orange Zero Sugar 0,5 l, közvetlen Orange Flavour/Zero Sugar palackkép, narancsos, cukormentes és szénsavas, változatlan |
+| `678707:4216097` | `Sprite` citrom-lime 500 ml, közvetlen Sprite palackkép, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `678671:4216061` | `Sprite Zero` citrom-lime 500 ml, közvetlen Zero Sugar palackkép, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `680165:4217555` | `San Benedetto Zero Aranciata` 0,75 l, közvetlen ZERO/SUGAR FREE Aranciata palackkép, narancsos, **cukormentesre javítva**, szénsavas |
+| `680168:4217558` | `San Benedetto Zero Limone` 0,75 l, közvetlen ZERO/SUGAR FREE Limone palackkép, citromos, **cukormentesre javítva**, szénsavas |
+| `680171:4217561` | `San Benedetto Zero Pompelmo` 0,75 l, közvetlen ZERO/SUGAR FREE Pompelmo palackkép, grapefruit- és pomelós, **cukormentesre javítva**, szénsavas |
+| `675194:4212584` | `Schweppes Bitter Lemon` 0,5 l, közvetlen Bitter Lemon palackkép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `675191:4212581` | `Schweppes Citrus Mix` 0,5 l, közvetlen Citrus Mix palackkép, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `675203:4212593` | `Schweppes Orange` 0,5 l, közvetlen Orange palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `678680:4216070` | `Fanta` narancs 1 l, közvetlen Narancs palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `684065:4221455` | `Márka` narancs 2 l, közvetlen Narancs címkekép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `684068:4221458` | `Márka Zero` narancs-maracuja 2 l, közvetlen Zero/narancs címkekép, maracujás és narancsos, cukormentes és szénsavas, változatlan |
+| `678713:4216103` | `Sprite` citrom-lime 1 l, közvetlen Sprite palackkép, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `684062:4221452` | `Márka Jaffa Orange` 2,5 l, közvetlen Jaffa Orange címkekép, narancsos, cukormentes és szénsavas, változatlan |
+| `677705:4215095` | `San Pellegrino Aranciata Rossa` 330 ml, közvetlen Aranciata Rossa dobozkép, narancsos és vérnarancsos, normál energiatartalom és szénsavas, változatlan |
+| `677702:4215092` | `San Pellegrino Aranciata` 330 ml, közvetlen Aranciata dobozkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `677699:4215089` | `San Pellegrino Limonata` 330 ml, közvetlen Limonata dobozkép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `677708:4215098` | `San Pellegrino Pompelmo` 330 ml, közvetlen Pompelmo dobozkép, grapefruit-os, normál energiatartalom és szénsavas, változatlan |
+| `675197:4212587` | `Schweppes Bitter Lemon` 1,5 l, közvetlen Bitter Lemon palackkép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `675200:4212590` | `Schweppes Orange` 1,5 l, közvetlen Orange palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `675176:4212566` | `7UP Zero` 2 l, közvetlen Zero Sugar palackkép, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `678677:4216067` | `Fanta` narancs 1,75 l, közvetlen Narancs palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `678698:4216088` | `Fanta Zero` narancs 1,75 l, közvetlen zéró cukor/narancs palackkép, narancsos, cukormentes és szénsavas, változatlan |
+| `675188:4212578` | `Mirinda` Orange Flavour Zero Sugar 2 l, közvetlen Orange Flavour/Zero Sugar palackkép, narancsos, cukormentes és szénsavas, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 4. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25** rekordját, minden
+  forrásmezőjét és közvetlen termékképét egyenként ellenőriztük. A Sprite,
+  Fanta, Kinley, XIXO, Tutti Juice, Topjoy, Traubisoda, Apenta és Márka
+  képei és forrásnevei egyeztek a rögzített kategóriaúttal és
+  tulajdonságokkal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `678710:4216100` | `Sprite` citrom-lime 1,75 l, közvetlen Sprite citrom-lime palackkép, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `678716:4216106` | `Sprite Zero` citrom-lime 1,75 l, közvetlen Zero Sugar citrom-lime palackkép, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `678683:4216073` | `Fanta` narancs 2,25 l, közvetlen Narancs palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `678689:4216079` | `Fanta` narancs 4×330 ml, közvetlen Narancs dobozképek, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `678686:4216076` | `Fanta` narancs 2×1,75 l, közvetlen Narancs palackképek, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `1048166:4585556` | `Kinley Lime Mint` 1 l, közvetlen Lime Mint címkekép, lime-os és mentás, normál energiatartalom és szénsavas, változatlan |
+| `677888:4215278` | `XIXO` Tutti Fruity Apple 250 ml, közvetlen Apple/Tutti Fruity dobozkép, almás és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `677984:4215374` | `XIXO` Tutti Fruity Watermelon 250 ml, közvetlen görögdinnyés/Tutti Fruity dobozkép, görögdinnyés és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `677885:4215275` | `XIXO` Tutti Fruity 250 ml, közvetlen Tutti Fruity dobozkép, tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `825659:4363049` | `Tutti Juice Cherry` 250 ml, közvetlen Sweet Cherry/Tutti Fruity dobozkép, cseresznyés és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `825662:4363052` | `Tutti Juice Watermelon` 250 ml, közvetlen görögdinnyés/Tutti Fruity dobozkép, görögdinnyés és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `825665:4363055` | `Tutti Juice Original` 250 ml, közvetlen Tutti Juice dobozkép, natúr és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `684149:4221539` | `Auchan Tipp` szőlő 2 l, közvetlen Szőlőízű címkekép, szőlős, cukormentes és szénsavas, változatlan |
+| `684086:4221476` | `Gyöngy` szőlő 2 l, közvetlen Szőlő címkekép, szőlős, cukormentes és szénsavas, változatlan |
+| `685016:4222406` | `Topjoy` eper 330 ml, közvetlen Eper dobozkép, epres, normál energiatartalom és szénsavas, változatlan |
+| `685019:4222409` | `Topjoy` görögdinnye 330 ml, közvetlen Görögdinnye dobozkép, görögdinnyés, normál energiatartalom és szénsavas, változatlan |
+| `685022:4222412` | `Topjoy` kaktusz 330 ml, közvetlen Kaktusz dobozkép, kaktuszos, normál energiatartalom és szénsavas, változatlan |
+| `685025:4222415` | `Topjoy` mangó 330 ml, közvetlen Mangó dobozkép, mangós, normál energiatartalom és szénsavas, változatlan |
+| `784586:4321976` | `Topjoy` tutti-frutti 330 ml, közvetlen Tutti Fruity dobozkép, tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `1031006:4568396` | `Traubisoda` 500 ml, közvetlen Traubisoda címkekép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `678725:4216115` | `Fanta` szőlő 500 ml, közvetlen Szőlő palackkép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `678719:4216109` | `Fanta Zero` citrom-bodza 500 ml, közvetlen Zero Sugar citrom-bodza palackkép, citromos és bodzás, cukormentes és szénsavas, változatlan |
+| `678743:4216133` | `Kinley Lime Mint` 500 ml, közvetlen Lime Mint címkekép, lime-os és mentás, normál energiatartalom és szénsavas, változatlan |
+| `685013:4222403` | `Apenta` szőlő 1,5 l, közvetlen Szőlő címkekép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `684089:4221479` | `Márka Limonádé` bodza-lime 2 l, közvetlen bodzás címkekép, bodzás és lime-os, normál energiatartalom és szénsavas, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 5. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25** rekordját, minden
+  forrásmezőjét és közvetlen termékképét egyenként ellenőriztük. A Márka,
+  Traubisoda, Almdudler, J. Gasco, Queen, Fanta, Mountain Dew, HELL,
+  Swiss Laboratory és Apenta képei, valamint a forrásnevek alapján négy
+  tulajdonságmezőt javítottunk.
+- Módosított rekord: **4** (`821840:4359230`, `685043:4222433`,
+  `685058:4222448`, `685040:4222430`).
+- Módosított tulajdonságmező: **5** (`energiatartalom: normál → cukormentes`;
+  `íz: alma → törölve`; `íz: tea → zöld tea`; `íz: áfonya → vörösáfonya`).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **21**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `684092:4221482` | `Márka` szőlő 2 l, közvetlen Szőlő palackkép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `684095:4221485` | `Márka Zero` szőlő 2 l, közvetlen Zero/Szőlő palackkép, szőlős, cukormentes és szénsavas, változatlan |
+| `797912:4335302` | `Traubisoda` kékszőlő 1,75 l, közvetlen Traubisoda palackkép, kékszőlős, normál energiatartalom és szénsavas, változatlan |
+| `818114:4355504` | `Traubisoda` szőlő 1,75 l, közvetlen Traubisoda palackkép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `797909:4335299` | `Traubisoda Zero` szőlő 1,75 l, közvetlen ZERO CUKOR palackkép, szőlős, cukormentes és szénsavas, változatlan |
+| `686120:4223510` | `Almdudler Original` 330 ml, közvetlen Original dobozkép, gyógynövényes és natúr, normál energiatartalom és szénsavas, változatlan |
+| `946349:4483739` | `J. Gasco Sodarosa Evia` 200 ml, közvetlen Sodarosa címkekép, grapefruit-os, normál energiatartalom és szénsavas, változatlan |
+| `783176:4320566` | `Queen` narancs 2,5 l, közvetlen Narancs palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `797045:4334435` | `Queen` tutti frutti 2,5 l, közvetlen Tutti frutti palackkép, tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `797048:4334438` | `Queen` zöldalma 2,5 l, közvetlen Zöldalma palackkép, almás és zöldalmás, normál energiatartalom és szénsavas, változatlan |
+| `678728:4216118` | `Fanta` szőlő 1,75 l, közvetlen Szőlő palackkép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `678722:4216112` | `Fanta Zero` citrom-bodza 1,75 l, közvetlen Zero Sugar palackkép, citromos és bodzás, cukormentes és szénsavas, változatlan |
+| `675215:4212605` | `Mountain Dew` citrus 2 l, közvetlen Mountain Dew palackkép, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `711989:4249379` | `Almdudler Original` 0,5 l, közvetlen Original palackkép, gyógynövényes és natúr, normál energiatartalom és szénsavas, változatlan |
+| `686705:4224095` | `Almdudler` cukormentes 1,5 l, közvetlen Zuckerfrei palackkép, gyógynövényes, cukormentes és szénsavas, változatlan |
+| `686117:4223507` | `Almdudler Original` 1,5 l, közvetlen Original palackkép, gyógynövényes és natúr, normál energiatartalom és szénsavas, változatlan |
+| `677975:4215365` | `HELL` tuttifrutti 250 ml, közvetlen Caffeine Free dobozkép, tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `821840:4359230` | `Swiss Laboratory` szőlő-szeder-lime 250 ml, közvetlen SZŐLŐ, SZEDER & LIME / ZERO SUGAR dobozkép, szőlős, szederes és lime-os, **cukormentesre javítva**, szénsavas |
+| `685043:4222433` | `Apenta+ Antiox` gránátalma-acai 750 ml, közvetlen GRÁNÁTALMA-ACAI / ZERO CUKOR címkekép, **az alma érték törölve**, acai és gránátalmás, cukormentes és szénsavmentes |
+| `685028:4222418` | `Apenta+ Body` arónia-meggy 750 ml, közvetlen ARÓNIA-MEGGY / ZERO CUKOR címkekép, aróniás és meggyes, cukormentes és szénsavmentes, változatlan |
+| `685058:4222448` | `Apenta+ Fit` mangó-citrom-zöld tea 750 ml, közvetlen MANGÓ-CITROM-ZÖLD TEA / ZERO CUKOR címkekép, **a tea érték zöld tea értékre pontosítva**, citromos, mangós és zöld teás, cukormentes és szénsavmentes |
+| `685037:4222427` | `Apenta+ Power-C` narancs-pomelo 750 ml, közvetlen NARANCS-POMELO / ZERO CUKOR címkekép, narancsos és pomelós, cukormentes és szénsavmentes, változatlan |
+| `685046:4222436` | `Apenta+ Ready` alma-kivi 750 ml, közvetlen ALMA-KIVI / ZERO CUKOR címkekép, almás és kivis, cukormentes és szénsavmentes, változatlan |
+| `685040:4222430` | `Apenta+ Relax` feketeribizli-vörösáfonya-hibiszkusz 750 ml, közvetlen FEKETERIBIZLI-VÖRÖSÁFONYA-HIBISZKUSZ / ZERO CUKOR címkekép, **az áfonya érték vörösáfonyára pontosítva és az energiatartalom cukormentesre javítva**, feketeribizlis, vörösáfonyás és hibiszkuszos, cukormentes és szénsavmentes |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 6. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25** rekordját, minden
+  forrásmezőjét és közvetlen termékképét egyenként ellenőriztük. A képek
+  alapján hét energiatartalom- és öt ízmezőt pontosítottunk; új kategóriát
+  vagy tulajdonságértéket nem vettünk fel.
+- Módosított rekord: **11** (`684308:4221698`, `683975:4221365`,
+  `677945:4215335`, `677942:4215332`, `677939:4215329`, `942185:4479575`,
+  `824744:4362134`, `678500:4215890`, `678506:4215896`,
+  `678509:4215899`, `679604:4216994`).
+- Módosított tulajdonságmező: **12** (ZERO jelölés alapján
+  `energiatartalom: normál → cukormentes`; csökkentett cukortartalom alapján
+  `normál → energiacsökkentett`; közvetlen ZERO-jelölés hiányában a korábbi
+  `cukormentes` három rekordnál `normál`; továbbá az összetett ízek és a
+  `natúr` értékek pontosítása).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **14**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `777654:4315044` | `Auchan Kedvenc` gránátalma-málna L-karnitin ital 600 ml, közvetlen Gránátalma-málna ZERO palackkép, gránátalmás és málnás, cukormentes és szénsavmentes, változatlan |
+| `777639:4315029` | `Auchan Kedvenc` mangó L-karnitin ital 600 ml, közvetlen Mangó ZERO palackkép, mangós, cukormentes és szénsavmentes, változatlan |
+| `684311:4221701` | `Absolute Lifestyle Amino Mix` ananász-mangó-papaja 600 ml, közvetlen PINEAPPLE-MANGO-PAPAYA palackkép, ananászos, mangós és papajás, cukormentes és szénsavmentes, változatlan |
+| `684308:4221698` | `Absolute Lifestyle Fat Burner` grapefruit-papaja-kaktuszfüge 600 ml, közvetlen GRAPEFRUIT-PAPAYA-KAKTUSZFIGE / ZERO palackkép, **normálról cukormentesre javítva**, grapefruit-os, papajás és kaktuszos, szénsavmentes |
+| `683975:4221365` | `Absolute Lifestyle L-Karnitin` gránátalma 600 ml, közvetlen gránátalma / ZERO palackkép, **normálról cukormentesre javítva**, gránátalmás és szénsavmentes |
+| `683978:4221368` | `PRO+ Power` zöldalma 750 ml, közvetlen ZÖLDALMA címkekép, zöldalmás, normál energiatartalom és szénsavmentes, változatlan |
+| `677939:4215329` | `Swiss Laboratory Kids Multivitamin` vegyes gyümölcs 250 ml, közvetlen SZÉNSAVMENTES VITAMINITAL dobozkép, **a közvetlen ZERO/energiamentes jelölés hiánya miatt cukormentesről normálra pontosítva**, almás és narancsos, szénsavmentes |
+| `677945:4215335` | `Swiss Laboratory Relax` kaktuszfüge 250 ml, közvetlen CSÖKKENTETT CUKORTARTALOM dobozkép, **normálról energiacsökkentettre javítva**, kaktuszos és szénsavas |
+| `942182:4479572` | `Apenta+ Boost` pink grapefruit 750 ml, közvetlen ZERO CUKOR címkekép, grapefruit-os, cukormentes és enyhén szénsavas, változatlan |
+| `946163:4483553` | `Vitalade` kivi-kaktuszfüge-lime 1 l, közvetlen ZERO SUGAR palackkép, kivis, kaktuszos és lime-os, cukormentes és szénsavmentes, változatlan |
+| `677942:4215332` | `Swiss Laboratory Vitamins` multivitamin 250 ml, közvetlen CSÖKKENTETT CUKORTARTALOM dobozkép, **cukormentesről energiacsökkentettre javítva**, a rögzített gyümölcsízekkel, szénsavmentes |
+| `942185:4479575` | `Apenta+ Anti-Stress` gránátalma-acai-piros szőlő 750 ml, közvetlen GRÁNÁTALMA-ACAI-PIROS SZŐLŐ címkekép, **az alma érték törölve és cukormentesről normálra pontosítva**, acai, gránátalma és szőlő, enyhén szénsavas |
+| `946160:4483550` | `Vitalade` szamóca 0,7 l, közvetlen ZERO SUGAR palackkép, epres, cukormentes és szénsavmentes, változatlan |
+| `678500:4215890` | `NaturAqua Emotion` körte-citromfű 500 ml, közvetlen Körte és Citromfű címkekép, **a natúr érték törölve**, körtés és citromfüves, normál energiatartalom és szénsavas |
+| `678506:4215896` | `NaturAqua Emotion` szeder-lime 1,5 l, közvetlen ZERO / Szeder-Lime címkekép, **a natúr érték törölve**, szederes és lime-os, cukormentes és szénsavas |
+| `678509:4215899` | `NaturAqua Emotion` körte-citromfű 1,5 l, közvetlen Körte és Citromfű címkekép, **a natúr érték törölve**, körtés és citromfüves, normál energiatartalom és szénsavas |
+| `679595:4216985` | `Jana` eper-guava 1,5 l, közvetlen Strawberry Guava palackkép, epres és guavás, energiacsökkentett és szénsavmentes, változatlan |
+| `679604:4216994` | `Jana` kék áfonya-vörös áfonya 1,5 l, közvetlen Blueberry Cranberry palackkép, **a vörösáfonya érték felvéve**, áfonyás és vörösáfonyás, energiacsökkentett és szénsavmentes |
+| `776100:4313490` | `Jana` szőlő-mirabella 1,5 l, közvetlen Grape Mirabelle palackkép, szőlős és mirabellás, energiacsökkentett és szénsavmentes, változatlan |
+| `679592:4216982` | `Jana` citrom-zöld limetta 1,5 l, közvetlen Lemon Lime palackkép, citromos és lime-os, energiacsökkentett és szénsavmentes, változatlan |
+| `679088:4216478` | `Vöslauer Balance Juicy` citrom 0,75 l, közvetlen Citrom címkekép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `679073:4216463` | `Vöslauer Balance Juicy` eper-bors 0,75 l, közvetlen Eper-Bors címkekép, epres és borsos, normál energiatartalom és szénsavas, változatlan |
+| `679082:4216472` | `Vöslauer Balance Juicy` mangó-őszibarack 0,75 l, közvetlen Mangó-Őszibarack címkekép, mangós és őszibarackos, normál energiatartalom és szénsavas, változatlan |
+| `679085:4216475` | `Vöslauer Balance Juicy` pink grapefruit 0,75 l, közvetlen Pink Grapefruit címkekép, grapefruit-os, normál energiatartalom és szénsavas, változatlan |
+| `824744:4362134` | `Apenta+ Immuno` fehér barack 750 ml, közvetlen Barack címkekép, **a közvetlen ZERO/energiamentes jelölés hiánya miatt cukormentesről normálra pontosítva**, barackos, normál energiatartalom és enyhén szénsavas |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 7. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25** rekordját, minden
+  forrásmezőjét és közvetlen termékképét egyenként ellenőriztük. A Rauch,
+  Happy Day, Auchan és Sweet & Fruit gyümölcsital-képein a nem szénsavas
+  jelleg közvetlenül látszik; öt `szénsavas: true` értéket ezért
+  `false` értékre javítottunk.
+- Módosított rekord: **5** (`9916:9919`, `1012609:4549999`,
+  `674705:4212095`, `30049:30052`, `687761:4225151`).
+- Módosított tulajdonságmező: **5** (`szénsavas: true → false`).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **20**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `686126:4223516` | `Sweet & Fruit Multivitamin` vegyes üdítőital 2 l, közvetlen vegyes gyümölcsös címkekép, íz kézi ellenőrzést igényel, normál energiatartalom és szénsavmentes, változatlan |
+| `678551:4215941` | `Cappy Ice Fruit Multivitamin` mangosztán 1,5 l, közvetlen Multivitamin/mangosztán palackkép, mangosztános, normál energiatartalom és szénsavmentes, változatlan |
+| `687764:4225154` | `Sweet & Fruit` alma 2 l, közvetlen Alma üdítőital palackkép, almás, normál energiatartalom és szénsavas, változatlan |
+| `684866:4222256` | `Olympos Golden` alma 1,5 l, közvetlen Golden alma/Light palackkép, almás, energiacsökkentett és szénsavmentes, változatlan |
+| `678560:4215950` | `Cappy Ice Fruit Multivitamin` mangosztán 500 ml, közvetlen Multivitamin/mangosztán palackkép, mangosztános, normál energiatartalom és szénsavmentes, változatlan |
+| `678557:4215947` | `Cappy Ice Fruit` alma-körte-bodza 500 ml, közvetlen Alma-Körte/Bodzavirág palackkép, almás, körtés és bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `678569:4215959` | `Cappy Ice Fruit` alma-őszibarack-sárgadinnye-citromfű 500 ml, közvetlen Alma-Őszibarack-Sárgadinnye palackkép, almás, őszibarackos, sárgadinnyés és citromfüves, normál energiatartalom és szénsavmentes, változatlan |
+| `9916:9919` | `Rauch Bravo` narancsital 1,5 l, közvetlen Orange Drink dobozkép, **szénsavasról szénsavmentesre javítva**, narancsos és normál energiatartalmú |
+| `1012609:4549999` | `Happy Day Happy Orange` 50% 1 l, közvetlen Happy Orange gyümölcslékép, **szénsavasról szénsavmentesre javítva**, narancsos és normál energiatartalmú |
+| `963239:4500629` | `Cappy Ice Fruit` meggy 500 ml, közvetlen Meggy palackkép, meggyes, normál energiatartalom és szénsavmentes, változatlan |
+| `781706:4319096` | `Cappy Ice Fruit` meggy 1,5 l, közvetlen Meggy palackkép, meggyes, normál energiatartalom és szénsavmentes, változatlan |
+| `674705:4212095` | `Auchan` alma-kékszőlő ital 1 l, közvetlen Alma-Kékszőlő gyümölcskép, **szénsavasról szénsavmentesre javítva**, almás és kékszőlős, normál energiatartalmú |
+| `684878:4222268` | `Olympos Light` alma-gránátalma-meggy 1,5 l, közvetlen Light/alma-gránátalma-meggy palackkép, almás, gránátalmás és meggyes, energiacsökkentett és szénsavmentes, változatlan |
+| `685049:4222439` | `Olympos` alma-körte-szőlő 1,5 l, közvetlen Alma-Körte-Szőlő palackkép, almás, körtés és szőlős, energiacsökkentett és szénsavmentes, változatlan |
+| `684884:4222274` | `Olympos Light` alma-őszibarack 1,5 l, közvetlen Őszibarack-Alma palackkép, almás és őszibarackos, energiacsökkentett és szénsavmentes, változatlan |
+| `684881:4222271` | `Olympos Light` görögdinnye-alma 1,5 l, közvetlen Görögdinnye-Alma palackkép, almás és görögdinnyés, energiacsökkentett és szénsavmentes, változatlan |
+| `684887:4222277` | `Olympos` sárgarépa-narancs 1,5 l, közvetlen Sárgarépa-Narancs palackkép, narancsos és sárgarépás, energiacsökkentett és szénsavmentes, változatlan |
+| `684890:4222280` | `Olympos Trópusi` 1,5 l, közvetlen Trópusi palackkép, ananászos, banános, guavás, kaktuszos, kivis, licsis, lime-os, mangós, maracujás, narancsos, papajás és őszibarackos, normál energiatartalom és szénsavmentes, változatlan |
+| `678527:4215917` | `Cappy Ice Fruit` alma-körte-bodza 1,5 l, közvetlen Alma-Körte/Bodzavirág palackkép, almás, körtés és bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `678533:4215923` | `Cappy Ice Fruit` alma-őszibarack-sárgadinnye-citromfű 1,5 l, közvetlen Őszibarack-Sárgadinnye palackkép, almás, őszibarackos, sárgadinnyés és citromfüves, normál energiatartalom és szénsavmentes, változatlan |
+| `797420:4334810` | `Sió Limonádé` citrom-görögdinnye 1 l, közvetlen Citrom-Görögdinnye dobozkép, citromos és görögdinnyés, normál energiatartalom és szénsavmentes, változatlan |
+| `796694:4334084` | `Sió Limonádé` lime-eper 1 l, közvetlen Lime-Eper dobozkép, lime-os és epres, normál energiatartalom és szénsavmentes, változatlan |
+| `797417:4334807` | `Sió Limonádé` őszibarack-citrom-menta 1 l, közvetlen Őszibarack-Citrom-Menta dobozkép, citromos, mentás és őszibarackos, normál energiatartalom és szénsavmentes, változatlan |
+| `30049:30052` | `Auchan Kedvenc` őszibaracklé 25% 1 l, közvetlen Őszibarackital dobozkép, **szénsavasról szénsavmentesre javítva**, őszibarackos és normál energiatartalmú |
+| `687761:4225151` | `Sweet & Fruit` őszibarack üdítőital 2 l, közvetlen Őszibarack üdítőital palackkép, **szénsavasról szénsavmentesre javítva**, őszibarackos és normál energiatartalmú |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 8. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25** rekordját egyenként
+  ellenőriztük. Két rekordhoz volt helyi termékkép; a további 23 rekordnál
+  a teljes forrásnév és a forrásban szereplő szénsavasság alapján végeztük
+  a kézi ellenőrzést.
+- Módosított rekord: **1** (`752157:4289547`).
+- Módosított tulajdonságmező: **1** (`szénsavas: true → false` az Auchan
+  ananász-nektár forrásnév és közvetlen dobozkép alapján).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **24**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `685052:4222442` | `Olympos` mandarin 1,5 l, közvetlen Mandarin palackkép, mandarinos, energiacsökkentett és szénsavmentes, változatlan |
+| `752157:4289547` | `Auchan Kedvenc` ananász-nektár 50% 1 l, közvetlen ANANÁSZ NEKTÁR dobozkép, **szénsavasról szénsavmentesre javítva**, ananászos és normál energiatartalmú |
+| `691976:4229366` | `Márka Mirror` bodza 1,5 l, helyi kép nincs; a közvetlen forrásnév energiamentes és szénsavas üdítőitalt közöl, bodzás, cukormentes és szénsavas, változatlan |
+| `691979:4229369` | `Márka Mirror` citrom 1,5 l, helyi kép nincs; a közvetlen forrásnév energiamentes és szénsavas üdítőitalt közöl, citromos, cukormentes és szénsavas, változatlan |
+| `950549:4487939` | `Márka Mirror` málna 1,5 l, helyi kép nincs; a közvetlen forrásnév energiamentes és szénsavas üdítőitalt közöl, málnás, cukormentes és szénsavas, változatlan |
+| `3380735` | `Márka` gránátalma limonádé 2 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes limonádét közöl, gránátalmás és szénsavmentes, változatlan |
+| `3380733` | `Márka` citrom limonádé 2 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes limonádét közöl, citromos és szénsavmentes, változatlan |
+| `3380714` | `XIXO` Tutti Fruity Kiwi 250 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, kivis és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `3375660` | `Coop` citrom-lime vitaminital 750 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes vitaminitalt közöl, citromos és lime-os, normál energiatartalom és szénsavmentes, változatlan |
+| `3375659` | `Coop` eper-áfonya vitaminital 750 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes vitaminitalt közöl, epres és áfonyás, normál energiatartalom és szénsavmentes, változatlan |
+| `3375658` | `Coop` mangó-narancs vitaminital 750 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes vitaminitalt közöl, mangós és narancsos, normál energiatartalom és szénsavmentes, változatlan |
+| `3375618` | `Fonti Di Crodo` citrom 330 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas italt közöl, citromos, normál energiatartalom és szénsavas, változatlan |
+| `3375617` | `Márka` bodza-lime limonádé 2 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes limonádét közöl, bodzás és lime-os, normál energiatartalom és szénsavmentes, változatlan |
+| `3375615` | `Traubisoda` szőlő 330 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `3375602` | `Traubisoda Zero` szőlő 1,75 l, helyi kép nincs; a közvetlen DRS-forrásnév zéró szőlő-üdítőt közöl, szőlős, cukormentes és szénsavas, változatlan |
+| `3375534` | `Minden Nap` szőlő 2 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `3375533` | `Minden Nap` narancs 2 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `3375532` | `Minden Nap` málna 2 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, málnás, normál energiatartalom és szénsavas, változatlan |
+| `3375529` | `Márka` szőlő 2 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `3375510` | `Schweppes` narancs 1,5 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `3375499` | `Cappy Ice Fruit` multivitamin 500 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes italt és mangosztánízt közöl, mangosztános, normál energiatartalom és szénsavmentes, változatlan |
+| `3375496` | `Schweppes` Citrus Mix 500 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `3372295` | `Minden Nap` meggy 2 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, meggyes, normál energiatartalom és szénsavas, változatlan |
+| `3372250` | `Fonti Di Crodo` narancs 330 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas italt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `3372142` | `Márka` kaktusz limonádé 2 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes limonádét közöl, kaktuszos, normál energiatartalom és szénsavmentes, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 9. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **27**, helyi kép nélküli
+  rekordját a teljes DRS-forrásnév alapján egyenként ellenőriztük. Három
+  Apenta-forrásnév rövidítései pontosították az ízlistát; a többi rekord
+  szénsavassága, energiatartalma és íze egyezett a forrásnévvel.
+- Módosított rekord: **3** (`2807795`, `2807794`, `2808601`).
+- Módosított tulajdonságmező: **3** (`íz`: feketeribizli–vörösáfonya–hibiszkusz
+  kiegészítve; `citrus` → `citrom`; az `eper` érték törölve a csak
+  gránátalmát jelölő forrásnévből).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **22**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `3372141` | `Márka` narancs 2 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `3372140` | `Márka` meggy 2 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, meggyes, normál energiatartalom és szénsavas, változatlan |
+| `3372137` | `Márka Jaffa` narancs 2,5 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `3372119` | `Fanta` narancs 2,25 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `3372106` | `Mountain Dew` 330 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `3091157` | `XIXO` Tutti Fruity Cherry 250 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas tutti-frutti cseresznyés üdítőt közöl, cseresznyés és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `3091015` | `XIXO Lemon Pink` eper-lime 250 ml, helyi kép nincs; a közvetlen DRS-forrásnév citromos-eper-lime üdítőt közöl, epres és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `3091006` | `Fanta` narancs 300 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas narancsüdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `2809959` | `XIXO` Tutti Fruity Watermelon 250 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas tutti-frutti görögdinnyés üdítőt közöl, görögdinnyés és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `2809952` | `XIXO` Tutti Fruity Apple 250 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas tutti-frutti almás üdítőt közöl, almás és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `2808647` | `Coop` narancs 1,5 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `2808621` | `XIXO Lemon Classic` citrom-bodza 250 ml, helyi kép nincs; a közvetlen DRS-forrásnév Lemon Classic/Bodza üdítőt közöl, citromos és bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `2808620` | `XIXO` Tutti Fruity 250 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `2808603` | `Apenta+ Power-C` narancs-pomelo 750 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes üdítőt közöl, narancsos és pomelós, normál energiatartalom és szénsavmentes, változatlan |
+| `2808602` | `Apenta+ Body` arónia-meggy 750 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes üdítőt közöl, aróniás és meggyes, normál energiatartalom és szénsavmentes, változatlan |
+| `2808601` | `Apenta+ Antiox` gránátalma 750 ml, helyi kép nincs; **az eper érték törölve**, mert a DRS-forrásnév csak GRÁNÁTALMA ízt közöl, gránátalmás, normál energiatartalom és szénsavmentes |
+| `2808600` | `Apenta+ Ready` alma-kivi 750 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes üdítőt közöl, almás és kivis, normál energiatartalom és szénsavmentes, változatlan |
+| `2808540` | `Cappy Ice Fruit` őszibarack-sárgadinnye 1,5 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes italt közöl, őszibarackos és görögdinnyés, normál energiatartalom és szénsavmentes, változatlan |
+| `2808311` | `Fanta` narancs 1,75 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas narancsüdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `2807813` | `Fanta Zero` kékszőlő 1,75 l, helyi kép nincs; a közvetlen DRS-forrásnév ZERO kékszőlő üdítőt közöl, kékszőlős, cukormentes és szénsavas, változatlan |
+| `2807812` | `Fanta Zero` kékszőlő 500 ml, helyi kép nincs; a közvetlen DRS-forrásnév ZERO kékszőlő üdítőt közöl, kékszőlős, cukormentes és szénsavas, változatlan |
+| `2807795` | `Apenta+ Relax` feketeribizli-vörösáfonya-hibiszkusz 750 ml, helyi kép nincs; **az FRI-VÁF-HIBI rövidítés alapján a feketeribizli és vörösáfonya érték felvéve**, normál energiatartalom és szénsavmentes |
+| `2807794` | `Apenta+ Fit` mangó-citrom 750 ml, helyi kép nincs; **a CITR rövidítés alapján a citrus érték citromra pontosítva**, normál energiatartalom és szénsavmentes |
+| `2807753` | `Fanta` narancs 500 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas narancsüdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `2807751` | `Fanta` narancs 330 ml, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas narancsüdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 10. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, helyi kép nélküli
+  rekordját a teljes DRS- és forrásnév alapján egyenként ellenőriztük. A
+  ZERO, szénsavas, limonádé-, gyümölcs- és márkamegnevezések egyeztek a
+  jelenlegi kategóriaúttal és tulajdonságokkal; bizonytalan íznevet nem
+  pontosítottunk találgatással.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `2807750` | `Fanta Zero` narancs 1,75 l, helyi kép nincs; a közvetlen DRS-forrásnév ZERO narancsüdítőt közöl, narancsos, cukormentes és szénsavas, változatlan |
+| `2807749` | `Fanta Zero` bodza 500 ml, helyi kép nincs; a közvetlen DRS-forrásnév ZERO bodzaüdítőt közöl, bodzás, cukormentes és szénsavas, változatlan |
+| `2807748` | `Fanta Zero` bodza 1,75 l, helyi kép nincs; a közvetlen DRS-forrásnév ZERO bodzaüdítőt közöl, bodzás, cukormentes és szénsavas, változatlan |
+| `2807747` | `Sprite` citrom-lime 500 ml, helyi kép nincs; a közvetlen DRS-forrásnév citrom-lime szénsavas üdítőt közöl, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `2807745` | `Sprite` citrom-lime 330 ml, helyi kép nincs; a közvetlen DRS-forrásnév citrom-lime szénsavas üdítőt közöl, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `2807740` | `Kinley` lime-menta 500 ml, helyi kép nincs; a közvetlen DRS-forrásnév lime-menta üdítőt közöl, lime-os és mentás, normál energiatartalom és szénsavas, változatlan |
+| `2807728` | `Cappy Ice Fruit` multivitamin 1,5 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes mangosztános italt közöl, mangosztános, normál energiatartalom és szénsavmentes, változatlan |
+| `2807727` | `Cappy Ice Fruit` alma-körte 1,5 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavmentes alma-körte italt közöl, almás és körtés, normál energiatartalom és szénsavmentes, változatlan |
+| `2807711` | `Kinley Pink Aromatic Berry` 1,5 l, helyi kép nincs; a közvetlen DRS-forrásnév bogyós aromás üdítőt közöl, áfonyás, feketeribizlis és jázminos, normál energiatartalom és szénsavas, változatlan |
+| `2807665` | `Mountain Dew` 2 l, helyi kép nincs; a közvetlen DRS-forrásnév szénsavas üdítőt közöl, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `2806122` | `Tesztcikk` 500 ml, helyi kép nincs; a forrásnév nem ad bizonyítható ízt, ezért az íz kézi ellenőrzést igényel jelölés megmaradt, normál energiatartalom és szénsavas, változatlan |
+| `10033211` | `Cappy Lemonade` bodza, helyi kép nincs; a forrásnév bodzás limonádét közöl, bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `10033213` | `Cappy Zero` limonádé, helyi kép nincs; a forrásnév ZERO limonádét közöl, a rögzített citromos-eper ízlista és cukormentes, szénsavmentes érték változatlan |
+| `10035092` | `San Pellegrino` szénsavas üdítő, helyi kép nincs; a forrásnév szénsavas üdítőt közöl, a rögzített citromos íz és normál energiatartalom változatlan |
+| `10101647` | `Márka` kaktusz limonádé, helyi kép nincs; a forrásnév kaktuszos limonádét közöl, kaktuszos, normál energiatartalom és szénsavmentes, változatlan |
+| `10104569` | `Mountain Dew`, helyi kép nincs; a rögzített citrusos szénsavas üdítőértékek változatlanok |
+| `10104599` | `XIXO Lemonade`, helyi kép nincs; a forrásnév citrom-bodza limonádét közöl, citromos és bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `10106426` | `Apenta` szőlő szénsavas üdítő, helyi kép nincs; a közvetlen forrásnév szőlős szénsavas üdítőt közöl, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `10106432` | `Márka Juicy Soda` bodza, helyi kép nincs; a forrásnév bodzás szénsavas üdítőt közöl, bodzás, normál energiatartalom és szénsavas, változatlan |
+| `10107283` | `Kinley` üdítő, helyi kép nincs; a rögzített fekete borsos-meggyes szénsavas értékek változatlanok |
+| `10107815` | `Fanta` szénsavas üdítő, helyi kép nincs; a rögzített mangós szénsavas, normál energiatartalmú értékek változatlanok |
+| `10107817` | `Lotte Milkis`, helyi kép nincs; a forrásnév tej-joghurtos szénsavas italt közöl, joghurtos és tejes, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18888400320021` | `Mountain Dew` citrus 500 ml, helyi kép nincs; a forrásnév citrusos szénsavas üdítőt közöl, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18888500320021` | `Mountain Dew Spark` málna-limonádé 500 ml, helyi kép nincs; a forrásnév málnás limonádé ízű szénsavas üdítőt közöl, málnás és limonádés, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18888600320021` | `Mountain Dew Pitch Black` szőlő-citrus 500 ml, helyi kép nincs; a forrásnév szőlős-citrusos szénsavas üdítőt közöl, szőlős és citrusos, normál energiatartalom és szénsavas, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 11. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, helyi kép nélküli
+  rekordját a teljes forrásnév alapján egyenként ellenőriztük. Öt Sconto
+  terméknévnél az „energia- és szénsavmentes” jelölés nem egyezett a
+  rögzített `normál` értékkel; ezeket `cukormentes` értékre javítottuk.
+- Módosított rekord: **5** (`BTY-X17233000320021`,
+  `BTY-X17232900320021`, `BTY-X17233200320021`, `BTY-X17232800320021`,
+  `BTY-X17233400320021`).
+- Módosított tulajdonságmező: **5** (`energiatartalom: normál → cukormentes`).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **20**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X17295300320021` | `Sió Limonádé Élénk Bodza` 400 ml, helyi kép nincs; a közvetlen forrásnév bodzás limonádét és szénsavmentességet közöl, bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17295900320021` | `Sió Limonádé Üde Citrus` 400 ml, helyi kép nincs; a közvetlen forrásnév citrusos limonádét és szénsavmentességet közöl, citrusos, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X18226800320021` | `Sió Limonádé` lime-eper 400 ml, helyi kép nincs; a közvetlen forrásnév szénsavmentes lime-eper limonádét közöl, epres és lime-os, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X18226900320021` | `Sió Limonádé` citrom-görögdinnye 400 ml, helyi kép nincs; a közvetlen forrásnév szénsavmentes citrom-görögdinnye limonádét közöl, citromos és görögdinnyés, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X18307600320021` | `Sió Limonádé` lime-eper 1 l, helyi kép nincs; a közvetlen forrásnév szénsavmentes lime-eper limonádét közöl, epres és lime-os, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X18309000320021` | `Sió Limonádé` őszibarack-citrom-menta 1 l, helyi kép nincs; a közvetlen forrásnév szénsavmentes őszibarack-citrom-menta limonádét közöl, citromos, mentás és őszibarackos, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X18329200320021` | `Sió` citrom-görögdinnye limonádé 1 l, helyi kép nincs; a közvetlen forrásnév szénsavmentes citrom-görögdinnye limonádét közöl, citromos és görögdinnyés, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17311800320021` | `Cappy Ice Fruit Multivitamin` mangosztán 500 ml, helyi kép nincs; a közvetlen forrásnév szénsavmentes mangosztános italt közöl, mangosztános, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17312000320021` | `Cappy Ice Fruit` alma-őszibarack-sárgadinnye-citromfű 500 ml, helyi kép nincs; a közvetlen forrásnév szénsavmentes italt közöl, almás, őszibarackos, sárgadinnyés és citromfüves, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17311900320021` | `Cappy Ice Fruit` alma-körte-bodzavirág 500 ml, helyi kép nincs; a közvetlen forrásnév szénsavmentes italt közöl, almás, körtés és bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17233000320021` | `Sconto` kaktuszfüge 2 l, helyi kép nincs; a közvetlen forrásnév energia- és szénsavmentes üdítőt közöl, **normálról cukormentesre javítva**, kaktuszos és szénsavmentes |
+| `BTY-X17232900320021` | `Sconto` alma-körte 2 l, helyi kép nincs; a közvetlen forrásnév energia- és szénsavmentes üdítőt közöl, **normálról cukormentesre javítva**, almás és körtés, szénsavmentes |
+| `BTY-X17233200320021` | `Sconto Multivitamin` vegyes gyümölcs 2 l, helyi kép nincs; a közvetlen forrásnév energia- és szénsavmentes üdítőt közöl, **normálról cukormentesre javítva**, a rögzített vegyes gyümölcsízekkel, szénsavmentes |
+| `BTY-X17232800320021` | `Sconto` alma 2 l, helyi kép nincs; a közvetlen forrásnév energia- és szénsavmentes üdítőt közöl, **normálról cukormentesre javítva**, almás és szénsavmentes |
+| `BTY-X17312200320021` | `Cappy Ice Fruit Multivitamin` mangosztán 1,5 l, helyi kép nincs; a közvetlen forrásnév szénsavmentes mangosztános italt közöl, mangosztános, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17233400320021` | `Sconto` őszibarack 2 l, helyi kép nincs; a közvetlen forrásnév energia- és szénsavmentes üdítőt közöl, **normálról cukormentesre javítva**, őszibarackos és szénsavmentes |
+| `BTY-X17312100320021` | `Cappy Lemonade` citrom 1,25 l, helyi kép nincs; a közvetlen forrásnév szénsavmentes, cukorral és édesítőszerrel készült citromos üdítőt közöl, citromos, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17312300320021` | `Cappy Ice Fruit` alma-körte-bodzavirág 1,5 l, helyi kép nincs; a közvetlen forrásnév szénsavmentes italt közöl, almás, körtés és bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17312500320021` | `Cappy Ice Fruit Bogyósgyümölcs Mix` hibiszkusz 1,5 l, helyi kép nincs; a közvetlen forrásnév szénsavmentes vegyesgyümölcs italt közöl, erdei gyümölcsös és hibiszkuszos, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17312600320021` | `Cappy Ice Fruit` alma-őszibarack-sárgadinnye-citromfű 1,5 l, helyi kép nincs; a közvetlen forrásnév szénsavmentes italt közöl, almás, őszibarackos, sárgadinnyés és citromfüves, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17312700320021` | `Cappy Lemonade` eper-citrom 1,25 l, helyi kép nincs; a közvetlen forrásnév szénsavmentes, eperlével és édesítőszerrel készült citromos üdítőt közöl, citromos és epres, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17424000320021` | `Olympos Trópusi` 1,5 l, helyi kép nincs; a közvetlen forrásnév szénsavmentes üdítőt közöl, a rögzített trópusi ízekkel, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17424100320021` | `Olympos` alma-körte-szőlő 1,5 l, helyi kép nincs; a közvetlen forrásnév energiaszegény, szénsavmentes üdítőt közöl, almás, körtés és szőlős, energiacsökkentett és szénsavmentes, változatlan |
+| `BTY-X17424300320021` | `Olympos` mandarin 1,5 l, helyi kép nincs; a közvetlen forrásnév energiaszegény, szénsavmentes üdítőt közöl, mandarinos, energiacsökkentett és szénsavmentes, változatlan |
+| `BTY-X17477400320021` | `Olympos Light` alma-gránátalma-meggy 1,5 l, helyi kép nincs; a közvetlen forrásnév energiaszegény, szénsavmentes üdítőt közöl, almás, gránátalmás és meggyes, energiacsökkentett és szénsavmentes, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 12. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, helyi kép nélküli
+  rekordját a teljes forrásnév alapján egyenként ellenőriztük. A Cappy,
+  Fanta, Sprite, Kinley, Traubisoda, Schweppes és Fentimans forrásnevei
+  egyeztek a rögzített kategóriaúttal, ízekkel, szénsavassággal és
+  energiatartalommal; a bizonytalan ízű Fanta-termékeknél a kézi ellenőrzést
+  igényel jelölést megőriztük.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X18121100320021` | `Cappy Ice Fruit Zero Sugar` mangó-maracuja 1,5 l, helyi kép nincs; a közvetlen forrásnév ZERO Sugar, szénsavmentes mangó-maracuja italt közöl, mangós és maracujás, cukormentes és szénsavmentes, változatlan |
+| `BTY-X18231400320021` | `Cappy Ice Fruit Zero Sugar` mangó-maracuja 500 ml, helyi kép nincs; a közvetlen forrásnév ZERO Sugar, szénsavmentes mangó-maracuja italt közöl, mangós és maracujás, cukormentes és szénsavmentes, változatlan |
+| `BTY-X18231300320021` | `Cappy Lemonade` bogyós gyümölcs-citrom 1,25 l, helyi kép nincs; a közvetlen forrásnév szénsavmentes, bogyósgyümölcsös-citromos üdítőt közöl, erdei gyümölcsös és citromos, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17321800320021` | `Fanta` narancs 500 ml, helyi kép nincs; a közvetlen forrásnév szénsavas narancsüdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17574500320021` | `Fanta` vörös szőlő 500 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas vörös szőlő üdítőt közöl, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17428700320021` | `Fanta Zero` citrom-bodza 500 ml, helyi kép nincs; a közvetlen forrásnév ZERO, energiamentes, citrom- és bodzaízű szénsavas üdítőt közöl, citromos és bodzás, cukormentes és szénsavas, változatlan |
+| `BTY-X17322600320021` | `Sprite` citrom-lime 500 ml, helyi kép nincs; a közvetlen forrásnév szénsavas citrom-lime üdítőt közöl, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17325600320021` | `Kinley Pink Aromatic Berry` 500 ml, helyi kép nincs; a közvetlen forrásnév szénsavas vegyes bogyós üdítőt közöl, erdei gyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18427700320021` | `Traubisoda Zero` szőlő 330 ml, helyi kép nincs; a közvetlen forrásnév ZERO szőlőízű szénsavas üdítőt közöl, szőlős, cukormentes és szénsavas, változatlan |
+| `BTY-X18427600320021` | `Traubisoda` szőlő 330 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szőlőízű szénsavas üdítőt közöl, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17322000320021` | `Fanta` narancs 1,75 l, helyi kép nincs; a közvetlen forrásnév szénsavas narancsüdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17345200320021` | `Schweppes` narancs 500 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas narancsüdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17345400320021` | `Schweppes Citrus Mix` 500 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas citrusos üdítőt közöl, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17323000320021` | `Sprite` citrom-lime 1,75 l, helyi kép nincs; a közvetlen forrásnév szénsavas citrom-lime üdítőt közöl, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17322400320021` | `Fanta Zero` narancs 1,75 l, helyi kép nincs; a közvetlen forrásnév zéró cukor, energiamentes, szénsavas narancsüdítőt közöl, narancsos, cukormentes és szénsavas, változatlan |
+| `BTY-X17323400320021` | `Sprite Zero` citrom-lime 500 ml, helyi kép nincs; a közvetlen forrásnév zéró cukor, energiamentes, szénsavas citrom-lime üdítőt közöl, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `BTY-X17323500320021` | `Sprite Zero` citrom-lime 1,75 l, helyi kép nincs; a közvetlen forrásnév zéró cukor, energiamentes, szénsavas citrom-lime üdítőt közöl, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `BTY-X17344500320021` | `Schweppes` narancs 1,5 l, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas narancsüdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17345500320021` | `Schweppes Bitter Lemon` 500 ml, helyi kép nincs; a közvetlen forrásnév csökkentett energiatartalmú, cukorral és édesítőszerrel készült szénsavas citromos üdítőt közöl, citromos, energiacsökkentett és szénsavas, változatlan |
+| `BTY-X18417500320021` | `Fentimans Gently Elderflower` 275 ml, helyi kép nincs; a közvetlen forrásnév bodzavirág ízű szénsavas üdítőt közöl, bodzás, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18589600320021` | `Fanta Exotic` 500 ml, helyi kép nincs; a közvetlen forrásnév szénsavas trópusi gyümölcsízű üdítőt közöl, az íz kézi ellenőrzést igényel jelölés megmaradt, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18589700320021` | `Fanta Halloween Zero` 1,75 l, helyi kép nincs; a közvetlen forrásnév ZERO szénsavas üdítőt közöl, az íz kézi ellenőrzést igényel jelölés megmaradt, cukormentes és szénsavas, változatlan |
+| `BTY-X18647200320021` | `Schweppes Citrus Mix` 1,5 l, helyi kép nincs; a közvetlen forrásnév Citrus Mix üdítőt közöl, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18836800320021` | `Schweppes Wild Berry` 1,5 l, helyi kép nincs; a közvetlen forrásnév bogyós üdítőt közöl, erdei gyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17322300320021` | `Fanta Orange Sleek` 330 ml, helyi kép nincs; a közvetlen forrásnév szénsavas narancsízű üdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 13. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, helyi kép nélküli
+  rekordját a teljes forrásnév alapján egyenként ellenőriztük. A Sprite,
+  Fanta, Mirinda, Márka, San Pellegrino, Schweppes, Traubisoda, Apenta és
+  XIXO megnevezései minden esetben egyeztek a jelenlegi tulajdonságokkal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X18247000320021` | `Sprite Zero` citrom-lime 24×250 ml, helyi kép nincs; a közvetlen forrásnév cukormentes, szénsavas citrom-lime üdítőt közöl, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `BTY-X17322500320021` | `Sprite` citrom-lime 330 ml, helyi kép nincs; a közvetlen forrásnév szénsavas citrom-lime üdítőt közöl, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17407800320021` | `Márka` szőlő 500 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas szőlős üdítőt közöl, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17407500320021` | `Márka` meggy 500 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas meggyes üdítőt közöl, meggyes, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17344000320021` | `Mirinda` narancs 330 ml, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavas narancsüdítőt közöl, narancsos, cukormentes és szénsavas, változatlan |
+| `BTY-X17660000320021` | `Márka Limonádé` kaktusz 500 ml, helyi kép nincs; a közvetlen forrásnév cukorral készült szénsavas kaktuszos üdítőt közöl, kaktuszos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17381100320021` | `San Pellegrino Aranciata Rossa` 330 ml, helyi kép nincs; a közvetlen forrásnév szénsavas narancs- és vérnarancsitalt közöl, narancsos és vérnarancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18116600320021` | `San Pellegrino Zero` őszibarack-mandarin 330 ml, helyi kép nincs; a közvetlen forrásnév cukormentes szénsavas üdítőt közöl, mandarinos és őszibarackos, cukormentes és szénsavas, változatlan |
+| `BTY-X17381200320021` | `San Pellegrino Limonata` 330 ml, helyi kép nincs; a közvetlen forrásnév szénsavas citromitalt közöl, citromos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17410000320021` | `Márka` narancs 2 l, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas narancsüdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17345700320021` | `Schweppes Bitter Lemon` 330 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas citromos üdítőt közöl, citromos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18115600320021` | `Traubisoda` szőlő 1,75 l, helyi kép nincs; a közvetlen forrásnév szénsavas szőlőüdítőt közöl, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17380900320021` | `San Pellegrino Aranciata` 330 ml, helyi kép nincs; a közvetlen forrásnév szénsavas narancsitalt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17606100320021` | `Apenta` málna 1,5 l, helyi kép nincs; a közvetlen forrásnév szénsavas ásványvízzel készült málnás üdítőt közöl, málnás, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17410500320021` | `Márka` szőlő 2 l, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas szőlős üdítőt közöl, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17694000320021` | `Fanta Orange` 300 ml, helyi kép nincs; a közvetlen forrásnév szénsavas narancsízű üdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18117700320021` | `XIXO Orange Limonade` 250 ml, helyi kép nincs; a közvetlen forrásnév citrusos szénsavas limonádét közöl, limonádés és narancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17321900320021` | `Fanta` narancs 1 l, helyi kép nincs; a közvetlen forrásnév szénsavas narancsüdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17659800320021` | `Márka Limonádé` citrom 2 l, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavas citromos üdítőt közöl, citromos, cukormentes és szénsavas, változatlan |
+| `BTY-X17898500320021` | `XIXO Tutti Fruity Black Cherry` 250 ml, helyi kép nincs; a közvetlen forrásnév fekete cseresznyés tutti-frutti üdítőt közöl, cseresznyés és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17322700320021` | `Sprite` citrom-lime 1 l, helyi kép nincs; a közvetlen forrásnév szénsavas citrom-lime üdítőt közöl, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17410100320021` | `Márka` málna 2 l, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavas málnás üdítőt közöl, málnás, cukormentes és szénsavas, változatlan |
+| `BTY-X18537900320021` | `Traubisoda` szőlő 500 ml, helyi kép nincs; a közvetlen forrásnév szénsavas szőlőízű üdítőt közöl, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17407700320021` | `Márka` narancs 500 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas narancsüdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17322100320021` | `Fanta` narancs 2,25 l, helyi kép nincs; a közvetlen forrásnév szénsavas narancsízű üdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 14. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, helyi kép nélküli
+  rekordját a teljes forrásnév alapján egyenként ellenőriztük. A 7Up,
+  Mountain Dew, Márka, XIXO, Mirinda, Apenta, Gyöngy, Fanta és Almdudler
+  megnevezései egyeztek a jelenlegi ízekkel, szénsavassággal és
+  energiatartalommal.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X17342000320021` | `7Up Zero` citrom-lime 500 ml, helyi kép nincs; a közvetlen forrásnév energiamentes, szénsavas citrom-lime üdítőt közöl, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `BTY-X17342100320021` | `Mountain Dew` citrus 500 ml, helyi kép nincs; a közvetlen forrásnév szénsavas citrusos üdítőt közöl, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17410200320021` | `Márka` meggy 2 l, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas meggyes üdítőt közöl, meggyes, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17343000320021` | `7Up Zero` citrom-lime 2 l, helyi kép nincs; a közvetlen forrásnév energiamentes, szénsavas citrom-lime üdítőt közöl, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `BTY-X17301700320021` | `XIXO Tutti Fruity` 250 ml, helyi kép nincs; a közvetlen forrásnév koffeinmentes szénsavas tuttifrutti üdítőt és vitamint közöl, tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17344100320021` | `7Up Zero` citrom-lime 330 ml, helyi kép nincs; a közvetlen forrásnév energiamentes, szénsavas citrom-lime üdítőt közöl, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `BTY-X17421500320021` | `Apenta` szőlő 1,5 l, helyi kép nincs; a közvetlen forrásnév szénsavas, természetes ásványvízzel készült szőlős üdítőt közöl, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17410600320021` | `Márka Limonádé` bodza-lime 2 l, helyi kép nincs; a közvetlen forrásnév cukorral készült szénsavas bodza-lime üdítőt közöl, bodzás és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17301800320021` | `XIXO` alma-tuttifrutti 250 ml, helyi kép nincs; a közvetlen forrásnév koffeinmentes szénsavas alma-tuttifrutti üdítőt és vitamint közöl, almás és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17341900320021` | `Mirinda` narancs 500 ml, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavas narancsüdítőt közöl, narancsos, cukormentes és szénsavas, változatlan |
+| `BTY-X17342900320021` | `Mirinda Zero` narancs 2 l, helyi kép nincs; a közvetlen forrásnév ZERO, energiamentes szénsavas narancsüdítőt közöl, narancsos, cukormentes és szénsavas, változatlan |
+| `BTY-X17343100320021` | `Mountain Dew` citrus 2 l, helyi kép nincs; a közvetlen forrásnév szénsavas citrusos üdítőt közöl, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17409600320021` | `Gyöngy` málna 2 l, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavas málnás üdítőt közöl, málnás, cukormentes és szénsavas, változatlan |
+| `BTY-X17409800320021` | `Gyöngy` narancs 2 l, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavas narancsüdítőt közöl, narancsos, cukormentes és szénsavas, változatlan |
+| `BTY-X17410700320021` | `Márka Juicy Soda` bodza 250 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas bodzás üdítőt közöl, bodzás, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17410800320021` | `Márka Juicy Soda` málna 250 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas málnás üdítőt közöl, málnás, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17410900320021` | `Márka Juicy Soda` narancs 250 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas narancsos üdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17411000320021` | `Márka Juicy Soda` meggy 250 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas meggyes üdítőt közöl, meggyes, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17411300320021` | `Gyöngy` szőlő 2 l, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavas szőlős üdítőt közöl, szőlős, cukormentes és szénsavas, változatlan |
+| `BTY-X17461100320021` | `Almdudler Original` 0,5 l, helyi kép nincs; a közvetlen forrásnév alpesi gyógynövénykivonatos szénsavas üdítőt közöl, gyógynövényes és natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17461200320021` | `Almdudler` cukormentes 0,5 l, helyi kép nincs; a közvetlen forrásnév cukormentes, édesítőszeres gyógynövényes szénsavas üdítőt közöl, gyógynövényes, cukormentes és szénsavas, változatlan |
+| `BTY-X17475900320021` | `Almdudler Original` 1,5 l, helyi kép nincs; a közvetlen forrásnév alpesi gyógynövénykivonatos szénsavas üdítőt közöl, gyógynövényes és natúr, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17476000320021` | `Almdudler` cukormentes 1,5 l, helyi kép nincs; a közvetlen forrásnév cukormentes, édesítőszeres gyógynövényes szénsavas üdítőt közöl, gyógynövényes, cukormentes és szénsavas, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 15. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, helyi kép nélküli
+  rekordját a teljes forrásnév alapján egyenként ellenőriztük. A XIXO,
+  San Pellegrino, Traubisoda, Márka, Kinley, Gyöngy, Lemonsoda, Fanta,
+  Fentimans, Three Cents és Vöslauer rekordjai egyeztek; egy Apenta+ Relax
+  forrásnév pontosította a vörösáfonya ízértéket.
+- Módosított rekord: **1** (`BTY-X17423500320021`).
+- Módosított tulajdonságmező: **1** (`íz: áfonya → vörösáfonya` pontosítás).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **26**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X17504600320021` | `XIXO Tutti Fruity` görögdinnye 250 ml, helyi kép nincs; a közvetlen forrásnév szénsavas görögdinnyés-tuttifruttis üdítőt közöl, görögdinnyés és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17659900320021` | `Márka Limonádé` bodza 500 ml, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavas bodzás üdítőt közöl, bodzás, cukormentes és szénsavas, változatlan |
+| `BTY-X17704800320021` | `XIXO Lemonade` bodza-citrom 250 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas bodza-citrom limonádét közöl, bodzás, citromos és limonádés, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17704900320021` | `XIXO Pink Lemonade` eper-lime 250 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas eper-lime limonádét közöl, epres, lime-os és limonádés, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18086500320021` | `San Pellegrino Limonata Zero` citrom 330 ml, helyi kép nincs; a közvetlen forrásnév cukormentes dobozos citromos üdítőt közöl, citromos, cukormentes és szénsavas, változatlan |
+| `BTY-X18115700320021` | `Traubisoda Zero` szőlő 1,75 l, helyi kép nincs; a közvetlen forrásnév szénsavas, cukormentes ZERO szőlőüdítőt közöl, szőlős, cukormentes és szénsavas, változatlan |
+| `BTY-X18115900320021` | `Traubisoda` kékszőlő 1,75 l, helyi kép nincs; a közvetlen forrásnév szénsavas kékszőlős üdítőt közöl, kékszőlős, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18116100320021` | `Márka Zero` szőlő 2 l, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavas szőlős üdítőt közöl, szőlős, cukormentes és szénsavas, változatlan |
+| `BTY-X18119900320021` | `Kinley Purple` vegyes bogyós 250 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas vegyes gyümölcsös üdítőt közöl, feketeribizlis, guavás, hibiszkuszos és sárkánygyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18123900320021` | `Márka Limonádé` kaktusz 2 l, helyi kép nincs; a közvetlen forrásnév cukorral készült szénsavas kaktuszos üdítőt közöl, kaktuszos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18126600320021` | `Kinley Pink Aromatic Berry` 250 ml, helyi kép nincs; a közvetlen forrásnév szénsavas vegyes bogyós üdítőt közöl, erdei gyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18131100320021` | `Márka Limonádé` sárkánygyümölcs 2 l, helyi kép nincs; a közvetlen forrásnév cukorral készült szénsavas sárkánygyümölcsös üdítőt közöl, sárkánygyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18249500320021` | `Gyöngy` citrom 2 l, helyi kép nincs; a közvetlen forrásnév citromos szénsavas üdítőt közöl, citromos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18538700320021` | `Traubisoda Zero` szőlő 500 ml, helyi kép nincs; a közvetlen forrásnév ZERO szőlőízű szénsavas üdítőt közöl, szőlős, cukormentes és szénsavas, változatlan |
+| `BTY-X18655600320021` | `XIXO Tutti Fruity Kiwi` 250 ml, helyi kép nincs; a közvetlen forrásnév kiviízű üdítőt közöl, kivis és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18796500320021` | `Márka` málna 2 l, helyi kép nincs; a közvetlen forrásnév szénsavas málnás üdítőt közöl, málnás, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18827700320021` | `XIXO Mojito Limonádé` 250 ml, helyi kép nincs; a közvetlen forrásnév mojito limonádét közöl, mojitós, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18974600320021` | `Lemonsoda Zero` citrom 330 ml, helyi kép nincs; a közvetlen forrásnév cukor nélküli ZERO citromos szénsavas üdítőt közöl, citromos, cukormentes és szénsavas, változatlan |
+| `BTY-X18246300320021` | `Fanta` narancs 24×250 ml, helyi kép nincs; a közvetlen forrásnév szénsavas narancsüdítőt közöl, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18246800320021` | `Kinley Purple` vegyes bogyós 24×250 ml, helyi kép nincs; a közvetlen forrásnév cukorral és édesítőszerrel készült szénsavas vegyes gyümölcsös üdítőt közöl, feketeribizlis, guavás, hibiszkuszos és sárkánygyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18417200320021` | `Fentimans Rose Lemonade` 275 ml, helyi kép nincs; a közvetlen forrásnév rózsás limonádé üdítőt közöl, rózsás, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18282400320021` | `Three Cents Pink Grapefruit` 200 ml, helyi kép nincs; a közvetlen forrásnév szénsavas grapefruit-üdítőt közöl, grapefruit-os, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X18282500320021` | `Three Cents Cherry Soda` 200 ml, helyi kép nincs; a közvetlen forrásnév vadcseresznyés szódavizet közöl, cseresznyés, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17444300320021` | `Vöslauer Balance Juicy` mangó-őszibarack 0,75 l, helyi kép nincs; a közvetlen forrásnév természetes ásványvíz-alapú szénsavas üdítőt közöl, mangós és őszibarackos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17423500320021` | `Apenta+ Relax` feketeribizli-vörösáfonya-hibiszkusz 750 ml, helyi kép nincs; **az áfonya érték vörösáfonyára pontosítva** a közvetlen forrásnév alapján, feketeribizlis, vörösáfonyás és hibiszkuszos, normál energiatartalom és szénsavmentes |
+| `BTY-X17423800320021` | `Apenta+ Power-C` narancs-pomelo 750 ml, helyi kép nincs; a közvetlen forrásnév energiamentes, szénsavmentes narancs-pomelo üdítőt közöl, narancsos és pomelós, cukormentes és szénsavmentes, változatlan |
+| `BTY-X17423300320021` | `Apenta+ Antiox` gránátalma-acai 750 ml, helyi kép nincs; a közvetlen forrásnév energiamentes, szénsavmentes gránátalma-acai üdítőt közöl, acai és gránátalmás, cukormentes és szénsavmentes, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 16. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, helyi kép nélküli
+  rekordját a teljes forrásnév alapján egyenként ellenőriztük. A Vöslauer,
+  Apenta, Jana, Márka, Swiss Laboratory és Vitalade rekordjai egyeztek;
+  két forrásnév alapján pontosítottunk.
+- Módosított rekord: **2** (`BTY-X17413700320021`,
+  `BTY-X17301000320021`).
+- Módosított tulajdonságmező: **2** (`íz: áfonya → áfonya, vörösáfonya`;
+  `energiatartalom: cukormentes → normál`).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **23**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `BTY-X17476400320021` | `Vöslauer Balance Juicy Plus` bogyós gyümölcs és echinacea 0,75 l, helyi kép nincs; a közvetlen forrásnév bogyós- és kasvirágos szénsavas üdítőt közöl, erdei gyümölcsös és kasvirágos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17423600320021` | `Apenta+ Body` arónia-meggy 750 ml, helyi kép nincs; a közvetlen forrásnév arónia-meggyes szénsavmentes üdítőt közöl, aróniás és meggyes, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X17423400320021` | `Apenta+ Fit` mangó-citrom-zöldtea 750 ml, helyi kép nincs; a közvetlen forrásnév energiamentes, szénsavmentes mangó-citrom-zöldtea üdítőt közöl, citromos, mangós és zöldteás, cukormentes és szénsavmentes, változatlan |
+| `BTY-X17444100320021` | `Vöslauer Balance Juicy` eper-bors 0,75 l, helyi kép nincs; a közvetlen forrásnév eper-borsos szénsavas üdítőt közöl, epres és borsos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17409300320021` | `Márka Mirror` bodza 1,5 l, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavas bodzás üdítőt közöl, bodzás, cukormentes és szénsavas, változatlan |
+| `BTY-X17409400320021` | `Márka Mirror` citrom 1,5 l, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavas citromos üdítőt közöl, citromos, cukormentes és szénsavas, változatlan |
+| `BTY-X17413400320021` | `Jana` citrom-zöld limetta 1,5 l, helyi kép nincs; a közvetlen forrásnév energiaszegény, szénsavmentes citrom-lime üdítőt közöl, citromos és lime-os, energiacsökkentett és szénsavmentes, változatlan |
+| `BTY-X17413600320021` | `Jana` eper-guava 1,5 l, helyi kép nincs; a közvetlen forrásnév energiaszegény, szénsavmentes eper-guava üdítőt közöl, epres és guavás, energiacsökkentett és szénsavmentes, változatlan |
+| `BTY-X17413700320021` | `Jana` kék áfonya-vörös áfonya 1,5 l, helyi kép nincs; **a vörös áfonya érték hozzáadva az áfonya mellé** a közvetlen forrásnév alapján, áfonyás és vörösáfonyás, energiacsökkentett és szénsavmentes |
+| `BTY-X17414000320021` | `Jana` szőlő-mirabella 1,5 l, helyi kép nincs; a közvetlen forrásnév energiaszegény, szénsavmentes szőlő-mirabella üdítőt közöl, mirabellás és szőlős, energiacsökkentett és szénsavmentes, változatlan |
+| `BTY-X17444200320021` | `Vöslauer Balance Juicy` citrom 0,75 l, helyi kép nincs; a közvetlen forrásnév természetes ásványvíz-alapú szénsavas citromos üdítőt közöl, citromos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17669600320021` | `Apenta+ Boost` pink grapefruit 750 ml, helyi kép nincs; a közvetlen forrásnév enyhén szénsavas, energiamentes grapefruit-üdítőt közöl, grapefruit-os, cukormentes és szénsavas, változatlan |
+| `BTY-X17669700320021` | `Apenta+ Immuno` fehér barack 750 ml, helyi kép nincs; a közvetlen forrásnév enyhén szénsavas őszibarackos üdítőt közöl, őszibarackos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17682500320021` | `Márka Mirror` feketeribizli 1,5 l, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavas feketeribizlis üdítőt közöl, feketeribizlis, cukormentes és szénsavas, változatlan |
+| `BTY-X17682600320021` | `Márka Mirror` málna 1,5 l, helyi kép nincs; a közvetlen forrásnév energiamentes szénsavmentes málnás üdítőt közöl, málnás, cukormentes és szénsavmentes, változatlan |
+| `BTY-X18658200320021` | `Apenta+ Active` sárkánygyümölcs 0,75 l, helyi kép nincs; a közvetlen forrásnév sárkánygyümölcsös italt közöl, sárkánygyümölcsös, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X18129400320021` | `SWISS BCAA Zero` szőlő-szeder-lime 250 ml, helyi kép nincs; a közvetlen forrásnév Zero alkoholmentes italt közöl, lime-os, szederes és szőlős, cukormentes és szénsavmentes, változatlan |
+| `BTY-X18137400320021` | `SWISS L-KARNITIN Zero` őszibarack 250 ml, helyi kép nincs; a közvetlen forrásnév cukor- és alkoholmentes italt közöl, őszibarackos, cukormentes és szénsavmentes, változatlan |
+| `BTY-X17234900320021` | `Vitalade Zero` áfonya-erdei szamóca 0,7 l, helyi kép nincs; a közvetlen forrásnév Zero üdítőt közöl, áfonyás és erdei szamócás, cukormentes és szénsavmentes, változatlan |
+| `BTY-X17235000320021` | `Vitalade Zero` lemon-lime 0,7 l, helyi kép nincs; a közvetlen forrásnév Zero lemon-lime üdítőt közöl, citromos és lime-os, cukormentes és szénsavmentes, változatlan |
+| `BTY-X17300600320021` | `SWISS Laboratory` kaktuszfüge 250 ml, helyi kép nincs; a közvetlen forrásnév szénsavas kaktuszfüge-vitaminitalt közöl, kaktuszos, normál energiatartalom és szénsavas, változatlan |
+| `BTY-X17301000320021` | `SWISS Laboratory Kids Multivitamin` vegyes gyümölcs 250 ml, helyi kép nincs; **a cukormentes érték normálra javítva**, mert a forrásnév nem közöl Zero/energiamentes jelölést, almás és narancsos, normál energiatartalom és szénsavmentes |
+| `BTY-X17301100320021` | `SWISS Laboratory Multivitamin` 250 ml, helyi kép nincs; a közvetlen forrásnév szénsavmentes multivitamin italt közöl, almás, ananászos, citromos, guavás, mandarinos, maracujás és sárgabarackos, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X18259900320021` | `Vitalade Alakreform` görögdinnye 500 ml, helyi kép nincs; a közvetlen forrásnév görögdinnyés italt közöl, görögdinnyés, normál energiatartalom és szénsavmentes, változatlan |
+| `BTY-X18276400320021` | `Vitalade Vita-C Plus` 700 ml, helyi kép nincs; a közvetlen forrásnév citromos italt közöl, citromos, normál energiatartalom és szénsavmentes, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 17. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, közvetlen termékképpel
+  rendelkező rekordját a név, a teljes rekordadat és a kép alapján egyenként
+  ellenőriztük. Öt rekordnál hét tulajdonságmezőt pontosítottunk.
+- Módosított rekord: **5** (`1016658`, `997263`, `997484`, `982354`,
+  `996241`).
+- Módosított tulajdonságmező: **7** (`energiatartalom: cukormentes → normál`
+  két rekordnál, `normál → cukormentes` két rekordnál, `íz: áfonya →
+  vörösáfonya` két rekordnál, `íz: alma → törölve`).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **20**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `1057896` | `Márka Limonádé` bodza-lime 0,5 l, közvetlen bodza-lime címkekép, bodzás és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `1047120` | `XIXO Tutti Fruity Black Cherry` 250 ml, közvetlen Black Cherry címkekép, cseresznyés és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `996558` | `XIXO Lemonade` bodza-citrom 250 ml, közvetlen bodzavirág-citrom címkekép, bodzás, citromos és limonádés, normál energiatartalom és szénsavas, változatlan |
+| `996559` | `XIXO Pink Lemonade` eper-lime 250 ml, közvetlen eper-lime címkekép, epres, lime-os és limonádés, normál energiatartalom és szénsavas, változatlan |
+| `1010422` | `Drinky` narancs 2 l, közvetlen Narancs címkekép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `1021727` | `Drinky` energiamentes szőlő 2 l, közvetlen Szőlő címkekép, szőlős, cukormentes és szénsavas, változatlan |
+| `1021729` | `Drinky` energiamentes citrom 2 l, közvetlen Citrom címkekép, citromos, cukormentes és szénsavas, változatlan |
+| `995539` | `XIXO` alma-tuttifrutti 250 ml, közvetlen Apple/Tutti Fruity címkekép, almás és tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `998212` | `Márka Limonádé` kaktusz 0,5 l, közvetlen Kaktusz címkekép, kaktuszos, normál energiatartalom és szénsavas, változatlan |
+| `997234` | `Apenta` málna 1,5 l, közvetlen Málna címkekép, málnás, normál energiatartalom és szénsavas, változatlan |
+| `1016658` | `Swiss Laboratory Vitamins` multivitamin 250 ml, **a cukormentes energiaérték normálra javítva**: a név és a kép csak csökkentett cukortartalmat, nem cukormentes vagy energiamentes állítást közöl; szénsavmentes, változatlan ízlista |
+| `1056108` | `Sió Limonádé` lime-eper 0,4 l, közvetlen Lime Eper címkekép, epres és lime-os, normál energiatartalom és szénsavmentes, változatlan |
+| `996241` | `Vitalade Zero` áfonya-erdei szamóca 0,7 l, **az áfonya érték vörösáfonyára pontosítva** a közvetlen Cranberry címkefelirat alapján, vörösáfonyás és erdei szamócás, cukormentes és szénsavmentes |
+| `1010426` | `Kékforrás` citrom-bodza 1,5 l, közvetlen Citrom-Bodza címkekép, bodzás és citromos, normál energiatartalom és szénsavas, változatlan |
+| `1010429` | `Kékforrás` grapefruit 1,5 l, közvetlen Grapefruit címkekép, grapefruit-os, normál energiatartalom és szénsavas, változatlan |
+| `1048035` | `Kékforrás` málna 1,5 l, közvetlen Málna címkekép, málnás, normál energiatartalom és szénsavas, változatlan |
+| `997263` | `Apenta+ Anti-Stress` gránátalma-acai-piros szőlő 750 ml, **az alma érték törölve és a cukormentes energiaérték normálra javítva**: a név és a kép gránátalmát, acait és piros szőlőt, de Zero/cukormentes jelölést nem közöl; acais, gránátalmás és szőlős, normál energiatartalom és szénsavas |
+| `997484` | `Apenta+ Relax` feketeribizli-vörösáfonya-hibiszkusz 750 ml, **az áfonya vörösáfonyára pontosítva és a normál energiaérték cukormentesre javítva** a ZERO CUKOR és vörösáfonya címkefelirat alapján, vörösáfonyás, feketeribizlis és hibiszkuszos, cukormentes és szénsavmentes |
+| `982354` | `Cappy Lemonade` citrom-eper 400 ml, **a normál energiaérték cukormentesre javítva** a Cukor nélkül címkefelirat alapján, citromos és epres, cukormentes és szénsavmentes |
+| `4604291` | `Cappy Botanical Lemonade` sárgabarack-narancsvirág 400 ml, közvetlen Botanical címkekép, citromos és sárgabarackos, normál energiatartalom és szénsavmentes, változatlan |
+| `990571` | `Schweppes Citrus Mix` 0,5 l, közvetlen Citrus Mix címkekép, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `4242480` | `Traubisoda Zero` szőlő 1,75 l, közvetlen ZERO CUKOR címkekép, szőlős, cukormentes és szénsavas, változatlan |
+| `4242482` | `Traubisoda` szőlő 1,75 l, közvetlen szőlő címkekép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `1054201` | `Cappy Ice Fruit Zero Sugar` mangó-maracuja 1,5 l, közvetlen Zero Sugar címkekép, mangós és maracujás, cukormentes és szénsavmentes, változatlan |
+| `996875` | `Márka` meggy 2,5 l, közvetlen Meggy címkekép, meggyes, normál energiatartalom és szénsavas, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 18. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, közvetlen termékképpel
+  rendelkező rekordját egyenként ellenőriztük. A képek és a terméknevek a
+  rögzített márka-, íz-, szénsavasság- és energiaértékeket igazolták; egy
+  specifikus ízértéket pontosítottunk.
+- Módosított rekord: **1** (`1054467`).
+- Módosított tulajdonságmező: **1** (`íz: alma → törölve`, mert a kép és a
+  név kizárólag `zöldalma` ízt jelöl).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **24**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `996876` | `Márka` szőlő 2,5 l, közvetlen Szőlő címkekép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `1039671` | `Queen` Tutti frutti 2,5 l, közvetlen Tutti frutti címkekép, tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `1054467` | `Queen` Zöldalma 2,5 l, közvetlen Zöldalma címkekép, **az általános almaérték törölve**, zöldalmás, normál energiatartalom és szénsavas |
+| `979635` | `Cappy Ice Fruit Multivitamin` mangosztán 1,5 l, közvetlen Multivitamin címkekép és mangosztános terméknév, mangosztános, normál energiatartalom és szénsavmentes, változatlan |
+| `1031183` | `Fanta` narancs 2 l, közvetlen Narancs címkekép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `af572e278d0b94c410eaeeab` | `CBA Piros` energiamentes citrom 1,5 l, közvetlen energiamentes/Citrom címkekép, citromos, cukormentes és szénsavas, változatlan |
+| `7f6b79840e34b4024307b5d1` | `CBA Piros` energiamentes narancs 2 l, közvetlen energiamentes/Narancs címkekép, narancsos, cukormentes és szénsavas, változatlan |
+| `56d4b26b0d82647549392ba3` | `CBA Piros` energiamentes bodza 1,5 l, közvetlen energiamentes/Bodza címkekép, bodzás, cukormentes és szénsavas, változatlan |
+| `e37f355d55f90b9b83d27d8d` | `CBA Piros` energiamentes málna 1,5 l, közvetlen energiamentes/Málna címkekép, málnás, cukormentes és szénsavas, változatlan |
+| `2f2e1cc1f6ce5a9ad222437c` | `CBA Piros` energiamentes szőlő 2 l, közvetlen energiamentes/Szőlő címkekép, szőlős, cukormentes és szénsavas, változatlan |
+| `492731bcc2595cdba7870d52` | `Fanta` narancs 1 l, közvetlen Narancs palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `9e038fb1e354fc997ee74b95` | `Fanta` narancs 1,75 l, közvetlen Narancs palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `0a49d7859849f3742ce2ef8f` | `Fanta` narancs 2,25 l, közvetlen Narancs palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `c4071b81b087279ffc5f5070` | `Fanta` narancs 330 ml, közvetlen Narancs dobozkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `ac3da4991893fd5c8944b238` | `Fanta` narancs 4×330 ml, közvetlen Narancs multipack-kép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `eea5968f1799b18e9690a524` | `Fanta` narancs 500 ml, közvetlen Narancs palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `ea6c5983b6979eaee2654a02` | `Fanta` szőlő 1,75 l, közvetlen Szőlő címkekép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `95eaaf35437ff8d60dbd74f8` | `Fanta` szőlő 500 ml, közvetlen Szőlő címkekép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `18b15ee9162d174512f08792` | `Fanta Zero` citrom-bodza 1,75 l, közvetlen zéró cukor/Citrom-bodza címkekép, bodzás és citromos, cukormentes és szénsavas, változatlan |
+| `04f9c214d98521354d9d8450` | `Fanta Zero` citrom-bodza 500 ml, közvetlen zéró cukor/Citrom-bodza címkekép, bodzás és citromos, cukormentes és szénsavas, változatlan |
+| `ac377f332f3ced2dc86bf87d` | `Fanta Zero` narancs 1,75 l, közvetlen zéró cukor/Narancs címkekép, narancsos, cukormentes és szénsavas, változatlan |
+| `43c4c87231084f9340399499` | `Fanta Zero` narancs 500 ml, közvetlen zéró cukor/Narancs címkekép, narancsos, cukormentes és szénsavas, változatlan |
+| `301cc464cd45c75010dfeab4` | `Kinley Lime Mint` 500 ml, közvetlen Lime Mint címkekép, lime-os és mentás, normál energiatartalom és szénsavas, változatlan |
+| `7433782d0b802efeaf2207ad` | `Kinley Pink Aromatic Berry` 500 ml, közvetlen Pink Aromatic Berry címkekép, erdei gyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `dc918caf9a0cf5f17d49438d` | `Sprite Fresh` citrom-lime 1 l, közvetlen Citrom-Lime címkekép, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 19. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, közvetlen termékképpel
+  rendelkező rekordját a terméknévvel és a képpel egyenként ellenőriztük.
+  Sprite, 7Up, Mirinda, Mountain Dew, Schweppes, Topjoy és Fanta termékei
+  minden rögzített értékkel egyeztek.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `6b4c7440f9a5ce1e1fef84be` | `Sprite` citrom-lime 1,75 l, közvetlen Citrom-Lime címkekép, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `0cfaf01d6a364fbc6041b7d9` | `Sprite` citrom-lime 330 ml, közvetlen Sprite dobozkép, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `6c1043d7826b3289a68baf67` | `Sprite` citrom-lime 500 ml, közvetlen Sprite palackkép, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `99229db37747b5b824cc7dee` | `Sprite Zero` citrom-lime 1,75 l, közvetlen Zéró cukor címkekép, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `81f5838f1108b4d7dbc3d866` | `Sprite Zero` citrom-lime 500 ml, közvetlen Zéró cukor címkekép, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `294e163ef62d54f7a86d5c83` | `7Up Zero` citrom-lime 0,5 l, közvetlen Zero Sugar címkekép, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `0f1ec581f3e6f32f0d0503e6` | `7Up Zero` citrom-lime 2 l, közvetlen Zero Sugar címkekép, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `eeb6f1060ea5ebbf9c9c4790` | `7Up Zero` citrom-lime 330 ml, közvetlen Zero Sugar dobozkép, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `aba33c0d738098c7a3ccb2fa` | `Mirinda` narancs 2 l, közvetlen Orange Flavour Zero Sugar címkekép, narancsos, cukormentes és szénsavas, változatlan |
+| `f6522de2c8f72066714329bb` | `Mirinda` narancs 330 ml, közvetlen Orange Flavour Zero Sugar dobozkép, narancsos, cukormentes és szénsavas, változatlan |
+| `d60120086ef981914b7bdc28` | `Mountain Dew` citrus 500 ml, közvetlen Mountain Dew címkekép, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `54d41727690deafd30e1e716` | `Schweppes Bitter Lemon` 0,5 l, közvetlen Bitter Lemon címkekép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `cdc0b368f1021ca689da3e68` | `Schweppes Bitter Lemon` 1,5 l, közvetlen Bitter Lemon palackkép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `01c17827aea3f1c2aaa288c0` | `Schweppes Bitter Lemon` 330 ml, közvetlen Bitter Lemon dobozkép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `6719135f706e231e72a3d133` | `Schweppes Citrus Mix` 1,5 l, közvetlen Citrus Mix palackkép, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `4ed630821b37da355bde7667` | `Schweppes Citrus Mix` 0,5 l, közvetlen Citrus Mix palackkép, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `f9eb4f9aa3cdc3cc423b70b8` | `Schweppes` narancs 1,5 l, közvetlen Orange palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `f4543a5e7e3e304b6580851d` | `Topjoy` eper 330 ml, közvetlen Eper dobozkép, epres, normál energiatartalom és szénsavas, változatlan |
+| `94f5b35448a86e82d44ec5d9` | `Mirinda` narancs 0,5 l, közvetlen Orange Flavour Zero Sugar palackkép, narancsos, cukormentes és szénsavas, változatlan |
+| `5d292a558d88a4035ec704dd` | `Mirinda` narancs 1 l, közvetlen Orange Flavour Zero Sugar palackkép, narancsos, cukormentes és szénsavas, változatlan |
+| `fc02b1fa52b76c44a33f9000` | `Mountain Dew` citrus 2 l, közvetlen Mountain Dew palackkép, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `7bfdde115be43de15785cb2d` | `Fanta Zero` málna 500 ml, közvetlen Zéró cukor/Málna címkekép, málnás, cukormentes és szénsavas, változatlan |
+| `870f13a6e29689425073432c` | `Fanta Zero` málna 1,75 l, közvetlen Zéró cukor/Málna palackkép, málnás, cukormentes és szénsavas, változatlan |
+| `d0cd84bdaccd2ff8fc6decd4` | `Topjoy` mangó 330 ml, közvetlen Mangó dobozkép, mangós, normál energiatartalom és szénsavas, változatlan |
+| `dc99ea3b121899810eaf02f7` | `Topjoy` kaktusz 330 ml, közvetlen Kaktusz dobozkép, kaktuszos, normál energiatartalom és szénsavas, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 20. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, közvetlen termékképpel
+  rendelkező rekordját a névvel és a képpel egyenként ellenőriztük. A Topjoy,
+  Apenta, Vöslauer, Schweppes, Kinley, Mountain Dew, HELL, Márka, Fanta,
+  Fonti Di Crodo és Traubisoda termékek értékei egyeztek. A Fanta Exoticnál
+  az elemi íz nem bizonyítható, ezért a meglévő kézi-ellenőrzési jelzőt
+  változatlanul meghagytuk.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `04db6d44a55e9a774dc4a5b7` | `Topjoy` görögdinnye 330 ml, közvetlen Görögdinnye dobozkép, görögdinnyés, normál energiatartalom és szénsavas, változatlan |
+| `54ceb8a5d9786ac48c624bb3` | `Apenta` málna 1,5 l, közvetlen Málna palackkép, málnás, normál energiatartalom és szénsavas, változatlan |
+| `f678df95d3c5d714b8b944d0` | `Apenta` szőlő 1,5 l, közvetlen Szőlő palackkép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `3cbd5275de9b3cb00ace57d6` | `Vöslauer Balance Juicy` citrom 0,75 l, közvetlen Citrom palackkép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `c680c8b344308e5ce0d93258` | `Vöslauer Balance Juicy` pink grapefruit 0,75 l, közvetlen Pink Grapefruit palackkép, grapefruit-os, normál energiatartalom és szénsavas, változatlan |
+| `4c0d132aca7d40a38760bf52` | `Schweppes` narancs 0,5 l, közvetlen Orange palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `27a18b8feb6d4c6991b016b4` | `Kinley Pink Aromatic Berry` 1 l, közvetlen Pink Aromatic Berry palackkép, erdei gyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `ab4fe297d50e6dda7106c599` | `Kinley Bitter Lemon` 1 l, közvetlen Bitter Lemon palackkép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `c953f66d7bb1832cb446abb4` | `Kinley Lime Mint` 1 l, közvetlen Lime Mint palackkép, lime-os és mentás, normál energiatartalom és szénsavas, változatlan |
+| `421a7389e217977237ac2d28` | `Mountain Dew` citrus 330 ml, közvetlen Mountain Dew dobozkép, citrusos, normál energiatartalom és szénsavas, változatlan |
+| `351730be0c4612e0d279966c` | `HELL Caffeine Free` tuttifrutti 250 ml, közvetlen Caffeine Free dobozkép, tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `e737cc6c0eb3ee382f23dc48` | `Márka` narancs 2 l, közvetlen Narancs palackkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `33327c2be261db5950a17455` | `Márka` szőlő 2 l, közvetlen Szőlő palackkép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `8c11a3232b8478b25ab61d36` | `Kinley Pink Aromatic Berry` 1,5 l, közvetlen Pink Aromatic Berry palackkép, erdei gyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `13b831afc4e423f46048b56a` | `Fanta Zero Sugar` tutti-frutti 330 ml, közvetlen Zero Sugar/Tutti Fruity dobozkép, tuttifruttis, cukormentes és szénsavas, változatlan |
+| `b212fb2596303aef79c89cf0` | `Kinley Purple` 0,5 l, közvetlen Purple címkekép, feketeribizlis, guavás, hibiszkuszos és sárkánygyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `2901bbafc3ffdf5af857a4b4` | `Kinley Purple` 1 l, közvetlen Purple palackkép, feketeribizlis, guavás, hibiszkuszos és sárkánygyümölcsös, normál energiatartalom és szénsavas, változatlan |
+| `016bc97ff28094a5bb4e1f02` | `Fanta` tutti-frutti 1,75 l, közvetlen energiamentes/Tutti Fruity palackkép, tuttifruttis, cukormentes és szénsavas, változatlan |
+| `cbfb7d4de7192e5982daf815` | `Fonti Di Crodo Lemon Soda` citrom 33 cl, közvetlen Lemon Soda dobozkép, citromos, normál energiatartalom és szénsavas, változatlan |
+| `6a7c7945cf75d040a91e003b` | `Fonti Di Crodo Lemon Soda Mojito` 33 cl, közvetlen Mojito dobozkép, citromos, lime-os, mentás és mojitós, normál energiatartalom és szénsavas, változatlan |
+| `9c8ef1d2492205d2b6d53c1a` | `XIXO Tutti Fruity` 250 ml, közvetlen Tutti Fruity dobozkép, tuttifruttis, normál energiatartalom és szénsavas, változatlan |
+| `f4f83c55943f07d15d0ac344` | `Traubisoda` szőlő 1,75 l, közvetlen Szőlő palackkép, szőlős, normál energiatartalom és szénsavas, változatlan |
+| `6b769c46d17f6dd5bf20168a` | `Traubisoda` kékszőlő 1,75 l, közvetlen Kékszőlő palackkép, kékszőlős, normál energiatartalom és szénsavas, változatlan |
+| `50e87577e8fe2eafcc0528ce` | `Traubisoda Zero` szőlő 1,75 l, közvetlen Zero Cukor palackkép, szőlős, cukormentes és szénsavas, változatlan |
+| `ec88235f1ced056dd93b44c8` | `Fanta Exotic` trópusi gyümölcs 500 ml, közvetlen Exotic palackkép; az elemi gyümölcsíz nem bizonyítható, ezért a meglévő `íz kézi ellenőrzést igényel` jelző változatlan, normál energiatartalom és szénsavas |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 21. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, közvetlen termékképpel
+  rendelkező rekordját egyenként ellenőriztük. Három NaturAqua Emotion
+  rekordnál öt, scriptből visszamaradt nem elemi ízértéket töröltünk; a
+  közvetlen képek és terméknevek csak a tényleges ízeket igazolták.
+- Módosított rekord: **3** (`906d91f836d895b11aa9201c`,
+  `6aa9029c5613f03b6ffedbdd`, `3c1abb7406539f0e8ce7b560`).
+- Módosított tulajdonságmező: **5** (`natúr` törlése három rekordnál,
+  `citrom` törlése a két körte–citromfű rekordnál).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **22**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `838caaa45a79fdcc97eb0cbf` | `Fanta Exotic` trópusi gyümölcs 330 ml, közvetlen Exotic dobozkép; elemi íz nem bizonyítható, ezért az `íz kézi ellenőrzést igényel` jelző változatlan, normál energiatartalom és szénsavas |
+| `d34b1319426056f2e3568e9c` | `Fanta Exotic` trópusi gyümölcs 1,75 l, közvetlen Exotic palackkép; elemi íz nem bizonyítható, ezért az `íz kézi ellenőrzést igényel` jelző változatlan, normál energiatartalom és szénsavas |
+| `ef6dc3dc06a5e125fb125689` | `Fonti Di Crodo Oran Soda` 33 cl, közvetlen Oran Soda dobozkép, narancsos, normál energiatartalom és szénsavas, változatlan |
+| `63103301cfc5fd7fb5f52d57` | `Márka` meggy 2 l, közvetlen Meggy palackkép, meggyes, normál energiatartalom és szénsavas, változatlan |
+| `906d91f836d895b11aa9201c` | `NaturAqua Emotion` szeder-lime 1,5 l, közvetlen ZERO/Szeder-Lime palackkép, **a natúr érték törölve**, szederes és lime-os, cukormentes és szénsavas |
+| `6aa9029c5613f03b6ffedbdd` | `NaturAqua Emotion` körte-citromfű 1,5 l, közvetlen Körte és Citromfű palackkép, **a natúr és az általános citrom érték törölve**, körtés és citromfüves, normál energiatartalom és szénsavas |
+| `3c1abb7406539f0e8ce7b560` | `NaturAqua Emotion` körte-citromfű 500 ml, közvetlen Körte és Citromfű palackkép, **a natúr és az általános citrom érték törölve**, körtés és citromfüves, normál energiatartalom és szénsavas |
+| `258ee8ba13ac7c4820f55ee3` | `Jana` eper-guava 1,5 l, közvetlen Strawberry Guava címkekép, epres és guavás, energiacsökkentett és szénsavmentes, változatlan |
+| `13282208524d5a9268970748` | `Jana` szőlő-mirabella 1,5 l, közvetlen Grape Mirabelle címkekép, mirabellás és szőlős, energiacsökkentett és szénsavmentes, változatlan |
+| `ea18e09e74189b5f7a94c888` | `Márka Ice Tea` őszibarack 1,5 l, közvetlen Peach Ice Tea címkekép, őszibarackos, normál energiatartalom és szénsavmentes, változatlan |
+| `62e29a8f8b984c3b42a95842` | `Márka Ice Tea` citrom 1,5 l, közvetlen Lemon Ice Tea címkekép, citromos, normál energiatartalom és szénsavmentes, változatlan |
+| `48fe4eb2ee5c492cfab4be24` | `Cappy Ice Fruit Bogyósgyümölcs Mix` 1,5 l, közvetlen Bogyósgyümölcs Mix címkekép, erdei gyümölcsös és hibiszkuszos, normál energiatartalom és szénsavmentes, változatlan |
+| `00573d81fb4b96747cb3df93` | `Cappy Ice Fruit Multivitamin` mangosztán 1,5 l, közvetlen Multivitamin címkekép, mangosztános, normál energiatartalom és szénsavmentes, változatlan |
+| `6b62602b1aa0ae137875473e` | `Cappy Ice Fruit` alma-körte-bodzavirág 1,5 l, közvetlen Apple Pear címkekép és forrásnév, almás, körtés és bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `99b2adf2f34207a531be7cf1` | `Cappy Ice Fruit` alma-őszibarack-sárgadinnye 1,5 l, közvetlen Peach-Melon címkekép és forrásnév, almás, őszibarackos, sárgadinnyés és citromfüves, normál energiatartalom és szénsavmentes, változatlan |
+| `a2b218c46f370b7498427900` | `Olympos` alma-körte-szőlő 1,5 l, közvetlen Alma-Körte-Szőlő palackkép, almás, körtés és szőlős, energiacsökkentett és szénsavmentes, változatlan |
+| `753b6b14ea2dc3e9f947c3f1` | `Olympos Trópusi` 1,5 l, közvetlen Trópusi palackkép és a korábbi azonos címke ellenőrzése alapján ananászos, banános, guavás, kaktuszos, kivis, licsis, lime-os, mangós, maracujás, narancsos, papajás és őszibarackos, normál energiatartalom és szénsavmentes, változatlan |
+| `ec2f7438cb96805a8dc7e009` | `Cappy Ice Fruit` meggy 1,5 l, közvetlen Meggy címkekép, meggyes, normál energiatartalom és szénsavmentes, változatlan |
+| `84be0cb04fae39dc8fb168c0` | `Cappy Ice Fruit Multivitamin` mangosztán 500 ml, közvetlen Multivitamin címkekép, mangosztános, normál energiatartalom és szénsavmentes, változatlan |
+| `a1efba0ab4f78635b76551f1` | `Olympos Golden Alma` 1,5 l, közvetlen Golden Alma palackkép, almás, energiacsökkentett és szénsavmentes, változatlan |
+| `2e07db26109071866f7ccaea` | `Olympos` mandarin 1,5 l, közvetlen Mandarin palackkép, mandarinos, energiacsökkentett és szénsavmentes, változatlan |
+| `c2c066011a2baffdcace5237` | `Olympos` sárgarépa-narancs 1,5 l, közvetlen Sárgarépa-Narancs palackkép, narancsos és sárgarépás, energiacsökkentett és szénsavmentes, változatlan |
+| `1ebafb8df032f47f4fd6a4be` | `Sió Citrus Friss` sárgadinnye-lime-alma 1 l, közvetlen Citrus Friss címkekép és forrásnév, almás, lime-os és sárgadinnyés, normál energiatartalom és szénsavmentes, változatlan |
+| `2116d6526262c08df00f8fae` | `Cappy Ice Fruit Zero Sugar` mangó-maracuja 1,5 l, közvetlen Zero Sugar címkekép, mangós és maracujás, cukormentes és szénsavmentes, változatlan |
+| `851dcbf4ee9a7f8b0f6bdc32` | `Cappy Ice Fruit` alma-őszibarack-sárgadinnye 500 ml, közvetlen Peach-Melon címkekép és forrásnév, almás, őszibarackos, sárgadinnyés és citromfüves, normál energiatartalom és szénsavmentes, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 22. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, közvetlen termékképpel
+  rendelkező rekordját egyenként ellenőriztük. Hat rekordnál kilenc, nem
+  elemi íz- vagy energiaértéket javítottunk a név és a címkekép alapján.
+- Módosított rekord: **6** (`8fa9bed1a67f98cf987d1371`,
+  `b2b0122d2cb9908a60f19dc0`, `7df074a7b7a0e06de640d73e`,
+  `9a2819f983ab035551a220eb`, `cd398bc4056454e0b90ab7ad`,
+  `7b16910fd5f04bcf26e184f5`).
+- Módosított tulajdonságmező: **9** (`normál → cukormentes`;
+  `cukormentes → normál`; `íz: alma → törölve`; `íz: tea → zöld tea`;
+  `íz: áfonya → vörösáfonya`; `íz: barack → őszibarack`).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **19**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `85c2397a390a45e96fe7443a` | `Cappy Ice Fruit` alma-körte-bodzavirág 500 ml, közvetlen Alma-Körte címkekép, almás, körtés és bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `8fa9bed1a67f98cf987d1371` | `Cappy Lemonade` citrom-eper 1,25 l, **a Cukor nélkül címkefelirat alapján normál → cukormentes**, citromos és epres, cukormentes és szénsavmentes |
+| `ec9de1c36e01abf6a4095090` | `Olympos Light` alma-őszibarack 1,5 l, közvetlen Light/Őszibarack-Alma palackkép, almás és őszibarackos, energiacsökkentett és szénsavmentes, változatlan |
+| `dd23b347f4f61b26f77ee15b` | `Olympos Light` alma-gránátalma-meggy 1,5 l, közvetlen Light címkekép, almás, gránátalmás és meggyes, energiacsökkentett és szénsavmentes, változatlan |
+| `c0a96b988b31c9268c50548b` | `Sió Limonádé` lime-eper 1 l, közvetlen Lime Eper címkekép, epres és lime-os, normál energiatartalom és szénsavmentes, változatlan |
+| `b2b0122d2cb9908a60f19dc0` | `Apenta+ Antiox` gránátalma-acai 750 ml, **az alma érték törölve**, közvetlen ZERO CUKOR/Gránátalma-Acai címkekép, acais és gránátalmás, cukormentes és szénsavmentes |
+| `e12b448f8afcdf8da45237bb` | `Apenta+ Body` arónia-meggy 750 ml, közvetlen ZERO CUKOR/Arónia-Meggy címkekép, aróniás és meggyes, cukormentes és szénsavmentes, változatlan |
+| `7df074a7b7a0e06de640d73e` | `Apenta+ Fit` mangó-citrom-zöld tea 750 ml, **a tea érték zöld teára pontosítva** a közvetlen címkefelirat alapján, citromos, mangós és zöldteás, cukormentes és szénsavmentes |
+| `1c2863ba6dcf37fe7ba1ebe3` | `Apenta+ Ready` alma-kivi 750 ml, közvetlen Alma-Kivi/Zero Cukor címkekép, almás és kivis, cukormentes és szénsavmentes, változatlan |
+| `3d9d130481c130cc7342a08b` | `Apenta+ Power-C` narancs-pomelo 750 ml, közvetlen Narancs-Pomelo/Zero Cukor címkekép, narancsos és pomelós, cukormentes és szénsavmentes, változatlan |
+| `9a2819f983ab035551a220eb` | `Apenta+ Relax` feketeribizli-vörösáfonya-hibiszkusz 750 ml, **az áfonya vörösáfonyára pontosítva és normál → cukormentes**, közvetlen ZERO CUKOR/Vörösáfonya címkekép, vörösáfonyás, feketeribizlis és hibiszkuszos, cukormentes és szénsavmentes |
+| `cd398bc4056454e0b90ab7ad` | `Apenta+ Anti-Stress` gránátalma-acai-piros szőlő 750 ml, **az alma érték törölve és cukormentes → normál**, közvetlen Anti-Stress címkekép, acais, gránátalmás és szőlős, normál energiatartalom és enyhén szénsavas |
+| `212357cf27811d8b08651411` | `Apenta+ Boost` pink grapefruit 750 ml, közvetlen ZERO CUKOR/Pink Grapefruit címkekép, grapefruit-os, cukormentes és enyhén szénsavas, változatlan |
+| `7b16910fd5f04bcf26e184f5` | `Apenta+ Immuno` fehér barack 750 ml, **a barack érték őszibarackra és cukormentes → normál pontosítva**, közvetlen Fehér Barack címkekép, őszibarackos, normál energiatartalom és enyhén szénsavas |
+| `2299a7f4f5f74b9469fccaf7` | `Cappy Lemonade` citrom 1,25 l, közvetlen Tasty Lemon/Cappy Lemonade címkekép, citromos, normál energiatartalom és szénsavmentes, változatlan |
+| `8fd0124a3a68566f43588639` | `Cappy Ice Fruit Multivitamin` mangosztán 1,5 l, közvetlen Multivitamin címkekép, mangosztános, normál energiatartalom és szénsavmentes, változatlan |
+| `dae086f335cf9812ae14dc75` | `Cappy Ice Fruit` alma-körte-bodzavirág 1,5 l, közvetlen Apple Pear címkekép, almás, körtés és bodzás, normál energiatartalom és szénsavmentes, változatlan |
+| `93d880a90d64e3d6065784a8` | `Cappy Lemonade` citrom-eper 1,25 l, közvetlen Cukor nélkül/Citrom-Eper címkekép, citromos és epres, normál energiatartalom és szénsavmentes, változatlan |
+| `4295047b549be76d9685a584` | `Cappy Ice Fruit Multivitamin` mangosztán 500 ml, közvetlen Multivitamin címkekép, mangosztános, normál energiatartalom és szénsavmentes, változatlan |
+| `986b59f32c29e222cfd8c6ed` | `Olympos` sárgarépa-narancs 1,5 l, közvetlen Sárgarépa-Narancs palackkép, narancsos és sárgarépás, energiacsökkentett és szénsavmentes, változatlan |
+| `c9dca28d1484f69341a17dd9` | `Olympos Trópusi` 1,5 l, közvetlen Trópusi palackkép és egyező korábbi címkeellenőrzés, ananászos, banános, guavás, kaktuszos, kivis, licsis, lime-os, mangós, maracujás, narancsos, papajás és őszibarackos, normál energiatartalom és szénsavmentes, változatlan |
+| `bce7d9ce9a55c037317558ad` | `Olympos` alma-gránátalma-meggy 1,5 l, közvetlen Light címkekép, almás, gránátalmás és meggyes, energiacsökkentett és szénsavmentes, változatlan |
+| `d1ac569a789657957d5945bb` | `Olympos` alma-körte-szőlő 1,5 l, közvetlen Alma-Körte-Szőlő palackkép, almás, körtés és szőlős, energiacsökkentett és szénsavmentes, változatlan |
+| `724e5d8e69225a8057b3cd74` | `Olympos` mandarin 1,5 l, közvetlen Mandarin palackkép, mandarinos, energiacsökkentett és szénsavmentes, változatlan |
+| `666a2fffc429262ab5996ff0` | `Olympos Golden Alma` 1,5 l, közvetlen Golden Alma palackkép, almás, energiacsökkentett és szénsavmentes, változatlan |
+
+### Egyéb ízesített üdítőital kézi felülvizsgálat, 23. blokk
+
+- Az `Egyéb ízesített üdítőital` következő **25**, közvetlen termékképpel
+  rendelkező rekordját egyenként ellenőriztük. Három rekordnál négy, közvetlen
+  címkefelirattal bizonyítható íz- vagy energiaértéket javítottunk.
+- Módosított rekord: **3** (`ed33b1a4e9b7e45129632f35`,
+  `4e33916ebfa545137c9f6c62`, `56311c7b41d74dfbb633a811`).
+- Módosított tulajdonságmező: **4** (`normál → cukormentes`;
+  `íz: áfonya → vörösáfonya`; `íz: tea → zöld tea`; `íz: alma → törölve`).
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul hagyott rekord: **22**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `ab61cae12c2dd8bd8cc3dd30` | `SPAR` citrom-lime 0,5 l, közvetlen Citrom & Lime címkekép, citromos és lime-os, energiacsökkentett és szénsavmentes, változatlan |
+| `a51ae7d5d720fa8ed8374df6` | `Márka Mirror` citrom 1,5 l, közvetlen Citrom címkekép, citromos, cukormentes és szénsavmentes, változatlan |
+| `62b183581881f81a8428ee42` | `S-Budget` alma-körte 2 l, közvetlen Alma-Körte címkekép, almás és körtés, cukormentes és szénsavmentes, változatlan |
+| `dcf6ebc4e23668e09d75ec47` | `S-Budget` őszibarack 2 l, közvetlen Őszibarackos címkekép, őszibarackos, cukormentes és szénsavmentes, változatlan |
+| `be8f4a778cecf47eeae5c836` | `Cappy Ice Fruit` meggy 500 ml, közvetlen Meggy címkekép, meggyes, normál energiatartalom és szénsavmentes, változatlan |
+| `a74e96c3562cc842a02c6746` | `Cappy Ice Fruit Zero Sugar` mangó-maracuja 1,5 l, közvetlen Zero Sugar/Mangó-Maracuja címkekép, mangós és maracujás, cukormentes és szénsavmentes, változatlan |
+| `135c67811c0aca8d13dbe37c` | `Sió Limonádé` őszibarack-citrom-menta 1 l, közvetlen címkekép, őszibarackos, citromos és mentás, normál energiatartalom és szénsavmentes, változatlan |
+| `376bbc741803b29448a5aeee` | `Sió Limonádé` citrom-görögdinnye 1 l, közvetlen címkekép, citromos és görögdinnyés, normál energiatartalom és szénsavmentes, változatlan |
+| `72dacd2872d13b1d9315ed27` | `Cappy Ice Fruit` meggy 1,5 l, közvetlen Meggy címkekép, meggyes, normál energiatartalom és szénsavmentes, változatlan |
+| `d2ffdfc480dec3ddf76489f0` | `Márka Ice Tea` őszibarack 1,5 l, közvetlen Peach Ice Tea címkekép; az íz őszibarack, a tea összetevő nem elemi íz, normál energiatartalom és szénsavmentes, változatlan |
+| `06ac7f9d401f487037e3f573` | `Jana` szőlő-mirabella 1,5 l, közvetlen Grape Mirabelle címkekép, mirabellás és szőlős, energiacsökkentett és szénsavmentes, változatlan |
+| `2f1896e8d293999135871143` | `Jana` eper-guava 1,5 l, közvetlen Strawberry Guava címkekép, epres és guavás, energiacsökkentett és szénsavmentes, változatlan |
+| `c062aa23db2bd6e7c295e412` | `Apenta+ Power-C` narancs-pomelo 750 ml, közvetlen Narancs-Pomelo/Zero Cukor címkekép, narancsos és pomelós, cukormentes és szénsavmentes, változatlan |
+| `ed33b1a4e9b7e45129632f35` | `Apenta+ Relax` feketeribizli-vörösáfonya-hibiszkusz 750 ml, **az áfonya vörösáfonyára pontosítva és normál → cukormentes**, közvetlen ZERO CUKOR/Vörösáfonya címkekép, vörösáfonyás, feketeribizlis és hibiszkuszos, szénsavmentes |
+| `4e33916ebfa545137c9f6c62` | `Apenta+ Fit` mangó-citrom-zöld tea 750 ml, **a tea érték zöld teára pontosítva** a közvetlen címkefelirat alapján, citromos, mangós és zöldteás, cukormentes és szénsavmentes |
+| `56311c7b41d74dfbb633a811` | `Apenta+ Antiox` gránátalma-acai 750 ml, **az alma érték törölve**, közvetlen ZERO CUKOR/Gránátalma-Acai címkekép, acais és gránátalmás, cukormentes és szénsavmentes |
+| `051337cc32e49f5b5a79eb0d` | `SPAR` citrom-lime 1,5 l, közvetlen Citrom & Lime címkekép, citromos és lime-os, energiacsökkentett és szénsavmentes, változatlan |
+| `3c432cee460e8a55c2addc19` | `Jana` citrom-zöld limetta 1,5 l, közvetlen Lemon Lime címkekép, citromos és lime-os, energiacsökkentett és szénsavmentes, változatlan |
+| `4224519ff171b91587057a45` | `SPAR` szamóca 1,5 l, közvetlen Szamóca címkekép, a meglévő `eper` érték köznyelvi megfelelője, normál energiatartalom és szénsavmentes, változatlan |
+| `c66f1e0f132bc5f7b304e4ed` | `Apenta+ Active` sárkánygyümölcs-guava-hibiszkusz 750 ml, közvetlen címkekép, sárkánygyümölcsös, guavás és hibiszkuszos, cukormentes és szénsavmentes, változatlan |
+| `cecad62bdb4573ff1563096f` | `Sprite` citrom-lime 500 ml, közvetlen Citrom-Lime címkekép, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `74664953601664b94dcbecf9` | `Sprite` citrom-lime 1 l, közvetlen Citrom-Lime címkekép, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `c8a2b7ec467a04aa9c0af2ce` | `Sprite` citrom-lime 1,75 l, közvetlen Citrom-Lime címkekép, citromos és lime-os, normál energiatartalom és szénsavas, változatlan |
+| `4e9d09b33631fa33f63bc629` | `Sprite Zero` citrom-lime 1,75 l, közvetlen Zéró Cukor/Citrom-Lime címkekép, citromos és lime-os, cukormentes és szénsavas, változatlan |
+| `92479e4008d389e010814f93` | `Kinley Pink Aromatic Berry` 500 ml, közvetlen Pink Aromatic Berry címkekép, erdei gyümölcsös, normál energiatartalom és szénsavas, változatlan |
+
+### Bor és boralapú ital kézi felülvizsgálat, 24. blokk
+
+- A borág következő **25** rekordját egyenként ellenőriztük a teljes név,
+  forrásadat, jelenlegi tulajdonságok és a `kategorizalatlan_termekek.csv`
+  `local_image_paths` mezőjében megadott helyi termékkép alapján. A rekordok
+  közvetlen `eredmeny.json`-beli képmezője üres, de a helyi összehasonlító képek
+  mind megnyithatók voltak.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul helyes rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `38266:38269` | `Feind` Irsai Olivér száraz fehérbor 3 l, közvetlen Feind Irsai Olivér bag-in-box kép, száraz, fehér, Dunántúl, változatlan |
+| `38269:38272` | `Feind` Olaszrizling száraz fehérbor 3 l, közvetlen Feind Olaszrizling bag-in-box kép, száraz, fehér, Dunántúl, változatlan |
+| `411334:3948700` | `Feind` Sauvignon Blanc száraz fehérbor 3 l, közvetlen Feind Sauvignon Blanc bag-in-box kép, száraz, fehér, Dunántúl, változatlan |
+| `678332:4215722` | `Figula` Balatonszőlősi Sóskút Olaszrizling, közvetlen Figula/Sóskút palackkép, száraz fehérbor, Balaton-eredet, változatlan |
+| `680177:4217567` | `Evinor` Tokaji Aszú 4 puttonyos, közvetlen Tokaji Aszú palackkép, édes fehérbor, 4 puttonyos, Tokaj, változatlan |
+| `672962:4210352` | `Feind` Sauvignon Blanc 5 l, közvetlen Feind bag-in-box kép, a név és kép márka- és kiszerelés-értékei helyesek, változatlan |
+| `102738:3639939` | `Varga` Irsai Csendes Irsai Olivér 3 l, közvetlen Varga Irsai kép, száraz fehérbor, Balaton, változatlan |
+| `30823:30826` | `Feind Birtok Fehér` Balatonmelléki Cuvée 5 l, közvetlen Feind bag-in-box kép, száraz fehérbor, Balaton/Balatonmellék, változatlan |
+| `547626:4085016` | `Borbély` Kéknyelű Select, közvetlen Borbély Kéknyelű palackkép, fehérbor, Badacsony, változatlan |
+| `771252:4308642` | `Grand Tokaj` Tokaj Gloria 5 puttonyos Aszú, közvetlen Grand Tokaj palackkép, édes fehérbor, 5 puttonyos, Tokaj, változatlan |
+| `21883:21886` | `Varga` Jégbor, közvetlen Varga Jégbor palackkép, édes fehérbor, Badacsony, változatlan |
+| `680183:4217573` | `Evinor` Tokaji Aszú 5 puttonyos, közvetlen Tokaji Aszú palackkép, édes fehérbor, 5 puttonyos, Tokaj, változatlan |
+| `747356:4284746` | `Grand Tokaj Classic Selection` Tokaji Aszú 5 puttonyos, közvetlen Grand Tokaj palackkép, édes fehérbor, 5 puttonyos, Tokaj, változatlan |
+| `680186:4217576` | `Evinor` Tokaji Aszú 6 puttonyos, közvetlen Tokaji Aszú palackkép, édes fehérbor, 6 puttonyos, Tokaj, változatlan |
+| `764427:4301817` | `Babits` Tokaji Aszú 6 puttonyos, közvetlen Babits palackkép, édes fehérbor, 6 puttonyos, Tokaj, változatlan |
+| `45668:45740` | `Royal Tokaji` Tokaji Aszú 5 puttonyos, közvetlen Royal Tokaji palackkép, édes fehérbor, 5 puttonyos, Tokaj, változatlan |
+| `828704:4366094` | `Grand Tokaj` Millieu Tokaji 6 puttonyos Aszú, közvetlen Grand Tokaj/Millieu palackkép, édes fehérbor, 6 puttonyos, Tokaj, változatlan |
+| `747350:4284740` | `Grand Tokaj` Tokaji Aszú 5 puttonyos, közvetlen Grand Tokaj palackkép, édes fehérbor, 5 puttonyos, Tokaj, változatlan |
+| `57195:57534` | `Dobogó` Tokaji Aszú 6 puttonyos, közvetlen Dobogó palackkép, édes fehérbor, 6 puttonyos, Tokaj, változatlan |
+| `28012:28015` | `Ungvár Pince` Tokaji Furmint félédes fehérbor, közvetlen Tokaji Furmint palackkép, félédes fehérbor, Tokaj, változatlan |
+| `679316:4216706` | `Frittmann` Classic Irsai Olivér, közvetlen Frittmann palackkép, száraz fehérbor, Kunság, változatlan |
+| `679310:4216700` | `Frittmann` Art Kunsági Olívia Cuvée, közvetlen Frittmann palackkép, száraz fehérbor, Kunság, változatlan |
+| `680777:4218167` | `Pillangósvirágú` Töppedt Szürkebarát, közvetlen Pillangósvirágú palackkép, fehérbor, Badacsony, változatlan |
+| `712823:4250213` | `Dínom-Dánom` félédes rozébor 2 l, közvetlen Dínom-Dánom rozé palackkép, félédes rozé, változatlan |
+| `712406:4249796` | `Ostorosbor` klasszikus száraz rozé, közvetlen Rozé palackkép és Ostoros név a teljes forrásadatban, száraz rozé, Eger, változatlan |
+
+### Bor és boralapú ital kézi felülvizsgálat, 25. blokk
+
+- A borág következő **25** rekordját egyenként ellenőriztük a teljes név,
+  forrásadat, jelenlegi tulajdonságok és a CSV-ben megadott helyi
+  termékképek alapján. A képek mind megnyithatók voltak.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul helyes rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `713078:4250468` | `Ostorosbor` Egri Rozé classicus, közvetlen Ostoros Egri Rozé palackkép, száraz rozé, Eger, változatlan |
+| `712451:4249841` | `Ostorosbor` Felső-Magyarországi Rozé, közvetlen Ostoros Rozé Cuvée palackkép, félédes rozé, Felső-Magyarország, változatlan |
+| `684275:4221665` | `Teleki` Villányi Rosé Cuvée, közvetlen Teleki Rosé palackkép, száraz rozé, Villány, változatlan |
+| `33895:33898` | `Varga` Bubis Rozé, közvetlen Varga Bubis palackkép, gyöngyözőbor, száraz rozé, Balaton, változatlan |
+| `35500:35503` | `Varga` Csendes Rozé, közvetlen Varga Csendes palackkép, száraz rozé, Balaton, változatlan |
+| `31927:31930` | `Varga` Édes Bubis rozé, közvetlen Varga Édes Bubis palackkép, szénsavas édes rozé, Balaton, változatlan |
+| `27133:27136` | `Varga` félszáraz rozé tájbor, közvetlen Varga Rozé palackkép, félszáraz rozé, Balaton, változatlan |
+| `679244:4216634` | `Szabó Pince` Felső-Magyarországi Rosé Cuvée, közvetlen Szabó Pince Rosé Cuvée palackkép, édes rozé, Felső-Magyarország, változatlan |
+| `677432:4214822` | `Soltész` Édes Felső-Magyarországi Rozé Cuvée, közvetlen Soltész Édes Rosé Cuvée palackkép, édes rozé, Felső-Magyarország, változatlan |
+| `677381:4214771` | `Juhász` Felső-Magyarországi rosé gyöngyözőbor, közvetlen Juhász Rosé palackkép, gyöngyözőbor, száraz rozé, Felső-Magyarország, változatlan |
+| `828689:4366079` | `Paulus` GOLD Rosé, közvetlen Paulus Gold Rosé palackkép, rozé, Mór, változatlan |
+| `773382:4310772` | `Eszterbauer` Öröm Kékfrankos Rozé, közvetlen Eszterbauer palackkép, rozé, Szekszárd, változatlan |
+| `677438:4214828` | `Feind` Pinot Noir Rosé, közvetlen Feind Pinot Noir Rosé palackkép, rozé, Balatonfüred-Csopak, változatlan |
+| `674420:4211810` | `Garamvári` Rosé Gold, közvetlen Garamvári Rosé Gold palackkép, száraz rozé, Balatonboglár, változatlan |
+| `713105:4250495` | `Schieber` Fruska Rosé, közvetlen Schieber Fruska Rosé palackkép, száraz rozé, Szekszárd, változatlan |
+| `826562:4363952` | `Szeleshát` Szekszárdi Syrah Rozé, közvetlen Szeleshát Syrah Rozé palackkép, rozé, Szekszárd, változatlan |
+| `692921:4230311` | `Szende` Villányi Rosé, közvetlen Szende Rosé palackkép, rozé, Villány, változatlan |
+| `679322:4216712` | `Frittmann` Classic Kunsági Kékfrankos Rosé, közvetlen Frittmann Kékfrankos Rosé palackkép, száraz rozé, Kunság, változatlan |
+| `679529:4216919` | `Bujdosó` Mentőöv Balatonboglári Rozé, közvetlen Bujdosó Mentőöv palackkép, száraz rozé, Balaton/Balatonboglár, változatlan |
+| `677435:4214825` | `Feind` Cabernet Rosé, közvetlen Feind Cabernet Rosé palackkép, száraz rozé, Balatonfüred-Csopak, változatlan |
+| `588311:4125701` | `Pillangósvirágú` Rozé, közvetlen Pillangósvirágú palackkép, száraz rozé, változatlan |
+| `407913:3945264` | `La Fiesta` Party XXL Cabernet Sauvignon Rosé, közvetlen La Fiesta Party XXL palackkép, rozé, Duna-Tisza köze, változatlan |
+| `426133:3963514` | `La Fiesta` Édes Élmény Party XXL Cuvée, közvetlen La Fiesta Édes Élmény palackkép, édes rozé, Duna-Tisza köze, változatlan |
+| `677384:4214774` | `Hilltop` Neszmélyi Merlot Rosé, közvetlen Hilltop Merlot Rosé palackkép, száraz rozé, Neszmély, változatlan |
+| `458148:3995538` | `Varga` Bubis Édes Rozé, közvetlen Varga Édes Bubis palackkép, szénsavas édes rozé, Balaton, változatlan |
+
+### Bor és boralapú ital kézi felülvizsgálat, 26. blokk
+
+- A borág következő **25** rekordját egyenként ellenőriztük a teljes név,
+  forrásadat, jelenlegi tulajdonságok és a CSV-ben megadott helyi
+  termékképek alapján. A képek mind megnyithatók voltak.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul helyes rekord: **25**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosító | Kézi ellenőrzés eredménye |
+|---|---|
+| `411061:3948427` | `Varga` Bubis Rozé 1,5 l, közvetlen Varga Bubis palackkép, szénsavas száraz rozé, Balaton, változatlan |
+| `769440:4306830` | `Koch` Premium Cabernet Sauvignon Rosé, közvetlen Koch Cabernet Sauvignon Rosé palackkép, száraz rozé, Hajós-Baja, változatlan |
+| `693020:4230410` | `Bodri` Rozi Szekszárdi Rozé, közvetlen Bodri Rozi palackkép, száraz rozé, Szekszárd, változatlan |
+| `679523:4216913` | `Günzer Tamás` Villányi GT Rosé, közvetlen GT Rosé palackkép, száraz rozé, Villány, változatlan |
+| `677417:4214807` | `Bolyki` Rosé Cuvée, közvetlen Bolyki Rosé palackkép, száraz rozé, Eger, változatlan |
+| `677441:4214831` | `Nyakas` Rosé, közvetlen Nyakas Rosé palackkép, száraz rozé, Budai, változatlan |
+| `674402:4211792` | `Vylyan` Kakas Villányi Rozé Cuvée, közvetlen Vylyan Kakas palackkép, száraz rozé, Villány, változatlan |
+| `752163:4289553` | `Bock` Kupola Rosé, közvetlen Bock Kupola Rosé palackkép, száraz rozé, Villány, változatlan |
+| `677414:4214804` | `Laposa` Rosé, közvetlen Laposa Rosé palackkép, száraz rozé, Badacsony, változatlan |
+| `683576:4220966` | `Gere - Schubert` Rosé Cuvée, közvetlen Gere-Schubert Rosé Cuvée palackkép, száraz rozé, Villány, változatlan |
+| `684254:4221644` | `Vida Péter` Tündérrózsa, közvetlen Vida Tündérrózsa palackkép, rozé, Szekszárd, változatlan |
+| `847928:4385318` | `Winelife` Kékfrankos Rosé, közvetlen Winelife Kékfrankos Rosé palackkép, rozé, változatlan |
+| `675122:4212512` | `Bock` Pannon Rosé Cuvée, közvetlen Bock Pannon Rosé palackkép, száraz rozé, Pannon, változatlan |
+| `685139:4222529` | `Takler` Trió Rosé Cuvée, közvetlen Takler Trió palackkép, száraz rozé, Szekszárd, változatlan |
+| `677420:4214810` | `Etyeki Kúria` Rosé, közvetlen Etyeki Kúria Rosé palackkép, száraz rozé, Etyek-Buda, változatlan |
+| `683573:4220963` | `Gere Attila` Rosé Cuvée, közvetlen Gere Attila Rosé palackkép, száraz rozé, Villány, változatlan |
+| `693227:4230617` | `Gere Tamás & Zsolt` Villány Rosé, közvetlen Gere Tamás & Zsolt palackkép, száraz rozé, Villány, változatlan |
+| `677429:4214819` | `Ikon` Rosé, közvetlen Ikon Rosé palackkép, száraz rozé, Balatonboglár, változatlan |
+| `677378:4214768` | `Juhász` Egri Syrah Rosé, közvetlen Juhász Syrah Rosé palackkép, rozé, Eger, változatlan |
+| `675098:4212488` | `Jammertal` Grand Rose, közvetlen Jammertal Grand Rose palackkép, rozé, Villány, változatlan |
+| `771186:4308576` | `Sauska` Siller, közvetlen Sauska Siller palackkép, száraz rozé, Villány, változatlan |
+| `677423:4214813` | `Figula` Rosé Cuvée, közvetlen Figula Rosé palackkép, száraz rozé, Balatonfüred-Csopak, változatlan |
+| `677426:4214816` | `Günzer Tamás` Rosé Cuvée, közvetlen Günzer Rosé palackkép, száraz rozé, Villány, változatlan |
+| `764976:4302366` | `Sauska` Rosé Cuvée, közvetlen Sauska Rosé palackkép, száraz rozé, Villány, változatlan |
+| `685148:4222538` | `Pannonhalmi Főapátság` Tricollis Rosé, közvetlen Pannonhalmi Tricollis palackkép, száraz rozé, Pannonhalma, változatlan |
+
+### Bor és boralapú ital kézi felülvizsgálat, 27. blokk (659–758.)
+
+- A borág következő **100** rekordját egyenként ellenőriztük a teljes név,
+  forrásadat, jelenlegi tulajdonságok és a CSV-ben megadott helyi
+  termékképek alapján. A helyi képek mind megnyithatók és a névvel,
+  márkával, színnel, édességgel, eredettel, bortípussal és kiszereléssel
+  egyeztek.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul helyes rekord: **100**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosítók | Kézi ellenőrzés eredménye |
+|---|---|
+| `512574:4049964`, `783092:4320482`, `394240:3931540`, `58689:59028`, `41473:41476` | Frittmann, Mészáros Pál, BB, Ostorosbor és Font 3 literes rozé/bag-in-box termékek; közvetlen képek alapján változatlan |
+| `68753:3605834`, `502073:4039469`, `38272:38275`, `102741:3639942`, `30826:30829` | Szent István Korona, Sol Montis, Feind és Varga rozé termékek; közvetlen képek alapján változatlan |
+| `102750:3639951`, `1038641:4576031`, `101263:3638470`, `1000912:4538302`, `1000915:4538305` | Teleki, Dereszla, Sári és Regia rozé/vörös termékek; közvetlen képek alapján változatlan |
+| `954185:4491575`, `988880:4526270`, `712814:4250204`, `712391:4249781`, `712817:4250207` | La Fiesta, Dínom-Dánom és Auchan vörösborok; közvetlen képek alapján változatlan |
+| `712385:4249775`, `988241:4525631`, `827501:4364891`, `712751:4250141`, `712757:4250147` | Ostorosbor, Dankó, Lafi Hugo és Egri Korona; a Hugo ízei, szénsavassága és bortípusa korábbi bizonyított javítása változatlanul helyes |
+| `712442:4249832`, `712427:4249817`, `712448:4249838`, `684272:4221662`, `684269:4221659` | Ostorosbor és Teleki vörösborok; közvetlen címke alapján márka, fajtanév csak névben, szín és eredet változatlan |
+| `684266:4221656`, `684278:4221668`, `684281:4221671`, `27130:27133`, `27121:27124` | Teleki és Varga vörösborok; közvetlen képek alapján változatlan |
+| `27124:27127`, `27118:27121`, `679238:4216628`, `894575:4431965`, `679367:4216757` | Varga, Szabó Pince és BB vörösborok; közvetlen képek alapján változatlan |
+| `684290:4221680`, `712745:4250135`, `680102:4217492`, `679445:4216835`, `679451:4216841` | Egri Korona, Juhász és Teleki vörösborok; közvetlen képek alapján változatlan |
+| `679448:4216838`, `679442:4216832`, `633476:4170866`, `692918:4230308`, `678425:4215815` | Teleki, Szeleshát, Szende és Feind vörösborok; közvetlen képek alapján változatlan |
+| `132677:3669884`, `678428:4215818`, `687776:4225166`, `679895:4217285`, `679892:4217282` | La Fiesta, Feind, Schieber és Szent Gaál vörösborok; közvetlen képek alapján változatlan |
+| `679457:4216847`, `679454:4216844`, `458154:3995544`, `693017:4230407`, `693014:4230404` | Teleki és Varga vörösborok; közvetlen képek alapján változatlan |
+| `693008:4230398`, `679421:4216811`, `679424:4216814`, `712655:4250045`, `712658:4250048` | Varga, Mészáros Pál és Lajver vörösborok; közvetlen képek alapján változatlan |
+| `7870:7873`, `679427:4216817`, `713102:4250492`, `674405:4211795`, `674408:4211798` | Tiffán, Mészáros Pál, Schieber és Vylyan vörösborok; közvetlen képek alapján változatlan |
+| `756162:4293552`, `763455:4300845`, `14071:14074`, `693215:4230605`, `955118:4492508` | Bock, Szeleshát, Vida, Gere Tamás & Zsolt és Jammertal vörösborok; közvetlen képek alapján változatlan |
+| `680093:4217483`, `680105:4217495`, `680099:4217489`, `679430:4216820`, `10441:10444` | Juhász, Mészáros Pál és Thummerer vörösborok; közvetlen képek alapján változatlan |
+| `552435:4089825`, `847925:4385315`, `675119:4212509`, `762369:4299759`, `683570:4220960` | Thummerer, Winelife, Bock és Gere vörösborok; közvetlen képek alapján változatlan |
+| `693011:4230401`, `713777:4251167`, `680090:4217480`, `679418:4216808`, `946304:4483694` | Bodri, Ikon, Juhász és Mészáros Pál vörösborok; közvetlen képek alapján változatlan |
+| `693224:4230614`, `679511:4216901`, `144862:3682108`, `794021:4331411`, `675116:4212506` | Gere Tamás & Zsolt, Günzer, Petrényi, Takler és Bock vörösborok; közvetlen képek alapján változatlan |
+| `678314:4215704`, `827081:4364471`, `7801:7804`, `969449:4506839`, `990725:4528115` | Bolyki, Etyeki Kúria, Takler, Tiffán és Haraszthy vörösborok; közvetlen képek alapján változatlan |
+
+### Bor és boralapú ital kézi felülvizsgálat, 28. blokk (759–858.)
+
+- A borág következő **100** rekordját egyenként ellenőriztük a teljes név,
+  forrásadat, jelenlegi tulajdonságok és a CSV-ben megadott helyi
+  termékképek alapján. A képek a vörös-, fehér-, rozé-, Hugo-, gyümölcsbor-
+  és desszertbor-változatokkal egyeztek.
+- Módosított rekord: **0**.
+- Módosított tulajdonságmező: **0**.
+- Kézi kategória-átsorolás: **0**.
+- Változatlanul helyes rekord: **100**.
+- Új megengedett érték: **0**.
+- Törölt megengedett érték: **0**.
+- A blokk rekordjainak útvonal-, tulajdonság-, érték- és hash-paritási
+  ellenőrzése **0 hibával** zárult.
+
+| Termékazonosítók | Kézi ellenőrzés eredménye |
+|---|---|
+| `675113:4212503`, `754947:4292337`, `827702:4365092`, `752160:4289550`, `678317:4215707` | Bock, Sauska, Balla Kolna és Bolyki vörös/fehér borok; közvetlen képek alapján változatlan |
+| `685145:4222535`, `776079:4313469`, `8116:8119`, `783089:4320479`, `797561:4334951` | Pannonhalmi, Gere, Takler, Mészáros és Sol Montis borok; közvetlen képek alapján változatlan |
+| `40972:40975`, `37591:37594`, `502076:4039472`, `827705:4365095`, `827708:4365098` | Petrény, Etalon, Sol Montis és Balla Kolna vörösborok; közvetlen képek alapján változatlan |
+| `679412:4216802`, `679409:4216799`, `818993:4356383`, `101266:3638473`, `58578:58917` | Mészáros, Ostorosbor, Sári és Feind vörösborok; közvetlen képek alapján változatlan |
+| `38275:38278`, `795188:4332578`, `7156:7159`, `198323:3735563`, `102744:3639945` | Feind, Gál Tibor, Bock, La Fiesta és Varga borok; közvetlen képek alapján változatlan |
+| `764973:4302363`, `30829:30832`, `678986:4216376`, `975290:4512680`, `102747:3639948` | Gere, Feind, Eszterbauer, Sauska és Teleki vörösborok; közvetlen képek alapján változatlan |
+| `675092:4212482`, `963251:4500641`, `34237:34240`, `988199:4525589`, `954269:4491659` | Jammertal, St. Andrea, Bock, Takler és Gere vörösborok; közvetlen képek alapján változatlan |
+| `764526:4301916`, `545827:4083217`, `712433:4249823`, `12712:12715`, `679517:4216907` | Jammertal, Bock, Ostorosbor, Auchan Kedvenc és Günzer borok; közvetlen képek alapján változatlan |
+| `1010941:4548331`, `712802:4250192`, `712805:4250195`, `691157:4228547`, `691163:4228553` | Sauska és Lafi Hugo-változatok; a korábbi közvetlen kép- és forrásalapú Hugo, íz, szín és szénsavasság értékek változatlanok |
+| `712349:4249739`, `827504:4364894`, `691151:4228541`, `690770:4228160`, `690773:4228163` | Lafi Hugo/Lafi Fruit/Royal Hugo koktélok; közvetlen címkék és név alapján változatlan |
+| `691145:4228535`, `691154:4228544`, `691148:4228538`, `796232:4333622`, `796229:4333619` | Lafi Fruit és Ostorosbor Hugo Spritz-változatok; közvetlen képek alapján változatlan |
+| `796226:4333616`, `690764:4228154`, `690776:4228166`, `690761:4228151`, `683897:4221287` | Ostorosbor, Natara Hugo/Spritz és Mokos gyümölcsborok; közvetlen képek alapján változatlan |
+| `683900:4221290`, `683903:4221293`, `683906:4221296`, `754428:4291818`, `1000909:4538299` | Mokos, Lafi Fruit Puncs és Regia borok; közvetlen képek alapján változatlan |
+| `366770:3904049`, `759462:4296852`, `683894:4221284`, `718607:4255997`, `759027:4296417` | Mateus, Yealands, Villa Maria, Matua és Woodbridge fehérborok; közvetlen képek alapján változatlan |
+| `24430:24433`, `988238:4525628`, `828614:4366004`, `1000918:4538308`, `988265:4525655` | Pouilly-Fuissé, Dankó, Simonsig, Regia és Dankó borok; közvetlen képek alapján változatlan |
+| `23821:23824`, `547007:4084397`, `827648:4365038`, `849527:4386917`, `771123:4308513` | Mateus, Gris Sable, Stellenrust, Cuatro Rayas és Zonin borok; közvetlen képek alapján változatlan |
+| `849524:4386914`, `826811:4364201`, `1000885:4538275`, `849515:4386905`, `777645:4315035` | Cuatro Rayas, Vignobles Mourgues, Zonin, Faustino és Kaiken borok; közvetlen képek alapján változatlan |
+| `759006:4296396`, `796682:4334072`, `683882:4221272`, `683879:4221269`, `759024:4296414` | Tormaresca, Montes, Royal Oporto és Brazin borok; a portói likőrbor- és színértékek változatlanok |
+| `849530:4386920`, `24460:24463`, `439834:3977218`, `24418:24421`, `65615:3602696` | Malaga Virgen és francia Auchan/Pierre Chanau borok; közvetlen képek alapján változatlan |
+| `38053:38056`, `38074:38077`, `691142:4228532`, `685154:4222544`, `684473:4221863` | Saint-Émilion, Margaux, La Fiesta Sangria és Eiler Früchtegarten-változatok; közvetlen képek alapján változatlan |
+
+### Alkoholos ág – észrevétel-fájl szerinti sémafinomítás
+
+Az `ital_eszrevetelek3.txt` végleges pálinka- és sörszabályai alapján a már
+ellenőrzött alkoholos rekordokat és a fa megengedett értékeit összehangoltuk.
+
+- A `Pálinka` altípusba bekerült a `gyógynövényes` flag és az `egységnyi
+  kiszerelés` tulajdonság. Mind a **131** pálinkarekord megkapta a forrásból
+  igazolható egységnyi kiszerelést; gyógynövényes jelölést egyik név vagy
+  forrásadat sem igazolt, ezért ezek értéke `false`.
+- A `Sör, radler és malátaital` altípus megengedett `fajta` értékei közül
+  töröltük a `malátaital` értéket. A **24** érintett terméknél a fajtát a
+  kért `radler` értékre cseréltük; a többi sörfajta és a `szín` lista már nem
+  tartalmazott `rozé` értéket.
+- A módosított termékazonosítók: `907853`, `4606125`, `692987:4230377`,
+  `793838:4331228`, `793832:4331222`, `793829:4331219`, `793826:4331216`,
+  `692990:4230380`, `692960:4230350`, `2808669`, `BTY-X17748900320021`,
+  `BTY-X17669200320021`, `1057856`, `1057694`, `590ca717382931898390903a`,
+  `f15bea483e59a689fdbb750e`, `8484933dd0721a4570c9b649`,
+  `8f5972ecfad56429615a8b95`, `c06ef381184fa026ef380c2a`,
+  `fb7817582ea8a1b3e7eb9c8e`, `121300596`, `121300613`, `121300642`,
+  `121300688`.
+- Az érintett rekordok útvonal-, tulajdonság- és hash-ellenőrzése a fa
+  módosítása után **0 hibával** zárult.
+
+### Kávé és Tea – teljes altípusos kézi ellenőrzés
+
+Ebben a lezárt kézi körben a `Kávé` mind a **1 299**, a `Tea` mind a **771**
+rekordját külön ellenőriztük a név, a teljes forrásadat, a jelenlegi
+tulajdonságok és minden elérhető közvetlen termékkép alapján. A Kávé-ágban
+79, a Tea-ágban 54 helyi kép volt elérhető; mind a 133 képet megtekintettük.
+Kép nélküli maradt 1 220 Kávé- és 717 Tea-rekord, ezeknél csak név- vagy
+forrásadatból bizonyítható értéket módosítottunk.
+
+A tényleges javítások fő csoportjai:
+
+- Kávé: 16 intenzitásérték került a csomagoláson olvasható erősségre; 106
+  rekordnál töröltük az íz/fajta mezőből a márkaként vagy termékcsaládként
+  használt `omnia`/`karaván` értékeket. Egy Cagliari Gran Caffè képe a
+  mogyorós ízjegyet is közvetlenül igazolta.
+- Tea: a `gyerektea`, `garzon`, `classic label`, `világ teái`, `multivitamin`
+  és a részsztringből származó `citrom` értékeket eltávolítottuk, amikor a
+  név és a kép csak más termékleíró szót (például `citromfű`) igazolt. A
+  valódi citrom-, citromhéj- és citromízesítéses tételeket megtartottuk.
+  A vörös- és tőzegáfonya `vörösáfonya` értéket kapott, a képen/névben
+  igazolt Earl Grey teák pedig `bergamott` összetevőt; a gyümölcsös-
+  gyógynövényes teák `gyógytea` típusát csak a konkrét név vagy kép alapján
+  egészítettük ki.
+- A kézi audit során új kategóriát vagy új tulajdonságot nem vettünk fel.
+  Ebben a Kávé/Tea körben a kategóriafa egyetlen új értéke a Tea
+  `összetevő` → `vörösáfonya`; a Kávé `íz / fajta` ágból az `omnia` és
+  `karaván` érték törlése külön is dokumentálva van a fenti táblában. A
+  korábbi alkoholos és üdítőitalos sémajavítások ugyanebben a jelentésben
+  külön, kategóriánként szerepelnek.
+- Két Metro-forrásnévben a `CORN?R` kódolási hiba a közvetlen palackképen és
+  a `Corner Valdo` forrásmárkán ellenőrizve `CORNER` formára javult.
+
+Az érintett rekordoknál minden módosítás után újraszámoltuk a
+`kategoria_hash` értéket; a teljes Ital-célállományon végzett szerkezeti és
+hash-ellenőrzés hibamentes.
+
+### A teljes Ital-célállomány lezáró ellenőrzése
+
+Az előző naplózott blokkok után külön, egyenkénti lezáró ellenőrzést kapott
+`Jegestea` (**487** rekord; 86 helyi kép, 401 kép nélküli), `Szörp és
+koncentrátum` (**391** rekord; 80 helyi kép, 311 kép nélküli), valamint az
+`Egyéb ízesített üdítőital` fennmaradó **267** rekordja. A név, teljes
+forrásadat, jelenlegi tulajdonságok és a rendelkezésre álló termékképek
+összevetése ezeknél a blokkoknál nem igazolt új, biztonságosan végrehajtható
+kategória- vagy tulajdonságmódosítást.
+
+Az öt `Fanta Exotic`/`Sconto` rekordnál a közvetlen képek és a forrásnév a
+trópusi jellegű ízt megerősítették, de a meglévő fa nem tartalmaz erre pontos
+`íz` értéket; ezért a kézi ellenőrzést igénylő jelzőt változatlanul hagytuk,
+és nem vezettünk be bizonytalan új értéket. Ezzel mind a **12 455** Ital
+célrekord ellenőrzése lezárult.
 
 ## Új kategória- vagy tulajdonságjavaslatok
 

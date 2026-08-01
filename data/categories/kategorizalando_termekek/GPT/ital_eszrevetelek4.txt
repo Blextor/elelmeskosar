@@ -1,0 +1,15 @@
+Ásványvíz kiszerelés (nem multipack -> akkor egyenlő az egségkiszereléssel)
+Energiaitaloknál Az ízek estében nem értem a yotzu-t és a tayberry-t.
+Energiatialoknál kellene egy cukormentes flag/boolean tulajdonság is.
+A New Gen márka az energiaital vagy funkcionális?
+Szörpök esetében az édesítőszeres helyett cukormentes kéne az energiatartalomnál. (nem ugyan az, hanem az energiatartalomnál ez lenne a lényeg, hogy van, kevesebb vagy nincs benen cukor)
+    Ezt át kell nézni alaposan, mert a zero az a csökkentett, a cukormentes az meg a diabeteszes a Pölöskeinél pl.
+    Ezt követően a hozzáadott cukor nélkül tulajdonság értékként kerülne be az energiatartalom alá az édesítőszert tartalmaz (édesítőszeres) mellé.
+        Lehet direktben utánuk kell keresni akár az interneten is.
+A szörpöknél meg kéne keresni a higítási arányt és kitölteni ahol ismeretlen. (lehet nem a termékre van írva, hanem interneten kell megtalálni)
+Ízesített víz esetében nem kell a csomagolás tulajdonság,
+    A hozzáadott cukor nélkül-be nem mindegyi ktermék helyes, Kubu Waterr például nem, vizsgálni kéne a többit is.
+    55 olyan termék van, ami hozzáadott cukor nélküli, édesítőszert nem tartalmaz, de nem is energiamentes ennek ellenére.
+        Vizsgáld át a termékeket, hogy melyik hova tartozik és az energiatartalom tulajdonságot az értékeivel emeld át a szörpöktől, amit itt újonnan leírtam.
+
+Tejtermékeknél a tejdesszerteken belül a tejszelet altípusba bele kellene olvasztani a hűtött snack altípust.
