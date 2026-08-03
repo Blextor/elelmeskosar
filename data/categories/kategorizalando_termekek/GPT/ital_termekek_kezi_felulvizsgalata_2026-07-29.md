@@ -21316,3 +21316,45 @@ kategóriafát ezekkel nem bővítettük:
 - Hibás `kategoria_hash`: **0**.
 - Bor-terméken maradt `kávé` íz: **0**.
 - Validációs hibák: **0**.
+
+### `ital_eszrevetelek4.txt` szerinti javítások (2026-08-03)
+
+- **Ásványvíz:** a nem multipack rekordoknál az `egységnyi kiszerelés` a
+  `kiszerelés` értékével egyezik; a multipack rekordoknál megmaradt a külön
+  egységnyi érték és a `csomagolás=multipack`.
+- **Energiaital:** a `yuzu` és `tayberry` ízértékek nem törlendők: a Monster
+  Lando Norris termékleírása a yuzu-melon ízt, az Adrenalin termékkép pedig a
+  Tayberry Dragonfruit nevet igazolja. A cukormentes jelölés már létezett és
+  használatban volt; a New Gen tételeket a terméknév szerinti energiaital /
+  funkcionális ital felosztásban hagytuk.
+- **Szörp:** az energiaértékek szétválasztása megmaradt: `normál`,
+  `csökkentett`, `cukormentes`; az édesítőszer-jelölés külön tulajdonság. A
+  gyártói forrásból igazolható hígításokat kitöltöttük: Pölöskei Diab `1:6`,
+  Pölöskei Zero `1:8`, a többi Pölöskei `1:7`, Monin `1:8`, FruttaMax
+  Bubble12 `1:23`, Piroska Essencia `1:23`, a Piroska 0,7 l-es nem Fitt/XXL
+  termékei `1:8`. További **189** szörpre nem találtunk megbízható
+  termék-/gyártói arányt, ezért ezeknél nem találgattunk.
+- **Ízesített víz:** megszűnt a `csomagolás` és a régi energiaflag-ek használata,
+  minden rekord `energiatartalom` értéket kapott (`normál`, `csökkentett` vagy
+  `cukormentes`). A Kubu Waterrr termékek `hozzáadott cukor nélkül=false`
+  értéket kaptak a gyártói összetevőlista alapján.
+- **Gyümölcs- és zöldségitalok:** a Smoothie és püréital mind a **128**
+  rekordja `rostos=true`; a flag a szülő kategóriára került. A Nektárból a
+  mindenhol hamis `cukormentes` tulajdonság kikerült.
+- **Üdítőitalok:** a kézi ellenőrzési flag-ek kikerültek. A Fanta és Sconto
+  igazoltan `trópusi`, a Sapinca gyökértermékek `gyömbér`, a Multivitamin
+  tételek `multivitamin` ízt kaptak. A négy érintett egyéb tétel új
+  `Gyümölcsös üdítőital` altípusba került; a TESZTCIKK-nél ízértéket nem
+  találtunk ki.
+- **Kávé:** az egyetlen Illy kapszula kompatibilitása `Nespresso-kompatibilis`,
+  az `Illy Iperespresso` érték törölve.
+- **Bor:** a korábbi `csomagolás anyaga` helyett `csomagolás` van
+  (`palack`, `tasakos`, `doboz`, `ismeretlen`). A közvetlen képek alapján a
+  dobozos/csapos BIB tételek `tasakos` értéket kaptak; a végső megoszlás
+  **2034 palack / 71 tasakos / 11 doboz / 6 ismeretlen**.
+- **Tejdesszert:** a `Hűtött snack` altípus megszűnt; **28** rekord a
+  `Tejszelet` altípusba került, a képek alapján igazolható tej-/snackszelet
+  termékekként.
+
+Az Ital célállomány újraellenőrzése: **12 454 rekord, 0 sémahiba, 0
+`kategoria_hash` hiba**.

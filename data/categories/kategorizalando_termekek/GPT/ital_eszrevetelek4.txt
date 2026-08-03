@@ -10,6 +10,22 @@ A szörpöknél meg kéne keresni a higítási arányt és kitölteni ahol ismer
 Ízesített víz esetében nem kell a csomagolás tulajdonság,
     A hozzáadott cukor nélkül-be nem mindegyi ktermék helyes, Kubu Waterr például nem, vizsgálni kéne a többit is.
     55 olyan termék van, ami hozzáadott cukor nélküli, édesítőszert nem tartalmaz, de nem is energiamentes ennek ellenére.
-        Vizsgáld át a termékeket, hogy melyik hova tartozik és az energiatartalom tulajdonságot az értékeivel emeld át a szörpöktől, amit itt újonnan leírtam.
+        Vizsgáld át az összes ízesített vizet, hogy melyik hova tartozik energiatartalom szerint és az energiatartalom tulajdonságot az értékeivel emeld át a szörpöktől, amit itt újonnan leírtam.
+            A jelenlegi energiatartalommal kapcsolatos tulajdonságok helyére emeld be az energiatartalmat.
+A smoothiek és pürék altípus esetében fel kéne venni azt tulajdonságnak, hogy mindegyik rostos, mert a gyümölcsleveknél általános keresésnél nem akar kijönni.
+    Viszont ezt akkor kategória (gyümölcs és zöldségitalok) szintre kéne a rostos tulajdonságot emelni, nem altípus szintre.
+Üdítőitalokon belül:
+    Gyömbér-ben van egy tulajdonság, hogy kézi ellenőrzést igényel, azok a termékek legyenek gyömbér ízűek
+    Egyéb üdítők esetében kézi ellenőrzést igényel:
+        A Fanta kapjon trópusi gyömölcs ízt.
+        A gyökér az gyömbér legyen.
+        A többi meg gyümölcsös üdítő kategóriába tartozzon, ott lehet szintén trópusi és multivitamin íz.
+    Van egy Illy kapszulás kávé, ami Nespresso kompatibilis így törölhető az Illy.
+    A gyümölcslevek esetében nem kel la cukormentes, mert csak nem értéke van itt.
+    Borok esetében van a csomagolás anyaga, na ott a papír és az egyéb értékűeket kéne átvizsgálni.
+        Helyette a tasakos érték kellene. Ami nem palackos, hanem dobozból ilyen csapos tasakos, az legyen tasakos.
+
+        
+
 
 Tejtermékeknél a tejdesszerteken belül a tejszelet altípusba bele kellene olvasztani a hűtött snack altípust.

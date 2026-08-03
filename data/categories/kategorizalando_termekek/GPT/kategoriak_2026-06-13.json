@@ -62482,7 +62482,29 @@
               "1 l",
               "330 ml",
               "500 ml",
-              "750 ml"
+              "750 ml",
+              "0,75 l",
+              "1,1 l",
+              "1,6 l",
+              "10500 ml",
+              "12 l",
+              "12000 ml",
+              "19 l",
+              "2 l",
+              "2000 ml",
+              "250 ml",
+              "3000 ml",
+              "375 ml",
+              "3960 ml",
+              "4000 ml",
+              "5 l",
+              "6 l",
+              "600 ml",
+              "6000 ml",
+              "700 ml",
+              "7920 ml",
+              "9 l",
+              "9000 ml"
             ],
             "kiszerelés": [
               "0,75 l",
@@ -62588,8 +62610,6 @@
         "tulajdonságok": {
           "egyedi": {
             "édesítőszert tartalmaz": {},
-            "energiacsökkentett": {},
-            "energiamentes": {},
             "hozzáadott cukor nélkül": {},
             "kiszerelés": [
               "1,5 l",
@@ -62628,12 +62648,14 @@
               "szénsavas",
               "szénsavmentes"
             ],
-            "vitamint tartalmaz": {}
+            "vitamint tartalmaz": {},
+            "energiatartalom": [
+              "cukormentes",
+              "csökkentett",
+              "normál"
+            ]
           },
           "csoportos": {
-            "csomagolás": [
-              "palack"
-            ],
             "íz": [
               "acai",
               "áfonya",
@@ -63117,6 +63139,12 @@
                 "szénsavasság": [
                   "szénsavas",
                   "szénsavmentes"
+                ],
+                "csomagolás": [
+                  "palack",
+                  "tasakos",
+                  "doboz",
+                  "ismeretlen"
                 ]
               },
               "csoportos": {
@@ -63157,13 +63185,6 @@
                   "9%",
                   "9,5%",
                   "ismeretlen"
-                ],
-                "csomagolás anyaga": [
-                  "egyéb",
-                  "fém",
-                  "műanyag",
-                  "papír",
-                  "üveg"
                 ],
                 "édesség": [
                   "édes",
@@ -65367,7 +65388,6 @@
                   "cukormentes",
                   "normál"
                 ],
-                "íz kézi ellenőrzést igényel": {},
                 "márka": [
                   "Canada Dry",
                   "Chernel",
@@ -65482,7 +65502,6 @@
                   "energiacsökkentett",
                   "normál"
                 ],
-                "íz kézi ellenőrzést igényel": {},
                 "márka": [
                   "7Up",
                   "Absolute",
@@ -65616,7 +65635,32 @@
                   "vérnarancs",
                   "vörösáfonya",
                   "zöld tea",
-                  "zöldalma"
+                  "zöldalma",
+                  "trópusi"
+                ]
+              }
+            }
+          },
+          "Gyümölcsös üdítőital": {
+            "tulajdonságok": {
+              "egyedi": {
+                "energiatartalom": [
+                  "cukormentes",
+                  "energiacsökkentett",
+                  "normál"
+                ],
+                "márka": [
+                  "egyéb",
+                  "Sconto",
+                  "Soma",
+                  "Sweet & Fruit"
+                ],
+                "szénsavas": {}
+              },
+              "csoportos": {
+                "íz": [
+                  "multivitamin",
+                  "trópusi"
                 ]
               }
             }
@@ -65625,7 +65669,9 @@
       },
       "Gyümölcs- és zöldségitalok": {
         "tulajdonságok": {
-          "egyedi": {},
+          "egyedi": {
+            "rostos": {}
+          },
           "csoportos": {}
         },
         "altípusok": {
@@ -65675,8 +65721,7 @@
                   "TOMA",
                   "Topjoy",
                   "Univer"
-                ],
-                "rostos": {}
+                ]
               },
               "csoportos": {
                 "íz": [
@@ -65747,7 +65792,6 @@
           "Nektár": {
             "tulajdonságok": {
               "egyedi": {
-                "cukormentes": {},
                 "gyümölcstartalom": [
                   "25%",
                   "40%",
@@ -65774,8 +65818,7 @@
                   "TOMA",
                   "Topjoy",
                   "Verde"
-                ],
-                "rostos": {}
+                ]
               },
               "csoportos": {
                 "íz": [
@@ -65883,8 +65926,7 @@
                   "Traubisoda",
                   "Vitalade",
                   "Zuegg"
-                ],
-                "rostos": {}
+                ]
               },
               "csoportos": {
                 "íz": [
@@ -66154,7 +66196,6 @@
                 ],
                 "kapszula kompatibilitás": [
                   "Dolce Gusto",
-                  "Illy Iperespresso",
                   "Nespresso-kompatibilis",
                   "Nespresso Professional-kompatibilis",
                   "Tchibo Cafissimo"
@@ -66595,11 +66636,14 @@
                 "édesítőszert tartalmaz": {},
                 "energiatartalom": [
                   "csökkentett",
-                  "édesítőszeres",
+                  "cukormentes",
                   "normál"
                 ],
                 "hígítási arány": [
-                  "1:23"
+                  "1:23",
+                  "1:6",
+                  "1:7",
+                  "1:8"
                 ],
                 "hozzáadott cukor nélkül": {},
                 "márka": [
@@ -90277,7 +90321,8 @@
                   "105 g",
                   "140 g",
                   "120 g",
-                  "39 g"
+                  "39 g",
+                  "51 g"
                 ],
                 "márka": [
                   "Kinder",
@@ -90287,7 +90332,11 @@
                   "Milsani",
                   "Oreo",
                   "Pöttyös",
-                  "Zott"
+                  "Zott",
+                  "Baileys",
+                  "Dairy4Fun",
+                  "Maroni",
+                  "Minions"
                 ],
                 "zsírtartalom": [
                   "0%",
@@ -90318,7 +90367,13 @@
                   "sárgabarack",
                   "tej",
                   "tejcsokoládé",
-                  "natúr"
+                  "natúr",
+                  "baileys",
+                  "banán",
+                  "gesztenyés",
+                  "málna",
+                  "pisztácia",
+                  "mascarpone"
                 ]
               }
             }
@@ -90363,72 +90418,6 @@
                   "kávé",
                   "mousse",
                   "vanília"
-                ]
-              }
-            }
-          },
-          "Hűtött snack": {
-            "tulajdonságok": {
-              "egyedi": {
-                "bio": {},
-                "cukormentes / hozzáadott cukor nélkül": {},
-                "gluténmentes": {},
-                "ízesített": {},
-                "laktózmentes": {},
-                "protein / magas fehérje": {},
-                "kiszerelés": [
-                  "multipack",
-                  "29 g",
-                  "51 g",
-                  "27 g",
-                  "35 g",
-                  "30 g",
-                  "28 g",
-                  "140 g",
-                  "20 g"
-                ],
-                "márka": [
-                  "Baileys",
-                  "Dairy4Fun",
-                  "Kinder",
-                  "Maroni",
-                  "Minions",
-                  "Pöttyös",
-                  "Zott"
-                ],
-                "zsírtartalom": [
-                  "nem jelölt"
-                ]
-              },
-              "csoportos": {
-                "íz": [
-                  "baileys",
-                  "banán",
-                  "citrom",
-                  "csokoládé",
-                  "eper",
-                  "gesztenyés",
-                  "kakaó",
-                  "karamell",
-                  "málna",
-                  "mogyoró",
-                  "tej",
-                  "natúr",
-                  "őszibarack",
-                  "pisztácia",
-                  "mascarpone"
-                ],
-                "darabos / feltét": [
-                  "nincs"
-                ],
-                "dúsítás": [
-                  "nincs"
-                ],
-                "édesítés": [
-                  "nem jelölt"
-                ],
-                "hőkezelés": [
-                  "nem jelölt"
                 ]
               }
             }
