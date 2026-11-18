@@ -16,7 +16,7 @@ felépítésű `*_normalized_data_*.csv` fájlokba kerüljenek.
 - `Auchan/`: Auchan saját Nuxt/REST API alapú adatfolyam.
 - `Metro/`: Metro saját search/evaluate API alapú, élelmiszerre szűrt
   adatfolyam.
-- `Coop/`: CoopOnline WooCommerce Store API alapú, élelmiszerre szűrt
+- `Coop/`: CoopOnline nyilvános UNAS-katalógusára épülő, élelmiszerre szűrt
   adatfolyam.
 - `Coopshop/`: Coopshop (coopshop.hu) WooCommerce Store API alapú,
   élelmiszerre szűrt adatfolyam.

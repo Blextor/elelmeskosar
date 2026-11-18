@@ -14,4 +14,4 @@ for script in scripts:
     result = subprocess.run([sys.executable, *script])
     if result.returncode != 0:
         print(f"Hiba történt a(z) {' '.join(script)} futtatása közben.")
-        break
+        raise SystemExit(result.returncode)

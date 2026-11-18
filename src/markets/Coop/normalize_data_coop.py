@@ -204,6 +204,8 @@ def price_fields(row):
 
 
 def secondary_fee(row):
+    if clean_text(row.get("deposit_fee_huf")):
+        return to_float(row["deposit_fee_huf"])
     price_text = html_to_text(row.get("price_html"))
     match = re.search(r"\+\s*(\d+(?:[\s.,]\d+)?)\s*ft\s*visszav[aá]lt[aá]si\s+d[ií]j", price_text, re.I)
     if not match:

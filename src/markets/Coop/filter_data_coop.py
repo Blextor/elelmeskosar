@@ -57,6 +57,7 @@ important_columns = [
     "prices.currency_symbol",
     "prices.currency_minor_unit",
     "price_html",
+    "deposit_fee_huf",
     "average_rating",
     "review_count",
     "images",

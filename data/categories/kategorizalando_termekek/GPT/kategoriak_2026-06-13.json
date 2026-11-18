@@ -5925,8 +5925,15 @@
                   "Knorr",
                   "S-Budget",
                   "Condito",
-                  "Condito Original"
-                ]
+                  "Condito Original",
+                  "Forpro"
+                ],
+                "bio": {},
+                "csökkentett sótartalom": {},
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "fokhagyma nélkül": {},
+                "gluténmentes": {},
+                "light": {}
               },
               "csoportos": {
                 "ízesítés": [
@@ -5949,7 +5956,9 @@
                   "tzatziki salátaöntet",
                   "kapros salátaöntet",
                   "mézes-mustáros öntet",
-                  "Cézár dresszing"
+                  "Cézár dresszing",
+                  "near zero calorie cézár saláta szénhidrátmentes öntet",
+                  "near zero calorie 1000 sziget szénhidrátmentes salátaöntet"
                 ],
                 "íz": [
                   "cézár",
@@ -5962,7 +5971,9 @@
                   "Ezersziget",
                   "Cézár",
                   "tzatziki",
-                  "mézes-mustáros"
+                  "mézes-mustáros",
+                  "francia jellegű",
+                  "1000 sziget"
                 ],
                 "forma": [
                   "tasak",
@@ -5973,11 +5984,16 @@
                   "230 g",
                   "50 ml",
                   "340 g",
-                  "330 g"
+                  "330 g",
+                  "250 ml",
+                  "375 ml"
                 ],
                 "mentes": [
                   "gluténmentes"
-                ]
+                ],
+                "alap": [],
+                "csípősség": [],
+                "konyha / stílus": []
               }
             },
             "altípusok": {}
@@ -6940,8 +6956,32 @@
           },
           "Ajvár, zöldségkrém": {
             "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
+              "egyedi": {
+                "márka": [
+                  "Vénusz",
+                  "Podravka"
+                ],
+                "bio": {},
+                "csökkentett sótartalom": {},
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "fokhagyma nélkül": {},
+                "gluténmentes": {},
+                "kiszerelés": [
+                  "350 g"
+                ],
+                "light": {}
+              },
+              "csoportos": {
+                "alap": [
+                  "zöldség"
+                ],
+                "csípősség": [],
+                "konyha / stílus": [],
+                "íz": [
+                  "csemege",
+                  "csípős"
+                ]
+              }
             },
             "altípusok": {}
           },
@@ -7183,12 +7223,23 @@
                   "Koch's",
                   "Hellmann's",
                   "Heinz",
-                  "Maille"
+                  "Maille",
+                  "Forpro",
+                  "KOCH'S"
                 ],
                 "kiszerelés": [
                   "250 ml",
-                  "434 g"
-                ]
+                  "434 g",
+                  "230 g",
+                  "375 ml",
+                  "450 g"
+                ],
+                "bio": {},
+                "csökkentett sótartalom": {},
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "fokhagyma nélkül": {},
+                "gluténmentes": {},
+                "light": {}
               },
               "csoportos": {
                 "terméktípus": [
@@ -7197,7 +7248,9 @@
                   "hamburger szósz",
                   "ranch szósz",
                   "majonézes mustárszósz",
-                  "Burger szósz"
+                  "Burger szósz",
+                  "mustáros-kapros hamburger szósz",
+                  "near zero calorie amerikai burger szénhidrátmentes szósz"
                 ],
                 "íz": [
                   "burger",
@@ -7233,7 +7286,10 @@
                   "uborka",
                   "vöröshagyma",
                   "chili darabok"
-                ]
+                ],
+                "alap": [],
+                "csípősség": [],
+                "konyha / stílus": []
               }
             }
           },
@@ -7292,15 +7348,24 @@
                   "Tabasco Chipotle",
                   "Crying Thaiger",
                   "O'Food Original",
-                  "Forpro"
+                  "Forpro",
+                  "Kühne Made For Meat"
                 ],
                 "kiszerelés": [
                   "200 ml",
                   "60 ml",
                   "175 ml",
                   "300 g",
-                  "375 ml"
-                ]
+                  "375 ml",
+                  "265 g",
+                  "235 ml"
+                ],
+                "bio": {},
+                "csökkentett sótartalom": {},
+                "cukormentes / hozzáadott cukor nélkül": {},
+                "fokhagyma nélkül": {},
+                "gluténmentes": {},
+                "light": {}
               },
               "csoportos": {
                 "terméktípus": [
@@ -7325,7 +7390,8 @@
                   "Sriracha chiliszószos majonéz",
                   "csípős chiliszósz",
                   "koreai gochujang chiliszósz",
-                  "near zero calorie édes thai chili szénhidrátmentes szósz"
+                  "near zero calorie édes thai chili szénhidrátmentes szósz",
+                  "Sriracha csípős chili szósz"
                 ],
                 "íz": [
                   "marha",
@@ -7353,7 +7419,8 @@
                   "édes-pikáns",
                   "édes",
                   "csípős",
-                  "édes thai chili"
+                  "édes thai chili",
+                  "sriracha chili"
                 ],
                 "csípősség": [
                   "csípős",
@@ -7379,7 +7446,9 @@
                 "jellemzők": [
                   "szénhidrátmentes",
                   "alacsony kalóriatartalmú"
-                ]
+                ],
+                "alap": [],
+                "konyha / stílus": []
               }
             }
           },
@@ -7616,49 +7685,6 @@
               }
             }
           },
-          "Ajvár": {
-            "tulajdonságok": {
-              "egyedi": {
-                "csípős": {},
-                "márka": [
-                  "Podravka"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "ajvár",
-                  "csípős ajvár"
-                ],
-                "íz": [
-                  "csemege",
-                  "csípős"
-                ],
-                "forma": [
-                  "üveg"
-                ],
-                "jellemző": [
-                  "csípős"
-                ],
-                "kiszerelés": [
-                  "350 g"
-                ]
-              }
-            }
-          },
-          "Zöldségkrém": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Vénusz"
-                ]
-              },
-              "csoportos": {
-                "alap": [
-                  "zöldség"
-                ]
-              }
-            }
-          },
           "Vöröshagymakrém": {
             "tulajdonságok": {
               "egyedi": {
@@ -7745,59 +7771,6 @@
                 ],
                 "kiszerelés": [
                   "290 g"
-                ]
-              }
-            }
-          },
-          "Chiliszósz": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Univer",
-                  "Kühne Made For Meat"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "chili szósz",
-                  "Sriracha csípős chili szósz"
-                ],
-                "kiszerelés": [
-                  "265 g",
-                  "235 ml"
-                ],
-                "íz": [
-                  "chili",
-                  "sriracha chili"
-                ]
-              }
-            }
-          },
-          "Hamburger szósz": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Heinz",
-                  "Forpro",
-                  "KOCH'S"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "mustáros-kapros hamburger szósz",
-                  "near zero calorie amerikai burger szénhidrátmentes szósz",
-                  "Burger szósz"
-                ],
-                "kiszerelés": [
-                  "230 g",
-                  "375 ml",
-                  "450 g"
-                ],
-                "íz": [
-                  "mustáros-kapros"
-                ],
-                "cukor": [
-                  "szénhidrátmentes"
                 ]
               }
             }
@@ -7900,41 +7873,6 @@
                 ],
                 "alapanyag": [
                   "avokádó"
-                ]
-              }
-            }
-          },
-          "Salátaöntet": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Eisberg",
-                  "Forpro"
-                ],
-                "kiszerelés": [
-                  "50 ml",
-                  "250 ml",
-                  "375 ml"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "salátaöntet",
-                  "near zero calorie cézár saláta szénhidrátmentes öntet",
-                  "near zero calorie 1000 sziget szénhidrátmentes salátaöntet"
-                ],
-                "íz": [
-                  "ezersziget",
-                  "francia jellegű",
-                  "fokhagymás",
-                  "Cézár",
-                  "joghurtos",
-                  "cézár",
-                  "1000 sziget"
-                ],
-                "jellemzők": [
-                  "szénhidrátmentes",
-                  "alacsony kalóriatartalmú"
                 ]
               }
             }

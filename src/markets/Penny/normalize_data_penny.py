@@ -341,7 +341,8 @@ def image_urls(row):
                     value = clean_text(item)
                     if value and value not in values:
                         values.append(value)
-    return ";".join(values)
+    # A Roksh üres képazonosítónál csak a képméret mappájának URL-jét küldi.
+    return ";".join(url for url in values if not url.endswith(("/interface/large/", "/interface/medium/", "/interface/thumbnail/")))
 
 
 def product_description(row):

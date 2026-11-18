@@ -1,0 +1,56 @@
+﻿store,store_product_id,product_name,available,unit_price,issue,normalized_file
+lidl,11031241,DELUXE Tiramisu,True,,missing,lidl_normalized_data_20261118_190834.csv
+metro,BTY-X6658500320021,"Friss Sertés Karaj Csont + Szűzpecsenye, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X11238300320021,"Friss Sertés Bőrös Első Csülök, Csont nélkül",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X6376200320021,"Friss Sertés Vese, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X6377300320021,"Friss Sertés Szív, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X6370900320021,Friss Sertés Hátszalonna Bőr Nélkül,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X14342500320021,Friss Sertés Velő 500 g,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X6658700320021,"Friss Bőrös Sertés Karaj, Csont Nélkül, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X6659900320021,"Friss Sertés Apróhús 70%, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X6821200320021,"Friss Sertésoldalas egész, Csontvég nélküli, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X11441900320021,Kometa szeletelt sertéskaraj csont nélkül 400 g,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X11442000320021,Kometa Szeletelt Sertéstarja Csont Nélkül 600 g,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X14659700320021,Friss Sertés Karajborda Zsákban,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X150800320021,"Friss Malac Első lapocka, Bőrös, Csontos",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X151500320021,Friss Malac Hátsó Sonka Csontos,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X16551400320021,Udvarház Friss Sertés Darálthús 85/15 400 g,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X18475700320021,"Sertéscomb kockázott gulyáshús, vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X18476000320021,"Sertés lapocka kockázott gulyáshús, vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X19155000320021,Vákuumcsomagolt Sertéskaraj Szelet 100 g,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X19155700320021,Vákuumcsomagolt Sertéstarja Szelet 140 g,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X6356200320021,Friss Sertéscomb Csont nélkül Vacuumcsomagolásban,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X6365400320021,"Friss Bőrős Sertéscomb, Darabolt, Csont nélkül",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X6365700320021,"Friss Sertés Lapocka, Csont nélkül, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X6367000320021,Friss Bőrös Sertés Lapocka Csonttal Vacuumcsomagolt,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X6367800320021,"Friss Sertés Karaj, Csont nélkül, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X6370400320021,"Friss Sertés Császárvég, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X15873600320021,METRO Chef Ír Marha Short Ribs,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X12650500320021,"METRO Prémium Friss Marhahús Argentin Rostélyos 1,6-3 kg",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X12650300320021,METRO Prémium Friss Argentín Marha Hátszín,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X11167500320021,METRO Chef Friss Érlelt Ír Marha Vesepecsenye Érlelt,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X2160800320021,"Friss Marha Lábszár, Csont nélkül Vákuumcsomagolásban",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X11168000320021,METRO Chef Friss Érlelt Ír Marha Gömbölyű Felsál,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X12650100320021,METRO Prémium friss marhahús fartő Argentin,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X15488300320021,METRO Chef Ír Marha Tomahawk Steak,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X15997500320021,METRO Prémium friss Marha Vesepecsenye Argentin,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X19016100320021,Friss Ír Marha T-Bone Steak 550-650 g,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X16349400320021,"Friss Marha Comb Darabolt, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X1842200320021,Udvarház Friss Marha Darálthús Védőgázos 400 g,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X1839100320021,Udvarház Friss Sertés-Marha Darált Mix Védőgázos 400 g,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X4798700320021,Friss Marha Húsos Csont Tasak,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X5226100320021,Friss Marha Színhús 95% Vákuumcsomagolt,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X16066100320021,Angus Marha Tatár Beefsteak Skin 350 g,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X4797000320021,"Friss Marha Lábszár, Csont nélkül, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X16348900320021,"Friss Marha Lapocka Darabolt, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X4796600320021,"Friss Marha Gömbölyű Felsál, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X17549200320021,Hamburger húspogácsa 70/30 1 kg,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X4796700320021,"Friss Marha Fartő, Vákuumcsomagolt",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X12651200320021,Friss Marha Fehérpecsenye Vákuumcsomagolt EU,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X14590600320021,"Friss Marha Apróhús, Vákuumcsomagolt 80/20",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X14479000320021,Friss Marhapacal Tálcás 900 g,True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X17004100320021,"Friss Marha Nudli, EU",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X19222300320021,"Bernard cseh világos sör 5% Díszdobozban, pohárral 7 x 500 ml",True,,missing,metro_normalized_data_20261118_191218.csv
+metro,BTY-X19226600320021,Primátor Premium Cseh Világos Lager Sör 5% Díszdobozban 8 x 500 ml,True,,missing,metro_normalized_data_20261118_191218.csv
+spar,fb6c4dae2b614a13a6d96d04,ÁRrésSTOP,False,0.0,nonpositive,spar_normalized_data_20261118_191706.csv
+tesco,220168286,Lindt Lindor vegyes tej- és fehércsokoládé pralinék lágy töltelékkel 337 g,True,,missing,tesco_normalized_data_20261118_191247.csv

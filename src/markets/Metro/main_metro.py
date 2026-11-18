@@ -14,4 +14,4 @@ for command in commands:
     result = subprocess.run([sys.executable, *command])
     if result.returncode != 0:
         print(f"Hiba tortent a(z) {' '.join(command)} futtatasa kozben.")
-        break
+        raise SystemExit(result.returncode)

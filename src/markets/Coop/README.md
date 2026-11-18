@@ -1,7 +1,7 @@
 # Coop
 
-CoopOnline saját WooCommerce Store API alapú adatfolyam a
-`cooponline.hu/termekeink/` katalógushoz.
+A CoopOnline nyilvános UNAS-katalógusának letöltője a
+`https://www.cooponline.hu/sct/0/` kategórialistához.
 
 ## Szerepe
 
@@ -11,16 +11,21 @@ le, szűri és alakítja át a többi bolt által is használt közös
 
 ## Fontos eltérések
 
-- A CoopOnline WordPress/WooCommerce alapú oldal.
-- A kategóriák a `wp-json/wc/store/v1/products/categories` végpontról jönnek.
-- A termékek a `wp-json/wc/store/v1/products` végpontról kérhetők le
-  `category`, `per_page` és `page` paraméterekkel.
-- Nincs egyetlen közös `élelmiszer` gyökér. Az alapértelmezett letöltés több
-  élelmiszer jellegű root kategóriát kér le, majd WooCommerce `id` alapján
-  deduplikál.
-- A termék API-ban a `sku` vegyes: néhány terméknél valódi GTIN/EAN, máshol
-  Coop belső cikkszámnak tűnik. A normalizáló csak akkor tölti a `barcode`
-  mezőt, ha az SKU 8, 12, 13 vagy 14 jegyű és a GTIN checksum is érvényes.
+- A letöltő a kiválasztott főkategóriák alkategóriáit és a terméklisták
+  következő oldalra mutató hivatkozásait járja be.
+- A termékkártyáról olvassa a nevet, a cikkszámot, a vételárat, az áthúzott
+  árat, a készletjelzést és a képet. Az ugyanazon cikkszámon több kategóriában
+  szereplő termék egy sorba kerül, az összes megtalált kategóriaútvonallal.
+- A `--product-details` kapcsolóval a letöltő az egyedi termékoldalakat is
+  bejárja, ami cikkszámonként egy további lekérés. A strukturált termékadatokat a
+  nyers CSV `product_schema` mezője őrzi meg. A feltüntetett visszaváltási
+  díjat a `deposit_fee_huf` oszlop tartalmazza, és a normalizált CSV-ben
+  külön tételként szerepel. A közölt termékleírás és márka is átkerül.
+- A `store_product_id` értéke `unas:<cikkszám>`. A korábbi WooCommerce
+  termékazonosítóktól eltér. A két forrás nyers fájljaiban a `sku` oszlop
+  használható a közös cikkszámok azonosítására.
+- A korábbi WooCommerce adatfolyam egy explicit `--api-base URL` paraméterrel
+  futtatható kompatibilis forráson. A történeti CSV-k továbbra is feldolgozhatók.
 
 ## Alapértelmezett élelmiszer kategóriák
 
@@ -32,13 +37,10 @@ A `get_all_data_coop.py` alapból ezeket a root kategória slugokat tölti:
 - `tartos-elelmiszer`
 - `teszta`
 - `sutes-fozes`
-- `sajtok-vajak-margarinok`
-- `szalamik-kolbaszok`
 - `zoldseg-gyumolcs-tojas`
 - `fuszer`
 - `kenyer-peksutemeny`
 - `egeszseges-eletmod`
-- `teak-es-mezek`
 
 Más kategórialista a `--root-slugs` paraméterrel adható meg vesszővel
 elválasztva.
@@ -51,19 +53,18 @@ terméknév parser kezeli a gramm, kilogramm, milliliter, liter, centiliter és
 darab jelöléseket, valamint a `kapsz.`, `tabl.`, `tabletta` és `tasak`
 darabszámokat is.
 
-Az aktuális ár a WooCommerce `prices.price` mezőből jön. Ha a termék akciós,
+Az aktuális ár a nyers CSV `prices.price` mezőjéből jön. Ha a termék akciós,
 és a `regular_price` nagyobb az aktuális árnál, akkor az eredeti ár az
 `original_unit_price` mezőbe kerül.
 
-A visszaváltási díj a Coop `price_html` mezőjében jelenik meg, például
+A korábbi WooCommerce-forrásban a visszaváltási díj a `price_html` mezőben jelenik meg, például
 `+ 50Ft VISSZAVÁLTÁSI DÍJ PET`. Ez a közös séma `secondary_unit_price`,
 `secondary_unit_type = db`, `secondary_unit_step = 1` mezőibe kerül.
 
 ## Fájlok
 
 - `main_coop.py`: a teljes Coop folyamat belépési pontja.
-- `get_all_data_coop.py`: kategóriák és termékek letöltése WooCommerce Store
-  API-ból.
+- `get_all_data_coop.py`: kategóriák és termékek letöltése a katalógusból.
 - `filter_data_coop.py`: a nyers Coop CSV fontosabb oszlopainak megtartása.
 - `normalize_data_coop.py`: Coop mezők átalakítása a közös 18 oszlopos
   `*_normalized_data_*.csv` sémára.
@@ -76,7 +77,7 @@ A szkriptek a `data/markets_data/` mappába írnak:
 
 - `coop_categories_*.csv`: friss Coop élelmiszer kategóriafa.
 - `coop_all_data_*.csv`: nyers, deduplikált Coop termékadatok.
-- `coop_failed_requests_*.csv`: sikertelen kategórialekérések.
+- `coop_failed_requests_*.csv`: sikertelen kategória- és termékoldal-lekérések.
 - `coop_filtered_data_*.csv`: lényegesebb nyers oszlopokra szűkített CSV.
 - `coop_normalized_data_*.csv`: a többi bolttal azonos közös kimeneti séma.
 
@@ -84,6 +85,7 @@ A szkriptek a `data/markets_data/` mappába írnak:
 
 ```powershell
 cd src\markets\Coop
+python -m pip install requests pandas beautifulsoup4
 python main_coop.py
 ```
 

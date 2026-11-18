@@ -7,6 +7,7 @@ import re
 import time
 from collections import defaultdict
 from datetime import datetime
+from urllib.parse import urljoin, urlsplit
 
 import requests
 
@@ -14,8 +15,7 @@ import requests
 MAIN_FOLDER = "./../../../data/markets_data/"
 MARKET_NAME = "coop"
 DEFAULT_CATEGORY_FILE = "kategoriak.txt"
-DEFAULT_API_BASE = "https://cooponline.hu/wp-json/wc/store/v1"
-DEFAULT_REFERER = "https://cooponline.hu/termekeink/"
+DEFAULT_REFERER = "https://www.cooponline.hu/sct/0/"
 DEFAULT_PER_PAGE = 100
 DEFAULT_FOOD_ROOT_SLUGS = [
     "ital",
@@ -24,14 +24,12 @@ DEFAULT_FOOD_ROOT_SLUGS = [
     "tartos-elelmiszer",
     "teszta",
     "sutes-fozes",
-    "sajtok-vajak-margarinok",
-    "szalamik-kolbaszok",
     "zoldseg-gyumolcs-tojas",
     "fuszer",
     "kenyer-peksutemeny",
     "egeszseges-eletmod",
-    "teak-es-mezek",
 ]
+LEGACY_FOOD_ROOT_SLUGS = DEFAULT_FOOD_ROOT_SLUGS + ["sajtok-vajak-margarinok", "szalamik-kolbaszok", "teak-es-mezek"]
 RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
 
 
@@ -49,27 +47,27 @@ def generate_filename(y_base, extension=".csv"):
     return f"{MAIN_FOLDER}{x}_{y_base}_{now}{extension}"
 
 
-def request_headers():
+def request_headers(accept="application/json"):
     return {
         "User-Agent": "Mozilla/5.0",
-        "Accept": "application/json",
+        "Accept": accept,
         "Referer": DEFAULT_REFERER,
     }
 
 
-def get_with_retries(session, url, params=None, retries=3, retry_delay=2):
+def get_with_retries(session, url, params=None, retries=3, retry_delay=2, accept="application/json"):
     last_error = None
     for attempt in range(1, retries + 1):
         retry_after = None
         try:
-            response = session.get(url, params=params, headers=request_headers(), timeout=60)
+            response = session.get(url, params=params, headers=request_headers(accept), timeout=60)
             response.encoding = "utf-8"
             if response.status_code == 200:
                 return response
             if response.status_code not in RETRYABLE_STATUS_CODES:
                 response.raise_for_status()
             retry_after = response.headers.get("Retry-After")
-            last_error = requests.HTTPError(f"HTTP {response.status_code}: {response.url}")
+            last_error = requests.HTTPError(f"HTTP {response.status_code}: {response.url}", response=response)
         except requests.HTTPError as error:
             status_code = error.response.status_code if error.response is not None else None
             if status_code not in RETRYABLE_STATUS_CODES:
@@ -96,7 +94,7 @@ def get_json_with_retries(session, url, params=None, retries=3, retry_delay=2):
 
 def parse_root_slugs(value):
     if not value:
-        return DEFAULT_FOOD_ROOT_SLUGS
+        return LEGACY_FOOD_ROOT_SLUGS
     return [clean_text(item) for item in value.split(",") if clean_text(item)]
 
 
@@ -348,11 +346,190 @@ def write_failed(path, failed_rows):
         writer.writerows(failed_rows)
 
 
+def shop_categories(page):
+    return {
+        link["href"]: clean_text(link.select_one(".category-card__name").get_text())
+        for link in page.select("a.category-card__inner[href]")
+    }
+
+
+def listed_product_count(page):
+    count = page.select_one(".product-num")
+    if count is None:
+        return None
+    digits = "".join(re.findall(r"\d+", count.get_text()))
+    return int(digits) if digits else None
+
+
+def shop_product(card):
+    sku = clean_text(card.get("data-sku"))
+    link = card.select_one(".product__name-link[href]")
+    base = card.select_one(".product__price-base .price-gross")
+    sale = card.select_one(".product__price-sale .price-gross")
+    stock = card.select_one(".product__stock")
+    if not sku or not link or not base or stock is None:
+        raise ValueError(f"Hiányos CoopOnline termékkártya: {sku!r}")
+
+    def price(element):
+        amount = "".join(element.get_text().split()).replace(",", ".")
+        if not re.fullmatch(r"\d+(?:\.\d+)?", amount):
+            raise ValueError(f"Érvénytelen CoopOnline ár: {sku}, {amount!r}")
+        return amount
+
+    image = card.select_one("img.product__img[src]")
+    return {
+        "id": f"unas:{sku}",
+        "sku": sku,
+        "name": clean_text(link.get_text()),
+        "permalink": link["href"],
+        "prices.price": price(sale or base),
+        "prices.regular_price": price(base),
+        "prices.sale_price": price(sale) if sale else "",
+        "prices.currency_code": "HUF",
+        "prices.currency_minor_unit": 0,
+        "on_sale": bool(sale),
+        "is_in_stock": "on-stock" in stock.get("class", []),
+        "stock_availability.text": clean_text(stock.get_text(" ", strip=True)),
+        "images": json_value([{"src": image["src"]}] if image else []),
+    }
+
+
+def read_shop_details(session, product, args):
+    from bs4 import BeautifulSoup, SoupStrainer
+
+    url = product["permalink"]
+    if urlsplit(url).netloc != urlsplit(DEFAULT_REFERER).netloc:
+        raise ValueError(f"Váratlan CoopOnline termékoldal: {url}")
+    response = get_with_retries(session, url, retries=args.retries, retry_delay=args.retry_delay, accept="text/html")
+    page = BeautifulSoup(response.text, "html.parser", parse_only=SoupStrainer(["script", "label"]))
+    for script in page.select('script[type="application/ld+json"]'):
+        data = json.loads(script.get_text())
+        if isinstance(data, dict) and data.get("@type") == "Product" and str(data.get("sku")) == product["sku"]:
+            product["product_schema"] = json_value(data)
+            product["short_description"] = data.get("description", "")
+            product["brands"] = json_value([data["brand"]]) if data.get("brand") else ""
+            break
+    else:
+        raise ValueError(f"A termékoldal nem tartalmazza a várt cikkszámot: {url}")
+    for service in page.select(".plus-service__name"):
+        if "visszaváltási díj" in clean_text(service.get_text(" ")).lower():
+            amount = service.select_one(".plus-service__price")
+            match = re.search(r"\+\s*([\d\s]+(?:[.,]\d+)?)\s*Ft\s*/\s*db", amount.get_text(" ") if amount else "", re.I)
+            if not match:
+                raise ValueError(f"Ismeretlen visszaváltásidíj-formátum: {url}")
+            product["deposit_fee_huf"] = "".join(match[1].split()).replace(",", ".")
+            break
+
+
+def enrich_shop_products(products, args):
+    errors = []
+    with requests.Session() as session:
+        for index, product in enumerate(products, start=1):
+            try:
+                read_shop_details(session, product, args)
+            except (requests.RequestException, ValueError) as error:
+                if not args.allow_partial_download:
+                    raise
+                message = str(error)
+                response = getattr(error, "response", None)
+                interrupted = isinstance(error, (requests.Timeout, requests.ConnectionError)) or (
+                    response is not None and response.status_code in {403, 429, 503}
+                )
+                if interrupted:
+                    message += f" ({len(products) - index} további termékoldal feldolgozása elmaradt)"
+                errors.append({"category_path": product["permalink"], "error": message})
+                if interrupted:
+                    break
+            if index % 100 == 0:
+                print(f"Coop termékoldalak: {index}/{len(products)}", flush=True)
+    return errors
+
+
+def fetch_storefront(session, args):
+    from bs4 import BeautifulSoup
+
+    def read_page(url):
+        if urlsplit(url).netloc != urlsplit(DEFAULT_REFERER).netloc:
+            raise ValueError(f"Váratlan CoopOnline hivatkozás: {url}")
+        response = get_with_retries(session, url, retries=args.retries, retry_delay=args.retry_delay, accept="text/html")
+        return BeautifulSoup(response.text, "html.parser")
+
+    roots = shop_categories(read_page(DEFAULT_REFERER))
+    wanted = set(parse_root_slugs(args.root_slugs) if args.root_slugs else DEFAULT_FOOD_ROOT_SLUGS)
+    roots = [(url, name) for url, name in roots.items() if urlsplit(url).path.strip("/").lower() in wanted]
+    found = {urlsplit(url).path.strip("/").lower() for url, _ in roots}
+    if found != wanted:
+        raise ValueError(f"Hiányzó CoopOnline főkategóriák: {sorted(wanted - found)}")
+    categories, products, failures = [], {}, []
+    seen_categories = set()
+
+    def visit(url, names, ids):
+        if url in seen_categories:
+            return
+        seen_categories.add(url)
+        slug = urlsplit(url).path.strip("/").lower()
+        path = " > ".join(names)
+        page = read_page(url)
+        children = shop_categories(page)
+        expected = listed_product_count(page)
+        row = {
+            "index": len(categories), "id": slug, "name": names[-1], "slug": slug,
+            "parent_id": ids[-1] if ids else "", "child_count": len(children),
+            "is_leaf": not children, "is_fetch_root": not ids, "path": path,
+            "path_ids": "|".join([*ids, slug]), "permalink": url, "count": 0,
+        }
+        categories.append(row)
+        visited_pages = {url}
+        category_skus = set()
+        while True:
+            cards = page.select("#page_artlist_content .js-product")
+            if not children and not cards:
+                empty = page.select_one(".alert.no-product, .page_artlist_no_product, .no-products")
+                if not empty and "nincs termék" not in page.get_text(" ", strip=True).lower():
+                    raise ValueError(f"Ismeretlen vagy üres CoopOnline lista: {url}")
+            for card in cards:
+                item = shop_product(card)
+                category_skus.add(item["sku"])
+                current = products.setdefault(item["id"], item)
+                current.setdefault("paths", set()).add(path)
+                row["count"] += 1
+            next_page = page.select_one('link[rel~=next][href]')
+            if not next_page or (args.page_limit and len(visited_pages) >= args.page_limit):
+                break
+            next_url = urljoin(url, next_page["href"])
+            if next_url in visited_pages:
+                raise ValueError(f"Ismétlődő CoopOnline lap: {next_url}")
+            visited_pages.add(next_url)
+            time.sleep(args.page_delay)
+            page = read_page(next_url)
+        if not args.page_limit and expected is not None and len(category_skus) != expected:
+            raise ValueError(f"{path}: {expected} jelzett termékből {len(category_skus)} különböző cikkszám érkezett.")
+        print(f"{path}: {row['count']} termék, {len(visited_pages)} oldal", flush=True)
+        for child_url, name in children.items():
+            visit(child_url, [*names, name], [*ids, slug])
+
+    for url, name in roots[:args.category_limit]:
+        try:
+            visit(url, [name], [])
+        except (requests.RequestException, ValueError) as error:
+            if not args.allow_partial_download:
+                raise
+            failures.append({"category_id": url, "category_name": name, "category_path": name, "error": str(error)})
+        time.sleep(args.category_delay)
+    if not products:
+        raise ValueError("A CoopOnline katalógusból egyetlen termék sem érkezett.")
+    for product in products.values():
+        product["product_category_paths"] = json_value(sorted(product.pop("paths")))
+    save_categories(categories, args.category_file)
+    return list(products.values()), failures
+
+
 def parse_args():
-    parser = argparse.ArgumentParser(description="CoopOnline élelmiszer termékek letöltése WooCommerce Store API-ból.")
-    parser.add_argument("--api-base", default=DEFAULT_API_BASE)
+    parser = argparse.ArgumentParser(description="CoopOnline élelmiszer-katalógus letöltése.")
+    parser.add_argument("--api-base", help="A korábbi WooCommerce-forrás URL-je, ha ezt szeretnéd használni.")
+    parser.add_argument("--product-details", action="store_true", help="A katalóguson felül az egyedi termékoldalak és visszaváltási díjak lekérése.")
     parser.add_argument("--category-file", default=DEFAULT_CATEGORY_FILE)
-    parser.add_argument("--root-slugs", default=",".join(DEFAULT_FOOD_ROOT_SLUGS))
+    parser.add_argument("--root-slugs")
     parser.add_argument("--per-page", type=int, default=DEFAULT_PER_PAGE)
     parser.add_argument("--category-limit", type=int, default=None)
     parser.add_argument("--page-limit", type=int, default=None)
@@ -366,6 +543,16 @@ def parse_args():
 
 def main():
     args = parse_args()
+    if not args.api_base:
+        with requests.Session() as session:
+            rows, failures = fetch_storefront(session, args)
+        if args.product_details:
+            failures.extend(enrich_shop_products(rows, args))
+        output = generate_filename("all_data")
+        write_rows(output, rows)
+        write_failed(generate_filename("failed_requests"), failures)
+        print(f"{len(rows)} Coop termék mentve ide: {output} ({len(failures)} sikertelen lekérés)")
+        return
     products_by_id = {}
     failed_rows = []
 

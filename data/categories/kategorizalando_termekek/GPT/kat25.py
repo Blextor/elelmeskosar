@@ -5,7 +5,9 @@ from PIL import Image, ImageTk, ImageOps
 from io import BytesIO
 import os
 import re
+import tempfile
 import unicodedata
+from collections import defaultdict
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '..', '..', '..', '..'))
@@ -208,8 +210,16 @@ class TermekTagger:
 
         self.statusz_map = {}
         self.eredmeny_map = {}
+        self.boltok_id_szerint = defaultdict(set)
+        for termek in termekek:
+            azonosito = str(termek.get('store_product_id', '')).strip()
+            bolt = (termek.get('store_name') or '').strip()
+            if azonosito and bolt:
+                self.boltok_id_szerint[azonosito].add(bolt)
         for eredmeny in self.eredmenyek:
             termek_hash = self._termek_hash(eredmeny['termek'])
+            if termek_hash in self.eredmeny_map:
+                raise ValueError(f"Több mentett besorolás tartozik ehhez a termékkulcshoz: {termek_hash!r}")
             self.eredmeny_map[termek_hash] = eredmeny
             self.statusz_map[termek_hash] = _norm_statusz(eredmeny.get('statusz', 'folyamatban'))
         for t in termekek:
@@ -428,13 +438,15 @@ class TermekTagger:
 
     def _termek_hash(self, termek):
         store_product_id = str(termek.get("store_product_id", "")).strip()
+        store_name = (termek.get("store_name") or "").strip()
         if store_product_id:
-            # A store_product_id a CSV-ben gyakorlatilag egyedi (1:1), ezért a
-            # store_name-et NEM tesszük a kulcsba: egyes (batch-besorolt) eredmény-
-            # rekordok termek-objektumából hiányzik a store_name, és emiatt nem
-            # találnának egymásra a CSV-sorral (a besorolásuk "nincs"-ként látszana).
-            return store_product_id
-        store_name = str(termek.get("store_name", "")).strip()
+            if not store_name:
+                # A régebbi mentésekből hiányzó bolt egyértelmű CSV-egyezéssel pótolható.
+                boltok = self.boltok_id_szerint.get(store_product_id, ())
+                if len(boltok) > 1:
+                    raise ValueError(f"Hiányzó boltnév a több boltban használt {store_product_id!r} azonosítónál.")
+                store_name = next(iter(boltok), "")
+            return store_name, store_product_id
         return (
             str(termek.get("product_name", "")) + "|" +
             store_name + "|" +
@@ -995,7 +1007,17 @@ class TermekTagger:
             "kategoria_hash": h,
             "statusz": statusz
         }
-        self.eredmeny_map[t_hash] = eredm
+        uj_eredmenyek = self.eredmeny_map.copy()
+        uj_eredmenyek[t_hash] = eredm
+        fd, tmp_path = tempfile.mkstemp(dir='.', prefix='.kat25-', suffix='.tmp')
+        try:
+            with os.fdopen(fd, 'w', encoding='utf-8') as f:
+                json.dump(list(uj_eredmenyek.values()), f, ensure_ascii=False, indent=2)
+            os.replace(tmp_path, 'eredmeny.json')
+        finally:
+            if os.path.exists(tmp_path):
+                os.remove(tmp_path)
+        self.eredmeny_map = uj_eredmenyek
         self.statusz_map[t_hash] = statusz
 
         self.suppress_select = True
@@ -1031,8 +1053,6 @@ class TermekTagger:
             self.kivalasztott_index = self.filtered_termekek[new_j][0]
         self.suppress_select = False
 
-        with open('eredmeny.json', 'w', encoding='utf-8') as f:
-            json.dump(list(self.eredmeny_map.values()), f, ensure_ascii=False, indent=2)
         self.statusz_label.config(text=f"Státusz: {self.statusz_map[t_hash]}")
         self.frissit_statusz_kimutatas()
 

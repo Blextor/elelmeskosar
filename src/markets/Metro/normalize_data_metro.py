@@ -391,6 +391,15 @@ def availability(row):
     if delisted is True:
         return False
 
+    # The anonymous STORE response can mark customer_buyable false for in-stock bundles.
+    if clean_text(row.get("selected_delivery_mode")).upper() == "STORE":
+        for field in ["bundle.customerAvailability", "bundle.availability", "variant.availability"]:
+            status = clean_text(row.get(field)).lower()
+            if status in {"available", "available_for_sale", "limited"}:
+                return True
+            if status == "unavailable":
+                return False
+
     for field in ["search_is_available", "customer_buyable", "price.valid"]:
         value = to_bool(row.get(field))
         if value is not None:
@@ -398,7 +407,7 @@ def availability(row):
 
     status = clean_text(row.get("bundle.availability") or row.get("variant.availability")).lower()
     if status:
-        return status in {"available", "available_for_sale"}
+        return status in {"available", "available_for_sale", "limited"}
     return True
 
 
