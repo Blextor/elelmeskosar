@@ -982,36 +982,6 @@
             },
             "altípusok": {}
           },
-          "Búzaliszt": {
-            "tulajdonságok": {
-              "egyedi": {
-                "márka": [
-                  "Czelli Malom",
-                  "Gyermelyi"
-                ],
-                "kiszerelés": [
-                  "1 kg"
-                ]
-              },
-              "csoportos": {
-                "terméktípus": [
-                  "fehér kenyérliszt",
-                  "búza pizzaliszt",
-                  "teljes kiőrlésű búzaliszt",
-                  "süteményliszt"
-                ],
-                "jelölés": [
-                  "BL-80",
-                  "N° C2",
-                  "PZL",
-                  "N° C5",
-                  "BTKL",
-                  "N° C7"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
           "Lisztkeverék": {
             "tulajdonságok": {
               "egyedi": {
@@ -4300,13 +4270,6 @@
                   "enyhén csípős"
                 ]
               }
-            },
-            "altípusok": {}
-          },
-          "Friss fűszernövény": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
             },
             "altípusok": {}
           },
@@ -9738,20 +9701,6 @@
             },
             "altípusok": {}
           },
-          "Étkezési zsír (növényi)": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {
-                "zsiradék típusa": [
-                  "növényi",
-                  "kókusz",
-                  "pálma",
-                  "egyéb"
-                ]
-              }
-            },
-            "altípusok": {}
-          },
           "Repceolaj": {
             "tulajdonságok": {
               "egyedi": {
@@ -10654,20 +10603,6 @@
                   "főzőtasakban"
                 ]
               }
-            },
-            "altípusok": {}
-          },
-          "Galuska, nokedli (száraz)": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            },
-            "altípusok": {}
-          },
-          "Burgonyaköret, hasáb": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
             },
             "altípusok": {}
           },
@@ -40793,13 +40728,6 @@
               }
             },
             "altípusok": {}
-          },
-          "Aszalt gyümölcs (snack)": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            },
-            "altípusok": {}
           }
         }
       },
@@ -42874,13 +42802,6 @@
             },
             "altípusok": {}
           },
-          "Fagylalt (kimért)": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            },
-            "altípusok": {}
-          },
           "Jégkrémtorta": {
             "tulajdonságok": {
               "egyedi": {
@@ -44101,13 +44022,6 @@
                   "fafülgomba"
                 ]
               }
-            },
-            "altípusok": {}
-          },
-          "Zöldségfasírt, -pogácsa": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
             },
             "altípusok": {}
           },
@@ -50803,55 +50717,6 @@
         },
         "altípusok": {}
       },
-      "Egzotikus": {
-        "tulajdonságok": {
-          "egyedi": {
-            "márka": [
-              "Halls Organic",
-              "Tesco Finest"
-            ]
-          },
-          "csoportos": {
-            "terméktípus": [
-              "gránátalma",
-              "mangó",
-              "banán",
-              "avokádó",
-              "ananász",
-              "passiógyümölcs",
-              "kókuszdió",
-              "kiwi",
-              "ananász lédig",
-              "bio avokádó"
-            ],
-            "kiszerelés": [
-              "db",
-              "lédig",
-              "2 db",
-              "750 g",
-              "1 kg"
-            ],
-            "fajta": [
-              "érett"
-            ],
-            "gyümölcs": [
-              "mangó",
-              "ananász",
-              "gránátalma",
-              "kiwi",
-              "kókuszdió",
-              "avokádó"
-            ],
-            "értékesítés": [
-              "darabos"
-            ],
-            "minősítés": [
-              "bio"
-            ]
-          }
-        },
-        "altípusok": {}
-      },
       "Gyümölcskonzerv / befőtt": {
         "tulajdonságok": {
           "egyedi": {
@@ -51825,135 +51690,6 @@
           }
         }
       },
-      "Bogyós gyümölcs": {
-        "tulajdonságok": {
-          "egyedi": {
-            "bio": {},
-            "márka": [
-              "S-Budget",
-              "SPAR",
-              "Tesco",
-              "Tesco Finest"
-            ]
-          },
-          "csoportos": {
-            "terméktípus": [
-              "áfonya",
-              "szeder",
-              "ribizli",
-              "eper",
-              "málna",
-              "bogyós mix",
-              "fekete szeder"
-            ],
-            "fajta": [
-              "kék áfonya"
-            ],
-            "kiszerelés": [
-              "125 g",
-              "400 g",
-              "1 kg",
-              "300 g",
-              "500 g",
-              "650 g"
-            ],
-            "gyümölcs": [
-              "áfonya",
-              "málna",
-              "fekete szeder",
-              "eper"
-            ]
-          }
-        },
-        "altípusok": {}
-      },
-      "Dinnye": {
-        "tulajdonságok": {
-          "egyedi": {
-            "márka": [
-              "SPAR",
-              "Tesco"
-            ]
-          },
-          "csoportos": {
-            "terméktípus": [
-              "mézdinnye",
-              "görögdinnye",
-              "Gália sárgadinnye",
-              "magszegény görögdinnye",
-              "magyar sárgadinnye",
-              "mini görögdinnye"
-            ],
-            "kiszerelés": [
-              "db",
-              "lédig"
-            ],
-            "fajta": [
-              "csíkos",
-              "magszegény sötétzöld",
-              "Gália"
-            ],
-            "gyümölcs": [
-              "mézdinnye",
-              "sárgadinnye",
-              "görögdinnye"
-            ],
-            "értékesítés": [
-              "lédig"
-            ],
-            "magosság": [
-              "magszegény"
-            ],
-            "származás": [
-              "magyar"
-            ],
-            "méret": [
-              "mini"
-            ]
-          }
-        },
-        "altípusok": {}
-      },
-      "Citrusfélék": {
-        "tulajdonságok": {
-          "egyedi": {
-            "bio": {},
-            "márka": [
-              "SPAR Natur*pur",
-              "S-Budget",
-              "Tesco",
-              "Tesco Finest"
-            ]
-          },
-          "csoportos": {
-            "terméktípus": [
-              "narancs",
-              "lime",
-              "citrom",
-              "mandarin lédig",
-              "narancs lédig",
-              "piros grapefruit lédig"
-            ],
-            "kiszerelés": [
-              "1 kg",
-              "3 db",
-              "2 kg",
-              "500 g",
-              "400 g"
-            ],
-            "fajta": [
-              "kezeletlen héjú"
-            ],
-            "gyümölcs": [
-              "mandarin",
-              "narancs",
-              "piros grapefruit",
-              "lime"
-            ]
-          }
-        },
-        "altípusok": {}
-      },
       "Ribizli": {
         "tulajdonságok": {
           "egyedi": {},
@@ -52624,20 +52360,6 @@
                   "friss"
                 ]
               }
-            },
-            "altípusok": {}
-          },
-          "Egész pulyka": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            },
-            "altípusok": {}
-          },
-          "Pulyka aprólék": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
             },
             "altípusok": {}
           },
@@ -53533,13 +53255,6 @@
             },
             "altípusok": {}
           },
-          "Sertésmáj": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            },
-            "altípusok": {}
-          },
           "Húsos csont": {
             "tulajdonságok": {
               "egyedi": {
@@ -54097,13 +53812,6 @@
             },
             "altípusok": {}
           },
-          "Leveshús": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            },
-            "altípusok": {}
-          },
           "Lapocka": {
             "tulajdonságok": {
               "egyedi": {
@@ -54605,13 +54313,6 @@
           }
         },
         "altípusok": {
-          "Egész nyúl": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            },
-            "altípusok": {}
-          },
           "Nyúlcomb": {
             "tulajdonságok": {
               "egyedi": {
@@ -54792,13 +54493,6 @@
                   "erdei gombamártás"
                 ]
               }
-            },
-            "altípusok": {}
-          },
-          "Egyéb vadhús": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
             },
             "altípusok": {}
           }
@@ -54992,13 +54686,6 @@
                   "330 g"
                 ]
               }
-            },
-            "altípusok": {}
-          },
-          "Gyros, csíkozott pecsenye": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
             },
             "altípusok": {}
           },
@@ -61952,13 +61639,6 @@
             },
             "altípusok": {}
           },
-          "Panírozott hal, halrudacska": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            },
-            "altípusok": {}
-          },
           "Pisztráng": {
             "tulajdonságok": {
               "egyedi": {
@@ -63907,13 +63587,6 @@
             "altípusok": {}
           }
         }
-      },
-      "Egyéb hús, hal": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {}
       },
       "Halkészítmény": {
         "tulajdonságok": {
@@ -70833,13 +70506,6 @@
           }
         }
       },
-      "Kész köret": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {}
-      },
       "Saláta, hidegtál": {
         "tulajdonságok": {
           "egyedi": {
@@ -74175,49 +73841,6 @@
       }
     },
     "alkategóriák": {
-      "Egyéb": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {}
-      },
-      "Paleo": {
-        "tulajdonságok": {
-          "egyedi": {},
-          "csoportos": {}
-        },
-        "altípusok": {
-          "Paleo liszt, sütőkeverék": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            },
-            "altípusok": {}
-          },
-          "Paleo édesség": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            },
-            "altípusok": {}
-          },
-          "Paleo tészta": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            },
-            "altípusok": {}
-          },
-          "Paleo snack": {
-            "tulajdonságok": {
-              "egyedi": {},
-              "csoportos": {}
-            },
-            "altípusok": {}
-          }
-        }
-      },
       "Protein termék": {
         "tulajdonságok": {
           "egyedi": {
@@ -100930,20 +100553,6 @@
           }
         }
       },
-      "Borsófélék": {
-        "tulajdonságok": {
-          "egyedi": {
-            "fajta": [
-              "Csicseriborsó",
-              "Sárgaborsó",
-              "Zöldborsó",
-              "egyéb"
-            ]
-          },
-          "csoportos": {}
-        },
-        "altípusok": {}
-      },
       "Brokkoli": {
         "tulajdonságok": {
           "egyedi": {
@@ -101303,20 +100912,6 @@
               "bébikukorica"
             ]
           }
-        },
-        "altípusok": {}
-      },
-      "Lencse": {
-        "tulajdonságok": {
-          "egyedi": {
-            "fajta": [
-              "Étkezési lencse",
-              "Vörös lencse",
-              "Zöld lencse",
-              "egyéb"
-            ]
-          },
-          "csoportos": {}
         },
         "altípusok": {}
       },

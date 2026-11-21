@@ -171,3 +171,9 @@ TypeError: 'dict_itemiterator' object is not callable
 2026-11-19 00:30:49,231  INFO     mentve: kategoriak_2026-06-13.json (0.08 s)
 2026-11-19 00:30:50,528  INFO     mentve: eredmeny.json (1.30 s)
 2026-11-19 00:30:50,528  INFO     ALKALMAZ kész: op=merge_mapping  érintett termék=3  fa=beolvasztva ide: Alapanyag, sütés-főzés > Szószok, öntetek, dresszingek > Burger szósz  (3.03 s)
+2026-11-21 02:31:38,029  INFO     ================ Kategória-szerkesztő indul ================
+2026-11-21 02:31:38,029  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log
+2026-11-21 02:35:13,343  INFO     előnézet indul: op=merge_mapping  node/source=['Alapanyag, sütés-főzés', 'Liszt, dara, morzsa']
+2026-11-21 02:35:13,744  DEBUG    előnézet: fájlok betöltve (0.40 s), művelet számítása…
+2026-11-21 02:35:14,848  DEBUG    előnézet: művelet kész (1.51 s), előnézet építése…
+2026-11-21 02:35:15,050  INFO     előnézet kész: op=merge_mapping  érintett termék=362  fa=beolvasztva ide: Alapanyag, sütés-főzés > Cukor, édesítőszer  (1.71 s)
