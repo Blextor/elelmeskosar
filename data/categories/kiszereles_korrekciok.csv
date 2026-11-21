@@ -1221,7 +1221,7 @@ Tesco,220308644,Tesco Finest 32 napig érlelt marha hátszín steak ír marhahú
 Tesco,220358951,Tauris Zipser sonka,ledig,100.0,g,,g,bolti ledig/sulyra mert jelzes - egysegar hasznalando,bolti_api
 Tesco,220358952,Tauris Metzger paprikás szalámi,ledig,100.0,g,,g,bolti ledig/sulyra mert jelzes - egysegar hasznalando,bolti_api
 Tesco,220372612,Tauris Metzger csemege szalámi,ledig,100.0,g,,g,bolti ledig/sulyra mert jelzes - egysegar hasznalando,bolti_api
-Tesco,220281318,"Berekhús Sous Vide fűszerezett, lassan főzött vaddisznógerinc",ledig,400.0,g,,g,bolti ledig/sulyra mert jelzes - egysegar hasznalando,bolti_api
+Tesco,220281318,"Berekhús Sous Vide fűszerezett, lassan főzött vaddisznógerinc",megerosites,400.0,g,400,g,Jóváhagyott fix kiszerelés: 400 g.,kezi:felhasznaloi_dontes
 Aldi,940635,"LE GUSTO Fűszer fűszerpaprika, 30 g",megerosites,19.5,g,19.5,g,API kisebb erteke lecsopogtetett velelmu - megerositve (mintazat-dontes),mintazat:konzerv_megerosites
 Aldi,1005731,"KING'S CROWN Csicseriborsó, 400 g (265 g)",kiszereles,400.0,g,265.0,g,"nev szerint 265 g, API szerint 400.0 g (elteres 34%)",mintazat:zarojeles_lecsopogtetett
 Aldi,1046962,KING'S CROWN Savanyúkáposzta 500 g (450 g),kiszereles,510.0,g,450.0,g,"nev szerint 450 g, API szerint 510.0 g (elteres 12%)",mintazat:zarojeles_lecsopogtetett
@@ -2628,3 +2628,5 @@ Tesco,105004092,RiceUp! Zero Sugar gluténmentes zabszelet áfonyával hozzáado
 Tesco,120369798,"Fini Roller Fizz vegyes gyümölcs ízű gumicukorszalag, savanyú cukorporral panírozva 20 g",kiszereles,25.0,g,20,g,"maradék review: név (deklarált csomagméret, API ár-derivált)",kezi:maradek_review
 Tesco,220225524,Haas Quittin Nagymama Lekvárja zselésítő befőzőszer 20 g,kiszereles,25.0,g,20,g,"maradék review: név (deklarált csomagméret, API ár-derivált)",kezi:maradek_review
 Tesco,121356777,"Sprite menta-, citrom- és limeízű energiamentes szénsavas üdítőital édesítőszerekkel 1,75 l",kiszereles,1500.0,ml,1750,ml,"maradék review: név (deklarált csomagméret, API ár-derivált)",kezi:maradek_review
+Coop,2814448,HAAS PEZSGŐTABLETTA C-VITAMIN 80G,megerosites,80.0,g,80,g,"Jóváhagyott kiszerelés: 80 g, 20 db. A darabszám alapja a felhasználói pontosítás.",kezi:felhasznaloi_dontes
+Coop,3380736,COOP KALCIUM PEZSGŐTABLETTA 80G,kiszereles,80.0,g,86,g,"Jóváhagyott kiszerelés: 86 g, 20 db. Mindkét érték látszik a júniusi címkén.",kezi:felhasznaloi_dontes
