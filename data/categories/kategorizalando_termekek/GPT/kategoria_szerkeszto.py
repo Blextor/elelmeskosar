@@ -33,6 +33,9 @@ import time
 import traceback
 import webbrowser
 from collections import Counter
+from urllib.parse import parse_qs, urlsplit
+
+import besorolas_ellenorzes as review
 
 PORT = 8765
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -1361,6 +1364,38 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
     def do_GET(self):
         try:
+            url = urlsplit(self.path)
+            if url.path in ("/ellenorzes", "/ellenorzes/"):
+                return self._serve_static("ellenorzes/index.html", "text/html; charset=utf-8")
+            if url.path in ("/ellenorzes/app.js", "/ellenorzes/style.css"):
+                mime = "application/javascript" if url.path.endswith(".js") else "text/css"
+                return self._serve_static(url.path.lstrip("/"), mime + "; charset=utf-8")
+            if url.path == "/api/ellenorzes/jegyzekek":
+                return self._send(200, sorted(review.reports(), reverse=True))
+            if url.path == "/api/ellenorzes/jegyzek":
+                key = parse_qs(url.query).get("nev", [""])[0]
+                report = review.reports().get(key)
+                if not report:
+                    return self._send(404, {"error": "A változásjegyzék nem található."})
+                return self._send(200, review.report_data(report))
+            if url.path == "/api/ellenorzes/kep":
+                result = review.image_file(parse_qs(url.query).get("utvonal", [""])[0])
+                if not result:
+                    return self._send(404, {"error": "A kép nem érhető el."})
+                path, mime = result
+                return self._send(200, path.read_bytes(), mime)
+            if self.path == "/reszfa" or self.path == "/reszfa/":
+                return self._serve_static("reszfa/index.html", "text/html; charset=utf-8")
+            if self.path == "/reszfa/app.js":
+                return self._serve_static("reszfa/app.js", "application/javascript; charset=utf-8")
+            if self.path == "/reszfa/style.css":
+                return self._serve_static("reszfa/style.css", "text/css; charset=utf-8")
+            if self.path == "/api/kategoriafa":
+                with open(TREE_FILE, "rb") as fh:
+                    data = fh.read()
+                return self._send(200, {"fajl": os.path.basename(TREE_FILE),
+                                        "verzio": hashlib.sha256(data).hexdigest(),
+                                        "fa": json.loads(data)})
             if self.path in ("/", "/index.html"):
                 return self._serve_static("index.html", "text/html; charset=utf-8")
             if self.path == "/app.js":
@@ -1387,10 +1422,17 @@ class Handler(http.server.BaseHTTPRequestHandler):
         length = int(self.headers.get("Content-Length", 0))
         raw = self.rfile.read(length) if length else b"{}"
         try:
-            body = json.loads(raw.decode("utf-8"))
+            body = json.loads(raw.decode("utf-8-sig"))
         except Exception as e:
             return self._send(400, {"error": f"hibás JSON: {e}"})
         try:
+            if self.path == "/api/ellenorzes/tervezet":
+                try:
+                    result = review.compare(body, review.HERE / "eredmeny.json",
+                                            review.HERE / "kategorizalatlan_termekek.csv")
+                except (ValueError, TypeError, KeyError) as exc:
+                    return self._send(400, {"error": str(exc)})
+                return self._send(200, result)
             if self.path == "/api/node_props":
                 tree = load_json(TREE_FILE)
                 prods = load_json(EREDMENY)

@@ -177,3 +177,15 @@ TypeError: 'dict_itemiterator' object is not callable
 2026-11-21 02:35:13,744  DEBUG    előnézet: fájlok betöltve (0.40 s), művelet számítása…
 2026-11-21 02:35:14,848  DEBUG    előnézet: művelet kész (1.51 s), előnézet építése…
 2026-11-21 02:35:15,050  INFO     előnézet kész: op=merge_mapping  érintett termék=362  fa=beolvasztva ide: Alapanyag, sütés-főzés > Cukor, édesítőszer  (1.71 s)
+2026-11-21 03:42:49,759  INFO     Leállítva (Ctrl+C).
+2026-11-21 03:42:49,759  INFO     ================ Szerver kilépett ================
+2026-11-21 03:53:49,119  INFO     ================ Kategória-szerkesztő indul ================
+2026-11-21 03:53:49,119  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log
+2026-11-21 17:34:33,450  INFO     ================ Kategória-szerkesztő indul ================
+2026-11-21 17:34:33,450  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log
+2026-11-21 17:34:50,632  INFO     Leállítva (Ctrl+C).
+2026-11-21 17:34:50,632  INFO     ================ Szerver kilépett ================
+2026-11-21 17:34:56,709  INFO     ================ Kategória-szerkesztő indul ================
+2026-11-21 17:34:56,709  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log
+2026-11-21 17:35:16,070  INFO     ================ Kategória-szerkesztő indul ================
+2026-11-21 17:35:16,071  INFO     PORT=8765  Fa=kategoriak_2026-06-13.json  Termékek=eredmeny.json  Log=C:\Users\Bobo\Documents\GitHub\elelmeskosar\data\categories\kategorizalando_termekek\GPT\kategoria_szerkeszto.log

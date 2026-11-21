@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Részfa-tervező · Kategóriák</title>
+  <link rel="stylesheet" href="/reszfa/style.css">
+  <script src="/reszfa/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div><a href="/">Kategória-szerkesztő</a><h1>Részfa-tervező</h1></div>
+    <div class="tools"><button id="reset" disabled>Vázlat elvetése</button><button id="export" class="primary" disabled>JSON letöltése</button></div>
+  </header>
+  <main>
+    <aside>
+      <h2>Kategóriafa</h2>
+      <input id="search" type="search" aria-label="Kategória keresése" placeholder="Keresés a fában…" disabled>
+      <nav id="tree" aria-label="Kategóriák"></nav>
+    </aside>
+    <article aria-label="Kijelölt ág">
+      <div id="status" role="status">A kategóriafa betöltése…</div>
+      <div id="workspace"></div>
+    </article>
+  </main>
+  <dialog id="editor">
+    <form id="form">
+      <h2 id="dialog-title"></h2>
+      <label for="name">Név</label><input id="name" name="name" required autocomplete="off">
+      <div id="parent-field" hidden><label for="parent">Szülőkategória</label><select id="parent"></select></div>
+      <div id="prop-fields" hidden>
+        <label for="kind">Tulajdonság típusa</label>
+        <select id="kind">
+          <option value="single">Egyedi · fix lehetőségek</option>
+          <option value="multi">Lista · több választás</option>
+          <option value="flag">Egyedi · igen/nem</option>
+        </select>
+        <div id="value-fields"><label for="values">Lehetséges értékek · soronként egy</label><textarea id="values" rows="7" spellcheck="false"></textarea></div>
+        <div id="note-fields"><label for="note">Megjegyzés a listához</label><textarea id="note" rows="3" placeholder="Milyen értékeket érdemes megadni?"></textarea></div>
+      </div>
+      <p id="error" role="alert"></p>
+      <div class="tools"><button id="cancel" type="button">Mégse</button><button class="primary">Mentés a vázlatba</button></div>
+    </form>
+  </dialog>
+</body>
+</html>

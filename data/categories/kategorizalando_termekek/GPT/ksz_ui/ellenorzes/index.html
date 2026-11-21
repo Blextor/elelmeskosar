@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Besorolások ellenőrzése · Élelmeskosár</title>
+  <link rel="stylesheet" href="/ellenorzes/style.css">
+  <script src="/ellenorzes/app.js" defer></script>
+</head>
+<body>
+  <header><div class="wrap bar"><a class="brand" href="/"><span class="logo" aria-hidden="true">▦</span> Élelmeskosár</a><span class="divider"></span><a href="/">Kategória-szerkesztő</a></div></header>
+  <main class="wrap">
+    <section class="heading">
+      <div><h1>Besorolások ellenőrzése</h1><p id="summary" role="status">A változásjegyzék betöltése…</p></div>
+      <div class="source"><label>Változásjegyzék<select id="reports"></select></label><button id="open-draft" class="dark">Tervezet megnyitása</button></div>
+    </section>
+    <p id="error" role="alert" hidden></p>
+    <div class="columns">
+      <aside class="card">
+        <div class="list-head"><div class="spread"><h2>Termékek</h2><span class="count" id="count">0</span></div>
+          <label class="sr" for="search">Keresés név, kategória vagy bolti azonosító alapján</label>
+          <input type="search" id="search" placeholder="Név, kategória vagy azonosító…">
+          <div class="filter-row"><label>Változás<select id="kind"><option value="">Minden termék</option><option value="path">Besorolás változott</option><option value="props">Tulajdonság változott</option><option value="exception">Kivételek</option><option value="same">Változatlan</option></select></label>
+            <label>Ellenőrzés<select id="state"><option value="">Minden állapot</option><option value="todo">Ellenőrizetlen</option><option value="ok">Rendben</option><option value="fix">Javítandó</option></select></label></div>
+          <details class="more"><summary>További szűrők</summary><label>Bolt<select id="store"></select></label><label>Korábbi alkategória<select id="old-cat"></select></label><label>Új alkategória<select id="new-cat"></select></label></details>
+        </div>
+        <div id="list" aria-label="Találatok"></div>
+        <div class="paging"><button id="prev-page" aria-label="Előző találati oldal">‹</button><small id="page-info"></small><button id="next-page" aria-label="Következő találati oldal">›</button></div>
+      </aside>
+      <section id="detail" aria-label="Kiválasztott termék részletei"></section>
+    </div>
+  </main>
+  <dialog id="zoom"><div class="spread"><h2>Termékfotó</h2><button type="button" data-close>Bezárás</button></div><img id="large" alt=""></dialog>
+  <dialog id="draft"><h2>Új tervezet összevetése</h2>
+    <p>Válaszd ki a javasolt termékbesorolásokat tartalmazó JSON-fájlt. Az oldal a helyi <code>eredmeny.json</code> adataihoz hasonlítja a benne szereplő termékeket. A fájl egyetlen terméket vagy egy teljes terméklistát is tartalmazhat tömbként.</p>
+    <form id="upload"><label>Tervezett eredmények (.json)<input type="file" id="file" accept=".json,application/json" required></label>
+    <p id="upload-error" role="alert"></p><div class="end"><button type="button" data-close>Mégse</button><button class="dark" id="compare">Összevetés</button></div></form>
+  </dialog>
+</body>
+</html>

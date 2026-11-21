@@ -1,18 +1,18 @@
 # Hiányosan kitöltött tulajdonságok
 
-A vizsgálat a GPT mappa `kategoriak_2026-06-13.json` és `eredmeny.json` fájljait használta. A fa 1386 csomópontot tartalmaz. A termékszám 51522 mentett bolti termékrekord.
+A vizsgálat a GPT mappa `kategoriak_2026-06-13.json` és `eredmeny.json` fájljait használta. A fa 1310 csomópontot tartalmaz. A termékszám 51522 mentett bolti termékrekord.
 
-**15157 útvonal–tulajdonság pár, 1206 érintett útvonal.** Minden termék a saját mentett besorolási szintjén szerepel. Az altípus nélkül besorolt termékek külön sorokat kapnak az alkategóriájuk alatt. A vizsgálat kiterjed a helyben deklarált és az örökölt tulajdonságokra is. A deklaráció oszlopa a legközelebbi deklaráló szintet jelöli.
+**14448 útvonal–tulajdonság pár, 1137 érintett útvonal.** Minden termék a saját mentett besorolási szintjén szerepel. Az altípus nélkül besorolt termékek külön sorokat kapnak az alkategóriájuk alatt. A vizsgálat kiterjed a helyben deklarált és az örökölt tulajdonságokra is. A deklaráció oszlopa a legközelebbi deklaráló szintet jelöli.
 
 A „Hiányzó kulcs” oszlop a tulajdonság nélküli termékeket számolja. Az „Üres érték” oszlopba a null, az üres vagy csak szóközökből álló szöveg, illetve a kitöltött elemet nem tartalmazó gyűjtemény kerül. A false és a 0 kitöltött érték. Minden sorban a kitöltött, a hiányzó és az üres darabszám összege adja a termékszámot.
 
 A főkategória nevére kattintva a találataihoz ugorhatsz.
 
-[Alapanyag, sütés-főzés (3748)](#ag-1) · [Baba (124)](#ag-2) · [Fagyasztott áruk (1385)](#ag-3) · [Gyümölcs (703)](#ag-4) · [Háztartási termék (97)](#ag-5) · [Hús, hal, felvágott (2007)](#ag-6) · [Ital (153)](#ag-7) · [Készétel (925)](#ag-8) · [Mentes, speciális (310)](#ag-9) · [Pékáru (1737)](#ag-10) · [Sütemény, desszert, torta (279)](#ag-11) · [Tejtermékek és tojás (2028)](#ag-12) · [Zöldség (122)](#ag-13) · [Édesség, snack, rágcsálnivaló (1539)](#ag-14)
+[Alapanyag, sütés-főzés (3750)](#ag-1) · [Baba (124)](#ag-2) · [Fagyasztott áruk (662)](#ag-3) · [Gyümölcs (703)](#ag-4) · [Háztartási termék (97)](#ag-5) · [Hús, hal, felvágott (2009)](#ag-6) · [Ital (153)](#ag-7) · [Készétel (929)](#ag-8) · [Mentes, speciális (310)](#ag-9) · [Pékáru (1739)](#ag-10) · [Sütemény, desszert, torta (279)](#ag-11) · [Tejtermékek és tojás (2028)](#ag-12) · [Zöldség (122)](#ag-13) · [Édesség, snack, rágcsálnivaló (1543)](#ag-14)
 
 <a id="ag-1"></a>
 
-## Alapanyag, sütés-főzés (3748 találat)
+## Alapanyag, sütés-főzés (3750 találat)
 
 | Besorolás | Tulajdonság | Deklaráció | Termék | Kitöltött | Hiányzó kulcs | Üres érték | Példatermék |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3279,30 +3279,32 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 | Alapanyag, sütés-főzés → Tészta → Fodros kocka | tojástartalom | Alkategória | 4 | 1 | 3 | 0 | Gyermelyi fodros kocka 4 tojásos száraztészta 500 g (203228780) |
 | Alapanyag, sütés-főzés → Tészta → Fodros kocka | tésztafajta / forma | Alkategória | 4 | 2 | 2 | 0 | Gyermelyi fodros kocka 4 tojásos száraztészta 500 g (203228780) |
 | Alapanyag, sütés-főzés → Tészta → Fodros kocka | állapot | Alkategória | 4 | 0 | 4 | 0 | Gyermelyi fodros kocka 4 tojásos száraztészta 500 g (203228780) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | adag | Altípus | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | alap | Altípus | 13 | 7 | 6 | 0 | Tortellino nokedli házias jellegű friss körettészta 500 g (a4cd56c85e51810e4ae77e93) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | alapanyag | Alkategória | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | bio | Alkategória | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | csomagolás | Altípus | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | csípős | Altípus | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | durum | Alkategória | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | elkészítés | Altípus | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | forma | Altípus | 13 | 11 | 2 | 0 | Tesco Tagliatelle friss 5 tojásos durumtészta 300 g (220280119) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | fő alapanyag | Altípus | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | gluténmentes | Altípus | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | hűtött | Altípus | 13 | 9 | 4 | 0 | House of Asia friss ramen tészta 200 g (220341092) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | konyha / stílus | Altípus | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | laktózmentes | Altípus | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | szénhidrátcsökkentett | Alkategória | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | tojásos | Alkategória | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | tojástartalom | Alkategória | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | tárolás | Altípus | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | tészta | Altípus | 13 | 1 | 12 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | tésztafajta / forma | Alkategória | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | töltelék | Altípus | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | vegetáriánus | Altípus | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | vegán | Altípus | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
-| Alapanyag, sütés-főzés → Tészta → Friss tészta | állapot | Alkategória | 13 | 0 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | adag | Altípus | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | alap | Altípus | 15 | 7 | 8 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | alapanyag | Alkategória | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | bio | Alkategória | 15 | 2 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | csomagolás | Altípus | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | csípős | Altípus | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | durum | Alkategória | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | elkészítés | Altípus | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | forma | Altípus | 15 | 13 | 2 | 0 | Tesco Tagliatelle friss 5 tojásos durumtészta 300 g (220280119) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | fő alapanyag | Altípus | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | gluténmentes | Altípus | 15 | 2 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | gyorsfagyasztott | Altípus | 15 | 2 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | hűtött | Altípus | 15 | 9 | 6 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | konyha / stílus | Altípus | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | laktózmentes | Altípus | 15 | 2 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | szénhidrátcsökkentett | Alkategória | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | tojásos | Alkategória | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | tojástartalom | Alkategória | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | tárolás | Altípus | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | tészta | Altípus | 15 | 3 | 12 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | tésztafajta / forma | Alkategória | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | töltelék | Altípus | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | vegetáriánus | Altípus | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | vegán | Altípus | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | vegán/növényi | Altípus | 15 | 2 | 13 | 0 | Giovanni Rana Spaghetti friss tojással készült tészta 250 g (BTY-X2701400320021) |
+| Alapanyag, sütés-főzés → Tészta → Friss tészta | állapot | Alkategória | 15 | 0 | 15 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
 | Alapanyag, sütés-főzés → Tészta → Fusilli | alapanyag | Altípus | 16 | 5 | 11 | 0 | Tesco Fusilli durum száraztészta 500 g (100268031) |
 | Alapanyag, sütés-főzés → Tészta → Fusilli | bio | Alkategória | 16 | 0 | 16 | 0 | Tesco Fusilli durum száraztészta 500 g (100268031) |
 | Alapanyag, sütés-főzés → Tészta → Fusilli | csípős | Alkategória | 16 | 0 | 16 | 0 | Tesco Fusilli durum száraztészta 500 g (100268031) |
@@ -3898,743 +3900,427 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 
 <a id="ag-3"></a>
 
-## Fagyasztott áruk (1385 találat)
+## Fagyasztott áruk (662 találat)
 
 | Besorolás | Tulajdonság | Deklaráció | Termék | Kitöltött | Hiányzó kulcs | Üres érték | Példatermék |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | alap | Altípus | 34 | 22 | 12 | 0 | ALL SEASONS Gyümölcs eper, 750 g (Aldi 991352) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | bio | Főkategória | 34 | 3 | 31 | 0 | Auchan Kedvenc szamóca egész, gyorsfagyasztott 450 g (Auchan 628612:4166002) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | darabolt | Alkategória | 34 | 9 | 25 | 0 | METRO Chef Gyorsfagyasztott Eper 2,5 kg (BTY-X10840700320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | forma | Altípus | 34 | 22 | 12 | 0 | ALL SEASONS Gyümölcs eper, 750 g (Aldi 991352) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | gyorsfagyasztott | Főkategória | 34 | 3 | 31 | 0 | Auchan Kedvenc szamóca egész, gyorsfagyasztott 450 g (Auchan 628612:4166002) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | gyümölcs | Altípus | 34 | 12 | 22 | 0 | METRO Chef Gyorsfagyasztott Eper 2,5 kg (BTY-X10840700320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | jelleg | Altípus | 34 | 22 | 12 | 0 | ALL SEASONS Gyümölcs eper, 750 g (Aldi 991352) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | kiszerelés | Altípus | 34 | 26 | 8 | 0 | Auchan Kedvenc szamóca egész, gyorsfagyasztott 450 g (Auchan 628612:4166002) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | magozott | Alkategória | 34 | 9 | 25 | 0 | METRO Chef Gyorsfagyasztott Eper 2,5 kg (BTY-X10840700320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | terméktípus | Altípus | 34 | 25 | 9 | 0 | ALL SEASONS Gyümölcs eper, 750 g (Aldi 991352) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | alap | Altípus | 21 | 8 | 13 | 0 | ALL SEASONS Magozott meggy gyorsfagyasztott, 450 g (Aldi 1052155) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | bio | Főkategória | 21 | 1 | 20 | 0 | Auchan Tipp Gesztenyés desszert gyorsfagyasztott 200 g (Auchan 150424:3687670) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | darabolt | Alkategória | 21 | 8 | 13 | 0 | METRO Chef Gyorsfagyasztott Magozott Meggy 2,5 kg (BTY-X11014000320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | forma | Altípus | 21 | 10 | 11 | 0 | ALL SEASONS Magozott meggy gyorsfagyasztott, 450 g (Aldi 1052155) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | gyorsfagyasztott | Főkategória | 21 | 1 | 20 | 0 | Auchan Tipp Gesztenyés desszert gyorsfagyasztott 200 g (Auchan 150424:3687670) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | gyümölcs | Altípus | 21 | 12 | 9 | 0 | METRO Chef Gyorsfagyasztott Magozott Meggy 2,5 kg (BTY-X11014000320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | jelleg | Altípus | 21 | 8 | 13 | 0 | ALL SEASONS Magozott meggy gyorsfagyasztott, 450 g (Aldi 1052155) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | kiszerelés | Altípus | 21 | 12 | 9 | 0 | Auchan Tipp Gesztenyés desszert gyorsfagyasztott 200 g (Auchan 150424:3687670) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | magozott | Alkategória | 21 | 8 | 13 | 0 | METRO Chef Gyorsfagyasztott Magozott Meggy 2,5 kg (BTY-X11014000320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | terméktípus | Altípus | 21 | 13 | 8 | 0 | ALL SEASONS Magozott meggy gyorsfagyasztott, 450 g (Aldi 1052155) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | bio | Főkategória | 3 | 0 | 3 | 0 | METRO Chef Gyorsfagyasztott Gesztenye 1 kg (BTY-X10740300320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | darabolt | Alkategória | 3 | 0 | 3 | 0 | METRO Chef Gyorsfagyasztott Gesztenye 1 kg (BTY-X10740300320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | gyorsfagyasztott | Főkategória | 3 | 0 | 3 | 0 | METRO Chef Gyorsfagyasztott Gesztenye 1 kg (BTY-X10740300320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | gyümölcs | Alkategória | 3 | 0 | 3 | 0 | METRO Chef Gyorsfagyasztott Gesztenye 1 kg (BTY-X10740300320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | magozott | Alkategória | 3 | 0 | 3 | 0 | METRO Chef Gyorsfagyasztott Gesztenye 1 kg (BTY-X10740300320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | alap | Altípus | 12 | 4 | 8 | 0 | ALL SEASONS Gyümölcs mangó, 750 g (Aldi 991350) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | bio | Főkategória | 12 | 1 | 11 | 0 | Auchan Kedvenc Gyorsfagyasztott hámozott mangódarabok 450 g (Auchan 524380:4061770) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | darabolt | Altípus | 12 | 5 | 7 | 0 | METRO Chef Gyorsfagyasztott Kockázott Mangó 1 kg (BTY-X11191000320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | forma | Altípus | 12 | 4 | 8 | 0 | ALL SEASONS Gyümölcs mangó, 750 g (Aldi 991350) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | gyorsfagyasztott | Főkategória | 12 | 2 | 10 | 0 | Auchan Kedvenc Gyorsfagyasztott hámozott mangódarabok 450 g (Auchan 524380:4061770) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | gyümölcs | Altípus | 12 | 8 | 4 | 0 | METRO Chef Gyorsfagyasztott Kockázott Mangó 1 kg (BTY-X11191000320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | jelleg | Altípus | 12 | 4 | 8 | 0 | ALL SEASONS Gyümölcs mangó, 750 g (Aldi 991350) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | kiszerelés | Altípus | 12 | 7 | 5 | 0 | Auchan Kedvenc Gyorsfagyasztott hámozott mangódarabok 450 g (Auchan 524380:4061770) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | magozott | Alkategória | 12 | 4 | 8 | 0 | FRESHONA Avokádó kocka (10101547) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | terméktípus | Altípus | 12 | 6 | 6 | 0 | ALL SEASONS Gyümölcs mangó, 750 g (Aldi 991350) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | alap | Alkategória | 3 | 0 | 3 | 0 | Tesco gyorsfagyasztott eper 450 g (100579704) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | bio | Főkategória | 3 | 0 | 3 | 0 | Tesco gyorsfagyasztott eper 450 g (100579704) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | darabolt | Alkategória | 3 | 0 | 3 | 0 | Tesco gyorsfagyasztott eper 450 g (100579704) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | forma | Alkategória | 3 | 0 | 3 | 0 | Tesco gyorsfagyasztott eper 450 g (100579704) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | gyorsfagyasztott | Főkategória | 3 | 2 | 1 | 0 | Tesco gyorsfagyasztott eper 450 g (100579704) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | gyümölcs | Alkategória | 3 | 1 | 2 | 0 | Tesco gyorsfagyasztott eper 450 g (100579704) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | jelleg | Alkategória | 3 | 0 | 3 | 0 | Tesco gyorsfagyasztott eper 450 g (100579704) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | kiszerelés | Altípus | 3 | 1 | 2 | 0 | Classic gyorsfagyasztott földieper 500 g (Coopshop 48705) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | magozott | Alkategória | 3 | 0 | 3 | 0 | Tesco gyorsfagyasztott eper 450 g (100579704) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | terméktípus | Altípus | 3 | 1 | 2 | 0 | Classic gyorsfagyasztott földieper 500 g (Coopshop 48705) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | alap | Altípus | 16 | 3 | 13 | 0 | ALL SEASONS Gyümölcs bogyós gyümölcs mix, 750 g (Aldi 991353) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | bio | Főkategória | 16 | 2 | 14 | 0 | Auchan Kedvenc piros gyümölcskeverék 450 g (Auchan 825836:4363226) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | darabolt | Alkategória | 16 | 5 | 11 | 0 | FRESHONA Gyümölcsmix (10104541) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | felhasználás | Altípus | 16 | 1 | 15 | 0 | ALL SEASONS Gyümölcs bogyós gyümölcs mix, 750 g (Aldi 991353) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | forma | Altípus | 16 | 5 | 11 | 0 | ALL SEASONS Gyümölcs bogyós gyümölcs mix, 750 g (Aldi 991353) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | gyorsfagyasztott | Főkategória | 16 | 3 | 13 | 0 | Auchan Kedvenc piros gyümölcskeverék 450 g (Auchan 825836:4363226) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | gyümölcs | Altípus | 16 | 7 | 9 | 0 | METRO Chef Gyorsfagyasztott Erdei Gyümölcskeverék 2,5 kg (BTY-X11014100320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | jelleg | Altípus | 16 | 3 | 13 | 0 | ALL SEASONS Gyümölcs bogyós gyümölcs mix, 750 g (Aldi 991353) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | kiszerelés | Altípus | 16 | 9 | 7 | 0 | Auchan Kedvenc piros gyümölcskeverék 450 g (Auchan 825836:4363226) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | magozott | Alkategória | 16 | 5 | 11 | 0 | FRESHONA Gyümölcsmix (10104541) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | terméktípus | Altípus | 16 | 9 | 7 | 0 | ALL SEASONS Gyümölcs bogyós gyümölcs mix, 750 g (Aldi 991353) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | alap | Altípus | 4 | 1 | 3 | 0 | ALL SEASONS Gyümölcsleves alap, 500 g (Aldi 1030668) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | bio | Főkategória | 4 | 1 | 3 | 0 | Auchan Tipp gyorsfagyasztott gyümölcsleves keverék 500 g (Auchan 632783:4170173) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | darabolt | Alkategória | 4 | 2 | 2 | 0 | Mirsa Gyümölcsleves Alap 10 kg (BTY-X15474500320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | forma | Altípus | 4 | 2 | 2 | 0 | ALL SEASONS Gyümölcsleves alap, 500 g (Aldi 1030668) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | gyorsfagyasztott | Főkategória | 4 | 1 | 3 | 0 | Auchan Tipp gyorsfagyasztott gyümölcsleves keverék 500 g (Auchan 632783:4170173) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | gyümölcs | Alkategória | 4 | 2 | 2 | 0 | Mirsa Gyümölcsleves Alap 10 kg (BTY-X15474500320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | jelleg | Altípus | 4 | 1 | 3 | 0 | ALL SEASONS Gyümölcsleves alap, 500 g (Aldi 1030668) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | kiszerelés | Altípus | 4 | 2 | 2 | 0 | Auchan Tipp gyorsfagyasztott gyümölcsleves keverék 500 g (Auchan 632783:4170173) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | magozott | Alkategória | 4 | 2 | 2 | 0 | Mirsa Gyümölcsleves Alap 10 kg (BTY-X15474500320021) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | terméktípus | Altípus | 4 | 2 | 2 | 0 | ALL SEASONS Gyümölcsleves alap, 500 g (Aldi 1030668) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | alap | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott áfonya 450 g (100579717) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | bio | Főkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott áfonya 450 g (100579717) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | darabolt | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott áfonya 450 g (100579717) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | forma | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott áfonya 450 g (100579717) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | gyorsfagyasztott | Főkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott áfonya 450 g (100579717) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | gyümölcs | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott áfonya 450 g (100579717) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | jelleg | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott áfonya 450 g (100579717) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | magozott | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott áfonya 450 g (100579717) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | ASC / fenntartható akvakultúra | Alkategória | 19 | 1 | 18 | 0 | Gyorsfagyasztott Aquadella 1 kg / csomag (BTY-X17057300320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | bio | Főkategória | 19 | 1 | 18 | 0 | Gyorsfagyasztott Aquadella 1 kg / csomag (BTY-X17057300320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | feltét / ízesítés | Alkategória | 19 | 0 | 19 | 0 | Aquadella (Apróhal) (Auchan 140646:3677874) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | gyorsfagyasztott | Főkategória | 19 | 1 | 18 | 0 | Gyorsfagyasztott Aquadella 1 kg / csomag (BTY-X17057300320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | kiszerelés | Főkategória | 19 | 1 | 18 | 0 | Gyorsfagyasztott Aquadella 1 kg / csomag (BTY-X17057300320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | MSC / fenntartható halászat | Alkategória | 19 | 1 | 18 | 0 | Gyorsfagyasztott Aquadella 1 kg / csomag (BTY-X17057300320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | panírozott | Alkategória | 19 | 1 | 18 | 0 | Gyorsfagyasztott Aquadella 1 kg / csomag (BTY-X17057300320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | ízesítés | Altípus | 19 | 18 | 1 | 0 | Aquadella (Apróhal) (Auchan 140646:3677874) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | ízesítés / panír | Altípus | 19 | 9 | 10 | 0 | Aquadella (Apróhal) (Auchan 140646:3677874) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | ASC / fenntartható akvakultúra | Alkategória | 1 | 0 | 1 | 0 | Classic gyorsfagyasztott zsigerelt keszeg 1000 g (220231268) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | bio | Főkategória | 1 | 0 | 1 | 0 | Classic gyorsfagyasztott zsigerelt keszeg 1000 g (220231268) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | feltét / ízesítés | Alkategória | 1 | 0 | 1 | 0 | Classic gyorsfagyasztott zsigerelt keszeg 1000 g (220231268) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | forma | Alkategória | 1 | 0 | 1 | 0 | Classic gyorsfagyasztott zsigerelt keszeg 1000 g (220231268) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | gyorsfagyasztott | Főkategória | 1 | 0 | 1 | 0 | Classic gyorsfagyasztott zsigerelt keszeg 1000 g (220231268) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | MSC / fenntartható halászat | Alkategória | 1 | 0 | 1 | 0 | Classic gyorsfagyasztott zsigerelt keszeg 1000 g (220231268) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | panírozott | Alkategória | 1 | 0 | 1 | 0 | Classic gyorsfagyasztott zsigerelt keszeg 1000 g (220231268) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | ízesítés | Alkategória | 1 | 0 | 1 | 0 | Classic gyorsfagyasztott zsigerelt keszeg 1000 g (220231268) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | ízesítés / panír | Alkategória | 1 | 0 | 1 | 0 | Classic gyorsfagyasztott zsigerelt keszeg 1000 g (220231268) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | ASC / fenntartható akvakultúra | Alkategória | 29 | 6 | 23 | 0 | GOLDEN SEAFOOD Hekktörzs MSC-tanúsítás gyorsfagyasztott, 900 g (Aldi 533917) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | bio | Főkategória | 29 | 3 | 26 | 0 | Balatonparti ízek busa szelet 540 g (Auchan 657195:4194585) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | feltét / ízesítés | Alkategória | 29 | 0 | 25 | 4 | GOLDEN SEAFOOD Hekktörzs MSC-tanúsítás gyorsfagyasztott, 900 g (Aldi 533917) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | forma | Altípus | 29 | 26 | 3 | 0 | Royal Quality Seafood gyorsfagyasztott hekk törzs 900 g (31d749c08e25cc21df3b1be7) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | glazúrozott | Altípus | 29 | 3 | 26 | 0 | GOLDEN SEAFOOD Hekktörzs MSC-tanúsítás gyorsfagyasztott, 900 g (Aldi 533917) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | gyorsfagyasztott | Főkategória | 29 | 4 | 25 | 0 | Balatonparti ízek busa szelet 540 g (Auchan 657195:4194585) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | halfajta | Altípus | 29 | 27 | 2 | 0 | Royal Quality Seafood gyorsfagyasztott hekk törzs 900 g (31d749c08e25cc21df3b1be7) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | kiszerelés | Altípus | 29 | 5 | 24 | 0 | Balatonparti ízek busa szelet 540 g (Auchan 657195:4194585) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | MSC / fenntartható halászat | Alkategória | 29 | 7 | 22 | 0 | Gyorsfagyasztott Ponty patkó kg-os (1 csomag kb. 2,5 kg) (BTY-X17918100320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | panírozott | Alkategória | 29 | 6 | 23 | 0 | GOLDEN SEAFOOD Hekktörzs MSC-tanúsítás gyorsfagyasztott, 900 g (Aldi 533917) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | terméktípus | Altípus | 29 | 2 | 27 | 0 | GOLDEN SEAFOOD Hekktörzs MSC-tanúsítás gyorsfagyasztott, 900 g (Aldi 533917) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | ízesítés | Altípus | 29 | 22 | 7 | 0 | GOLDEN SEAFOOD Hekktörzs MSC-tanúsítás gyorsfagyasztott, 900 g (Aldi 533917) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | ízesítés / panír | Altípus | 29 | 8 | 21 | 0 | GOLDEN SEAFOOD Hekktörzs MSC-tanúsítás gyorsfagyasztott, 900 g (Aldi 533917) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | ASC / fenntartható akvakultúra | Alkategória | 67 | 15 | 52 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | bio | Főkategória | 67 | 13 | 54 | 0 | Classic gyorsfagyasztott hekkfilé 540 g (Auchan 632276:4169666) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | darabolás | Altípus | 67 | 3 | 64 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | feltét / ízesítés | Alkategória | 67 | 4 | 56 | 7 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | forma | Altípus | 67 | 53 | 14 | 0 | Classic gyorsfagyasztott afrikai harcsafilé 540 g (fb34d718c3125049cbe81a93) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | glazúrozott | Altípus | 67 | 15 | 52 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | gyorsfagyasztott | Főkategória | 67 | 14 | 53 | 0 | Classic gyorsfagyasztott hekkfilé 540 g (Auchan 632276:4169666) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | halfajta | Altípus | 67 | 60 | 7 | 0 | Classic gyorsfagyasztott afrikai harcsafilé 540 g (fb34d718c3125049cbe81a93) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | kiszerelés | Altípus | 67 | 21 | 46 | 0 | Classic gyorsfagyasztott hekkfilé 540 g (Auchan 632276:4169666) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | MSC / fenntartható halászat | Alkategória | 67 | 20 | 47 | 0 | METRO Chef Gyorsfagyasztott Alaszkai Tőkehalfilé 2 kg (BTY-X17924100320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | panírozott | Alkategória | 67 | 19 | 48 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | terméktípus | Altípus | 67 | 10 | 57 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | ízesítés | Altípus | 67 | 40 | 27 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | ízesítés / panír | Altípus | 67 | 18 | 49 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | ASC / fenntartható akvakultúra | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott alaszkai tőkehal kockák 400 g (100579670) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | bio | Főkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott alaszkai tőkehal kockák 400 g (100579670) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | feltét / ízesítés | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott alaszkai tőkehal kockák 400 g (100579670) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | forma | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott alaszkai tőkehal kockák 400 g (100579670) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | gyorsfagyasztott | Főkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott alaszkai tőkehal kockák 400 g (100579670) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | halfajta | Altípus | 5 | 4 | 1 | 0 | 7 Tenger gyorsfagyasztott tengeri haltörzs 800 g (120389025) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | MSC / fenntartható halászat | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott alaszkai tőkehal kockák 400 g (100579670) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | panírozott | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott alaszkai tőkehal kockák 400 g (100579670) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | ízesítés | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott alaszkai tőkehal kockák 400 g (100579670) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | ízesítés / panír | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott alaszkai tőkehal kockák 400 g (100579670) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | ASC / fenntartható akvakultúra | Alkategória | 54 | 16 | 38 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | bio | Főkategória | 54 | 2 | 52 | 0 | Ocean Catch gyorsfagyasztott halrudak 250 g (Auchan 19594:19597) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | feltét / ízesítés | Alkategória | 54 | 0 | 38 | 16 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | forma | Altípus | 54 | 35 | 19 | 0 | CBA PIROS gyorsfagyasztott panírozott halrudacska 250g (e0c4be84c9dba618ae4288cf) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | gluténmentes | Altípus | 54 | 5 | 49 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | gyorsfagyasztott | Altípus | 54 | 12 | 42 | 0 | Ocean Catch gyorsfagyasztott halrudak 250 g (Auchan 19594:19597) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | hal típusa | Altípus | 54 | 8 | 46 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | halfajta | Altípus | 54 | 32 | 22 | 0 | OCEAN SEA Gluténmentes halrudacskák (10045464) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | kiszerelés | Altípus | 54 | 10 | 44 | 0 | Ocean Catch gyorsfagyasztott halrudak 250 g (Auchan 19594:19597) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | mentes | Altípus | 54 | 2 | 52 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | MSC / fenntartható halászat | Altípus | 54 | 21 | 33 | 0 | OCEAN SEA Gluténmentes halrudacskák (10045464) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | panír | Altípus | 54 | 2 | 52 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | panírozott | Altípus | 54 | 40 | 14 | 0 | FRoSTA gyorsfagyasztott arany halrudak halfiléből 300 g (cd3a77feb21785bc3e493e90) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | terméktípus | Altípus | 54 | 16 | 38 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | állapot | Altípus | 54 | 3 | 51 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | ízesítés | Altípus | 54 | 29 | 25 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | ízesítés / panír | Altípus | 54 | 29 | 25 | 0 | OCEAN SEA Gluténmentes halrudacskák (10045464) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | ASC / fenntartható akvakultúra | Alkategória | 4 | 0 | 4 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (202659363) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | bio | Főkategória | 4 | 0 | 4 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (202659363) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | feltét / ízesítés | Alkategória | 4 | 0 | 4 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (202659363) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | forma | Alkategória | 4 | 0 | 4 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (202659363) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | gyorsfagyasztott | Főkategória | 4 | 2 | 2 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (202659363) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | halfajta | Altípus | 4 | 1 | 3 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (202659363) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | kiszerelés | Altípus | 4 | 2 | 2 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (Coopshop 44084) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | MSC / fenntartható halászat | Alkategória | 4 | 0 | 4 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (202659363) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | panírozott | Alkategória | 4 | 0 | 4 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (202659363) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | ízesítés | Alkategória | 4 | 0 | 4 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (202659363) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | ízesítés / panír | Alkategória | 4 | 0 | 4 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (202659363) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | ASC / fenntartható akvakultúra | Alkategória | 25 | 8 | 17 | 0 | Classic Gyorsfagyasztott Halászlé Sűrítmény 200 g (BTY-X64251600320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | bio | Főkategória | 25 | 0 | 25 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | feltét / ízesítés | Alkategória | 25 | 7 | 17 | 1 | Rozmár pontytej és ikra 250 g (Auchan 626944:4164334) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | forma | Altípus | 25 | 21 | 4 | 0 | Royal Fish & Chips 400 g (06491301c1f6ff5b8a2f6f08) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | gyorsfagyasztott | Főkategória | 25 | 1 | 24 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | halalap | Altípus | 25 | 2 | 23 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | halfajta | Altípus | 25 | 21 | 4 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Penny 1052427) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | jelleg | Altípus | 25 | 6 | 19 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | kiszerelés | Altípus | 25 | 4 | 21 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | MSC / fenntartható halászat | Alkategória | 25 | 8 | 17 | 0 | Classic Gyorsfagyasztott Halászlé Sűrítmény 200 g (BTY-X64251600320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | panírozott | Altípus | 25 | 12 | 13 | 0 | Classic Gyorsfagyasztott Halászlé Sűrítmény 200 g (BTY-X64251600320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | szósz | Altípus | 25 | 1 | 24 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | terméktípus | Altípus | 25 | 10 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | íz | Altípus | 25 | 1 | 24 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | ízesítés | Altípus | 25 | 20 | 5 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Penny 1052427) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | ízesítés / panír | Altípus | 25 | 10 | 15 | 0 | Classic Gyorsfagyasztott Halászlé Sűrítmény 200 g (BTY-X64251600320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | ASC / fenntartható akvakultúra | Alkategória | 6 | 2 | 4 | 0 | Pangasius Filé 20% Glazúr 5 kg (BTY-X93331000320022) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | bio | Főkategória | 6 | 1 | 5 | 0 | Delforg gyorsfagyasztott pangasius halfilé 800 g (Auchan 29257:29260) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | feltét / ízesítés | Alkategória | 6 | 0 | 5 | 1 | GOLDEN SEAFOOD Pangasiusfile ASC-tanúsítás, 900 g (Aldi 771694) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | glazúrozott | Altípus | 6 | 2 | 4 | 0 | GOLDEN SEAFOOD Pangasiusfile ASC-tanúsítás, 900 g (Aldi 771694) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | gyorsfagyasztott | Főkategória | 6 | 1 | 5 | 0 | Delforg gyorsfagyasztott pangasius halfilé 800 g (Auchan 29257:29260) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | kiszerelés | Főkategória | 6 | 1 | 5 | 0 | Delforg gyorsfagyasztott pangasius halfilé 800 g (Auchan 29257:29260) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | MSC / fenntartható halászat | Alkategória | 6 | 2 | 4 | 0 | Pangasius Filé 20% Glazúr 5 kg (BTY-X93331000320022) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | panírozott | Alkategória | 6 | 2 | 4 | 0 | Pangasius Filé 20% Glazúr 5 kg (BTY-X93331000320022) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | ízesítés / panír | Altípus | 6 | 2 | 4 | 0 | GOLDEN SEAFOOD Pangasiusfile ASC-tanúsítás, 900 g (Aldi 771694) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | ASC / fenntartható akvakultúra | Alkategória | 3 | 0 | 3 | 0 | Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g (120388988) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | bio | Főkategória | 3 | 0 | 3 | 0 | Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g (120388988) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | feltét / ízesítés | Alkategória | 3 | 0 | 3 | 0 | Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g (120388988) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | forma | Alkategória | 3 | 0 | 3 | 0 | Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g (120388988) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | gyorsfagyasztott | Főkategória | 3 | 1 | 2 | 0 | Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g (120388988) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | halfajta | Alkategória | 3 | 0 | 3 | 0 | Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g (120388988) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | kiszerelés | Altípus | 3 | 2 | 1 | 0 | Iglo gyorsfagyasztott halfilé ropogós tésztabundában 2 db 240 g (Coopshop 47453) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | MSC / fenntartható halászat | Alkategória | 3 | 0 | 3 | 0 | Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g (120388988) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | panírozott | Alkategória | 3 | 1 | 2 | 0 | Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g (120388988) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | terméktípus | Altípus | 3 | 2 | 1 | 0 | Iglo gyorsfagyasztott halfilé ropogós tésztabundában 2 db 240 g (Coopshop 47453) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | íz | Altípus | 3 | 1 | 2 | 0 | Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g (120388988) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | ízesítés | Alkategória | 3 | 0 | 3 | 0 | Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g (120388988) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | ízesítés / panír | Alkategória | 3 | 0 | 3 | 0 | Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g (120388988) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | ASC / fenntartható akvakultúra | Alkategória | 25 | 10 | 15 | 0 | OCEAN SEA MSC Alaszkai tőkehalfilé panírban (12140) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | bio | Főkategória | 25 | 0 | 25 | 0 | FRoSTA gyorsfagyasztott filé de luxe sajtszósszal 2 db 220 g (Auchan 5035:5038) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | feltét / ízesítés | Alkategória | 25 | 4 | 15 | 6 | FRoSTA gyorsfagyasztott hal steak 250 g (Auchan 5458:5461) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | forma | Altípus | 25 | 17 | 8 | 0 | OCEAN SEA MSC Alaszkai tőkehalfilé panírban (12140) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | gyorsfagyasztott | Altípus | 25 | 5 | 20 | 0 | FRoSTA gyorsfagyasztott filé de luxe sajtszósszal 2 db 220 g (Auchan 5035:5038) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | halfajta | Altípus | 25 | 20 | 5 | 0 | FRoSTA gyorsfagyasztott Filé de luxe spenótos szósszal töltve 2 db 220 g (0684cea46ff76eb92deb9a11) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | kiszerelés | Altípus | 25 | 4 | 21 | 0 | FRoSTA gyorsfagyasztott filé de luxe sajtszósszal 2 db 220 g (Auchan 5035:5038) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | MSC / fenntartható halászat | Altípus | 25 | 11 | 14 | 0 | OCEAN SEA Alaszkai Bundázott tőkehalfilé ropogós tésztabundában (122475) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | panírozott | Altípus | 25 | 19 | 6 | 0 | FRoSTA gyorsfagyasztott Filé de luxe spenótos szósszal töltve 2 db 220 g (0684cea46ff76eb92deb9a11) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | szósz | Altípus | 25 | 2 | 23 | 0 | FRoSTA gyorsfagyasztott filé de luxe sajtszósszal 2 db 220 g (Auchan 5035:5038) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | terméktípus | Altípus | 25 | 6 | 19 | 0 | FRoSTA gyorsfagyasztott filé de luxe sajtszósszal 2 db 220 g (Auchan 5035:5038) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | íz | Altípus | 25 | 1 | 24 | 0 | FRoSTA gyorsfagyasztott filé de luxe sajtszósszal 2 db 220 g (Auchan 5035:5038) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | ízesítés | Altípus | 25 | 17 | 8 | 0 | OCEAN SEA MSC Alaszkai tőkehalfilé panírban (12140) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | ízesítés / panír | Altípus | 25 | 16 | 9 | 0 | OCEAN SEA MSC Alaszkai tőkehalfilé panírban (12140) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | ASC / fenntartható akvakultúra | Alkategória | 48 | 12 | 36 | 0 | VITASIA Garnéla (10106896) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | bio | Főkategória | 48 | 6 | 42 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | előkészítés | Altípus | 48 | 3 | 45 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | feltét / ízesítés | Alkategória | 48 | 0 | 42 | 6 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | forma | Altípus | 48 | 40 | 8 | 0 | VITASIA Garnéla (10106896) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | glazúrozott | Altípus | 48 | 17 | 31 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | gyorsfagyasztott | Főkategória | 48 | 6 | 42 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | halfajta | Altípus | 48 | 41 | 7 | 0 | Royal gyorsfagyasztott előfőzött fekete tigrisrák 400 g (10ea75bedb3da5b56715d534) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | kiszerelés | Altípus | 48 | 11 | 37 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | MSC / fenntartható halászat | Alkategória | 48 | 12 | 36 | 0 | VITASIA Garnéla (10106896) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | panírozott | Altípus | 48 | 17 | 31 | 0 | VITASIA Garnéla (10106896) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | terméktípus | Altípus | 48 | 7 | 41 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | ízesítés | Altípus | 48 | 35 | 13 | 0 | Garnélafarok héjas nyers 500/ 375g (Auchan 628609:4165999) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | ízesítés / panír | Altípus | 48 | 13 | 35 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | ASC / fenntartható akvakultúra | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | bio | Főkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | feltét / ízesítés | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | forma | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | gyorsfagyasztott | Főkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | halfajta | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | MSC / fenntartható halászat | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | panírozott | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | ízesítés | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | ízesítés / panír | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | ASC / fenntartható akvakultúra | Alkategória | 37 | 9 | 28 | 0 | METRO Chef Egész Gyorsfagyasztott Tarisznyarák 600–800 g (BTY-X18323400320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | bio | Főkategória | 37 | 4 | 33 | 0 | Royal gyorsfagyasztott tenger gyümölcsei 360 g (Auchan 102863:3640061) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | előkészítés | Altípus | 37 | 1 | 36 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | feltét / ízesítés | Alkategória | 37 | 0 | 32 | 5 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | forma | Altípus | 37 | 31 | 6 | 0 | Royal gyorsfagyasztott tenger gyümölcsei 360 g (75271f9836edbfdac16a9862) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | glazúrozott | Altípus | 37 | 11 | 26 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | gyorsfagyasztott | Főkategória | 37 | 5 | 32 | 0 | Royal gyorsfagyasztott tenger gyümölcsei 360 g (Auchan 102863:3640061) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | halfajta | Altípus | 37 | 31 | 6 | 0 | Royal gyorsfagyasztott tenger gyümölcsei 360 g (75271f9836edbfdac16a9862) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | kiszerelés | Altípus | 37 | 8 | 29 | 0 | Royal gyorsfagyasztott tenger gyümölcsei 360 g (Auchan 102863:3640061) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | MSC / fenntartható halászat | Alkategória | 37 | 9 | 28 | 0 | METRO Chef Egész Gyorsfagyasztott Tarisznyarák 600–800 g (BTY-X18323400320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | márka | Altípus | 37 | 36 | 1 | 0 | Előfőzött, glazúrozott, gyorsfagyasztott kagylóhús 450 g (210838002) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | panírozott | Altípus | 37 | 11 | 26 | 0 | METRO Chef Egész Gyorsfagyasztott Tarisznyarák 600–800 g (BTY-X18323400320021) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | szósz | Altípus | 37 | 1 | 36 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | terméktípus | Altípus | 37 | 5 | 32 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | ízesítés | Altípus | 37 | 29 | 8 | 0 | Auchan Kedvenc Gyorsfagyasztott tenger gyümölcsei keverék 500/400 g (Auchan 524575:4061965) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | ízesítés / panír | Altípus | 37 | 8 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | ASC / fenntartható akvakultúra | Alkategória | 1 | 0 | 1 | 0 | Bella Mare gyorsfagyasztott tenger gyümölcsei keverék 400 g (209873830) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | bio | Főkategória | 1 | 0 | 1 | 0 | Bella Mare gyorsfagyasztott tenger gyümölcsei keverék 400 g (209873830) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | feltét / ízesítés | Alkategória | 1 | 0 | 1 | 0 | Bella Mare gyorsfagyasztott tenger gyümölcsei keverék 400 g (209873830) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | forma | Alkategória | 1 | 0 | 1 | 0 | Bella Mare gyorsfagyasztott tenger gyümölcsei keverék 400 g (209873830) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | gyorsfagyasztott | Főkategória | 1 | 0 | 1 | 0 | Bella Mare gyorsfagyasztott tenger gyümölcsei keverék 400 g (209873830) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | halfajta | Alkategória | 1 | 0 | 1 | 0 | Bella Mare gyorsfagyasztott tenger gyümölcsei keverék 400 g (209873830) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | MSC / fenntartható halászat | Alkategória | 1 | 0 | 1 | 0 | Bella Mare gyorsfagyasztott tenger gyümölcsei keverék 400 g (209873830) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | panírozott | Alkategória | 1 | 0 | 1 | 0 | Bella Mare gyorsfagyasztott tenger gyümölcsei keverék 400 g (209873830) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | ízesítés | Alkategória | 1 | 0 | 1 | 0 | Bella Mare gyorsfagyasztott tenger gyümölcsei keverék 400 g (209873830) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | ízesítés / panír | Alkategória | 1 | 0 | 1 | 0 | Bella Mare gyorsfagyasztott tenger gyümölcsei keverék 400 g (209873830) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | bio | Főkategória | 7 | 0 | 7 | 0 | Valdor gyorsfagyasztott, készre sütött, panírozott csirke nuggets gluténmentes panírban 500 g (220302785) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | feldolgozás | Altípus | 7 | 1 | 6 | 0 | Valdor gyorsfagyasztott, készre sütött, panírozott csirke nuggets gluténmentes panírban 500 g (220302785) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | forma | Altípus | 7 | 1 | 6 | 0 | Valdor gyorsfagyasztott, készre sütött, panírozott csirke nuggets gluténmentes panírban 500 g (220302785) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | gluténmentes | Altípus | 7 | 1 | 6 | 0 | Valdor Nuggets Deluxe gyorsfagyasztott, készre sütött csirkemellfilé cornflakes panírban 540 g (220326380) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | gyorsfagyasztott | Főkategória | 7 | 2 | 5 | 0 | Valdor gyorsfagyasztott, készre sütött, panírozott csirke nuggets gluténmentes panírban 500 g (220302785) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | húsfajta | Alkategória | 7 | 1 | 6 | 0 | Valdor gyorsfagyasztott, készre sütött, panírozott csirke nuggets gluténmentes panírban 500 g (220302785) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | jelleg | Alkategória | 7 | 0 | 7 | 0 | Valdor gyorsfagyasztott, készre sütött, panírozott csirke nuggets gluténmentes panírban 500 g (220302785) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | kiszerelés | Altípus | 7 | 5 | 2 | 0 | Master Good Fini Dino Dinoszaurusz Nuggets gyorsfagyasztott panírozott csirke mellhús 500 g (Coopshop 51311) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | laktózmentes | Alkategória | 7 | 0 | 7 | 0 | Valdor gyorsfagyasztott, készre sütött, panírozott csirke nuggets gluténmentes panírban 500 g (220302785) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | termékcsalád | Altípus | 7 | 1 | 6 | 0 | Valdor gyorsfagyasztott, készre sütött, panírozott csirke nuggets gluténmentes panírban 500 g (220302785) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | terméktípus | Altípus | 7 | 6 | 1 | 0 | Master Good Fini Dino Dinoszaurusz Nuggets gyorsfagyasztott panírozott csirke mellhús 500 g (Coopshop 51311) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | töltelék | Alkategória | 7 | 0 | 7 | 0 | Valdor gyorsfagyasztott, készre sütött, panírozott csirke nuggets gluténmentes panírban 500 g (220302785) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | ízesítés / panír | Alkategória | 7 | 1 | 6 | 0 | Valdor gyorsfagyasztott, készre sütött, panírozott csirke nuggets gluténmentes panírban 500 g (220302785) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | bio | Főkategória | 70 | 10 | 60 | 0 | Nádudvari gyorsfagyasztott húsgombóc levesbetét 250 g (Auchan 22645:22648) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | forma | Altípus | 70 | 55 | 15 | 0 | Ripp-Ropp gyorsfagyasztott natúr vagdalt 1000 g (33aacad20d25116d0ece4a2a) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | gluténmentes | Alkategória | 70 | 18 | 52 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | gyorsfagyasztott | Altípus | 70 | 19 | 51 | 0 | Nádudvari gyorsfagyasztott húsgombóc levesbetét 250 g (Auchan 22645:22648) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | hús típusa | Altípus | 70 | 2 | 68 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | húsfajta | Altípus | 70 | 63 | 7 | 0 | CBA PIROS gyorsfagy. készre sütött baromfi fasírt 1000g (5e2ac809d161800bb6b3015f) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | jelleg | Altípus | 70 | 27 | 43 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | kiszerelés | Altípus | 70 | 44 | 26 | 0 | Nádudvari gyorsfagyasztott húsgombóc levesbetét 250 g (Auchan 22645:22648) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | készre sütött | Altípus | 70 | 16 | 54 | 0 | Nádudvari gyorsfagyasztott húsgombóc levesbetét 250 g (Auchan 22645:22648) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | laktózmentes | Alkategória | 70 | 16 | 54 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | terméktípus | Altípus | 70 | 35 | 35 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | töltelék | Altípus | 70 | 9 | 51 | 10 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | állag | Altípus | 70 | 1 | 69 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | állapot | Altípus | 70 | 1 | 69 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | ízesítés / panír | Altípus | 70 | 22 | 48 | 0 | PRIMANA Töltött csirkegolyó, sajtos, 500 g (Aldi 898997) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | bio | Főkategória | 57 | 4 | 53 | 0 | Master Good gyorsfagyasztott csirkemáj szív nélkül 500 g (Auchan 40375:40378) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | forma | Altípus | 57 | 54 | 3 | 0 | Gyorsfagyasztott csirkemáj szív nélkül 500 g (25bb0533babc7a26079116b5) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | gluténmentes | Alkategória | 57 | 8 | 49 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | gyorsfagyasztott | Főkategória | 57 | 5 | 52 | 0 | Master Good gyorsfagyasztott csirkemáj szív nélkül 500 g (Auchan 40375:40378) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | húsfajta | Altípus | 57 | 55 | 2 | 0 | Gyorsfagyasztott csirkemáj szív nélkül 500 g (25bb0533babc7a26079116b5) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | jelleg | Altípus | 57 | 11 | 46 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | kiszerelés | Altípus | 57 | 16 | 41 | 0 | Master Good gyorsfagyasztott csirkemáj szív nélkül 500 g (Auchan 40375:40378) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | laktózmentes | Alkategória | 57 | 8 | 49 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | terméktípus | Altípus | 57 | 14 | 43 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | töltelék | Alkategória | 57 | 0 | 52 | 5 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | íz | Altípus | 57 | 1 | 56 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | ízesítés / panír | Altípus | 57 | 12 | 45 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | bio | Főkategória | 58 | 2 | 56 | 0 | Gyorsfagyasztott Sertéskaraj, Csont Nélkül, Lánc Nélkül (BTY-X18338000320021) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | forma | Altípus | 58 | 56 | 2 | 0 | Előfőzött, gyorsfagyasztott marhapacal 1 kg (716b667b6f71d119dbc4220e) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | gluténmentes | Alkategória | 58 | 2 | 56 | 0 | Gyorsfagyasztott Sertéskaraj, Csont Nélkül, Lánc Nélkül (BTY-X18338000320021) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | gyorsfagyasztott | Főkategória | 58 | 3 | 55 | 0 | Gyorsfagyasztott Sertéskaraj, Csont Nélkül, Lánc Nélkül (BTY-X18338000320021) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | húsfajta | Altípus | 58 | 57 | 1 | 0 | Előfőzött, gyorsfagyasztott marhapacal 1 kg (716b667b6f71d119dbc4220e) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | jelleg | Alkategória | 58 | 0 | 58 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | kiszerelés | Alkategória | 58 | 2 | 56 | 0 | Gyorsfagyasztott Sertéskaraj, Csont Nélkül, Lánc Nélkül (BTY-X18338000320021) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | laktózmentes | Alkategória | 58 | 2 | 56 | 0 | Gyorsfagyasztott Sertéskaraj, Csont Nélkül, Lánc Nélkül (BTY-X18338000320021) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | márka | Altípus | 58 | 57 | 1 | 0 | Coop konyhakész, fagyasztott csíkozott marhapacal 1 kg (Coopshop 177573) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | terméktípus | Altípus | 58 | 2 | 56 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | töltelék | Alkategória | 58 | 0 | 58 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | ízesítés / panír | Altípus | 58 | 27 | 31 | 0 | Gyorsfagyasztott Sertéskaraj, Csont Nélkül, Lánc Nélkül (BTY-X18338000320021) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | bio | Főkategória | 3 | 0 | 3 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (105010902) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | forma | Alkategória | 3 | 0 | 3 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (105010902) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | gluténmentes | Alkategória | 3 | 0 | 3 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (105010902) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | gyorsfagyasztott | Főkategória | 3 | 1 | 2 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (105010902) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | húsfajta | Alkategória | 3 | 1 | 2 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (105010902) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | jelleg | Alkategória | 3 | 0 | 3 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (105010902) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | kiszerelés | Altípus | 3 | 2 | 1 | 0 | Coop Gyorsan Kész gyorsfagyasztott marha hamburgerhús 600 g (Coopshop 185995) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | laktózmentes | Alkategória | 3 | 0 | 3 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (105010902) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | terméktípus | Altípus | 3 | 2 | 1 | 0 | Coop Gyorsan Kész gyorsfagyasztott marha hamburgerhús 600 g (Coopshop 185995) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | töltelék | Alkategória | 3 | 0 | 3 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (105010902) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | ízesítés / panír | Alkategória | 3 | 0 | 3 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (105010902) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | bio | Főkategória | 142 | 11 | 131 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (Auchan 63809:3600890) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | forma | Altípus | 142 | 105 | 37 | 0 | Valdor gyorsfagyasztott, készre sütött, panírozott csirke nuggets gluténmentes panírban 500 g (f078f01eeacce9d5ef30966f) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | gluténmentes | Altípus | 142 | 40 | 102 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | gyorsfagyasztott | Altípus | 142 | 31 | 111 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (Auchan 63809:3600890) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | hús típusa | Altípus | 142 | 13 | 129 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | húsfajta | Altípus | 142 | 112 | 30 | 0 | CBA PIROS panírozott formázott csirkemell 600g (08f0f4c889f517cc4bb5c2b0) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | jelleg | Altípus | 142 | 56 | 86 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | jellemzők | Altípus | 142 | 2 | 140 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | kiszerelés | Altípus | 142 | 64 | 78 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (Auchan 63809:3600890) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | készre sütött | Altípus | 142 | 30 | 112 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (Auchan 63809:3600890) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | laktózmentes | Altípus | 142 | 33 | 109 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | mentesség | Altípus | 142 | 1 | 141 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | panír | Altípus | 142 | 1 | 141 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | panírozott | Altípus | 142 | 36 | 106 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (Auchan 63809:3600890) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | termékcsalád | Altípus | 142 | 1 | 141 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | terméktípus | Altípus | 142 | 88 | 54 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | töltelék | Alkategória | 142 | 9 | 109 | 24 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | állapot | Altípus | 142 | 1 | 141 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | íz | Altípus | 142 | 2 | 140 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | ízesítés / panír | Altípus | 142 | 72 | 70 | 0 | METRO Chef Kentucy Csípős Csirkeszárny 1 kg (BTY-X15878300320021) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | bio | Főkategória | 3 | 0 | 3 | 0 | Schär Chicken Fingers mélyfagyasztott gluténmentes ropogós panírozott csirkefalatok 15 db 375 g (220314943) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | forma | Alkategória | 3 | 0 | 3 | 0 | Schär Chicken Fingers mélyfagyasztott gluténmentes ropogós panírozott csirkefalatok 15 db 375 g (220314943) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | gluténmentes | Alkategória | 3 | 0 | 3 | 0 | Schär Chicken Fingers mélyfagyasztott gluténmentes ropogós panírozott csirkefalatok 15 db 375 g (220314943) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | gyorsfagyasztott | Főkategória | 3 | 2 | 1 | 0 | Schär Chicken Fingers mélyfagyasztott gluténmentes ropogós panírozott csirkefalatok 15 db 375 g (220314943) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | húsfajta | Alkategória | 3 | 0 | 3 | 0 | Schär Chicken Fingers mélyfagyasztott gluténmentes ropogós panírozott csirkefalatok 15 db 375 g (220314943) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | jelleg | Alkategória | 3 | 0 | 3 | 0 | Schär Chicken Fingers mélyfagyasztott gluténmentes ropogós panírozott csirkefalatok 15 db 375 g (220314943) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | jellemzők | Altípus | 3 | 1 | 2 | 0 | Coop Gyorsan Kész gyorsfagyasztott, készre sütött, panírozott csirkefalatkák 450 g (Coopshop 54502) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | kiszerelés | Altípus | 3 | 1 | 2 | 0 | Coop Gyorsan Kész gyorsfagyasztott, készre sütött, panírozott csirkefalatkák 450 g (Coopshop 54502) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | laktózmentes | Alkategória | 3 | 0 | 3 | 0 | Schär Chicken Fingers mélyfagyasztott gluténmentes ropogós panírozott csirkefalatok 15 db 375 g (220314943) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | terméktípus | Altípus | 3 | 1 | 2 | 0 | Coop Gyorsan Kész gyorsfagyasztott, készre sütött, panírozott csirkefalatkák 450 g (Coopshop 54502) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | töltelék | Alkategória | 3 | 0 | 3 | 0 | Schär Chicken Fingers mélyfagyasztott gluténmentes ropogós panírozott csirkefalatok 15 db 375 g (220314943) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | ízesítés / panír | Alkategória | 3 | 2 | 1 | 0 | Schär Chicken Fingers mélyfagyasztott gluténmentes ropogós panírozott csirkefalatok 15 db 375 g (220314943) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | bio | Főkategória | 11 | 0 | 11 | 0 | Valdor Zizu gyorsfagyasztott, készre sütött, panírozott csirkemellfilé 500 g (210832246) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | forma | Alkategória | 11 | 0 | 11 | 0 | Valdor Zizu gyorsfagyasztott, készre sütött, panírozott csirkemellfilé 500 g (210832246) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | gluténmentes | Alkategória | 11 | 0 | 11 | 0 | Valdor Zizu gyorsfagyasztott, készre sütött, panírozott csirkemellfilé 500 g (210832246) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | gyorsfagyasztott | Főkategória | 11 | 4 | 7 | 0 | Valdor Zizu gyorsfagyasztott, készre sütött, panírozott csirkemellfilé 500 g (210832246) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | húsfajta | Alkategória | 11 | 3 | 8 | 0 | Valdor Zizu gyorsfagyasztott, készre sütött, panírozott csirkemellfilé 500 g (210832246) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | jelleg | Alkategória | 11 | 0 | 11 | 0 | Valdor Zizu gyorsfagyasztott, készre sütött, panírozott csirkemellfilé 500 g (210832246) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | kiszerelés | Altípus | 11 | 7 | 4 | 0 | Master Good Royal panírozott csirke mellszelet 550 g (Coopshop 189442) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | laktózmentes | Alkategória | 11 | 0 | 11 | 0 | Valdor Zizu gyorsfagyasztott, készre sütött, panírozott csirkemellfilé 500 g (210832246) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | panír | Altípus | 11 | 5 | 6 | 0 | Valdor Zizu gyorsfagyasztott, készre sütött, panírozott csirkemellfilé 500 g (210832246) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | terméktípus | Altípus | 11 | 7 | 4 | 0 | Master Good Royal panírozott csirke mellszelet 550 g (Coopshop 189442) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | töltelék | Alkategória | 11 | 0 | 11 | 0 | Valdor Zizu gyorsfagyasztott, készre sütött, panírozott csirkemellfilé 500 g (210832246) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | állapot | Altípus | 11 | 3 | 8 | 0 | Valdor Zizu gyorsfagyasztott, készre sütött, panírozott csirkemellfilé 500 g (210832246) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | ízesítés / panír | Alkategória | 11 | 0 | 11 | 0 | Valdor Zizu gyorsfagyasztott, készre sütött, panírozott csirkemellfilé 500 g (210832246) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | bio | Főkategória | 19 | 1 | 18 | 0 | Bábolna gyorsfagyasztott bécsi szelet karajból, páclével 750 g (Auchan 65933:3603014) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | forma | Altípus | 19 | 12 | 7 | 0 | Ripp-Ropp Gourmet gyorsfagyasztott rántott sertéskaraj 600 g (ff277eee59768307a5eb1d37) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | gluténmentes | Alkategória | 19 | 7 | 12 | 0 | MARNEVALL Gasztro Rántott sertéskaraj 2,5 kg (BTY-X17808300320021) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | gyorsfagyasztott | Főkategória | 19 | 4 | 15 | 0 | Bábolna gyorsfagyasztott bécsi szelet karajból, páclével 750 g (Auchan 65933:3603014) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | húsfajta | Altípus | 19 | 16 | 3 | 0 | Ripp-Ropp Gourmet gyorsfagyasztott rántott sertéskaraj 600 g (ff277eee59768307a5eb1d37) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | jelleg | Altípus | 19 | 5 | 14 | 0 | PRIMANA Bécsi szelet sertéskarajból, 750 g (Aldi 748892) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | kiszerelés | Altípus | 19 | 7 | 12 | 0 | Bábolna gyorsfagyasztott bécsi szelet karajból, páclével 750 g (Auchan 65933:3603014) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | készre sütött | Altípus | 19 | 2 | 17 | 0 | Bábolna gyorsfagyasztott bécsi szelet karajból, páclével 750 g (Auchan 65933:3603014) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | laktózmentes | Alkategória | 19 | 6 | 13 | 0 | PRIMANA Bécsi szelet sertéskarajból, 750 g (Aldi 748892) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | panírozott | Altípus | 19 | 4 | 15 | 0 | Bábolna gyorsfagyasztott bécsi szelet karajból, páclével 750 g (Auchan 65933:3603014) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | terméktípus | Altípus | 19 | 9 | 10 | 0 | PRIMANA Bécsi szelet sertéskarajból, 750 g (Aldi 748892) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | töltelék | Alkategória | 19 | 0 | 13 | 6 | PRIMANA Bécsi szelet sertéskarajból, 750 g (Aldi 748892) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | ízesítés / panír | Alkategória | 19 | 7 | 12 | 0 | MARNEVALL Gasztro Rántott sertéskaraj 2,5 kg (BTY-X17808300320021) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | bio | Főkategória | 3 | 0 | 3 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (120265304) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | forma | Alkategória | 3 | 0 | 3 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (120265304) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | gluténmentes | Alkategória | 3 | 0 | 3 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (120265304) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | gyorsfagyasztott | Főkategória | 3 | 2 | 1 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (120265304) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | húsfajta | Alkategória | 3 | 2 | 1 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (120265304) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | jelleg | Alkategória | 3 | 0 | 3 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (120265304) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | kiszerelés | Altípus | 3 | 1 | 2 | 0 | Passner gyorsfagyasztott, elősütött, rántott csirkemell filé 750 g (Coopshop 180739) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | laktózmentes | Alkategória | 3 | 0 | 3 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (120265304) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | terméktípus | Altípus | 3 | 1 | 2 | 0 | Passner gyorsfagyasztott, elősütött, rántott csirkemell filé 750 g (Coopshop 180739) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | töltelék | Alkategória | 3 | 0 | 3 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (120265304) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | ízesítés / panír | Alkategória | 3 | 0 | 3 | 0 | Nádudvari gyorsfagyasztott szeletelt, készre sütött rántott csirkemell 600 g (120265304) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | bio | Főkategória | 12 | 0 | 12 | 0 | Sága Mini Kijev gyorsfagyasztott hús sajtos fokhagymás és petrezselymes töltelékkel 250 g (207470130) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | forma | Alkategória | 12 | 0 | 12 | 0 | Sága Mini Kijev gyorsfagyasztott hús sajtos fokhagymás és petrezselymes töltelékkel 250 g (207470130) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | gluténmentes | Alkategória | 12 | 0 | 12 | 0 | Sága Mini Kijev gyorsfagyasztott hús sajtos fokhagymás és petrezselymes töltelékkel 250 g (207470130) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | gyorsfagyasztott | Főkategória | 12 | 7 | 5 | 0 | Sága Mini Kijev gyorsfagyasztott hús sajtos fokhagymás és petrezselymes töltelékkel 250 g (207470130) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | húsfajta | Altípus | 12 | 8 | 4 | 0 | Sága Mini Kijev gyorsfagyasztott hús sajtos fokhagymás és petrezselymes töltelékkel 250 g (207470130) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | jelleg | Alkategória | 12 | 0 | 12 | 0 | Sága Mini Kijev gyorsfagyasztott hús sajtos fokhagymás és petrezselymes töltelékkel 250 g (207470130) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | kiszerelés | Altípus | 12 | 5 | 7 | 0 | Passner sajttal töltött gyorsfagyasztott sertéskaraj filé 750 g (Coopshop 176231) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | laktózmentes | Alkategória | 12 | 0 | 12 | 0 | Sága Mini Kijev gyorsfagyasztott hús sajtos fokhagymás és petrezselymes töltelékkel 250 g (207470130) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | terméktípus | Altípus | 12 | 5 | 7 | 0 | Passner sajttal töltött gyorsfagyasztott sertéskaraj filé 750 g (Coopshop 176231) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | töltelék | Altípus | 12 | 10 | 2 | 0 | Retro gyorsfagyasztott, panírozott bélszínes roló 500 g (120383319) |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | ízesítés / panír | Alkategória | 12 | 1 | 11 | 0 | Sága Mini Kijev gyorsfagyasztott hús sajtos fokhagymás és petrezselymes töltelékkel 250 g (207470130) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | bio | Főkategória | 19 | 0 | 19 | 0 | Gergely gyorsfagyasztott vadasmártás 500 g (Auchan 21448:21451) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | előkészítés | Altípus | 19 | 1 | 18 | 0 | Gergely gyorsfagyasztott vadasmártás 500 g (Auchan 21448:21451) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | feltét / ízesítés | Alkategória | 19 | 4 | 15 | 0 | VITASIA Ázsiai készétel (10106958) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | forma | Altípus | 19 | 7 | 12 | 0 | Gergely gyorsfagyasztott vadasmártás 500 g (Auchan 21448:21451) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | gluténmentes | Alkategória | 19 | 4 | 15 | 0 | VITASIA Ázsiai készétel (10106958) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | gyorsfagyasztott | Főkategória | 19 | 2 | 17 | 0 | Gergely gyorsfagyasztott vadasmártás 500 g (Auchan 21448:21451) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | jelleg | Altípus | 19 | 6 | 13 | 0 | Gergely gyorsfagyasztott vadasmártás 500 g (Auchan 21448:21451) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | kiszerelés | Altípus | 19 | 10 | 9 | 0 | Gergely gyorsfagyasztott vadasmártás 500 g (Auchan 21448:21451) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | laktózmentes | Alkategória | 19 | 4 | 15 | 0 | VITASIA Ázsiai készétel (10106958) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | mikrohullámú sütőben elkészíthető | Alkategória | 19 | 4 | 15 | 0 | VITASIA Ázsiai készétel (10106958) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | MSC / fenntartható halászat | Alkategória | 19 | 4 | 15 | 0 | VITASIA Ázsiai készétel (10106958) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | tejmentes | Alkategória | 19 | 4 | 15 | 0 | VITASIA Ázsiai készétel (10106958) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | terméktípus | Altípus | 19 | 13 | 6 | 0 | Gergely gyorsfagyasztott vadasmártás 500 g (Auchan 21448:21451) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | töltelék / ízesítés | Alkategória | 19 | 0 | 15 | 4 | Gergely gyorsfagyasztott vadasmártás 500 g (Auchan 21448:21451) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | vegán/növényi | Alkategória | 19 | 4 | 15 | 0 | VITASIA Ázsiai készétel (10106958) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | zöldség | Altípus | 19 | 1 | 18 | 0 | Gergely gyorsfagyasztott vadasmártás 500 g (Auchan 21448:21451) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | étel / forma | Altípus | 19 | 6 | 13 | 0 | Gergely Gyorsfagyasztott Nyírségi Gombóc 2,5 kg (BTY-X6199600320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | íz | Alkategória | 19 | 0 | 19 | 0 | Gergely gyorsfagyasztott vadasmártás 500 g (Auchan 21448:21451) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | összetevő | Altípus | 19 | 1 | 18 | 0 | Gergely gyorsfagyasztott vadasmártás 500 g (Auchan 21448:21451) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | bio | Főkategória | 4 | 0 | 4 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | feltét | Altípus | 4 | 3 | 1 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (Coopshop 49117) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | feltét / ízesítés | Alkategória | 4 | 1 | 3 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | forma | Alkategória | 4 | 0 | 4 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | gluténmentes | Alkategória | 4 | 1 | 3 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | gyorsfagyasztott | Főkategória | 4 | 1 | 3 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | jelleg | Alkategória | 4 | 0 | 4 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | jellemzők | Altípus | 4 | 3 | 1 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (Coopshop 49117) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | kiszerelés | Altípus | 4 | 3 | 1 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (Coopshop 49117) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | laktózmentes | Alkategória | 4 | 0 | 4 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | mikrohullámú sütőben elkészíthető | Alkategória | 4 | 0 | 4 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | MSC / fenntartható halászat | Alkategória | 4 | 0 | 4 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | tejmentes | Alkategória | 4 | 0 | 4 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | terméktípus | Altípus | 4 | 3 | 1 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (Coopshop 49117) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | töltelék / ízesítés | Alkategória | 4 | 0 | 4 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | vegán/növényi | Alkategória | 4 | 0 | 4 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | étel / forma | Alkategória | 4 | 1 | 3 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | íz | Alkategória | 4 | 0 | 4 | 0 | Dr. Oetker Ristorante Pizza Salame gyorsfagyasztott gluténmentes pizza sajttal és szalámival 315 g (220203201) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | bio | Főkategória | 4 | 0 | 4 | 0 | FRoSTA gyorsfagyasztott mexikói stílusú csirke 450 g (Auchan 501209:4038605) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | feltét / ízesítés | Alkategória | 4 | 1 | 3 | 0 | Steak House gyorsfagyasztott hamburger 1000 g (e0229c9844c53fdfdfcbb691) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | forma | Alkategória | 4 | 0 | 4 | 0 | FRoSTA gyorsfagyasztott mexikói stílusú csirke 450 g (Auchan 501209:4038605) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | gluténmentes | Alkategória | 4 | 1 | 3 | 0 | Steak House gyorsfagyasztott hamburger 1000 g (e0229c9844c53fdfdfcbb691) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | gyorsfagyasztott | Főkategória | 4 | 1 | 3 | 0 | FRoSTA gyorsfagyasztott mexikói stílusú csirke 450 g (Auchan 501209:4038605) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | jelleg | Alkategória | 4 | 0 | 4 | 0 | FRoSTA gyorsfagyasztott mexikói stílusú csirke 450 g (Auchan 501209:4038605) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | kiszerelés | Altípus | 4 | 1 | 3 | 0 | FRoSTA gyorsfagyasztott mexikói stílusú csirke 450 g (Auchan 501209:4038605) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | laktózmentes | Alkategória | 4 | 1 | 3 | 0 | Steak House gyorsfagyasztott hamburger 1000 g (e0229c9844c53fdfdfcbb691) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | mikrohullámú sütőben elkészíthető | Alkategória | 4 | 1 | 3 | 0 | Steak House gyorsfagyasztott hamburger 1000 g (e0229c9844c53fdfdfcbb691) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | MSC / fenntartható halászat | Alkategória | 4 | 1 | 3 | 0 | Steak House gyorsfagyasztott hamburger 1000 g (e0229c9844c53fdfdfcbb691) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | tejmentes | Alkategória | 4 | 1 | 3 | 0 | Steak House gyorsfagyasztott hamburger 1000 g (e0229c9844c53fdfdfcbb691) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | terméktípus | Altípus | 4 | 2 | 2 | 0 | FRoSTA gyorsfagyasztott mexikói stílusú csirke 450 g (Auchan 501209:4038605) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | töltelék / ízesítés | Alkategória | 4 | 0 | 3 | 1 | FRoSTA gyorsfagyasztott mexikói stílusú csirke 450 g (Auchan 501209:4038605) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | vegán/növényi | Alkategória | 4 | 1 | 3 | 0 | Steak House gyorsfagyasztott hamburger 1000 g (e0229c9844c53fdfdfcbb691) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | étel / forma | Alkategória | 4 | 1 | 3 | 0 | Steak House gyorsfagyasztott hamburger 1000 g (e0229c9844c53fdfdfcbb691) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | íz | Alkategória | 4 | 0 | 4 | 0 | FRoSTA gyorsfagyasztott mexikói stílusú csirke 450 g (Auchan 501209:4038605) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | bio | Főkategória | 7 | 2 | 5 | 0 | Fornetti Pizzás Mini gyorsfagyasztott előkelesztett leveles tészta pizza ízű töltelékkel 700 g (220297276) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | feltét / ízesítés | Alkategória | 7 | 0 | 7 | 0 | GOURMET FINEST CUISINE Vadlazacfilé leveles tésztában MSC tanúsítás spenótos, 300 g (Aldi 4601239) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | forma | Alkategória | 7 | 0 | 7 | 0 | GOURMET FINEST CUISINE Vadlazacfilé leveles tésztában MSC tanúsítás spenótos, 300 g (Aldi 4601239) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | gluténmentes | Alkategória | 7 | 2 | 5 | 0 | Fornetti Pizzás Mini gyorsfagyasztott előkelesztett leveles tészta pizza ízű töltelékkel 700 g (220297276) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | gyorsfagyasztott | Főkategória | 7 | 2 | 5 | 0 | Fornetti Pizzás Mini gyorsfagyasztott előkelesztett leveles tészta pizza ízű töltelékkel 700 g (220297276) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | jelleg | Alkategória | 7 | 0 | 7 | 0 | GOURMET FINEST CUISINE Vadlazacfilé leveles tésztában MSC tanúsítás spenótos, 300 g (Aldi 4601239) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | laktózmentes | Alkategória | 7 | 2 | 5 | 0 | Fornetti Pizzás Mini gyorsfagyasztott előkelesztett leveles tészta pizza ízű töltelékkel 700 g (220297276) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | mikrohullámú sütőben elkészíthető | Alkategória | 7 | 2 | 5 | 0 | Fornetti Pizzás Mini gyorsfagyasztott előkelesztett leveles tészta pizza ízű töltelékkel 700 g (220297276) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | MSC / fenntartható halászat | Alkategória | 7 | 2 | 5 | 0 | Fornetti Pizzás Mini gyorsfagyasztott előkelesztett leveles tészta pizza ízű töltelékkel 700 g (220297276) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | tejmentes | Alkategória | 7 | 2 | 5 | 0 | Fornetti Pizzás Mini gyorsfagyasztott előkelesztett leveles tészta pizza ízű töltelékkel 700 g (220297276) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | terméktípus | Altípus | 7 | 5 | 2 | 0 | GOURMET FINEST CUISINE Vadlazacfilé leveles tésztában MSC tanúsítás spenótos, 300 g (Aldi 4601239) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | töltelék | Altípus | 7 | 1 | 6 | 0 | GOURMET FINEST CUISINE Vadlazacfilé leveles tésztában MSC tanúsítás spenótos, 300 g (Aldi 4601239) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | töltelék / ízesítés | Alkategória | 7 | 2 | 5 | 0 | Fornetti Pizzás Mini gyorsfagyasztott előkelesztett leveles tészta pizza ízű töltelékkel 700 g (220297276) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | vegán/növényi | Alkategória | 7 | 2 | 5 | 0 | Fornetti Pizzás Mini gyorsfagyasztott előkelesztett leveles tészta pizza ízű töltelékkel 700 g (220297276) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | állapot | Altípus | 7 | 1 | 6 | 0 | GOURMET FINEST CUISINE Vadlazacfilé leveles tésztában MSC tanúsítás spenótos, 300 g (Aldi 4601239) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | étel / forma | Alkategória | 7 | 2 | 5 | 0 | Fornetti Pizzás Mini gyorsfagyasztott előkelesztett leveles tészta pizza ízű töltelékkel 700 g (220297276) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | íz | Alkategória | 7 | 0 | 7 | 0 | GOURMET FINEST CUISINE Vadlazacfilé leveles tésztában MSC tanúsítás spenótos, 300 g (Aldi 4601239) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | bio | Főkategória | 4 | 0 | 4 | 0 | LUCKY FOOD Gyorsfagyasztott Babgulyás 2 l (BTY-X17907700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | feltét / ízesítés | Alkategória | 4 | 0 | 4 | 0 | LUCKY FOOD Gyorsfagyasztott Babgulyás 2 l (BTY-X17907700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | forma | Altípus | 4 | 1 | 3 | 0 | Nádudvari gyorsfagyasztott húsgombóc levesbetét 250 g (120409896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | gluténmentes | Alkategória | 4 | 0 | 4 | 0 | LUCKY FOOD Gyorsfagyasztott Babgulyás 2 l (BTY-X17907700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | gyorsfagyasztott | Főkategória | 4 | 2 | 2 | 0 | LUCKY FOOD Gyorsfagyasztott Babgulyás 2 l (BTY-X17907700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | jelleg | Altípus | 4 | 1 | 3 | 0 | Nádudvari gyorsfagyasztott húsgombóc levesbetét 250 g (120409896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | kiszerelés | Altípus | 4 | 2 | 2 | 0 | Balatonboglári gyorsfagyasztott halászlé pontyszeletekkel 1000 g (Coopshop 183764) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | laktózmentes | Alkategória | 4 | 0 | 4 | 0 | LUCKY FOOD Gyorsfagyasztott Babgulyás 2 l (BTY-X17907700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | mikrohullámú sütőben elkészíthető | Alkategória | 4 | 0 | 4 | 0 | LUCKY FOOD Gyorsfagyasztott Babgulyás 2 l (BTY-X17907700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | MSC / fenntartható halászat | Alkategória | 4 | 0 | 4 | 0 | LUCKY FOOD Gyorsfagyasztott Babgulyás 2 l (BTY-X17907700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | tejmentes | Alkategória | 4 | 0 | 4 | 0 | LUCKY FOOD Gyorsfagyasztott Babgulyás 2 l (BTY-X17907700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | terméktípus | Altípus | 4 | 2 | 2 | 0 | Balatonboglári gyorsfagyasztott halászlé pontyszeletekkel 1000 g (Coopshop 183764) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | töltelék / ízesítés | Alkategória | 4 | 0 | 4 | 0 | LUCKY FOOD Gyorsfagyasztott Babgulyás 2 l (BTY-X17907700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | vegán/növényi | Alkategória | 4 | 0 | 4 | 0 | LUCKY FOOD Gyorsfagyasztott Babgulyás 2 l (BTY-X17907700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | étel / forma | Alkategória | 4 | 0 | 4 | 0 | LUCKY FOOD Gyorsfagyasztott Babgulyás 2 l (BTY-X17907700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | íz | Alkategória | 4 | 0 | 4 | 0 | LUCKY FOOD Gyorsfagyasztott Babgulyás 2 l (BTY-X17907700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | bio | Főkategória | 7 | 0 | 7 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 2,5 kg (BTY-X5839800320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | feltét / ízesítés | Alkategória | 7 | 0 | 7 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 2,5 kg (BTY-X5839800320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | forma | Altípus | 7 | 5 | 2 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 250 g (120409907) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | gluténmentes | Alkategória | 7 | 0 | 7 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 2,5 kg (BTY-X5839800320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | gyorsfagyasztott | Főkategória | 7 | 1 | 6 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 2,5 kg (BTY-X5839800320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | jelleg | Altípus | 7 | 5 | 2 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 250 g (120409907) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | kiszerelés | Altípus | 7 | 6 | 1 | 0 | Coop Gyorsan Kész gyorsfagyasztott májgombóc levesbetét 250 g (Coopshop 55307) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | laktózmentes | Alkategória | 7 | 0 | 7 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 2,5 kg (BTY-X5839800320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | mikrohullámú sütőben elkészíthető | Alkategória | 7 | 0 | 7 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 2,5 kg (BTY-X5839800320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | MSC / fenntartható halászat | Alkategória | 7 | 0 | 7 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 2,5 kg (BTY-X5839800320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | tejmentes | Alkategória | 7 | 0 | 7 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 2,5 kg (BTY-X5839800320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | terméktípus | Altípus | 7 | 6 | 1 | 0 | Coop Gyorsan Kész gyorsfagyasztott májgombóc levesbetét 250 g (Coopshop 55307) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | töltelék / ízesítés | Alkategória | 7 | 0 | 7 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 2,5 kg (BTY-X5839800320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | vegán/növényi | Alkategória | 7 | 0 | 7 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 2,5 kg (BTY-X5839800320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | étel / forma | Alkategória | 7 | 0 | 7 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 2,5 kg (BTY-X5839800320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | íz | Alkategória | 7 | 0 | 7 | 0 | Nádudvari gyorsfagyasztott májgombóc levesbetét 2,5 kg (BTY-X5839800320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | alap | Altípus | 193 | 3 | 190 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | bio | Főkategória | 193 | 13 | 180 | 0 | Dr. Oetker Guseppe gyorsfagyasztott bagett gombával, paradicsommal és sajttal 2 x 125 g (250 g) (Auchan 825860:4363250) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | csípős | Altípus | 193 | 1 | 192 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | előkészítés | Altípus | 193 | 6 | 187 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | feltét | Altípus | 193 | 54 | 139 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | feltét / ízesítés | Altípus | 193 | 86 | 107 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | forma | Altípus | 193 | 53 | 140 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | gluténmentes | Altípus | 193 | 60 | 133 | 0 | TRATTORIA ALFREDO Pizza Margherita (10031977) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | gyorsfagyasztott | Főkategória | 193 | 26 | 167 | 0 | Dr. Oetker Guseppe gyorsfagyasztott bagett gombával, paradicsommal és sajttal 2 x 125 g (250 g) (Auchan 825860:4363250) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | jelleg | Altípus | 193 | 53 | 140 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | jellemzők | Altípus | 193 | 1 | 192 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | kiszerelés | Altípus | 193 | 101 | 92 | 0 | Dr. Oetker Guseppe gyorsfagyasztott bagett gombával, paradicsommal és sajttal 2 x 125 g (250 g) (Auchan 825860:4363250) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | laktózmentes | Alkategória | 193 | 51 | 142 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | mikrohullámú sütőben elkészíthető | Alkategória | 193 | 58 | 135 | 0 | TRATTORIA ALFREDO Pizza Margherita (10031977) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | MSC / fenntartható halászat | Alkategória | 193 | 51 | 142 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | pizza feltét | Altípus | 193 | 22 | 171 | 0 | Dr. Oetker Guseppe gyorsfagyasztott bagett gombával, paradicsommal és sajttal 2 x 125 g (250 g) (Auchan 825860:4363250) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | tejmentes | Alkategória | 193 | 51 | 142 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | termékcsalád | Altípus | 193 | 17 | 176 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | terméktípus | Altípus | 193 | 128 | 65 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | töltelék / ízesítés | Alkategória | 193 | 0 | 148 | 45 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | vegán/növényi | Alkategória | 193 | 58 | 135 | 0 | TRATTORIA ALFREDO Pizza Margherita (10031977) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | étel / forma | Altípus | 193 | 107 | 86 | 0 | Fine Life Hawaii Fagyasztott Pizza 320 g (BTY-X16485500320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | íz | Altípus | 193 | 81 | 112 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | bio | Főkategória | 18 | 5 | 13 | 0 | CHEF SELECT Baguette (10101515) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | feltét | Altípus | 18 | 2 | 16 | 0 | AMERICAN Pizzakenyér-fokhagymás, 236 g (Aldi 4597575) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | feltét / ízesítés | Alkategória | 18 | 5 | 13 | 0 | CHEF SELECT Baguette (10101515) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | forma | Altípus | 18 | 7 | 11 | 0 | AMERICAN Pizzakenyér-fokhagymás, 236 g (Aldi 4597575) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | gluténmentes | Altípus | 18 | 6 | 12 | 0 | CHEF SELECT Baguette (10101515) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | gyorsfagyasztott | Főkategória | 18 | 5 | 13 | 0 | CHEF SELECT Baguette (10101515) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | jelleg | Altípus | 18 | 5 | 13 | 0 | AMERICAN Pizzakenyér-fokhagymás, 236 g (Aldi 4597575) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | jellemzők | Altípus | 18 | 1 | 17 | 0 | AMERICAN Pizzakenyér-fokhagymás, 236 g (Aldi 4597575) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | kiszerelés | Altípus | 18 | 13 | 5 | 0 | CHEF SELECT Baguette (10101515) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | laktózmentes | Alkategória | 18 | 4 | 14 | 0 | AMERICAN Pizzakenyér-fokhagymás, 236 g (Aldi 4597575) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | mikrohullámú sütőben elkészíthető | Alkategória | 18 | 5 | 13 | 0 | CHEF SELECT Baguette (10101515) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | MSC / fenntartható halászat | Alkategória | 18 | 4 | 14 | 0 | AMERICAN Pizzakenyér-fokhagymás, 236 g (Aldi 4597575) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | tejmentes | Alkategória | 18 | 4 | 14 | 0 | AMERICAN Pizzakenyér-fokhagymás, 236 g (Aldi 4597575) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | terméktípus | Altípus | 18 | 11 | 7 | 0 | AMERICAN Pizzakenyér-fokhagymás, 236 g (Aldi 4597575) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | töltelék | Altípus | 18 | 1 | 17 | 0 | AMERICAN Pizzakenyér-fokhagymás, 236 g (Aldi 4597575) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | töltelék / ízesítés | Alkategória | 18 | 0 | 18 | 0 | AMERICAN Pizzakenyér-fokhagymás, 236 g (Aldi 4597575) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | vegán/növényi | Alkategória | 18 | 5 | 13 | 0 | CHEF SELECT Baguette (10101515) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | étel / forma | Altípus | 18 | 9 | 9 | 0 | Dr. Oetker Guseppe gyorsfagyasztott bagett gombával, paradicsommal és sajttal 2 x 125 g (250 g) (BTY-X18198700320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | íz | Altípus | 18 | 7 | 11 | 0 | AMERICAN Pizzakenyér-fokhagymás, 236 g (Aldi 4597575) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | bio | Főkategória | 20 | 3 | 17 | 0 | MCENNEDY Deli Pocket (10107895) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | feltét / ízesítés | Alkategória | 20 | 0 | 20 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | forma | Altípus | 20 | 4 | 16 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | gluténmentes | Alkategória | 20 | 3 | 17 | 0 | MCENNEDY Deli Pocket (10107895) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | gyorsfagyasztott | Főkategória | 20 | 3 | 17 | 0 | MCENNEDY Deli Pocket (10107895) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | jelleg | Altípus | 20 | 4 | 16 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | jellemzők | Altípus | 20 | 1 | 19 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | kiszerelés | Altípus | 20 | 16 | 4 | 0 | MCENNEDY Deli Pocket (10107895) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | laktózmentes | Alkategória | 20 | 0 | 20 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | mentes | Altípus | 20 | 2 | 18 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | mikrohullámú sütőben elkészíthető | Alkategória | 20 | 3 | 17 | 0 | MCENNEDY Deli Pocket (10107895) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | MSC / fenntartható halászat | Alkategória | 20 | 0 | 20 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | tejmentes | Alkategória | 20 | 0 | 20 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | terméktípus | Altípus | 20 | 16 | 4 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | töltelék | Altípus | 20 | 3 | 17 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | töltelék / ízesítés | Alkategória | 20 | 3 | 17 | 0 | MCENNEDY Deli Pocket (10107895) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | vegán/növényi | Alkategória | 20 | 3 | 17 | 0 | MCENNEDY Deli Pocket (10107895) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | étel / forma | Altípus | 20 | 4 | 16 | 0 | METRO Chef Gyorsfagyasztott Falafel 1 kg (BTY-X18167200320021) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | íz | Altípus | 20 | 4 | 16 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | ízesítés | Altípus | 20 | 1 | 19 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | összetevő | Altípus | 20 | 2 | 18 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | bio | Főkategória | 4 | 2 | 2 | 0 | Elősütött gyorsfagyasztott szendvics zsemle 10 db 570 g (220341593) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | feltét / ízesítés | Alkategória | 4 | 2 | 2 | 0 | Elősütött gyorsfagyasztott szendvics zsemle 10 db 570 g (220341593) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | forma | Alkategória | 4 | 0 | 4 | 0 | ENJOY FREE! Magvas szendvicsalap, gluténmentes, tejmentes, 8 x 80 g (Aldi 949100) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | gluténmentes | Alkategória | 4 | 2 | 2 | 0 | Elősütött gyorsfagyasztott szendvics zsemle 10 db 570 g (220341593) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | gyorsfagyasztott | Főkategória | 4 | 2 | 2 | 0 | Elősütött gyorsfagyasztott szendvics zsemle 10 db 570 g (220341593) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | jelleg | Alkategória | 4 | 0 | 4 | 0 | ENJOY FREE! Magvas szendvicsalap, gluténmentes, tejmentes, 8 x 80 g (Aldi 949100) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | laktózmentes | Alkategória | 4 | 2 | 2 | 0 | Elősütött gyorsfagyasztott szendvics zsemle 10 db 570 g (220341593) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | mikrohullámú sütőben elkészíthető | Alkategória | 4 | 2 | 2 | 0 | Elősütött gyorsfagyasztott szendvics zsemle 10 db 570 g (220341593) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | MSC / fenntartható halászat | Alkategória | 4 | 2 | 2 | 0 | Elősütött gyorsfagyasztott szendvics zsemle 10 db 570 g (220341593) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | tejmentes | Alkategória | 4 | 2 | 2 | 0 | Elősütött gyorsfagyasztott szendvics zsemle 10 db 570 g (220341593) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | terméktípus | Altípus | 4 | 2 | 2 | 0 | ENJOY FREE! Magvas szendvicsalap, gluténmentes, tejmentes, 8 x 80 g (Aldi 949100) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | töltelék / ízesítés | Alkategória | 4 | 0 | 4 | 0 | ENJOY FREE! Magvas szendvicsalap, gluténmentes, tejmentes, 8 x 80 g (Aldi 949100) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | vegán/növényi | Alkategória | 4 | 2 | 2 | 0 | Elősütött gyorsfagyasztott szendvics zsemle 10 db 570 g (220341593) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | állapot | Altípus | 4 | 2 | 2 | 0 | ENJOY FREE! Magvas szendvicsalap, gluténmentes, tejmentes, 8 x 80 g (Aldi 949100) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | étel / forma | Alkategória | 4 | 2 | 2 | 0 | Elősütött gyorsfagyasztott szendvics zsemle 10 db 570 g (220341593) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | íz | Alkategória | 4 | 0 | 4 | 0 | ENJOY FREE! Magvas szendvicsalap, gluténmentes, tejmentes, 8 x 80 g (Aldi 949100) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | bio | Főkategória | 7 | 3 | 4 | 0 | VITASIA Tavaszi tekercs (10106890) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | feltét / ízesítés | Alkategória | 7 | 0 | 7 | 0 | ASIA GREEN GARDEN Tavaszi tekercs csirkés, 400 g (Aldi 780437) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | forma | Alkategória | 7 | 0 | 7 | 0 | ASIA GREEN GARDEN Tavaszi tekercs csirkés, 400 g (Aldi 780437) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | gluténmentes | Alkategória | 7 | 3 | 4 | 0 | VITASIA Tavaszi tekercs (10106890) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | gyorsfagyasztott | Főkategória | 7 | 3 | 4 | 0 | VITASIA Tavaszi tekercs (10106890) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | jelleg | Alkategória | 7 | 0 | 7 | 0 | ASIA GREEN GARDEN Tavaszi tekercs csirkés, 400 g (Aldi 780437) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | kiszerelés | Altípus | 7 | 5 | 2 | 0 | VITASIA Tavaszi tekercs (10106890) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | laktózmentes | Alkategória | 7 | 0 | 7 | 0 | ASIA GREEN GARDEN Tavaszi tekercs csirkés, 400 g (Aldi 780437) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | mikrohullámú sütőben elkészíthető | Alkategória | 7 | 3 | 4 | 0 | VITASIA Tavaszi tekercs (10106890) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | MSC / fenntartható halászat | Alkategória | 7 | 0 | 7 | 0 | ASIA GREEN GARDEN Tavaszi tekercs csirkés, 400 g (Aldi 780437) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | tejmentes | Alkategória | 7 | 0 | 7 | 0 | ASIA GREEN GARDEN Tavaszi tekercs csirkés, 400 g (Aldi 780437) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | terméktípus | Altípus | 7 | 2 | 5 | 0 | ASIA GREEN GARDEN Tavaszi tekercs csirkés, 400 g (Aldi 780437) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | töltelék / ízesítés | Altípus | 7 | 4 | 3 | 0 | VITASIA Tavaszi tekercs (10106890) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | vegán/növényi | Alkategória | 7 | 3 | 4 | 0 | VITASIA Tavaszi tekercs (10106890) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | étel / forma | Altípus | 7 | 5 | 2 | 0 | Tesco gyorsfagyasztott zöldségek keveréke filo tésztába tekerve 12 db 216 g (100976945) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | íz | Alkategória | 7 | 0 | 7 | 0 | ASIA GREEN GARDEN Tavaszi tekercs csirkés, 400 g (Aldi 780437) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | összetevő | Altípus | 7 | 1 | 6 | 0 | ASIA GREEN GARDEN Tavaszi tekercs csirkés, 400 g (Aldi 780437) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | bio | Főkategória | 8 | 0 | 8 | 0 | Auchan Tipp lasagne 1000 g (Auchan 765684:4303074) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | feltét / ízesítés | Altípus | 8 | 4 | 4 | 0 | FRoSTA gyorsfagyasztott lazacos tészta 400 g (220322640) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | forma | Alkategória | 8 | 0 | 8 | 0 | Auchan Tipp lasagne 1000 g (Auchan 765684:4303074) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | gluténmentes | Alkategória | 8 | 1 | 7 | 0 | VITASIA Tészta zöldségekkel (10106888) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | gyorsfagyasztott | Főkategória | 8 | 0 | 8 | 0 | Auchan Tipp lasagne 1000 g (Auchan 765684:4303074) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | jelleg | Alkategória | 8 | 0 | 8 | 0 | Auchan Tipp lasagne 1000 g (Auchan 765684:4303074) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | kiszerelés | Altípus | 8 | 4 | 4 | 0 | Auchan Tipp lasagne 1000 g (Auchan 765684:4303074) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | laktózmentes | Alkategória | 8 | 1 | 7 | 0 | VITASIA Tészta zöldségekkel (10106888) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | mentes | Altípus | 8 | 1 | 7 | 0 | Auchan Tipp lasagne 1000 g (Auchan 765684:4303074) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | mikrohullámú sütőben elkészíthető | Alkategória | 8 | 1 | 7 | 0 | VITASIA Tészta zöldségekkel (10106888) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | MSC / fenntartható halászat | Alkategória | 8 | 1 | 7 | 0 | VITASIA Tészta zöldségekkel (10106888) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | tejmentes | Alkategória | 8 | 1 | 7 | 0 | VITASIA Tészta zöldségekkel (10106888) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | terméktípus | Altípus | 8 | 4 | 4 | 0 | Auchan Tipp lasagne 1000 g (Auchan 765684:4303074) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | töltelék | Altípus | 8 | 1 | 7 | 0 | Auchan Tipp lasagne 1000 g (Auchan 765684:4303074) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | töltelék / ízesítés | Alkategória | 8 | 0 | 7 | 1 | Auchan Tipp lasagne 1000 g (Auchan 765684:4303074) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | vegán/növényi | Alkategória | 8 | 1 | 7 | 0 | VITASIA Tészta zöldségekkel (10106888) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | étel / forma | Altípus | 8 | 4 | 4 | 0 | FRoSTA gyorsfagyasztott lazacos tészta 400 g (220322640) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | íz | Alkategória | 8 | 0 | 8 | 0 | Auchan Tipp lasagne 1000 g (Auchan 765684:4303074) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | összetevő | Altípus | 8 | 1 | 7 | 0 | Auchan Tipp lasagne 1000 g (Auchan 765684:4303074) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | bio | Főkategória | 14 | 0 | 14 | 0 | Vici gyorsfagyasztott, előfőzött gombóc csirkével és fekete fungus gombával 400 g (Auchan 409954:3947320) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | feltét / ízesítés | Alkategória | 14 | 6 | 8 | 0 | AKIRA Teriyaki csirkével töltött gombóc (10106892) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | forma | Alkategória | 14 | 0 | 14 | 0 | Vici gyorsfagyasztott, előfőzött gombóc csirkével és fekete fungus gombával 400 g (Auchan 409954:3947320) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | gluténmentes | Alkategória | 14 | 6 | 8 | 0 | AKIRA Teriyaki csirkével töltött gombóc (10106892) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | gyorsfagyasztott | Főkategória | 14 | 1 | 13 | 0 | Vici gyorsfagyasztott, előfőzött gombóc csirkével és fekete fungus gombával 400 g (Auchan 409954:3947320) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | jelleg | Alkategória | 14 | 0 | 14 | 0 | Vici gyorsfagyasztott, előfőzött gombóc csirkével és fekete fungus gombával 400 g (Auchan 409954:3947320) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | jellemzők | Altípus | 14 | 1 | 13 | 0 | Vici gyorsfagyasztott, előfőzött gombóc csirkével és fekete fungus gombával 400 g (Auchan 409954:3947320) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | kiszerelés | Alkategória | 14 | 0 | 14 | 0 | Vici gyorsfagyasztott, előfőzött gombóc csirkével és fekete fungus gombával 400 g (Auchan 409954:3947320) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | laktózmentes | Alkategória | 14 | 6 | 8 | 0 | AKIRA Teriyaki csirkével töltött gombóc (10106892) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | mikrohullámú sütőben elkészíthető | Alkategória | 14 | 6 | 8 | 0 | AKIRA Teriyaki csirkével töltött gombóc (10106892) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | MSC / fenntartható halászat | Alkategória | 14 | 6 | 8 | 0 | AKIRA Teriyaki csirkével töltött gombóc (10106892) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | tejmentes | Alkategória | 14 | 6 | 8 | 0 | AKIRA Teriyaki csirkével töltött gombóc (10106892) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | terméktípus | Altípus | 14 | 1 | 13 | 0 | Vici gyorsfagyasztott, előfőzött gombóc csirkével és fekete fungus gombával 400 g (Auchan 409954:3947320) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | töltelék | Altípus | 14 | 1 | 13 | 0 | Vici gyorsfagyasztott, előfőzött gombóc csirkével és fekete fungus gombával 400 g (Auchan 409954:3947320) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | töltelék / ízesítés | Altípus | 14 | 6 | 2 | 6 | Vici gyorsfagyasztott, előfőzött gombóc csirkével és fekete fungus gombával 400 g (Auchan 409954:3947320) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | vegán/növényi | Alkategória | 14 | 6 | 8 | 0 | AKIRA Teriyaki csirkével töltött gombóc (10106892) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | étel / forma | Altípus | 14 | 12 | 2 | 0 | Bibigo Gyoza gyorsfagyasztott tofuval és zöldségekkel töltött gombócok 300 g (46388fab9e6325bd6f36c035) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | íz | Alkategória | 14 | 0 | 14 | 0 | Vici gyorsfagyasztott, előfőzött gombóc csirkével és fekete fungus gombával 400 g (Auchan 409954:3947320) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | bio | Főkategória | 14 | 4 | 10 | 0 | Fanan Falafel csicseriborsó fasírt 450 g (Auchan 632714:4170104) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | feltét / ízesítés | Alkategória | 14 | 1 | 13 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (Auchan 1027399:4564789) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | forma | Alkategória | 14 | 0 | 14 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (Auchan 1027399:4564789) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | gluténmentes | Alkategória | 14 | 5 | 9 | 0 | Living Foods elősütött gyorsfagyasztott húsmentes golyók 400 g (7919841498af3a2aa77f8ade) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | gyorsfagyasztott | Főkategória | 14 | 4 | 10 | 0 | Fanan Falafel csicseriborsó fasírt 450 g (Auchan 632714:4170104) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | jelleg | Alkategória | 14 | 0 | 14 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (Auchan 1027399:4564789) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | jellemzők | Altípus | 14 | 2 | 12 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (Auchan 1027399:4564789) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | kiszerelés | Altípus | 14 | 10 | 4 | 0 | Fanan Falafel csicseriborsó fasírt 450 g (Auchan 632714:4170104) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | laktózmentes | Alkategória | 14 | 5 | 9 | 0 | Living Foods elősütött gyorsfagyasztott húsmentes golyók 400 g (7919841498af3a2aa77f8ade) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | mentes | Altípus | 14 | 3 | 11 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (Auchan 1027399:4564789) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | mikrohullámú sütőben elkészíthető | Alkategória | 14 | 5 | 9 | 0 | Living Foods elősütött gyorsfagyasztott húsmentes golyók 400 g (7919841498af3a2aa77f8ade) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | MSC / fenntartható halászat | Alkategória | 14 | 5 | 9 | 0 | Living Foods elősütött gyorsfagyasztott húsmentes golyók 400 g (7919841498af3a2aa77f8ade) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | tejmentes | Alkategória | 14 | 5 | 9 | 0 | Living Foods elősütött gyorsfagyasztott húsmentes golyók 400 g (7919841498af3a2aa77f8ade) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | terméktípus | Altípus | 14 | 9 | 5 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (Auchan 1027399:4564789) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | töltelék / ízesítés | Alkategória | 14 | 2 | 11 | 1 | Living Foods vegán nuggets 400 g (Auchan 765423:4302813) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | vegán | Altípus | 14 | 2 | 12 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (Auchan 1027399:4564789) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | vegán/növényi | Alkategória | 14 | 5 | 9 | 0 | Living Foods elősütött gyorsfagyasztott húsmentes golyók 400 g (7919841498af3a2aa77f8ade) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | étel / forma | Alkategória | 14 | 5 | 9 | 0 | Living Foods elősütött gyorsfagyasztott húsmentes golyók 400 g (7919841498af3a2aa77f8ade) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | íz | Altípus | 14 | 1 | 13 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (Auchan 1027399:4564789) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | összetevő | Altípus | 14 | 4 | 10 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (Auchan 1027399:4564789) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | bio | Főkategória | 5 | 0 | 5 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | feltét / ízesítés | Alkategória | 5 | 0 | 5 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | forma | Alkategória | 5 | 0 | 5 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | gluténmentes | Alkategória | 5 | 0 | 5 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | gyorsfagyasztott | Főkategória | 5 | 1 | 4 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | jelleg | Alkategória | 5 | 0 | 5 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | kiszerelés | Altípus | 5 | 4 | 1 | 0 | FRoSTA gyorsfagyasztott, elősütött spenótos burger bazsalikommal 2 db 200 g (Coopshop 48433) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | laktózmentes | Alkategória | 5 | 0 | 5 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | mikrohullámú sütőben elkészíthető | Alkategória | 5 | 0 | 5 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | MSC / fenntartható halászat | Alkategória | 5 | 0 | 5 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | tejmentes | Alkategória | 5 | 0 | 5 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | terméktípus | Altípus | 5 | 4 | 1 | 0 | FRoSTA gyorsfagyasztott, elősütött spenótos burger bazsalikommal 2 db 200 g (Coopshop 48433) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | töltelék / ízesítés | Alkategória | 5 | 0 | 5 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | vegán/növényi | Alkategória | 5 | 1 | 4 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | étel / forma | Alkategória | 5 | 0 | 5 | 0 | Bonduelle Mini Veggie gyorsfagyasztott panírozott és elősütött sajtos zöldségkorong 240 g (105342098) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | íz | Altípus | 5 | 4 | 1 | 0 | FRoSTA gyorsfagyasztott, elősütött spenótos burger bazsalikommal 2 db 200 g (Coopshop 48433) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | bio | Főkategória | 3 | 0 | 3 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | feltét / ízesítés | Alkategória | 3 | 0 | 3 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | forma | Alkategória | 3 | 0 | 3 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | gluténmentes | Alkategória | 3 | 0 | 3 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | gyorsfagyasztott | Főkategória | 3 | 1 | 2 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | jelleg | Alkategória | 3 | 0 | 3 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | jellemzők | Altípus | 3 | 2 | 1 | 0 | Sága gyorsfagyasztott vegán burger 450 g (Coopshop 52958) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | kiszerelés | Altípus | 3 | 2 | 1 | 0 | Sága gyorsfagyasztott vegán burger 450 g (Coopshop 52958) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | laktózmentes | Alkategória | 3 | 0 | 3 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | mikrohullámú sütőben elkészíthető | Alkategória | 3 | 0 | 3 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | MSC / fenntartható halászat | Alkategória | 3 | 0 | 3 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | tejmentes | Alkategória | 3 | 0 | 3 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | terméktípus | Altípus | 3 | 2 | 1 | 0 | Sága gyorsfagyasztott vegán burger 450 g (Coopshop 52958) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | töltelék / ízesítés | Alkategória | 3 | 0 | 3 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | vegán/növényi | Alkategória | 3 | 1 | 2 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | étel / forma | Alkategória | 3 | 0 | 3 | 0 | FRoSTA gyorsfagyasztott, elősütött édesburgonyás burger 2 db 216 g (220303985) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | íz | Altípus | 3 | 2 | 1 | 0 | Sága gyorsfagyasztott vegán burger 450 g (Coopshop 52958) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | bio | Főkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | feltét / ízesítés | Alkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | forma | Alkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | gluténmentes | Alkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | gyorsfagyasztott | Főkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | jelleg | Alkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | laktózmentes | Alkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | mikrohullámú sütőben elkészíthető | Alkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | MSC / fenntartható halászat | Alkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | tejmentes | Alkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | töltelék / ízesítés | Alkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | vegán/növényi | Alkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | étel / forma | Alkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | íz | Alkategória | 1 | 0 | 1 | 0 | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | bio | Főkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | feltét / ízesítés | Alkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | forma | Alkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | gabonafélék | Altípus | 3 | 2 | 1 | 0 | Fevita gyorsfagyasztott rizses zöldségkeverék 450 g (Coopshop 41677) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | gluténmentes | Alkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | gyorsfagyasztott | Főkategória | 3 | 1 | 2 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | jelleg | Alkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | kiszerelés | Altípus | 3 | 2 | 1 | 0 | Fevita gyorsfagyasztott rizses zöldségkeverék 450 g (Coopshop 41677) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | laktózmentes | Alkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | mikrohullámú sütőben elkészíthető | Alkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | MSC / fenntartható halászat | Alkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | tejmentes | Alkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | terméktípus | Altípus | 3 | 2 | 1 | 0 | Fevita gyorsfagyasztott rizses zöldségkeverék 450 g (Coopshop 41677) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | töltelék / ízesítés | Alkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | vegán/növényi | Alkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | étel / forma | Alkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | íz | Alkategória | 3 | 0 | 3 | 0 | Ledo Bulgur Mix gyorsfagyasztott zöldségek bulgárral és árpával 400 g (105011533) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | alap | Alkategória | 3 | 0 | 3 | 0 | CHEF SELECT Panírozott falatok (10107327) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | alapanyag | Altípus | 3 | 2 | 1 | 0 | CHEF SELECT Panírozott falatok (10107327) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | bio | Főkategória | 3 | 0 | 3 | 0 | CHEF SELECT Panírozott falatok (10107327) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | forma | Altípus | 3 | 1 | 2 | 0 | Sága Vegán gyorsfagyasztott készre sütött panírozott csíkok 450 g (Coopshop 52962) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | gluténmentes | Alkategória | 3 | 0 | 3 | 0 | CHEF SELECT Panírozott falatok (10107327) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | gyorsfagyasztott | Főkategória | 3 | 2 | 1 | 0 | CHEF SELECT Panírozott falatok (10107327) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | jelleg | Alkategória | 3 | 0 | 3 | 0 | CHEF SELECT Panírozott falatok (10107327) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | kiszerelés | Alkategória | 3 | 0 | 3 | 0 | CHEF SELECT Panírozott falatok (10107327) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | laktózmentes | Alkategória | 3 | 0 | 3 | 0 | CHEF SELECT Panírozott falatok (10107327) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | terméktípus | Alkategória | 3 | 0 | 3 | 0 | CHEF SELECT Panírozott falatok (10107327) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | vegán/növényi | Alkategória | 3 | 2 | 1 | 0 | CHEF SELECT Panírozott falatok (10107327) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | ízesítés | Alkategória | 3 | 0 | 3 | 0 | CHEF SELECT Panírozott falatok (10107327) |
+| Fagyasztott áruk → Fagyasztott desszert | alap | Alkategória | 171 | 1 | 170 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | bio | Főkategória | 171 | 14 | 157 | 0 | Auchan Kedvenc Ízes derelye gyorsfagyasztott 600 g (Auchan 144328:3681577) |
+| Fagyasztott áruk → Fagyasztott desszert | desszert típusa | Alkategória | 171 | 55 | 116 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | forma | Alkategória | 171 | 83 | 88 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | gluténmentes | Alkategória | 171 | 41 | 130 | 0 | Auchan Tipp Gesztenyés desszert gyorsfagyasztott 200 g (Auchan 150424:3687670) |
+| Fagyasztott áruk → Fagyasztott desszert | gyorsfagyasztott | Alkategória | 171 | 50 | 121 | 0 | Auchan Kedvenc Ízes derelye gyorsfagyasztott 600 g (Auchan 144328:3681577) |
+| Fagyasztott áruk → Fagyasztott desszert | hozzáadott cukor nélkül | Alkategória | 171 | 27 | 144 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | jelleg | Alkategória | 171 | 54 | 117 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | jellemzők | Alkategória | 171 | 2 | 169 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | kiszerelés | Alkategória | 171 | 94 | 77 | 0 | Auchan Kedvenc Ízes derelye gyorsfagyasztott 600 g (Auchan 144328:3681577) |
+| Fagyasztott áruk → Fagyasztott desszert | laktózmentes | Alkategória | 171 | 27 | 144 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | mentes | Alkategória | 171 | 4 | 167 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | minőség | Alkategória | 171 | 1 | 170 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | márka | Alkategória | 171 | 168 | 3 | 0 | Gyorsfagyasztott gesztenyés desszert 200 g (Coopshop 50521) |
+| Fagyasztott áruk → Fagyasztott desszert | terméktípus | Alkategória | 171 | 101 | 70 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | töltelék | Alkategória | 171 | 16 | 155 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | töltelék / íz | Alkategória | 171 | 54 | 117 | 0 | Auchan Tipp Gesztenyés desszert gyorsfagyasztott 200 g (Auchan 150424:3687670) |
+| Fagyasztott áruk → Fagyasztott desszert | vegán/növényi | Alkategória | 171 | 36 | 135 | 0 | Auchan Tipp Gesztenyés desszert gyorsfagyasztott 200 g (Auchan 150424:3687670) |
+| Fagyasztott áruk → Fagyasztott desszert | állapot | Alkategória | 171 | 3 | 168 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | édesítés | Alkategória | 171 | 1 | 170 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott desszert | íz | Alkategória | 171 | 68 | 103 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | alap | Alkategória | 90 | 42 | 48 | 0 | ALL SEASONS Gyümölcsleves alap, 500 g (Aldi 1030668) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | bio | Főkategória | 90 | 8 | 82 | 0 | Auchan Kedvenc Magozott felezett szilva gyorsfagyasztott 500 g (Auchan 50100:50436) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | darabolt | Alkategória | 90 | 24 | 66 | 0 | FRESHONA Gyümölcsmix (10104541) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | felhasználás | Alkategória | 90 | 5 | 85 | 0 | ALL SEASONS Gyümölcs mangó, 750 g (Aldi 991350) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | forma | Alkategória | 90 | 47 | 43 | 0 | ALL SEASONS Gyümölcsleves alap, 500 g (Aldi 1030668) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | gyorsfagyasztott | Alkategória | 90 | 12 | 78 | 0 | Auchan Kedvenc Magozott felezett szilva gyorsfagyasztott 500 g (Auchan 50100:50436) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | gyümölcs | Alkategória | 90 | 39 | 51 | 0 | METRO Chef Gyorsfagyasztott Rebarbara 1 kg (BTY-X14941000320021) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | gyümölcscsoport | Alkategória | 90 | 89 | 1 | 0 | METRO Chef Gyorsfagyasztott Rebarbara 1 kg (BTY-X14941000320021) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | jelleg | Alkategória | 90 | 42 | 48 | 0 | ALL SEASONS Gyümölcsleves alap, 500 g (Aldi 1030668) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | keverék stílus | Alkategória | 90 | 2 | 88 | 0 | ALL SEASONS Gyümölcsleves alap, 500 g (Aldi 1030668) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | kiszerelés | Alkategória | 90 | 62 | 28 | 0 | Auchan Kedvenc Magozott felezett szilva gyorsfagyasztott 500 g (Auchan 50100:50436) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | magozott | Alkategória | 90 | 23 | 67 | 0 | FRESHONA Avokádó kocka (10101547) |
+| Fagyasztott áruk → Fagyasztott gyümölcs | terméktípus | Alkategória | 90 | 61 | 29 | 0 | ALL SEASONS Gyümölcsleves alap, 500 g (Aldi 1030668) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | ASC / fenntartható akvakultúra | Alkategória | 9 | 1 | 8 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | bio | Főkategória | 9 | 1 | 8 | 0 | Rozmár pontytej és ikra 250 g (Auchan 626944:4164334) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | előkészítés | Alkategória | 9 | 0 | 9 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | feltét / ízesítés | Alkategória | 9 | 0 | 8 | 1 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | glazúrozott | Alkategória | 9 | 0 | 9 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | gluténmentes | Alkategória | 9 | 1 | 8 | 0 | Rozmár pontytej és ikra 250 g (Auchan 626944:4164334) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | gyorsfagyasztott | Alkategória | 9 | 1 | 8 | 0 | Rozmár pontytej és ikra 250 g (Auchan 626944:4164334) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | hal típusa | Alkategória | 9 | 0 | 9 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | halalap | Alkategória | 9 | 0 | 9 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | jelleg | Alkategória | 9 | 0 | 9 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | kiszerelés | Alkategória | 9 | 1 | 8 | 0 | Rozmár pontytej és ikra 250 g (Auchan 626944:4164334) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | laktózmentes | Alkategória | 9 | 1 | 8 | 0 | Rozmár pontytej és ikra 250 g (Auchan 626944:4164334) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | mentes | Alkategória | 9 | 0 | 9 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | mikrohullámú sütőben elkészíthető | Alkategória | 9 | 1 | 8 | 0 | Rozmár pontytej és ikra 250 g (Auchan 626944:4164334) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | MSC / fenntartható halászat | Alkategória | 9 | 2 | 7 | 0 | Ponty Belsőség Gyorsfagyasztott 500 g (BTY-X18662200320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | panír | Alkategória | 9 | 0 | 9 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | panírozott | Alkategória | 9 | 3 | 6 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | szósz | Alkategória | 9 | 0 | 9 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | tejmentes | Alkategória | 9 | 1 | 8 | 0 | Rozmár pontytej és ikra 250 g (Auchan 626944:4164334) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | terméktípus | Alkategória | 9 | 2 | 7 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | vegán/növényi | Alkategória | 9 | 1 | 8 | 0 | Rozmár pontytej és ikra 250 g (Auchan 626944:4164334) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | állapot | Alkategória | 9 | 0 | 9 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | étel / forma | Alkategória | 9 | 1 | 8 | 0 | Rozmár pontytej és ikra 250 g (Auchan 626944:4164334) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | íz | Alkategória | 9 | 0 | 9 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | ízesítés | Alkategória | 9 | 8 | 1 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru | ízesítés / panír | Alkategória | 9 | 1 | 8 | 0 | Fjord formázott lazac burger 2x100 g (Auchan 1046123:4583513) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | ASC / fenntartható akvakultúra | Alkategória | 127 | 27 | 100 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | bio | Főkategória | 127 | 18 | 109 | 0 | Frosta gyorsfagyasztott tepsis halfilé brokkolis szósszal 330 g (Auchan 147223:3684466) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | darabolás | Altípus | 127 | 3 | 124 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | előkészítés | Alkategória | 127 | 0 | 127 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | feltét / ízesítés | Alkategória | 127 | 7 | 108 | 12 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | forma | Altípus | 127 | 105 | 22 | 0 | Classic gyorsfagyasztott afrikai harcsafilé 540 g (fb34d718c3125049cbe81a93) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | glazúrozott | Altípus | 127 | 20 | 107 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | gluténmentes | Alkategória | 127 | 0 | 127 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | gyorsfagyasztott | Alkategória | 127 | 19 | 108 | 0 | Frosta gyorsfagyasztott tepsis halfilé brokkolis szósszal 330 g (Auchan 147223:3684466) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | hal típusa | Alkategória | 127 | 0 | 127 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | halalap | Alkategória | 127 | 0 | 127 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | halfajta | Altípus | 127 | 118 | 9 | 0 | Classic gyorsfagyasztott afrikai harcsafilé 540 g (fb34d718c3125049cbe81a93) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | jelleg | Alkategória | 127 | 3 | 124 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | kiszerelés | Altípus | 127 | 36 | 91 | 0 | Frosta gyorsfagyasztott tepsis halfilé brokkolis szósszal 330 g (Auchan 147223:3684466) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | laktózmentes | Alkategória | 127 | 0 | 127 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | mentes | Alkategória | 127 | 0 | 127 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | mikrohullámú sütőben elkészíthető | Alkategória | 127 | 0 | 127 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | MSC / fenntartható halászat | Alkategória | 127 | 33 | 94 | 0 | METRO Chef Gyorsfagyasztott Alaszkai Tőkehalfilé 2 kg (BTY-X17924100320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | panír | Alkategória | 127 | 0 | 127 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | panírozott | Alkategória | 127 | 31 | 96 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | szósz | Alkategória | 127 | 1 | 126 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | tejmentes | Alkategória | 127 | 0 | 127 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | terméktípus | Altípus | 127 | 23 | 104 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | vegán/növényi | Alkategória | 127 | 0 | 127 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | állapot | Alkategória | 127 | 0 | 127 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | étel / forma | Alkategória | 127 | 0 | 127 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | íz | Alkategória | 127 | 1 | 126 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | ízesítés | Altípus | 127 | 85 | 42 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | ízesítés / panír | Altípus | 127 | 40 | 87 | 0 | GOLDEN SEAFOOD Vadlazacfilé MSC-tanúsítás, 2 x 125 g (Aldi 533825) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | ASC / fenntartható akvakultúra | Alkategória | 15 | 3 | 12 | 0 | Classic Gyorsfagyasztott Halászlé Sűrítmény 200 g (BTY-X64251600320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | bio | Főkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | előkészítés | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | feltét / ízesítés | Alkategória | 15 | 3 | 12 | 0 | Classic Gyorsfagyasztott Halászlé Sűrítmény 200 g (BTY-X64251600320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | forma | Alkategória | 15 | 10 | 5 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (202659363) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | glazúrozott | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | gluténmentes | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | gyorsfagyasztott | Alkategória | 15 | 4 | 11 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | hal típusa | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | halalap | Alkategória | 15 | 2 | 13 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | halfajta | Altípus | 15 | 10 | 5 | 0 | Delforg gyorsfagyasztott halászlé sűrítmény 200 g (202659363) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | jelleg | Alkategória | 15 | 4 | 11 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | kiszerelés | Altípus | 15 | 4 | 11 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | laktózmentes | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | mentes | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | mikrohullámú sütőben elkészíthető | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | MSC / fenntartható halászat | Alkategória | 15 | 3 | 12 | 0 | Classic Gyorsfagyasztott Halászlé Sűrítmény 200 g (BTY-X64251600320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | panír | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | panírozott | Alkategória | 15 | 4 | 11 | 0 | Classic Gyorsfagyasztott Halászlé Sűrítmény 200 g (BTY-X64251600320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | szósz | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | tejmentes | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | terméktípus | Altípus | 15 | 14 | 1 | 0 | Gyorsfagyasztott Halászlé alap 2,5 kg (BTY-X18038700320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | töltelék / ízesítés | Altípus | 15 | 2 | 13 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | vegán/növényi | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | állapot | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | étel | Altípus | 15 | 1 | 14 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | étel / forma | Alkategória | 15 | 2 | 13 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | íz | Alkategória | 15 | 0 | 15 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Auchan 49650:49986) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | ízesítés | Alkategória | 15 | 8 | 7 | 0 | Gyorsfagyasztott balatonboglári halászlé sűrítmény 200 g (Penny 1052427) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | ízesítés / panír | Alkategória | 15 | 4 | 11 | 0 | Classic Gyorsfagyasztott Halászlé Sűrítmény 200 g (BTY-X64251600320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | ASC / fenntartható akvakultúra | Alkategória | 9 | 1 | 8 | 0 | Gyorsfagyasztott 40/60 Feketekagyló 1 kg (BTY-X17627600320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | bio | Főkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | előkészítés | Alkategória | 9 | 1 | 8 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | feltét / ízesítés | Alkategória | 9 | 0 | 8 | 1 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | forma | Alkategória | 9 | 7 | 2 | 0 | Bantry Bay Premium Seafoods gyorsfagyasztott kagyló fehérboros szószban 450 g (220341442) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | glazúrozott | Alkategória | 9 | 1 | 8 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | gluténmentes | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | gyorsfagyasztott | Alkategória | 9 | 1 | 8 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | hal típusa | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | halalap | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | halfajta | Alkategória | 9 | 7 | 2 | 0 | Bantry Bay Premium Seafoods gyorsfagyasztott kagyló fehérboros szószban 450 g (220341442) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | jelleg | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | kiszerelés | Alkategória | 9 | 2 | 7 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | laktózmentes | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | mentes | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | mikrohullámú sütőben elkészíthető | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | MSC / fenntartható halászat | Alkategória | 9 | 1 | 8 | 0 | Gyorsfagyasztott 40/60 Feketekagyló 1 kg (BTY-X17627600320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | márka | Alkategória | 9 | 8 | 1 | 0 | Előfőzött, glazúrozott, gyorsfagyasztott kagylóhús 450 g (210838002) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | panír | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | panírozott | Alkategória | 9 | 1 | 8 | 0 | Gyorsfagyasztott 40/60 Feketekagyló 1 kg (BTY-X17627600320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | szósz | Alkategória | 9 | 1 | 8 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | tejmentes | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | terméktípus | Alkategória | 9 | 2 | 7 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | vegán/növényi | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | állapot | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | étel / forma | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | íz | Alkategória | 9 | 0 | 9 | 0 | Auchan Kedvenc Főzött kagyló gyorsfagyasztott 400 g (Auchan 67934:3605015) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | ízesítés | Alkategória | 9 | 7 | 2 | 0 | Bantry Bay Premium Seafoods gyorsfagyasztott kagyló fehérboros szószban 450 g (220341442) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Kagyló | ízesítés / panír | Alkategória | 9 | 1 | 8 | 0 | Gyorsfagyasztott 40/60 Feketekagyló 1 kg (BTY-X17627600320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | ASC / fenntartható akvakultúra | Alkategória | 87 | 26 | 61 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | bio | Főkategória | 87 | 2 | 85 | 0 | Ocean Catch gyorsfagyasztott halrudak 250 g (Auchan 19594:19597) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | előkészítés | Alkategória | 87 | 0 | 87 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | feltét / ízesítés | Alkategória | 87 | 4 | 61 | 22 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | forma | Alkategória | 87 | 59 | 28 | 0 | OCEAN SEA MSC Alaszkai tőkehalfilé panírban (12140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | glazúrozott | Alkategória | 87 | 0 | 87 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | gluténmentes | Alkategória | 87 | 5 | 82 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | gyorsfagyasztott | Alkategória | 87 | 20 | 67 | 0 | Ocean Catch gyorsfagyasztott halrudak 250 g (Auchan 19594:19597) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | hal típusa | Alkategória | 87 | 8 | 79 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | halalap | Alkategória | 87 | 0 | 87 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | halfajta | Alkategória | 87 | 59 | 28 | 0 | OCEAN SEA Gluténmentes halrudacskák (10045464) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | jelleg | Alkategória | 87 | 0 | 87 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | kiszerelés | Altípus | 87 | 16 | 71 | 0 | Ocean Catch gyorsfagyasztott halrudak 250 g (Auchan 19594:19597) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | laktózmentes | Alkategória | 87 | 0 | 87 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | mentes | Alkategória | 87 | 2 | 85 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | mikrohullámú sütőben elkészíthető | Alkategória | 87 | 0 | 87 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | MSC / fenntartható halászat | Alkategória | 87 | 32 | 55 | 0 | OCEAN SEA Gluténmentes halrudacskák (10045464) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | panír | Alkategória | 87 | 2 | 85 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | panírozott | Alkategória | 87 | 66 | 21 | 0 | FRoSTA gyorsfagyasztott arany halrudak halfiléből 300 g (cd3a77feb21785bc3e493e90) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | szósz | Alkategória | 87 | 2 | 85 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | tejmentes | Alkategória | 87 | 0 | 87 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | terméktípus | Altípus | 87 | 27 | 60 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | vegán/növényi | Alkategória | 87 | 0 | 87 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | állapot | Alkategória | 87 | 4 | 83 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | étel / forma | Alkategória | 87 | 0 | 87 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | íz | Altípus | 87 | 2 | 85 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | ízesítés | Alkategória | 87 | 50 | 37 | 0 | Halrudacska MSC-tanúsítás 18 db, 450 g (Aldi 4597719) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | ízesítés / panír | Alkategória | 87 | 48 | 39 | 0 | OCEAN SEA Gluténmentes halrudacskák (10045464) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | ASC / fenntartható akvakultúra | Alkategória | 46 | 10 | 36 | 0 | VITASIA Garnéla (10106896) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | bio | Főkategória | 46 | 6 | 40 | 0 | Frozen Star gyorsfagyasztott koktélrák 250 g (Auchan 451522:3988912) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | előkészítés | Altípus | 46 | 3 | 43 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | feltét / ízesítés | Alkategória | 46 | 0 | 42 | 4 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | forma | Altípus | 46 | 38 | 8 | 0 | VITASIA Garnéla (10106896) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | glazúrozott | Altípus | 46 | 17 | 29 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | gluténmentes | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | gyorsfagyasztott | Alkategória | 46 | 6 | 40 | 0 | Frozen Star gyorsfagyasztott koktélrák 250 g (Auchan 451522:3988912) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | hal típusa | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | halalap | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | halfajta | Altípus | 46 | 39 | 7 | 0 | Royal gyorsfagyasztott előfőzött fekete tigrisrák 400 g (10ea75bedb3da5b56715d534) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | jelleg | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | kiszerelés | Altípus | 46 | 11 | 35 | 0 | Frozen Star gyorsfagyasztott koktélrák 250 g (Auchan 451522:3988912) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | laktózmentes | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | mentes | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | mikrohullámú sütőben elkészíthető | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | MSC / fenntartható halászat | Alkategória | 46 | 10 | 36 | 0 | VITASIA Garnéla (10106896) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | panír | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | panírozott | Altípus | 46 | 16 | 30 | 0 | VITASIA Garnéla (10106896) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | szósz | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | tejmentes | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | terméktípus | Altípus | 46 | 7 | 39 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | vegán/növényi | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | állapot | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | étel / forma | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | íz | Alkategória | 46 | 0 | 46 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | ízesítés | Altípus | 46 | 33 | 13 | 0 | Garnélafarok héjas nyers 500/ 375g (Auchan 628609:4165999) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | ízesítés / panír | Altípus | 46 | 11 | 35 | 0 | GOLDEN SEAFOOD Garnélarák ASC-tanúsítás (jégréteg nélküli tömeg), 250 g (225 g) (Aldi 540888) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | ASC / fenntartható akvakultúra | Alkategória | 4 | 2 | 2 | 0 | Seacon Surimi Rúd 18cm 500 g (BTY-X13391900320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | bio | Főkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | előkészítés | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | feltét / ízesítés | Alkategória | 4 | 0 | 2 | 2 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | forma | Alkategória | 4 | 3 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | glazúrozott | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | gluténmentes | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | gyorsfagyasztott | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | hal típusa | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | halalap | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | halfajta | Alkategória | 4 | 3 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | jelleg | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | kiszerelés | Altípus | 4 | 1 | 3 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | laktózmentes | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | mentes | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | mikrohullámú sütőben elkészíthető | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | MSC / fenntartható halászat | Alkategória | 4 | 2 | 2 | 0 | Seacon Surimi Rúd 18cm 500 g (BTY-X13391900320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | panír | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | panírozott | Alkategória | 4 | 2 | 2 | 0 | Seacon Surimi Rúd 18cm 500 g (BTY-X13391900320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | szósz | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | tejmentes | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | terméktípus | Altípus | 4 | 1 | 3 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | vegán/növényi | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | állapot | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | étel / forma | Alkategória | 4 | 0 | 4 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | íz | Altípus | 4 | 1 | 3 | 0 | Vici Premium gyorsfagyasztott, elősütött, panírozott mini koktélrák surimiból 170 g (Auchan 11137:11140) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | ízesítés | Alkategória | 4 | 3 | 1 | 0 | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | ízesítés / panír | Alkategória | 4 | 2 | 2 | 0 | Seacon Surimi Rúd 18cm 500 g (BTY-X13391900320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | ASC / fenntartható akvakultúra | Alkategória | 29 | 8 | 21 | 0 | METRO Chef Egész Gyorsfagyasztott Tarisznyarák 600–800 g (BTY-X18323400320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | bio | Főkategória | 29 | 4 | 25 | 0 | Royal gyorsfagyasztott tenger gyümölcsei 360 g (Auchan 102863:3640061) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | előkészítés | Altípus | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | feltét / ízesítés | Alkategória | 29 | 0 | 25 | 4 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | forma | Altípus | 29 | 25 | 4 | 0 | Royal gyorsfagyasztott tenger gyümölcsei 360 g (75271f9836edbfdac16a9862) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | glazúrozott | Altípus | 29 | 10 | 19 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | gluténmentes | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | gyorsfagyasztott | Alkategória | 29 | 4 | 25 | 0 | Royal gyorsfagyasztott tenger gyümölcsei 360 g (Auchan 102863:3640061) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | hal típusa | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | halalap | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | halfajta | Altípus | 29 | 25 | 4 | 0 | Royal gyorsfagyasztott tenger gyümölcsei 360 g (75271f9836edbfdac16a9862) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | jelleg | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | kiszerelés | Altípus | 29 | 7 | 22 | 0 | Royal gyorsfagyasztott tenger gyümölcsei 360 g (Auchan 102863:3640061) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | laktózmentes | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | mentes | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | mikrohullámú sütőben elkészíthető | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | MSC / fenntartható halászat | Alkategória | 29 | 8 | 21 | 0 | METRO Chef Egész Gyorsfagyasztott Tarisznyarák 600–800 g (BTY-X18323400320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | panír | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | panírozott | Altípus | 29 | 11 | 18 | 0 | METRO Chef Egész Gyorsfagyasztott Tarisznyarák 600–800 g (BTY-X18323400320021) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | szósz | Altípus | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | tejmentes | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | terméktípus | Altípus | 29 | 4 | 25 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | vegán/növényi | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | állapot | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | étel / forma | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | íz | Alkategória | 29 | 0 | 29 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | ízesítés | Altípus | 29 | 23 | 6 | 0 | Auchan Kedvenc Gyorsfagyasztott tenger gyümölcsei keverék 500/400 g (Auchan 524575:4061965) |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | ízesítés / panír | Altípus | 29 | 7 | 22 | 0 | GOLDEN SEAFOOD Tenger gyümölcsei olaszos, 350 g (Aldi 4599144) |
+| Fagyasztott áruk → Fagyasztott hús | bio | Főkategória | 26 | 4 | 22 | 0 | Gyorsfagyasztott Sous-Vide Csirkemellfilé kg (BTY-X16002200320021) |
+| Fagyasztott áruk → Fagyasztott hús | feldolgozás | Alkategória | 26 | 0 | 26 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | gluténmentes | Alkategória | 26 | 4 | 22 | 0 | Gyorsfagyasztott Sous-Vide Csirkemellfilé kg (BTY-X16002200320021) |
+| Fagyasztott áruk → Fagyasztott hús | gyorsfagyasztott | Alkategória | 26 | 4 | 22 | 0 | Gyorsfagyasztott Sous-Vide Csirkemellfilé kg (BTY-X16002200320021) |
+| Fagyasztott áruk → Fagyasztott hús | hús típusa | Alkategória | 26 | 0 | 26 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | kiszerelés | Alkategória | 26 | 14 | 12 | 0 | Gyorsfagyasztott Sous-Vide Csirkemellfilé kg (BTY-X16002200320021) |
+| Fagyasztott áruk → Fagyasztott hús | készre sütött | Alkategória | 26 | 0 | 26 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | laktózmentes | Alkategória | 26 | 4 | 22 | 0 | Gyorsfagyasztott Sous-Vide Csirkemellfilé kg (BTY-X16002200320021) |
+| Fagyasztott áruk → Fagyasztott hús | mentesség | Alkategória | 26 | 0 | 26 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | panír | Alkategória | 26 | 0 | 26 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | panírozott | Alkategória | 26 | 0 | 26 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | termékcsalád | Alkategória | 26 | 0 | 26 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | terméktípus | Alkategória | 26 | 11 | 15 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | töltelék | Alkategória | 26 | 0 | 26 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | állag | Alkategória | 26 | 0 | 26 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | állapot | Alkategória | 26 | 0 | 26 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | étel típusa | Alkategória | 26 | 0 | 26 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | íz | Alkategória | 26 | 0 | 26 | 0 | Marha pacal előfőzött csíkozott fagyasztott 1 kg (Auchan 191872:3729118) |
+| Fagyasztott áruk → Fagyasztott hús | ízesítés / panír | Alkategória | 26 | 15 | 11 | 0 | METRO Chef Csirke Kebab 2,5 kg (BTY-X18423100320021) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | bio | Főkategória | 51 | 8 | 43 | 0 | Gallio panírozott húsgolyó 600 g (Auchan 632588:4169978) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | feldolgozás | Alkategória | 51 | 0 | 51 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | gluténmentes | Alkategória | 51 | 13 | 38 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | gyorsfagyasztott | Altípus | 51 | 17 | 34 | 0 | Gallio panírozott húsgolyó 600 g (Auchan 632588:4169978) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | hús típusa | Altípus | 51 | 3 | 48 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | húsfajta | Altípus | 51 | 48 | 3 | 0 | Ripp-Ropp gyorsfagyasztott natúr vagdalt 1000 g (33aacad20d25116d0ece4a2a) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | jelleg | Altípus | 51 | 11 | 40 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | kiszerelés | Altípus | 51 | 26 | 25 | 0 | Gallio panírozott húsgolyó 600 g (Auchan 632588:4169978) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | készre sütött | Altípus | 51 | 13 | 38 | 0 | Gallio panírozott húsgolyó 600 g (Auchan 632588:4169978) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | laktózmentes | Alkategória | 51 | 12 | 39 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | mentesség | Alkategória | 51 | 0 | 51 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | panír | Alkategória | 51 | 0 | 51 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | panírozott | Alkategória | 51 | 1 | 50 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | termékcsalád | Alkategória | 51 | 0 | 51 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | terméktípus | Altípus | 51 | 21 | 30 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | töltelék | Altípus | 51 | 14 | 31 | 6 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | állag | Altípus | 51 | 1 | 50 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | állapot | Altípus | 51 | 3 | 48 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | étel típusa | Alkategória | 51 | 1 | 50 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | íz | Alkategória | 51 | 0 | 51 | 0 | PRIMANA Mini fasírtgolyók csípős gyorsfagyasztott, 500g (Aldi 559570) |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | ízesítés / panír | Altípus | 51 | 29 | 22 | 0 | PRIMANA Töltött csirkegolyó, sajtos, 500 g (Aldi 898997) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | bio | Főkategória | 84 | 1 | 83 | 0 | Master Good gyorsfagyasztott csirkemáj szív nélkül 500 g (Auchan 40375:40378) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | feldolgozás | Alkategória | 84 | 0 | 84 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | gluténmentes | Alkategória | 84 | 4 | 80 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | gyorsfagyasztott | Alkategória | 84 | 3 | 81 | 0 | Master Good gyorsfagyasztott csirkemáj szív nélkül 500 g (Auchan 40375:40378) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | hús típusa | Alkategória | 84 | 0 | 84 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | jelleg | Altípus | 84 | 11 | 73 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | kiszerelés | Altípus | 84 | 2 | 82 | 0 | Master Good gyorsfagyasztott csirkemáj szív nélkül 500 g (Auchan 40375:40378) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | készre sütött | Alkategória | 84 | 0 | 84 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | laktózmentes | Alkategória | 84 | 4 | 80 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | mentesség | Alkategória | 84 | 0 | 84 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | márka | Altípus | 84 | 83 | 1 | 0 | Coop konyhakész, fagyasztott csíkozott marhapacal 1 kg (Coopshop 177573) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | panír | Alkategória | 84 | 0 | 84 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | panírozott | Alkategória | 84 | 0 | 84 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | termékcsalád | Alkategória | 84 | 0 | 84 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | terméktípus | Altípus | 84 | 4 | 80 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | töltelék | Alkategória | 84 | 0 | 80 | 4 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | állag | Alkategória | 84 | 0 | 84 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | állapot | Alkategória | 84 | 0 | 84 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | étel típusa | Alkategória | 84 | 0 | 84 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | íz | Altípus | 84 | 0 | 84 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | ízesítés / panír | Altípus | 84 | 21 | 63 | 0 | PRIMANA Csirkemáj gyorsfagyasztott, 500 g (Aldi 748891) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | bio | Főkategória | 24 | 2 | 22 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (Auchan 868190:4405580) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | feldolgozás | Alkategória | 24 | 0 | 24 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | gluténmentes | Alkategória | 24 | 3 | 21 | 0 | Koliber Hamburger Pogácsa Marhahúsból (8 x 100 g) 800 g (BTY-X17557600320021) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | gyorsfagyasztott | Alkategória | 24 | 3 | 21 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (Auchan 868190:4405580) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | hús típusa | Alkategória | 24 | 0 | 24 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | jelleg | Alkategória | 24 | 17 | 7 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | kiszerelés | Altípus | 24 | 21 | 3 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (Auchan 868190:4405580) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | készre sütött | Alkategória | 24 | 3 | 21 | 0 | Natural Meat gyorsfagyasztott hamburgerhús 500 g (Auchan 868190:4405580) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | laktózmentes | Alkategória | 24 | 2 | 22 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | mentesség | Alkategória | 24 | 0 | 24 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | panír | Alkategória | 24 | 0 | 24 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | panírozott | Alkategória | 24 | 0 | 24 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | termékcsalád | Alkategória | 24 | 0 | 24 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | terméktípus | Altípus | 24 | 20 | 4 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | töltelék | Alkategória | 24 | 0 | 23 | 1 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | állag | Alkategória | 24 | 0 | 24 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | állapot | Alkategória | 24 | 0 | 24 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | étel típusa | Alkategória | 24 | 0 | 24 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | íz | Alkategória | 24 | 0 | 24 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | ízesítés / panír | Alkategória | 24 | 2 | 22 | 0 | AMERICAN Hamburger húspogácsa, 51 % marhahús, gyorsfagyasztott, 1 kg (Aldi 748858) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | bio | Főkategória | 196 | 13 | 183 | 0 | Bábolna gyorsfagyasztott bécsi szelet karajból, páclével 750 g (Auchan 65933:3603014) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | feldolgozás | Alkategória | 196 | 1 | 195 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | gluténmentes | Alkategória | 196 | 49 | 147 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | gyorsfagyasztott | Alkategória | 196 | 53 | 143 | 0 | Bábolna gyorsfagyasztott bécsi szelet karajból, páclével 750 g (Auchan 65933:3603014) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | hús típusa | Alkategória | 196 | 12 | 184 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | húsfajta | Alkategória | 196 | 195 | 1 | 0 | Ripp-Ropp gyorsfagyasztott nuggets 1000 g (Coopshop 56519) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | jelleg | Alkategória | 196 | 62 | 134 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | jellemzők | Altípus | 196 | 3 | 193 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | kiszerelés | Altípus | 196 | 91 | 105 | 0 | Bábolna gyorsfagyasztott bécsi szelet karajból, páclével 750 g (Auchan 65933:3603014) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | készre sütött | Alkategória | 196 | 32 | 164 | 0 | Auchan Kedvenc csípős csirkeszárny 750 g (Auchan 632360:4169750) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | laktózmentes | Alkategória | 196 | 40 | 156 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | mentesség | Alkategória | 196 | 1 | 195 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | panír | Alkategória | 196 | 6 | 190 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | panírozott | Alkategória | 196 | 40 | 156 | 0 | Auchan Kedvenc csípős csirkeszárny 750 g (Auchan 632360:4169750) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | termékcsalád | Alkategória | 196 | 2 | 194 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | terméktípus | Altípus | 196 | 115 | 81 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | töltelék | Alkategória | 196 | 31 | 134 | 31 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | állag | Alkategória | 196 | 0 | 196 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | állapot | Alkategória | 196 | 4 | 192 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | étel típusa | Alkategória | 196 | 0 | 196 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | íz | Alkategória | 196 | 3 | 193 | 0 | AMERICAN Csirkemellcsíkok, chilis - sajtos panírban, 500g (Aldi 541450) |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | ízesítés / panír | Alkategória | 196 | 195 | 1 | 0 | SPAR free from gyorsfagyasztott laktózmentes sajttal töltött csirkemell gluténmentes panírban 560 g (328dd815c908cb359d40fc00) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | alap | Alkategória | 171 | 9 | 162 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | ASC / fenntartható akvakultúra | Alkategória | 171 | 1 | 170 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | bio | Főkategória | 171 | 23 | 148 | 0 | Dr. Oetker Guseppe gyorsfagyasztott bagett gombával, paradicsommal és sajttal 2 x 125 g (250 g) (Auchan 825860:4363250) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | elkészítés | Alkategória | 171 | 0 | 165 | 6 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | előkészítés | Alkategória | 171 | 0 | 171 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | feltét | Alkategória | 171 | 2 | 169 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | feltét / ízesítés | Alkategória | 171 | 26 | 145 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | forma | Alkategória | 171 | 53 | 118 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | fő összetevők | Alkategória | 171 | 4 | 167 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | gabonafélék | Alkategória | 171 | 2 | 169 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | gluténmentes | Alkategória | 171 | 34 | 137 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | gyorsfagyasztott | Alkategória | 171 | 31 | 140 | 0 | Dr. Oetker Guseppe gyorsfagyasztott bagett gombával, paradicsommal és sajttal 2 x 125 g (250 g) (Auchan 825860:4363250) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | halalap | Alkategória | 171 | 0 | 171 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | halfajta | Alkategória | 171 | 2 | 169 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | húsfajta | Alkategória | 171 | 3 | 168 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | jelleg | Alkategória | 171 | 33 | 138 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | jellemzők | Alkategória | 171 | 6 | 165 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | keverék stílus | Alkategória | 171 | 24 | 147 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | kiszerelés | Alkategória | 171 | 102 | 69 | 0 | Dr. Oetker Guseppe gyorsfagyasztott bagett gombával, paradicsommal és sajttal 2 x 125 g (250 g) (Auchan 825860:4363250) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | konyha / stílus | Alkategória | 171 | 1 | 170 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | laktózmentes | Alkategória | 171 | 28 | 143 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | mentes | Alkategória | 171 | 6 | 165 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | mikrohullámú sütőben elkészíthető | Alkategória | 171 | 31 | 140 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | minőség / jelleg | Alkategória | 171 | 0 | 165 | 6 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | MSC / fenntartható halászat | Alkategória | 171 | 26 | 145 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | panírozott | Alkategória | 171 | 1 | 170 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | stílus | Alkategória | 171 | 2 | 169 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | tejmentes | Alkategória | 171 | 25 | 146 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | termékcsalád | Alkategória | 171 | 3 | 168 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | terméktípus | Alkategória | 171 | 106 | 65 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | töltelék | Alkategória | 171 | 16 | 153 | 2 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | töltelék / ízesítés | Alkategória | 171 | 19 | 136 | 16 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | vegán | Alkategória | 171 | 2 | 169 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | vegán/növényi | Alkategória | 171 | 33 | 138 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | vágás / forma | Alkategória | 171 | 17 | 154 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | zöldség | Alkategória | 171 | 27 | 144 | 0 | GOURMET FINEST CUISINE Mini leveles tészta falatok lazacos-spenótos, 300 g (Aldi 4599896) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | étel | Alkategória | 171 | 0 | 171 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | étel / forma | Alkategória | 171 | 53 | 118 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | étel típusa | Alkategória | 171 | 21 | 150 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | íz | Alkategória | 171 | 20 | 151 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | ízesítés | Alkategória | 171 | 23 | 148 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | ízesítés / panír | Alkategória | 171 | 4 | 167 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | összetevő | Alkategória | 171 | 11 | 160 | 0 | ALL SEASONS Parajkrém konyhakész, 600 g (Aldi 1018157) |
+| Fagyasztott áruk → Fagyasztott nyers zöldségek | zöldség/gomba | Alkategória | 350 | 349 | 0 | 1 | aro Gyorsfagyasztott Leveszöldség Alap 10 kg (BTY-X18301900320021) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | alap | Alkategória | 2 | 0 | 2 | 0 | Sága Vegán gyorsfagyasztott készre sütött panírozott csíkok 450 g (Coopshop 52962) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | bio | Főkategória | 2 | 0 | 2 | 0 | Sága Vegán gyorsfagyasztott készre sütött panírozott csíkok 450 g (Coopshop 52962) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | forma | Altípus | 2 | 0 | 2 | 0 | Sága Vegán gyorsfagyasztott készre sütött panírozott csíkok 450 g (Coopshop 52962) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | gluténmentes | Alkategória | 2 | 0 | 2 | 0 | Sága Vegán gyorsfagyasztott készre sütött panírozott csíkok 450 g (Coopshop 52962) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | jelleg | Alkategória | 2 | 0 | 2 | 0 | Sága Vegán gyorsfagyasztott készre sütött panírozott csíkok 450 g (Coopshop 52962) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | kiszerelés | Alkategória | 2 | 0 | 2 | 0 | Sága Vegán gyorsfagyasztott készre sütött panírozott csíkok 450 g (Coopshop 52962) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | laktózmentes | Alkategória | 2 | 0 | 2 | 0 | Sága Vegán gyorsfagyasztott készre sütött panírozott csíkok 450 g (Coopshop 52962) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | terméktípus | Alkategória | 2 | 0 | 2 | 0 | Sága Vegán gyorsfagyasztott készre sütött panírozott csíkok 450 g (Coopshop 52962) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | íz | Alkategória | 2 | 0 | 2 | 0 | Sága Vegán gyorsfagyasztott készre sütött panírozott csíkok 450 g (Coopshop 52962) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | ízesítés | Alkategória | 2 | 0 | 2 | 0 | Sága Vegán gyorsfagyasztott készre sütött panírozott csíkok 450 g (Coopshop 52962) |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | alap | Altípus | 64 | 24 | 40 | 0 | PRIMANA Rántott trappista sajt, füstölt ízű, 500 g (Aldi 745801) |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | alapanyag | Altípus | 64 | 25 | 39 | 0 | aro Gyorsfagyasztott Rántott Trappista Sajt 1 kg (BTY-X3931700320021) |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | bio | Főkategória | 64 | 8 | 56 | 0 | Auchan Kedvenc rántott trapista sajt 500 g (Auchan 585725:4123115) |
@@ -4654,639 +4340,232 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | állapot | Altípus | 64 | 2 | 62 | 0 | PRIMANA Rántott trappista sajt, füstölt ízű, 500 g (Aldi 745801) |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | íz | Altípus | 64 | 2 | 62 | 0 | PRIMANA Rántott trappista sajt, füstölt ízű, 500 g (Aldi 745801) |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | ízesítés | Altípus | 64 | 30 | 34 | 0 | aro Gyorsfagyasztott Rántott Trappista Sajt 1 kg (BTY-X3931700320021) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | alap | Altípus | 40 | 19 | 21 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | alapanyag | Altípus | 40 | 11 | 29 | 0 | METRO Chef Gyorsfagyasztott, Panírozott Egész Csiperkegomba 1 kg (BTY-X11187500320021) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | bio | Főkategória | 40 | 3 | 37 | 0 | Nádudvari gyorsfagyasztott rántott brokkoli 450 g (Auchan 40414:40417) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | elkészítés | Altípus | 40 | 0 | 40 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | forma | Altípus | 40 | 30 | 10 | 0 | Nádudvari gyorsfagyasztott rántott karfiol 450 g (9b2b46eb359fbfc6463c75e6) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | gluténmentes | Alkategória | 40 | 9 | 31 | 0 | MCENNEDY / CHEF SELECT Panírozott hagymakarikák (10107909) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | gyorsfagyasztott | Főkategória | 40 | 6 | 34 | 0 | Nádudvari gyorsfagyasztott rántott brokkoli 450 g (Auchan 40414:40417) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | jelleg | Altípus | 40 | 19 | 21 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | keverék stílus | Altípus | 40 | 0 | 40 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | kiszerelés | Altípus | 40 | 24 | 16 | 0 | Nádudvari gyorsfagyasztott rántott brokkoli 450 g (Auchan 40414:40417) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | laktózmentes | Alkategória | 40 | 9 | 31 | 0 | MCENNEDY / CHEF SELECT Panírozott hagymakarikák (10107909) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | minőség / jelleg | Altípus | 40 | 0 | 40 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | panír | Altípus | 40 | 1 | 39 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | terméktípus | Altípus | 40 | 30 | 10 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | vegán/növényi | Alkategória | 40 | 9 | 31 | 0 | MCENNEDY / CHEF SELECT Panírozott hagymakarikák (10107909) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | vágás / forma | Altípus | 40 | 0 | 40 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | zöldség | Altípus | 40 | 6 | 34 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | ízesítés | Altípus | 40 | 14 | 26 | 0 | METRO Chef Gyorsfagyasztott, Panírozott Egész Csiperkegomba 1 kg (BTY-X11187500320021) |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | összetevő | Altípus | 40 | 2 | 38 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | bio | Főkategória | 13 | 0 | 13 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | desszert típusa | Altípus | 13 | 1 | 12 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | forma | Alkategória | 13 | 1 | 12 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | gluténmentes | Alkategória | 13 | 0 | 13 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | gyorsfagyasztott | Főkategória | 13 | 3 | 10 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | hozzáadott cukor nélkül | Alkategória | 13 | 0 | 13 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | jelleg | Alkategória | 13 | 0 | 13 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | kiszerelés | Altípus | 13 | 10 | 3 | 0 | METRO Chef Gyorsfagyasztott Brownie (16 x 62 g) 992 g (Metro BTY-X14321500320021) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | laktózmentes | Alkategória | 13 | 0 | 13 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | mentes | Altípus | 13 | 1 | 12 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | minőség | Altípus | 13 | 1 | 12 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | márka | Altípus | 13 | 12 | 1 | 0 | Gyorsfagyasztott gesztenyés desszert 200 g (Coopshop 50521) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | terméktípus | Altípus | 13 | 12 | 1 | 0 | METRO Chef Gyorsfagyasztott Brownie (16 x 62 g) 992 g (Metro BTY-X14321500320021) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | töltelék | Altípus | 13 | 2 | 11 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | töltelék / íz | Alkategória | 13 | 0 | 13 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | vegán/növényi | Alkategória | 13 | 0 | 13 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | állapot | Altípus | 13 | 3 | 10 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | édesítés | Altípus | 13 | 1 | 12 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | íz | Altípus | 13 | 3 | 10 | 0 | Gergely gyorsfagyasztott királyi császármorzsa 350 g (220073802) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | bio | Főkategória | 97 | 9 | 88 | 0 | Aviko Churros 300 g (Auchan 632885:4170275) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | desszert típusa | Altípus | 97 | 23 | 74 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | forma | Altípus | 97 | 63 | 34 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | gluténmentes | Altípus | 97 | 21 | 76 | 0 | DAIM Mandulatorta (10031982) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | gyorsfagyasztott | Altípus | 97 | 20 | 77 | 0 | Aviko Churros 300 g (Auchan 632885:4170275) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | hozzáadott cukor nélkül | Alkategória | 97 | 9 | 88 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | jelleg | Altípus | 97 | 57 | 40 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | jellemzők | Altípus | 97 | 2 | 95 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | kiszerelés | Altípus | 97 | 64 | 33 | 0 | Aviko Churros 300 g (Auchan 632885:4170275) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | laktózmentes | Altípus | 97 | 10 | 87 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | terméktípus | Altípus | 97 | 63 | 34 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | töltelék / íz | Altípus | 97 | 23 | 74 | 0 | LUCKY FOOD Palacsinta gyorsfagyasztott 20 db 1,4 kg (BTY-X18192700320021) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | vegán/növényi | Alkategória | 97 | 16 | 81 | 0 | DAIM Mandulatorta (10031982) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | íz | Altípus | 97 | 63 | 34 | 0 | FINEST BAKERY Tortavariációk, túrós, 1250 g (Aldi 534616) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | bio | Főkategória | 73 | 0 | 73 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | desszert típusa | Alkategória | 73 | 20 | 53 | 0 | METRO Chef Gyorsfagyasztott Vajas Croissant 20 x 60 g (1,2 kg) (BTY-X13175900320021) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | előkészítés | Altípus | 73 | 9 | 64 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | forma | Altípus | 73 | 41 | 32 | 0 | Schär gluténmentes fagyasztott császárzsemle 350 g (aac3f6cf279f08f123ab7015) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | gluténmentes | Altípus | 73 | 22 | 51 | 0 | METRO Chef Gyorsfagyasztott Vajas Croissant 20 x 60 g (1,2 kg) (BTY-X13175900320021) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | gyorsfagyasztott | Főkategória | 73 | 15 | 58 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | hozzáadott cukor nélkül | Alkategória | 73 | 20 | 53 | 0 | METRO Chef Gyorsfagyasztott Vajas Croissant 20 x 60 g (1,2 kg) (BTY-X13175900320021) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | jelleg | Altípus | 73 | 10 | 63 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | jellemzők | Altípus | 73 | 1 | 72 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | kiszerelés | Altípus | 73 | 23 | 50 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | laktózmentes | Alkategória | 73 | 21 | 52 | 0 | METRO Chef Gyorsfagyasztott Vajas Croissant 20 x 60 g (1,2 kg) (BTY-X13175900320021) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | mentes | Altípus | 73 | 4 | 69 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | márka | Altípus | 73 | 69 | 4 | 0 | Előkelesztett, gyorsfagyasztott kakaós mini csiga 700 g (Penny 1056438) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | terméktípus | Altípus | 73 | 39 | 34 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | tészta | Altípus | 73 | 2 | 71 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | töltelék | Altípus | 73 | 3 | 70 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | töltelék / íz | Alkategória | 73 | 21 | 52 | 0 | METRO Chef Gyorsfagyasztott Vajas Croissant 20 x 60 g (1,2 kg) (BTY-X13175900320021) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | vegán/növényi | Alkategória | 73 | 20 | 53 | 0 | METRO Chef Gyorsfagyasztott Vajas Croissant 20 x 60 g (1,2 kg) (BTY-X13175900320021) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | állapot | Altípus | 73 | 6 | 67 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | íz | Altípus | 73 | 17 | 56 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | ízesítés | Altípus | 73 | 2 | 71 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | bio | Főkategória | 41 | 7 | 34 | 0 | Mirelite gyorsfagyasztott nokedli 400 g (Auchan 97769:3634843) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | desszert típusa | Alkategória | 41 | 14 | 27 | 0 | FINEST BAKERY Töltött nudli mákkrémes, 500 g (Aldi 748837) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | forma | Altípus | 41 | 10 | 31 | 0 | FINEST BAKERY Töltött nudli mákkrémes, 500 g (Aldi 748837) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | gluténmentes | Altípus | 41 | 22 | 19 | 0 | Repeta gyorsfagyasztott szilvatöltelékes gombóc 1000 g (Penny 994985) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | gyorsfagyasztott | Főkategória | 41 | 9 | 32 | 0 | Mirelite gyorsfagyasztott nokedli 400 g (Auchan 97769:3634843) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | hozzáadott cukor nélkül | Alkategória | 41 | 17 | 24 | 0 | FINEST BAKERY Töltött nudli mákkrémes, 500 g (Aldi 748837) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | jelleg | Altípus | 41 | 4 | 37 | 0 | FINEST BAKERY Töltött nudli mákkrémes, 500 g (Aldi 748837) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | jellemzők | Altípus | 41 | 1 | 40 | 0 | FINEST BAKERY Töltött nudli mákkrémes, 500 g (Aldi 748837) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | kiszerelés | Altípus | 41 | 18 | 23 | 0 | Mirelite gyorsfagyasztott nokedli 400 g (Auchan 97769:3634843) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | laktózmentes | Alkategória | 41 | 17 | 24 | 0 | FINEST BAKERY Töltött nudli mákkrémes, 500 g (Aldi 748837) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | mentes | Altípus | 41 | 3 | 38 | 0 | FINEST BAKERY Töltött nudli mákkrémes, 500 g (Aldi 748837) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | terméktípus | Altípus | 41 | 19 | 22 | 0 | FINEST BAKERY Töltött nudli mákkrémes, 500 g (Aldi 748837) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | töltelék | Altípus | 41 | 11 | 30 | 0 | FINEST BAKERY Töltött nudli mákkrémes, 500 g (Aldi 748837) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | töltelék / íz | Alkategória | 41 | 21 | 20 | 0 | Repeta gyorsfagyasztott szilvatöltelékes gombóc 1000 g (Penny 994985) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | vegán/növényi | Alkategória | 41 | 21 | 20 | 0 | Repeta gyorsfagyasztott szilvatöltelékes gombóc 1000 g (Penny 994985) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | íz | Altípus | 41 | 4 | 37 | 0 | FINEST BAKERY Töltött nudli mákkrémes, 500 g (Aldi 748837) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | bio | Főkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott leveles tészta 500 g (100614460) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | desszert típusa | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott leveles tészta 500 g (100614460) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | forma | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott leveles tészta 500 g (100614460) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | gluténmentes | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott leveles tészta 500 g (100614460) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | gyorsfagyasztott | Főkategória | 5 | 1 | 4 | 0 | Tesco gyorsfagyasztott leveles tészta 500 g (100614460) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | hozzáadott cukor nélkül | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott leveles tészta 500 g (100614460) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | jelleg | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott leveles tészta 500 g (100614460) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | kiszerelés | Altípus | 5 | 4 | 1 | 0 | Fresco gyorsfagyasztott leveles tészta 400 g (Coopshop 52930) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | laktózmentes | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott leveles tészta 500 g (100614460) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | mentes | Altípus | 5 | 2 | 3 | 0 | Tesco gyorsfagyasztott leveles tészta 500 g (100614460) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | töltelék / íz | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott leveles tészta 500 g (100614460) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | vegán/növényi | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott leveles tészta 500 g (100614460) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | íz | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott leveles tészta 500 g (100614460) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | bio | Főkategória | 10 | 1 | 9 | 0 | Frigotti gyorsfagyasztott lángos tészta 8 db 1000 g (Auchan 632741:4170131) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | desszert típusa | Alkategória | 10 | 3 | 7 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | előkészítés | Altípus | 10 | 1 | 9 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | forma | Altípus | 10 | 3 | 7 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | gluténmentes | Altípus | 10 | 5 | 5 | 0 | Frigotti gyorsfagyasztott leveles tészta 500 g (622543657df640c5f07dac75) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | gyorsfagyasztott | Altípus | 10 | 2 | 8 | 0 | Frigotti gyorsfagyasztott lángos tészta 8 db 1000 g (Auchan 632741:4170131) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | hozzáadott cukor nélkül | Alkategória | 10 | 3 | 7 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | jelleg | Altípus | 10 | 1 | 9 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | jellemzők | Altípus | 10 | 1 | 9 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | kiszerelés | Altípus | 10 | 3 | 7 | 0 | Frigotti gyorsfagyasztott lángos tészta 8 db 1000 g (Auchan 632741:4170131) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | laktózmentes | Alkategória | 10 | 3 | 7 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | terméktípus | Altípus | 10 | 6 | 4 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | tészta | Altípus | 10 | 3 | 7 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | töltelék / íz | Alkategória | 10 | 4 | 6 | 0 | Frigotti gyorsfagyasztott leveles tészta 500 g (622543657df640c5f07dac75) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | vegán/növényi | Alkategória | 10 | 4 | 6 | 0 | Frigotti gyorsfagyasztott leveles tészta 500 g (622543657df640c5f07dac75) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | íz | Alkategória | 10 | 0 | 10 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | bio | Főkategória | 26 | 2 | 24 | 0 | Almás rétestekercs 600 g (Auchan 598517:4135907) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | desszert típusa | Altípus | 26 | 14 | 12 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | forma | Altípus | 26 | 5 | 21 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | gluténmentes | Alkategória | 26 | 6 | 20 | 0 | Tesco gyorsfagyasztott, leveles rétes citromhéjjal ízesített túrós töltelékkel 500 g (100614447) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | gyorsfagyasztott | Főkategória | 26 | 18 | 8 | 0 | Almás rétestekercs 600 g (Auchan 598517:4135907) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | hozzáadott cukor nélkül | Alkategória | 26 | 4 | 22 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | jelleg | Alkategória | 26 | 0 | 26 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | kiszerelés | Altípus | 26 | 11 | 15 | 0 | Almás rétestekercs 600 g (Auchan 598517:4135907) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | laktózmentes | Alkategória | 26 | 4 | 22 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | márka | Altípus | 26 | 24 | 2 | 0 | Almás rétes 500 g (Auchan 208599:3745845) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | terméktípus | Altípus | 26 | 1 | 25 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | töltelék | Altípus | 26 | 2 | 24 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | töltelék / íz | Altípus | 26 | 13 | 13 | 0 | Tesco gyorsfagyasztott, leveles rétes citromhéjjal ízesített túrós töltelékkel 500 g (100614447) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | vegán/növényi | Alkategória | 26 | 6 | 20 | 0 | Tesco gyorsfagyasztott, leveles rétes citromhéjjal ízesített túrós töltelékkel 500 g (100614447) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | íz | Alkategória | 26 | 0 | 26 | 0 | GOOD CHOICE Réteslap klasszikus, 500 g (Aldi 4242555) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | bio | Főkategória | 11 | 0 | 11 | 0 | Tesco gyorsfagyasztott túrótöltelékes gombóc 600 g (220327177) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | desszert típusa | Alkategória | 11 | 0 | 11 | 0 | Tesco gyorsfagyasztott túrótöltelékes gombóc 600 g (220327177) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | forma | Alkategória | 11 | 0 | 11 | 0 | Tesco gyorsfagyasztott túrótöltelékes gombóc 600 g (220327177) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | gluténmentes | Alkategória | 11 | 0 | 11 | 0 | Tesco gyorsfagyasztott túrótöltelékes gombóc 600 g (220327177) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | gyorsfagyasztott | Főkategória | 11 | 7 | 4 | 0 | Tesco gyorsfagyasztott túrótöltelékes gombóc 600 g (220327177) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | hozzáadott cukor nélkül | Alkategória | 11 | 0 | 11 | 0 | Tesco gyorsfagyasztott túrótöltelékes gombóc 600 g (220327177) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | jelleg | Alkategória | 11 | 0 | 11 | 0 | Tesco gyorsfagyasztott túrótöltelékes gombóc 600 g (220327177) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | kiszerelés | Altípus | 11 | 4 | 7 | 0 | Bombajóó gyorsfagyasztott meggyes töltött nudli 600 g (Coopshop 43534) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | laktózmentes | Alkategória | 11 | 0 | 11 | 0 | Tesco gyorsfagyasztott túrótöltelékes gombóc 600 g (220327177) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | terméktípus | Altípus | 11 | 10 | 1 | 0 | Bombajóó gyorsfagyasztott meggyes töltött nudli 600 g (Coopshop 43534) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | töltelék | Altípus | 11 | 1 | 10 | 0 | Tesco gyorsfagyasztott túrótöltelékes gombóc 600 g (220327177) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | töltelék / íz | Alkategória | 11 | 0 | 11 | 0 | Tesco gyorsfagyasztott túrótöltelékes gombóc 600 g (220327177) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | vegán/növényi | Alkategória | 11 | 0 | 11 | 0 | Tesco gyorsfagyasztott túrótöltelékes gombóc 600 g (220327177) |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | íz | Alkategória | 11 | 0 | 11 | 0 | Tesco gyorsfagyasztott túrótöltelékes gombóc 600 g (220327177) |
-| Fagyasztott áruk → Fagyasztott zöldség | alap | Alkategória | 1 | 0 | 1 | 0 | Bonduelle gyorsfagyasztott kelbimbó 400 g (Coopshop 42608) |
-| Fagyasztott áruk → Fagyasztott zöldség | bio | Főkategória | 1 | 0 | 1 | 0 | Bonduelle gyorsfagyasztott kelbimbó 400 g (Coopshop 42608) |
-| Fagyasztott áruk → Fagyasztott zöldség | elkészítés | Alkategória | 1 | 0 | 1 | 0 | Bonduelle gyorsfagyasztott kelbimbó 400 g (Coopshop 42608) |
-| Fagyasztott áruk → Fagyasztott zöldség | forma | Alkategória | 1 | 0 | 1 | 0 | Bonduelle gyorsfagyasztott kelbimbó 400 g (Coopshop 42608) |
-| Fagyasztott áruk → Fagyasztott zöldség | jelleg | Alkategória | 1 | 0 | 1 | 0 | Bonduelle gyorsfagyasztott kelbimbó 400 g (Coopshop 42608) |
-| Fagyasztott áruk → Fagyasztott zöldség | keverék stílus | Alkategória | 1 | 0 | 1 | 0 | Bonduelle gyorsfagyasztott kelbimbó 400 g (Coopshop 42608) |
-| Fagyasztott áruk → Fagyasztott zöldség | kiszerelés | Alkategória | 1 | 0 | 1 | 0 | Bonduelle gyorsfagyasztott kelbimbó 400 g (Coopshop 42608) |
-| Fagyasztott áruk → Fagyasztott zöldség | minőség / jelleg | Alkategória | 1 | 0 | 1 | 0 | Bonduelle gyorsfagyasztott kelbimbó 400 g (Coopshop 42608) |
-| Fagyasztott áruk → Fagyasztott zöldség | terméktípus | Alkategória | 1 | 0 | 1 | 0 | Bonduelle gyorsfagyasztott kelbimbó 400 g (Coopshop 42608) |
-| Fagyasztott áruk → Fagyasztott zöldség | vágás / forma | Alkategória | 1 | 0 | 1 | 0 | Bonduelle gyorsfagyasztott kelbimbó 400 g (Coopshop 42608) |
-| Fagyasztott áruk → Fagyasztott zöldség | ízesítés | Alkategória | 1 | 0 | 1 | 0 | Bonduelle gyorsfagyasztott kelbimbó 400 g (Coopshop 42608) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | alap | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (209669563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | bio | Főkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (209669563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | elkészítés | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (209669563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | forma | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (209669563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | gyorsfagyasztott | Főkategória | 2 | 1 | 1 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (209669563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | jelleg | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (209669563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | keverék stílus | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (209669563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | kiszerelés | Altípus | 2 | 1 | 1 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (Coopshop 41671) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | minőség / jelleg | Alkategória | 2 | 1 | 1 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (209669563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | terméktípus | Altípus | 2 | 1 | 1 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (Coopshop 41671) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | vágás / forma | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (209669563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | zöldség | Alkategória | 2 | 1 | 1 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (209669563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | ízesítés | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss fejtett bab 450 g (209669563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | alap | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott brokkoli 450 g (100579709) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | bio | Főkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott brokkoli 450 g (100579709) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | elkészítés | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott brokkoli 450 g (100579709) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | forma | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott brokkoli 450 g (100579709) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | gyorsfagyasztott | Főkategória | 5 | 2 | 3 | 0 | Tesco gyorsfagyasztott brokkoli 450 g (100579709) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | jelleg | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott brokkoli 450 g (100579709) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | keverék stílus | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott brokkoli 450 g (100579709) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | kiszerelés | Altípus | 5 | 3 | 2 | 0 | Coop Gyorsan Kész gyorsfagyasztott brokkoli 600 g (Coopshop 187814) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | minőség / jelleg | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott brokkoli 450 g (100579709) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | minősítés | Altípus | 5 | 1 | 4 | 0 | Tesco gyorsfagyasztott brokkoli 450 g (100579709) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | terméktípus | Altípus | 5 | 4 | 1 | 0 | Coop Gyorsan Kész gyorsfagyasztott brokkoli 600 g (Coopshop 187814) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | vágás / forma | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott brokkoli 450 g (100579709) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | zöldség | Alkategória | 5 | 1 | 4 | 0 | Tesco gyorsfagyasztott brokkoli 450 g (100579709) |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | ízesítés | Alkategória | 5 | 0 | 5 | 0 | Tesco gyorsfagyasztott brokkoli 450 g (100579709) |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | alap | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott, elősütött fűszeres burgonyagerezdek 750 g (100579750) |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | bio | Főkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott, elősütött fűszeres burgonyagerezdek 750 g (100579750) |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | elkészítés | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott, elősütött fűszeres burgonyagerezdek 750 g (100579750) |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | forma | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott, elősütött fűszeres burgonyagerezdek 750 g (100579750) |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | gyorsfagyasztott | Főkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott, elősütött fűszeres burgonyagerezdek 750 g (100579750) |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | jelleg | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott, elősütött fűszeres burgonyagerezdek 750 g (100579750) |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | keverék stílus | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott, elősütött fűszeres burgonyagerezdek 750 g (100579750) |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | minőség / jelleg | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott, elősütött fűszeres burgonyagerezdek 750 g (100579750) |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | vágás / forma | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott, elősütött fűszeres burgonyagerezdek 750 g (100579750) |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | zöldség | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott, elősütött fűszeres burgonyagerezdek 750 g (100579750) |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | ízesítés | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott, elősütött fűszeres burgonyagerezdek 750 g (100579750) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | alap | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott csemegekukorica 450 g (100579699) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | bio | Főkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott csemegekukorica 450 g (100579699) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | elkészítés | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott csemegekukorica 450 g (100579699) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | forma | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott csemegekukorica 450 g (100579699) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | gyorsfagyasztott | Főkategória | 2 | 1 | 1 | 0 | Tesco gyorsfagyasztott csemegekukorica 450 g (100579699) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | jelleg | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott csemegekukorica 450 g (100579699) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | keverék stílus | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott csemegekukorica 450 g (100579699) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | kiszerelés | Altípus | 2 | 1 | 1 | 0 | Coop Gyorsan Kész gyorsfagyasztott morzsolt csemegekukorica 450 g (Coopshop 182514) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | minőség / jelleg | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott csemegekukorica 450 g (100579699) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | terméktípus | Altípus | 2 | 1 | 1 | 0 | Coop Gyorsan Kész gyorsfagyasztott morzsolt csemegekukorica 450 g (Coopshop 182514) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | vágás / forma | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott csemegekukorica 450 g (100579699) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | zöldség | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott csemegekukorica 450 g (100579699) |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | ízesítés | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott csemegekukorica 450 g (100579699) |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | alap | Altípus | 14 | 8 | 6 | 0 | ALL SEASONS Fűszernövények visszazárható tasakban, fokhagyma, 100 g (Aldi 534620) |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | bio | Főkategória | 14 | 6 | 8 | 0 | METRO Chef Gyorsfagyasztott Petrezselyemlevél 300 g (BTY-X11643300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | elkészítés | Alkategória | 14 | 0 | 14 | 0 | ALL SEASONS Fűszernövények visszazárható tasakban, fokhagyma, 100 g (Aldi 534620) |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | forma | Altípus | 14 | 8 | 6 | 0 | ALL SEASONS Fűszernövények visszazárható tasakban, fokhagyma, 100 g (Aldi 534620) |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | gyorsfagyasztott | Főkategória | 14 | 6 | 8 | 0 | METRO Chef Gyorsfagyasztott Petrezselyemlevél 300 g (BTY-X11643300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | jelleg | Altípus | 14 | 8 | 6 | 0 | ALL SEASONS Fűszernövények visszazárható tasakban, fokhagyma, 100 g (Aldi 534620) |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | keverék stílus | Alkategória | 14 | 6 | 8 | 0 | METRO Chef Gyorsfagyasztott Petrezselyemlevél 300 g (BTY-X11643300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | minőség / jelleg | Alkategória | 14 | 0 | 14 | 0 | ALL SEASONS Fűszernövények visszazárható tasakban, fokhagyma, 100 g (Aldi 534620) |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | terméktípus | Altípus | 14 | 8 | 6 | 0 | ALL SEASONS Fűszernövények visszazárható tasakban, fokhagyma, 100 g (Aldi 534620) |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | vágás / forma | Alkategória | 14 | 6 | 8 | 0 | METRO Chef Gyorsfagyasztott Petrezselyemlevél 300 g (BTY-X11643300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | zöldség | Alkategória | 14 | 6 | 8 | 0 | METRO Chef Gyorsfagyasztott Petrezselyemlevél 300 g (BTY-X11643300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | ízesítés | Alkategória | 14 | 0 | 14 | 0 | ALL SEASONS Fűszernövények visszazárható tasakban, fokhagyma, 100 g (Aldi 534620) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | alap | Altípus | 10 | 2 | 8 | 0 | ALL SEASONS Franciasaláta-keverék 2-3 percig forralni szükséges! 1 kg (Aldi 989144) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | bio | Főkategória | 10 | 1 | 9 | 0 | Auchan Kedvenc zöldségkeverék franciasalátához gyorsfagyasztott 450 g (Auchan 632438:4169828) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | elkészítés | Alkategória | 10 | 0 | 7 | 3 | ALL SEASONS Franciasaláta-keverék 2-3 percig forralni szükséges! 1 kg (Aldi 989144) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | forma | Altípus | 10 | 3 | 7 | 0 | ALL SEASONS Franciasaláta-keverék 2-3 percig forralni szükséges! 1 kg (Aldi 989144) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | gyorsfagyasztott | Altípus | 10 | 5 | 5 | 0 | Auchan Kedvenc zöldségkeverék franciasalátához gyorsfagyasztott 450 g (Auchan 632438:4169828) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | jelleg | Altípus | 10 | 2 | 8 | 0 | ALL SEASONS Franciasaláta-keverék 2-3 percig forralni szükséges! 1 kg (Aldi 989144) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | keverék stílus | Alkategória | 10 | 5 | 5 | 0 | Zöldségeskert gyorsfagyasztott franciasaláta alap 1000 g (Penny 821007) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | kiszerelés | Altípus | 10 | 3 | 7 | 0 | Auchan Kedvenc zöldségkeverék franciasalátához gyorsfagyasztott 450 g (Auchan 632438:4169828) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | minőség / jelleg | Alkategória | 10 | 0 | 7 | 3 | ALL SEASONS Franciasaláta-keverék 2-3 percig forralni szükséges! 1 kg (Aldi 989144) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | terméktípus | Altípus | 10 | 3 | 7 | 0 | ALL SEASONS Franciasaláta-keverék 2-3 percig forralni szükséges! 1 kg (Aldi 989144) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | vágás / forma | Alkategória | 10 | 4 | 6 | 0 | Zöldségeskert gyorsfagyasztott franciasaláta alap 1000 g (Penny 821007) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | zöldség | Altípus | 10 | 8 | 2 | 0 | CBA PIROS gyorsfagyasztott franciasaláta 1kg (29b8469995b8e484c1e738c9) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | zöldség típusa | Altípus | 10 | 2 | 8 | 0 | ALL SEASONS Franciasaláta-keverék 2-3 percig forralni szükséges! 1 kg (Aldi 989144) |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | ízesítés | Alkategória | 10 | 3 | 7 | 0 | ALL SEASONS Franciasaláta-keverék 2-3 percig forralni szükséges! 1 kg (Aldi 989144) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | alap | Altípus | 10 | 5 | 5 | 0 | Auchan Kedvenc szeletelt csiperkegomba, gyorsfagyasztott 1000 g (Auchan 28807:28810) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | bio | Főkategória | 10 | 2 | 8 | 0 | METRO Chef Gyorsfagyasztott 1. Osztályú Szeletelt Csiperkegomba 2,5 kg (BTY-X11188300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | elkészítés | Alkategória | 10 | 0 | 10 | 0 | Auchan Kedvenc szeletelt csiperkegomba, gyorsfagyasztott 1000 g (Auchan 28807:28810) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | forma | Altípus | 10 | 6 | 4 | 0 | Auchan Kedvenc szeletelt csiperkegomba, gyorsfagyasztott 1000 g (Auchan 28807:28810) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | gomba | Altípus | 10 | 1 | 9 | 0 | Auchan Kedvenc szeletelt csiperkegomba, gyorsfagyasztott 1000 g (Auchan 28807:28810) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | gyorsfagyasztott | Főkategória | 10 | 2 | 8 | 0 | METRO Chef Gyorsfagyasztott 1. Osztályú Szeletelt Csiperkegomba 2,5 kg (BTY-X11188300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | jelleg | Altípus | 10 | 5 | 5 | 0 | Auchan Kedvenc szeletelt csiperkegomba, gyorsfagyasztott 1000 g (Auchan 28807:28810) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | keverék stílus | Alkategória | 10 | 2 | 8 | 0 | METRO Chef Gyorsfagyasztott 1. Osztályú Szeletelt Csiperkegomba 2,5 kg (BTY-X11188300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | kiszerelés | Altípus | 10 | 9 | 1 | 0 | Classic gyorsfagyasztott szeletelt csiperkegomba 450 g (fb632650eb16bde11adb6bc8) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | minőség / jelleg | Alkategória | 10 | 0 | 10 | 0 | Auchan Kedvenc szeletelt csiperkegomba, gyorsfagyasztott 1000 g (Auchan 28807:28810) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | terméktípus | Altípus | 10 | 8 | 2 | 0 | Auchan Kedvenc szeletelt csiperkegomba, gyorsfagyasztott 1000 g (Auchan 28807:28810) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | vágás / forma | Alkategória | 10 | 2 | 8 | 0 | METRO Chef Gyorsfagyasztott 1. Osztályú Szeletelt Csiperkegomba 2,5 kg (BTY-X11188300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | zöldség | Alkategória | 10 | 2 | 8 | 0 | METRO Chef Gyorsfagyasztott 1. Osztályú Szeletelt Csiperkegomba 2,5 kg (BTY-X11188300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | ízesítés | Alkategória | 10 | 2 | 8 | 0 | METRO Chef Gyorsfagyasztott 1. Osztályú Szeletelt Csiperkegomba 2,5 kg (BTY-X11188300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | alap | Alkategória | 2 | 0 | 2 | 0 | CBA PIROS gyalult tök kaporral 1kg (199b043da31b1f8822d2fe6a) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | bio | Főkategória | 2 | 0 | 2 | 0 | CBA PIROS gyalult tök kaporral 1kg (199b043da31b1f8822d2fe6a) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | elkészítés | Alkategória | 2 | 0 | 2 | 0 | CBA PIROS gyalult tök kaporral 1kg (199b043da31b1f8822d2fe6a) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | gyorsfagyasztott | Altípus | 2 | 1 | 1 | 0 | S-Budget gyorsfagyasztott gyalult tök kaporral 1000 g (4adbcbf6922ac1807b3fe1c2) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | jelleg | Alkategória | 2 | 0 | 2 | 0 | CBA PIROS gyalult tök kaporral 1kg (199b043da31b1f8822d2fe6a) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | keverék stílus | Alkategória | 2 | 0 | 2 | 0 | CBA PIROS gyalult tök kaporral 1kg (199b043da31b1f8822d2fe6a) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | kiszerelés | Alkategória | 2 | 0 | 2 | 0 | CBA PIROS gyalult tök kaporral 1kg (199b043da31b1f8822d2fe6a) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | minőség / jelleg | Alkategória | 2 | 0 | 2 | 0 | CBA PIROS gyalult tök kaporral 1kg (199b043da31b1f8822d2fe6a) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | terméktípus | Altípus | 2 | 1 | 1 | 0 | CBA PIROS gyalult tök kaporral 1kg (199b043da31b1f8822d2fe6a) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | vágás / forma | Alkategória | 2 | 0 | 2 | 0 | CBA PIROS gyalult tök kaporral 1kg (199b043da31b1f8822d2fe6a) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | zöldség | Altípus | 2 | 1 | 1 | 0 | CBA PIROS gyalult tök kaporral 1kg (199b043da31b1f8822d2fe6a) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | zöldség típusa | Altípus | 2 | 1 | 1 | 0 | S-Budget gyorsfagyasztott gyalult tök kaporral 1000 g (4adbcbf6922ac1807b3fe1c2) |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | ízesítés | Altípus | 2 | 1 | 1 | 0 | CBA PIROS gyalult tök kaporral 1kg (199b043da31b1f8822d2fe6a) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | alap | Alkategória | 6 | 0 | 6 | 0 | Hearty Food Co. gyorsfagyasztott, elősütött hasábburgonya 1 kg (100579752) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | bio | Főkategória | 6 | 0 | 6 | 0 | Hearty Food Co. gyorsfagyasztott, elősütött hasábburgonya 1 kg (100579752) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | elkészítés | Alkategória | 6 | 0 | 6 | 0 | Hearty Food Co. gyorsfagyasztott, elősütött hasábburgonya 1 kg (100579752) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | forma | Alkategória | 6 | 0 | 6 | 0 | Hearty Food Co. gyorsfagyasztott, elősütött hasábburgonya 1 kg (100579752) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | gyorsfagyasztott | Főkategória | 6 | 0 | 6 | 0 | Hearty Food Co. gyorsfagyasztott, elősütött hasábburgonya 1 kg (100579752) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | jelleg | Alkategória | 6 | 0 | 6 | 0 | Hearty Food Co. gyorsfagyasztott, elősütött hasábburgonya 1 kg (100579752) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | keverék stílus | Alkategória | 6 | 0 | 6 | 0 | Hearty Food Co. gyorsfagyasztott, elősütött hasábburgonya 1 kg (100579752) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | minőség / jelleg | Alkategória | 6 | 0 | 6 | 0 | Hearty Food Co. gyorsfagyasztott, elősütött hasábburgonya 1 kg (100579752) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | vágás / forma | Alkategória | 6 | 0 | 6 | 0 | Hearty Food Co. gyorsfagyasztott, elősütött hasábburgonya 1 kg (100579752) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | zöldség | Alkategória | 6 | 0 | 6 | 0 | Hearty Food Co. gyorsfagyasztott, elősütött hasábburgonya 1 kg (100579752) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | ízesítés | Alkategória | 6 | 0 | 6 | 0 | Hearty Food Co. gyorsfagyasztott, elősütött hasábburgonya 1 kg (100579752) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | alap | Altípus | 176 | 80 | 96 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | bevonat | Altípus | 176 | 3 | 173 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | bio | Főkategória | 176 | 13 | 163 | 0 | StarBRO hasábburgonya 1 kg (Auchan 1004965:4542355) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | elkészítés | Alkategória | 176 | 35 | 141 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | előkészítés | Altípus | 176 | 13 | 163 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | felhasználás | Altípus | 176 | 1 | 175 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | forma | Altípus | 176 | 96 | 80 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | gyorsfagyasztott | Főkategória | 176 | 24 | 152 | 0 | StarBRO hasábburgonya 1 kg (Auchan 1004965:4542355) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | jelleg | Altípus | 176 | 81 | 95 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | keverék stílus | Alkategória | 176 | 44 | 132 | 0 | HARVEST BASKET Hasábburgonya (1097) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | kiszerelés | Altípus | 176 | 117 | 59 | 0 | StarBRO hasábburgonya 1 kg (Auchan 1004965:4542355) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | minőség / jelleg | Alkategória | 176 | 0 | 145 | 31 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | termékcsalád | Altípus | 176 | 9 | 167 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | terméktípus | Altípus | 176 | 129 | 47 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | vágás / forma | Altípus | 176 | 70 | 106 | 0 | aro Hasábburgonya 9 x 9 mm 2,5 kg (BTY-X16538000320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | zöldség | Altípus | 176 | 70 | 106 | 0 | aro Hasábburgonya 9 x 9 mm 2,5 kg (BTY-X16538000320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | állapot | Altípus | 176 | 2 | 174 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | ízesítés | Altípus | 176 | 47 | 129 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | alap | Altípus | 12 | 6 | 6 | 0 | ALL SEASONS Fejtett bab 2-3 percig forralni szükséges, 500 g (Aldi 991355) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | bio | Főkategória | 12 | 1 | 11 | 0 | Auchan Kedvenc gyorsfagyasztott fejtett bab 450 g (Auchan 632981:4170371) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | elkészítés | Alkategória | 12 | 0 | 10 | 2 | ALL SEASONS Fejtett bab 2-3 percig forralni szükséges, 500 g (Aldi 991355) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | forma | Altípus | 12 | 7 | 5 | 0 | ALL SEASONS Fejtett bab 2-3 percig forralni szükséges, 500 g (Aldi 991355) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | gyorsfagyasztott | Altípus | 12 | 3 | 9 | 0 | Auchan Kedvenc gyorsfagyasztott fejtett bab 450 g (Auchan 632981:4170371) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | jelleg | Altípus | 12 | 6 | 6 | 0 | ALL SEASONS Fejtett bab 2-3 percig forralni szükséges, 500 g (Aldi 991355) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | keverék stílus | Alkategória | 12 | 3 | 9 | 0 | METRO Chef Gyorsfagyasztott, Előfőzött Szójabab 1 kg (BTY-X11014600320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | kiszerelés | Altípus | 12 | 7 | 5 | 0 | Auchan Kedvenc gyorsfagyasztott fejtett bab 450 g (Auchan 632981:4170371) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | minőség / jelleg | Alkategória | 12 | 2 | 9 | 1 | ALL SEASONS Fejtett bab 2-3 percig forralni szükséges, 500 g (Aldi 991355) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | terméktípus | Altípus | 12 | 7 | 5 | 0 | ALL SEASONS Fejtett bab 2-3 percig forralni szükséges, 500 g (Aldi 991355) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | vágás / forma | Alkategória | 12 | 3 | 9 | 0 | METRO Chef Gyorsfagyasztott, Előfőzött Szójabab 1 kg (BTY-X11014600320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | zöldség | Altípus | 12 | 5 | 7 | 0 | METRO Chef Gyorsfagyasztott, Előfőzött Szójabab 1 kg (BTY-X11014600320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | zöldség típusa | Altípus | 12 | 1 | 11 | 0 | ALL SEASONS Fejtett bab 2-3 percig forralni szükséges, 500 g (Aldi 991355) |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | ízesítés | Alkategória | 12 | 2 | 10 | 0 | ALL SEASONS Fejtett bab 2-3 percig forralni szükséges, 500 g (Aldi 991355) |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | alap | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott karfiol 450 g (100579745) |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | bio | Főkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott karfiol 450 g (100579745) |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | elkészítés | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott karfiol 450 g (100579745) |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | forma | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott karfiol 450 g (100579745) |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | gyorsfagyasztott | Főkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott karfiol 450 g (100579745) |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | jelleg | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott karfiol 450 g (100579745) |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | keverék stílus | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott karfiol 450 g (100579745) |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | minőség / jelleg | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott karfiol 450 g (100579745) |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | vágás / forma | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott karfiol 450 g (100579745) |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | zöldség | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott karfiol 450 g (100579745) |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | ízesítés | Alkategória | 1 | 0 | 1 | 0 | Tesco gyorsfagyasztott karfiol 450 g (100579745) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | alap | Alkategória | 1 | 0 | 1 | 0 | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | bio | Főkategória | 1 | 0 | 1 | 0 | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | elkészítés | Alkategória | 1 | 0 | 1 | 0 | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | forma | Alkategória | 1 | 0 | 1 | 0 | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | gyorsfagyasztott | Főkategória | 1 | 0 | 1 | 0 | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | jelleg | Alkategória | 1 | 0 | 1 | 0 | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | keverék stílus | Alkategória | 1 | 0 | 1 | 0 | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | minőség / jelleg | Alkategória | 1 | 0 | 1 | 0 | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | márka | Alkategória | 1 | 0 | 1 | 0 | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | vágás / forma | Alkategória | 1 | 0 | 1 | 0 | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | zöldség | Alkategória | 1 | 0 | 1 | 0 | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | ízesítés | Alkategória | 1 | 0 | 1 | 0 | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | alap | Altípus | 23 | 8 | 15 | 0 | Auchan Kedvenc Zöldségkeverék húsleveshez gyorsfagyasztott 1000 g (Auchan 632603:4169993) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | bio | Főkategória | 23 | 0 | 23 | 0 | Auchan Kedvenc Zöldségkeverék húsleveshez gyorsfagyasztott 1000 g (Auchan 632603:4169993) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | elkészítés | Alkategória | 23 | 0 | 19 | 4 | Auchan Kedvenc Zöldségkeverék húsleveshez gyorsfagyasztott 1000 g (Auchan 632603:4169993) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | forma | Altípus | 23 | 12 | 11 | 0 | Auchan Kedvenc Zöldségkeverék húsleveshez gyorsfagyasztott 1000 g (Auchan 632603:4169993) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | gyorsfagyasztott | Főkategória | 23 | 1 | 22 | 0 | Auchan Kedvenc Zöldségkeverék húsleveshez gyorsfagyasztott 1000 g (Auchan 632603:4169993) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | jelleg | Altípus | 23 | 8 | 15 | 0 | Auchan Kedvenc Zöldségkeverék húsleveshez gyorsfagyasztott 1000 g (Auchan 632603:4169993) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | keverék stílus | Altípus | 23 | 6 | 17 | 0 | METRO Chef Gyorsfagyasztott Wok Mix Zöldségkeverék 2,5 kg (BTY-X12049300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | kiszerelés | Altípus | 23 | 12 | 11 | 0 | Auchan Kedvenc Zöldségkeverék húsleveshez gyorsfagyasztott 1000 g (Auchan 632603:4169993) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | minőség / jelleg | Alkategória | 23 | 0 | 19 | 4 | Auchan Kedvenc Zöldségkeverék húsleveshez gyorsfagyasztott 1000 g (Auchan 632603:4169993) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | termékcsalád | Altípus | 23 | 3 | 20 | 0 | Auchan Kedvenc Zöldségkeverék húsleveshez gyorsfagyasztott 1000 g (Auchan 632603:4169993) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | terméktípus | Altípus | 23 | 18 | 5 | 0 | Auchan Kedvenc Zöldségkeverék húsleveshez gyorsfagyasztott 1000 g (Auchan 632603:4169993) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | vágás / forma | Alkategória | 23 | 4 | 19 | 0 | METRO Chef Gyorsfagyasztott Wok Mix Zöldségkeverék 2,5 kg (BTY-X12049300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | zöldség | Altípus | 23 | 5 | 18 | 0 | METRO Chef Gyorsfagyasztott Wok Mix Zöldségkeverék 2,5 kg (BTY-X12049300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | ízesítés | Altípus | 23 | 12 | 11 | 0 | METRO Chef Gyorsfagyasztott Wok Mix Zöldségkeverék 2,5 kg (BTY-X12049300320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | összetevő | Altípus | 23 | 1 | 22 | 0 | Auchan Kedvenc Zöldségkeverék húsleveshez gyorsfagyasztott 1000 g (Auchan 632603:4169993) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | alap | Altípus | 157 | 74 | 83 | 0 | ALL SEASONS Zöldborsó extra zsenge, 2-3 percig forralni szükséges! , 450 g (Aldi 980563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | bio | Főkategória | 157 | 10 | 147 | 0 | Fevita gyorsfagyasztott sárgarépakorong 450 g (Auchan 65435:3602516) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | elkészítés | Alkategória | 157 | 0 | 119 | 38 | ALL SEASONS Zöldborsó extra zsenge, 2-3 percig forralni szükséges! , 450 g (Aldi 980563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | forma | Altípus | 157 | 83 | 74 | 0 | ALL SEASONS Zöldborsó extra zsenge, 2-3 percig forralni szükséges! , 450 g (Aldi 980563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | gyorsfagyasztott | Altípus | 157 | 25 | 132 | 0 | Fevita gyorsfagyasztott sárgarépakorong 450 g (Auchan 65435:3602516) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | jelleg | Altípus | 157 | 74 | 83 | 0 | ALL SEASONS Zöldborsó extra zsenge, 2-3 percig forralni szükséges! , 450 g (Aldi 980563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | keverék stílus | Alkategória | 157 | 48 | 109 | 0 | FRESHONA Zöldhüvelyű zöldbab (10104515) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | kiszerelés | Altípus | 157 | 96 | 61 | 0 | Fevita gyorsfagyasztott sárgarépakorong 450 g (Auchan 65435:3602516) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | minőség / jelleg | Alkategória | 157 | 12 | 117 | 28 | ALL SEASONS Vágott, sárga hüvelyű zöld bab, 2 - 3 percig forralnui szükséges, 1 kg (Aldi 991348) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | minősítés | Altípus | 157 | 2 | 155 | 0 | ALL SEASONS Zöldborsó extra zsenge, 2-3 percig forralni szükséges! , 450 g (Aldi 980563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | termékcsalád | Altípus | 157 | 2 | 155 | 0 | ALL SEASONS Zöldborsó extra zsenge, 2-3 percig forralni szükséges! , 450 g (Aldi 980563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | terméktípus | Altípus | 157 | 103 | 54 | 0 | ALL SEASONS Zöldborsó extra zsenge, 2-3 percig forralni szükséges! , 450 g (Aldi 980563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | vágás / forma | Altípus | 157 | 67 | 90 | 0 | FRESHONA Zöldhüvelyű zöldbab (10104515) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | zöldség | Altípus | 157 | 91 | 66 | 0 | METRO Chef Gyorsfagyasztott Csöves Csemegekukorica 2,5 kg (BTY-X1412900320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | zöldség típusa | Altípus | 157 | 9 | 148 | 0 | ALL SEASONS Zöldborsó extra zsenge, 2-3 percig forralni szükséges! , 450 g (Aldi 980563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | ízesítés | Altípus | 157 | 53 | 104 | 0 | ALL SEASONS Zöldborsó extra zsenge, 2-3 percig forralni szükséges! , 450 g (Aldi 980563) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | alap | Alkategória | 4 | 0 | 4 | 0 | Tesco gyorsfagyasztott aprított spenót adagok 450 g (100579698) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | bio | Főkategória | 4 | 0 | 4 | 0 | Tesco gyorsfagyasztott aprított spenót adagok 450 g (100579698) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | elkészítés | Alkategória | 4 | 0 | 4 | 0 | Tesco gyorsfagyasztott aprított spenót adagok 450 g (100579698) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | forma | Alkategória | 4 | 0 | 4 | 0 | Tesco gyorsfagyasztott aprított spenót adagok 450 g (100579698) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | gyorsfagyasztott | Főkategória | 4 | 1 | 3 | 0 | Tesco gyorsfagyasztott aprított spenót adagok 450 g (100579698) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | jelleg | Alkategória | 4 | 0 | 4 | 0 | Tesco gyorsfagyasztott aprított spenót adagok 450 g (100579698) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | keverék stílus | Alkategória | 4 | 0 | 4 | 0 | Tesco gyorsfagyasztott aprított spenót adagok 450 g (100579698) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | kiszerelés | Altípus | 4 | 3 | 1 | 0 | Bonduelle gyorsfagyasztott leveles paraj 400 g (Coopshop 186025) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | minőség / jelleg | Alkategória | 4 | 0 | 4 | 0 | Tesco gyorsfagyasztott aprított spenót adagok 450 g (100579698) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | terméktípus | Altípus | 4 | 3 | 1 | 0 | Bonduelle gyorsfagyasztott leveles paraj 400 g (Coopshop 186025) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | vágás / forma | Alkategória | 4 | 1 | 3 | 0 | Tesco gyorsfagyasztott aprított spenót adagok 450 g (100579698) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | zöldség | Alkategória | 4 | 1 | 3 | 0 | Tesco gyorsfagyasztott aprított spenót adagok 450 g (100579698) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | ízesítés | Alkategória | 4 | 0 | 4 | 0 | Tesco gyorsfagyasztott aprított spenót adagok 450 g (100579698) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | alap | Altípus | 28 | 8 | 20 | 0 | ALL SEASONS Passzírozott paraj, 450 g (Aldi 1018154) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | bio | Főkategória | 28 | 2 | 26 | 0 | FRoSTA gyorsfagyasztott, blansírozott, aprított spenót 450 g (Auchan 23365:23368) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | elkészítés | Alkategória | 28 | 0 | 20 | 8 | ALL SEASONS Passzírozott paraj, 450 g (Aldi 1018154) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | forma | Altípus | 28 | 15 | 13 | 0 | ALL SEASONS Passzírozott paraj, 450 g (Aldi 1018154) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | gyorsfagyasztott | Altípus | 28 | 4 | 24 | 0 | FRoSTA gyorsfagyasztott, blansírozott, aprított spenót 450 g (Auchan 23365:23368) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | jelleg | Altípus | 28 | 8 | 20 | 0 | ALL SEASONS Passzírozott paraj, 450 g (Aldi 1018154) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | keverék stílus | Alkategória | 28 | 10 | 18 | 0 | BONDUELLE Leveles spenót (10029594) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | kiszerelés | Altípus | 28 | 11 | 17 | 0 | FRoSTA gyorsfagyasztott, blansírozott, aprított spenót 450 g (Auchan 23365:23368) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | minőség / jelleg | Alkategória | 28 | 0 | 20 | 8 | ALL SEASONS Passzírozott paraj, 450 g (Aldi 1018154) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | terméktípus | Altípus | 28 | 15 | 13 | 0 | ALL SEASONS Passzírozott paraj, 450 g (Aldi 1018154) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | vágás / forma | Altípus | 28 | 15 | 13 | 0 | METRO Chef Parajlevél Adagok 2,5 kg (BTY-X17003600320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | zöldség | Altípus | 28 | 22 | 6 | 0 | METRO Chef Parajlevél Adagok 2,5 kg (BTY-X17003600320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | zöldség típusa | Altípus | 28 | 1 | 27 | 0 | ALL SEASONS Passzírozott paraj, 450 g (Aldi 1018154) |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | ízesítés | Altípus | 28 | 9 | 19 | 0 | ALL SEASONS Passzírozott paraj, 450 g (Aldi 1018154) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | alap | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott bébi sárgarépa 450 g (100579742) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | bio | Főkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott bébi sárgarépa 450 g (100579742) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | elkészítés | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott bébi sárgarépa 450 g (100579742) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | forma | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott bébi sárgarépa 450 g (100579742) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | gyorsfagyasztott | Főkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott bébi sárgarépa 450 g (100579742) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | jelleg | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott bébi sárgarépa 450 g (100579742) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | keverék stílus | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott bébi sárgarépa 450 g (100579742) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | minőség / jelleg | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott bébi sárgarépa 450 g (100579742) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | vágás / forma | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott bébi sárgarépa 450 g (100579742) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | zöldség | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott bébi sárgarépa 450 g (100579742) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | ízesítés | Alkategória | 2 | 0 | 2 | 0 | Tesco gyorsfagyasztott bébi sárgarépa 450 g (100579742) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | alap | Alkategória | 2 | 0 | 2 | 0 | Iglo gyorsfagyasztott sóskamártás 450 g (220229386) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | bio | Főkategória | 2 | 0 | 2 | 0 | Iglo gyorsfagyasztott sóskamártás 450 g (220229386) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | elkészítés | Alkategória | 2 | 0 | 2 | 0 | Iglo gyorsfagyasztott sóskamártás 450 g (220229386) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | forma | Alkategória | 2 | 0 | 2 | 0 | Iglo gyorsfagyasztott sóskamártás 450 g (220229386) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | gyorsfagyasztott | Főkategória | 2 | 1 | 1 | 0 | Iglo gyorsfagyasztott sóskamártás 450 g (220229386) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | jelleg | Alkategória | 2 | 0 | 2 | 0 | Iglo gyorsfagyasztott sóskamártás 450 g (220229386) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | keverék stílus | Alkategória | 2 | 0 | 2 | 0 | Iglo gyorsfagyasztott sóskamártás 450 g (220229386) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | kiszerelés | Altípus | 2 | 1 | 1 | 0 | Coop Gyorsan Kész gyorsfagyasztott sóska porciók 450 g (Coopshop 54841) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | minőség / jelleg | Alkategória | 2 | 0 | 2 | 0 | Iglo gyorsfagyasztott sóskamártás 450 g (220229386) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | terméktípus | Altípus | 2 | 1 | 1 | 0 | Coop Gyorsan Kész gyorsfagyasztott sóska porciók 450 g (Coopshop 54841) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | vágás / forma | Alkategória | 2 | 0 | 2 | 0 | Iglo gyorsfagyasztott sóskamártás 450 g (220229386) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | zöldség | Alkategória | 2 | 1 | 1 | 0 | Iglo gyorsfagyasztott sóskamártás 450 g (220229386) |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | ízesítés | Alkategória | 2 | 0 | 2 | 0 | Iglo gyorsfagyasztott sóskamártás 450 g (220229386) |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | alap | Alkategória | 1 | 0 | 1 | 0 | Sprint gyorsfagyasztott gyalult tök kaporral 1000 g (207963069) |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | bio | Főkategória | 1 | 0 | 1 | 0 | Sprint gyorsfagyasztott gyalult tök kaporral 1000 g (207963069) |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | elkészítés | Alkategória | 1 | 0 | 1 | 0 | Sprint gyorsfagyasztott gyalult tök kaporral 1000 g (207963069) |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | forma | Alkategória | 1 | 0 | 1 | 0 | Sprint gyorsfagyasztott gyalult tök kaporral 1000 g (207963069) |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | gyorsfagyasztott | Főkategória | 1 | 0 | 1 | 0 | Sprint gyorsfagyasztott gyalult tök kaporral 1000 g (207963069) |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | jelleg | Alkategória | 1 | 0 | 1 | 0 | Sprint gyorsfagyasztott gyalult tök kaporral 1000 g (207963069) |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | keverék stílus | Alkategória | 1 | 0 | 1 | 0 | Sprint gyorsfagyasztott gyalult tök kaporral 1000 g (207963069) |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | minőség / jelleg | Alkategória | 1 | 0 | 1 | 0 | Sprint gyorsfagyasztott gyalult tök kaporral 1000 g (207963069) |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | vágás / forma | Alkategória | 1 | 0 | 1 | 0 | Sprint gyorsfagyasztott gyalult tök kaporral 1000 g (207963069) |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | zöldség | Alkategória | 1 | 0 | 1 | 0 | Sprint gyorsfagyasztott gyalult tök kaporral 1000 g (207963069) |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | ízesítés | Alkategória | 1 | 0 | 1 | 0 | Sprint gyorsfagyasztott gyalult tök kaporral 1000 g (207963069) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | alap | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (120039325) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | bio | Főkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (120039325) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | elkészítés | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (120039325) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | forma | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (120039325) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | gyorsfagyasztott | Főkategória | 2 | 1 | 1 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (120039325) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | jelleg | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (120039325) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | keverék stílus | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (120039325) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | kiszerelés | Altípus | 2 | 1 | 1 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (Coopshop 41680) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | minőség / jelleg | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (120039325) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | terméktípus | Altípus | 2 | 1 | 1 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (Coopshop 41680) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | vágás / forma | Alkategória | 2 | 1 | 1 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (120039325) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | zöldség | Alkategória | 2 | 1 | 1 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (120039325) |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | ízesítés | Alkategória | 2 | 0 | 2 | 0 | FeVita gyorsfagyasztott zsenge friss vöröshagymakocka 300 g (120039325) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | alap | Alkategória | 7 | 0 | 7 | 0 | Tesco gyorsfagyasztott sárga hüvelyű vágott zöldbab 450 g (100579625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | bio | Főkategória | 7 | 0 | 7 | 0 | Tesco gyorsfagyasztott sárga hüvelyű vágott zöldbab 450 g (100579625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | elkészítés | Alkategória | 7 | 0 | 7 | 0 | Tesco gyorsfagyasztott sárga hüvelyű vágott zöldbab 450 g (100579625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | forma | Alkategória | 7 | 0 | 7 | 0 | Tesco gyorsfagyasztott sárga hüvelyű vágott zöldbab 450 g (100579625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | gyorsfagyasztott | Főkategória | 7 | 5 | 2 | 0 | Tesco gyorsfagyasztott sárga hüvelyű vágott zöldbab 450 g (100579625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | jelleg | Alkategória | 7 | 0 | 7 | 0 | Tesco gyorsfagyasztott sárga hüvelyű vágott zöldbab 450 g (100579625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | keverék stílus | Alkategória | 7 | 0 | 7 | 0 | Tesco gyorsfagyasztott sárga hüvelyű vágott zöldbab 450 g (100579625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | kiszerelés | Altípus | 7 | 2 | 5 | 0 | Coop Gyorsan Kész gyorsfagyasztott sárgahüvelyű vágott zöldbab 450 g (Coopshop 186235) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | minőség / jelleg | Alkategória | 7 | 1 | 6 | 0 | Tesco gyorsfagyasztott sárga hüvelyű vágott zöldbab 450 g (100579625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | terméktípus | Altípus | 7 | 2 | 5 | 0 | Coop Gyorsan Kész gyorsfagyasztott sárgahüvelyű vágott zöldbab 450 g (Coopshop 186235) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | vágás / forma | Alkategória | 7 | 3 | 4 | 0 | Tesco gyorsfagyasztott sárga hüvelyű vágott zöldbab 450 g (100579625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | zöldség | Alkategória | 7 | 3 | 4 | 0 | Tesco gyorsfagyasztott sárga hüvelyű vágott zöldbab 450 g (100579625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | ízesítés | Alkategória | 7 | 0 | 7 | 0 | Tesco gyorsfagyasztott sárga hüvelyű vágott zöldbab 450 g (100579625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | alap | Alkategória | 8 | 0 | 8 | 0 | Tesco gyorsfagyasztott zöldborsó 450 g (100579741) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | bio | Főkategória | 8 | 0 | 8 | 0 | Tesco gyorsfagyasztott zöldborsó 450 g (100579741) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | elkészítés | Alkategória | 8 | 0 | 8 | 0 | Tesco gyorsfagyasztott zöldborsó 450 g (100579741) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | forma | Alkategória | 8 | 0 | 8 | 0 | Tesco gyorsfagyasztott zöldborsó 450 g (100579741) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | gyorsfagyasztott | Főkategória | 8 | 3 | 5 | 0 | Tesco gyorsfagyasztott zöldborsó 450 g (100579741) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | jelleg | Alkategória | 8 | 0 | 8 | 0 | Tesco gyorsfagyasztott zöldborsó 450 g (100579741) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | keverék stílus | Alkategória | 8 | 0 | 8 | 0 | Tesco gyorsfagyasztott zöldborsó 450 g (100579741) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | kiszerelés | Altípus | 8 | 5 | 3 | 0 | Coop Gyorsan Kész gyorsfagyasztott zsenge zöldborsó 1000 g (Coopshop 182512) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | minőség / jelleg | Alkategória | 8 | 1 | 7 | 0 | Tesco gyorsfagyasztott zöldborsó 450 g (100579741) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | minősítés | Altípus | 8 | 1 | 7 | 0 | Tesco gyorsfagyasztott zöldborsó 450 g (100579741) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | terméktípus | Altípus | 8 | 6 | 2 | 0 | Coop Gyorsan Kész gyorsfagyasztott zsenge zöldborsó 1000 g (Coopshop 182512) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | vágás / forma | Alkategória | 8 | 0 | 8 | 0 | Tesco gyorsfagyasztott zöldborsó 450 g (100579741) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | zöldség | Alkategória | 8 | 2 | 6 | 0 | Tesco gyorsfagyasztott zöldborsó 450 g (100579741) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | ízesítés | Alkategória | 8 | 0 | 8 | 0 | Tesco gyorsfagyasztott zöldborsó 450 g (100579741) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | alap | Altípus | 103 | 31 | 72 | 0 | ALL SEASONS Mexikói zöldség-keverék, 1 kg (Aldi 976576) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | bio | Főkategória | 103 | 5 | 98 | 0 | Findus Wok Chinese fagyasztott fűszerezett zöldségkeverék wokhoz 325 g (Auchan 73695:3610783) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | elkészítés | Alkategória | 103 | 0 | 88 | 15 | ALL SEASONS Mexikói zöldség-keverék, 1 kg (Aldi 976576) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | forma | Altípus | 103 | 36 | 67 | 0 | ALL SEASONS Mexikói zöldség-keverék, 1 kg (Aldi 976576) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | gyorsfagyasztott | Altípus | 103 | 24 | 79 | 0 | Findus Wok Chinese fagyasztott fűszerezett zöldségkeverék wokhoz 325 g (Auchan 73695:3610783) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | jelleg | Altípus | 103 | 31 | 72 | 0 | ALL SEASONS Mexikói zöldség-keverék, 1 kg (Aldi 976576) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | keverék stílus | Altípus | 103 | 27 | 76 | 0 | METRO Chef Gyorsfagyasztott Euro Zöldségkeverék 2,5 kg (BTY-X10655500320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | kiszerelés | Altípus | 103 | 63 | 40 | 0 | Findus Wok Chinese fagyasztott fűszerezett zöldségkeverék wokhoz 325 g (Auchan 73695:3610783) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | minőség / jelleg | Alkategória | 103 | 0 | 88 | 15 | ALL SEASONS Mexikói zöldség-keverék, 1 kg (Aldi 976576) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | minősítés | Altípus | 103 | 1 | 102 | 0 | ALL SEASONS Mexikói zöldség-keverék, 1 kg (Aldi 976576) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | stílus | Altípus | 103 | 3 | 100 | 0 | ALL SEASONS Mexikói zöldség-keverék, 1 kg (Aldi 976576) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | termékcsalád | Altípus | 103 | 1 | 102 | 0 | ALL SEASONS Mexikói zöldség-keverék, 1 kg (Aldi 976576) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | terméktípus | Altípus | 103 | 72 | 31 | 0 | ALL SEASONS Mexikói zöldség-keverék, 1 kg (Aldi 976576) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | vágás / forma | Alkategória | 103 | 20 | 83 | 0 | VEMONDO Zöldség mix (10013724) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | zöldség | Altípus | 103 | 36 | 67 | 0 | METRO Chef Gyorsfagyasztott Euro Zöldségkeverék 2,5 kg (BTY-X10655500320021) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | zöldség típusa | Altípus | 103 | 5 | 98 | 0 | ALL SEASONS Mexikói zöldség-keverék, 1 kg (Aldi 976576) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | ízesítés | Altípus | 103 | 17 | 86 | 0 | ALL SEASONS Mexikói zöldség-keverék, 1 kg (Aldi 976576) |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | összetevő | Altípus | 103 | 3 | 100 | 0 | ALL SEASONS Mexikói zöldség-keverék, 1 kg (Aldi 976576) |
-| Fagyasztott áruk → Jég → Jégkocka | bio | Főkategória | 8 | 0 | 8 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
-| Fagyasztott áruk → Jég → Jégkocka | desszert típusa | Altípus | 8 | 0 | 8 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
-| Fagyasztott áruk → Jég → Jégkocka | gluténmentes | Altípus | 8 | 0 | 8 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
-| Fagyasztott áruk → Jég → Jégkocka | gyorsfagyasztott | Főkategória | 8 | 0 | 8 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
-| Fagyasztott áruk → Jég → Jégkocka | hozzáadott cukor nélkül | Altípus | 8 | 0 | 8 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
-| Fagyasztott áruk → Jég → Jégkocka | jelleg | Altípus | 8 | 3 | 5 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
-| Fagyasztott áruk → Jég → Jégkocka | kiszerelés | Altípus | 8 | 6 | 2 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
-| Fagyasztott áruk → Jég → Jégkocka | laktózmentes | Altípus | 8 | 0 | 8 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
-| Fagyasztott áruk → Jég → Jégkocka | terméktípus | Altípus | 8 | 6 | 2 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
-| Fagyasztott áruk → Jég → Jégkocka | töltelék / íz | Altípus | 8 | 0 | 8 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
-| Fagyasztott áruk → Jég → Jégkocka | vegán/növényi | Altípus | 8 | 0 | 8 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
-| Fagyasztott áruk → Jég → Jégkocka | íz | Altípus | 8 | 0 | 8 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | allergénmentes | Alkategória | 319 | 83 | 236 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | bio | Főkategória | 319 | 92 | 227 | 0 | NUTELLA Ice cream pot (10089556) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | csökkentett energiatartalmú | Alkategória | 319 | 88 | 231 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | cukormentes | Alkategória | 319 | 92 | 227 | 0 | NUTELLA Ice cream pot (10089556) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | forma | Altípus | 319 | 151 | 168 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | gluténmentes | Alkategória | 319 | 92 | 227 | 0 | NUTELLA Ice cream pot (10089556) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | gyorsfagyasztott | Főkategória | 319 | 98 | 221 | 0 | NUTELLA Ice cream pot (10089556) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | jelleg | Altípus | 319 | 6 | 313 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | jellemzők | Altípus | 319 | 2 | 317 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | kiszerelés | Altípus | 319 | 242 | 77 | 0 | NUTELLA Ice cream pot (10089556) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | laktózmentes | Alkategória | 319 | 83 | 236 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | mentes | Altípus | 319 | 3 | 316 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | termékcsalád | Altípus | 319 | 3 | 316 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | terméktípus | Altípus | 319 | 213 | 106 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | vegán/növényi | Alkategória | 319 | 92 | 227 | 0 | NUTELLA Ice cream pot (10089556) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | vízijégkrém / sorbet | Altípus | 319 | 94 | 225 | 0 | NUTELLA Ice cream pot (10089556) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | íz | Altípus | 319 | 315 | 4 | 0 | Carte d’Or tejcsokoládés jégkrém csokoládé darabkákkal 1300 ml (Coopshop 179596) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | allergénmentes | Alkategória | 281 | 101 | 180 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | bevonat | Altípus | 281 | 20 | 261 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | bio | Főkategória | 281 | 107 | 174 | 0 | GELATELLI Jégkrém (10098063) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | csökkentett energiatartalmú | Alkategória | 281 | 104 | 177 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | cukormentes | Alkategória | 281 | 107 | 174 | 0 | GELATELLI Jégkrém (10098063) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | forma | Altípus | 281 | 84 | 197 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | gluténmentes | Alkategória | 281 | 107 | 174 | 0 | GELATELLI Jégkrém (10098063) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | gyorsfagyasztott | Főkategória | 281 | 110 | 171 | 0 | GELATELLI Jégkrém (10098063) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | jelleg | Altípus | 281 | 13 | 268 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | jellemzők | Altípus | 281 | 1 | 280 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | kiszerelés | Altípus | 281 | 223 | 58 | 0 | GELATELLI Jégkrém (10098063) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | laktózmentes | Alkategória | 281 | 88 | 193 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | mentes | Altípus | 281 | 10 | 271 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | termékcsalád | Altípus | 281 | 1 | 280 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | terméktípus | Altípus | 281 | 163 | 118 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | vegán | Altípus | 281 | 2 | 279 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | vegán/növényi | Alkategória | 281 | 107 | 174 | 0 | GELATELLI Jégkrém (10098063) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | vízijégkrém / sorbet | Altípus | 281 | 109 | 172 | 0 | GELATELLI Jégkrém (10098063) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | édesítés | Altípus | 281 | 1 | 280 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | íz | Altípus | 281 | 277 | 4 | 0 | Häagen-Dazs jégkrém válogatás 4 x 95 ml (380 ml) (220293031) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | allergénmentes | Alkategória | 10 | 2 | 8 | 0 | MUCCI Jégkrém-szendvics tricolor, 8 x 90 ml (Aldi 972054) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | bio | Főkategória | 10 | 4 | 6 | 0 | GELATELLI Proteines jégkrém szelet (10098187) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | csökkentett energiatartalmú | Alkategória | 10 | 4 | 6 | 0 | GELATELLI Proteines jégkrém szelet (10098187) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | cukormentes | Alkategória | 10 | 4 | 6 | 0 | GELATELLI Proteines jégkrém szelet (10098187) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | forma | Altípus | 10 | 1 | 9 | 0 | MUCCI Jégkrém-szendvics tricolor, 8 x 90 ml (Aldi 972054) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | gluténmentes | Alkategória | 10 | 4 | 6 | 0 | GELATELLI Proteines jégkrém szelet (10098187) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | gyorsfagyasztott | Főkategória | 10 | 4 | 6 | 0 | GELATELLI Proteines jégkrém szelet (10098187) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | jelleg | Alkategória | 10 | 0 | 10 | 0 | MUCCI Jégkrém-szendvics tricolor, 8 x 90 ml (Aldi 972054) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | kiszerelés | Altípus | 10 | 7 | 3 | 0 | GELATELLI Proteines jégkrém szelet (10098187) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | laktózmentes | Alkategória | 10 | 2 | 8 | 0 | MUCCI Jégkrém-szendvics tricolor, 8 x 90 ml (Aldi 972054) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | protein / magas fehérje | Altípus | 10 | 1 | 9 | 0 | MUCCI Jégkrém-szendvics tricolor, 8 x 90 ml (Aldi 972054) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | terméktípus | Altípus | 10 | 4 | 6 | 0 | MUCCI Jégkrém-szendvics tricolor, 8 x 90 ml (Aldi 972054) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | vegán/növényi | Alkategória | 10 | 4 | 6 | 0 | GELATELLI Proteines jégkrém szelet (10098187) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | vízijégkrém / sorbet | Alkategória | 10 | 4 | 6 | 0 | GELATELLI Proteines jégkrém szelet (10098187) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | allergénmentes | Alkategória | 11 | 6 | 5 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | bio | Főkategória | 11 | 6 | 5 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | csökkentett energiatartalmú | Alkategória | 11 | 6 | 5 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | cukormentes | Alkategória | 11 | 6 | 5 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | forma | Altípus | 11 | 3 | 8 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | gluténmentes | Alkategória | 11 | 6 | 5 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | gyorsfagyasztott | Főkategória | 11 | 6 | 5 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | jelleg | Alkategória | 11 | 0 | 11 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | kiszerelés | Altípus | 11 | 8 | 3 | 0 | Viennetta Jégkrém Vanília 650 ml (3ef26eae9f889db670811c07) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | laktózmentes | Alkategória | 11 | 6 | 5 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | terméktípus | Altípus | 11 | 3 | 8 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | vegán/növényi | Alkategória | 11 | 6 | 5 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | vízijégkrém / sorbet | Alkategória | 11 | 6 | 5 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | íz | Altípus | 11 | 9 | 2 | 0 | Viennetta vanília jégkrém kakaós bevonó rétegekkel 650 ml (Coopshop 185528) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | allergénmentes | Alkategória | 1 | 0 | 1 | 0 | Cloud 9 mentes perui gourmet csokoládé fagylalt 500 ml (105013528) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | bio | Főkategória | 1 | 0 | 1 | 0 | Cloud 9 mentes perui gourmet csokoládé fagylalt 500 ml (105013528) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | csökkentett energiatartalmú | Alkategória | 1 | 0 | 1 | 0 | Cloud 9 mentes perui gourmet csokoládé fagylalt 500 ml (105013528) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | cukormentes | Alkategória | 1 | 0 | 1 | 0 | Cloud 9 mentes perui gourmet csokoládé fagylalt 500 ml (105013528) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | forma | Alkategória | 1 | 0 | 1 | 0 | Cloud 9 mentes perui gourmet csokoládé fagylalt 500 ml (105013528) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | gluténmentes | Alkategória | 1 | 0 | 1 | 0 | Cloud 9 mentes perui gourmet csokoládé fagylalt 500 ml (105013528) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | gyorsfagyasztott | Főkategória | 1 | 0 | 1 | 0 | Cloud 9 mentes perui gourmet csokoládé fagylalt 500 ml (105013528) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | jelleg | Alkategória | 1 | 0 | 1 | 0 | Cloud 9 mentes perui gourmet csokoládé fagylalt 500 ml (105013528) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | laktózmentes | Alkategória | 1 | 0 | 1 | 0 | Cloud 9 mentes perui gourmet csokoládé fagylalt 500 ml (105013528) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | vegán/növényi | Alkategória | 1 | 0 | 1 | 0 | Cloud 9 mentes perui gourmet csokoládé fagylalt 500 ml (105013528) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | vízijégkrém / sorbet | Alkategória | 1 | 0 | 1 | 0 | Cloud 9 mentes perui gourmet csokoládé fagylalt 500 ml (105013528) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | allergénmentes | Alkategória | 316 | 68 | 248 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | bevonat | Altípus | 316 | 36 | 280 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | bio | Főkategória | 316 | 84 | 232 | 0 | BALLINO Tölcséres jégkrém (10035088) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | csökkentett energiatartalmú | Altípus | 316 | 91 | 225 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | cukormentes | Alkategória | 316 | 84 | 232 | 0 | BALLINO Tölcséres jégkrém (10035088) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | forma | Altípus | 316 | 98 | 218 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | gluténmentes | Alkategória | 316 | 84 | 232 | 0 | BALLINO Tölcséres jégkrém (10035088) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | gyorsfagyasztott | Főkategória | 316 | 97 | 219 | 0 | BALLINO Tölcséres jégkrém (10035088) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | hozzáadott darabok | Altípus | 316 | 1 | 315 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | jelleg | Altípus | 316 | 22 | 294 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | jellemzők | Altípus | 316 | 1 | 315 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | kiszerelés | Altípus | 316 | 225 | 91 | 0 | BALLINO Tölcséres jégkrém (10035088) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | laktózmentes | Alkategória | 316 | 68 | 248 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | mentes | Altípus | 316 | 6 | 310 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | terméktípus | Altípus | 316 | 165 | 151 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | töltelék | Altípus | 316 | 1 | 315 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | vegán/növényi | Alkategória | 316 | 84 | 232 | 0 | BALLINO Tölcséres jégkrém (10035088) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | vízijégkrém / sorbet | Altípus | 316 | 113 | 203 | 0 | BALLINO Tölcséres jégkrém (10035088) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | édesítés | Altípus | 316 | 1 | 315 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | íz | Altípus | 316 | 309 | 7 | 0 | Magnum Double Raspberry málnás jégkrém kakaós bevonóval juzuval ízesített málnás szósszal 85 ml (Coopshop 177225) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | allergénmentes | Alkategória | 4 | 0 | 4 | 0 | Cloud 9 mentes mangó sorbet 500 ml (105013509) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | bio | Főkategória | 4 | 0 | 4 | 0 | Cloud 9 mentes mangó sorbet 500 ml (105013509) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | csökkentett energiatartalmú | Alkategória | 4 | 0 | 4 | 0 | Cloud 9 mentes mangó sorbet 500 ml (105013509) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | cukormentes | Alkategória | 4 | 0 | 4 | 0 | Cloud 9 mentes mangó sorbet 500 ml (105013509) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | forma | Alkategória | 4 | 0 | 4 | 0 | Cloud 9 mentes mangó sorbet 500 ml (105013509) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | gluténmentes | Alkategória | 4 | 0 | 4 | 0 | Cloud 9 mentes mangó sorbet 500 ml (105013509) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | gyorsfagyasztott | Főkategória | 4 | 0 | 4 | 0 | Cloud 9 mentes mangó sorbet 500 ml (105013509) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | jelleg | Alkategória | 4 | 0 | 4 | 0 | Cloud 9 mentes mangó sorbet 500 ml (105013509) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | jellemzők | Altípus | 4 | 1 | 3 | 0 | Carte D’Or Citrom Sorbet Jégkrém 1000 ml (Coopshop 185651) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | kiszerelés | Altípus | 4 | 1 | 3 | 0 | Carte D’Or Citrom Sorbet Jégkrém 1000 ml (Coopshop 185651) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | laktózmentes | Alkategória | 4 | 0 | 4 | 0 | Cloud 9 mentes mangó sorbet 500 ml (105013509) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | terméktípus | Altípus | 4 | 1 | 3 | 0 | Carte D’Or Citrom Sorbet Jégkrém 1000 ml (Coopshop 185651) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | vegán/növényi | Alkategória | 4 | 0 | 4 | 0 | Cloud 9 mentes mangó sorbet 500 ml (105013509) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | vízijégkrém / sorbet | Alkategória | 4 | 0 | 4 | 0 | Cloud 9 mentes mangó sorbet 500 ml (105013509) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | allergénmentes | Alkategória | 175 | 54 | 121 | 0 | CARTE D'OR Gelateria mini jégkrém Citromtorta, 200 ml (Aldi 1055028) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | bio | Főkategória | 175 | 65 | 110 | 0 | BON GELATI Premium jégkrém (10098111) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | csökkentett energiatartalmú | Alkategória | 175 | 61 | 114 | 0 | CARTE D'OR Gelateria mini jégkrém Citromtorta, 200 ml (Aldi 1055028) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | cukormentes | Alkategória | 175 | 65 | 110 | 0 | BON GELATI Premium jégkrém (10098111) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | forma | Altípus | 175 | 30 | 145 | 0 | CARTE D'OR Gelateria mini jégkrém Citromtorta, 200 ml (Aldi 1055028) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | gluténmentes | Alkategória | 175 | 65 | 110 | 0 | BON GELATI Premium jégkrém (10098111) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | gyorsfagyasztott | Főkategória | 175 | 75 | 100 | 0 | BON GELATI Premium jégkrém (10098111) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | jelleg | Altípus | 175 | 4 | 171 | 0 | CARTE D'OR Gelateria mini jégkrém Citromtorta, 200 ml (Aldi 1055028) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | jellemzők | Altípus | 175 | 4 | 171 | 0 | CARTE D'OR Gelateria mini jégkrém Citromtorta, 200 ml (Aldi 1055028) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | kiszerelés | Altípus | 175 | 143 | 32 | 0 | BON GELATI Premium jégkrém (10098111) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | laktózmentes | Alkategória | 175 | 37 | 138 | 0 | CARTE D'OR Gelateria mini jégkrém Citromtorta, 200 ml (Aldi 1055028) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | mentes | Altípus | 175 | 8 | 167 | 0 | CARTE D'OR Gelateria mini jégkrém Citromtorta, 200 ml (Aldi 1055028) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | terméktípus | Altípus | 175 | 88 | 87 | 0 | CARTE D'OR Gelateria mini jégkrém Citromtorta, 200 ml (Aldi 1055028) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | vegán/növényi | Alkategória | 175 | 65 | 110 | 0 | BON GELATI Premium jégkrém (10098111) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | vízijégkrém / sorbet | Alkategória | 175 | 65 | 110 | 0 | BON GELATI Premium jégkrém (10098111) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | édesítés | Altípus | 175 | 7 | 168 | 0 | CARTE D'OR Gelateria mini jégkrém Citromtorta, 200 ml (Aldi 1055028) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | íz | Altípus | 175 | 155 | 20 | 0 | Carte D’Or tejcsokoládés jégkrém csokoládés szósszal és kakaós brownie sütemény darabkákkal 825 ml (Coopshop 177335) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | allergénmentes | Alkategória | 2 | 0 | 2 | 0 | Magnum Pálcikás Jégkrém Vegán Mandula 90 ml (220253637) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | bio | Főkategória | 2 | 0 | 2 | 0 | Magnum Pálcikás Jégkrém Vegán Mandula 90 ml (220253637) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | csökkentett energiatartalmú | Alkategória | 2 | 0 | 2 | 0 | Magnum Pálcikás Jégkrém Vegán Mandula 90 ml (220253637) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | cukormentes | Alkategória | 2 | 0 | 2 | 0 | Magnum Pálcikás Jégkrém Vegán Mandula 90 ml (220253637) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | forma | Alkategória | 2 | 0 | 2 | 0 | Magnum Pálcikás Jégkrém Vegán Mandula 90 ml (220253637) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | gluténmentes | Alkategória | 2 | 0 | 2 | 0 | Magnum Pálcikás Jégkrém Vegán Mandula 90 ml (220253637) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | gyorsfagyasztott | Főkategória | 2 | 0 | 2 | 0 | Magnum Pálcikás Jégkrém Vegán Mandula 90 ml (220253637) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | jelleg | Alkategória | 2 | 0 | 2 | 0 | Magnum Pálcikás Jégkrém Vegán Mandula 90 ml (220253637) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | jellemzők | Altípus | 2 | 1 | 1 | 0 | Carte D’Or vegán kakaós jégkrém és mogyoró ízű jégkrém kakaós szósszal 825 ml (Coopshop 178303) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | kiszerelés | Altípus | 2 | 1 | 1 | 0 | Carte D’Or vegán kakaós jégkrém és mogyoró ízű jégkrém kakaós szósszal 825 ml (Coopshop 178303) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | laktózmentes | Alkategória | 2 | 0 | 2 | 0 | Magnum Pálcikás Jégkrém Vegán Mandula 90 ml (220253637) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | terméktípus | Altípus | 2 | 1 | 1 | 0 | Carte D’Or vegán kakaós jégkrém és mogyoró ízű jégkrém kakaós szósszal 825 ml (Coopshop 178303) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | vegán/növényi | Alkategória | 2 | 1 | 1 | 0 | Magnum Pálcikás Jégkrém Vegán Mandula 90 ml (220253637) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | vízijégkrém / sorbet | Alkategória | 2 | 0 | 2 | 0 | Magnum Pálcikás Jégkrém Vegán Mandula 90 ml (220253637) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | íz | Altípus | 2 | 1 | 1 | 0 | Carte D’Or vegán kakaós jégkrém és mogyoró ízű jégkrém kakaós szósszal 825 ml (Coopshop 178303) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | alap | Altípus | 44 | 19 | 25 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | alapanyag | Altípus | 44 | 11 | 33 | 0 | METRO Chef Gyorsfagyasztott, Panírozott Egész Csiperkegomba 1 kg (BTY-X11187500320021) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | bio | Főkategória | 44 | 3 | 41 | 0 | Nádudvari gyorsfagyasztott rántott brokkoli 450 g (Auchan 40414:40417) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | elkészítés | Altípus | 44 | 0 | 44 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | forma | Altípus | 44 | 30 | 14 | 0 | Nádudvari gyorsfagyasztott rántott karfiol 450 g (9b2b46eb359fbfc6463c75e6) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | gluténmentes | Alkategória | 44 | 9 | 35 | 0 | MCENNEDY / CHEF SELECT Panírozott hagymakarikák (10107909) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | gyorsfagyasztott | Alkategória | 44 | 6 | 38 | 0 | Nádudvari gyorsfagyasztott rántott brokkoli 450 g (Auchan 40414:40417) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | jelleg | Altípus | 44 | 19 | 25 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | keverék stílus | Altípus | 44 | 0 | 44 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | kiszerelés | Altípus | 44 | 28 | 16 | 0 | Nádudvari gyorsfagyasztott rántott brokkoli 450 g (Auchan 40414:40417) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | laktózmentes | Alkategória | 44 | 9 | 35 | 0 | MCENNEDY / CHEF SELECT Panírozott hagymakarikák (10107909) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | minőség / jelleg | Altípus | 44 | 0 | 44 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | panír | Altípus | 44 | 1 | 43 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | terméktípus | Altípus | 44 | 34 | 10 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | vegán/növényi | Alkategória | 44 | 9 | 35 | 0 | MCENNEDY / CHEF SELECT Panírozott hagymakarikák (10107909) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | vágás / forma | Altípus | 44 | 0 | 44 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | zöldség | Altípus | 44 | 6 | 38 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | íz | Alkategória | 44 | 4 | 40 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | ízesítés | Altípus | 44 | 14 | 30 | 0 | METRO Chef Gyorsfagyasztott, Panírozott Egész Csiperkegomba 1 kg (BTY-X11187500320021) |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | összetevő | Altípus | 44 | 2 | 42 | 0 | ALL SEASONS Panírozott zöldség falatok, zöldséges nuggets, 700 g (Aldi 1052204) |
+| Fagyasztott áruk → Fagyasztott pizza | alap | Alkategória | 189 | 3 | 186 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | bio | Főkategória | 189 | 13 | 176 | 0 | Auchan Kedvenc pizza 4 sajtos, vékony tésztás, gyorsfagyasztott 340 g (Auchan 758448:4295838) |
+| Fagyasztott áruk → Fagyasztott pizza | csípős | Alkategória | 189 | 9 | 180 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | előkészítés | Alkategória | 189 | 13 | 176 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | feltét | Alkategória | 189 | 186 | 0 | 3 | MCENNEDY Picco Pizzi (10107891) |
+| Fagyasztott áruk → Fagyasztott pizza | forma | Alkategória | 189 | 47 | 142 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | gluténmentes | Alkategória | 189 | 61 | 128 | 0 | TRATTORIA ALFREDO Pizza Margherita (10031977) |
+| Fagyasztott áruk → Fagyasztott pizza | gyorsfagyasztott | Alkategória | 189 | 27 | 162 | 0 | Auchan Kedvenc pizza 4 sajtos, vékony tésztás, gyorsfagyasztott 340 g (Auchan 758448:4295838) |
+| Fagyasztott áruk → Fagyasztott pizza | jelleg | Alkategória | 189 | 48 | 141 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | jellemzők | Alkategória | 189 | 5 | 184 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | kiszerelés | Alkategória | 189 | 99 | 90 | 0 | Auchan Kedvenc pizza 4 sajtos, vékony tésztás, gyorsfagyasztott 340 g (Auchan 758448:4295838) |
+| Fagyasztott áruk → Fagyasztott pizza | laktózmentes | Alkategória | 189 | 48 | 141 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | mikrohullámú sütőben elkészíthető | Alkategória | 189 | 55 | 134 | 0 | TRATTORIA ALFREDO Pizza Margherita (10031977) |
+| Fagyasztott áruk → Fagyasztott pizza | MSC / fenntartható halászat | Alkategória | 189 | 48 | 141 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | méret | Alkategória | 189 | 22 | 167 | 0 | PIZZ‘AH Extra vékony pizza chorizo, 360 g (Aldi 1058545) |
+| Fagyasztott áruk → Fagyasztott pizza | szószalap | Alkategória | 189 | 4 | 185 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | tejmentes | Alkategória | 189 | 48 | 141 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | termékcsalád | Alkategória | 189 | 17 | 172 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | terméktípus | Alkategória | 189 | 126 | 63 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | tésztavastagság | Alkategória | 189 | 3 | 186 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | töltelék / ízesítés | Alkategória | 189 | 0 | 147 | 42 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott pizza | vegán/növényi | Alkategória | 189 | 56 | 133 | 0 | TRATTORIA ALFREDO Pizza Margherita (10031977) |
+| Fagyasztott áruk → Fagyasztott pizza | étel / forma | Alkategória | 189 | 105 | 84 | 0 | Fine Life Hawaii Fagyasztott Pizza 320 g (BTY-X16485500320021) |
+| Fagyasztott áruk → Fagyasztott pizza | íz | Alkategória | 189 | 75 | 114 | 0 | PIZZ'AH Picco Belli mini margherita pizza, 12 x 30 g (Aldi 827138) |
+| Fagyasztott áruk → Fagyasztott péksütemény | bio | Főkategória | 91 | 5 | 86 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
+| Fagyasztott áruk → Fagyasztott péksütemény | desszert típusa | Alkategória | 91 | 20 | 71 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | előkészítés | Alkategória | 91 | 9 | 82 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | feltét / ízesítés | Alkategória | 91 | 3 | 88 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | forma | Alkategória | 91 | 65 | 26 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | gluténmentes | Alkategória | 91 | 30 | 61 | 0 | MCCAIN Gaufres de Liège Belga Cukros Gofri 24×90 g (BTY-X18889200320021) |
+| Fagyasztott áruk → Fagyasztott péksütemény | gyorsfagyasztott | Alkategória | 91 | 20 | 71 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
+| Fagyasztott áruk → Fagyasztott péksütemény | hozzáadott cukor nélkül | Alkategória | 91 | 20 | 71 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | jelleg | Alkategória | 91 | 22 | 69 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | jellemzők | Alkategória | 91 | 3 | 88 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | kiszerelés | Alkategória | 91 | 41 | 50 | 0 | Auchan Kedvenc Croissant gyorsfagyasztott 6 db 360 g (Auchan 19996:19999) |
+| Fagyasztott áruk → Fagyasztott péksütemény | laktózmentes | Alkategória | 91 | 24 | 67 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | mentes | Alkategória | 91 | 4 | 87 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | mikrohullámú sütőben elkészíthető | Alkategória | 91 | 3 | 88 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | MSC / fenntartható halászat | Alkategória | 91 | 2 | 89 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | márka | Főkategória | 91 | 87 | 4 | 0 | Előkelesztett, gyorsfagyasztott kakaós mini csiga 700 g (Penny 1056438) |
+| Fagyasztott áruk → Fagyasztott péksütemény | tejmentes | Alkategória | 91 | 2 | 89 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | terméktípus | Alkategória | 91 | 65 | 26 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | tészta | Alkategória | 91 | 1 | 90 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | töltelék | Alkategória | 91 | 9 | 82 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | töltelék / íz | Alkategória | 91 | 24 | 67 | 0 | AMERICAN Pizzakenyér-fokhagymás, 236 g (Aldi 4597575) |
+| Fagyasztott áruk → Fagyasztott péksütemény | vegán/növényi | Alkategória | 91 | 25 | 66 | 0 | MCCAIN Gaufres de Liège Belga Cukros Gofri 24×90 g (BTY-X18889200320021) |
+| Fagyasztott áruk → Fagyasztott péksütemény | állapot | Alkategória | 91 | 9 | 82 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | étel / forma | Alkategória | 91 | 3 | 88 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | íz | Alkategória | 91 | 31 | 60 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott péksütemény | ízesítés | Alkategória | 91 | 3 | 88 | 0 | FINEST BAKERY Édes aprósütemények, túrós párna, 500 g (Aldi 534653) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | alap | Alkategória | 216 | 77 | 139 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | bevonat | Alkategória | 216 | 3 | 213 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | bio | Főkategória | 216 | 14 | 202 | 0 | Mirelite gyorsfagyasztott nokedli 400 g (Auchan 97769:3634843) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | desszert típusa | Alkategória | 216 | 6 | 210 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | elkészítés | Alkategória | 216 | 35 | 181 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | előkészítés | Alkategória | 216 | 16 | 200 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | felhasználás | Alkategória | 216 | 1 | 215 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | forma | Alkategória | 216 | 110 | 106 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | gluténmentes | Alkategória | 216 | 8 | 208 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | gyorsfagyasztott | Alkategória | 216 | 32 | 184 | 0 | Mirelite gyorsfagyasztott nokedli 400 g (Auchan 97769:3634843) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | hozzáadott cukor nélkül | Alkategória | 216 | 6 | 210 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | jelleg | Alkategória | 216 | 88 | 128 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | jellemzők | Alkategória | 216 | 1 | 215 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | keverék stílus | Alkategória | 216 | 46 | 170 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | kiszerelés | Alkategória | 216 | 138 | 78 | 0 | Mirelite gyorsfagyasztott nokedli 400 g (Auchan 97769:3634843) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | laktózmentes | Alkategória | 216 | 6 | 210 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | mentes | Alkategória | 216 | 2 | 214 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | minőség / jelleg | Alkategória | 216 | 0 | 185 | 31 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | termékcsalád | Alkategória | 216 | 9 | 207 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | terméktípus | Alkategória | 216 | 160 | 56 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | tészta | Alkategória | 216 | 4 | 212 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | töltelék | Alkategória | 216 | 0 | 216 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | töltelék / íz | Alkategória | 216 | 7 | 209 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | vegán/növényi | Alkategória | 216 | 7 | 209 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | vágás / forma | Alkategória | 216 | 76 | 140 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | zöldség | Alkategória | 216 | 85 | 131 | 0 | FINEST BAKERY Leveles tészta, 400 g (Aldi 972048) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | állapot | Alkategória | 216 | 2 | 214 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | étel / forma | Alkategória | 216 | 1 | 215 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | íz | Alkategória | 216 | 4 | 212 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Fagyasztott tészták és köretek | ízesítés | Alkategória | 216 | 45 | 171 | 0 | NATURE'S GOLD Édesburgonya hasábok, 500 g (Aldi 749202) |
+| Fagyasztott áruk → Jégkocka | bio | Főkategória | 8 | 0 | 8 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
+| Fagyasztott áruk → Jégkocka | gyorsfagyasztott | Alkategória | 8 | 0 | 8 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
+| Fagyasztott áruk → Jégkocka | jelleg | Alkategória | 8 | 3 | 5 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
+| Fagyasztott áruk → Jégkocka | kiszerelés | Alkategória | 8 | 6 | 2 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
+| Fagyasztott áruk → Jégkocka | terméktípus | Alkategória | 8 | 6 | 2 | 0 | Ice Cup poharas jég 400 ml (Auchan 990038:4527428) |
+| Fagyasztott áruk → Jégkrém, fagylalt | allergénmentes | Alkategória | 38 | 11 | 27 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | bevonat | Alkategória | 38 | 0 | 38 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | bio | Főkategória | 38 | 13 | 25 | 0 | GELATELLI Prémium jégkrém variációk (10098145) |
+| Fagyasztott áruk → Jégkrém, fagylalt | családi kiszerelés | Alkategória | 38 | 0 | 38 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | csökkentett energiatartalmú | Alkategória | 38 | 13 | 25 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | cukormentes | Alkategória | 38 | 13 | 25 | 0 | GELATELLI Prémium jégkrém variációk (10098145) |
+| Fagyasztott áruk → Jégkrém, fagylalt | forma | Alkategória | 38 | 26 | 12 | 0 | HARIBO Push-Up jégkrém multipack, 4 x 80 ml (Aldi 4605953) |
+| Fagyasztott áruk → Jégkrém, fagylalt | gluténmentes | Alkategória | 38 | 13 | 25 | 0 | GELATELLI Prémium jégkrém variációk (10098145) |
+| Fagyasztott áruk → Jégkrém, fagylalt | gyorsfagyasztott | Alkategória | 38 | 13 | 25 | 0 | GELATELLI Prémium jégkrém variációk (10098145) |
+| Fagyasztott áruk → Jégkrém, fagylalt | jelleg | Alkategória | 38 | 2 | 36 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | kiszerelés | Alkategória | 38 | 30 | 8 | 0 | GELATELLI Prémium jégkrém variációk (10098145) |
+| Fagyasztott áruk → Jégkrém, fagylalt | laktózmentes | Alkategória | 38 | 9 | 29 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | mentes | Alkategória | 38 | 1 | 37 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | multipack | Alkategória | 38 | 21 | 17 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | protein / magas fehérje | Alkategória | 38 | 0 | 38 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | prémium | Alkategória | 38 | 0 | 38 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | szósz | Alkategória | 38 | 0 | 38 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | termékcsalád | Alkategória | 38 | 0 | 38 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | terméktípus | Alkategória | 38 | 16 | 22 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | töltelék / íz | Alkategória | 38 | 1 | 37 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | vegán | Alkategória | 38 | 0 | 38 | 0 | MUCCI Vizes jégkrém narancs, 110 ml (Aldi 982203) |
+| Fagyasztott áruk → Jégkrém, fagylalt | vegán/növényi | Alkategória | 38 | 13 | 25 | 0 | GELATELLI Prémium jégkrém variációk (10098145) |
+| Fagyasztott áruk → Jégkrém, fagylalt | vízijégkrém / sorbet | Alkategória | 38 | 19 | 19 | 0 | GELATELLI Prémium jégkrém variációk (10098145) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | allergénmentes | Alkategória | 415 | 112 | 303 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | bevonat | Altípus | 415 | 48 | 367 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | bio | Főkategória | 415 | 125 | 290 | 0 | BON GELATI Mini Mix klasszikus (10098107) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | családi kiszerelés | Alkategória | 415 | 0 | 415 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | csökkentett energiatartalmú | Altípus | 415 | 129 | 286 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | cukormentes | Alkategória | 415 | 125 | 290 | 0 | BON GELATI Mini Mix klasszikus (10098107) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | gluténmentes | Alkategória | 415 | 125 | 290 | 0 | BON GELATI Mini Mix klasszikus (10098107) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | gyorsfagyasztott | Alkategória | 415 | 137 | 278 | 0 | BON GELATI Mini Mix klasszikus (10098107) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | hozzáadott darabok | Altípus | 415 | 1 | 414 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | jelleg | Altípus | 415 | 23 | 392 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | jellemzők | Altípus | 415 | 3 | 412 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | kiszerelés | Altípus | 415 | 310 | 105 | 0 | BALLINO Sorbet Spiralo jégkrém (10098129) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | laktózmentes | Alkategória | 415 | 109 | 306 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | mentes | Altípus | 415 | 15 | 400 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | multipack | Alkategória | 415 | 206 | 209 | 0 | MUCCI Pálcikás jégkrém vanília, 120 ml (Aldi 899077) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | protein / magas fehérje | Altípus | 415 | 1 | 414 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | prémium | Alkategória | 415 | 0 | 415 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | szósz | Alkategória | 415 | 0 | 415 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | termékcsalád | Alkategória | 415 | 0 | 415 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | terméktípus | Altípus | 415 | 239 | 176 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | töltelék | Altípus | 415 | 1 | 414 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | töltelék / íz | Alkategória | 415 | 0 | 415 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | vegán | Alkategória | 415 | 0 | 415 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | vegán/növényi | Alkategória | 415 | 142 | 273 | 0 | BON GELATI Mini Mix klasszikus (10098107) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | vízijégkrém / sorbet | Altípus | 415 | 139 | 276 | 0 | BON GELATI Mini Mix klasszikus (10098107) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | édesítés | Altípus | 415 | 2 | 413 | 0 | MUCCI Mini-Mix jégkrém classic, 12 x 50 ml (Aldi 533784) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | íz | Altípus | 415 | 409 | 6 | 0 | Algida Pöttyös túrós jégkrém kakaós bevonóban 40 ml (Coopshop 57006) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | allergénmentes | Alkategória | 21 | 6 | 15 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | bevonat | Alkategória | 21 | 0 | 21 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | bio | Főkategória | 21 | 6 | 15 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | családi kiszerelés | Alkategória | 21 | 6 | 15 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | csökkentett energiatartalmú | Alkategória | 21 | 6 | 15 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | cukormentes | Alkategória | 21 | 6 | 15 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | gluténmentes | Alkategória | 21 | 6 | 15 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | gyorsfagyasztott | Alkategória | 21 | 6 | 15 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | jelleg | Alkategória | 21 | 0 | 21 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | kiszerelés | Altípus | 21 | 14 | 7 | 0 | Viennetta Jégkrém Vanília 650 ml (3ef26eae9f889db670811c07) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | laktózmentes | Alkategória | 21 | 6 | 15 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | mentes | Alkategória | 21 | 0 | 21 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | multipack | Alkategória | 21 | 0 | 21 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | protein / magas fehérje | Alkategória | 21 | 0 | 21 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | prémium | Alkategória | 21 | 0 | 21 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | szósz | Alkategória | 21 | 0 | 21 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | termékcsalád | Alkategória | 21 | 0 | 21 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | terméktípus | Altípus | 21 | 13 | 8 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | töltelék / íz | Alkategória | 21 | 0 | 21 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | vegán | Alkategória | 21 | 0 | 21 | 0 | VIENNETTA Jégkrém Csokoládé 650 ml (Auchan 42346:42349) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | vegán/növényi | Alkategória | 21 | 6 | 15 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | vízijégkrém / sorbet | Alkategória | 21 | 6 | 15 | 0 | VIENNETTA vanília jégkrém kakaós bevonó rétegekkel 650 ml (BTY-X17064100320021) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | allergénmentes | Alkategória | 510 | 140 | 370 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | bevonat | Alkategória | 510 | 1 | 509 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | bio | Főkategória | 510 | 160 | 350 | 0 | NUTELLA Ice cream pot (10089556) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | családi kiszerelés | Alkategória | 510 | 299 | 211 | 0 | CARTE D'OR Gelateria mini jégkrém Citromtorta, 200 ml (Aldi 1055028) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | csökkentett energiatartalmú | Alkategória | 510 | 152 | 358 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | cukormentes | Alkategória | 510 | 160 | 350 | 0 | NUTELLA Ice cream pot (10089556) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | forma | Altípus | 510 | 193 | 317 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | gluténmentes | Alkategória | 510 | 162 | 348 | 0 | NUTELLA Ice cream pot (10089556) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | gyorsfagyasztott | Alkategória | 510 | 176 | 334 | 0 | NUTELLA Ice cream pot (10089556) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | jelleg | Altípus | 510 | 9 | 501 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | jellemzők | Altípus | 510 | 8 | 502 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | kiszerelés | Altípus | 510 | 399 | 111 | 0 | NUTELLA Ice cream pot (10089556) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | laktózmentes | Alkategória | 510 | 123 | 387 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | mentes | Altípus | 510 | 11 | 499 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | multipack | Alkategória | 510 | 17 | 493 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | protein / magas fehérje | Alkategória | 510 | 0 | 510 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | prémium | Alkategória | 510 | 14 | 496 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | szósz | Alkategória | 510 | 1 | 509 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | termékcsalád | Alkategória | 510 | 3 | 507 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | terméktípus | Altípus | 510 | 318 | 192 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | töltelék / íz | Alkategória | 510 | 0 | 510 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | vegán | Alkategória | 510 | 1 | 509 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | vegán/növényi | Alkategória | 510 | 173 | 337 | 0 | NUTELLA Ice cream pot (10089556) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | vízijégkrém / sorbet | Alkategória | 510 | 163 | 347 | 0 | NUTELLA Ice cream pot (10089556) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | édesítés | Altípus | 510 | 7 | 503 | 0 | MUCCI Sorbet jégkrém mangó - ananász, 1000 ml (Aldi 539311) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | íz | Altípus | 510 | 508 | 2 | 0 | Häagen-Dazs jégkrém válogatás 4 x 95 ml (380 ml) (220293031) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | allergénmentes | Alkategória | 134 | 45 | 89 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | bevonat | Alkategória | 134 | 7 | 127 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | bio | Főkategória | 134 | 54 | 80 | 0 | BALLINO Tölcséres jégkrém (10035088) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | családi kiszerelés | Alkategória | 134 | 0 | 134 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | csökkentett energiatartalmú | Alkategória | 134 | 54 | 80 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | cukormentes | Alkategória | 134 | 54 | 80 | 0 | BALLINO Tölcséres jégkrém (10035088) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | gluténmentes | Alkategória | 134 | 54 | 80 | 0 | BALLINO Tölcséres jégkrém (10035088) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | gyorsfagyasztott | Alkategória | 134 | 58 | 76 | 0 | BALLINO Tölcséres jégkrém (10035088) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | jelleg | Alkategória | 134 | 10 | 124 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | kiszerelés | Alkategória | 134 | 97 | 37 | 0 | BALLINO Tölcséres jégkrém (10035088) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | laktózmentes | Alkategória | 134 | 37 | 97 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | mentes | Alkategória | 134 | 0 | 134 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | multipack | Alkategória | 134 | 64 | 70 | 0 | MUCCI Tölcséres jégkrém vanília, 120 ml (Aldi 979487) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | protein / magas fehérje | Alkategória | 134 | 0 | 134 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | prémium | Alkategória | 134 | 0 | 134 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | szósz | Alkategória | 134 | 0 | 134 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | termékcsalád | Alkategória | 134 | 1 | 133 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | terméktípus | Alkategória | 134 | 58 | 76 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | töltelék / íz | Alkategória | 134 | 0 | 134 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | vegán | Alkategória | 134 | 1 | 133 | 0 | MUCCI Tölcséres jégkrém vaníliás, 540 ml (Aldi 749061) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | vegán/növényi | Alkategória | 134 | 55 | 79 | 0 | BALLINO Tölcséres jégkrém (10035088) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | vízijégkrém / sorbet | Alkategória | 134 | 63 | 71 | 0 | BALLINO Tölcséres jégkrém (10035088) |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tölcséres | íz | Alkategória | 134 | 133 | 1 | 0 | Algida Pöttyös túrós jégkrém kakaós ostyatölcsérben kakaós bevonóval 90 ml (Coopshop 57004) |
 
 <a id="ag-4"></a>
 
@@ -6104,7 +5383,7 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 
 <a id="ag-6"></a>
 
-## Hús, hal, felvágott (2007 találat)
+## Hús, hal, felvágott (2009 találat)
 
 | Besorolás | Tulajdonság | Deklaráció | Termék | Kitöltött | Hiányzó kulcs | Üres érték | Példatermék |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7988,24 +7267,26 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 | Hús, hal, felvágott → Sertés → Szűzpecsenye | pácolt / fűszerezett | Alkategória | 6 | 2 | 4 | 0 | METRO Chef Friss Sertés Szűzpecsenye, Vákuumcsomagolt (BTY-X16291200320021) |
 | Hús, hal, felvágott → Sertés → Szűzpecsenye | terméktípus | Altípus | 6 | 2 | 4 | 0 | HÚSMESTER Sertés szűzpecsenye, vákuumcsomagolt, /kg (Aldi 534067) |
 | Hús, hal, felvágott → Sertés → Szűzpecsenye | ízesítés | Alkategória | 6 | 0 | 5 | 1 | HÚSMESTER Sertés szűzpecsenye, vákuumcsomagolt, /kg (Aldi 534067) |
-| Hús, hal, felvágott → Sertés → Tarja | bio | Főkategória | 45 | 13 | 32 | 0 | Sertés tarja darabolt csont nélkül vákuumcsomagolásban (Auchan 457392:3994788) |
-| Hús, hal, felvágott → Sertés → Tarja | bőrös | Altípus | 45 | 17 | 28 | 0 | GRILLMEISTER Sertéstarja (10104447) |
-| Hús, hal, felvágott → Sertés → Tarja | csomagolás | Altípus | 45 | 23 | 22 | 0 | GRILLMEISTER Sertéstarja (10104447) |
-| Hús, hal, felvágott → Sertés → Tarja | csontos | Altípus | 45 | 27 | 18 | 0 | GRILLMEISTER Sertéstarja (10104447) |
-| Hús, hal, felvágott → Sertés → Tarja | előkezelés | Altípus | 45 | 1 | 44 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
-| Hús, hal, felvágott → Sertés → Tarja | előkészítés | Altípus | 45 | 33 | 12 | 0 | GRILLMEISTER Sertéstarja (10104447) |
-| Hús, hal, felvágott → Sertés → Tarja | fagyasztott | Alkategória | 45 | 17 | 28 | 0 | GRILLMEISTER Sertéstarja (10104447) |
-| Hús, hal, felvágott → Sertés → Tarja | filé | Altípus | 45 | 17 | 28 | 0 | GRILLMEISTER Sertéstarja (10104447) |
-| Hús, hal, felvágott → Sertés → Tarja | forma | Altípus | 45 | 1 | 44 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
-| Hús, hal, felvágott → Sertés → Tarja | füstölt | Altípus | 45 | 0 | 45 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
-| Hús, hal, felvágott → Sertés → Tarja | GMO-mentes | Altípus | 45 | 18 | 27 | 0 | GRILLMEISTER Sertéstarja (10104447) |
-| Hús, hal, felvágott → Sertés → Tarja | hazai | Főkategória | 45 | 13 | 32 | 0 | Sertés tarja darabolt csont nélkül vákuumcsomagolásban (Auchan 457392:3994788) |
-| Hús, hal, felvágott → Sertés → Tarja | húsfajta | Altípus | 45 | 4 | 41 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
-| Hús, hal, felvágott → Sertés → Tarja | kiszerelés | Altípus | 45 | 5 | 40 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
-| Hús, hal, felvágott → Sertés → Tarja | pácolt / fűszerezett | Altípus | 45 | 21 | 24 | 0 | HÚSFARM Friss, szeletelt sertéstarja (10107831) |
-| Hús, hal, felvágott → Sertés → Tarja | pácolás | Altípus | 45 | 4 | 41 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
-| Hús, hal, felvágott → Sertés → Tarja | terméktípus | Altípus | 45 | 10 | 35 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
-| Hús, hal, felvágott → Sertés → Tarja | ízesítés | Altípus | 45 | 9 | 32 | 4 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
+| Hús, hal, felvágott → Sertés → Tarja | bio | Főkategória | 47 | 13 | 34 | 0 | Sertés tarja darabolt csont nélkül vákuumcsomagolásban (Auchan 457392:3994788) |
+| Hús, hal, felvágott → Sertés → Tarja | bőrös | Altípus | 47 | 17 | 30 | 0 | GRILLMEISTER Sertéstarja (10104447) |
+| Hús, hal, felvágott → Sertés → Tarja | csomagolás | Altípus | 47 | 23 | 24 | 0 | GRILLMEISTER Sertéstarja (10104447) |
+| Hús, hal, felvágott → Sertés → Tarja | csontos | Altípus | 47 | 27 | 20 | 0 | GRILLMEISTER Sertéstarja (10104447) |
+| Hús, hal, felvágott → Sertés → Tarja | előkezelés | Altípus | 47 | 1 | 46 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
+| Hús, hal, felvágott → Sertés → Tarja | előkészítés | Altípus | 47 | 33 | 14 | 0 | GRILLMEISTER Sertéstarja (10104447) |
+| Hús, hal, felvágott → Sertés → Tarja | fagyasztott | Alkategória | 47 | 17 | 30 | 0 | GRILLMEISTER Sertéstarja (10104447) |
+| Hús, hal, felvágott → Sertés → Tarja | filé | Altípus | 47 | 17 | 30 | 0 | GRILLMEISTER Sertéstarja (10104447) |
+| Hús, hal, felvágott → Sertés → Tarja | forma | Altípus | 47 | 3 | 44 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
+| Hús, hal, felvágott → Sertés → Tarja | füstölt | Altípus | 47 | 0 | 47 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
+| Hús, hal, felvágott → Sertés → Tarja | GMO-mentes | Altípus | 47 | 18 | 29 | 0 | GRILLMEISTER Sertéstarja (10104447) |
+| Hús, hal, felvágott → Sertés → Tarja | hazai | Főkategória | 47 | 13 | 34 | 0 | Sertés tarja darabolt csont nélkül vákuumcsomagolásban (Auchan 457392:3994788) |
+| Hús, hal, felvágott → Sertés → Tarja | húsfajta | Altípus | 47 | 6 | 41 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
+| Hús, hal, felvágott → Sertés → Tarja | jelleg | Altípus | 47 | 2 | 45 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
+| Hús, hal, felvágott → Sertés → Tarja | kiszerelés | Altípus | 47 | 5 | 42 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
+| Hús, hal, felvágott → Sertés → Tarja | pácolt / fűszerezett | Altípus | 47 | 21 | 26 | 0 | HÚSFARM Friss, szeletelt sertéstarja (10107831) |
+| Hús, hal, felvágott → Sertés → Tarja | pácolás | Altípus | 47 | 4 | 43 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
+| Hús, hal, felvágott → Sertés → Tarja | terméktípus | Altípus | 47 | 10 | 37 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
+| Hús, hal, felvágott → Sertés → Tarja | ízesítés | Altípus | 47 | 9 | 34 | 4 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
+| Hús, hal, felvágott → Sertés → Tarja | ízesítés / panír | Altípus | 47 | 2 | 45 | 0 | HÚSMESTER Sertéstarja szeletelt, csont nélkül 500 g (Aldi 540631) |
 | Hús, hal, felvágott → Szalonna, tepertő, zsiradék → Coppa | stílus | Alkategória | 1 | 0 | 1 | 0 | GOURMET FINEST CUISINE Füstölt és pácolt sertéshúskészítmény, coppa, 80 g (Aldi 828902) |
 | Hús, hal, felvágott → Szalonna, tepertő, zsiradék → Háj, szalonnabőr | alap | Altípus | 11 | 9 | 2 | 0 | Farm Food friss hízott kacsa bőrösháj 600 g (210046551) |
 | Hús, hal, felvágott → Szalonna, tepertő, zsiradék → Háj, szalonnabőr | bio | Főkategória | 11 | 0 | 11 | 0 | Friss, hízott kacsa/liba bőrősháj (10101637) |
@@ -8278,7 +7559,7 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 
 <a id="ag-8"></a>
 
-## Készétel (925 találat)
+## Készétel (929 találat)
 
 | Besorolás | Tulajdonság | Deklaráció | Termék | Kitöltött | Hiányzó kulcs | Üres érték | Példatermék |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8887,27 +8168,31 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 | Készétel → Saláta, hidegtál → Kukoricasaláta | vegetáriánus | Főkategória | 1 | 0 | 1 | 0 | SPAR Veggie vegán kukoricasaláta 200 g (7778306e5ecf39a373a4cc02) |
 | Készétel → Saláta, hidegtál → Kukoricasaláta | íz | Alkategória | 1 | 0 | 1 | 0 | SPAR Veggie vegán kukoricasaláta 200 g (7778306e5ecf39a373a4cc02) |
 | Készétel → Saláta, hidegtál → Kukoricasaláta | öntet / alap | Alkategória | 1 | 0 | 1 | 0 | SPAR Veggie vegán kukoricasaláta 200 g (7778306e5ecf39a373a4cc02) |
-| Készétel → Saláta, hidegtál → Kész saláta | adag | Főkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | alap | Alkategória | 6 | 3 | 3 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | azonnal fogyasztható | Alkategória | 6 | 5 | 1 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | csomagolás | Főkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | csípős | Főkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | elkészítés | Főkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | forma | Alkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | fő alapanyag | Altípus | 6 | 1 | 5 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | gluténmentes | Főkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | hűtött | Alkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | kiszerelés | Altípus | 6 | 1 | 5 | 0 | Bonduelle Good Lunch fekete beluga lencse, bulgur, zöldségek és koktélparadicsom keveréke 250 g (Tesco 220325327) |
-| Készétel → Saláta, hidegtál → Kész saláta | konyha / stílus | Főkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | laktózmentes | Főkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | saláta fajta | Alkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | terméktípus | Altípus | 6 | 1 | 5 | 0 | Bonduelle Good Lunch fekete beluga lencse, bulgur, zöldségek és koktélparadicsom keveréke 250 g (Tesco 220325327) |
-| Készétel → Saláta, hidegtál → Kész saláta | tárolás | Főkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | vegetáriánus | Főkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | vegán | Főkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | íz | Alkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | öntet / alap | Alkategória | 6 | 0 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
-| Készétel → Saláta, hidegtál → Kész saláta | összetevő | Altípus | 6 | 1 | 5 | 0 | Bonduelle Good Lunch fekete beluga lencse, bulgur, zöldségek és koktélparadicsom keveréke 250 g (Tesco 220325327) |
+| Készétel → Saláta, hidegtál → Kész saláta | adag | Főkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | alap | Alkategória | 7 | 3 | 4 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | azonnal fogyasztható | Alkategória | 7 | 5 | 2 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | csomagolás | Főkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | csípős | Főkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | elkészítés | Főkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | forma | Alkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | fő alapanyag | Altípus | 7 | 1 | 6 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | gluténmentes | Főkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | hűtött | Alkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | kiszerelés | Altípus | 7 | 1 | 6 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | konyha / stílus | Főkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | laktózmentes | Főkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | saláta fajta | Alkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | saláta típusa | Altípus | 7 | 1 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
+| Készétel → Saláta, hidegtál → Kész saláta | terméktípus | Altípus | 7 | 1 | 6 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | tárolás | Főkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | vegetáriánus | Főkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | vegán | Főkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | vágás / forma | Altípus | 7 | 1 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
+| Készétel → Saláta, hidegtál → Kész saláta | zöldség | Altípus | 7 | 1 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
+| Készétel → Saláta, hidegtál → Kész saláta | íz | Alkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | ízesítés | Altípus | 7 | 1 | 6 | 0 | Tesco főtt kuszkusz saláta marinált piros paprikával, marinált vörösbabbal 220 g (111273250) |
+| Készétel → Saláta, hidegtál → Kész saláta | öntet / alap | Alkategória | 7 | 0 | 7 | 0 | Wakame Saláta Gyorsfagyasztott 1 kg (BTY-X17627700320021) |
+| Készétel → Saláta, hidegtál → Kész saláta | összetevő | Altípus | 7 | 2 | 5 | 0 | Bonduelle Good Lunch fekete beluga lencse, bulgur, zöldségek és koktélparadicsom keveréke 250 g (Tesco 220325327) |
 | Készétel → Saláta, hidegtál → Majonézes / joghurtos kész saláta | adag | Főkategória | 78 | 0 | 78 | 0 | Fine Life Coleslaw/Tzatiki saláta 190 g (BTY-X18213400320021) |
 | Készétel → Saláta, hidegtál → Majonézes / joghurtos kész saláta | alap | Alkategória | 78 | 0 | 78 | 0 | Fine Life Coleslaw/Tzatiki saláta 190 g (BTY-X18213400320021) |
 | Készétel → Saláta, hidegtál → Majonézes / joghurtos kész saláta | azonnal fogyasztható | Alkategória | 78 | 0 | 78 | 0 | Fine Life Coleslaw/Tzatiki saláta 190 g (BTY-X18213400320021) |
@@ -9527,7 +8812,7 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 
 <a id="ag-10"></a>
 
-## Pékáru (1737 találat)
+## Pékáru (1739 találat)
 
 | Besorolás | Tulajdonság | Deklaráció | Termék | Kitöltött | Hiányzó kulcs | Üres érték | Példatermék |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9579,22 +8864,24 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 | Pékáru → Bagett → Focaccia | szórás | Alkategória | 2 | 0 | 2 | 0 | Focaccia rozmaringgal (61a6937bcddfff6944d92f89) |
 | Pékáru → Bagett → Focaccia | töltelék / íz | Alkategória | 2 | 0 | 2 | 0 | Focaccia rozmaringgal (61a6937bcddfff6944d92f89) |
 | Pékáru → Bagett → Focaccia | állapot | Alkategória | 2 | 0 | 2 | 0 | Focaccia rozmaringgal (61a6937bcddfff6944d92f89) |
-| Pékáru → Bagett → Fokhagymás bagett | alapanyag | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | csomagolt | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | fagyasztott | Főkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | fajta | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | forma | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | friss pékáru | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | gluténmentes | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | helyben sütött | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | jelleg | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | jellemzők | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | kiszerelés | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | márka | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | szórás | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | töltelék / íz | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | állapot | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
-| Pékáru → Bagett → Fokhagymás bagett | íz | Alkategória | 1 | 0 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
+| Pékáru → Bagett → Fokhagymás bagett | alapanyag | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | csomagolt | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | fagyasztott | Főkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | fajta | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | forma | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | friss pékáru | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | gluténmentes | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | helyben sütött | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | jelleg | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | jellemzők | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | kiszerelés | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | márka | Alkategória | 2 | 1 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
+| Pékáru → Bagett → Fokhagymás bagett | szórás | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | terméktípus | Altípus | 2 | 1 | 1 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | töltelék / íz | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | állapot | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
+| Pékáru → Bagett → Fokhagymás bagett | étel / forma | Altípus | 2 | 1 | 1 | 0 | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
+| Pékáru → Bagett → Fokhagymás bagett | íz | Alkategória | 2 | 0 | 2 | 0 | CHEF SELECT Baguette (10101515) |
 | Pékáru → Bagett → Gluténmentes bagett | alapanyag | Altípus | 2 | 1 | 1 | 0 | Glutén és laktózmentes sajtos bagett 100 g (220301088) |
 | Pékáru → Bagett → Gluténmentes bagett | csomagolt | Alkategória | 2 | 0 | 2 | 0 | Schär elősütött gluténmentes mini bagett 2 x 75 g (150 g) (BTY-X16947200320021) |
 | Pékáru → Bagett → Gluténmentes bagett | fagyasztott | Főkategória | 2 | 0 | 2 | 0 | Schär elősütött gluténmentes mini bagett 2 x 75 g (150 g) (BTY-X16947200320021) |
@@ -13721,7 +13008,7 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 
 <a id="ag-14"></a>
 
-## Édesség, snack, rágcsálnivaló (1539 találat)
+## Édesség, snack, rágcsálnivaló (1543 találat)
 
 | Besorolás | Tulajdonság | Deklaráció | Termék | Kitöltött | Hiányzó kulcs | Üres érték | Példatermék |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13949,19 +13236,23 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 | Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Keménycukorka | édesítőszert tartalmaz | Altípus | 151 | 1 | 150 | 0 | MINGLES Multivitamin cukormentes cukorka, 2 x 44 g (Aldi 536085) |
 | Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Keménycukorka | íz | Altípus | 151 | 140 | 11 | 0 | Tesco Candy Carnival keménycukorka gyümölcsös töltelékkel, hozzáadott A-, C- és E-vitaminnal 200 g (100429275) |
 | Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Keménycukorka | összetevő | Altípus | 151 | 1 | 150 | 0 | MINGLES Multivitamin cukormentes cukorka, 2 x 44 g (Aldi 536085) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | alkoholos | Alkategória | 32 | 10 | 22 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | bio | Főkategória | 32 | 10 | 22 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | cukormentes | Altípus | 32 | 1 | 31 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | cukormentes / hozzáadott cukor nélkül | Alkategória | 32 | 10 | 22 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | forma | Altípus | 32 | 6 | 26 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | gluténmentes | Altípus | 32 | 11 | 21 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | kiszerelés | Altípus | 32 | 4 | 28 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | mentolos | Alkategória | 32 | 10 | 22 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | savanyú | Alkategória | 32 | 10 | 22 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | terméktípus | Altípus | 32 | 13 | 19 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | töltött | Altípus | 32 | 1 | 31 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | vegán | Főkategória | 32 | 10 | 22 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
-| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | íz | Altípus | 32 | 30 | 2 | 0 | Kojak Classic gluténmentes nyalóka 12 g (fb91ecb9df63dda2d0af6f83) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | alkoholos | Alkategória | 34 | 10 | 24 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | bio | Főkategória | 34 | 10 | 24 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | cukormentes | Altípus | 34 | 1 | 33 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | cukormentes / hozzáadott cukor nélkül | Alkategória | 34 | 10 | 24 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | forma | Altípus | 34 | 8 | 26 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | gluténmentes | Altípus | 34 | 13 | 21 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | jelleg | Altípus | 34 | 1 | 33 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | kiszerelés | Altípus | 34 | 5 | 29 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | mentolos | Alkategória | 34 | 10 | 24 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | multipack | Altípus | 34 | 2 | 32 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | savanyú | Alkategória | 34 | 10 | 24 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | terméktípus | Altípus | 34 | 15 | 19 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | töltött | Altípus | 34 | 1 | 33 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | vegán | Főkategória | 34 | 10 | 24 | 0 | BIP License Mix Pop Ups Nyalóka 10 g (BTY-X17156500320021) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | vegán/növényi | Altípus | 34 | 2 | 32 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | vízijégkrém / sorbet | Altípus | 34 | 1 | 33 | 0 | Gyümölcs ízű nyalóka 8 g (Auchan 51315:51657) |
+| Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Nyalóka | íz | Altípus | 34 | 32 | 2 | 0 | Kojak Classic gluténmentes nyalóka 12 g (fb91ecb9df63dda2d0af6f83) |
 | Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Pasztilla | alkoholos | Alkategória | 6 | 0 | 6 | 0 | ORBIT MINTS STRONG MINT CUKORKA 28G (3375457) |
 | Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Pasztilla | bio | Főkategória | 6 | 0 | 6 | 0 | ORBIT MINTS STRONG MINT CUKORKA 28G (3375457) |
 | Édesség, snack, rágcsálnivaló → Cukorka, nyalóka → Pasztilla | cukormentes / hozzáadott cukor nélkül | Alkategória | 6 | 0 | 6 | 0 | ORBIT MINTS STRONG MINT CUKORKA 28G (3375457) |

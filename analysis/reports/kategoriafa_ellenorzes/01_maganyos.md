@@ -1,15 +1,14 @@
 # Magányos kategóriák és altípusok
 
-A vizsgálat a GPT mappa `kategoriak_2026-06-13.json` és `eredmeny.json` fájljait használta. A fa 1386 csomópontot tartalmaz. A termékszám 51522 mentett bolti termékrekord.
+A vizsgálat a GPT mappa `kategoriak_2026-06-13.json` és `eredmeny.json` fájljait használta. A fa 1310 csomópontot tartalmaz. A termékszám 51522 mentett bolti termékrekord.
 
-**23 kategóriának nincs testvére, 211 ágban egyetlen termék van.** Az első lista a fában szereplő testvéreket számolja. A szülőhöz közvetlenül besorolt termékek külön oszlopban láthatók. A második lista a teljes ág termékszámát vizsgálja. Egy útvonal mindkét listában szerepelhet.
+**22 kategóriának nincs testvére, 200 ágban egyetlen termék van.** Az első lista a fában szereplő testvéreket számolja. A szülőhöz közvetlenül besorolt termékek külön oszlopban láthatók. A második lista a teljes ág termékszámát vizsgálja. Egy útvonal mindkét listában szerepelhet.
 
 ## A szülő egyetlen alkategóriája vagy altípusa
 
 | Útvonal | Szint | Termék az ágban | Közvetlenül a szülőn lévő termék |
 | --- | --- | --- | --- |
 | Alapanyag, sütés-főzés → Kókusztej, kókuszkrém → Kókusztej | Altípus | 2 | 0 |
-| Fagyasztott áruk → Jég → Jégkocka | Altípus | 8 | 0 |
 | Háztartási termék → Autóápolás → Szélvédőmosó | Altípus | 1 | 0 |
 | Háztartási termék → Konyhai eszközök → Szénsavasító palack | Altípus | 1 | 0 |
 | Háztartási termék → Újság, magazin → Sajtótermék | Altípus | 38 | 0 |
@@ -89,16 +88,6 @@ A vizsgálat a GPT mappa `kategoriak_2026-06-13.json` és `eredmeny.json` fájlj
 | Baba → Babaápolási eszköz → Baba tányér | Altípus | Petite&Mars Take&Match szilikon tányér tapadókoronggal (105258314) |
 | Baba → Babaápolási eszköz → Pelenkázó alátét | Altípus | Fred & Flo eldobható pelenkázó alátét 60 x 60 cm 10 db (100874189) |
 | Baba → Babaápolási eszköz → Tanulópohár | Altípus | MAM Trainer tanulópohár 220 ml 4+ hónap (210599132) |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | Altípus | Tesco gyorsfagyasztott áfonya 450 g (100579717) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | Altípus | Classic gyorsfagyasztott zsigerelt keszeg 1000 g (220231268) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | Altípus | Tesco gyorsfagyasztott surimi rák ízű halrudacska 250 g (100798146) |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | Altípus | Bella Mare gyorsfagyasztott tenger gyümölcsei keverék 400 g (209873830) |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | Altípus | Vegana Hot Veggie gyorsfagyasztott pizza 400 g (220322434) |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | Altípus | Tesco gyorsfagyasztott, elősütött fűszeres burgonyagerezdek 750 g (100579750) |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | Altípus | Tesco gyorsfagyasztott karfiol 450 g (100579745) |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | Altípus | Gyorsfagyasztott húsleveszöldség 1000 g (207963625) |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | Altípus | Sprint gyorsfagyasztott gyalult tök kaporral 1000 g (207963069) |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | Altípus | Cloud 9 mentes perui gourmet csokoládé fagylalt 500 ml (105013528) |
 | Gyümölcs → Alma → Evelina alma | Altípus | Evelina alma lédig (105000260) |
 | Gyümölcs → Alma → Granny Smith alma | Altípus | Granny Smith alma lédig (208023304) |
 | Gyümölcs → Alma → Jonagored alma | Altípus | Jonagored alma lédig (fc46aee26d33786cb9bbfa8b) |
@@ -187,7 +176,6 @@ A vizsgálat a GPT mappa `kategoriak_2026-06-13.json` és `eredmeny.json` fájlj
 | Mentes, speciális → Étrend-kiegészítő, vitamin → Multivitamin tabletta | Altípus | BioTechUSA One-A-Day étrend-kiegészítő tabletta 100 db 149 g (210795428) |
 | Mentes, speciális → Étrend-kiegészítő, vitamin → Omega-3, halolaj | Altípus | Omega 3-6-9 120 kapsz. – GymBeam (3374136) |
 | Mentes, speciális → Étrend-kiegészítő, vitamin → Spirulina tabletta | Altípus | BiOrganik bio spirulina tabletta étrend-kiegészítő 100 g (220320740) |
-| Pékáru → Bagett → Fokhagymás bagett | Altípus | Fokhagymás vajas bagett (301a9a426829903de1a04622) |
 | Pékáru → Bagett → Vágott párna | Altípus | La Lorraine Magvas Vágott Párna 16 x 420 g (BTY-X17631500320021) |
 | Pékáru → Egyéb sós pékáru → Börek | Altípus | Borek spenótos feta sajtos töltelékkel 95 g (220374224) |
 | Pékáru → Egyéb sós pékáru → Lángostészta | Altípus | Frigotti Lángostészta 1000 g (BTY-X18312200320021) |

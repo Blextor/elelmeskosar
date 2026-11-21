@@ -1,0 +1,43 @@
+* { box-sizing: border-box }
+:root { color-scheme: light; font-family: "Segoe UI", system-ui, sans-serif; color: #20342e; background: #f4f7f5 }
+body { margin: 0; font-size: 1rem }
+header, .row, .tools, .section-head, .crumbs, .chips { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap }
+header { background: #173c31; color: white; padding: .85rem clamp(1rem, 3vw, 3rem); justify-content: space-between }
+header a { color: #c4e5d4; font-size: .875rem }
+h1 { font-size: 1.65rem; margin: .15rem 0 0; letter-spacing: -.035em }
+h2, h3, h4, p { margin: 0 }
+h2 { font-size: 1.35rem } h3 { font-size: 1.08rem }
+button, input, select, textarea { font: inherit }
+button { cursor: pointer; border: 1px solid #becdc5; background: white; border-radius: .4rem; color: #244436; padding: .4rem .75rem }
+button:hover { background: #eef5ef } button:disabled { opacity: .55; cursor: default }
+.primary { color: white; background: #24634d; border-color: #24634d } .primary:hover { background: #194b39 }
+header .primary { background: #d4f1b7; color: #1a3928 }
+button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid #619650; outline-offset: 2px }
+main { display: grid; grid-template-columns: minmax(15rem, 23rem) minmax(0,1fr); height: calc(100dvh - 5.15rem) }
+aside, article { overflow: auto } aside { padding: 1.25rem; background: #fff; border-right: 1px solid #d3ded6 }
+article { padding: 1.25rem clamp(1rem, 3vw, 3rem) 4rem }
+#workspace { max-width: 76rem }
+input, select, textarea { width: 100%; border: 1px solid #b9c9c0; color: inherit; padding: .55rem .65rem; border-radius: .35rem; background: white }
+textarea { resize: vertical } #search { margin: .9rem 0 }
+nav button { display: block; width: 100%; text-align: left; border: none; padding: .45rem .6rem; overflow-wrap: anywhere }
+nav .selected { background: #e0efdf; font-weight: 650 }
+.nested { border-left: 1px solid #d4dfd6; margin-left: .6rem; padding-left: .55rem }
+small, #status, .muted { color: #52695e; font-size: .875rem }
+#status { margin-bottom: .85rem } #status.failure, #error, .danger { color: #923d27 }
+.crumbs { font-size: .875rem; margin-bottom: .65rem } .crumbs button { background: transparent; border: 0; padding: 0; text-decoration: underline }
+.title { font-size: clamp(1.6rem,3vw,2.35rem); letter-spacing: -.04em; margin: .2rem 0 .8rem; overflow-wrap: anywhere }
+.panel { background: white; border: 1px solid #d4dfd7; border-radius: .65rem; padding: 1.1rem 1.2rem; margin-top: 1rem }
+.section-head { justify-content: space-between; margin-bottom: .8rem }
+.entry { padding: .85rem 0; border-top: 1px solid #e1e8e2 }
+.entry .row { justify-content: space-between } .entry strong { overflow-wrap: anywhere }
+.entry small { display: block; margin-top: .2rem } .entry .tools button { font-size: .875rem }
+.chip { display: inline-block; border-radius: .35rem; background: #edf3ee; padding: .18rem .45rem; font-size: .875rem; overflow-wrap: anywhere }
+.chips { gap: .35rem; margin-top: .5rem } .note { white-space: pre-wrap; overflow-wrap: anywhere; margin-top: .4rem }
+summary { cursor: pointer } .entry details { margin-top: .5rem } pre { max-height: 25rem; overflow: auto; font-size: .875rem }
+dialog { width: min(34rem, 94vw); max-height: 90dvh; border: 1px solid #b8c8bd; box-shadow: 0 1rem 5rem #183e302b; border-radius: .8rem; padding: 1.5rem; color: inherit }
+dialog::backdrop { background: #122e2599 } dialog label { display: block; margin: 1rem 0 .35rem; font-weight: 600 }
+dialog .tools { justify-content: flex-end; margin-top: 1rem } #error:not(:empty) { margin-top: .7rem }
+@media (max-width: 720px) {
+  main { display: block; height: auto } aside { max-height: 38dvh; border-bottom: 1px solid #d3ded6 }
+  article { overflow: visible } header { gap: .7rem } .panel { padding: .85rem }
+}

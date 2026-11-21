@@ -1,0 +1,23 @@
+Fagyasztott főkategória:
+1. Pizzáknak van pizzafeltét és feltét tulajdonság is, legyenek összevonva a feltétben.
+2. A zöldségeknél a zöldségcsoportot meg kell szüntetni, mert felesleges.
+3. Rios Bourbon vanília ízű jégkrém kakaós rétegekkel 650 ml -> torta altípusban van a helye
+4. BALLINO Csokoládés-vaníliás jégkrém -> pálcikások altípusába tartozik
+5. Kaktus citromos jégkrém és epres gyümölcsjégkrém zöld bevonattal 110 ml -> Ez nem tölcséres?
+6. SPAR Citrom ízű jégkrém (40%) és epres szorbé (19%) epres szósszal, belül kakaós -> Ez tölcséres altípusba tartozik
+7. A pálcikás altípus legyen továbbiakban "Szelet és pálcikás", ebbe olvadjon bele a szendvics. Ezen belül legyen pálcikás bool tulajdonság.
+8. Zöldségeknek innentől nyers zöldségek legyenek csak ezen tulajdonságai legyenek:
+    bool: bio, mix/keverék
+    egyedi: márka, megnevezés
+    több választós: zöldség/gomba, forma
+   Azért van erre szükség, mert felesleges tulajdonságok voltak. Illetve a megnevezés alatt legyen, hogy saláta alap, vagy leveszöldség vagy finomfőzelék, de attól a zöldségek/gomba között legyen ott, hogy a borsó mega répa is például.
+9. A fagyasztott tészták továbbiakban tészták és kötretek legyenek és közöttük csak "nyers"/natúran kisütött tészták legyenek és a köretek. A töltött tészták, gombócok, derlye, nudlik, palacsinák, stb. azok legyenek desszertek. Nokedli az maradjon és ide kerüljön át a krokett (kivéve ha töltött) is például.
+10. D'oro Dupla Paradicsomos Pizzaalap 560 g -> pizzákhoz kellene sorolni
+11. Készételek között több halászlá is van, azok kerüljenek a halak alá.
+12. Fevita gyorsfagyasztott rizses zöldségkeverék 450 g -> zöldésgekhez kellenek
+13. A készételek legyen "készételek és zöldséges ételek"
+14. Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g és társai azok a halak alá tartoznak
+15. Panírozott és töltött ételek közül át kéne emeli a húsgolyókat és fasírtokat a darélthúsos altípusba.
+16. Panírozott / töltött / pácolt hús bővítés kellene, mert van csilis csirkeszárny a nyers húsoknál.
+17. Az aro gyorsfagyasztott baromfis pogácsa 1 kg az nem húspogácsa, hanem panírozott.
+18. A halak esetében panírozott hal legyen a kategória és a panírozott rák, garnéla, surimi azok a saját kategóriájukban legyenek felsorolva.

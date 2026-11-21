@@ -15,7 +15,24 @@ Leállítás: `Ctrl+C`. Függőség nincs, csak Python 3.
 
 > A `kategoriak_*.json` közül automatikusan a **legfrissebb dátumozottat** használja.
 
+## Besorolások ellenőrzése
+
+A fejléc **Besorolások ellenőrzése** hivatkozása megnyitja az [ellenőrzőoldalt](http://127.0.0.1:8765/ellenorzes/). A bal oldali listában névre, kategóriára és bolti azonosítóra kereshetsz. A **Kivételek** szűrő mutatja az indoklással ellátott tételeket. A kiválasztott termék fotója nagyítható. A jobb oldalon a két teljes kategóriaútvonal és a tulajdonságok értékenkénti összevetése látható. A **Csak eltérések** kikapcsolásával az azonos értékek is megjelennek.
+
+- **Korábbi munka átnézése.** A jegyzékválasztó az `analysis/reports/*/termekenkenti_besorolas.csv` fájlokat kínálja fel. A fagyasztott termékek jegyzéke tartalmazza az újrabesorolás előtti és utáni tulajdonságokat. Más jegyzékekben a `regi_tulajdonsagok` és az `uj_tulajdonsagok` oszlopba JSON-objektum kerülhet. Ha a régi oszlop hiányzik, az oldal ezt jelzi.
+- **Új javaslat átnézése a csere előtt.** A **Tervezet megnyitása** gombbal válassz az `eredmeny.json` szerkezetét követő terméklistát. A teljes lista és egyetlen ág rekordjait tartalmazó tömb is használható. Az ellenőrző a jelenlegi helyi eredményekkel veti össze a tervezetben szereplő rekordokat bolt és bolti termékazonosító alapján. A listába az új termékek és az eltérések kerülnek.
+- **Ellenőrzési állapot.** A **Rendben** és a **Javítandó** jelöléseket a böngésző az adott összevetéshez menti. Az aktív gomb újbóli megnyomásával visszaállíthatod az ellenőrizetlen állapotot. A termékadatok cseréje külön művelet.
+
 ## Felhasználói folyamat
+
+A **Részfa-tervező** a fejlécből vagy közvetlenül a [helyi részfa-tervezőben](http://127.0.0.1:8765/reszfa/) érhető el. Az alábbi műveletekhez a tervezőben nyiss meg egy ágat.
+
+- A főkategóriát, alkategóriát és altípust hozzáadhatod, átnevezheted és törölheted. Az alkategória és az altípus másik szülőhöz is áthelyezhető a teljes ágával együtt. Az örökölt tulajdonságok az új szülő útvonalát követik.
+- A **Saját tulajdonságok** között szerkeszthető a név, a típus és a lehetséges értékek. A fix lehetőségeket soronként add meg. A többválasztós listához megjegyzést is írhatsz. Az örökölt tulajdonságot a deklaráló felmenőn szerkesztheted.
+- A **Részfa letöltése** név szerinti JSON-objektumot ad a kijelölt csomóponttal, saját tulajdonságaival és összes leszármazottjával. A felmenők definíciói a felmenőkön maradnak. A lista értékei a megszokott `tulajdonságok.csoportos` mezőben vannak. A hozzájuk tartozó szöveg a csomópont `tulajdonságmegjegyzések` mezőjében szerepel, a tulajdonság nevével kulcsolva. A **Teljes fa** nézetben az összes módosított ág együtt exportálható.
+- A vázlat ugyanazon a böngészőlapon újratöltés után is elérhető. Bezárás előtt töltsd le a kívánt JSON-t. A **Vázlat elvetése** a megnyitáskor betöltött forrásfát állítja vissza. Az eredeti kategóriafájl és a termékbesorolások szerkesztése a régi felületen történik.
+
+### Műveletek az eredeti kategóriafán
 
 1. A bal oldali fában keress/böngéssz. Minden node mutatja a termékszámot
    (mélységgel együtt), az alkategóriáknál a „közvetlen" (altípus nélküli) számot is.

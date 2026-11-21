@@ -1,12 +1,12 @@
 # Felmenőn megismételt tulajdonságok
 
-A vizsgálat a GPT mappa `kategoriak_2026-06-13.json` és `eredmeny.json` fájljait használta. A fa 1386 csomópontot tartalmaz. A termékszám 51522 mentett bolti termékrekord.
+A vizsgálat a GPT mappa `kategoriak_2026-06-13.json` és `eredmeny.json` fájljait használta. A fa 1310 csomópontot tartalmaz. A termékszám 51522 mentett bolti termékrekord.
 
-**4719 útvonal–tulajdonság pár ismétli a közvetlen szülőt.** További 446 pár csak a nagyszülőn szerepel korábban. Az egyezés alapja a pontos tulajdonságnév. A megengedett értékek és a tulajdonság csoportja eltérhetnek. Ha két felmenő is deklarálja a nevet, mindkét kapcsolat látható.
+**4341 útvonal–tulajdonság pár ismétli a közvetlen szülőt.** További 418 pár csak a nagyszülőn szerepel korábban. Az egyezés alapja a pontos tulajdonságnév. A megengedett értékek és a tulajdonság csoportja eltérhetnek. Ha két felmenő is deklarálja a nevet, mindkét kapcsolat látható.
 
 A főkategória nevére kattintva a találataihoz ugorhatsz.
 
-[Alapanyag, sütés-főzés (1355)](#ag-1) · [Baba (118)](#ag-2) · [Fagyasztott áruk (697)](#ag-3) · [Gyümölcs (147)](#ag-4) · [Hús, hal, felvágott (1000)](#ag-5) · [Készétel (208)](#ag-6) · [Mentes, speciális (92)](#ag-7) · [Pékáru (461)](#ag-8) · [Sütemény, desszert, torta (51)](#ag-9) · [Tejtermékek és tojás (1594)](#ag-10) · [Zöldség (67)](#ag-11) · [Édesség, snack, rágcsálnivaló (573)](#ag-12)
+[Alapanyag, sütés-főzés (1355)](#ag-1) · [Baba (118)](#ag-2) · [Fagyasztott áruk (135)](#ag-3) · [Gyümölcs (147)](#ag-4) · [Hús, hal, felvágott (1000)](#ag-5) · [Készétel (208)](#ag-6) · [Mentes, speciális (92)](#ag-7) · [Pékáru (461)](#ag-8) · [Sütemény, desszert, torta (51)](#ag-9) · [Tejtermékek és tojás (1594)](#ag-10) · [Zöldség (67)](#ag-11) · [Édesség, snack, rágcsálnivaló (573)](#ag-12)
 
 <a id="ag-1"></a>
 
@@ -1497,371 +1497,93 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 
 <a id="ag-3"></a>
 
-## Fagyasztott áruk (697 találat)
+## Fagyasztott áruk (135 találat)
 
 | Ismétlő útvonal | Tulajdonság | Kapcsolat | Felmenő útvonala | Csoport a felmenőn | Csoport a gyereken |
 | --- | --- | --- | --- | --- | --- |
-| Fagyasztott áruk → Fagyasztott gyümölcs | kiszerelés | Szülő | Fagyasztott áruk | egyedi | csoportos |
+| Fagyasztott áruk → Fagyasztott desszert | márka | Szülő | Fagyasztott áruk | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott gyümölcs | márka | Szülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | alap | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | forma | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | gyümölcs | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | jelleg | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | márka | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Bogyós gyümölcs | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | alap | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | forma | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | gyümölcs | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | jelleg | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | márka | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Csonthéjas gyümölcs | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | alap | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | forma | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | jelleg | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | márka | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egyéb fagyasztott gyümölcs | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | alap | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | darabolt | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | forma | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | gyümölcs | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | jelleg | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | márka | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Egzotikus gyümölcs | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | márka | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Eper | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | alap | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | forma | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | gyümölcs | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | jelleg | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | márka | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcskeverék | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | alap | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | forma | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | jelleg | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | márka | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Gyümölcsleves-alap | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | márka | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott gyümölcs → Áfonya | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott gyümölcs | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru | márka | Szülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | forma | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egyéb fagyasztott hal | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész hal | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | forma | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Hal törzs / darab | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | forma | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halfilé, halkocka | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | forma | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | MSC / fenntartható halászat | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | panírozott | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halrudacska | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé sűrítmény | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | forma | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | panírozott | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halétel | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | forma | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Pangasiusfilé | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | forma | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | glazúrozott | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Egész / darabolt hal | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Halászlé, lé, sűrítmény | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | forma | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | MSC / fenntartható halászat | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | panírozott | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott halszelet | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Panírozott hal | íz | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | előkészítés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | forma | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | glazúrozott | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | panírozott | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Rák, garnéla | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Surimi | íz | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | előkészítés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | forma | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | glazúrozott | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | halfajta | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | panírozott | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | szósz | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | márka | Szülő | Fagyasztott áruk → Fagyasztott hal, tengeri áru | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hal, tengeri áru → Tenger gyümölcsei keverék | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi | kiszerelés | Szülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi | márka | Szülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | forma | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | gluténmentes | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | márka | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Csirke nuggets | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | forma | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | húsfajta | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | jelleg | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | márka | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | töltelék | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Darált hús, fasírt, húsgolyó | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | forma | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | húsfajta | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | jelleg | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | márka | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott baromfi (egész, részek) | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | forma | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | húsfajta | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | márka | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Fagyasztott sertés, marha | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | márka | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Húspogácsa, hamburgerhús | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | forma | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | gluténmentes | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | húsfajta | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | jelleg | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | laktózmentes | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | márka | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott baromfi (nuggets, csíkok) | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | márka | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkefalat | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | márka | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott csirkemell | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | forma | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | húsfajta | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | jelleg | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | márka | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Panírozott sertés, marha | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | márka | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Rántott csirkemell | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | húsfajta | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | márka | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott hús, baromfi → Töltött panírozott hús | töltelék | Szülő | Fagyasztott áruk → Fagyasztott hús, baromfi | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | kiszerelés | Szülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | márka | Szülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | jelleg | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Egytálétel, köret | étel / forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Gluténmentes pizza | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Húsos készétel | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leveles tésztás készétel | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | jelleg | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Leves | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | jelleg | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Levesbetét | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | feltét / ízesítés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | gluténmentes | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | jelleg | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | étel / forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizza | íz | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | gluténmentes | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | jelleg | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | étel / forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Pizzakenyér, baguette | íz | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | jelleg | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | étel / forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Snack, előétel | íz | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Szendvicsalap | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | töltelék / ízesítés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tavaszi tekercs | étel / forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | feltét / ízesítés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Tésztaétel, lasagne | étel / forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | töltelék / ízesítés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Töltött, rakott étel | étel / forma | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus / húsmentes készétel | íz | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegetáriánus nuggets, burger | íz | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán burger | íz | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Vegán pizza | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | márka | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel → Zöldséges gabonaköret | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott készétel, pizza, egytálétel | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) | kiszerelés | Szülő | Fagyasztott áruk | egyedi | csoportos |
+| Fagyasztott áruk → Fagyasztott hús | márka | Szülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | forma | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | gyorsfagyasztott | Szülő | Fagyasztott áruk → Fagyasztott hús | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | hús típusa | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | húsfajta | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | jelleg | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | készre sütött | Szülő | Fagyasztott áruk → Fagyasztott hús | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | márka | Szülő | Fagyasztott áruk → Fagyasztott hús | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | töltelék | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | állag | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | állapot | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Darált hús, fasírt, húsgolyó | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | forma | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | húsfajta | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | jelleg | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | márka | Szülő | Fagyasztott áruk → Fagyasztott hús | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | íz | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Egész / darabolt nyers hús | ízesítés / panír | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | márka | Szülő | Fagyasztott áruk → Fagyasztott hús | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hús → Húspogácsa | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | márka | Szülő | Fagyasztott áruk → Fagyasztott hús | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott hús → Panírozott / töltött / pácolt hús | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott hús | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott készételek és zöldséges ételek | márka | Szülő | Fagyasztott áruk | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | márka | Szülő | Fagyasztott áruk | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | alapanyag | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott egyéb | forma | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
@@ -1870,334 +1592,50 @@ A főkategória nevére kattintva a találataihoz ugorhatsz.
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | alap | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | alapanyag | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | forma | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | gyorsfagyasztott | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | jelleg | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | márka | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
+| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | íz | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott sajt | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | alap | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | alapanyag | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | forma | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | jelleg | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | márka | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
 | Fagyasztott áruk → Fagyasztott panírozott (nem hús) → Rántott zöldség, gomba | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott panírozott (nem hús) | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert | kiszerelés | Szülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert | márka | Szülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | desszert típusa | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | márka | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert | íz | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | desszert típusa | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | forma | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | gluténmentes | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | jelleg | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | laktózmentes | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | márka | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | töltelék / íz | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott desszert, torta | íz | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | forma | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | gluténmentes | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | jelleg | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | márka | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Fagyasztott péksütemény | íz | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | forma | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | gluténmentes | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | jelleg | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | márka | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Gombóc, derelye, nudli | íz | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | márka | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | forma | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | gluténmentes | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | jelleg | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | márka | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Leveles tészta, pizzatészta | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | desszert típusa | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | forma | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | márka | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Réteslap, rétes | töltelék / íz | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | márka | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott tészta, desszert → Töltött gombóc | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott tészta, desszert | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség | kiszerelés | Szülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség | márka | Szülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Bab | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Brokkoli | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Burgonyagerezd | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Csemegekukorica | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | alap | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | jelleg | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Fagyasztott fűszernövény | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | alap | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | jelleg | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Franciasaláta-keverék | zöldség | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | alap | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | jelleg | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Gomba | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | zöldség | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Gyalult tök | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | alap | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | jelleg | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | vágás / forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | zöldség | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hasábburgonya, burgonyatermék | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | alap | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | jelleg | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Hüvelyes | zöldség | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Karfiol | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | alap | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | jelleg | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | keverék stílus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | zöldség | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Leveszöldség, wok-zöldség | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | alap | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | jelleg | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | vágás / forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | zöldség | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Mono zöldség (borsó, kukorica, zöldbab) | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | alap | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | jelleg | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | vágás / forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | zöldség | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Spenót, sóska | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Sárgarépa | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Sóska | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Tök | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Vöröshagyma | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldbab | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldborsó | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | alap | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | forma | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | gyorsfagyasztott | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | jelleg | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | keverék stílus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | kiszerelés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | márka | Szülő | Fagyasztott áruk → Fagyasztott zöldség | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | terméktípus | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | zöldség | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Fagyasztott zöldség → Zöldségkeverék | ízesítés | Szülő | Fagyasztott áruk → Fagyasztott zöldség | csoportos | csoportos |
-| Fagyasztott áruk → Jég → Jégkocka | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Jég → Jégkocka | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt | kiszerelés | Szülő | Fagyasztott áruk | egyedi | csoportos |
 | Fagyasztott áruk → Jégkrém, fagylalt | márka | Szülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | forma | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | jelleg | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | kiszerelés | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | márka | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | terméktípus | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | vízijégkrém / sorbet | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Dobozos, családi jégkrém | íz | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | forma | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | jelleg | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | kiszerelés | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | márka | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | terméktípus | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | vízijégkrém / sorbet | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrém multipack, válogatás | íz | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | forma | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | kiszerelés | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | márka | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | terméktípus | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémszendvics | íz | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | forma | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | kiszerelés | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | márka | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | terméktípus | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Jégkrémtorta | íz | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | kiszerelés | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | márka | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | terméktípus | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Mentes fagylalt | íz | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | csökkentett energiatartalmú | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | forma | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | jelleg | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | kiszerelés | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | márka | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | terméktípus | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | vízijégkrém / sorbet | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Pálcikás, tölcséres jégkrém | íz | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | kiszerelés | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | márka | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | terméktípus | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Sorbet | íz | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | forma | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | jelleg | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | kiszerelés | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | márka | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | terméktípus | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes prémium jégkrém | íz | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | kiszerelés | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | kiszerelés | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | márka | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | terméktípus | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
-| Fagyasztott áruk → Jégkrém, fagylalt → Vegán jégkrém | íz | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | bevonat | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | csökkentett energiatartalmú | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | forma | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | jelleg | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | kiszerelés | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | mentes | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | márka | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | protein / magas fehérje | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | terméktípus | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | vízijégkrém / sorbet | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
+| Fagyasztott áruk → Jégkrém, fagylalt → Szelet és pálcikás | íz | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | forma | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | kiszerelés | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | márka | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | terméktípus | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Torta | íz | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | forma | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | jelleg | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | kiszerelés | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | mentes | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | márka | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | egyedi | egyedi |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | márka | Nagyszülő | Fagyasztott áruk | egyedi | egyedi |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | terméktípus | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
+| Fagyasztott áruk → Jégkrém, fagylalt → Tégelyes | íz | Szülő | Fagyasztott áruk → Jégkrém, fagylalt | csoportos | csoportos |
 
 <a id="ag-4"></a>
 
