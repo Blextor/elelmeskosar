@@ -1,6 +1,6 @@
 # Magányos kategóriák és altípusok
 
-A vizsgálat a GPT mappa `kategoriak_2026-06-13.json` és `eredmeny.json` fájljait használta. A fa 1310 csomópontot tartalmaz. A termékszám 51522 mentett bolti termékrekord.
+A vizsgálat a GPT mappa `kategoriak_2026-06-13.json` és `eredmeny.json` fájljait használta. A fa 1313 csomópontot tartalmaz. A termékszám 51522 mentett bolti termékrekord.
 
 **22 kategóriának nincs testvére, 200 ágban egyetlen termék van.** Az első lista a fában szereplő testvéreket számolja. A szülőhöz közvetlenül besorolt termékek külön oszlopban láthatók. A második lista a teljes ág termékszámát vizsgálja. Egy útvonal mindkét listában szerepelhet.
 

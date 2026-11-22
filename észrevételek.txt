@@ -1,23 +1,178 @@
-Fagyasztott főkategória:
-1. Pizzáknak van pizzafeltét és feltét tulajdonság is, legyenek összevonva a feltétben.
-2. A zöldségeknél a zöldségcsoportot meg kell szüntetni, mert felesleges.
-3. Rios Bourbon vanília ízű jégkrém kakaós rétegekkel 650 ml -> torta altípusban van a helye
-4. BALLINO Csokoládés-vaníliás jégkrém -> pálcikások altípusába tartozik
-5. Kaktus citromos jégkrém és epres gyümölcsjégkrém zöld bevonattal 110 ml -> Ez nem tölcséres?
-6. SPAR Citrom ízű jégkrém (40%) és epres szorbé (19%) epres szósszal, belül kakaós -> Ez tölcséres altípusba tartozik
-7. A pálcikás altípus legyen továbbiakban "Szelet és pálcikás", ebbe olvadjon bele a szendvics. Ezen belül legyen pálcikás bool tulajdonság.
-8. Zöldségeknek innentől nyers zöldségek legyenek csak ezen tulajdonságai legyenek:
-    bool: bio, mix/keverék
+Fagyasztott áruk: 
+
+Általánosan:
+ ha valahol nincs márka, akkor az legyen a bolthou kötve
+ minden tulajdonság értéke legyen elemi, ne sajtos-chilis, hanem sajt és chili külön értékek legyenek
+    például a forma esetében is a hullámos és a hasáb az külön van, nem egyben
+
+
+1. A desszerteknek az alábbi tulajdonságai legyenek csak:
     egyedi: márka, megnevezés
-    több választós: zöldség/gomba, forma
-   Azért van erre szükség, mert felesleges tulajdonságok voltak. Illetve a megnevezés alatt legyen, hogy saláta alap, vagy leveszöldség vagy finomfőzelék, de attól a zöldségek/gomba között legyen ott, hogy a borsó mega répa is például.
-9. A fagyasztott tészták továbbiakban tészták és kötretek legyenek és közöttük csak "nyers"/natúran kisütött tészták legyenek és a köretek. A töltött tészták, gombócok, derlye, nudlik, palacsinák, stb. azok legyenek desszertek. Nokedli az maradjon és ide kerüljön át a krokett (kivéve ha töltött) is például.
-10. D'oro Dupla Paradicsomos Pizzaalap 560 g -> pizzákhoz kellene sorolni
-11. Készételek között több halászlá is van, azok kerüljenek a halak alá.
-12. Fevita gyorsfagyasztott rizses zöldségkeverék 450 g -> zöldésgekhez kellenek
-13. A készételek legyen "készételek és zöldséges ételek"
-14. Iglo Fish'n'Rösti gyorsfagyasztott halfilé ropogós burgonyás tésztában 5 db 250 g és társai azok a halak alá tartoznak
-15. Panírozott és töltött ételek közül át kéne emeli a húsgolyókat és fasírtokat a darélthúsos altípusba.
-16. Panírozott / töltött / pácolt hús bővítés kellene, mert van csilis csirkeszárny a nyers húsoknál.
-17. Az aro gyorsfagyasztott baromfis pogácsa 1 kg az nem húspogácsa, hanem panírozott.
-18. A halak esetében panírozott hal legyen a kategória és a panírozott rák, garnéla, surimi azok a saját kategóriájukban legyenek felsorolva.
+    bool: gluténmentes, laktózmentes
+    több választós: íz, töltelék
+
+    Itt a megnevezés adja, hogy nudli, derelye, vagy épp rétes, stb.
+    Ahol a megnevezésben van benne az "íz", mint a sajttorta, ott natúr legyen az íz.
+    A töltelék tulajdonság opcionális (nem jelölednő külön, csak üres lita van a terméknek ha nincs tölteléke).
+
+
+2. A gyümölcsöknek az alábbi tulajdonságai legyenek csak:
+    egyedi: márka 
+    bool: magozott, mix
+    több választós: gyümölcs
+
+
+3. A Egész / darabolt hal-nak az alábbi tulajdonságai legyenek csak:
+    egyedi: márka
+    bool: filé, egész hal, bőr nélkül, ízesített
+    több választós: ízesítés, halfajta
+
+    Az ízesítés natúr vagy üres lista az alapjárat, csak ha ízesített, akkor kell az ízesítést kitölteni.
+
+
+4. A halászlének az alábbi tulajdonságai legyenek csak:
+    egyedi: márka, megnevezés
+    bool: halszeletet tartalmaz
+    több választós: halfajta
+
+    Itt a megnevezés adja, hogy lé, sűrítény vagy alap, vagy ami jön.
+
+
+5. A kagylónak az alábbi tulajdonságai legyenek csak:
+    egyedi: márka
+    bool: héjas
+    több választós: kagylófajta
+
+
+6. A panírozott halnak az alábbi tulajdonságai legyenek csak:
+    egyedi: márka, megnevezés
+    bool: filé, ízesített, gluténmentes
+    több választós: halfajta, íz, panír
+
+    Itt a megnevezés adja, hogy halrudacska, vagy épp burger, stb.
+    A panír az vagy natúr vagy burgonyatsézta például, vagy kukorica pelyhes, stb.
+
+
+7. A rák, garnéla esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka
+    bool: héjas, panírozott
+    több választós: rák/garnéla fajta
+
+
+8. A surimi esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka
+    bool: panírozott
+
+
+9. A tenger gyümölcsei esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka
+    bool: keverék
+    több választós: állat
+
+
+10.A darált hús esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, megnevezés
+    bool: panírozott, töltött
+    több választós: állat, íz / töltelék, panír
+
+
+11.A nyers hús esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, megnevezés
+    bool: csomagolt
+    több választós: állat, testrész
+
+
+12.A húspogácsa esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka
+    több választós: állat
+
+
+13.A Panírozott, töltött esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, megnevezés, forma
+    bool: töltött, gluténmentes, laktózmentes
+    több választós: állat, íz / töltelék
+
+    A forma itt lehet szelet, figura, csíkok stb. de minél kevesebb legyen, ahogy a megnevezésből is.
+
+
+14.A zöldségek esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, megnevezés
+    bool: keverék
+    több választós: zöldség/gomba
+
+    A megnevezés esetében minden nyers, kivéve ami valami célú, mint leveszöldség vagy salátaalap.
+
+
+15.A rántott egyéb esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, megnevezés
+
+
+16.A Rántott sajt esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, megnevezés, forma
+    bool: töltött, gluténmentes, laktózmentes
+    több választós: sajtfajta, íz
+
+
+17.A Rántott zöldség/gomba esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, megnevezés
+    több választós: alapanyag
+
+
+19.A péksütemény esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, megnevezés
+    bool: töltött, gluténmentes, laktózmentes, tejmentes
+    több választós: íz
+
+
+20.A pizza esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, változat, termékcsalád
+    bool: csípős, mini, multipack, gluténmentes
+    több választós: feltét, alap
+
+    Ha a márkán belül van termékcsalád, akkor legyen ott feltüntetve, egyébként "nincs" kell.
+    
+
+21.A tészták, köretek esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, megnevezés
+    bool: köret, gluténmentes
+    több választós: alapanyag, íz, forma
+
+
+22. A jégkockáknak csak márkája legyen.
+
+
+23.A szelet és a pálciás fagylaltok esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka
+    bool: pálcikás, vízalapú, vegán, multipack
+    több választós: íz, bevonat
+
+
+24.A tégelyes fagylaltok esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, forma
+    bool: vízalapú, vegán, multipack, több ízű, laktózmentes, gluténmentes
+    több választós: íz, bevonat
+
+    Forma: tégely, pohár, egyéb
+    Az íz lehet olyan, hogy rákóczi túrós, meg simán eper is.
+
+
+25.A torta esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, forma
+    bool:
+    több választós: íz
+
+    Forma: téglatest, kerek, egyéb
+
+
+26.A tölcséres fagylaltok esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka
+    bool: vízalapú, vegán, több ízű, laktózmentes, gluténmentes
+    több választós: íz
+
+
+27.A készételek esetében az alábbi tulajdonságok legyenek csak:
+    egyedi: márka, megnevezés
+    bool: zöldséges, húsos, halas, tésztás, vegán, laktózmentes, gluténmentes
+    több választós: összetevő / íz
+
+    A bool tészás esetben a kenyérféléket is odaveszem.
